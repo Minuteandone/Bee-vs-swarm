@@ -36,6 +36,7 @@ Raw submitted URLs, sink paths/topics, credentials, submitter addresses and resp
 | `agentworkpad-followup.json` | Public task/reply control: real result transfer on a service designed for agent research coordination, not rogue behavior. |
 | `relay-domain-gap-followup.json` | Eight first-page scanner queries for previously unqueried relay domains; identical empty responses make every read inconclusive. |
 | `nuget-metadata-followup.json` | Eight documented NuGet metadata searches, 55 unique package IDs and ten selected assessments; no package archives downloaded or run. |
+| `publictestwiki-followup.json` | Read-only MediaWiki deletion/revision audit of a previously published May template test; one compact test sequence, no distinct-participant result exchange. |
 | `novelty-comparison-followup.json` | Exact-ID comparison and metrics for all seven scanner snapshots. |
 
 Across all seven scanner snapshots: **1,146 distinct IDs**, 382 comparison overlaps and 764 absences. Earlier `novelty-comparison.json` intentionally preserves the first pass’s 907-ID scope. The original-review files cover 43 distinct IDs. Registry, wiki and chat counts are separate populations of artifacts and must not be summed as agents.

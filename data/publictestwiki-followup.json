@@ -1,0 +1,86 @@
+{
+  "collected_at": "2026-10-05T21:06:42Z",
+  "method": "MediaWiki read-only action=query API only; selected deletion logs, one dated Sandbox revision window and selected revision bodies inspected offline",
+  "primary_reads": [
+    {
+      "url": "https://publictestwiki.com/wiki/Main_Page",
+      "http_status": 200,
+      "observed_at": "2026-10-05T21:07:00Z",
+      "body_sha256": "662f72cde77f95dfa6d1f1f0e0a0d7481f94c4a3508c4c659409eb04e96c9cfc",
+      "summary": "The site's own main page identifies it as a public test wiki and describes testing functions"
+    },
+    {
+      "url": "https://publictestwiki.com/w/api.php?action=query&format=json&formatversion=2&list=logevents&letype=delete&letitle=Template%3AXyztest&leprop=title%7Ctype%7Ctimestamp%7Ccomment&lelimit=50",
+      "http_status": 200,
+      "observed_at": "2026-10-05T21:03:00Z",
+      "body_sha256": "572ab3e259531d26752c47763361f2760a584144dbda449a4e59eb002f5ce3e8",
+      "event_at": "2026-05-28T09:37:36Z",
+      "summary": "One deletion record preserves the template's Bulgarian-statistics target family and says there was one contributor"
+    },
+    {
+      "url": "https://publictestwiki.com/w/api.php?action=query&format=json&formatversion=2&list=logevents&letype=delete&letitle=Template%3AXyzproto&leprop=title%7Ctype%7Ctimestamp%7Ccomment&lelimit=50",
+      "http_status": 200,
+      "observed_at": "2026-10-05T21:03:00Z",
+      "body_sha256": "5b6c39921c311d1287be38e21d68e8a06f64e06e1565afe37689b22ce4776849",
+      "event_at": "2026-05-28T09:37:43Z",
+      "summary": "One deletion record preserves a protocol fragment and says there was one contributor"
+    },
+    {
+      "url": "https://publictestwiki.com/w/api.php?action=query&format=json&formatversion=2&prop=revisions&revids=82469&rvprop=ids%7Ctimestamp%7Ccomment%7Ccontent&rvslots=main",
+      "http_status": 200,
+      "observed_at": "2026-10-05T21:03:00Z",
+      "body_sha256": "eaf3947695f9defaa4b19397b4492016a7c294ca146e7cec2d42b6ca84d957c4",
+      "event_at": "2026-05-27T17:19:13Z",
+      "revision_id": 82469,
+      "revision_content_sha256": "0c2a22d59daab97996a1974305f2e96f713483c8394c6891dd07c1093db68814",
+      "summary": "The Sandbox revision adds a bracket/template trial that composes the two later-deleted templates; it contains no visible task result"
+    },
+    {
+      "url": "https://publictestwiki.com/w/api.php?action=query&format=json&formatversion=2&prop=revisions&titles=Sandbox&rvstart=2026-05-27T23%3A59%3A59Z&rvend=2026-05-27T00%3A00%3A00Z&rvlimit=max&rvprop=ids%7Ctimestamp%7Ccomment%7Cuser%7Csha1%7Csize",
+      "http_status": 200,
+      "observed_at": "2026-10-05T21:04:00Z",
+      "body_sha256": "353dfd4eae40f8635d72b69f04a96d645244001f8951d65ec1cd301d8e0286cc",
+      "event_window": {
+        "start": "2026-05-27T01:58:41Z",
+        "end": "2026-05-27T18:02:26Z"
+      },
+      "revision_count": 12,
+      "distinct_public_contributor_labels": 6,
+      "summary": "Bounded Sandbox history for the day; label count is not an agent count and does not show a transfer-and-use chain"
+    },
+    {
+      "url_scope": "Selected content for the 12 revisions in the bounded Sandbox window plus parent revision 82444",
+      "http_status": 200,
+      "observed_at": "2026-10-05T21:05:00Z",
+      "selected_content_response_sha256": "5709159f672909894df47ebebc134a3263ff3eb2ff6c6f89b7c248c3558c4203",
+      "parent_response_sha256": "37d55e4716b185edc2daf85d88956a207f498c73849fbf302dd53bc442e634b6",
+      "summary": "Offline diffs isolate the template composition at revision 82469; the other selected additions do not preserve an exchange using its result"
+    }
+  ],
+  "novelty_check": {
+    "queries": [
+      "exact revision and template names",
+      "exact target-filter identifier",
+      "PublicTestWiki template test"
+    ],
+    "result": "Already described in the public wiki-agent-swarm research archive before this project; not a new episode"
+  },
+  "assessment": {
+    "newly_collected_records": true,
+    "previously_published_episode": true,
+    "suspected_coordination": "The template pair and Sandbox composition belong to one compact test sequence, but no result is visibly transferred to and used by a distinct participant",
+    "verified_participants": false,
+    "task_result_transfer_observed": false,
+    "operator_boundary": "Not established. PublicTestWiki is explicitly a testing venue, and the deletion comments describe completed-test cleanup.",
+    "rogue_intent": "Unestablished",
+    "provider_attribution": "Unestablished; a public network label does not authenticate a model or provider",
+    "ongoing_activity": "Not established; the relevant events are dated 2026-05-27 and 2026-05-28",
+    "novelty": "Excluded as a discovery"
+  },
+  "would_advance": [
+    "A preserved sequence in which a distinguishable originator publishes a task result and another later uses it",
+    "Evidence that the writers were autonomous participants rather than one tester, humans, or copied/replayed material",
+    "An operator or platform statement showing the activity exceeded the intended scope of the test venue"
+  ],
+  "redactions": "Contributor addresses, raw revision bodies, target query values and deletion-comment bodies omitted"
+}

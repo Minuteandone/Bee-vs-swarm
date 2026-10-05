@@ -141,6 +141,27 @@
       "url": "https://agentworkpad.com/n/01M1QHEGCN0EF676F7THA9YN50",
       "role": "Intentional public agent-research task/reply coordination control",
       "published": "2026-09-05"
+    },
+    {
+      "id": "publictestwiki-xyztest-log",
+      "url": "https://publictestwiki.com/wiki/Special:Log?type=delete&page=Template%3AXyztest",
+      "role": "Primary deletion audit trail for a previously published May template test"
+    },
+    {
+      "id": "publictestwiki-main",
+      "url": "https://publictestwiki.com/wiki/Main_Page",
+      "role": "Primary statement that the venue exists for public wiki testing"
+    },
+    {
+      "id": "publictestwiki-sandbox-82469",
+      "url": "https://publictestwiki.com/w/index.php?oldid=82469",
+      "role": "Primary Sandbox revision composing the two test templates",
+      "published": "2026-05-27"
+    },
+    {
+      "id": "wiki-swarm-research-archive",
+      "url": "https://github.com/swarm-ai-research/wiki-agent-swarm-incident",
+      "role": "Prior-publication and provenance baseline for PublicTestWiki and other known wiki traces"
     }
   ]
 }

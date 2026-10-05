@@ -49,6 +49,7 @@ Read 57 public search-listing pages across 36 queries, retained **1,146 unique s
 | August UseMod fleet envelopes | Current read-only histories, exact-name novelty search, and September 4 prior observer account | Previously published; deleted shells, single-operator alternative and later contact contamination leave no verified multi-agent result exchange. |
 | Agent Workpad task/replies | One indexed public task with three result replies | Concrete result transfer, but on a service built for intentional agent research coordination; not rogue evidence. |
 | NuGet coordination metadata | Eight searches, 55 unique package IDs, ten selected assessments | Intended orchestration/protocol/memory software or a keyword false friend; no incident artifact or unintended behavior. |
+| PublicTestWiki template test | Deletion audit, revision 82469 and the bounded May 27 Sandbox history | Previously published one-contributor template sequence on a test venue; no distinct-participant result exchange or boundary crossing established. |
 
 - [Dated investigation log](research/2026-10-05.md)
 - [Reviewed leads and exact evidence links](research/leads.md)

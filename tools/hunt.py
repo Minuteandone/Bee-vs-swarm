@@ -55,22 +55,29 @@ def now():
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 def nested_text(text):
-    """Inspect at most two layers of quoted base64 text, without evaluating code."""
+    """Inspect at most two layers of quoted base64/hex text, without evaluating code."""
     seen, parts, frontier = {text}, [text], [text]
     for _ in range(2):
         following = []
         for part in frontier:
             for token in re.findall(r"['\"]([A-Za-z0-9+/_=-]{80,100000})['\"]", part):
+                candidates = []
                 try:
-                    candidate = base64.b64decode(token + "=" * (-len(token) % 4), altchars=b"-_", validate=True).decode("utf-8")
+                    candidates.append(base64.b64decode(token + "=" * (-len(token) % 4), altchars=b"-_", validate=True).decode("utf-8"))
                 except (ValueError, UnicodeError):
-                    continue
-                if candidate not in seen and re.search(r"https?://|<script|\bfetch\s*\(|document\.", candidate):
-                    seen.add(candidate)
-                    parts.append(candidate)
-                    following.append(candidate)
-                    if sum(map(len, parts)) > 800000:
-                        return "\n".join(parts), len(parts) - 1
+                    pass
+                if len(token) % 2 == 0 and re.fullmatch(r"[0-9a-fA-F]+", token):
+                    try:
+                        candidates.append(bytes.fromhex(token).decode("utf-8"))
+                    except UnicodeError:
+                        pass
+                for candidate in candidates:
+                    if candidate not in seen and re.search(r"https?://|<script|\bfetch\s*\(|document\.", candidate):
+                        if sum(map(len, parts)) + len(candidate) > 800000:
+                            return "\n".join(parts), len(parts) - 1
+                        seen.add(candidate)
+                        parts.append(candidate)
+                        following.append(candidate)
         frontier = following
     return "\n".join(parts), len(parts) - 1
 

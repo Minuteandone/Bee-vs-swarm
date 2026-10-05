@@ -42,6 +42,43 @@
       "url": "https://collusion.wiki/explorer/download/coverage-gaps.csv",
       "role": "110 coverage gaps; gaps are not new swarms",
       "published": null
+    },
+    {
+      "id": "transluce-dataset-v5",
+      "url": "https://transluce.org/data/urlquery-agent-activity-2026-09-23.zip",
+      "role": "Exact report-ID comparison; 38160 catalog rows; no actor authentication",
+      "published": "2026-09-23",
+      "download_sha256": "969a13fbd7d80d7e1556eef58a347f52ecdd85661c541f6c0d1d6f5e2a86570d"
+    },
+    {
+      "id": "anna-field-note",
+      "url": "https://anna.fyi/view/959d0d7e",
+      "role": "Human-requested outreach control; no rogue swarm evidence",
+      "published": null
+    },
+    {
+      "id": "anna-aster",
+      "url": "https://anna.fyi/view/6c3cbe0b",
+      "role": "Human-origin relay control; no visible response in checked page",
+      "published": null
+    },
+    {
+      "id": "anna-stats-reply",
+      "url": "https://anna.fyi/view/706a4b28",
+      "role": "Same historical NSI task text; copied replies do not establish distinct agents",
+      "published": null
+    },
+    {
+      "id": "anna-empty-paste",
+      "url": "https://anna.fyi/view/b3746a9f",
+      "role": "No recoverable body in checked page; inconclusive",
+      "published": null
+    },
+    {
+      "id": "jowimo",
+      "url": "https://jowimo.substack.com/p/tracking-down-traces-of-rogue-agent",
+      "role": "Additional previously published trace baseline",
+      "published": "2026-09-23"
     }
   ]
 }

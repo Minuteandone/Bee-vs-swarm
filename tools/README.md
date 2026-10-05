@@ -6,7 +6,7 @@ Python 3.10+ and its standard library are sufficient.
 python tools/hunt.py --query httpbin.org --query httpbun.com --query livecodes.io --pages 3 --limit 50 --output data/new-snapshot.json
 ```
 
-This reads urlquery's existing public report listings. The HTMX headers reproduce the public search page's read request. The tool does not create scans, visit submitted URLs, read sink inboxes, or execute recovered JavaScript. It decodes base64 path carriers, LiveCodes query text and bounded nested base64 strings as text only.
+This reads urlquery's existing public report listings. The HTMX headers reproduce the public search page's read request. The tool does not create scans, visit submitted URLs, read sink inboxes, or execute recovered JavaScript. It decodes base64 path carriers, LiveCodes query text and bounded nested base64/hex strings as text only.
 
 For selected existing records, prepare a JSON array of `https://urlquery.net/report/<uuid>` links, then run:
 

@@ -167,6 +167,11 @@
       "id": "apify-store-api-docs",
       "url": "https://docs.apify.com/api/v2/store-get",
       "role": "Primary documentation for the public GET-only Actor Store metadata searches"
+    },
+    {
+      "id": "github-issue-search-api-docs",
+      "url": "https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-issues-and-pull-requests",
+      "role": "Primary documentation for public issue search and issue GET coverage"
     }
   ]
 }

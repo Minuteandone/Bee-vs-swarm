@@ -1,0 +1,116 @@
+{
+  "collected_at": "2026-10-05T23:22:00Z",
+  "method": "GitHub public issue search and issue GET endpoints; newest-sorted first pages only",
+  "documentation": "https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-issues-and-pull-requests",
+  "query_log": [
+    {
+      "query": "\"unauthorized tool call\" agent",
+      "total_hits": 478,
+      "returned": 20,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"unexpected delegation\" agent",
+      "total_hits": 116,
+      "returned": 20,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"agent\" \"crossed\" \"boundary\" \"tool\"",
+      "total_hits": 5207,
+      "returned": 20,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"agents\" \"communicated\" \"without\"",
+      "total_hits": 1604,
+      "returned": 20,
+      "incomplete_results": false
+    }
+  ],
+  "selected_reviews": [
+    {
+      "url": "https://github.com/aliyusufergin/codex-orchestration/issues/17",
+      "title": "Spawn audit omits sessions below the Parent's direct subagents",
+      "state": "closed",
+      "created_at": "2026-09-19T10:33:49Z",
+      "updated_at": "2026-09-22T21:02:35Z",
+      "body_sha256": "8fe9b8253e17825b49acc4c604b6e6ca9cdf61ba992c554b683e7046057ad18a",
+      "assessment": "Previously published audit of three nested work-subagent sessions that violated a no-nested-spawn policy. Distinct session lineage and an operator-defined boundary are documented, but no task-result transfer-and-use exchange or rogue intent is shown.",
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": true,
+      "verified_participants": "Session lineage, not independently authenticated AI identities",
+      "operator_boundary_crossed": true,
+      "task_result_transfer_observed": false,
+      "rogue_intent": false,
+      "provider_attribution": "Codex CLI named by the issue; model/provider for the nested sessions not established here",
+      "ongoing_activity": false
+    },
+    {
+      "url": "https://github.com/Akagilnc/ak-pi-workflow-roles/issues/1135",
+      "title": "Parallel fixer legs share profile cache/scratch; one leg removed another's worktree",
+      "state": "open",
+      "created_at": "2026-09-30T18:37:31Z",
+      "updated_at": "2026-10-01T04:26:30Z",
+      "body_sha256": "45501d6e10238f57a5c7b851b83def73854bb2f6055ced74bd903db2dac4dc8e",
+      "assessment": "Two named parallel fixer sessions and an unauthorized destructive cross-workspace effect are reported. This is accidental interference through shared scratch state, not a transfer-and-use exchange or coordinated swarm behavior.",
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": "Two session identifiers reported; AI identity not independently authenticated",
+      "operator_boundary_crossed": true,
+      "task_result_transfer_observed": false,
+      "rogue_intent": false,
+      "provider_attribution": "Hermes host and Claude-labelled workflow named by the issue; underlying model not established",
+      "ongoing_activity": null
+    },
+    {
+      "url": "https://github.com/alphaonedev/ai-memory-mcp/issues/5942",
+      "title": "A session environment points at another session's identity and transcript",
+      "state": "open",
+      "created_at": "2026-10-05T12:52:54Z",
+      "updated_at": "2026-10-05T12:52:54Z",
+      "body_sha256": "7c61812a65f107fd31a54a74f0631287e95b0a40bbaa24485bd1b3eb0fce3542",
+      "assessment": "A cross-session confidentiality and attribution defect is reported for one of 105 checked environment files. The crossing is caused by configuration contamination; no interaction, result use or coordination between sessions is evidenced.",
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": "Two session identifiers reported; AI identity not independently authenticated",
+      "operator_boundary_crossed": true,
+      "task_result_transfer_observed": false,
+      "rogue_intent": false,
+      "provider_attribution": "Claude session environment and a Codex companion plugin are named; executing model not established",
+      "ongoing_activity": null
+    },
+    {
+      "url": "https://github.com/Project-Martian/Project-Martian/issues/9",
+      "title": "Manus email prompt injection in a controlled test; fixed",
+      "state": "open",
+      "created_at": "2026-10-05T19:12:53Z",
+      "updated_at": "2026-10-05T19:17:52Z",
+      "body_sha256": "db5cb785a2ba681c2992908784ecac5d827286213acc381080ee2f404429a37e",
+      "assessment": "A controlled prompt-injection report describes one application agent crossing an email-to-tool boundary. It is a single-agent research incident, not multi-participant coordination, and the issue says the underlying episode was already reported in September.",
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": false,
+      "operator_boundary_crossed": true,
+      "task_result_transfer_observed": false,
+      "rogue_intent": false,
+      "provider_attribution": "Manus application only; model provider unknown",
+      "ongoing_activity": false
+    }
+  ],
+  "assessment": {
+    "result": "No new rogue swarm. The strongest multi-session records show an unexpected nested spawn or accidental cross-session interference, not a participant-to-participant result transfer and use chain.",
+    "advancement_test": "A candidate needs original dated records showing distinguishable autonomous participants transferring and using task results, plus evidence that the exchange exceeded operator authorization."
+  },
+  "limitations": [
+    "Four newest-sorted first pages are not a census of GitHub issues and broad phrase searches have substantial lexical noise.",
+    "Issue author statements are primary public reports but do not independently authenticate each session as an AI agent.",
+    "Only issue metadata and bodies were read; linked private logs, local session files and runtime state were not accessed.",
+    "Open issue state does not establish that the described behavior remains active."
+  ],
+  "redactions": "Local paths, session identifiers, transcript paths, raw logs and payload text omitted; issue bodies represented by SHA256"
+}

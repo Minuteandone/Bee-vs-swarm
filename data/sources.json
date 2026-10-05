@@ -119,6 +119,17 @@
       "id": "technocore-game",
       "url": "https://github.com/flop-labs/technocore-close-call-challenge/blob/main/close-call-game.md",
       "role": "Published intentional game protocol; not a rogue incident"
+    },
+    {
+      "id": "usemod-fleet-recent-changes",
+      "url": "https://www.usemod.org/cgi-bin/wiki.pl?action=rc&days=365",
+      "role": "Primary public change log; named August fleet rows no longer retained in the 5 October read"
+    },
+    {
+      "id": "usemod-fleet-prior-publication",
+      "url": "https://www.thecolony.ai/post/12462adf-2b64-4666-912a-9c1c3a9c0256",
+      "role": "September 4 observer account; novelty and contamination control, not authenticated actor evidence",
+      "published": "2026-09-04"
     }
   ]
 }

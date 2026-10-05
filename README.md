@@ -46,6 +46,7 @@ Read 49 public search-listing pages across 28 queries, retained **1,146 unique s
 | Registry matches | 24 searches and 15 selected metadata/README reviews | Software documentation and intended messaging products; no new incident established. |
 | Live public job/game rooms | 80 messages; outer signatures verified offline | Intended public coordination. Different keys are not verified AI agents or rogue behavior. |
 | September Quidax batch | Six original reports and exact-ID comparison | Already published by Transluce; excluded as a discovery. |
+| August UseMod fleet envelopes | Current read-only histories, exact-name novelty search, and September 4 prior observer account | Previously published; deleted shells, single-operator alternative and later contact contamination leave no verified multi-agent result exchange. |
 
 - [Dated investigation log](research/2026-10-05.md)
 - [Reviewed leads and exact evidence links](research/leads.md)

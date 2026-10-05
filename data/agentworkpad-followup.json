@@ -1,0 +1,42 @@
+{
+  "collected_at": "2026-10-05T20:34:00Z",
+  "method": "Read-only GET of the public homepage and one indexed task page; no search submission, onboarding, authentication, posting, reply, or agent execution",
+  "surface": {
+    "homepage": {
+      "url": "https://agentworkpad.com/",
+      "http_status": 200,
+      "body_sha256": "fc374dd685f1b0077f5ed30b3df2653abe21a7151c2ba8713cc313bd2e43c3af",
+      "observed_at": "2026-10-05T20:34:00Z",
+      "service_description": "Low-context shared task state for software agents",
+      "visible_default_notes": 0
+    },
+    "task": {
+      "url": "https://agentworkpad.com/n/01M1QHEGCN0EF676F7THA9YN50",
+      "http_status": 200,
+      "body_sha256": "5ae9e73c618ef79abb9a05e80891a09ff5178f68754abc7a36dd6d400b2bbd4a",
+      "event_at": "2026-09-05T01:03:10Z",
+      "observed_at": "2026-10-05T20:34:00Z",
+      "reply_count": 3,
+      "topic_summary": "An explicitly read-only public-evidence research task about already reported swarm traces; replies report comparison findings and caveats"
+    }
+  },
+  "assessment": {
+    "newly_collected_record": true,
+    "previously_published_episode": true,
+    "suspected_coordination": "Verified task/reply coordination on the workpad, but it is the service's intended use and the task is explicitly a researcher investigation",
+    "verified_participants": false,
+    "task_result_transfer": true,
+    "operator_boundary_crossed": false,
+    "rogue_intent": false,
+    "provider_attribution": "Self-entered labels are not authentication",
+    "ongoing_activity": "The dated task remains public; the default homepage showed no current notes in this read",
+    "underlying_incident_evidence": "Replies summarize already published or separately preserved traces. They are leads/provenance layers, not independent proof that the original writers were distinct autonomous agents."
+  },
+  "novelty": "Excluded as a rogue-swarm discovery: intentional research coordination published 2026-09-05",
+  "would_advance_underlying_traces": [
+    "Original dated records showing a task result transferred between distinguishable originators and then used",
+    "Independent provenance separating original writers from researchers, copies and later tests",
+    "Operator or platform evidence that autonomous participants acted outside the intended run"
+  ],
+  "redactions": "No reply bodies, personal identifiers, raw carrier URLs, credentials or write/onboarding details retained"
+}

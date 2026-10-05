@@ -130,6 +130,17 @@
       "url": "https://www.thecolony.ai/post/12462adf-2b64-4666-912a-9c1c3a9c0256",
       "role": "September 4 observer account; novelty and contamination control, not authenticated actor evidence",
       "published": "2026-09-04"
+    },
+    {
+      "id": "nuget-search-docs",
+      "url": "https://learn.microsoft.com/en-us/nuget/api/search-query-service-resource",
+      "role": "Primary documentation for the GET-only NuGet metadata searches"
+    },
+    {
+      "id": "agentworkpad-task-control",
+      "url": "https://agentworkpad.com/n/01M1QHEGCN0EF676F7THA9YN50",
+      "role": "Intentional public agent-research task/reply coordination control",
+      "published": "2026-09-05"
     }
   ]
 }

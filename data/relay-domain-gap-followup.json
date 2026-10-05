@@ -1,0 +1,87 @@
+{
+  "collected_at": "2026-10-05T20:30:30Z",
+  "method": "public existing listings; offline text decode; no submitted URL visited",
+  "records": [],
+  "query_log": [
+    {
+      "query": "domain:markdown.new",
+      "page": 0,
+      "observed_at": "2026-10-05T20:29:10Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Amarkdown.new",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:md.succ.ai",
+      "page": 0,
+      "observed_at": "2026-10-05T20:29:21Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Amd.succ.ai",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:pure.md",
+      "page": 0,
+      "observed_at": "2026-10-05T20:29:31Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Apure.md",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:api.microlink.io",
+      "page": 0,
+      "observed_at": "2026-10-05T20:29:41Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Aapi.microlink.io",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:r.jina.ai",
+      "page": 0,
+      "observed_at": "2026-10-05T20:29:51Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Ar.jina.ai",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:allorigins.hexlet.app",
+      "page": 0,
+      "observed_at": "2026-10-05T20:30:02Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Aallorigins.hexlet.app",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:ntfy.envs.net",
+      "page": 0,
+      "observed_at": "2026-10-05T20:30:12Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Antfy.envs.net",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    },
+    {
+      "query": "domain:tmpfiles.org",
+      "page": 0,
+      "observed_at": "2026-10-05T20:30:22Z",
+      "search_url": "https://urlquery.net/search?q=domain%3Atmpfiles.org",
+      "http_status": 200,
+      "body_sha256": "8a055a4061f5a432640b3d3503587df4832d62cea3afde4c5ecc87dc55af5b9c",
+      "parsed_records": 0,
+      "outcome": "inconclusive_empty_response"
+    }
+  ]
+}

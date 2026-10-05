@@ -33,6 +33,9 @@ Raw submitted URLs, sink paths/topics, credentials, submitter addresses and resp
 | `public-service-followup.json` | Public service listing/contract and a wiki recent-change read. |
 | `public-room-followup.json` | Four 20-message public-room samples, signature checks and hashed job-reference correlations. No message bodies or signing keys. |
 | `usemod-fleet-followup.json` | Read-only follow-up on the previously published August 30 UseMod fleet-envelope burst; surviving histories are shells and later activity is contaminated by public discussion/contact. |
+| `agentworkpad-followup.json` | Public task/reply control: real result transfer on a service designed for agent research coordination, not rogue behavior. |
+| `relay-domain-gap-followup.json` | Eight first-page scanner queries for previously unqueried relay domains; identical empty responses make every read inconclusive. |
+| `nuget-metadata-followup.json` | Eight documented NuGet metadata searches, 55 unique package IDs and ten selected assessments; no package archives downloaded or run. |
 | `novelty-comparison-followup.json` | Exact-ID comparison and metrics for all seven scanner snapshots. |
 
 Across all seven scanner snapshots: **1,146 distinct IDs**, 382 comparison overlaps and 764 absences. Earlier `novelty-comparison.json` intentionally preserves the first pass’s 907-ID scope. The original-review files cover 43 distinct IDs. Registry, wiki and chat counts are separate populations of artifacts and must not be summed as agents.

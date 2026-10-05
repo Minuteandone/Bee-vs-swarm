@@ -1,0 +1,590 @@
+{
+  "collected_at": "2026-10-05T20:32:22Z",
+  "method": "NuGet V3 SearchQueryService metadata via documented GET only; no package download, install, import, or execution",
+  "documentation": "https://learn.microsoft.com/en-us/nuget/api/search-query-service-resource",
+  "query_log": [
+    {
+      "query": "agent mailbox",
+      "observed_at": "2026-10-05T20:31:00Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "1a09aadcf5877059e1ffe6d62d509bd9baed2c3ceaea8c63ba163bff8cb2b773",
+      "total_hits": 2,
+      "returned": 2
+    },
+    {
+      "query": "agent protocol",
+      "observed_at": "2026-10-05T20:31:00Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "c198a269592bf5088c0b7c6fb2be06bde84b09d43fd8430e05c4b559f92a1e0a",
+      "total_hits": 235,
+      "returned": 20
+    },
+    {
+      "query": "agent relay",
+      "observed_at": "2026-10-05T20:31:06Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "5a0c1a97c7d777a37fea4caacb98f5cb9d30884e133f168335be1dcd8a138886",
+      "total_hits": 5,
+      "returned": 5
+    },
+    {
+      "query": "agent rendezvous",
+      "observed_at": "2026-10-05T20:31:02Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "42f446a3946301c25daec0e4a3ce482175a66b6100554c8ce9a733621db6315b",
+      "total_hits": 0,
+      "returned": 0
+    },
+    {
+      "query": "agent swarm",
+      "observed_at": "2026-10-05T20:30:28Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "fb547203733ae4e8aa9ebf514224c6b215647583f58bb2dbd26d9185ce412d68",
+      "total_hits": 5,
+      "returned": 5
+    },
+    {
+      "query": "multi agent coordination",
+      "observed_at": "2026-10-05T20:30:58Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "159fecdf317996ddc3c0e5fbfa21297bd6f627429f63f2876719154525ee0dd7",
+      "total_hits": 4,
+      "returned": 4
+    },
+    {
+      "query": "shared memory agent",
+      "observed_at": "2026-10-05T20:31:02Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "06c2f62ce6ebc6ed228bc81aa4005c9a1457282f4b3bff8cdd629c2f1df9404f",
+      "total_hits": 18,
+      "returned": 18
+    },
+    {
+      "query": "task result agent",
+      "observed_at": "2026-10-05T20:31:00Z",
+      "endpoint": "https://azuresearch-usnc.nuget.org/query",
+      "http_status": 200,
+      "body_sha256": "dcb3adcd557586ce297e63f2b6f56936768129cc59b84e1fb7010934d5bfec50",
+      "total_hits": 1,
+      "returned": 1
+    }
+  ],
+  "unique_package_ids": 55,
+  "records": [
+    {
+      "package_id": "A2A",
+      "latest_version": "1.0.0-preview2",
+      "description_sha256": "2fec9817106d74574d25f2fc6b966c40b9589c34adcddea97d688a07331f84ce",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "A2A.AspNetCore",
+      "latest_version": "1.0.0-preview2",
+      "description_sha256": "227b76551ec5457659f556195083a1233418f2ae576211f50f6ef07ac3967f83",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "A2A.V0_3",
+      "latest_version": "1.0.0-preview2",
+      "description_sha256": "7540ad738c7638ea515141e5066ff07ae8e978a40d13c8b88d57989ba13c4e76",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AgentCircuits.A2A",
+      "latest_version": "0.7.134",
+      "description_sha256": "cc6e0daf61e5132677fbe2c816adfaa6511fb356709d04c111d149cd5fcd41e2",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AgentClientProtocol",
+      "latest_version": "0.1.5",
+      "description_sha256": "58984fc06faaba9b670e8f03185db43e5afb86148c164d99349da6f3c663821a",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AgentCore.AspNetCore",
+      "latest_version": "0.7.1",
+      "description_sha256": "b76b578c0b1275453f8a30432afbab47da3c1cb62454db32e7934e36d04362f5",
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "package_id": "AgentFrameworkToolkit.Tools.ModelContextProtocol",
+      "latest_version": "1.23.2",
+      "description_sha256": "e3048628bb245dd8431ba1f6f5441840b59ffd999e4b09bc5705ee14ce2bd5f9",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AGUI.Abstractions",
+      "latest_version": "1.0.0",
+      "description_sha256": "7ace1620c7457443a34f28ea1c572efdbe09847847a1a5dabe4caf37682b2cd1",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AGUI.Client",
+      "latest_version": "1.0.0",
+      "description_sha256": "03b22f8a4282779928a05f13e17a34efcd206e326a12bcd52119e02da675fcd1",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AGUI.Formatting",
+      "latest_version": "1.0.0",
+      "description_sha256": "da71501484298bd4345127cfb54e9c1fb40a96064753e6f82c1e3f2dc055405d",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "AGUI.Server",
+      "latest_version": "1.0.0",
+      "description_sha256": "7d54915f1eb9ae921c643a5ec6a1f3f4b77d8632e382d63c2772d46de9d33dd0",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon.linux-arm64",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon.linux-musl-x64",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon.linux-x64",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon.osx-arm64",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon.win-arm64",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ai-raccoon.win-x64",
+      "latest_version": "1.57.0",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "AIGuiders.Cdp.Core",
+      "latest_version": "0.4.22",
+      "description_sha256": "2e5c321eb769d89db0392873c2edd5e6ffd90b21557e3e91f72a7f016a41c5dd",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "Air.Cloud.Modules.ReverseTunnel",
+      "latest_version": "10.26.9.1",
+      "description_sha256": "e327bdd71c688fd1adade47a7dc4bdcffbda4e4801475c3bf86e4d41c4c7dc98",
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon.linux-arm64",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon.linux-musl-x64",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon.linux-x64",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon.osx-arm64",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon.win-arm64",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "arasz.ai-raccoon.win-x64",
+      "latest_version": "1.0.8",
+      "description_sha256": "b16af38f265279763c629ea40fc4162e000fc523e710cac22d679ea9dadd3c92",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "Ashlar.Abstractions",
+      "latest_version": "0.2.0",
+      "description_sha256": "8f1578b6090400daf89e21dff513852976158ed075b6458b2af30b28650b9f61",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "Ashlar.Orchestration",
+      "latest_version": "0.2.0",
+      "description_sha256": "c7757af4b01914897b9210e03b1e729044a1f51174362b5ada93e1a3b7348e5e",
+      "search_queries": [
+        "multi agent coordination"
+      ]
+    },
+    {
+      "package_id": "Asynkron.Swarm",
+      "latest_version": "1.2.0",
+      "description_sha256": "c1e67f0ec547705196683108992c60ffa3ece4e6d3ec79ea02256fe1ce74509d",
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "package_id": "CircleAI.Domain",
+      "latest_version": "3.6.0",
+      "description_sha256": "435a3eb3c8a06c69f70c075ab1f7582b5e73c6b402d73f6f2f61914e29c39e76",
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "package_id": "CircleAI.Orchestration",
+      "latest_version": "3.6.0",
+      "description_sha256": "74d98e28ab985d6f16a7431f058a825b66575a7e4099282a3c7646df0ee3387d",
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "package_id": "codemap-mcp",
+      "latest_version": "2.10.0",
+      "description_sha256": "36687055d60b126ca4798c973c7630119a2f7f18a5840b87219d04d5357988b0",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "CP.Reactive.Multi.Agent.MCP.Server",
+      "latest_version": "1.0.2",
+      "description_sha256": "ec2f53a22f1632b11c1f8958fbd9bbd89702b53e7a9015e7d1caaa7bb697b454",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Delibera.Core",
+      "latest_version": "10.3.0",
+      "description_sha256": "2491c1668cf88b3635bc2c89df97bcf4d2ec679446ea91f834ab36b82e341bb2",
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "package_id": "Dominatus.GodotConn",
+      "latest_version": "0.4.0",
+      "description_sha256": "b9df4491d97dc99ee3d88d542ad1cd200cb24dc6e9e58994f57a81732a28ed47",
+      "search_queries": [
+        "agent mailbox"
+      ]
+    },
+    {
+      "package_id": "dotacp.protocol",
+      "latest_version": "2026.7.19",
+      "description_sha256": "dff680d80e3db797bab9ce27794f15d3dcccf424e8208482065ffee4638ee71c",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Fuaran.Core.Lease",
+      "latest_version": "0.29.0",
+      "description_sha256": "84885e085e2be5359089575874bfc6e5dfa56e4f4f2501800a96348648eed869",
+      "search_queries": [
+        "multi agent coordination"
+      ]
+    },
+    {
+      "package_id": "GenericAgents.Orchestration",
+      "latest_version": "1.2.0",
+      "description_sha256": "16ce76eee76edb9116d74b610373e465eb69a214389e114e180853f3985b707b",
+      "search_queries": [
+        "multi agent coordination"
+      ]
+    },
+    {
+      "package_id": "IronHive.Host.Protocol",
+      "latest_version": "0.47.0",
+      "description_sha256": "368c743b7bba23f7a0aed5c56d28dbb46ced837c023ee81427c07d38a42cc661",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Microsoft.AgentGovernance.Extensions.ModelContextProtocol",
+      "latest_version": "5.0.0",
+      "description_sha256": "c60f2b19ef22d9e1bbe1f6e813275c93d7f3d0c2e2e002630f2cf45a1a3c350a",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Microsoft.Agents.AI.Workflows.Declarative.Mcp",
+      "latest_version": "1.23.0",
+      "description_sha256": "2eaf2c777b9ef5f6107133b8b49a2c0cc33bd1e54dc8a12f140edc6e2b534639",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Monarchic.AgentProtocol",
+      "latest_version": "0.1.17",
+      "description_sha256": "a8766697d8b52b205679b261057726f1feea15169bbbc240f8dab254b6413138",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "MTConnect.NET-AgentModule-HttpAdapter",
+      "latest_version": "6.9.0.2",
+      "description_sha256": "e403f5a40148ea63026b1ee9007456f61cc133ef8164748640a161317b9cba67",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "MTConnect.NET-AgentModule-HttpServer",
+      "latest_version": "6.9.0.2",
+      "description_sha256": "ed848a1dfc6f826f3c47eea48ae9e5813535d001bd104a0af218801a0b81aab7",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "MTConnect.NET-AgentModule-MqttRelay",
+      "latest_version": "6.9.0.2",
+      "description_sha256": "41d431b52ab60300051d381fa5796c0f0d7bbf6e43a8eb372c5f1227aaf151a5",
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "package_id": "MTConnect.NET-AgentModule-ShdrAdapter",
+      "latest_version": "6.9.0.2",
+      "description_sha256": "dcc8991f9c48a774e64d99a51ad8f3d00c16bfca019c5e5162c646bebb193bfa",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Proxeno.Keryx.Ice",
+      "latest_version": "0.4.0",
+      "description_sha256": "4cf0d768f88e74251dc3c32218c71defbc4d2bc4ef659693df01cbcd136134a2",
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "package_id": "Shiny.Net.HttpServer.Tunnels",
+      "latest_version": "2.0.1",
+      "description_sha256": "2b322db5de464d5948085f388993b3764aea2f6c15a36d718f0a4c82ffe8cea6",
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "package_id": "SigmaOrigo.Diagnostics.Agent.Protocol",
+      "latest_version": "1.7.1",
+      "description_sha256": "85ba4fb2b010b5a80a4fce5e9660ecdf0c7e9b1a64d877c144f4051de2aed384",
+      "search_queries": [
+        "agent protocol"
+      ]
+    },
+    {
+      "package_id": "Simplee.Intelligence.Distributed",
+      "latest_version": "1.0.2",
+      "description_sha256": "fb66fe4ec266c3b0cf073ffa02e986ae584306bf0874a2768843961f30cfd965",
+      "search_queries": [
+        "agent mailbox"
+      ]
+    },
+    {
+      "package_id": "SpawnDev.RTC.Server",
+      "latest_version": "2.3.0",
+      "description_sha256": "484749b55714e2f2ae8b219f0b3109b201d336a6a2a64dd609c84023b6383b89",
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "package_id": "UtilityAi",
+      "latest_version": "1.6.5",
+      "description_sha256": "82f57a998b5e5cc0e3ef05fba33d406eca627fe39da51a08db6c9d987cce5751",
+      "search_queries": [
+        "multi agent coordination"
+      ]
+    },
+    {
+      "package_id": "Webority.CsCheck",
+      "latest_version": "0.2.1",
+      "description_sha256": "736c2a80cf9c52a4fd1298a9421b695ca8897dd7f44cff26f044c242f6c41b46",
+      "search_queries": [
+        "shared memory agent"
+      ]
+    },
+    {
+      "package_id": "ZeroAgent.Core",
+      "latest_version": "1.4.1",
+      "description_sha256": "e19e0d0d00e57817f2d4c6924ee5a0e547091669346e3a5e9a7ec0ba6ce43cb6",
+      "search_queries": [
+        "agent swarm"
+      ]
+    }
+  ],
+  "selected_reviews": [
+    {
+      "package_id": "Asynkron.Swarm",
+      "assessment": "Advertised multi-agent coding orchestrator; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "CircleAI.Orchestration",
+      "assessment": "Advertised host-side agent-swarm orchestration; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "Ashlar.Orchestration",
+      "assessment": "Advertised multi-agent orchestration library; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "GenericAgents.Orchestration",
+      "assessment": "Advertised multi-agent workflow engine; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "CP.Reactive.Multi.Agent.MCP.Server",
+      "assessment": "Advertised multi-agent MCP server; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "Delibera.Core",
+      "assessment": "Advertised structured AI-deliberation framework; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "AgentCircuits.A2A",
+      "assessment": "Advertised A2A protocol integration; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "A2A",
+      "assessment": "Advertised Agent2Agent protocol SDK; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "ai-raccoon",
+      "assessment": "Advertised project-scoped agent memory server; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "package_id": "Simplee.Intelligence.Distributed",
+      "assessment": "Distributed-algorithm library using F# mailbox processors; keyword false friend.",
+      "rogue_evidence": false
+    }
+  ],
+  "assessment": {
+    "newly_collected_records": true,
+    "previously_published_episodes": false,
+    "suspected_coordination": false,
+    "verified_participants": false,
+    "rogue_intent": false,
+    "provider_attribution": null,
+    "ongoing_activity": null,
+    "result": "Package metadata describes software capabilities or non-AI false friends; it does not document an unintended incident or concrete transfer-and-use exchange."
+  },
+  "limitations": [
+    "Search matching is server-defined and the eight first-page queries are not a registry census.",
+    "Package IDs and descriptions are publisher claims, not proof that software ran or that distinct agents participated.",
+    "Only metadata was read; package archives, source trees and historical versions were not inspected."
+  ],
+  "redactions": "Descriptions represented by SHA256; authors, owners, emails and package archives omitted"
+}

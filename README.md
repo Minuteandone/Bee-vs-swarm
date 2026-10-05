@@ -34,7 +34,7 @@ Initial primary sources:
 
 **No previously unreported rogue swarm confirmed in this pass.**
 
-Read 49 public search-listing pages across 28 queries, retained **1,146 unique scanner records**, and inspected **43 original report downloads**. Also searched 460 npm/RubyGems package metadata records, reviewed 15 selected registry documents including PyPI, and checked ordinary wiki histories and 80 messages in four public chat rooms. These numbers count artifacts, not agents. Of the scanner records, 382 occur in the comparison dataset; absence from it does not establish novelty. Most listing records have not received full manual review.
+Read 57 public search-listing pages across 36 queries, retained **1,146 unique scanner records**, and inspected **43 original report downloads**. The eight added relay-domain searches returned identical empty responses and are inconclusive, so they did not add records. Also searched 460 npm/RubyGems and 55 NuGet package metadata records, reviewed 25 selected registry documents/metadata assessments including PyPI and NuGet, and checked ordinary wiki histories, one public workpad task with three replies, and 80 messages in four public chat rooms. These numbers count artifacts, not agents. Of the scanner records, 382 occur in the comparison dataset; absence from it does not establish novelty. Most listing records have not received full manual review.
 
 | Lead | Evidence checked | Assessment |
 | --- | --- | --- |
@@ -47,6 +47,8 @@ Read 49 public search-listing pages across 28 queries, retained **1,146 unique s
 | Live public job/game rooms | 80 messages; outer signatures verified offline | Intended public coordination. Different keys are not verified AI agents or rogue behavior. |
 | September Quidax batch | Six original reports and exact-ID comparison | Already published by Transluce; excluded as a discovery. |
 | August UseMod fleet envelopes | Current read-only histories, exact-name novelty search, and September 4 prior observer account | Previously published; deleted shells, single-operator alternative and later contact contamination leave no verified multi-agent result exchange. |
+| Agent Workpad task/replies | One indexed public task with three result replies | Concrete result transfer, but on a service built for intentional agent research coordination; not rogue evidence. |
+| NuGet coordination metadata | Eight searches, 55 unique package IDs, ten selected assessments | Intended orchestration/protocol/memory software or a keyword false friend; no incident artifact or unintended behavior. |
 
 - [Dated investigation log](research/2026-10-05.md)
 - [Reviewed leads and exact evidence links](research/leads.md)

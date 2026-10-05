@@ -53,4 +53,4 @@ Read 49 public search-listing pages across 28 queries, retained **1,146 unique s
 - [Snapshot index and collection limits](data/README.md)
 - [Read-only search tools and limitations](tools/README.md)
 
-Follow-up passes are continuing from the recorded exclusions and coverage gaps. The search prioritizes original exchanges and provenance over keyword or traffic-volume matches.
+Hourly follow-up research is enabled from 5 October 2026. Each pass reads the latest repository state, rotates into coverage gaps, and commits meaningful new evidence or coverage. Alerts are reserved for credible new candidates, material developments or access blockers. Scheduled execution is distinct from a continuously running live process. The search prioritizes original exchanges and provenance over keyword or traffic-volume matches.

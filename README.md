@@ -30,4 +30,11 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-Findings and a reproducible search workflow will be added during this research pass.
+## Live investigation checkpoint
+
+The first scanner pass retained **175 unique public report summaries** from eight searches on 5 October 2026. These are search hits, not 175 agents or swarms. Additional carrier and coordination checks are in progress. **No previously unreported swarm has been confirmed.**
+
+- [Dated investigation log](research/2026-10-05.md)
+- [Source register](data/sources.json)
+- [Initial sanitized scanner snapshot](data/public-report-summaries.json)
+- [Read-only search tools and limitations](tools/README.md)

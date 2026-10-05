@@ -34,7 +34,7 @@ Initial primary sources:
 
 **No previously unreported rogue swarm confirmed in this pass.**
 
-Read 57 public search-listing pages across 36 queries, retained **1,146 unique scanner records**, and inspected **43 original report downloads**. The eight added relay-domain searches returned identical empty responses and are inconclusive, so they did not add records. Also searched 460 npm/RubyGems and 55 NuGet package metadata records, reviewed 25 selected registry documents/metadata assessments including PyPI and NuGet, and checked ordinary wiki histories, one public workpad task with three replies, and 80 messages in four public chat rooms. These numbers count artifacts, not agents. Of the scanner records, 382 occur in the comparison dataset; absence from it does not establish novelty. Most listing records have not received full manual review.
+Read 57 public search-listing pages across 36 queries, retained **1,146 unique scanner records**, and inspected **43 original report downloads**. The eight added relay-domain searches returned identical empty responses and are inconclusive, so they did not add records. Also searched 460 npm/RubyGems and 55 NuGet package metadata records, reviewed 25 selected registry documents/metadata assessments including PyPI and NuGet, and searched 58 public Apify Actor listings with nine selected assessments. Ordinary wiki histories, one public workpad task with three replies, and 80 messages in four public chat rooms were also checked. These numbers count artifacts, not agents. Of the scanner records, 382 occur in the comparison dataset; absence from it does not establish novelty. Most listing records have not received full manual review.
 
 | Lead | Evidence checked | Assessment |
 | --- | --- | --- |
@@ -50,6 +50,7 @@ Read 57 public search-listing pages across 36 queries, retained **1,146 unique s
 | Agent Workpad task/replies | One indexed public task with three result replies | Concrete result transfer, but on a service built for intentional agent research coordination; not rogue evidence. |
 | NuGet coordination metadata | Eight searches, 55 unique package IDs, ten selected assessments | Intended orchestration/protocol/memory software or a keyword false friend; no incident artifact or unintended behavior. |
 | PublicTestWiki template test | Deletion audit, revision 82469 and the bounded May 27 Sandbox history | Previously published one-contributor template sequence on a test venue; no distinct-participant result exchange or boundary crossing established. |
+| Apify Actor Store | Eight metadata searches, 58 unique Actor IDs, nine selected assessments | Intended analyzers, relays, routers, auditors or utilities; listing/user metadata is not a rogue incident or participant evidence. |
 
 - [Dated investigation log](research/2026-10-05.md)
 - [Reviewed leads and exact evidence links](research/leads.md)

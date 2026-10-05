@@ -1,0 +1,991 @@
+{
+  "collected_at": "2026-10-05T21:35:37Z",
+  "method": "Apify Store public GET listing endpoint with responseFormat=agent; default runnable/safety filtering retained; no Actor started and no task input or destination visited",
+  "documentation": "https://docs.apify.com/api/v2/store-get",
+  "query_log": [
+    {
+      "query": "agent mailbox",
+      "observed_at": "2026-10-05T21:34:33Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "8b85ed546ef89d1a7502f264cf837af564fd75fa4b06bc9550a82793631bec37",
+      "total_hits": 2,
+      "returned": 2
+    },
+    {
+      "query": "agent relay",
+      "observed_at": "2026-10-05T21:34:33Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "123c929bf153247a7f7aadc13f3f174c19e5d4aa02c26597b48da012f2631765",
+      "total_hits": 69,
+      "returned": 25
+    },
+    {
+      "query": "agent rendezvous",
+      "observed_at": "2026-10-05T21:34:32Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "ee44c2c90bc5fe474578545baa9e5092c434c284180434e4706d50890e315fd4",
+      "total_hits": 0,
+      "returned": 0
+    },
+    {
+      "query": "agent swarm",
+      "observed_at": "2026-10-05T21:34:34Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "343e19827c78550d268e9ea484c9cc40ab60f682d68a26e080e3d8de8afd8930",
+      "total_hits": 11,
+      "returned": 11
+    },
+    {
+      "query": "agent-to-agent",
+      "observed_at": "2026-10-05T21:34:33Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "10866a86b6cbaf2e57f93556764c2284168ba706282dff499079639f43ce380c",
+      "total_hits": 1,
+      "returned": 1
+    },
+    {
+      "query": "multi-agent coordination",
+      "observed_at": "2026-10-05T21:34:32Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "ee44c2c90bc5fe474578545baa9e5092c434c284180434e4706d50890e315fd4",
+      "total_hits": 0,
+      "returned": 0
+    },
+    {
+      "query": "shared memory agent",
+      "observed_at": "2026-10-05T21:34:33Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "ee44c2c90bc5fe474578545baa9e5092c434c284180434e4706d50890e315fd4",
+      "total_hits": 0,
+      "returned": 0
+    },
+    {
+      "query": "task result agent",
+      "observed_at": "2026-10-05T21:34:33Z",
+      "endpoint": "https://api.apify.com/v2/store",
+      "http_status": 200,
+      "body_sha256": "2ef33e501ea6c11969149ae1f29d54709c7b75285f0a32c8e36638deb0c5fa86",
+      "total_hits": 96,
+      "returned": 25
+    }
+  ],
+  "unique_actor_ids": 58,
+  "records": [
+    {
+      "actor_id": "0qzBgqRjaTNrEkDJH",
+      "name": "immoscout24-scraper",
+      "title": "ImmoScout24 Scraper 💰 $1.00/1K — Germany & Switzerland",
+      "description_sha256": "f9fc6eba8c302a37b37c1da82abbff1550b932e4b41a4db0c504a4c1785d17f7",
+      "categories": [
+        "REAL_ESTATE",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 16,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "37TRZiCGqly9LIEuU",
+      "name": "governmentjobs-scraper",
+      "title": "GovJobs Scraper Fast | Government Jobs | Salaries | US",
+      "description_sha256": "65d1849adb62dc90244561183f8f2b58ce85bea788d24933fd97cfd296493755",
+      "categories": [],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "5erFAMsklQLzc60iR",
+      "name": "immobilienscout24-property-scraper",
+      "title": "ImmobilienScout24 Scraper — Germany Property Data & API",
+      "description_sha256": "b808fba51b1208350804a44b43883b8e344a03bfa5bfcacc2c8f0908ea2c98c3",
+      "categories": [
+        "REAL_ESTATE",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "reported_total_users": 15,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "6QWRXMSdwaNUzUZid",
+      "name": "app-privacy-label-change-intelligence",
+      "title": "App Privacy Label Change Monitor",
+      "description_sha256": "c56c23722fc370663bccd7862bac7c5deef6526ce7307feef93558ee54d37d83",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "7KeQJObJ5eqj6Crm5",
+      "name": "agent-retry-loop-auditor",
+      "title": "Agent Retry Loop Auditor",
+      "description_sha256": "ed87cea3c0e093926e7f28f78b4247bcedd151e955965079710abd21577da3ce",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "ABvQcXm5sOACRRHdb",
+      "name": "immobilienscout24-scraper",
+      "title": "ImmobilienScout24 Scraper",
+      "description_sha256": "95dea38f6d5749afa91d5ce51c0249553a060b96a2ffcf50f702fdc44273f801",
+      "categories": [
+        "REAL_ESTATE",
+        "LEAD_GENERATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "AHHYvl3bQQXIOwjMH",
+      "name": "airline-route-capacity-change-intelligence",
+      "title": "Airline Route Capacity Change Monitor",
+      "description_sha256": "500a6d388e32602aa612681f0780431bac2f13ae850a26b4cac7776645f9e77c",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "AHmB7i5ZZqoNCfxnH",
+      "name": "form-d-fundraising-velocity-intelligence",
+      "title": "Form D Fundraising Velocity Analyzer",
+      "description_sha256": "fc7be069ff23eaae6d3f6d81566546daf94e28aa16a56ec939b910de1ae5d783",
+      "categories": [
+        "BUSINESS",
+        "NEWS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "BKGUeMqIiFcaELH8d",
+      "name": "agent-trace-efficiency-auditor",
+      "title": "Agent Trace Efficiency Auditor",
+      "description_sha256": "b5681ff7ab577c8710b9e429878ccf5b0c6a3640ae083d13a7cb23a611e45edd",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "DbqN1XciH4ultpt79",
+      "name": "ebay-sold-comps-arbitrage-intelligence",
+      "title": "eBay Sold-Comps & Resale Arbitrage Analyzer",
+      "description_sha256": "31fa78f6cea5cf14c8679fc7425a522eba2a0a9dabee58f14476aaa631aec131",
+      "categories": [
+        "ECOMMERCE",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "FKwAaAdmOfkBlORRj",
+      "name": "google-trends-scraper",
+      "title": "Google Trends API & Scraper — pytrends alternative",
+      "description_sha256": "8fe1e7080bbb1b150ab2bd1491a1aaf3641eb9e61674a5762b7d608d5dc6336f",
+      "categories": [
+        "SEO_TOOLS",
+        "MARKETING",
+        "AI"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "GcGWNUqvyBG8cyCKr",
+      "name": "reed-scraper",
+      "title": "Reed.co.uk Scraper - UK Job Listings · $1.5/1K",
+      "description_sha256": "f53768beaddbaf153ad65db9e0ef4b9c5ac9502fecc49eccf0abfbe2e231638a",
+      "categories": [
+        "JOBS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "HSTOlg2W6dmefYbne",
+      "name": "google-trends-api-scraper",
+      "title": "Google Trends Scraper API - Interest Over Time, Related Queries",
+      "description_sha256": "52bd8ad8106edf1c1585adc62d0960650a94390dbdbf792f262a888a2a1aed64",
+      "categories": [
+        "SEO_TOOLS",
+        "MARKETING",
+        "NEWS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "I0BQoryV9ceegdsUE",
+      "name": "mcp-tool-trust-permission-schema-drift-intelligence",
+      "title": "MCP Tool Trust, Permission & Schema Drift Monitor",
+      "description_sha256": "fb7c003b7d1b4cd1f19bf28027dcf09afad60aa661f8565173f064013610eff4",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "LRbwEH4LRuzQHaXWX",
+      "name": "etsy-product-trend-seller-saturation-intelligence",
+      "title": "Etsy Product Trend & Seller Saturation Analyzer",
+      "description_sha256": "412c424d5ef1311bd06a0d265fa59a58c8a4a6e3357e967fc17170ba0277a1bc",
+      "categories": [
+        "ECOMMERCE",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "Mf0uOtTlO95TKh72e",
+      "name": "airbnb-market-saturation-pricing-intelligence",
+      "title": "Airbnb Market Saturation & Pricing Analyzer",
+      "description_sha256": "f194e01675dbbe9592fd016973c6d0bb6df21764b2f3a269b6be91ff5cae6c2c",
+      "categories": [
+        "TRAVEL",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "NUikdjFjcichYZ1ws",
+      "name": "google-trends-scraper",
+      "title": "Google Trends Scraper - Interest Over Time, Region & Queries",
+      "description_sha256": "e9c78397bcf51a954a099621f7d286e1ef7e1b7b8f8dd8750ac01281be2a0918",
+      "categories": [
+        "SEO_TOOLS",
+        "MARKETING",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "NdlbZTaeZs1iQJnUb",
+      "name": "email-verifier-validator",
+      "title": "Email Verifier | 6 Checks per Address, MX + SMTP, No API Key",
+      "description_sha256": "c140a772a0aea28a1df1e0e3221584ea99befd8476c25b66c014a7dc002d0dc3",
+      "categories": [
+        "LEAD_GENERATION",
+        "MCP_SERVERS"
+      ],
+      "reported_total_users": 10,
+      "search_queries": [
+        "agent mailbox"
+      ]
+    },
+    {
+      "actor_id": "NpXJofXbjKLkcfPo7",
+      "name": "sec-earnings-release",
+      "title": "SEC Earnings Release Scraper — Text & Metrics",
+      "description_sha256": "2ab986ef446b959475d4f484425cf92cd9ab9e9ba8faa1415d99fe9de78c3c2f",
+      "categories": [
+        "NEWS",
+        "DEVELOPER_TOOLS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "OZhwWVsxMU3BhCYSU",
+      "name": "arbeitsagentur-jobs-scraper",
+      "title": "Arbeitsagentur Jobs Scraper",
+      "description_sha256": "e0fe563819bae6368a4aa6cfd4d1299358e623ba35d983c64e1993d9b8d82d31",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 3,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "PQfe5cqnojSaWvoAh",
+      "name": "email-auth-scorecard",
+      "title": "Domain Email Auth Scorecard",
+      "description_sha256": "5711246e68e23723158e714b12ec16d91cdf684f139e3d6b85092764604c024c",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "AUTOMATION",
+        "AI"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent mailbox"
+      ]
+    },
+    {
+      "actor_id": "RUdvsV7xAMC1AdBYa",
+      "name": "youtube-content-opportunity-intelligence",
+      "title": "YouTube Content Opportunity Intelligence",
+      "description_sha256": "f83f701eef13419d187af761a29b1350b8db6156b9fa65e96f1ff86f8220d022",
+      "categories": [
+        "SOCIAL_MEDIA",
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "S3AmDbcvuoIrlm2ZJ",
+      "name": "retry-oracle",
+      "title": "Retry Oracle — Deterministic Retry and Spend Decisions",
+      "description_sha256": "403d2b3147c06cc2f35367f99dc18384698e41493422b3109d0997bd1011beee",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "AUTOMATION",
+        "AGENTS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "TCPifcBeT4mYUDkCp",
+      "name": "mcp-hub-gateway",
+      "title": "MCP Server Hub & Gateway: Connect Claude & Cursor",
+      "description_sha256": "acea584591ec80db50ac64152575253de3546c482dc30a59f088e5b971dfcce4",
+      "categories": [
+        "AGENTS",
+        "AI",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "UIxOSWixWYDvDhVkZ",
+      "name": "google-trends-batch",
+      "title": "Google Trends Scraper: interest over time, related queries",
+      "description_sha256": "9fbf69e11f51b0cb26f0e24a117ae0437102ff351bf0a69089908c7e17414bd2",
+      "categories": [
+        "SEO_TOOLS",
+        "AI",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "UZzCsPE4BNtb2Qvmx",
+      "name": "governmentjobs-scraper",
+      "title": "Government Jobs Scraper for GovernmentJobs.com (unofficial)",
+      "description_sha256": "555b73b87013f055fe8ffef867ab27ca7e567bbba10f6e0496195ddaa44a6c4a",
+      "categories": [
+        "JOBS",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "VA2y8ch26ZPTST4eH",
+      "name": "openrouter-relay",
+      "title": "OpenRouter API Relay for Agents",
+      "description_sha256": "c2c2c43e9d1a887eedb0163283709d336b0ba08f26ca10d217b991bf11fa1ac4",
+      "categories": [
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "VtVOJId6i1bBoOGIw",
+      "name": "realtor-ca-data",
+      "title": "Realtor.ca MLS Scraper — Listings, Photos, Data & Agent Details",
+      "description_sha256": "c89e447d80b29a91c86da984865580efd86ce32408417844f1ff236fd21f408e",
+      "categories": [
+        "REAL_ESTATE",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 19,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "VtWGmEBXlmJtnldOw",
+      "name": "multi-agent-network-analyzer",
+      "title": "Multi-Agent Network Analyzer",
+      "description_sha256": "5cbd06c414f5691be456c9469bcfc44d0b22c497e87c78069dac6293cca77ac7",
+      "categories": [
+        "AGENTS",
+        "AI",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "X3hZHeOhTkwa0PHRR",
+      "name": "short-term-rental-regulation-change-intelligence",
+      "title": "Short-Term Rental Regulation Change Monitor",
+      "description_sha256": "fdafc6bc71320805e63546a703af9698abd8e910c4aae7a2e0ea7468a8e30cd7",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "XaiQBJF2u7tqDKHfz",
+      "name": "property-assessment-change-intelligence",
+      "title": "Property Assessment Change Monitor",
+      "description_sha256": "376035f85593e6be14407ea9db4b3facebb6061af26bd18fbb8e067d5dae1bcd",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "XgsvLJz70y7gJb3e8",
+      "name": "immowelt-property-scraper",
+      "title": "Immowelt Scraper — Germany Property Data & API",
+      "description_sha256": "b52b2e155152c1accd5adf1f6a73a913314b895f2b2d9199791a9da7dd512522",
+      "categories": [
+        "REAL_ESTATE",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "reported_total_users": 14,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "XmEcK6gUdYnu4ZtET",
+      "name": "cross-app-review-feature-demand-intelligence",
+      "title": "Cross-App Review & Feature-Demand Analyzer",
+      "description_sha256": "a7ad12faa80b63a762d7f8cff8dcc594c0ca17273ba5ecd076359605ecfd2112",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION",
+        "AI"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "YfHBVvF2r96b4xutI",
+      "name": "google-trends-reliable",
+      "title": "Google Trends Scraper — Interest Over Time & Rising Queries",
+      "description_sha256": "2920cae5834ef5de9ed7f743ae6b43d325a8a35c15e6c78664849c450eec5cde",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS",
+        "SEO_TOOLS"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "bgRAQP0npnfYvbFGe",
+      "name": "saas-vendor-reliability-sla-incident-risk-intelligence",
+      "title": "SaaS Vendor Reliability, SLA & Incident Risk Monitor",
+      "description_sha256": "adaa252884ec5a7632ba8382da12215e72f0fd5f49831e8b1bbcf40809496013",
+      "categories": [
+        "AUTOMATION",
+        "BUSINESS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "c68moZec8TaIOkztC",
+      "name": "robots-sitemap-seo-crawler-audit",
+      "title": "🤖 Robots.txt & Sitemap Directive Crawler & SEO Auditor",
+      "description_sha256": "6b4f00777299433c3439b7bd5aa2edd6e0b326e8e5c3ebc94acbfe446ca88b09",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "MARKETING",
+        "BUSINESS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "cU6I6JV7sowjmJrgB",
+      "name": "immobilienscout24-scraper",
+      "title": "ImmoScout24 ImmobilienScout24 Scraper: Phones, Emails | $1.1/1k",
+      "description_sha256": "3f35517f013d316a96c48fea4ebd117380e5d450adcce3df0febad8de2c94224",
+      "categories": [
+        "REAL_ESTATE",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent swarm"
+      ]
+    },
+    {
+      "actor_id": "d7sYCq4SLTaHydFf6",
+      "name": "relayshield-security-tools",
+      "title": "RelayShield Security Tools (MCP)",
+      "description_sha256": "fe70eebe6a6803da03ee85a3192c40d9e94a63e5f755614b3dbb1eb150e8c6cd",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "INTEGRATIONS",
+        "AI"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "hXcHsaEf1GYeRZPdW",
+      "name": "glassdoor-employer-retention-risk-intelligence",
+      "title": "Glassdoor Employer Reputation & Retention Risk Monitor",
+      "description_sha256": "eb7e7ae53108af703afd5b2739bdeb3264005a766905ece24bc4e830f8ef2467",
+      "categories": [
+        "JOBS",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "iwUkX10IVHPaPu0in",
+      "name": "google-trends-breakout-demand-intelligence",
+      "title": "Google Trends Breakout Demand Analyzer",
+      "description_sha256": "8e0d57a40a468226750c82c7834890c9aae80386bcbfbd8a65f39aa271bfadcd",
+      "categories": [
+        "SEO_TOOLS",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "kAvobr8a7c3lK4xZJ",
+      "name": "multilingual-translation-agent",
+      "title": "Multilingual Translation Agent",
+      "description_sha256": "ad9b322bb813c15ce94f4affb63faf34a9b218b5fb57cdb6c4530f0bb048ec98",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS",
+        "AGENTS"
+      ],
+      "reported_total_users": 3,
+      "search_queries": [
+        "agent-to-agent"
+      ]
+    },
+    {
+      "actor_id": "kVnWpxsyjycHlEdoj",
+      "name": "national-rail-ticket-scraper",
+      "title": "National Rail Train Ticket & Connection Scraper",
+      "description_sha256": "2e207cd92ff8d4fd57c6aed2866869f5326c4351f2bc392c370db0d476ef15f7",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "AGENTS",
+        "TRAVEL"
+      ],
+      "reported_total_users": 10,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "negCd0HzBapwGxr7U",
+      "name": "mcp-toolset-pruner",
+      "title": "MCP Toolset Pruner",
+      "description_sha256": "f32fd1c052df4360df7f18d0691d045c75e597e76a8f060494d6705a647240b8",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "pZU9Tc6d4dkWUdsyZ",
+      "name": "straelo-relay",
+      "title": "STRAELO Domain Intelligence",
+      "description_sha256": "e719299e49a84bff7209238b4c63d8220b16bdc621bbaefa5f8dc823dc9550eb",
+      "categories": [],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "q31WQSvCAJd9rPQ2q",
+      "name": "counterfactual-agent-verifier",
+      "title": "Counterfactual Agent Verifier",
+      "description_sha256": "9e6543aff348adef99adf92df593281b4306c3a5c13423c6c81b6d2450262d6f",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "q65xb6XfnnLf88BEh",
+      "name": "multifamily-rent-concession-drift-intelligence",
+      "title": "Multifamily Rent Concession Drift Monitor",
+      "description_sha256": "6f13eff3029eef6340a9840a14d8f6b0810d37e5343d5316bd385636b3b4a1ac",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "rmycjHKmkZl19lQWH",
+      "name": "job-opportunities-api",
+      "title": "Employer-Direct Job Postings API (Job Opportunities API)",
+      "description_sha256": "3bb7bfe545b6546723f82fc84f188488273fa12d46374c26f77f0dad812acf41",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "sT6eG72iaB6oMM4XP",
+      "name": "robots-txt-checker",
+      "title": "Robots.txt Tester — Is a URL Allowed to Crawl?",
+      "description_sha256": "65973a58c5210683111322af009f35bde385dfa7adef16294a2db318105f1dc1",
+      "categories": [],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "t5tNLtYeX0y2oeM09",
+      "name": "conference-exhibitor-churn-intelligence",
+      "title": "Conference Exhibitor Churn Analyzer",
+      "description_sha256": "aef650607a85b7d89b033168bcf2d61b601ed9c95360a28228eaf9054353f093",
+      "categories": [
+        "BUSINESS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "tuthQiXMfHkAf18Zl",
+      "name": "google-trends-explorer",
+      "title": "Google Trends Explorer — No Login, $0.5/1k",
+      "description_sha256": "34ec1a8d22d57653e9e04ddc0cecbd47f83439e0b88c46d090401bb19f64209a",
+      "categories": [
+        "LEAD_GENERATION",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "w623y4xJRbcNyOXa8",
+      "name": "texas-insurance-license-lookup",
+      "title": "Texas Department of Insurance Agent Lookup",
+      "description_sha256": "e4d0e0dc684a0da0fd345d06fa1e1f203f8bdd96e7d2d0839e0457410129e787",
+      "categories": [
+        "BUSINESS",
+        "LEAD_GENERATION"
+      ],
+      "reported_total_users": 1,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "wZQX61Wol9Lj1VCG1",
+      "name": "contractor-employee-conversion-intelligence",
+      "title": "Contractor-to-Employee Conversion Analyzer",
+      "description_sha256": "420903e7165ba96613248b73250086d1611e14e57a04ed61d8f9cc8009f5bcf3",
+      "categories": [
+        "JOBS",
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "xFvleTX82l8RiUeS2",
+      "name": "google-trends-scraper",
+      "title": "Google Trends Scraper",
+      "description_sha256": "169d8a1fb4d3587140ee30be57a7e94b183ac9713234341483d795a701ab66f0",
+      "categories": [],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "xUYYrCSKxb4X5q1AS",
+      "name": "foreclosure-filing-acceleration-intelligence",
+      "title": "Foreclosure Filing Acceleration Analyzer",
+      "description_sha256": "31e7b904e7323024503319d6afd1886d4edfd5fb1d22b2d5ce85c4170abd91e6",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "xYxFf8W9McJOLhQcf",
+      "name": "property-tax-lien-distress-intelligence",
+      "title": "Property Tax Lien Distress Monitor",
+      "description_sha256": "8d59c38aef360230dca4414cdd3fc375d4f5d1afb4b6d34e10fabd9b9f16320d",
+      "categories": [
+        "BUSINESS",
+        "AUTOMATION"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "yK3JTW1ejydrVVVv9",
+      "name": "robots-policy-auditor",
+      "title": "Robots Policy Auditor",
+      "description_sha256": "222682a69269019c68592412fa2ba7e6433d588fe4ce3d8892ffb95c3cb1de11",
+      "categories": [
+        "SEO_TOOLS"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    },
+    {
+      "actor_id": "zfIgbtcX2mGRJXbA7",
+      "name": "shine-jobs-scraper",
+      "title": "Shine Jobs Scraper & API: Real or Fake Check, Salary",
+      "description_sha256": "30c7bafbde912cf122888bb537147b0a8ffa7d48f536140920aeb1c70747eb04",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AI"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "task result agent"
+      ]
+    },
+    {
+      "actor_id": "zfZ3a1W9xC4Usx6uf",
+      "name": "sj-ticket-scraper",
+      "title": "SJ Train Tickets & Connections Scraper",
+      "description_sha256": "5a1153253a026702c5ecec8e9d66dea483bdbc8edb08a14e144e9fb64beb1840",
+      "categories": [
+        "AI",
+        "DEVELOPER_TOOLS",
+        "TRAVEL"
+      ],
+      "reported_total_users": 2,
+      "search_queries": [
+        "agent relay"
+      ]
+    }
+  ],
+  "selected_reviews": [
+    {
+      "actor_id": "I0BQoryV9ceegdsUE",
+      "public_url": "https://apify.com/quanmatrix/mcp-tool-trust-permission-schema-drift-intelligence",
+      "assessment": "Advertised MCP permission/schema monitor; intended product behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "VA2y8ch26ZPTST4eH",
+      "public_url": "https://apify.com/artogahr/openrouter-relay",
+      "assessment": "Advertised API relay for compatible agents; intended product behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "S3AmDbcvuoIrlm2ZJ",
+      "public_url": "https://apify.com/skilled_glee/retry-oracle",
+      "assessment": "Advertised deterministic retry decision tool; no execution or coordination evidence.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "q31WQSvCAJd9rPQ2q",
+      "public_url": "https://apify.com/firstrate/counterfactual-agent-verifier",
+      "assessment": "Advertised comparison tool for agent runs; not an incident record.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "7KeQJObJ5eqj6Crm5",
+      "public_url": "https://apify.com/firstrate/agent-retry-loop-auditor",
+      "assessment": "Advertised trace auditor; not an incident record.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "BKGUeMqIiFcaELH8d",
+      "public_url": "https://apify.com/firstrate/agent-trace-efficiency-auditor",
+      "assessment": "Advertised trace auditor; not an incident record.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "TCPifcBeT4mYUDkCp",
+      "public_url": "https://apify.com/neon_innovation_lab/mcp-hub-gateway",
+      "assessment": "Advertised MCP router for tools and agent swarms; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "VtWGmEBXlmJtnldOw",
+      "public_url": "https://apify.com/constant_quadruped/multi-agent-network-analyzer",
+      "assessment": "Advertised analyzer for multi-agent network metrics; intended behavior.",
+      "rogue_evidence": false
+    },
+    {
+      "actor_id": "kAvobr8a7c3lK4xZJ",
+      "public_url": "https://apify.com/labrat011/multilingual-translation-agent",
+      "assessment": "Advertised translation utility for agent integrations; intended behavior.",
+      "rogue_evidence": false
+    }
+  ],
+  "assessment": {
+    "newly_collected_records": true,
+    "previously_published_episodes": false,
+    "suspected_coordination": false,
+    "verified_participants": false,
+    "task_result_transfer_observed": false,
+    "operator_boundary_crossed": false,
+    "rogue_intent": false,
+    "provider_attribution": null,
+    "ongoing_activity": "Store usage counters are product metrics and do not establish autonomous agent activity.",
+    "result": "Relevant listings advertise intended analyzers, routers, relays, auditors or utilities. Metadata and small user counters do not document a rogue swarm or incident."
+  },
+  "limitations": [
+    "Search matches titles, names, descriptions, publisher handles and README text; many hits are lexical false friends.",
+    "Eight newest-sorted first pages are not a Store census and default safety filtering excludes some unrunnable Actors.",
+    "Publisher descriptions and user counters are not evidence that distinct agents coordinated or that any run crossed an operator boundary.",
+    "Only Store metadata was read; Actor code, builds, runs, inputs, outputs and datasets were not opened."
+  ],
+  "redactions": "Publisher metadata omitted from the bulk record set; descriptions represented by SHA256; no run IDs, inputs, outputs, credentials or destinations retained"
+}

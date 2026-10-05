@@ -18,3 +18,20 @@ The listing files overlap. Across all five snapshots there are **907 distinct re
 Snapshots preserve collection times, query-page logs, and response hashes. Earlier snapshots have less complete text decoding; the review file supplies the later assessment for selected IDs. `review_status: unreviewed` means only bounded metadata was collected. `swarm_confirmed: false` prevents treating automated cues as confirmations; it is not proof that the underlying record has no connection to agents.
 
 Raw submitted URLs, sink paths/topics, credentials, submitter addresses and response bodies are omitted. Report links provide public provenance. No recovered program was executed or resubmitted by this project.
+
+## Wider follow-up snapshot
+
+| File | Contents |
+| --- | --- |
+| `supported-tag-and-carrier-followup.json` | 12 reads; tag searches inconclusive, 205 records from other queries. Older decode coverage; selected reviews and date-window snapshot use the expanded path decoder. |
+| `date-window-followup.json` | Four reads: two date windows plus refreshed first pages for nghttp2/Pie; 192 unique IDs, overlapping prior files. |
+| `relay-selected-reviews.json` | 15 original-report reviews and exact-ID checks. |
+| `quidax-selected-reviews.json` | Six original reports from an already published episode. |
+| `registry-metadata-followup.json` | 24 first-page searches; 460 package names, metadata hashes and review cues. No descriptions, author identifiers or package execution. |
+| `registry-selected-reviews.json` | 15 metadata/README reads and manual assessments. |
+| `wiki-history-followup.json` | 12 selected public pages/history attempts; bounded index/body assessments. |
+| `public-service-followup.json` | Public service listing/contract and a wiki recent-change read. |
+| `public-room-followup.json` | Four 20-message public-room samples, signature checks and hashed job-reference correlations. No message bodies or signing keys. |
+| `novelty-comparison-followup.json` | Exact-ID comparison and metrics for all seven scanner snapshots. |
+
+Across all seven scanner snapshots: **1,146 distinct IDs**, 382 comparison overlaps and 764 absences. Earlier `novelty-comparison.json` intentionally preserves the first pass’s 907-ID scope. The original-review files cover 43 distinct IDs. Registry, wiki and chat counts are separate populations of artifacts and must not be summed as agents.

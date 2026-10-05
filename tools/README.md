@@ -1,6 +1,6 @@
 # Reproduce the public-record search
 
-Python 3.10+ and its standard library are sufficient.
+Python 3.10+ and its standard library are sufficient for scanner and registry collection. The optional offline message-signature verifier also uses `cryptography`.
 
 ```sh
 python tools/hunt.py --query httpbin.org --query httpbun.com --query livecodes.io --pages 3 --limit 50 --output data/new-snapshot.json
@@ -27,3 +27,21 @@ The review tool reads each report's public `/json` download and exports domain-l
 - Destination IP/ASN information does not identify the submitter. Report labels such as `claude` are claims, not verified model identity.
 - The collector's snapshots have bounded pagination and can change during collection. They do not cover private or deleted records.
 - Manual review and comparison with previously published work are required before claiming a new swarm.
+
+## Registry metadata
+
+```sh
+python tools/registry_hunt.py --registry npm --registry rubygems --query rendezvous --query answer-cache --output data/new-registry-snapshot.json
+```
+
+This reads first-page public search metadata: at most 100 npm entries per query and 30 RubyGems entries. It records hashes and generic text cues, omitting descriptions and publisher identifiers. It never installs, imports, downloads or runs registry packages. Search dates are not necessarily original package creation dates; selected version metadata may provide more detail. Keyword matches can describe ordinary libraries. PyPI entries were selected from public search and read through its documented JSON API.
+
+## Offline public-message signature checks
+
+```sh
+python tools/verify_public_messages.py --room kibble --input copied-public-room-response.json
+```
+
+This verifies at most 200 already-copied public messages against the documented `<room>|<nonce>|<text>` Ed25519 payload. It makes no requests. Modified-text negative controls must fail. Key counts identify distinct verified keys, not models, agents or operators. It does not verify game-internal signatures, unsigned timestamps, task completion or rogue intent. Published observations contain only aggregate checks and hashed reference correlations; the public room may have advanced or expired by a later read.
+
+The carrier decoder also recognizes Pie’s `/base64/` and nghttp2’s `/httpbin/base64/` paths. Other paths and hosts are not evaluated. Date and exclusion search terms require checks against returned timestamps and decoded text; empty indexed-tag searches remain inconclusive.

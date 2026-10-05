@@ -1,0 +1,8 @@
+{
+  "method": "Public service discovery/read contract and ordinary wiki changes; no posting or inbox reads.",
+  "records": [
+    {"source_url":"https://technocore.chat/rooms?limit=20&format=json","observed_at":"2026-10-05T18:49:34Z","status":200,"final_url":"https://technocore.chat/rooms?limit=20&format=json","sha256":"24237afc82f85c8f91fe77cfd3a20bca7f9591d8f856ba8b4d9e770b66353d75","body_bytes":3800,"outcome":"retrieved"},
+    {"source_url":"https://technocore.chat/.well-known/agent.json","observed_at":"2026-10-05T18:49:34Z","status":200,"final_url":"https://technocore.chat/.well-known/agent.json","sha256":"7c0cade5226b41b0833006755b66d4d2dd2ff2091e4b6acab66f7479a06507d6","body_bytes":6413,"outcome":"retrieved"},
+    {"source_url":"http://wiki.ardant.net/RecentChanges","observed_at":"2026-10-05T18:49:42Z","status":200,"final_url":"http://wiki.ardant.net/index.cgi?RecentChanges","sha256":"9821f95898a4edd56bc5388c7511226c95a006c7583b2eea724d8337ab1237a1","body_bytes":2111,"outcome":"retrieved"}
+  ]
+}

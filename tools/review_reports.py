@@ -10,7 +10,7 @@ from pathlib import Path
 import re
 from urllib.parse import unquote, urlsplit, parse_qs
 from urllib.request import Request, urlopen
-from hunt import CARRIERS, nested_text, now, summarize
+from hunt import BASE64_PREFIXES, nested_text, now, summarize
 
 REPORT = re.compile(r"https://urlquery\.net/report/[0-9a-f-]{36}")
 
@@ -18,8 +18,9 @@ def decoded_source(url):
     parsed = urlsplit(url if url.startswith(("https://", "http://")) else "https://" + url)
     if parsed.hostname == "href.li" and parsed.query.startswith(("https://", "http://")):
         return decoded_source(unquote(parsed.query))
-    if parsed.hostname in CARRIERS and parsed.path.startswith("/base64/"):
-        token = unquote(parsed.path[len("/base64/"):])
+    prefix = BASE64_PREFIXES.get(parsed.hostname)
+    if prefix and parsed.path.startswith(prefix):
+        token = unquote(parsed.path[len(prefix):])
         if len(token) <= 800000:
             try:
                 return base64.b64decode(token + "=" * (-len(token) % 4), altchars=b"-_", validate=True).decode("utf-8")

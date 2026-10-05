@@ -40,7 +40,9 @@ class Listing(HTMLParser):
                 self.rows.append(self.row)
             self.row = None
 
-CARRIERS = {"httpbin.org", "eu.httpbin.org", "httpbun.com", "httpbingo.org"}
+CARRIERS = {"httpbin.org", "eu.httpbin.org", "httpbun.com", "httpbingo.org", "pie.dev"}
+BASE64_PREFIXES = {host: "/base64/" for host in CARRIERS}
+BASE64_PREFIXES["nghttp2.org"] = "/httpbin/base64/"
 PATTERNS = {
     "fetch": r"\bfetch\s*\(",
     "xhr": r"XMLHttpRequest",
@@ -94,9 +96,10 @@ def summarize(row, query, retrieved_at):
     decoded = ""
     error = None
     encoding = None
-    if parsed.hostname in CARRIERS and parsed.path.startswith("/base64/"):
+    prefix = BASE64_PREFIXES.get(parsed.hostname)
+    if prefix and parsed.path.startswith(prefix):
         encoding = "base64_path"
-        payload = unquote(parsed.path[len("/base64/"):])
+        payload = unquote(parsed.path[len(prefix):])
         try:
             if len(payload) > 800000:
                 raise ValueError("payload too large")

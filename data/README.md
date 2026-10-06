@@ -43,6 +43,7 @@ Raw submitted URLs, sink paths/topics, credentials, submitter addresses and resp
 | `misrouted-agent-messages-followup.json` | Four repository-scoped searches, 70 unique Codex issues and three selected wrong-recipient/result-routing assessments; no private transcripts or reproduction. |
 | `claude-code-agent-boundaries-followup.json` | Six repository-scoped searches, 120 unique Claude Code issues and four selected delegation, routing and authorization-boundary assessments; no private transcripts or reproduction. |
 | `gemini-cli-subagent-followup.json` | Twelve repository-scoped searches, 58 unique Gemini CLI issues and five selected transfer, boundary, session-state and architecture assessments; no attachments, private transcripts or reproduction. |
+| `copilot-cli-agent-boundaries-followup.json` | Fifteen repository-scoped searches, 65 unique Copilot CLI issues and six selected Fleet, delegation, instruction and settings-boundary assessments; no attachments, private logs or reproduction. |
 | `novelty-comparison-followup.json` | Exact-ID comparison and metrics for all seven scanner snapshots. |
 
 Across all seven scanner snapshots: **1,146 distinct IDs**, 382 comparison overlaps and 764 absences. Earlier `novelty-comparison.json` intentionally preserves the first pass’s 907-ID scope. The original-review files cover 43 distinct IDs. Registry, wiki and chat counts are separate populations of artifacts and must not be summed as agents.

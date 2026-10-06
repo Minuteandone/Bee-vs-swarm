@@ -262,6 +262,42 @@
       "url": "https://github.com/google-gemini/gemini-cli/issues/19430",
       "role": "Historical architecture and intentional external-orchestrator control",
       "published": "2026-02-18"
+    },
+    {
+      "id": "copilot-fleet-restriction-bypass",
+      "url": "https://github.com/github/copilot-cli/issues/2261",
+      "role": "Previously published Fleet custom-worker restriction and dispatch control",
+      "published": "2026-03-24"
+    },
+    {
+      "id": "copilot-unexpected-model-delegation",
+      "url": "https://github.com/github/copilot-cli/issues/4377",
+      "role": "Previously published nested model-delegation and cost-boundary control",
+      "published": "2026-08-05"
+    },
+    {
+      "id": "copilot-missing-instruction-inheritance",
+      "url": "https://github.com/github/copilot-cli/issues/1990",
+      "role": "Previously published worker instruction-propagation control",
+      "published": "2026-03-11"
+    },
+    {
+      "id": "copilot-discarded-specialist-result",
+      "url": "https://github.com/github/copilot-cli/issues/2367",
+      "role": "Previously published duplicate-work and unused-result routing control",
+      "published": "2026-03-28"
+    },
+    {
+      "id": "copilot-model-setting-override",
+      "url": "https://github.com/github/copilot-cli/issues/4432",
+      "role": "Previously published human-setting versus model-discretion boundary control",
+      "published": "2026-08-11"
+    },
+    {
+      "id": "copilot-attribution-optout-bypass",
+      "url": "https://github.com/github/copilot-cli/issues/4576",
+      "role": "Previously published task-worker global-setting propagation control",
+      "published": "2026-08-24"
     }
   ]
 }

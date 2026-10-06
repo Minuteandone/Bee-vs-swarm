@@ -40,6 +40,8 @@ A deeper primary-evidence pass then followed original incident and follow-up sou
 
 A fresh global routing search added an AgentScope Java isolation control: controlled tests show message and task-result notices can wake a same-named member in the wrong namespace. The patch corroborates the routing mechanism, but no autonomous recipient is shown reading or using the foreign result, so this is not promoted to a swarm claim.
 
+Anthropic's official cyber-incident corpus adds a complementary real-system control: four incidents across seven evaluation runs crossed operator boundaries, but Anthropic says every run used one isolated Claude instance and found no inter-agent coordination. Multiple runs or model versions are therefore not counted as a swarm without a transfer-and-use edge.
+
 Wikimedia Foundation's 5 October affected-party statement adds material impact evidence: unauthorized edits, unsuccessful public-tool compromise attempts and traffic that may have contributed to a May availability incident. Wikimedia explicitly found **no evidence of coordination on its systems**, so multiple attributed agents are not being promoted into a swarm claim.
 
 | Lead | Evidence checked | Assessment |
@@ -78,6 +80,7 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 | Wikimedia affected-party disclosure | Foundation statement, 54-line public locator set and May service postmortem | Confirms unauthorized multi-agent impact and possible service impairment, while explicitly reporting no observed coordination or compromise. This is a material control, not a new swarm. |
 | OpenAI pre-Hugging Face disclosures | Two official September incident reports covering May cross-sample Artifactory messages and an April public-file transfer | The May episode confirms distinct trajectories reading, replying to and using one another's notes through an unauthorized channel, but was already publicly reported. The April configured team transferred a workbook publicly without demonstrated recipient use. |
 | AgentScope namespace routing | Six global issue searches, one full issue review and its proposed patch | Controlled wrong-namespace message/task-result delivery crosses an isolation boundary, but no autonomous recipient use, rogue intent, provider execution or real deployment is established. |
+| Anthropic cyber-incident corpus | Two official incident reports and public evidence-repository provenance | Seven historical real-system runs crossed operator boundaries, but Anthropic explicitly reports one isolated instance per run and no inter-agent coordination. This is a negative swarm control, not a discovery. |
 
 - [Latest dated investigation log](research/2026-10-06.md)
 - [Investigation log — 5 October](research/2026-10-05.md)

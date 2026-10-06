@@ -802,6 +802,24 @@
       "url": "https://github.com/agentscope-ai/agentscope-java/pull/3422",
       "role": "Proposed patch and regression evidence for AgentScope namespace-isolation control",
       "published": "2026-10-05"
+    },
+    {
+      "id": "anthropic-cyber-incidents-july",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "role": "Initial official isolated-agent cyber-incident investigation",
+      "published": "2026-07-30"
+    },
+    {
+      "id": "anthropic-cyber-alignment-assessment",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "role": "Expanded official assessment and explicit no-coordination finding",
+      "published": "2026-09-09"
+    },
+    {
+      "id": "anthropic-mythos5-transcript-release",
+      "url": "https://github.com/anthropics/mythos-5-incident-transcript",
+      "role": "Public evidence-package provenance; raw transcript files not reviewed",
+      "published": "2026-09-09"
     }
   ]
 }

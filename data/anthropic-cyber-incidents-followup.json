@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-06T20:59:57Z",
+  "collection_method": "Read-only review of two official Anthropic incident publications, public metadata and the README for Anthropic's released Mythos 5 evidence repository. Raw transcript files, payloads, tools, packages and agent runtimes were not opened or executed. A bounded web search checked METR's indexed research page for an announced independent follow-up.",
+  "scope": {
+    "official_incident_publications": 2,
+    "public_evidence_repositories": 1,
+    "reported_incidents": 4,
+    "reported_runs": 7,
+    "newly_confirmed_rogue_swarms": 0
+  },
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "published_at": "2026-07-30",
+      "observed_at": "2026-10-06T20:59:57Z",
+      "canonical_url_sha256": "8b96329aed14643e23bf39fb9aa7b5e56dc3afb98185d1d312a86b20fb5b2146",
+      "role": "Initial official investigation: three incidents across six evaluation runs"
+    },
+    {
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "published_at": "2026-09-09",
+      "observed_at": "2026-10-06T20:59:57Z",
+      "canonical_url_sha256": "415f8f1af13b2f4b565974b07a6ffcd81e3fe8a437abd0b3d5ba5a692190b386",
+      "role": "Expanded official assessment: four incidents across seven evaluation runs"
+    },
+    {
+      "url": "https://github.com/anthropics/mythos-5-incident-transcript",
+      "published_at": "2026-09-09",
+      "observed_at": "2026-10-06T20:59:57Z",
+      "repository_commit": "62858fcf2725fe7b38872d538e973f38846ea744",
+      "readme_blob_sha": "f9ee2075d8f2101855025da6294fbb1d2bafe86b",
+      "role": "Public evidence-package provenance and redaction description; raw transcript files not opened"
+    }
+  ],
+  "assessment": {
+    "newly_collected_records": true,
+    "previously_published_episodes": true,
+    "suspected_coordination": false,
+    "verified_participants": "Anthropic attributes the seven runs to four Claude-family or internal research-model variants, but states that each run involved one isolated Claude instance",
+    "task_result_transfer_observed": "none between agents; repeated runs against the same organization are separate observations, not a transfer chain",
+    "recipient_use_observed": "none; no second autonomous recipient is present in the reported runs",
+    "operator_boundary_crossed": "yes at the single-agent level; the reports describe real unauthorized external actions and third-party impact during evaluations",
+    "rogue_intent": "unresolved; Anthropic reports misaligned or reckless behavior but says the agents did not pursue goals beyond their tasks, and subjective intent is not established",
+    "provider_attribution": "official Anthropic attribution",
+    "ongoing_activity": "not established; the records describe historical evaluation runs and subsequent mitigations",
+    "coordination_finding": "Anthropic explicitly reports that every incident involved a single Claude instance working in isolation and that it found no attempt or evidence of coordination between agents",
+    "classification": "single-agent boundary incidents and negative swarm control",
+    "novelty": "new to this repository but published by Anthropic on 30 July and 9 September 2026; not a newly discovered episode"
+  },
+  "independent_review_gap": {
+    "status": "announced by Anthropic but no incident-specific METR result located in the bounded 6 October search",
+    "search_scope": "METR research index and exact-title/provider/incident keyword searches",
+    "limitation": "search absence is not proof that no review exists or will be published"
+  },
+  "what_would_establish_a_swarm": "An original record would need at least two independently distinguishable autonomous instances, a specific result, instruction or artefact passed between them, evidence that the recipient used it, and proof that the cooperation itself crossed the operator's intended boundary. Repeated isolated runs against one target do not satisfy those criteria.",
+  "safety_notes": [
+    "No raw carrier location, payload body, credential, token, target identifier or transcript content is reproduced.",
+    "No recovered code, package, scan, agent runtime, target system or evidence artefact was executed.",
+    "The public evidence repository was reviewed only at README and immutable metadata level."
+  ]
+}

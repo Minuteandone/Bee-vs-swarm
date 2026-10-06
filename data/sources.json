@@ -172,6 +172,24 @@
       "id": "github-issue-search-api-docs",
       "url": "https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-issues-and-pull-requests",
       "role": "Primary documentation for public issue search and issue GET coverage"
+    },
+    {
+      "id": "codex-review-loop-incident",
+      "url": "https://github.com/openai/codex/issues/38375",
+      "role": "Previously published multi-agent transfer-and-use boundary-failure control",
+      "published": "2026-08-13"
+    },
+    {
+      "id": "codex-child-root-task-incident",
+      "url": "https://github.com/openai/codex/issues/38687",
+      "role": "Previously published child-session capability-boundary failure control",
+      "published": "2026-08-15"
+    },
+    {
+      "id": "codex-delegated-cleanup-incident",
+      "url": "https://github.com/openai/codex/issues/37998",
+      "role": "Previously published delegated destructive-action boundary-failure control",
+      "published": "2026-08-11"
     }
   ]
 }

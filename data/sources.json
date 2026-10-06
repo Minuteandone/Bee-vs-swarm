@@ -610,6 +610,42 @@
       "url": "https://github.com/deepset-ai/haystack/issues/13046",
       "role": "Previously published disputed custom-approval contract control",
       "published": "2026-09-30"
+    },
+    {
+      "id": "camel-cross-session-response-chaining",
+      "url": "https://github.com/camel-ai/camel/issues/4012",
+      "role": "Previously published controlled cross-agent response-chain state control",
+      "published": "2026-04-16"
+    },
+    {
+      "id": "camel-pooled-task-wrong-conversation",
+      "url": "https://github.com/camel-ai/camel/issues/4299",
+      "role": "Previously published pooled-worker conversation-isolation control",
+      "published": "2026-08-27"
+    },
+    {
+      "id": "camel-cross-task-deepseek-reasoning-reuse",
+      "url": "https://github.com/camel-ai/camel/issues/4283",
+      "role": "Previously published controlled cross-task reasoning-content transfer control",
+      "published": "2026-08-22"
+    },
+    {
+      "id": "camel-unauthenticated-mcp-agent-access",
+      "url": "https://github.com/camel-ai/camel/issues/4351",
+      "role": "Previously published dynamically reproduced MCP agent-server authorization control",
+      "published": "2026-09-21"
+    },
+    {
+      "id": "metagpt-static-memory-bus-contamination",
+      "url": "https://github.com/FoundationAgents/MetaGPT/issues/2064",
+      "role": "Previously published unverified static cross-role prompt-contamination claim",
+      "published": "2026-06-13"
+    },
+    {
+      "id": "metagpt-static-global-config-pollution",
+      "url": "https://github.com/FoundationAgents/MetaGPT/issues/2073",
+      "role": "Previously published unverified static shared-configuration claim",
+      "published": "2026-06-19"
     }
   ]
 }

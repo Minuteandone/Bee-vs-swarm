@@ -574,6 +574,42 @@
       "url": "https://github.com/run-llama/llama_index/issues/22943",
       "role": "Previously published MCP failure-classification control",
       "published": "2026-09-03"
+    },
+    {
+      "id": "smolagents-parallel-managed-agent-state-collapse",
+      "url": "https://github.com/huggingface/smolagents/issues/1781",
+      "role": "Previously published managed-agent shared-state result-transfer control",
+      "published": "2025-09-22"
+    },
+    {
+      "id": "smolagents-managed-child-tool-transcript-leak",
+      "url": "https://github.com/huggingface/smolagents/issues/2424",
+      "role": "Previously published parent-child summary-boundary information-transfer control",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "smolagents-silent-managed-child-failure",
+      "url": "https://github.com/huggingface/smolagents/issues/2166",
+      "role": "Previously published managed-child failure-provenance control",
+      "published": "2026-04-04"
+    },
+    {
+      "id": "haystack-hitl-wrong-call-decision-binding",
+      "url": "https://github.com/deepset-ai/haystack/issues/11756",
+      "role": "Previously published latent human-decision binding control",
+      "published": "2026-06-24"
+    },
+    {
+      "id": "haystack-batch-order-state-write-winner",
+      "url": "https://github.com/deepset-ai/haystack/issues/12621",
+      "role": "Previously published deterministic concurrent tool-state merge control",
+      "published": "2026-09-05"
+    },
+    {
+      "id": "haystack-approval-object-executes-defaults",
+      "url": "https://github.com/deepset-ai/haystack/issues/13046",
+      "role": "Previously published disputed custom-approval contract control",
+      "published": "2026-09-30"
     }
   ]
 }

@@ -358,6 +358,42 @@
       "url": "https://github.com/langchain-ai/langgraph/issues/9004",
       "role": "Previously published potential encrypted checkpoint replay boundary control",
       "published": "2026-09-19"
+    },
+    {
+      "id": "agents-sdk-stale-tool-gate",
+      "url": "https://github.com/openai/openai-agents-python/issues/3115",
+      "role": "Previously published offline dynamic-tool authorization-boundary control",
+      "published": "2026-05-04"
+    },
+    {
+      "id": "agents-sdk-agent-name-collision",
+      "url": "https://github.com/openai/openai-agents-python/issues/4118",
+      "role": "Previously published offline wrong-specialist routing and result-use control",
+      "published": "2026-08-02"
+    },
+    {
+      "id": "agents-sdk-approval-handoff-session-divergence",
+      "url": "https://github.com/openai/openai-agents-python/issues/4685",
+      "role": "Previously published synthetic approval, handoff and session-durability control",
+      "published": "2026-08-26"
+    },
+    {
+      "id": "agents-sdk-out-of-contract-approval-callback",
+      "url": "https://github.com/openai/openai-agents-python/issues/4845",
+      "role": "Previously published out-of-contract approval-callback control; no supported-path bypass found",
+      "published": "2026-09-03"
+    },
+    {
+      "id": "semantic-kernel-static-authorization-claim",
+      "url": "https://github.com/microsoft/semantic-kernel/issues/14072",
+      "role": "Previously published static security/design discussion; no runtime bypass evidence",
+      "published": "2026-06-13"
+    },
+    {
+      "id": "semantic-kernel-failed-handoff-context",
+      "url": "https://github.com/microsoft/semantic-kernel/issues/12898",
+      "role": "Previously published intended handoff context-transfer failure control",
+      "published": "2025-08-08"
     }
   ]
 }

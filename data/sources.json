@@ -538,6 +538,42 @@
       "url": "https://github.com/mastra-ai/mastra/issues/23811",
       "role": "Previously published and fixed delegated-run identity aliasing control",
       "published": "2026-09-13"
+    },
+    {
+      "id": "strands-handler-approval-interrupt-bypass",
+      "url": "https://github.com/strands-agents/harness-sdk/issues/4371",
+      "role": "Previously published controlled approval-interrupt bypass",
+      "published": "2026-09-16"
+    },
+    {
+      "id": "strands-cancelled-child-routes-downstream",
+      "url": "https://github.com/strands-agents/harness-sdk/issues/3798",
+      "role": "Previously published project-reproduced multi-agent cancellation-routing control",
+      "published": "2026-08-12"
+    },
+    {
+      "id": "strands-parallel-shared-agent-history-corruption",
+      "url": "https://github.com/strands-agents/harness-sdk/issues/1176",
+      "role": "Previously published and fixed shared-agent invocation-state control",
+      "published": "2025-11-13"
+    },
+    {
+      "id": "llamaindex-stale-handoff-reasoning",
+      "url": "https://github.com/run-llama/llama_index/issues/23243",
+      "role": "Previously published deterministic cross-agent handoff-memory contamination control",
+      "published": "2026-09-25"
+    },
+    {
+      "id": "llamaindex-shared-cross-agent-tool-mutations",
+      "url": "https://github.com/run-llama/llama_index/issues/22146",
+      "role": "Previously published shared mutable tool-object control closed as not planned",
+      "published": "2026-06-26"
+    },
+    {
+      "id": "llamaindex-mcp-error-reported-success",
+      "url": "https://github.com/run-llama/llama_index/issues/22943",
+      "role": "Previously published MCP failure-classification control",
+      "published": "2026-09-03"
     }
   ]
 }

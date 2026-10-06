@@ -1,5 +1,7 @@
 # Reproduce the public-record search
 
+Use the [original-record discovery protocol](../research/discovery-protocol.md) to choose and interpret records. Listing collection is preparation, not discovery: prioritize the unreviewed original-report backlog and concrete transfer/use trails rather than repeatedly expanding keyword counts or cataloguing known incidents. Exact-ID absence from a comparison release does not establish novelty.
+
 Python 3.10+ and its standard library are sufficient for scanner and registry collection. The optional offline message-signature verifier also uses `cryptography`.
 
 ```sh

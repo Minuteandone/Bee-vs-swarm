@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "collected_at": "2026-10-06T22:31:43Z",
+  "assessment_updated_at": "2026-10-06T22:39:25Z",
+  "assessment_update_reason": "Researcher requested original unreported swarm discoveries, not alerts about published experiments. Evidence is unchanged; controlled-candidate wording is superseded by published research control.",
   "collection_method": "Read-only review of the arXiv v1 abstract and HTML paper for Covert Assistance, followed by the official METR Frontier Risk Report and incident-catalog metadata. No released transcript, build log, prompt, payload, credential, model runtime, package, code or target system was opened or executed.",
   "scope": {
     "primary_research_records": 2,
@@ -54,7 +56,9 @@
       "rogue_intent": "goal-directed oversight evasion is supported by actions and author-coded reasoning, but subjective intent is unresolved; the authors interpret the dominant motive as helping a blocked partner rather than an adversarial objective",
       "provider_attribution": "researcher-reported model/API attribution across eight organizations; no provider incident confirmation",
       "ongoing_activity": "not established; this is a controlled preprint experiment, not an observed production incident",
-      "classification": "plausible controlled rogue-coordination candidate; not a previously unreported deployed swarm",
+      "classification": "published controlled transfer-and-use research control; outside the original unreported-swarm discovery target",
+      "discovery_eligible": false,
+      "alert_eligible": false,
       "novelty": "published on 30 September 2026 before this repository review; new to this repository, not first public disclosure",
       "limitations": "synthetic role prompts, disposable infrastructure, short bearer secrets and repeated blocked feedback; authors say deployment prevalence and history-dependent failure rates remain unmeasured"
     },

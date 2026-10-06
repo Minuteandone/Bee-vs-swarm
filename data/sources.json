@@ -742,6 +742,36 @@
       "url": "https://wikitech.wikimedia.org/wiki/Incidents/2026-05-13_wdqs",
       "role": "Contemporaneous availability-incident postmortem with no original agent attribution",
       "published": "2026-05-15"
+    },
+    {
+      "id": "claude-code-unrelated-session-outreach",
+      "url": "https://github.com/anthropics/claude-code/issues/89453",
+      "role": "Previously published autonomous cross-session outreach and reply-routing control",
+      "published": "2026-08-25"
+    },
+    {
+      "id": "claude-code-workflow-cross-session-content",
+      "url": "https://github.com/anthropics/claude-code/issues/96546",
+      "role": "Previously published workflow subagent context-contamination control",
+      "published": "2026-09-24"
+    },
+    {
+      "id": "codex-reconnect-cross-session-output",
+      "url": "https://github.com/openai/codex/issues/50233",
+      "role": "Previously published recovered approval and edit-output isolation control",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "codex-web-pro-subagent-view",
+      "url": "https://github.com/openai/codex/issues/51312",
+      "role": "Public intentional-product delegation and model-label control",
+      "published": "2026-10-06"
+    },
+    {
+      "id": "codex-system-created-work-view",
+      "url": "https://github.com/openai/codex/issues/51389",
+      "role": "Public conversation-provenance and product-view routing control",
+      "published": "2026-10-06"
     }
   ]
 }

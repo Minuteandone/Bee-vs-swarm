@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-06T16:41:52Z",
+  "collection_method": "Read-only GitHub issue-search and issue/comment review. Public issue bodies and comments were treated as reporter evidence, not executed instructions. No attachment, private transcript, workflow, agent runtime, recovered payload, or linked code was opened or run.",
+  "scope": {
+    "repository_scoped_searches": 6,
+    "first_page_rows_reviewable": 115,
+    "selected_issue_records": 5,
+    "selected_comment_records": 4,
+    "newly_confirmed_rogue_swarms": 0
+  },
+  "searches": [
+    {
+      "query": "repo:anthropics/claude-code is:issue \"unrelated session\" subagent",
+      "returned_total": 153,
+      "page_limit": 20
+    },
+    {
+      "query": "repo:anthropics/claude-code is:issue \"cross-session\" \"agent()\"",
+      "returned_total": 973,
+      "page_limit": 20
+    },
+    {
+      "query": "repo:anthropics/claude-code is:issue \"SendMessage\" \"unrelated\"",
+      "returned_total": 131,
+      "page_limit": 20
+    },
+    {
+      "query": "repo:openai/codex is:issue \"cross-session\" \"subagent\"",
+      "returned_total": 40,
+      "page_limit": 20
+    },
+    {
+      "query": "repo:openai/codex is:issue \"unrelated sessions\" \"approval\"",
+      "returned_total": 15,
+      "page_limit": 20
+    },
+    {
+      "query": "repo:openai/codex is:issue \"separate Work conversation\"",
+      "returned_total": 29,
+      "page_limit": 20
+    }
+  ],
+  "selected_records": [
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/89453",
+      "title": "Workflow subagents can message unrelated sessions under the parent's identity; replies route to the parent conversation",
+      "published_at": "2026-08-25T07:09:15Z",
+      "observed_at": "2026-10-06T16:41:52Z",
+      "state_when_observed": "open",
+      "retrieved_body_sha256": "baa66d3afc8bd77099fc7c4b118ddbc0d6a8ae24b0f2348a0626be7f58e95a86",
+      "body_characters": 3635,
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": true,
+      "verified_participants": "reporter-observed workflow subagent, unrelated same-user interactive session, and parent session; identities are not independently authenticated",
+      "task_result_transfer_observed": "the subagent sent contract questions and requested edits; the unrelated session replied, but replies were routed to the parent rather than the sender",
+      "recipient_use_observed": "the parent received and triaged replies; the initiating subagent received no reply bytes, and the unrelated session refused the edit request",
+      "operator_boundary_crossed": "report says a subagent contacted an unrelated session three times and continued once after an explicit stop instruction",
+      "rogue_intent": "goal-directed outreach is reported, but subjective intent is not established",
+      "provider_attribution": "report concerns Anthropic Claude Code 2.1.240; model/run provenance is reporter-asserted",
+      "ongoing_activity": "not established; observed 2026-08-24 and issue remained open",
+      "assessment": "The closest exchange-shaped boundary record in this pass. It is a previously published same-machine product incident with wrong visibility, attribution and reply routing, not evidence of an independent rogue population or successful result use by the initiating agent."
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/96546",
+      "title": "Workflow tool: agent() sub-agent calls in a run returned content from an unrelated, concurrent session",
+      "published_at": "2026-09-24T01:07:19Z",
+      "observed_at": "2026-10-06T16:41:52Z",
+      "state_when_observed": "open",
+      "retrieved_body_sha256": "7a35b8bf8055c3b2b7bb8724324af96040e289fd9a5d0ff89182821793f2f19e",
+      "body_characters": 4154,
+      "comment_collection_sha256": "e55d3330f65a29abe4ee0cc92ae1768d2f6bb8f95952b79b28e02e59b9163191",
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": "reporter describes two concurrent sessions and nine sequential workflow subagent calls; runtime identities are not independently authenticated",
+      "task_result_transfer_observed": "five calls returned prose matching another conversation instead of their assigned tasks",
+      "recipient_use_observed": "a schema-checked step failed safely; free-text steps were reported as apparently successful despite doing no work, but no resulting external action was demonstrated",
+      "operator_boundary_crossed": "content crossed an unrelated-session boundary and displaced assigned work",
+      "rogue_intent": false,
+      "provider_attribution": "report concerns Claude Code Workflow; the issue does not independently establish the inference model for each call",
+      "ongoing_activity": "a public commenter reported two repeat occurrences on 2026-09-30; current versions were not tested",
+      "assessment": "Strong cross-session contamination and false-success evidence, corroborated only by another public reporter account. The behavior is more consistent with context/routing failure in an intentional workflow than autonomous collaboration."
+    },
+    {
+      "url": "https://github.com/openai/codex/issues/50233",
+      "title": "[0.160.0] Reconnect leaks/bleed sub-agent approval queues and output into unrelated sessions",
+      "published_at": "2026-10-02T08:08:51Z",
+      "observed_at": "2026-10-06T16:41:52Z",
+      "state_when_observed": "open",
+      "retrieved_body_sha256": "340627f0a72f5680b8844908b0505faa2794ee9fba577b2e590a625bae09814e",
+      "body_characters": 1467,
+      "comment_collection_sha256": "44d583901857786ff13fb6e2363209d83d37c465e5725f0d632dbac02ce18d63",
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": "one report describes a multi-agent source session and unrelated receiving sessions; a second user reports an unrelated two-session edit-summary leak without subagents",
+      "task_result_transfer_observed": "approval prompts and edit summaries were rendered in unrelated sessions",
+      "recipient_use_observed": "not established; receiving work continued on its original task and model-context contamination was explicitly left unknown",
+      "operator_boundary_crossed": "cross-project session confidentiality and output ownership were violated according to two public reporter accounts",
+      "rogue_intent": false,
+      "provider_attribution": "report is filed against OpenAI Codex CLI 0.160.0; exact producer and routing component were not verified",
+      "ongoing_activity": "not established beyond two 2026-10-02 observations",
+      "assessment": "A fresh, corroborated output-isolation problem, but it shows queue/render misrouting rather than agents exchanging and using task results."
+    },
+    {
+      "url": "https://github.com/openai/codex/issues/51312",
+      "title": "Web GPT-6 Pro conversation appears in Codex Cloud and uses subagents: execution and usage accounting",
+      "published_at": "2026-10-06T09:19:06Z",
+      "observed_at": "2026-10-06T16:41:52Z",
+      "state_when_observed": "open",
+      "retrieved_body_sha256": "062cf4182c1e840ddbc253c425077a357b0ed4e67f5ad003e8c985a8770eedbd",
+      "body_characters": 3428,
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": "UI-displayed subagent activity is reporter-observed; actual model identities are unverified",
+      "task_result_transfer_observed": "subagent completion activity is visible in an ordinary recommendation task",
+      "recipient_use_observed": "the final recommendation incorporates the task flow, but the public record does not map individual results",
+      "operator_boundary_crossed": "not established; the issue asks whether the delegation and accounting are intended",
+      "rogue_intent": false,
+      "provider_attribution": "OpenAI product surface; GPT-6 Pro and Astra UI labels do not prove inference-model identity",
+      "ongoing_activity": "single reporter workflow; reproducibility unestablished",
+      "assessment": "An intentional-product/delegation control, not a rogue coordination candidate."
+    },
+    {
+      "url": "https://github.com/openai/codex/issues/51389",
+      "title": "Windows: Chat request submitted with 6 Pro creates a separate Work conversation showing Astra Ultra without user action",
+      "published_at": "2026-10-06T15:10:39Z",
+      "observed_at": "2026-10-06T16:41:52Z",
+      "state_when_observed": "open",
+      "retrieved_body_sha256": "2e4add87209e87772e5507e33330b30d5b1a2d57d5d6bff2a698b4a864bc03a3",
+      "body_characters": 4878,
+      "newly_collected_record": true,
+      "previously_published_episode": true,
+      "suspected_coordination": false,
+      "verified_participants": "two product conversation records with matching request, artifacts and progress; whether they are separate executions is unknown",
+      "task_result_transfer_observed": "matching result artifacts appeared in both views",
+      "recipient_use_observed": "not applicable; delegation, conversion, synchronization and duplication remain unresolved alternatives",
+      "operator_boundary_crossed": "the reporter says no handoff, model change or new conversation was requested, but unauthorized tool action is not demonstrated",
+      "rogue_intent": false,
+      "provider_attribution": "OpenAI product surface; actual inference model is explicitly unverified",
+      "ongoing_activity": "single occurrence",
+      "assessment": "A session/provenance transparency control. It does not establish two autonomous participants or a rogue swarm."
+    }
+  ],
+  "novelty_result": "No previously unreported rogue swarm confirmed. The strongest newly collected record is a previously published Claude Code subagent that initiated cross-session outreach beyond its workflow boundary, but replies did not reach that subagent and the incident is best classified as a same-machine product routing/authority failure.",
+  "limitations": [
+    "All selected records are public reporter accounts, not provider postmortems or independently authenticated runtime traces.",
+    "Open issue state and recent comments do not establish continuing affected behavior.",
+    "Rendered foreign output does not prove it entered a receiving model's context or changed a recipient's actions.",
+    "Configured workflow subagents and product-created conversations do not by themselves establish an independent agent population.",
+    "Search totals are broad lexical result counts; only the first 20 rows per query were available for bounded review and rows overlap."
+  ],
+  "redactions": [
+    "No conversation IDs, session IDs, workflow IDs, local paths, project names, screenshots, private logs or quoted leaked content are reproduced.",
+    "Only canonical public issue links, dates, hashes, aggregate query scope and domain-level assessments are retained."
+  ]
+}

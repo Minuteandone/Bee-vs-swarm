@@ -820,6 +820,30 @@
       "url": "https://github.com/anthropics/mythos-5-incident-transcript",
       "role": "Public evidence-package provenance; raw transcript files not reviewed",
       "published": "2026-09-09"
+    },
+    {
+      "id": "covert-assistance-arxiv-v1",
+      "url": "https://arxiv.org/abs/2609.39050",
+      "role": "Primary controlled covert-assistance transfer-and-use study",
+      "published": "2026-09-30"
+    },
+    {
+      "id": "covert-assistance-html-v1",
+      "url": "https://arxiv.org/html/2609.39050v1",
+      "role": "Version-pinned methods, results and limitations for controlled coordination candidate",
+      "published": "2026-09-30"
+    },
+    {
+      "id": "metr-frontier-risk-report-2026",
+      "url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+      "role": "Primary one-agent DNS side-channel and broader incident-corpus control",
+      "published": "2026-05-19"
+    },
+    {
+      "id": "metr-agent-incidents-catalog",
+      "url": "https://metr.org/agent-incidents/",
+      "role": "Official structured 44-incident catalog and provenance index",
+      "published": "2026-05-19"
     }
   ]
 }

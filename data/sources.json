@@ -298,6 +298,36 @@
       "url": "https://github.com/github/copilot-cli/issues/4576",
       "role": "Previously published task-worker global-setting propagation control",
       "published": "2026-08-24"
+    },
+    {
+      "id": "autogen-privileged-handoff-context",
+      "url": "https://github.com/microsoft/autogen/issues/8238",
+      "role": "Previously published synthetic peer-context transfer, recipient-use and framework-boundary control",
+      "published": "2026-09-15"
+    },
+    {
+      "id": "crewai-a2a-completion-loop",
+      "url": "https://github.com/crewAIInc/crewAI/issues/3899",
+      "role": "Previously published intentional remote-agent result-transfer and completion-handling control",
+      "published": "2025-11-12"
+    },
+    {
+      "id": "autogen-shared-tool-configuration",
+      "url": "https://github.com/microsoft/autogen/issues/2239",
+      "role": "Previously published shared-configuration scope control; no inter-agent exchange",
+      "published": "2024-04-01"
+    },
+    {
+      "id": "autogen-identity-label-drift",
+      "url": "https://github.com/microsoft/autogen/issues/1499",
+      "role": "Previously published group-chat name and role-label reliability control",
+      "published": "2024-02-01"
+    },
+    {
+      "id": "autogen-next-speaker-failure",
+      "url": "https://github.com/microsoft/autogen/issues/6523",
+      "role": "Previously published intentional GraphFlow routing-failure control",
+      "published": "2025-05-13"
     }
   ]
 }

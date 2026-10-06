@@ -646,6 +646,42 @@
       "url": "https://github.com/FoundationAgents/MetaGPT/issues/2073",
       "role": "Previously published unverified static shared-configuration claim",
       "published": "2026-06-19"
+    },
+    {
+      "id": "openhands-shared-socket-result-misrouting",
+      "url": "https://github.com/OpenHands/OpenHands/issues/17485",
+      "role": "Previously published controlled cross-client command-result misrouting",
+      "published": "2026-09-16"
+    },
+    {
+      "id": "openhands-cross-conversation-event-merge",
+      "url": "https://github.com/OpenHands/OpenHands/issues/16875",
+      "role": "Previously published reproduced cross-conversation event-store merge",
+      "published": "2026-08-24"
+    },
+    {
+      "id": "openhands-shared-tmux-instance-interference",
+      "url": "https://github.com/OpenHands/OpenHands/issues/17946",
+      "role": "Previously published local cross-instance terminal-isolation report",
+      "published": "2026-10-05"
+    },
+    {
+      "id": "autogpt-unbounded-delegator-transcript-read",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/14117",
+      "role": "Previously published delegation-transcript authorization design review",
+      "published": "2026-08-22"
+    },
+    {
+      "id": "autogpt-missing-subsession-provenance",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/14101",
+      "role": "Previously published sub-session provenance and authorization design gap",
+      "published": "2026-08-21"
+    },
+    {
+      "id": "autogpt-stale-integration-token",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/14318",
+      "role": "Previously published single-agent credential-freshness report",
+      "published": "2026-09-03"
     }
   ]
 }

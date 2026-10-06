@@ -844,6 +844,41 @@
       "url": "https://metr.org/agent-incidents/",
       "role": "Official structured 44-incident catalog and provenance index",
       "published": "2026-05-19"
+    },
+    {
+      "id": "original-backlog-notification-october",
+      "url": "https://urlquery.net/report/1796063a-2e68-48a8-866f-240ecd4570b9",
+      "role": "Original notification-write record; no recipient, reuse or agent identity established",
+      "event_at": "2026-10-05T17:05:32Z",
+      "observed_at": "2026-10-06T22:43:58Z"
+    },
+    {
+      "id": "original-backlog-notification-june",
+      "url": "https://urlquery.net/report/a15e49aa-9d6d-4311-9588-92df0809da1b",
+      "role": "Original successful notification write; no independent recipient or authorization evidence",
+      "event_at": "2026-06-21T03:26:08Z",
+      "observed_at": "2026-10-06T22:44:21Z"
+    },
+    {
+      "id": "original-backlog-microlink-eu",
+      "url": "https://urlquery.net/report/31043df9-1e80-4c9d-94c7-b81f87081341",
+      "role": "Original encoded known-target reference; decoder gap closed, not a new population",
+      "event_at": "2026-10-04T13:56:49Z",
+      "observed_at": "2026-10-06T22:43:58Z"
+    },
+    {
+      "id": "original-backlog-microlink-bingo",
+      "url": "https://urlquery.net/report/2503c3af-35b1-448b-b081-15859c32ccaf",
+      "role": "Original encoded known-target reference; no inter-agent exchange established",
+      "event_at": "2026-10-04T13:52:52Z",
+      "observed_at": "2026-10-06T22:44:09Z"
+    },
+    {
+      "id": "original-backlog-scalar-proxy",
+      "url": "https://urlquery.net/report/2c157b90-970b-4b89-bdea-087e6b0da68f",
+      "role": "Original response-parsing attempt; captured network does not demonstrate proxy delivery or peer-result use",
+      "event_at": "2026-06-21T14:44:03Z",
+      "observed_at": "2026-10-06T22:44:15Z"
     }
   ]
 }

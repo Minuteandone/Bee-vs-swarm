@@ -47,3 +47,14 @@ python tools/verify_public_messages.py --room kibble --input copied-public-room-
 This verifies at most 200 already-copied public messages against the documented `<room>|<nonce>|<text>` Ed25519 payload. It makes no requests. Modified-text negative controls must fail. Key counts identify distinct verified keys, not models, agents or operators. It does not verify game-internal signatures, unsigned timestamps, task completion or rogue intent. Published observations contain only aggregate checks and hashed reference correlations; the public room may have advanced or expired by a later read.
 
 The carrier decoder also recognizes Pie’s `/base64/` and nghttp2’s `/httpbin/base64/` paths. Other paths and hosts are not evaluated. Date and exclusion search terms require checks against returned timestamps and decoded text; empty indexed-tag searches remain inconclusive.
+
+## Original backlog structure inspection
+
+```sh
+python tools/review_backlog.py --report https://urlquery.net/report/1796063a-2e68-48a8-866f-240ecd4570b9 --output data/new-backlog-inspections.json
+python -m unittest discover -s tools -p test_review_backlog.py -v
+```
+
+Supply up to 30 already existing public report links. The inspector reads only the report's `/json` route and rejects redirects and non-report routes. It inspects carrier text offline without execution, exports operation counts and domain-only recorded requests, and omits titles, payload/message bodies, headers, submitter addresses, tokens and sink topics. One-way channel-reference hashes can correlate recorded endpoints without reading an inbox. Percent-decoded and protocol-relative domain references address gaps in the older listing decoder; they are not agent or transfer/use evidence.
+
+The initial sixteen-record snapshot predates the added reference-domain fields; supplementary checks are recorded separately in `data/original-backlog-assessments.json`. Preserve earlier observations and hashes. Counts, unsupported decodes, repeated endpoints and absent comparison IDs do not establish participant identity, recipient use, operator-boundary crossing or novelty. The four offline regression tests check route restrictions, redirect rejection, redaction and domain-only expansion. They do not execute recovered source or make network requests.

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-06T22:48:14Z",
+  "scope": {
+    "newly_inspected_unique_original_reports": 24,
+    "successful_json_reads": 24,
+    "failed_json_reads": 0,
+    "event_range": ["2026-06-21T02:31:29Z", "2026-10-05T17:05:32Z"],
+    "initial_observation_range": ["2026-10-06T22:43:58Z", "2026-10-06T22:46:46Z"],
+    "previously_inspected_unique_reports": 43,
+    "cumulative_inspected_unique_reports": 67,
+    "listing_population": 1146,
+    "remaining_uninspected_original_reports": 1079,
+    "new_report_exact_id_comparison_absences": 24,
+    "remaining_uninspected_comparison_absences": 715,
+    "new_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Joined the seven listing snapshots by report URL, retained the richest available carrier summary and excluded all 43 previously inspected IDs. Selected eight operation-cue records whose listing references did not expose known targets, eight recent distinct-hash/simple-carrier records to check alternatives, then eight unsupported or redirect-shaped carriers to address decoder gaps. Purposive bounded coverage, not a representative sample or census. All 24 exact IDs were absent from the pinned comparison release; that is not a novelty finding.",
+  "snapshot_hashes": [
+    {"path": "data/original-backlog-structure-reviews.json", "sha256": "d4440f3a8146fa7ff2af30033ebf278589aeb22a739505a55a66556ad961c0a2", "unique_records": 16},
+    {"path": "data/original-backlog-redirect-reviews.json", "sha256": "1dcfa053d0c3fca35288af217d9b742be125cb99e53d72fe59514be566b855ee", "unique_records": 8}
+  ],
+  "assessed_groups": [
+    {
+      "id": "notification_writes_without_recipient",
+      "report_urls": ["https://urlquery.net/report/1796063a-2e68-48a8-866f-240ecd4570b9", "https://urlquery.net/report/a15e49aa-9d6d-4311-9588-92df0809da1b"],
+      "domains": ["ntfy.sh", "ntfy.envs.net"],
+      "assessment": "Each program contains one explicit POST and no response-read operation. Recorded network shows one notification write each, with unknown status for the October record and HTTP 200 for the June record. Their channel-reference digests differ and no recorded consumer appears in this batch. This can be a single actor's notification/output pipeline, not a demonstrated inter-agent handoff.",
+      "task_result_transfer_between_distinct_participants": "not established",
+      "recipient_use": "not observed",
+      "operator_boundary": "unknown",
+      "next_evidence_required": "An already existing public original consumer record with a matching channel reference and observable downstream task use, plus independent trajectory provenance and primary authorization evidence. Do not read the sink inbox or contact participants."
+    },
+    {
+      "id": "hidden_known_target_references",
+      "report_urls": [
+        "https://urlquery.net/report/31043df9-1e80-4c9d-94c7-b81f87081341",
+        "https://urlquery.net/report/2503c3af-35b1-448b-b081-15859c32ccaf",
+        "https://urlquery.net/report/a7279e70-7dfb-46cd-9553-3756e7d2b41a",
+        "https://urlquery.net/report/35ec9f6d-cfcf-4095-9949-d917653b933e",
+        "https://urlquery.net/report/b73bb319-8cd2-421f-9d8c-544b8008eea7",
+        "https://urlquery.net/report/7e107ff6-b73f-45a6-ae1f-8f4f2ff7603f",
+        "https://urlquery.net/report/5b7b792d-b189-4a57-9435-c520491e4830",
+        "https://urlquery.net/report/b2d98e5c-4feb-47e6-8e26-267d165f6f15",
+        "https://urlquery.net/report/8f25dfcd-9bc5-44a6-bdc1-8b7d5a0d1144",
+        "https://urlquery.net/report/0c78bfa4-c8c7-4d00-bb95-4104ec266fa3",
+        "https://urlquery.net/report/06858b36-b295-4943-8249-6b522d804227"
+      ],
+      "assessment": "Seven records expose Amap in recorded network requests. Two Microlink programs expose an encoded Amap reference on a second offline percent-decoding check; the other two records expose Amap in submitted references or newly decoded wrapper text. Listing-level absence of an Amap hostname was a decoder/summary gap, not evidence of a separate population. This pass does not attribute these records to the published fleet, a provider or an operator, and does not establish coordination.",
+      "discovery_eligible_on_current_evidence": false,
+      "next_evidence_required": "Do not revisit merely for timestamps or comparison absence. A follow-up needs a concrete original handoff and provenance that could distinguish a separate episode/population."
+    },
+    {
+      "id": "scalar_proxy_response_attempt",
+      "report_urls": ["https://urlquery.net/report/2c157b90-970b-4b89-bdea-087e6b0da68f"],
+      "domains": ["proxy.scalar.com", "urlquery.net"],
+      "assessment": "Structure contains one POST, one response-read operation and DOM-output references. A second offline URL inspection finds proxy.scalar.com and urlquery.net but no public report locator. Captured network lists only the carrier host; successful proxy delivery, a foreign task result and a second participant are not observed. Response parsing alone is not peer-result reuse.",
+      "operator_boundary": "unknown",
+      "next_evidence_required": "An original captured successful transfer with a specific source result and distinguishable recipient action, plus participant provenance and authorization evidence; never replay the proxy request."
+    },
+    {
+      "id": "local_dom_timer_structure",
+      "report_urls": ["https://urlquery.net/report/1935afc7-2cc0-407b-8338-609872297569", "https://urlquery.net/report/26e7c1ea-5419-4013-842b-b86311b5def0"],
+      "assessment": "DOM/timer references without supported fetch, XHR, socket or response-read operations; captured network lists only the carrier. No inter-participant task dependency is visible. This does not authenticate the originator or exhaust unsupported encodings."
+    },
+    {
+      "id": "simple_carriers_without_exchange_evidence",
+      "report_urls": ["https://urlquery.net/report/fbdf3dda-b72a-40b6-9a23-d37e7b044b3d", "https://urlquery.net/report/187e4c8e-9744-43e7-80d2-f893f7bdefd3", "https://urlquery.net/report/05c267cb-ddb1-4fb5-b306-25c684809ed2", "https://urlquery.net/report/efe84599-1619-41f5-9ac4-91e457d49f35", "https://urlquery.net/report/08526308-22e6-416c-936d-8ec97dde73e3"],
+      "assessment": "Small carrier text without supported inter-participant operation cues. One example.com request returns 404; another carrier request returns 400. Remaining requests are carrier-only. No transferred task result or recipient reuse is demonstrated. Distinct hashes do not identify distinct agents."
+    },
+    {
+      "id": "unsupported_or_echo_routes",
+      "report_urls": ["https://urlquery.net/report/c0629e03-63da-4531-9b91-c327faf51a63", "https://urlquery.net/report/1aa4d5a6-a7e4-4d0a-80a6-542ff8af692d", "https://urlquery.net/report/0516d3aa-4ab7-43f9-81d4-6f84e2bbcb20"],
+      "assessment": "Supported carrier decoding extracts no program. Captured network is carrier-only except for ordinary font domains in one record. These are bounded negative observations, not proof that the records are unrelated to agents. Transfer/use and originator identity remain unestablished."
+    }
+  ],
+  "supplemental_domain_checks": [
+    {"report_url": "https://urlquery.net/report/31043df9-1e80-4c9d-94c7-b81f87081341", "observed_at": "2026-10-06T22:45:58Z", "expanded_domains": ["amap-pc-ssr.amap.com", "api.microlink.io", "eu.httpbin.org"], "report_json_sha256": "f2fe29e2a105d0a8c813f5282602c625aed8300702c70ee41a81d799b9879b2c"},
+    {"report_url": "https://urlquery.net/report/2503c3af-35b1-448b-b081-15859c32ccaf", "observed_at": "2026-10-06T22:45:58Z", "expanded_domains": ["amap-pc-ssr.amap.com", "api.microlink.io", "httpbingo.org"], "report_json_sha256": "d41f83a0d568d89c60685edb056e39bd5efc7f3f488c93f94c6afe1676ea6242"},
+    {"report_url": "https://urlquery.net/report/2c157b90-970b-4b89-bdea-087e6b0da68f", "observed_at": "2026-10-06T22:47:00Z", "expanded_domains": ["proxy.scalar.com", "urlquery.net"], "referenced_public_report_links": [], "report_json_sha256": "673e7b450b890751999ccbecbcefe52b08c720d0cb8cc09b4656eae1873b7834"}
+  ],
+  "novelty_audit": {
+    "performed": ["Exact-ID join against the pinned Transluce release", "Known-target/family comparison with repository exclusions", "Original-network and encoded-reference inspection rather than keyword-only matching"],
+    "not_performed": "No broad prior-reporting search for a new swarm because no concrete inter-participant transfer/use candidate emerged. Do not assert that these episodes are previously unreported or that nobody knows about them."
+  },
+  "attribution_and_activity": "No participant identity, model/provider identity, rogue intent, operator-boundary violation or current ongoing activity is established for this sample. Historical event dates and new observation dates are separate.",
+  "next_trail": {
+    "status": "unreviewed queue only; not candidate evidence",
+    "next_record_urls": ["https://urlquery.net/report/12499288-e7cb-4435-b9be-224a5e084ab4", "https://urlquery.net/report/7cc928e6-0b14-4e9c-ae80-c1605aeaafaf", "https://urlquery.net/report/e870affa-9524-4eb6-9993-2bdabe1037c8", "https://urlquery.net/report/cfbfd923-4dfc-447c-88cc-b35a3f3aa7de"],
+    "rotation_rule": "Triage embedded references first. If these are more known-target wrappers without a plausible task handoff, record the exclusion and rotate into other existing public original-record gaps rather than expanding the same carrier family or returning to paper surveys. Preserve the 1,079-record remaining backlog; lower priority does not mean fully reviewed."
+  },
+  "safety": "Only existing report JSON routes were read. No recovered program, submitted carrier, recorded request, sink inbox or target was opened or executed. No scans, messages, accounts, votes or participant contact. Payloads, carrier URLs, sink topics, response bodies, addresses and tokens are omitted; channel equality uses one-way digests only."
+}

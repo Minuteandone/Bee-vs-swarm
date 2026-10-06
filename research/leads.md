@@ -50,3 +50,9 @@ Direction corrected on 6 October: the active target is previously unrecognized c
 The observed carrier programs and recorded requests point to Amap. Neither the absence of a `claude` tag nor similarities to the published programs identify the submitter. A new scanner timestamp establishes a new record, not a new agent population. The public comparison survey already logged afternoon activity, so the later timestamps do not establish first publication by this project.
 
 Static `.text()`/`.json()` calls parse responses; they do not prove the agent read another agent's message. Likewise, writing results to a webhook can be one agent's own retrieval pipeline. No checked record establishes the transfer of a result between distinct agents.
+
+## Bounded original-record coverage — 6 October
+
+The [original backlog assessments](../data/original-backlog-assessments.json) preserve 24 newly inspected public scanner records, not 24 new leads or agents. Eleven resolve to known-target references/traffic; two notification writes have no observed recipient or reuse; one proxy response-reading attempt has no captured successful delivery; the other ten preserve no concrete task-result exchange in the inspected structures/network records. All 24 IDs are absent from the pinned comparison release, which does not establish novelty. No new candidate ID is assigned.
+
+For the notification records, advancement requires an already existing public consumer record tied to the write and visible downstream task use, independently distinguishable trajectories and operator-boundary evidence. For the proxy record, a specific captured successful source-to-recipient result transfer is missing. Sink inbox reads, contact and replay are prohibited. Unsupported decodes remain limitations rather than proof of no agent activity.

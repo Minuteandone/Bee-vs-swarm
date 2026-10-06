@@ -466,6 +466,42 @@
       "url": "https://github.com/a2aproject/a2a-python/issues/585",
       "role": "Previously published and fixed push-notification sender authentication control",
       "published": "2025-12-11"
+    },
+    {
+      "id": "agent-framework-unreproduced-wrong-participant-approval",
+      "url": "https://github.com/microsoft/agent-framework/issues/8247",
+      "role": "Previously published wrong-participant approval claim; not reproduced and withdrawn for investigation",
+      "published": "2026-09-10"
+    },
+    {
+      "id": "agent-framework-batch-order-approval-bypass",
+      "url": "https://github.com/microsoft/agent-framework/issues/8079",
+      "role": "Previously published reproduced single-agent tool-approval ordering control",
+      "published": "2026-09-04"
+    },
+    {
+      "id": "agent-framework-wrong-branch-checkpoint-results",
+      "url": "https://github.com/microsoft/agent-framework/issues/8292",
+      "role": "Previously published deterministic workflow replay result-misassociation control",
+      "published": "2026-09-11"
+    },
+    {
+      "id": "agent-framework-wrong-bot-telegram-command",
+      "url": "https://github.com/microsoft/agent-framework/issues/8802",
+      "role": "Previously published parser-level wrong-recipient bot-command control",
+      "published": "2026-09-28"
+    },
+    {
+      "id": "pydanticai-concurrent-caller-auth-context",
+      "url": "https://github.com/pydantic/pydantic-ai/issues/6411",
+      "role": "Previously published concurrent caller authentication-context isolation control",
+      "published": "2026-07-10"
+    },
+    {
+      "id": "pydanticai-duplicate-tool-call-dispatch",
+      "url": "https://github.com/pydantic/pydantic-ai/issues/8776",
+      "role": "Previously published duplicate tool-call identifier execution and audit-history control",
+      "published": "2026-09-25"
     }
   ]
 }

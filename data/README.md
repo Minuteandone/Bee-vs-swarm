@@ -40,6 +40,7 @@ Raw submitted URLs, sink paths/topics, credentials, submitter addresses and resp
 | `apify-store-followup.json` | Eight public Apify Store metadata searches, 58 unique Actor IDs and nine selected assessments; no Actor, run, input, output or dataset opened. |
 | `github-issues-followup.json` | Four newest-sorted GitHub issue searches, 80 returned rows and four selected assessments of unexpected delegation, cross-session interference and a single-agent incident. |
 | `codex-orchestration-incidents-followup.json` | Four repository-scoped searches, 53 unique Codex issues and three selected multi-agent boundary-failure assessments; all selected episodes were already public. |
+| `misrouted-agent-messages-followup.json` | Four repository-scoped searches, 70 unique Codex issues and three selected wrong-recipient/result-routing assessments; no private transcripts or reproduction. |
 | `novelty-comparison-followup.json` | Exact-ID comparison and metrics for all seven scanner snapshots. |
 
 Across all seven scanner snapshots: **1,146 distinct IDs**, 382 comparison overlaps and 764 absences. Earlier `novelty-comparison.json` intentionally preserves the first pass’s 907-ID scope. The original-review files cover 43 distinct IDs. Registry, wiki and chat counts are separate populations of artifacts and must not be summed as agents.

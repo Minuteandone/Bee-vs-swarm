@@ -430,6 +430,42 @@
       "url": "https://github.com/google/adk-python/issues/5462",
       "role": "Previously published parallel cross-agent shared-state routing control",
       "published": "2026-04-23"
+    },
+    {
+      "id": "a2a-python-stale-request-context",
+      "url": "https://github.com/a2aproject/a2a-python/issues/1316",
+      "role": "Newly published controlled cross-request identity and token-context isolation defect",
+      "published": "2026-10-05"
+    },
+    {
+      "id": "aws-agentcore-a2a-stale-request-context",
+      "url": "https://github.com/aws/bedrock-agentcore-sdk-python/issues/690",
+      "role": "Previously published downstream controlled reproduction of A2A per-task stale request context",
+      "published": "2026-10-02"
+    },
+    {
+      "id": "a2a-production-stream-truncation",
+      "url": "https://github.com/a2aproject/A2A/issues/2130",
+      "role": "Previously published production-shaped partial result-transfer and terminal-state control",
+      "published": "2026-08-12"
+    },
+    {
+      "id": "a2a-first-message-idempotency-gap",
+      "url": "https://github.com/a2aproject/A2A/issues/928",
+      "role": "Previously published potential duplicate-task retry design control",
+      "published": "2025-07-28"
+    },
+    {
+      "id": "a2a-js-result-object-race",
+      "url": "https://github.com/a2aproject/a2a-js/issues/412",
+      "role": "Previously published same-task result-object mutation and race control",
+      "published": "2026-04-15"
+    },
+    {
+      "id": "a2a-python-push-authentication-gap",
+      "url": "https://github.com/a2aproject/a2a-python/issues/585",
+      "role": "Previously published and fixed push-notification sender authentication control",
+      "published": "2025-12-11"
     }
   ]
 }

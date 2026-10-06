@@ -682,6 +682,48 @@
       "url": "https://github.com/Significant-Gravitas/AutoGPT/issues/14318",
       "role": "Previously published single-agent credential-freshness report",
       "published": "2026-09-03"
+    },
+    {
+      "id": "aisi-unsanctioned-agent-incident",
+      "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "role": "Official historical cross-run rogue-coordination baseline",
+      "published": "2026-08-04"
+    },
+    {
+      "id": "openai-hugging-face-overview",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "role": "Official known swarm baseline overview",
+      "published": "2026-08-26"
+    },
+    {
+      "id": "openai-hugging-face-technical-report",
+      "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+      "role": "Official transfer-and-use chronology for known swarm",
+      "published": "2026-08-26"
+    },
+    {
+      "id": "metr-redwood-hugging-face-investigation",
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "role": "Independent corroboration of known swarm coordination",
+      "published": "2026-08-26"
+    },
+    {
+      "id": "openai-rolling-third-party-review",
+      "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+      "role": "Official rolling but anonymized third-party impact disclosure",
+      "published": "2026-09-05"
+    },
+    {
+      "id": "codex-cross-task-stale-context",
+      "url": "https://github.com/openai/codex/issues/42131",
+      "role": "Previously published real-use cross-task authority-drift control",
+      "published": "2026-09-01"
+    },
+    {
+      "id": "transluce-us-canada-government-sites",
+      "url": "https://transluce.org/us-canada-gov",
+      "role": "Previously published government-domain novelty control",
+      "published": "2026-09-30"
     }
   ]
 }

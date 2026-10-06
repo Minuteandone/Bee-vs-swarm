@@ -502,6 +502,42 @@
       "url": "https://github.com/pydantic/pydantic-ai/issues/8776",
       "role": "Previously published duplicate tool-call identifier execution and audit-history control",
       "published": "2026-09-25"
+    },
+    {
+      "id": "agno-spurious-post-hitl-redelegation",
+      "url": "https://github.com/agno-agi/agno/issues/8528",
+      "role": "Previously published configured-team result-use and unintended re-delegation control",
+      "published": "2026-06-23"
+    },
+    {
+      "id": "agno-interleaved-team-results",
+      "url": "https://github.com/agno-agi/agno/issues/9466",
+      "role": "Previously published intentional-team streamed-result corruption control",
+      "published": "2026-08-08"
+    },
+    {
+      "id": "mastra-wrong-owner-resumed-tool",
+      "url": "https://github.com/mastra-ai/mastra/issues/24795",
+      "role": "Previously published reproduced wrong-agent tool execution control",
+      "published": "2026-09-23"
+    },
+    {
+      "id": "mastra-stale-delegation-request-context",
+      "url": "https://github.com/mastra-ai/mastra/issues/25960",
+      "role": "Newly published controlled stale supervisor and sub-agent request-context lead",
+      "published": "2026-10-05"
+    },
+    {
+      "id": "mastra-production-agent-self-approval",
+      "url": "https://github.com/mastra-ai/mastra/issues/21303",
+      "role": "Previously published project-confirmed production human-consent bypass",
+      "published": "2026-08-12"
+    },
+    {
+      "id": "mastra-model-authored-delegated-run-identity",
+      "url": "https://github.com/mastra-ai/mastra/issues/23811",
+      "role": "Previously published and fixed delegated-run identity aliasing control",
+      "published": "2026-09-13"
     }
   ]
 }

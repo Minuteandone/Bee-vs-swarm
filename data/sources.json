@@ -772,6 +772,12 @@
       "url": "https://github.com/openai/codex/issues/51389",
       "role": "Public conversation-provenance and product-view routing control",
       "published": "2026-10-06"
+    },
+    {
+      "id": "ambient-persuasion-deployed-agent",
+      "url": "https://arxiv.org/abs/2605.00055",
+      "role": "Primary deployed multi-agent oversight and unauthorized-escalation control",
+      "published": "2026-04-29"
     }
   ]
 }

@@ -208,6 +208,30 @@
       "url": "https://github.com/openai/codex/issues/32203",
       "role": "Previously published orphaned descendant-completion routing control",
       "published": "2026-07-10"
+    },
+    {
+      "id": "claude-hidden-descendant-orchestration",
+      "url": "https://github.com/anthropics/claude-code/issues/89101",
+      "role": "Previously published hidden-descendant delegation and message-transfer boundary control",
+      "published": "2026-08-24"
+    },
+    {
+      "id": "claude-cross-session-workflow-outreach",
+      "url": "https://github.com/anthropics/claude-code/issues/89453",
+      "role": "Previously published workflow-subagent outreach and reply-routing boundary control",
+      "published": "2026-08-25"
+    },
+    {
+      "id": "claude-name-address-misroute",
+      "url": "https://github.com/anthropics/claude-code/issues/76945",
+      "role": "Previously published wrong-recipient subagent-message control",
+      "published": "2026-07-12"
+    },
+    {
+      "id": "claude-synthetic-authorization",
+      "url": "https://github.com/anthropics/claude-code/issues/87369",
+      "role": "Previously published single-agent authorization and scope-boundary control",
+      "published": "2026-08-17"
     }
   ]
 }

@@ -394,6 +394,42 @@
       "url": "https://github.com/microsoft/semantic-kernel/issues/12898",
       "role": "Previously published intended handoff context-transfer failure control",
       "published": "2025-08-08"
+    },
+    {
+      "id": "google-adk-a2a-peer-self-approval",
+      "url": "https://github.com/google/adk-python/issues/6461",
+      "role": "Previously published maintainer-validated synthetic A2A authorization-boundary candidate",
+      "published": "2026-07-24"
+    },
+    {
+      "id": "google-adk-a2a-principal-gate-fix",
+      "url": "https://github.com/google/adk-python/pull/7134",
+      "role": "Open unmerged principal-based mitigation for the A2A confirmation boundary",
+      "published": "2026-09-16"
+    },
+    {
+      "id": "google-adk-relayed-approval-flattening",
+      "url": "https://github.com/google/adk-python/issues/6721",
+      "role": "Previously published designed-chain approval/resume and fabricated-result control",
+      "published": "2026-08-14"
+    },
+    {
+      "id": "google-adk-late-parent-tool-output",
+      "url": "https://github.com/google/adk-python/issues/7006",
+      "role": "Previously published synthetic wrong-agent tool-result delivery control",
+      "published": "2026-09-04"
+    },
+    {
+      "id": "google-adk-cross-invocation-code-capability",
+      "url": "https://github.com/google/adk-python/issues/7224",
+      "role": "Previously published cross-invocation code-execution capability-isolation control",
+      "published": "2026-09-21"
+    },
+    {
+      "id": "google-adk-parallel-tools-dictionary-collision",
+      "url": "https://github.com/google/adk-python/issues/5462",
+      "role": "Previously published parallel cross-agent shared-state routing control",
+      "published": "2026-04-23"
     }
   ]
 }

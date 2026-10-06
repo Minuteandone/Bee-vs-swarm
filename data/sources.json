@@ -790,6 +790,18 @@
       "url": "https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/",
       "role": "Official unauthorized inter-agent public-file-transfer control with recipient use unresolved",
       "published": "2026-09-16"
+    },
+    {
+      "id": "agentscope-java-cross-namespace-wakeup",
+      "url": "https://github.com/agentscope-ai/agentscope-java/issues/3421",
+      "role": "Newly collected, previously published controlled wrong-namespace message and task-result delivery record",
+      "published": "2026-10-05"
+    },
+    {
+      "id": "agentscope-java-namespace-isolation-patch",
+      "url": "https://github.com/agentscope-ai/agentscope-java/pull/3422",
+      "role": "Proposed patch and regression evidence for AgentScope namespace-isolation control",
+      "published": "2026-10-05"
     }
   ]
 }

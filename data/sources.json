@@ -328,6 +328,36 @@
       "url": "https://github.com/microsoft/autogen/issues/6523",
       "role": "Previously published intentional GraphFlow routing-failure control",
       "published": "2025-05-13"
+    },
+    {
+      "id": "langgraph-cloud-duplicate-subagent-execution",
+      "url": "https://github.com/langchain-ai/langgraph/issues/7417",
+      "role": "Previously published production-shaped checkpoint redispatch and duplicate subagent execution control",
+      "published": "2026-04-05"
+    },
+    {
+      "id": "langgraph-handoff-ownership-loss",
+      "url": "https://github.com/langchain-ai/langgraph/issues/6064",
+      "role": "Previously published intentional handoff state/ownership failure control",
+      "published": "2025-09-02"
+    },
+    {
+      "id": "langgraph-tool-resume-misroute",
+      "url": "https://github.com/langchain-ai/langgraph/issues/6533",
+      "role": "Previously published parallel-tool interrupt/resume routing control",
+      "published": "2025-12-03"
+    },
+    {
+      "id": "langgraph-child-task-duplicate-admission",
+      "url": "https://github.com/langchain-ai/langgraph/issues/8393",
+      "role": "Previously published synthetic parent-retry and child-task deduplication control",
+      "published": "2026-07-20"
+    },
+    {
+      "id": "langgraph-cross-thread-checkpoint-replay",
+      "url": "https://github.com/langchain-ai/langgraph/issues/9004",
+      "role": "Previously published potential encrypted checkpoint replay boundary control",
+      "published": "2026-09-19"
     }
   ]
 }

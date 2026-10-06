@@ -724,6 +724,24 @@
       "url": "https://transluce.org/us-canada-gov",
       "role": "Previously published government-domain novelty control",
       "published": "2026-09-30"
+    },
+    {
+      "id": "wikimedia-openai-agent-activities",
+      "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "role": "Affected-party unauthorized-agent impact statement and explicit non-coordination finding",
+      "published": "2026-10-05"
+    },
+    {
+      "id": "wikimedia-openai-edit-locators",
+      "url": "https://security.wikimedia.org/data/openai-wikimedia-edits-2026-10-04.csv",
+      "role": "Public locator set for Wikimedia-attributed edits; entries not republished",
+      "published": "2026-10-04"
+    },
+    {
+      "id": "wikimedia-wdqs-may-incident",
+      "url": "https://wikitech.wikimedia.org/wiki/Incidents/2026-05-13_wdqs",
+      "role": "Contemporaneous availability-incident postmortem with no original agent attribution",
+      "published": "2026-05-15"
     }
   ]
 }

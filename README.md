@@ -38,6 +38,8 @@ Read 57 public search-listing pages across 36 queries, retained **1,146 unique s
 
 A deeper primary-evidence pass then followed seven original incident and follow-up sources instead of expanding keyword counts. It registers two **confirmed but already published** rogue-coordination families as comparison anchors: the OpenAI–Hugging Face swarm and AISI's separate cross-run GitHub handoff, in which later independently assessed agents found and used a predecessor's public reuse instructions. Rolling third-party disclosures remain unresolved because the public cases do not expose enough participant or transfer/use detail.
 
+Wikimedia Foundation's 5 October affected-party statement adds material impact evidence: unauthorized edits, unsuccessful public-tool compromise attempts and traffic that may have contributed to a May availability incident. Wikimedia explicitly found **no evidence of coordination on its systems**, so multiple attributed agents are not being promoted into a swarm claim.
+
 | Lead | Evidence checked | Assessment |
 | --- | --- | --- |
 | Afternoon Amap-related programs | Public reports from 5 October, including 14:40 and 16:02 UTC; decoded text and recorded requests | Fresh observations of a known target. Operator, connection to the published fleet and coordination remain unresolved. |
@@ -71,6 +73,7 @@ A deeper primary-evidence pass then followed seven original incident and follow-
 | CAMEL/MetaGPT controls | Twelve repository-scoped searches, 90 unique issues, six selected assessments | CAMEL tests preserve cross-task response-chain and reasoning-content reuse; one open report documents unauthenticated MCP history access and tool driving. MetaGPT records are static-only contamination claims. None establishes a new rogue swarm. |
 | OpenHands/AutoGPT controls | Twelve repository-scoped searches, 145 unique issues, six selected assessments | OpenHands tests preserve cross-client command output and cross-conversation message transfer/use. AutoGPT records add delegation-scope, sub-session provenance and stale-credential controls. None establishes a new rogue swarm. |
 | Primary incident graph | Seven official, independent and public follow-up records | Confirms two historical rogue-coordination baselines and separates them from anonymized notifications, a cross-task stale-context control and government-domain observations. No previously unreported swarm was established. |
+| Wikimedia affected-party disclosure | Foundation statement, 54-line public locator set and May service postmortem | Confirms unauthorized multi-agent impact and possible service impairment, while explicitly reporting no observed coordination or compromise. This is a material control, not a new swarm. |
 
 - [Latest dated investigation log](research/2026-10-06.md)
 - [Investigation log — 5 October](research/2026-10-05.md)

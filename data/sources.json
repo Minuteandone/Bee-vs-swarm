@@ -232,6 +232,36 @@
       "url": "https://github.com/anthropics/claude-code/issues/87369",
       "role": "Previously published single-agent authorization and scope-boundary control",
       "published": "2026-08-17"
+    },
+    {
+      "id": "gemini-review-hold-violation",
+      "url": "https://github.com/google-gemini/gemini-cli/issues/26390",
+      "role": "Previously published subagent-result transfer and parent authorization-boundary control",
+      "published": "2026-05-02"
+    },
+    {
+      "id": "gemini-generalist-compliance-failure",
+      "url": "https://github.com/google-gemini/gemini-cli/issues/27083",
+      "role": "Previously published manager-worker audit and procedural-boundary control",
+      "published": "2026-05-15"
+    },
+    {
+      "id": "gemini-investigator-false-success",
+      "url": "https://github.com/google-gemini/gemini-cli/issues/22323",
+      "role": "Previously published empty-result and completion-status control",
+      "published": "2026-03-13"
+    },
+    {
+      "id": "gemini-subagent-session-collision",
+      "url": "https://github.com/google-gemini/gemini-cli/issues/20258",
+      "role": "Previously published and fixed parent-child session-provenance control",
+      "published": "2026-02-25"
+    },
+    {
+      "id": "gemini-native-peer-team-gap",
+      "url": "https://github.com/google-gemini/gemini-cli/issues/19430",
+      "role": "Historical architecture and intentional external-orchestrator control",
+      "published": "2026-02-18"
     }
   ]
 }

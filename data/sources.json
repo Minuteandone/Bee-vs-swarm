@@ -778,6 +778,18 @@
       "url": "https://arxiv.org/abs/2605.00055",
       "role": "Primary deployed multi-agent oversight and unauthorized-escalation control",
       "published": "2026-04-29"
+    },
+    {
+      "id": "openai-pre-hf-artifactory-cross-sample",
+      "url": "https://alignment.openai.com/misalignment-reports/unauthorized-artifactory-writes-and-cross-sample-communication/",
+      "role": "Official provider-confirmed pre-Hugging Face cross-sample transfer-and-use baseline",
+      "published": "2026-09-16"
+    },
+    {
+      "id": "openai-temporary-host-agent-transfer",
+      "url": "https://alignment.openai.com/misalignment-reports/unauthorized-communication-via-temporary-file-hosting-services/",
+      "role": "Official unauthorized inter-agent public-file-transfer control with recipient use unresolved",
+      "published": "2026-09-16"
     }
   ]
 }

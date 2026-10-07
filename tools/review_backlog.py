@@ -14,7 +14,7 @@ import json
 from pathlib import Path
 import re
 from urllib.error import HTTPError
-from urllib.parse import unquote, urlsplit
+from urllib.parse import parse_qs, unquote, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 from hunt import nested_text, now, summarize
@@ -48,6 +48,74 @@ FIELDS = (
     "referenced_hosts", "features", "swarm_confirmed",
 )
 CHANNEL_DOMAINS = {"ntfy.sh", "ntfy.envs.net", "webhook.site"}
+STATE_DOMAINS = {"api.countapi.xyz"}
+STATE_OPERATIONS = {
+    "create": "write",
+    "get": "read",
+    "hit": "read_modify_write",
+    "info": "read",
+    "set": "write",
+    "update": "read_modify_write",
+}
+
+
+def add_archived_body_metadata(reference, recorded):
+    """Add bounded metadata, never archived request or response content."""
+    request_raw = recorded.get("request", {}).get("raw")
+    if isinstance(request_raw, str):
+        parts = re.split(r"\r?\n\r?\n", request_raw, maxsplit=1)
+        reference["recorded_request_body_characters"] = (
+            len(parts[1]) if len(parts) == 2 else 0
+        )
+    response_data = recorded.get("response", {}).get("data")
+    if isinstance(response_data, dict):
+        response_size = response_data.get("size")
+        if isinstance(response_size, int) and response_size >= 0:
+            reference["recorded_response_body_bytes"] = response_size
+        response_sha256 = response_data.get("sha256")
+        if isinstance(response_sha256, str) and re.fullmatch(
+            r"[0-9a-fA-F]{64}", response_sha256
+        ):
+            reference["recorded_response_body_sha256"] = response_sha256.lower()
+    recorded_at = recorded.get("date")
+    if isinstance(recorded_at, str) and re.fullmatch(
+        r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,9})?Z",
+        recorded_at,
+    ):
+        reference["recorded_at"] = recorded_at
+
+
+def countapi_state_reference(raw_ref):
+    """Return a one-way counter-key reference without exposing its path."""
+    parsed = urlsplit(
+        raw_ref if raw_ref.startswith(("https://", "http://"))
+        else "https://" + raw_ref
+    )
+    segments = [unquote(part) for part in parsed.path.split("/") if part]
+    # Older urlquery captures can prefix the HTTP path with the request host.
+    # Remove that recorder artifact before classifying the API operation.
+    while segments and parsed.hostname and segments[0].lower() == parsed.hostname.lower():
+        segments.pop(0)
+    if not segments:
+        return None
+    operation = segments[0].lower()
+    if operation not in STATE_OPERATIONS:
+        return None
+    if operation == "create":
+        query = parse_qs(parsed.query, keep_blank_values=True)
+        namespace = query.get("namespace", [""])[0]
+        key = query.get("key", [""])[0]
+        identifier = "/".join(part for part in (namespace, key) if part)
+    else:
+        identifier = "/".join(segments[1:])
+    if not identifier:
+        return None
+    normalized = parsed.hostname.lower().rstrip(".") + "/" + identifier.rstrip("/")
+    return {
+        "state_ref_sha256": hashlib.sha256(normalized.encode()).hexdigest(),
+        "recorded_operation": operation,
+        "recorded_effect": STATE_OPERATIONS[operation],
+    }
 
 
 def public_host(host):
@@ -109,7 +177,7 @@ def inspect_report(report_url):
             key: len(re.findall(pattern, source, re.I))
             for key, pattern in COUNTS.items()
         }
-        network, channels = Counter(), []
+        network, channels, states = Counter(), [], []
         for recorded in data.get("http", []):
             host = recorded.get("url", {}).get("fqdn")
             if not isinstance(host, str) or not re.fullmatch(r"[A-Za-z0-9.-]{1,253}", host):
@@ -136,39 +204,27 @@ def inspect_report(report_url):
                 # Preserve only whether the archived request contains a body,
                 # never its value.  Some scanner records omit request bodies,
                 # so zero means "not preserved here", not necessarily "none
-                # was sent".
-                request_raw = recorded.get("request", {}).get("raw")
-                if isinstance(request_raw, str):
-                    parts = re.split(r"\r?\n\r?\n", request_raw, maxsplit=1)
-                    channel["recorded_request_body_characters"] = (
-                        len(parts[1]) if len(parts) == 2 else 0
-                    )
-                # Reuse the scanner's one-way response-body digest and size;
-                # omit response content and all headers.  These fields can
-                # falsify a claimed transfer when the archived response body
-                # is explicitly empty, but cannot prove semantic use.
-                response_data = recorded.get("response", {}).get("data")
-                if isinstance(response_data, dict):
-                    response_size = response_data.get("size")
-                    if isinstance(response_size, int) and response_size >= 0:
-                        channel["recorded_response_body_bytes"] = response_size
-                    response_sha256 = response_data.get("sha256")
-                    if isinstance(response_sha256, str) and re.fullmatch(
-                        r"[0-9a-fA-F]{64}", response_sha256
-                    ):
-                        channel["recorded_response_body_sha256"] = response_sha256.lower()
-                recorded_at = recorded.get("date")
-                if isinstance(recorded_at, str) and re.fullmatch(
-                    r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,9})?Z",
-                    recorded_at,
-                ):
-                    channel["recorded_at"] = recorded_at
+                # was sent".  Response size/hash can falsify an asserted
+                # transfer but cannot establish semantic use.
+                add_archived_body_metadata(channel, recorded)
                 channels.append(channel)
+            if host in STATE_DOMAINS:
+                raw_ref = addr(recorded.get("url", {}))
+                state = countapi_state_reference(raw_ref)
+                if state:
+                    state.update({
+                        "host": host,
+                        "recorded_method": method,
+                        "recorded_status": status,
+                    })
+                    add_archived_body_metadata(state, recorded)
+                    states.append(state)
         result["recorded_network_summary"] = [
             {"host": key[0], "method": key[1], "status": key[2], "count": value}
             for key, value in sorted(network.items())
         ]
         result["recorded_channel_references"] = channels
+        result["recorded_state_references"] = states
         result["review_status"] = "structure_read_requires_manual_assessment"
         return result
     except (OSError, ValueError, KeyError, TypeError) as exc:

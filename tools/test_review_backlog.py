@@ -64,6 +64,36 @@ class BacklogReviewTests(unittest.TestCase):
         self.assertEqual(result["expanded_domain_references"], ["example.com", "example.net"])
         self.assertNotIn("DO_NOT_EXPORT", json.dumps(result))
 
+    def test_hashes_countapi_key_without_exporting_path_or_values(self):
+        data = {
+            "date": "2026-01-08T12:48:00Z",
+            "submit": {"url": {"addr": "https://example.com/"}},
+            "http": [{
+                "date": "2026-01-08T12:47:59.500Z",
+                "url": {
+                    "fqdn": "api.countapi.xyz",
+                    "addr": "api.countapi.xyz/hit/DO_NOT_EXPORT_NAMESPACE/DO_NOT_EXPORT_KEY?amount=DO_NOT_EXPORT_VALUE",
+                },
+                "request": {"method": "GET", "raw": "GET / HTTP/1.1\r\n\r\n"},
+                "response": {"status_code": 200, "data": {
+                    "size": 34,
+                    "sha256": "a" * 64,
+                    "data": "DO_NOT_EXPORT_RESPONSE",
+                }},
+            }],
+        }
+        with patch("review_backlog.build_opener") as opener:
+            opener.return_value.open.return_value = io.BytesIO(json.dumps(data).encode())
+            result = inspect_report("https://urlquery.net/report/1796063a-2e68-48a8-866f-240ecd4570b9")
+        published = json.dumps(result)
+        self.assertNotIn("DO_NOT_EXPORT", published)
+        state = result["recorded_state_references"][0]
+        self.assertEqual(state["recorded_operation"], "hit")
+        self.assertEqual(state["recorded_effect"], "read_modify_write")
+        self.assertEqual(len(state["state_ref_sha256"]), 64)
+        self.assertEqual(state["recorded_response_body_bytes"], 34)
+        self.assertEqual(state["recorded_response_body_sha256"], "a" * 64)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,2425 @@
+{
+  "collected_at": "2026-10-07T15:20:47Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/0a619e61-b2be-451e-a4fd-83976a24b8d2",
+      "event_at": "2026-05-06T20:22:12Z",
+      "observed_at": "2026-10-07T15:19:01Z",
+      "submitted_host": "indovideos.icu",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0ffc7e793bafe7240b412813dff85e57a65eb7c738cd9d9d747bd30fa5ffb46b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn-fc.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.indovideos.icu",
+          "method": "GET",
+          "status": "200",
+          "count": 160
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.tsyndicate.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "fh-wgt.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ic-nss.flixcdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "indovideos.icu",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "pxl-eu.tsyndicate.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "tsyndicate.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/12106c8e-c4e4-4481-9f46-9591a8b784da",
+      "event_at": "2026-09-05T04:53:42Z",
+      "observed_at": "2026-10-07T15:19:01Z",
+      "submitted_host": "confirmation-de-vos-rendezvous-securise-leboncoin.fr",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "20c43c6e51d44321b8565516760094fbe2267d06334ce3071817f37065d7f8bf",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "confirmation-de-vos-rendezvous-securise-leboncoin.fr",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "confirmation-de-vos-rendezvous-securise-leboncoin.fr",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/181f048f-26e7-49d0-958b-2a2f93d3707a",
+      "event_at": "2026-07-14T18:26:20Z",
+      "observed_at": "2026-10-07T15:19:08Z",
+      "submitted_host": "andyday.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aa3edee2eaf1246f87721aa4342fe938ad856cac2ebf53bcbdd69bab9c2b6c3f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "andyday.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "assets.squarespace.com",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        },
+        {
+          "host": "images.squarespace-cdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 144
+        },
+        {
+          "host": "p.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "static1.squarespace.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "use.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "www.andyday.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.andyday.com",
+          "method": "GET",
+          "status": "302",
+          "count": 3
+        },
+        {
+          "host": "www.andyday.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1cf52665-b62a-4d51-a5ba-098b2109773d",
+      "event_at": "2026-07-02T20:40:33Z",
+      "observed_at": "2026-10-07T15:19:10Z",
+      "submitted_host": "wellingtonreview.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4aa725fb99978ccb7ac6234592c6c70415be6545288f3fdc856df2f04661bc2d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "wellingtonreview.org",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1f3f866b-164b-488b-a6ba-46bd642c8cb4",
+      "event_at": "2026-05-17T20:58:27Z",
+      "observed_at": "2026-10-07T15:19:26Z",
+      "submitted_host": "www.bacobooking.fr",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "39372e49185ac520e6047638ddd2749a061f7aad354bf10392d05a70a5eef437",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "bacobooking.fr",
+          "method": "GET",
+          "status": "200",
+          "count": 97
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "code.jquery.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "preprodrecords.agencethrive.fr",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "www.bacobooking.fr",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/23ea95d9-814c-4b34-8062-ecae5c0983b3",
+      "event_at": "2026-05-02T16:40:46Z",
+      "observed_at": "2026-10-07T15:19:30Z",
+      "submitted_host": "sexvid.click",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f0b26a0ae90e065e0b6efb26531bb1a861089f7596084fa5d56daf8bab15e450",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "29629000-33661-ex.uncocleypercha.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "33661.2467april2024.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "33661.chauffermotter.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "a.magsrv.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "ads.google.com",
+          "method": "HEAD",
+          "status": "429",
+          "count": 1
+        },
+        {
+          "host": "s.magsrv.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "s.magsrv.com",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "sexvid.click",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "sexvid.click",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "sp0.baidu.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "tdska.cfd",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "tdska.cfd",
+          "method": "GET",
+          "status": "404",
+          "count": 4
+        },
+        {
+          "host": "thumbs1.sexvid.click",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "z6v2p9a8.bkcdn.net",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "z6v2p9a8.bkcdn.net",
+          "method": "GET",
+          "status": "206",
+          "count": 4
+        },
+        {
+          "host": "zz.bdstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2c3c8bc1-f25b-49dd-8e37-50f6c7e97028",
+      "event_at": "2026-07-02T20:40:40Z",
+      "observed_at": "2026-10-07T15:19:33Z",
+      "submitted_host": "wellingtonreview.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "86f9501b1c2096ba66ea407f190d3cdabb70bf6f724692658a5c5d9d8b626dc8",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "wellingtonreview.org",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3026309b-9bb6-4d16-92a2-d09c295b31ae",
+      "event_at": "2026-05-09T01:19:29Z",
+      "observed_at": "2026-10-07T15:19:34Z",
+      "submitted_host": "www.heroicemr.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "54fcf7988cb5c871ae28cf0c7f7a8a74ff9128375f5cbebc12b3ff9d38c828ae",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "euob.iseaskies.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "findonlineresults.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "img.sedoparking.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "l.cdn-fileserver.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "msadsscale.microsoft.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "obseu.iseaskies.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "obseu.iseaskies.com",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "resultsfastfind.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "s.cdn-fileserver.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "s.yimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.heroicemr.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.heroicemr.com",
+          "method": "GET",
+          "status": "302",
+          "count": 2
+        },
+        {
+          "host": "www.heroicemr.com",
+          "method": "GET",
+          "status": "441",
+          "count": 1
+        },
+        {
+          "host": "www.heroicemr.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/31c963a3-3c2a-4692-8b45-f40145a03178",
+      "event_at": "2026-06-21T08:04:01Z",
+      "observed_at": "2026-10-07T15:19:39Z",
+      "submitted_host": "blog.togethernetwork.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3965ff67e4d66533cdc4f3f9fdd357b0f3b4d9f8275b4ce43a25724601741055",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "200",
+          "count": 73
+        },
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3a021329-fd55-4f67-a3ca-8502e825da32",
+      "event_at": "2026-06-23T22:56:12Z",
+      "observed_at": "2026-10-07T15:19:44Z",
+      "submitted_host": "www.rendezvousmobileevents.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4799923ebb4cf9a3aa5480dd04cd2a41c7a496cdbdc60c0c688b62ca0992c720",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "horizons-cdn.hostinger.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.rendezvousmobileevents.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/413d1e09-8981-4778-abe1-fec6e7eb71a3",
+      "event_at": "2026-05-01T20:00:42Z",
+      "observed_at": "2026-10-07T15:19:47Z",
+      "submitted_host": "email.editor.thetexasflyover.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "522de7c6a8f3e648e2c75441e6f09a4ff0ef86bf38a61022ee3d27569451753d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "email.editor.thetexasflyover.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "txrev.tsha.events",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/494b5a4f-c035-4d16-9805-9b16bb399ed1",
+      "event_at": "2026-05-30T06:06:07Z",
+      "observed_at": "2026-10-07T15:19:52Z",
+      "submitted_host": "kratoscom.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3dd6cebf8fc1d503da02aa5e71d7da051470a2c98273dbbd1af0608cbb1fea52",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "browser.sentry-cdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "info.kratosdefense.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "kratoscom.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "kratoscom.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "use.fontawesome.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "www.kratosspace.com",
+          "method": "GET",
+          "status": "200",
+          "count": 60
+        },
+        {
+          "host": "www.kratosspace.com",
+          "method": "GET",
+          "status": "206",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/497526ee-0b06-431d-ab4e-9a4f8bc14d5b",
+      "event_at": "2026-05-01T22:16:25Z",
+      "observed_at": "2026-10-07T15:19:55Z",
+      "submitted_host": "www.anchoragelibrary.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "906a42f71d639ee7de959d15f517bdeba1a3df1b91ccf345e6c62159ce41636b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "anchoragelibrary.libanswers.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "secure.syndetics.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "translate.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "translate.google.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "translate.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "translate.googleapis.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "translate.googleapis.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.anchoragelibrary.org",
+          "method": "GET",
+          "status": "200",
+          "count": 15
+        },
+        {
+          "host": "www.anchoragelibrary.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4a6fdf7f-1d90-4f75-8e8a-8a9c8c1c1ece",
+      "event_at": "2026-09-27T15:20:19Z",
+      "observed_at": "2026-10-07T15:19:59Z",
+      "submitted_host": "blog.togethernetwork.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "842a6e7af1242fbbdf78e0e5dd18e4598078c116f495c0e37a97a361c663c5b2",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "200",
+          "count": 74
+        },
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/5c88e86b-9156-42c8-8eb9-42efe081474d",
+      "event_at": "2026-05-22T21:48:02Z",
+      "observed_at": "2026-10-07T15:20:00Z",
+      "submitted_host": "travelbyvacationrental.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6bc546358f6fe51c93fd3c0907443f6ba410c9ad2c5a3fb9c80c146e8dcc72c5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "assets.pinterest.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn001.milotree.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "log.pinterest.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "secure.gravatar.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "snippet.affilimate.io",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "travelbyvacationrental.com",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "us-central1-affilimate.cloudfunctions.net",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "us-central1-affilimate.cloudfunctions.net",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "widget.getyourguide.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/5facf7af-dea2-4dd0-82a4-8007516186dd",
+      "event_at": "2026-05-30T14:32:47Z",
+      "observed_at": "2026-10-07T15:20:06Z",
+      "submitted_host": "sexsagar.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4b4fb4952d23f75b8471bbf1234e3c6b95b176a8d18f3136e222f29d398fdfb2",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "acscdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.easysitelabs.my",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.pebblepilot.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "eu.favorit.work",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "meganewsspace.my",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "meganewsspace.my",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "sexsagar.com",
+          "method": "GET",
+          "status": "200",
+          "count": 17
+        },
+        {
+          "host": "usrpubtrk.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/64bdea0a-7442-4501-a8c9-c615fc03f8f5",
+      "event_at": "2026-05-31T07:18:30Z",
+      "observed_at": "2026-10-07T15:20:13Z",
+      "submitted_host": "moroccanleatherpouf.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "974f333d7f3a88165e3bc540046c85a4bbf101cc0c02bf90e6e9878020347a63",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.shopify.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cdn.shopify.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "imagedelivery.net",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "imagedelivery.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "moroccanleatherpouf.com",
+          "method": "GET",
+          "status": "200",
+          "count": 108
+        },
+        {
+          "host": "onrofvmxmxvovhkxoasy.supabase.co",
+          "method": "GET",
+          "status": "200",
+          "count": 17
+        },
+        {
+          "host": "onrofvmxmxvovhkxoasy.supabase.co",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 21
+        },
+        {
+          "host": "onrofvmxmxvovhkxoasy.supabase.co",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "onrofvmxmxvovhkxoasy.supabase.co",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "onrofvmxmxvovhkxoasy.supabase.co",
+          "method": "POST",
+          "status": "500",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/82b6fef5-ab6a-4873-9eaf-35cd8749dca0",
+      "event_at": "2026-05-30T21:59:14Z",
+      "observed_at": "2026-10-07T15:20:14Z",
+      "submitted_host": "www.sextvx.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "edd39c245487f161a32d7b8c6c138d09d4c41356c99118cf39ae3e403665a10e",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.magsrv.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.tsyndicate.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "creative.marzaent.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "go.marzaent.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "go.marzaent.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "go.marzaent.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "go.xlivrdr.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "img.doppiocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "s.magsrv.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "s.magsrv.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "str1.sextvx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 23
+        },
+        {
+          "host": "str1.sextvx.com",
+          "method": "GET",
+          "status": "404",
+          "count": 3
+        },
+        {
+          "host": "str11.sextvx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "str11.sextvx.com",
+          "method": "GET",
+          "status": "404",
+          "count": 10
+        },
+        {
+          "host": "str2.sextvx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 18
+        },
+        {
+          "host": "str7.sextvx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 40
+        },
+        {
+          "host": "str9.sextvx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "stripchat.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "stripchats.social",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "tsyndicate.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "use.fontawesome.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "www.sextvx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "www.sextvx.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.sextvx.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "z6v2p9a8.bkcdn.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "z6v2p9a8.bkcdn.net",
+          "method": "GET",
+          "status": "206",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/96c6ee84-0003-4113-b587-2a135675d3f6",
+      "event_at": "2026-06-16T07:10:59Z",
+      "observed_at": "2026-10-07T15:20:22Z",
+      "submitted_host": "ritikachouhan.blogspot.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "80c11c86949e7c9175deb5bd70178b8c6c114e2f5e22ab2e87e080ef28ac74b5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "apis.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "blogger.googleusercontent.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "pagead2.googlesyndication.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "resources.blogblog.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ritikachouhan.blogspot.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.blogger.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9745050d-863f-419e-a160-ae012ab8c4e3",
+      "event_at": "2026-05-09T14:04:44Z",
+      "observed_at": "2026-10-07T15:20:23Z",
+      "submitted_host": "www.rendezvousastley.co.uk",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "befda1b1291d24bf9fea2b4fca7e126cfcef9e10a8906e2293bfcd84da69e981",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "csp.secureserver.net",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "img1.wsimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 80
+        },
+        {
+          "host": "img1.wsimg.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "img1.wsimg.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 3
+        },
+        {
+          "host": "rendezvousastley.co.uk",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rendezvousastley.co.uk",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "www.rendezvousastley.co.uk",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c6fa0092-2cf0-4146-879e-cec1b916d09b",
+      "event_at": "2026-06-27T08:25:12Z",
+      "observed_at": "2026-10-07T15:20:27Z",
+      "submitted_host": "digitalconfex.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2b4f9835a0b83b281013dd57eedd138a12397c910005d7fea9ef77698b987fad",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "analytics.ahrefs.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "analytics.ahrefs.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "demo.gloriathemes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "digitalconfex.com",
+          "method": "GET",
+          "status": "200",
+          "count": 143
+        },
+        {
+          "host": "embed.tawk.to",
+          "method": "GET",
+          "status": "200",
+          "count": 22
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sdk.cashfree.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "va.tawk.to",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "va.tawk.to",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "va.tawk.to",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vsb98.tawk.to",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/df398691-a03a-403c-a7e9-f2a27ba7124e",
+      "event_at": "2026-06-01T04:54:24Z",
+      "observed_at": "2026-10-07T15:20:28Z",
+      "submitted_host": "ilnwtf.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2a3fe7e9d8a01e3d76db10fd40714f6704eff404a9fbec88424ac4f69429e554",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "assets.squarespace.com",
+          "method": "GET",
+          "status": "200",
+          "count": 27
+        },
+        {
+          "host": "definitions.sqspcdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ilnwtf.org",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "images.squarespace-cdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 11
+        },
+        {
+          "host": "p.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "static1.squarespace.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "use.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "www.ilnwtf.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.ilnwtf.org",
+          "method": "POST",
+          "status": "200",
+          "count": 16
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e5175825-34e7-4df4-8d23-41ebbfdfdefd",
+      "event_at": "2026-07-04T03:41:32Z",
+      "observed_at": "2026-10-07T15:20:36Z",
+      "submitted_host": "blog.togethernetwork.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "62d2f1daf80af3fa779b3dba34ec57ec3307165e685027facc0d154420523872",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "200",
+          "count": 73
+        },
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "blog.togethernetwork.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "connect.facebook.net",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "ssl.google-analytics.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "stats.g.doubleclick.net",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/fc799344-38ba-4d64-9aaf-7a15380cbd32",
+      "event_at": "2026-09-05T04:50:44Z",
+      "observed_at": "2026-10-07T15:20:39Z",
+      "submitted_host": "confirmation-de-vos-rendezvous-securise-leboncoin.fr",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aa8c67b1ceec0826a88ddc331845d80596b17032600fddec8253d7a056e5e44a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "confirmation-de-vos-rendezvous-securise-leboncoin.fr",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "confirmation-de-vos-rendezvous-securise-leboncoin.fr",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

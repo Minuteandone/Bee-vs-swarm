@@ -1200,6 +1200,52 @@
       "event_at": "2026-10-04T15:14:24Z",
       "observed_at": "2026-10-07T10:51:10Z",
       "report_json_sha256": "b26e6a40698c76b4c62aeac3a5169c11aac02b1d2e6b76e66a86e8b5a2ac9ee3"
+    },
+    {
+      "id": "countapi-official-wrapper-docs",
+      "url": "https://github.com/mlomb/countapi-js/blob/master/README.md",
+      "role": "Archived official wrapper documentation: CountAPI tracks page hits and custom events; get reads, hit increments, update changes and create initializes numeric state",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "original-shared-counter-hit-control",
+      "url": "https://urlquery.net/report/d0b47047-0653-4d1b-bf02-71cd70454bc1",
+      "role": "Representative cross-report shared counter hash used only for hit operations; no later read or task-result dependency",
+      "event_at": "2024-07-27T14:12:23Z",
+      "observed_at": "2026-10-07T15:10:56Z",
+      "report_json_sha256": "14fb3898f599a6e2e17dcfde7ca82233ce5f7fa107c6b2fecb0b94e276e28b2d"
+    },
+    {
+      "id": "original-counter-single-page-mixed-effect-control",
+      "url": "https://urlquery.net/report/dbfb3b7b-be68-42e2-9306-2905cb9187bb",
+      "role": "The sole mixed-effect counter hash: one page performs GET, CREATE and GET within 741 milliseconds, with every archived response empty",
+      "event_at": "2025-12-23T02:56:14Z",
+      "observed_at": "2026-10-07T15:11:01Z",
+      "report_json_sha256": "4892ce53aa59a2ad6808786e41c471f52e0fd0582104ed7c13cf13c834afeff5"
+    },
+    {
+      "id": "original-residual-notification-query-control",
+      "url": "https://urlquery.net/report/d45fc06a-3e20-4f80-a141-e15b9f825e58",
+      "role": "Representative residual notification-query match whose archived traffic contains no notification request or channel reference",
+      "event_at": "2026-10-04T18:53:47Z",
+      "observed_at": "2026-10-07T15:17:47Z",
+      "report_json_sha256": "8947eae8049ab8a35efff41968210a29d937699ae8325d99c009b82e0823489a"
+    },
+    {
+      "id": "original-rendezvous-keyword-control",
+      "url": "https://urlquery.net/report/3a021329-fd55-4f67-a3ca-8502e825da32",
+      "role": "Representative event-service page from the rendezvous query rotation; no autonomous participant or result exchange",
+      "event_at": "2026-06-23T22:56:12Z",
+      "observed_at": "2026-10-07T15:19:44Z",
+      "report_json_sha256": "4799923ebb4cf9a3aa5480dd04cd2a41c7a496cdbdc60c0c688b62ca0992c720"
+    },
+    {
+      "id": "original-answer-cache-provider-collision-control",
+      "url": "https://urlquery.net/report/4179cb3c-5fac-4508-872d-94ed8ae24bda",
+      "role": "Representative answer-cache/provider-name collision: ordinary meeting-software traffic including browser telemetry, with no model, cached task result or agent exchange",
+      "event_at": "2026-10-05T17:33:17Z",
+      "observed_at": "2026-10-07T15:22:01Z",
+      "report_json_sha256": "52def7bbde4c06f9ba872a8bfa11d5d1c0e345a7c825caa28316c93f342b5d36"
     }
   ]
 }

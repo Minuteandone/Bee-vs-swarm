@@ -1,0 +1,346 @@
+{
+  "collected_at": "2026-10-07T15:17:56Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/1300c8a2-5e07-48b8-a353-3dd6adbfe75a",
+      "event_at": "2026-06-17T12:35:01Z",
+      "observed_at": "2026-10-07T15:17:40Z",
+      "submitted_host": "villamaryllis.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2303c2fd6a1e692ac921339009cbcefadffa79407cf89057d2dd08f35b988c3c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "b.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "c.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "d.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "js.stripe.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "m.stripe.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "m.stripe.network",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "server.arcgisonline.com",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "villamaryllis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 54
+        },
+        {
+          "host": "villamaryllis.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "villamaryllis.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 6
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/47472844-5b9f-4b87-a305-8ac36678c8ff",
+      "event_at": "2026-06-28T03:35:07Z",
+      "observed_at": "2026-10-07T15:17:40Z",
+      "submitted_host": "pylon-protocol.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c8fe030a1524158d7fc9dd6d25bda94e37bf28c5dbcf53535f40c8b2f93f1f72",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "app.drift.trade",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "app.kamino.finance",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "app.sanctum.so",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "jito.wtf",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "jup.ag",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "kamino.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "pump.fun",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "pylon-protocol.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "pylon-protocol.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "pylon-protocol.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "pylon-protocol.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "raw.githubusercontent.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.jito.wtf",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.orca.so",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d45fc06a-3e20-4f80-a141-e15b9f825e58",
+      "event_at": "2026-10-04T18:53:47Z",
+      "observed_at": "2026-10-07T15:17:47Z",
+      "submitted_host": "flexwayvacations.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8947eae8049ab8a35efff41968210a29d937699ae8325d99c009b82e0823489a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "b.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "c.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "d.basemaps.cartocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "flexwayrealty.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "flexwayvacations.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "www.flexwayrealty.com",
+          "method": "GET",
+          "status": "200",
+          "count": 82
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

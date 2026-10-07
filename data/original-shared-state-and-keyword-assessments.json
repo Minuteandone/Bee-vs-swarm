@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T15:24:37Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 83,
+    "successful_original_reads": 83,
+    "selected_exact_id_comparison_absences": 83,
+    "shared_counter_records": 32,
+    "remaining_notification_query_records": 3,
+    "rendezvous_query_records": 24,
+    "answer_cache_query_records": 24,
+    "cumulative_inspected_unique_urlquery_reports": 293,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 853,
+    "remaining_uninspected_comparison_absences": 494,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact 32-record shared-counter cursor, closed the three remaining untouched notification-query absences, and rotated through every untouched exact-ID comparison absence selected by the saved `rendezvous` and `answer cache` queries. The counter slice tests cross-record state dependencies; the other slices test whether coordination-shaped search terms resolve to original handoffs. This is bounded original-record coverage, not a participant count or novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-countapi-state-reviews.json",
+      "sha256": "a7bfe3a60da7c4b088a9b2efc519ddc0793da854c6c0c631c665b20c539574d1",
+      "records": 32,
+      "event_range": {
+        "from": "2023-11-16T07:46:45Z",
+        "to": "2026-08-21T13:18:41Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T15:10:30Z",
+        "to": "2026-10-07T15:11:32Z"
+      }
+    },
+    {
+      "path": "data/original-remaining-ntfy-reviews.json",
+      "sha256": "5fcec7da25e72578551e84f8952b5b74d29a5f4767c7d34a883c8406841a6efa",
+      "records": 3,
+      "event_range": {
+        "from": "2026-06-17T12:35:01Z",
+        "to": "2026-10-04T18:53:47Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T15:17:40Z",
+        "to": "2026-10-07T15:17:47Z"
+      }
+    },
+    {
+      "path": "data/original-rendezvous-reviews.json",
+      "sha256": "9af66c77b0a5c989ef56b2c2cd3c96d9bf3b86a63b0265e7e8d28850b41283ba",
+      "records": 24,
+      "event_range": {
+        "from": "2026-05-01T20:00:42Z",
+        "to": "2026-09-27T15:20:19Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T15:19:01Z",
+        "to": "2026-10-07T15:20:39Z"
+      }
+    },
+    {
+      "path": "data/original-answer-cache-reviews.json",
+      "sha256": "7b98ca347b13d36179d3a89e467950cb3806dae7f7ad89987d0914b8f631690b",
+      "records": 24,
+      "event_range": {
+        "from": "2026-10-05T17:14:20Z",
+        "to": "2026-10-05T18:09:14Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T15:21:22Z",
+        "to": "2026-10-07T15:23:02Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve public report links, separate event and observation times, report hashes, domain-level traffic, bounded static-operation counts, and one-way channel, counter-key and response-body hashes. They omit submitted paths, counter namespaces and keys, query values, request and response bodies, headers, credentials, submitter addresses and recovered source. The scanner archived every CountAPI response as an empty body with an unknown status, so the underlying counter value and any client-side use are not preserved. Search-query membership is a locator cue, not evidence that the indexed phrase describes the report.",
+  "assessed_groups": [
+    {
+      "id": "shared_countapi_state",
+      "records": 32,
+      "records_with_state_references": 29,
+      "records_without_state_references": 3,
+      "recorded_state_graph": {
+        "references": 280,
+        "unique_state_hashes": 29,
+        "operations": {
+          "get": 254,
+          "hit": 16,
+          "update": 9,
+          "create": 1
+        },
+        "effects": {
+          "read": 254,
+          "read_modify_write": 25,
+          "write": 1
+        },
+        "cross_report_shared_hashes": 4,
+        "cross_report_hashes_with_mixed_effects": 0,
+        "all_hashes_with_mixed_effects": 1,
+        "archived_request_body_characters": 0,
+        "archived_response_body_bytes": 0,
+        "archived_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "recorded_status": "unknown"
+      },
+      "only_mixed_effect_sequence": {
+        "reports": 1,
+        "submitted_hosts": 1,
+        "operations": [
+          {
+            "operation": "get",
+            "recorded_at": "2025-12-23T02:55:53.222Z",
+            "response_body_bytes": 0
+          },
+          {
+            "operation": "create",
+            "recorded_at": "2025-12-23T02:55:53.916Z",
+            "response_body_bytes": 0
+          },
+          {
+            "operation": "get",
+            "recorded_at": "2025-12-23T02:55:53.963Z",
+            "response_body_bytes": 0
+          }
+        ]
+      },
+      "service_context": {
+        "source": "https://github.com/mlomb/countapi-js/blob/master/README.md",
+        "observed_on": "2026-10-07",
+        "summary": "The archived official wrapper describes CountAPI as a page-hit and custom-event counter. `hit` increments, `update` changes a numeric value, `get` reads it, and visits/events default to the current hostname namespace. This supports visitor/event counting as the ordinary-use alternative."
+      },
+      "assessment": "No state hash is used under different read/write effects across separate reports. Four hashes recur across reports, but each is consistently only `hit`, only `update`, or only `get`; shared defaults or copied page-counter code explain those repetitions without a sender-recipient edge. The sole mixed-effect hash is confined to one page load and orders GET, CREATE, GET within 741 milliseconds. All three responses are empty in the archive. Across the entire slice, no decoded task/peer word, response-read operation or captured counter value is preserved. The records therefore do not expose task-bearing state or downstream use by a second participant.",
+      "classification": "ordinary shared page/event-counter traffic; no cross-report read-after-write dependency",
+      "participants": "No autonomous participant is authenticated. Different submitted sites and report IDs do not establish agent trajectories, and repeated public counter keys can arise from copied defaults.",
+      "operator_boundary": "Not established. The records contain no operator statement, authorization limit or independently attributable cross-operator action.",
+      "advancement_evidence": "A public record must preserve task-relevant state written by one independently attributable autonomous participant, a later read of the same state by another, and a recipient action causally dependent on the value. Primary provenance must establish the intended operator boundary and lack of authorization."
+    },
+    {
+      "id": "remaining_notification_query_records",
+      "records": 3,
+      "recorded_channel_references": 0,
+      "assessment": "The three records were located by the saved notification-domain query, but their archived traffic contains no request to that notification service, no channel hash, no decoded task language and no downstream result use. They are stale or contextual search matches rather than preserved notification exchanges.",
+      "classification": "notification-query locator controls with no recorded channel traffic"
+    },
+    {
+      "id": "rendezvous_query_rotation",
+      "records": 24,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "decoded_records": 0,
+      "assessment": "The full untouched slice resolves to ordinary event, appointment, booking, blog, retail, media and unrelated public pages. None preserves decoded task text, a socket, a response-read operation, a channel or shared state. The word `rendezvous` is a keyword collision, not evidence of autonomous participants meeting or exchanging work.",
+      "classification": "ordinary-web keyword collisions"
+    },
+    {
+      "id": "answer_cache_query_rotation",
+      "records": 24,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "decoded_records": 0,
+      "assessment": "The full untouched slice resolves to ordinary organizational, entertainment, retail, education, property, travel and other public sites. One meeting-software page also appears in the saved `oai` and `openai` searches and contacts OpenAI-owned browser-service telemetry hosts, but it contains no model, autonomous participant, cached answer, task transfer or downstream use. Across all 24 records there is no decoded task text, channel, state reference, socket or response-read operation.",
+      "classification": "ordinary-web keyword and provider-name collisions"
+    }
+  ],
+  "alternatives_tested": [
+    "Ordinary visitor and custom-event counters",
+    "Copied counter namespaces or default keys across unrelated sites",
+    "One page creating and immediately reading its own counter",
+    "Stale search indexing without corresponding archived notification traffic",
+    "Event and appointment uses of the word rendezvous",
+    "Ordinary page text matching answer and cache terms",
+    "OpenAI-owned browser telemetry mistaken for model or participant provenance"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 83,
+    "known_published_family_overlap": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 83 selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. No original transfer-and-use chain emerged, so no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "next_cursor": {
+    "reason": "Continue original-record-first review with the strongest remaining coordination-shaped locator rather than more known-target carrier traffic: inspect the 37 untouched exact-ID comparison absences selected by the saved `peer agents` query. The earlier eight-record sample found ordinary collisions and designed services, but this exact residual set has not received original-report inspection.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, select records whose search_queries array contains `peer agents`, whose report_url has in_comparison_dataset=false in that comparison file, and whose report_url is absent from every current data/*reviews.json record. At this checkpoint the predicate yields 37 records spanning 2026-05-09T06:30:00Z through 2026-10-04T03:38:00Z.",
+    "records": 37,
+    "advancement_evidence": "A record advances only if the original artifact preserves distinguishable autonomous sender and recipient trajectories, a specific transferred task result or instruction, observable recipient use, and primary evidence that the coordination exceeded the operator-defined boundary. Agent-like page text, service branding, different domains or search-query membership alone do not qualify."
+  }
+}

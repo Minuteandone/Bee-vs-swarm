@@ -1,0 +1,3379 @@
+{
+  "collected_at": "2026-10-07T16:21:09Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/d9853231-05e7-49d6-a4f0-c98778d220b7",
+      "event_at": "2026-10-04T03:38:59Z",
+      "observed_at": "2026-10-07T16:11:46Z",
+      "submitted_host": "arcesium.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9371f55eb20832dd0efafceed65d38c9b86c92248137d44e9e7f7e14a0fa73d4",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.consentjs.datagrail.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.consentjs.datagrail.io",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.consentjs.datagrail.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "arcesium.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "arcesium.com",
+          "method": "GET",
+          "status": "308",
+          "count": 2
+        },
+        {
+          "host": "arcesium.com",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        },
+        {
+          "host": "arcesium.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "cdn.builder.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.builder.io",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.builder.io",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "js.hsforms.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.arcesium.com",
+          "method": "GET",
+          "status": "200",
+          "count": 75
+        },
+        {
+          "host": "www.arcesium.com",
+          "method": "GET",
+          "status": "429",
+          "count": 2
+        },
+        {
+          "host": "www.arcesium.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.arcesium.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "www.arcesium.com",
+          "method": "POST",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/850a5b9e-000c-4b8a-a7ec-8cc08c8ee2bb",
+      "event_at": "2026-07-24T03:40:36Z",
+      "observed_at": "2026-10-07T16:11:46Z",
+      "submitted_host": "readyrx.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "75751f360234e701e6851ce621a080fd5670cb1c695738d222eaec3ab2e262af",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api-iam.intercom.io",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "calculateproductpriceapi-vxwmzv7rgq-uc.a.run.app",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 5
+        },
+        {
+          "host": "calculateproductpriceapi-vxwmzv7rgq-uc.a.run.app",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cdn.lgrckt-in.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.prod.website-files.com",
+          "method": "GET",
+          "status": "200",
+          "count": 28
+        },
+        {
+          "host": "cdn.readyrx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "createsiteeventapi-vxwmzv7rgq-uc.a.run.app",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 2
+        },
+        {
+          "host": "createsiteeventapi-vxwmzv7rgq-uc.a.run.app",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "createsitevisitapi-vxwmzv7rgq-uc.a.run.app",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "createsitevisitapi-vxwmzv7rgq-uc.a.run.app",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "d3e54v103j8qbb.cloudfront.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.intercomcdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "nexus-websocket-a.intercom.io",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "r.lgrckt-in.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "r.lgrckt-in.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "readyrx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ss.readyrx.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "ss.readyrx.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 5
+        },
+        {
+          "host": "static.legitscript.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "us-assets.i.posthog.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "us.i.posthog.com",
+          "method": "POST",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "widget.intercom.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b700ff86-4eda-4c31-a5de-d8c4a3f45b07",
+      "event_at": "2026-06-05T15:18:53Z",
+      "observed_at": "2026-10-07T16:12:05Z",
+      "submitted_host": "branch-projects-api-e6fdf06.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2d6819e7a2c96bc1bcfa1202a143eb744f3b6369b6a71c9862b73c7c3acda612",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "branch-projects-api-e6fdf06.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/428bd372-af80-44db-8fed-5eff81af2571",
+      "event_at": "2026-06-05T13:50:54Z",
+      "observed_at": "2026-10-07T16:12:31Z",
+      "submitted_host": "branch-projects-api-e6fdf06.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0a2fcef8af76c880422b5cdd3d4af6b56dea1699356e03608d31b28eda018562",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "branch-projects-api-e6fdf06.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/5802eb9c-0ddd-46b7-9d6e-68494b123e58",
+      "event_at": "2026-06-05T11:40:03Z",
+      "observed_at": "2026-10-07T16:12:38Z",
+      "submitted_host": "6a22b2901b5409a50f2f.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ced273eff1d1c697d05832e48c75f37b735a892a09d01eea7b530f30a44c7a56",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a22b2901b5409a50f2f.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/438a8b1b-58ed-4b67-9324-642163e8416f",
+      "event_at": "2026-06-04T11:51:03Z",
+      "observed_at": "2026-10-07T16:12:56Z",
+      "submitted_host": "6a2162127f15036c0eb8.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "583e16a7cfa8f049108d9b007618065ee78e4771ada0c8b5fe4c5b40a9f21e49",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a2162127f15036c0eb8.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "6a2162127f15036c0eb8.appwrite.network",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "6a2162127f15036c0eb8.appwrite.network",
+          "method": "GET",
+          "status": "502",
+          "count": 1
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7d97d9cb-1ae7-40fc-ab01-1217ca48504e",
+      "event_at": "2026-06-04T11:46:48Z",
+      "observed_at": "2026-10-07T16:13:02Z",
+      "submitted_host": "6a21614619f7c6bf606e.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b8fff99ac67fea3a553885f5a8c38a1143058ec6b1acc6c8c43827e1afc0f6fb",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a21614619f7c6bf606e.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/71488d57-763f-444c-83c3-d34899411ea9",
+      "event_at": "2026-06-04T11:19:53Z",
+      "observed_at": "2026-10-07T16:13:20Z",
+      "submitted_host": "6a215ca76807863f4a35.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0e5caddaae8438d6f2a134c3f286e503d56bc1772594bf1efea716257aa55c68",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a215ca76807863f4a35.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/65d7de73-2b77-4a82-a8ac-dd786d536ec0",
+      "event_at": "2026-06-03T12:25:54Z",
+      "observed_at": "2026-10-07T16:13:28Z",
+      "submitted_host": "6a201b02a1a5112701ac.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "cc8eb90da65f497357e07b0cb6559189b90f5da1ebc82bbaa55a2ebff45fe379",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a201b02a1a5112701ac.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7fbbd354-467b-436e-985f-ea48adbb8eaf",
+      "event_at": "2026-06-03T11:11:06Z",
+      "observed_at": "2026-10-07T16:13:35Z",
+      "submitted_host": "6a2009bec25289645303.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "778759c80fc78d1c9f98b95d32d6ef184b47a6119d8a27945e205cc30059b655",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a2009bec25289645303.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6a01ecde-33dc-4d38-aadf-739b9627177f",
+      "event_at": "2026-06-02T15:26:42Z",
+      "observed_at": "2026-10-07T16:13:43Z",
+      "submitted_host": "click.email-nationwide.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "61ce8d79ee4f78be56c08316b83cceb15a29fe50ea15416f4e603ef63af25670",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "analytics.nationwide.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "analytics.nationwide.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "answers.yext-pixel.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "assets.sitescdn.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cdn.evgnet.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "celebrus-prod2.nationwide.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "celebrus-prod2.nationwide.com",
+          "method": "POST",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "click.email-nationwide.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "collect.analyze.ly",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "consent.trustarc.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "consent.trustarc.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "d22xmn10vbouk4.cloudfront.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "media.nationwide.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "nationwidepciaa.us-5.evergage.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nationwidepciaa.us-5.evergage.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "siteintercept.qualtrics.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "siteintercept.qualtrics.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "tags.nationwide.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "websdk.appsflyersdk.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "www.nysdcp.com",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "www.nysdcp.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "www.nysdcp.com",
+          "method": "POST",
+          "status": "201",
+          "count": 2
+        },
+        {
+          "host": "zn5avhxvj4yirtdlw-nationwideresearch.siteintercept.qualtrics.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d2328085-85c8-4c47-86f2-1c1e9bf2975d",
+      "event_at": "2026-06-02T12:52:18Z",
+      "observed_at": "2026-10-07T16:13:56Z",
+      "submitted_host": "6a1ecfbe47fed42f4920.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fb1b1a94f5598c97ef88b7df68c3308b80108b2d50940b65c6941b5e8953eaa0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1ecfbe47fed42f4920.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/07e1c8fa-e769-4d55-8224-f31f9097ddfa",
+      "event_at": "2026-06-02T12:45:51Z",
+      "observed_at": "2026-10-07T16:14:08Z",
+      "submitted_host": "6a1ece7fc785bf38fd0b.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "96ea99c4343c9b869e0891cbfea30cc55c7b09b9b4cfb98b24d29f85ac2a8731",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1ece7fc785bf38fd0b.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/bcdadf88-cad9-4f54-a831-ca85c719a8d0",
+      "event_at": "2026-06-02T11:49:00Z",
+      "observed_at": "2026-10-07T16:14:23Z",
+      "submitted_host": "6a1ec0848b5159d6396c.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "51368986442d3df58de4529b71a0a53a1fc3d1004b3e79e2ce15d1183be53320",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1ec0848b5159d6396c.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b2e013a6-5b2f-4e0f-9fa2-d73e39128395",
+      "event_at": "2026-06-02T11:48:35Z",
+      "observed_at": "2026-10-07T16:14:30Z",
+      "submitted_host": "6a1ec065da81935f792b.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b2ea525abebdcd86b063d453c491777a6266e4a79d877082472e68f3332c46de",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1ec065da81935f792b.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9f022745-e4fa-4d10-9163-eecd3bf4ae5d",
+      "event_at": "2026-06-02T11:46:03Z",
+      "observed_at": "2026-10-07T16:14:36Z",
+      "submitted_host": "6a1ec01be7d33bcc2a07.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "994053ee9cc56c469b0a3f5a1aed07ea98e598456c2843cb173261aae03e1518",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1ec01be7d33bcc2a07.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6ba40f0f-cc5c-4b7e-b46b-a3035e5b7305",
+      "event_at": "2026-06-02T11:45:36Z",
+      "observed_at": "2026-10-07T16:14:41Z",
+      "submitted_host": "6a1ebff460de41fa014a.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0039e2b6313c403cc6e3b211619288d60a9647728f61556f2e9488decc73137a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1ebff460de41fa014a.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/20ef3e2f-3672-437d-954c-0b8681bacae1",
+      "event_at": "2026-05-29T12:23:06Z",
+      "observed_at": "2026-10-07T16:14:48Z",
+      "submitted_host": "6a1981781040258d9085.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "02db28defe19011a8906697d2f10af159e321ed57fabf43f33098fd3a259f1f7",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1981781040258d9085.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 126
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/778ad90d-efcc-4dc8-9d88-47b79932a090",
+      "event_at": "2026-05-29T12:08:26Z",
+      "observed_at": "2026-10-07T16:15:01Z",
+      "submitted_host": "6a197efe5ccd93f592d4.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e9cb8b037334b2df53146a0044bc34ca923f29eb75ab7faf52b0ddea627d7c75",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a197efe5ccd93f592d4.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 126
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0e678e8e-7635-4af8-a8e7-af70c3c34128",
+      "event_at": "2026-05-29T10:52:12Z",
+      "observed_at": "2026-10-07T16:15:47Z",
+      "submitted_host": "6a196ce59c32e526734e.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0f2c0a8a73816cbf7c76a71d1222921c6b4ad45219b6c6042936d79d6d274a1b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a196ce59c32e526734e.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/48c08f60-a100-4817-acba-fbc53211fa6e",
+      "event_at": "2026-05-29T08:42:25Z",
+      "observed_at": "2026-10-07T16:16:37Z",
+      "submitted_host": "6a194e88778e4d326fbc.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "662a99b9129a76d53d994ee7eae485aa44992f4d6c7fb71ed9fc7666ec8d1f42",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a194e88778e4d326fbc.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 126
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/24049200-8779-4f4a-b374-30d4922bbbba",
+      "event_at": "2026-05-27T12:20:22Z",
+      "observed_at": "2026-10-07T16:17:23Z",
+      "submitted_host": "6a16dee9f31fa231f1e2.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8e505736f111ab413b7517147d78863221341c8060adc073a708d88d2f7e43de",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a16dee9f31fa231f1e2.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 126
+        },
+        {
+          "host": "6a16dee9f31fa231f1e2.appwrite.network",
+          "method": "GET",
+          "status": "503",
+          "count": 1
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/81b6c17e-4b37-4f2a-9ebc-8d3711a12620",
+      "event_at": "2026-05-26T10:14:48Z",
+      "observed_at": "2026-10-07T16:18:24Z",
+      "submitted_host": "branch-vibe-coding-host-c496af3-e6fdf06.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4e373b3ed28adce0b372eb6330c0fb00fed71858574257f547e7b6d8a967a5ea",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "branch-vibe-coding-host-c496af3-e6fdf06.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c1eff619-0001-488f-ba4d-5b05b2a500e1",
+      "event_at": "2026-05-25T15:41:55Z",
+      "observed_at": "2026-10-07T16:18:36Z",
+      "submitted_host": "6a146b286910ea764c65.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "dd9b1c093b3d514fd15f466d3a7107a37aa95b835871e6fd7aa9d7423a1c5755",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a146b286910ea764c65.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3dd3f959-60c8-42cb-ac6a-6b36830f34d3",
+      "event_at": "2026-05-25T15:40:23Z",
+      "observed_at": "2026-10-07T16:18:44Z",
+      "submitted_host": "6a146a08d0a12caef861.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b9ad50efc2fc1bf9d8d1e4c6ba415dc717cc1cf6107fff6312285f4c07786ba8",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a146a08d0a12caef861.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9fa61d56-6434-4a02-bd59-7f96f05a44dc",
+      "event_at": "2026-05-25T15:38:12Z",
+      "observed_at": "2026-10-07T16:18:53Z",
+      "submitted_host": "branch-react-library-e6fdf06.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a82cc147776548c7d3febece595f7b2cafbaebb1bd48a656d6ad8c4a1850967c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "branch-react-library-e6fdf06.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/943a3b81-1a9e-465b-9a45-1c43d369f97e",
+      "event_at": "2026-05-25T15:36:07Z",
+      "observed_at": "2026-10-07T16:19:01Z",
+      "submitted_host": "6a14695d5c543c92d051.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3fed60d07a470153c4d1ec24d6e7b82130bc9b9ddcf68124baf139ee8f5cd50b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a14695d5c543c92d051.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/296c6510-9b92-484b-8dcf-1490ecf7ed81",
+      "event_at": "2026-05-25T15:26:12Z",
+      "observed_at": "2026-10-07T16:19:06Z",
+      "submitted_host": "6a1467eb21a9dc08fbd0.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b01f84f09117193e9ad30480cc24390009c9b3625fa96a0321afd0277e58b630",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1467eb21a9dc08fbd0.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/29c1b1c0-1e53-4f65-b9b5-11008ac3a453",
+      "event_at": "2026-05-25T14:46:00Z",
+      "observed_at": "2026-10-07T16:19:12Z",
+      "submitted_host": "6a145e7ad69fa963dcee.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "78941df49b9b0ede181db5b2ee510d40ef13629294198a935649e9ad66331676",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a145e7ad69fa963dcee.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7e19be0b-001c-490c-877b-45b454f48965",
+      "event_at": "2026-05-25T10:55:26Z",
+      "observed_at": "2026-10-07T16:19:20Z",
+      "submitted_host": "6a1426ddcc889f9f287c.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "890c8ef8788f22b36cb136464d83bb362082ce951275637d12dd1c2b413abcf6",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1426ddcc889f9f287c.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

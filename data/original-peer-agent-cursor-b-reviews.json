@@ -1,0 +1,844 @@
+{
+  "collected_at": "2026-10-07T16:21:42Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/6ea5aa2f-7746-4a7d-b31f-f78b2125c288",
+      "event_at": "2026-05-25T10:47:21Z",
+      "observed_at": "2026-10-07T16:21:09Z",
+      "submitted_host": "6a1425dec11cbd66b04a.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4f6a3c76ffaba62cac0286339ca791eeb1b349309e2eb0eb970e01026db4e6f3",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a1425dec11cbd66b04a.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/aab34927-21e2-4731-a1ee-c316f01cd017",
+      "event_at": "2026-05-22T13:16:27Z",
+      "observed_at": "2026-10-07T16:21:09Z",
+      "submitted_host": "6a10543f4116b733cfb3.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "21eb10d3f9ec1cd6b79eb75a07f05ffc2698ff276f9821c6197d385c69ad14ac",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a10543f4116b733cfb3.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6c909e74-1e12-49a3-b6de-af5235cbbfa9",
+      "event_at": "2026-05-22T10:23:53Z",
+      "observed_at": "2026-10-07T16:21:17Z",
+      "submitted_host": "6a102c322c6bc09d746c.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1177e85830b176905d05f0f053a1c953bba04663e0b5a15eecf0bd74b29d7755",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6a102c322c6bc09d746c.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 124
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a6008334-7785-495d-b446-1e9d4d833537",
+      "event_at": "2026-05-20T09:17:05Z",
+      "observed_at": "2026-10-07T16:21:17Z",
+      "submitted_host": "branch-email-policies-e6fdf06.appwrite.network",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f299494abd532a59ed312b53fa037e14f83ba94e238c3831977ac2bee74720e4",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "branch-email-policies-e6fdf06.appwrite.network",
+          "method": "GET",
+          "status": "200",
+          "count": 125
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8ddd476d-daeb-4d9b-b321-8fd0f48b95e2",
+      "event_at": "2026-05-16T07:08:41Z",
+      "observed_at": "2026-10-07T16:21:26Z",
+      "submitted_host": "www.ontorra.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bac0ddd13a02cb4c793aa116e7d71fe0344fb35369f478767f39a7a588d1195a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "app.cal.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cal.com",
+          "method": "GET",
+          "status": "200",
+          "count": 70
+        },
+        {
+          "host": "cal.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "cal.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.middleware.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "clerk.ontora.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "clerk.ontora.com",
+          "method": "GET",
+          "status": "307",
+          "count": 2
+        },
+        {
+          "host": "images.g2crowd.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "images.seeklogo.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "lmimq-pzf.middleware.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "lmimq-pzf.middleware.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 5
+        },
+        {
+          "host": "lmimq-pzf.middleware.io",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "logosandtypes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o574544.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ontora.com",
+          "method": "GET",
+          "status": "200",
+          "count": 50
+        },
+        {
+          "host": "ontora.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "ontorra.com",
+          "method": "GET",
+          "status": "307",
+          "count": 1
+        },
+        {
+          "host": "r1j56x1jmqh2uiwz.public.blob.vercel-storage.com",
+          "method": "GET",
+          "status": "206",
+          "count": 2
+        },
+        {
+          "host": "raw.githubusercontent.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "uxwing.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.ontorra.com",
+          "method": "GET",
+          "status": "307",
+          "count": 1
+        },
+        {
+          "host": "www.ycombinator.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ce120515-ec9c-47d4-84da-ba65a6335251",
+      "event_at": "2026-05-15T11:05:37Z",
+      "observed_at": "2026-10-07T16:21:26Z",
+      "submitted_host": "appwrite.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1353f74adfd4e18aaacf177bfffb0473028a6cd9c89c2243013fd639a8f71abf",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 126
+        },
+        {
+          "host": "cdn-cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "directory.cookieyes.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "featureassets.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "log.cookieyes.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o1063647.ingest.us.sentry.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "prodregistryv2.org",
+          "method": "POST",
+          "status": "202",
+          "count": 2
+        },
+        {
+          "host": "status.appwrite.online",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/72605d83-8983-454f-8201-c1b83ddf5f8d",
+      "event_at": "2026-05-09T06:30:32Z",
+      "observed_at": "2026-10-07T16:21:34Z",
+      "submitted_host": "cloudsecurityalliance.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c1c4abc26c82869457f0246d6f5f0ab6948064273b0093a5c9c6fb3f1b75e384",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "assets.cloudsecurityalliance.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cloudsecurityalliance.org",
+          "method": "GET",
+          "status": "200",
+          "count": 51
+        },
+        {
+          "host": "ekr.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "js.zi-scripts.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "js.zi-scripts.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "p.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "static.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "use.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

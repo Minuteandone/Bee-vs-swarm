@@ -1246,6 +1246,28 @@
       "event_at": "2026-10-05T17:33:17Z",
       "observed_at": "2026-10-07T15:22:01Z",
       "report_json_sha256": "52def7bbde4c06f9ba872a8bfa11d5d1c0e345a7c825caa28316c93f342b5d36"
+    },
+    {
+      "id": "statsig-service-domain-documentation",
+      "url": "https://docs.statsig.com/infrastructure/statsig_domains",
+      "role": "Official infrastructure documentation identifying featureassets.org and prodregistryv2.org as SDK service domains for configuration delivery and event logging",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "original-peer-query-official-appwrite-control",
+      "url": "https://urlquery.net/report/ce120515-ec9c-47d4-84da-ba65a6335251",
+      "role": "Official Appwrite-site record reproducing the 32-record cluster's Statsig, Appwrite status, Plausible and denied Appwrite API footprint without a task transfer",
+      "event_at": "2026-05-15T11:05:37Z",
+      "observed_at": "2026-10-07T16:21:26Z",
+      "report_json_sha256": "1353f74adfd4e18aaacf177bfffb0473028a6cd9c89c2243013fd639a8f71abf"
+    },
+    {
+      "id": "original-peer-query-designed-service-control",
+      "url": "https://urlquery.net/report/8ddd476d-daeb-4d9b-b321-8fd0f48b95e2",
+      "role": "Representative intentionally designed AI-service page from the peer-agent query; public web and calendar traffic with no distinct autonomous sender-recipient dependency",
+      "event_at": "2026-05-16T07:08:41Z",
+      "observed_at": "2026-10-07T16:21:26Z",
+      "report_json_sha256": "bac0ddd13a02cb4c793aa116e7d71fe0344fb35369f478767f39a7a588d1195a"
     }
   ]
 }

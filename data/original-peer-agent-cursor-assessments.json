@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T16:30:12Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 37,
+    "successful_original_reads": 37,
+    "selected_exact_id_comparison_absences": 37,
+    "appwrite_platform_records": 32,
+    "ordinary_public_site_records": 5,
+    "cumulative_inspected_unique_urlquery_reports": 330,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 816,
+    "remaining_uninspected_comparison_absences": 457,
+    "prior_read_failures_retained_as_cursors": 4,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact 37-record cursor saved by the prior assessment: every untouched report selected by the `peer agents` listing query and absent by exact ID from the pinned comparison release. This is bounded original-record coverage, not a participant count or novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-peer-agent-cursor-a-reviews.json",
+      "sha256": "4229cb7da09c4f5c6ddf4fa270abdfd4f73e90f163487d74fb7d2c433e195735",
+      "records": 30,
+      "event_range": {
+        "from": "2026-05-25T10:55:26Z",
+        "to": "2026-10-04T03:38:59Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T16:11:46Z",
+        "to": "2026-10-07T16:19:20Z"
+      }
+    },
+    {
+      "path": "data/original-peer-agent-cursor-b-reviews.json",
+      "sha256": "53e71bb0dc8cce91190f3d0532d806ed05531788389056b823e21a6faefc80e7",
+      "records": 7,
+      "event_range": {
+        "from": "2026-05-09T06:30:32Z",
+        "to": "2026-05-25T10:47:21Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T16:21:09Z",
+        "to": "2026-10-07T16:21:34Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve original public report links, separate event and observation times, report hashes, domain-level traffic and bounded static-operation counts. They omit submitted paths, query values, request and response bodies, headers, credentials, submitter addresses and any recovered source. The scanner report structure does not authenticate a browser as an autonomous participant, and listing-query membership is only a locator cue.",
+  "assessed_groups": [
+    {
+      "id": "appwrite_statsig_platform_shells",
+      "records": 32,
+      "distinct_submitted_hosts": 31,
+      "submitted_host_shape": "Thirty-one Appwrite deployment hosts plus one official Appwrite site record",
+      "shared_recorded_traffic": {
+        "prodregistryv2.org": {
+          "records": 32,
+          "operations": {
+            "OPTIONS_200": 63,
+            "POST_202": 61
+          }
+        },
+        "featureassets.org": {
+          "records": 32,
+          "operations": {
+            "POST_200": 32
+          }
+        },
+        "status.appwrite.online": {
+          "records": 32,
+          "operations": {
+            "GET_200": 32
+          }
+        },
+        "plausible.io": {
+          "records": 32,
+          "operations": {
+            "GET_200": 32,
+            "POST_202": 32
+          }
+        },
+        "cloud.appwrite.io": {
+          "records": 32,
+          "operations": {
+            "OPTIONS_204": 32,
+            "GET_403": 31,
+            "GET_401": 1
+          }
+        }
+      },
+      "submitted_host_get_range": {
+        "minimum": 124,
+        "maximum": 127
+      },
+      "prior_control_overlap": {
+        "report": "https://urlquery.net/report/5cca7a62-e04f-4fe8-8345-8d652f3b366e",
+        "event_at": "2026-05-20T09:00:42Z",
+        "report_json_sha256": "43d5c8082438c80d74aed0f2a7a271dede3c94379b535301ec1ebe9f94c68b96",
+        "summary": "A previously reviewed generic Appwrite deployment has the same five-host service footprint and the same method/status pattern."
+      },
+      "service_context": {
+        "source": "https://docs.statsig.com/infrastructure/statsig_domains",
+        "observed_on": "2026-10-07",
+        "summary": "Statsig's official infrastructure documentation lists featureassets.org and prodregistryv2.org as SDK service domains for configuration delivery and event logging."
+      },
+      "assessment": "The repeated auxiliary domains and nearly identical request shapes are a shared frontend-platform fingerprint, not a preserved peer channel. All 32 records obtain ordinary feature/configuration, status and analytics responses, while every recorded Appwrite API GET is denied with 401 or 403. None preserves a task-bearing response, decoded task or peer language, a channel or shared-state reference, response-read code or a later action using a foreign result. The official Appwrite page and the earlier generic deployment reproduce the same footprint without supplying a sender-recipient dependency.",
+      "classification": "shared Appwrite/Statsig frontend stack; no task transfer or recipient use",
+      "participants": "No autonomous sender or recipient is authenticated. Separate deployment hostnames and repeated scanner reports can represent platform-generated previews, retries, revisions or one operator's deployments.",
+      "operator_boundary": "Not established. No record identifies an operator, authorization limit or action beyond that limit.",
+      "advancement_evidence": "An already public original artifact must identify a specific autonomous sender and transferred result, a distinguishable recipient that successfully acquires and uses it, and primary provenance showing that the exchange exceeded an operator-defined authorization boundary. Branch or deployment names and shared SDK traffic do not qualify."
+    },
+    {
+      "id": "ordinary_peer_language_sites",
+      "records": 5,
+      "submitted_hosts": [
+        "arcesium.com",
+        "readyrx.com",
+        "click.email-nationwide.com",
+        "www.ontorra.com",
+        "cloudsecurityalliance.org"
+      ],
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "decoded_records": 0,
+      "response_read_operations": 0,
+      "assessment": "These records resolve to ordinary corporate, pharmacy, email-marketing, intentionally designed AI-service and security-association sites. Their domain-level traffic is first-party web, calendar, analytics, consent, support or asset traffic. None preserves two autonomous trajectories, a transferred task result, downstream use or authorization evidence. The `peer agents` query term is a page or index collision rather than an observed exchange.",
+      "classification": "ordinary-web and designed-service keyword controls"
+    },
+    {
+      "id": "remaining_structural_signal_rotation_check",
+      "records_promoted": 0,
+      "method": "Among still-uninspected exact-ID comparison absences, selected decoded programs of at least 200 characters carrying a fetch, response-parsing, XHR, socket or WebSocket feature; excluded already reviewed decoded hashes and records whose submitted or referenced hosts overlap the known Amap/Alibaba family.",
+      "result": "Zero remaining records satisfy the bounded structural predicate after the known family is excluded. The strongest decoded-program backlog therefore points back to a known comparison family rather than a new trail.",
+      "classification": "negative prioritization result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "alternatives_tested": [
+    "Shared Appwrite hosting and preview generation",
+    "Statsig feature/configuration and event SDK traffic",
+    "Status, analytics, consent and error-reporting traffic",
+    "One operator's repeated deployments, revisions or scanner retries",
+    "Search-index collision on peer or agent language",
+    "Intentionally designed AI products and ordinary corporate agent terminology"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 37,
+    "known_published_family_overlap": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "platform traffic only; no model or participant attribution",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 37 selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. The original records do not preserve a transfer-and-use chain, so no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made. Scoped checks were limited to official service-domain context and overlap with an already reviewed generic platform record.",
+  "next_cursor": {
+    "reason": "Rotate away from known-family decoded carriers and platform-shell repetition into a recent model-name locator while continuing to require original transfer-and-use evidence.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, select records whose search_queries array contains `claude`, whose report_url has in_comparison_dataset=false in that comparison file, whose report_url is absent from every successful current data/*reviews.json record, and whose submitted_host and referenced_hosts do not equal or end in amap.com. At this checkpoint the predicate yields 21 records spanning 2026-10-04T11:02:00Z through 2026-10-05T17:03:00Z. Two Amap-overlapping records are deliberately excluded as a known-family control.",
+    "records": 21,
+    "advancement_evidence": "A record advances only if the original artifact preserves distinguishable autonomous sender and recipient trajectories, a specific transferred task result or instruction, observable recipient use, and primary evidence that the coordination exceeded the operator-defined boundary. Model names, site branding, shared libraries or search-query membership alone do not qualify."
+  }
+}

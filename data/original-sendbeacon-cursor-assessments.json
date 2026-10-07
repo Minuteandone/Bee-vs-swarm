@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T22:35:00Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 24,
+    "successful_original_reads": 23,
+    "read_failures": 1,
+    "selected_exact_id_comparison_absences": 24,
+    "distinct_selected_submitted_hosts": 21,
+    "distinct_successful_submitted_hosts": 20,
+    "scanner_flagged_lure_or_phishing_records": 6,
+    "duplicate_or_near_duplicate_capture_groups": 3,
+    "explicit_browser_beacon_records": 4,
+    "cumulative_inspected_unique_urlquery_reports": 374,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 772,
+    "remaining_uninspected_comparison_absences": 413,
+    "read_failures_retained_as_cursors": 5,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact 24-record cursor saved by the prior assessment: every untouched exact-ID comparison absence selected by the saved `sendBeacon` query. One original report read timed out and remains unresolved. This is bounded original-record coverage, not participant attribution, a census or a novelty claim.",
+  "snapshot": {
+    "path": "data/original-sendbeacon-cursor-reviews.json",
+    "sha256": "86f8b43d7c9652f9f8cf6bc082183e31ae60be8daf99ff186c5ca699e088e083",
+    "records": 24,
+    "successful_records": 23,
+    "event_range": {
+      "from": "2026-10-01T15:17:00Z",
+      "to": "2026-10-05T17:07:47Z"
+    },
+    "observation_range": {
+      "from": "2026-10-07T22:11:38Z",
+      "to": "2026-10-07T22:13:27Z"
+    }
+  },
+  "snapshot_limitations": "The sanitized snapshot preserves original public report links, separate listing-event and observation times, report hashes for successful reads, domain-level traffic and bounded static-operation counts. It omits submitted paths, query values, request and response bodies, headers, credentials, submitter addresses, titles and recovered source. Search-query membership is a locator cue; a scanner request classified as beacon, fetch, XHR or document does not authenticate an autonomous participant or disclose the request body.",
+  "assessed_groups_overlap": true,
+  "assessed_groups": [
+    {
+      "id": "scanner_flagged_lure_or_phishing_controls",
+      "records": 6,
+      "submitted_hosts": [
+        "links.notification.intuit.com",
+        "login.microsoft.com",
+        "qrtracer.io",
+        "us.taskworld.com",
+        "www.google.com"
+      ],
+      "scanner_annotations": "The scanner labels the two qrtracer captures as high-severity voidProxy phishing, the login.microsoft capture as high-severity Greatness phishing plus medium-severity cloaked browser fingerprinting, and the Intuit-link, Taskworld and Google submissions as medium-severity cloaked browser fingerprinting. These are scanner annotations, not independent attribution or proof of operator intent.",
+      "assessment": "The archived traffic shows redirect and form-shaped POSTs on landing domains. It does not preserve a task-bearing artifact from an autonomous sender, a distinguishable autonomous recipient or recipient use. A phishing or lure campaign can be harmful while still being neither multi-agent coordination nor an AI swarm.",
+      "classification": "scanner-flagged phishing or cloaked landing controls; no autonomous transfer/use edge"
+    },
+    {
+      "id": "repeated_capture_controls",
+      "records": 6,
+      "groups": [
+        {
+          "submitted_host": "steadylane.site",
+          "records": 2,
+          "event_gap": "4 minutes 6 seconds",
+          "relationship": "identical domain-level request footprint"
+        },
+        {
+          "submitted_host": "qrtracer.io",
+          "records": 2,
+          "event_gap": "1 hour 3 minutes 2 seconds",
+          "relationship": "same redirect and form destination family"
+        },
+        {
+          "submitted_host": "schulmat-peter.ch",
+          "records": 2,
+          "event_gap": "52 seconds",
+          "relationship": "identical domain-level request footprint"
+        }
+      ],
+      "assessment": "Repeated scanner captures and closely related campaign pages explain these pairs without distinct autonomous participants. None contains a peer locator, response read or action dependent on another capture's result.",
+      "classification": "scanner retry, page repetition or campaign reuse controls"
+    },
+    {
+      "id": "shared_tracking_wrapper_destination_control",
+      "records": 2,
+      "submitted_hosts": [
+        "nam02.safelinks.protection.outlook.com",
+        "s8hgzczy.r.ap-south-1.awstrack.me"
+      ],
+      "event_chronology": "The Safe Links capture precedes the AWS tracking-link capture by 48 minutes 57 seconds on 5 October 2026.",
+      "recorded_traffic": "Both wrappers reach the same landing domain, record one document POST with HTTP 302 there and then load the same X browser infrastructure.",
+      "assessment": "This is the strongest cross-record destination dependency in the batch. It is consistent with two tracking wrappers exposing the same campaign landing path. No record contains task material from the other, a consumer read or a downstream action caused by a transferred result.",
+      "classification": "shared redirect destination; no sender-to-recipient task dependency"
+    },
+    {
+      "id": "browser_beacon_and_site_service_controls",
+      "records": 12,
+      "explicit_browser_beacon_records": 4,
+      "explicit_browser_beacon_submitted_hosts": [
+        "all-nationz.com",
+        "bridgelabs.tech",
+        "e4.bmtr.org",
+        "graminarts.com"
+      ],
+      "shared_web_security_hosts": [
+        "gw2.botfaqtor.ru"
+      ],
+      "assessment": "The four actual browser-beacon records are same-site events or ordinary hosted analytics and telemetry. Five Russian-language site captures share a web-security service; other records load normal commerce, booking, translation, customer-analytics or application infrastructure. Shared service domains and successful POST statuses identify dependencies, not participant identities or task semantics.",
+      "classification": "ordinary telemetry, web-security and application-service controls"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "successful_records": 23,
+      "records_with_non_get_traffic": 23,
+      "decoded_records": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "response_read_operations": 0,
+      "static_task_or_peer_words": 0,
+      "assessment": "Every successful report records at least one non-GET request, but none preserves task-bearing content, a sender-to-recipient locator, a response read or causal downstream use. The query therefore located POST-heavy browser activity rather than an agent exchange. Method and status metadata alone cannot establish coordination.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    },
+    {
+      "id": "unresolved_timeout",
+      "records": 1,
+      "report_url": "https://urlquery.net/report/5aee9f26-2f14-4a3a-a42a-d56b6ed33504",
+      "listing_event_at": "2026-10-01T15:17:00Z",
+      "submitted_host": "urlsand.esvalabs.com",
+      "assessment": "The existing original report read timed out. Listing membership and a submitted host do not justify a negative finding, participant claim or discovery claim.",
+      "classification": "unresolved read failure retained as a cursor"
+    }
+  ],
+  "alternatives_tested": [
+    "Phishing or lure redirects and credential-form submissions",
+    "Repeated scanner submissions or campaign-page retries",
+    "Two tracking wrappers resolving to one campaign destination",
+    "First-party browser beacons and hosted analytics",
+    "Shared web-security, translation, commerce, booking and application infrastructure",
+    "Search-index collision on the browser write primitive"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 23,
+    "unresolved_original_records": 1,
+    "known_published_family_overlap": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "Scanner and browser infrastructure domains are recorded, but no AI model, provider-operated participant or autonomous agent is attributed",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 24 selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. The original records do not preserve a transfer-and-use chain, so no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous sender and task-bearing result or instruction, a distinguishable recipient that successfully acquires and causally uses it, and primary provenance showing that the exchange exceeded an operator-defined authorization boundary. Scanner phishing labels, shared redirect destinations, POST statuses, browser beacon types and service-domain overlap do not qualify.",
+  "next_cursor": {
+    "reason": "Rotate from the browser-write locator into an unresolved HTTP/2 test-service slice that can expose unsupported carrier traffic while keeping ordinary service tests and the already known Amap family as leading alternatives.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, select records whose search_queries array contains `nghttp2.org`, whose report_url has in_comparison_dataset=false in that comparison file, and whose report_url is absent from every successful current data/*reviews.json record. At this checkpoint the predicate yields six reports, all submitted to nghttp2.org, spanning 2026-06-21T09:49:00Z through 2026-06-21T21:10:00Z.",
+    "records": 6,
+    "advancement_evidence": "A record advances only if the existing public report preserves task-bearing material from an independently attributable autonomous sender, later acquisition and causal use by a distinguishable autonomous recipient, and primary evidence of an unauthorized operator-boundary crossing. HTTP-test traffic, repeated payloads, statuses or overlap with a known family alone do not qualify."
+  }
+}

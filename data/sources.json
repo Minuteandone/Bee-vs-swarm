@@ -1292,6 +1292,38 @@
       "event_at": "2026-10-05T11:59:26Z",
       "observed_at": "2026-10-07T20:53:03Z",
       "report_json_sha256": "434491eb3ea14f34ede196f06dee6edd77559dd31801436d11ad0047c6a3d9f3"
+    },
+    {
+      "id": "original-sendbeacon-scanner-flagged-login-control",
+      "url": "https://urlquery.net/report/39dd9db6-8951-4dcc-8e51-2d11f0f1aa75",
+      "role": "Representative scanner-flagged phishing and cloaked-fingerprinting landing capture; redirect and form traffic does not establish AI identity or an autonomous task exchange",
+      "event_at": "2026-10-01T19:15:00Z",
+      "observed_at": "2026-10-07T22:11:49Z",
+      "report_json_sha256": "d6ba3b711e7056b0bc4cf6fc58205f987c7cb1bec495ede32807c4b5518b252c"
+    },
+    {
+      "id": "original-sendbeacon-browser-beacon-control",
+      "url": "https://urlquery.net/report/48d3f033-d5ad-4fd5-90c8-3cc30af123d0",
+      "role": "Representative actual browser-beacon record: one same-origin POST with HTTP 204 and no task material, participant locator or response use",
+      "event_at": "2026-10-03T13:11:06Z",
+      "observed_at": "2026-10-07T22:12:45Z",
+      "report_json_sha256": "b6c404afad952ecde184f43ebc1f2b39ab1805aeb36ec4fb7956659c6b9f6bbd"
+    },
+    {
+      "id": "original-sendbeacon-safe-links-wrapper-control",
+      "url": "https://urlquery.net/report/ab3e2277-a4dd-4a51-b134-5383d059309b",
+      "role": "First of two tracking-wrapper captures reaching the same landing domain and browser infrastructure; no transferred task artifact or recipient use",
+      "event_at": "2026-10-05T16:18:50Z",
+      "observed_at": "2026-10-07T22:13:26Z",
+      "report_json_sha256": "91a22d201e7008be91a142a54637245af7d1920017c294533a2657f8a2d35d4c"
+    },
+    {
+      "id": "original-sendbeacon-aws-wrapper-control",
+      "url": "https://urlquery.net/report/b64c97ab-9037-4470-a52a-c1a0f138127b",
+      "role": "Second tracking-wrapper capture 48 minutes 57 seconds later, reproducing the same landing-domain POST and browser infrastructure without a sender-recipient dependency",
+      "event_at": "2026-10-05T17:07:47Z",
+      "observed_at": "2026-10-07T22:13:27Z",
+      "report_json_sha256": "835fec76f7cbe9a1563c455f089435a16116993717d0864dbab831e5a2cf65b1"
     }
   ]
 }

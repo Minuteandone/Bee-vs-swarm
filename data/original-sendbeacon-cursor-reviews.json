@@ -1,0 +1,2645 @@
+{
+  "collected_at": "2026-10-07T22:13:38Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/5aee9f26-2f14-4a3a-a42a-d56b6ed33504",
+      "event_at": "2026-10-01T15:17:00Z",
+      "observed_at": "2026-10-07T22:11:38Z",
+      "submitted_host": "urlsand.esvalabs.com",
+      "review_status": "read_failed",
+      "error": "TimeoutError",
+      "swarm_confirmed": false
+    },
+    {
+      "report_url": "https://urlquery.net/report/9a4f45cc-4b85-42f1-b004-d4cd2e5f792b",
+      "event_at": "2026-10-01T15:38:26Z",
+      "observed_at": "2026-10-07T22:11:38Z",
+      "submitted_host": "links.notification.intuit.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "197891539dc2457f58b9318af3262e75ad42457608fcc473228c7d78f3485373",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "asemailmgmteu.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "asemailmgmteu.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "asemailmgmteu.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "links.notification.intuit.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "pre09vied03cexch.sterlinale.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "pre09vied03cexch.sterlinale.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "pre09vied03cexch.sterlinale.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.airship.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c7c9e67c-33b5-4103-8d01-b5754a52f1e6",
+      "event_at": "2026-10-01T17:12:21Z",
+      "observed_at": "2026-10-07T22:11:44Z",
+      "submitted_host": "ns.leticiariosodad.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0a80a110e114a6d2c8e27a9d823bac3106ceac6adba9d2120b9b38a483679f46",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "ns.leticiariosodad.com",
+          "method": "GET",
+          "status": "200",
+          "count": 11
+        },
+        {
+          "host": "ns.leticiariosodad.com",
+          "method": "GET",
+          "status": "404",
+          "count": 3
+        },
+        {
+          "host": "ns.leticiariosodad.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/39dd9db6-8951-4dcc-8e51-2d11f0f1aa75",
+      "event_at": "2026-10-01T19:15:00Z",
+      "observed_at": "2026-10-07T22:11:49Z",
+      "submitted_host": "login.microsoft.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d6ba3b711e7056b0bc4cf6fc58205f987c7cb1bec495ede32807c4b5518b252c",
+      "submitted_reference_domains": [
+        "developer.salesforce.com",
+        "graph.microsoft.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "admin.greatgod.cfd",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "admin.greatgod.cfd",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "login.microsoft.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "login.microsoftonline.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "mailtrack.io",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "nexahivenl.sbs",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "nexahivenl.sbs",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "outcrop376.yellowibrook.co.in",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "outcrop376.yellowibrook.co.in",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "outcrop376.yellowibrook.co.in",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/bfef5c57-1455-4790-9eff-8a3aab6bb395",
+      "event_at": "2026-10-01T20:11:27Z",
+      "observed_at": "2026-10-07T22:11:54Z",
+      "submitted_host": "steadylane.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b4398a548eedf2b6053719dcedbcde7fdb7205c91e7c940bc2319b7520d90f28",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "static.zara.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "steadylane.site",
+          "method": "GET",
+          "status": "200",
+          "count": 32
+        },
+        {
+          "host": "steadylane.site",
+          "method": "POST",
+          "status": "303",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/89191bba-d797-4f1b-9052-2e956704d440",
+      "event_at": "2026-10-01T20:15:33Z",
+      "observed_at": "2026-10-07T22:12:02Z",
+      "submitted_host": "steadylane.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d1366f1044e1e8d9081372986dc5ea29f410fb010304eaa70204f948e37c0ee1",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "static.zara.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "steadylane.site",
+          "method": "GET",
+          "status": "200",
+          "count": 32
+        },
+        {
+          "host": "steadylane.site",
+          "method": "POST",
+          "status": "303",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c04acf68-45f1-45c1-a3e3-7e7ee54e275f",
+      "event_at": "2026-10-01T20:22:50Z",
+      "observed_at": "2026-10-07T22:12:02Z",
+      "submitted_host": "qrtracer.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8d90c6c455f323ccaacba7896783abe728c0a07a15e587f984d6ed547e10c2c0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "login.groctch.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "login.groctch.net",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "qrtracer.io",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7a1185cb-7ca0-4f55-9ee7-db8ef8848531",
+      "event_at": "2026-10-01T21:25:52Z",
+      "observed_at": "2026-10-07T22:12:08Z",
+      "submitted_host": "qrtracer.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8312e3d12476cd3b761e2b752ff937fc85053d95e24c51247bd565a344ce057b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "account.live.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "eynkqhrbfajbbibej.groctch.net",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "eynkqhreageegidjj.groctch.net",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "intapetrol.com.co",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "login.groctch.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "login.groctch.net",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "login.groctch.net",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "portal.groctch.net",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "qrtracer.io",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d9f43021-c562-40c8-99a7-1476c882f9a7",
+      "event_at": "2026-10-02T03:58:39Z",
+      "observed_at": "2026-10-07T22:12:08Z",
+      "submitted_host": "schulmat-peter.ch",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5b281e1dafa1fc14a87376ed7b38c646aa9cd9c8479e16cab73d96cc8a6f05c3",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "schulmat-peter.ch",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.schulmat-peter.ch",
+          "method": "GET",
+          "status": "200",
+          "count": 104
+        },
+        {
+          "host": "www.schulmat-peter.ch",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "www.schulmat-peter.ch",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3d9e900a-f270-432b-9b99-5f6bed27830b",
+      "event_at": "2026-10-02T03:59:31Z",
+      "observed_at": "2026-10-07T22:12:12Z",
+      "submitted_host": "schulmat-peter.ch",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c75aca73b05ca1637b4d88081ce307009c3af17a7758ffe5df44bd9fa9eb81d3",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "schulmat-peter.ch",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.schulmat-peter.ch",
+          "method": "GET",
+          "status": "200",
+          "count": 104
+        },
+        {
+          "host": "www.schulmat-peter.ch",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.schulmat-peter.ch",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c5e87043-e22b-43bc-bafb-588b8e56fef5",
+      "event_at": "2026-10-02T16:52:20Z",
+      "observed_at": "2026-10-07T22:12:17Z",
+      "submitted_host": "us.taskworld.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b3f5cacf6203aebcd65d4eff1d0b6059abe0941fedaabf058493972afe354ecb",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "abs.twimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 548
+        },
+        {
+          "host": "accounts.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "api.x.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "api.x.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "appleid.cdn-apple.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "jf.x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "jf.x.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "play.google.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "sharedocadobe.noblebay.vu",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "sharedocadobe.noblebay.vu",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "tw-react-prod.s3.us-east-1.amazonaws.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "us.taskworld.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9df6f536-d8ec-4d98-a463-c9ed2d811e25",
+      "event_at": "2026-10-03T05:47:26Z",
+      "observed_at": "2026-10-07T22:12:26Z",
+      "submitted_host": "growmama.ru",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "76e63e354eea2783893890074b04e21540818610ecdc4ab8c23e6d74acdb334d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "app.reviewlab.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "blocked.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "checks.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "growbag.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "growmama.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 118
+        },
+        {
+          "host": "growmama.ru",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "jetpot.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "yandex.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/fdfa9a50-7690-4fde-90f1-b18ce884caca",
+      "event_at": "2026-10-03T06:43:04Z",
+      "observed_at": "2026-10-07T22:12:35Z",
+      "submitted_host": "grass-tver.ru",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bb715c6da7a221a303c455fe2790015ab2963718ca2a78f46152cfa440331efa",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "bleskon.ru",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "cdn-ru.bitrix24.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.callibri.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "cdn.envybox.io",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "chat-visitor.ru.envybox.io",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "chat-visitor.ru.envybox.io",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "chat-visitor.ru.envybox.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "chat-visitor.ru.envybox.io",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "chat-visitor.ru.envybox.io",
+          "method": "POST",
+          "status": "201",
+          "count": 1
+        },
+        {
+          "host": "content.saas-support.com",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "grass-tver.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "grass-tver.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "maxcdn.bootstrapcdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "smartcaptcha.yandexcloud.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "whitesaas.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/48d3f033-d5ad-4fd5-90c8-3cc30af123d0",
+      "event_at": "2026-10-03T13:11:06Z",
+      "observed_at": "2026-10-07T22:12:45Z",
+      "submitted_host": "e4.bmtr.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b6c404afad952ecde184f43ebc1f2b39ab1805aeb36ec4fb7956659c6b9f6bbd",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "browsec.zendesk.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "e4.bmtr.org",
+          "method": "GET",
+          "status": "200",
+          "count": 47
+        },
+        {
+          "host": "e4.bmtr.org",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "e4.bmtr.org",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "ekr.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "static.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/80cb15ed-99df-4292-aae5-e9fb619ed736",
+      "event_at": "2026-10-03T17:38:04Z",
+      "observed_at": "2026-10-07T22:12:53Z",
+      "submitted_host": "minerclub.shop",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "81e813a90bbffa2ea95cecafd8d3de2e388960354f55c642493cc0acaf5547e0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "blocked.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "checks.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "minerclub.shop",
+          "method": "GET",
+          "status": "200",
+          "count": 31
+        },
+        {
+          "host": "minerclub.shop",
+          "method": "GET",
+          "status": "404",
+          "count": 12
+        },
+        {
+          "host": "mod.calltouch.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "scripts.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "sockjs-ap3.pusher.com",
+          "method": "OPTIONS",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "ws-ap3.pusher.com",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f9012e94-7ca4-41b2-a356-da509448c092",
+      "event_at": "2026-10-04T04:09:00Z",
+      "observed_at": "2026-10-07T22:12:56Z",
+      "submitted_host": "graminarts.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "64cbcb9e7df12e1a534f15a8684debdc3c57b05478427d4cd11bdc95b99800ec",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.shopify.com",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "graminarts.com",
+          "method": "GET",
+          "status": "200",
+          "count": 103
+        },
+        {
+          "host": "graminarts.com",
+          "method": "GET",
+          "status": "500",
+          "count": 1
+        },
+        {
+          "host": "graminarts.com",
+          "method": "POST",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "grw.reputon.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "otlp-http-production.shopifysvc.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "otlp-http-production.shopifysvc.com",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "sr-cdn.shiprocket.in",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "storage.googleapis.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "uc.shiprocket.in",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "uc.shiprocket.in",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "widget-view.dondy.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "widget-view.dondy.net",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.setubridgeapps.com",
+          "method": "POST",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "www.setubridgeapps.com",
+          "method": "POST",
+          "status": "500",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/30a35730-137d-4180-beaa-218a12598f51",
+      "event_at": "2026-10-04T04:24:05Z",
+      "observed_at": "2026-10-07T22:13:03Z",
+      "submitted_host": "soldoutconf.ru",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "95d814fb3455866422e381bbdce518f3c04647f3a169dedcb58a702b3b902237",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "aaateh.tochkadostupa.pro",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "blocked.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn-ru.bitrix24.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "checks.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "eventologia.bitrix24.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "eventologia.bitrix24.ru",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "eventologia.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "events.nethouse.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "forma.tinkoff.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "s.w.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "smartcaptcha.yandexcloud.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "soldoutconf.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 236
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e3e63837-19e1-4c38-9be9-c40061f55bd9",
+      "event_at": "2026-10-04T10:17:53Z",
+      "observed_at": "2026-10-07T22:13:05Z",
+      "submitted_host": "all-nationz.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3654ec79fc7f97f928d824c6a6a9d0d32b22ef375bfde0a261c3011208dba7a5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ajax.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "aladdin.genieesspv.jp",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "all-nationz.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "all-nationz.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "anymind360.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdp.livedoor.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "counter2.blog.livedoor.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "cpt.geniee.jp",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "ipcheck.blogsys.jp",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "js.gsspcln.jp",
+          "method": "GET",
+          "status": "unknown",
+          "count": 3
+        },
+        {
+          "host": "livedoor.blogimg.jp",
+          "method": "GET",
+          "status": "200",
+          "count": 18
+        },
+        {
+          "host": "livedoor.blogimg.jp",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "parts.blog.livedoor.jp",
+          "method": "GET",
+          "status": "200",
+          "count": 18
+        },
+        {
+          "host": "post-endpoint-zypaalk44a-an.a.run.app",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "qsearch-a.akamaihd.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "resize.blogsys.jp",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "resize.blogsys.jp",
+          "method": "GET",
+          "status": "unknown",
+          "count": 19
+        },
+        {
+          "host": "sp-gn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "t.blog.livedoor.jp",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.all-nationz.com",
+          "method": "GET",
+          "status": "200",
+          "count": 24
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "yads.c.yimg.jp",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7499b798-ad74-4895-b5bd-0340957430d8",
+      "event_at": "2026-10-05T05:30:18Z",
+      "observed_at": "2026-10-07T22:13:12Z",
+      "submitted_host": "vidaumedia.ru",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6f76b85f5a9ca84db5a4458c812d9024386b1cbc12a0c394871075bc33197169",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "app.comagic.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "blocked.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "checks.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "everfocus.online",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "everfocus.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "gw2.botfaqtor.ru",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "i.ytimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "i.ytimg.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "scripts.botfaqtor.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "translate.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "translate.googleapis.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "translate.googleapis.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "translate.googleapis.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vidau-cctv.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vidau.tv",
+          "method": "GET",
+          "status": "200",
+          "count": 96
+        },
+        {
+          "host": "vidau.tv",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "vidau.tv",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vidaucctv.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "vidaumedia.ru",
+          "method": "GET",
+          "status": "301",
+          "count": 2
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.youtube.com",
+          "method": "GET",
+          "status": "200",
+          "count": 18
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/04d1c042-fd7f-4d75-b737-fe7af7b9b4ed",
+      "event_at": "2026-10-05T12:31:08Z",
+      "observed_at": "2026-10-07T22:13:17Z",
+      "submitted_host": "www.google.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0eea2e4d8e11fa67838d1035dd70bd64d5eb79adfe3557ce9eb7a2f03743849f",
+      "submitted_reference_domains": [
+        "unfaltering291.carsneimill.org"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "logincdn.msauth.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "pyrotechindia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "unfaltering291.carsneimill.org",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "unfaltering291.carsneimill.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/12e55f7a-47fe-445f-b2f8-b4c2658f0d61",
+      "event_at": "2026-10-05T16:00:25Z",
+      "observed_at": "2026-10-07T22:13:20Z",
+      "submitted_host": "bridgelabs.tech",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f7d347b03113bd44813712e54f1fb08716264b73e6d47eb665f7c8f71385ad31",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "app.bridgelabs.tech",
+          "method": "GET",
+          "status": "200",
+          "count": 27
+        },
+        {
+          "host": "bridgelabs.tech",
+          "method": "GET",
+          "status": "200",
+          "count": 49
+        },
+        {
+          "host": "bridgelabs.tech",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "cdn.pagesense.io",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "crm.zoho.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "js.hs-scripts.com",
+          "method": "GET",
+          "status": "410",
+          "count": 1
+        },
+        {
+          "host": "pagesense-collect.zoho.com",
+          "method": "POST",
+          "status": "200",
+          "count": 23
+        },
+        {
+          "host": "pagesense-hb-collect.zoho.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "pagesense.zoho.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "salesiq.zohopublic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "salesiq.zohopublic.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "static.zohocdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "ta.gaconnector.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "track.gaconnector.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vts.zohopublic.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6ea276e7-0053-4ebc-8e26-d6e9c06cb52d",
+      "event_at": "2026-10-05T16:00:52Z",
+      "observed_at": "2026-10-07T22:13:23Z",
+      "submitted_host": "spastay2026.net",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3f7558088562e473b26df475da881eb7a510b38e315bd978af5058a1a9bb0d09",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "booking.spastaymad2026.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "booking.spastaymad2026.net",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        },
+        {
+          "host": "booking.spastaymad2026.net",
+          "method": "POST",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "spastay2026.net",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ab3e2277-a4dd-4a51-b134-5383d059309b",
+      "event_at": "2026-10-05T16:18:50Z",
+      "observed_at": "2026-10-07T22:13:26Z",
+      "submitted_host": "nam02.safelinks.protection.outlook.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "91a22d201e7008be91a142a54637245af7d1920017c294533a2657f8a2d35d4c",
+      "submitted_reference_domains": [
+        "megapowerline.com",
+        "s8hgzczy.r.ap-south-1.awstrack.me"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "abs.twimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 562
+        },
+        {
+          "host": "accounts.google.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "api.x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.x.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "api.x.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.x.com",
+          "method": "POST",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "appleid.cdn-apple.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "jf.x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "jf.x.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "jf.x.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "POST",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nam02.safelinks.protection.outlook.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "play.google.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "play.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "s8hgzczy.r.ap-south-1.awstrack.me",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b64c97ab-9037-4470-a52a-c1a0f138127b",
+      "event_at": "2026-10-05T17:07:47Z",
+      "observed_at": "2026-10-07T22:13:27Z",
+      "submitted_host": "s8hgzczy.r.ap-south-1.awstrack.me",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "835fec76f7cbe9a1563c455f089435a16116993717d0864dbab831e5a2cf65b1",
+      "submitted_reference_domains": [
+        "megapowerline.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "abs.twimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 562
+        },
+        {
+          "host": "accounts.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "api.x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.x.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "api.x.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.x.com",
+          "method": "POST",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "api.x.com",
+          "method": "POST",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "appleid.cdn-apple.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "jf.x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "jf.x.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "megapowerline.com",
+          "method": "POST",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "play.google.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "s8hgzczy.r.ap-south-1.awstrack.me",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "x.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

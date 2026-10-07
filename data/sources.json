@@ -985,6 +985,43 @@
       "url": "https://appwrite.io/docs/products/sites/domains",
       "role": "Primary platform documentation for automatically generated and branch-consistent deployment domains",
       "observed_on": "2026-10-07"
+    },
+    {
+      "id": "original-peer-query-chat-login-surface",
+      "url": "https://urlquery.net/report/0b92eb9f-fc2b-47ed-9424-702da856ae35",
+      "role": "Original login-only chat report with same-domain HTTP and WebSocket status metadata; no public message, sender, recipient or result use",
+      "event_at": "2026-05-22T21:17:00Z",
+      "observed_at": "2026-10-07T03:21:24Z",
+      "report_json_sha256": "a6bef04d76612e3ecb8b8bff651a8dabfa1f8f52142067471ad27175feeb4829"
+    },
+    {
+      "id": "original-peer-query-aim-community-control",
+      "url": "https://urlquery.net/report/42d5f4d9-0eb5-415b-9488-58786a114f90",
+      "role": "Original AI media/community surface; intended service traffic without a preserved sender-to-recipient result/use edge",
+      "event_at": "2026-07-20T11:12:08Z",
+      "observed_at": "2026-10-07T03:22:11Z",
+      "report_json_sha256": "34b0ebbf2b7e274ca8867814002d4977fcc94c48065176157c1090f2c44419ba"
+    },
+    {
+      "id": "immutable-tunnel-pcg-handoff-control",
+      "url": "https://github.com/kxsxlxv/Tunnel_PCG/blob/bc191f906ac1921cb9f861723e16bc8c361733d7/PROJECT_HANDOFF.md",
+      "role": "Immutable explicit engineering handoff; concealment-word proximity is unrelated prose, not covert agent coordination",
+      "observed_at": "2026-10-07T03:25:55Z",
+      "git_commit_sha": "bc191f906ac1921cb9f861723e16bc8c361733d7"
+    },
+    {
+      "id": "immutable-cosysim-handoff-control",
+      "url": "https://github.com/nihilistau/CosySim/blob/eb67e2e8e2e22f14c6c736831a5e966f86a06eb0/internal/Merges/docs/PHASE_7_TRAINING_HANDOFF.md",
+      "role": "Immutable explicit refactoring handoff; secretly refers to application dataflow, not hidden agent cooperation",
+      "observed_at": "2026-10-07T03:25:55Z",
+      "git_commit_sha": "eb67e2e8e2e22f14c6c736831a5e966f86a06eb0"
+    },
+    {
+      "id": "immutable-claudecraft-handoff-control",
+      "url": "https://github.com/levy-street/world-of-claudecraft/blob/f46f30f5849989e44d7aa1bf62b3b14e435bc2fe/docs/ui-architecture-hud-modularization/qa-phase-template.md",
+      "role": "Immutable designed multi-agent project template; explicit orchestration and user escalation are not rogue-swarm evidence",
+      "observed_at": "2026-10-07T03:25:55Z",
+      "git_commit_sha": "f46f30f5849989e44d7aa1bf62b3b14e435bc2fe"
     }
   ]
 }

@@ -1,0 +1,1475 @@
+{
+  "collected_at": "2026-10-07T03:23:00Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/0626b8c8-f1c9-4466-bdae-9c354e0c16e6",
+      "event_at": "2026-05-27T23:17:33Z",
+      "observed_at": "2026-10-07T03:21:24Z",
+      "submitted_host": "eaglewindow.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fd8e7a778fdba0a4df3d5a81b63fb34c06225017fb039e61e17fc5dea805caea",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "10048661.metrics.convertexperiments.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "analytics-fe.digital-cloud-us-main.medallia.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "analytics-fe.digital-cloud-us-main.medallia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "analytics.collectivemeasures.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "andersencorporation.org.coveo.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "andersencorporation.org.coveo.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.bazaarvoice.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "apps.bazaarvoice.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "bat.bing.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "bat.bing.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bat.bing.net",
+          "method": "GET",
+          "status": "204",
+          "count": 2
+        },
+        {
+          "host": "bat.bing.net",
+          "method": "POST",
+          "status": "204",
+          "count": 2
+        },
+        {
+          "host": "cdn-4.convertexperiments.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.evgnet.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.quantummetric.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "collector-22315.us.tvsquared.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "consent.trustarc.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "consent.trustarc.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ct.pinterest.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "d35vb5cccm4xzp.cloudfront.net",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "display.ugc.bazaarvoice.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "eaglewindow.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "edge-platform.sitecorecloud.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "edge-platform.sitecorecloud.io",
+          "method": "GET",
+          "status": "201",
+          "count": 1
+        },
+        {
+          "host": "edge-platform.sitecorecloud.io",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "edge-platform.sitecorecloud.io",
+          "method": "POST",
+          "status": "201",
+          "count": 1
+        },
+        {
+          "host": "ingest.quantummetric.com",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ingest.quantummetric.com",
+          "method": "POST",
+          "status": "200",
+          "count": 36
+        },
+        {
+          "host": "js.monitor.azure.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "logs.convertexperiments.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "nebula-cdn.kampyle.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "network-a.bazaarvoice.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "network.bazaarvoice.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "northcentralus-0.in.applicationinsights.azure.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "northcentralus-0.in.applicationinsights.azure.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "p.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "renewalbyandersen.us-5.evergage.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "renewalbyandersen.us-5.evergage.com",
+          "method": "POST",
+          "status": "204",
+          "count": 2
+        },
+        {
+          "host": "rl.quantummetric.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "rl.quantummetric.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "s.pinimg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "use.typekit.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "view.ceros.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.andersenwindows.com",
+          "method": "GET",
+          "status": "200",
+          "count": 87
+        },
+        {
+          "host": "www.andersenwindows.com",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "www.andersenwindows.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.redditstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0b92eb9f-fc2b-47ed-9424-702da856ae35",
+      "event_at": "2026-05-22T21:17:00Z",
+      "observed_at": "2026-10-07T03:21:24Z",
+      "submitted_host": "chat.vps.tips",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a6bef04d76612e3ecb8b8bff651a8dabfa1f8f52142067471ad27175feeb4829",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "chat.vps.tips",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "chat.vps.tips",
+          "method": "GET",
+          "status": "200",
+          "count": 15
+        },
+        {
+          "host": "chat.vps.tips",
+          "method": "POST",
+          "status": "200",
+          "count": 18
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/22b2faa4-cc2b-45ec-9d5e-9b4310c922ae",
+      "event_at": "2026-05-20T12:54:04Z",
+      "observed_at": "2026-10-07T03:21:32Z",
+      "submitted_host": "blog.synoptek.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f4e880ca72772af4c71858c2b433a5265aeb416b7d428d6545ace92c1b1be413",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.hubapi.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.privy.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "assets.privy.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "blog.synoptek.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "blog.synoptek.com",
+          "method": "GET",
+          "status": "307",
+          "count": 1
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cdn.quantummetric.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "events.privy.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "forms-na1.hsforms.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "forms.hscollectedforms.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "forms.hsforms.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "ingest.quantummetric.com",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ingest.quantummetric.com",
+          "method": "POST",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "js.hs-banner.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.hs-banner.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.hs-banner.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "js.hs-scripts.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.hsadspixel.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.hscollectedforms.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.hsforms.net",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "js.usemessages.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.zi-scripts.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "js.zi-scripts.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "maps.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "region1.analytics.google.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "rl.quantummetric.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 2
+        },
+        {
+          "host": "rl.quantummetric.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "synoptek.com",
+          "method": "GET",
+          "status": "200",
+          "count": 31
+        },
+        {
+          "host": "synoptek.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "widget.privy.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/223885f1-ed52-499e-843d-7bd953c6423b",
+      "event_at": "2026-08-04T10:11:29Z",
+      "observed_at": "2026-10-07T03:21:40Z",
+      "submitted_host": "delinea.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "79cce649ae9e0858af23b87eaa91654a8771e14f3fed596a71b4a6ee100cea6c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "7052064.fs1.hubspotusercontent-na1.net",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "a.burly.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "app.qualified.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "app.qualified.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "app.qualified.com",
+          "method": "POST",
+          "status": "204",
+          "count": 15
+        },
+        {
+          "host": "assets.qualified.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "assets.qualified.com",
+          "method": "GET",
+          "status": "206",
+          "count": 1
+        },
+        {
+          "host": "cdn.cookielaw.org",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "delinea.com",
+          "method": "GET",
+          "status": "200",
+          "count": 37
+        },
+        {
+          "host": "delinea.com",
+          "method": "GET",
+          "status": "206",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "geolocation.onetrust.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "go.thycotic.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "js.qualified.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "js.qualified.com",
+          "method": "GET",
+          "status": "206",
+          "count": 2
+        },
+        {
+          "host": "player.vimeo.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ws3.qualified.com",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "www.gartner.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.gartner.com",
+          "method": "GET",
+          "status": "301",
+          "count": 2
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2a7a4f81-8a2d-4de4-93dd-2c7f32755719",
+      "event_at": "2026-06-01T06:25:16Z",
+      "observed_at": "2026-10-07T03:21:49Z",
+      "submitted_host": "www.databreachtoday.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fa2fcc1ee7525993bfc20a4b7a24ca1d58b6be8380c2411686d1c51a0b8d7b8a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "b.6sc.co",
+          "method": "GET",
+          "status": "200",
+          "count": 18
+        },
+        {
+          "host": "bankinfosecurity.disqus.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "c.6sc.co",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "c.6sc.co",
+          "method": "GET",
+          "status": "302",
+          "count": 6
+        },
+        {
+          "host": "c.disquscdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "disqus.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "epsilon.6sense.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "epsilon.6sense.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "ipv6.6sc.co",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "ismg-cdn.nyc3.cdn.digitaloceanspaces.com",
+          "method": "GET",
+          "status": "200",
+          "count": 74
+        },
+        {
+          "host": "ismg-cdn.nyc3.cdn.digitaloceanspaces.com",
+          "method": "GET",
+          "status": "206",
+          "count": 1
+        },
+        {
+          "host": "j.6sc.co",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "referrer.disqus.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.databreachtoday.com",
+          "method": "GET",
+          "status": "200",
+          "count": 29
+        },
+        {
+          "host": "www.databreachtoday.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3cb44c11-466c-4f5e-8f90-4abf1ae1cde6",
+      "event_at": "2026-08-25T08:05:43Z",
+      "observed_at": "2026-10-07T03:21:55Z",
+      "submitted_host": "networkxevent.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8910d2463c004c136a7190cee044ff9dd486cee33c26adfd7e00d0650c342953",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "accounts.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "agent-card.bridged.media",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "analytics.funnelfuel.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "analytics.funnelfuel.io",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "api.iiris.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "api.iiris.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "d1l6p2sc9645hc.cloudfront.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "d2oh4tlt9mrke9.cloudfront.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 6
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "gateway.bridged.media",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "gateway.bridged.media",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "gateway.bridged.media",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "gateway.bridged.media",
+          "method": "POST",
+          "status": "201",
+          "count": 3
+        },
+        {
+          "host": "knect365.imgix.net",
+          "method": "GET",
+          "status": "200",
+          "count": 174
+        },
+        {
+          "host": "knect365.imgix.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "loader.bridged.media",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "networkxevent.com",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        },
+        {
+          "host": "prod-assets-156041422845.s3.eu-west-1.amazonaws.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "static.iris.informa.com",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "transcend-cdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "userfiles.partneringone.informaconnect.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "widgets.iiris.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "www.youtube-nocookie.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.youtube.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3f745093-d3c5-4964-a0ba-f4b719bdc130",
+      "event_at": "2026-07-10T07:02:05Z",
+      "observed_at": "2026-10-07T03:22:00Z",
+      "submitted_host": "iacobelli.cl",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "809de8033fb5bf094da467ed734faea15099852425ca151482c2ad5009cb58ea",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "iacobelli.cl",
+          "method": "GET",
+          "status": "200",
+          "count": 30
+        },
+        {
+          "host": "iacobelli.cl",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "iacobelli.cl",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/42d5f4d9-0eb5-415b-9488-58786a114f90",
+      "event_at": "2026-07-20T11:12:08Z",
+      "observed_at": "2026-10-07T03:22:11Z",
+      "submitted_host": "aim.media",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "34b0ebbf2b7e274ca8867814002d4977fcc94c48065176157c1090f2c44419ba",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "accounts.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "aim.media",
+          "method": "GET",
+          "status": "200",
+          "count": 11
+        },
+        {
+          "host": "aim.media",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "aim.media",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "aim.media",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bot.aim.media",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "bwokbhtnxiewctckffsd.supabase.co",
+          "method": "GET",
+          "status": "200",
+          "count": 15
+        },
+        {
+          "host": "bwokbhtnxiewctckffsd.supabase.co",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "bwokbhtnxiewctckffsd.supabase.co",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.simpleicons.org",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "cdn.simpleicons.org",
+          "method": "GET",
+          "status": "404",
+          "count": 5
+        },
+        {
+          "host": "d8j0ntlcm91z4.cloudfront.net",
+          "method": "GET",
+          "status": "206",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "ipapi.co",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "play.google.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "sleuzjmoofdaxzqtcljc.supabase.co",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "sleuzjmoofdaxzqtcljc.supabase.co",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "sleuzjmoofdaxzqtcljc.supabase.co",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "sleuzjmoofdaxzqtcljc.supabase.co",
+          "method": "POST",
+          "status": "201",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "zdpdvwhvukelzzbzbjvh.supabase.co",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

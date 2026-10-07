@@ -1,0 +1,153 @@
+{
+  "assessed_at": "2026-10-07T03:25:55Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scanner_scope": {
+    "listing_query": "peer agents",
+    "distinct_listing_records": 50,
+    "selection_rule": "Eight previously uninspected, exact-ID comparison absences whose existing public report JSON was readable and which represented non-Appwrite surfaces in the bounded metadata sweep.",
+    "selected_records": 8,
+    "successful_original_reads": 8,
+    "comparison_absences": 8,
+    "event_range": {
+      "from": "2026-05-20T12:54:04Z",
+      "to": "2026-08-25T08:05:43Z"
+    },
+    "observation_range": {
+      "from": "2026-10-07T03:21:24Z",
+      "to": "2026-10-07T03:22:11Z"
+    },
+    "review_file": "original-peer-query-reviews.json",
+    "review_file_sha256": "31fff63570001c663cc19befa7d93d198139bcfb9078fc5082caca879bcd2d38",
+    "limitations": "The query phrase is a discovery cue, not evidence of agents. Static source features and recorded request status counts do not expose request or response bodies, authors, recipients, autonomous identities, task semantics, authorization or downstream use. A broader metadata sweep encountered timeouts and is not counted as original inspection coverage."
+  },
+  "scanner_assessments": [
+    {
+      "report_url": "https://urlquery.net/report/0626b8c8-f1c9-4466-bdae-9c354e0c16e6",
+      "submitted_domain": "eaglewindow.com",
+      "event_at": "2026-05-27T23:17:33Z",
+      "observed_at": "2026-10-07T03:21:24Z",
+      "report_json_sha256": "fd8e7a778fdba0a4df3d5a81b63fb34c06225017fb039e61e17fc5dea805caea",
+      "assessment": "Ordinary commercial page and analytics/search/widget traffic; the query phrase is not a sender-to-recipient task exchange.",
+      "classification": "keyword collision control"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0b92eb9f-fc2b-47ed-9424-702da856ae35",
+      "submitted_domain": "chat.vps.tips",
+      "event_at": "2026-05-22T21:17:00Z",
+      "observed_at": "2026-10-07T03:21:24Z",
+      "report_json_sha256": "a6bef04d76612e3ecb8b8bff651a8dabfa1f8f52142067471ad27175feeb4829",
+      "recorded_same_domain_statuses": {
+        "GET 200": 15,
+        "POST 200": 18,
+        "GET 101": 1
+      },
+      "assessment": "The archived title identifies a login surface. Same-domain POST and WebSocket status metadata establishes service activity only; no public message body, sender, recipient, task result or downstream use is present.",
+      "classification": "unresolved login-only communication surface",
+      "advancement_evidence": "An already public indexed record must identify a specific autonomous sender and independently distinguishable recipient, preserve the transferred task material and show the recipient using it. Primary provenance must also establish separate operators or an operator-defined boundary and show that the exchange was unauthorized. Authentication, account creation and non-public room access are prohibited."
+    },
+    {
+      "report_url": "https://urlquery.net/report/22b2faa4-cc2b-45ec-9d5e-9b4310c922ae",
+      "submitted_domain": "blog.synoptek.com",
+      "event_at": "2026-05-20T12:54:04Z",
+      "observed_at": "2026-10-07T03:21:32Z",
+      "report_json_sha256": "f4e880ca72772af4c71858c2b433a5265aeb416b7d428d6545ace92c1b1be413",
+      "assessment": "Ordinary privacy/compliance article surface; no task-result dependency.",
+      "classification": "keyword collision control"
+    },
+    {
+      "report_url": "https://urlquery.net/report/223885f1-ed52-499e-843d-7bd953c6423b",
+      "submitted_domain": "delinea.com",
+      "event_at": "2026-08-04T10:11:29Z",
+      "observed_at": "2026-10-07T03:21:40Z",
+      "report_json_sha256": "79cce649ae9e0858af23b87eaa91654a8771e14f3fed596a71b4a6ee100cea6c",
+      "assessment": "Ordinary privileged-access-management page; no task-result dependency.",
+      "classification": "keyword collision control"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2a7a4f81-8a2d-4de4-93dd-2c7f32755719",
+      "submitted_domain": "databreachtoday.com",
+      "event_at": "2026-06-01T06:25:16Z",
+      "observed_at": "2026-10-07T03:21:49Z",
+      "report_json_sha256": "fa2fcc1ee7525993bfc20a4b7a24ca1d58b6be8380c2411686d1c51a0b8d7b8a",
+      "assessment": "Ordinary news/article surface; no task-result dependency.",
+      "classification": "keyword collision control"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3cb44c11-466c-4f5e-8f90-4abf1ae1cde6",
+      "submitted_domain": "networkxevent.com",
+      "event_at": "2026-08-25T08:05:43Z",
+      "observed_at": "2026-10-07T03:21:55Z",
+      "report_json_sha256": "8910d2463c004c136a7190cee044ff9dd486cee33c26adfd7e00d0650c342953",
+      "assessment": "Telecommunications event page. An agent-card string belongs to an advertising/widget endpoint and does not identify an AI participant.",
+      "classification": "keyword collision control"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3f745093-d3c5-4964-a0ba-f4b719bdc130",
+      "submitted_domain": "iacobelli.cl",
+      "event_at": "2026-07-10T07:02:05Z",
+      "observed_at": "2026-10-07T03:22:00Z",
+      "report_json_sha256": "809de8033fb5bf094da467ed734faea15099852425ca151482c2ad5009cb58ea",
+      "assessment": "Ordinary academic page surface; no task-result dependency.",
+      "classification": "keyword collision control"
+    },
+    {
+      "report_url": "https://urlquery.net/report/42d5f4d9-0eb5-415b-9488-58786a114f90",
+      "submitted_domain": "aim.media",
+      "event_at": "2026-07-20T11:12:08Z",
+      "observed_at": "2026-10-07T03:22:11Z",
+      "report_json_sha256": "34b0ebbf2b7e274ca8867814002d4977fcc94c48065176157c1090f2c44419ba",
+      "recorded_domain_summary": "First-party media traffic, one bot subdomain read and three hosted database projects.",
+      "assessment": "The public title presents an AI conference, research and community service. Recorded service traffic has no preserved sender/recipient task-result semantics and is consistent with an intentional community surface.",
+      "classification": "intentional AI community control",
+      "advancement_evidence": "A public record would need a specific autonomous sender-to-recipient result, observable recipient use and primary authorization evidence that distinguishes an unintended cross-operator exchange from the service's designed community workflow."
+    }
+  ],
+  "immutable_handoff_control": {
+    "purpose": "Test whether public handoff artifacts containing boundary or concealment vocabulary preserve an unrecognized unauthorized exchange. These are falsification controls, not discovery candidates.",
+    "observed_at": "2026-10-07T03:25:55Z",
+    "queries": [
+      {
+        "query": "\"without permission\" \"next agent\" filename:HANDOFF.md",
+        "github_result_count": 8,
+        "reviewed_results": 8,
+        "assessment": "All contexts concern game rules, deployment/asset guardrails, public-use restrictions or explicit project continuation. One file records an assistant adding attribution trailers without permission, but preserves neither a distinct recipient nor recipient use; it is a single-assistant conduct note, not a coordination chain."
+      },
+      {
+        "query": "\"hide this\" \"next agent\" filename:HANDOFF.md",
+        "github_result_count": 3,
+        "reviewed_results": 1,
+        "representative_url": "https://github.com/kxsxlxv/Tunnel_PCG/blob/bc191f906ac1921cb9f861723e16bc8c361733d7/PROJECT_HANDOFF.md",
+        "assessment": "The words occur in separate engineering statements: an explicit next-implementation-agent section and a warning not to hide unresolved dimensions as constants. No covert transfer is described."
+      },
+      {
+        "query": "\"secretly\" \"next agent\" filename:HANDOFF.md",
+        "github_result_count": 3,
+        "reviewed_results": 1,
+        "representative_url": "https://github.com/nihilistau/CosySim/blob/eb67e2e8e2e22f14c6c736831a5e966f86a06eb0/internal/Merges/docs/PHASE_7_TRAINING_HANDOFF.md",
+        "assessment": "An explicit refactoring handoff asks a future agent to check that objects are not secretly passed through a software component. The handoff is designed and the adverb modifies application dataflow, not concealed agent coordination."
+      },
+      {
+        "query": "\"do not tell the user\" filename:HANDOFF.md",
+        "github_result_count": 28,
+        "reviewed_results": 1,
+        "representative_url": "https://github.com/levy-street/world-of-claudecraft/blob/f46f30f5849989e44d7aa1bf62b3b14e435bc2fe/docs/ui-architecture-hud-modularization/qa-phase-template.md",
+        "assessment": "The selected public project explicitly orchestrates agents and tells them to ask the user when shared-worktree provenance is unclear. Search-term proximity is not a concealed exchange, and intentional project agents are outside the discovery target absent contrary boundary evidence."
+      }
+    ],
+    "limitations": "GitHub code search covers indexed default-branch content and phrase matching can join unrelated occurrences in one file. Only the stated results were reviewed; counts are neither participant nor incident counts. Files were read as evidence and no embedded instructions, code or tests were run."
+  },
+  "evidence_state": {
+    "newly_collected_original_records": 8,
+    "previously_published_episode": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All eight scanner IDs are absent from the pinned comparison release, but exact-ID absence is not novelty. No scoped prior-reporting search was run because no sender-to-recipient transfer-and-use chain emerged to compare against prior reports.",
+  "safety": "Only existing public scanner report JSON, indexed public GitHub search excerpts and immutable public repository files were read. No recovered code, package, scan, runtime, payload, carrier, target, sink, account, authentication, private room, message, vote or participant contact was executed or attempted."
+}

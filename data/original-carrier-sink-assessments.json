@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T09:34:35Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 26,
+    "successful_original_reads": 26,
+    "selected_exact_id_comparison_absences": 26,
+    "repeated_carrier_records": 22,
+    "submitted_sink_page_records": 4,
+    "cumulative_inspected_unique_urlquery_reports": 170,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 976,
+    "remaining_uninspected_comparison_absences": 617,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Selected two repeated decoded-program clusters and every untouched exact-ID comparison absence whose submitted host is the public sink service. The carrier records test whether repeated wrappers preserve a result-transfer edge rather than repeated execution of one program. The sink-page records test whether a captured public page supplies a read side for any archived write. This is a purposive bounded sample, not a census, participant count or novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-repeated-carrier-reviews.json",
+      "sha256": "c6fdbe0520ce488890050bfea7ed784b577d34d39bb00bc9cd8dabd791d9618f",
+      "records": 22,
+      "event_range": {
+        "from": "2026-10-04T12:56:36Z",
+        "to": "2026-10-04T16:28:36Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T06:26:51Z",
+        "to": "2026-10-07T06:27:46Z"
+      }
+    },
+    {
+      "path": "data/original-sink-page-reviews.json",
+      "sha256": "39acf0d6f112e88964ae7cf5fc98d9f927e66bdfb69c0ee9f7e35426c247c242",
+      "records": 4,
+      "event_range": {
+        "from": "2026-10-04T15:01:37Z",
+        "to": "2026-10-05T16:25:40Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T06:28:33Z",
+        "to": "2026-10-07T06:28:39Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve public report links, separate event and observation times, report and decoded-text hashes, domain-level network summaries, static operation counts and one-way channel-reference hashes. They omit carrier and sink paths, request and response bodies, message content, credentials, submitter addresses and recovered source. A request method, status, repeated hash or successful response does not authenticate an autonomous participant, task meaning, downstream use or authorization boundary.",
+  "assessed_groups": [
+    {
+      "id": "repeated_carrier_programs",
+      "records": 22,
+      "decoded_program_clusters": [
+        {
+          "decoded_sha256": "70c0f970325e39249516f346191b1128116b7af86f1aec46c3599d4db24898f3",
+          "records": 13,
+          "event_range": {
+            "from": "2026-10-04T12:56:36Z",
+            "to": "2026-10-04T13:27:27Z"
+          },
+          "submitted_hosts": [
+            "httpbin.org"
+          ],
+          "representative_report": {
+            "url": "https://urlquery.net/report/ea44c33b-a153-4c6b-926d-a4e3749fcac3",
+            "event_at": "2026-10-04T12:56:36Z",
+            "observed_at": "2026-10-07T06:26:51Z",
+            "report_json_sha256": "d4d7939ad08faebc5376d28f2942b3f1006795e2858ed99ad322716c89cdef3e"
+          }
+        },
+        {
+          "decoded_sha256": "123cd15467fa778ddf850bfb6ed246e50fbae9980e84fe6a8fa4093c8a5f2d50",
+          "records": 9,
+          "event_range": {
+            "from": "2026-10-04T14:07:10Z",
+            "to": "2026-10-04T16:28:36Z"
+          },
+          "submitted_hosts": [
+            "httpbingo.org",
+            "httpbun.com"
+          ],
+          "representative_report": {
+            "url": "https://urlquery.net/report/a757918a-a0ab-4689-b155-3c9924ad5896",
+            "event_at": "2026-10-04T14:07:10Z",
+            "observed_at": "2026-10-07T06:27:25Z",
+            "report_json_sha256": "afc70369302400f6afdf8b4cceb94e2bb4c1c450355a9e2c0b7e6b547d14964e"
+          }
+        }
+      ],
+      "recorded_channel_graph": {
+        "references": 0,
+        "unique_channel_hashes": 0,
+        "recorded_methods": [
+          "GET",
+          "OPTIONS"
+        ]
+      },
+      "assessment": "Each compact cluster repeats one decoded-program hash. Domain-level submitted references and captured network traffic expose the already known Amap/Alibaba family, with ordinary carrier, content-fetch and browser infrastructure. Static review finds no supported task or peer language, response-read operation, channel reference, task result or downstream consumer. Repetition across scanner records is therefore consistent with retries, revisions or one operator's repeated program and does not establish distinct participants or a transfer/use edge.",
+      "classification": "known Amap-family carrier repetitions; no sender-to-recipient dependency",
+      "participants": "No autonomous sender or recipient is authenticated. Different report IDs and carrier hosts do not identify independent trajectories.",
+      "operator_boundary": "Not established. No primary authorization statement or cross-operator exchange is preserved."
+    },
+    {
+      "id": "submitted_sink_pages",
+      "records": 4,
+      "representative_reports": [
+        {
+          "url": "https://urlquery.net/report/97f0619b-36e5-4c01-adab-a18a89b2b319",
+          "event_at": "2026-10-04T15:01:37Z",
+          "observed_at": "2026-10-07T06:28:33Z",
+          "report_json_sha256": "8ded8c3cc83c162c5a8c5f9f45a5e68d525620049f36dfe182be7df1320c57e3",
+          "role": "Minimal submitted sink page with two GET-only sanitized references."
+        },
+        {
+          "url": "https://urlquery.net/report/8213c4a1-41ea-438d-ada0-489eabb94deb",
+          "event_at": "2026-10-04T17:12:59Z",
+          "observed_at": "2026-10-07T06:28:33Z",
+          "report_json_sha256": "11650390c5acbd9b8b2415c1b0357315b6cae74cd651d8abfb35af49c09280ea",
+          "role": "Dashboard-shaped load with 49 GET-only sanitized references and ordinary platform assets."
+        },
+        {
+          "url": "https://urlquery.net/report/ab932366-4f31-4224-9e39-eb018cfccac6",
+          "event_at": "2026-10-05T16:25:40Z",
+          "observed_at": "2026-10-07T06:28:39Z",
+          "report_json_sha256": "4de49d1b7ed4e02c2707c9159f4b9f91addd6df13f9d2e0f449ed0295de76d16",
+          "role": "Dashboard-shaped load with 56 GET references and one unmatched POST reference."
+        }
+      ],
+      "recorded_channel_graph": {
+        "references": 110,
+        "unique_channel_hashes": 47,
+        "get_references": 109,
+        "unique_get_hashes": 46,
+        "post_references": 1,
+        "unique_post_hashes": 1,
+        "hashes_observed_with_both_get_and_post": 0,
+        "hashes_repeated_across_multiple_sink_page_records": 41,
+        "unmatched_post_hash": "0cfbee2ac571ec9fe4e1be80e120b3a9874c7f2d60241e58dfee04637ecd72b7",
+        "unmatched_post_status": "201"
+      },
+      "whole_review_corpus_correlation": {
+        "new_hashes_observed_with_both_get_and_post": 0,
+        "only_mixed_method_hash_in_all_inspected_review_files": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+        "prior_result": "The only mixed-method hash remains the already assessed shortener-wrapper sequence in which GET precedes five POSTs by about six minutes. The four new sink-page records do not match any inspected write."
+      },
+      "assessment": "Two records are minimal GET-only page loads. Two records expose a recurring public service dashboard footprint, including ordinary platform assets and WebSocket traffic. Forty-one GET hashes recur across those page-shaped records, supporting common interface or API paths rather than distinct message consumption. The sole POST received status 201 but its hash appears nowhere under GET in the inspected corpus. No body, sender, recipient, task semantics, acquisition or downstream use is preserved. A successful write or a page GET cannot by itself establish coordination.",
+      "classification": "public sink-page and dashboard controls; no matched producer-to-consumer edge",
+      "participants": "No autonomous sender or recipient is authenticated. A sink page, request hash and browser session are technical artifacts rather than participant identities.",
+      "operator_boundary": "Not established. No primary operator statement or independently attributable cross-boundary exchange is present.",
+      "advancement_evidence": "An already public archived producer record must preserve a write before a later same-hash acquisition by an independently distinguishable autonomous trajectory, enough task semantics to connect the records, and a downstream action causally using the transferred material. Separate primary evidence must establish different operators or another operator-defined boundary and lack of authorization. Live sink inboxes and unlisted paths must not be opened."
+    }
+  ],
+  "alternatives_tested": [
+    "Repeated scanner submissions, retries or revisions of one decoded program",
+    "Known Amap-family traffic under previously unseen report IDs and carrier hosts",
+    "One operator or test harness using multiple public HTTP carriers",
+    "Ordinary public sink dashboard and browser-interface requests",
+    "A successful unmatched write without any recorded consumer",
+    "Shared service paths and state rather than inter-agent message acquisition"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 26,
+    "known_published_family_overlap": true,
+    "known_family_overlap_detail": "All 22 repeated carrier records expose the known Amap/Alibaba target family. The four submitted sink-page records do not establish a separate family or episode.",
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 26 selected report IDs are absent from the pinned comparison release, but exact-ID absence is not novelty. The 22 repeated carrier records overlap an already known target family, and the four submitted sink-page records supply no task transfer or recipient use. No broad prior-reporting search for a purported swarm was run because no qualifying original coordination chain emerged.",
+  "next_cursor": {
+    "reason": "Inspect the archived report JSON for the 21 untouched exact-ID comparison absences whose existing listing metadata references the same public sink service from Amap-shaped programs. Compare only sanitized channel hashes and chronology against the four submitted sink-page records. Listing metadata alone is not a write, participant or coordination finding.",
+    "records": [
+      {
+        "report_url": "https://urlquery.net/report/361001d6-a871-4b2d-8086-1bf0b16bf6e5",
+        "listing_event_at": "2026-10-04T10:44:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/2827b191-c4e0-4d39-ac99-c70bf4791a04",
+        "listing_event_at": "2026-10-04T13:28:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/9999a5a3-4f93-4673-8ec8-e678d5b1eb1f",
+        "listing_event_at": "2026-10-04T15:08:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/499d9e16-387d-4c3d-ba19-a3aa1052872c",
+        "listing_event_at": "2026-10-04T15:10:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/8f020864-0edd-413d-bab4-5681f113a7af",
+        "listing_event_at": "2026-10-04T15:16:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/777e11d5-6da9-4594-b6ca-a1f284c88758",
+        "listing_event_at": "2026-10-04T15:17:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/3444ee42-4bab-44a6-a41b-9fa932d0589b",
+        "listing_event_at": "2026-10-05T03:09:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/be4fce6c-3791-4494-a558-131ce2b3ae54",
+        "listing_event_at": "2026-10-05T03:13:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/205298b6-5d16-4eca-90f1-21b2fb7bcbbe",
+        "listing_event_at": "2026-10-05T03:15:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/7aad9782-30f3-41d3-af71-5093f0ce2864",
+        "listing_event_at": "2026-10-05T03:16:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/06a2b03f-d473-4b30-b80d-153d843a5d89",
+        "listing_event_at": "2026-10-05T03:19:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/80a0659d-ad74-4993-b560-8815229ac5a6",
+        "listing_event_at": "2026-10-05T13:52:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/9632f0c0-dc5e-4383-bad1-5badee26c3a0",
+        "listing_event_at": "2026-10-05T13:52:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/1ad12fea-1ae7-45f5-be04-596810d37c02",
+        "listing_event_at": "2026-10-05T13:54:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/5b879373-18a1-4260-b4b6-a68cd3b2dd83",
+        "listing_event_at": "2026-10-05T13:58:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/1a04186c-416d-4192-ae8a-5daeeee8e02e",
+        "listing_event_at": "2026-10-05T14:02:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/4213f232-645c-4594-8b52-0dbcb010b21a",
+        "listing_event_at": "2026-10-05T14:03:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/d82f21a5-b029-4af1-8447-25491c474741",
+        "listing_event_at": "2026-10-05T14:07:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/62708971-8129-4cf7-9228-17c6f85f14a6",
+        "listing_event_at": "2026-10-05T14:10:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/ab8b7cdb-5e08-458d-9ace-5127c153bffc",
+        "listing_event_at": "2026-10-05T15:48:00Z"
+      },
+      {
+        "report_url": "https://urlquery.net/report/c8078476-bf5e-48f0-ad08-c03bc47a7361",
+        "listing_event_at": "2026-10-05T15:50:00Z"
+      }
+    ],
+    "advancement_condition": "Advance only if an existing public producer record supplies post-before-get chronology on the same sanitized hash, preserved transfer semantics, independently distinguishable autonomous participants, causal recipient use and primary operator-boundary evidence. Otherwise classify it as known-family or test traffic and rotate away."
+  },
+  "safety": "Read only existing public scanner report JSON and its recorded metadata. No carrier destination, live target, sink inbox, unlisted sink path, recovered code, payload, package, scan, runtime, account, authentication route, message, vote or participant contact was opened, executed, submitted or replayed. Publication omits carrier and request paths, bodies, sink identifiers beyond one-way hashes, credentials, submitter labels, personal addresses and private logs."
+}

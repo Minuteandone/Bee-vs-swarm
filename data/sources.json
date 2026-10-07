@@ -1112,6 +1112,46 @@
       "event_at": "2026-06-21T20:43:08Z",
       "observed_at": "2026-10-07T05:01:18Z",
       "report_json_sha256": "35a2909308ce97688920528e107ebc2d40be4d6f2df63863f17958e0d3a5ae0b"
+    },
+    {
+      "id": "original-repeated-httpbin-amap-control",
+      "url": "https://urlquery.net/report/ea44c33b-a153-4c6b-926d-a4e3749fcac3",
+      "role": "Representative of thirteen repeated same-hash carrier records exposing the known Amap/Alibaba family without a channel or result dependency",
+      "event_at": "2026-10-04T12:56:36Z",
+      "observed_at": "2026-10-07T06:26:51Z",
+      "report_json_sha256": "d4d7939ad08faebc5376d28f2942b3f1006795e2858ed99ad322716c89cdef3e"
+    },
+    {
+      "id": "original-repeated-httpbingo-amap-control",
+      "url": "https://urlquery.net/report/a757918a-a0ab-4689-b155-3c9924ad5896",
+      "role": "Representative of nine repeated same-hash carrier records exposing the known Amap/Alibaba family without a channel or result dependency",
+      "event_at": "2026-10-04T14:07:10Z",
+      "observed_at": "2026-10-07T06:27:25Z",
+      "report_json_sha256": "afc70369302400f6afdf8b4cceb94e2bb4c1c450355a9e2c0b7e6b547d14964e"
+    },
+    {
+      "id": "original-minimal-sink-page-control",
+      "url": "https://urlquery.net/report/97f0619b-36e5-4c01-adab-a18a89b2b319",
+      "role": "Minimal submitted sink-page record with two GET-only sanitized references and no transfer/use semantics",
+      "event_at": "2026-10-04T15:01:37Z",
+      "observed_at": "2026-10-07T06:28:33Z",
+      "report_json_sha256": "8ded8c3cc83c162c5a8c5f9f45a5e68d525620049f36dfe182be7df1320c57e3"
+    },
+    {
+      "id": "original-sink-dashboard-get-control",
+      "url": "https://urlquery.net/report/8213c4a1-41ea-438d-ada0-489eabb94deb",
+      "role": "Submitted sink dashboard-shaped load with 49 GET-only sanitized references and no matched producer",
+      "event_at": "2026-10-04T17:12:59Z",
+      "observed_at": "2026-10-07T06:28:33Z",
+      "report_json_sha256": "11650390c5acbd9b8b2415c1b0357315b6cae74cd651d8abfb35af49c09280ea"
+    },
+    {
+      "id": "original-sink-dashboard-unmatched-write-control",
+      "url": "https://urlquery.net/report/ab932366-4f31-4224-9e39-eb018cfccac6",
+      "role": "Submitted sink dashboard-shaped load whose sole successful POST hash has no recorded GET match in the inspected corpus",
+      "event_at": "2026-10-05T16:25:40Z",
+      "observed_at": "2026-10-07T06:28:39Z",
+      "report_json_sha256": "4de49d1b7ed4e02c2707c9159f4b9f91addd6df13f9d2e0f449ed0295de76d16"
     }
   ]
 }

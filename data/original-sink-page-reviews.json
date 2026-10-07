@@ -1,0 +1,913 @@
+{
+  "collected_at": "2026-10-07T06:28:56Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/97f0619b-36e5-4c01-adab-a18a89b2b319",
+      "event_at": "2026-10-04T15:01:37Z",
+      "observed_at": "2026-10-07T06:28:33Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8ded8c3cc83c162c5a8c5f9f45a5e68d525620049f36dfe182be7df1320c57e3",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0e3c9955cbd0ea92f72ee8e9b1f1323e44571e75142978061361a477d5ee9ec3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3f0a71227959ce35ac44730e8f20805844dfdda3365e5802c65b681905866648",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8213c4a1-41ea-438d-ada0-489eabb94deb",
+      "event_at": "2026-10-04T17:12:59Z",
+      "observed_at": "2026-10-07T06:28:33Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "11650390c5acbd9b8b2415c1b0357315b6cae74cd651d8abfb35af49c09280ea",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.github.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "buttons.github.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 48
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "ws.webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1646591ed073e1b8e2de0d2c43af4ccb292c74beb0f3ee73ec505b82f4cf94d4",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1d756d2138f12bc82a7929d01a6120eace90f6559072656970a28f7059abfff3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "062c7b38edee16f530d2683d595847282e2e26f7cc37f4b3d17fe95d25031f91",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "e482e20f098b77064f52b9b4611b79f5094daa6ce69b9f6571f79e319ab2874f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a7459fff39fe774285d59b96d532510550153d88f06b84374753019160e639f1",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "deecbfc082b3ad3ceee245de362a34a1318469bc0d7a3642577ec0f0179f864b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3f0a71227959ce35ac44730e8f20805844dfdda3365e5802c65b681905866648",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6b3e57e736681338a1357cf2ef20e872a963811748c1767efc2294c8fd252c2f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "c758c30aea87b1b668c7fd19f13fbe33f3282591b1d7a9000b43585ef251e4e7",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "bba7264576274460ff4c0efd26d93b3a26cd183410fb0f5099688bedb49c4b4f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f7b2affad39d3f821929ae3244ada908d8b5813770aaecc5e76c9b5f18a1e308",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a375527232ae02ee2a908982b8cc3326f646d4055f2c78b5aa35ce2158add6d0",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5234d6cf00b7164dcf3426c06a9458a31920646aa40a18aba1227c4ae6ad1eb2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5a2234b4ba3bd8e2e733af207dc0be5c08e47b82aa8bafb0f78bce257dfa5a14",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "96bde59c241467dac47835b2dd4a4e07ed5353bf148265e1923438f7ca1874e6",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1646591ed073e1b8e2de0d2c43af4ccb292c74beb0f3ee73ec505b82f4cf94d4",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "91d0f0e8671c8c41be5d905ad918eafcd4e58f6e85bba029fc97ea63b2945038",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "94134edf9e2a00eb11b5050d0474f02b31c331912265b441bda6f36633a39062",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "cdf35452281352ae35384488149e26fc5d89349a90c03846db8680cb50bb13f4",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b17bf4f36048da3dd470da78365638b8a8abf9a4803cc9e714b34a3f4ed909fa",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "690f0bdce86aab25dd4667ac3760983708663f16555255a990d91aa800719836",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3739d1d5b0fd11dc9d38b8a7ced7a05c6d17ec87570e3b793c666d5c7831f5da",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1d756d2138f12bc82a7929d01a6120eace90f6559072656970a28f7059abfff3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5234d6cf00b7164dcf3426c06a9458a31920646aa40a18aba1227c4ae6ad1eb2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "02ae29a539de95a2f10ef063f87bf99a50525bd7d80555f058f343e89c4507d3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "d07a99ca04a82c2a6638b5b1ee432ad7450c59ddac57cb1fb7bb45725783c26a",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "84247e0b0cc33ec1857784acd38ca5864a448b75fba0030b2948a6cda8047317",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "ff56833e90e700984e612e504fa469c1ed916cc589376d421640cd9043321f33",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "41387c86b1b55b0cdb22704e74be96c06c51fb8693cc4e897badb649e3904440",
+          "recorded_method": "GET",
+          "recorded_status": "401"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f0f5d09301932e76e78a055bb7fbbe18de553f3af8420bde41ec6cfce8f46ad3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "7c1b79622811ca73b62983ad5c9a607020fde7aa86614ac1c0b5dd6a88372da8",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3739d1d5b0fd11dc9d38b8a7ced7a05c6d17ec87570e3b793c666d5c7831f5da",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "855ae60297f5406d2db58556219661c51994a183956488471b9274e2f92fdeb6",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "8c8380829d987d0d0335abb9b4b8416de8329d83ec32db81179e3e14bbfe4c02",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f7b2affad39d3f821929ae3244ada908d8b5813770aaecc5e76c9b5f18a1e308",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "35ffa8a701f94a8327da3f10642b807cd629a619f82cd2dea840dc9b3d891a23",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "da672a1ab85cc7f0c66a64eecdb090542293601b49b22c28a9be8765054e1279",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "8ba89613a9451635657504cb05a4c23ff3ee00e279251d7ce652b31068b196e0",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6dee05813b1c7c459e51e58c2d5c455332a06fa0eca2a7ea7ff52615f9938ff5",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "891f6cfbe5661a44be5b1525e8db4e6db3c95d68bfc100786a3595b295667da9",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1e3bdabf9d11ed1dd704605030115e1907b989fbed502ba5050ee6572e138036",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a74699426801edac526c7ed37eeba3468da4bbdab0972c153130c31a2a6605f2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "deecbfc082b3ad3ceee245de362a34a1318469bc0d7a3642577ec0f0179f864b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "ba136afefd0d9e07b837fb507d90ba595e4b5b8b336ce935d964900084d56efd",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1fd3efcf7f1e0d757d60999f0ee4219c3adc35a444ffe7ae6ea84518040fad7a",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "c758c30aea87b1b668c7fd19f13fbe33f3282591b1d7a9000b43585ef251e4e7",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6b97bbd124baf3a7dd59b01a04c463bfe2066f6f7798406a1f1f7ff63fa26a62",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "d095c7bbd1aff93cde66f72ea23ab62ec2b9d932eb960c37748f2e702353d8a3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b234d6c88020749572353e312952471809ce29e90fc8c3337962ff8bc86c418b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c9104bb8-8c1f-428f-b421-c57d0d4d53be",
+      "event_at": "2026-10-05T03:18:16Z",
+      "observed_at": "2026-10-07T06:28:38Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bb26b73418a54360b0dbc23ea4b9476f99b47eba2c64943cb63d4573fbe47145",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3f0a71227959ce35ac44730e8f20805844dfdda3365e5802c65b681905866648",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ab932366-4f31-4224-9e39-eb018cfccac6",
+      "event_at": "2026-10-05T16:25:40Z",
+      "observed_at": "2026-10-07T06:28:39Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4de49d1b7ed4e02c2707c9159f4b9f91addd6df13f9d2e0f449ed0295de76d16",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.github.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "buttons.github.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 54
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "401",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "201",
+          "count": 1
+        },
+        {
+          "host": "ws.webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5a2234b4ba3bd8e2e733af207dc0be5c08e47b82aa8bafb0f78bce257dfa5a14",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "02ae29a539de95a2f10ef063f87bf99a50525bd7d80555f058f343e89c4507d3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "8c8380829d987d0d0335abb9b4b8416de8329d83ec32db81179e3e14bbfe4c02",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "ff56833e90e700984e612e504fa469c1ed916cc589376d421640cd9043321f33",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "94134edf9e2a00eb11b5050d0474f02b31c331912265b441bda6f36633a39062",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5a2234b4ba3bd8e2e733af207dc0be5c08e47b82aa8bafb0f78bce257dfa5a14",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "c758c30aea87b1b668c7fd19f13fbe33f3282591b1d7a9000b43585ef251e4e7",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1646591ed073e1b8e2de0d2c43af4ccb292c74beb0f3ee73ec505b82f4cf94d4",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f7b2affad39d3f821929ae3244ada908d8b5813770aaecc5e76c9b5f18a1e308",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1d756d2138f12bc82a7929d01a6120eace90f6559072656970a28f7059abfff3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6dee05813b1c7c459e51e58c2d5c455332a06fa0eca2a7ea7ff52615f9938ff5",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5234d6cf00b7164dcf3426c06a9458a31920646aa40a18aba1227c4ae6ad1eb2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a375527232ae02ee2a908982b8cc3326f646d4055f2c78b5aa35ce2158add6d0",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a7459fff39fe774285d59b96d532510550153d88f06b84374753019160e639f1",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "690f0bdce86aab25dd4667ac3760983708663f16555255a990d91aa800719836",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6b97bbd124baf3a7dd59b01a04c463bfe2066f6f7798406a1f1f7ff63fa26a62",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b234d6c88020749572353e312952471809ce29e90fc8c3337962ff8bc86c418b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "bba7264576274460ff4c0efd26d93b3a26cd183410fb0f5099688bedb49c4b4f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f0f5d09301932e76e78a055bb7fbbe18de553f3af8420bde41ec6cfce8f46ad3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6b3e57e736681338a1357cf2ef20e872a963811748c1767efc2294c8fd252c2f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "d07a99ca04a82c2a6638b5b1ee432ad7450c59ddac57cb1fb7bb45725783c26a",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "e482e20f098b77064f52b9b4611b79f5094daa6ce69b9f6571f79e319ab2874f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "95c0c9ff6b8aa9c0a7538229d44526d5b264ad10c34f251c2078f1bd8cbf798b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3739d1d5b0fd11dc9d38b8a7ced7a05c6d17ec87570e3b793c666d5c7831f5da",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "062c7b38edee16f530d2683d595847282e2e26f7cc37f4b3d17fe95d25031f91",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "84247e0b0cc33ec1857784acd38ca5864a448b75fba0030b2948a6cda8047317",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1646591ed073e1b8e2de0d2c43af4ccb292c74beb0f3ee73ec505b82f4cf94d4",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "ba136afefd0d9e07b837fb507d90ba595e4b5b8b336ce935d964900084d56efd",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "49cfef9db5c2a67efa89f9be647df0699d942378e63a73105d87e73b14259026",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "855ae60297f5406d2db58556219661c51994a183956488471b9274e2f92fdeb6",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "c758c30aea87b1b668c7fd19f13fbe33f3282591b1d7a9000b43585ef251e4e7",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "91d0f0e8671c8c41be5d905ad918eafcd4e58f6e85bba029fc97ea63b2945038",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "bba7264576274460ff4c0efd26d93b3a26cd183410fb0f5099688bedb49c4b4f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "deecbfc082b3ad3ceee245de362a34a1318469bc0d7a3642577ec0f0179f864b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "deecbfc082b3ad3ceee245de362a34a1318469bc0d7a3642577ec0f0179f864b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "891f6cfbe5661a44be5b1525e8db4e6db3c95d68bfc100786a3595b295667da9",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a375527232ae02ee2a908982b8cc3326f646d4055f2c78b5aa35ce2158add6d0",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "d095c7bbd1aff93cde66f72ea23ab62ec2b9d932eb960c37748f2e702353d8a3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3739d1d5b0fd11dc9d38b8a7ced7a05c6d17ec87570e3b793c666d5c7831f5da",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "a74699426801edac526c7ed37eeba3468da4bbdab0972c153130c31a2a6605f2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "ba136afefd0d9e07b837fb507d90ba595e4b5b8b336ce935d964900084d56efd",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b17bf4f36048da3dd470da78365638b8a8abf9a4803cc9e714b34a3f4ed909fa",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "41387c86b1b55b0cdb22704e74be96c06c51fb8693cc4e897badb649e3904440",
+          "recorded_method": "GET",
+          "recorded_status": "401"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "35ffa8a701f94a8327da3f10642b807cd629a619f82cd2dea840dc9b3d891a23",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "8ba89613a9451635657504cb05a4c23ff3ee00e279251d7ce652b31068b196e0",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "41387c86b1b55b0cdb22704e74be96c06c51fb8693cc4e897badb649e3904440",
+          "recorded_method": "GET",
+          "recorded_status": "401"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "cdf35452281352ae35384488149e26fc5d89349a90c03846db8680cb50bb13f4",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b234d6c88020749572353e312952471809ce29e90fc8c3337962ff8bc86c418b",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1fd3efcf7f1e0d757d60999f0ee4219c3adc35a444ffe7ae6ea84518040fad7a",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "da672a1ab85cc7f0c66a64eecdb090542293601b49b22c28a9be8765054e1279",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1e3bdabf9d11ed1dd704605030115e1907b989fbed502ba5050ee6572e138036",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6b3e57e736681338a1357cf2ef20e872a963811748c1767efc2294c8fd252c2f",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "5234d6cf00b7164dcf3426c06a9458a31920646aa40a18aba1227c4ae6ad1eb2",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f7b2affad39d3f821929ae3244ada908d8b5813770aaecc5e76c9b5f18a1e308",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "1d756d2138f12bc82a7929d01a6120eace90f6559072656970a28f7059abfff3",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "96bde59c241467dac47835b2dd4a4e07ed5353bf148265e1923438f7ca1874e6",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0cfbee2ac571ec9fe4e1be80e120b3a9874c7f2d60241e58dfee04637ecd72b7",
+          "recorded_method": "POST",
+          "recorded_status": "201"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-07",
+  "scope": {
+    "newly_inspected_unique_urlquery_reports": 9,
+    "successful_original_urlquery_reads": 9,
+    "cumulative_inspected_unique_urlquery_reports": 76,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 1070,
+    "new_urlquery_exact_id_comparison_absences": 4,
+    "new_urlquery_exact_id_comparison_overlaps": 5,
+    "remaining_uninspected_comparison_absences": 711,
+    "direct_public_page_reads": 16,
+    "paste_feed_descriptions_inspected": 15,
+    "encoded_2026_feed_entries_inspected": 3,
+    "new_urlscan_public_listing_records": 57,
+    "urlscan_original_result_attempts": 10,
+    "successful_urlscan_original_result_reads": 0,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Closed the four saved original-report cursors, then rotated to original public wiki histories and an indexed paste RSS feed. A second scanner query sought captured consumers for the unresolved notification writes. Finally selected five distinct program hashes referring to urlquery itself, testing whether those references encoded a specific foreign-result dependency; the sixth matching listing has a duplicate code hash and remains uninspected. These are purposive bounded scopes, not a census, participant count or novelty result.",
+  "snapshots": [
+    {"path": "data/original-backlog-cursor-reviews.json", "sha256": "3d4b633afa8e5f7690cbf84ee867df4b3b87a7d709bf87b24995dc5447d7f667", "unique_original_reports": 4},
+    {"path": "data/original-report-reference-reviews.json", "sha256": "15498fc3730191e7375ab18f458970d4d33c310d3374cf8c15665ff9c99513ba", "unique_original_reports": 5},
+    {"path": "data/public-history-and-paste-gap-followup.json", "sha256": "58da9e314816f58d55296d538a591a8c88bf6c58c4058ba41ae78259fce44a2a"},
+    {"path": "data/cross-scanner-notification-followup.json", "sha256": "09ccd1360f7383e7ffc72afeb87da512009db4363bd2fd5f09625eceb517d3b6"}
+  ],
+  "gap_locator": {
+    "source_url": "https://collusion.wiki/explorer/download/coverage-gaps.csv",
+    "observed_at": "2026-10-07T00:17:00Z",
+    "response_sha256": "1f9f80864910d4c49e8ff24a35b1931b87eaeae9d1282c3efa3d6d7b0ee279dd",
+    "rows": 110,
+    "role": "Comparison locator metadata only. It guides selection and is not evidence of a new coordination episode."
+  },
+  "assessed_groups": [
+    {
+      "id": "closed_known_target_cursor",
+      "record_file": "data/original-backlog-cursor-reviews.json",
+      "event_range": ["2026-10-04T16:09:33Z", "2026-10-04T17:23:25Z"],
+      "observation_range": ["2026-10-07T00:16:07Z", "2026-10-07T00:16:20Z"],
+      "assessment": "Three reports expose an Amap URL reference in submitted text; the fourth captures Amap network traffic. Supported source decoding remains empty. No specific task result, distinct recipient or downstream reuse is visible. The four comparison absences do not establish a separate episode, population, operator or provider.",
+      "discovery_eligible_on_current_evidence": false,
+      "next_step": "Cursor closed. Revisit only for a specific original handoff and provenance capable of separating a new episode from the known target family."
+    },
+    {
+      "id": "scanner_references_without_foreign_result_use",
+      "record_file": "data/original-report-reference-reviews.json",
+      "event_range": ["2026-06-21T08:01:48Z", "2026-07-30T09:30:46Z"],
+      "observation_range": ["2026-10-07T00:27:12Z", "2026-10-07T00:27:26Z"],
+      "assessment": "All five original programs refer to urlquery, but none exposes a specific public report locator or a supported response-read operation. Structures contain timer, frame or navigation cues. Three captured urlquery POSTs have statuses 401, 204 and 204; the other two capture carrier-only traffic. A POST status does not establish what was accepted, a transferred task result, a second agent or recipient use. No recorded request was replayed.",
+      "comparison": "All five exact report IDs were already in the pinned Transluce release. That is index overlap, not proof that every possible exchange was previously analyzed; no exchange chain emerged here to advance or audit for novelty.",
+      "alternatives": ["One actor's scanner interaction or output workflow", "Repeated tests or scanner retries", "Copied or repeated programs"],
+      "next_evidence_required": "A specific original source artifact acquired by a distinguishable autonomous recipient and demonstrably used in subsequent task work, with independent trajectory provenance and primary authorization evidence."
+    },
+    {
+      "id": "meatball_revision_body_gap",
+      "source_url": "https://meatballwiki.org/recent",
+      "assessment": "The displayed index contains old rows and a nominal recent-window counter; it is not treated as a complete current activity census. Three selected diffs were inspected. AccidentalCollaboration and LifeInHypertext say their revision contents are unavailable after migration. The InternetEngineeringTaskForce diff displays a deletion, not a transferred task result. The MessageBoard's inspected newest excerpt is ordinary older community discussion. Page names, one recurring contributor label and an AI-related edit summary do not authenticate agents or cooperation.",
+      "selected_event_dates_displayed": ["2026-08-19", "2026-08-02", "2026-08-04"],
+      "event_timezone": "not established from displayed dates",
+      "next_evidence_required": "Already public preserved revision bodies showing an original sender, a later recipient and observable result use; a migration-loss shell or index label cannot supply the missing edge."
+    },
+    {
+      "id": "buecher_public_history_scope",
+      "source_url": "https://www.wikiservice.at/buecher/wiki.cgi?action=browse&id=RecentChanges&days=365",
+      "assessment": "The linked 30-day and 365-day indexes each display one page row dated 5 October, with five changes grouped under a contributor label. The selected current body is a book/geopolitics page. No directed result exchange appears in the inspected content. The site's open participation and topic policy do not authenticate the contributor or prove agent-operator authorization. A displayed 365-day filter does not establish complete retained historical coverage.",
+      "event_date_displayed": "2026-10-05",
+      "event_timezone": "not established from displayed date",
+      "next_evidence_required": "An original dated exchange and independent autonomous trajectory provenance, plus evidence the cooperation itself exceeded operator authorization."
+    },
+    {
+      "id": "nosupamu_original_feed_entries",
+      "source_url": "https://paste.nosupamu.de/lists/rss",
+      "assessment": "Fifteen public feed descriptions were inspected. Encoded text for all three 2026 entries was also inspected: the 29 September item is a short numeric test, and the two 18 May items are URL inventories at domain level. Neither a directed reply/result-use dependency nor a distinguishable autonomous recipient is shown. The remaining twelve descriptions concern 2017-2019 code/configuration pastes; their encoded bodies were not manually reviewed. Labels and multiple paste IDs are not verified agents. No listed URL or recovered code was visited or executed.",
+      "encoded_2026_record_ids": ["4ffbf3b7", "d90db0f7", "af5f26aa"],
+      "event_range": ["2017-10-05T12:28:46Z", "2026-09-29T01:42:57Z"],
+      "observed_at": "2026-10-07T00:23:07Z",
+      "route_limit": "Used the linked public listing/RSS route. Upstream Stikked source shows view/raw/API-paste calls can update counters or delete burn-after-reading records; those routes were not invoked. The deployed software version is not authenticated.",
+      "next_evidence_required": "An existing public preserved reply or consumer artifact with specific semantic dependence on a sender's task result, independent participant provenance and primary authorization evidence."
+    },
+    {
+      "id": "second_scanner_access_gap",
+      "record_file": "data/cross-scanner-notification-followup.json",
+      "assessment": "Two documented public search pages return 57 distinct listing records for notification domains in a fixed May-to-October date range. Ten selected existing result API reads return 403; selected ordinary public result pages are also unavailable to web retrieval. No network body was acquired, no channel hash could be compared and no original consumer was established. Repeated deployment hosts and nearby timestamps remain metadata, not distinct autonomous participants. The reason for the 403 is unknown.",
+      "scope_status": "inconclusive original-result coverage; not a negative finding about coordination",
+      "next_evidence_required": "Ordinary authorized access to an already existing public result, or another preserved original public consumer record. Do not bypass access controls, submit a new scan or read the sink."
+    },
+    {
+      "id": "hackingbytes_index_cursor",
+      "source_url": "https://hackingbytes.com/paste/lists",
+      "assessment": "Homepage and first public listing retrieved. Its 15 displayed entries are from 2016-2017, with no contemporary original task exchange reviewed. The linked public RSS and next listing offsets are preserved as lower-priority body/history cursors, not a new candidate.",
+      "next_read_only_page": "https://hackingbytes.com/paste/lists/rss",
+      "next_listing_page": "https://hackingbytes.com/paste/lists/15"
+    }
+  ],
+  "novelty_audit": {
+    "performed": ["Exact-ID join with the pinned Transluce comparison", "Known-target and program-reference comparison against repository exclusions", "Inspection of original records and selected public revision/feed content"],
+    "not_performed": "No new concrete coordination chain emerged, so no broad prior-reporting search for a purported new swarm was conducted. Do not describe the observed episodes as globally unknown or previously unreported."
+  },
+  "next_trail": {
+    "priority": "Rotate into an untouched indexed public-record gap with a specific preserved exchange; avoid another known-target wrapper batch, incident-paper catalog or provider issue survey.",
+    "scanner_result_cursor": ["https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/", "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/"],
+    "scanner_result_condition": "Resume only if ordinary public result access becomes available; the ten denied routes are not a retry queue.",
+    "public_paste_body_cursor": "https://hackingbytes.com/paste/lists/rss",
+    "public_paste_cursor_priority": "Lower priority: first-page entries predate the current agent investigation era. Only public listing/RSS routes; no view/raw endpoints.",
+    "wiki_original_body_gap": ["https://meatballwiki.org/wiki/AccidentalCollaboration/diff?a=1787149223&b=0", "https://meatballwiki.org/wiki/LifeInHypertext/diff?a=1785632356&b=0"],
+    "remaining_backlog": "1,070 original scanner records remain uninspected, including 711 comparison absences. Lower priority and exact-ID overlap do not mean fully reviewed or disproven."
+  },
+  "attribution_and_activity": "No autonomous identity, provider identity, rogue intent, operator-boundary violation or current ongoing coordination is established in these scopes.",
+  "safety": "Read existing explicitly read-only public scanner, listing, RSS, wiki and upstream source routes. No recovered code, carrier, recorded request, target, sink, runtime or package was executed; no scan, message, vote, account, participant contact or authentication attempt. Publication omits payloads, carrier URLs, addresses, credentials, tokens, sink topics and message bodies."
+}

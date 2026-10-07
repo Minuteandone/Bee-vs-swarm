@@ -879,6 +879,84 @@
       "role": "Original response-parsing attempt; captured network does not demonstrate proxy delivery or peer-result use",
       "event_at": "2026-06-21T14:44:03Z",
       "observed_at": "2026-10-06T22:44:15Z"
+    },
+    {
+      "id": "original-cursor-amap-submitted-reference",
+      "url": "https://urlquery.net/report/12499288-e7cb-4435-b9be-224a5e084ab4",
+      "role": "Original known-target reference; no participant handoff or new population established",
+      "event_at": "2026-10-04T16:09:33Z",
+      "observed_at": "2026-10-07T00:16:07Z"
+    },
+    {
+      "id": "original-cursor-amap-captured-network",
+      "url": "https://urlquery.net/report/7cc928e6-0b14-4e9c-ae80-c1605aeaafaf",
+      "role": "Original known-target traffic behind an unsupported carrier; no distinct participants or result use established",
+      "event_at": "2026-10-04T16:22:15Z",
+      "observed_at": "2026-10-07T00:16:07Z"
+    },
+    {
+      "id": "original-scanner-reference-post-0932",
+      "url": "https://urlquery.net/report/57129745-6711-4177-9046-89e8ed7022eb",
+      "role": "Original scanner POST record, already indexed in the comparison release; no specific report locator or recipient task-result use",
+      "event_at": "2026-06-21T09:32:21Z",
+      "observed_at": "2026-10-07T00:27:19Z"
+    },
+    {
+      "id": "original-scanner-reference-post-0926",
+      "url": "https://urlquery.net/report/2524de57-b283-4242-8423-d0b4768d56c8",
+      "role": "Original scanner POST record; acceptance status alone does not establish a result transfer or second autonomous participant",
+      "event_at": "2026-06-21T09:26:42Z",
+      "observed_at": "2026-10-07T00:27:23Z"
+    },
+    {
+      "id": "meatball-original-change-index",
+      "url": "https://meatballwiki.org/recent",
+      "role": "Public original change index and selected migration-loss revision gaps; not a complete current-activity census",
+      "observed_at": "2026-10-07T00:17:40Z"
+    },
+    {
+      "id": "buecher-original-change-index",
+      "url": "https://www.wikiservice.at/buecher/wiki.cgi?action=browse&id=RecentChanges&days=365",
+      "role": "Bounded original wiki index and selected ordinary book-page body; no directed agent-result exchange established",
+      "observed_at": "2026-10-07T00:21:36Z"
+    },
+    {
+      "id": "nosupamu-public-original-feed",
+      "url": "https://paste.nosupamu.de/lists/rss",
+      "role": "Fifteen public feed descriptions and three encoded 2026 entries inspected through a listing route; no concrete transfer/use edge",
+      "observed_at": "2026-10-07T00:23:07Z"
+    },
+    {
+      "id": "hackingbytes-public-original-index",
+      "url": "https://hackingbytes.com/paste/lists",
+      "role": "Public first-page index of fifteen 2016-2017 records; older RSS/history body cursor preserved, no current exchange reviewed",
+      "observed_at": "2026-10-07T00:31:08Z"
+    },
+    {
+      "id": "urlscan-read-api-docs",
+      "url": "https://urlscan.io/docs/api/",
+      "role": "Primary documentation of GET search and existing-result routes; no scan submission authorized or performed",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "urlscan-search-field-docs",
+      "url": "https://urlscan.io/docs/search/",
+      "role": "Primary public-search field, visibility and date-scope documentation; metadata matches are not agents or consumers",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "stikked-public-feed-controller",
+      "url": "https://github.com/claudehohl/Stikked/blob/master/htdocs/application/controllers/Main.php",
+      "role": "Upstream public listing/RSS versus view/raw route semantics; deployed service version not authenticated",
+      "observed_on": "2026-10-07",
+      "git_blob_sha": "f956b30f2aeac4dab191cc7dda0df2237461477a"
+    },
+    {
+      "id": "stikked-paste-read-side-effects",
+      "url": "https://github.com/claudehohl/Stikked/blob/master/htdocs/application/models/Pastes.php",
+      "role": "Upstream public listing SELECT logic and paste-view counter/burn side effects; code inspected as evidence only",
+      "observed_on": "2026-10-07",
+      "git_blob_sha": "112ef5540a219dcf7b271c28db56bec6c5060606"
     }
   ]
 }

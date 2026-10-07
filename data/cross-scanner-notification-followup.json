@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-07T00:28:11Z",
+  "method": "Documented GET-only public urlscan search and existing result API routes. No scan submissions, DOM replay, sink or target reads, sign-in, API-key entry or runtime invocation.",
+  "docs": [
+    "https://urlscan.io/docs/api/",
+    "https://urlscan.io/docs/search/"
+  ],
+  "purpose": "Seek an already captured original consumer trace for the two unresolved notification writes, comparing channel hashes only if original result metadata becomes accessible.",
+  "search_pages": [
+    {
+      "query": "task.visibility:public AND date:[2026-05-01 TO 2026-10-07] AND (domain:ntfy.sh OR domain:ntfy.envs.net)",
+      "endpoint": "https://urlscan.io/api/v1/search/",
+      "observed_at": "2026-10-07T00:18:45Z",
+      "page_size": 25,
+      "http_status": 200,
+      "response_sha256": "1efc7c8baab1912fd29b1dbb07975bf8d3c70b084d1d19049624e8b249c32229",
+      "total": 57,
+      "has_more": false,
+      "records": [
+        {
+          "report_url": "https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/",
+          "event_at": "2026-10-06T15:51:17.736Z",
+          "visibility": "public",
+          "submitted_domain": "administrative-brown-icc50sou-dpu7wtfpl3on.edgeone.dev",
+          "page_domain": "administrative-brown-icc50sou-dpu7wtfpl3on.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 4,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a1115a-c114-76cd-8b71-6bbb9296ca17/",
+          "event_at": "2026-10-06T13:15:31.118Z",
+          "visibility": "public",
+          "submitted_domain": "becomingmetz-staging.pages.dev",
+          "page_domain": "becomingmetz-staging.pages.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 7,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a11037-356c-7106-a73c-330cf3d24854/",
+          "event_at": "2026-10-06T07:57:08.900Z",
+          "visibility": "public",
+          "submitted_domain": "orderproduk-dpdge0lssnpf.edgeone.dev",
+          "page_domain": "orderproduk-dpdge0lssnpf.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 9,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a10be0-e086-7117-a65f-380c84b484e1/",
+          "event_at": "2026-10-05T11:44:15.982Z",
+          "visibility": "public",
+          "submitted_domain": "dialy8capnhat-dpa695qj7qru.edgeone.dev",
+          "page_domain": "dialy8capnhat-dpa695qj7qru.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 19,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a1079a-2e64-7519-a58e-ebdbaa429aec/",
+          "event_at": "2026-10-04T15:48:34.758Z",
+          "visibility": "public",
+          "submitted_domain": "decuongdialy8-dp8dyw54n7yi.edgeone.dev",
+          "page_domain": "decuongdialy8-dp8dyw54n7yi.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 20,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a1078f-2d9c-74bb-a11a-1b54148c639b/",
+          "event_at": "2026-10-04T15:36:34.603Z",
+          "visibility": "public",
+          "submitted_domain": "decuonglichsu8-dp2xtabna66r.edgeone.dev",
+          "page_domain": "decuonglichsu8-dp2xtabna66r.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 20,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0fe4d-288a-741e-a7be-7ea24f8ee0b7/",
+          "event_at": "2026-10-02T20:27:52.660Z",
+          "visibility": "public",
+          "submitted_domain": "ductcleaning-service.pages.dev",
+          "page_domain": "ductcleaning-service.pages.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 14,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0fe19-1865-71ae-a195-279358d92594/",
+          "event_at": "2026-10-02T19:30:59.117Z",
+          "visibility": "public",
+          "submitted_domain": "ebd-helaine.postetododia.com",
+          "page_domain": "ebd-helaine.postetododia.com",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 23,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0f815-9280-724f-b8aa-5bd981ae36d7/",
+          "event_at": "2026-10-01T15:29:25.007Z",
+          "visibility": "public",
+          "submitted_domain": "malayalamchat.online",
+          "page_domain": "malayalamchat.online",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 27,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0f28c-d4a8-712e-891b-4d8badf120dd/",
+          "event_at": "2026-09-30T13:42:18.896Z",
+          "visibility": "public",
+          "submitted_domain": "zarqaafashions-dp7a30k7gbdd.edgeone.dev",
+          "page_domain": "zarqaafashions-dp7a30k7gbdd.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 98,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0eff0-ccc3-7684-8021-133be965dbdb/",
+          "event_at": "2026-09-30T01:32:18.802Z",
+          "visibility": "public",
+          "submitted_domain": "franchescabethel-fb.github.io",
+          "page_domain": "franchescabethel-fb.github.io",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 15,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ed49-d9db-76bc-b1e9-8da376696dac/",
+          "event_at": "2026-09-29T13:10:42.724Z",
+          "visibility": "public",
+          "submitted_domain": "shiny-cyan-wud8xrpy-dpy4zfy2qmxu.edgeone.dev",
+          "page_domain": "shiny-cyan-wud8xrpy-dpy4zfy2qmxu.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 7,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ea81-7a4e-7316-b12a-fa6523da82f5/",
+          "event_at": "2026-09-29T00:12:36.780Z",
+          "visibility": "public",
+          "submitted_domain": "ntfy.sh",
+          "page_domain": "ntfy.sh",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 51,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0e98c-ad3e-72f8-95b3-1df9de850324/",
+          "event_at": "2026-09-28T19:45:12.370Z",
+          "visibility": "public",
+          "submitted_domain": "able-harlequin-pgrm47q0-dp40i4e03cbl.edgeone.dev",
+          "page_domain": "able-harlequin-pgrm47q0-dp40i4e03cbl.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 7,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0e957-ba0c-719e-9fc4-b22fdd6bb686/",
+          "event_at": "2026-09-28T18:47:34.389Z",
+          "visibility": "public",
+          "submitted_domain": "rapeephat-catering.com",
+          "page_domain": "rapeephat-catering.com",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 390,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0e697-8d88-730d-95b5-1b7d0d042cd5/",
+          "event_at": "2026-09-28T05:58:14.825Z",
+          "visibility": "public",
+          "submitted_domain": "becomingmetz-staging.pages.dev",
+          "page_domain": "becomingmetz-staging.pages.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 7,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0e632-1f1f-737c-82d4-321da671fe8e/",
+          "event_at": "2026-09-28T04:08:25.554Z",
+          "visibility": "public",
+          "submitted_domain": "sinh12bai7-dp2vbo2i7ztw.edgeone.dev",
+          "page_domain": "sinh12bai7-dp2vbo2i7ztw.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 20,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0e621-4cbd-7713-8611-bbc5ac35f64a/",
+          "event_at": "2026-09-28T03:49:12.830Z",
+          "visibility": "public",
+          "submitted_domain": "s10bai5-dpmk1b11g9sy.edgeone.dev",
+          "page_domain": "s10bai5-dpmk1b11g9sy.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 19,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0e414-7d1f-778e-9834-6d6910b7a4d7/",
+          "event_at": "2026-09-27T18:15:49.352Z",
+          "visibility": "public",
+          "submitted_domain": "likely-orange-dz5exive-dp9qz2mv82hq.edgeone.dev",
+          "page_domain": "likely-orange-dz5exive-dp9qz2mv82hq.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 7,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ddb6-d1bd-70ea-bef0-32046849b516/",
+          "event_at": "2026-09-26T12:35:50.783Z",
+          "visibility": "public",
+          "submitted_domain": "medieval-moccasin-hj0eke3b-dpwkhdvf60s4.edgeone.dev",
+          "page_domain": "medieval-moccasin-hj0eke3b-dpwkhdvf60s4.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 5,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ddb3-0c5c-71d7-915a-59df9ca9956a/",
+          "event_at": "2026-09-26T12:31:43.479Z",
+          "visibility": "public",
+          "submitted_domain": "monthly-gold-od9yr26d-dp9pynj7y3qv.edgeone.dev",
+          "page_domain": "monthly-gold-od9yr26d-dp9pynj7y3qv.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 5,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0dcd8-fba4-71cc-89e9-f0ed074f1764/",
+          "event_at": "2026-09-26T08:33:29.637Z",
+          "visibility": "public",
+          "submitted_domain": "wuwallet.giize.com",
+          "page_domain": "wuwallet.giize.com",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 18,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0dcd4-29d3-742d-b9e6-ab91f9a6abf2/",
+          "event_at": "2026-09-26T08:28:13.723Z",
+          "visibility": "public",
+          "submitted_domain": "becomingmetz-staging.pages.dev",
+          "page_domain": "becomingmetz-staging.pages.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 7,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0d121-8b00-75b8-8fde-80b9d3c5f73c/",
+          "event_at": "2026-09-24T01:57:58.199Z",
+          "visibility": "public",
+          "submitted_domain": "sinh10decuonggk1-dp5y0nhrsydb.edgeone.dev",
+          "page_domain": "sinh10decuonggk1-dp5y0nhrsydb.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 30,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0d11d-bd19-7405-a928-4fbbee4330ab/",
+          "event_at": "2026-09-24T01:54:51.663Z",
+          "visibility": "public",
+          "submitted_domain": "s10ontapdecuong-dp2t47wsbtp6.edgeone.dev",
+          "page_domain": "s10ontapdecuong-dp2t47wsbtp6.edgeone.dev",
+          "observed_at": "2026-10-07T00:18:45Z",
+          "requests": 30,
+          "swarm_confirmed": false
+        }
+      ],
+      "next_search_after": [
+        1790214891663,
+        "01a0d11d-bd19-7405-a928-4fbbee4330ab"
+      ]
+    },
+    {
+      "query": "task.visibility:public AND date:[2026-05-01 TO 2026-10-07] AND (domain:ntfy.sh OR domain:ntfy.envs.net)",
+      "endpoint": "https://urlscan.io/api/v1/search/",
+      "observed_at": "2026-10-07T00:19:49Z",
+      "page_size": 50,
+      "search_after": [
+        1790214891663,
+        "01a0d11d-bd19-7405-a928-4fbbee4330ab"
+      ],
+      "http_status": 200,
+      "response_sha256": "06b3a9d006261e41f468c23e14311ba0e6f1793afa1adf567442c33c2ecd7441",
+      "total": 57,
+      "has_more": false,
+      "records": [
+        {
+          "report_url": "https://urlscan.io/result/01a0d116-37dc-759b-a8e8-b40a12cbefb9/",
+          "event_at": "2026-09-24T01:44:59.562Z",
+          "visibility": "public",
+          "submitted_domain": "s10decuong-dpxwreg5k5j7.edgeone.dev",
+          "page_domain": "s10decuong-dpxwreg5k5j7.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 29,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0d10e-fe44-75d3-878c-d422062b9c77/",
+          "event_at": "2026-09-24T01:37:12.029Z",
+          "visibility": "public",
+          "submitted_domain": "s10decuonggiuaki1-dpxrixppvg11.edgeone.dev",
+          "page_domain": "s10decuonggiuaki1-dpxrixppvg11.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 30,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ce42-e812-7389-8291-8e5bd9f97f2c/",
+          "event_at": "2026-09-23T12:34:54.535Z",
+          "visibility": "public",
+          "submitted_domain": "armiamina005-coder.github.io",
+          "page_domain": "armiamina005-coder.github.io",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0cd77-9fc0-776a-830f-2f672e50964a/",
+          "event_at": "2026-09-23T08:52:51.042Z",
+          "visibility": "public",
+          "submitted_domain": "tongonbai1den4-dpv58fk2ua96.edgeone.dev",
+          "page_domain": "tongonbai1den4-dpv58fk2ua96.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 19,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0cd5e-7905-729f-b317-5775e182643d/",
+          "event_at": "2026-09-23T08:25:25.011Z",
+          "visibility": "public",
+          "submitted_domain": "s12decuonggiaki1-dp0o1wqtdff9.edgeone.dev",
+          "page_domain": "s12decuonggiaki1-dp0o1wqtdff9.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 21,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0c9f3-5f4c-766f-b8cb-7267ad1e44a9/",
+          "event_at": "2026-09-22T16:29:31.790Z",
+          "visibility": "public",
+          "submitted_domain": "malayalamchat.online",
+          "page_domain": "malayalamchat.online",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 25,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0c4a1-87db-752e-a99d-f875182cc868/",
+          "event_at": "2026-09-21T15:42:02.128Z",
+          "visibility": "public",
+          "submitted_domain": "stiff-coral-ydmgwlal-dpz7utmptkaw.edgeone.dev",
+          "page_domain": "stiff-coral-ydmgwlal-dpz7utmptkaw.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 4,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0c481-f609-759f-98f4-cdbbf0b8371d/",
+          "event_at": "2026-09-21T15:07:35.197Z",
+          "visibility": "public",
+          "submitted_domain": "keen-orange-vmywcepy-dphhsc04enl9.edgeone.dev",
+          "page_domain": "keen-orange-vmywcepy-dphhsc04enl9.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 4,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/",
+          "event_at": "2026-09-20T13:44:50.191Z",
+          "visibility": "public",
+          "submitted_domain": "omni-ai-lab-dp2anes2v23e.edgeone.dev",
+          "page_domain": "omni-ai-lab-dp2anes2v23e.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 14,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0bef6-4abc-70fe-a99f-839cce791b18/",
+          "event_at": "2026-09-20T13:17:08.474Z",
+          "visibility": "public",
+          "submitted_domain": "omni-ai-dev-dpx2hzi9q7gt.edgeone.dev",
+          "page_domain": "omni-ai-dev-dpx2hzi9q7gt.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 14,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0bede-21c3-748f-b5e5-56e7425f2c79/",
+          "event_at": "2026-09-20T12:50:31.183Z",
+          "visibility": "public",
+          "submitted_domain": "beelers-billiards.pages.dev",
+          "page_domain": "beelers-billiards.pages.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 25,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0bed7-e59b-71ef-995c-e26e1922b348/",
+          "event_at": "2026-09-20T12:44:12.056Z",
+          "visibility": "public",
+          "submitted_domain": "omni-ai-app-dpzl2q4x7qnz.edgeone.dev",
+          "page_domain": "omni-ai-app-dpzl2q4x7qnz.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 12,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0bbfa-8f4e-73fc-9bc0-2290f14026f8/",
+          "event_at": "2026-09-19T23:23:08.594Z",
+          "visibility": "public",
+          "submitted_domain": "fx-billiards.pages.dev",
+          "page_domain": "fx-billiards.pages.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 25,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0b587-b1ee-7429-966b-bfbb2801177e/",
+          "event_at": "2026-09-18T17:19:30.435Z",
+          "visibility": "public",
+          "submitted_domain": "mesh2-dplm91x87ju5.edgeone.dev",
+          "page_domain": "mesh2-dplm91x87ju5.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 4,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0b586-923d-75d3-9341-442f04cf37ff/",
+          "event_at": "2026-09-18T17:18:21.631Z",
+          "visibility": "public",
+          "submitted_domain": "mesh2-dpewapfcwkpy.edgeone.dev",
+          "page_domain": "mesh2-dpewapfcwkpy.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 4,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ac0e-5d76-7102-b582-93432768db17/",
+          "event_at": "2026-09-16T21:10:25.522Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 26,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0ac0d-759b-727c-a0b1-0d177f35a7b1/",
+          "event_at": "2026-09-16T21:09:28.928Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 26,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf2-ac74-751b-bc5b-9ca769edcf87/",
+          "event_at": "2026-09-16T20:40:10.191Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf2-9440-7463-a8d1-f3fe1ffe2a08/",
+          "event_at": "2026-09-16T20:40:03.909Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf2-7afd-733d-ad2b-36b7fadea3b5/",
+          "event_at": "2026-09-16T20:39:57.086Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf2-05d7-75e6-ab79-27dae4e19710/",
+          "event_at": "2026-09-16T20:39:31.484Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 26,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf1-d2d5-759e-83a6-c6e864292cb3/",
+          "event_at": "2026-09-16T20:39:14.238Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf1-c2fd-73ad-85b1-be25199db110/",
+          "event_at": "2026-09-16T20:39:10.200Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abf1-b10d-76d9-b9ce-5ecb33b407f2/",
+          "event_at": "2026-09-16T20:39:06.764Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abef-c307-710c-9557-9bb098fbf8bb/",
+          "event_at": "2026-09-16T20:36:59.332Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abef-26c4-724c-8719-8fb9a11c29a9/",
+          "event_at": "2026-09-16T20:36:20.333Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 26,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abef-0da1-77d3-8b17-66bb6780cfe2/",
+          "event_at": "2026-09-16T20:36:14.626Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 26,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0abee-f823-75cd-a11d-374935894106/",
+          "event_at": "2026-09-16T20:36:07.375Z",
+          "visibility": "public",
+          "submitted_domain": "jacquesdjonfabe.com",
+          "page_domain": "jacquesdjonfabe.com",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 24,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0a5da-9290-76ea-ad74-5025a2e6643c/",
+          "event_at": "2026-09-15T16:16:12.328Z",
+          "visibility": "public",
+          "submitted_domain": "tomissayson.site",
+          "page_domain": "tomissayson.site",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 8,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a0a4e8-09ca-758c-b545-bdbdf49a3869/",
+          "event_at": "2026-09-15T11:51:12.015Z",
+          "visibility": "public",
+          "submitted_domain": "hon-rose-lcdw4dh6-dp30j4xy0ns6.edgeone.dev",
+          "page_domain": "hon-rose-lcdw4dh6-dp30j4xy0ns6.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 4,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a08576-b47c-75b5-9ada-6335dad9dab5/",
+          "event_at": "2026-09-09T09:19:44.192Z",
+          "visibility": "public",
+          "submitted_domain": "wannfeierabendd-dp03qw6h130p.edgeone.dev",
+          "page_domain": "wannfeierabendd-dp03qw6h130p.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 9,
+          "swarm_confirmed": false
+        },
+        {
+          "report_url": "https://urlscan.io/result/01a07a83-ee48-771c-af70-c7d12d97b772/",
+          "event_at": "2026-09-07T06:17:50.288Z",
+          "visibility": "public",
+          "submitted_domain": "visa-jdm17tjf-dpuf3njvimx2.edgeone.dev",
+          "page_domain": "visa-jdm17tjf-dpuf3njvimx2.edgeone.dev",
+          "observed_at": "2026-10-07T00:19:49Z",
+          "requests": 3,
+          "swarm_confirmed": false
+        }
+      ],
+      "next_search_after": [
+        1788761870288,
+        "01a07a83-ee48-771c-af70-c7d12d97b772"
+      ]
+    }
+  ],
+  "unique_public_listing_records": 57,
+  "original_result_read_attempts": [
+    {
+      "report_url": "https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/",
+      "observed_at": "2026-10-07T00:20:54Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a1115a-c114-76cd-8b71-6bbb9296ca17/",
+      "observed_at": "2026-10-07T00:20:54Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0e697-8d88-730d-95b5-1b7d0d042cd5/",
+      "observed_at": "2026-10-07T00:21:00Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/",
+      "observed_at": "2026-10-07T00:21:01Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0bef6-4abc-70fe-a99f-839cce791b18/",
+      "observed_at": "2026-10-07T00:21:07Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0bed7-e59b-71ef-995c-e26e1922b348/",
+      "observed_at": "2026-10-07T00:21:07Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0b587-b1ee-7429-966b-bfbb2801177e/",
+      "observed_at": "2026-10-07T00:21:13Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0b586-923d-75d3-9341-442f04cf37ff/",
+      "observed_at": "2026-10-07T00:21:13Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a07a83-ee48-771c-af70-c7d12d97b772/",
+      "observed_at": "2026-10-07T00:21:20Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "report_url": "https://urlscan.io/result/01a0abef-c307-710c-9557-9bb098fbf8bb/",
+      "observed_at": "2026-10-07T00:21:20Z",
+      "swarm_confirmed": false,
+      "review_status": "read_failed",
+      "error": "HTTPError",
+      "http_status": 403
+    }
+  ],
+  "successful_original_result_reads": 0,
+  "failed_original_result_reads": 10,
+  "web_read_fallbacks": [
+    {
+      "source_url": "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/",
+      "outcome": "not accessible via web retrieval",
+      "observed_on": "2026-10-07",
+      "observation_precision": "date only"
+    },
+    {
+      "source_url": "https://urlscan.io/api/v1/result/01a0bf0f-d175-70f6-9725-aa055248606f/",
+      "outcome": "not accessible via web retrieval",
+      "observed_on": "2026-10-07",
+      "observation_precision": "date only"
+    },
+    {
+      "source_url": "https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/",
+      "outcome": "not accessible via web retrieval",
+      "observed_on": "2026-10-07",
+      "observation_precision": "date only"
+    }
+  ],
+  "limitations": "The query returned 57 listing records, all retained in two pages; no original network body was acquired. has_more is not treated as a first-page completeness flag. A public listing, domain match, repeated host or close timing is not participant identity, a consumer or a transfer/use chain. HTTP 403 does not establish why access was denied. No sink correlation, authorship, boundary, novelty or activity claim follows from these records.",
+  "next_original_read_cursor": [
+    "https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/",
+    "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/"
+  ],
+  "next_step": "Only resume original result reads if ordinary public access becomes available; do not bypass access controls or repeatedly hammer the failed routes. Continue other permitted public original trails meanwhile.",
+  "new_original_coordination_candidates": 0,
+  "confirmed_previously_unreported_rogue_swarms": 0
+}

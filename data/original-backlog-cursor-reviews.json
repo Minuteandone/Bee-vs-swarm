@@ -1,0 +1,243 @@
+{
+  "collected_at": "2026-10-07T00:16:23Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/12499288-e7cb-4435-b9be-224a5e084ab4",
+      "event_at": "2026-10-04T16:09:33Z",
+      "observed_at": "2026-10-07T00:16:07Z",
+      "submitted_host": "httpbingo.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ce4d4af7f948f0cc4b48b00502f38bfa31373b5138a097d001d4ef7263ebdf12",
+      "submitted_reference_domains": [
+        "www.amap.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7cc928e6-0b14-4e9c-ae80-c1605aeaafaf",
+      "event_at": "2026-10-04T16:22:15Z",
+      "observed_at": "2026-10-07T00:16:07Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bcb02872d61099a11704dc8b3484ec563f3da6e835d046115842415a741c8dad",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ssr-next.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 59
+        },
+        {
+          "host": "webapi.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e870affa-9524-4eb6-9993-2bdabe1037c8",
+      "event_at": "2026-10-04T17:23:25Z",
+      "observed_at": "2026-10-07T00:16:18Z",
+      "submitted_host": "httpbingo.org",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "64b717505b3b5add31182081d44881b6fcd94ae8e47732dbb712a9687f301e26",
+      "submitted_reference_domains": [
+        "amap-pc-ssr.amap.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/cfbfd923-4dfc-447c-88cc-b35a3f3aa7de",
+      "event_at": "2026-10-04T17:23:13Z",
+      "observed_at": "2026-10-07T00:16:20Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0457be1439f0b978250c13d74ec7978fd444858dbfee92bf8822e1e61656e97d",
+      "submitted_reference_domains": [
+        "amap-pc-ssr.amap.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

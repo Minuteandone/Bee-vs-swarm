@@ -1,0 +1,287 @@
+{
+  "collected_at": "2026-10-07T00:27:31Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/d8baa8ef-f233-47ad-aecb-1d925bb5a914",
+      "event_at": "2026-07-30T09:30:46Z",
+      "observed_at": "2026-10-07T00:27:12Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "d90a4bed855cb5e1f1814e2521147e82a6727030380d10387f5f9aa58a4d30b8",
+      "decoded_characters": 522,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "urlquery.net"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f5104be9948aa6c246d2d9c798dd37a3da14402f46b3f5f8c1e28358a6913e4c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "urlquery.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ece61110-9280-44f7-bab0-8585e5598c43",
+      "event_at": "2026-06-21T17:40:09Z",
+      "observed_at": "2026-10-07T00:27:12Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "5c8f9bf459c58e511553933c5d703dd3b6d2b4e27a2623ecc7192f5ea18ca32a",
+      "decoded_characters": 313,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "urlquery.net"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a508efa0401fb8718661305b6089f70c7f594c0919463baa3366c36e7ef38ad3",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "urlquery.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 1,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "POST",
+          "status": "401",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/57129745-6711-4177-9046-89e8ed7022eb",
+      "event_at": "2026-06-21T09:32:21Z",
+      "observed_at": "2026-10-07T00:27:19Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "4700c9db9355488e47e7aebd159f1def4f9e424a5c9735d7558a32c5c487905f",
+      "decoded_characters": 315,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "urlquery.net"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5e84d49302a06f8d20c3baa4810565553f24a407a7e07ca96f026c504c2d664b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "urlquery.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2524de57-b283-4242-8423-d0b4768d56c8",
+      "event_at": "2026-06-21T09:26:42Z",
+      "observed_at": "2026-10-07T00:27:23Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "48191a803cb9d7d80cf9717396f7bac29597eecb8066bffc6e6782bab8623e3a",
+      "decoded_characters": 310,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "urlquery.net"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fd6be2b51c2d919807064af19232eb8bf7b29ed119b39843f7bfb82c4ff252da",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "urlquery.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/54704687-2b1e-42ea-8b16-ee653c12c82e",
+      "event_at": "2026-06-21T08:01:48Z",
+      "observed_at": "2026-10-07T00:27:26Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "afa20201ab7602dfd33c30d269b1da5cd4e2c4298ab9261cff07c97e785fe064",
+      "decoded_characters": 348,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "urlquery.net"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5ba43c6f69f1523120c1e66f77befd193c596dace10ac77b3ad0187719d5d1b5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "urlquery.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

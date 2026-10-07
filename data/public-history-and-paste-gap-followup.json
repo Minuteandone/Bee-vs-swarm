@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-07T00:28:11Z",
+  "method": "Existing public wiki read/history/diff pages and one public paste listing/RSS feed. No scripts or recovered code executed; redirects rejected. Only metadata and hashes are published. Public paste view/raw/reply endpoints were not invoked.",
+  "limitations": "Change indexes and feed descriptions are bounded. Migration can remove revision bodies; a displayed 365-day filter is not an archive-completeness guarantee. Upstream source establishes route semantics but does not authenticate the deployed software version. Labels do not authenticate humans, agents, autonomy, authorization or current activity. Literal domain references from feed text are source-string cues, not confirmed hosts, successful requests or DNS validation.",
+  "page_reads": [
+    {
+      "source_url": "https://meatballwiki.org/recent",
+      "observed_at": "2026-10-07T00:17:40Z",
+      "http_status": 200,
+      "response_sha256": "00704b2ee0333d8e7176dc7eab9d03786c57dbce03f781f0fe982f2d382f9d89",
+      "bytes": 105091,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://meatballwiki.org/wiki/MessageBoard",
+      "observed_at": "2026-10-07T00:17:40Z",
+      "http_status": 200,
+      "response_sha256": "15de2aa240332cd6483b687947862bc54bf21c0556fa1c08734ffef8bac32173",
+      "bytes": 93279,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://meatballwiki.org/wiki/RecentChanges/history",
+      "observed_at": "2026-10-07T00:17:49Z",
+      "http_status": 200,
+      "response_sha256": "2a88e9442fff698f313086d6206f3926f0ae09ee0d28a215d366d2740580c772",
+      "bytes": 477292,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://paste.nosupamu.de/",
+      "observed_at": "2026-10-07T00:17:52Z",
+      "http_status": 200,
+      "response_sha256": "524ca3f32f3defc28208080f9bc4b8560246110b0158158766ac2e73898f9e61",
+      "bytes": 17014,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://www.wikiservice.at/buecher/wiki.cgi",
+      "observed_at": "2026-10-07T00:17:55Z",
+      "http_status": 200,
+      "response_sha256": "f8e4ec2d594055f2329a4f65c2c9fbbe69c9de7db2c1602ca39052fb69676b6c",
+      "bytes": 15610,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://meatballwiki.org/wiki/AccidentalCollaboration/diff?a=1787149223&b=0",
+      "observed_at": "2026-10-07T00:19:17Z",
+      "http_status": 200,
+      "response_sha256": "c62120637034f87a976747be8418e30d794909a18bdbfe2b78ef8dba88291869",
+      "bytes": 42569,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://meatballwiki.org/wiki/LifeInHypertext/diff?a=1785632356&b=0",
+      "observed_at": "2026-10-07T00:19:17Z",
+      "http_status": 200,
+      "response_sha256": "feb6beceb98e22c13ea69413b8e9dd4327f10d9ebc0680db5a2f67d6130e8177",
+      "bytes": 42522,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://meatballwiki.org/wiki/InternetEngineeringTaskForce/diff?a=1785874084&b=0",
+      "observed_at": "2026-10-07T00:19:22Z",
+      "http_status": 200,
+      "response_sha256": "c66360bb3224ef9c1f1e35687e0136a8ce4e59e7b2596d2141afdca59a988565",
+      "bytes": 44235,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://paste.nosupamu.de/lists",
+      "observed_at": "2026-10-07T00:19:22Z",
+      "http_status": 200,
+      "response_sha256": "6b801c7a99c0dac525b9b4794e31aec8290e0e39c9c2762c6f00e8da7737536b",
+      "bytes": 8652,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://www.wikiservice.at/buecher/wiki.cgi?action=browse&id=RecentChanges&lang=1",
+      "observed_at": "2026-10-07T00:19:48Z",
+      "http_status": 200,
+      "response_sha256": "a2261dd803fd9fa39ca83c36edd26c608fb921a39975f64f0d3cd97792bb024a",
+      "bytes": 8611,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://www.wikiservice.at/buecher/wiki.cgi?action=browse&id=RecentChanges&days=365",
+      "observed_at": "2026-10-07T00:21:36Z",
+      "http_status": 200,
+      "response_sha256": "e22be5e7f2e4c9343decae0ae08f011a05ad1b3c2a009863708b2b2544522231",
+      "bytes": 8612,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://www.wikiservice.at/buecher/wiki.cgi?Die__einzige__Weltmacht",
+      "observed_at": "2026-10-07T00:21:36Z",
+      "http_status": 200,
+      "response_sha256": "e9232dd90813d673657a4639a27a33dca5880096131b7bdb56d6155d27806659",
+      "bytes": 9424,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://paste.nosupamu.de/api",
+      "observed_at": "2026-10-07T00:22:43Z",
+      "http_status": 200,
+      "response_sha256": "8dc6f1415da99501ae85f568cce12fac7c9de58bd032c444fbc73b8d31c30abc",
+      "bytes": 8367,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://paste.nosupamu.de/lists/rss",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "http_status": 200,
+      "response_sha256": "65a1c46628442dff8ef24ab0decb7e2657fd1f15694a1ce7f2fd160ac4fcf402",
+      "bytes": 398999,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://hackingbytes.com/paste/",
+      "observed_at": "2026-10-07T00:29:51Z",
+      "http_status": 200,
+      "response_sha256": "19c039e28f4eb0fe9bd1c7fff6419ae14baaf649b8bb49cb0c9d4da678ae5639",
+      "bytes": 17127,
+      "outcome": "retrieved"
+    },
+    {
+      "source_url": "https://hackingbytes.com/paste/lists",
+      "observed_at": "2026-10-07T00:31:08Z",
+      "http_status": 200,
+      "response_sha256": "bb1b47cd7c81b0f185058bfd554c7a65412dca6c57820fa366c91c15f8989f86",
+      "bytes": 8898,
+      "outcome": "retrieved"
+    }
+  ],
+  "paste_feed_records": [
+    {
+      "record_id": "4ffbf3b7",
+      "public_record_link": "https://paste.nosupamu.de/view/4ffbf3b7",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2026-09-29T01:42:57Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "b99ecb42c1e686e4c8f02ed6a9b619d4fbd7f66477047efc11c2cd2a3ebab17f",
+      "author_label_sha256": "004c06afd407b8b1b9eb59b673ddcf347c6a20fc869cf8a40fa92870408eaf92",
+      "description_sha256": "8e2ceecbcb5c7a306792a3104b9b249f16e36d70da1ed02c7ba948690a0819b3",
+      "description_characters": 5,
+      "encoded_content_sha256": "b5b5ed7e528b9672d99b0d91d5a8309c6c9635da119a9bc9ba5679891d27015a",
+      "encoded_content_characters": 246,
+      "review_scope": "feed description plus encoded entry inspected",
+      "swarm_confirmed": false,
+      "literal_domain_reference_cues": []
+    },
+    {
+      "record_id": "d90db0f7",
+      "public_record_link": "https://paste.nosupamu.de/view/d90db0f7",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2026-05-18T06:43:12Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "819174e3c055add61c28092f318d17dcbde90deb4eb6953898270de93e36ec6c",
+      "author_label_sha256": "7de4f9127b3f169594eb76ed85c8754ba2be0583d6882e250a5af593c6d8eeff",
+      "description_sha256": "72788c8359aee0815eec012d71476227d7da1ddf1d0c606af98b7a1db5c1bcdf",
+      "description_characters": 250,
+      "encoded_content_sha256": "db83fcc9796c31ef74142c736a1bdaf75c021204944fd7d0300ea326d5e6f361",
+      "encoded_content_characters": 7259,
+      "review_scope": "feed description plus encoded entry inspected",
+      "swarm_confirmed": false,
+      "literal_domain_reference_cues": [
+        "asthedisqturns.com",
+        "disqus.com"
+      ]
+    },
+    {
+      "record_id": "af5f26aa",
+      "public_record_link": "https://paste.nosupamu.de/view/af5f26aa",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2026-05-18T06:42:34Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "953eb41c3cdad73d0f6079fdcc44d6921c4b6644558a6093f88e934278d791f0",
+      "author_label_sha256": "6fb1aa0a7f29116281112ca8c9ef592aa23a256a6e2a6135baa78fe6d9deb099",
+      "description_sha256": "bd0f1f237afc87f243ec3c15e111a627dff0a55183ffff37c1ab14aed2c1700e",
+      "description_characters": 223,
+      "encoded_content_sha256": "c631dc35f77442a021a66cb4629fc35c47206bfca232bb7624994d92491c475c",
+      "encoded_content_characters": 24098,
+      "review_scope": "feed description plus encoded entry inspected",
+      "swarm_confirmed": false,
+      "literal_domain_reference_cues": [
+        "cpanel.labaspreces.eu",
+        "cpcalendars.labaspreces.eu",
+        "cpcontacts.labaspreces.eu",
+        "dev-1.labaspreces.eu",
+        "labaspreces.eu",
+        "labaspreces.euc",
+        "mail.labaspreces.eu",
+        "webdisk.labaspreces.eu",
+        "webmail.labaspreces.eu",
+        "www.dev-1.labaspreces.eu",
+        "www.labaspreces.eu"
+      ]
+    },
+    {
+      "record_id": "690d8a84",
+      "public_record_link": "https://paste.nosupamu.de/view/690d8a84",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2019-10-17T10:17:25Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "75d08651a52956e306a0997c24f1edbd8cfe735b3680159adeb6af60b457bd97",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "2cc97b8361431502466a86f8c96724e456eb6f8581718ad32a234829376d0648",
+      "description_characters": 206,
+      "encoded_content_sha256": "a27e30b41fa658d6b087037fb7130e1b961eba7c670c7d7cf5c65b25d34bcb1c",
+      "encoded_content_characters": 6588,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "532532e2",
+      "public_record_link": "https://paste.nosupamu.de/view/532532e2",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2019-06-28T06:43:09Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "bc5e83c8dd7f08b23dd0c72c7c0b566cf3eaa5250baf7b1cbf6ed9afaead72d7",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "5fe8350c04cb3a2cc16ef4f28718a87b8b6ffe0fa8201c9df1064e88e5fe07e4",
+      "description_characters": 216,
+      "encoded_content_sha256": "c979df4136fc056fa18006faa6beea771f2fd036678a107a21248ecb540f0e0a",
+      "encoded_content_characters": 15271,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "bf997d13",
+      "public_record_link": "https://paste.nosupamu.de/view/bf997d13",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2019-05-17T11:16:11Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "81f90652c909f3ca4edb87083fc5a37df13529d25db59ac77df6b73aa961060b",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "4b3267cad54aa07d671825eadc65b05e8ff6c84270b870d576481b52a43c2b5f",
+      "description_characters": 215,
+      "encoded_content_sha256": "c7e9f41a1582903d6cabbeee90a084aee43c95f36a92c5599f4aba891409c255",
+      "encoded_content_characters": 12016,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "1c147dfe",
+      "public_record_link": "https://paste.nosupamu.de/view/1c147dfe",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2018-11-21T09:34:58Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "d30ca7a7a32bf5772dc5eb2a2e7bd35737eff795ad74f2479b359716b59abdfa",
+      "author_label_sha256": "d30ca7a7a32bf5772dc5eb2a2e7bd35737eff795ad74f2479b359716b59abdfa",
+      "description_sha256": "ccb0cdad30f5c255e3463aa1a17066b08acc48e55712cfc4ad289785a073dd2d",
+      "description_characters": 228,
+      "encoded_content_sha256": "f9f1960332085ce810434a88e606bf0f94deef702b6441b150ec62cd53b9d978",
+      "encoded_content_characters": 12917,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "948e85b0",
+      "public_record_link": "https://paste.nosupamu.de/view/948e85b0",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2018-01-26T16:28:56Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "c13dbcca92f9ff12cd26ecce958be3f9ee8563baace04f7a463a6d2dd4252e0b",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "9805c773d0240db5701e3b77846222c95e16b95563f312241c1bc9e887b5da9b",
+      "description_characters": 213,
+      "encoded_content_sha256": "7e03deff675a076b071e52dde12e1fab7af9a87248ab867d4a1ba34b80174df1",
+      "encoded_content_characters": 28500,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "7ede0180",
+      "public_record_link": "https://paste.nosupamu.de/view/7ede0180",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2018-01-26T16:27:23Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "c13dbcca92f9ff12cd26ecce958be3f9ee8563baace04f7a463a6d2dd4252e0b",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "6a1a494d9e9ea7568149df6515d8a05036633ba09632b4bcb13bc541fdc2b1bc",
+      "description_characters": 208,
+      "encoded_content_sha256": "917e79841e2bd355aba699b907d0d61bcfa5def960b28bb2cadf67069453433d",
+      "encoded_content_characters": 29995,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "2aeacddf",
+      "public_record_link": "https://paste.nosupamu.de/view/2aeacddf",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2018-01-26T16:16:00Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "c13dbcca92f9ff12cd26ecce958be3f9ee8563baace04f7a463a6d2dd4252e0b",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "9805c773d0240db5701e3b77846222c95e16b95563f312241c1bc9e887b5da9b",
+      "description_characters": 213,
+      "encoded_content_sha256": "867e466988ce25e3dc2f7177924afa88ee2400d3b82404e71c36ce491c290917",
+      "encoded_content_characters": 28379,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "5760b27d",
+      "public_record_link": "https://paste.nosupamu.de/view/5760b27d",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2017-11-21T09:53:14Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "9b2bd0f5ac13f16daa3fc72cb6cfcc26b57650b76112ab5ba1ffa86f32826016",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "682b9434750de754aae4e23d8e9f6395913b7de2467b5dfad518e036dc9b2561",
+      "description_characters": 211,
+      "encoded_content_sha256": "f0df5a045dbf8e3bafc81dc8de9846f0cd24a7dde5926b693ad92a3db2507602",
+      "encoded_content_characters": 7032,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "20bd9deb",
+      "public_record_link": "https://paste.nosupamu.de/view/20bd9deb",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2017-10-12T07:59:39Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "ab8158c62c724051e8458755779da5ad6342e49e733bff63c854b0e1562d651a",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "294913d81ae6881e0544d6179da303985ecece2dc3605766c233c3848dbeb227",
+      "description_characters": 249,
+      "encoded_content_sha256": "6ab140f398f27105ec4900f22d23b117560b2795e944c53651504f5165b06a0f",
+      "encoded_content_characters": 64149,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "bb2c6652",
+      "public_record_link": "https://paste.nosupamu.de/view/bb2c6652",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2017-10-12T07:46:28Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "abc811b3bbfe6d97bec73bbf20fee019fc941f32d23a9296068b5a3bfc50ab95",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "294913d81ae6881e0544d6179da303985ecece2dc3605766c233c3848dbeb227",
+      "description_characters": 249,
+      "encoded_content_sha256": "68a334f34891df6019b19299f21eb8d2b2febaa0e82eddca790b329cc398cb3d",
+      "encoded_content_characters": 64147,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "8c98634a",
+      "public_record_link": "https://paste.nosupamu.de/view/8c98634a",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2017-10-06T08:10:08Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "abc811b3bbfe6d97bec73bbf20fee019fc941f32d23a9296068b5a3bfc50ab95",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "294913d81ae6881e0544d6179da303985ecece2dc3605766c233c3848dbeb227",
+      "description_characters": 249,
+      "encoded_content_sha256": "93c0908c6685239db7552bc76c4983fc769dfe1ef893b318bb82b1135969a001",
+      "encoded_content_characters": 46210,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    },
+    {
+      "record_id": "cee6c81b",
+      "public_record_link": "https://paste.nosupamu.de/view/cee6c81b",
+      "source_feed": "https://paste.nosupamu.de/lists/rss",
+      "event_at": "2017-10-05T12:28:46Z",
+      "observed_at": "2026-10-07T00:23:07Z",
+      "feed_title_sha256": "7a1908f02eaea25e8a27b3063fc3500a0f10e66b650cd8876da845cab4f4c34d",
+      "author_label_sha256": "efccf1cc6c0906e4415c3cebdaadb61a98d7ffba138f85c89b6dde2ee50cb855",
+      "description_sha256": "ef76c6c3adfc8926b51be56848960c2650a26a8608c24a85a0f573b6570984db",
+      "description_characters": 237,
+      "encoded_content_sha256": "22ab567bcfb654f6f51f7ae3bb83facde44d02a11574c20383e1ae1372887061",
+      "encoded_content_characters": 42771,
+      "review_scope": "feed description inspected; encoded body not manually reviewed",
+      "swarm_confirmed": false
+    }
+  ],
+  "upstream_route_provenance": {
+    "repository": "https://github.com/claudehohl/Stikked",
+    "tree_sha": "6d2313d3a26269e4d49084bbd038855bd74a2309",
+    "source_files": [
+      {
+        "url": "https://github.com/claudehohl/Stikked/blob/master/htdocs/application/controllers/Main.php",
+        "git_blob_sha": "f956b30f2aeac4dab191cc7dda0df2237461477a"
+      },
+      {
+        "url": "https://github.com/claudehohl/Stikked/blob/master/htdocs/application/models/Pastes.php",
+        "git_blob_sha": "112ef5540a219dcf7b271c28db56bec6c5060606"
+      },
+      {
+        "url": "https://github.com/claudehohl/Stikked/blob/master/htdocs/application/controllers/Api.php",
+        "git_blob_sha": "74aac2279a502e2bc13c2299ae2d1880ed8edba2"
+      }
+    ],
+    "assessment": "The public RSS listing controller calls getLists, which selects public rows. Public view/raw/API-paste routes call getPaste, which can update counters and delete burn-after-reading records; those routes were not called. The public list includes a linked RSS route."
+  },
+  "new_original_coordination_candidates": 0,
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "web_locator_reads": [
+    {
+      "source_url": "https://otterwiki.com/",
+      "observed_on": "2026-10-07",
+      "outcome": "software documentation root retrieved; no original exchange examined"
+    },
+    {
+      "source_url": "https://kb5.zukunftslernorte.org/",
+      "observed_on": "2026-10-07",
+      "outcome": "not accessible via web retrieval; inconclusive"
+    }
+  ]
+}

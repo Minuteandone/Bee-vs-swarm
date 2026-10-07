@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T04:01:25Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 18,
+    "successful_original_reads": 18,
+    "selected_exact_id_comparison_absences": 18,
+    "codesandbox_channel_records": 16,
+    "adjacent_browser_controls": 2,
+    "cumulative_inspected_unique_urlquery_reports": 128,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 1018,
+    "remaining_uninspected_comparison_absences": 659,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Selected an untouched CodeSandbox cluster with captured notification-channel methods because it could test a concrete producer-to-consumer dependency without opening a topic or running a sandbox. Two adjacent exact-ID-absence browser records were retained as controls for dense third-party traffic. This is a purposive bounded sample from the saved scanner backlog, not a census, participant count or discovery claim.",
+  "snapshot": {
+    "path": "data/original-ntfy-sandbox-reviews.json",
+    "sha256": "7c9662ef3f5d1260eba91994e61e5c31a15373652bb0cdc17881292e9fdbd053",
+    "event_range": {
+      "from": "2026-06-26T13:17:24Z",
+      "to": "2026-09-30T23:51:57Z"
+    },
+    "observation_range": {
+      "from": "2026-10-07T03:52:05Z",
+      "to": "2026-10-07T03:53:40Z"
+    },
+    "limitations": "The sanitized review preserves public report links, report hashes, event/observation times, domain-level network counts and one-way channel-reference hashes. It omits paths, topics, message and response bodies, credentials, submitter addresses and recovered source. A recorded status or channel hash does not authenticate an author, recipient, autonomous trajectory, task meaning or authorization boundary."
+  },
+  "assessed_groups": [
+    {
+      "id": "codesandbox_notification_cluster",
+      "records": 16,
+      "event_range": {
+        "from": "2026-09-30T22:44:03Z",
+        "to": "2026-09-30T23:51:57Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T03:52:05Z",
+        "to": "2026-10-07T03:53:22Z"
+      },
+      "representative_reports": [
+        {
+          "url": "https://urlquery.net/report/d84f4cf2-c7cc-4450-a156-b9c1b914345a",
+          "event_at": "2026-09-30T22:44:03Z",
+          "report_json_sha256": "a601596c13301d8713d104612a8e3395edd482b21ebd55bb51b8dcf0bdd59f32",
+          "role": "Earliest captured publish-only record in the bounded cluster."
+        },
+        {
+          "url": "https://urlquery.net/report/6018378f-9b29-4e70-b36e-883759db7da1",
+          "event_at": "2026-09-30T23:19:02Z",
+          "report_json_sha256": "a84622dc168b696e503993ea5e2257392b7189e4f6df351be5b42320053d2b1f",
+          "role": "Representative record containing both read and publish methods, but on disjoint channel hashes."
+        },
+        {
+          "url": "https://urlquery.net/report/1bea4ee8-05e6-4f31-a51b-a126c420a70b",
+          "event_at": "2026-09-30T23:51:07Z",
+          "report_json_sha256": "8a2f4782b4471612ef473633e59058c1317bd3b111e9692b45697b9005eed510",
+          "role": "Late record containing notification reads, publishes and a second publish-only sink."
+        }
+      ],
+      "recorded_channel_graph": {
+        "references": 1125,
+        "unique_channel_hashes": 158,
+        "get_references": 155,
+        "unique_get_hashes": 155,
+        "post_references": 970,
+        "unique_post_hashes": 3,
+        "hashes_observed_with_both_get_and_post": 0,
+        "shared_publish_hashes": [
+          {
+            "host": "ntfy.sh",
+            "channel_ref_sha256": "719c55c636469b0ab40b21a9e28319635d5157a7077cb7c7ba4890257951b22d",
+            "reports": 16,
+            "references": 441
+          },
+          {
+            "host": "ntfy.sh",
+            "channel_ref_sha256": "a71ed3b7efe1cff31068e3a8a1c2493f1c3546b3880e1642d626e8890963feda",
+            "reports": 16,
+            "references": 489
+          },
+          {
+            "host": "webhook.site",
+            "channel_ref_sha256": "19ce16a921b3d302c50214cf0169c4fcba89214bf9e20333dd2cd742a8e6e1a8",
+            "reports": 4,
+            "references": 40
+          }
+        ]
+      },
+      "provenance_followup": {
+        "observed_at": "2026-10-07T04:01:25Z",
+        "successful_existing_report_reads": 14,
+        "timed_out_existing_report_reads": 2,
+        "distinct_recorded_submitter_labels": 1,
+        "published_submitter_labels_or_addresses": false,
+        "assessment": "One shared public scanner submitter label across the 14 currently readable records supports a single-submitter or repeated-test alternative. It does not identify the operator of the sandboxed traffic, and the two timeouts remain inconclusive."
+      },
+      "assessment": "The cluster contains repeated publishes to two shared notification hashes and, later, reads from many one-off hashes. No hash is both published and read anywhere in the 16 records. The evidence therefore does not preserve a producer-to-consumer edge, let alone a task result that a distinguishable recipient used. All records also contact one public dashboard through an ordinary browser/socket footprint, but common destination traffic does not identify cooperating participants. The compact chronology, repeated preview infrastructure and shared scanner submitter label fit a single test or load-harness alternative at least as well as autonomous coordination.",
+      "classification": "bounded notification/load-test-shaped original cluster; no transfer/use edge",
+      "participants": "No autonomous sender or recipient is authenticated. Sandbox IDs, preview titles, scanner records and channel hashes are technical identifiers, not participant identities.",
+      "operator_boundary": "Not established. The captured traffic may raise ordinary service-use questions, but there is no primary authorization statement and no evidence that coordination between participants crossed a boundary.",
+      "advancement_evidence": "An already public original record must first tie a specific write hash to a later read of that same hash by an independently distinguishable autonomous trajectory, preserve a task result or instruction, and show a downstream action causally dependent on it. Separate primary provenance must establish different operators or another operator-defined boundary and that the exchange was unauthorized. Reading notification topics, sink inboxes or live sandbox previews is prohibited."
+    },
+    {
+      "id": "adjacent_buildpad_browser_controls",
+      "records": 2,
+      "representative_report": {
+        "url": "https://urlquery.net/report/6eb31885-9aba-4582-8e9c-494bc1b0847c",
+        "event_at": "2026-06-26T13:17:24Z",
+        "report_json_sha256": "eee14a1e1efc0c725d87ccb89ac95f0a63ea61602e12ef8c9e720da888258fff"
+      },
+      "assessment": "The two records are 33 seconds apart and preserve the same ordinary read-only market-data and browser-asset footprint. They contain no captured channel operation, task/peer language, sender, recipient or downstream task use. Dense third-party traffic alone is not coordination evidence.",
+      "classification": "near-duplicate browser control"
+    }
+  ],
+  "official_platform_context": [
+    {
+      "url": "https://sandpack.codesandbox.io/docs/advanced-usage/client",
+      "observed_on": "2026-10-07",
+      "finding": "CodeSandbox documents sandbox IDs and embed URLs as ordinary objects returned when a sandbox is created. These identifiers do not authenticate agents or operators."
+    },
+    {
+      "url": "https://docs.ntfy.sh/subscribe/api/",
+      "observed_on": "2026-10-07",
+      "finding": "ntfy documents GET-based subscription streams. A captured GET still does not establish receipt of a particular message or downstream task use."
+    },
+    {
+      "url": "https://docs.ntfy.sh/publish/",
+      "observed_on": "2026-10-07",
+      "finding": "ntfy documents POST/PUT publication. The method distinction supports the one-way hash comparison but does not authenticate publishers."
+    }
+  ],
+  "alternatives_tested": [
+    "A single operator or automated load harness opening multiple CodeSandbox previews",
+    "Repeated scanner submissions or retries against related sandbox revisions",
+    "Independent reads of unique notification topics rather than a shared producer-to-consumer channel",
+    "Ordinary public-dashboard, browser-asset and notification API traffic",
+    "Intentional testing without autonomous participants"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 18,
+    "previously_published_episode": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 18 selected scanner IDs are absent from the pinned comparison release, but exact-ID absence is not novelty. Search was used only to locate official platform mechanics and the already public scanner records; no scoped prior-reporting search for a purported swarm was run because no sender-to-recipient transfer-and-use chain emerged.",
+  "next_cursor": "Rotate to a different untouched original-record slice. Revisit this cluster only if an already public preserved source, message or downstream-use artifact supplies a same-channel transfer/use edge and participant provenance; do not open live previews or channel/sink contents.",
+  "safety": "Read only existing public scanner report JSON, indexed report metadata and official platform documentation. No recovered code, sandbox preview, dashboard target, notification topic, sink inbox, payload, carrier, package, scan, runtime, account, authentication, message, vote or participant contact was executed or attempted. Publication omits request paths, channel topics, message and response bodies, credentials, submitter labels, personal addresses and private logs."
+}

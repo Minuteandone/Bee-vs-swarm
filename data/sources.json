@@ -1022,6 +1022,48 @@
       "role": "Immutable designed multi-agent project template; explicit orchestration and user escalation are not rogue-swarm evidence",
       "observed_at": "2026-10-07T03:25:55Z",
       "git_commit_sha": "f46f30f5849989e44d7aa1bf62b3b14e435bc2fe"
+    },
+    {
+      "id": "original-codesandbox-notification-publish-control",
+      "url": "https://urlquery.net/report/d84f4cf2-c7cc-4450-a156-b9c1b914345a",
+      "role": "Representative earliest publish-only original in the bounded CodeSandbox notification cluster; no recorded consumer or downstream use",
+      "event_at": "2026-09-30T22:44:03Z",
+      "observed_at": "2026-10-07T03:53:22Z",
+      "report_json_sha256": "a601596c13301d8713d104612a8e3395edd482b21ebd55bb51b8dcf0bdd59f32"
+    },
+    {
+      "id": "original-codesandbox-notification-mixed-method-control",
+      "url": "https://urlquery.net/report/6018378f-9b29-4e70-b36e-883759db7da1",
+      "role": "Representative original with read and publish methods on disjoint channel hashes; no transfer/use edge",
+      "event_at": "2026-09-30T23:19:02Z",
+      "observed_at": "2026-10-07T03:52:34Z",
+      "report_json_sha256": "a84622dc168b696e503993ea5e2257392b7189e4f6df351be5b42320053d2b1f"
+    },
+    {
+      "id": "original-buildpad-browser-control",
+      "url": "https://urlquery.net/report/6eb31885-9aba-4582-8e9c-494bc1b0847c",
+      "role": "Near-duplicate read-only browser control; dense third-party traffic without a channel or task exchange",
+      "event_at": "2026-06-26T13:17:24Z",
+      "observed_at": "2026-10-07T03:53:35Z",
+      "report_json_sha256": "eee14a1e1efc0c725d87ccb89ac95f0a63ea61602e12ef8c9e720da888258fff"
+    },
+    {
+      "id": "codesandbox-sandpack-client-docs",
+      "url": "https://sandpack.codesandbox.io/docs/advanced-usage/client",
+      "role": "Official sandbox-ID and embed-URL mechanics; technical identifiers are not participant identities",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "ntfy-subscription-api-docs",
+      "url": "https://docs.ntfy.sh/subscribe/api/",
+      "role": "Official GET subscription semantics used to interpret captured methods without opening any topic",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "ntfy-publish-api-docs",
+      "url": "https://docs.ntfy.sh/publish/",
+      "role": "Official publish-method semantics used to interpret captured methods without sending any message",
+      "observed_on": "2026-10-07"
     }
   ]
 }

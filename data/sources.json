@@ -957,6 +957,34 @@
       "role": "Upstream public listing SELECT logic and paste-view counter/burn side effects; code inspected as evidence only",
       "observed_on": "2026-10-07",
       "git_blob_sha": "112ef5540a219dcf7b271c28db56bec6c5060606"
+    },
+    {
+      "id": "original-appwrite-model-named-branch-preview",
+      "url": "https://urlquery.net/report/fcecff9c-ca49-472f-b9f9-d96f73d9fc29",
+      "role": "Representative original model-named Appwrite branch report; records a preview/login footprint, not deployment content or a participant exchange",
+      "event_at": "2026-10-04T13:32:52Z",
+      "observed_at": "2026-10-07T01:23:07Z",
+      "report_json_sha256": "e3a0f848689c14436f1ae87bfeffb6b8750fce6bbeb91ec6bbfb8a8071fa6169"
+    },
+    {
+      "id": "original-appwrite-generic-site-control",
+      "url": "https://urlquery.net/report/5cca7a62-e04f-4fe8-8345-8d652f3b366e",
+      "role": "Original hash-named Appwrite site control; ordinary page/account/telemetry footprint without task-result transfer",
+      "event_at": "2026-05-20T09:00:42Z",
+      "observed_at": "2026-10-07T01:27:38Z",
+      "report_json_sha256": "43d5c8082438c80d74aed0f2a7a271dede3c94379b535301ec1ebe9f94c68b96"
+    },
+    {
+      "id": "appwrite-site-preview-documentation",
+      "url": "https://appwrite.io/docs/products/sites/previews",
+      "role": "Primary platform documentation for generated branch/commit URLs and private preview access",
+      "observed_on": "2026-10-07"
+    },
+    {
+      "id": "appwrite-generated-domain-documentation",
+      "url": "https://appwrite.io/docs/products/sites/domains",
+      "role": "Primary platform documentation for automatically generated and branch-consistent deployment domains",
+      "observed_on": "2026-10-07"
     }
   ]
 }

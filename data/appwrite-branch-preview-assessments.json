@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-07",
+  "scope": {
+    "selected_original_urlquery_reports": 30,
+    "successful_original_reads": 26,
+    "timed_out_reads": 4,
+    "successful_model_named_branch_reads": 25,
+    "successful_generic_site_reads": 1,
+    "selected_exact_id_comparison_absences": 30,
+    "newly_inspected_exact_id_comparison_absences": 26,
+    "cumulative_inspected_unique_urlquery_reports": 102,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 1044,
+    "remaining_uninspected_comparison_absences": 685,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Selected a dense exact-ID-absence cluster whose submitted Appwrite branch hostnames contain model names, plus one ordinary Appwrite site control. The purpose was to test whether the apparent labels connected distinguishable participants or task-result dependencies. Selection followed the original scanner backlog rather than a reported incident or intentional agent community. It is a purposive bounded sample, not a census or participant count.",
+  "snapshots": [
+    {
+      "path": "data/original-appwrite-deployment-reviews.json",
+      "sha256": "a5e91b1d9f2cf30d6b6154151cb3431242ba75b9d9d956667f69837b5cd85463",
+      "selected_records": 30,
+      "successful_original_reads": 26
+    }
+  ],
+  "event_range": [
+    "2026-05-20T09:00:42Z",
+    "2026-10-05T17:55:24Z"
+  ],
+  "observation_range": [
+    "2026-10-07T01:23:07Z",
+    "2026-10-07T01:27:38Z"
+  ],
+  "assessed_groups": [
+    {
+      "id": "model_named_appwrite_branch_previews",
+      "selected_records": 28,
+      "successful_original_reads": 25,
+      "timed_out_reads": 3,
+      "assessment": "Every successful model-named branch read records the submitted branch host returning HTTP 303 and then a common Appwrite marketing, account and authorization footprint, with CDN, account API, analytics and payment assets. None exposes the deployed branch body, a task result, a sender-to-recipient reference, a recorded channel, a second autonomous participant or downstream use. A small number of recorded Appwrite and analytics POST requests are ordinary browser network metadata here; their bodies and semantics are absent and they cannot be treated as agent messages.",
+      "identity_limit": "Appwrite documents that Git deployments receive generated branch and commit URLs and that a branch URL is tied to a source-control branch. A branch label containing 'Claude' or 'Gemini' therefore authenticates only a branch-name string in this evidence, not a model invocation, autonomous agent, provider execution or operator.",
+      "access_limit": "Appwrite documents preview deployments as private to authorized project or organization members. No account was created, no authentication was attempted and no preview body was accessed.",
+      "alternatives": [
+        "Human-chosen source-control branch names",
+        "One operator's deployment tests or scanner retries",
+        "Repeated reads of an Appwrite authorization surface",
+        "A project built with AI assistance but not autonomous coordination"
+      ],
+      "discovery_eligible_on_current_evidence": false,
+      "next_evidence_required": "An already public underlying repository, commit or preserved deployment record must first show a specific autonomous sender producing an artifact or instruction. A later independently distinguishable recipient must demonstrably retrieve and use that result, followed by primary evidence that the cooperation crossed an operator-defined boundary. A model token in a branch label is insufficient for every step."
+    },
+    {
+      "id": "generic_appwrite_site_control",
+      "selected_records": 1,
+      "successful_original_reads": 1,
+      "assessment": "The older hash-named Appwrite site records first-party page loads plus Appwrite account, analytics, telemetry and registry traffic. It contains no decoded task language, participant exchange or downstream task-result use. It is retained as a platform control, not an agent record.",
+      "discovery_eligible_on_current_evidence": false
+    },
+    {
+      "id": "timed_out_original_reads",
+      "selected_records": 4,
+      "successful_original_reads": 0,
+      "assessment": "Three model-named branch records and one official-site record timed out without returning original JSON. They remain uninspected and inconclusive; they are not negative findings and were not repeatedly retried.",
+      "next_step": "Retain the four public report links as cursors. Resume only during a later bounded pass if the ordinary read route is available; do not authenticate to a preview, replay a request or treat timeout status as evidence."
+    }
+  ],
+  "official_platform_context": [
+    {
+      "url": "https://appwrite.io/docs/products/sites/previews",
+      "observed_on": "2026-10-07",
+      "finding": "Git deployments receive generated branch and commit URLs; branch previews require authorized project or organization access."
+    },
+    {
+      "url": "https://appwrite.io/docs/products/sites/domains",
+      "observed_on": "2026-10-07",
+      "finding": "Appwrite describes automatically generated domains, including consistent URLs for deployments from a specific branch."
+    }
+  ],
+  "novelty_audit": {
+    "performed": [
+      "Exact-ID join against the pinned Transluce comparison release",
+      "Cross-record host and network-footprint comparison",
+      "Official platform-mechanics check"
+    ],
+    "result": "All 30 selected IDs are absent from the pinned comparison release, but the 26 successful reads do not preserve a concrete coordination chain. No broad prior-reporting search for a purported new swarm was performed because there is no episode to audit. Dataset absence is not treated as novelty."
+  },
+  "attribution_and_activity": "No independently verified autonomous participant, provider attribution, operator-boundary violation, subjective rogue intent or ongoing coordination is established.",
+  "safety": "Read only existing public urlquery report JSON and official Appwrite documentation. No deployment preview, recovered code, carrier, target, sink, request, runtime or package was executed; no scan, account, authentication, message, vote or participant contact occurred. Publication omits payload bodies, recorded request paths, credentials, tokens, personal addresses and sink topics."
+}

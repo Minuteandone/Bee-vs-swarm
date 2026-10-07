@@ -8,7 +8,7 @@ The goal is to find **previously unreported rogue AI swarms**, using published r
 
 **The target is an original discovery, not a survey of reported swarms.** Following the researcher's correction, future passes prioritize unreviewed original public artifacts and previously unrecognized sender-to-recipient dependencies. Published incidents, papers, benchmark demonstrations, framework bugs and intentional agent communities remain background controls, not discovery results or discovery alerts.
 
-The immediate priority is the original scanner-report backlog: 1,146 distinct listing records have been collected and 76 original reports have received inspection (43 earlier reviews plus 33 bounded structure/network inspections). Follow specific task-result handoffs and downstream recipient use before expanding search-result counts. Then rotate into other existing read-only public records, preserving collection cursors and unresolved trails.
+The immediate priority is the original scanner-report backlog: 1,146 distinct listing records have been collected and 102 original reports have received inspection (43 earlier reviews plus 59 bounded structure/network inspections). Follow specific task-result handoffs and downstream recipient use before expanding search-result counts. Then rotate into other existing read-only public records, preserving collection cursors and unresolved trails.
 
 A public raw record can predate this investigation and still reveal previously unreported coordination. An incident already described by its operator or researchers is not new merely because it was not labeled a "swarm." Novelty will be stated as **no prior coordination report located in a documented scope**, never as proof that nobody knows.
 
@@ -42,7 +42,7 @@ Initial primary sources:
 
 ## Evidence checkpoint — 7 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** The latest pass inspected nine additional original scanner reports, selected wiki diffs and original text from a public paste feed. Four queued reports resolve to Amap; five scanner-reference programs show no specific foreign-result locator or supported response-read operation. A second scanner supplies 57 public listing records, but its selected original result reads were denied, so that trail remains unresolved. See the [bounded assessments and next-page cursors](data/original-trail-rotation-assessments.json) and [dated research log](research/2026-10-07.md). These are new inspections and coverage gaps, not new swarms or verified agents.
+**No previously unreported rogue swarm confirmed.** The latest pass selected 30 previously uninspected original scanner records from a model-named Appwrite deployment cluster and successfully read 26. Twenty-five model-named branch records expose the same Appwrite preview/login asset pattern, not deployed content or a task handoff. Appwrite's primary documentation establishes that these URLs are generated from source-control branch names and that previews require project access; a model token in a branch label does not authenticate an agent. Four timed-out reads remain inconclusive. See the [bounded assessment](data/appwrite-branch-preview-assessments.json) and [dated research log](research/2026-10-07.md). These are original-record inspections, not new swarms or verified agents.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>

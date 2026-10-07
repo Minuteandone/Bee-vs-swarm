@@ -1,0 +1,1479 @@
+{
+  "collected_at": "2026-10-07T05:01:30Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/a675e1b9-9c5e-4204-b0fa-87c5636cbe84",
+      "event_at": "2026-07-30T08:18:36Z",
+      "observed_at": "2026-10-07T04:59:36Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "77b061fa3637db6eb0ab252b814ed53686570038b1f2c4966d953f06cfe73b06",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fedresurs.ru",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ad515eba-3462-4d17-99d8-98ce10009f62",
+      "event_at": "2026-07-30T08:23:54Z",
+      "observed_at": "2026-10-07T04:59:36Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "7ca59f696536dfe4beaeee3d3e0da77f433a272827905719c05ccab73732e3af",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fedresurs.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ea810abd-68df-48f4-8a1e-1bff0dc01dbb",
+      "event_at": "2026-07-30T08:24:04Z",
+      "observed_at": "2026-10-07T04:59:54Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6e057eb9c87f9408da18fe72e51eed8d89fea5664ea0ba8518dae1746b1ad6fe",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fedresurs.ru",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4b7d4239-1d72-4356-8e25-d2d76cd6a9ee",
+      "event_at": "2026-07-30T08:47:32Z",
+      "observed_at": "2026-10-07T04:59:55Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6b8fa3439dcfdce2b89fa988812424d7089870600f24a164b67233c10ec11a32",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 55
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/81865792-7dc2-49a0-b845-02d41dc712f9",
+      "event_at": "2026-07-30T08:52:23Z",
+      "observed_at": "2026-10-07T05:00:04Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e0ded696b9587b8ecceac8ac723b88b2055579c2a01703f25e32824d7ca20212",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 55
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1f69c316-305b-4627-b33d-2e24289ffec2",
+      "event_at": "2026-07-30T08:59:55Z",
+      "observed_at": "2026-10-07T05:00:19Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2ba7fd2e74de00ceffe63f51bd851cf7541b64100bd3aecef46686bf9561a06c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 55
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9e31c650-3706-4fcb-853d-630a2981834f",
+      "event_at": "2026-07-30T09:05:20Z",
+      "observed_at": "2026-10-07T05:00:19Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "101b320213496db57b90d708d0cb7775985ea8f3f47fcd51c71fef988001c8db",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/20017482-832d-44a4-a7c1-8e3c658bd50f",
+      "event_at": "2026-07-30T09:12:35Z",
+      "observed_at": "2026-10-07T05:00:31Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f51097e039ba51f533a4916f2c9d4c7323865f6c0543670d7b8624a76c8d3125",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/65effd55-0639-418e-a362-50650d6763b3",
+      "event_at": "2026-08-16T13:28:36Z",
+      "observed_at": "2026-10-07T05:00:44Z",
+      "submitted_host": "tinyurl.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c99022d90231fe1ee859e2a06ea8921fb21762cacc4652f7b8c8d1c0f6ec52fc",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "icons.duckduckgo.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "tinyurl.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/eb4ecb55-d335-45fb-b775-6746d422c7f0",
+      "event_at": "2026-10-04T15:13:31Z",
+      "observed_at": "2026-10-07T05:00:46Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5637e04522458452fc190d9771dfd6dd2d40fd97ab3809fa9bbdd3147dc557c0",
+      "submitted_reference_domains": [
+        "webhook.site"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3f0a71227959ce35ac44730e8f20805844dfdda3365e5802c65b681905866648",
+          "recorded_method": "GET",
+          "recorded_status": "200"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e32e37d2-456c-4240-954b-f7e2cbb27315",
+      "event_at": "2026-10-04T15:19:50Z",
+      "observed_at": "2026-10-07T05:00:55Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "0fe0a817d4b1bc33bc1ce1e7825fcedffc8ea56409afcd2c217d42b970ef0c91",
+      "decoded_characters": 1146,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "features": [
+        "xhr",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "17bb8a0ab800ef21421b778a924b8ff121eae4e8b936a753c9921f863bef87f3",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 3,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "5yqwco.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "419",
+          "count": 2
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "sg-wum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/563ba9f6-28fc-4dd3-9118-fd13b308e3da",
+      "event_at": "2026-10-04T16:59:25Z",
+      "observed_at": "2026-10-07T05:00:56Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "e3366925433c07fe704b94a8eab266d1b85555710cbfdf98e127a68f91e70601",
+      "decoded_characters": 928,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "250494afc681a36b002d41d92e22acdc7bef4cb6772a1524f60b963072040fea",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6a67bba7ca757456e04da9e4f9401117fc685b4ff15d5ea448f489dc33f8a4b8",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6a67bba7ca757456e04da9e4f9401117fc685b4ff15d5ea448f489dc33f8a4b8",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6a67bba7ca757456e04da9e4f9401117fc685b4ff15d5ea448f489dc33f8a4b8",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6a67bba7ca757456e04da9e4f9401117fc685b4ff15d5ea448f489dc33f8a4b8",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6a67bba7ca757456e04da9e4f9401117fc685b4ff15d5ea448f489dc33f8a4b8",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "6a67bba7ca757456e04da9e4f9401117fc685b4ff15d5ea448f489dc33f8a4b8",
+          "recorded_method": "POST",
+          "recorded_status": "200"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f2a45ccb-fca8-43f6-a6e5-38f088582e79",
+      "event_at": "2026-10-04T17:27:53Z",
+      "observed_at": "2026-10-07T05:01:06Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "f8daa2dab55135e52aacbf320d444de57d8f6541ec11d778944029af6cf3fa52",
+      "decoded_characters": 890,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9b09dba371a7e6f44ac2c67c27255fb2d3c535f91c739804abe43fd4aff966b1",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b78855b4-8697-4391-8adc-c301063b2baa",
+      "event_at": "2026-10-04T17:42:02Z",
+      "observed_at": "2026-10-07T05:01:07Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "d64777fbb1f121decc8606e71850f9039b261056194d3c66b81fb1038873127e",
+      "decoded_characters": 964,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f21c3d6f24fcccd4ccf636d4229b5ec89916930ae43414cf725caff57041ae97",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 3,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/bf29f538-d7dc-4668-8489-047c312fbfa1",
+      "event_at": "2026-10-04T20:12:28Z",
+      "observed_at": "2026-10-07T05:01:17Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "10d7aa9c07fedd4e3a63d2d13109f50ab5252c993e23174d159878abe82c654a",
+      "decoded_characters": 580,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e425955dc3aa74bbe58c5e6b63c89857a8926cb580f0cb5745a2da6a6f780a66",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8a99d335-7f1b-49c7-88bf-f01d90c6539c",
+      "event_at": "2026-06-21T20:43:08Z",
+      "observed_at": "2026-10-07T05:01:18Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "35a2909308ce97688920528e107ebc2d40be4d6f2df63863f17958e0d3a5ae0b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

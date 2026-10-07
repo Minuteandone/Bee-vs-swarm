@@ -1064,6 +1064,54 @@
       "url": "https://docs.ntfy.sh/publish/",
       "role": "Official publish-method semantics used to interpret captured methods without sending any message",
       "observed_on": "2026-10-07"
+    },
+    {
+      "id": "original-tinyurl-fedresurs-wrapper-control",
+      "url": "https://urlquery.net/report/a675e1b9-9c5e-4204-b0fa-87c5636cbe84",
+      "role": "Representative previously unseen wrapper record whose captured destination traffic overlaps the known Fedresurs comparison family",
+      "event_at": "2026-07-30T08:18:36Z",
+      "observed_at": "2026-10-07T04:59:36Z",
+      "report_json_sha256": "77b061fa3637db6eb0ab252b814ed53686570038b1f2c4966d953f06cfe73b06"
+    },
+    {
+      "id": "original-tinyurl-scanner-reference-control",
+      "url": "https://urlquery.net/report/4b7d4239-1d72-4356-8e25-d2d76cd6a9ee",
+      "role": "Representative scanner-self-reference-shaped wrapper without a foreign report locator or downstream result use",
+      "event_at": "2026-07-30T08:47:32Z",
+      "observed_at": "2026-10-07T04:59:55Z",
+      "report_json_sha256": "6b8fa3439dcfdce2b89fa988812424d7089870600f24a164b67233c10ec11a32"
+    },
+    {
+      "id": "original-tinyurl-redirect-shell-control",
+      "url": "https://urlquery.net/report/65effd55-0639-418e-a362-50650d6763b3",
+      "role": "Representative ordinary shortener and HTTP-test record without a preserved destination exchange",
+      "event_at": "2026-08-16T13:28:36Z",
+      "observed_at": "2026-10-07T05:00:44Z",
+      "report_json_sha256": "c99022d90231fe1ee859e2a06ea8921fb21762cacc4652f7b8c8d1c0f6ec52fc"
+    },
+    {
+      "id": "original-href-shared-channel-read-control",
+      "url": "https://urlquery.net/report/eb4ecb55-d335-45fb-b775-6746d422c7f0",
+      "role": "Earlier same-hash GET record in the reverse-order shared-channel sequence; no message body or downstream use",
+      "event_at": "2026-10-04T15:13:31Z",
+      "observed_at": "2026-10-07T05:00:46Z",
+      "report_json_sha256": "5637e04522458452fc190d9771dfd6dd2d40fd97ab3809fa9bbdd3147dc557c0"
+    },
+    {
+      "id": "original-href-shared-channel-later-write-control",
+      "url": "https://urlquery.net/report/e32e37d2-456c-4240-954b-f7e2cbb27315",
+      "role": "Later Amap-shaped record with five same-hash POSTs after the earlier GET; reverse chronology does not establish a handoff",
+      "event_at": "2026-10-04T15:19:50Z",
+      "observed_at": "2026-10-07T05:00:55Z",
+      "report_json_sha256": "17bb8a0ab800ef21421b778a924b8ff121eae4e8b936a753c9921f863bef87f3"
+    },
+    {
+      "id": "original-isgd-redirect-control",
+      "url": "https://urlquery.net/report/8a99d335-7f1b-49c7-88bf-f01d90c6539c",
+      "role": "Ordinary shortener redirect and HTTP-test control without channel, task language, sender, recipient or use",
+      "event_at": "2026-06-21T20:43:08Z",
+      "observed_at": "2026-10-07T05:01:18Z",
+      "report_json_sha256": "35a2909308ce97688920528e107ebc2d40be4d6f2df63863f17958e0d3a5ae0b"
     }
   ]
 }

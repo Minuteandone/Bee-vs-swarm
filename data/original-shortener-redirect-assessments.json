@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T05:09:13Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 16,
+    "successful_original_reads": 16,
+    "selected_exact_id_comparison_absences": 16,
+    "tinyurl_records": 9,
+    "href_li_records": 6,
+    "is_gd_records": 1,
+    "cumulative_inspected_unique_urlquery_reports": 144,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 1002,
+    "remaining_uninspected_comparison_absences": 643,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Selected 16 previously untouched exact-ID comparison absences from three shortener-wrapper slices in the saved original scanner backlog. The pass tested whether the wrappers connected a specific public producer record to a later consumer rather than merely redirecting one scanner run. Short links themselves were never opened. This is a purposive bounded sample, not a census, participant count or novelty claim.",
+  "snapshot": {
+    "path": "data/original-shortener-redirect-reviews.json",
+    "sha256": "1fc85bfeeec76f55a2f5acefc4d1364f361ba41a4102d83d991e41b9b72b69d3",
+    "event_range": {
+      "from": "2026-06-21T20:43:08Z",
+      "to": "2026-10-04T20:12:28Z"
+    },
+    "observation_range": {
+      "from": "2026-10-07T04:59:36Z",
+      "to": "2026-10-07T05:01:18Z"
+    },
+    "limitations": "The sanitized snapshot preserves public report links, separate event and observation times, report and decoded-text hashes, domain-level network summaries, static operation counts and one-way channel-reference hashes. It omits short-link paths, carrier and target URLs, request and response bodies, sink paths, message content, credentials, submitter addresses and recovered source. A redirect, request method, status or shared hash does not authenticate an autonomous participant, task meaning, downstream use or authorization boundary."
+  },
+  "assessed_groups": [
+    {
+      "id": "tinyurl_wrapper_controls",
+      "records": 9,
+      "event_range": {
+        "from": "2026-07-30T08:18:36Z",
+        "to": "2026-08-16T13:28:36Z"
+      },
+      "representative_reports": [
+        {
+          "url": "https://urlquery.net/report/a675e1b9-9c5e-4204-b0fa-87c5636cbe84",
+          "event_at": "2026-07-30T08:18:36Z",
+          "report_json_sha256": "77b061fa3637db6eb0ab252b814ed53686570038b1f2c4966d953f06cfe73b06",
+          "role": "Representative wrapper record whose captured destination traffic overlaps the known Fedresurs comparison family."
+        },
+        {
+          "url": "https://urlquery.net/report/4b7d4239-1d72-4356-8e25-d2d76cd6a9ee",
+          "event_at": "2026-07-30T08:47:32Z",
+          "report_json_sha256": "6b8fa3439dcfdce2b89fa988812424d7089870600f24a164b67233c10ec11a32",
+          "role": "Representative scanner-self-reference-shaped destination record without a foreign report locator or result-use evidence."
+        },
+        {
+          "url": "https://urlquery.net/report/65effd55-0639-418e-a362-50650d6763b3",
+          "event_at": "2026-08-16T13:28:36Z",
+          "report_json_sha256": "c99022d90231fe1ee859e2a06ea8921fb21762cacc4652f7b8c8d1c0f6ec52fc",
+          "role": "Representative ordinary redirect-shell record without a preserved destination exchange."
+        }
+      ],
+      "assessment": "Three records capture Fedresurs destination traffic already covered as a known Transluce comparison family. Three capture scanner-self-reference-shaped traffic without a specific foreign report locator, response-derived task artifact or downstream use. The remaining three preserve only ordinary shortener, browser-asset and HTTP-test traffic. Every captured operation is GET; no sender-to-recipient write/read dependency appears. Exact-ID absence from the pinned comparison release does not separate these wrappers into a new episode or population.",
+      "classification": "known-family wrappers and redirect controls; no transfer/use edge",
+      "participants": "No autonomous sender or recipient is authenticated. Short links, scanner records and destination hosts are technical artifacts, not participant identities.",
+      "operator_boundary": "Not established. No primary authorization statement or exchange between independently attributable operators is present."
+    },
+    {
+      "id": "href_li_shared_channel_sequence",
+      "records": 6,
+      "event_range": {
+        "from": "2026-10-04T15:13:31Z",
+        "to": "2026-10-04T20:12:28Z"
+      },
+      "representative_reports": [
+        {
+          "url": "https://urlquery.net/report/eb4ecb55-d335-45fb-b775-6746d422c7f0",
+          "event_at": "2026-10-04T15:13:31Z",
+          "report_json_sha256": "5637e04522458452fc190d9771dfd6dd2d40fd97ab3809fa9bbdd3147dc557c0",
+          "role": "Two captured GETs to two distinct sanitized sink hashes; one hash reappears under later POSTs."
+        },
+        {
+          "url": "https://urlquery.net/report/e32e37d2-456c-4240-954b-f7e2cbb27315",
+          "event_at": "2026-10-04T15:19:50Z",
+          "report_json_sha256": "17bb8a0ab800ef21421b778a924b8ff121eae4e8b936a753c9921f863bef87f3",
+          "role": "Five later POSTs to the shared sanitized hash inside an Amap/Alibaba-shaped record."
+        },
+        {
+          "url": "https://urlquery.net/report/563ba9f6-28fc-4dd3-9118-fd13b308e3da",
+          "event_at": "2026-10-04T16:59:25Z",
+          "report_json_sha256": "250494afc681a36b002d41d92e22acdc7bef4cb6772a1524f60b963072040fea",
+          "role": "Later Amap/Jina-shaped record with six POSTs to a different sanitized sink hash."
+        }
+      ],
+      "recorded_channel_graph": {
+        "references": 13,
+        "unique_channel_hashes": 3,
+        "get_references": 2,
+        "post_references": 11,
+        "hashes_observed_with_both_get_and_post": 1,
+        "shared_hash_sequence": {
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "get_count": 1,
+          "get_at": "2026-10-04T15:13:02.421Z",
+          "post_count": 5,
+          "post_range": {
+            "from": "2026-10-04T15:19:24.021Z",
+            "to": "2026-10-04T15:19:32.294Z"
+          },
+          "ordering": "The recorded GET precedes all recorded POSTs by about six minutes"
+        },
+        "other_hashes": "One hash is GET-only and one is POST-only."
+      },
+      "provenance_followup": {
+        "observed_at": "2026-10-07T05:09:13Z",
+        "successful_existing_report_reads": 6,
+        "distinct_recorded_submitter_labels": 1,
+        "published_submitter_labels_or_addresses": false,
+        "assessment": "All six records carry the same public scanner submitter label. This supports a single-submitter or repeated-test alternative but does not identify the traffic operator."
+      },
+      "assessment": "One sanitized sink hash does occur under both methods across two records, but the chronology is one recorded GET first and five POSTs about six minutes later, not a write followed by acquisition. A GET alone does not establish message receipt. Both records share the same scanner submitter label, and the later record plus four subsequent records expose the known Amap family. No message body, task result, autonomous identity or downstream action is preserved. The sequence therefore does not establish a producer-to-consumer handoff and is better explained by one submitter's setup, observation or repeated testing than by distinct cooperating agents.",
+      "classification": "reverse-order shared-channel correlation in a known-family sequence; no forward transfer/use edge",
+      "participants": "No autonomous sender or recipient is authenticated. A shared endpoint hash and one submitter label do not establish distinct operators or agents.",
+      "operator_boundary": "Not established. The scanner record contains no primary authorization statement, and the shared endpoint chronology supplies no cross-operator coordination evidence.",
+      "advancement_evidence": "An already public record must show a write to a sanitized channel hash before a later read by an independently distinguishable autonomous trajectory, preserve enough task semantics to connect that read to the write, and show a downstream action causally using the transferred result. Separate primary provenance must establish different operators or another operator-defined boundary and that the coordination was unauthorized. Sink inboxes, short links and live targets must not be opened."
+    },
+    {
+      "id": "is_gd_redirect_control",
+      "records": 1,
+      "representative_report": {
+        "url": "https://urlquery.net/report/8a99d335-7f1b-49c7-88bf-f01d90c6539c",
+        "event_at": "2026-06-21T20:43:08Z",
+        "report_json_sha256": "35a2909308ce97688920528e107ebc2d40be4d6f2df63863f17958e0d3a5ae0b"
+      },
+      "assessment": "The record preserves one shortener redirect, ordinary HTTP-test traffic and no decoded task language, channel reference, sender, recipient or downstream use.",
+      "classification": "ordinary redirect control"
+    }
+  ],
+  "alternatives_tested": [
+    "A single submitter testing or observing a shortener/sink sequence",
+    "Repeated scanner submissions or revisions within a known target family",
+    "A preflight or dashboard GET followed by later same-operator writes",
+    "Known Fedresurs and Amap program families under previously unseen wrapper report IDs",
+    "Ordinary redirects, browser assets and HTTP-test endpoints",
+    "Scanner-self-reference traffic without foreign-result acquisition"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 16,
+    "known_published_family_overlap": true,
+    "known_family_overlap_detail": "Three TinyURL records capture the known Fedresurs family; five href.li records expose the known Amap family.",
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 16 selected scanner IDs are absent from the pinned comparison release, but exact-ID absence is not novelty. Original-record assessment linked eight wrappers to already known Fedresurs or Amap families and found no forward sender-to-recipient transfer/use chain in the other eight. No broad prior-reporting search for a purported swarm was run because no qualifying coordination chain emerged.",
+  "next_cursor": "Rotate to another untouched original-record slice that can preserve a forward result dependency. Do not revisit these wrappers unless an already public source supplies post-before-read chronology, task semantics, recipient use and independent operator provenance; do not open short links, sink inboxes or live targets.",
+  "safety": "Read only existing public scanner report JSON and its recorded metadata. No short link, carrier destination, live target, sink inbox, recovered code, payload, package, scan, runtime, account, authentication route, message, vote or participant contact was opened, executed, submitted or replayed. Publication omits short-link and request paths, bodies, sink identifiers beyond one-way hashes, credentials, submitter labels, personal addresses and private logs."
+}

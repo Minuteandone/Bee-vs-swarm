@@ -1,0 +1,435 @@
+{
+  "collected_at": "2026-10-07T10:51:45Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/2ed9d995-c4f8-496a-bec0-25bb80a02a04",
+      "event_at": "2026-10-04T15:14:24Z",
+      "observed_at": "2026-10-07T10:51:10Z",
+      "submitted_host": "postman-echo.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b26e6a40698c76b4c62aeac3a5169c11aac02b1d2e6b76e66a86e8b5a2ac9ee3",
+      "submitted_reference_domains": [
+        "httpbin.org"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "8olkm7.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "OPTIONS",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "postman-echo.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8fd659be-938b-4500-83d0-8de53c706fd5",
+      "event_at": "2026-10-04T15:15:58Z",
+      "observed_at": "2026-10-07T10:51:10Z",
+      "submitted_host": "postman-echo.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "84467f5f1827ee0598005bdb91b07ded0aef004dc367db656a8866e8be37a2d9",
+      "submitted_reference_domains": [
+        "httpbin.org"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "2xg1wl.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "postman-echo.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d77a9f75-9f5d-45e7-b456-ff5ff9317995",
+      "event_at": "2026-10-04T15:27:25Z",
+      "observed_at": "2026-10-07T10:51:22Z",
+      "submitted_host": "postman-echo.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "eed2513daeb1f4d6133fae0bf2489143c91e77e1dda48f27d0ce2487f0eff908",
+      "submitted_reference_domains": [
+        "httpbin.org"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "postman-echo.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ab111671-24d4-41ab-8eaf-5cc672f2f901",
+      "event_at": "2026-10-04T15:30:48Z",
+      "observed_at": "2026-10-07T10:51:23Z",
+      "submitted_host": "postman-echo.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "54e2d24c3b88580e35ab28c460d14ad7a877f7985c3beda5bf64989fe0ba61fa",
+      "submitted_reference_domains": [
+        "httpbin.org"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "68q18u.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "postman-echo.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a5d41a5c-8aed-4a80-b48b-a0334ceb3d78",
+      "event_at": "2026-10-04T15:32:45Z",
+      "observed_at": "2026-10-07T10:51:33Z",
+      "submitted_host": "postman-echo.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b56a754e60ce52f7c583930b3b1b03920badb7a8ed988d1fcf2d7f108e0a11a3",
+      "submitted_reference_domains": [
+        "httpbin.org"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "gdg21b.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "postman-echo.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

@@ -1152,6 +1152,54 @@
       "event_at": "2026-10-05T16:25:40Z",
       "observed_at": "2026-10-07T06:28:39Z",
       "report_json_sha256": "4de49d1b7ed4e02c2707c9159f4b9f91addd6df13f9d2e0f449ed0295de76d16"
+    },
+    {
+      "id": "original-amap-mixed-hash-initial-read-control",
+      "url": "https://urlquery.net/report/3444ee42-4bab-44a6-a41b-9fa932d0589b",
+      "role": "Initial non-empty GET on the later mixed-method sanitized hash; it predates every archived POST and therefore is not acquisition of those writes",
+      "event_at": "2026-10-05T03:09:35Z",
+      "observed_at": "2026-10-07T10:42:58Z",
+      "report_json_sha256": "2fd627487eea963f1654d77060dd1cefd3b6e9af924a36a789847c8e855499f8"
+    },
+    {
+      "id": "original-amap-mixed-hash-write-control",
+      "url": "https://urlquery.net/report/205298b6-5d16-4eca-90f1-21b2fb7bcbbe",
+      "role": "First of three archived POST records on the mixed-method hash; request body is not preserved and the response body is empty",
+      "event_at": "2026-10-05T03:15:33Z",
+      "observed_at": "2026-10-07T10:43:09Z",
+      "report_json_sha256": "7246847be6152c2a0761029aedc5e1e68f91a685b7f9503c7892a7aaf4b063ff"
+    },
+    {
+      "id": "original-amap-mixed-hash-later-empty-read-control",
+      "url": "https://urlquery.net/report/80a0659d-ad74-4993-b560-8815229ac5a6",
+      "role": "First later record on the mixed-method hash; all three successful GET responses are explicitly empty and preserve no transferred artifact",
+      "event_at": "2026-10-05T13:52:21Z",
+      "observed_at": "2026-10-07T10:43:20Z",
+      "report_json_sha256": "97d36e4e85f36cc443fff1284a4d72b9df5fbfb1dc1bedd40c98c20847cdf1a9"
+    },
+    {
+      "id": "original-ai-named-site-api-control",
+      "url": "https://urlquery.net/report/4a236e22-9890-4ea8-b74e-80c2d049e806",
+      "role": "Representative AI-named public-site record with designed first-party API, payment and analytics traffic but no peer channel or task-result exchange",
+      "event_at": "2026-10-05T16:54:28Z",
+      "observed_at": "2026-10-07T10:48:39Z",
+      "report_json_sha256": "df084251aedbc234084ca267348971339ae41a29bb7b3f42bcfcc82531234d3b"
+    },
+    {
+      "id": "original-alternate-notification-empty-read-control",
+      "url": "https://urlquery.net/report/c9e96e0b-d107-47cb-a4d0-fbef37e7c88f",
+      "role": "Isolated alternate-notification GET with a successful status but an explicitly empty archived response and no matching write or downstream use",
+      "event_at": "2026-06-20T17:11:49Z",
+      "observed_at": "2026-10-07T10:49:23Z",
+      "report_json_sha256": "9221da85a1829fa0005d9a01b120627ec72d54d8f1d0ba76a705e24804b2d228"
+    },
+    {
+      "id": "original-postman-echo-amap-control",
+      "url": "https://urlquery.net/report/2ed9d995-c4f8-496a-bec0-25bb80a02a04",
+      "role": "Representative unsupported echo-carrier record whose captured traffic reveals the known Amap/Alibaba family without a channel or result dependency",
+      "event_at": "2026-10-04T15:14:24Z",
+      "observed_at": "2026-10-07T10:51:10Z",
+      "report_json_sha256": "b26e6a40698c76b4c62aeac3a5169c11aac02b1d2e6b76e66a86e8b5a2ac9ee3"
     }
   ]
 }

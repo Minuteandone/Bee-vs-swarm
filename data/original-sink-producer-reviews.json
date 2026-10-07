@@ -1,0 +1,2604 @@
+{
+  "collected_at": "2026-10-07T10:44:22Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/361001d6-a871-4b2d-8086-1bf0b16bf6e5",
+      "event_at": "2026-10-04T10:44:28Z",
+      "observed_at": "2026-10-07T10:42:25Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "126a83606b8d6993be5f3c5fc6e88cdfa211a15502b2f8684def5eb1983ab286",
+      "decoded_characters": 1371,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "m.amap.com",
+        "webhook.site",
+        "ynuf.aliapp.org"
+      ],
+      "features": [
+        "fetch",
+        "xhr",
+        "sink_domain",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a550c4840ed2be0d1923c251284488930200842e1ad5447e0c6c6e30b72283cf",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "m.amap.com",
+        "webhook.site",
+        "ynuf.aliapp.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 2,
+        "xhr_calls": 1,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "7zlhsl.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "ae9308367ed9fdfad31cd7739078f1f6b34d4babc0bbbedf4b978d08dc432e31",
+          "recorded_method": "POST",
+          "recorded_status": "204",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-04T10:43:55.042Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2827b191-c4e0-4d39-ac99-c70bf4791a04",
+      "event_at": "2026-10-04T13:28:17Z",
+      "observed_at": "2026-10-07T10:42:25Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "c835d0ece6745886d2f47126e887116d5d1dae6bfc2f518e1f2bdbbfd02a00d4",
+      "decoded_characters": 1493,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "features": [
+        "xhr",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b4f009bf130f33fd99770bfa833d373e3a5de9a5e7f7bddc6d886ff3f60801f3",
+      "submitted_reference_domains": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 3,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "419",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "bwukc8.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "d6ed7b689fb6c55060c3957a2e7287e0080282f388dd0ccf1e444abe567bb07a",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-04T13:27:52.721Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9999a5a3-4f93-4673-8ec8-e678d5b1eb1f",
+      "event_at": "2026-10-04T15:08:10Z",
+      "observed_at": "2026-10-07T10:42:34Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "685416fb96e7c333ae7f999d16de341173d699361a4c84dea35e8a165439cd1e",
+      "decoded_characters": 2100,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "xhr",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9126fc645b619c98dd93989e460de6d753df311390d0149ecf948b8669abd913",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 2,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 5,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/499d9e16-387d-4c3d-ba19-a3aa1052872c",
+      "event_at": "2026-10-04T15:10:28Z",
+      "observed_at": "2026-10-07T10:42:35Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "e3e7880153444a5c32a79076540a1dda83d287b8571d4497e11ccd8f94d2534e",
+      "decoded_characters": 1876,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "xhr",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "62c27642964d1b654caebe5f2871b0cd4f06d21d7c2c5e46e9ba3fd4e408fee9",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 5,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8f020864-0edd-413d-bab4-5681f113a7af",
+      "event_at": "2026-10-04T15:16:43Z",
+      "observed_at": "2026-10-07T10:42:47Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "1481d6b60ebd7aacaa24ae06d7e4c2a3108b466d9e90f6ab607802805e02b9ee",
+      "decoded_characters": 959,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "features": [
+        "xhr",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "14fcabd4fd1862f51bb548912556388478531f0a14c23d59361533d3f83eb809",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/777e11d5-6da9-4594-b6ca-a1f284c88758",
+      "event_at": "2026-10-04T15:17:31Z",
+      "observed_at": "2026-10-07T10:42:47Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "2d0643f13195264cf81f3a36e7126c299c372af82d1111ee52c25c1277f0ec1d",
+      "decoded_characters": 959,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "features": [
+        "xhr",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0747d2c70198187a6635a03b0ff3a78f7bfa7985448ed14346ca3d6c5c0e074d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "sg-wum.alibaba.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6g35ma.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "sg-wum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-04T15:16:51.090Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-04T15:16:51.166Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "b20f7b5d5f586e405a2b414acd2cbfe2a2680a9b1435ac9197aed7baea16a5ea",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-04T15:16:52.827Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3444ee42-4bab-44a6-a41b-9fa932d0589b",
+      "event_at": "2026-10-05T03:09:35Z",
+      "observed_at": "2026-10-07T10:42:58Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "70fa9da483a3d1df736ab5594b4591f7fd85afdc9f84695c3c1b640891ba0b0c",
+      "decoded_characters": 561,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2fd627487eea963f1654d77060dd1cefd3b6e9af924a36a789847c8e855499f8",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "g243f9.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 156,
+          "recorded_response_body_sha256": "31983ecce2d61805df240fe9d7c562fede1bda3b7970a775337767a9ab611e7a",
+          "recorded_at": "2026-10-05T03:09:08.580Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "3f0a71227959ce35ac44730e8f20805844dfdda3365e5802c65b681905866648",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 5868,
+          "recorded_response_body_sha256": "6f773b9b3156c214dfc5d228a1246a5fe4fd5cda8eef95a12604cd40b638a6f9",
+          "recorded_at": "2026-10-05T03:09:08.834Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/be4fce6c-3791-4494-a558-131ce2b3ae54",
+      "event_at": "2026-10-05T03:13:40Z",
+      "observed_at": "2026-10-07T10:42:59Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "ad95ea0406ac7d8a0f6b39dbe472fc414078273966e732c4df9ae084271fc737",
+      "decoded_characters": 619,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "608bb8fd2a391a613dff3c2eca8b73b4f9ebd7ea42d17a4280a16f0cb5f480ff",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "ddyk6q.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "gm.mmstat.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/205298b6-5d16-4eca-90f1-21b2fb7bcbbe",
+      "event_at": "2026-10-05T03:15:33Z",
+      "observed_at": "2026-10-07T10:43:09Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "0e26f43c20ad90c3d2f12a87f5e0d7162cc224d52e0676c9321d65ea2a209a62",
+      "decoded_characters": 674,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "7246847be6152c2a0761029aedc5e1e68f91a685b7f9503c7892a7aaf4b063ff",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "9z7iwl.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T03:14:59.118Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7aad9782-30f3-41d3-af71-5093f0ce2864",
+      "event_at": "2026-10-05T03:16:23Z",
+      "observed_at": "2026-10-07T10:43:12Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "bfce44ede86303a9937e9231023d597bccd9da47d71f3cb5da5bf1e6ee282eec",
+      "decoded_characters": 691,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "191575e25cf104240acdbf229d7d7c3f2b6508b506d833a898cfc61ac145362a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 1,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "6kn582.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "419",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T03:16:01.080Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/06a2b03f-d473-4b30-b80d-153d843a5d89",
+      "event_at": "2026-10-05T03:19:38Z",
+      "observed_at": "2026-10-07T10:43:19Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "cf7d49c764ff454d75050b8b3ec7ac898e1552da314731b5b0b9eae445652152",
+      "decoded_characters": 654,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f4262d88c488c193a7301cbd4fb22bfdbe6cd28b1c5d0cb53db6ee4291f1e22a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "5uux4m.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "OPTIONS",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T03:19:15.271Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/80a0659d-ad74-4993-b560-8815229ac5a6",
+      "event_at": "2026-10-05T13:52:21Z",
+      "observed_at": "2026-10-07T10:43:20Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "c2370873368b8a317474866377ebb361eb50c46d1688b8bc29e6e168e8275641",
+      "decoded_characters": 2227,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "97d36e4e85f36cc443fff1284a4d72b9df5fbfb1dc1bedd40c98c20847cdf1a9",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:52:00.264Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:51:53.886Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:52:07.990Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9632f0c0-dc5e-4383-bad1-5badee26c3a0",
+      "event_at": "2026-10-05T13:52:21Z",
+      "observed_at": "2026-10-07T10:43:30Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "c2370873368b8a317474866377ebb361eb50c46d1688b8bc29e6e168e8275641",
+      "decoded_characters": 2227,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b25152ca326059aa8be4429b2dac1f66008eabfce3caa55bb33efaed4f246ad5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1ad12fea-1ae7-45f5-be04-596810d37c02",
+      "event_at": "2026-10-05T13:54:20Z",
+      "observed_at": "2026-10-07T10:43:30Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "5556435dc0f542a3c2758bd8375b102fa349ceda668f176ed42023aedea97900",
+      "decoded_characters": 1229,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "32aa2e860879a37fbbfee1e48e92cd22e8c3d2317f0f139527d4a4c4ef66778e",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 28
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 19
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 8
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.599Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.674Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.703Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.659Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.688Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.699Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.719Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.615Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.632Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.665Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.705Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.624Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.656Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.695Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.650Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.671Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.708Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.638Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.644Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.668Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.685Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.678Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.681Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.711Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.715Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.663Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:53:52.692Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/5b879373-18a1-4260-b4b6-a68cd3b2dd83",
+      "event_at": "2026-10-05T13:58:56Z",
+      "observed_at": "2026-10-07T10:43:40Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "f46a652064760d8aba43de41fe02dd97aa9202a93cbf1ac4e98369a297e78b8e",
+      "decoded_characters": 1495,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "7b0d4a6c3dcd2f6799c4898fd1982b605b087c4e0b2cb82be91f22a71b192393",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:58:43.118Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:58:44.058Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:58:28.790Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T13:58:50.824Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1a04186c-416d-4192-ae8a-5daeeee8e02e",
+      "event_at": "2026-10-05T14:02:44Z",
+      "observed_at": "2026-10-07T10:43:48Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "7054e8208fd967ba126d8a13e62c24609c8ae66e56808a0c26503d49fe68a265",
+      "decoded_characters": 1468,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "61d0355bcd87b93c1fb5fc911804a44bc82cf44010bbeb720146354d70fd929d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:02:17.784Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:02:17.786Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:02:35.619Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4213f232-645c-4594-8b52-0dbcb010b21a",
+      "event_at": "2026-10-05T14:03:35Z",
+      "observed_at": "2026-10-07T10:43:52Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "7054e8208fd967ba126d8a13e62c24609c8ae66e56808a0c26503d49fe68a265",
+      "decoded_characters": 1468,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9e87f45a34854222526f45029741af0903ed3d50a755cfe2e288a384f9b9fc55",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:02:59.569Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:02:59.572Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:03:00.314Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d82f21a5-b029-4af1-8447-25491c474741",
+      "event_at": "2026-10-05T14:07:23Z",
+      "observed_at": "2026-10-07T10:43:52Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "cfb28b3779a551231681b32cc22b278878dbdaa148f7b16dc1173c5965ce7908",
+      "decoded_characters": 1678,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2994c772d51aabad562c2d5ee545195b38a3c1d040179dc1cbfa0060e1cd0411",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:07:14.111Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:07:05.808Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:07:14.825Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:07:05.806Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/62708971-8129-4cf7-9228-17c6f85f14a6",
+      "event_at": "2026-10-05T14:10:05Z",
+      "observed_at": "2026-10-07T10:44:01Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "ea4aefba16191cfa38258678d7a7fb1e515fe27d2b03eb4d4209123fe30b44d3",
+      "decoded_characters": 2179,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "m5.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "cc68afe83c911b3e710a0ca210b640e2457724e0af6ddcdaa755556ebcdd5000",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "m.amap.com",
+        "m5.amap.com",
+        "r.jina.ai",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "422",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 9
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:10:00.935Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:42.516Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:44.190Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:51.586Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:42.519Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:10:00.931Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:29.485Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:44.188Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T14:09:51.582Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ab8b7cdb-5e08-458d-9ace-5127c153bffc",
+      "event_at": "2026-10-05T15:48:30Z",
+      "observed_at": "2026-10-07T10:44:02Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "2c25e3eddd9b5b1c73402308a158e319c35e3aa2890f7218ee82b6b83c5b3a79",
+      "decoded_characters": 1737,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ac8d260ecede87980b087e1027a132709043666cbed34e3399c9e9cf6146f503",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 2,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c8078476-bf5e-48f0-ad08-c03bc47a7361",
+      "event_at": "2026-10-05T15:50:32Z",
+      "observed_at": "2026-10-07T10:45:12Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "52aba9e9966f1e7aba4b126cd75dc250e54dc7ef2826d139d500c5e8c511142d",
+      "decoded_characters": 1627,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f9c2442029c11488e4d6c13c8f1c4898a8de847866b5288a9e6a9378716f6240",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "webhook.site",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 2,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "unknown",
+          "count": 3
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:19.235Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:19.238Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:19.240Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:19.233Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:10.927Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:19.236Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "876a90f70ad6f08d5ed1f1a20d95219d9a56b2a5c2b6528c3e52c654ecde8a45",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-10-05T15:50:10.928Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

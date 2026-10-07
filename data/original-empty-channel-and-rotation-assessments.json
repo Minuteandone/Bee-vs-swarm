@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T10:52:38Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 40,
+    "successful_original_reads": 40,
+    "selected_exact_id_comparison_absences": 40,
+    "saved_sink_producer_cursor_records": 21,
+    "ai_named_host_rotation_records": 5,
+    "pie_channel_rotation_records": 9,
+    "postman_echo_rotation_records": 5,
+    "cumulative_inspected_unique_urlquery_reports": 210,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 936,
+    "remaining_uninspected_comparison_absences": 577,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the saved 21-record sink-producer cursor, then rotated into every untouched exact-ID comparison absence on five AI-named submitted hosts, every untouched Pie service record, and every untouched Postman Echo record. The rotations test whether names, alternate notification infrastructure or an unsupported echo carrier expose a new transfer edge. This is a purposive bounded sample, not a census, participant count or novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-sink-producer-reviews.json",
+      "sha256": "cf4c6dd2cd756ccdbae08291c1d1551b11ce5b3d506f07ed3ba816e6eedeafb1",
+      "records": 21,
+      "event_range": {
+        "from": "2026-10-04T10:44:28Z",
+        "to": "2026-10-05T15:50:32Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T10:42:25Z",
+        "to": "2026-10-07T10:45:12Z"
+      }
+    },
+    {
+      "path": "data/original-ai-named-host-reviews.json",
+      "sha256": "a7fb2f6b46785e22bb5a23e6c7271ac8ce12966713e7fdfc75d9c6bd73d099af",
+      "records": 5,
+      "event_range": {
+        "from": "2026-10-04T19:43:36Z",
+        "to": "2026-10-05T17:07:29Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T10:48:15Z",
+        "to": "2026-10-07T10:48:45Z"
+      }
+    },
+    {
+      "path": "data/original-pie-channel-reviews.json",
+      "sha256": "767c72151474b8d485c6a5a4d60e486639f80521389fc26096ed138e1fdc3dc0",
+      "records": 9,
+      "event_range": {
+        "from": "2026-06-20T17:11:49Z",
+        "to": "2026-06-21T19:53:35Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T10:49:23Z",
+        "to": "2026-10-07T10:50:05Z"
+      }
+    },
+    {
+      "path": "data/original-postman-echo-reviews.json",
+      "sha256": "a8ff3ae78efe7ef35656bbbefe62b750cb22e616af779a62fd47d18e9099e5bc",
+      "records": 5,
+      "event_range": {
+        "from": "2026-10-04T15:14:24Z",
+        "to": "2026-10-04T15:32:45Z"
+      },
+      "observation_range": {
+        "from": "2026-10-07T10:51:10Z",
+        "to": "2026-10-07T10:51:33Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve public report links, separate event and observation times, report and decoded-text hashes, domain-level network summaries, static operation counts, request-body character counts and one-way channel and response-body hashes. They omit carrier and sink paths, request and response bodies, headers, message content, credentials, submitter addresses and recovered source. A zero archived request-body count means no body was preserved in the scanner record, not necessarily that none was sent. A method, status, shared hash or service name does not authenticate an autonomous participant, task meaning, downstream use or authorization boundary.",
+  "assessed_groups": [
+    {
+      "id": "saved_sink_producer_cursor",
+      "records": 21,
+      "recorded_channel_graph": {
+        "records_with_channel_references": 15,
+        "references": 70,
+        "unique_channel_hashes": 6,
+        "get_references": 63,
+        "unique_get_hashes": 4,
+        "post_references": 7,
+        "unique_post_hashes": 3,
+        "hashes_observed_with_both_get_and_post": 1,
+        "mixed_method_hash": "0784abb80982d0a9635f8745e3850f42b929614130480f7ff1eb915e93a4c2d2"
+      },
+      "mixed_hash_chronology": {
+        "references": 57,
+        "reports": 11,
+        "first_get": {
+          "recorded_at": "2026-10-05T03:09:08.580Z",
+          "status": "200",
+          "response_body_bytes": 156,
+          "response_body_sha256": "31983ecce2d61805df240fe9d7c562fede1bda3b7970a775337767a9ab611e7a"
+        },
+        "posts": {
+          "count": 3,
+          "recorded_from": "2026-10-05T03:14:59.118Z",
+          "recorded_to": "2026-10-05T03:19:15.271Z",
+          "statuses": {
+            "200": 3
+          },
+          "archived_request_body_characters": 0,
+          "response_body_bytes": 0,
+          "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "later_gets": {
+          "count": 53,
+          "recorded_from": "2026-10-05T13:51:53.886Z",
+          "recorded_to": "2026-10-05T14:10:00.935Z",
+          "delay_after_last_post_seconds": 37958.615,
+          "statuses": {
+            "200": 22,
+            "429": 31
+          },
+          "response_body_bytes": 0,
+          "response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "public_scanner_submitter_group_count": 1,
+        "submitter_limit": "All eleven records carry the same public scanner submitter label. The label and submitter addresses are omitted, and a scanner submitter is not necessarily the traffic operator."
+      },
+      "assessment": "The shared hash supplies post-before-later-GET ordering, but the archived record falsifies a transferred task result. The first GET predates every POST and has the only non-empty response on this hash. The three POST request bodies are not preserved. Every one of the 53 later GET responses is explicitly zero bytes, including all 22 successful responses; the remaining 31 are rate-limited. There is therefore no captured artifact for a later recipient to acquire or use. Same-submitter provenance, the known Amap/Alibaba target family and repeated empty requests fit a single test or retry sequence at least as well as multiple autonomous participants.",
+      "classification": "known Amap-family shared endpoint traffic; forward method ordering but no captured material transfer",
+      "participants": "No autonomous sender or recipient is authenticated. Eleven report IDs and varying decoded programs do not establish independent trajectories.",
+      "operator_boundary": "Not established. No primary authorization statement or independently attributable cross-operator exchange is preserved.",
+      "advancement_evidence": "A public producer record must preserve a task-bearing body or a one-way body hash that later appears in a non-empty consumer response, followed by a causally dependent action. Independent public provenance must authenticate distinguishable autonomous participants and an operator-defined authorization boundary."
+    },
+    {
+      "id": "ai_named_submitted_hosts",
+      "records": 5,
+      "submitted_hosts": [
+        "ask-chat.ai",
+        "ativa.ai",
+        "ofox.ai",
+        "quintelier.dev"
+      ],
+      "recorded_channel_graph": {
+        "references": 0,
+        "unique_channel_hashes": 0
+      },
+      "assessment": "The records contain ordinary first-party page/API calls, site assets, analytics, payments and browser service traffic. The two ask-chat.ai records repeat the same designed first-party service footprint. A service name or an OpenAI-owned telemetry hostname does not establish model execution, autonomous participants, provider attribution or inter-agent communication. No decoded source, task/peer language, channel reference or downstream task use is preserved.",
+      "classification": "AI-named public-site controls; no participant or transfer evidence"
+    },
+    {
+      "id": "pie_service_rotation",
+      "records": 9,
+      "recorded_channel_graph": {
+        "references": 1,
+        "unique_channel_hashes": 1,
+        "get_references": 1,
+        "post_references": 0
+      },
+      "assessment": "One older carrier records a successful GET to an alternate public notification service, but the archived response is zero bytes and no write, task semantics or downstream action is present. The other eight records expose the already known AIHW family or a related government-data host without a channel edge. The notification GET is an isolated read control, not a recipient-use chain.",
+      "classification": "isolated empty notification read plus known AIHW controls"
+    },
+    {
+      "id": "postman_echo_rotation",
+      "records": 5,
+      "recorded_channel_graph": {
+        "references": 0,
+        "unique_channel_hashes": 0
+      },
+      "assessment": "Four records expose Amap/Alibaba traffic after the echo redirect; one records only echo and HTTP-test traffic. None contains a channel reference, task/peer language, response-read operation or sender-to-recipient dependency. The unsupported echo carrier therefore adds known-family coverage, not a distinct episode or population.",
+      "classification": "unsupported echo-carrier controls; four known Amap overlaps and one HTTP-test record"
+    }
+  ],
+  "alternatives_tested": [
+    "Single-operator Amap test or retry sequence using one shared endpoint",
+    "Successful HTTP methods without preserved task-bearing request or response bodies",
+    "Rate limiting and empty responses rather than message acquisition",
+    "AI-branded web services and telemetry rather than autonomous identities",
+    "Known AIHW programs under a different public carrier",
+    "Unsupported echo redirects that reveal more known Amap traffic"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 40,
+    "known_published_family_overlap": true,
+    "known_family_overlap_detail": "The 21-record producer cursor and four of five Postman Echo records overlap the known Amap/Alibaba family. Eight Pie records overlap the known AIHW comparison family. The remaining records are controls without an exchange edge.",
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 40 selected report IDs are absent from the pinned comparison release, but exact-ID absence is not novelty. The only new same-hash write/read chronology has no captured material transfer and remains inside the known Amap family; the other rotations supply isolated or ordinary service traffic. No broad prior-reporting search for a purported swarm was run because no qualifying original coordination chain emerged.",
+  "next_cursor": {
+    "reason": "Test a different shared-state hypothesis rather than repeatedly expanding known-target wrappers: inspect the 32 untouched exact-ID comparison absences selected by the saved `api.countapi.xyz` query. Correlate only sanitized endpoint hashes, methods, chronology and archived body sizes. Distinguish ordinary page-view counters and shared service defaults from a task-bearing artifact, and do not invoke the counter service itself.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, select records whose search_queries array contains exactly `api.countapi.xyz`, whose report_url has in_comparison_dataset=false in that comparison file, and whose report_url is absent from every current data/*reviews.json record. At this checkpoint the predicate yields 32 records spanning 2023-11-16T07:46:00Z through 2026-08-21T13:18:00Z.",
+    "records": 32,
+    "advancement_evidence": "A shared counter hash must carry task-relevant state written by one independently attributable autonomous participant, later read and used by another, with primary evidence of an operator-defined boundary and lack of authorization. A common visitor-counter endpoint, counter increment, similar value or cross-site reuse alone is not coordination."
+  }
+}

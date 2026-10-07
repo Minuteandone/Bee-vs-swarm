@@ -1,0 +1,482 @@
+{
+  "collected_at": "2026-10-07T10:50:15Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/c9e96e0b-d107-47cb-a4d0-fbef37e7c88f",
+      "event_at": "2026-06-20T17:11:49Z",
+      "observed_at": "2026-10-07T10:49:23Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "cf19f61409f2cf53491e1c268740c6becb57c49ec60d6268567e27c8e58150bf",
+      "decoded_characters": 503,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "api.microlink.io",
+        "ntfy.envs.net"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9221da85a1829fa0005d9a01b120627ec72d54d8f1d0ba76a705e24804b2d228",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "api.microlink.io",
+        "example.com",
+        "ntfy.envs.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.microlink.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "28effe41e762281e6f403e98f8e9b05a68d4bc3488971b40b0b8b1b79538f557",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T17:11:30.234Z"
+        }
+      ],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/03947389-e53b-437c-85e5-fab3555ec9d0",
+      "event_at": "2026-06-21T18:42:07Z",
+      "observed_at": "2026-10-07T10:49:23Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "91a29d24135541b100a7deaeb6a31371caa3a07b4bace069178b3482e13ff4a5",
+      "decoded_characters": 540,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0a2f6a18c0a4a08731bcb867064be0f59670326c701f31938abc6b633ddfead1",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4bd9fb7f-6345-498c-9415-f4bc87e6e449",
+      "event_at": "2026-06-21T18:42:02Z",
+      "observed_at": "2026-10-07T10:49:34Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "330156f677ec2349cec78336932bc58891ca6d991ca0b206022948c4f09a8e25",
+      "decoded_characters": 546,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d750ef178356011b4eda439b3847e861ae26fc0095bf2a6063496d238ff656e6",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/82523232-06d2-432a-a309-cbdec06a3d3f",
+      "event_at": "2026-06-21T18:42:12Z",
+      "observed_at": "2026-10-07T10:49:34Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "64d29d5afd5b5e8d79e61610b4f8cf8204908acb5653d26dbc7a9c2e96178616",
+      "decoded_characters": 537,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c4e0b489d0de41707f78daed240e36574035c98f3980df25b0deaaa1a3a896cd",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c418ef29-b5bb-4033-876a-68e2b50258e1",
+      "event_at": "2026-06-21T18:42:03Z",
+      "observed_at": "2026-10-07T10:49:44Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "4d50c1738c3b5d10e996e42a7e31defbfc374beb065c46e1e2ea1a969bef71c5",
+      "decoded_characters": 546,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f28d5d0c787eeabe094f242825158dbe27016c933409befffe6bf0d853d90a12",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ccff8ab3-1806-4901-9e66-5018b5f6b25c",
+      "event_at": "2026-06-21T18:42:05Z",
+      "observed_at": "2026-10-07T10:49:44Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "be9ff2caa78774c303095ca3e83748daa2cd32d4c0951c66d11eb142d592cce4",
+      "decoded_characters": 537,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5654f9ed545a2926ced45dafb97aea09ee9959a0cf2a3304141e7197b9e9c57d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f9a48f58-424d-41fe-a58b-ca4433af165c",
+      "event_at": "2026-06-21T18:42:12Z",
+      "observed_at": "2026-10-07T10:49:54Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "4865596afa3e55a840a4f7bd9f5de20d79e011df50a25bb4e9227a5cc01fd2ee",
+      "decoded_characters": 537,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8a32a2b0f18d17d73727f67e23fed9ac6250a7593971d06ab7f268b989c5197f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/05091615-6f4f-4984-a52c-e1d3031abe61",
+      "event_at": "2026-06-21T19:16:30Z",
+      "observed_at": "2026-10-07T10:49:54Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "17349049da6e2fa7cb802e05c297ed8b88b8ef7c241bfbc3339b4df4b18ff521",
+      "decoded_characters": 546,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "90150ea9cfd62ce7cfaf17e40f7f5d62950331bba85049869454c05212db40a2",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/bd8133f2-5369-4a79-a347-b2367c70ab22",
+      "event_at": "2026-06-21T19:53:35Z",
+      "observed_at": "2026-10-07T10:50:05Z",
+      "submitted_host": "pie.dev",
+      "decoded_carrier_host": "pie.dev",
+      "encoding": "base64_path",
+      "decoded_sha256": "96c8717ceed2c16278bb0905a008579b5024bb6b48b08b0b1a5306dcf6f0ba99",
+      "decoded_characters": 1500,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "cdnjs.cloudflare.com",
+        "cloudflare-cors-anywhere.xudaolong.workers.dev",
+        "pie.dev",
+        "pp.aihw.gov.au"
+      ],
+      "features": [
+        "fetch"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e59cf082ea8331e185caaf4c02de0e8e72e3e22ef858866f5b1fad762311c5c5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "cdnjs.cloudflare.com",
+        "cloudflare-cors-anywhere.xudaolong.workers.dev",
+        "pie.dev",
+        "pp.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "pie.dev",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

@@ -127,12 +127,43 @@ def inspect_report(report_url):
                 parsed = urlsplit(raw_ref)
                 # Correlate a channel without publishing its topic or query.
                 normalized = host + parsed.path.rstrip("/")
-                channels.append({
+                channel = {
                     "host": host,
                     "channel_ref_sha256": hashlib.sha256(normalized.encode()).hexdigest(),
                     "recorded_method": method,
                     "recorded_status": status,
-                })
+                }
+                # Preserve only whether the archived request contains a body,
+                # never its value.  Some scanner records omit request bodies,
+                # so zero means "not preserved here", not necessarily "none
+                # was sent".
+                request_raw = recorded.get("request", {}).get("raw")
+                if isinstance(request_raw, str):
+                    parts = re.split(r"\r?\n\r?\n", request_raw, maxsplit=1)
+                    channel["recorded_request_body_characters"] = (
+                        len(parts[1]) if len(parts) == 2 else 0
+                    )
+                # Reuse the scanner's one-way response-body digest and size;
+                # omit response content and all headers.  These fields can
+                # falsify a claimed transfer when the archived response body
+                # is explicitly empty, but cannot prove semantic use.
+                response_data = recorded.get("response", {}).get("data")
+                if isinstance(response_data, dict):
+                    response_size = response_data.get("size")
+                    if isinstance(response_size, int) and response_size >= 0:
+                        channel["recorded_response_body_bytes"] = response_size
+                    response_sha256 = response_data.get("sha256")
+                    if isinstance(response_sha256, str) and re.fullmatch(
+                        r"[0-9a-fA-F]{64}", response_sha256
+                    ):
+                        channel["recorded_response_body_sha256"] = response_sha256.lower()
+                recorded_at = recorded.get("date")
+                if isinstance(recorded_at, str) and re.fullmatch(
+                    r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,9})?Z",
+                    recorded_at,
+                ):
+                    channel["recorded_at"] = recorded_at
+                channels.append(channel)
         result["recorded_network_summary"] = [
             {"host": key[0], "method": key[1], "status": key[2], "count": value}
             for key, value in sorted(network.items())

@@ -24,9 +24,14 @@ class BacklogReviewTests(unittest.TestCase):
         submitted = "https://httpbin.org/base64/" + base64.b64encode(source.encode()).decode()
         data = {
             "date": "2026-10-05T17:05:32Z", "submit": {"url": {"addr": submitted}},
-            "http": [{"url": {"fqdn": "ntfy.sh", "addr": "https://ntfy.sh/DO_NOT_EXPORT_TOPIC"},
-                      "request": {"method": "POST", "raw": "DO_NOT_EXPORT_SECRET"},
-                      "response": {"status_code": 200, "data": "DO_NOT_EXPORT_RESPONSE"}}],
+            "http": [{"date": "2026-10-05T17:05:31.123Z",
+                      "url": {"fqdn": "ntfy.sh", "addr": "https://ntfy.sh/DO_NOT_EXPORT_TOPIC"},
+                      "request": {"method": "POST", "raw": "X-Test: DO_NOT_EXPORT_SECRET\r\n\r\nDO_NOT_EXPORT_BODY"},
+                      "response": {"status_code": 200, "data": {
+                          "size": 0,
+                          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "data": "DO_NOT_EXPORT_RESPONSE",
+                      }}}],
         }
         with patch("review_backlog.build_opener") as opener:
             opener.return_value.open.return_value = io.BytesIO(json.dumps(data).encode())
@@ -39,6 +44,13 @@ class BacklogReviewTests(unittest.TestCase):
         self.assertEqual(result["static_operation_counts"]["explicit_post_methods"], 1)
         self.assertEqual(result["recorded_network_summary"][0]["host"], "ntfy.sh")
         self.assertEqual(len(result["recorded_channel_references"][0]["channel_ref_sha256"]), 64)
+        self.assertEqual(result["recorded_channel_references"][0]["recorded_at"], "2026-10-05T17:05:31.123Z")
+        self.assertEqual(result["recorded_channel_references"][0]["recorded_request_body_characters"], 18)
+        self.assertEqual(result["recorded_channel_references"][0]["recorded_response_body_bytes"], 0)
+        self.assertEqual(
+            result["recorded_channel_references"][0]["recorded_response_body_sha256"],
+            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        )
         opener.return_value.open.assert_called_once()
         self.assertTrue(opener.return_value.open.call_args.args[0].full_url.endswith("/json"))
 

@@ -1268,6 +1268,30 @@
       "event_at": "2026-05-16T07:08:41Z",
       "observed_at": "2026-10-07T16:21:26Z",
       "report_json_sha256": "bac0ddd13a02cb4c793aa116e7d71fe0344fb35369f478767f39a7a588d1195a"
+    },
+    {
+      "id": "original-claude-cursor-mindaptive-redirect-control",
+      "url": "https://urlquery.net/report/242bc2aa-cfec-4f8e-9699-ba08f7f2d0b5",
+      "role": "First representative of a three-record related-domain cluster; one submitted alias redirects into the same public Mindaptive marketing deployment without a task-result transfer",
+      "event_at": "2026-10-04T14:04:43Z",
+      "observed_at": "2026-10-07T20:52:12Z",
+      "report_json_sha256": "c23f46bc7028a8fda18c325e57c753107314cddd267f161a77c5ee5a696ef29e"
+    },
+    {
+      "id": "original-claude-cursor-mindaptive-team-control",
+      "url": "https://urlquery.net/report/eae5d6b2-e825-40b1-8fd5-349a3368d859",
+      "role": "Later related-domain redirect in the Mindaptive cluster; it repeats the same marketing, font and tag-manager footprint but preserves no acquisition or downstream use",
+      "event_at": "2026-10-04T14:34:14Z",
+      "observed_at": "2026-10-07T20:52:18Z",
+      "report_json_sha256": "747cca96e49fc015b6fab1529e7d8b6259540414aa333b2adb8a413eccdbef95"
+    },
+    {
+      "id": "original-claude-cursor-designed-audit-control",
+      "url": "https://urlquery.net/report/f4297eec-4534-4c57-8f08-20e3d98cd9b7",
+      "role": "Representative intentionally designed public audit application; first-party application/backend traffic and one provider asset proxy do not establish autonomous model execution or a foreign-result dependency",
+      "event_at": "2026-10-05T11:59:26Z",
+      "observed_at": "2026-10-07T20:53:03Z",
+      "report_json_sha256": "434491eb3ea14f34ede196f06dee6edd77559dd31801436d11ad0047c6a3d9f3"
     }
   ]
 }

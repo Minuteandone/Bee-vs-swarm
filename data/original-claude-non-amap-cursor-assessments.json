@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T20:55:40Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 21,
+    "successful_original_reads": 21,
+    "selected_exact_id_comparison_absences": 21,
+    "distinct_submitted_hosts": 21,
+    "mindaptive_redirect_cluster_records": 3,
+    "model_or_agent_named_site_controls": 5,
+    "ordinary_public_site_controls": 13,
+    "cumulative_inspected_unique_urlquery_reports": 351,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 795,
+    "remaining_uninspected_comparison_absences": 436,
+    "prior_read_failures_retained_as_cursors": 4,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact 21-record cursor saved by the prior assessment: every untouched exact-ID comparison absence selected by the saved `claude` query after excluding submitted and referenced Amap hosts. This is bounded original-record coverage, not participant attribution, a census or a novelty claim.",
+  "snapshot": {
+    "path": "data/original-claude-non-amap-cursor-reviews.json",
+    "sha256": "36c637be0053515f0d90fe4cb6c1f27c849ddcbe9749aca28ea4677f5909443a",
+    "records": 21,
+    "event_range": {
+      "from": "2026-10-04T11:02:41Z",
+      "to": "2026-10-05T17:03:21Z"
+    },
+    "observation_range": {
+      "from": "2026-10-07T20:51:41Z",
+      "to": "2026-10-07T20:53:10Z"
+    }
+  },
+  "snapshot_limitations": "The sanitized snapshot preserves original public report links, separate event and observation times, report hashes, domain-level traffic and bounded static-operation counts. It omits submitted paths, query values, request and response bodies, headers, credentials, submitter addresses, titles and recovered source. Listing-query membership is a locator cue; the report structure does not authenticate a browser as an autonomous participant or establish why a term was indexed.",
+  "assessed_groups": [
+    {
+      "id": "mindaptive_related_domain_redirects",
+      "records": 3,
+      "submitted_hosts": [
+        "mindaptivebrain.com",
+        "myndaptive.com",
+        "mindaptive-team.com"
+      ],
+      "event_chronology": "The first two captures are five seconds apart at 14:04:43Z and 14:04:48Z; the third is 29 minutes 26 seconds later at 14:34:14Z on 4 October 2026.",
+      "recorded_traffic": "Each submitted domain returns one 301 or 302 and then loads twelve successful GETs from the same Mindaptive marketing domain or its www form, plus the same Google font and tag-manager assets.",
+      "assessment": "This is the strongest temporal and semantic relationship in the batch, but it is a related-domain redirect cluster rather than a result handoff. The records preserve no POST, channel, shared state, task-bearing response, response-read operation or later action that uses material from another record. Closely timed scans, related aliases and a shared site deployment explain the pattern without multiple autonomous participants.",
+      "classification": "related-domain redirects and shared marketing deployment; no sender-to-recipient dependency",
+      "participants": "No autonomous sender or recipient is authenticated. Three domain names and three scanner captures are not three agents.",
+      "operator_boundary": "Not established; no operator, authorization rule or beyond-scope action appears."
+    },
+    {
+      "id": "model_or_agent_named_site_controls",
+      "records": 5,
+      "submitted_hosts": [
+        "a-i101.com",
+        "freegpt.tech",
+        "agents101.cc",
+        "screamingfrog-audits.com",
+        "knwn.app"
+      ],
+      "assessment": "The records resolve to one parked domain and four intentionally designed public applications or sites. Traffic is first-party page/API activity, hosting assets, a public application backend, marketing analytics or common browser infrastructure. One page loads an Anthropic asset-proxy host and another loads an AI-branded marketing resource, but infrastructure names do not authenticate model execution or distinct participants. No record supplies a foreign result that another record or actor later uses.",
+      "classification": "parked-domain and designed-service controls; no task transfer or recipient use"
+    },
+    {
+      "id": "ordinary_site_and_browser_infrastructure_controls",
+      "records": 13,
+      "decoded_records": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "response_read_operations": 0,
+      "records_with_non_get_traffic": 10,
+      "assessment": "The remaining records are ordinary retail, consulting, health, education, events, customer-software and other public sites. Shared hosts are generic fonts, tag management, translation, hosting, consent, support and analytics services rather than a peer channel. Attio's capture includes OpenAI-owned browser telemetry and CDN traffic, but that attributes infrastructure only; it does not identify a model, a task sender or a recipient. Recorded POST and OPTIONS statuses are first-party form/API or telemetry metadata with no preserved task semantics or demonstrated downstream use.",
+      "classification": "ordinary-web and shared-infrastructure keyword controls"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "records": 21,
+      "decoded_records": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "response_read_operations": 0,
+      "static_task_or_peer_words": 0,
+      "assessment": "No original record preserves a specific task result or instruction, a sender-to-recipient locator, a recipient response read, or an action causally dependent on another participant's work. Cross-record overlap is limited to related-domain redirects and commodity web infrastructure. The saved search term therefore does not survive an original-record transfer/use test.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "alternatives_tested": [
+    "Related domains redirecting to one public marketing deployment",
+    "One operator's site aliases, revisions or closely timed scanner submissions",
+    "Intentionally designed AI-branded products and public applications",
+    "Parked-domain service traffic",
+    "First-party forms and application APIs",
+    "Common browser, analytics, consent, translation, support and hosting infrastructure",
+    "Search-index collision on model or agent language"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 21,
+    "known_published_family_overlap": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "OpenAI and Anthropic infrastructure domains occur in individual browser captures, but no model or participant is attributed",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 21 selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. The original records do not preserve a transfer-and-use chain, so no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous sender and task-bearing result or instruction, a distinguishable recipient that successfully acquires and causally uses it, and primary provenance showing that the exchange exceeded an operator-defined authorization boundary. Related domain names, provider-owned infrastructure, successful POSTs and shared libraries do not qualify.",
+  "next_cursor": {
+    "reason": "Rotate away from model-name locator collisions into a browser-write primitive while treating ordinary analytics and telemetry as the leading alternative.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, select records whose search_queries array contains `sendBeacon`, whose report_url has in_comparison_dataset=false in that comparison file, and whose report_url is absent from every successful current data/*reviews.json record. At this checkpoint the predicate yields 24 records spanning 2026-10-01T15:17:00Z through 2026-10-05T17:07:00Z.",
+    "records": 24,
+    "advancement_evidence": "A beacon record advances only if the existing public report preserves task-bearing material from an independently attributable autonomous sender, later acquisition and causal use by a distinguishable autonomous recipient, and primary evidence of an unauthorized operator-boundary crossing. The presence of sendBeacon, a POST status or telemetry infrastructure alone does not qualify."
+  }
+}

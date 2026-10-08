@@ -1,0 +1,94 @@
+{
+  "collected_at": "2026-10-08T10:17:24Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/a0005b51-6b14-474d-b82f-345bb984e870",
+      "event_at": "2026-10-05T16:01:15Z",
+      "observed_at": "2026-10-08T10:17:17Z",
+      "submitted_host": "www.garagebbq.xyz",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "75d4ce92d40e943199c89e885a80aff52a2f3d7da34f1a51be7501e5e6dd85ff",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "brunhild.challenges.cloudflare.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "challenges.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "challenges.cloudflare.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "challenges.cloudflare.com",
+          "method": "POST",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "sedo.com",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "sedo.com",
+          "method": "GET",
+          "status": "403",
+          "count": 3
+        },
+        {
+          "host": "sedo.com",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.garagebbq.xyz",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

@@ -1457,6 +1457,46 @@
       "event_at": "2026-10-01T15:17:30Z",
       "observed_at": "2026-10-08T09:16:03Z",
       "report_json_sha256": "39ea99052759d7aea68a7de98cccb8c127ff0e0a9143e23b7ec6a92fff8024b3"
+    },
+    {
+      "id": "original-cohort-keyword-control",
+      "url": "https://urlquery.net/report/31ac498b-9df5-48ab-8782-513ed77702bf",
+      "role": "Representative non-platform cohort-query remainder resolving to an ordinary job-listing page and analytics without task or participant structure",
+      "event_at": "2026-10-05T17:39:40Z",
+      "observed_at": "2026-10-08T10:09:26Z",
+      "report_json_sha256": "5b0858b06cbeb5058ff332788bd3f10db50183e63c8d7d58c5fe2e86483bb2be"
+    },
+    {
+      "id": "original-openai-query-measurement-control",
+      "url": "https://urlquery.net/report/ec966c21-d962-4baa-870c-0fae09a664f0",
+      "role": "Representative ordinary commercial page from the complete provider-name slice, loading documented advertising-measurement hosts without model or task activity",
+      "event_at": "2026-10-04T20:30:24Z",
+      "observed_at": "2026-10-08T10:13:12Z",
+      "report_json_sha256": "6634595e5d03e59352350eb75c82683f15cd9df9c705ada7e1c3f65a01952e53"
+    },
+    {
+      "id": "original-provider-site-redirect-control",
+      "url": "https://urlquery.net/report/06393a8d-be4e-426e-a37b-d92769608c47",
+      "role": "Provider-name query record redirecting into an OpenAI-themed site and public provider assets; no model execution, sender or downstream recipient use",
+      "event_at": "2026-10-05T03:07:15Z",
+      "observed_at": "2026-10-08T10:13:31Z",
+      "report_json_sha256": "b78821a6f08d808a94daa5e494404990c7b27e9d2f356540ebb63de3a5dddedc"
+    },
+    {
+      "id": "original-oai-parked-domain-control",
+      "url": "https://urlquery.net/report/a0005b51-6b14-474d-b82f-345bb984e870",
+      "role": "Sole remaining OAI-only listing match resolving to parked-domain and challenge traffic without provider infrastructure or task structure",
+      "event_at": "2026-10-05T16:01:15Z",
+      "observed_at": "2026-10-08T10:17:17Z",
+      "report_json_sha256": "75d4ce92d40e943199c89e885a80aff52a2f3d7da34f1a51be7501e5e6dd85ff"
+    },
+    {
+      "id": "original-known-hash-amap-wrapper-control",
+      "url": "https://urlquery.net/report/4ad67106-4dd4-4996-a9ca-4224e89afa9f",
+      "role": "Representative reused decoded hash whose original report exposes Amap, Alibaba and HTTP-test references but no response-read or task operation",
+      "event_at": "2026-10-04T15:33:23Z",
+      "observed_at": "2026-10-08T10:18:38Z",
+      "report_json_sha256": "41c08cf88b5d74bb0a8f455e5dd16b4fe525dfcdf43e9c36189c1b1d2bd8c86b"
     }
   ]
 }

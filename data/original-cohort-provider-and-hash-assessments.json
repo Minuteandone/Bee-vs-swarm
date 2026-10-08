@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-08T10:20:20Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 42,
+    "successful_original_reads": 42,
+    "selected_exact_id_comparison_absences": 42,
+    "cohort_remainder_records": 3,
+    "openai_query_records": 35,
+    "oai_only_remainder_records": 1,
+    "known_hash_reuse_records": 3,
+    "cumulative_inspected_unique_urlquery_reports": 485,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 661,
+    "remaining_uninspected_comparison_absences": 302,
+    "read_failures_retained_as_cursors": 0,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact three-record non-platform `cohort` cursor, then inspected every still-uninspected exact-ID comparison absence in the saved `openai` listing family and the sole remaining `oai`-only match. A cross-snapshot hash join then selected the only three untouched comparison absences whose decoded hashes matched already inspected artifacts without listing-visible known-family domains. The original reads exposed known Amap references in all three. This is bounded original-record coverage, not participant attribution or a novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-cohort-remainder-reviews.json",
+      "sha256": "0afd51f0c2559c4080ca3cba414001ecb08992a79e66ca604a59cd8a0d71a083",
+      "records": 3,
+      "successful_records": 3,
+      "event_range": {"from": "2026-10-05T17:34:28Z", "to": "2026-10-05T17:50:28Z"},
+      "observation_range": {"from": "2026-10-08T10:09:26Z", "to": "2026-10-08T10:09:37Z"}
+    },
+    {
+      "path": "data/original-openai-query-cursor-a-reviews.json",
+      "sha256": "75d0e600d5f02ae7d93df2064ff680bbb7255c66628cd99af7a777e5775ae439",
+      "records": 8,
+      "successful_records": 8,
+      "event_range": {"from": "2026-10-04T20:30:24Z", "to": "2026-10-05T03:07:15Z"},
+      "observation_range": {"from": "2026-10-08T10:13:12Z", "to": "2026-10-08T10:13:31Z"}
+    },
+    {
+      "path": "data/original-openai-query-cursor-b-reviews.json",
+      "sha256": "f0d39d8f7d9ffc6b282120fa000f26e731196d56fa66f19f00d1d0ef0c201bc9",
+      "records": 27,
+      "successful_records": 27,
+      "event_range": {"from": "2026-10-05T05:11:26Z", "to": "2026-10-05T18:11:24Z"},
+      "observation_range": {"from": "2026-10-08T10:14:28Z", "to": "2026-10-08T10:16:29Z"}
+    },
+    {
+      "path": "data/original-oai-remainder-reviews.json",
+      "sha256": "05ed3eccf0d0c3c1a7a0cc40c96091a409554c1168c4db4cd1f9b8f5ab086728",
+      "records": 1,
+      "successful_records": 1,
+      "event_range": {"from": "2026-10-05T16:01:15Z", "to": "2026-10-05T16:01:15Z"},
+      "observation_range": {"from": "2026-10-08T10:17:17Z", "to": "2026-10-08T10:17:17Z"}
+    },
+    {
+      "path": "data/original-known-hash-reuse-reviews.json",
+      "sha256": "b42f090590bad346c0f8f3aff7544da275b1942e1c04642de3018e38d8a71122",
+      "records": 3,
+      "successful_records": 3,
+      "event_range": {"from": "2026-10-04T15:33:23Z", "to": "2026-10-05T13:42:42Z"},
+      "observation_range": {"from": "2026-10-08T10:18:38Z", "to": "2026-10-08T10:18:43Z"}
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve original public report links, separate event and observation times, original-report hashes, decoded-artifact hashes, domain-level traffic and bounded static-operation counts. They omit submitted paths and query values, request and response bodies, headers, submitter identifiers and recovered source. A shared hash, provider-owned hostname or successful POST does not authenticate an autonomous participant or establish task-result use.",
+  "assessed_groups_overlap": false,
+  "assessed_groups": [
+    {
+      "id": "cohort_keyword_remainder",
+      "report_urls": [
+        "https://urlquery.net/report/31ac498b-9df5-48ab-8782-513ed77702bf",
+        "https://urlquery.net/report/3dcac8f3-0287-47bd-a14e-ed2b6227b9d6",
+        "https://urlquery.net/report/d823197c-bcf8-49d3-be34-2d3b4ccf1d7b"
+      ],
+      "assessment": "The three non-Appwrite/non-Facebook matches are an ordinary job-listing page with analytics, a Shopify storefront with platform telemetry, and an event site redirecting into Cvent assets. All have zero decoded characters, static fetch/XHR/socket/response-read/task-peer operations, channel references and state references. The saved listing term was only a text locator; it did not identify a shared cohort.",
+      "classification": "three ordinary-web keyword collisions; no sender, recipient or task artifact"
+    },
+    {
+      "id": "openai_listing_family",
+      "records": 35,
+      "report_urls_are_preserved_in": [
+        "data/original-openai-query-cursor-a-reviews.json",
+        "data/original-openai-query-cursor-b-reviews.json"
+      ],
+      "measurement_pixel_complete_pair_records": 31,
+      "measurement_pixel_partial_record": 1,
+      "provider_site_redirect_record": 1,
+      "provider_host_absent_keyword_collisions": 2,
+      "assessment": "Thirty-one unrelated commercial pages contain both the documented advertising-measurement script and event hosts; one additional storefront records only the event POST, consistent with a partial or cached pixel load. One redirect record loads an OpenAI-themed site and public OpenAI/ChatGPT assets. Two records contain no provider host at all. Across all thirty-five records there is no decoded carrier, static task/peer or response-read operation, channel, shared state or source-level transfer edge. Provider infrastructure is visible, but provider model execution is not.",
+      "classification": "advertising-measurement, public-site and keyword-collision controls; not model activity"
+    },
+    {
+      "id": "oai_only_remainder",
+      "report_urls": [
+        "https://urlquery.net/report/a0005b51-6b14-474d-b82f-345bb984e870"
+      ],
+      "assessment": "The sole `oai`-only remainder redirects to a parked-domain marketplace and Cloudflare challenge traffic. It contains no provider hostname, decoded artifact, task operation, channel or state reference.",
+      "classification": "parked-domain substring collision"
+    },
+    {
+      "id": "known_hash_reuse_audit",
+      "new_report_urls": [
+        "https://urlquery.net/report/4ad67106-4dd4-4996-a9ca-4224e89afa9f",
+        "https://urlquery.net/report/ec1618ad-b37a-4649-9156-3917d315f684",
+        "https://urlquery.net/report/105ebe34-79c3-4a90-81a9-31c036ef7b2c"
+      ],
+      "previously_inspected_matching_report_urls": [
+        "https://urlquery.net/report/187e4c8e-9744-43e7-80d2-f893f7bdefd3",
+        "https://urlquery.net/report/35ec9f6d-cfcf-4095-9949-d917653b933e"
+      ],
+      "decoded_hash_groups": 2,
+      "group_sizes_including_prior_inspections": [3, 2],
+      "assessment": "The two short artifacts were reused across HTTP-test carriers, but enhanced submitted-reference extraction exposes Amap, Alibaba or related proxy references in every newly inspected record. The matching captures contain zero static fetch, XHR, socket, response-read or task/peer operations in the decoded artifacts; some captures execute only the carrier request while others reach the already excluded Amap/Alibaba footprint. Artifact equality therefore reflects wrapper reuse within a known family, not a demonstrated sender-to-recipient task handoff.",
+      "classification": "known Amap-family wrapper reuse; not a distinct population or new coordination episode"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "successful_records": 42,
+      "decoded_records": 3,
+      "static_fetch_calls": 0,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_response_reads": 0,
+      "static_task_or_peer_words": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "No record preserves a task-bearing artifact from an independently attributable autonomous sender that a later distinguishable autonomous recipient acquires and causally uses. The strongest cross-record link is identical tiny wrapper text already tied to the excluded Amap family. No operator-boundary evidence survives inspection.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "raw_artifact_locator_searches": {
+    "checked_at": "2026-10-08T10:20:20Z",
+    "method": "Global GitHub default-branch file search used only to locate committed event artifacts; no repository code, test or agent runtime was executed.",
+    "queries": [
+      {"query": "from_agent_id to_agent_id task_result", "returned_excerpts": 20},
+      {"query": "sender_agent recipient_agent result transcript", "returned_excerpts": 20},
+      {"query": "agent_message task_result conversation_id", "returned_excerpts": 20},
+      {"query": "delegated_by completed_by downstream_used", "returned_excerpts": 0}
+    ],
+    "assessment": "The sixty returned excerpts are implementation code, schemas, protocol definitions, documentation, examples, fixtures or synthetic tests for intentional agent systems. None is a committed real-run sender-to-recipient event record with observable downstream use, so no excerpt was promoted as evidence or subjected to a novelty claim. This is a bounded locator result, not proof that no such artifact exists elsewhere."
+  },
+  "alternatives_tested": [
+    "Ordinary web pages matching a coordination keyword",
+    "OpenAI advertising-measurement traffic mistaken for model execution",
+    "Public provider-site assets mistaken for an autonomous participant",
+    "Provider-name substring collisions and parked domains",
+    "Identical wrapper text mistaken for task-result transfer",
+    "Known Amap/Alibaba activity behind HTTP-test carriers",
+    "Framework code, schemas, examples and synthetic tests mistaken for real-run exchange records"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 42,
+    "previously_published_episode": "No qualifying episode was developed. Three reused artifacts resolve into the already excluded Amap family; the provider-domain records reproduce documented advertising-measurement or public-site controls.",
+    "known_published_family_overlap": "Amap/Alibaba wrapper reuse plus the previously documented OpenAI advertising-measurement control",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established for any AI participant",
+    "provider_attribution": "OpenAI advertising and public-site infrastructure is visible, but no provider-model execution or autonomous AI participant is established",
+    "ongoing_activity": "not established; historical scanner traffic does not prove current operation and no live destination was contacted",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All forty-two selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. The Amap and provider-measurement records match existing exclusions or controls. Because no AI transfer-and-use chain exists in the other records, no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous AI sender and task-bearing result or instruction, a distinguishable recipient that later acquires and causally uses it, and primary provenance showing that the cooperation exceeded an operator-defined authorization boundary. A provider hostname, repeated hash, redirect, POST status, scanner label or exact-ID comparison absence does not qualify.",
+  "next_cursor": {
+    "reason": "The saved `cohort`, `openai` and `oai` comparison-absence slices are exhausted, and the only non-listing-visible known-hash reuse candidates resolved into the Amap exclusion. Rotate to a small untouched no-decode set of legacy HTTP-service and LiveCodes host variants to test redirect, frame and duplicate-capture alternatives without reopening decoded known-family programs.",
+    "exact_selection": "Within the seven listing snapshots named by data/novelty-comparison-followup.json, select report_url values with in_comparison_dataset=false, absent from the successful-inspection set, lacking decoded_sha256, and submitted_host exactly one of `httpbin.kennethreitz.org`, `httpbun.com.`, `www.livecodes.io` or `livecodes-sandbox.pages.dev`. At this checkpoint the predicate yields exactly nine records.",
+    "records": 9,
+    "report_urls": [
+      "https://urlquery.net/report/3e12f0cb-c3cd-456e-82bc-c81fc5165ba6",
+      "https://urlquery.net/report/b0eab4fa-c838-4f61-a3a6-4235cc72a017",
+      "https://urlquery.net/report/a3e82f53-7522-45db-a4a2-16818c3933c9",
+      "https://urlquery.net/report/5635e983-87b8-4bc3-a4fe-5e40a4de2335",
+      "https://urlquery.net/report/67e33c16-4c6a-4fa6-a2a9-4292d476f59f",
+      "https://urlquery.net/report/ecd9ac5c-2e0e-4aca-bb4b-d066b1b8aa89",
+      "https://urlquery.net/report/dc2a8ecf-24d7-42df-8868-4350d0c1e3a7",
+      "https://urlquery.net/report/88e744c0-dbd9-4aaf-902c-6c0ce53689a3",
+      "https://urlquery.net/report/760fff9d-cda8-41ce-9ef4-03f495738da0"
+    ],
+    "listing_level_limit": "The selection is a bounded gap cursor, not evidence of agent identity, relatedness, maliciousness, a transfer edge or novelty. LiveCodes is an intentional sandbox and HTTP services are test infrastructure unless original records show otherwise.",
+    "advancement_evidence": "A record advances only if its existing public report JSON preserves a task-bearing artifact from an independently attributable autonomous AI sender, a distinguishable recipient acquisition and dependent action, and primary evidence that the cooperation crossed authorization. Redirects, frames, repeated assets and test-service traffic do not qualify by themselves."
+  },
+  "safety": "Only existing public scanner report JSON and public default-branch GitHub search excerpts were read. No carrier, referenced destination, live target, recovered code, response body, payload, package, scan, runtime, account, authentication route, message, vote or participant contact was opened, invoked, executed, submitted or replayed. Publication omits raw carrier and request URLs, paths, query values, bodies, headers, credentials, submitter identifiers, personal addresses and private logs."
+}

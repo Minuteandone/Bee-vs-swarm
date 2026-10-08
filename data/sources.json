@@ -1417,6 +1417,46 @@
       "url": "https://developers.openai.com/ads/measurement-pixel",
       "role": "First-party documentation attributing the provider CDN and event endpoints in the Lorari records to advertising measurement, not model execution",
       "observed_at": "2026-10-08T04:39:00Z"
+    },
+    {
+      "id": "original-repeated-page-control",
+      "url": "https://urlquery.net/report/9ce58940-6716-4f30-a803-6161368fb807",
+      "role": "Representative repeated first-party page capture; later records reuse stable routes and response hashes but preserve no request body, task artifact or recipient use",
+      "event_at": "2026-08-06T12:36:13Z",
+      "observed_at": "2026-10-08T04:50:54Z",
+      "report_json_sha256": "f1748dfd5d631462c936fcbfac65325194b68729d9eab3131686306f402a80ff"
+    },
+    {
+      "id": "original-redirector-duplicate-control",
+      "url": "https://urlquery.net/report/cb17fc14-f086-4f2c-82f4-89113b441aa2",
+      "role": "Later redirector capture exactly repeating the prior day's network multiset, route set and response-hash set; no task-bearing transfer",
+      "event_at": "2026-09-15T05:46:51Z",
+      "observed_at": "2026-10-08T04:51:14Z",
+      "report_json_sha256": "2dae0f80f3040e36273b0f0062178677a69f0ef468c1a77aa7547bf7fe234456"
+    },
+    {
+      "id": "original-amap-shortener-wrapper-control",
+      "url": "https://urlquery.net/report/e4c6b3af-402e-4d36-93f6-8e0613add03f",
+      "role": "Representative shortener wrapper resolving to the already excluded Amap/Alibaba footprint; no separate participant or result use",
+      "event_at": "2026-10-04T17:16:15Z",
+      "observed_at": "2026-10-08T05:00:19Z",
+      "report_json_sha256": "98dbd090383afd8a5d1ede79999caa130c14647e0f69cd40a26873a1f2bdc2a6"
+    },
+    {
+      "id": "original-appwrite-read-failure-resolved-control",
+      "url": "https://urlquery.net/report/cd44743f-1e42-4487-81c1-13aeeacdfdf6",
+      "role": "Formerly unreadable official-named Appwrite deployment now reproducing the shared Appwrite/Statsig frontend shell and denied API read without a task transfer",
+      "event_at": "2026-05-20T09:01:40Z",
+      "observed_at": "2026-10-08T09:15:48Z",
+      "report_json_sha256": "260621c61884cf04b7a1785195e6a7e525cee249c56ea08aadde5a750c953bcf"
+    },
+    {
+      "id": "original-browser-write-failure-resolved-control",
+      "url": "https://urlquery.net/report/5aee9f26-2f14-4a3a-a42a-d56b6ed33504",
+      "role": "Formerly timed-out security-wrapper redirect into ordinary site and X traffic; the recorded X API write is denied and no recipient use is preserved",
+      "event_at": "2026-10-01T15:17:30Z",
+      "observed_at": "2026-10-08T09:16:03Z",
+      "report_json_sha256": "39ea99052759d7aea68a7de98cccb8c127ff0e0a9143e23b7ec6a92fff8024b3"
     }
   ]
 }

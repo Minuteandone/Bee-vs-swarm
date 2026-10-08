@@ -1,0 +1,850 @@
+{
+  "collected_at": "2026-10-08T04:51:25Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/9ce58940-6716-4f30-a803-6161368fb807",
+      "event_at": "2026-08-06T12:36:13Z",
+      "observed_at": "2026-10-08T04:50:54Z",
+      "submitted_host": "service-xoom-be.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f1748dfd5d631462c936fcbfac65325194b68729d9eab3131686306f402a80ff",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/43ac1573-21ae-4671-bd0f-54feb64ea866",
+      "event_at": "2026-08-06T15:55:43Z",
+      "observed_at": "2026-10-08T04:50:54Z",
+      "submitted_host": "service-xoom-be.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3bb23d9de58edff2c36fb647c5df74aad3df7c157dc6073bda562bf8086a3727",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/195b083f-74f2-4378-8222-240415ce1984",
+      "event_at": "2026-08-06T23:01:07Z",
+      "observed_at": "2026-10-08T04:51:00Z",
+      "submitted_host": "service-xoom-be.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "dadb0a165fcb78333fbb66d7ae968c664dbe8a191d4063964adc338870b7669e",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "service-xoom-be.com",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/17cf425e-37d7-41ff-8556-2ba3bebd9f37",
+      "event_at": "2026-08-06T15:33:17Z",
+      "observed_at": "2026-10-08T04:51:00Z",
+      "submitted_host": "dmv-ca.gnewia.shop",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f151f1f7d1936804d144c5b8f35874c5ae4868de4a5ded33caff97336f826f58",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "404",
+          "count": 9
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "503",
+          "count": 1
+        },
+        {
+          "host": "ip-api.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "ipapi.co",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "unpkg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6c18288b-0172-4eca-a80e-23edb9a96cc0",
+      "event_at": "2026-08-06T18:06:31Z",
+      "observed_at": "2026-10-08T04:51:04Z",
+      "submitted_host": "dmv-ca.gnewia.shop",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "549baddc69a1ef9f895448c1325c07b0a9386323987a80a0ab5be91485a6d804",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "404",
+          "count": 9
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ip-api.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "ipapi.co",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "unpkg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/54ff6ba0-6197-4b01-ac54-a99f18d076ac",
+      "event_at": "2026-08-06T22:39:06Z",
+      "observed_at": "2026-10-08T04:51:04Z",
+      "submitted_host": "dmv-ca.gnewia.shop",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "af38c103c75080aa307ed0b428d4e9aa9bb7a30ef7840ec382bff3cce4f8d013",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "404",
+          "count": 8
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "dmv-ca.gnewia.shop",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ip-api.com",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "ipapi.co",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "unpkg.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0e15618c-0a7c-4f3f-b62c-e038092b1c18",
+      "event_at": "2026-09-04T09:26:11Z",
+      "observed_at": "2026-10-08T04:51:10Z",
+      "submitted_host": "web.vaughanchamber.ca",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5ef70d5483eac8ecb0668359aa448f8c0947c7dda23cdc908b167b9ad322b7e8",
+      "submitted_reference_domains": [
+        "httpbin.org",
+        "www.leonardcheshire.org.zw"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "web.vaughanchamber.ca",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.leonardcheshire.org.zw",
+          "method": "GET",
+          "status": "200",
+          "count": 119
+        },
+        {
+          "host": "www.leonardcheshire.org.zw",
+          "method": "GET",
+          "status": "302",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/95ad4a10-45ca-4072-a56a-314228ee9749",
+      "event_at": "2026-09-14T11:42:26Z",
+      "observed_at": "2026-10-08T04:51:11Z",
+      "submitted_host": "web.vaughanchamber.ca",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "7f1a5305a34a649341811d8194f0bd39e9a5cf4c7737c17ccfde7ad235933087",
+      "submitted_reference_domains": [
+        "httpbin.org",
+        "molcajeteradio.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "molcajeteradio.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "molcajeteradio.com",
+          "method": "GET",
+          "status": "302",
+          "count": 2
+        },
+        {
+          "host": "web.vaughanchamber.ca",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/cb17fc14-f086-4f2c-82f4-89113b441aa2",
+      "event_at": "2026-09-15T05:46:51Z",
+      "observed_at": "2026-10-08T04:51:14Z",
+      "submitted_host": "web.vaughanchamber.ca",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2dae0f80f3040e36273b0f0062178677a69f0ef468c1a77aa7547bf7fe234456",
+      "submitted_reference_domains": [
+        "httpbin.org",
+        "molcajeteradio.com"
+      ],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "molcajeteradio.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "molcajeteradio.com",
+          "method": "GET",
+          "status": "302",
+          "count": 2
+        },
+        {
+          "host": "web.vaughanchamber.ca",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2f9d2aef-d2fe-4c04-97e9-e905c95e5206",
+      "event_at": "2026-09-19T02:14:46Z",
+      "observed_at": "2026-10-08T04:51:15Z",
+      "submitted_host": "www.iziko.fr",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "841ba80a53337f42e96f47ca347423b4f17cf246433482c0af02de7a70a52b20",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.iziko.fr",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "www.iziko.fr",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/00382c14-e4be-4dfd-ace0-106833f449d0",
+      "event_at": "2026-09-19T02:40:43Z",
+      "observed_at": "2026-10-08T04:51:19Z",
+      "submitted_host": "www.iziko.fr",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c1b792b55850b7d0a2b9d79bfa2ea146990abc82ca97ba62d5321a15bd65c6ce",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.iziko.fr",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "www.iziko.fr",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e844c588-1beb-4c7d-9d06-ffb4d8169b48",
+      "event_at": "2026-09-19T03:58:40Z",
+      "observed_at": "2026-10-08T04:51:19Z",
+      "submitted_host": "www.iziko.fr",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "41d22345cbb37c7fa4c771807116bae056a2efa063f7caa6b864d835a3726521",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.iziko.fr",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "www.iziko.fr",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

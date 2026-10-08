@@ -1,0 +1,1009 @@
+{
+  "collected_at": "2026-10-08T05:00:44Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/e4c6b3af-402e-4d36-93f6-8e0613add03f",
+      "event_at": "2026-10-04T17:16:15Z",
+      "observed_at": "2026-10-08T05:00:19Z",
+      "submitted_host": "spoo.me",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "98dbd090383afd8a5d1ede79999caa130c14647e0f69cd40a26873a1f2bdc2a6",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "spoo.me",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "webapi.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b7a01220-fe46-4606-b4db-55f3889a0592",
+      "event_at": "2026-10-04T17:11:54Z",
+      "observed_at": "2026-10-08T05:00:19Z",
+      "submitted_host": "spoo.me",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "420d11e178cc3d27d904a44f1e473fbcdc56149dd03dc745258e86eae84133b0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "spoo.me",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "webapi.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0d362347-bfa8-4fc9-afaa-6c53e8375158",
+      "event_at": "2026-10-05T07:02:32Z",
+      "observed_at": "2026-10-08T05:00:24Z",
+      "submitted_host": "rocketreach.co",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ba261f019c5286f451118a0faa2cebd5c83a68246b6922428298b6e7df8336a0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.cookielaw.org",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "ekr.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "geolocation.onetrust.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach-privacy.my.onetrust.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach-privacy.my.onetrust.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.zendesk.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "rocketreach.zendesk.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.zendesk.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "static.rocketreach.co",
+          "method": "GET",
+          "status": "200",
+          "count": 39
+        },
+        {
+          "host": "static.rocketreach.co",
+          "method": "GET",
+          "status": "206",
+          "count": 1
+        },
+        {
+          "host": "static.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "tracking-api.g2.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "tracking.g2crowd.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.google.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0f64117f-cee9-4737-8ac4-bc0d202e0488",
+      "event_at": "2026-10-05T06:54:17Z",
+      "observed_at": "2026-10-08T05:00:24Z",
+      "submitted_host": "rocketreach.co",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "938ca0842728568bb4a351e6e87729f80cad993f06eca47ea8df6112a67a4ae1",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "cdn.cookielaw.org",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "ekr.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "geolocation.onetrust.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "js.hs-scripts.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach-privacy.my.onetrust.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach-privacy.my.onetrust.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.co",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "rocketreach.zendesk.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "rocketreach.zendesk.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "static.rocketreach.co",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "static.zdassets.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "www.google.com",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "www.google.no",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/41ddb1e8-7f8e-43e9-98a7-03b64b7e6194",
+      "event_at": "2026-08-26T10:51:00Z",
+      "observed_at": "2026-10-08T05:00:29Z",
+      "submitted_host": "contestationtransaction-support.help",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4119039a3dddf86335cf79275fee2f0695a4137927249eb157959fc53dd0c255",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "contestationtransaction-support.help",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "contestationtransaction-support.help",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "contestationtransaction-support.help",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9d35af40-fd29-4f6b-8cb6-ad800b3acc33",
+      "event_at": "2026-08-26T10:37:24Z",
+      "observed_at": "2026-10-08T05:00:29Z",
+      "submitted_host": "contestationtransaction-support.help",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4eadd1376272e5b2a7f0f2539f4bc2a4c23dc7e8f6977553a66ef5987f25cef5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "contestationtransaction-support.help",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "contestationtransaction-support.help",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "contestationtransaction-support.help",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/37d3c7e2-a896-43db-b42b-b934aba0f757",
+      "event_at": "2026-08-31T11:11:49Z",
+      "observed_at": "2026-10-08T05:00:33Z",
+      "submitted_host": "contestationsecure-support.help",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9dc276e24cb0fb5191cd1612a16aed6af0ee11135c9802fcef63a0d6277d2830",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "contestationsecure-support.help",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "contestationsecure-support.help",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "contestationsecure-support.help",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e0399bf7-5e57-4fdd-8ca8-02e29994d3ca",
+      "event_at": "2026-08-31T11:03:35Z",
+      "observed_at": "2026-10-08T05:00:33Z",
+      "submitted_host": "contestationsecure-support.help",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e92a53b73aeb18ef971c1b21a6f578328e74c6da3f27a58bbb39b645c18566e4",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "contestationsecure-support.help",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "contestationsecure-support.help",
+          "method": "GET",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "contestationsecure-support.help",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2c4c460e-e31c-4f98-9d8f-1f5108033c4c",
+      "event_at": "2026-10-05T17:35:24Z",
+      "observed_at": "2026-10-08T05:00:38Z",
+      "submitted_host": "appwrite.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1580bc0ad7d366396aa4e55bd8ec46dc49d87771c5340a7fa5366f044264d7d0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 37
+        },
+        {
+          "host": "cdn.appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 396
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "js.stripe.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "m.stripe.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "m.stripe.network",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f443ce82-de18-43f7-ac5a-81fab181a88b",
+      "event_at": "2026-10-05T17:35:10Z",
+      "observed_at": "2026-10-08T05:00:38Z",
+      "submitted_host": "appwrite.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aabf64abba761226995a277bdedd7cf905358d942cd6b55a10942e0aa267026c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 36
+        },
+        {
+          "host": "cdn.appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 401
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "cloud.appwrite.io",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "js.stripe.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "m.stripe.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "m.stripe.network",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "plausible.io",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "plausible.io",
+          "method": "POST",
+          "status": "202",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

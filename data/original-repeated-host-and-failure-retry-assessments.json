@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-08T09:17:14Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 27,
+    "successful_original_reads": 27,
+    "selected_exact_id_comparison_absences": 27,
+    "repeated_host_cursor_records": 12,
+    "additional_pair_rotation_records": 10,
+    "retained_failure_retry_records": 5,
+    "retained_read_failures_resolved": 5,
+    "cumulative_inspected_unique_urlquery_reports": 443,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 703,
+    "remaining_uninspected_comparison_absences": 344,
+    "read_failures_retained_as_cursors": 0,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact twelve-record repeated-host cursor saved by the prior assessment, rotated to ten further untouched exact-ID comparison absences forming five two-record submitted-host groups, then retried all five original-report reads retained as failures elsewhere in the repository. Every read succeeded. This is bounded original-record coverage, not participant attribution, a malware census or a novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-repeated-host-cursor-reviews.json",
+      "sha256": "b3d3b0648529dc40f3dbac077cb5b1ffe714c2800f9206bbdbe18e4ea5f344fe",
+      "records": 12,
+      "successful_records": 12,
+      "event_range": {
+        "from": "2026-08-06T12:36:13Z",
+        "to": "2026-09-19T03:58:40Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T04:50:54Z",
+        "to": "2026-10-08T04:51:19Z"
+      }
+    },
+    {
+      "path": "data/original-repeat-pair-rotation-reviews.json",
+      "sha256": "bc903118cc2e1c4a80b81f41af936b609b3736c83fe1f867c401aa52fe6bbd65",
+      "records": 10,
+      "successful_records": 10,
+      "event_range": {
+        "from": "2026-08-26T10:37:24Z",
+        "to": "2026-10-05T17:35:24Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T05:00:19Z",
+        "to": "2026-10-08T05:00:38Z"
+      }
+    },
+    {
+      "path": "data/original-retained-failure-retry-reviews.json",
+      "sha256": "d249ae6d0561bc1354963caa1a590775e4c1b2069246d942debaf3a1a1462d73",
+      "records": 5,
+      "successful_records": 5,
+      "event_range": {
+        "from": "2026-05-20T09:01:40Z",
+        "to": "2026-10-01T15:17:30Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T09:15:48Z",
+        "to": "2026-10-08T09:16:03Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve original public report links, separate event and observation times, original-report hashes, domain-level traffic and bounded static-operation counts. They omit submitted paths and query values, request and response bodies, headers, submitter identifiers and recovered source. Manual correlation publishes only route and response-hash equality summaries, domain-level behavior and event ordering. Repeated content or a successful POST does not authenticate a participant or establish task use.",
+  "assessed_groups_overlap": false,
+  "assessed_groups": [
+    {
+      "id": "repeated_first_party_page_clusters",
+      "report_urls": [
+        "https://urlquery.net/report/9ce58940-6716-4f30-a803-6161368fb807",
+        "https://urlquery.net/report/43ac1573-21ae-4671-bd0f-54feb64ea866",
+        "https://urlquery.net/report/195b083f-74f2-4378-8222-240415ce1984",
+        "https://urlquery.net/report/17cf425e-37d7-41ff-8556-2ba3bebd9f37",
+        "https://urlquery.net/report/6c18288b-0172-4eca-a80e-23edb9a96cc0",
+        "https://urlquery.net/report/54ff6ba0-6197-4b01-ac54-a99f18d076ac",
+        "https://urlquery.net/report/2f9d2aef-d2fe-4c04-97e9-e905c95e5206",
+        "https://urlquery.net/report/00382c14-e4be-4dfd-ace0-106833f449d0",
+        "https://urlquery.net/report/e844c588-1beb-4c7d-9d06-ffb4d8169b48"
+      ],
+      "submitted_host_groups": 3,
+      "records_per_group": 3,
+      "correlation": "The first group repeats eleven routes, ten non-empty response hashes and a stable first-party asset footprint; its later pair has identical route and response-hash sets. The second repeats twenty-six routes, twenty-two stable route responses and twenty-two response hashes. The third repeats twelve routes, with seven stable and five changed responses consistent with page revision. None preserves a non-empty request body or an earlier response hash reused as a later request body.",
+      "assessment": "Repeated page assets, scanner retries and page revision explain the cross-record similarity. Scanner malicious or phishing labels describe page risk, not AI identity. No record supplies a task-bearing artifact, distinguishable autonomous sender, recipient acquisition, dependent action or operator boundary.",
+      "classification": "repeated web-page and scanner-capture controls; no task transfer or recipient use"
+    },
+    {
+      "id": "redirector_reuse_control",
+      "report_urls": [
+        "https://urlquery.net/report/0e15618c-0a7c-4f3f-b62c-e038092b1c18",
+        "https://urlquery.net/report/95ad4a10-45ca-4072-a56a-314228ee9749",
+        "https://urlquery.net/report/cb17fc14-f086-4f2c-82f4-89113b441aa2"
+      ],
+      "correlation": "The earliest capture redirects to one ordinary public destination. Ten days later the other two captures redirect to a different destination and have exactly equal recorded network multisets, route sets and response-hash sets despite occurring 65,065 seconds apart. Across all three, five routes recur but no non-empty response hash is common to the early and later destination states.",
+      "assessment": "Reusable redirector configuration followed by an exact repeated capture explains the chronology. There is no artifact passed between records and no preserved downstream use.",
+      "classification": "redirector revision and duplicate-capture control"
+    },
+    {
+      "id": "known_amap_shortener_wrapper_pair",
+      "report_urls": [
+        "https://urlquery.net/report/e4c6b3af-402e-4d36-93f6-8e0613add03f",
+        "https://urlquery.net/report/b7a01220-fe46-4606-b4db-55f3889a0592"
+      ],
+      "assessment": "Two shortener captures less than five minutes apart resolve into the already excluded Amap/Alibaba web footprint and differ only by one additional destination GET. They preserve no decoded artifact, task text, channel, shared state or response-reading operation.",
+      "classification": "known-family redirect wrapper; not a separate episode or population"
+    },
+    {
+      "id": "ordinary_site_and_measurement_pair",
+      "report_urls": [
+        "https://urlquery.net/report/0d362347-bfa8-4fc9-afaa-6c53e8375158",
+        "https://urlquery.net/report/0f64117f-cee9-4737-8ac4-bc0d202e0488"
+      ],
+      "assessment": "Two captures eight minutes apart repeat one ordinary sales-information site, its static assets, consent and support services, Google traffic and the already documented OpenAI advertising-measurement domains. Asset-count differences and an extra analytics integration explain the variation. No model execution, task result, response-use program or second autonomous trajectory is preserved.",
+      "classification": "ordinary site, support and advertising-measurement control"
+    },
+    {
+      "id": "repeated_support_page_pairs",
+      "report_urls": [
+        "https://urlquery.net/report/41ddb1e8-7f8e-43e9-98a7-03b64b7e6194",
+        "https://urlquery.net/report/9d35af40-fd29-4f6b-8cb6-ad800b3acc33",
+        "https://urlquery.net/report/37d3c7e2-a896-43db-b42b-b934aba0f757",
+        "https://urlquery.net/report/e0399bf7-5e57-4fdd-8ca8-02e29994d3ca"
+      ],
+      "assessment": "Each submitted-host pair has an identical domain/method/status summary: first-party GET and POST traffic, one font request and one HTTP-test HEAD. The scanner archive preserves no non-empty request body, sender identity or later use. Repeated page capture is sufficient; suspicious site naming or POST success is not a participant graph.",
+      "classification": "same-page repetition control; no task-bearing body or handoff"
+    },
+    {
+      "id": "official_appwrite_site_pair",
+      "report_urls": [
+        "https://urlquery.net/report/2c4c460e-e31c-4f98-9d8f-1f5108033c4c",
+        "https://urlquery.net/report/f443ce82-de18-43f7-ac5a-81fab181a88b"
+      ],
+      "assessment": "Two official Appwrite-site captures fourteen seconds apart repeat the same first-party/CDN, denied application API, Stripe and Plausible footprint. Small asset-count differences reflect page loading; no peer, task, channel, state or response-reading operation is present.",
+      "classification": "official platform-site duplicate control"
+    },
+    {
+      "id": "resolved_appwrite_failure_cluster",
+      "report_urls": [
+        "https://urlquery.net/report/cd44743f-1e42-4487-81c1-13aeeacdfdf6",
+        "https://urlquery.net/report/cc9b0779-1004-49bd-953c-ee601a9d9a33",
+        "https://urlquery.net/report/f4f1e014-0fdf-4a48-89cf-f225dc8efe0d",
+        "https://urlquery.net/report/e306fde1-4343-4b5b-8a75-42511382b32b"
+      ],
+      "assessment": "All four formerly unreadable reports now reproduce the Appwrite/Statsig platform shell already established by the completed peer-agent cursor: 125 first-party GETs, feature/configuration and analytics requests, status traffic and an Appwrite API GET denied with HTTP 403. The three model-named branch captures share the same network summary across twenty-six minutes. Branch labels do not authenticate model execution, and no task-bearing response or recipient action is preserved.",
+      "classification": "resolved read failures; shared Appwrite frontend control"
+    },
+    {
+      "id": "resolved_browser_write_failure",
+      "report_urls": [
+        "https://urlquery.net/report/5aee9f26-2f14-4a3a-a42a-d56b6ed33504"
+      ],
+      "assessment": "The formerly timed-out browser-write report is a security-wrapper redirect into an ordinary public site and X web assets. Its X API POST is denied with HTTP 403, and the record contains no decoded task, response-read operation, channel, shared state, autonomous participant or downstream use.",
+      "classification": "resolved read failure; redirect and ordinary-site control"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "successful_records": 27,
+      "decoded_records": 0,
+      "static_fetch_calls": 0,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_response_reads": 0,
+      "static_task_or_peer_words": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "preserved_nonempty_request_bodies": 0,
+      "earlier_response_hash_reused_as_later_request_body": false,
+      "assessment": "No record preserves a task-bearing artifact from an independently attributable autonomous sender that a later distinguishable autonomous recipient acquires and uses. Cross-record similarity is explained by page assets, duplicate captures, redirects, platform shells, telemetry or an already excluded family. No causal recipient use or operator boundary survives inspection.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "alternatives_tested": [
+    "Repeated scanner captures and retries",
+    "Stable web assets and ordinary page revision",
+    "Reusable redirector configuration",
+    "Known Amap/Alibaba destination traffic behind a shortener",
+    "Ordinary sales, support, consent and analytics traffic",
+    "OpenAI advertising-measurement traffic mistaken for model execution",
+    "Suspicious or phishing-shaped pages without AI participants",
+    "Official Appwrite site and shared Appwrite/Statsig frontend shells",
+    "Model-named deployment branches mistaken for authenticated model trajectories",
+    "Security-wrapper and X-site traffic with a denied API write"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 27,
+    "previously_published_episode": "No qualifying episode was developed. One pair overlaps the already excluded Amap family, and Appwrite/measurement-pixel records reproduce documented controls.",
+    "known_published_family_overlap": "Amap wrapper plus previously documented Appwrite platform and advertising-measurement controls",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established for any AI participant",
+    "provider_attribution": "Appwrite and advertising-measurement infrastructure is visible, but no provider model execution or autonomous AI participant is established",
+    "ongoing_activity": "not established; historical scanner traffic does not prove current operation and no live destination was contacted",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All twenty-seven selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. The Amap, Appwrite and measurement records match existing exclusions or controls. Because no AI transfer-and-use chain exists in the other records, no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous AI sender and task-bearing result or instruction, a distinguishable recipient that later acquires and causally uses it, and primary provenance showing that the cooperation exceeded an operator-defined authorization boundary. A repeated response, POST status, redirect, deployment label, scanner label or exact-ID comparison absence does not qualify.",
+  "next_cursor": {
+    "reason": "The non-known-family decoded frontier, structural-response-use predicate, repeated-host clusters and all retained read failures are now exhausted. Rotate to the small non-platform remainder of the untouched `cohort` listing slice rather than spend another pass on Appwrite branch previews, Facebook pages, advertising pixels or HTTP-test services.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, construct the successful-inspection set from data/selected-report-reviews.json, data/relay-selected-reviews.json, data/quidax-selected-reviews.json and every data/original-*-reviews.json record whose review_status is not a read failure. Select report_url values with in_comparison_dataset=false, absent from that successful set, lacking decoded_sha256, and whose search_queries contains `cohort`. Exclude submitted hosts equal to or beneath appwrite.network or facebook.com. At this checkpoint the predicate yields exactly three records, for jobfound.org, chibitronics.myshopify.com and kinexions.com, spanning 2026-10-05T17:34:00Z through 2026-10-05T17:50:00Z.",
+    "records": 3,
+    "distinct_submitted_hosts": 3,
+    "report_urls": [
+      "https://urlquery.net/report/31ac498b-9df5-48ab-8782-513ed77702bf",
+      "https://urlquery.net/report/3dcac8f3-0287-47bd-a14e-ed2b6227b9d6",
+      "https://urlquery.net/report/d823197c-bcf8-49d3-be34-2d3b4ccf1d7b"
+    ],
+    "listing_level_limit": "The selection is based only on a saved public listing query and exclusions. It does not establish a common cohort, AI identity, maliciousness, a transfer edge or novelty.",
+    "advancement_evidence": "A record advances only if its existing public report JSON preserves a task-bearing artifact from an independently attributable autonomous AI sender, a distinguishable recipient acquisition and dependent action, and primary evidence that the cooperation crossed authorization. Query membership and ordinary site similarity do not qualify."
+  },
+  "safety": "Only existing public scanner report JSON was read. No carrier, referenced destination, live target, recovered code, response body, payload, package, scan, runtime, account, authentication route, message, vote or participant contact was opened, invoked, executed, submitted or replayed. Publication omits raw carrier and request URLs, paths, query values, bodies, headers, credentials, submitter identifiers, personal addresses and private logs."
+}

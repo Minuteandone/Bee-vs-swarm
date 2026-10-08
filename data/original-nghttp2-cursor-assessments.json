@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-07T23:28:31Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 6,
+    "successful_original_reads": 6,
+    "selected_exact_id_comparison_absences": 6,
+    "distinct_submitted_hosts": 1,
+    "decoded_records": 3,
+    "distinct_decoded_hashes": 2,
+    "same_provenance_records": 5,
+    "cumulative_inspected_unique_urlquery_reports": 380,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 766,
+    "remaining_uninspected_comparison_absences": 407,
+    "read_failures_retained_as_cursors": 5,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact six-record cursor saved by the prior assessment: every untouched exact-ID comparison absence selected by the saved `nghttp2.org` query. All six existing public original report JSON reads succeeded. This is bounded original-record coverage, not participant attribution, a census or a novelty claim.",
+  "snapshot": {
+    "path": "data/original-nghttp2-cursor-reviews.json",
+    "sha256": "ef26c0761023bfaa6454554cfa251acdfad2e20365360c91e4b446bf4502b0ff",
+    "records": 6,
+    "successful_records": 6,
+    "event_range": {
+      "from": "2026-06-21T09:49:20Z",
+      "to": "2026-06-21T21:10:10Z"
+    },
+    "observation_range": {
+      "from": "2026-10-07T23:22:34Z",
+      "to": "2026-10-07T23:22:45Z"
+    }
+  },
+  "snapshot_limitations": "The sanitized snapshot preserves original public report links, separate listing-event and observation times, original-report hashes, decoded-text hashes, domain-level traffic and bounded static-operation counts. It omits submitted paths, query values, decoded text, request and response bodies, headers, submitter identifiers and recovered source. Manual correlation below publishes only group sizes, elapsed time, body sizes and one equality test; the underlying submitter value and body content remain omitted. Scanner provenance does not authenticate an operator or autonomous participant.",
+  "assessed_groups_overlap": true,
+  "assessed_groups": [
+    {
+      "id": "identical_carrier_retry_control",
+      "report_urls": [
+        "https://urlquery.net/report/609c61ee-5fb9-4c12-b6f8-ced2376d0527",
+        "https://urlquery.net/report/28a004ea-109e-4360-9250-fa3336803f89"
+      ],
+      "event_gap": "4 minutes 46 seconds",
+      "decoded_characters_each": 96,
+      "decoded_sha256": "e8408e35beec77d8716241985b2477b8aa039d5da9adf4b18905bd9c71454479",
+      "provenance_relationship": "Both records share the same omitted scanner provenance fingerprint.",
+      "archived_response_test": "The earlier record has no archived response body. In the later record, the successful response is 96 bytes and its body hash equals the decoded submitted-artifact hash; a second response is a 9-byte 404 body.",
+      "assessment": "The later HTTP test endpoint returned the same artifact supplied in that scanner submission. Same provenance, identical input and a short interval support a repeated endpoint test or retry. There is no separate sender, distinguishable recipient, response-reading program or downstream action using a foreign result.",
+      "classification": "same-provenance HTTP echo/retry control; no sender-to-recipient dependency"
+    },
+    {
+      "id": "unfollowed_external_reference_control",
+      "report_urls": [
+        "https://urlquery.net/report/71cf335f-88a5-406f-b3d3-0300158f78ee"
+      ],
+      "decoded_characters": 112,
+      "decoded_sha256": "96d8af7dbe5eab2de37a13a3bacafe4ca81328ee346ad2ea284d3cccf6128d70",
+      "literal_reference_host": "httpbun.com",
+      "recorded_traffic": "Two GET requests to nghttp2.org, both HTTP 404. No request to the referenced host is recorded. The two archived response bodies are 207 and 9 bytes and neither body hash equals the decoded-artifact hash.",
+      "assessment": "A literal external URL inside a carrier is not a transfer edge when the browser trace never requests it. The record preserves no acquisition, response read or later use.",
+      "classification": "unfollowed literal reference; no recipient use"
+    },
+    {
+      "id": "empty_and_ordinary_http_controls",
+      "report_urls": [
+        "https://urlquery.net/report/8c58b69b-ce07-4d6d-bf8f-0e97de0b36e1",
+        "https://urlquery.net/report/e61587a7-4458-435f-a288-514b0fc1cdad",
+        "https://urlquery.net/report/ce59c450-e032-4726-b88f-9c50d3a30a25"
+      ],
+      "assessment": "Two records preserve one unresolved GET apiece and no decoded artifact; one merely contains an example.com submitted-reference literal that is never requested. The third is an ordinary nghttp2.org page load with seven successful first-party GETs and one Google Fonts GET. None preserves task material, a foreign result or downstream use.",
+      "classification": "empty submission and ordinary HTTP-site controls"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "successful_records": 6,
+      "get_only_records": 6,
+      "decoded_records": 3,
+      "distinct_decoded_hashes": 2,
+      "static_fetch_calls": 0,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_response_reads": 0,
+      "static_task_or_peer_words": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "All archived network traffic is GET-only. Five records share one omitted scanner provenance fingerprint; the sixth has a different fingerprint but contains no decoded material or dependency on the five. The only exact cross-record artifact match occurs inside the same provenance group. No concrete sender, autonomous recipient, transferred task result, causal use or operator boundary survives inspection.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "alternatives_tested": [
+    "Repeated submission or scanner retry from one provenance group",
+    "HTTP echo and status-code endpoint testing",
+    "Literal URL present in text but never requested",
+    "Ordinary nghttp2.org page and font loading",
+    "Empty or incompletely archived scanner capture",
+    "Similarity caused by common scanner provenance rather than distinct participants"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 6,
+    "unresolved_original_records": 0,
+    "known_published_family_overlap": false,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "The public HTTP test and font-service domains are recorded, but no AI model, provider-operated participant or autonomous agent is attributed",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All six selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. The original records do not preserve a transfer-and-use chain, so no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous sender and task-bearing result or instruction, a distinguishable recipient that later acquires and causally uses it, and primary provenance showing that the coordination exceeded an operator-defined authorization boundary. Identical carrier input, an echo response, an unfollowed URL literal, HTTP status or a shared scanner fingerprint does not qualify.",
+  "next_cursor": {
+    "reason": "Rotate from one service-name slice into the remaining unseen decoded carrier artifacts, while excluding listing-visible known families and decoded hashes already inspected. This prioritizes original artifact diversity rather than model-name matches or more copies of reported populations.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, first construct the successful-inspection set from data/selected-report-reviews.json, data/relay-selected-reviews.json, data/quidax-selected-reviews.json and every data/original-*-reviews.json record whose review_status is not a read failure. Select records whose report_url has in_comparison_dataset=false, whose report_url is absent from that successful set, whose decoded_sha256 is present but absent from every successfully inspected record, and whose search_queries intersects `livecodes.io`, `httpbun.com` or `httpbingo.org`. Exclude a record when its listing submitted host, page title or referenced hosts contains a case-insensitive Amap, Alibaba, AliCDN, Aliyun, AIHW, Fedresurs or Quidax family marker. At this checkpoint the predicate yields exactly 21 reports carrying 19 decoded hashes: 15 selected by livecodes.io, three by httpbun.com and three by httpbingo.org, spanning 2026-04-27T06:01:00Z through 2026-10-04T14:50:00Z.",
+    "records": 21,
+    "distinct_decoded_hashes": 19,
+    "listing_level_limit": "The exclusions use saved listing metadata only. Original-report inspection may still reveal a hidden known-family overlap; such a record remains a comparison control rather than a discovery.",
+    "advancement_evidence": "A record advances only if its existing public report preserves task-bearing material from an independently attributable autonomous sender, later acquisition and causal use by a distinguishable autonomous recipient, and primary evidence of an unauthorized operator-boundary crossing. A new decoded hash, carrier query match, duplicated artifact or service response alone does not qualify."
+  }
+}

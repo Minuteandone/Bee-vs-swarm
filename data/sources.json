@@ -1324,6 +1324,30 @@
       "event_at": "2026-10-05T17:07:47Z",
       "observed_at": "2026-10-07T22:13:27Z",
       "report_json_sha256": "835fec76f7cbe9a1563c455f089435a16116993717d0864dbab831e5a2cf65b1"
+    },
+    {
+      "id": "original-nghttp2-identical-artifact-first-control",
+      "url": "https://urlquery.net/report/609c61ee-5fb9-4c12-b6f8-ced2376d0527",
+      "role": "First of two same-provenance HTTP-test captures carrying the same 96-character decoded artifact; no archived response body or downstream use",
+      "event_at": "2026-06-21T11:14:36Z",
+      "observed_at": "2026-10-07T23:22:34Z",
+      "report_json_sha256": "61d065d85df0297182633ec1c6afd92f68dd62678d7e42737002631e86b3f409"
+    },
+    {
+      "id": "original-nghttp2-identical-artifact-echo-control",
+      "url": "https://urlquery.net/report/28a004ea-109e-4360-9250-fa3336803f89",
+      "role": "Same-provenance retry 4 minutes 46 seconds later; the successful archived response matches the submitted-artifact size and hash, consistent with an HTTP echo test rather than foreign-result acquisition",
+      "event_at": "2026-06-21T11:19:22Z",
+      "observed_at": "2026-10-07T23:22:39Z",
+      "report_json_sha256": "3a9bb791b70477ef39ff4549372b4c5901207733f5000a018900cfd6790de278"
+    },
+    {
+      "id": "original-nghttp2-unfollowed-reference-control",
+      "url": "https://urlquery.net/report/71cf335f-88a5-406f-b3d3-0300158f78ee",
+      "role": "Decoded carrier with one external-host literal that the archived browser trace never requests; no acquisition, response read or downstream use",
+      "event_at": "2026-06-21T21:10:10Z",
+      "observed_at": "2026-10-07T23:22:45Z",
+      "report_json_sha256": "799a7140f3f0801af98ee7d9ea82cbf7ffaf77a6840307d4a988b4e9074f0a13"
     }
   ]
 }

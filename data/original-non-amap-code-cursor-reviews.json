@@ -1,0 +1,2645 @@
+{
+  "collected_at": "2026-10-08T10:53:56Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/e2b0364e-85ee-4735-970c-1017e31428ef",
+      "event_at": "2026-10-05T12:32:51Z",
+      "observed_at": "2026-10-08T10:52:08Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "c33b6d076475c2bd30537eb6ec3ec6cebe4e27f00e964729494bc3c27bda21eb",
+      "decoded_characters": 1757,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "api.allorigins.win",
+        "api.codetabs.com",
+        "api.cors.lol",
+        "cors.eu.org",
+        "proxy.corsfix.com"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "399448da037e7e031101c679890450d016665a3c2b1fa244eef33d3b14b44b90",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "api.allorigins.win",
+        "api.codetabs.com",
+        "api.cors.lol",
+        "cors.eu.org",
+        "proxy.corsfix.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.allorigins.win",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7957a1e0-cd57-4c25-a97c-beaea1d8531c",
+      "event_at": "2026-10-05T12:32:51Z",
+      "observed_at": "2026-10-08T10:52:08Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "f7b4386468dc665804dc269851b042c275eaa118870dd60468237e5089fbd474",
+      "decoded_characters": 2549,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "archive.org",
+        "r.jina.ai",
+        "web.archive.org"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3516f4c9f35b16400cf4a227ddabd3b5dd8ff75ee4b091c02aedc8a3c6dfeb60",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "archive.org",
+        "r.jina.ai",
+        "web.archive.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "archive.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a7b35d61-48c8-4df6-a7b1-1a74759936c1",
+      "event_at": "2026-10-05T02:57:29Z",
+      "observed_at": "2026-10-08T10:52:17Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "1fe6e6bb88c7a0fadf65c8f26c3c196b4bb9d38410475c913d6bff8c046f7841",
+      "decoded_characters": 720,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "api.allorigins.win",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a90ed10865d2abdc381e0073bdbfb8e6c0447bb4f1ed2382f95f909c62043646",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "api.allorigins.win",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 2,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.allorigins.win",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "qn5bk.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8f6894b1-77bb-47b7-8d53-7a1fccf2f7ea",
+      "event_at": "2026-10-05T18:40:19Z",
+      "observed_at": "2026-10-08T10:52:18Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "79c101dc8ea28feecbf42e6477c07a8c32d3bd06f8926d136b72c22fcdd8be1c",
+      "decoded_characters": 1954,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "cb6cd9314bfc20e590194b813df68ae0572e94395110a7907bfb3f95292ab7ca",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "401",
+          "count": 5
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 5
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0d9c5ae9-9535-42cf-92fb-7b257b98ff6d",
+      "event_at": "2026-10-05T18:43:17Z",
+      "observed_at": "2026-10-08T10:52:22Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "5209e54ebb43b8b3bf69ef44620d3a93c0090d6d77afd183f5e08d26b76a5b32",
+      "decoded_characters": 1574,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0f07331383c447f76ae5d5a9809cd5f45d4213391b6faf18cc6619f7fb74ad70",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/95353f8a-9d98-4264-9b52-80f3682800d0",
+      "event_at": "2026-10-05T13:13:24Z",
+      "observed_at": "2026-10-08T10:52:23Z",
+      "submitted_host": "httpbingo.org",
+      "decoded_carrier_host": "httpbingo.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "04c4d1e5e1b49dffcfc337a59ff368a14db1311910844780ba4df2e128e92c56",
+      "decoded_characters": 972,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbingo.org",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2b4634c3a10fbc324cfd903e7a8f8555d76aec727a9a39c3c51128e3df373b22",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbingo.org",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 3,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/732fd16a-4497-4225-b669-e211c0b42e51",
+      "event_at": "2026-10-05T13:35:47Z",
+      "observed_at": "2026-10-08T10:52:27Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "93c115a4f30752a3bb03970d93b6844536718e83246dc842bd7928890e11c509",
+      "decoded_characters": 936,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "551d887fa3b88c849e7431fa22eed8401eebd5050192b9032b31d8beb433d184",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1a6359ff-23c2-4072-a2f9-224fb0f5d148",
+      "event_at": "2026-10-05T13:34:33Z",
+      "observed_at": "2026-10-08T10:52:27Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "a0e0de64df9544acf7274d00a9f11ea1bcc43be7599bcbb50aaf627405903f41",
+      "decoded_characters": 889,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aaa2ba28c0c4dd65f761db0c8203e90bb9c4b121f7b17050ffb39faac1d5a01d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3658623f-9b2e-4d8f-a132-ab4fbf5fa35c",
+      "event_at": "2026-10-05T13:21:11Z",
+      "observed_at": "2026-10-08T10:52:33Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "cc1d05f06d1951050a8c2ea366895e00117c5f6a6a50ad6f1013306b2f5b830c",
+      "decoded_characters": 801,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0ec90b1216c85df73092cfb053ef388c04f88e114e15546d49ba8659a02f2640",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/622e66ae-7a6c-4e77-b336-3feb38e6d5a4",
+      "event_at": "2026-10-05T18:37:47Z",
+      "observed_at": "2026-10-08T10:52:33Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "eebc6869348ddece109510ec4c05215db920c7e59f9151f8566b6e28ca7c7cfa",
+      "decoded_characters": 798,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "7c2bf67fe0cf88ca0d8d3bafab0c521103d2d188f531c6fe830f5e94c8a7c511",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6e0b472f-0a2a-451a-a7cf-25e0b065e2e9",
+      "event_at": "2026-10-05T18:35:14Z",
+      "observed_at": "2026-10-08T10:52:37Z",
+      "submitted_host": "href.li",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "eff396c13e116139f1066b3a20cd667da5da749351e6c7d5374c27f1f8e4ba1d",
+      "decoded_characters": 798,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a7a83c92899506f0c99d64582a948164d75214212cf3f17c84f15d75b629f809",
+      "submitted_reference_domains": [
+        "httpbun.com"
+      ],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "httpbun.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "href.li",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1a7e1f20-6d30-4188-a30b-d915457d2db1",
+      "event_at": "2026-10-04T13:15:45Z",
+      "observed_at": "2026-10-08T10:52:37Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "b3d5606c13e4851eff7feafa81f061fed7ce7b0784dcd0443a00cd86fbae4d08",
+      "decoded_characters": 1467,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "xhr",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "401699c6778ba8252469be2ad192350c0c45e857f691ce1254b1c2c1a48cff42",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 1,
+        "socket_calls": 0,
+        "explicit_post_methods": 1,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 6,
+        "json_serializations": 1,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "POST",
+          "status": "401",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a607c6c0-8c5a-49d7-a691-52fe0c87c74a",
+      "event_at": "2026-10-05T12:35:05Z",
+      "observed_at": "2026-10-08T10:52:41Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "e28329e5201d4d11e808ad29f4243d549c7f5827d61fbc8a9285d3ac2343a629",
+      "decoded_characters": 1848,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "31c738274f16c3637654a995f46bd44f804cc77791c70613b7b2263b09ec7a2c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 5
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/dcfdbf75-5c56-4907-bf7e-48824c7f33e0",
+      "event_at": "2026-10-04T18:29:29Z",
+      "observed_at": "2026-10-08T10:52:42Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "1feb3fbe9ab97d4ea0623f1f12a6e53eaf7e6dbd2bf9e1bd746e8e18915fbbfb",
+      "decoded_characters": 1499,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbun.com",
+        "lbs.amap.com",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "548ad53c5f08b3d319b683ed488ecda1dc45302c2e8c2c3258fad333a928d7f7",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbun.com",
+        "lbs.amap.com",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 4,
+        "iframe_references": 3,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "a.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "a.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "at.alicdn.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "baxre7.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cf.aliyun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 28
+        },
+        {
+          "host": "gaode.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "img.alicdn.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "lbs.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "log.mmstat.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "o.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "o.alicdn.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "s-gm.mmstat.com",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ssr-next.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 46
+        },
+        {
+          "host": "webapi.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "webapi.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.amap.com",
+          "method": "POST",
+          "status": "204",
+          "count": 2
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1840d111-5870-4b37-8be4-d123d61981eb",
+      "event_at": "2026-10-05T02:44:35Z",
+      "observed_at": "2026-10-08T10:52:46Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "02c2f3596b9584c2fcf7c37aac7c519f481de2a8bc290744258e0e2a47045539",
+      "decoded_characters": 706,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6903ceae0cc5b77e0f455cdd9d2acb85e080156436e16ac39ba9d39e42586eaa",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 2,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 1
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "OPTIONS",
+          "status": "403",
+          "count": 1
+        },
+        {
+          "host": "brrlg8.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b3565fbf-57c3-4c17-8011-ec6ba9209318",
+      "event_at": "2026-10-05T02:52:49Z",
+      "observed_at": "2026-10-08T10:52:46Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "88bd909aca917fda98ed68237347ec38cf8c9dd59cb675a7289363a98cafa5a8",
+      "decoded_characters": 585,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "710518bc12773e558f2b780cca9142a9db915355dc87f22d0947cdd5194c48ba",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 2,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fgrdga.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ddaca3da-3ec7-4718-b313-ef57a68d4ab7",
+      "event_at": "2026-10-05T02:49:11Z",
+      "observed_at": "2026-10-08T10:52:50Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "1b4f43310bfadef20fe9d977315bea5d2402ab83af2411fec2a9fdf0b427c113",
+      "decoded_characters": 522,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "fetch",
+        "repeated_requests",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b972e91b98dbbcdd152d5ad9e3efc9f1dfe12d7dd9224b880075efaec9ec1367",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 2,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4881945d-cf2c-453c-8737-969f58592890",
+      "event_at": "2026-10-05T12:10:12Z",
+      "observed_at": "2026-10-08T10:52:50Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "83c9125b54be3a861cfd352054169863e529509c3cbc1d02c59306df67201e6b",
+      "decoded_characters": 2643,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a14c6b6d291775a0214550d01e9e7ba44619e89ef35443abe9db33b904e4c3ea",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 2,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 2,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/664d1f6f-40f5-4940-9e6f-b0b91736d375",
+      "event_at": "2026-10-04T21:06:24Z",
+      "observed_at": "2026-10-08T10:52:55Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "291a3125c5cda2a53ed301a8601f352cafb34fa6792b90e33584ed033841adad",
+      "decoded_characters": 2500,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "483af92f684b7fbb280524a7dd0c0b1ad9d5eb4b0e74859ca7b78c67557770fb",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 2,
+        "timer_references": 3,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "bcnpg5.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/837964b5-5ea4-4d5a-916a-5e9ce5e60972",
+      "event_at": "2026-10-04T20:58:31Z",
+      "observed_at": "2026-10-08T10:52:55Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "20dae2c29b84798a400772f196721dd0f34306937563c2ce3dbd3a124df62381",
+      "decoded_characters": 2059,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6106ab5716e2ad43a35a1717ab05470f303d58257edef302462d323530a80f82",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 1,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 2,
+        "timer_references": 3,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "OPTIONS",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "dzktub.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/befb5448-a6f8-4c44-bb4e-e3ea4ce37a1b",
+      "event_at": "2026-10-04T20:55:39Z",
+      "observed_at": "2026-10-08T10:53:01Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "9538152c50d28a90050f06183284f48dea952abceb4440e026bfe12e73f54c9c",
+      "decoded_characters": 2059,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ada9ee9c6862111b13facd7cbe34fd7b0c0a11e1f2279f6f57b78b67baf55aa3",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 1,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 2,
+        "timer_references": 3,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f7bc6e19-6e90-4430-9d84-2b8954a03826",
+      "event_at": "2026-10-04T16:30:25Z",
+      "observed_at": "2026-10-08T10:53:01Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "133569fc6d63912dae43ab9bb9bd93e183b86ddccc702a74b69803095356a40c",
+      "decoded_characters": 1749,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org",
+        "www.amap.com"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "810457b6eaa8f965b0c6cde3dd4cf9552448e6ae747cea77ee7d3df83b05ef46",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 1,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 4,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 1
+      },
+      "recorded_network_summary": [
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "OPTIONS",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "ddvhed.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8a6c6837-3413-4c29-b4df-be501f3986c0",
+      "event_at": "2026-10-04T21:11:31Z",
+      "observed_at": "2026-10-08T10:53:11Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "bb7b45e0bf7d020c3cc2a604e8c5833bc804e5924eb7c863243058dd7efaa061",
+      "decoded_characters": 1532,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f9b38e1c1d6aae71accecdee95b6c995b8eae5830c8bc2d7d340f29f06c3b886",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 1,
+        "timer_references": 4,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "11ir6m.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9d82cb94-edd5-417a-b3c0-cdf689d0a002",
+      "event_at": "2026-10-04T21:11:31Z",
+      "observed_at": "2026-10-08T10:53:11Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "d8c15d871fee1d80759c2c80274d85569fd4f5184ecd1c730cc902cbedd005df",
+      "decoded_characters": 1531,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "cb4c2e3a756cd5984aef2ae231c5a02743da16883e45c9f8a35dac8da1019bb7",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 3,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 1,
+        "timer_references": 4,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "9f6rkp.tdum.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "amap-pc-ssr.amap.com",
+          "method": "GET",
+          "status": "419",
+          "count": 1
+        },
+        {
+          "host": "fourier.alibaba.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fourier.taobao.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "g.alicdn.com",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ynuf.aliapp.org",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/56203d23-2bc3-42c4-9604-2ef7d8b2c9e8",
+      "event_at": "2026-10-04T13:10:46Z",
+      "observed_at": "2026-10-08T10:53:23Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "a57f0a7a7f0a59480f8a050430517ad0e6799df376e39027d165ed24757e38b1",
+      "decoded_characters": 1283,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "features": [
+        "xhr",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e55f69811d39cf46dee4ec88bca4709ef0e45d2936ae9e331ead95357447d60e",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "g.alicdn.com",
+        "httpbin.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 1,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 1,
+        "timer_references": 1,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c6983f18-ee11-440f-9f25-dbbcada916ff",
+      "event_at": "2026-10-05T13:10:15Z",
+      "observed_at": "2026-10-08T10:53:23Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "a46a84598c59f4761010eb89836bcf19f854c8f82debf9c7daabbcd30605cd67",
+      "decoded_characters": 930,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "926e101b61416a223b68058b81c7af3bc577045d63395b36d121650591c8b50f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 3,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4540d7da-46e1-4068-9265-7980b129839e",
+      "event_at": "2026-10-04T13:15:13Z",
+      "observed_at": "2026-10-08T10:53:34Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "636cb657c20dfa8746683317867f7ddf8f4afd60598ab1bbc7cc687f8a03b991",
+      "decoded_characters": 830,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "032c96fa06e1838bd45fa225ba2b5bc2bf7454b95219cc77ea906258759cd022",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "204",
+          "count": 16
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/00aa3bf5-2dcf-480e-a5b2-6919fc90ef5d",
+      "event_at": "2026-10-04T13:08:23Z",
+      "observed_at": "2026-10-08T10:53:35Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "84398ca4832ef613ec4da293d43c01b123358b0938707bf75e959570f927e42c",
+      "decoded_characters": 826,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "275d1cf62ce225a6ebac8a6180485c8b3efea3637e447aa6229c3a32fb61839f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "r.jina.ai",
+        "www.amap.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6a4cf115-a3d9-454d-af14-a7ff77bf2330",
+      "event_at": "2026-10-05T12:00:22Z",
+      "observed_at": "2026-10-08T10:53:41Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "8bb19e3e32475f1017492a23c3e178b07e06d87c69f3fcd916db12e82749dcd9",
+      "decoded_characters": 675,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ea7028a7c15e7b5278101d31907ee84841f49792177c626575bb90109c46feba",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/37cebd19-ea8b-4b8a-b16f-bfb4268069a5",
+      "event_at": "2026-10-05T12:00:33Z",
+      "observed_at": "2026-10-08T10:53:41Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "8bb19e3e32475f1017492a23c3e178b07e06d87c69f3fcd916db12e82749dcd9",
+      "decoded_characters": 675,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "features": [
+        "fetch",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "66e91569e4081543af4bee8df5e632ff974a01608bdc1b2e524c2bc3cd39ef56",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "amap-pc-ssr.amap.com",
+        "r.jina.ai"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 1,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 1,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "r.jina.ai",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

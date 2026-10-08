@@ -1497,6 +1497,49 @@
       "event_at": "2026-10-04T15:33:23Z",
       "observed_at": "2026-10-08T10:18:38Z",
       "report_json_sha256": "41c08cf88b5d74bb0a8f455e5dd16b4fe525dfcdf43e9c36189c1b1d2bd8c86b"
+    },
+    {
+      "id": "original-legacy-httpbin-amap-redirect-control",
+      "url": "https://urlquery.net/report/3e12f0cb-c3cd-456e-82bc-c81fc5165ba6",
+      "role": "Representative legacy HTTPBin-host redirect into EU HTTPBin and the already excluded Amap/Alibaba footprint; no task artifact or recipient use",
+      "event_at": "2026-10-04T15:07:49Z",
+      "observed_at": "2026-10-08T10:48:07Z",
+      "report_json_sha256": "5bb42d5dbaa08eb4533f6cdad0eb5e9ac1dae052be41cbe74430f5f6922a68a8"
+    },
+    {
+      "id": "original-listing-contamination-backend-control",
+      "url": "https://urlquery.net/report/49d0c27d-301d-423c-81f6-4bf6b55fa17d",
+      "role": "Representative date-window locator match with ordinary automotive-site, analytics and backend traffic; an AI-themed hostname does not establish model execution or participant exchange",
+      "event_at": "2026-08-01T12:53:15Z",
+      "observed_at": "2026-10-08T10:50:52Z",
+      "report_json_sha256": "078644263ed8cc7be460ca94d19420fbe9ebd2ad8ba5cae1bab1852d411b4fa2"
+    },
+    {
+      "id": "original-amap-jina-denied-post-control",
+      "url": "https://urlquery.net/report/1a7e1f20-6d30-4188-a30b-d915457d2db1",
+      "role": "Decoded Amap retrieval program whose sole explicit POST to a read proxy receives HTTP 401; no successful transfer or distinguishable recipient use",
+      "event_at": "2026-10-04T13:15:45Z",
+      "observed_at": "2026-10-08T10:52:37Z",
+      "report_json_sha256": "401699c6778ba8252469be2ad192350c0c45e857f691ce1254b1c2c1a48cff42",
+      "decoded_sha256": "b3d5606c13e4851eff7feafa81f061fed7ce7b0784dcd0443a00cd86fbae4d08"
+    },
+    {
+      "id": "original-amap-proxy-duplicate-control-a",
+      "url": "https://urlquery.net/report/6a4cf115-a3d9-454d-af14-a7ff77bf2330",
+      "role": "First of two reports eleven seconds apart with an identical decoded artifact and network fingerprint, supporting retry or duplicate capture rather than distinct participants",
+      "event_at": "2026-10-05T12:00:22Z",
+      "observed_at": "2026-10-08T10:53:41Z",
+      "report_json_sha256": "ea7028a7c15e7b5278101d31907ee84841f49792177c626575bb90109c46feba",
+      "decoded_sha256": "8bb19e3e32475f1017492a23c3e178b07e06d87c69f3fcd916db12e82749dcd9"
+    },
+    {
+      "id": "original-amap-proxy-duplicate-control-b",
+      "url": "https://urlquery.net/report/37cebd19-ea8b-4b8a-b16f-bfb4268069a5",
+      "role": "Second same-artifact and same-network capture; chronology and equality preserve no sender-to-recipient task dependency",
+      "event_at": "2026-10-05T12:00:33Z",
+      "observed_at": "2026-10-08T10:53:41Z",
+      "report_json_sha256": "66e91569e4081543af4bee8df5e632ff974a01608bdc1b2e524c2bc3cd39ef56",
+      "decoded_sha256": "8bb19e3e32475f1017492a23c3e178b07e06d87c69f3fcd916db12e82749dcd9"
     }
   ]
 }

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-08T04:42:32Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 36,
+    "successful_original_reads": 36,
+    "selected_exact_id_comparison_absences": 36,
+    "unseen_decoded_artifact_cursor_records": 21,
+    "same_host_cluster_rotation_records": 15,
+    "distinct_submitted_hosts": 5,
+    "decoded_records": 21,
+    "distinct_decoded_hashes": 19,
+    "same_record_echo_matches": 3,
+    "successful_external_websocket_upgrades": 5,
+    "cumulative_inspected_unique_urlquery_reports": 416,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 730,
+    "remaining_uninspected_comparison_absences": 371,
+    "read_failures_retained_as_cursors": 5,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact 21-record unseen-artifact cursor saved by the prior assessment, then rotated in the same run to every untouched exact-ID comparison absence on two compact same-host clusters: seven legacy v46.livecodes.io captures and eight same-day www.lorari.com captures. All 36 existing public original report JSON reads succeeded. This is bounded original-record coverage, not participant attribution, a malware census or a novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-unseen-artifact-cursor-reviews.json",
+      "sha256": "fd220f5b0e386223259e1422e4a5a8ff83b86868e0cb507334dc5e4bbbdabd2c",
+      "records": 21,
+      "successful_records": 21,
+      "event_range": {
+        "from": "2026-04-27T06:01:11Z",
+        "to": "2026-10-04T14:50:07Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T04:29:41Z",
+        "to": "2026-10-08T04:30:37Z"
+      }
+    },
+    {
+      "path": "data/original-cluster-rotation-reviews.json",
+      "sha256": "554e77ee48a3786b1591cecba70927c7ce64bfab87a3651448f63eb8759d43e9",
+      "records": 15,
+      "successful_records": 15,
+      "event_range": {
+        "from": "2025-06-14T00:59:38Z",
+        "to": "2026-10-05T17:44:13Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T04:37:34Z",
+        "to": "2026-10-08T04:38:11Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve original public report links, separate event and observation times, original-report hashes, decoded-text hashes, domain-level traffic and bounded static-operation counts. They omit submitted paths, query values, decoded text, request and response bodies, headers, WebSocket frames, submitter identifiers and recovered source. Manual correlation below publishes only domain-level method/status counts, body sizes and hashes, equality tests and group sizes. A WebSocket upgrade or repeated response hash does not expose message semantics, authenticate a participant or establish task use.",
+  "assessed_groups_overlap": true,
+  "assessed_groups": [
+    {
+      "id": "livecodes_static_snippet_and_platform_control",
+      "report_urls": [
+        "https://urlquery.net/report/385018b9-8fa6-4cc9-9dbf-bf247bf735ee",
+        "https://urlquery.net/report/4d0772ef-fa22-4bdf-b2cd-5c2624cec3d6",
+        "https://urlquery.net/report/84b569bb-fbd3-4749-a37d-ce25ce437ff9",
+        "https://urlquery.net/report/9c92c97f-229c-46a9-b146-d8fab200d8aa",
+        "https://urlquery.net/report/f6aadd70-983d-4e09-904f-de36d4584c9b",
+        "https://urlquery.net/report/08ab944f-83a0-4935-8e3b-b550f6afccd5",
+        "https://urlquery.net/report/43478499-852d-443a-80ea-10a1addcf2a9",
+        "https://urlquery.net/report/efaf4a8f-9140-4b20-b5ac-f32821fe88dd",
+        "https://urlquery.net/report/7b526f28-4222-4272-8e89-acd253d1a022",
+        "https://urlquery.net/report/abcd2809-d6f3-4630-9423-a63f9ac04601",
+        "https://urlquery.net/report/59df9491-dbfc-43b5-beea-e0a5a1c4274a",
+        "https://urlquery.net/report/73c25800-d5a2-4166-b8c9-4e5eee84e38b",
+        "https://urlquery.net/report/fb58bced-0106-4da5-a05e-66f51ac106c1",
+        "https://urlquery.net/report/a3152a8b-bc8e-40c2-89cf-33c408623c45",
+        "https://urlquery.net/report/7df6997c-a30d-476a-b229-613cd1bffa9d"
+      ],
+      "decoded_records": 15,
+      "distinct_decoded_hashes": 14,
+      "recorded_requests": 614,
+      "recorded_methods": {
+        "GET": 508,
+        "HEAD": 14,
+        "OPTIONS": 46,
+        "POST": 46
+      },
+      "static_source_test": "All fifteen decoded artifacts contain zero fetch, XHR, socket, response-read and task/peer operations. Platform traffic repeatedly reaches LiveCodes, its sandbox, public asset CDNs, fonts and Cloudflare telemetry. None of the archived response hashes equals a decoded artifact hash.",
+      "duplicate_control": "Two reports at exactly 2026-05-14T05:01:04Z carry the same 66-character decoded hash and have identical multisets of recorded domain, method, status, resource type, response size and response hash. They are duplicate captures, not a temporal sender-to-recipient chain.",
+      "external_reference_test": "Two records issue one example.com image GET apiece and receive HTTP 404. No response-read operation or later dependent action is preserved.",
+      "assessment": "Tiny static snippets and a repeated application/telemetry baseline explain the traffic. One record has only an unresolved first-party GET. The records preserve neither a foreign result nor a program capable of acquiring and using one.",
+      "classification": "static snippet, duplicate-capture and platform-runtime controls; no task transfer or recipient use"
+    },
+    {
+      "id": "http_echo_and_duplicate_error_controls",
+      "report_urls": [
+        "https://urlquery.net/report/0fc505bd-b07b-4623-b143-a5475bb6e735",
+        "https://urlquery.net/report/5b906aaa-a44c-4274-9e71-b7cfa9184819",
+        "https://urlquery.net/report/7de23710-226b-402c-901a-020d8649c473",
+        "https://urlquery.net/report/1e6fbedd-b222-45c8-83df-a00fbfb6d1c5",
+        "https://urlquery.net/report/9632eef9-7574-4a73-84a1-413d7b8910a4",
+        "https://urlquery.net/report/7d355066-ae57-411c-9ad8-815934e91e23"
+      ],
+      "echo_records": 3,
+      "echo_sizes_bytes": [
+        5,
+        39,
+        163
+      ],
+      "duplicate_error_pair": {
+        "event_gap": "1 second",
+        "decoded_characters_each": 60,
+        "decoded_sha256": "bbcee0e89be4e5c4c92f20e7d8447620f611eecba91d4839d14e779a968c0736",
+        "network_multiset_equal": true,
+        "recorded_statuses_each": [
+          400,
+          404
+        ]
+      },
+      "assessment": "Three successful document responses return exactly the artifact supplied in their own HTTP-test submission. The duplicate pair repeats one invalid test a second apart, and the remaining record is another error response. Every request is GET-only; no decoded artifact reads a response, no later record uses an earlier record's output and no distinct participant is authenticated.",
+      "classification": "self-echo, duplicate and HTTP-error controls; no foreign-result dependency"
+    },
+    {
+      "id": "decoded_frontier_rotation_check",
+      "method": "Recomputed the successful original-inspection set from the selected, relay, Quidax and every original-*-reviews snapshot, then merged the seven listing snapshots named by data/novelty-comparison-followup.json. Among still-uninspected exact-ID comparison absences, counted decoded hashes not present in any successful original inspection and tested listing-visible submitted host, title and referenced-host markers for Amap, Alibaba, AliCDN, Aliyun, AIHW, Fedresurs and Quidax.",
+      "remaining_unseen_decoded_records": 169,
+      "remaining_unseen_decoded_records_with_known_family_marker": 169,
+      "remaining_unseen_decoded_records_without_known_family_marker": 0,
+      "assessment": "The bounded non-known-family decoded-artifact frontier in these snapshots is exhausted. The remaining unseen decoded hashes all point back to already excluded listing-visible families; treating their new hashes as new swarms would repackage known populations.",
+      "classification": "negative prioritization result; no claim that undecoded or future public records are disproven"
+    },
+    {
+      "id": "legacy_livecodes_crypto_websocket_controls",
+      "report_urls": [
+        "https://urlquery.net/report/d3e9cdfa-2f5e-4e3d-8fe7-d38a43a6db37",
+        "https://urlquery.net/report/ed406ace-b7e1-4c62-a073-d8af5aaeff5f",
+        "https://urlquery.net/report/a470c2a8-2b41-46a2-901f-2ea2c44788ae",
+        "https://urlquery.net/report/8057b88a-092d-4e9d-b051-6bd2cdc48d74",
+        "https://urlquery.net/report/331d3394-41c3-4e4c-9ef9-68c0b7209ed6",
+        "https://urlquery.net/report/dacb6e95-9ecc-4599-9cc2-e3f352d0ec2c",
+        "https://urlquery.net/report/27853f3e-34a4-45ec-9c1c-bb567074c902"
+      ],
+      "four_record_cluster": {
+        "event_range": {
+          "from": "2025-06-16T07:56:11Z",
+          "to": "2025-06-16T08:05:21Z"
+        },
+        "shared_http_response_bytes": 864790,
+        "shared_http_response_sha256": "89f4fa1880b2e37d6b2336e2818b3b28f6ea03e12c2b6e961405b50121944eef",
+        "shared_websocket_upgrade_status": 101,
+        "archived_websocket_body_bytes": 0,
+        "archived_websocket_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "prior_reporting": "A cside article published 2025-07-17 and updated 2026-07-20 identifies the same WebSocket host as command-and-control for a stealth cryptojacking campaign observed on more than 3,500 sites. That report postdates these captures but describes malware and browser mining, not autonomous AI agents."
+      },
+      "stratum_record": {
+        "event_at": "2025-06-16T09:28:29Z",
+        "websocket_upgrade_status": 101,
+        "archived_websocket_body_bytes": 0,
+        "context": "Earnify documentation published 2026-05-26 describes the same endpoint as a shared browser-to-Stratum mining relay that sends work and receives mining shares. The endpoint name and later documentation do not identify the 2025 scanner submitter or establish an AI participant."
+      },
+      "unresolved_placeholder_records": "The two 2025-06-14 captures contact different .server placeholder-shaped hosts and preserve no status, body or frames. They do not identify a sender, recipient or task.",
+      "assessment": "This slice contains real external WebSocket-shaped traffic, but the positive upgrades are mining infrastructure: four records overlap a subsequently reported cryptojacking family and one reaches a documented browser-mining relay. Scanner archives preserve no WebSocket frames, decoded program, model identity, task-result semantics or downstream AI action. A browser process and a mining server are not a rogue AI swarm.",
+      "classification": "known cryptojacking and documented browser-mining controls; non-AI network activity"
+    },
+    {
+      "id": "lorari_measurement_pixel_and_marketing_control",
+      "report_urls": [
+        "https://urlquery.net/report/44f6a013-aa8a-4d04-bd35-2928cde6149b",
+        "https://urlquery.net/report/36051287-81b6-48ef-ba92-c73a18b18577",
+        "https://urlquery.net/report/b2862349-3f78-46fc-9915-b40311773129",
+        "https://urlquery.net/report/70f129a3-825e-4642-b13e-27d7a9eb7417",
+        "https://urlquery.net/report/aa62ceb7-fa7b-437f-bfe8-159b8a040d31",
+        "https://urlquery.net/report/a3355aa3-f5e9-4552-96ee-d28fb5108a62",
+        "https://urlquery.net/report/369cda06-3f28-47b0-b479-e806c6b79b19",
+        "https://urlquery.net/report/b784a769-9a70-4057-9d80-e56f18c0d233"
+      ],
+      "event_range": {
+        "from": "2026-10-05T10:47:46Z",
+        "to": "2026-10-05T17:44:13Z"
+      },
+      "common_recorded_traffic": "All eight records repeat first-party Lorari/edge traffic, Wistia video delivery, a marketing domain, one Appwrite OPTIONS 204 followed by a GET 401, two successful OpenAI CDN asset reads and one OpenAI-domain POST 202. Five records share an identical domain/method/status/resource-type shape; the other three differ only through incomplete or extra media/telemetry requests.",
+      "provider_context": "OpenAI's current Measurement Pixel documentation identifies bzrcdn.openai.com as the SDK source and bzr.openai.com as the event endpoint. This attributes advertising conversion measurement infrastructure, not model execution or an autonomous participant.",
+      "assessment": "The repeated same-page footprint contains no decoded task text, response-reading program, channel, shared state, successful application-data read, transferred result or dependent action. The Appwrite read fails in every record. Repeated telemetry and video traffic explain the cluster without a participant graph.",
+      "classification": "measurement-pixel, marketing-video and denied-backend controls; no model or task exchange"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "successful_records": 36,
+      "decoded_records": 21,
+      "distinct_decoded_hashes": 19,
+      "static_fetch_calls": 0,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_response_reads": 0,
+      "static_task_or_peer_words": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "No archived record preserves an artifact from an independently attributable autonomous sender that a later distinguishable autonomous recipient acquires and uses. The three artifact/body matches are self-echoes in one report each; the two repeated decoded hashes are duplicate test captures; the external WebSocket upgrades are mining controls without frames; and the provider-owned telemetry is an advertising pixel. No task transfer, causal recipient use or operator boundary survives inspection.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "alternatives_tested": [
+    "LiveCodes application, sandbox, asset-CDN and telemetry baseline",
+    "Static snippets with no acquisition or response-use operation",
+    "Duplicate scanner captures at the same timestamp",
+    "HTTP echo, status-code and invalid-request endpoint testing",
+    "Known stealth-cryptomining command-and-control traffic",
+    "Documented browser-to-Stratum mining relay traffic",
+    "Placeholder WebSocket tests with no preserved response",
+    "OpenAI Ads measurement-pixel traffic mistaken for model execution",
+    "Wistia marketing-video traffic and denied Appwrite application reads",
+    "Known Amap/Alibaba decoded families mistaken for new artifact populations"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 36,
+    "previously_published_episode": "The four-record mining cluster overlaps a cryptojacking family publicly described by cside on 2025-07-17, after the June scanner captures. This is a non-AI malware control, not a newly discovered rogue swarm.",
+    "known_published_family_overlap": "cryptojacking overlap only; no overlap with a qualifying AI coordination family",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established for any AI participant; an external report characterizes one separate non-AI cluster as malicious cryptojacking",
+    "provider_attribution": "LiveCodes hosts the sandbox surfaces; OpenAI documentation attributes the Lorari provider-domain traffic to its Ads measurement pixel; Earnify documentation describes the Stratum-named endpoint as shared browser-mining relay infrastructure. None attributes a model or autonomous AI participant.",
+    "ongoing_activity": "not established; no live endpoint was contacted and historical scanner traffic does not prove current operation",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All 36 selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. A scoped prior-reporting check after the original WebSocket trail was developed found cside's 2025 cryptojacking report and current first-party mining and measurement-pixel documentation. Because no AI transfer-and-use chain exists, no broad prior-reporting search for a purported swarm was warranted and no novelty claim is made.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous AI sender and task-bearing result or instruction, a distinguishable recipient that later acquires and causally uses it, and primary provenance showing that the cooperation exceeded an operator-defined authorization boundary. A self-echo, WebSocket upgrade, mining workload, repeated response hash, provider pixel or exact-ID comparison absence does not qualify.",
+  "next_cursor": {
+    "reason": "Rotate away from exhausted non-known-family decoded artifacts, HTTP-test repetition, provider-name telemetry and mining controls into compact same-host clusters whose listing rows contain no decoded source. Cross-record response-hash and destination comparison can test reuse or retries without relying on keyword semantics.",
+    "exact_selection": "Within the seven snapshots named by data/novelty-comparison-followup.json, construct the successful-inspection set from data/selected-report-reviews.json, data/relay-selected-reviews.json, data/quidax-selected-reviews.json and every data/original-*-reviews.json record whose review_status is not a read failure. Select report_url values with in_comparison_dataset=false, absent from that successful set, lacking decoded_sha256, and selected by the exact query `(httpbin.org OR httpbun.com OR livecodes.io) date:[2026-08-01 TO 2026-09-22]`. Exclude submitted hosts equal to or beneath httpbin.org, httpbun.com, httpbingo.org, livecodes.io, appwrite.network or facebook.com, then retain submitted hosts represented at least three times in the remaining set. At this checkpoint the predicate yields exactly 12 reports: three each for service-xoom-be.com, dmv-ca.gnewia.shop, web.vaughanchamber.ca and www.iziko.fr, spanning 2026-08-06T12:36:00Z through 2026-09-19T03:58:00Z.",
+    "records": 12,
+    "distinct_submitted_hosts": 4,
+    "report_urls": [
+      "https://urlquery.net/report/9ce58940-6716-4f30-a803-6161368fb807",
+      "https://urlquery.net/report/43ac1573-21ae-4671-bd0f-54feb64ea866",
+      "https://urlquery.net/report/195b083f-74f2-4378-8222-240415ce1984",
+      "https://urlquery.net/report/17cf425e-37d7-41ff-8556-2ba3bebd9f37",
+      "https://urlquery.net/report/6c18288b-0172-4eca-a80e-23edb9a96cc0",
+      "https://urlquery.net/report/54ff6ba0-6197-4b01-ac54-a99f18d076ac",
+      "https://urlquery.net/report/0e15618c-0a7c-4f3f-b62c-e038092b1c18",
+      "https://urlquery.net/report/95ad4a10-45ca-4072-a56a-314228ee9749",
+      "https://urlquery.net/report/cb17fc14-f086-4f2c-82f4-89113b441aa2",
+      "https://urlquery.net/report/2f9d2aef-d2fe-4c04-97e9-e905c95e5206",
+      "https://urlquery.net/report/00382c14-e4be-4dfd-ace0-106833f449d0",
+      "https://urlquery.net/report/e844c588-1beb-4c7d-9d06-ffb4d8169b48"
+    ],
+    "listing_level_limit": "The selection is based on public listing metadata and repetition only. It does not establish AI identity, common ownership, maliciousness, a transfer edge or novelty.",
+    "advancement_evidence": "A cluster advances only if its existing public report JSON preserves a task-bearing artifact from an independently attributable autonomous AI sender, a later distinguishable recipient acquisition and dependent action, and primary evidence that the cooperation crossed authorization. Shared hosts, response hashes, redirects, phishing cues or scanner retries do not qualify."
+  },
+  "safety": "Only existing public scanner report JSON and public first-party or published contextual pages were read. No carrier, referenced destination, mining relay, WebSocket, live target, recovered code, response body, payload, package, scan, runtime, account, authentication route, message, vote or participant contact was opened, invoked, executed, submitted or replayed. Publication omits raw carrier and request URLs, paths, query values, bodies, headers, credentials, WebSocket frames, submitter identifiers, personal addresses and private logs."
+}

@@ -1,0 +1,1858 @@
+{
+  "collected_at": "2026-10-08T04:38:18Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/d3e9cdfa-2f5e-4e3d-8fe7-d38a43a6db37",
+      "event_at": "2025-06-14T00:59:38Z",
+      "observed_at": "2026-10-08T04:37:34Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "87217db55357ea3fcfb34b2be42844b9364420c6bfbeeac67e635115de4ec9c9",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 27
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "ws1.server",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ed406ace-b7e1-4c62-a073-d8af5aaeff5f",
+      "event_at": "2025-06-14T01:01:15Z",
+      "observed_at": "2026-10-08T04:37:34Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8c6ae869d24e470eec4b17351c1b671853d80b1573cf406b3048835130ba69c5",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 27
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "ws3.server",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a470c2a8-2b41-46a2-901f-2ea2c44788ae",
+      "event_at": "2025-06-16T07:56:11Z",
+      "observed_at": "2026-10-08T04:37:41Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "19242f1d41d079fa439df9a9a216751bb343535113001555f8be651c1428e403",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 26
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "lokilokitwo.de",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "thelifewillbefine.de",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8057b88a-092d-4e9d-b051-6bd2cdc48d74",
+      "event_at": "2025-06-16T07:58:05Z",
+      "observed_at": "2026-10-08T04:37:41Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3bd89333e53094b6a780b4657d90f87733c429728b3ac9bee6fed32e26612204",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 26
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "lokilokitwo.de",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "thelifewillbefine.de",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/331d3394-41c3-4e4c-9ef9-68c0b7209ed6",
+      "event_at": "2025-06-16T07:59:52Z",
+      "observed_at": "2026-10-08T04:37:45Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0fd528817321e69c7431fb4ac476332eaf1052744a4a028b487b89e4a6bb9afc",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 26
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "lokilokitwo.de",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "thelifewillbefine.de",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/dacb6e95-9ecc-4599-9cc2-e3f352d0ec2c",
+      "event_at": "2025-06-16T08:05:21Z",
+      "observed_at": "2026-10-08T04:37:45Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9068d35500fa25ad3f8c33c0f674ec3b8ac1e7cfc7c0b83a44c64e9bec9c1497",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 26
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "lokilokitwo.de",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "thelifewillbefine.de",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/27853f3e-34a4-45ec-9c1c-bb567074c902",
+      "event_at": "2025-06-16T09:28:29Z",
+      "observed_at": "2026-10-08T04:37:50Z",
+      "submitted_host": "v46.livecodes.io",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4f4f3267d038250a37914e1c34593ffb3a0325f647eb3ae542e98f642d2b1d95",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "esm.run",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 16
+        },
+        {
+          "host": "v46.livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "websocket-stratum-server.com",
+          "method": "GET",
+          "status": "101",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/44f6a013-aa8a-4d04-bd35-2928cde6149b",
+      "event_at": "2026-10-05T10:47:46Z",
+      "observed_at": "2026-10-08T04:37:50Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2d22d53b7c8ffa3280a3d83d24172e41e3b42d1cc1ff35c5399af9f757999f71",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "fg8vvsvnieiv3ej16jby.litix.io",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/36051287-81b6-48ef-ba92-c73a18b18577",
+      "event_at": "2026-10-05T11:56:35Z",
+      "observed_at": "2026-10-08T04:37:56Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "579dde2ff69cd1d2c34550d7881547707f7e7fe87b1260bc8ab6839758318f84",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b2862349-3f78-46fc-9915-b40311773129",
+      "event_at": "2026-10-05T13:28:14Z",
+      "observed_at": "2026-10-08T04:37:56Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ac0d27a92f7ee416d3301a61d2979c0b3ac8fb50fd86ccd553fbb2e6b6867570",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 11
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 67
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/70f129a3-825e-4642-b13e-27d7a9eb7417",
+      "event_at": "2026-10-05T13:34:13Z",
+      "observed_at": "2026-10-08T04:38:01Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d8ac6b4bbe7ded0692cb66615005f430f549eb8c1c9fff8d5d38baaf50f7ec8a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 15
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/aa62ceb7-fa7b-437f-bfe8-159b8a040d31",
+      "event_at": "2026-10-05T15:49:27Z",
+      "observed_at": "2026-10-08T04:38:01Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ade1b6ffa1821cb6c8701ee09252de6c76c46e02fb7bd97d8892e97b47c2afe0",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a3355aa3-f5e9-4552-96ee-d28fb5108a62",
+      "event_at": "2026-10-05T16:34:54Z",
+      "observed_at": "2026-10-08T04:38:06Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e2f52029beba726080d7fddc0005c0919c7d9ecc0587d08bab98e25164f202ce",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/369cda06-3f28-47b0-b479-e806c6b79b19",
+      "event_at": "2026-10-05T17:07:44Z",
+      "observed_at": "2026-10-08T04:38:06Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "add437bdb9a7381b1c6b94cb046430f4e13975d2844be39848a54521f237b40a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b784a769-9a70-4057-9d80-e56f18c0d233",
+      "event_at": "2026-10-05T17:44:13Z",
+      "observed_at": "2026-10-08T04:38:11Z",
+      "submitted_host": "www.lorari.com",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0759158ea60324fbec601920d75df238a216891a465bc79c0f745bffb2e75f02",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "appwrite.lorari.com",
+          "method": "GET",
+          "status": "401",
+          "count": 1
+        },
+        {
+          "host": "appwrite.lorari.com",
+          "method": "OPTIONS",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "bzr.openai.com",
+          "method": "POST",
+          "status": "202",
+          "count": 1
+        },
+        {
+          "host": "bzrcdn.openai.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "distillery.wistia.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "edge.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "embed-cloudfront.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "embed-ssl.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fast.wistia.com",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "fast.wistia.net",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "pipedream.wistia.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "sellwithboost.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "200",
+          "count": 68
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "GET",
+          "status": "404",
+          "count": 2
+        },
+        {
+          "host": "www.lorari.com",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

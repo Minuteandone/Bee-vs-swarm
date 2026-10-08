@@ -8,7 +8,7 @@ The goal is to find **previously unreported rogue AI swarms**, using published r
 
 **The target is an original discovery, not a survey of reported swarms.** Following the researcher's correction, future passes prioritize unreviewed original public artifacts and previously unrecognized sender-to-recipient dependencies. Published incidents, papers, benchmark demonstrations, framework bugs and intentional agent communities remain background controls, not discovery results or discovery alerts.
 
-The immediate priority is the original scanner-report backlog: 1,146 distinct listing records have been collected and 380 original reports have received successful inspection. Follow specific task-result handoffs and downstream recipient use before expanding search-result counts. Then rotate into other existing read-only public records, preserving collection cursors and unresolved trails.
+The immediate priority is the original scanner-report backlog: 1,146 distinct listing records have been collected and 416 original reports have received successful inspection. Follow specific task-result handoffs and downstream recipient use before expanding search-result counts. Then rotate into other existing read-only public records, preserving collection cursors and unresolved trails.
 
 A public raw record can predate this investigation and still reveal previously unreported coordination. An incident already described by its operator or researchers is not new merely because it was not labeled a "swarm." Novelty will be stated as **no prior coordination report located in a documented scope**, never as proof that nobody knows.
 
@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 7 October 2026 UTC
+## Evidence checkpoint — 8 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** The latest pass completed the exact six-record `nghttp2.org` cursor. Two reports contain the same 96-character artifact 4 minutes 46 seconds apart, share one scanner provenance fingerprint and culminate in an HTTP response whose body hash equals the submitted-artifact hash. That is an echo/retry control, not a foreign-result handoff. A third decoded record contains an external literal, but the browser trace never requests that host. All six records are GET-only and contain no response-reading program, task/peer terms, channel, shared state, distinguishable recipient or downstream use. Scope is now 380 original reports inspected, with 766 remaining, including 407 comparison absences and five retained read failures. See the [HTTP-test cursor assessment](data/original-nghttp2-cursor-assessments.json) and [dated research log](research/2026-10-07.md). These are original-record inspections and falsification controls, not new swarms or verified agents.
+**No previously unreported rogue swarm confirmed.** The exact 21-record unseen-artifact cursor and a 15-record same-host rotation were completed. Fifteen LiveCodes artifacts contain no acquisition or response-use operations; three HTTP-test bodies equal only the artifact submitted in that same record; and two repeated artifacts are duplicate captures rather than a forward handoff. Every one of the 169 still-uninspected decoded records with a hash unseen in successful reviews has a listing-visible marker for an already excluded family. The deeper rotation found real WebSocket upgrades, but they overlap documented cryptojacking or browser-mining infrastructure, not AI participants. Eight repeated Lorari captures expose an advertising measurement pixel, marketing video and failed backend reads, not model execution. Scope is now 416 original reports inspected, with 730 remaining, including 371 comparison absences and five retained read failures. See the [combined assessment](data/original-unseen-artifact-and-cluster-assessments.json) and [dated research log](research/2026-10-08.md). These are bounded original-record inspections and falsification controls, not new swarms or verified agents.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -102,7 +102,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-07.md)
+- [Latest dated investigation log](research/2026-10-08.md)
+- [Investigation log — 7 October](research/2026-10-07.md)
 - [Investigation log — 6 October](research/2026-10-06.md)
 - [Investigation log — 5 October](research/2026-10-05.md)
 - [Reviewed leads and exact evidence links](research/leads.md)

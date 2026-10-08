@@ -1,0 +1,1838 @@
+{
+  "collected_at": "2026-10-08T04:30:43Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/385018b9-8fa6-4cc9-9dbf-bf247bf735ee",
+      "event_at": "2026-04-27T06:01:11Z",
+      "observed_at": "2026-10-08T04:29:41Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "fcf56bc7b19684072185de94573782e66bb6b88ea70a5804fcb16a95e2f3ebfc",
+      "decoded_characters": 96,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "884ef15c6181ee1f71452de8ff91e4a48aff704cc9b6ba96c47130e48f95f960",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4d0772ef-fa22-4bdf-b2cd-5c2624cec3d6",
+      "event_at": "2026-04-27T06:02:14Z",
+      "observed_at": "2026-10-08T04:29:41Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "242017c9e1ad9a095518c3eaf0a5e929a05af617646761331b3caabad3ce6c4b",
+      "decoded_characters": 79,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6255dcb42d5074a6f1bda10c187d4de9a6ccdb5bb602bc11662924a50c5b3e99",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/84b569bb-fbd3-4749-a37d-ce25ce437ff9",
+      "event_at": "2026-04-30T00:33:35Z",
+      "observed_at": "2026-10-08T04:29:48Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "58c3ebb3b2c68e537eb4d9b096a7c075983e3d02d659e17fe2b384448e7d43bd",
+      "decoded_characters": 17,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f71d71b3bfea4cc3ec9f153bf51900fd41877bce76b2adf80c7cb9397dfb2a22",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9c92c97f-229c-46a9-b146-d8fab200d8aa",
+      "event_at": "2026-05-12T22:51:31Z",
+      "observed_at": "2026-10-08T04:29:48Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "4db7ef630005c462450ea587722b1a7cff53dfdcd35d7dd40bcf8e97e50826ee",
+      "decoded_characters": 14,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fba4272261e335ecfefbc05261317b472edb55a2e14b42d67b048f06d51180c2",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f6aadd70-983d-4e09-904f-de36d4584c9b",
+      "event_at": "2026-05-12T22:55:59Z",
+      "observed_at": "2026-10-08T04:29:54Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "2f903aaa1860620d228551729a1953629bb8f00a6cc1e5be9af89a58fa526a4e",
+      "decoded_characters": 23,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1bae841848eab39558d2122166ab125c1f6ece3a590e2a263d593f43230ca742",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/08ab944f-83a0-4935-8e3b-b550f6afccd5",
+      "event_at": "2026-05-12T23:12:46Z",
+      "observed_at": "2026-10-08T04:29:54Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "a4330800ecd5f78e32ebb63a6e2559eb6c08d483da7c1631885e060f680adba9",
+      "decoded_characters": 104,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e353854644b6bc70f7c30822707f68dc9405ff003af13a7e8be390894b744317",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/43478499-852d-443a-80ea-10a1addcf2a9",
+      "event_at": "2026-05-12T23:13:55Z",
+      "observed_at": "2026-10-08T04:29:59Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "133cbc4b6c0f74294615488449ff18855edecc3c44754696cdd2809c7bc69577",
+      "decoded_characters": 79,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0c11edd2535a79d607cce2e366601abce92ee67ddbcf92476e2f8402f4e161c8",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/efaf4a8f-9140-4b20-b5ac-f32821fe88dd",
+      "event_at": "2026-05-13T22:58:15Z",
+      "observed_at": "2026-10-08T04:29:59Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "0f8ca7467b0a55599c03aad0aed980d35f15acafcfa344cfdcd152af3044f7e8",
+      "decoded_characters": 11,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "91ac198fac2a308fef9488cf31de5bce61dc3518e97ee3da60dd72cd6647996a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7b526f28-4222-4272-8e89-acd253d1a022",
+      "event_at": "2026-05-14T05:01:04Z",
+      "observed_at": "2026-10-08T04:30:06Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "7fab410f82e9556591d8c8895df241768ad4413da131de4d8ce8385d71671a59",
+      "decoded_characters": 66,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a3d88ac2f836b9e5a50c511318402c3b87ad50e4bcf743479b10aad7d365052f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/abcd2809-d6f3-4630-9423-a63f9ac04601",
+      "event_at": "2026-05-14T05:01:04Z",
+      "observed_at": "2026-10-08T04:30:06Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "7fab410f82e9556591d8c8895df241768ad4413da131de4d8ce8385d71671a59",
+      "decoded_characters": 66,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fbd36dfca2c55d577b610f21eaade4c7c5cb3aadc9a19182bcbf49ffa517c602",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/59df9491-dbfc-43b5-beea-e0a5a1c4274a",
+      "event_at": "2026-05-15T06:18:30Z",
+      "observed_at": "2026-10-08T04:30:12Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "b4a9d99e8e7d514414d02956cc601adf4ffa3c51ecc44fe38bb1590bfe99b771",
+      "decoded_characters": 72,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "10ba1010219b58a13004c6b6fb06e0b2b06eaf5d4379e61374d77309782e6c05",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/73c25800-d5a2-4166-b8c9-4e5eee84e38b",
+      "event_at": "2026-06-18T11:52:45Z",
+      "observed_at": "2026-10-08T04:30:12Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "5c9d113cd75ad58afda285ddf222dc31bbdf6c7175e532cafa803d2d5efb174b",
+      "decoded_characters": 48,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ced26b1906d203f77cc74dfa3b0522000e2affa60769bb72d7a5b5a4f5759269",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/fb58bced-0106-4da5-a05e-66f51ac106c1",
+      "event_at": "2026-06-18T12:08:07Z",
+      "observed_at": "2026-10-08T04:30:18Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "1132df198cffdc8d0cb704198ebea827db844ec34546a7e091eac433b0aeb734",
+      "decoded_characters": 111,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "example.com"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d79ece7e003e3476fc6bf5c39e2af849df15e132ffba82bb175d6a93212ca34e",
+      "submitted_reference_domains": [
+        "example.com"
+      ],
+      "expanded_domain_references": [
+        "example.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "example.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a3152a8b-bc8e-40c2-89cf-33c408623c45",
+      "event_at": "2026-06-18T12:24:34Z",
+      "observed_at": "2026-10-08T04:30:18Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "199bcf88fcb49110813ab47d0bb07d07e703463f9a243effe67d4d84b48a0d12",
+      "decoded_characters": 62,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "example.com"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bdff2ed82a3c25954fa7d96349067c5cc2defdee091e73913d0cd619d78bb920",
+      "submitted_reference_domains": [
+        "example.com"
+      ],
+      "expanded_domain_references": [
+        "example.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "example.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7df6997c-a30d-476a-b229-613cd1bffa9d",
+      "event_at": "2026-06-18T12:47:54Z",
+      "observed_at": "2026-10-08T04:30:22Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "3a2703e250c81465c258a3f5bf91fe732e83f31168d353aa9ab0b4142dd9b583",
+      "decoded_characters": 24,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8bc14239cbb8bf93847912feaf4c731b4c68820ba6cde34d50305e93f259b230",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0fc505bd-b07b-4623-b143-a5475bb6e735",
+      "event_at": "2026-06-20T12:19:42Z",
+      "observed_at": "2026-10-08T04:30:22Z",
+      "submitted_host": "httpbingo.org",
+      "decoded_carrier_host": "httpbingo.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "4f769b33d66cd46e6d9f98eae577f1e840dfd930e67e95a1afae787ac2cc1195",
+      "decoded_characters": 163,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "example.com"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "983e83aa4d144b1e9943c3bf0728e0e5d0935723dfaeac055bdc09704bcdd648",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "example.com"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 2,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/5b906aaa-a44c-4274-9e71-b7cfa9184819",
+      "event_at": "2026-06-21T17:28:20Z",
+      "observed_at": "2026-10-08T04:30:28Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "bbcee0e89be4e5c4c92f20e7d8447620f611eecba91d4839d14e779a968c0736",
+      "decoded_characters": 60,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bd3cdd5e6f5c5cc905a71183a475c14589fa328c9e9b0b5ad09df29e9ef7ef35",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7de23710-226b-402c-901a-020d8649c473",
+      "event_at": "2026-06-21T17:28:21Z",
+      "observed_at": "2026-10-08T04:30:28Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "bbcee0e89be4e5c4c92f20e7d8447620f611eecba91d4839d14e779a968c0736",
+      "decoded_characters": 60,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "719c2204c2a4bec8410faf5fb7c728bb69a50c0f0dd9b525a24ec8a7ed2df8fd",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1e6fbedd-b222-45c8-83df-a00fbfb6d1c5",
+      "event_at": "2026-06-21T19:01:19Z",
+      "observed_at": "2026-10-08T04:30:33Z",
+      "submitted_host": "httpbingo.org",
+      "decoded_carrier_host": "httpbingo.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "908cd9244469b7814f6750c9a0c498b41878d240da7aed2a43fef540814ce2fd",
+      "decoded_characters": 39,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "dd70e88d416dc62177a31ce901d493d09a14f764a09d509590a60c5cf4a38dbc",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9632eef9-7574-4a73-84a1-413d7b8910a4",
+      "event_at": "2026-10-01T15:09:56Z",
+      "observed_at": "2026-10-08T04:30:33Z",
+      "submitted_host": "httpbingo.org",
+      "decoded_carrier_host": "httpbingo.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "e2971fb21ffc147fe51c00eeada2bb60eab2cfa7a274be15d593261d1e72a71d",
+      "decoded_characters": 86,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "305dd6e00b22b7dad1bc3600d09cba81c830d4c2cab96483fab9d3514e0b0940",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbingo.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7d355066-ae57-411c-9ad8-815934e91e23",
+      "event_at": "2026-10-04T14:50:07Z",
+      "observed_at": "2026-10-08T04:30:37Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969",
+      "decoded_characters": 5,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "82457cebc95b95e82ce40cc2702faa8f66e2c46d9d415b98c7fd9b814384b93b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

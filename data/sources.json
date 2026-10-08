@@ -1348,6 +1348,75 @@
       "event_at": "2026-06-21T21:10:10Z",
       "observed_at": "2026-10-07T23:22:45Z",
       "report_json_sha256": "799a7140f3f0801af98ee7d9ea82cbf7ffaf77a6840307d4a988b4e9074f0a13"
+    },
+    {
+      "id": "original-unseen-livecodes-duplicate-first-control",
+      "url": "https://urlquery.net/report/7b526f28-4222-4272-8e89-acd253d1a022",
+      "role": "First of two simultaneous LiveCodes captures with the same decoded hash and identical network multiset; no acquisition or response-use operation",
+      "event_at": "2026-05-14T05:01:04Z",
+      "observed_at": "2026-10-08T04:30:06Z",
+      "report_json_sha256": "a3d88ac2f836b9e5a50c511318402c3b87ad50e4bcf743479b10aad7d365052f"
+    },
+    {
+      "id": "original-unseen-livecodes-duplicate-second-control",
+      "url": "https://urlquery.net/report/abcd2809-d6f3-4630-9423-a63f9ac04601",
+      "role": "Second simultaneous copy of the same LiveCodes artifact and network multiset; capture order differs but no sender-recipient dependency is preserved",
+      "event_at": "2026-05-14T05:01:04Z",
+      "observed_at": "2026-10-08T04:30:06Z",
+      "report_json_sha256": "fbd36dfca2c55d577b610f21eaade4c7c5cb3aadc9a19182bcbf49ffa517c602"
+    },
+    {
+      "id": "original-unseen-httpbingo-self-echo-control",
+      "url": "https://urlquery.net/report/0fc505bd-b07b-4623-b143-a5475bb6e735",
+      "role": "Representative HTTP-test record whose response body equals only its own submitted artifact; no foreign-result acquisition or downstream use",
+      "event_at": "2026-06-20T12:19:42Z",
+      "observed_at": "2026-10-08T04:30:22Z",
+      "report_json_sha256": "983e83aa4d144b1e9943c3bf0728e0e5d0935723dfaeac055bdc09704bcdd648"
+    },
+    {
+      "id": "original-legacy-livecodes-cryptomining-control",
+      "url": "https://urlquery.net/report/a470c2a8-2b41-46a2-901f-2ea2c44788ae",
+      "role": "Representative legacy capture from a four-record cluster sharing an HTTP response hash and WebSocket upgrade later associated with published non-AI cryptojacking",
+      "event_at": "2025-06-16T07:56:11Z",
+      "observed_at": "2026-10-08T04:37:41Z",
+      "report_json_sha256": "19242f1d41d079fa439df9a9a216751bb343535113001555f8be651c1428e403"
+    },
+    {
+      "id": "original-legacy-livecodes-stratum-control",
+      "url": "https://urlquery.net/report/27853f3e-34a4-45ec-9c1c-bb567074c902",
+      "role": "Legacy LiveCodes capture with a successful WebSocket upgrade to a domain documented as shared browser-to-Stratum mining infrastructure; no AI task semantics or participant provenance",
+      "event_at": "2025-06-16T09:28:29Z",
+      "observed_at": "2026-10-08T04:37:50Z",
+      "report_json_sha256": "4f4f3267d038250a37914e1c34593ffb3a0325f647eb3ae542e98f642d2b1d95"
+    },
+    {
+      "id": "original-lorari-measurement-pixel-control",
+      "url": "https://urlquery.net/report/36051287-81b6-48ef-ba92-c73a18b18577",
+      "role": "Representative same-day Lorari record with advertising measurement, marketing video and failed application-data reads; no model or task exchange",
+      "event_at": "2026-10-05T11:56:35Z",
+      "observed_at": "2026-10-08T04:37:56Z",
+      "report_json_sha256": "579dde2ff69cd1d2c34550d7881547707f7e7fe87b1260bc8ab6839758318f84"
+    },
+    {
+      "id": "cside-cryptojacking-control",
+      "url": "https://cside.com/blog/cryptojacking-is-dead-long-live-cryptojacking",
+      "role": "Published investigation identifying the legacy WebSocket host as command-and-control for a stealth cryptojacking campaign; non-AI malware context",
+      "published": "2025-07-17",
+      "source_updated_at": "2026-07-20",
+      "observed_at": "2026-10-08T04:39:00Z"
+    },
+    {
+      "id": "earnify-websocket-stratum-control",
+      "url": "https://earnify.cc/blog/zero-server-infrastructure.html",
+      "role": "First-party documentation identifying the named WebSocket endpoint as a shared browser-to-Stratum mining relay, not an AI participant",
+      "published": "2026-05-26",
+      "observed_at": "2026-10-08T04:39:00Z"
+    },
+    {
+      "id": "openai-ads-measurement-pixel-control",
+      "url": "https://developers.openai.com/ads/measurement-pixel",
+      "role": "First-party documentation attributing the provider CDN and event endpoints in the Lorari records to advertising measurement, not model execution",
+      "observed_at": "2026-10-08T04:39:00Z"
     }
   ]
 }

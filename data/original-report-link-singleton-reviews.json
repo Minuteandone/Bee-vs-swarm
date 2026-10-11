@@ -1,0 +1,70 @@
+{
+  "collected_at": "2026-10-11T11:32:59Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/5a4909a1-75df-4d9f-a4fc-887f40ec635e",
+      "event_at": "2026-06-21T17:38:44Z",
+      "observed_at": "2026-10-11T11:32:53Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "5c8f9bf459c58e511553933c5d703dd3b6d2b4e27a2623ecc7192f5ea18ca32a",
+      "decoded_characters": 313,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "urlquery.net"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a943dda585bb4f62fd9dd12ab484e5eb1672001939a3ea97b08a12ad380c3c1b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "urlquery.net"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 1,
+        "iframe_references": 1,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "urlquery.net",
+          "method": "POST",
+          "status": "401",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

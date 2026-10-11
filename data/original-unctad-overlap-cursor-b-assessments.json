@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T11:36:33Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "newly_inspected_unique_urlquery_reports": 18,
+    "successful_original_urlquery_reads": 18,
+    "unctad_cluster_completion_records": 17,
+    "saved_report_reference_singleton_records": 1,
+    "selected_exact_id_comparison_overlaps": 18,
+    "cumulative_inspected_unique_urlquery_reports": 686,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 460,
+    "remaining_uninspected_comparison_absences": 149,
+    "remaining_uninspected_comparison_overlaps": 311,
+    "retained_original_report_read_failures": 0,
+    "exact_public_code_locator_queries": 4,
+    "first_page_locator_entries_screened": 80,
+    "committed_run_shaped_artifacts_read": 2,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact seventeen-record LiveCodes/UNCTAD cursor saved by the prior assessment. Then inspected the sole remaining source-bearing scanner record whose saved listing metadata referenced urlquery itself; it completes a six-record report-reference slice begun on 7 October. Finally used four exact public default-branch code searches only to locate committed JSON/JSONL records, screened their first twenty results apiece, and read the two run-shaped originals that survived path and repository-context triage. This is bounded original-record coverage, not a census or novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-unctad-overlap-cursor-b-reviews.json",
+      "sha256": "3577f6e69e8cf399e4dc662c595b78b3675a5b87fbe30ff8319ea9fb0c8ce83d",
+      "records": 17,
+      "successful_records": 17,
+      "event_range": {
+        "from": "2026-05-01T21:41:31Z",
+        "to": "2026-06-18T10:03:18Z"
+      },
+      "observation_range": {
+        "from": "2026-10-11T11:23:47Z",
+        "to": "2026-10-11T11:24:32Z"
+      }
+    },
+    {
+      "path": "data/original-report-link-singleton-reviews.json",
+      "sha256": "04d2caec856e83fa13489df796bbfa2a7c51248218bf3a47ff74fba8017bc9b2",
+      "records": 1,
+      "successful_records": 1,
+      "event_at": "2026-06-21T17:38:44Z",
+      "observed_at": "2026-10-11T11:32:53Z"
+    }
+  ],
+  "snapshot_limitations": "The sanitized scanner snapshots preserve original public report links, separate event and observation times, report and decoded-source hashes, domain-level traffic and bounded static-operation counts. They omit carrier paths and query values, recovered source, provenance values, bodies, headers, tokens and sink identifiers. Equality of omitted public provenance fields and archived response hashes was compared only to test participant and transfer hypotheses; no identifier value or reversible provenance fingerprint is retained or published.",
+  "assessed_groups": [
+    {
+      "id": "livecodes_unctad_two_submitter_template_and_public_query_control",
+      "records": 47,
+      "cursor_a_records": 30,
+      "cursor_b_records": 17,
+      "event_range": {
+        "from": "2026-04-30T00:35:00Z",
+        "to": "2026-06-18T13:21:44Z"
+      },
+      "observation_range": {
+        "from": "2026-10-11T09:51:37Z",
+        "to": "2026-10-11T11:24:32Z"
+      },
+      "source_structure": {
+        "distinct_decoded_source_hashes": 44,
+        "distinct_original_report_json_hashes": 47,
+        "static_fetch_calls": 24,
+        "static_xhr_calls": 0,
+        "static_socket_calls": 0,
+        "static_explicit_post_methods": 5,
+        "static_explicit_get_methods": 0,
+        "static_response_reads": 16,
+        "static_dom_output_references": 53,
+        "static_json_serializations": 3,
+        "static_timer_references": 6,
+        "static_iframe_references": 4,
+        "static_navigation_assignments": 1,
+        "static_meta_refresh_references": 0,
+        "static_task_or_peer_words": 0,
+        "recorded_channel_references": 0,
+        "recorded_state_references": 0,
+        "referenced_public_report_links": 0
+      },
+      "provenance_equality": {
+        "public_submitter_identity_groups_across_cluster": 2,
+        "cluster_group_sizes": [
+          44,
+          3
+        ],
+        "cursor_b_group_sizes": [
+          14,
+          3
+        ],
+        "cursor_b_scanner_network_origin_group_sizes": [
+          7,
+          6,
+          4
+        ],
+        "cursor_b_scanner_environment_group_sizes": [
+          16,
+          1
+        ],
+        "assessment": "The first cursor's thirty reports and fourteen reports in the completion cursor share one public submitter identity field. Three completion-cursor reports form a second identity group. This corrects the earlier single-submitter description for the complete forty-seven-record cluster, but submitter accounts, network origins and scanner environments do not authenticate autonomous AI trajectories or different operators. Values are not retained or published."
+      },
+      "cursor_b_archived_data_responses": {
+        "records_with_unctad_response_body_hash": 10,
+        "distinct_response_body_hashes": 2,
+        "response_hash_group_sizes": [
+          9,
+          1
+        ],
+        "one_response_hash_shared_across_submitter_groups": true,
+        "response_hash_groups_spanning_multiple_source_hashes": true,
+        "response_body_content_available": false,
+        "assessment": "The shared hash records the same archived public-data response, not authorship, message semantics or acquisition from the other submitter. No completion-cursor source contains a response-read operation, and the archive does not expose the body for a semantic carryover test."
+      },
+      "cross_submitter_chronology": {
+        "cross_group_source_pairs": 42,
+        "pairs_at_or_above_0_72_similarity": 22,
+        "maximum_source_similarity": 0.972,
+        "nearest_later_majority_revision_note": "Each minority source has a later majority-group revision with similarity between 0.957 and 0.972. A later similar revision cannot by itself show that the earlier minority record consumed a majority result.",
+        "preceding_records": [
+          {
+            "report_url": "https://urlquery.net/report/7361fa20-f98f-40c6-a3c3-85372362ff19",
+            "event_at": "2026-05-02T14:30:58Z",
+            "decoded_sha256": "493caf2020eae689c27bbc786280b8a6c2621569fb96705ade6cf9c1a6dfecde",
+            "report_json_sha256": "57355da7fc46a09285993690ec0a1b2cd01300ce6b27add2d8e75e1c6f06f82f",
+            "submitter_group": "majority"
+          },
+          {
+            "report_url": "https://urlquery.net/report/1f5218b7-a7fd-484d-8a00-ae2ba2deb4cd",
+            "event_at": "2026-05-02T14:34:26Z",
+            "decoded_sha256": "8dc1af4284c1796642a10a3f36641da9972bf21f7c00d806da6162cee244454e",
+            "report_json_sha256": "2e718baaf221f9fe461cc0d72318208f5b8e54e54e38acd499b41df5fc934448",
+            "submitter_group": "majority"
+          }
+        ],
+        "minority_sequence": [
+          {
+            "report_url": "https://urlquery.net/report/4d162c90-8349-48d9-9b83-d71a79097798",
+            "event_at": "2026-05-02T15:00:24Z",
+            "decoded_sha256": "8e10f8f55d02838f8b179da09e183e4a87b664c6a819cf859862ca4c6022e9b4",
+            "report_json_sha256": "c479cc2b0f6bc0496143ca8bf7330819c046724cf75b431b15d00bcf97f3c9ef",
+            "nearest_preceding_majority_report": "https://urlquery.net/report/7361fa20-f98f-40c6-a3c3-85372362ff19",
+            "source_similarity": 0.879,
+            "template_similarity": 0.856,
+            "shared_non_url_long_literals": 0,
+            "same_archived_response_hash": true,
+            "identical_archived_request_body": false,
+            "ai_or_model_marker_in_either_source": false
+          },
+          {
+            "report_url": "https://urlquery.net/report/1d70c37b-c50f-4763-9213-ba341ebe12e3",
+            "event_at": "2026-05-02T15:02:10Z",
+            "decoded_sha256": "5bf429f3e928e99f5eda909051b282f2748a36f85f81ecdb11ec05e0067bbf72",
+            "report_json_sha256": "3cac14fd16108219011836402c147e95c33acb493252a79ecbd27403b4473def",
+            "nearest_preceding_majority_report": "https://urlquery.net/report/1f5218b7-a7fd-484d-8a00-ae2ba2deb4cd",
+            "source_similarity": 0.878,
+            "template_similarity": 0.869,
+            "shared_non_url_long_literals": 1,
+            "same_archived_response_hash": false,
+            "identical_archived_request_body": false,
+            "ai_or_model_marker_in_either_source": false
+          },
+          {
+            "report_url": "https://urlquery.net/report/b2c54f23-6abb-4c97-a251-aceac716a827",
+            "event_at": "2026-05-02T15:05:35Z",
+            "decoded_sha256": "875c0cf871e8b7631370000b68f88b3bd77f721a10b4818ba78038e28c18dcb5",
+            "report_json_sha256": "451e61e939427ca8926c3c0c46ee0b04f16e08fb260522baa9dc66a3f93fb9e6",
+            "nearest_preceding_majority_report": "https://urlquery.net/report/1f5218b7-a7fd-484d-8a00-ae2ba2deb4cd",
+            "source_similarity": 0.871,
+            "template_similarity": 0.869,
+            "shared_non_url_long_literals": 2,
+            "same_archived_response_hash": false,
+            "identical_archived_request_body": false,
+            "ai_or_model_marker_in_either_source": false
+          }
+        ],
+        "assessment": "The chronology and source similarity establish a real two-submitter template relationship, but not a task-result dependency. The records do not preserve a sender-produced artifact, recipient acquisition, response-body use or semantic reference to earlier work. One repeated public API response is equally explained by two people or tests querying the same stable dataset."
+      },
+      "transfer_use_assessment": "The seventeen completion records add no fetch, XHR, socket, response-read, explicit method, JSON-serialization, timer, channel, shared-state, public-report-link or task/peer operation. Ten archived requests reach UNCTAD directly, but no later source demonstrably uses an earlier record's output. The full cluster therefore contains two public submitter identity groups and similar templates, not a verified autonomous sender-to-recipient edge.",
+      "participant_evidence": "Two public submitter identity groups are verified as record provenance groups. Zero autonomous AI participants, operators or provider-model trajectories are verified.",
+      "operator_boundary_evidence": false,
+      "provider_attribution": "No AI provider execution is established. LiveCodes is the carrier and UNCTAD is the public data source.",
+      "rogue_intent": "not established; visible behavior is public statistical-data retrieval and presentation",
+      "ongoing_activity": "not established; the records preserve historical events through 18 June 2026 and no live carrier or target was contacted",
+      "classification": "two-submitter common-template and public-query control; no task-result transfer, causal recipient use or rogue-swarm candidate"
+    },
+    {
+      "id": "urlquery_self_submission_duplicate_control",
+      "record": {
+        "report_url": "https://urlquery.net/report/5a4909a1-75df-4d9f-a4fc-887f40ec635e",
+        "event_at": "2026-06-21T17:38:44Z",
+        "observed_at": "2026-10-11T11:32:53Z",
+        "decoded_sha256": "5c8f9bf459c58e511553933c5d703dd3b6d2b4e27a2623ecc7192f5ea18ca32a",
+        "report_json_sha256": "a943dda585bb4f62fd9dd12ab484e5eb1672001939a3ea97b08a12ad380c3c1b"
+      },
+      "matched_prior_record": {
+        "report_url": "https://urlquery.net/report/ece61110-9280-44f7-bab0-8585e5598c43",
+        "event_at": "2026-06-21T17:40:09Z",
+        "report_json_sha256": "a508efa0401fb8718661305b6089f70c7f594c0919463baa3366c36e7ef38ad3"
+      },
+      "event_gap_seconds": 85,
+      "same_decoded_source": true,
+      "same_public_submitter_identity": true,
+      "same_scanner_network_origin": true,
+      "static_form_method": "POST",
+      "form_destination_domain": "urlquery.net",
+      "public_report_locator_in_source": false,
+      "recorded_urlquery_post_status": 401,
+      "recorded_request_body_preserved": false,
+      "response_read_operation": false,
+      "ai_or_task_marker": false,
+      "assessment": "This closes the sixth record in the saved scanner-reference slice. It is an exact-source repeat under the same public submitter and scanner origin, 85 seconds before the already reviewed copy. Both attempts receive the same 401 response and neither names, acquires or uses a public report result. Scanner self-submission or retry is the supported explanation; no foreign-result dependency exists."
+    }
+  ],
+  "locator_rotation": {
+    "observed_at": "2026-10-11T11:36:33Z",
+    "source": "Global default-branch public GitHub code search used only as a locator for committed JSON/JSONL artifacts",
+    "queries": [
+      {
+        "query": "\"tool_result\" \"recipient\" \"timestamp\" extension:jsonl",
+        "reported_total_count": 2432,
+        "first_page_entries_screened": 20
+      },
+      {
+        "query": "\"permission_denied\" \"agent_id\" \"task_id\" extension:jsonl",
+        "reported_total_count": 61,
+        "first_page_entries_screened": 20
+      },
+      {
+        "query": "\"operator_approval\" \"sender\" \"recipient\" extension:json",
+        "reported_total_count": 32,
+        "first_page_entries_screened": 20
+      },
+      {
+        "query": "\"handoff\" \"unauthorized\" \"result\" extension:jsonl",
+        "reported_total_count": 800,
+        "first_page_entries_screened": 20
+      }
+    ],
+    "screening_limit": "Repository and path metadata rejected clearly labeled evaluations, fixtures, schemas, examples, generated contract artifacts, problem sets, ABIs, paper catalogs and designed messaging projects. Search-result counts are locator coverage only. Two run-shaped committed files survived that triage and were read in full.",
+    "retained_controls": [
+      {
+        "id": "spec_kitty_governed_status_event_control",
+        "url": "https://github.com/spec-kitty/spec-kitty/blob/067cff5be75f810788f5be4fbf855c6a83b04f90/kitty-specs/retrospective-default-policy-01KS049J/status.events.jsonl",
+        "git_blob_sha": "cb298511007ba55a81afb69b199014888c4905a8",
+        "event_range": {
+          "from": "2026-05-19T13:44:11.044358+00:00",
+          "to": "2026-05-19T18:05:18.074946+00:00"
+        },
+        "records": 69,
+        "context_url": "https://github.com/spec-kitty/spec-kitty/blob/067cff5be75f810788f5be4fbf855c6a83b04f90/README.md",
+        "assessment": "The file is a real lane-transition audit trail with user, implementer, reviewer, curator, migration and finalization actor labels. Its planned-to-done path and human approval records are the explicit governed workflow described by the pinned README. The two `unauthorized` lexical hits concern an import review and nested review text, not unauthorized cooperation; handoff language occurs in the designed retrospective workflow. Actor labels remain self-asserted, and no rogue transfer/use edge appears."
+      },
+      {
+        "id": "agbrowse_single_session_development_ledger_control",
+        "url": "https://github.com/lidge-jun/agbrowse/blob/a5350886c23c91ce717b07fc27bc10d2b77d4454/.codexclaw/ledger.jsonl",
+        "git_blob_sha": "345c293a6ca9af62b2d1587d3cae71eea027d8b5",
+        "event_range": {
+          "from": "2026-07-05T12:37:20.994Z",
+          "to": "2026-08-18T13:39:08.810Z"
+        },
+        "records": 615,
+        "session_identifiers": 13,
+        "context_url": "https://github.com/lidge-jun/agbrowse/blob/a5350886c23c91ce717b07fc27bc10d2b77d4454/README.md",
+        "assessment": "The ledger records development state-machine transitions, not sender/recipient messages. It has no actor, recipient or tool-result field. Two handoff mentions describe a fail-closed login plan and recheck within one session; the lone unauthorized hit is an npm E401 release failure. Multiple session IDs therefore do not establish multiple autonomous participants or cooperation."
+      }
+    ],
+    "assessment": "No newly retained file combines independently attributable autonomous participants, a task-bearing transfer, causal recipient use and an operator-boundary crossing. The four searches are bounded locator coverage, not evidence that no qualifying artifact exists elsewhere."
+  },
+  "remaining_scanner_backlog_assessment": {
+    "records": 460,
+    "comparison_absences": 149,
+    "comparison_overlaps": 311,
+    "listing_level_result": "After removing the newly inspected singleton, every remaining saved listing record carrying fetch, XHR, response-parsing, peer-language, sink-domain or repeated-request cues is tied by its preserved host references to the already excluded Amap/Alibaba or AIHW families. The remaining no-cue records are dominated by HTTP test services, platform pages and direct service captures already represented by stronger controls. This is a ranking result, not full original inspection or proof of absence.",
+    "rotation_reason": "Do not spend the next pass repackaging known families or low-information HTTP-test bursts. Rotate to committed real-run event artifacts while preserving all 460 records as unresolved backlog."
+  },
+  "alternatives_tested": [
+    "Two submitter accounts mistaken for two autonomous agents",
+    "Shared public statistical responses mistaken for task-result transfers",
+    "Similar templates or revisions mistaken for semantic dependence",
+    "One operator using multiple accounts or copied examples",
+    "Repeated scanner submissions mistaken for distinct participants",
+    "A scanner self-submission form mistaken for a report-to-report handoff",
+    "Designed multi-agent lane transitions mistaken for rogue cooperation",
+    "Session identifiers in a development ledger mistaken for participants",
+    "Authentication and import-review vocabulary mistaken for operator-boundary evidence"
+  ],
+  "evidence_state": {
+    "newly_collected_original_scanner_records": 18,
+    "newly_read_committed_run_shaped_artifacts": 2,
+    "previously_published_scanner_episode": "All eighteen scanner report IDs already occur in the pinned comparison dataset. The pass tested previously unresolved cross-record structure; it did not identify a coordination episode.",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "no AI provider execution established for the scanner cluster; Spec Kitty actor labels are workflow metadata and agbrowse has no actor field",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All eighteen scanner IDs are exact overlaps with the pinned comparison release. The two committed artifacts are original controls inside repositories that explicitly describe the relevant governed workflow or software-development context. Because no sender-to-recipient transfer/use edge and operator-boundary crossing survived inspection, no scoped prior-reporting search for a new coordination episode was warranted. No claim that nobody knows of these records is made.",
+  "advancement_evidence": "A trail advances only with an existing public record that identifies a specific autonomous sender and its task-bearing artifact, a distinguishable recipient's later acquisition and causal use, independent trajectory or operator provenance, and primary evidence that the cooperation itself exceeded an operator-defined authorization boundary. Submitter accounts, session IDs, similar templates, stable public API responses, source revisions, scanner POSTs, authentication errors and designed workflow lanes do not qualify.",
+  "next_cursor": {
+    "reason": "The bounded UNCTAD and scanner-reference clusters are complete, and the remaining scanner records with listing-visible operation cues overlap known Amap/AIHW families. Rotate to narrower field combinations likely to identify committed real-run transfer and policy records rather than another framework or benchmark catalog.",
+    "source": "Global default-branch public GitHub code search used only as a locator",
+    "queries": [
+      "\"source_agent\" \"target_agent\" \"artifact\" \"policy_violation\" extension:jsonl",
+      "\"sender_agent_id\" \"recipient_agent_id\" \"result_hash\" extension:jsonl",
+      "\"approval_denied\" \"handoff\" \"used\" extension:jsonl"
+    ],
+    "page_cursor": "Begin with the first twenty results for each exact query.",
+    "selection_rule": "Retain only immutable committed data from an actual run. Reject source, schemas, documentation, examples, fixtures, generated models, evaluations, benchmarks, designed teams and known incident corpora before developing a candidate.",
+    "advancement_evidence": "Require a specific task-bearing sender artifact, a distinguishable recipient's causal use, independent execution provenance and primary evidence that the cooperation—not merely one action or a scheduler defect—crossed authorization."
+  },
+  "safety": "Only existing public GitHub search results, pinned committed files and existing public urlquery report JSON were read. No carrier, referenced destination, live target, recovered code, response body, payload, package, scan, runtime, account, authentication route, message, vote, inbox or participant contact was opened, invoked, executed, submitted or replayed. Publication omits raw carrier and request URLs, paths, bodies, headers, submitter identifiers, personal addresses, credentials, tokens, sink topics and private logs."
+}

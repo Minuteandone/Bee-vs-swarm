@@ -1,0 +1,1894 @@
+{
+  "collected_at": "2026-10-11T11:24:39Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/d2f52015-3828-44d9-a23d-1d49093b25dd",
+      "event_at": "2026-06-18T10:03:18Z",
+      "observed_at": "2026-10-11T11:23:47Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "afe25442aa6bc19cd6b8d7cd0972c830c104792b94969e0b0c7e4cb5dd93dfe2",
+      "decoded_characters": 266,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2acc1f3de9100b6b037a4084ef67d1e0412d93daf7a591858d1b5262eda17261",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d0a5727d-d35b-42a3-ab8d-25cc00ef5977",
+      "event_at": "2026-05-18T13:25:00Z",
+      "observed_at": "2026-10-11T11:23:47Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "62caa9817015d5e792d0e1ba2556ca07b870012e11f18f58e89647b43d4ae979",
+      "decoded_characters": 249,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5c60cc03146e7f2d16fe8d1b0e6f330124702cc6de325eee8b4c7d4756971421",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ba06e192-3824-4572-9626-ea97d701bd57",
+      "event_at": "2026-05-18T05:21:25Z",
+      "observed_at": "2026-10-11T11:23:56Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "d342bf4e50d8ddc77e511566fae8c945765c05f225265a1d5887d34c08d09f2a",
+      "decoded_characters": 641,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "127c35de5184bde2fa2a203ebfaa2942dbade75e5c6d1cf14a6ef8d3a17d53c3",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7c13febd-4a50-420a-8eb2-2da9f32d4358",
+      "event_at": "2026-05-18T05:14:49Z",
+      "observed_at": "2026-10-11T11:23:58Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "2150dab12bf49e68bca61e514a0eee7a3d1838eb426b63aa6f8704da725e38f9",
+      "decoded_characters": 628,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "50c0c98f0e82f107cacca80298207ffd7af872998126ab2d8cfaacca29ef80df",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/76fe1e44-fd71-4637-9448-de5bd2efb4a4",
+      "event_at": "2026-05-14T05:40:25Z",
+      "observed_at": "2026-10-11T11:24:04Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "1401d41708a951f715c955062f508ca0ce62cff4005dd4ebd4b12fdbabd82805",
+      "decoded_characters": 507,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "84832bc24ff7bd4eeed042e54ace97402e990e435fe16b41e5727e00504d5be0",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9782d233-a42f-4978-8fa5-0bb23f47b68b",
+      "event_at": "2026-05-13T09:20:32Z",
+      "observed_at": "2026-10-11T11:24:04Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "c94abaeeca17b9e5954e1cdbbf5ecb25d9a1abc9a1dadace69f7028a8fdb1307",
+      "decoded_characters": 400,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e97a21b3a40ee0cdfe4549bf121b02c071c2063f838cf71f4138cb958e3dad58",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f7b98811-8841-4589-859b-5a654448006a",
+      "event_at": "2026-05-09T07:02:33Z",
+      "observed_at": "2026-10-11T11:24:09Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "50ffbadad6a4c64c7a6619d6b818907533dcefa3388b44e48c02f0ed084fc5d3",
+      "decoded_characters": 217,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "dccb14f446b2c18a3fbab78198da5294ea60d0101de14f210a79c412999d3f0a",
+      "submitted_reference_domains": [
+        "unctadstat.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 1,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a3895a36-5835-4ec3-aa4d-2dec109780e5",
+      "event_at": "2026-05-09T06:59:13Z",
+      "observed_at": "2026-10-11T11:24:10Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "635b06efd4a6a21f1e436ed254c1a060b54af8be1f5ae60340e959a57318ae8e",
+      "decoded_characters": 287,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6480c7be4eb2dda44bc11337447dec30f5f9e7bcc45c41367b14429d9d65c3e5",
+      "submitted_reference_domains": [
+        "unctadstat.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 1,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "unctadstat.unctad.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b2c54f23-6abb-4c97-a251-aceac716a827",
+      "event_at": "2026-05-02T15:05:35Z",
+      "observed_at": "2026-10-11T11:24:15Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "875c0cf871e8b7631370000b68f88b3bd77f721a10b4818ba78038e28c18dcb5",
+      "decoded_characters": 523,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "451e61e939427ca8926c3c0c46ee0b04f16e08fb260522baa9dc66a3f93fb9e6",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1d70c37b-c50f-4763-9213-ba341ebe12e3",
+      "event_at": "2026-05-02T15:02:10Z",
+      "observed_at": "2026-10-11T11:24:17Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "5bf429f3e928e99f5eda909051b282f2748a36f85f81ecdb11ec05e0067bbf72",
+      "decoded_characters": 521,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3cac14fd16108219011836402c147e95c33acb493252a79ecbd27403b4473def",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4d162c90-8349-48d9-9b83-d71a79097798",
+      "event_at": "2026-05-02T15:00:24Z",
+      "observed_at": "2026-10-11T11:24:20Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "8e10f8f55d02838f8b179da09e183e4a87b664c6a819cf859862ca4c6022e9b4",
+      "decoded_characters": 507,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c479cc2b0f6bc0496143ca8bf7330819c046724cf75b431b15d00bcf97f3c9ef",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1f5218b7-a7fd-484d-8a00-ae2ba2deb4cd",
+      "event_at": "2026-05-02T14:34:26Z",
+      "observed_at": "2026-10-11T11:24:21Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "8dc1af4284c1796642a10a3f36641da9972bf21f7c00d806da6162cee244454e",
+      "decoded_characters": 565,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "2e718baaf221f9fe461cc0d72318208f5b8e54e54e38acd499b41df5fc934448",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/7361fa20-f98f-40c6-a3c3-85372362ff19",
+      "event_at": "2026-05-02T14:30:58Z",
+      "observed_at": "2026-10-11T11:24:25Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "493caf2020eae689c27bbc786280b8a6c2621569fb96705ade6cf9c1a6dfecde",
+      "decoded_characters": 551,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "57355da7fc46a09285993690ec0a1b2cd01300ce6b27add2d8e75e1c6f06f82f",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f5765741-7505-4da1-9620-daaf05461ff6",
+      "event_at": "2026-05-01T21:49:36Z",
+      "observed_at": "2026-10-11T11:24:28Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "87063cf56c00af27a735a9429bc31de3759be9ca177292b3c3f04f9033a4193d",
+      "decoded_characters": 441,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "bd5a0200fe67eb1802ef9e2bcb0dc6c7521d84949031e47ec6b17a0b51c57135",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d4fe84ce-d536-4497-842e-938c10822229",
+      "event_at": "2026-05-01T21:47:28Z",
+      "observed_at": "2026-10-11T11:24:29Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "a6de23a8bcd55fc854ea3ab60c497f6977380c65865b97695fe24db7b485268c",
+      "decoded_characters": 236,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "779c7c86744963b2147143826c558c52006e2f4a9c9a0143fa575a84aff460fe",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a7c139f9-8c51-42f5-abe0-0824d4a35ac0",
+      "event_at": "2026-05-01T21:43:31Z",
+      "observed_at": "2026-10-11T11:24:32Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "f017aeb0faacb4e0c034ef1db305ac7e27a4bd1c65f787b6921b720ecfdfb90a",
+      "decoded_characters": 210,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "12ce507687929b78cd692ac99adba22f5dc2d534eb9b13b728d25e9dc8039147",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e2f6eda0-f377-44a8-9941-13f74395abbc",
+      "event_at": "2026-05-01T21:41:31Z",
+      "observed_at": "2026-10-11T11:24:32Z",
+      "submitted_host": "livecodes.io",
+      "decoded_carrier_host": "livecodes.io",
+      "encoding": "url_query_text",
+      "decoded_sha256": "38691aab2ec9998881e86a61164d9012e823a858896faa29e10e5b5edcb8851b",
+      "decoded_characters": 427,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "unctadstat-api.unctad.org"
+      ],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4e6522441da48d547258f090fbb522a6573219260139a430aa6c0ae8ddbb463b",
+      "submitted_reference_domains": [
+        "unctadstat-api.unctad.org"
+      ],
+      "expanded_domain_references": [
+        "unctadstat-api.unctad.org"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "cdn.jsdelivr.net",
+          "method": "HEAD",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cdnjs.cloudflare.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "OPTIONS",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "cloudflareinsights.com",
+          "method": "POST",
+          "status": "204",
+          "count": 3
+        },
+        {
+          "host": "fonts.googleapis.com",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "fonts.gstatic.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "livecodes-sandbox.pages.dev",
+          "method": "GET",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "200",
+          "count": 12
+        },
+        {
+          "host": "livecodes.io",
+          "method": "GET",
+          "status": "308",
+          "count": 1
+        },
+        {
+          "host": "static.cloudflareinsights.com",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "unctadstat-api.unctad.org",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

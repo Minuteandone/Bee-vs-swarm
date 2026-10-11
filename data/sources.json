@@ -1661,6 +1661,51 @@
       "observed_at": "2026-10-11T09:52:24Z",
       "report_json_sha256": "6fd79aeee08e522ae9f1f9e5273294d29ee6d08d6244a61d6e016092887c4a98",
       "decoded_sha256": "c946233135877afdb9662e5ec9635501fe6fd1052fb749987e67f76aa1114f27"
+    },
+    {
+      "id": "original-unctad-preceding-majority-template-control",
+      "url": "https://urlquery.net/report/7361fa20-f98f-40c6-a3c3-85372362ff19",
+      "role": "Majority-provenance UNCTAD template record preceding the three-record minority sequence; similarity and a shared public-data response do not show transfer or recipient use",
+      "event_at": "2026-05-02T14:30:58Z",
+      "observed_at": "2026-10-11T11:24:25Z",
+      "report_json_sha256": "57355da7fc46a09285993690ec0a1b2cd01300ce6b27add2d8e75e1c6f06f82f",
+      "decoded_sha256": "493caf2020eae689c27bbc786280b8a6c2621569fb96705ade6cf9c1a6dfecde"
+    },
+    {
+      "id": "original-unctad-minority-submitter-template-control",
+      "url": "https://urlquery.net/report/4d162c90-8349-48d9-9b83-d71a79097798",
+      "role": "Representative record from the second public submitter identity group; its similar template and repeated public-data response lack a sender artifact, response use or autonomous recipient",
+      "event_at": "2026-05-02T15:00:24Z",
+      "observed_at": "2026-10-11T11:24:20Z",
+      "report_json_sha256": "c479cc2b0f6bc0496143ca8bf7330819c046724cf75b431b15d00bcf97f3c9ef",
+      "decoded_sha256": "8e10f8f55d02838f8b179da09e183e4a87b664c6a819cf859862ca4c6022e9b4"
+    },
+    {
+      "id": "original-urlquery-self-submission-duplicate-control",
+      "url": "https://urlquery.net/report/5a4909a1-75df-4d9f-a4fc-887f40ec635e",
+      "role": "Final saved scanner-reference record; an exact same-submitter decoded-source repeat whose scanner-directed POST receives 401 and exposes no public report locator or result use",
+      "event_at": "2026-06-21T17:38:44Z",
+      "observed_at": "2026-10-11T11:32:53Z",
+      "report_json_sha256": "a943dda585bb4f62fd9dd12ab484e5eb1672001939a3ea97b08a12ad380c3c1b",
+      "decoded_sha256": "5c8f9bf459c58e511553933c5d703dd3b6d2b4e27a2623ecc7192f5ea18ca32a"
+    },
+    {
+      "id": "original-spec-kitty-governed-status-event-control",
+      "url": "https://github.com/spec-kitty/spec-kitty/blob/067cff5be75f810788f5be4fbf855c6a83b04f90/kitty-specs/retrospective-default-policy-01KS049J/status.events.jsonl",
+      "role": "Pinned 69-record status-transition log from an explicitly governed, human-reviewed multi-agent workflow; actor and handoff labels are designed traffic",
+      "event_at": "2026-05-19T13:44:11.044358+00:00",
+      "event_end_at": "2026-05-19T18:05:18.074946+00:00",
+      "observed_at": "2026-10-11T11:36:33Z",
+      "git_blob_sha": "cb298511007ba55a81afb69b199014888c4905a8"
+    },
+    {
+      "id": "original-agbrowse-development-ledger-control",
+      "url": "https://github.com/lidge-jun/agbrowse/blob/a5350886c23c91ce717b07fc27bc10d2b77d4454/.codexclaw/ledger.jsonl",
+      "role": "Pinned 615-record development state ledger with session IDs but no sender, recipient or tool-result fields; handoff and unauthorized terms resolve to login planning and npm authentication",
+      "event_at": "2026-07-05T12:37:20.994Z",
+      "event_end_at": "2026-08-18T13:39:08.810Z",
+      "observed_at": "2026-10-11T11:36:33Z",
+      "git_blob_sha": "345c293a6ca9af62b2d1587d3cae71eea027d8b5"
     }
   ]
 }

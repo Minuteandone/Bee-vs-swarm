@@ -1573,6 +1573,76 @@
       "event_at": "2026-09-15T00:47:44Z",
       "observed_at": "2026-10-08T15:41:06Z",
       "report_json_sha256": "713e02743309aa93e4a6cd4463cb6ccf023e31a5afd573f46908de9a84724948"
+    },
+    {
+      "id": "original-flywheel-agentmail-designed-team-control",
+      "url": "https://github.com/Dicklesworthstone/flywheel_gateway/blob/f529b0b47d3f4bf15e03263f6c5ecb7b27cdb60d/.agentmail/messages.jsonl",
+      "role": "Committed public broadcast snapshot with concrete cross-agent artifact reuse inside an explicitly designed multi-agent orchestration project; bodies, thread names and addresses are not republished",
+      "event_at": "2026-01-12T06:20:00Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "0c3c5bd313104672fb0b42363f12ef49023b5692"
+    },
+    {
+      "id": "original-flywheel-predecessor-service-commit",
+      "url": "https://github.com/Dicklesworthstone/flywheel_gateway/commit/63a0e30e84389614202d51b668d2471d2c531e9d",
+      "role": "Pinned predecessor service commit later named and verified by a different sender in the public Agent Mail snapshot",
+      "event_at": "2026-01-17T07:38:18Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "commit_sha": "63a0e30e84389614202d51b668d2471d2c531e9d"
+    },
+    {
+      "id": "original-flywheel-inherited-test-commit",
+      "url": "https://github.com/Dicklesworthstone/flywheel_gateway/commit/59419534ea28a05da2e3b3c691303fff5ad78626",
+      "role": "Pinned follow-on commit corroborating a later sender's recorded use of predecessor work and inherited test artifacts in the designed team",
+      "event_at": "2026-01-17T07:50:00Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "commit_sha": "59419534ea28a05da2e3b3c691303fff5ad78626"
+    },
+    {
+      "id": "original-flywheel-designed-system-context",
+      "url": "https://github.com/Dicklesworthstone/flywheel_gateway/blob/f529b0b47d3f4bf15e03263f6c5ecb7b27cdb60d/README.md",
+      "role": "Pinned repository statement that the project is a multi-agent orchestration platform with fleet coordination and cross-agent search, establishing authorization context for the broadcast snapshot",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "b10061c7e7e4d6e79c0532201ed00abd7daf9538"
+    },
+    {
+      "id": "original-devorchestrator-duplicate-launch-structured-evidence",
+      "url": "https://github.com/zhengyi-beijing/DevOrchestrator/blob/1dcbd4c8dab8547919f315662e331dcf6de01301/docs/evidence/P20_4_DIAGNOSIS_SOURCES_20261005.json",
+      "role": "Structured public source bundle preserving one completed Worker, a pending Reviewer and a real no-lineage duplicate Worker launch that failed before producing a downstream-used result",
+      "event_at": "2026-10-04T13:48:58.072508Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "954caff9ce4d8db48b02e0eb049c8ebab2707db5"
+    },
+    {
+      "id": "original-devorchestrator-duplicate-launch-diagnosis",
+      "url": "https://github.com/zhengyi-beijing/DevOrchestrator/blob/1dcbd4c8dab8547919f315662e331dcf6de01301/docs/P20_4_FAILED_RUN_DIAGNOSIS_20261005.md",
+      "role": "Public diagnosis explicitly classifying the second same-task launch as lacking a new owner, remediation or retry lineage while review was pending",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "4a4400c14bd8fa729f1d45aa4ddd33db6b9084d6"
+    },
+    {
+      "id": "original-rco-agent-system-context",
+      "url": "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/docs/agents/AGENT_SYSTEM.md",
+      "role": "Pinned role and authorization specification stating that named agents communicate through handoff files routed by an Orchestrator",
+      "event_at": "2026-05-20T00:00:00Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "6036bf6efed7a305f83ad720e6cd1986b21c66d4"
+    },
+    {
+      "id": "original-rco-designed-handoff-chain-control",
+      "url": "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-01.json",
+      "role": "Representative member of a seven-file diagnosis-to-documentation artifact dependency chain explicitly authorized by the repository's agent system",
+      "event_at": "2026-08-09T11:29:06Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "10642eea34020b3daf94be3d96dd5ed64f7960fd"
+    },
+    {
+      "id": "original-thrum-human-qa-ledger-control",
+      "url": "https://github.com/leonletto/thrum/blob/4cdbe10955ecd2e5eab6a8f8860647f11f586924/website/.beads/backup/events.jsonl",
+      "role": "Public issue-event ledger whose sender and recipient terms occur in one actor's QA descriptions of scripted messaging tests, not in autonomous message records",
+      "event_at": "2026-02-27T13:15:12Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "git_blob_sha": "e71ec6471f0d0f2b7707a3b28e4325a4a9a6f8e3"
     }
   ]
 }

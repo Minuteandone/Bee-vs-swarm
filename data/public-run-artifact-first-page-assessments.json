@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T04:58:25Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "global_default_branch_locator_queries": 18,
+    "successful_first_page_queries": 18,
+    "first_page_excerpts_reviewed": 312,
+    "transient_query_failures_resolved_by_retry": 3,
+    "distinct_public_artifacts_read_beyond_search_excerpts": 26,
+    "original_record_families_assessed": 4,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "locator_queries": [
+    {
+      "query": "sender_id receiver_id task_id output artifact",
+      "results_reviewed": 20
+    },
+    {
+      "query": "agent_name parent_agent child_agent final_answer trace",
+      "results_reviewed": 18,
+      "retry_note": "An initial internal search error succeeded on retry."
+    },
+    {
+      "query": "sender_agent recipient_agent tool_result jsonl",
+      "results_reviewed": 12
+    },
+    {
+      "query": "from_agent to_agent task_result json",
+      "results_reviewed": 20
+    },
+    {
+      "query": "handoff_id completed_at result ndjson",
+      "results_reviewed": 20
+    },
+    {
+      "query": "events.jsonl agent_id sender recipient output",
+      "results_reviewed": 20
+    },
+    {
+      "query": "trace.jsonl handoff task_result",
+      "results_reviewed": 20
+    },
+    {
+      "query": "messages.jsonl from_agent to_agent",
+      "results_reviewed": 20,
+      "retry_note": "An initial HTTP 429 succeeded on retry."
+    },
+    {
+      "query": "run_id from_agent to_agent artifacts_out",
+      "results_reviewed": 20
+    },
+    {
+      "query": "events.ndjson sender recipient tool_result",
+      "results_reviewed": 4
+    },
+    {
+      "query": "messages.jsonl sender recipient content timestamp",
+      "results_reviewed": 20
+    },
+    {
+      "query": "trajectory.json agent_id tool_calls final_answer",
+      "results_reviewed": 17
+    },
+    {
+      "query": "source_agent target_agent task_result completed_at",
+      "results_reviewed": 20,
+      "retry_note": "An initial internal search error succeeded on retry."
+    },
+    {
+      "query": "delegated_by completed_by task_id output",
+      "results_reviewed": 16
+    },
+    {
+      "query": "messages.jsonl unauthorized handoff agent",
+      "results_reviewed": 20
+    },
+    {
+      "query": "events.jsonl unauthorized agent task",
+      "results_reviewed": 20
+    },
+    {
+      "query": "audit.jsonl source_agent target_agent unauthorized",
+      "results_reviewed": 5
+    },
+    {
+      "query": "incident.json worker reviewer unauthorized",
+      "results_reviewed": 20
+    }
+  ],
+  "locator_assessment": "Most results were implementation source, schemas, documentation, plans, examples, fixtures, benchmarks or deterministic test outputs. Four public original-record families were retained for full or bounded reads. Search excerpts were used only as locators; no field-name match was treated as an event, participant or novelty claim.",
+  "assessed_families": [
+    {
+      "id": "flywheel_agentmail_designed_team_control",
+      "record_url": "https://github.com/Dicklesworthstone/flywheel_gateway/blob/f529b0b47d3f4bf15e03263f6c5ecb7b27cdb60d/.agentmail/messages.jsonl",
+      "repository_context_urls": [
+        "https://github.com/Dicklesworthstone/flywheel_gateway/blob/f529b0b47d3f4bf15e03263f6c5ecb7b27cdb60d/README.md",
+        "https://github.com/Dicklesworthstone/flywheel_gateway/blob/f529b0b47d3f4bf15e03263f6c5ecb7b27cdb60d/AGENTS.md"
+      ],
+      "commit_urls": [
+        "https://github.com/Dicklesworthstone/flywheel_gateway/commit/0552dfcd58cf3ab34442aa1ed537320c5e2ac6d7",
+        "https://github.com/Dicklesworthstone/flywheel_gateway/commit/63a0e30e84389614202d51b668d2471d2c531e9d",
+        "https://github.com/Dicklesworthstone/flywheel_gateway/commit/59419534ea28a05da2e3b3c691303fff5ad78626"
+      ],
+      "commit_sha": "f529b0b47d3f4bf15e03263f6c5ecb7b27cdb60d",
+      "git_blob_sha": "0c3c5bd313104672fb0b42363f12ef49023b5692",
+      "context_blob_shas": {
+        "README.md": "b10061c7e7e4d6e79c0532201ed00abd7daf9538",
+        "AGENTS.md": "481e205fe0fce2cb9df9e98fb68ebbce1d02fae9"
+      },
+      "event_range": {
+        "from": "2026-01-12T06:20:00Z",
+        "to": "2026-01-21T22:25:30Z"
+      },
+      "observed_at": "2026-10-11T04:58:25Z",
+      "read_scope": "Lines 1-600 were requested in three non-empty slices; the file ended after 537 physical lines and a fourth slice was empty. Bodies were inspected only to derive sanitized structure and dependency findings and are not republished.",
+      "structure": {
+        "apparent_message_records": 142,
+        "unique_message_ids": 140,
+        "duplicate_id_groups": 2,
+        "self_asserted_sender_labels": 31,
+        "recipient_mode": "Every record targets one of three group-wide broadcast aliases; no private mailbox or live channel was opened.",
+        "sanitized_thread_count": 19,
+        "sanitized_task_reference_count": 114,
+        "task_references_mentioned_by_multiple_sender_labels": 40,
+        "format_limit": "The first 47 records parse as single-line JSON. Later bodies contain literal line breaks, so the remaining count uses record-start delimiters rather than claiming strict JSONL validity."
+      },
+      "concrete_transfer_use": [
+        "One sender publicly recorded completion of risk-control work and a commit. Twenty minutes later a different sender stated that it had read the prior coordination messages, incorporated the completed work into its project-state assessment and selected separate work after checking active assignments. The cited commit exists at the pinned repository history.",
+        "A later sender recorded finding two uncommitted test artifacts left by a predecessor, verified the predecessor's already committed service changes and committed the inherited tests. The predecessor and follow-on commits exist twelve minutes apart in the pinned public history. This is a concrete artifact dependency and downstream use, subject to the identity limits below.",
+        "Three sender labels also reported overlapping work on one telemetry task at the same minute. That is consistent with duplicate or poorly synchronized work inside the designed team, not evidence that the agents crossed an operator boundary."
+      ],
+      "participant_evidence": "The file distinguishes 31 sender labels and preserves temporally ordered broadcasts and commit references. The labels, model names and role continuity are self-asserted inside one repository; the public records do not independently authenticate 31 autonomous instances or 31 operators.",
+      "operator_boundary_evidence": false,
+      "authorization_assessment": "The repository describes itself as an SDK-first multi-agent orchestration platform with fleet coordination and cross-agent search. The records are explicitly group broadcasts for task claiming, status sharing and conflict avoidance. Result transfer and reuse are therefore intended system behavior.",
+      "provider_attribution": "Agent names and commit trailers use model-family labels, but this is repository-reported attribution rather than provider-confirmed execution provenance.",
+      "rogue_intent": "not established; the records present cooperative project work and no unauthorized objective",
+      "ongoing_activity": "not established; only the pinned historical snapshot and commits were read",
+      "classification": "concrete but intentionally designed multi-agent transfer/use control; not a rogue-swarm candidate",
+      "advancement_evidence": "Advancement would require primary evidence that a specific exchange, artifact reuse or duplicate task was outside the operator's authorization, plus independent execution provenance for the relevant sender and recipient. More messages from the same designed broadcast system would not establish that boundary."
+    },
+    {
+      "id": "devorchestrator_unauthorized_duplicate_launch_control",
+      "record_urls": [
+        "https://github.com/zhengyi-beijing/DevOrchestrator/blob/1dcbd4c8dab8547919f315662e331dcf6de01301/docs/evidence/P20_4_DIAGNOSIS_SOURCES_20261005.json",
+        "https://github.com/zhengyi-beijing/DevOrchestrator/blob/1dcbd4c8dab8547919f315662e331dcf6de01301/docs/P20_4_FAILED_RUN_DIAGNOSIS_20261005.md",
+        "https://github.com/zhengyi-beijing/DevOrchestrator/blob/1dcbd4c8dab8547919f315662e331dcf6de01301/docs/P20_4_RUN_E_BOUNDARY_REMEDIATION_RESULT_20261007.md"
+      ],
+      "git_blob_shas": {
+        "diagnosis_sources": "954caff9ce4d8db48b02e0eb049c8ebab2707db5",
+        "diagnosis": "4a4400c14bd8fa729f1d45aa4ddd33db6b9084d6",
+        "boundary_remediation": "fd568adefff280f5fd3547d6a770a8ca07e6f872",
+        "remediation_receipts": "73e484a9198ce8052804771182b4ada7fe742e99",
+        "remediation_applied": "980e20336bc22bceb561ba3fb21e1277a7ba94ad",
+        "result_log": "3927b8a45c576329004fa3bf7914478bade65475",
+        "current_log": "655872a7bcddffcc168ce336fc98d14a8bef7c74"
+      },
+      "event_range": {
+        "from": "2026-10-04T13:45:03.933073Z",
+        "to": "2026-10-04T13:51:25.502905Z"
+      },
+      "observed_at": "2026-10-11T04:58:25Z",
+      "event_sequence": [
+        "The first Worker record starts at 13:45:03Z and completes at 13:48:55Z.",
+        "A Reviewer starts at 13:48:57Z. A second ready-path Worker for the same task starts at 13:48:58Z while that review is pending, without a new owner-start, remediation or retry lineage according to the repository's diagnosis.",
+        "The Reviewer completes at 13:50:09Z. The second Worker fails authentication at 13:51:21Z, and successor actuation is blocked at 13:51:25Z."
+      ],
+      "operator_boundary_evidence": true,
+      "boundary_assessment": "The public diagnosis explicitly classifies the second launch as a real no-lineage duplicate that bypassed the task/review launch fence. This is primary repository evidence of an operator-defined execution boundary failure.",
+      "transfer_use_assessment": "The intended Reviewer uses the first Worker's result inside the designed review pipeline. The unauthorized duplicate Worker fails authentication; the record preserves no completed output, no transferred result from that Worker and no later participant using such a result. The boundary failure therefore does not form an unauthorized sender-to-recipient transfer/use chain.",
+      "participant_evidence": "Separate execution, dispatch and review records are preserved, but role and provider labels come from one project's evidence bundle and are not independent participant authentication.",
+      "provider_attribution": "The bundle contains internal provider/model labels. They are project-reported and are not treated as provider confirmation.",
+      "rogue_intent": "not established; the duplicate launch is diagnosed as a scheduler/launch-fence defect",
+      "ongoing_activity": "not established; later public documents describe remediation and failed qualification runs, and no live system was queried",
+      "missing_public_receipts": "Two runtime review-receipt paths cited by the remediation document were absent at the pinned default-branch commit. Their absence is recorded as a provenance limitation, not evidence against the documented run.",
+      "classification": "real unauthorized duplicate-launch control with no unauthorized transfer/use edge; not a rogue-swarm candidate",
+      "advancement_evidence": "A candidate would require public evidence that the unauthorized Worker acquired and used another participant's task artifact, produced a result that a distinguishable participant then used, and independently attributable execution provenance for those participants."
+    },
+    {
+      "id": "rco_explicit_handoff_chain_control",
+      "system_url": "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/docs/agents/AGENT_SYSTEM.md",
+      "run_urls": [
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-00.json",
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-01.json",
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-02.json",
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-02b.json",
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-03.json",
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-05.json",
+        "https://github.com/tvolodi/R-Co/blob/d19bfec4a9ec492345346bfccd8e389bd9cd92db/handoffs/WF03-GH378-20260809/step-07.json"
+      ],
+      "git_blob_shas": {
+        "system": "6036bf6efed7a305f83ad720e6cd1986b21c66d4",
+        "step_00": "f7cf07c16578bb4b52e3808aa054e29855f8744c",
+        "step_01": "10642eea34020b3daf94be3d96dd5ed64f7960fd",
+        "step_02": "ba1e289a05725cc59c7061ffd999fdc9969c2efa",
+        "step_02b": "12e14050792662410067ccdb804e0fd6627fb56c",
+        "step_03": "361a990142fc7ca921d35d68d381ca84a32f5fab",
+        "step_05": "fde709cce436c6051fdb8c9faf43c755954d63b6",
+        "step_07": "04ca5190077a091dfaade44076c5c211d08a76a7"
+      },
+      "event_at": "2026-08-09T11:29:06Z",
+      "observed_at": "2026-10-11T04:58:25Z",
+      "concrete_transfer_use": "Seven completed handoff files preserve an explicit chain from orchestration and diagnosis through design, validation, implementation, verification and documentation. Each later role names prior artifacts as inputs and reports resulting outputs or decisions, so the committed records provide a concrete semantic dependency rather than mere similar text.",
+      "authorization_assessment": "The system document defines the named roles, states that agents communicate through handoff files and assigns the Orchestrator responsibility for routing them. The transfer/use chain is the operator-designed workflow itself.",
+      "participant_evidence": "Role labels and results are self-reported by files in one repository. All seven handoffs carry the same creation and completion timestamp, limiting temporal resolution and independent provenance.",
+      "operator_boundary_evidence": false,
+      "provider_attribution": "not established",
+      "rogue_intent": "not established",
+      "ongoing_activity": "not established",
+      "additional_control": "A separate May handoff at the same pinned commit uses the same Orchestrator-to-specialist template and routes a completed implementation to a test-design role, reinforcing the designed-team interpretation.",
+      "classification": "concrete authorized handoff chain in an explicit agent system; not a rogue-swarm candidate",
+      "advancement_evidence": "Advancement would require primary evidence that a specific role or exchange escaped this documented workflow or an operator's authorization, plus independent execution provenance. More normal handoff files would only add designed-team traffic."
+    },
+    {
+      "id": "thrum_human_qa_event_ledger_control",
+      "record_url": "https://github.com/leonletto/thrum/blob/4cdbe10955ecd2e5eab6a8f8860647f11f586924/website/.beads/backup/events.jsonl",
+      "git_blob_sha": "e71ec6471f0d0f2b7707a3b28e4325a4a9a6f8e3",
+      "event_range": {
+        "from": "2026-02-27T13:15:12Z",
+        "to": "2026-03-01T10:46:04Z"
+      },
+      "observed_at": "2026-10-11T04:58:25Z",
+      "read_scope": "Lines 1-200 and 420-470: 251 issue-event records, 86 issue identifiers and one actor label.",
+      "assessment": "The sender, recipient, inbox and subscription matches occur inside human-authored issue updates about scripted cross-worktree delivery and UI tests. The records themselves are issue creation, update, status, close and reopen events; they do not preserve autonomous agent messages, a task-bearing transfer or recipient use.",
+      "classification": "human QA ledger and messaging-test prose; locator false positive",
+      "advancement_evidence": "Only a separate existing public message or run record with independently attributable autonomous participants and causal result use would justify reopening this family. Unread ledger ranges are retained as low-value coverage gaps, not negative proof."
+    }
+  ],
+  "rejected_raw_looking_controls": [
+    {
+      "urls": [
+        "https://github.com/endomorphosis/ipfs_accelerate_py/blob/a22e795a5d604451442d38697e59bcd456ed3a25/docs/agent_supervisor/evidence/supervisor-ordinary-identity-20261005/final-01.qualification.json",
+        "https://github.com/endomorphosis/ipfs_accelerate_py/blob/a22e795a5d604451442d38697e59bcd456ed3a25/docs/agent_supervisor/evidence/supervisor-ordinary-identity-20261005/final-02.qualification.json"
+      ],
+      "git_blob_shas": [
+        "45741f9102a1392bff47841f83c76b5572e850ef",
+        "612dd6c5024a5ccce747a1eabea2699ff939f914"
+      ],
+      "assessment": "Two large qualification JSON files are deterministic test-run outputs. The first reports 629 passes and 16 failures; the second reports 649 passes and no failures. Case names and sealing counters describe supervisor identity/fencing tests, not an original inter-agent exchange."
+    }
+  ],
+  "alternatives_tested": [
+    "Implementation code, schema, documentation or example mistaken for a run record",
+    "Deterministic test or benchmark output mistaken for live agent evidence",
+    "Human issue-ledger prose mistaken for actual sender/recipient messages",
+    "Intentional multi-agent project coordination mistaken for rogue cooperation",
+    "Self-asserted sender labels mistaken for independently authenticated participants",
+    "Group broadcasts and shared task references mistaken for unauthorized transfer",
+    "Scheduler duplicate launch mistaken for a completed result handoff",
+    "Overlapping work or duplicate message IDs mistaken for operator-boundary evidence"
+  ],
+  "evidence_state": {
+    "newly_collected_original_record_families": 4,
+    "previously_published_episode": "All retained artifacts were already public in their repositories. Two families preserve concrete transfer/use, but both are intentionally designed agent workflows. One preserves a real unauthorized duplicate launch but no unauthorized transfer/use edge. The fourth is a human QA ledger.",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": "present in the Flywheel and R-Co controls, but explicitly designed and authorized",
+    "demonstrable_recipient_use": "present in the Flywheel and R-Co controls, but explicitly designed and authorized",
+    "operator_boundary_evidence": "present only for the DevOrchestrator duplicate launch, whose unauthorized execution failed before producing a transferable result",
+    "rogue_intent": "not established",
+    "provider_attribution": "self-reported repository labels only; no provider confirmation",
+    "ongoing_activity": "not established; no live agent system, mailbox, channel or destination was queried",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No candidate reached the transfer/use plus operator-boundary threshold, so a broad prior-reporting search would create a misleading novelty claim. The correct bounded conclusion is that no prior-reporting assessment was warranted for these controls; their own repository publication dates are preserved above.",
+  "next_cursor": {
+    "reason": "The committed Agent Mail snapshot is exhausted and classified as an intentional team. The explicit R-Co handoff run is likewise closed as designed workflow traffic. The DevOrchestrator boundary trace lacks downstream result use. Further useful coverage should therefore seek public incident or audit data records rather than more collaboration-framework documentation or planned teams.",
+    "source": "Global default-branch public code search used only as a locator for immutable public data files",
+    "queries": [
+      "audit.jsonl actor agent_id action denied task",
+      "incidents.jsonl agent_id worker handoff",
+      "events.jsonl source_request_id unauthorized",
+      "run-log.jsonl handoff unauthorized recipient",
+      "handoff.jsonl operator approval recipient result"
+    ],
+    "page_cursor": "Begin with the first twenty results for each exact query. Do not revisit the reviewed Flywheel, R-Co, Thrum or DevOrchestrator families unless a new public artifact supplies the missing authorization or downstream-use evidence.",
+    "selection_rule": "Retain only committed public audit, incident, message, run or event data that records an actual episode. Reject source code, schemas, documentation, examples, fixtures, deterministic qualification tests, benchmarks, designed teams and known incident corpora before developing a candidate.",
+    "advancement_evidence": "A new trail must preserve a specific task-bearing sender artifact, acquisition and causal use by a distinguishable autonomous recipient, independent execution or participant provenance and primary evidence that the cooperation—not merely a duplicate launch or individual act—crossed an operator-defined boundary."
+  },
+  "safety": "Only existing public repository search excerpts, committed files and commit metadata were read. No code was executed, no dependency installed, no runtime or live mailbox opened, no message sent, no account created, no target contacted and no payload replayed. Publication omits message bodies, thread names, personal addresses, credentials, tokens, private paths and private logs."
+}

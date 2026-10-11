@@ -1540,6 +1540,39 @@
       "observed_at": "2026-10-08T10:53:41Z",
       "report_json_sha256": "66e91569e4081543af4bee8df5e632ff974a01608bdc1b2e524c2bc3cd39ef56",
       "decoded_sha256": "8bb19e3e32475f1017492a23c3e178b07e06d87c69f3fcd916db12e82749dcd9"
+    },
+    {
+      "id": "original-livecodes-listing-contamination-remainder-control",
+      "url": "https://urlquery.net/report/cd6da151-a5d9-438c-b2b8-2b43dac10481",
+      "role": "Representative third-party listing match with no decoded carrier or recorded LiveCodes request; unrelated site traffic does not preserve a task exchange",
+      "event_at": "2025-06-16T07:58:23Z",
+      "observed_at": "2026-10-08T15:33:12Z",
+      "report_json_sha256": "9d4579f909a2b698dd8a8f8b7153d13c4dc7ecca11cf3f2edd586973082270bd"
+    },
+    {
+      "id": "original-amap-source-remainder-control",
+      "url": "https://urlquery.net/report/20d6733f-0e15-4bb8-9289-edfc43b88268",
+      "role": "Representative saved-cursor source with proxy/test references but original-report evidence tying the decoded program to the known Amap/Alibaba family; no distinct recipient use",
+      "event_at": "2026-10-04T13:24:09Z",
+      "observed_at": "2026-10-08T15:34:21Z",
+      "report_json_sha256": "b5909e340d46ef31291cb9fc7f996868e8688dab5e4dfe61cc81b2345ebe9e6c",
+      "decoded_sha256": "32df0f89daac93c3bc187cf1891944dbb461ab4ecc323484130b857de8b4f60f"
+    },
+    {
+      "id": "original-undecoded-amap-httpbingo-fingerprint-control",
+      "url": "https://urlquery.net/report/0b2451cb-fac4-456d-a1df-33f625161d2a",
+      "role": "Representative undecoded Amap-linked record in the 26-report repeated GET-only HTTPBingo fingerprint; no task artifact, response use or channel",
+      "event_at": "2026-10-04T09:30:28Z",
+      "observed_at": "2026-10-08T15:38:43Z",
+      "report_json_sha256": "a9332f3350f11a887f080ff78058db0634056747fbe1833d313ee832fabf096a"
+    },
+    {
+      "id": "original-undecoded-httpbin-fingerprint-control",
+      "url": "https://urlquery.net/report/297a00e9-7ca3-43c9-8d30-51f8f71eb697",
+      "role": "Representative source-free GET-only HTTPBin 200/404 record in the closed undecoded test-service remainder; no sender, recipient or downstream use",
+      "event_at": "2026-09-15T00:47:44Z",
+      "observed_at": "2026-10-08T15:41:06Z",
+      "report_json_sha256": "713e02743309aa93e4a6cd4463cb6ccf023e31a5afd573f46908de9a84724948"
     }
   ]
 }

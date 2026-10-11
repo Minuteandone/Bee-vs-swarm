@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T04:25:32Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 84,
+    "successful_original_reads": 84,
+    "selected_exact_id_comparison_absences": 84,
+    "saved_cursor_records": 30,
+    "undecoded_amap_linked_http_test_cluster_records": 30,
+    "undecoded_http_test_remainder_records": 24,
+    "cumulative_inspected_unique_urlquery_reports": 638,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 508,
+    "remaining_uninspected_comparison_absences": 149,
+    "remaining_uninspected_comparison_overlaps": 359,
+    "read_failures_retained_as_cursors": 0,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Completed the exact thirty-record cursor saved by the prior assessment, then ranked the untouched original-report backlog for transfer/use structure rather than taking more search-result summaries. Every remaining high-cue exact-ID comparison absence was tied by its saved record to the already excluded Amap family. Thirty undecoded Amap-linked HTTP-test records and the complete twenty-four-record non-platform undecoded HTTP-test remainder were therefore read to distinguish a hidden exchange from scanner/test repetition and to close that bounded branch. This is original-record coverage and falsification, not participant attribution or a novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-livecodes-contamination-and-source-cursor-reviews.json",
+      "sha256": "561c93987a8e766429151eeee0d29b185ac0bda952a5cba75e4825ba071aab22",
+      "records": 30,
+      "successful_records": 30,
+      "event_range": {
+        "from": "2025-06-16T07:58:05Z",
+        "to": "2026-10-05T14:50:34Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T15:33:12Z",
+        "to": "2026-10-08T15:34:47Z"
+      }
+    },
+    {
+      "path": "data/original-undecoded-http-test-cluster-reviews.json",
+      "sha256": "ca4942cc23452472a9457e549b9625c8aef3a307ea41f59b046cde85d45ff5d5",
+      "records": 30,
+      "successful_records": 30,
+      "event_range": {
+        "from": "2026-10-04T07:29:03Z",
+        "to": "2026-10-04T19:38:56Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T15:38:43Z",
+        "to": "2026-10-08T15:40:11Z"
+      }
+    },
+    {
+      "path": "data/original-undecoded-http-test-remainder-reviews.json",
+      "sha256": "a7d18a15a2f9eb99b09a206cbe38fde0469ce332428d62da304ed5674773fd32",
+      "records": 24,
+      "successful_records": 24,
+      "event_range": {
+        "from": "2026-06-20T20:14:31Z",
+        "to": "2026-10-04T15:57:14Z"
+      },
+      "observation_range": {
+        "from": "2026-10-08T15:40:59Z",
+        "to": "2026-10-08T15:42:08Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve existing public report links, separate event and observation times, original-report and decoded-artifact hashes, domain-level traffic, submitted-reference domains and bounded static-operation counts. They omit submitted paths and query values, request and response bodies, headers, submitter identifiers and recovered source. A reference or network fingerprint cannot authenticate an autonomous participant, and an archived request does not establish task semantics or recipient use.",
+  "assessed_groups_overlap": false,
+  "assessed_groups": [
+    {
+      "id": "remaining_listing_contamination",
+      "records": 21,
+      "report_urls_are_preserved_in": [
+        "data/original-livecodes-contamination-and-source-cursor-reviews.json"
+      ],
+      "decoded_records": 0,
+      "records_with_recorded_livecodes_or_sandbox_requests": 0,
+      "records_with_non_get_traffic": 9,
+      "static_task_or_peer_word_matches": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "The remaining third-party records located by the saved `livecodes.io` listing query contain no decoded carrier and no recorded LiveCodes or sandbox request. Their 2025 traffic consists of unrelated pages, redirects, parking, login, advertising, analytics and ordinary application activity. Non-GET browser traffic is present in nine records, but no preserved body, task result, response-use operation or second autonomous trajectory ties it to the locator or to another record.",
+      "classification": "search-index contamination and unrelated site traffic; no transfer/use edge"
+    },
+    {
+      "id": "saved_source_bearing_remainder",
+      "records": 9,
+      "report_urls_are_preserved_in": [
+        "data/original-livecodes-contamination-and-source-cursor-reviews.json"
+      ],
+      "decoded_records": 9,
+      "unique_decoded_hashes": 9,
+      "records_with_amap_or_alibaba_references_or_traffic": 9,
+      "static_fetch_calls": 3,
+      "static_xhr_calls": 7,
+      "static_socket_calls": 0,
+      "static_explicit_post_methods": 0,
+      "static_response_reads": 3,
+      "static_task_or_peer_word_matches": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "All nine source-bearing records expose Amap, Alibaba, AliCDN, Aliapp or Taobao in submitted references, decoded references or recorded traffic. The three response-reading operations occur inside those known-family retrieval programs; there is no channel, shared state, task vocabulary, public-report link or artifact used by a distinguishable recipient. Unique hashes do not make nine participants or a separate population.",
+      "classification": "known Amap/Alibaba family remainder; not a new episode or population"
+    },
+    {
+      "id": "undecoded_amap_linked_http_test_cluster",
+      "records": 30,
+      "report_urls_are_preserved_in": [
+        "data/original-undecoded-http-test-cluster-reviews.json"
+      ],
+      "decoded_records": 0,
+      "records_with_amap_submitted_references": 30,
+      "records_with_identical_httpbingo_get_403_404_fingerprint": 26,
+      "records_with_non_get_traffic": 2,
+      "static_fetch_calls": 0,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_response_reads": 0,
+      "static_task_or_peer_word_matches": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "All thirty records carry a submitted reference to the already excluded Amap family. Twenty-six collapse to the same two-request GET-only HTTPBingo 403/404 fingerprint. The other four record an Amap redirect or Amap/Alibaba browser traffic; the only non-GET requests are analytics-shaped POSTs within that traffic. No decoded content, task artifact, response-use operation, channel or state edge survives.",
+      "classification": "known-family scanner/test retries and browser captures; no participant dependency"
+    },
+    {
+      "id": "undecoded_http_test_remainder",
+      "records": 24,
+      "report_urls_are_preserved_in": [
+        "data/original-undecoded-http-test-remainder-reviews.json"
+      ],
+      "decoded_records": 0,
+      "records_with_non_get_traffic": 0,
+      "records_in_five_repeated_get_only_fingerprints": 21,
+      "fingerprint_counts": {
+        "httpbin_get_200_404": 5,
+        "httpbingo_get_403_404": 5,
+        "httpbun_six_get_200": 5,
+        "httpbingo_get_200_404": 4,
+        "httpbingo_get_400_404": 2
+      },
+      "other_records": "One ordinary example redirect, one ordinary HTTPBin page with font assets, and one direct known Amap trace.",
+      "static_fetch_calls": 0,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_response_reads": 0,
+      "static_task_or_peer_word_matches": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "assessment": "Repeated GET-only test-service fingerprints explain twenty-one records without invoking a handoff. The other three are an ordinary redirect, an ordinary public test page and a known Amap trace. Submitted references to public test services or Amap are locators, not evidence of a produced task result, a recipient acquisition or dependent work.",
+      "classification": "undecoded HTTP-test and known-family controls; bounded branch exhausted"
+    },
+    {
+      "id": "raw_artifact_locator_rotation",
+      "source": "Global default-branch public code search used only to locate committed event records",
+      "successful_queries": [
+        {
+          "query": "agent_id recipient_id message_type result timestamp",
+          "excerpts_reviewed": 20
+        },
+        {
+          "query": "from_agent to_agent handoff_id completed_at",
+          "excerpts_reviewed": 20
+        },
+        {
+          "query": "trajectory_id agent_id tool_calls final_answer",
+          "excerpts_reviewed": 20
+        }
+      ],
+      "transiently_unavailable_queries": [
+        "sender_id receiver_id task_id output artifact",
+        "agent_name parent_agent child_agent final_answer trace"
+      ],
+      "assessment": "The sixty returned excerpts were implementation code, schemas, documentation, examples, fixtures, synthetic tests or benchmark material. None was a committed real-run sender-to-recipient event artifact showing downstream use. The two transient query errors remain unresolved cursors rather than negative findings.",
+      "classification": "bounded locator coverage; no original exchange located"
+    },
+    {
+      "id": "batch_wide_transfer_test",
+      "successful_records": 84,
+      "decoded_records": 9,
+      "static_fetch_calls": 3,
+      "static_xhr_calls": 7,
+      "static_socket_calls": 0,
+      "static_explicit_post_methods": 0,
+      "static_response_reads": 3,
+      "static_task_or_peer_word_matches": 0,
+      "recorded_channel_references": 0,
+      "recorded_state_references": 0,
+      "referenced_public_report_links": 0,
+      "assessment": "No record preserves a task-bearing artifact from an independently attributable autonomous sender that a distinguishable autonomous recipient acquires and causally uses. Apparent relationships reduce to search-index contamination, HTTP-test repetition, scanner/test retries or the known Amap/Alibaba family. No operator-boundary evidence survives inspection.",
+      "classification": "negative bounded cursor result; no candidate and no claim that the wider backlog is disproven"
+    }
+  ],
+  "backlog_state": {
+    "remaining_uninspected_reports": 508,
+    "remaining_exact_id_comparison_absences": 149,
+    "remaining_comparison_overlaps": 359,
+    "high_transfer_cue_absences": "Every remaining absence ranked by preserved fetch/response-use or channel/state cues is linked by its saved record to the already excluded Amap family.",
+    "undecoded_absence_remainder": "Nineteen no-decode comparison absences remain: seventeen saved cohort-query Appwrite/Facebook platform records, one DseWiki exclusion and one direct Amap locator. They are retained as low-priority controls rather than discovery candidates.",
+    "limitation": "Ranking and family markers are prioritization evidence, not proof that an uninspected record cannot contain relevant context. A record should be reopened only for specific new sender/recipient, downstream-use or provenance evidence."
+  },
+  "alternatives_tested": [
+    "Search-index contamination",
+    "Unrelated ordinary site, advertising, login and analytics traffic",
+    "Intentional LiveCodes site and sandbox",
+    "Known Amap/Alibaba retrieval programs",
+    "Scanner retries and duplicate HTTP-test submissions",
+    "Repeated public HTTP-test fingerprints",
+    "Ordinary redirect and page-load controls",
+    "Analytics POSTs mistaken for inter-agent messages",
+    "Implementation code, schemas, examples, fixtures and benchmark traces mistaken for real-run event records"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 84,
+    "previously_published_episode": "No qualifying episode was developed. Thirty-nine records overlap the already excluded Amap family; the others are listing contamination or test-service and ordinary-page controls.",
+    "known_published_family_overlap": "Amap/Alibaba family plus intentional LiveCodes and HTTP-test controls",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established for any AI participant",
+    "provider_attribution": "not established; visible platform and provider infrastructure does not authenticate model execution or autonomous AI participants",
+    "ongoing_activity": "not established; historical scanner traffic does not prove current operation and no live destination was contacted",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All eighty-four selected report IDs are absent from the pinned comparison release, but exact-ID absence is only a dataset fact. Thirty-nine resolve to the existing Amap exclusion and the rest lack a transfer-and-use chain. Because no putative swarm episode was developed, a broad prior-reporting claim would be misleading. No prior coordination report was sought or claimed for these controls.",
+  "advancement_evidence": "Any trail in this batch advances only if an already public original artifact identifies a specific autonomous AI sender and task-bearing result or instruction, a distinguishable recipient that later acquires and causally uses it, and primary provenance showing that the cooperation exceeded an operator-defined authorization boundary. A search hit, submitted reference, repeated GET fingerprint, analytics POST, provider domain, code example or exact-ID comparison absence does not qualify.",
+  "next_cursor": {
+    "reason": "The saved LiveCodes contamination cursor and the non-platform undecoded HTTP-test absence branch are complete. Remaining high-cue absences are known-family records, so the next pass should rotate outside that exhausted branch to immutable committed event artifacts rather than repackage Amap, AIHW, platform controls or published studies.",
+    "source": "Global default-branch public code search, read-only",
+    "resume_queries": [
+      "sender_id receiver_id task_id output artifact",
+      "agent_name parent_agent child_agent final_answer trace"
+    ],
+    "additional_queries": [
+      "sender_agent recipient_agent tool_result extension:jsonl",
+      "from_agent to_agent task_result extension:json",
+      "handoff_id completed_at result extension:ndjson"
+    ],
+    "page_cursor": "Begin or retry the first twenty results for each exact query; record the next results page only after it is actually read.",
+    "selection_rule": "Retain only committed public data, log, transcript or event files that appear to record an actual run. Reject source code, schemas, documentation, examples, fixtures, synthetic tests, benchmark demonstrations, designed teams and known incident corpora before treating an excerpt as an original coordination record.",
+    "listing_level_limit": "A field-name match is only a locator. It does not establish that an event occurred, that identities are independent, that a result was used, that authorization was crossed or that the episode is previously unreported.",
+    "advancement_evidence": "A record advances only if it preserves a task-bearing artifact from an independently attributable autonomous AI sender, a distinguishable recipient acquisition and dependent action, and primary evidence that the cooperation crossed authorization. Only then should the episode receive a scoped prior-reporting check."
+  },
+  "safety": "Only existing public scanner report JSON and public default-branch search excerpts were read. No carrier, referenced destination, live target, recovered code, response body, payload, package, scan, runtime, account, authentication route, message, vote or participant contact was opened, invoked, executed, submitted or replayed. Publication omits raw carrier and request URLs, paths, query values, bodies, headers, credentials, submitter identifiers, personal addresses and private logs."
+}

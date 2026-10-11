@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T15:54:34Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": "Zero confirmed previously unreported rogue swarms; 686 of 1,146 saved urlquery records inspected",
+  "checkpoint_after": "Zero confirmed previously unreported rogue swarms; scanner coverage unchanged at 686 of 1,146 because this pass inspected committed public run, message and delegation artifacts rather than new scanner reports",
+  "scope": {
+    "global_default_branch_queries": 12,
+    "query_result_rows_screened": 232,
+    "distinct_public_paths_screened": 148,
+    "repositories_screened": 22,
+    "paths_matching_multiple_queries": 50,
+    "committed_record_files_read_in_full": 11,
+    "committed_context_files_read": 7,
+    "new_original_scanner_inspections": 0,
+    "remaining_scanner_backlog": {
+      "records": 460,
+      "comparison_absences": 149,
+      "comparison_overlaps": 311
+    }
+  },
+  "locator_queries": [
+    {
+      "query": "\"send_message\" \"recipient\" \"task_id\" extension:jsonl",
+      "pages_screened": [3, 4, 5],
+      "result_ranks_screened": "41-100",
+      "rows_screened": 60
+    },
+    {
+      "query": "\"message_id\" \"sender_id\" \"recipient_id\" extension:jsonl",
+      "pages_screened": [1],
+      "result_ranks_screened": "1-40",
+      "rows_screened": 40
+    },
+    {
+      "query": "\"session_id\" \"recipient_id\" \"tool_result\" \"approval_required\" extension:jsonl",
+      "pages_screened": [1],
+      "rows_screened": 0
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"artifact\" \"consumed\" extension:jsonl",
+      "pages_screened": [1],
+      "rows_screened": 0
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"tool_result\" \"used\" extension:jsonl",
+      "pages_screened": [1],
+      "rows_screened": 2
+    },
+    {
+      "query": "\"source_message_id\" \"processed_at\" \"agent_id\" \"action\" extension:jsonl",
+      "pages_screened": [1],
+      "rows_screened": 0
+    },
+    {
+      "query": "\"handoff\" \"result_hash\" \"recipient\" \"run_id\" extension:jsonl",
+      "pages_screened": [1],
+      "rows_screened": 0
+    },
+    {
+      "query": "\"unauthorized\" \"sender_id\" \"recipient_id\" extension:jsonl",
+      "pages_screened": [1],
+      "rows_screened": 5
+    },
+    {
+      "query": "\"delegate_task\" \"target_agent_run_id\" \"trace_type\" extension:jsonl",
+      "pages_screened": [1, 2],
+      "rows_screened": 23
+    },
+    {
+      "query": "\"send_message_to\" \"target_agent_run_id\" \"source_event\" extension:jsonl",
+      "pages_screened": [1, 2],
+      "rows_screened": 38
+    },
+    {
+      "query": "\"delegate_task\" \"tool_result\" \"tool_error\" extension:jsonl",
+      "pages_screened": [1, 2],
+      "rows_screened": 26
+    },
+    {
+      "query": "\"send_message\" \"target_agent_run_id\" \"tool_result\" extension:jsonl",
+      "pages_screened": [1, 2],
+      "rows_screened": 38
+    }
+  ],
+  "screening": {
+    "source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+    "selection_rule": "Retain an artifact for full reading only when its path and excerpt could represent an actual run, message ledger or delegation trace. Reject implementation source, schemas, documentation-only examples, fixtures, generated datasets, evaluations, benchmarks, replays, planned workflows and issue prose before incident inference.",
+    "deduplication_note": "Two hundred thirty-two returned rows represented 148 distinct committed paths; fifty paths matched more than one query.",
+    "repository_distribution": {
+      "AutoByteus/autobyteus-workspace": 50,
+      "mirodilkamilov/seminar": 30,
+      "byp411426/paper_agentsimulation": 25,
+      "QingqingD0ng/code-smell-evaluation": 12,
+      "other_seventeen_repositories": 31
+    },
+    "limitation": "Code-search coverage is bounded to indexed default-branch results and the recorded pages. It neither proves that no qualifying artifact exists elsewhere nor turns dataset absence into novelty."
+  },
+  "assessed_families": [
+    {
+      "id": "autobyteus_linked_delegation_e2e_control",
+      "primary_records": [
+        {
+          "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-019/api-210-owned-archive/trace-project_task_manager_17b07df3e9cd4b23b2cc834d8a11d9bc.jsonl",
+          "git_blob_sha": "e1feb8d282f08cd6b3af5145afe6a9d3a05903d0",
+          "records": 97,
+          "event_range": {
+            "from": "2026-10-05T14:23:52.039Z",
+            "to": "2026-10-05T14:32:31.978Z"
+          }
+        },
+        {
+          "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-019/api-210-owned-archive/trace-api019_packet_agent_c8e44b8d556341a8be241bb513138433.jsonl",
+          "git_blob_sha": "90af1966e0f74bd7d45b0b6c4707cb222ab22d48",
+          "records": 30
+        },
+        {
+          "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-019/api-210-owned-archive/trace-api019_delegate_helper_68ccdcbfe2dc49bf896e5b5a93c09b10.jsonl",
+          "git_blob_sha": "3372fc451a19074062a79009f70959687222cff5",
+          "records": 6
+        },
+        {
+          "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-019/api-210-owned-archive/trace-api019_bring_helper_0be6419ab45e47b3ae22e04d5d702847.jsonl",
+          "git_blob_sha": "e854b37d931d135e3285a62833dc8b5393e736e0",
+          "records": 6
+        },
+        {
+          "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-020/api-304-owned-archive/trace-api020_packet_agent_a59f966eb88446e1a4362621bbc34591.jsonl",
+          "git_blob_sha": "25e7a555abec86f597436bfb2575c8f19f5c8451",
+          "records": 16
+        },
+        {
+          "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-020/api-304-owned-archive/trace-api020_delegate_helper_ce3df6b0c0e44be3ae544055d794ae73.jsonl",
+          "git_blob_sha": "54bffa45c14f8352f4a8d5f5a9c4eb3ed6e566e6",
+          "records": 6,
+          "event_range": {
+            "from": "2026-10-05T14:38:58.538Z",
+            "to": "2026-10-05T14:39:00.990Z"
+          }
+        }
+      ],
+      "context": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/README.md",
+      "context_git_blob_sha": "7e081e3cfbbafe0480f8a213b0bf543ea55117be",
+      "commit_sha": "6314c4ee25dae3ed5be3deab4d4de8554591ab5c",
+      "commit_at": "2026-10-11T11:05:46Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "transfer_use_assessment": "The manager trace contains concrete delegated work, worker completion notices and manager use of returned results. Helper traces preserve direct replies to a delegator or message sender.",
+      "authorization_context": "The manager run begins with an authorized isolated-validation instruction; the packet and helper files live under ticketed API E2E evidence. The repository explicitly defines AgentTeam, AgentOrg, task-scoped team execution and direct coordinators. Induced ownership errors, corrupted-resource paths and repeated delegation are the test surface.",
+      "participant_evidence": "The logs expose multiple run identifiers and role labels, but their E2E provenance establishes configured test actors, not independent operators or an unauthorized population.",
+      "classification": "Concrete transfer-and-use control in an expressly authorized E2E workflow; not rogue coordination"
+    },
+    {
+      "id": "dht_agents_starcraft_demo_control",
+      "primary_record": "https://github.com/dice-tray/DHT_Agents_demo/blob/33404e0d86be16c62ca245c1ae11b1cb6a545271/artifacts/discovery/sc2_match/dht/0950/agent_demo_events.jsonl",
+      "git_blob_sha": "12a3832b785af756c9b7a808b91d131470c91430",
+      "context": "https://github.com/dice-tray/DHT_Agents_demo/blob/33404e0d86be16c62ca245c1ae11b1cb6a545271/README.md",
+      "context_git_blob_sha": "679efafd294ed370e02b88fd3c0637f93494e2c1",
+      "commit_sha": "33404e0d86be16c62ca245c1ae11b1cb6a545271",
+      "commit_at": "2026-08-22T23:22:16Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "records": 491,
+      "selected_structure": {
+        "agent_rpc_requests": 22,
+        "agent_rpc_responses": 22,
+        "specialist_resource_calls": 45,
+        "orchestrated_agent_rounds": 2,
+        "strategy_decisions": 2,
+        "macro_execution_outcomes": 180
+      },
+      "assessment": "The record preserves many actor identifiers, peer discovery, specialist calls and orchestration outcomes, but the pinned README defines a headless capability-indexed multi-agent StarCraft II demonstration with an Orchestrator-to-Specialist-to-Resource-to-Embodied pipeline.",
+      "classification": "Designed game-demo coordination; no operator-boundary crossing"
+    },
+    {
+      "id": "disaster_household_simulation_message_ledger_control",
+      "primary_record": "https://github.com/byp411426/paper_agentsimulation/blob/017279f7b61be5a7f4c59234246dac888db500cb/paper/ieee_journal/working/experiment_repair_20260905/live/e1_repaired_4hh_seed7201/message_ledger.jsonl",
+      "git_blob_sha": "657201f71b4e3fb8e43484b995c61e1506789a9a",
+      "context": "https://github.com/byp411426/paper_agentsimulation/blob/017279f7b61be5a7f4c59234246dac888db500cb/README.md",
+      "context_git_blob_sha": "eac5027e9340898d474298263497677a10d71f6c",
+      "commit_sha": "017279f7b61be5a7f4c59234246dac888db500cb",
+      "commit_at": "2026-09-08T06:35:12Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "records": 6,
+      "structure": {
+        "synthetic_resident_ids": 3,
+        "delivered": 4,
+        "processed": 3,
+        "accepted": 0,
+        "channels": ["community", "household_dm"]
+      },
+      "assessment": "The ledger contains delivered and processed notices or proposals, but the project describes a controlled generative-resident and household disaster simulation. The actor identities, channels and episode are experimental fixtures rather than evidence of unauthorized real-world coordination.",
+      "classification": "Controlled simulation ledger; no rogue coordination"
+    },
+    {
+      "id": "brain_single_execution_trace_control",
+      "primary_record": "https://github.com/banodoco/brain-of-bndc/blob/bcf8d14964113743ccbbaab793dab1a410469990/.megaplan/plans/identity-based-routing-for-20260411-0256/execution_trace.jsonl",
+      "git_blob_sha": "19f036420fc5a0d36701a204d3b4f7e16602513b",
+      "context": "https://github.com/banodoco/brain-of-bndc/blob/bcf8d14964113743ccbbaab793dab1a410469990/README.md",
+      "context_git_blob_sha": "d61cac3884696abb410315bef85ac29f46882113",
+      "commit_sha": "bcf8d14964113743ccbbaab793dab1a410469990",
+      "commit_at": "2026-09-04T21:30:22Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "records": 105,
+      "structure": {
+        "threads": 1,
+        "command_execution_items": 82,
+        "file_change_items": 16,
+        "agent_message_items": 1
+      },
+      "assessment": "Message, recipient and task vocabulary occurs inside one coding-agent investigation and its test material. The immutable event stream has one thread and no delivered inter-agent result event.",
+      "classification": "Single-agent execution trace; no sender-to-recipient exchange"
+    },
+    {
+      "id": "noema_sample_trajectory_fixture_control",
+      "primary_record": "https://github.com/Zero-State-LLC/Noema-Specs/blob/cb2781567af9a6a0370d68aaa318570d635b5ff9/examples/sample-trajectory.jsonl",
+      "git_blob_sha": "036c35d066569c4ce4b6f7d57bcd1992ce0f537b",
+      "context": "https://github.com/Zero-State-LLC/Noema-Specs/blob/cb2781567af9a6a0370d68aaa318570d635b5ff9/README.md",
+      "context_git_blob_sha": "a0215028f6b6fa701ea48f4bdb1267de3166c150",
+      "commit_sha": "cb2781567af9a6a0370d68aaa318570d635b5ff9",
+      "commit_at": "2026-10-10T20:19:31Z",
+      "event_range": {
+        "from": "2026-08-09T15:00:00Z",
+        "to": "2026-08-09T15:00:02Z"
+      },
+      "observed_at": "2026-10-11T15:54:34Z",
+      "records": 2,
+      "assessment": "The example contains one inspect event and one message event but no recipient-use event. The repository identifies this material as specifications, schemas, fixtures and acceptance criteria rather than a live run.",
+      "classification": "Two-record example fixture; no incident inference"
+    },
+    {
+      "id": "tom_protocol_redteam_journal_control",
+      "primary_record": "https://github.com/malikkaraoui/ToM-protocol/blob/fdae163f3754c9f49aa109f4e0b3a494a447b397/docs/redteam/journal.jsonl",
+      "git_blob_sha": "8c9c12f9f0edeb6ae9ea5206b9b76a6dcb1ed6c4",
+      "context": "https://github.com/malikkaraoui/ToM-protocol/blob/fdae163f3754c9f49aa109f4e0b3a494a447b397/README.md",
+      "context_git_blob_sha": "06214b4d4fa18ba1ad699a72fd0f218b00de4ea8",
+      "commit_sha": "fdae163f3754c9f49aa109f4e0b3a494a447b397",
+      "commit_at": "2026-08-11T14:44:15Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "assessment": "The journal records a controlled peer-to-peer protocol red-team program. Its swarm wording concerns adversarial identity flooding, and one note attributes a finding to agent exploration followed by manual verification. It does not preserve autonomous AI participants transferring and using task work.",
+      "classification": "Controlled network-security journal and keyword collision; no AI swarm"
+    },
+    {
+      "id": "benchmark_dataset_and_example_path_controls",
+      "representative_repositories": [
+        "mirodilkamilov/seminar",
+        "QingqingD0ng/code-smell-evaluation",
+        "mcp-protection-gap/mcp-redteam-benchmark",
+        "NeighborLiu/Agentic-AI-Safety-Use-Cases",
+        "cf3i/SocialSystemArena",
+        "sadia-sigma-lab/BLINDSPOT"
+      ],
+      "assessment": "The remaining high-frequency matches are explicitly benchmark trajectories, evaluation outputs, generated safety datasets, examples or fixtures. Their sender, recipient, message and unauthorized fields are experimental data labels, not original incident evidence.",
+      "classification": "Path-level rejection before incident inference"
+    }
+  ],
+  "alternatives_tested": [
+    "Explicit ticketed E2E validation mistaken for organic delegation",
+    "Designed orchestration or game agents mistaken for an operator-boundary crossing",
+    "Controlled social simulation records mistaken for real participant provenance",
+    "A single coding-agent trace mistaken for multi-agent messaging because its task discusses routing",
+    "Example and fixture events mistaken for live-run observations",
+    "A red-team identity-flooding swarm label mistaken for AI task coordination",
+    "Benchmark and generated-dataset fields mistaken for original sender-to-recipient records"
+  ],
+  "evidence_state": {
+    "newly_read_committed_record_files": 11,
+    "newly_screened_distinct_public_paths": 148,
+    "new_original_coordination_candidates": 0,
+    "observed_designed_coordination": true,
+    "suspected_rogue_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer_in_authorized_controls": true,
+    "demonstrable_recipient_use_in_authorized_controls": true,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "Self-described project and role labels occur, but no independently verified provider execution or unauthorized multi-operator population is established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "advancement_evidence": "A record can advance only with independently attributable autonomous sender and recipient trajectories, a task-bearing message or artifact, causal evidence that the recipient used it, and primary evidence that the cooperation exceeded the relevant operator's authorization. Run IDs, message-tool calls, designed delegations, simulation delivery flags and swarm vocabulary do not qualify by themselves.",
+  "novelty_check": "No episode-level prior-reporting search was warranted because every retained transfer/use record resolved to authorized E2E validation, designed orchestration or controlled simulation before the authorization test. No prior coordination report located would not cure that missing evidence.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      {
+        "query": "\"send_message\" \"recipient\" \"task_id\" extension:jsonl",
+        "page": 6,
+        "reason": "Continue at results 101-120; pages one through five are complete."
+      },
+      {
+        "query": "\"message_id\" \"sender_id\" \"recipient_id\" extension:jsonl",
+        "page": 2,
+        "reason": "Continue at results 41-60; page one is complete."
+      },
+      {
+        "query": "\"sender_run_id\" \"recipient_run_id\" \"tool_result\" extension:jsonl",
+        "page": 1
+      }
+    ],
+    "selection_rule": "Retain only immutable records from actual runs or incident ledgers. Reject examples, fixtures, benchmarks, generated datasets, synthetic holdouts, replays, planned workflows and issue-description lexical matches before developing a candidate.",
+    "advancement_evidence": "Require an actual sender event, task-bearing content represented by a sanitized hash or artifact reference, a distinct recipient event showing causal use, independent execution provenance and primary authorization-boundary evidence."
+  },
+  "safety": "Only existing public GitHub search results, pinned committed text files and commit metadata were read. No recovered command or code was executed; no dependency, package, test, game, simulation, workflow, agent, message, account, webhook, inbox, carrier or target was invoked. Publication omits message bodies, payloads, prompts beyond non-operational summaries, personal addresses, credentials, tokens, sink topics, private paths and private logs."
+}

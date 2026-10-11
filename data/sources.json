@@ -1833,6 +1833,109 @@
       "role": "Pinned repository context explicitly describing an intended planner-implementer agent workflow",
       "observed_at": "2026-10-11T15:02:57Z",
       "commit_sha": "5f161af561894c4aa03cf1fd91bd93406bde3041"
+    },
+    {
+      "id": "original-autobyteus-linked-delegation-manager-control",
+      "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-019/api-210-owned-archive/trace-project_task_manager_17b07df3e9cd4b23b2cc834d8a11d9bc.jsonl",
+      "role": "Pinned 97-record project-manager E2E trace with delegated work, returned results and manager use inside an explicitly authorized isolated validation",
+      "event_at": "2026-10-05T14:23:52.039Z",
+      "event_end_at": "2026-10-05T14:32:31.978Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "e1feb8d282f08cd6b3af5145afe6a9d3a05903d0",
+      "commit_sha": "6314c4ee25dae3ed5be3deab4d4de8554591ab5c"
+    },
+    {
+      "id": "original-autobyteus-linked-delegation-helper-control",
+      "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/tickets/done/project-task-manager-linked-delegation/api-e2e-evidence/api-020/api-304-owned-archive/trace-api020_delegate_helper_ce3df6b0c0e44be3ae544055d794ae73.jsonl",
+      "role": "Pinned six-record helper trace preserving a direct reply to its configured delegator during API validation",
+      "event_at": "2026-10-05T14:38:58.538Z",
+      "event_end_at": "2026-10-05T14:39:00.990Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "54bffa45c14f8352f4a8d5f5a9c4eb3ed6e566e6",
+      "commit_sha": "6314c4ee25dae3ed5be3deab4d4de8554591ab5c"
+    },
+    {
+      "id": "original-autobyteus-designed-team-context",
+      "url": "https://github.com/AutoByteus/autobyteus-workspace/blob/6314c4ee25dae3ed5be3deab4d4de8554591ab5c/README.md",
+      "role": "Pinned repository context explicitly defining AgentTeam, AgentOrg, task-scoped execution and direct coordinators",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "7e081e3cfbbafe0480f8a213b0bf543ea55117be",
+      "commit_sha": "6314c4ee25dae3ed5be3deab4d4de8554591ab5c"
+    },
+    {
+      "id": "original-dht-agents-game-demo-events-control",
+      "url": "https://github.com/dice-tray/DHT_Agents_demo/blob/33404e0d86be16c62ca245c1ae11b1cb6a545271/artifacts/discovery/sc2_match/dht/0950/agent_demo_events.jsonl",
+      "role": "Pinned 491-record StarCraft II demo event stream with designed peer discovery, specialist RPC and orchestration outcomes",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "12a3832b785af756c9b7a808b91d131470c91430",
+      "commit_sha": "33404e0d86be16c62ca245c1ae11b1cb6a545271"
+    },
+    {
+      "id": "original-dht-agents-game-demo-context",
+      "url": "https://github.com/dice-tray/DHT_Agents_demo/blob/33404e0d86be16c62ca245c1ae11b1cb6a545271/README.md",
+      "role": "Pinned context defining the capability-indexed Orchestrator-to-Specialist-to-Resource-to-Embodied game-demo pipeline",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "679efafd294ed370e02b88fd3c0637f93494e2c1",
+      "commit_sha": "33404e0d86be16c62ca245c1ae11b1cb6a545271"
+    },
+    {
+      "id": "original-disaster-household-message-ledger-control",
+      "url": "https://github.com/byp411426/paper_agentsimulation/blob/017279f7b61be5a7f4c59234246dac888db500cb/paper/ieee_journal/working/experiment_repair_20260905/live/e1_repaired_4hh_seed7201/message_ledger.jsonl",
+      "role": "Pinned six-record synthetic-household ledger with delivered and processed messages inside a controlled disaster simulation",
+      "evidence_label_date": "2026-09-05",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "657201f71b4e3fb8e43484b995c61e1506789a9a",
+      "commit_sha": "017279f7b61be5a7f4c59234246dac888db500cb"
+    },
+    {
+      "id": "original-disaster-simulation-context",
+      "url": "https://github.com/byp411426/paper_agentsimulation/blob/017279f7b61be5a7f4c59234246dac888db500cb/README.md",
+      "role": "Pinned repository context describing a controlled generative-resident and household disaster simulation",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "eac5027e9340898d474298263497677a10d71f6c",
+      "commit_sha": "017279f7b61be5a7f4c59234246dac888db500cb"
+    },
+    {
+      "id": "original-bndc-single-execution-trace-control",
+      "url": "https://github.com/banodoco/brain-of-bndc/blob/bcf8d14964113743ccbbaab793dab1a410469990/.megaplan/plans/identity-based-routing-for-20260411-0256/execution_trace.jsonl",
+      "role": "Pinned 105-record one-thread coding trace whose message vocabulary occurs inside a routing investigation rather than a delivered inter-agent exchange",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "19f036420fc5a0d36701a204d3b4f7e16602513b",
+      "commit_sha": "bcf8d14964113743ccbbaab793dab1a410469990"
+    },
+    {
+      "id": "original-noema-sample-trajectory-control",
+      "url": "https://github.com/Zero-State-LLC/Noema-Specs/blob/cb2781567af9a6a0370d68aaa318570d635b5ff9/examples/sample-trajectory.jsonl",
+      "role": "Pinned two-record sample trajectory with one message event and no recipient-use record",
+      "event_at": "2026-08-09T15:00:00Z",
+      "event_end_at": "2026-08-09T15:00:02Z",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "036c35d066569c4ce4b6f7d57bcd1992ce0f537b",
+      "commit_sha": "cb2781567af9a6a0370d68aaa318570d635b5ff9"
+    },
+    {
+      "id": "original-noema-fixture-context",
+      "url": "https://github.com/Zero-State-LLC/Noema-Specs/blob/cb2781567af9a6a0370d68aaa318570d635b5ff9/README.md",
+      "role": "Pinned repository statement that the specifications repository contains protocols, schemas, fixtures and acceptance criteria rather than a live engine",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "a0215028f6b6fa701ea48f4bdb1267de3166c150",
+      "commit_sha": "cb2781567af9a6a0370d68aaa318570d635b5ff9"
+    },
+    {
+      "id": "original-tom-protocol-redteam-journal-control",
+      "url": "https://github.com/malikkaraoui/ToM-protocol/blob/fdae163f3754c9f49aa109f4e0b3a494a447b397/docs/redteam/journal.jsonl",
+      "role": "Pinned controlled protocol red-team journal whose swarm term denotes identity flooding, not autonomous AI task-result coordination",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "8c9c12f9f0edeb6ae9ea5206b9b76a6dcb1ed6c4",
+      "commit_sha": "fdae163f3754c9f49aa109f4e0b3a494a447b397"
+    },
+    {
+      "id": "original-tom-protocol-context",
+      "url": "https://github.com/malikkaraoui/ToM-protocol/blob/fdae163f3754c9f49aa109f4e0b3a494a447b397/README.md",
+      "role": "Pinned context identifying ToM as a peer-to-peer messaging transport protocol and documenting its intended network behavior",
+      "observed_at": "2026-10-11T15:54:34Z",
+      "git_blob_sha": "06214b4d4fa18ba1ad699a72fd0f218b00de4ea8",
+      "commit_sha": "fdae163f3754c9f49aa109f4e0b3a494a447b397"
     }
   ]
 }

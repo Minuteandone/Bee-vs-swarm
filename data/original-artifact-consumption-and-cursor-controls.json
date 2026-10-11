@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T21:12:32Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": "Zero confirmed previously unreported rogue swarms; saved immutable-record cursors at broad-message page six, sender/recipient results 41-60 and sender-run/recipient-run page one",
+  "checkpoint_after": "Zero confirmed previously unreported rogue swarms; both saved nonempty queries exhausted at 149 and 70 observed results, the sender-run/recipient-run query returned zero, and one 34-record artifact-consumption control was classified",
+  "scope": {
+    "saved_cursor_rows_screened": 79,
+    "saved_cursor_distinct_paths_screened": 79,
+    "artifact_consumption_rotation_rows_screened": 34,
+    "total_distinct_public_paths_screened": 113,
+    "repositories_screened": 21,
+    "full_record_files_read": 1,
+    "record_file_excerpts_read": 5,
+    "context_files_read": 7,
+    "new_original_scanner_inspections": 0
+  },
+  "locator_queries": [
+    {
+      "query": "\"send_message\" \"recipient\" \"task_id\" extension:jsonl",
+      "pages_screened_this_pass": [
+        6,
+        7,
+        8
+      ],
+      "result_ranks_screened": "101-149",
+      "rows_screened": 49,
+      "total_count_observed": 149,
+      "status": "Exhausted through the final returned page after a page-six stability recheck. The API count moved from 141 to 149 during collection, so this is a dated index observation rather than a timeless completeness claim."
+    },
+    {
+      "query": "\"message_id\" \"sender_id\" \"recipient_id\" extension:jsonl",
+      "result_ranks_screened": "41-70",
+      "rows_screened": 30,
+      "total_count_observed": 70,
+      "status": "Exhausted through the final returned page; REST page three exactly matched the saved search rows 41-60."
+    },
+    {
+      "query": "\"sender_run_id\" \"recipient_run_id\" \"tool_result\" extension:jsonl",
+      "page": 1,
+      "rows_screened": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_id\" \"used\" extension:jsonl",
+      "page": 1,
+      "rows_screened": 0
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"artifact_id\" \"consumed\" extension:jsonl",
+      "page": 1,
+      "rows_screened": 34,
+      "repository": "Palind-Rome/multi-agent-error-lifecycle"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"result_id\" \"accepted_at\" extension:jsonl",
+      "page": 1,
+      "rows_screened": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_hash\" \"consumed_at\" extension:json",
+      "page": 1,
+      "rows_screened": 0
+    }
+  ],
+  "screening": {
+    "source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+    "selection_rule": "Retain actual run or incident records for content reading. Reject benchmarks, evaluations, generated safety cases, examples, fixtures, tests, replays and expressly configured orchestration before incident inference.",
+    "broad_message_tail_repository_distribution": {
+      "gilGAMEsh002/coco-attack-v3": 16,
+      "AutoByteus/autobyteus-workspace": 7,
+      "gss10282023/benchmarkCount": 4,
+      "NeighborLiu/Technology-for-Automated-Construction-of-Safety-Use-Cases-for-Agent-Tasks": 3,
+      "other_thirteen_repositories": 19
+    },
+    "sender_recipient_tail_repository_distribution": {
+      "byp411426/paper_agentsimulation": 28,
+      "NaDa0Amr/Qubettera-AI": 1,
+      "sadia-sigma-lab/BLINDSPOT": 1
+    },
+    "limitation": "Search covers indexed default branches and the dated result pages only. Search count changes show that ranking and index membership are not immutable; retained links therefore pin commits and blob hashes where content was read."
+  },
+  "assessed_families": [
+    {
+      "id": "multi_agent_error_lifecycle_engineering_smoke_control",
+      "primary_record": "https://github.com/Palind-Rome/multi-agent-error-lifecycle/blob/dc735c0e3591417c921dd8c5d5a3255476b4b6fe/outputs/private/acb-smoke-compact-TASK-DATAENG-RTD-060-20260815T061811Z-fe98b1f9/lifecycle-trace.jsonl",
+      "git_blob_sha": "27299ca42c7c672e579853111198d3abfef4bcdd",
+      "context": "https://github.com/Palind-Rome/multi-agent-error-lifecycle/blob/dc735c0e3591417c921dd8c5d5a3255476b4b6fe/README.md",
+      "context_git_blob_sha": "7ac71451c9427bcdbee4605c58967f3078dd608a",
+      "commit_sha": "dc735c0e3591417c921dd8c5d5a3255476b4b6fe",
+      "event_range": {
+        "from": "2026-08-15T06:20:54.001000+00:00",
+        "to": "2026-08-15T06:20:54.030000+00:00"
+      },
+      "observed_at": "2026-10-11T21:12:32Z",
+      "records": 66,
+      "structure": {
+        "configured_agent_ids": 2,
+        "message_records": 8,
+        "model_call_records": 8,
+        "message_sent_events": 7,
+        "message_delivered_events": 7,
+        "artifact_exposed_events": 7,
+        "artifact_surfaced_events": 7,
+        "outcome_records": 1
+      },
+      "transfer_assessment": "The trace preserves directed message delivery, exact provider-request exposure and later marker surfacing in the other configured agent's model output. This is useful temporal and semantic-proxy evidence.",
+      "use_assessment": "The repository explicitly says exact-marker reproduction is only a surface proxy and is not formal semantic, belief or action adoption. The record therefore does not establish authoritative downstream use.",
+      "authorization_context": "The README identifies experimental infrastructure, an AgentCollabBench-derived engineering smoke, analysis_eligible=false output and benchmark injection receipts. The configured two-agent exchange is the test surface rather than a boundary-crossing population.",
+      "classification": "Designed benchmark engineering-smoke control; no operator-boundary crossing and no rogue coordination"
+    },
+    {
+      "id": "agent_explore_multi_agent_benchmark_control",
+      "primary_record": "https://github.com/znygugeyx-ctrl/agent-explore/blob/7853b4a1cd5e6478aaadde61895aead493e9d982/experiments/014_multi_agent_coordination/results/data/runs_wf_slim.jsonl",
+      "git_blob_sha": "0623965e07d1720c8bc6433b006a37531900b121",
+      "context": "https://github.com/znygugeyx-ctrl/agent-explore/blob/7853b4a1cd5e6478aaadde61895aead493e9d982/README.md",
+      "context_git_blob_sha": "419ce195af4834a02fc8467632a2232c13bdb345",
+      "assessment": "The sampled rows label themselves Workbench tasks inside an experiment and record spawn/message counters. Repository context calls the project an experimental framework for validating hypotheses about AI agents.",
+      "classification": "Designed benchmark experiment; no incident inference"
+    },
+    {
+      "id": "social_system_arena_benchmark_control",
+      "primary_record": "https://github.com/cf3i/SocialSystemArena/blob/2bb33c643da9cc6d94823c7489074138a5a0a624/traces/benchmarks/kimi_k2.5/clawebench/tang_sanshengliubu/20260324T101611Z/traces/T25zh_ambiguous_contact_email.run01.jsonl",
+      "git_blob_sha": "09c1945ef6337496215733f91603e7ebff2f7803",
+      "context": "https://github.com/cf3i/SocialSystemArena/blob/2bb33c643da9cc6d94823c7489074138a5a0a624/README.md",
+      "context_git_blob_sha": "df9cc48fb51280de0b19b272b140bbccae4b8343",
+      "assessment": "The trace contains staged agent and governance events, while the pinned README expressly defines a controlled comparison of seven declarative multi-agent governance systems on benchmark tasks.",
+      "classification": "Designed governance benchmark; no operator-boundary crossing"
+    },
+    {
+      "id": "prompt_injection_and_reflexion_benchmark_controls",
+      "primary_records": [
+        {
+          "url": "https://github.com/LinkMingzhe/GroupProject-LLMao/blob/507529df9e9cb283d5f981a4cc60d56b69fdd0df/webarena_prompt_injections/configs/croissant/utility_in_webarena_format.jsonl",
+          "git_blob_sha": "ea22d92a88eda1244099d4d896ed9d1f2792d4ba"
+        },
+        {
+          "url": "https://github.com/mirodilkamilov/seminar/blob/7e00193c828a413f2007db161febd60bffabce51/logs/richer_reflexion_turnwise/multi_turn_long_context_97.jsonl",
+          "git_blob_sha": "242f92b45d929b1184e799139b8adde19edc07f6"
+        },
+        {
+          "url": "https://github.com/NeighborLiu/Technology-for-Automated-Construction-of-Safety-Use-Cases-for-Agent-Tasks/blob/f907a972c53df576a37a06e7e7669ddef37dd00c/envs_generator/gen_testcases_by_deepseek/check_folder/Manually_check_result.jsonl",
+          "git_blob_sha": "3fa9a944e25464f5cf60fcba1728264c46d8d4fe"
+        }
+      ],
+      "assessment": "Pinned context and record excerpts identify a WebArena prompt-injection benchmark, a BFCL v3 reflection benchmark and generated safety-use-case review output. Message and task fields are evaluation data rather than an organic episode.",
+      "classification": "Benchmark and generated-dataset controls; no incident inference"
+    },
+    {
+      "id": "known_designed_tail_controls",
+      "assessment": "The other cursor-tail results are AutoByteus ticketed API E2E traces already classified as authorized validation, DisasterSociety controlled simulation ledgers, MiniWoB/LongBench/coding evaluation outputs, adversarial tests, examples and fixtures.",
+      "classification": "Previously classified designed controls or path-level rejection"
+    }
+  ],
+  "alternatives_tested": [
+    "Benchmark artifact propagation mistaken for an organic sender-to-recipient dependency",
+    "Exact marker surfacing mistaken for semantic or action adoption",
+    "Configured experimental agents mistaken for independent operators",
+    "Authorized API E2E and hierarchical handoff tests mistaken for cross-boundary cooperation",
+    "Synthetic household delivery and processing flags mistaken for real participant provenance",
+    "Evaluation output, generated safety cases, examples and fixtures mistaken for incident ledgers"
+  ],
+  "evidence_state": {
+    "new_original_coordination_candidates": 0,
+    "observed_designed_coordination": true,
+    "verified_autonomous_ai_participants_outside_controls": 0,
+    "task_artifact_delivery_in_control": true,
+    "exact_recipient_prompt_exposure_in_control": true,
+    "recipient_surface_reproduction_in_control": true,
+    "authoritative_semantic_or_action_adoption": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "A benchmark trace names a model, but no independent provider confirmation or unauthorized execution is established.",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No episode-level prior-reporting search was warranted because every nonempty record family resolved to a benchmark, generated dataset, test, fixture, simulation or explicitly authorized E2E run before the authorization test. No prior coordination report located would not cure the missing real-run boundary evidence.",
+  "advancement_evidence": "A record can advance only with independently attributable autonomous sender and recipient trajectories, a specific task-bearing artifact, causal evidence of semantic or action use by the recipient, and primary evidence that the cooperation exceeded the relevant operator's authorization. Delivery, prompt exposure, marker reproduction, run IDs and role labels are insufficient alone.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      {
+        "query": "\"artifact_sha256\" \"produced_by\" \"consumed_by\" extension:jsonl",
+        "page": 1
+      },
+      {
+        "query": "\"result_hash\" \"received_by\" \"used_at\" \"run_id\" extension:jsonl",
+        "page": 1
+      },
+      {
+        "query": "\"source_run_id\" \"destination_run_id\" \"artifact_hash\" extension:ndjson",
+        "page": 1
+      }
+    ],
+    "selection_rule": "Retain only immutable actual-run or incident records with a concrete production, transfer and later-use chain. Reject benchmark probes, surface-only markers, evaluation output, generated data, examples, fixtures, simulations and expressly authorized validation before candidate inference."
+  }
+}

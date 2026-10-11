@@ -1,0 +1,3529 @@
+{
+  "collected_at": "2026-10-11T21:08:42Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/2cdd864e-ef40-4fb5-b488-a69ad3f7df36",
+      "event_at": "2026-06-21T11:35:42Z",
+      "observed_at": "2026-10-11T21:07:03Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b6becc069a83cd9c2cc4f558509d19a43266a18d0ba389937deacf0053a82aef",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 11
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a5a84bbb-8f88-4457-b077-ae73a3945cdb",
+      "event_at": "2026-06-21T11:35:41Z",
+      "observed_at": "2026-10-11T21:07:03Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d54758376b9ee16c40ac36c4a78f8bc76f566b169ec83dd6041cc19207baf859",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/110a24d6-5d70-4afe-b294-a2d60f14da75",
+      "event_at": "2026-06-21T11:36:47Z",
+      "observed_at": "2026-10-11T21:07:12Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "69d738e68a04310822e005e06a345ec553693a3a6964694090bd38fb551fd77e",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/59af23a1-673f-4c57-98c1-13966a03671f",
+      "event_at": "2026-06-21T11:36:22Z",
+      "observed_at": "2026-10-11T21:07:12Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5642d9a3e4a093e81f92004664704a63bb8e5e28914edb4408915586b4de8df9",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/6c21bc6b-a511-49d0-92e9-585370aaa2cc",
+      "event_at": "2026-06-21T11:36:29Z",
+      "observed_at": "2026-10-11T21:07:17Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fe62a9c29600e58356aaf1492fa1bab364ccdf047d0a274164347bf262a32366",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 33
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/81e63ef0-9490-4c20-8b5c-f345a103d21a",
+      "event_at": "2026-06-21T11:36:18Z",
+      "observed_at": "2026-10-11T21:07:17Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "c0705ddca96c41acbe507fa241068bf4c0a366cb04b71d4d3091e6995f7ec030",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 33
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/bbc78438-b519-4cce-bff2-9dabe69b104b",
+      "event_at": "2026-06-21T11:36:11Z",
+      "observed_at": "2026-10-11T21:07:23Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "074598b7ac76a9acb7c8119ea437c42c4000028c4b97145a07e1f3ca0c14ce4a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/395c7824-0d94-4f59-9c6a-6cca03215285",
+      "event_at": "2026-06-21T11:37:31Z",
+      "observed_at": "2026-10-11T21:07:23Z",
+      "submitted_host": "da.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "df300dddcc23aba142f69c122454cadf383f2dafe9dc91a8d9686a061bc853fe",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "da.gd",
+          "method": "GET",
+          "status": "302",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1305b4d0-645c-4d01-9d4e-ad728ad249b6",
+      "event_at": "2026-06-20T11:33:25Z",
+      "observed_at": "2026-10-11T21:07:28Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fe94d60655d15cf4e22781f99d695c879da81e3b7517e8147085f72a05773e4f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 36
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "54f7d1a3f33f6c63db08d2f3d73d753215d71acaa72704ad496e58519e661763",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T11:32:50.107Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/92073d3f-6a39-427c-bda4-f5453df80ca4",
+      "event_at": "2026-06-20T11:33:24Z",
+      "observed_at": "2026-10-11T21:07:29Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "312bd184f334ca489ebb9f7106acc17cce20aa5a679418c3bd6ab80c9ec94077",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 36
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "54f7d1a3f33f6c63db08d2f3d73d753215d71acaa72704ad496e58519e661763",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T11:32:42.854Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a188da79-77c6-4449-86f1-8607ad93cb21",
+      "event_at": "2026-06-20T11:33:23Z",
+      "observed_at": "2026-10-11T21:07:35Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b85f55fa9a242c9814aa81cf33b53a433dc0ace77b658b0f80c7d65390ceeeec",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 36
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "54f7d1a3f33f6c63db08d2f3d73d753215d71acaa72704ad496e58519e661763",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T11:32:36.025Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c4e329e7-fa1e-44a6-a275-f78cb0131736",
+      "event_at": "2026-06-20T15:15:10Z",
+      "observed_at": "2026-10-11T21:07:35Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3e78a9e382b1579750ea8f1e412a6b78b3efe04f01ff6e078af2ebbe3a11cb17",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "itty.bitty.site",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 19
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 35
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 9
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:52.790Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:54.927Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:53.127Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:56.015Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:51.060Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:53.496Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:55.268Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:54.212Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:50.177Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:51.644Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:46.345Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:50.183Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:55.604Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:56.358Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:53.875Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:50.182Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:51.974Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:52.394Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T15:14:54.546Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9729fc48-3438-469a-a112-4826f125a868",
+      "event_at": "2026-06-20T16:29:25Z",
+      "observed_at": "2026-10-11T21:07:41Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aed3edfae35b767424fcc5645c0e7f3478a1bb79f67a4dccc3d54dbe0476d7a6",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "itty.bitty.site",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 20
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 35
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 9
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:03.053Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:57.287Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:57.289Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:59.876Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:00.214Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:01.976Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:02.660Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:53.353Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:58.674Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:59.516Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:02.326Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:57.291Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:00.942Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:58.094Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:28:59.113Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:03.383Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:18.451Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:01.271Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:00.566Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:29:01.613Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/1981a600-922b-464b-9c30-db6cf3ca3038",
+      "event_at": "2026-06-20T16:34:14Z",
+      "observed_at": "2026-10-11T21:07:41Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "42b3f43fcdc02e041f672d7d0f7a02b1d8d66bf4d9d3946f890a3b1a55fd5a5d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "itty.bitty.site",
+          "method": "GET",
+          "status": "200",
+          "count": 7
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 19
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 35
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 9
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 9
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:56.193Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:59.738Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:34:00.060Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:50.952Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:55.120Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:59.202Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:58.230Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:54.033Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:58.576Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:55.487Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:56.552Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:57.237Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:55.799Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:56.868Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:58.892Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:57.599Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:54.031Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:54.034Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "b12e51123c7c89b8311b464e954558a30054eb6119d57ca3f5a813ca9078a6e9",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:33:57.915Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/11c26d31-7673-4464-bcaa-63864eaf9942",
+      "event_at": "2026-06-20T16:47:29Z",
+      "observed_at": "2026-10-11T21:07:47Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9891c1df803d85b32dc75bbbb5bf187e18907a0827a621719470ecc1242bc1b1",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "ntfy.sh",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 34
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.sh",
+          "channel_ref_sha256": "70a5bc96bb9687c1b847fc9a8b321f0dd48ac0a08809c139bed259f582f32168",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T16:47:09.388Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d77cb70d-3da6-4a6f-9210-cf242d98bd3a",
+      "event_at": "2026-06-21T20:03:35Z",
+      "observed_at": "2026-10-11T21:07:47Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "3c334b25bf68436bf31de0b193e64c1d43ec0173e589122c93a30aebf19eba04",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 42
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 3
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/81e60e57-0c0f-4370-b8cc-930268268655",
+      "event_at": "2026-06-21T20:09:04Z",
+      "observed_at": "2026-10-11T21:07:53Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "16d3358686101e28466227622bcf8354ee7660c285db747dbe4314b3f5ae2d96",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 43
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f54765cb-2b1c-4281-9d0f-517a15bd4c59",
+      "event_at": "2026-06-21T20:09:05Z",
+      "observed_at": "2026-10-11T21:07:53Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "9fb329731a442629de3176386d1ad4e090deed1de8cf97416cdbb061cb9e1e62",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 40
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9af3d902-1b4f-4837-839c-b0db80da6c1f",
+      "event_at": "2026-06-21T20:45:01Z",
+      "observed_at": "2026-10-11T21:07:58Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f1c1546ee9178ee5244a93ab787bda85c3461495c3b3d94a2c15de082ca47295",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/38f26299-7a1a-46ca-9028-f20cff1c59a1",
+      "event_at": "2026-06-21T20:50:15Z",
+      "observed_at": "2026-10-11T21:07:58Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fc5252f0b6a5a7ad9b7461aee8c40a50da5f5f23c5d9873394a9038138773d6a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/42809898-4d52-4d8e-b071-9b1faa176c1a",
+      "event_at": "2026-06-21T20:50:15Z",
+      "observed_at": "2026-10-11T21:08:04Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1588b5e6c39d5408926b4c4a67c93f5480102a211b3fafd69bf2eb487d790e2d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 13
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/78f8ca38-f949-46bf-84c4-dce146b1ad3b",
+      "event_at": "2026-06-21T20:50:14Z",
+      "observed_at": "2026-10-11T21:08:04Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aff77ffb4ba53be1e3a339634849d01b237fd5339f2d18d705fd2794a4362feb",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 42
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e1200add-eff7-4152-8902-d272ce941790",
+      "event_at": "2026-06-21T21:05:11Z",
+      "observed_at": "2026-10-11T21:08:10Z",
+      "submitted_host": "is.gd",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "710f1d5023e99e0d09737b78c4204696097236462c242d6d9217656fa1bb3f3d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "204",
+          "count": 5
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "is.gd",
+          "method": "GET",
+          "status": "301",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 42
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 7
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/aeab5e49-5aaa-4c37-b21d-141157b43226",
+      "event_at": "2026-06-21T18:14:22Z",
+      "observed_at": "2026-10-11T21:08:10Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "af89a0e6989ef11d08a3af12d5de837a3f1715cfaf1a9f64f57877f078b88354",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 3
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 4
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "unknown",
+          "count": 2
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:05.972Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:00.988Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:15.991Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:13:57.728Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "d79bf80f033e4eb1ebfc1cf85866e8503fa0ca74bfdabd709805c2802aef760f",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:13:56.424Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:09.493Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:13:57.731Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:15.989Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8d01d0ca-634e-46cc-8693-a49891d2e4b9",
+      "event_at": "2026-06-21T18:20:23Z",
+      "observed_at": "2026-10-11T21:08:21Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4ccabc09b768486f4790b7b28f2818f4313cf61bfb9c90a0e14733c7d835c60c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:58.353Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f03a1ce200fa3764bf5a3481fa07cf681cbcba75c8b089d3e1e1a7eb0bffc828",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:57.039Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:20:16.063Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:20:03.440Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:20:07.382Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:58.457Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:58.354Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:20:13.456Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/a86e4e45-3698-4bd3-8f8a-849de5519af7",
+      "event_at": "2026-06-21T18:23:46Z",
+      "observed_at": "2026-10-11T21:08:21Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1c201bbfd3c97b7058506b8f129dd8ca245883f3f44d06fcc32ef4b9069f1a3b",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:39.415Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:21.185Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:24.414Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:39.417Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:33.392Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f6cb2cba600e2fa4356ddb5e989c4e5e750144430583598ebb3eed58d5d0462b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:19.884Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:21.182Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:23:29.468Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/612fe8e3-1960-46e7-802d-3ac6fb119154",
+      "event_at": "2026-06-21T18:28:50Z",
+      "observed_at": "2026-10-11T21:08:30Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "8cd386df13c60340012f6a9953a76fe9c4410fae930d8f76f863ed6e3ed27b37",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 10
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:14.277Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:29.382Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:32.045Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:23.361Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:25.294Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "7440cedfe6174bfeb522ee772eb7c6b7bedab5f9e8566bfd17c01e6afa7304be",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:12.964Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:14.384Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:39.949Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:14.283Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:24.175Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:28:19.366Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/c769955e-487d-4651-b01c-bb3fcfee6a71",
+      "event_at": "2026-06-21T19:35:22Z",
+      "observed_at": "2026-10-11T21:08:31Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "752ed7a04d895e93c70f6edc467fecbb7ed7eeca1a60912774669222d7eddfa7",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:35:01.228Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "034c23e3d5b5c89d026c2f6ffef448ce8113ff61cf62ab2d278703e8be68e0d2",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:34:59.680Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:35:04.454Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:35:19.456Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/8df47b55-f555-4d4d-a933-79469f80e9c0",
+      "event_at": "2026-06-21T19:37:22Z",
+      "observed_at": "2026-10-11T21:08:37Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4c3df6010f010cbd56095b3880a65867075d3c8cfdb5631b93d061b3c149a91a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 14
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:37:18.868Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "f29e932e24d32b26404472c1efccb1d18e9555d41a93a30bfeea52d2182c97af",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:36:59.235Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:37:00.469Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:37:03.867Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/96e1b0e8-0d3e-4533-8edb-57756f34e5f1",
+      "event_at": "2026-06-21T19:37:22Z",
+      "observed_at": "2026-10-11T21:08:38Z",
+      "submitted_host": "webhook.site",
+      "decoded_carrier_host": null,
+      "encoding": null,
+      "decoded_sha256": null,
+      "decoded_characters": 0,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [],
+      "features": [],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0619abf773e42459af1a1cadcb2235333ed63d40f61e350c9b069c8a50427f9e",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 2
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:37:18.774Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "79544fd54ef4d2138f3d3cd5ff6f61e049b0d3585d48b5230b0d163c0852bbd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:36:59.698Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:37:01.021Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "54e929db2c426dac0ab56fbd7d3297c2eceb05c873d88fec01c729462029659b",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T19:37:01.127Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

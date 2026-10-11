@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T21:12:32Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": "Zero confirmed previously unreported rogue swarms; 686 of 1,146 saved urlquery records inspected, leaving 149 comparison absences and 311 overlaps",
+  "checkpoint_after": "Zero confirmed previously unreported rogue swarms; 716 of 1,146 saved urlquery records inspected, leaving 149 comparison absences and 281 overlaps",
+  "scope": {
+    "selection": "All 23 still-uninspected reports submitted through the two remaining shortener hosts, followed by the earliest seven of nine still-uninspected reports submitted as public sink pages",
+    "records_selected": 30,
+    "successful_original_reads": 30,
+    "read_failures": 0,
+    "event_range": {
+      "from": "2026-06-20T11:33:23Z",
+      "to": "2026-06-21T21:05:11Z"
+    },
+    "observed_at": "2026-10-11T21:08:42Z",
+    "comparison_overlaps": 30,
+    "comparison_absences": 0,
+    "submitted_host_counts": {
+      "da.gd": 8,
+      "is.gd": 15,
+      "webhook.site": 7
+    }
+  },
+  "method": {
+    "source": "Existing public urlquery report JSON only",
+    "collection": "The bounded review helper read each report's public /json representation without following redirects and exported hashes, static operation counts and domain-level archived traffic only.",
+    "prohibited_actions": "No short link, carrier, sink topic, target, recovered program, scanner submission or archived request was opened, executed, replayed or contacted.",
+    "publication_boundary": "No short-link path, sink path, topic, payload, message body, credential, submitter address or private log is retained."
+  },
+  "observations": {
+    "known_family_overlap": {
+      "records_reaching_aihw_visualization_host": 30,
+      "records_with_archived_posts_to_aihw_visualization_host": 28,
+      "assessment": "Every report reaches the public visualization host already associated with the published AIHW experiment. This ties the records to the known comparison family; it does not establish an independent episode or population."
+    },
+    "channel_structure": {
+      "records_with_channel_requests": 14,
+      "records_without_channel_requests": 16,
+      "archived_channel_requests": 109,
+      "unique_one_way_channel_references": 13,
+      "methods": [
+        "GET"
+      ],
+      "preserved_nonempty_request_bodies": 0,
+      "preserved_nonempty_response_bodies": 0,
+      "assessment": "Endpoint reuse and repeated GETs establish neither an author nor a task-bearing transfer. Empty archived responses cannot show recipient acquisition or downstream semantic use."
+    },
+    "static_structure": {
+      "decoded_sources": 0,
+      "fetch_calls": 0,
+      "xhr_calls": 0,
+      "socket_calls": 0,
+      "response_reads": 0,
+      "task_or_peer_words": 0
+    },
+    "host_groups": [
+      {
+        "submitted_host": "da.gd",
+        "records": 8,
+        "comparison_overlaps": 8,
+        "event_range": {
+          "from": "2026-06-21T11:35:41Z",
+          "to": "2026-06-21T11:37:31Z"
+        },
+        "recorded_shape": "Redirects into ordinary HTTP-test traffic and the known AIHW visualization host; no channel request is preserved.",
+        "assessment": "All eight exact IDs occur in the full pinned comparison snapshot, and their archived destination and timing remain inside the known family."
+      },
+      {
+        "submitted_host": "is.gd",
+        "records": 15,
+        "comparison_overlaps": 15,
+        "records_with_channel_requests": 7,
+        "archived_channel_requests": 62,
+        "unique_one_way_channel_references": 3,
+        "event_range": {
+          "from": "2026-06-20T11:33:23Z",
+          "to": "2026-06-21T21:05:11Z"
+        },
+        "assessment": "The seven channel-bearing reports preserve GET-only empty responses; the other eight preserve redirect and HTTP-test traffic. None preserves a sender-produced task artifact or a recipient's dependent action."
+      },
+      {
+        "submitted_host": "webhook.site",
+        "records": 7,
+        "comparison_overlaps": 7,
+        "records_with_channel_requests": 7,
+        "archived_channel_requests": 47,
+        "unique_one_way_channel_references": 10,
+        "event_range": {
+          "from": "2026-06-21T18:14:22Z",
+          "to": "2026-06-21T19:37:22Z"
+        },
+        "assessment": "Submitted sink pages expose several one-way endpoint hashes and repeated reads, but every preserved response is empty. The reports also reach the known AIHW surface and do not identify autonomous authors or demonstrate result use."
+      }
+    ]
+  },
+  "representative_original_records": [
+    "https://urlquery.net/report/2cdd864e-ef40-4fb5-b488-a69ad3f7df36",
+    "https://urlquery.net/report/395c7824-0d94-4f59-9c6a-6cca03215285",
+    "https://urlquery.net/report/1305b4d0-645c-4d01-9d4e-ad728ad249b6",
+    "https://urlquery.net/report/c4e329e7-fa1e-44a6-a275-f78cb0131736",
+    "https://urlquery.net/report/11c26d31-7673-4464-bcaa-63864eaf9942",
+    "https://urlquery.net/report/aeab5e49-5aaa-4c37-b21d-141157b43226",
+    "https://urlquery.net/report/c769955e-487d-4651-b01c-bb3fcfee6a71"
+  ],
+  "alternatives_tested": [
+    "Known AIHW experiment traffic mistaken for a separate population because a scanner ID is absent from the comparison release",
+    "Shortener redirects mistaken for sender-to-recipient handoffs",
+    "Repeated empty channel reads mistaken for retrieval and use of task work",
+    "Multiple one-way endpoint hashes mistaken for independently attributable autonomous participants",
+    "Scanner retries, rate limits and repeated captures mistaken for semantic dependencies"
+  ],
+  "evidence_state": {
+    "new_original_coordination_candidates": 0,
+    "verified_autonomous_ai_participants": 0,
+    "task_bearing_sender_artifact": false,
+    "recipient_acquisition": false,
+    "causal_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "The archived destination overlaps the known AIHW experiment; no separate provider-model execution is established.",
+    "ongoing_activity": "not established; all selected events occurred on 20-21 June 2026",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No episode-level prior-reporting search was warranted. All thirty exact IDs occur in the full pinned comparison snapshot and resolve to the already reported AIHW family before the participant, transfer/use and authorization tests.",
+  "advancement_evidence": "A separate episode would require public provenance for a specific autonomous sender, a task-bearing artifact, a distinguishable recipient's later acquisition and causal use, and primary evidence that their cooperation exceeded authorization. Nonempty archived content alone would still require semantic and operator-boundary evidence.",
+  "next_cursor": {
+    "source": "Saved urlquery scanner backlog",
+    "exact_report_urls": [
+      "https://urlquery.net/report/c97d8267-1101-4761-8d02-e9e91f907d7f",
+      "https://urlquery.net/report/6fbff60b-3d9a-489f-81a7-821bf4f6acf2"
+    ],
+    "reason": "Complete the two remaining submitted sink-page records before rotating to a fresh non-channel host cohort. Do not read a live sink page or topic."
+  }
+}

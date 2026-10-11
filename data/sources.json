@@ -1936,6 +1936,104 @@
       "observed_at": "2026-10-11T15:54:34Z",
       "git_blob_sha": "06214b4d4fa18ba1ad699a72fd0f218b00de4ea8",
       "commit_sha": "fdae163f3754c9f49aa109f4e0b3a494a447b397"
+    },
+    {
+      "id": "original-shortener-aihw-backlog-control",
+      "url": "https://urlquery.net/report/2cdd864e-ef40-4fb5-b488-a69ad3f7df36",
+      "role": "Representative exact-ID comparison overlap from the newly read shortener slice; archived traffic reaches the known AIHW visualization host and preserves no channel request",
+      "event_at": "2026-06-21T11:35:42Z",
+      "observed_at": "2026-10-11T21:08:42Z",
+      "report_json_sha256": "b6becc069a83cd9c2cc4f558509d19a43266a18d0ba389937deacf0053a82aef"
+    },
+    {
+      "id": "original-shortener-empty-channel-control",
+      "url": "https://urlquery.net/report/1305b4d0-645c-4d01-9d4e-ad728ad249b6",
+      "role": "Representative shortener report with a GET-only channel reference and empty archived response inside the known AIHW family",
+      "event_at": "2026-06-20T11:33:25Z",
+      "observed_at": "2026-10-11T21:08:42Z",
+      "report_json_sha256": "fe94d60655d15cf4e22781f99d695c879da81e3b7517e8147085f72a05773e4f"
+    },
+    {
+      "id": "original-submitted-sink-empty-response-control",
+      "url": "https://urlquery.net/report/aeab5e49-5aaa-4c37-b21d-141157b43226",
+      "role": "Representative submitted sink-page report with one-way endpoint hashes, GET-only empty responses and known AIHW overlap",
+      "event_at": "2026-06-21T18:14:22Z",
+      "observed_at": "2026-10-11T21:08:42Z",
+      "report_json_sha256": "af89a0e6989ef11d08a3af12d5de837a3f1715cfaf1a9f64f57877f078b88354"
+    },
+    {
+      "id": "original-multi-agent-error-lifecycle-smoke-trace-control",
+      "url": "https://github.com/Palind-Rome/multi-agent-error-lifecycle/blob/dc735c0e3591417c921dd8c5d5a3255476b4b6fe/outputs/private/acb-smoke-compact-TASK-DATAENG-RTD-060-20260815T061811Z-fe98b1f9/lifecycle-trace.jsonl",
+      "role": "Pinned 66-record engineering-smoke trace with two configured agents, message delivery, exact prompt exposure and marker surfacing",
+      "event_at": "2026-08-15T06:20:54.001000+00:00",
+      "event_end_at": "2026-08-15T06:20:54.030000+00:00",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "27299ca42c7c672e579853111198d3abfef4bcdd",
+      "commit_sha": "dc735c0e3591417c921dd8c5d5a3255476b4b6fe"
+    },
+    {
+      "id": "original-multi-agent-error-lifecycle-context",
+      "url": "https://github.com/Palind-Rome/multi-agent-error-lifecycle/blob/dc735c0e3591417c921dd8c5d5a3255476b4b6fe/README.md",
+      "role": "Pinned context marking AgentCollabBench engineering smoke output analysis-ineligible and distinguishing marker surfacing from semantic or action adoption",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "7ac71451c9427bcdbee4605c58967f3078dd608a",
+      "commit_sha": "dc735c0e3591417c921dd8c5d5a3255476b4b6fe"
+    },
+    {
+      "id": "original-agent-explore-multi-agent-experiment-control",
+      "url": "https://github.com/znygugeyx-ctrl/agent-explore/blob/7853b4a1cd5e6478aaadde61895aead493e9d982/experiments/014_multi_agent_coordination/results/data/runs_wf_slim.jsonl",
+      "role": "Pinned sampled Workbench experiment results with spawn and message counters, not an incident ledger",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "0623965e07d1720c8bc6433b006a37531900b121",
+      "commit_sha": "7853b4a1cd5e6478aaadde61895aead493e9d982"
+    },
+    {
+      "id": "original-agent-explore-context",
+      "url": "https://github.com/znygugeyx-ctrl/agent-explore/blob/7853b4a1cd5e6478aaadde61895aead493e9d982/README.md",
+      "role": "Pinned context defining an experimental framework for validating hypotheses about AI agents",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "419ce195af4834a02fc8467632a2232c13bdb345",
+      "commit_sha": "7853b4a1cd5e6478aaadde61895aead493e9d982"
+    },
+    {
+      "id": "original-social-system-arena-trace-control",
+      "url": "https://github.com/cf3i/SocialSystemArena/blob/2bb33c643da9cc6d94823c7489074138a5a0a624/traces/benchmarks/kimi_k2.5/clawebench/tang_sanshengliubu/20260324T101611Z/traces/T25zh_ambiguous_contact_email.run01.jsonl",
+      "role": "Pinned staged governance trace from a controlled historical-institution multi-agent benchmark",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "09c1945ef6337496215733f91603e7ebff2f7803",
+      "commit_sha": "2bb33c643da9cc6d94823c7489074138a5a0a624"
+    },
+    {
+      "id": "original-social-system-arena-context",
+      "url": "https://github.com/cf3i/SocialSystemArena/blob/2bb33c643da9cc6d94823c7489074138a5a0a624/README.md",
+      "role": "Pinned context explicitly defining a benchmark comparison of declarative multi-agent governance systems",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "df9cc48fb51280de0b19b272b140bbccae4b8343",
+      "commit_sha": "2bb33c643da9cc6d94823c7489074138a5a0a624"
+    },
+    {
+      "id": "original-webarena-prompt-injection-dataset-control",
+      "url": "https://github.com/LinkMingzhe/GroupProject-LLMao/blob/507529df9e9cb283d5f981a4cc60d56b69fdd0df/webarena_prompt_injections/configs/croissant/utility_in_webarena_format.jsonl",
+      "role": "Pinned WebArena prompt-injection task configuration whose message and task fields are benchmark material",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "ea22d92a88eda1244099d4d896ed9d1f2792d4ba",
+      "commit_sha": "507529df9e9cb283d5f981a4cc60d56b69fdd0df"
+    },
+    {
+      "id": "original-bfcl-reflexion-trace-control",
+      "url": "https://github.com/mirodilkamilov/seminar/blob/7e00193c828a413f2007db161febd60bffabce51/logs/richer_reflexion_turnwise/multi_turn_long_context_97.jsonl",
+      "role": "Pinned BFCL v3 reflection benchmark trajectory, not an organic coordination record",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "242f92b45d929b1184e799139b8adde19edc07f6",
+      "commit_sha": "7e00193c828a413f2007db161febd60bffabce51"
+    },
+    {
+      "id": "original-generated-agent-safety-use-case-control",
+      "url": "https://github.com/NeighborLiu/Technology-for-Automated-Construction-of-Safety-Use-Cases-for-Agent-Tasks/blob/f907a972c53df576a37a06e7e7669ddef37dd00c/envs_generator/gen_testcases_by_deepseek/check_folder/Manually_check_result.jsonl",
+      "role": "Pinned generated safety-use-case review output, not an actual-run sender-to-recipient record",
+      "observed_at": "2026-10-11T21:12:32Z",
+      "git_blob_sha": "3fa9a944e25464f5cf60fcba1728264c46d8d4fe",
+      "commit_sha": "f907a972c53df576a37a06e7e7669ddef37dd00c"
     }
   ]
 }

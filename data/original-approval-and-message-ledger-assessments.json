@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T15:02:57Z",
+  "discovery_target": "Previously unreported rogue AI coordination supported by original public records, with a specific sender artifact, causal recipient use and primary operator-boundary evidence",
+  "checkpoint_before": "Zero confirmed previously unreported rogue swarms; 686 of 1,146 saved urlquery records inspected",
+  "checkpoint_after": "Zero confirmed previously unreported rogue swarms; scanner coverage unchanged at 686 of 1,146 because this pass inspected committed run and ledger artifacts rather than new scanner reports",
+  "scope": {
+    "global_default_branch_queries": 7,
+    "successful_result_pages_screened": 9,
+    "query_result_rows_screened": 70,
+    "distinct_public_paths_screened": 69,
+    "committed_record_files_read_in_full": 8,
+    "committed_context_files_read": 10,
+    "new_original_scanner_inspections": 0,
+    "remaining_scanner_backlog": {
+      "records": 460,
+      "comparison_absences": 149,
+      "comparison_overlaps": 311
+    }
+  },
+  "locator_queries": [
+    {
+      "query": "\"source_agent\" \"target_agent\" \"artifact\" \"policy_violation\" extension:jsonl",
+      "reported_total_count": 0,
+      "pages_screened": [1],
+      "rows_screened": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"result_hash\" extension:jsonl",
+      "reported_total_count": 0,
+      "pages_screened": [1],
+      "rows_screened": 0
+    },
+    {
+      "query": "\"approval_denied\" \"handoff\" \"used\" extension:jsonl",
+      "reported_total_count": 1,
+      "pages_screened": [1],
+      "rows_screened": 1
+    },
+    {
+      "query": "\"approval_denied\" \"agent_id\" extension:jsonl",
+      "reported_total_count": 5,
+      "pages_screened": [1],
+      "rows_screened": 5
+    },
+    {
+      "query": "\"policy_violation\" \"agent_id\" extension:jsonl",
+      "reported_total_count": 24,
+      "pages_screened": [1, 2],
+      "rows_screened": 24
+    },
+    {
+      "query": "\"send_message\" \"recipient\" \"task_id\" extension:jsonl",
+      "reported_total_count": 143,
+      "pages_screened": [1, 2],
+      "rows_screened": 40
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"artifact_id\" extension:jsonl",
+      "reported_total_count": 0,
+      "pages_screened": [1],
+      "rows_screened": 0
+    }
+  ],
+  "screening": {
+    "source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+    "selection_rule": "Retain an artifact for full reading only when its path and excerpt could represent an actual run, event ledger or task database. Reject implementation source, schemas, documentation-only examples, fixtures, generated models, evaluations, benchmarks and clearly labelled replay experiments before incident inference.",
+    "deduplication_note": "The x0x-symphony issue ledger matched two queries, so seventy returned rows represented sixty-nine distinct paths.",
+    "path_level_rejections": "The complete policy_violation result set was fixture, demo or baseline/governed replay material. Most send_message results were examples, benchmarks, synthetic holdouts, feature-test evidence or deliberate hierarchical-handoff traces. A diagnostics file under testdata was rejected without incident inference.",
+    "limitation": "Code-search counts and path triage are bounded locator coverage. They do not show that no qualifying record exists elsewhere or that every unexpanded excerpt is harmless."
+  },
+  "assessed_families": [
+    {
+      "id": "x0x_symphony_designed_handoff_ledger_control",
+      "primary_record": "https://github.com/saorsa-labs/x0x-symphony/blob/a1cefa2c2b43701ff18ae660092d6446f894af07/issues/issues.jsonl",
+      "git_blob_sha": "8eb0de3d3ee45282f53aab56351d7e4c2b139f2a",
+      "context": [
+        "https://github.com/saorsa-labs/x0x-symphony/blob/a1cefa2c2b43701ff18ae660092d6446f894af07/README.md",
+        "https://github.com/saorsa-labs/x0x-symphony/blob/a1cefa2c2b43701ff18ae660092d6446f894af07/WORKFLOW.md",
+        "https://github.com/saorsa-labs/x0x-symphony/blob/a1cefa2c2b43701ff18ae660092d6446f894af07/docs/design/symphony.md"
+      ],
+      "commit_sha": "a1cefa2c2b43701ff18ae660092d6446f894af07",
+      "commit_at": "2026-07-17T10:30:18Z",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "records": 58,
+      "record_created_range": {
+        "from": "2026-04-28T00:00:00Z",
+        "to": "2026-07-03T00:00:00Z"
+      },
+      "record_updated_range": {
+        "from": "2026-04-28T11:00:00Z",
+        "to": "2026-07-08T12:00:00Z"
+      },
+      "structure": {
+        "done_records": 58,
+        "records_with_handoff_objects": 58,
+        "records_with_explicit_assignee": 4,
+        "distinct_explicit_assignee_labels": 1,
+        "records_with_sender_field": 0,
+        "records_with_recipient_field": 0
+      },
+      "lexical_disambiguation": "The sole approval_denied match is XSY-0053, a completed implementation issue for approval observability events. The sole whole-word used match is ordinary implementation or validation prose. Neither is an observed denial followed by an autonomous handoff or recipient use.",
+      "authorization_context": "The pinned repository and workflow explicitly define agent claim, isolated execution, signed handoff and human review. The workflow instructs agents to leave issues in review and says humans close them.",
+      "participant_evidence": "One assignee label appears on four records; the other fifty-four expose no assignee. Labels and handoff objects do not independently authenticate autonomous trajectories.",
+      "classification": "Historical designed-workflow issue and handoff database; no rogue sender-to-recipient edge"
+    },
+    {
+      "id": "xa_guard_synthetic_identity_and_undo_spike_control",
+      "primary_records": [
+        {
+          "url": "https://github.com/chuali-zi/XA_guard/blob/8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a/docs/evidence/agent-identity-undo-spike-2026-07-12/effect-events.jsonl",
+          "git_blob_sha": "77674dbe65dbe6cd48315b5cd0ec745c61744e04",
+          "records": 7
+        },
+        {
+          "url": "https://github.com/chuali-zi/XA_guard/blob/8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a/docs/evidence/agent-identity-undo-spike-2026-07-12/ledger.jsonl",
+          "git_blob_sha": "e85ff81ee6ccc594c677007f77247cca3f4327df",
+          "records": 9
+        }
+      ],
+      "context": "https://github.com/chuali-zi/XA_guard/blob/8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a/docs/evidence/agent-identity-undo-spike-2026-07-12/README.md",
+      "context_git_blob_sha": "23efacee5515d5b8d5ffb29897c3c1c7af0d5886",
+      "commit_sha": "8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a",
+      "commit_at": "2026-08-06T15:32:01Z",
+      "evidence_label_date": "2026-07-12",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "timestamp_limitation": "All ledger ts fields are zero; the folder date and later commit date are provenance bounds, not event timestamps.",
+      "structure": {
+        "distinct_agent_identity_values": 1,
+        "configured_roles": [
+          "agent_operator",
+          "security-control-plane",
+          "security_approver"
+        ],
+        "effect_sequence": [
+          "effect_recorded",
+          "undo_requested",
+          "undo_approval_denied",
+          "compensation_started",
+          "compensation_completed",
+          "effect_recorded",
+          "undo_manual_required"
+        ]
+      },
+      "transfer_use_assessment": "One configured send_message effect is marked irreversible and later manual-undo-required, but the evidence package identifies OAR World, ToolSurface and Ledger as a synthetic downstream. It preserves no distinguishable autonomous recipient or later task work that uses a sender artifact.",
+      "authorization_context": "The evidence README calls this an isolated feasibility vertical slice and explicitly limits what it proves. The denial, compensation and irreversible-message branches are the intended test surface.",
+      "classification": "Controlled synthetic governance spike with one agent identity; not a rogue coordination candidate"
+    },
+    {
+      "id": "aipinho_single_agent_policy_run_control",
+      "primary_record": "https://github.com/sasandralean-prog/AIpinho/blob/2b7c49024a09bbb91c29a6393fff0315d6cef13e/reports/runtime_cleanup/20260706T005024Z/backup/data/runtime/codex_agent/events/codex_run_446ec667dcc14b38b2a80a2198f4d083.jsonl",
+      "git_blob_sha": "c97241c05da0aa549d62694844b5e898f1632904",
+      "context": "https://github.com/sasandralean-prog/AIpinho/blob/2b7c49024a09bbb91c29a6393fff0315d6cef13e/README.md",
+      "commit_sha": "2b7c49024a09bbb91c29a6393fff0315d6cef13e",
+      "commit_at": "2026-09-24T14:37:20Z",
+      "event_range": {
+        "from": "2026-06-13T23:00:29+00:00",
+        "to": "2026-06-13T23:01:24+00:00"
+      },
+      "observed_at": "2026-10-11T15:02:57Z",
+      "records": 13,
+      "structure": {
+        "distinct_run_ids": 1,
+        "distinct_session_ids": 1,
+        "distinct_agent_ids": 1,
+        "auto_approval_grants": 1,
+        "auto_approval_denials": 2,
+        "autoreview_tool_results": 0,
+        "autoreview_artifacts": 0
+      },
+      "assessment": "The run grants a read capability, blocks code-review and report-generation capabilities, then records planning, explanation, autoreview and completion. There is no second agent, sender, recipient, handoff or transferred result. A completed run after two blocked capabilities is not evidence that another participant bypassed or used the denied actions.",
+      "classification": "Single-agent fail-closed policy trace; no coordination candidate"
+    },
+    {
+      "id": "orchestra_read_only_code_investigation_trace_control",
+      "primary_record": "https://github.com/DrSeedon/orchestra/blob/577a8393046f0705f6113f6004e3a2fd5dd5f89d/.orchestra/tasks/V-813/runs/gpt-6.1-sol.jsonl",
+      "git_blob_sha": "e5ee6dc69ccc38b65c9e50d03ad4b44227518960",
+      "prompt": "https://github.com/DrSeedon/orchestra/blob/577a8393046f0705f6113f6004e3a2fd5dd5f89d/.orchestra/tasks/V-813/prompt.txt",
+      "prompt_git_blob_sha": "f441ecb67c8ef95b0fa26350b635aa0599edb81e",
+      "context": "https://github.com/DrSeedon/orchestra/blob/577a8393046f0705f6113f6004e3a2fd5dd5f89d/README.md",
+      "commit_sha": "577a8393046f0705f6113f6004e3a2fd5dd5f89d",
+      "commit_at": "2026-10-11T09:49:29Z",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "records": 26,
+      "threads": 1,
+      "event_timestamps_present": false,
+      "structure": {
+        "agent_message_items": 3,
+        "command_execution_items": 20,
+        "sender_fields": 0,
+        "recipient_fields": 0,
+        "agent_identity_fields": 0
+      },
+      "assessment": "The immutable trace is a single read-only repository investigation whose prompt asks how the product's send_message quota gate works. Its send_message, recipient and handoff terms describe the code under inspection or occur inside one agent's analysis; the event model contains no inter-agent delivery record or recipient use. The repository explicitly presents an agent-team orchestration platform.",
+      "classification": "Single investigation trace about messaging implementation; no observed message exchange"
+    },
+    {
+      "id": "beads_issue_ledger_lexical_controls",
+      "primary_records": [
+        {
+          "url": "https://github.com/paulmclear/auto_pm/blob/334df2fd891ad0e0826de082f3471c80c813d32b/.beads/backup/events.jsonl",
+          "git_blob_sha": "80b4242b686e5ef446baabb9b659e6b5d4551c76",
+          "records": 458,
+          "event_range": {
+            "from": "2026-03-19T09:30:21Z",
+            "to": "2026-04-06T16:46:48Z"
+          }
+        },
+        {
+          "url": "https://github.com/paulmclear/auto_pm/blob/334df2fd891ad0e0826de082f3471c80c813d32b/.beads/backup/issues.jsonl",
+          "git_blob_sha": "f4b1ab6eaf9effcce6497347bdc215697740075e",
+          "records": 85,
+          "event_range": {
+            "from": "2026-03-19T09:30:21Z",
+            "to": "2026-04-06T15:46:49Z"
+          }
+        },
+        {
+          "url": "https://github.com/JoshuaOliphant/jean-claude/blob/5f161af561894c4aa03cf1fd91bd93406bde3041/.beads/issues.jsonl",
+          "git_blob_sha": "9b7978c8ce2fd6700e5ff863b3dd42b3b76ed2e0",
+          "records": 110,
+          "event_range": {
+            "from": "2025-12-19T19:16:26.516979-08:00",
+            "to": "2026-01-19T16:25:03.581132-08:00"
+          }
+        }
+      ],
+      "observed_at": "2026-10-11T15:02:57Z",
+      "assessment": "auto_pm's event records contain one actor and only issue lifecycle events; its send_message, recipient and task_id matches occur in comments or issue text for an explicitly designed project-manager agent. Jean Claude's file is a 110-record issue database with no actor field; the repository explicitly documents an intended two-agent plan/implement workflow. Neither database records a delivered inter-agent task artifact or recipient use.",
+      "classification": "Issue-ledger lexical controls, not message or run-event streams"
+    }
+  ],
+  "alternatives_tested": [
+    "Feature names and source-code vocabulary mistaken for observed runtime events",
+    "Handoff objects in an intended issue workflow mistaken for unauthorized coordination",
+    "Configured governance roles mistaken for independent autonomous participants",
+    "A synthetic message side effect mistaken for a recipient agent using task work",
+    "A single-agent policy denial followed by completion mistaken for a bypass or swarm",
+    "A code-investigation transcript mentioning messaging primitives mistaken for an exchange",
+    "Issue descriptions and QA comments mistaken for structured message records",
+    "Benchmark, replay, holdout and feature-test traces mistaken for organic incidents"
+  ],
+  "evidence_state": {
+    "newly_read_committed_record_files": 8,
+    "newly_screened_distinct_public_paths": 69,
+    "new_original_coordination_candidates": 0,
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "AIpinho and Orchestra label their own configured runtimes, but no independently verified provider execution or multi-participant episode is established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No candidate survived the transfer/use and authorization tests, so no episode-level prior-reporting audit was warranted. The checked artifacts are original committed records, but their provenance as designed workflow, controlled spike, single-agent run, read-only investigation or issue ledger resolves them before novelty inference.",
+  "advancement_evidence": "A trail advances only with a public record binding a specific task-bearing artifact to an independently attributable autonomous sender, later acquisition and causal use by a distinguishable recipient, and primary evidence that the cooperation itself exceeded authorization. Event names, role labels, handoff schemas, approval denials, message-tool references and completed runs do not substitute for that chain.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      {
+        "query": "\"send_message\" \"recipient\" \"task_id\" extension:jsonl",
+        "page": 3,
+        "reason": "Continue at results 41-60; pages one and two are complete."
+      },
+      {
+        "query": "\"message_id\" \"sender_id\" \"recipient_id\" extension:jsonl",
+        "page": 1
+      },
+      {
+        "query": "\"session_id\" \"recipient_id\" \"tool_result\" \"approval_required\" extension:jsonl",
+        "page": 1
+      }
+    ],
+    "selection_rule": "Retain only immutable records from actual runs or incident ledgers. Reject examples, fixtures, benchmarks, synthetic holdouts, replays, planned workflows and issue-description lexical matches before developing a candidate.",
+    "advancement_evidence": "Require an actual sender event, task-bearing content represented by a sanitized hash or artifact reference, a distinct recipient event showing causal use, independent execution provenance and primary authorization-boundary evidence."
+  },
+  "safety": "Only public GitHub search results, pinned committed text files, directory metadata and commit metadata were read. No recovered commands or code were executed; no package, test, runtime, workflow, agent, message, account, webhook, inbox, carrier or target was invoked. Publication omits message bodies, prompts beyond a non-operational task summary, personal addresses, credentials, tokens, private paths and private logs."
+}

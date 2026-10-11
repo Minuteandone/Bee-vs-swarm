@@ -1706,6 +1706,133 @@
       "event_end_at": "2026-08-18T13:39:08.810Z",
       "observed_at": "2026-10-11T11:36:33Z",
       "git_blob_sha": "345c293a6ca9af62b2d1587d3cae71eea027d8b5"
+    },
+    {
+      "id": "original-x0x-symphony-handoff-ledger-control",
+      "url": "https://github.com/saorsa-labs/x0x-symphony/blob/a1cefa2c2b43701ff18ae660092d6446f894af07/issues/issues.jsonl",
+      "role": "Pinned 58-record historical issue database with handoff objects but no sender or recipient fields; approval-denied vocabulary is a completed feature specification inside an explicitly designed workflow",
+      "event_at": "2026-04-28T00:00:00Z",
+      "event_end_at": "2026-07-08T12:00:00Z",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "8eb0de3d3ee45282f53aab56351d7e4c2b139f2a",
+      "commit_sha": "a1cefa2c2b43701ff18ae660092d6446f894af07"
+    },
+    {
+      "id": "original-x0x-symphony-workflow-context",
+      "url": "https://github.com/saorsa-labs/x0x-symphony/blob/a1cefa2c2b43701ff18ae660092d6446f894af07/WORKFLOW.md",
+      "role": "Pinned authorization context explicitly defining agent claim, isolated execution, handoff and human review",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "commit_sha": "a1cefa2c2b43701ff18ae660092d6446f894af07"
+    },
+    {
+      "id": "original-xa-guard-undo-effects-control",
+      "url": "https://github.com/chuali-zi/XA_guard/blob/8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a/docs/evidence/agent-identity-undo-spike-2026-07-12/effect-events.jsonl",
+      "role": "Pinned seven-event controlled undo sequence with one agent identity, a denied undo, successful compensation and one irreversible synthetic message effect",
+      "evidence_label_date": "2026-07-12",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "77674dbe65dbe6cd48315b5cd0ec745c61744e04",
+      "commit_sha": "8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a"
+    },
+    {
+      "id": "original-xa-guard-undo-ledger-control",
+      "url": "https://github.com/chuali-zi/XA_guard/blob/8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a/docs/evidence/agent-identity-undo-spike-2026-07-12/ledger.jsonl",
+      "role": "Pinned nine-entry companion ledger whose configured governance roles and zero timestamps do not establish independent autonomous participants",
+      "evidence_label_date": "2026-07-12",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "e85ff81ee6ccc594c677007f77247cca3f4327df",
+      "commit_sha": "8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a"
+    },
+    {
+      "id": "original-xa-guard-spike-context",
+      "url": "https://github.com/chuali-zi/XA_guard/blob/8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a/docs/evidence/agent-identity-undo-spike-2026-07-12/README.md",
+      "role": "Pinned statement that the identity and undo evidence is an isolated feasibility slice with a synthetic downstream and limited production claims",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "23efacee5515d5b8d5ffb29897c3c1c7af0d5886",
+      "commit_sha": "8526b8c2d8aba9be1a02f2e1c79fb1722a9be83a"
+    },
+    {
+      "id": "original-aipinho-single-agent-policy-run-control",
+      "url": "https://github.com/sasandralean-prog/AIpinho/blob/2b7c49024a09bbb91c29a6393fff0315d6cef13e/reports/runtime_cleanup/20260706T005024Z/backup/data/runtime/codex_agent/events/codex_run_446ec667dcc14b38b2a80a2198f4d083.jsonl",
+      "role": "Pinned 13-event single-agent policy run with one granted capability, two enforced denials and no transferred tool result or artifact",
+      "event_at": "2026-06-13T23:00:29+00:00",
+      "event_end_at": "2026-06-13T23:01:24+00:00",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "c97241c05da0aa549d62694844b5e898f1632904",
+      "commit_sha": "2b7c49024a09bbb91c29a6393fff0315d6cef13e"
+    },
+    {
+      "id": "original-aipinho-governance-context",
+      "url": "https://github.com/sasandralean-prog/AIpinho/blob/2b7c49024a09bbb91c29a6393fff0315d6cef13e/README.md",
+      "role": "Pinned project context describing a governed policy-bound runtime and human authority model",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "commit_sha": "2b7c49024a09bbb91c29a6393fff0315d6cef13e"
+    },
+    {
+      "id": "original-orchestra-readonly-message-code-trace-control",
+      "url": "https://github.com/DrSeedon/orchestra/blob/577a8393046f0705f6113f6004e3a2fd5dd5f89d/.orchestra/tasks/V-813/runs/gpt-6.1-sol.jsonl",
+      "role": "Pinned 26-record single-thread trace whose message and handoff vocabulary describes code under read-only investigation rather than an observed inter-agent exchange",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "e5ee6dc69ccc38b65c9e50d03ad4b44227518960",
+      "commit_sha": "577a8393046f0705f6113f6004e3a2fd5dd5f89d"
+    },
+    {
+      "id": "original-orchestra-v813-prompt-context",
+      "url": "https://github.com/DrSeedon/orchestra/blob/577a8393046f0705f6113f6004e3a2fd5dd5f89d/.orchestra/tasks/V-813/prompt.txt",
+      "role": "Pinned task context establishing that the trace was a read-only investigation of the product's message quota implementation",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "f441ecb67c8ef95b0fa26350b635aa0599edb81e",
+      "commit_sha": "577a8393046f0705f6113f6004e3a2fd5dd5f89d"
+    },
+    {
+      "id": "original-orchestra-designed-team-context",
+      "url": "https://github.com/DrSeedon/orchestra/blob/577a8393046f0705f6113f6004e3a2fd5dd5f89d/README.md",
+      "role": "Pinned repository statement that Orchestra intentionally decomposes work across isolated agent workers and reviewers",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "commit_sha": "577a8393046f0705f6113f6004e3a2fd5dd5f89d"
+    },
+    {
+      "id": "original-auto-pm-beads-events-control",
+      "url": "https://github.com/paulmclear/auto_pm/blob/334df2fd891ad0e0826de082f3471c80c813d32b/.beads/backup/events.jsonl",
+      "role": "Pinned 458-record one-actor issue lifecycle ledger; messaging terms occur in comments or issue text, not delivered-message events",
+      "event_at": "2026-03-19T09:30:21Z",
+      "event_end_at": "2026-04-06T16:46:48Z",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "80b4242b686e5ef446baabb9b659e6b5d4551c76",
+      "commit_sha": "334df2fd891ad0e0826de082f3471c80c813d32b"
+    },
+    {
+      "id": "original-auto-pm-beads-issues-control",
+      "url": "https://github.com/paulmclear/auto_pm/blob/334df2fd891ad0e0826de082f3471c80c813d32b/.beads/backup/issues.jsonl",
+      "role": "Pinned 85-record project-manager issue database; sender and recipient fields are issue schema or prose rather than a transfer/use stream",
+      "event_at": "2026-03-19T09:30:21Z",
+      "event_end_at": "2026-04-06T15:46:49Z",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "f4b1ab6eaf9effcce6497347bdc215697740075e",
+      "commit_sha": "334df2fd891ad0e0826de082f3471c80c813d32b"
+    },
+    {
+      "id": "original-auto-pm-designed-context",
+      "url": "https://github.com/paulmclear/auto_pm/blob/334df2fd891ad0e0826de082f3471c80c813d32b/README.md",
+      "role": "Pinned repository context identifying an intentional LangGraph project-manager and reporter-agent system",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "commit_sha": "334df2fd891ad0e0826de082f3471c80c813d32b"
+    },
+    {
+      "id": "original-jean-claude-beads-issues-control",
+      "url": "https://github.com/JoshuaOliphant/jean-claude/blob/5f161af561894c4aa03cf1fd91bd93406bde3041/.beads/issues.jsonl",
+      "role": "Pinned 110-record issue database with no actor field; message and handoff matches occur in issue prose for an intended two-agent workflow",
+      "event_at": "2025-12-19T19:16:26.516979-08:00",
+      "event_end_at": "2026-01-19T16:25:03.581132-08:00",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "git_blob_sha": "9b7978c8ce2fd6700e5ff863b3dd42b3b76ed2e0",
+      "commit_sha": "5f161af561894c4aa03cf1fd91bd93406bde3041"
+    },
+    {
+      "id": "original-jean-claude-designed-context",
+      "url": "https://github.com/JoshuaOliphant/jean-claude/blob/5f161af561894c4aa03cf1fd91bd93406bde3041/README.md",
+      "role": "Pinned repository context explicitly describing an intended planner-implementer agent workflow",
+      "observed_at": "2026-10-11T15:02:57Z",
+      "commit_sha": "5f161af561894c4aa03cf1fd91bd93406bde3041"
     }
   ]
 }

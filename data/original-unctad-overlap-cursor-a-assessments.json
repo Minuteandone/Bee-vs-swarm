@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T09:58:29Z",
+  "discovery_target": "Previously unreported coordination in which distinguishable autonomous participants transfer a task result, instruction or artifact, the recipient demonstrably uses it, and primary evidence shows that the coordination crossed an operator-defined boundary.",
+  "scope": {
+    "selected_original_urlquery_reports": 30,
+    "successful_original_reads": 30,
+    "selected_exact_id_comparison_overlaps": 30,
+    "distinct_decoded_source_hashes": 27,
+    "distinct_original_report_json_hashes": 30,
+    "global_default_branch_locator_queries_with_exact_counts": 15,
+    "first_page_locator_excerpts_reviewed": 132,
+    "additional_claude_transcript_marker_queries": 8,
+    "additional_agent_mailbox_marker_queries": 7,
+    "cumulative_inspected_unique_urlquery_reports": 668,
+    "urlquery_listing_population": 1146,
+    "remaining_uninspected_urlquery_reports": 478,
+    "remaining_uninspected_comparison_absences": 149,
+    "remaining_uninspected_comparison_overlaps": 329,
+    "retained_read_failures": 0,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "selection": "Resumed the saved committed-audit and incident locator cursor, widened it once to exact event-field patterns, then returned to the original scanner backlog when every match resolved to implementation code, schemas, documentation, fixtures, tests, benchmarks or already reviewed designed-team material. The scanner selection is the first thirty higher-cue records in a bounded forty-seven-record LiveCodes/UNCTAD cluster: response parsing, fetch use, repeated requests and bounded decoded length determined order. Every selected report ID already occurs in the pinned comparison dataset. This tests an unrecognized coordination hypothesis; it does not make the records newly observed or novel.",
+  "snapshot": {
+    "path": "data/original-unctad-overlap-cursor-a-reviews.json",
+    "sha256": "186d1150627b4429c016d761bd6960f02cc50d4ce77f7853f066631a8781b590",
+    "records": 30,
+    "successful_records": 30,
+    "event_range": {
+      "from": "2026-04-30T00:35:00Z",
+      "to": "2026-06-18T13:21:44Z"
+    },
+    "observation_range": {
+      "from": "2026-10-11T09:51:37Z",
+      "to": "2026-10-11T09:52:32Z"
+    }
+  },
+  "snapshot_limitations": "The sanitized snapshot preserves original public report links, separate event and observation times, report and decoded-source hashes, domain-level traffic and bounded static-operation counts. It omits carrier paths and query values, recovered source, submitter identifiers, request and response bodies, headers and tokens. Equality of omitted provenance fields was compared only to test the multiple-participant hypothesis and no identifier or reversible fingerprint is published.",
+  "locator_queries": [
+    {
+      "query": "audit.jsonl actor agent_id action denied task",
+      "results_reviewed": 20
+    },
+    {
+      "query": "incidents.jsonl agent_id worker handoff",
+      "results_reviewed": 4
+    },
+    {
+      "query": "events.jsonl source_request_id unauthorized",
+      "results_reviewed": 5
+    },
+    {
+      "query": "run-log.jsonl handoff unauthorized recipient",
+      "results_reviewed": 1
+    },
+    {
+      "query": "handoff.jsonl operator approval recipient result",
+      "results_reviewed": 2
+    },
+    {
+      "query": "event_type handoff from_agent to_agent result timestamp",
+      "results_reviewed": 20
+    },
+    {
+      "query": "task_completed agent_id parent_task_id output timestamp jsonl",
+      "results_reviewed": 0
+    },
+    {
+      "query": "message sender recipient tool_result timestamp jsonl",
+      "results_reviewed": 20
+    },
+    {
+      "query": "policy_decision deny agent_id session_id timestamp jsonl",
+      "results_reviewed": 0
+    },
+    {
+      "query": "unauthorized run_id task_id output timestamp json",
+      "results_reviewed": 20
+    },
+    {
+      "query": "permission_denied agent tool timestamp jsonl",
+      "results_reviewed": 20
+    },
+    {
+      "query": "approval_required agent_id tool_call_id result jsonl",
+      "results_reviewed": 0
+    },
+    {
+      "query": "incident_id agent_id affected root_cause json",
+      "results_reviewed": 20
+    },
+    {
+      "query": "audit_log agent_id delegation result timestamp",
+      "results_reviewed": 0
+    },
+    {
+      "query": "security_event agent_id action denied timestamp jsonl",
+      "results_reviewed": 0
+    }
+  ],
+  "locator_assessment": "The fifteen exactly counted queries returned 132 excerpts. Every result was source, documentation, a schema, a fixture, a test, a benchmark or material already covered by this repository. Eight additional Claude transcript-marker queries likewise found source/specification/demo/fixture material, and seven mailbox-marker queries found code, documentation or the already reviewed Flywheel Agent Mail snapshot. No new committed real-run sender-to-recipient artifact was retained. Search remained a locator step rather than discovery evidence.",
+  "assessed_group": {
+    "id": "livecodes_unctad_single_submitter_iteration_control",
+    "records": 30,
+    "submitted_carrier_host": "livecodes.io",
+    "referenced_data_hosts": [
+      "unctadstat-api.unctad.org",
+      "unctadstat.unctad.org"
+    ],
+    "supporting_hosts": [
+      "api.allorigins.win",
+      "api.codetabs.com",
+      "cors.isomorphic-git.org",
+      "corsproxy.io",
+      "r.jina.ai"
+    ],
+    "source_structure": {
+      "distinct_decoded_source_hashes": 27,
+      "exact_duplicate_groups": [
+        {
+          "records": 2,
+          "event_span_seconds": 90,
+          "distinct_source_hashes": 1
+        },
+        {
+          "records": 3,
+          "event_span_seconds": 2,
+          "distinct_source_hashes": 1
+        }
+      ],
+      "high_similarity_revision_components": 8,
+      "static_fetch_calls": 24,
+      "static_xhr_calls": 0,
+      "static_socket_calls": 0,
+      "static_explicit_post_methods": 5,
+      "static_response_reads": 16,
+      "static_dom_output_references": 52,
+      "static_json_serializations": 3,
+      "static_timer_references": 6,
+      "static_iframe_references": 2,
+      "static_navigation_assignments": 0,
+      "static_task_or_peer_words": 0,
+      "records_with_storage_or_broadcast_markers": 0
+    },
+    "provenance_equality": {
+      "public_submitter_identity_groups": 1,
+      "group_sizes": [
+        30
+      ],
+      "scanner_network_origin_groups": 3,
+      "network_origin_group_sizes": [
+        14,
+        9,
+        7
+      ],
+      "scanner_environment_groups": 2,
+      "environment_group_sizes": [
+        25,
+        5
+      ],
+      "assessment": "All thirty reports carry the same public submitter identity field. Three network-origin values and two closely repeated scanner environments are insufficient to create distinct operators or autonomous participants and are consistent with scanner egress variation. No identifier values are retained or published."
+    },
+    "archived_data_responses": {
+      "records_with_unctad_response_body_hash": 11,
+      "distinct_response_body_hashes": 4,
+      "response_hash_group_sizes": [
+        7,
+        2,
+        1,
+        1
+      ],
+      "response_hash_groups_spanning_multiple_source_hashes": 2,
+      "response_body_content_available": false,
+      "response_hash_equal_to_any_decoded_source_hash": false,
+      "response_hash_literal_seen_in_later_source": false,
+      "assessment": "Stable archived response hashes across different source revisions are consistent with repeated retrieval of the same public statistical result. A response hash does not establish a task artifact or semantic use, and the archive does not expose these response bodies for a content-level carryover test."
+    },
+    "transfer_use_assessment": "The records contain small browser programs that request public UNCTAD statistical data, parse some responses and render or embed results locally. There is no socket, mailbox, channel, shared-state key, public report link, broadcast/storage API, task/peer vocabulary or navigation handoff joining one record to another. No later record names or demonstrably consumes an earlier record's output. Similar source revisions, repeated result hashes and two duplicate bursts are better explained by one submitter iterating and rescanning a data-retrieval workflow.",
+    "participant_evidence": "No distinguishable autonomous AI participants are verified. One common submitter field, one carrier service and revision clusters weigh against treating report IDs, source hashes, network origins or scanner environments as participants.",
+    "operator_boundary_evidence": false,
+    "provider_attribution": "No AI provider execution is established. LiveCodes is the carrier and UNCTAD is the public data source; proxy and CDN traffic is infrastructure, not participant attribution.",
+    "rogue_intent": "not established; the visible behavior is public statistical-data retrieval and presentation",
+    "ongoing_activity": "not established; the reports preserve historical events from 30 April through 18 June 2026 and no live carrier or target was contacted",
+    "classification": "single-submitter iterative public-data retrieval and duplicate-scan control; no sender-to-recipient transfer/use edge and no rogue-swarm candidate"
+  },
+  "alternatives_tested": [
+    "Different report IDs or decoded hashes mistaken for different participants",
+    "Scanner egress IP or environment changes mistaken for different operators",
+    "Repeated public API response hashes mistaken for task-result handoffs",
+    "Closely spaced duplicate reports mistaken for coordinated actors",
+    "Successive source revisions mistaken for semantic dependence on an earlier output",
+    "CORS proxies, CDN traffic and browser telemetry mistaken for a communication channel",
+    "POST-based statistical queries mistaken for exfiltration or recipient-directed transfer",
+    "Local DOM output or iframe rendering mistaken for downstream autonomous use"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 30,
+    "previously_published_episode": "All thirty report IDs already occur in the pinned comparison dataset. This pass tested whether their previously unrecognized cross-record structure formed a coordination episode; it did not.",
+    "known_published_family_overlap": "Exact-ID overlap with the comparison dataset; not a discovery",
+    "suspected_ai_coordination": false,
+    "verified_autonomous_ai_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "no AI provider execution established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "The thirty exact report IDs are present in the pinned comparison release, so the records themselves are not new to that corpus. A separate prior-reporting search for a new coordination episode was not warranted because no sender, recipient or downstream-use chain survived original-record inspection. No claim that nobody knows of this traffic is made.",
+  "advancement_evidence": "This trail advances only if an existing public record identifies a distinguishable autonomous sender, preserves the specific task-bearing result or instruction it produced, and shows a separate recipient acquiring and causally using that artifact. Primary provenance must also show that this cooperation exceeded an operator-defined authorization boundary. Another source revision, repeated UNCTAD response, report ID, IP, proxy request or scanner capture would not qualify.",
+  "next_cursor": {
+    "reason": "Finish the bounded forty-seven-record LiveCodes/UNCTAD overlap cluster before rotating away. The remaining seventeen records have lower structural cues but can falsify an omitted early or late transfer edge without expanding into a new search-result survey.",
+    "records": 17,
+    "comparison_status": "Every report ID is an exact overlap with the pinned comparison dataset.",
+    "selection_order": "Saved listing order after removing the thirty successfully inspected higher-cue records; preserve this exact cursor.",
+    "report_urls": [
+      "https://urlquery.net/report/d2f52015-3828-44d9-a23d-1d49093b25dd",
+      "https://urlquery.net/report/d0a5727d-d35b-42a3-ab8d-25cc00ef5977",
+      "https://urlquery.net/report/ba06e192-3824-4572-9626-ea97d701bd57",
+      "https://urlquery.net/report/7c13febd-4a50-420a-8eb2-2da9f32d4358",
+      "https://urlquery.net/report/76fe1e44-fd71-4637-9448-de5bd2efb4a4",
+      "https://urlquery.net/report/9782d233-a42f-4978-8fa5-0bb23f47b68b",
+      "https://urlquery.net/report/f7b98811-8841-4589-859b-5a654448006a",
+      "https://urlquery.net/report/a3895a36-5835-4ec3-aa4d-2dec109780e5",
+      "https://urlquery.net/report/b2c54f23-6abb-4c97-a251-aceac716a827",
+      "https://urlquery.net/report/1d70c37b-c50f-4763-9213-ba341ebe12e3",
+      "https://urlquery.net/report/4d162c90-8349-48d9-9b83-d71a79097798",
+      "https://urlquery.net/report/1f5218b7-a7fd-484d-8a00-ae2ba2deb4cd",
+      "https://urlquery.net/report/7361fa20-f98f-40c6-a3c3-85372362ff19",
+      "https://urlquery.net/report/f5765741-7505-4da1-9620-daaf05461ff6",
+      "https://urlquery.net/report/d4fe84ce-d536-4497-842e-938c10822229",
+      "https://urlquery.net/report/a7c139f9-8c51-42f5-abe0-0824d4a35ac0",
+      "https://urlquery.net/report/e2f6eda0-f377-44a8-9941-13f74395abbc"
+    ],
+    "advancement_evidence": "A remaining record advances only with public evidence of a distinct autonomous sender, a task-bearing artifact, a distinguishable recipient's later causal use and an authorization-boundary crossing. Shared submitter provenance, public-data retrieval or another revision/duplicate does not qualify."
+  },
+  "safety": "Only existing public GitHub search excerpts and existing public urlquery report JSON were read. No carrier, referenced destination, live target, recovered code, response body, payload, package, scan, runtime, account, authentication route, message, vote, inbox or participant contact was opened, invoked, executed, submitted or replayed. Publication omits raw carrier and request URLs, paths, query values, bodies, headers, credentials, submitter identifiers, personal addresses and private logs."
+}

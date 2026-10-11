@@ -1643,6 +1643,24 @@
       "event_at": "2026-02-27T13:15:12Z",
       "observed_at": "2026-10-11T04:58:25Z",
       "git_blob_sha": "e71ec6471f0d0f2b7707a3b28e4325a4a9a6f8e3"
+    },
+    {
+      "id": "original-unctad-livecodes-iteration-control",
+      "url": "https://urlquery.net/report/b0e524ed-669f-409a-a3d1-ffe1b002da04",
+      "role": "Representative high-cue public scanner record from the single-submitter LiveCodes/UNCTAD iteration control; it requests and reads public statistical data but preserves no inter-record recipient use",
+      "event_at": "2026-06-18T12:43:29Z",
+      "observed_at": "2026-10-11T09:51:37Z",
+      "report_json_sha256": "2186fecca9a258f3608ef339b34f64633e65c87439d4dcd6ddbb491723fa32a3",
+      "decoded_sha256": "03e2854db86ea01709f1b62f965cf87f9f5984b6af6f5b48c2f38058a89bf640"
+    },
+    {
+      "id": "original-unctad-livecodes-duplicate-burst-control",
+      "url": "https://urlquery.net/report/5d39eaac-5422-4532-bab9-c58541135c2c",
+      "role": "Representative member of a three-report, two-second exact decoded-source duplicate burst, supporting scanner repetition or resubmission rather than distinct participants",
+      "event_at": "2026-05-12T21:24:12Z",
+      "observed_at": "2026-10-11T09:52:24Z",
+      "report_json_sha256": "6fd79aeee08e522ae9f1f9e5273294d29ee6d08d6244a61d6e016092887c4a98",
+      "decoded_sha256": "c946233135877afdb9662e5ec9635501fe6fd1052fb749987e67f76aa1114f27"
     }
   ]
 }

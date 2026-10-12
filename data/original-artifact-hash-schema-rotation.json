@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T22:03:20Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a content-addressed task artifact, demonstrable recipient use, and a primary operator-boundary crossing",
+  "scope": {
+    "exact_default_branch_queries": 8,
+    "search_result_rows": 8,
+    "self_repository_rows": 3,
+    "external_paths": 5,
+    "external_repositories": 5,
+    "full_external_files_read": 6,
+    "actual_run_or_incident_records": 0,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+  "observed_at": "2026-10-11T22:03:20Z",
+  "queries": [
+    {
+      "query": "\"artifact_sha256\" \"produced_by\" \"consumed_by\" jsonl",
+      "rows": 5,
+      "self_rows": 1,
+      "external_rows": 4
+    },
+    {
+      "query": "\"result_hash\" \"received_by\" \"used_at\" \"run_id\" jsonl",
+      "rows": 1,
+      "self_rows": 1,
+      "external_rows": 0
+    },
+    {
+      "query": "\"source_run_id\" \"destination_run_id\" \"artifact_hash\" ndjson",
+      "rows": 1,
+      "self_rows": 1,
+      "external_rows": 0
+    },
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\"",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"created_by_agent_id\" \"consumed_by_agent_id\" \"artifact_id\"",
+      "rows": 1,
+      "self_rows": 0,
+      "external_rows": 1
+    },
+    {
+      "query": "\"sender_run_id\" \"receiver_run_id\" \"content_sha256\"",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"upstream_run_id\" \"downstream_run_id\" \"result_sha256\"",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"artifact_digest\" \"produced_by_agent\" \"consumed_by_agent\"",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    }
+  ],
+  "observer_contamination": {
+    "detected": true,
+    "assessment": "The repository's own saved query strings now appear in the public code-search index and matched three of the eight queries. Those rows are observer contamination and were excluded before incident inference.",
+    "control": "Reject this repository and literal query-log files before counting external results; pin every retained external file by commit and blob hash."
+  },
+  "assessed_records": [
+    {
+      "id": "aquaculture_enterprise_readiness_source",
+      "url": "https://github.com/Okan-wqm/aquaculture_platform/blob/08b0f4d19fce2484ad528d45b0ebd903e7c1e71f/aria-kernel/aria_kernel/enterprise_readiness.py",
+      "commit_sha": "08b0f4d19fce2484ad528d45b0ebd903e7c1e71f",
+      "git_blob_sha": "079166b6a5b331beaf5171bfae18ec40eba87948",
+      "assessment": "Implementation source for proof, waiver and readiness ledgers. Field names describe intended software state; the file is not an emitted run record and preserves no autonomous sender-to-recipient episode.",
+      "classification": "Static implementation source"
+    },
+    {
+      "id": "journal_data_lineage_notes",
+      "url": "https://github.com/akielbowicz/journal/blob/4c22c77c924105ebd3da8bbd39f837cd5a4d14aa/archive/whisper/repos/cv/charly-vibes/specodelic/branches/main/notes.md",
+      "commit_sha": "4c22c77c924105ebd3da8bbd39f837cd5a4d14aa",
+      "git_blob_sha": "4d76d38ab0f3deba7aa12a643c94ce8984000bd3",
+      "assessment": "Development notes propose data-lineage fields and JSONL export. They do not contain delivered artifacts, participant trajectories or a real-run event chain.",
+      "classification": "Design notes, not an event ledger"
+    },
+    {
+      "id": "marlrefine_reviewer_package_builder",
+      "url": "https://github.com/bagel786/marlrefine-artifact/blob/ad9d3df51af5b1a8103bc267c57d2e3ff044a5e3/frozen-source/deposit/build_reviewer_package.py",
+      "commit_sha": "ad9d3df51af5b1a8103bc267c57d2e3ff044a5e3",
+      "git_blob_sha": "53566819f6910c4d4428f6003d1307cc5ca20686",
+      "assessment": "Reviewer-package build source uses consumption terminology for ordinary archive-byte accounting. It is not an agent-use record and contains no organic sender-recipient dependency.",
+      "classification": "Static packaging source"
+    },
+    {
+      "id": "robot_sf_adversarial_fixture_test",
+      "url": "https://github.com/ll7/robot_sf_ll7/blob/53721be3248600e08641a9816d094b605e3c93e4/tests/adversarial/test_scenario_admissibility.py",
+      "commit_sha": "53721be3248600e08641a9816d094b605e3c93e4",
+      "git_blob_sha": "ab666c31e7a9c3243ecf6a8229fc1cdbce5f7959",
+      "assessment": "Adversarial test source and fixture hashes, not organic execution evidence. Test construction cannot establish autonomous participants, downstream use or an authorization crossing.",
+      "classification": "Test fixture source"
+    },
+    {
+      "id": "vibebus_local_fact_bus_source",
+      "url": "https://github.com/lakeofsky347/VibeBus/blob/51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580/src/store.rs",
+      "context": "https://github.com/lakeofsky347/VibeBus/blob/51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580/README.md",
+      "commit_sha": "51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580",
+      "commit_date": "2026-08-04T12:47:07Z",
+      "git_blob_sha": "af80f14c6cc6df989f536c4bdf9dec07f528ad43",
+      "context_git_blob_sha": "6a0eb1daee28b349d5691318d5debc6e34316934",
+      "assessment": "The source defines artifact-creator and consumer fields, but no run instance. The pinned README explicitly presents a local project-scoped fact bus for independent coding-agent tasks using SQLite. This is intentional coordination infrastructure, not evidence that a real exchange occurred or crossed an operator boundary.",
+      "classification": "Designed local agent-coordination implementation"
+    }
+  ],
+  "alternatives_tested": [
+    "Field-name co-occurrence in implementation source mistaken for a run ledger",
+    "Development notes mistaken for emitted event records",
+    "Archive-byte consumption mistaken for agent adoption",
+    "Adversarial fixtures mistaken for organic activity",
+    "Explicitly designed local coordination software mistaken for an unauthorized episode",
+    "This investigation's saved queries mistaken for independent external evidence"
+  ],
+  "evidence_state": {
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_artifact_transfer_in_actual_run": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No episode-level prior-reporting search was warranted. Every external match resolved before the incident test to source, notes, a test or an explicitly designed local coordination tool, and none supplied an actual production-transfer-use chain.",
+  "advancement_evidence": "A retained immutable record must be actual-run or incident evidence with independently attributable autonomous sender and recipient trajectories, a concrete content-addressed task artifact, causal recipient use and primary proof that the cooperation itself exceeded authorization. A field declaration, hash, role label, fixture or designed message bus is insufficient.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"artifact_sha256\" \"producer_run\" \"consumer_run\" \"adopted_at\"",
+      "\"output_digest\" \"sender_agent\" \"recipient_agent\" \"used_by\"",
+      "\"handoff_artifact_sha256\" \"source_agent\" \"target_agent\""
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches first. Retain only immutable actual-run or incident records with a concrete production, transfer and later-use chain. Reject code, schemas, notes, examples, fixtures, tests, benchmarks, simulations and expressly designed coordination before candidate inference."
+  }
+}

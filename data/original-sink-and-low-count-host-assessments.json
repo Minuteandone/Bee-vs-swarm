@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-11T22:03:20Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": {
+    "inspected_original_urlquery_reports": 716,
+    "remaining_uninspected_urlquery_reports": 430,
+    "remaining_comparison_absences": 149,
+    "remaining_comparison_overlaps": 281,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "checkpoint_after": {
+    "inspected_original_urlquery_reports": 735,
+    "remaining_uninspected_urlquery_reports": 411,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 279,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "scope": {
+    "selected_original_urlquery_reports": 19,
+    "successful_original_reads": 19,
+    "saved_sink_cursor_records": 2,
+    "low_count_host_records": 17,
+    "selected_exact_id_comparison_overlaps": 2,
+    "selected_exact_id_comparison_absences": 17,
+    "retained_read_failures": 0,
+    "new_original_coordination_candidates": 0
+  },
+  "selection": "Completed the exact two-record submitted sink-page cursor saved by Pass 59. Then read the complete untouched low-count no-decode remainder identified by the prior undecoded-closure assessment, except for one direct known-Amap locator and one known DseWiki exclusion: fourteen Appwrite deployment captures and three Facebook submissions. This is a bounded original-record review, not a participant count or novelty claim.",
+  "snapshots": [
+    {
+      "path": "data/original-sink-page-cursor-reviews.json",
+      "sha256": "2f2254da099e7886def4e1cca671c0dc8e3b06b48e4ed39bdd9853ddb5cc8325",
+      "records": 2,
+      "event_range": {
+        "from": "2026-06-21T19:37:24Z",
+        "to": "2026-06-21T19:46:57Z"
+      },
+      "observation_range": {
+        "from": "2026-10-11T21:58:37Z",
+        "to": "2026-10-11T21:58:37Z"
+      }
+    },
+    {
+      "path": "data/original-low-count-host-cohort-reviews.json",
+      "sha256": "8d28fe91adfea25c697e0ed7f1290b96a48846a662b6467c7cc0d427e8d9e0f8",
+      "records": 17,
+      "event_range": {
+        "from": "2026-10-05T17:34:25Z",
+        "to": "2026-10-05T18:03:22Z"
+      },
+      "observation_range": {
+        "from": "2026-10-11T21:59:41Z",
+        "to": "2026-10-11T22:01:11Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve public report links, separate event and observation times, report hashes, domain-level traffic summaries, bounded static operation counts and one-way channel hashes. They omit submitted paths, sink paths, request and response bodies, headers, credentials, personal addresses and recovered source. Scanner capture, HTTP status and endpoint equality do not authenticate an autonomous participant, task meaning, downstream use or an authorization boundary.",
+  "assessed_groups": [
+    {
+      "id": "final_submitted_sink_page_cursor",
+      "records": 2,
+      "primary_records": [
+        {
+          "url": "https://urlquery.net/report/c97d8267-1101-4761-8d02-e9e91f907d7f",
+          "event_at": "2026-06-21T19:37:24Z",
+          "report_json_sha256": "7b8532d8394f6a237c76d2caa43d0f8f093c5bf3ade8e03b581355e2d8d48d8e"
+        },
+        {
+          "url": "https://urlquery.net/report/6fbff60b-3d9a-489f-81a7-821bf4f6acf2",
+          "event_at": "2026-06-21T19:46:57Z",
+          "report_json_sha256": "3eb53e31584b2a531e73505a0f9ba2f10c1d538909f34aa4ba79dd02141c11e8"
+        }
+      ],
+      "recorded_channel_graph": {
+        "references": 8,
+        "unique_channel_hashes": 4,
+        "methods": {
+          "GET": 8
+        },
+        "statuses": {
+          "200": 4,
+          "429": 3,
+          "unknown": 1
+        },
+        "archived_request_body_characters": 0,
+        "archived_response_body_bytes": 0
+      },
+      "assessment": "Both reports reach the same public visualization host as the known AIHW family and both exact IDs occur in the pinned comparison snapshot. Their eight saved channel operations are reads only. All archived request bodies and responses are empty, and no decoded source or static response-use operation survives. Four endpoint hashes and two report IDs do not establish distinct senders or recipients.",
+      "classification": "Known AIHW comparison overlaps with GET-only empty sink reads; no captured transfer or use"
+    },
+    {
+      "id": "appwrite_deployment_capture_cohort",
+      "records": 14,
+      "distinct_submitted_hosts": 12,
+      "representative_record": "https://urlquery.net/report/b0f0c0b3-075b-4c35-8014-a8e34b6c2eae",
+      "representative_report_json_sha256": "04c330e19482d794145a64f7c796e86671fb1a3f190c8fea309b60e2b35ec166",
+      "assessment": "Each submitted deployment host redirects into the same official Appwrite web footprint, with Appwrite CDN, account/API, Stripe and Plausible traffic. The records preserve neither deployment content nor a decoded program. Their static operation, channel, state and public-report-link counts are all zero. Branch-like host labels and one ordinary Appwrite account-creation request reflect platform behavior, not independently attributable agents or a task-result exchange.",
+      "classification": "Official platform-shell captures; no participant, transfer or downstream-use evidence"
+    },
+    {
+      "id": "facebook_page_capture_cohort",
+      "records": 3,
+      "representative_record": "https://urlquery.net/report/c4fdab5e-d283-4910-9edd-0a0e18df056f",
+      "representative_report_json_sha256": "f150d0edbec92ee35723b7e91e35ac19f4ef274125f16354a8760cdda62fa9a0",
+      "assessment": "The three records contain ordinary Facebook, Instagram and first-party asset traffic. No page content, decoded source, task term, channel, shared state, linked report or sender-to-recipient dependency is preserved.",
+      "classification": "Ordinary social-site page captures; no agent-coordination evidence"
+    }
+  ],
+  "alternatives_tested": [
+    "Known AIHW experiment traffic under submitted sink-page wrappers",
+    "Empty GET retries and rate limits mistaken for message acquisition",
+    "Endpoint-hash multiplicity mistaken for multiple participants",
+    "Appwrite branch-deployment labels mistaken for autonomous identities",
+    "Designed platform account and analytics traffic mistaken for task transfer",
+    "Ordinary Facebook or Instagram page activity mistaken for agent communication"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 19,
+    "known_published_family_overlap": true,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "The two sink records are exact-ID overlaps with the pinned comparison and remain inside the known AIHW family. The seventeen low-count-host records are exact-ID comparison absences, but dataset absence is not novelty and none contains a coordination chain. No episode-level prior-reporting search was warranted because no original sender, task-bearing artifact, recipient use or authorization crossing emerged.",
+  "next_cursor": {
+    "reason": "Bound a single large untouched host cohort after the low-count no-decode remainder. These thirty Pie submissions have no listing-level decoded artifact or feature cue and all are comparison overlaps, so they are a low-priority control intended to test for unexpected original-report structure, not a candidate family.",
+    "selection_rule": "From the seven listing snapshots pinned by data/novelty-comparison-followup.json, deduplicate by report_url; remove every report_url found anywhere in data/*reviews.json; select submitted_host exactly `pie.dev`; sort by event_at descending and report_url descending; take the first thirty. Do not open a carrier path or follow a redirect.",
+    "records": 30,
+    "comparison_overlaps": 30,
+    "listing_rows_with_decoded_sha256": 0,
+    "listing_rows_with_features": 0,
+    "event_range": {
+      "from": "2026-06-21T18:56:00Z",
+      "to": "2026-06-21T19:28:00Z"
+    },
+    "report_urls": [
+      "https://urlquery.net/report/d6c59b6a-6823-4c34-b30f-27bc9f9821a8",
+      "https://urlquery.net/report/709592eb-560c-44a9-b732-52b8fb91244a",
+      "https://urlquery.net/report/bc9ba764-437c-4bec-a5d5-936d407dd328",
+      "https://urlquery.net/report/9abf3d2b-08fc-4882-a4c0-c9da6ff5d3c4",
+      "https://urlquery.net/report/477d8df8-993a-46fa-ac58-1c1cd84c5870",
+      "https://urlquery.net/report/ec4d7cfc-0109-4c29-9adb-253c9431a080",
+      "https://urlquery.net/report/eb03c7c9-ba60-443c-85a5-db02ddaf28c3",
+      "https://urlquery.net/report/e5913685-58ef-433a-824e-2692f792885c",
+      "https://urlquery.net/report/9ce31ea2-baf5-42e2-962e-c7615d0b6018",
+      "https://urlquery.net/report/90506ff2-a200-492f-b1ea-fa436fb84af9",
+      "https://urlquery.net/report/389c473a-a0f1-4f7d-aa45-0307ed2081fc",
+      "https://urlquery.net/report/33b72d55-7a0a-442c-83c2-bef330730a3c",
+      "https://urlquery.net/report/273cc34a-c41d-4c9d-bf73-7b175cb31b79",
+      "https://urlquery.net/report/eae066d8-83b7-4c6f-8cff-920a05703b9d",
+      "https://urlquery.net/report/6c5d9c41-11f6-461f-a535-9ed071bad15e",
+      "https://urlquery.net/report/236b91d4-c9b5-426d-99f2-afa34490da6f",
+      "https://urlquery.net/report/d01e6427-0503-4e0e-a71f-d5a06887902b",
+      "https://urlquery.net/report/9be7a1de-87cf-4e18-bb48-d1cec08f9126",
+      "https://urlquery.net/report/5038dc60-930a-47bb-a043-fa3fd7ae3ea1",
+      "https://urlquery.net/report/18f8cd1a-31bf-4eef-85f4-82984695d538",
+      "https://urlquery.net/report/acd818f2-2c18-42a5-96b3-2e1bc911613e",
+      "https://urlquery.net/report/a7d447da-5ddf-4e0a-8624-f5d03b1c4fff",
+      "https://urlquery.net/report/a41446b7-b662-435f-8cc2-7cc2070be04a",
+      "https://urlquery.net/report/8f581983-2d65-4ad2-b080-e3045ead9ba4",
+      "https://urlquery.net/report/758b53bf-69fc-48c2-b0ce-c2057076eca5",
+      "https://urlquery.net/report/6a6d97ba-5e42-4ec0-841e-98d3f85c3660",
+      "https://urlquery.net/report/665f061d-b74f-4005-adde-48d13934811d",
+      "https://urlquery.net/report/5f0dc75a-2a94-4570-a5d6-87347c89e02c",
+      "https://urlquery.net/report/49f256ac-db5a-45da-9939-09f3dc8e9389",
+      "https://urlquery.net/report/31a236ae-8177-49a9-8d85-ce8228308612"
+    ],
+    "advancement_evidence": "An original report must reveal a task-bearing artifact from an independently attributable autonomous sender, later acquisition and causal use by a distinguishable recipient, and primary evidence that the cooperation crossed authorization. More AIHW requests, endpoint hashes, report IDs or empty reads do not qualify."
+  }
+}

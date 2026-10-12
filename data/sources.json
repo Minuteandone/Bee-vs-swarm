@@ -2034,6 +2034,78 @@
       "observed_at": "2026-10-11T21:12:32Z",
       "git_blob_sha": "3fa9a944e25464f5cf60fcba1728264c46d8d4fe",
       "commit_sha": "f907a972c53df576a37a06e7e7669ddef37dd00c"
+    },
+    {
+      "id": "original-final-sink-page-aihw-control",
+      "url": "https://urlquery.net/report/6fbff60b-3d9a-489f-81a7-821bf4f6acf2",
+      "role": "Final saved submitted sink-page record; known AIHW comparison overlap with four GET-only channel references and empty archived responses",
+      "event_at": "2026-06-21T19:46:57Z",
+      "observed_at": "2026-10-11T21:58:37Z",
+      "report_json_sha256": "3eb53e31584b2a531e73505a0f9ba2f10c1d538909f34aa4ba79dd02141c11e8"
+    },
+    {
+      "id": "original-appwrite-deployment-shell-control",
+      "url": "https://urlquery.net/report/b0f0c0b3-075b-4c35-8014-a8e34b6c2eae",
+      "role": "Representative Appwrite deployment capture resolving to the official platform, CDN, account, payment and analytics footprint without decoded task material",
+      "event_at": "2026-10-05T17:37:37Z",
+      "observed_at": "2026-10-11T21:59:41Z",
+      "report_json_sha256": "04c330e19482d794145a64f7c796e86671fb1a3f190c8fea309b60e2b35ec166"
+    },
+    {
+      "id": "original-facebook-page-capture-control",
+      "url": "https://urlquery.net/report/c4fdab5e-d283-4910-9edd-0a0e18df056f",
+      "role": "Representative ordinary Facebook page and asset capture with no decoded task material, channel or sender-to-recipient dependency",
+      "event_at": "2026-10-05T17:44:22Z",
+      "observed_at": "2026-10-11T22:01:11Z",
+      "report_json_sha256": "f150d0edbec92ee35723b7e91e35ac19f4ef274125f16354a8760cdda62fa9a0"
+    },
+    {
+      "id": "original-aquaculture-readiness-source-control",
+      "url": "https://github.com/Okan-wqm/aquaculture_platform/blob/08b0f4d19fce2484ad528d45b0ebd903e7c1e71f/aria-kernel/aria_kernel/enterprise_readiness.py",
+      "role": "Pinned implementation source defining proof and readiness ledgers, not an emitted run or incident record",
+      "observed_at": "2026-10-11T22:03:20Z",
+      "git_blob_sha": "079166b6a5b331beaf5171bfae18ec40eba87948",
+      "commit_sha": "08b0f4d19fce2484ad528d45b0ebd903e7c1e71f"
+    },
+    {
+      "id": "original-journal-lineage-notes-control",
+      "url": "https://github.com/akielbowicz/journal/blob/4c22c77c924105ebd3da8bbd39f837cd5a4d14aa/archive/whisper/repos/cv/charly-vibes/specodelic/branches/main/notes.md",
+      "role": "Pinned development notes proposing data-lineage fields and JSONL export, not a delivered-artifact ledger",
+      "observed_at": "2026-10-11T22:03:20Z",
+      "git_blob_sha": "4d76d38ab0f3deba7aa12a643c94ce8984000bd3",
+      "commit_sha": "4c22c77c924105ebd3da8bbd39f837cd5a4d14aa"
+    },
+    {
+      "id": "original-marlrefine-package-builder-control",
+      "url": "https://github.com/bagel786/marlrefine-artifact/blob/ad9d3df51af5b1a8103bc267c57d2e3ff044a5e3/frozen-source/deposit/build_reviewer_package.py",
+      "role": "Pinned reviewer-package build source whose consumption terminology describes archive-byte accounting rather than agent adoption",
+      "observed_at": "2026-10-11T22:03:20Z",
+      "git_blob_sha": "53566819f6910c4d4428f6003d1307cc5ca20686",
+      "commit_sha": "ad9d3df51af5b1a8103bc267c57d2e3ff044a5e3"
+    },
+    {
+      "id": "original-robot-sf-adversarial-test-control",
+      "url": "https://github.com/ll7/robot_sf_ll7/blob/53721be3248600e08641a9816d094b605e3c93e4/tests/adversarial/test_scenario_admissibility.py",
+      "role": "Pinned adversarial test and fixture-hash source, not organic execution evidence",
+      "observed_at": "2026-10-11T22:03:20Z",
+      "git_blob_sha": "ab666c31e7a9c3243ecf6a8229fc1cdbce5f7959",
+      "commit_sha": "53721be3248600e08641a9816d094b605e3c93e4"
+    },
+    {
+      "id": "original-vibebus-fact-bus-source-control",
+      "url": "https://github.com/lakeofsky347/VibeBus/blob/51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580/src/store.rs",
+      "role": "Pinned local fact-bus implementation with artifact creator and consumer fields but no run instance",
+      "observed_at": "2026-10-11T22:03:20Z",
+      "git_blob_sha": "af80f14c6cc6df989f536c4bdf9dec07f528ad43",
+      "commit_sha": "51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580"
+    },
+    {
+      "id": "original-vibebus-designed-coordination-context",
+      "url": "https://github.com/lakeofsky347/VibeBus/blob/51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580/README.md",
+      "role": "Pinned context explicitly defining a project-scoped SQLite fact bus for intentional independent coding-agent tasks",
+      "observed_at": "2026-10-11T22:03:20Z",
+      "git_blob_sha": "6a0eb1daee28b349d5691318d5debc6e34316934",
+      "commit_sha": "51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580"
     }
   ]
 }

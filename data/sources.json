@@ -2114,6 +2114,22 @@
       "event_at": "2026-06-21T19:28:34Z",
       "observed_at": "2026-10-12T03:15:10Z",
       "report_json_sha256": "1978c8ca26d33c817605cb2acd77f47b9d1edc2b7ae025ee7697a280f7de31ee"
+    },
+    {
+      "id": "original-nghttp2-aihw-popup-message-control",
+      "url": "https://urlquery.net/report/6ec97952-0c15-4a24-909c-ec77481dd589",
+      "role": "Known AIHW comparison record whose visualization-popup test registers a message listener but records no message, outbound report or recipient use",
+      "event_at": "2026-06-21T10:17:08Z",
+      "observed_at": "2026-10-12T03:40:19Z",
+      "report_json_sha256": "d8511bb1a13ead57f5899b0bbb674be7bca2f5b7d800b398a491b662b148d3c3"
+    },
+    {
+      "id": "original-nghttp2-aihw-metadata-navigation-control",
+      "url": "https://urlquery.net/report/ef67a964-ffbb-4ed5-bf75-666fa9282d87",
+      "role": "Known AIHW comparison record whose worksheet-metadata navigation receives a 404 without a distinguishable autonomous recipient or downstream use",
+      "event_at": "2026-06-21T03:34:51Z",
+      "observed_at": "2026-10-12T03:40:33Z",
+      "report_json_sha256": "9c3d35b75bd569ee13e34b8d2d52585e540aef8992fc4cc5f29c2c5027999856"
     }
   ]
 }

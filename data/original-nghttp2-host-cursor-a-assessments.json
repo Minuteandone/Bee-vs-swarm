@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-12T03:48:11Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": {
+    "inspected_original_urlquery_reports": 765,
+    "remaining_uninspected_urlquery_reports": 381,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 249,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "checkpoint_after": {
+    "inspected_original_urlquery_reports": 795,
+    "remaining_uninspected_urlquery_reports": 351,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 219,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "scope": {
+    "selected_original_urlquery_reports": 30,
+    "successful_original_reads": 30,
+    "selected_exact_id_comparison_overlaps": 30,
+    "selected_exact_id_comparison_absences": 0,
+    "retained_read_failures": 0,
+    "decoded_sources": 24,
+    "undecoded_redirect_or_error_records": 6,
+    "exact_default_branch_queries": 7,
+    "self_repository_rows": 4,
+    "external_paths": 8,
+    "external_repositories": 7,
+    "external_actual_run_or_incident_records": 0,
+    "new_original_coordination_candidates": 0
+  },
+  "selection": "Completed the exact thirty-record untouched nghttp2.org cursor saved by Pass 61. Every selected ID overlaps the pinned comparison release and had no listing-level decoded hash or feature cue. Original JSON revealed source-level structure in twenty-four records, so the assessment tested the strongest apparent message, navigation, response and account-group dependencies before rotating into seven exact committed-record locator queries.",
+  "snapshot": {
+    "path": "data/original-nghttp2-host-cursor-a-reviews.json",
+    "sha256": "ef14716f8bc52fa769a720f4ccca0659b99f7014c225932877820b41ca1105a7",
+    "records": 30,
+    "event_range": {
+      "from": "2026-06-21T01:48:05Z",
+      "to": "2026-06-21T19:25:17Z"
+    },
+    "observation_range": {
+      "from": "2026-10-12T03:39:46Z",
+      "to": "2026-10-12T03:40:56Z"
+    }
+  },
+  "snapshot_limitations": "The sanitized snapshot preserves public report links, separate event and observation times, report and decoded-source hashes, domain-level traffic summaries, bounded static operation counts and one-way channel hashes. It omits submitted paths, visualization URLs, request and response bodies, headers, submitter values, credentials, personal addresses and recovered source. Scanner account or environment equality, source hashes and response hashes do not authenticate autonomous participants, task meaning, downstream use or an authorization boundary.",
+  "nghttp2_host_assessment": {
+    "records": 30,
+    "representative_message_listener_record": "https://urlquery.net/report/6ec97952-0c15-4a24-909c-ec77481dd589",
+    "representative_message_listener_report_json_sha256": "d8511bb1a13ead57f5899b0bbb674be7bca2f5b7d800b398a491b662b148d3c3",
+    "representative_metadata_navigation_record": "https://urlquery.net/report/ef67a964-ffbb-4ed5-bf75-666fa9282d87",
+    "representative_metadata_navigation_report_json_sha256": "9c3d35b75bd569ee13e34b8d2d52585e540aef8992fc4cc5f29c2c5027999856",
+    "distinct_report_json_hashes": 30,
+    "decoded_sources": 24,
+    "distinct_decoded_source_hashes": 21,
+    "exact_decoded_source_group_sizes": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "decoded_source_categories": {
+      "no_decoded_source": 6,
+      "tableau_embed": 7,
+      "tableau_direct_form": 1,
+      "tableau_export_crosstab": 1,
+      "tableau_export_dialog_with_http_test": 4,
+      "tableau_filter_test": 9,
+      "tableau_metadata_navigation": 1,
+      "visualization_popup_message_listener": 1
+    },
+    "submit_provenance_equality": {
+      "scanner_account_group_sizes": [15, 15],
+      "scanner_account_early_group_event_range": {
+        "from": "2026-06-21T01:48:05Z",
+        "to": "2026-06-21T06:50:32Z"
+      },
+      "scanner_account_late_group_event_range": {
+        "from": "2026-06-21T07:35:22Z",
+        "to": "2026-06-21T19:25:17Z"
+      },
+      "submission_network_origin_group_sizes": [30],
+      "exit_node_group_sizes": [30],
+      "user_agent_group_sizes": [29, 1],
+      "exact_source_hashes_shared_between_account_groups": 1,
+      "shared_source_occurrences": 4,
+      "assessment": "The two account identifiers are temporally separated but share an exact HTTP-test/Tableau source, one submission network-origin group and one exit-node group. This is compatible with account rotation or one research workflow on shared scanner infrastructure; it does not establish independent operators or autonomous participants."
+    },
+    "aggregate_static_operations": {
+      "fetch_calls": 5,
+      "xhr_calls": 0,
+      "socket_calls": 0,
+      "explicit_post_methods": 0,
+      "explicit_get_methods": 0,
+      "response_reads": 4,
+      "dom_output_references": 51,
+      "json_serializations": 2,
+      "timer_references": 5,
+      "iframe_references": 0,
+      "navigation_assignments": 1,
+      "meta_refresh_references": 0,
+      "task_or_peer_words": 0,
+      "channel_references": 0,
+      "state_references": 0,
+      "public_report_links": 0
+    },
+    "aggregate_recorded_network": {
+      "requests_by_host": {
+        "vizprod.aihw.gov.au": 572,
+        "viz.aihw.gov.au": 94,
+        "nghttp2.org": 51,
+        "challenges.cloudflare.com": 28,
+        "public.tableau.com": 13,
+        "httpbin.org": 4,
+        "example.com": 1
+      },
+      "requests_by_method": {
+        "GET": 668,
+        "POST": 95
+      },
+      "post_requests_with_nonempty_archived_body": 0,
+      "distinct_nonempty_post_body_hashes": 0,
+      "recorded_response_hashes": 763,
+      "distinct_response_hashes": 145,
+      "records_with_same_request_response_hash": 0,
+      "records_with_earlier_response_later_request_hash": 0
+    },
+    "strongest_apparent_dependencies": [
+      {
+        "type": "popup message listener",
+        "assessment": "One source opens an AIHW visualization, registers a browser message listener and contains a best-effort fetch to example.com. The scanner archive records only the nghttp2 request: no message, outbound request, task result or recipient action is captured. Static capability inside one submitted page is not an exchange between autonomous participants."
+      },
+      {
+        "type": "worksheet metadata navigation",
+        "assessment": "One source queries Tableau worksheet-field metadata and serializes it into a navigation to example.com. The recorded request receives 404. This is a single submitted test program moving its own browser-observed metadata; there is no autonomous sender/recipient distinction, causal recipient use or operator-boundary evidence."
+      },
+      {
+        "type": "repeated response-reading wrapper",
+        "assessment": "Four reports contain the same source across both scanner-account groups. It fetches a public HTTP-test response and calls a text parser, but discards the returned value; the surrounding action is an AIHW Tableau export-dialog test. Exact repetition supports a shared test template, not task-result transfer or adoption."
+      }
+    ],
+    "undecoded_records": "Five records are redirects to the public AIHW visualization host, including Cloudflare challenge traffic in four. One record references Pie but preserves only nghttp2 error responses. None exposes decoded task material, a message body or recipient use.",
+    "legacy_feature_resolution": "Seventeen records receive older listing features such as peer_language or repeated_requests. Source inspection resolves those cues to Tableau workbook/field-role APIs, UI labels, timers and ordinary HTTP-test repetition; the stricter task-or-peer lexical count is zero across the cohort.",
+    "assessment": "The thirty records form a systematic browser-level test sequence around the already reported AIHW visualization family. They show filtering, export, popup/message and metadata-access experiments by submitted pages, not a sender-to-recipient task chain. All exact IDs already occur in the pinned comparison release, and no original record preserves distinct autonomous trajectories or unauthorized cooperation.",
+    "classification": "Known AIHW comparison-overlap browser-test sequence; no autonomous transfer/use edge"
+  },
+  "content_addressed_event_schema_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+    "observed_at": "2026-10-12T03:48:11Z",
+    "queries": [
+      {
+        "query": "\"message_artifact_sha256\" \"sender_run_id\" \"recipient_run_id\" \"applied_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"input_artifact_sha256\" \"producer_agent_id\" \"consumer_agent_id\" \"decision_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_agent_id\" \"downstream_action_id\" \"content_sha256\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"content_sha256\" \"consumed_at\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_digest\" \"used_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"parent_message_id\" \"sender_agent_id\" \"recipient_agent_id\" \"action_id\"",
+        "rows": 3,
+        "self_rows": 0,
+        "external_rows": 3
+      },
+      {
+        "query": "\"source_artifact_id\" \"target_run_id\" \"applied_at\"",
+        "rows": 5,
+        "self_rows": 0,
+        "external_rows": 5
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "assessment": "The three saved queries and one rotated query returned this repository's own indexed assessment files. Those four rows were excluded before external inference.",
+      "control": "Reject Bee-vs-swarm and literal query-log files before counting external results."
+    },
+    "external_match_groups": [
+      {
+        "repository": "DEGAorg/agent-communication-mcp",
+        "commit_sha": "a3f018f1a8eea06cd0fd841e32cc099c396143ea",
+        "paths": [
+          "src/supabase/message-helper.ts",
+          "src/supabase/message-handler.ts"
+        ],
+        "classification": "Message-service implementation source, not an emitted exchange"
+      },
+      {
+        "repository": "JYC333/Rainver",
+        "commit_sha": "c9bc9ec68488a45f53c5f8b88654738a51be11e5",
+        "paths": [
+          "server/test/agentGroupsLifecycleProjector.test.ts"
+        ],
+        "classification": "Lifecycle-projector test source"
+      },
+      {
+        "repository": "tomasmarekk/Palyra",
+        "commit_sha": "98a473aa262d0d755fefa25dd0bb6f13cc1bea51",
+        "paths": [
+          "apps/web/src/consoleApi.ts"
+        ],
+        "classification": "Console API type source"
+      },
+      {
+        "repository": "OpenLinker-ai/openlinker-core",
+        "commit_sha": "7f875ea629d93bec78ce857d82d453034c8ee834",
+        "paths": [
+          "migrations/086_current_schema_init.up.sql"
+        ],
+        "classification": "Database schema migration"
+      },
+      {
+        "repository": "lishilei123/SmartHub",
+        "commit_sha": "19bf9baafce3c0d82a3ac6aba18f29a3ada9049a",
+        "paths": [
+          "server/infrastructure/migrations.ts"
+        ],
+        "classification": "Infrastructure migration source"
+      },
+      {
+        "repository": "statlyaus/Statly",
+        "commit_sha": "58369df9da4e612593307e3e7a6ffc6510c10e8a",
+        "paths": [
+          "prisma/afl-trade-outcomes/migrations/0221_hpn_private_clearance_adjudication/migration.sql"
+        ],
+        "classification": "Database migration source"
+      },
+      {
+        "repository": "ruggerdude/TheNorns",
+        "commit_sha": "40c6360bce6038b8b23050eb84d5350cab150750",
+        "paths": [
+          "apps/server/src/phase6/mockups.ts"
+        ],
+        "classification": "Server mockup source"
+      }
+    ],
+    "assessment": "The eight external paths resolve by pathname and matched excerpt to implementation, type, test, migration or mockup source. None is an emitted run ledger, actual participant exchange or incident record, so no task artifact, causal adoption or operator-boundary crossing is recorded.",
+    "novelty_check": "No episode-level prior-reporting audit was warranted. After self-match removal, every external result fails the actual-run record test."
+  },
+  "alternatives_tested": [
+    "Two scanner-account identifiers mistaken for two autonomous participants",
+    "One submission environment using account rotation mistaken for cross-operator coordination",
+    "Tableau field-role APIs mistaken for agent-role language",
+    "Popup postMessage capability mistaken for a captured task exchange",
+    "Single-page metadata serialization mistaken for recipient adoption",
+    "HTTP-test response parsing whose value is discarded mistaken for downstream use",
+    "Repeated public visualization assets mistaken for transferred task artifacts",
+    "Implementation fields, migrations, mockups and tests mistaken for emitted event ledgers",
+    "This investigation's saved queries mistaken for independent external evidence"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 30,
+    "known_published_family_overlap": true,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All thirty scanner records are exact-ID overlaps with the pinned comparison release and remain inside the known AIHW family. The external code-search hits are not episodes. No claim of new coordination or novelty is made.",
+  "next_scanner_cursor": {
+    "reason": "Continue the same bounded host review because forty-six untouched nghttp2.org records remain and the first slice exposed source structure that listing metadata missed. These thirty rows are all comparison overlaps with no listing-level decoded hash or feature cue.",
+    "selection_rule": "From the seven listing snapshots pinned by data/novelty-comparison-followup.json, deduplicate by report_url; remove every report_url found anywhere in data/*reviews.json and this pass's new snapshot; select submitted_host exactly `nghttp2.org`; sort by event_at descending and report_url descending; take the first thirty. Do not open a carrier path or follow a redirect.",
+    "records": 30,
+    "remaining_host_records_before_cursor": 46,
+    "comparison_overlaps": 30,
+    "listing_rows_with_decoded_sha256": 0,
+    "listing_rows_with_features": 0,
+    "event_range": {
+      "from": "2026-06-20T22:13:00Z",
+      "to": "2026-06-21T01:40:00Z"
+    },
+    "report_urls": [
+      "https://urlquery.net/report/c1d45df3-da86-495c-ba2f-6ce527b851df",
+      "https://urlquery.net/report/c6a798c0-90c5-4950-a4bf-4448107f5263",
+      "https://urlquery.net/report/b0c54ec1-3c51-4b15-9b52-b2a3c82474d5",
+      "https://urlquery.net/report/321b5357-1389-4605-b2ab-fafa6c5ef3e9",
+      "https://urlquery.net/report/2093c33e-fa66-43f7-9a2f-16bb70fa630b",
+      "https://urlquery.net/report/98f8bf90-d2a8-4088-923f-a1d265fbc9fd",
+      "https://urlquery.net/report/9eb711f1-3f1a-4a8e-8300-6c425a1d9457",
+      "https://urlquery.net/report/9d7e124e-994f-4998-b281-3c7a033fff6e",
+      "https://urlquery.net/report/78802407-61c8-4f26-99db-49da2d6497be",
+      "https://urlquery.net/report/064b7dbc-b9e4-472c-a5e5-0b132e81d8d4",
+      "https://urlquery.net/report/034fef79-93d8-4259-a27a-92dac09a0e63",
+      "https://urlquery.net/report/0154b75c-e83b-49e0-9624-73d79b2dc537",
+      "https://urlquery.net/report/d1bf8fea-ec63-4acc-b77e-c5134446c0f4",
+      "https://urlquery.net/report/e4c73bb9-47a8-468a-be1e-ad47dcf428aa",
+      "https://urlquery.net/report/dc382921-f16b-466c-9b7c-26b19eab0e3a",
+      "https://urlquery.net/report/41a0e743-839c-4e9c-934d-08a10873f2db",
+      "https://urlquery.net/report/61cf8826-efb9-4e80-8e72-a26fcdc1dcfe",
+      "https://urlquery.net/report/5a61a545-5cc8-493a-960f-aaddebc727b0",
+      "https://urlquery.net/report/503db016-b72e-467c-87bd-14559fc7c673",
+      "https://urlquery.net/report/5da974b3-97cb-4eb6-9b98-402bda9321b2",
+      "https://urlquery.net/report/f00dd64f-b6f0-4f4a-9ef8-16d62259acfa",
+      "https://urlquery.net/report/df6e3b78-8c18-448b-9e09-0cc39130404d",
+      "https://urlquery.net/report/ce1f9c10-0a7e-4192-8403-374728270794",
+      "https://urlquery.net/report/7e9956e0-1119-40fa-a2a0-35934d849a4f",
+      "https://urlquery.net/report/3168af0d-f8b7-49cc-877f-a4283ed2128d",
+      "https://urlquery.net/report/ee9b8cd1-2407-4fe8-9637-8c301715e232",
+      "https://urlquery.net/report/ff56c0e4-0e1a-4e16-9042-12c46092437a",
+      "https://urlquery.net/report/d1aea654-0114-4eb8-afe1-175449644b08",
+      "https://urlquery.net/report/48d7cde4-8f96-4093-8c78-ecee98b721c9",
+      "https://urlquery.net/report/4537c969-9d9b-4dfe-9d28-998cfd690873"
+    ],
+    "advancement_evidence": "An original report must reveal a task-bearing artifact from an independently attributable autonomous sender, later acquisition and causal use by a distinguishable recipient, and primary evidence that the cooperation crossed authorization. More AIHW browser tests, account labels, visualization assets, response hashes or endpoint requests do not qualify."
+  },
+  "next_immutable_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"payload_sha256\" \"sender_run_id\" \"recipient_run_id\" \"consumed_at\"",
+      "\"artifact_digest\" \"source_agent_id\" \"destination_agent_id\" \"downstream_event_id\"",
+      "\"input_message_id\" \"producer_run_id\" \"consumer_run_id\" \"output_sha256\""
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches first. Retain only immutable actual-run or incident records with a concrete production, transfer and later-use chain. Reject code, schemas, notes, examples, fixtures, tests, benchmarks, simulations and expressly designed coordination before candidate inference."
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-12T09:40:16Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": {
+    "inspected_original_urlquery_reports": 795,
+    "remaining_uninspected_urlquery_reports": 351,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 219,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "checkpoint_after": {
+    "inspected_original_urlquery_reports": 825,
+    "remaining_uninspected_urlquery_reports": 321,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 189,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "scope": {
+    "selected_original_urlquery_reports": 30,
+    "successful_original_reads": 30,
+    "selected_exact_id_comparison_overlaps": 30,
+    "selected_exact_id_comparison_absences": 0,
+    "retained_read_failures": 0,
+    "decoded_sources": 30,
+    "exact_default_branch_queries": 6,
+    "self_repository_rows": 4,
+    "external_paths": 1,
+    "external_actual_run_or_incident_records": 0,
+    "new_original_coordination_candidates": 0
+  },
+  "selection": "Completed the exact thirty-record untouched nghttp2.org cursor saved by Pass 62. Every selected ID overlaps the pinned comparison release and had no listing-level decoded hash or feature cue. Original JSON revealed source-level structure in all thirty records, so the assessment tested exact repetition, chronology, static transfer/use operations, domain-level traffic and public channel/state/report references before rotating into six exact committed-record locator queries.",
+  "snapshot": {
+    "path": "data/original-nghttp2-host-cursor-b-reviews.json",
+    "sha256": "b52fc521d7b813c16b997d6cc79d6ac856b983e878e70afd581f03c49471ae11",
+    "records": 30,
+    "event_range": {
+      "from": "2026-06-20T22:13:24Z",
+      "to": "2026-06-21T01:40:30Z"
+    },
+    "observation_range": {
+      "from": "2026-10-12T09:04:28Z",
+      "to": "2026-10-12T09:07:06Z"
+    }
+  },
+  "snapshot_limitations": "The sanitized snapshot preserves public report links, separate event and observation times, report and decoded-source hashes, domain-level traffic summaries and bounded static operation counts. It omits submitted paths, visualization URLs, request and response bodies, headers, submitter and network-origin values, credentials, personal addresses and recovered source. A transient timeout prevented a redundant aggregate archive-body comparison after the successful primary reads; therefore this pass makes no request-body or cross-response reuse claim. Hash equality, source structure and scanner multiplicity do not authenticate autonomous participants, task meaning, downstream use or an authorization boundary.",
+  "nghttp2_host_assessment": {
+    "records": 30,
+    "representative_duplicate_first_record": "https://urlquery.net/report/7e9956e0-1119-40fa-a2a0-35934d849a4f",
+    "representative_duplicate_second_record": "https://urlquery.net/report/3168af0d-f8b7-49cc-877f-a4283ed2128d",
+    "representative_navigation_record": "https://urlquery.net/report/ff56c0e4-0e1a-4e16-9042-12c46092437a",
+    "distinct_report_json_hashes": 30,
+    "decoded_sources": 30,
+    "distinct_decoded_source_hashes": 29,
+    "exact_decoded_source_group_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_source_repeat": {
+      "occurrences": 2,
+      "decoded_sha256": "26d0a3b6a424fb0f4a4dfff4bae5a9ae88d0450152919d56fe861eb53ef836aa",
+      "event_gap_seconds": 5,
+      "assessment": "The two records carry the same 2,662-character submitted source five seconds apart and preserve only an unresolved nghttp2 request. This is consistent with a duplicate submission or scanner retry and contains no captured recipient action."
+    },
+    "source_categories": {
+      "tableau_browser_tests": 22,
+      "tableau_metadata_navigation_tests": 8
+    },
+    "aggregate_static_operations": {
+      "fetch_calls": 0,
+      "xhr_calls": 0,
+      "socket_calls": 0,
+      "explicit_post_methods": 0,
+      "explicit_get_methods": 0,
+      "response_reads": 0,
+      "dom_output_references": 64,
+      "json_serializations": 8,
+      "timer_references": 16,
+      "iframe_references": 0,
+      "navigation_assignments": 8,
+      "meta_refresh_references": 0,
+      "task_or_peer_words": 0,
+      "channel_references": 0,
+      "state_references": 0,
+      "public_report_links": 0
+    },
+    "aggregate_recorded_network": {
+      "requests_total": 734,
+      "requests_by_host": {
+        "vizprod.aihw.gov.au": 658,
+        "nghttp2.org": 54,
+        "public.tableau.com": 17,
+        "example.com": 5
+      },
+      "requests_by_method": {
+        "GET": 666,
+        "POST": 68
+      },
+      "post_host": "vizprod.aihw.gov.au",
+      "body_level_dependency_assessed": false
+    },
+    "strongest_apparent_dependencies": [
+      {
+        "type": "five-second exact source repetition",
+        "assessment": "The only exact source repeat is a two-record burst five seconds apart. Both records preserve the same submitted program and only unresolved nghttp2 traffic, which supports duplicate submission or retry rather than a sender-to-recipient handoff."
+      },
+      {
+        "type": "worksheet metadata navigation controls",
+        "assessment": "Eight sources serialize browser-observed Tableau metadata and assign navigation. Five archives record an example.com request: two return 404 and three have unknown status; the other three preserve only unresolved nghttp2 traffic. The sources contain no fetch, XHR, socket or response-read operation, and the archives expose no distinguishable autonomous recipient or downstream use."
+      },
+      {
+        "type": "peer-language and repeated-request listing cues",
+        "assessment": "Twenty-two records carry the older peer-language cue and eight carry repeated-requests. Source inspection resolves the former to Tableau APIs and page labels, while the strict task-or-peer lexical count is zero. Repeated visualization requests and one duplicate source do not establish participant identity or task exchange."
+      }
+    ],
+    "assessment": "This second nghttp2 slice is another segment of the known AIHW Tableau browser-test sequence. The original sources expose display and metadata-navigation tests, but no task-bearing sender artifact, recipient acquisition, response read, public coordination channel, causal downstream use or operator-boundary evidence. Exact-ID overlap independently makes it unsuitable as a previously unreported episode.",
+    "classification": "Known AIHW comparison-overlap Tableau test sequence; no autonomous transfer/use edge"
+  },
+  "immutable_record_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+    "observed_at": "2026-10-12T09:40:16Z",
+    "queries": [
+      {
+        "query": "\"payload_sha256\" \"sender_run_id\" \"recipient_run_id\" \"consumed_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"artifact_digest\" \"source_agent_id\" \"destination_agent_id\" \"downstream_event_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"input_message_id\" \"producer_run_id\" \"consumer_run_id\" \"output_sha256\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"message_digest\" \"sender_agent_id\" \"recipient_agent_id\" \"used_at\"",
+        "rows": 1,
+        "self_rows": 0,
+        "external_rows": 1
+      },
+      {
+        "query": "\"produced_by_run_id\" \"consumed_by_run_id\" \"artifact_sha256\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"upstream_message_id\" \"downstream_action_id\" \"recipient_agent_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "rows": 4,
+      "assessment": "Four search rows are this repository's own indexed cursor or query-log text and were excluded before external inference."
+    },
+    "external_record": {
+      "repository": "cedrickdev/SynapseOS",
+      "commit_sha": "b97921107b9eda892f6389a2208a2cffd1201f78",
+      "path": "docs/synapseos v2-agent-governance-extensions.md",
+      "git_blob_sha": "0ba973f337ad7f5d9e556abaeaba6b16bab29460",
+      "classification": "Architecture specification and implementation roadmap for an intentional governed agent workforce; not an emitted run, communication event or incident record"
+    },
+    "assessment": "The only external match is explicitly labeled an architecture specification and implementation roadmap. Its communication-event fields and collusion-risk discussion describe intended future controls; they do not preserve an actual exchange. No episode-level prior-reporting audit was warranted."
+  },
+  "alternatives_tested": [
+    "Tableau field and workbook terminology mistaken for autonomous peer language",
+    "Five-second duplicate submission or scanner retry mistaken for two participants",
+    "One submitted browser program moving its own observed metadata mistaken for a sender-to-recipient exchange",
+    "Navigation attempt or 404 mistaken for demonstrated recipient use",
+    "Repeated Tableau session traffic mistaken for transferred task artifacts",
+    "Distinct decoded source hashes mistaken for distinct operators",
+    "An architecture specification mistaken for an emitted multi-agent run ledger",
+    "This investigation's indexed cursor text mistaken for independent evidence"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 30,
+    "known_published_family_overlap": true,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All thirty scanner records are exact-ID overlaps with the pinned comparison release and remain inside the known AIHW family. The single external committed file is a design specification, not an episode. No claim of new coordination or novelty is made.",
+  "next_scanner_cursor": {
+    "reason": "Close the final sixteen untouched nghttp2.org records, then rotate away from this host family. Every remaining record is an exact comparison overlap with no listing-level decoded hash or feature cue.",
+    "selection_rule": "From the seven listing snapshots pinned by data/novelty-comparison-followup.json, deduplicate by report_url; remove every report_url found anywhere in data/*reviews.json and this pass's new snapshot; select submitted_host exactly `nghttp2.org`; sort by event_at descending and report_url descending; take all sixteen remaining records. Do not open a carrier path or follow a redirect.",
+    "records": 16,
+    "remaining_host_records_before_cursor": 16,
+    "comparison_overlaps": 16,
+    "comparison_absences": 0,
+    "listing_rows_with_decoded_sha256": 0,
+    "listing_rows_with_features": 0,
+    "event_range": {
+      "from": "2026-06-20T18:45:00Z",
+      "to": "2026-06-20T22:13:00Z"
+    },
+    "report_urls": [
+      "https://urlquery.net/report/3edd941c-8884-4e1d-9560-dc2fefa485f2",
+      "https://urlquery.net/report/02d58e59-49ae-4120-8cbd-f045c93fe242",
+      "https://urlquery.net/report/f811d284-2d43-4562-b0db-c3787439f149",
+      "https://urlquery.net/report/dbb829e8-e929-47d1-815d-8e66619ae2c0",
+      "https://urlquery.net/report/ba2cc1d2-b6dc-47eb-bdd8-83b116d4ada0",
+      "https://urlquery.net/report/b6f4a61c-e27c-43b6-af96-016897b5646e",
+      "https://urlquery.net/report/9d349968-40cb-481c-b9a7-18003c90172e",
+      "https://urlquery.net/report/76f591e8-95d7-4284-9ba7-ed67f2dfa9f0",
+      "https://urlquery.net/report/543ac93b-00c9-4bdf-90d5-8db6666aedc1",
+      "https://urlquery.net/report/34c9a7ef-6379-453a-896e-1774a6110d5b",
+      "https://urlquery.net/report/303c4fe5-1c76-46b0-a1eb-127b6707c345",
+      "https://urlquery.net/report/2a6a7ec9-f9e1-4de6-8fe9-89bdf4eb5ca3",
+      "https://urlquery.net/report/09f1ea7b-7f7d-4d34-9ba9-85b99dd4686e",
+      "https://urlquery.net/report/037fb8ae-52bf-4880-a833-6d3a26f0597f",
+      "https://urlquery.net/report/dd2b50cf-4228-4b36-b61b-d0e5d5d882b5",
+      "https://urlquery.net/report/4f07a3e1-9457-477a-b045-62881d6fb769"
+    ],
+    "advancement_evidence": "An original report must reveal a task-bearing artifact from an independently attributable autonomous sender, later acquisition and causal use by a distinguishable recipient, and primary evidence that the cooperation crossed authorization. More AIHW browser tests, source variation, navigation attempts, request multiplicity or known-family overlap do not qualify."
+  },
+  "next_immutable_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"delivery_sha256\" \"producer_agent_id\" \"consumer_agent_id\" \"adopted_at\"",
+      "\"message_digest\" \"source_run_id\" \"target_run_id\" \"action_event_id\"",
+      "\"artifact_hash\" \"handoff_id\" \"recipient_run_id\" \"used_at\""
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches first. Retain only immutable actual-run or incident records with a concrete production, transfer and later-use chain. Reject code, schemas, notes, examples, fixtures, tests, benchmarks, simulations, architecture plans and expressly designed coordination before candidate inference."
+  }
+}

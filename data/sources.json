@@ -2130,6 +2130,30 @@
       "event_at": "2026-06-21T03:34:51Z",
       "observed_at": "2026-10-12T03:40:33Z",
       "report_json_sha256": "9c3d35b75bd569ee13e34b8d2d52585e540aef8992fc4cc5f29c2c5027999856"
+    },
+    {
+      "id": "original-nghttp2-second-slice-duplicate-control",
+      "url": "https://urlquery.net/report/7e9956e0-1119-40fa-a2a0-35934d849a4f",
+      "role": "First of two exact submitted-source repeats five seconds apart; known AIHW comparison overlap preserving only unresolved nghttp2 traffic",
+      "event_at": "2026-06-20T22:16:29Z",
+      "observed_at": "2026-10-12T09:06:34Z",
+      "report_json_sha256": "d5dda9779e832715b9383316d0da884eb24a95a687404d314cba237a76d3e204"
+    },
+    {
+      "id": "original-nghttp2-second-slice-navigation-control",
+      "url": "https://urlquery.net/report/ff56c0e4-0e1a-4e16-9042-12c46092437a",
+      "role": "Known AIHW comparison record whose submitted page serializes browser-observed Tableau metadata into an example-domain navigation that returns 404 without recipient use",
+      "event_at": "2026-06-20T22:13:34Z",
+      "observed_at": "2026-10-12T09:06:56Z",
+      "report_json_sha256": "02cf7241fcfb9799f98f28810ea0f5e7f48dda41312b3dd7f3618f698a62ed08"
+    },
+    {
+      "id": "original-synapseos-governance-roadmap-control",
+      "url": "https://github.com/cedrickdev/SynapseOS/blob/b97921107b9eda892f6389a2208a2cffd1201f78/docs/synapseos%20v2-agent-governance-extensions.md",
+      "role": "Pinned architecture specification and implementation roadmap containing communication-event fields, not an emitted run, exchange or incident record",
+      "observed_at": "2026-10-12T09:40:16Z",
+      "git_blob_sha": "0ba973f337ad7f5d9e556abaeaba6b16bab29460",
+      "commit_sha": "b97921107b9eda892f6389a2208a2cffd1201f78"
     }
   ]
 }

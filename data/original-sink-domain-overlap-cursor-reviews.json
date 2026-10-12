@@ -1,0 +1,1512 @@
+{
+  "collected_at": "2026-10-12T13:25:43Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/b1ab99e0-7cce-4d1c-b595-646971ef194e",
+      "event_at": "2026-06-21T18:20:12Z",
+      "observed_at": "2026-10-12T13:25:08Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "34eea888436fd8e3bc35eaf83c050abae9d4ed2a9d4f4a1ebb938b4147d37f97",
+      "decoded_characters": 1743,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "20c7c8513b1b430c6a7bd27e3b129e0b3455ef4a8f186500b846c86b91a63357",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 4,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:53.798Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:54.902Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:53.405Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:53.407Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:54.256Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:44.983Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/64d70c3c-afd9-4799-802a-2337e52734db",
+      "event_at": "2026-06-21T18:20:09Z",
+      "observed_at": "2026-10-12T13:25:08Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "f2dac366ac12b4280829d30e16b98ecb0c8a44831602cade827a41fc49a13357",
+      "decoded_characters": 1743,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d8ae66d0a960bd26cc2f814dcac8bd8100e6dfb407c0aa7f045f89aac0fc3c58",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 4,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 4
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:49.975Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:48.282Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:48.281Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:50.817Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:51.463Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:41.739Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/60aabf8d-f14a-44cb-ad28-a126c51b271e",
+      "event_at": "2026-06-21T18:20:15Z",
+      "observed_at": "2026-10-12T13:25:15Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "73985d11bf1e40fdf19fa0bb71a8344e3810dc3d8e14c080c71cf28c97090c67",
+      "decoded_characters": 1747,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "45f977097ea5a3e7bb51502e4573a376860b4c549931f163148624ae42eeb4a8",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 4,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:56.769Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:48.650Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:55.716Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:54.919Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:57.472Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:54.917Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/164b6553-e7b4-41ef-971a-315baab3bbf5",
+      "event_at": "2026-06-21T18:20:08Z",
+      "observed_at": "2026-10-12T13:25:15Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "9e2a32f6b2c0e3fa0a83d01627f6bd713450709ce82b24bfbcfb2fb6c88ae935",
+      "decoded_characters": 1743,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "b4a68c1f5ee6bd4b0b2eb3add39652d0cfedfe7acefa457a1884cdfd14d5c483",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 4,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:49.520Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:49.525Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:52.011Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:51.688Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:50.278Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:19:41.441Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/d3c236aa-75bf-4b0c-9c39-418557b74547",
+      "event_at": "2026-06-21T18:15:24Z",
+      "observed_at": "2026-10-12T13:25:20Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "41463815fc4c409ca0f229fc247d9bb72194b69099fc90d8ca3be0de3926440e",
+      "decoded_characters": 1744,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "1b8b2d337dd4f2cf1e3da5aa7c9fc2c6f007e444740668bea7a81ed28d23a307",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 4,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "api.mapbox.com",
+          "method": "GET",
+          "status": "200",
+          "count": 8
+        },
+        {
+          "host": "events.mapbox.com",
+          "method": "POST",
+          "status": "204",
+          "count": 4
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 44
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 3
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "429",
+          "count": 6
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:48.972Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:56.757Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:14:56.758Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:15:01.420Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:15:01.753Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "429",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T18:15:01.034Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e9d363c2-8a8d-4c37-b4ea-73ff500d999c",
+      "event_at": "2026-06-21T18:12:57Z",
+      "observed_at": "2026-10-12T13:25:21Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "117606044865a3066d9979edc874cb02e990671ca00fa8323ed5266113121b6d",
+      "decoded_characters": 1744,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "0ebab89f287c38061796dc7d0d8f638f915da8b39982fa6d093d1edcaeae2a24",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 4,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "400",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/77c2623b-a34a-4512-8e72-82a28e0f5858",
+      "event_at": "2026-06-21T17:43:08Z",
+      "observed_at": "2026-10-12T13:25:26Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "90fe375057e0c28dc0e278ea0ebb5d4039c7352f8b44596bd9def0e38121b5bd",
+      "decoded_characters": 1395,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ca57e9fa59f055c3f9c462d0caa99969200511fbc9216519866f51d7c507a7fc",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 7,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:42:54.643Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:43:04.639Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:42:44.619Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:42:54.640Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:42:36.367Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:42:36.373Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:42:39.638Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/432535e6-5902-490e-b7f5-1d4d4db72c54",
+      "event_at": "2026-06-21T17:34:10Z",
+      "observed_at": "2026-10-12T13:25:26Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "258a0df4c920d2dadaee00172de04cd9858473b9d51b4874593881b3ced76fa2",
+      "decoded_characters": 1103,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "24e530f38213bfc59e26cbdac40979ba5fe0dd92f4e50deaef9e2f1804746a61",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:44.141Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:54.162Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:39.048Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:39.157Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/e91d0db5-efad-4f61-9edf-81d48fc98c4b",
+      "event_at": "2026-06-21T17:33:24Z",
+      "observed_at": "2026-10-12T13:25:31Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "a98ff808a58b17e062f38b14bac83bcc301c7d27d2c2fe80a766d0f49b21e81f",
+      "decoded_characters": 1103,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "218f84fccda753df03d2f85c8192a44013caa0889b243c3150b740280da43959",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:32:53.127Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:32:56.328Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:01.317Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:11.330Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/0f848724-40bc-4d8c-b3f8-25c005a37d50",
+      "event_at": "2026-06-21T17:33:21Z",
+      "observed_at": "2026-10-12T13:25:32Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "6999e7ba3ddc3943b1c50b926f544173241cd825e74e0fd2c4a097fda7c4cc6f",
+      "decoded_characters": 1103,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a8b1c6f635d849c7bb7964a8a996dcee3cbb3167f1ce539e44378d15c9927ec7",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "webhook.site",
+          "method": "GET",
+          "status": "200",
+          "count": 4
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:32:58.760Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:33:08.775Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "2f4114b0839175aa1fc82f7fd15f3f31626f79944011abbbcfa3c389e965b8d4",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:32:50.531Z"
+        },
+        {
+          "host": "webhook.site",
+          "channel_ref_sha256": "45bcf31f2bcd2577d893b09eda126f55c45c494fe793336301ccf052576a3cd7",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T17:32:53.777Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2b8530f8-e711-46b2-8034-9a346c6f82b2",
+      "event_at": "2026-06-21T17:26:20Z",
+      "observed_at": "2026-10-12T13:25:37Z",
+      "submitted_host": "httpbun.com",
+      "decoded_carrier_host": "httpbun.com",
+      "encoding": "base64_path",
+      "decoded_sha256": "033893d90a3ff55cbaeb88677282f4e9e60e6c545962edcf1edd695965d218b8",
+      "decoded_characters": 1103,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "features": [
+        "sink_domain",
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "13ccf4ba24dd1993f7e05990e6a6c8b4abb3db0e25b91f44837cd1bcd0a2b0cc",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au",
+        "webhook.site"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbun.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/3bad0896-3ef4-4b2a-afd6-5e10c667c530",
+      "event_at": "2026-06-21T03:46:23Z",
+      "observed_at": "2026-10-12T13:25:37Z",
+      "submitted_host": "httpbin.org",
+      "decoded_carrier_host": "httpbin.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "eda7a3a4f99403d5bc912be1795114e4eab943a96b44f5b054479dfc2ddc6908",
+      "decoded_characters": 1179,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "ntfy.sh",
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "fetch",
+        "sink_domain",
+        "response_parsing"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "e96ec51165e96887bd5e420ff17d84e2f49b1bce3d6bf8169859e14dbdb3f49d",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "ntfy.sh",
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 3,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 3,
+        "explicit_get_methods": 0,
+        "response_reads": 2,
+        "dom_output_references": 0,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "httpbin.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ntfy.sh",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "ntfy.sh",
+          "method": "POST",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.sh",
+          "channel_ref_sha256": "3d877d042109e965f069d6df7944cfea237744333fe4af3acb5c600a9258d6f0",
+          "recorded_method": "POST",
+          "recorded_status": "unknown",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-21T03:46:01.232Z"
+        },
+        {
+          "host": "ntfy.sh",
+          "channel_ref_sha256": "3d877d042109e965f069d6df7944cfea237744333fe4af3acb5c600a9258d6f0",
+          "recorded_method": "POST",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 184,
+          "recorded_response_body_sha256": "2459c98020e252f2844b84b0082fe3c159136d75a9dabdfe35aa4dddeeee6ed5",
+          "recorded_at": "2026-06-21T03:46:01.977Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

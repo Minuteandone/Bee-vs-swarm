@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-12T13:30:52Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination in which task work is transferred, used by a distinguishable recipient, and the cooperation crosses an operator-defined boundary",
+  "checkpoint_before": {
+    "inspected_original_urlquery_reports": 825,
+    "remaining_uninspected_urlquery_reports": 321,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 189,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "checkpoint_after": {
+    "inspected_original_urlquery_reports": 853,
+    "remaining_uninspected_urlquery_reports": 293,
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 161,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "scope": {
+    "selected_original_urlquery_reports": 28,
+    "successful_original_reads": 28,
+    "selected_exact_id_comparison_overlaps": 28,
+    "selected_exact_id_comparison_absences": 0,
+    "retained_read_failures": 0,
+    "decoded_sources": 28,
+    "exact_default_branch_queries": 3,
+    "self_repository_rows": 3,
+    "external_paths": 0,
+    "external_actual_run_or_incident_records": 0,
+    "new_original_coordination_candidates": 0
+  },
+  "selection": "Completed the exact final sixteen-record nghttp2.org cursor saved by Pass 63, then rotated into all twelve untouched exact-ID comparison overlaps carrying the listing-level sink-domain cue. Original JSON was assessed for exact-source chronology, source-level transfer/use operations, sanitized channel chronology, archived request and response sizes, domain-level traffic and public state/report references. The three saved committed-record locator queries were then run, excluding this repository before inference.",
+  "snapshots": [
+    {
+      "path": "data/original-nghttp2-host-cursor-c-reviews.json",
+      "sha256": "f411262a82654baf47880b1bd0c95fb64eb7e6f87a1c6ec35b401753798c70fb",
+      "records": 16,
+      "event_range": {
+        "from": "2026-06-20T18:45:24Z",
+        "to": "2026-06-20T22:13:31Z"
+      },
+      "observation_range": {
+        "from": "2026-10-12T13:25:08Z",
+        "to": "2026-10-12T13:25:43Z"
+      }
+    },
+    {
+      "path": "data/original-sink-domain-overlap-cursor-reviews.json",
+      "sha256": "dd3f0e069dfa23130503baa979b50c06346cf87d667291c5d48cba60d9d96f63",
+      "records": 12,
+      "event_range": {
+        "from": "2026-06-21T03:46:23Z",
+        "to": "2026-06-21T18:20:15Z"
+      },
+      "observation_range": {
+        "from": "2026-10-12T13:25:08Z",
+        "to": "2026-10-12T13:25:37Z"
+      }
+    }
+  ],
+  "snapshot_limitations": "The sanitized snapshots preserve public report links, separate event and observation times, report and decoded-source hashes, bounded static structure, channel-reference hashes and domain-level recorded traffic. They omit carrier paths, channel names, request and response bodies, headers, submitter and network-origin values, visualization URLs, credentials, personal addresses and recovered source. Static counts and endpoint hashes are review cues, not participant identity, task meaning, causal use or authorization evidence.",
+  "nghttp2_closure_assessment": {
+    "records": 16,
+    "distinct_report_json_hashes": 16,
+    "decoded_sources": 16,
+    "distinct_decoded_source_hashes": 12,
+    "exact_duplicate_groups": [
+      {
+        "decoded_sha256": "258c885c41b30da50d38aa459b4417073ff35b9fa038d1222a8afb13d14238ff",
+        "occurrences": 2,
+        "event_gap_seconds": 3
+      },
+      {
+        "decoded_sha256": "30f1de5c3a292493dd2d7a31c13ef3269f9f869d0cf2b45e088d9be934c1a6ec",
+        "occurrences": 2,
+        "event_gap_seconds": 1
+      },
+      {
+        "decoded_sha256": "60d060a9fe3014a5a379364397f5989cd1a7661f6323bdc3dc15bffe6508588b",
+        "occurrences": 2,
+        "event_gap_seconds": 1
+      },
+      {
+        "decoded_sha256": "bde45a9f8506e43ce35a554a711d4754be500785967330069e8cab531599e24d",
+        "occurrences": 2,
+        "event_gap_seconds": 3
+      }
+    ],
+    "feature_counts": {
+      "peer_language": 14,
+      "repeated_requests": 2
+    },
+    "aggregate_static_operations": {
+      "fetch_calls": 0,
+      "xhr_calls": 0,
+      "socket_calls": 0,
+      "explicit_post_methods": 0,
+      "explicit_get_methods": 0,
+      "response_reads": 0,
+      "dom_output_references": 27,
+      "json_serializations": 3,
+      "timer_references": 4,
+      "iframe_references": 0,
+      "navigation_assignments": 2,
+      "meta_refresh_references": 0,
+      "task_or_peer_words": 0,
+      "channel_references": 6,
+      "state_references": 0,
+      "public_report_links": 0
+    },
+    "aggregate_recorded_network": {
+      "requests_total": 115,
+      "requests_by_host": {
+        "vizprod.aihw.gov.au": 75,
+        "nghttp2.org": 32,
+        "ntfy.envs.net": 6,
+        "example.com": 2
+      },
+      "requests_by_method": {
+        "GET": 107,
+        "POST": 8
+      }
+    },
+    "strongest_apparent_dependencies": [
+      {
+        "type": "four one-to-three-second exact-source pairs",
+        "assessment": "Four decoded sources each repeat exactly twice, with gaps of one to three seconds. This tight repetition supports duplicate submission or scanner retry; none of the pairs preserves a foreign result, reply or later causal use."
+      },
+      {
+        "type": "six successful notification-channel reads",
+        "representative_record": "https://urlquery.net/report/4f07a3e1-9457-477a-b045-62881d6fb769",
+        "assessment": "One submitted page records six GETs to one sanitized notification-channel hash. All six request bodies and archived responses are empty, no write to the hash appears in this cohort and the source contains no response-read operation or task term. This is empty polling, not a transfer/use edge."
+      },
+      {
+        "type": "metadata navigation and peer-language cues",
+        "assessment": "Two sources assign navigation to an example domain and fourteen carry the older peer-language cue. The network requests return 404 and the source language resolves to Tableau browser/UI terminology; the strict task-or-peer count is zero and no autonomous recipient is visible."
+      }
+    ],
+    "assessment": "The final nghttp2 slice closes the saved host cursor inside the known AIHW Tableau browser-test family. Source duplication, empty channel reads, metadata navigation and visualization traffic do not establish distinguishable autonomous participants, transferred task work, recipient use or an operator-boundary crossing.",
+    "classification": "Known AIHW comparison-overlap browser-test sequence; no autonomous transfer/use edge"
+  },
+  "sink_domain_overlap_assessment": {
+    "records": 12,
+    "distinct_report_json_hashes": 12,
+    "decoded_sources": 12,
+    "distinct_decoded_source_hashes": 12,
+    "feature_counts": {
+      "sink_domain": 12,
+      "repeated_requests": 5,
+      "fetch": 1,
+      "response_parsing": 1
+    },
+    "aggregate_static_operations": {
+      "fetch_calls": 3,
+      "xhr_calls": 0,
+      "socket_calls": 0,
+      "explicit_post_methods": 3,
+      "explicit_get_methods": 0,
+      "response_reads": 2,
+      "dom_output_references": 0,
+      "json_serializations": 24,
+      "timer_references": 15,
+      "iframe_references": 0,
+      "navigation_assignments": 0,
+      "meta_refresh_references": 0,
+      "task_or_peer_words": 0,
+      "channel_references": 51,
+      "state_references": 0,
+      "public_report_links": 0
+    },
+    "aggregate_recorded_network": {
+      "requests_total": 402,
+      "requests_by_host": {
+        "vizprod.aihw.gov.au": 268,
+        "webhook.site": 49,
+        "api.mapbox.com": 40,
+        "httpbun.com": 21,
+        "events.mapbox.com": 20,
+        "httpbin.org": 2,
+        "ntfy.sh": 2
+      },
+      "requests_by_method": {
+        "GET": 340,
+        "POST": 62
+      }
+    },
+    "webhook_get_controls": {
+      "sources_referencing_host": 11,
+      "records_with_captured_channel_requests": 9,
+      "records_without_captured_channel_requests": 2,
+      "recorded_gets": 49,
+      "statuses": {
+        "200": 18,
+        "429": 30,
+        "unknown": 1
+      },
+      "distinct_channel_hashes": 2,
+      "nonempty_request_bodies": 0,
+      "nonempty_response_bodies": 0,
+      "prior_snapshot_overlap": "Both sanitized channel hashes already occur in earlier known-AIHW shortener or sink review snapshots.",
+      "assessment": "The repeated channel references are GET-only, empty and partly rate-limited. They preserve neither a producer artifact nor recipient acquisition and use."
+    },
+    "singleton_post_control": {
+      "record": "https://urlquery.net/report/3bad0896-3ef4-4b2a-afd6-5e10c667c530",
+      "decoded_sha256": "eda7a3a4f99403d5bc912be1795114e4eab943a96b44f5b054479dfc2ddc6908",
+      "recorded_posts": 2,
+      "sanitized_channel_hashes": 1,
+      "recorded_request_body_characters": 0,
+      "response_statuses": [
+        "unknown",
+        "200"
+      ],
+      "response_body_bytes": [
+        0,
+        184
+      ],
+      "other_reviewed_records_with_same_channel_hash": 0,
+      "assessment": "One submitted program posts twice and reads the service response. The archive metadata records zero request-body characters, no second independently attributable consumer and no later work that depends on the response. This same-page publish response is consistent with a service acknowledgement, not a sender-to-recipient task exchange."
+    },
+    "assessment": "The twelve sink-domain records are another exact-ID segment of the known AIHW comparison family. Empty GET polling, a singleton same-page publish/acknowledgement and shared visualization traffic fail the required participant, task-transfer, downstream-use and authorization tests.",
+    "classification": "Known AIHW comparison-overlap channel controls; no autonomous transfer/use edge"
+  },
+  "immutable_record_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+    "observed_at": "2026-10-12T13:30:52Z",
+    "queries": [
+      {
+        "query": "\"delivery_sha256\" \"producer_agent_id\" \"consumer_agent_id\" \"adopted_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"message_digest\" \"source_run_id\" \"target_run_id\" \"action_event_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"artifact_hash\" \"handoff_id\" \"recipient_run_id\" \"used_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "rows": 3,
+      "assessment": "Every row is the preceding assessment file in this repository, which saved these exact future queries. All three were excluded before external inference."
+    },
+    "assessment": "No external committed path, actual-run record or incident record was located by the checked schemas. No episode-level prior-reporting audit was warranted."
+  },
+  "remaining_scanner_inventory": {
+    "status": "deferred_known_family_inventory",
+    "records": 293,
+    "comparison_absences": 132,
+    "comparison_overlaps": 161,
+    "sorted_report_url_set_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "sorted_absence_url_set_sha256": "b9147253e955c2ea730b989e7ba25a3c0a2b79c81005b8bddc2ca1f40909c5fd",
+    "sorted_overlap_url_set_sha256": "0ed9d432ceb96121d3eb02b3e53b73ce5cddc4b9eb13c6a5df3aa38b2019d2d9",
+    "by_submitted_host": {
+      "eu.httpbin.org": 84,
+      "pie.dev": 55,
+      "httpbun.com": 54,
+      "httpbin.org": 52,
+      "livecodes.io": 24,
+      "httpbingo.org": 22,
+      "amap-pc-ssr.amap.com": 1,
+      "wikiservice.at": 1
+    },
+    "bounded_marker_check": "Of 132 comparison absences, 130 have Amap, Alibaba, AliCDN, Aliyun or AIHW referenced-host markers. The other two rows are submitted to the Amap host and the previously known wikiservice/DseWiki control. Of 161 comparison overlaps, 107 have a known-family referenced-host marker and 54 have no listing marker but are exact-ID comparison overlaps.",
+    "pause_reason": "No remaining listing row supplies a specific source-level cue that would distinguish a separate episode or population from the known Amap, DseWiki or AIHW families. Selecting another known-family host batch solely to advance a count would violate the discovery-first rotation rule.",
+    "reactivation_evidence": "Resume a scanner record only if an existing public original artifact reveals a new task-bearing sender artifact, a later distinguishable recipient acquisition/use edge, independent provenance or primary authorization evidence that can separate it from the known family. Exact-ID absence, an unseen wrapper, a test-service host, source variation or request multiplicity is insufficient."
+  },
+  "alternatives_tested": [
+    "One-to-three-second duplicate submissions or scanner retries mistaken for distinct participants",
+    "Tableau field and page language mistaken for autonomous peer communication",
+    "Empty successful notification GETs mistaken for message acquisition",
+    "Rate-limited webhook polling mistaken for a producer/consumer exchange",
+    "One page reading its own publish acknowledgement mistaken for a downstream recipient",
+    "Different decoded hashes or report IDs mistaken for different operators",
+    "Known-family source variation mistaken for a separate episode or population",
+    "This investigation's indexed future-query text mistaken for independent immutable evidence"
+  ],
+  "evidence_state": {
+    "newly_collected_original_records": 28,
+    "known_published_family_overlap": true,
+    "suspected_coordination": false,
+    "verified_autonomous_participants": 0,
+    "task_result_or_instruction_transfer": false,
+    "demonstrable_recipient_use": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "All twenty-eight scanner records are exact-ID overlaps with the pinned comparison release and remain inside the known AIHW family. The three immutable-record queries return only this repository's own saved cursor. No prior-coordination-report scope was opened because no separate original episode survived source-level falsification, and no claim of new coordination or novelty is made.",
+  "next_scanner_cursor": {
+    "status": "paused",
+    "reason": "The complete remaining inventory is bounded above and contains no listing-level separating cue. Future scanner reads are subordinate to a new original dependency clue, not the next host by volume.",
+    "deterministic_reconstruction": "From the seven listing snapshots pinned by data/novelty-comparison-followup.json, deduplicate by report_url and remove every report_url found in data/*reviews.json through data/original-sink-domain-overlap-cursor-reviews.json. Sort the remaining report URLs lexicographically. The 293-URL result must match sorted_report_url_set_sha256 before any reactivation."
+  },
+  "next_immutable_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"content_sha256\" \"producing_run_id\" \"consuming_run_id\" \"consumed_at\"",
+      "\"delivery_id\" \"sender_trajectory_id\" \"recipient_trajectory_id\" \"use_event_id\"",
+      "\"artifact_digest\" \"origin_run_id\" \"recipient_run_id\" \"adoption_event_id\""
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches first. Retain only immutable actual-run or incident records with concrete production, transfer and later causal use. Reject code, schemas, notes, examples, fixtures, tests, benchmarks, simulations, architecture plans and expressly designed coordination before candidate inference."
+  }
+}

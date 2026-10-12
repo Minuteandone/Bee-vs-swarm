@@ -2154,6 +2154,38 @@
       "observed_at": "2026-10-12T09:40:16Z",
       "git_blob_sha": "0ba973f337ad7f5d9e556abaeaba6b16bab29460",
       "commit_sha": "b97921107b9eda892f6389a2208a2cffd1201f78"
+    },
+    {
+      "id": "original-nghttp2-final-slice-duplicate-control",
+      "url": "https://urlquery.net/report/f811d284-2d43-4562-b0db-c3787439f149",
+      "role": "First of an exact-source pair one second apart in the final known-AIHW nghttp2 slice; duplicate submission or scanner retry control without a foreign result or downstream use",
+      "event_at": "2026-06-20T22:08:30Z",
+      "observed_at": "2026-10-12T13:25:13Z",
+      "report_json_sha256": "50ddfad1c5e816d4567e0805515a95e114589833770648aefacc17cd7b071789"
+    },
+    {
+      "id": "original-nghttp2-empty-notification-read-control",
+      "url": "https://urlquery.net/report/4f07a3e1-9457-477a-b045-62881d6fb769",
+      "role": "Known-AIHW comparison record with six successful GETs to one sanitized notification-channel hash; all archived responses are empty and no producer or response use is preserved",
+      "event_at": "2026-06-20T18:45:24Z",
+      "observed_at": "2026-10-12T13:25:43Z",
+      "report_json_sha256": "ca2409b2861bc2d09540a3ebb47121a7862655ae8fbc96d2916644b687012e35"
+    },
+    {
+      "id": "original-sink-domain-get-only-control",
+      "url": "https://urlquery.net/report/b1ab99e0-7cce-4d1c-b595-646971ef194e",
+      "role": "Representative known-AIHW sink-domain record whose six captured webhook references are GET-only, rate-limited and empty; no producer or recipient use is preserved",
+      "event_at": "2026-06-21T18:20:12Z",
+      "observed_at": "2026-10-12T13:25:08Z",
+      "report_json_sha256": "20c7c8513b1b430c6a7bd27e3b129e0b3455ef4a8f186500b846c86b91a63357"
+    },
+    {
+      "id": "original-sink-domain-singleton-publish-ack-control",
+      "url": "https://urlquery.net/report/3bad0896-3ef4-4b2a-afd6-5e10c667c530",
+      "role": "Known-AIHW singleton whose submitted page posts twice to one sanitized notification-channel hash and reads a service response consistent with an acknowledgement, without a second consumer or later dependent work",
+      "event_at": "2026-06-21T03:46:23Z",
+      "observed_at": "2026-10-12T13:25:37Z",
+      "report_json_sha256": "e96ec51165e96887bd5e420ff17d84e2f49b1bce3d6bf8169859e14dbdb3f49d"
     }
   ]
 }

@@ -1,0 +1,1202 @@
+{
+  "collected_at": "2026-10-12T13:25:48Z",
+  "method": "Existing public scanner report JSON; bounded offline text structure and domain-only recorded network summaries. No recovered code, carrier, sink or target request was executed. Redirects are rejected.",
+  "limitations": "Static counts are review cues, not source-level dataflow proof, participant identities, task-result exchange, authorization evidence or novelty. Recorded channel hashes correlate endpoints, not authors or agent trajectories. Responses can change or be unavailable.",
+  "records": [
+    {
+      "report_url": "https://urlquery.net/report/3edd941c-8884-4e1d-9560-dc2fefa485f2",
+      "event_at": "2026-06-20T22:13:31Z",
+      "observed_at": "2026-10-12T13:25:08Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "c11117c2db791f3352f3eca519d085923e79d991142d1009f47ba352ed2fb54b",
+      "decoded_characters": 828,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "example.com",
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "fc3d354b1db080dbbc60422edc3f9c6eb434e1f1e316aa26027cc67fdc45d908",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "example.com",
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "example.com",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/02d58e59-49ae-4120-8cbd-f045c93fe242",
+      "event_at": "2026-06-20T22:13:24Z",
+      "observed_at": "2026-10-12T13:25:08Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "3e679125d201fa886beacce4268897c66c72f4fae137f033498a1c34651ddb38",
+      "decoded_characters": 837,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "example.com",
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "repeated_requests"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "615a910f3ed54c3e83c5a73c0d57c2ba379ac48b220c84c886d0b875580e2322",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "example.com",
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 0,
+        "json_serializations": 1,
+        "timer_references": 2,
+        "iframe_references": 0,
+        "navigation_assignments": 1,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "example.com",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/f811d284-2d43-4562-b0db-c3787439f149",
+      "event_at": "2026-06-20T22:08:30Z",
+      "observed_at": "2026-10-12T13:25:13Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "60d060a9fe3014a5a379364397f5989cd1a7661f6323bdc3dc15bffe6508588b",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "50ddfad1c5e816d4567e0805515a95e114589833770648aefacc17cd7b071789",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/dbb829e8-e929-47d1-815d-8e66619ae2c0",
+      "event_at": "2026-06-20T22:08:33Z",
+      "observed_at": "2026-10-12T13:25:13Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "30f1de5c3a292493dd2d7a31c13ef3269f9f869d0cf2b45e088d9be934c1a6ec",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5188431fcb8f6ab063183fdf26bcba54b21b4f88a4ffbf4785f774c0f7964007",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/ba2cc1d2-b6dc-47eb-bdd8-83b116d4ada0",
+      "event_at": "2026-06-20T22:08:34Z",
+      "observed_at": "2026-10-12T13:25:18Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "30f1de5c3a292493dd2d7a31c13ef3269f9f869d0cf2b45e088d9be934c1a6ec",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "f12785cdcd015475106e9281bab788394e1703b40becd254e2f97ffa30ceb82c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/b6f4a61c-e27c-43b6-af96-016897b5646e",
+      "event_at": "2026-06-20T22:08:34Z",
+      "observed_at": "2026-10-12T13:25:18Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "bde45a9f8506e43ce35a554a711d4754be500785967330069e8cab531599e24d",
+      "decoded_characters": 839,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d54fd186b166f5fd38c9173a8e7933fd8460c448600961d9907a32a5a3a1afdc",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/9d349968-40cb-481c-b9a7-18003c90172e",
+      "event_at": "2026-06-20T22:08:30Z",
+      "observed_at": "2026-10-12T13:25:24Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "258c885c41b30da50d38aa459b4417073ff35b9fa038d1222a8afb13d14238ff",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "5ef48442f42de2be5271e684b7fdca53522f0786c4e1f24c04c3b188f43bb476",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/76f591e8-95d7-4284-9ba7-ed67f2dfa9f0",
+      "event_at": "2026-06-20T22:08:39Z",
+      "observed_at": "2026-10-12T13:25:24Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "badd9421561752dc298ba1bc8760e9c2072b87a45e4642e8c158486bf0872eb7",
+      "decoded_characters": 839,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "4ea0a9867385058f5522d9d8ce56f2cd1750e0a0b546ae37f90a27808bbb497f",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/543ac93b-00c9-4bdf-90d5-8db6666aedc1",
+      "event_at": "2026-06-20T22:08:29Z",
+      "observed_at": "2026-10-12T13:25:28Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "60d060a9fe3014a5a379364397f5989cd1a7661f6323bdc3dc15bffe6508588b",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "7425400b75b185081516007ddb754869488be2082c8e5282b7823b273c93d24a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/34c9a7ef-6379-453a-896e-1774a6110d5b",
+      "event_at": "2026-06-20T22:08:41Z",
+      "observed_at": "2026-10-12T13:25:28Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "e7c2004601ea33fce9b06b9c917e111799785636c7daf90b683ff8a42a6dd22e",
+      "decoded_characters": 839,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "a892ccd0c6cacf96feeccdbab662dcbf250df0cfc759035f339c2fd02a536247",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/303c4fe5-1c76-46b0-a1eb-127b6707c345",
+      "event_at": "2026-06-20T22:08:27Z",
+      "observed_at": "2026-10-12T13:25:33Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "258c885c41b30da50d38aa459b4417073ff35b9fa038d1222a8afb13d14238ff",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "52f8972a4230d176d5b99060d64b75cd14879153219fa12fdc091c1908030739",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/2a6a7ec9-f9e1-4de6-8fe9-89bdf4eb5ca3",
+      "event_at": "2026-06-20T22:08:36Z",
+      "observed_at": "2026-10-12T13:25:33Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "0265baabd596548c2a9e97d9fde3ed8b6431cb3363b70bba8139e3b12fe0c1fd",
+      "decoded_characters": 839,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ae6a5a55dae402ad62e53e99be08f9fbdbbc61afa71d5730b611472b7a02bc1a",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/09f1ea7b-7f7d-4d34-9ba9-85b99dd4686e",
+      "event_at": "2026-06-20T22:08:37Z",
+      "observed_at": "2026-10-12T13:25:37Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "bde45a9f8506e43ce35a554a711d4754be500785967330069e8cab531599e24d",
+      "decoded_characters": 839,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "d2aa0df28ffac28d7c728e02f5f476e8957616ba581eae5846c7b9cee517d8a7",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/037fb8ae-52bf-4880-a833-6d3a26f0597f",
+      "event_at": "2026-06-20T22:08:32Z",
+      "observed_at": "2026-10-12T13:25:38Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "124d48ec2919dcd9f931f2eaedeed9a819357196034b6c1e4929bd269360f8f2",
+      "decoded_characters": 839,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "aa175a8e652aac826c33b528b3e5b958a16cc921fca634c51c6934da928a4c99",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/dd2b50cf-4228-4b36-b61b-d0e5d5d882b5",
+      "event_at": "2026-06-20T22:01:54Z",
+      "observed_at": "2026-10-12T13:25:42Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "de2157d309d78804d4b2c620e520f79136c368c49fb562409dce55e0bf38079f",
+      "decoded_characters": 842,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "6b5574a5430b66737a89af454e9a03d22037930d24811ae9b4b780f85941df1c",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 2,
+        "json_serializations": 0,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "unknown",
+          "count": 1
+        }
+      ],
+      "recorded_channel_references": [],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    },
+    {
+      "report_url": "https://urlquery.net/report/4f07a3e1-9457-477a-b045-62881d6fb769",
+      "event_at": "2026-06-20T18:45:24Z",
+      "observed_at": "2026-10-12T13:25:43Z",
+      "submitted_host": "nghttp2.org",
+      "decoded_carrier_host": "nghttp2.org",
+      "encoding": "base64_path",
+      "decoded_sha256": "b5267db131c96e6535824bcc9cae49a30ad6ad5a48610db038636cfba2258af8",
+      "decoded_characters": 1170,
+      "nested_text_fragments": 0,
+      "decode_error": null,
+      "referenced_hosts": [
+        "ntfy.envs.net",
+        "vizprod.aihw.gov.au"
+      ],
+      "features": [
+        "peer_language"
+      ],
+      "swarm_confirmed": false,
+      "report_json_sha256": "ca2409b2861bc2d09540a3ebb47121a7862655ae8fbc96d2916644b687012e35",
+      "submitted_reference_domains": [],
+      "expanded_domain_references": [
+        "ntfy.envs.net",
+        "vizprod.aihw.gov.au"
+      ],
+      "referenced_public_report_links": [],
+      "static_operation_counts": {
+        "fetch_calls": 0,
+        "xhr_calls": 0,
+        "socket_calls": 0,
+        "explicit_post_methods": 0,
+        "explicit_get_methods": 0,
+        "response_reads": 0,
+        "dom_output_references": 1,
+        "json_serializations": 1,
+        "timer_references": 0,
+        "iframe_references": 0,
+        "navigation_assignments": 0,
+        "meta_refresh_references": 0,
+        "task_or_peer_words": 0
+      },
+      "recorded_network_summary": [
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "200",
+          "count": 1
+        },
+        {
+          "host": "nghttp2.org",
+          "method": "GET",
+          "status": "404",
+          "count": 1
+        },
+        {
+          "host": "ntfy.envs.net",
+          "method": "GET",
+          "status": "200",
+          "count": 6
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "GET",
+          "status": "200",
+          "count": 37
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "200",
+          "count": 5
+        },
+        {
+          "host": "vizprod.aihw.gov.au",
+          "method": "POST",
+          "status": "403",
+          "count": 3
+        }
+      ],
+      "recorded_channel_references": [
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "7b7a240af7150e84c3bd3fdec181687af2fae7b762c5e0097fadeb27e1f76fc3",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T18:45:06.190Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "7b7a240af7150e84c3bd3fdec181687af2fae7b762c5e0097fadeb27e1f76fc3",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T18:45:06.191Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "7b7a240af7150e84c3bd3fdec181687af2fae7b762c5e0097fadeb27e1f76fc3",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T18:45:08.016Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "7b7a240af7150e84c3bd3fdec181687af2fae7b762c5e0097fadeb27e1f76fc3",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T18:45:08.705Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "7b7a240af7150e84c3bd3fdec181687af2fae7b762c5e0097fadeb27e1f76fc3",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T18:45:08.708Z"
+        },
+        {
+          "host": "ntfy.envs.net",
+          "channel_ref_sha256": "7b7a240af7150e84c3bd3fdec181687af2fae7b762c5e0097fadeb27e1f76fc3",
+          "recorded_method": "GET",
+          "recorded_status": "200",
+          "recorded_request_body_characters": 0,
+          "recorded_response_body_bytes": 0,
+          "recorded_response_body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "recorded_at": "2026-06-20T18:45:06.619Z"
+        }
+      ],
+      "recorded_state_references": [],
+      "review_status": "structure_read_requires_manual_assessment"
+    }
+  ]
+}

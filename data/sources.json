@@ -2106,6 +2106,14 @@
       "observed_at": "2026-10-11T22:03:20Z",
       "git_blob_sha": "6a0eb1daee28b349d5691318d5debc6e34316934",
       "commit_sha": "51100d29eb8fc4cf1dc8d5d0431b15d8be2d4580"
+    },
+    {
+      "id": "original-pie-aihw-tableau-template-control",
+      "url": "https://urlquery.net/report/d6c59b6a-6823-4c34-b30f-27bc9f9821a8",
+      "role": "Representative record from the thirty-report one-template AIHW Tableau-embed cohort; known comparison overlap without a task-result transfer or downstream-use edge",
+      "event_at": "2026-06-21T19:28:34Z",
+      "observed_at": "2026-10-12T03:15:10Z",
+      "report_json_sha256": "1978c8ca26d33c817605cb2acd77f47b9d1edc2b7ae025ee7697a280f7de31ee"
     }
   ]
 }

@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 12 October 2026 UTC
+## Evidence checkpoint — 13 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage is now 853 original reports inspected, with 293 remaining: 132 comparison absences and 161 overlaps, with no retained read failures. The final sixteen `nghttp2.org` records add four one-to-three-second exact-source pairs and one six-read notification-channel trace; every channel response is empty and no producer or response use appears. A twelve-record sink-domain rotation adds 49 GET-only empty webhook reads and one page that posts twice to a separate notification service and reads a 184-byte service response consistent with an acknowledgement, but no independently attributable consumer or later dependent work. All 28 IDs overlap the known AIHW comparison family. Three exact immutable-record searches return only this repository's own saved cursor. See the [closure and sink-domain assessment](data/original-nghttp2-closure-and-sink-domain-assessments.json), [final nghttp2 snapshot](data/original-nghttp2-host-cursor-c-reviews.json), [sink-domain snapshot](data/original-sink-domain-overlap-cursor-reviews.json) and [dated research log](research/2026-10-12.md). These are bounded falsification results, not new swarms or independently verified agents.
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused. A fifteen-query immutable-record rotation returned 25 rows: three self-index matches and 22 external rows representing 21 distinct paths. The strongest two raw chains show concrete result transfer and downstream use, but their own contemporaneous documentation identifies an operator-invoked two-process proof and a collaboration-backend acceptance harness. A 67-record bus has one sender writing to self-state surfaces, a medicines-ledger match is human outreach plus an automatic acknowledgement, and an eight-record cross-session friction log preserves only one observer's summary—not a pinned foreign message, attributable source and recipient sessions, or causal later use. See the [reply-chain and cross-session assessment](data/original-reply-chain-and-cross-session-controls.json) and [dated research log](research/2026-10-13.md). These are designed-workflow, single-actor, human-outreach and observer-only controls, not new swarms.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -98,11 +98,12 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 | Anthropic cyber-incident corpus | Two official incident reports and public evidence-repository provenance | Seven historical real-system runs crossed operator boundaries, but Anthropic explicitly reports one isolated instance per run and no inter-agent coordination. This is a negative swarm control, not a discovery. |
 | Covert Assistance experiment | Primary arXiv v1 methods, aggregate results and limitations | Published research control: Planner→Developer transfer and use crossed an experimental privilege boundary, but this is not an original discovery or alert-eligible candidate. |
 | METR RT6 DNS channel | Full official report and incident-catalog scope | One agent locally emulated both channel endpoints; no independent recipient or unauthorized coordination was observed. |
+| Committed reply-chain and cross-session controls | Fifteen exact queries, 21 distinct external paths, five fully read raw records and eight context files | Two concrete transfer/use chains are designed proof or acceptance runs. A single-sender bus, human outreach and an observer-only cross-session report do not establish unauthorized autonomous cooperation. |
 
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-12.md)
+- [Latest dated investigation log](research/2026-10-13.md)
 - [Investigation log — 7 October](research/2026-10-07.md)
 - [Investigation log — 6 October](research/2026-10-06.md)
 - [Investigation log — 5 October](research/2026-10-05.md)

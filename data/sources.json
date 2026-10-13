@@ -2186,6 +2186,132 @@
       "event_at": "2026-06-21T03:46:23Z",
       "observed_at": "2026-10-12T13:25:37Z",
       "report_json_sha256": "e96ec51165e96887bd5e420ff17d84e2f49b1bce3d6bf8169859e14dbdb3f49d"
+    },
+    {
+      "id": "original-job-search-two-process-message-proof",
+      "url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/evidence/messages.jsonl",
+      "role": "Seventeen-message two-process proof preserving task, handoff, artifact review, correction request and later acceptance; designed-coordination control",
+      "event_start": "2026-08-13T16:42:53.223Z",
+      "event_end": "2026-08-13T18:32:44.985Z",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "f206e49d1e05c4616558606cd3d10ac217422769",
+      "commit_sha": "e355260845a022de2758515aba7b7ea73aa5598b",
+      "commit_date": "2026-08-14T11:54:11Z"
+    },
+    {
+      "id": "original-job-search-two-process-use-trace",
+      "url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/evidence/evidence_5_fix_after_review.json",
+      "role": "Pinned process trace showing the recipient read the review, corrected the artifact and re-verified it; downstream-use evidence inside an expressly designed proof",
+      "event_at": "2026-08-13T18:32:22Z",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "05e390abbf8d8978633ffa4e9ab305453cc1e08c",
+      "commit_sha": "e355260845a022de2758515aba7b7ea73aa5598b",
+      "commit_date": "2026-08-14T11:54:11Z"
+    },
+    {
+      "id": "original-job-search-two-process-proof-context",
+      "url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/v0-proof-evidence.md",
+      "role": "Contemporaneous proof procedure establishing that the operator deliberately exercised Claude Code and OpenCode cooperation",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "48e2c58e7ef46ee59edc3bf2953ac11f54e3947d",
+      "commit_sha": "e355260845a022de2758515aba7b7ea73aa5598b",
+      "commit_date": "2026-08-14T11:54:11Z"
+    },
+    {
+      "id": "original-job-search-two-process-limitations",
+      "url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/limitations.md",
+      "role": "Contemporaneous limitations identifying operator-invoked turns, pull-based coordination and verification requirements",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "ca7a928a20037a99bf8fc7f7fd0c8608efe24ef5",
+      "commit_sha": "e355260845a022de2758515aba7b7ea73aa5598b",
+      "commit_date": "2026-08-14T11:54:11Z"
+    },
+    {
+      "id": "original-tsunagou-acceptance-review-trace",
+      "url": "https://github.com/tyuikl32/Tsunagou/blob/a96c6c7e0e833868a5823107b36b65a98f184478/docs/acceptance/evidence/deepseek-harness-20261001T0500Z/host/c5b-review.jsonl",
+      "role": "Thirty-six-record harness trace preserving result notice selection, fetch, artifact read, acceptance and acknowledgement",
+      "event_date": "2026-10-01",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "47863ce8c6553ce1e13f4e3c1d366fc917e4bc9a",
+      "commit_sha": "a96c6c7e0e833868a5823107b36b65a98f184478",
+      "commit_date": "2026-10-08T06:40:13Z"
+    },
+    {
+      "id": "original-tsunagou-acceptance-baseline-context",
+      "url": "https://github.com/tyuikl32/Tsunagou/blob/a96c6c7e0e833868a5823107b36b65a98f184478/docs/acceptance/deepseek-harness-11-baseline-2026-10-01.md",
+      "role": "Baseline identifying the selected record family as a deliberate closed-loop acceptance harness",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "583cdc91fefdc1451c6c6d773f5b89652c7fa348",
+      "commit_sha": "a96c6c7e0e833868a5823107b36b65a98f184478",
+      "commit_date": "2026-10-08T06:40:13Z"
+    },
+    {
+      "id": "original-tsunagou-readme-context",
+      "url": "https://github.com/tyuikl32/Tsunagou/blob/a96c6c7e0e833868a5823107b36b65a98f184478/README.md",
+      "role": "Repository context describing an intentional collaboration backend rather than an organic or unauthorized exchange",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "d0e283441c50d8e5bfda8152612949dfe361bd9f",
+      "commit_sha": "a96c6c7e0e833868a5823107b36b65a98f184478",
+      "commit_date": "2026-10-08T06:40:13Z"
+    },
+    {
+      "id": "original-ystar-single-sender-bus-control",
+      "url": "https://github.com/liuhaotian2024-prog/ystar-bridge-labs/blob/ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026/scripts/.czl_bus.jsonl",
+      "role": "Sixty-seven-record bus in which one sender writes to a self-commit tracker or whiteboard; no distinct recipient action is preserved",
+      "event_start": "2026-04-22T01:00:11Z",
+      "event_end": "2026-04-24T16:22:22Z",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "210d5cec94103abcb599785313c5bebea4ebd9c6",
+      "commit_sha": "ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026",
+      "commit_date": "2026-05-08T00:07:37Z"
+    },
+    {
+      "id": "original-ystar-readme-context",
+      "url": "https://github.com/liuhaotian2024-prog/ystar-bridge-labs/blob/ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026/README.md",
+      "role": "Repository context identifying a CEO or company-behavior runtime with dry-run and approved execution modes",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "219472f3909b76af54d70ddd9b65014b49c225ce",
+      "commit_sha": "ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026",
+      "commit_date": "2026-05-08T00:07:37Z"
+    },
+    {
+      "id": "original-global-medicines-human-outreach-control",
+      "url": "https://github.com/edithatogo/global-medicines-atlas/blob/49516c550796a4fcb0660cf51b9e87043e0803f8/conductor/tracks/bronze_medallion_completion_20260819/evidence.jsonl",
+      "role": "Two hundred sixty-nine-record evidence ledger whose only sender/recipient rows are human provider outreach and an automatic acknowledgement; personal addresses and raw mail identifiers are omitted",
+      "relevant_event_date": "2026-09-28",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "e123af5221e40b5be4021d16fc1f421945938952",
+      "commit_sha": "49516c550796a4fcb0660cf51b9e87043e0803f8",
+      "commit_date": "2026-10-12T05:50:25Z"
+    },
+    {
+      "id": "original-global-medicines-readme-context",
+      "url": "https://github.com/edithatogo/global-medicines-atlas/blob/49516c550796a4fcb0660cf51b9e87043e0803f8/README.md",
+      "role": "Repository context declaring one accountable maintainer, automated evidence and explicit human gates",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "ca9acc995d7bc72231ce2db1d9f4b24d5a5c93e2",
+      "commit_sha": "49516c550796a4fcb0660cf51b9e87043e0803f8",
+      "commit_date": "2026-10-12T05:50:25Z"
+    },
+    {
+      "id": "original-tribunus-cross-session-friction-observation",
+      "url": "https://github.com/Tribunus-dev/Tribunus/blob/55f5734b7979f4ca32fb19ae8dc32ba0bd869780/docs/json/opencode/sessions/ses_17f7847c0ffe5gnJORcG5iBOFp/feedback/friction.v1.jsonl",
+      "role": "Eight-record observer report describing stale agents, duplicate completions and cross-session handoff noise without a pinned foreign message or downstream-use edge",
+      "event_start": "2026-06-01T01:28:30.538Z",
+      "event_end": "2026-06-01T01:29:05.152Z",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "9a2b985f575e14253c70d3d97b783497b89ee6f8",
+      "commit_sha": "55f5734b7979f4ca32fb19ae8dc32ba0bd869780",
+      "commit_date": "2026-07-01T13:14:01Z"
+    },
+    {
+      "id": "original-tribunus-project-context",
+      "url": "https://github.com/Tribunus-dev/Tribunus/blob/55f5734b7979f4ca32fb19ae8dc32ba0bd869780/PROJECT.md",
+      "role": "Project context explicitly directing an orchestrator to delegate work through subagents",
+      "observed_at": "2026-10-13T06:27:41Z",
+      "git_blob_sha": "6f2a40e8158c69c9bfb3c5fdd496daa753b7f3f6",
+      "commit_sha": "55f5734b7979f4ca32fb19ae8dc32ba0bd869780",
+      "commit_date": "2026-07-01T13:14:01Z"
     }
   ]
 }

@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T06:27:41Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "exact_default_branch_queries": 15,
+    "search_result_rows": 25,
+    "self_repository_rows": 3,
+    "external_rows": 22,
+    "distinct_external_paths": 21,
+    "external_repositories": 17,
+    "zero_result_queries": 8,
+    "raw_result_files_read_in_full": 5,
+    "context_files_read_in_full": 8,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Global public GitHub default-branch code search used only to locate immutable committed records",
+  "observed_at": "2026-10-13T06:27:41Z",
+  "queries": [
+    {
+      "query": "\"content_sha256\" \"producing_run_id\" \"consuming_run_id\" \"consumed_at\"",
+      "rows": 1,
+      "self_rows": 1,
+      "external_rows": 0
+    },
+    {
+      "query": "\"delivery_id\" \"sender_trajectory_id\" \"recipient_trajectory_id\" \"use_event_id\"",
+      "rows": 1,
+      "self_rows": 1,
+      "external_rows": 0
+    },
+    {
+      "query": "\"artifact_digest\" \"origin_run_id\" \"recipient_run_id\" \"adoption_event_id\"",
+      "rows": 1,
+      "self_rows": 1,
+      "external_rows": 0
+    },
+    {
+      "query": "\"reply_to_message_id\" \"from_agent\" \"to_agent\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"delivered_at\" \"read_at\" \"sender_agent\" \"recipient_agent\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"in_reply_to\" \"sender\" \"recipient\" \"agent_id\" extension:jsonl",
+      "rows": 6,
+      "self_rows": 0,
+      "external_rows": 6
+    },
+    {
+      "query": "\"sender\" \"recipient\" \"thread_id\" path:messages.jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"outside_scope\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"permission_denied\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"unauthorized\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"in_reply_to\" \"unauthorized\" \"sender\" \"recipient\" extension:jsonl",
+      "rows": 1,
+      "self_rows": 0,
+      "external_rows": 1
+    },
+    {
+      "query": "\"unexpected\" \"in_reply_to\" \"recipient\" \"sender\" extension:jsonl",
+      "rows": 3,
+      "self_rows": 0,
+      "external_rows": 3
+    },
+    {
+      "query": "\"wrong recipient\" \"message_id\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"not intended\" \"sender_agent_id\" \"recipient_agent_id\" extension:jsonl",
+      "rows": 0,
+      "self_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"cross-session\" \"sender\" \"recipient\" extension:jsonl",
+      "rows": 12,
+      "self_rows": 0,
+      "external_rows": 12
+    }
+  ],
+  "observer_contamination": {
+    "detected": true,
+    "assessment": "Each of the three saved immutable-record queries returned only this repository's preceding assessment file. Those rows are observer contamination and were excluded before external-path and incident counts.",
+    "control": "Reject Bee-vs-swarm and literal query-log files before counting external results; pin retained files by commit and Git blob hash."
+  },
+  "assessed_records": [
+    {
+      "id": "job_search_two_process_coordinator_control",
+      "record_url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/evidence/messages.jsonl",
+      "use_evidence_url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/evidence/evidence_5_fix_after_review.json",
+      "context_url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/v0-proof-evidence.md",
+      "limitations_url": "https://github.com/wassimrahoui/job-search-ai-prototype/blob/e355260845a022de2758515aba7b7ea73aa5598b/coordinator/docs/limitations.md",
+      "commit_sha": "e355260845a022de2758515aba7b7ea73aa5598b",
+      "commit_date": "2026-08-14T11:54:11Z",
+      "event_start": "2026-08-13T16:42:53.223Z",
+      "event_end": "2026-08-13T18:32:44.985Z",
+      "record_git_blob_sha": "f206e49d1e05c4616558606cd3d10ac217422769",
+      "use_evidence_git_blob_sha": "05e390abbf8d8978633ffa4e9ab305453cc1e08c",
+      "context_git_blob_sha": "48e2c58e7ef46ee59edc3bf2953ac11f54e3947d",
+      "limitations_git_blob_sha": "ca7a928a20037a99bf8fc7f7fd0c8608efe24ef5",
+      "record_count": 17,
+      "original_observation": "A committed two-process proof preserves a task, question and answer, ownership handoff, artifact review request, requested correction and later acceptance. The later process trace shows the recipient reading the review, fixing the artifact and re-verifying it, so transfer and causal downstream use are present.",
+      "alternative_tests": "The proof and limitations documents state that the coordinator was built to make Claude Code and OpenCode cooperate, that an operator explicitly invoked each OpenCode turn and that the proof deliberately exercised this workflow.",
+      "classification": "Designed, operator-authorized two-process coordination control",
+      "operator_boundary_evidence": false,
+      "candidate": false
+    },
+    {
+      "id": "tsunagou_acceptance_harness_control",
+      "record_url": "https://github.com/tyuikl32/Tsunagou/blob/a96c6c7e0e833868a5823107b36b65a98f184478/docs/acceptance/evidence/deepseek-harness-20261001T0500Z/host/c5b-review.jsonl",
+      "context_url": "https://github.com/tyuikl32/Tsunagou/blob/a96c6c7e0e833868a5823107b36b65a98f184478/docs/acceptance/deepseek-harness-11-baseline-2026-10-01.md",
+      "readme_url": "https://github.com/tyuikl32/Tsunagou/blob/a96c6c7e0e833868a5823107b36b65a98f184478/README.md",
+      "commit_sha": "a96c6c7e0e833868a5823107b36b65a98f184478",
+      "commit_date": "2026-10-08T06:40:13Z",
+      "event_date": "2026-10-01",
+      "event_time_basis": "The evidence bundle and baseline names supply the date; the selected JSONL does not expose a wall-clock event timestamp.",
+      "record_git_blob_sha": "47863ce8c6553ce1e13f4e3c1d366fc917e4bc9a",
+      "context_git_blob_sha": "583cdc91fefdc1451c6c6d773f5b89652c7fa348",
+      "readme_git_blob_sha": "d0e283441c50d8e5bfda8152612949dfe361bd9f",
+      "record_count": 36,
+      "search_paths_in_same_family": 5,
+      "original_observation": "The main role claims two worker result notices, selects one by task subject, fetches the result metadata, reads the named artifact, accepts the result and acknowledges the message. This is a concrete result-transfer-and-use chain.",
+      "alternative_tests": "The path is an acceptance-evidence harness, its baseline calls the run a closed-loop acceptance test and the repository describes a collaboration backend. The exchange is the behavior under test, not an unauthorized emergence.",
+      "classification": "Designed acceptance-harness coordination control",
+      "operator_boundary_evidence": false,
+      "candidate": false
+    },
+    {
+      "id": "ystar_single_sender_bus_control",
+      "record_url": "https://github.com/liuhaotian2024-prog/ystar-bridge-labs/blob/ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026/scripts/.czl_bus.jsonl",
+      "context_url": "https://github.com/liuhaotian2024-prog/ystar-bridge-labs/blob/ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026/README.md",
+      "commit_sha": "ee0e584c7ebdb0754bffe1f7f8ca1fdc52d5f026",
+      "commit_date": "2026-05-08T00:07:37Z",
+      "event_start": "2026-04-22T01:00:11Z",
+      "event_end": "2026-04-24T16:22:22Z",
+      "record_git_blob_sha": "210d5cec94103abcb599785313c5bebea4ebd9c6",
+      "context_git_blob_sha": "219472f3909b76af54d70ddd9b65014b49c225ce",
+      "record_count": 67,
+      "original_observation": "All 67 valid JSONL records use one sender identity. Forty target a self-commit tracker and 27 target a whiteboard. Every task identifier is unique, no parent task is present and the self-commit rows identify the same producer and executor.",
+      "alternative_tests": "The repository explicitly describes a CEO or company-behavior runtime with dry-run and approved execution modes. Recipient labels denote the sender's own state surfaces, not independently acting recipients.",
+      "classification": "Single-agent self-ledger and whiteboard control",
+      "verified_autonomous_participants": 1,
+      "demonstrable_recipient_use": false,
+      "candidate": false
+    },
+    {
+      "id": "global_medicines_human_outreach_control",
+      "record_url": "https://github.com/edithatogo/global-medicines-atlas/blob/49516c550796a4fcb0660cf51b9e87043e0803f8/conductor/tracks/bronze_medallion_completion_20260819/evidence.jsonl",
+      "context_url": "https://github.com/edithatogo/global-medicines-atlas/blob/49516c550796a4fcb0660cf51b9e87043e0803f8/README.md",
+      "commit_sha": "49516c550796a4fcb0660cf51b9e87043e0803f8",
+      "commit_date": "2026-10-12T05:50:25Z",
+      "relevant_event_date": "2026-09-28",
+      "record_git_blob_sha": "e123af5221e40b5be4021d16fc1f421945938952",
+      "context_git_blob_sha": "ca9acc995d7bc72231ce2db1d9f4b24d5a5c93e2",
+      "record_count": 269,
+      "original_observation": "Only two records contain top-level sender and recipient fields. They document a human provider inquiry and an automatic receipt acknowledgement; no substantive guidance, autonomous recipient or downstream task use follows.",
+      "privacy_control": "Personal addresses and raw mail identifiers present in the public source are omitted from this assessment.",
+      "alternative_tests": "The README declares one accountable maintainer, automated evidence rather than invented reviewer roles and explicit human gates for outreach and release decisions.",
+      "classification": "Human outreach plus automated acknowledgement control",
+      "verified_autonomous_participants": 0,
+      "candidate": false
+    },
+    {
+      "id": "tribunus_cross_session_observer_report",
+      "record_url": "https://github.com/Tribunus-dev/Tribunus/blob/55f5734b7979f4ca32fb19ae8dc32ba0bd869780/docs/json/opencode/sessions/ses_17f7847c0ffe5gnJORcG5iBOFp/feedback/friction.v1.jsonl",
+      "context_url": "https://github.com/Tribunus-dev/Tribunus/blob/55f5734b7979f4ca32fb19ae8dc32ba0bd869780/PROJECT.md",
+      "commit_sha": "55f5734b7979f4ca32fb19ae8dc32ba0bd869780",
+      "commit_date": "2026-07-01T13:14:01Z",
+      "event_start": "2026-06-01T01:28:30.538Z",
+      "event_end": "2026-06-01T01:29:05.152Z",
+      "record_git_blob_sha": "9a2b985f575e14253c70d3d97b783497b89ee6f8",
+      "context_git_blob_sha": "6f2a40e8158c69c9bfb3c5fdd496daa753b7f3f6",
+      "record_count": 8,
+      "original_observation": "One reporter describes an intentional multi-lane orchestrator, stale agents from other sessions, duplicate completion notices and cross-session handoff noise that requires lane-based filtering.",
+      "alternative_tests": "The project context instructs the orchestrator to delegate immediately through subagents. The friction file preserves only the observer's summaries: it does not preserve a specific foreign message or artifact, attributable source and recipient sessions, or a later recipient action caused by that content.",
+      "classification": "Unresolved cross-session routing observation inside designed orchestration; insufficient for a coordination candidate",
+      "advancement_evidence": "A pinned raw message or artifact with source-session and recipient-session provenance, its task or content digest, a later recipient action causally dependent on it, and primary evidence that the sessions belonged to an operator-separated boundary.",
+      "candidate": false
+    }
+  ],
+  "excerpt_only_exclusions": {
+    "distinct_paths": 16,
+    "assessment": "The remaining distinct paths were screened only at path and search-excerpt level. They resolve to benchmark or evaluation corpora, datasets, test data, design artifacts, generated workflow memory, issue-ledger state or an explicitly marked parent-child transcript. They were not used for negative file-content claims.",
+    "families": [
+      "BenchmarkLLMAgent pull-request dataset",
+      "AutomationBench run data",
+      "Vera dataset",
+      "three repositories carrying the same generated workflow-memory family",
+      "GAIA benchmark corpus",
+      "issue-interaction state",
+      "tool-picker design data",
+      "design atoms",
+      "explicit sidechain subagent transcript",
+      "CLI rollout test data",
+      "four additional Tsunagou acceptance-evidence paths"
+    ]
+  },
+  "alternatives_tested": [
+    "Operator-authorized two-process proof mistaken for rogue cooperation",
+    "Acceptance-harness result flow mistaken for an organic exchange",
+    "Self-ledger recipient labels mistaken for distinct participants",
+    "Human provider outreach and automatic acknowledgement mistaken for AI exchange",
+    "Observer-reported cross-session noise mistaken for a preserved transfer-and-use chain",
+    "Benchmarks, datasets, tests, design artifacts and generated workflow memory mistaken for incidents",
+    "This investigation's indexed query text mistaken for independent evidence"
+  ],
+  "evidence_state": {
+    "suspected_coordination": false,
+    "verified_autonomous_participants_in_new_candidate": 0,
+    "task_artifact_transfer_in_actual_run": true,
+    "demonstrable_recipient_use_in_actual_run": true,
+    "transfer_use_record_classification": "The two retained transfer-and-use chains are explicitly designed proof or acceptance runs.",
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No episode-level prior-reporting search was warranted. The two concrete exchange chains are explicitly authorized proof or acceptance workflows; the single-sender and human-outreach records lack qualifying participants; and the cross-session observer report lacks a pinned message, downstream-use edge and operator-boundary provenance.",
+  "advancement_evidence": "A retained original record must connect a specific task-bearing artifact to independently attributable autonomous sender and recipient trajectories, prove later causal recipient use and provide primary evidence that the cooperation itself crossed an operator-defined boundary. An observer summary, message field, role label, self-ledger destination, benchmark or designed harness is insufficient.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"source_session_id\" \"recipient_session_id\" \"message_id\" \"task_id\" extension:jsonl",
+      "\"sender_session_id\" \"recipient_session_id\" \"artifact_digest\" extension:jsonl",
+      "\"lane_id\" \"handoff_id\" \"source_session\" \"recipient_session\" extension:jsonl"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches first. Retain only immutable actual-run or incident records that preserve source and recipient session provenance, a concrete task message or artifact, later dependent use and an operator-defined boundary. Reject observer summaries, designed orchestration, acceptance tests, benchmarks, simulations, schemas, examples and static implementation source before candidate inference."
+  }
+}

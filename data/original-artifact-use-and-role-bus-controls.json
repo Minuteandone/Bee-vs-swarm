@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T17:28:55Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "exact_global_default_branch_queries": 25,
+    "global_search_result_row_occurrences": 114,
+    "global_distinct_result_urls": 112,
+    "global_distinct_external_result_urls": 111,
+    "global_distinct_external_repositories": 7,
+    "self_repository_row_occurrences": 3,
+    "global_zero_result_queries": 19,
+    "global_capped_queries": 0,
+    "repository_scoped_source_queries": 2,
+    "repository_scoped_result_rows": 9,
+    "repository_scoped_distinct_urls": 9,
+    "selected_record_files_read_in_full": 5,
+    "selected_context_or_generating_source_files_read_in_full": 7,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search used only to locate committed records; two later searches were restricted to the selected Dune repository to identify the code and prompt that generated its message rows",
+  "observed_at": "2026-10-13T17:28:55Z",
+  "queries": [
+    {
+      "query": "\"input_artifact_sha256\" \"output_artifact_sha256\" \"producer_agent_id\" \"consumer_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_artifacts\" \"consumer_operation_id\" \"producer_agent_id\" \"consumer_agent_id\" extension:json",
+      "returned_rows": 1,
+      "self_repository_rows": 1
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" \"body_sha256\" \"read_at\" \"reply_to_id\" extension:json",
+      "returned_rows": 1,
+      "self_repository_rows": 1
+    },
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_run_id\" \"recipient_run_id\" \"artifact_sha256\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"upstream_run_id\" \"downstream_run_id\" \"artifact_id\" \"consumed_at\"",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"message_sha256\" \"reply_to_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"receiver_agent_id\" \"task_id\" \"result\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"artifact_hash\" \"used_at\"",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"artifact_id\" \"processed_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent\" \"consumer_agent\" \"input_artifact\" \"output_artifact\" extension:json",
+      "returned_rows": 1,
+      "self_repository_rows": 1
+    },
+    {
+      "query": "\"parent_run_id\" \"source_message_id\" \"downstream_action_id\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"artifact_sha256\" \"consumed_by\" \"produced_by\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"content_sha256\" \"sender_id\" \"recipient_id\" \"acknowledged_at\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_event_id\" \"caused_by_event_id\" \"actor_id\" \"artifact_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"message_id\" \"reply_to\" extension:jsonl",
+      "returned_rows": 92
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"message_id\" \"task_id\" extension:jsonl",
+      "returned_rows": 2
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"artifact_id\" \"reply_to\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer\" \"consumer\" \"artifact\" \"sha256\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_id\" \"consumer_id\" \"artifact_id\" \"status\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_artifacts\" \"output_artifacts\" \"agent_id\" \"run_id\" extension:json",
+      "returned_rows": 17
+    },
+    {
+      "query": "\"parent_agent_id\" \"agent_id\" \"tool_result\" \"created_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_agent\" \"target_agent\" \"tool_result\" \"message_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"caused_by\" \"tool_result\" \"agent_id\" \"run_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"in_reply_to\" \"sender_id\" \"recipient_id\" \"processed_at\" extension:json",
+      "returned_rows": 0
+    }
+  ],
+  "repository_scoped_source_queries": [
+    {
+      "repository": "dune94/epam-cli",
+      "query": "\"review_feedback\" \"agent-messages.jsonl\"",
+      "returned_rows": 2
+    },
+    {
+      "repository": "dune94/epam-cli",
+      "query": "\"plan_summary\" \"agent-messages.jsonl\"",
+      "returned_rows": 7
+    }
+  ],
+  "observer_contamination": {
+    "self_repository_row_occurrences": 3,
+    "distinct_self_repository_urls": 1,
+    "assessment": "All three rows reproduce the preceding published cursor in this repository. They were excluded before external-record inference."
+  },
+  "result_distribution": {
+    "dune94_epam_cli": 91,
+    "spare_neuron": 1,
+    "previously_reviewed_tsunagou_acceptance_family": 2,
+    "crossframe_schema_copies": 2,
+    "pylibsmeta_library_metadata": 7,
+    "mnm_migration_snapshots": 7,
+    "agentteam_blueprint": 1,
+    "note": "Counts cover the 111 distinct external URLs returned by the 25 global queries. The nine repository-scoped source results are tracked separately."
+  },
+  "assessed_records": [
+    {
+      "id": "epam-designed-role-message-bus-control",
+      "record_urls": [
+        "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/demo/logs/agent-messages.jsonl",
+        "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/logs/lanes/gotransit/agent-messages.jsonl"
+      ],
+      "context_urls": [
+        "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/README.md",
+        "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/scripts/send-message.sh",
+        "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/scripts/lib/story-attempt.sh",
+        "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/prompts/templates/story-plan-agent.json"
+      ],
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z",
+      "git_blob_shas": {
+        "demo_bus": "b1b80ea53b049eeb237bf4d06fe43e024ac0e1af",
+        "gotransit_bus": "a440075f631d3cd080f7fbcf9e3310ce9bc632e2",
+        "readme": "22bd507e6d39869cb68d03619a2e365b7a08f3fd",
+        "send_message_source": "1c528c869764b62a6f2b68a69126cbbb86eae8f8",
+        "story_attempt_source": "d8fc18442b4ea94e4dbd50449d422a0b917e9001",
+        "plan_agent_prompt": "67fae99727617e8411d42a6dd1f10fcfa0a492e7"
+      },
+      "event_start": "2026-03-27T18:54:02Z",
+      "event_end": "2026-08-10T04:38:28Z",
+      "original_observation": "The two fully read buses contain 48 and 19 rows. The first uses twelve named software roles and contains status, approval and plan-summary rows. The second uses four named roles and includes nine review-feedback rows interleaved with later completion statuses for one story.",
+      "reply_linkage": "The bus-writing source supports an optional reply field, but all reply fields in the two fully read records are null or absent. The files therefore do not preserve a direct reply edge from a feedback row to a later operation.",
+      "semantic_dependency": "The review-feedback sequence contains task-specific proposed corrections followed by later completion statuses. This temporal sequence is compatible with use, but the log has no patch, changed-file set, artifact hash, populated reply reference or later statement demonstrating that a particular suggestion was adopted.",
+      "generating_source_assessment": "The repository explicitly implements agent orchestration, per-role inboxes and outboxes, a central JSONL bus, phase and reviewer gates and parallel role execution. Its plan-agent prompt instructs the model to append a plan-summary row, and the story runner automatically appends completion status. These are designed outputs of one orchestration system.",
+      "participant_assessment": "Role labels identify configured functions inside the project; the records do not establish autonomous participants under separate operators.",
+      "operator_boundary_evidence": false,
+      "authorization_assessment": "The README and generating source expressly define the planning, implementation and review handoffs as the product's intended orchestration workflow.",
+      "candidate": false,
+      "classification": "Designed multi-role orchestration bus; useful transfer/use negative control, not rogue coordination."
+    },
+    {
+      "id": "spare-neuron-coordination-proposal-control",
+      "record_url": "https://github.com/KoushikDasika/spare_neuron/blob/ad48bf30c8bab9082a59cbe40661c7609565251f/.beads/issues.jsonl",
+      "context_url": "https://github.com/KoushikDasika/spare_neuron/blob/ad48bf30c8bab9082a59cbe40661c7609565251f/README.md",
+      "commit_sha": "ad48bf30c8bab9082a59cbe40661c7609565251f",
+      "commit_date": "2026-01-10T03:46:01Z",
+      "git_blob_shas": {
+        "issue_ledger": "235d4c4f590d176fe57dd39b741b3347fdbd2ebd",
+        "readme": "af92a5e4751d19957ca424d47f294cf4794f97a8"
+      },
+      "original_observation": "The 141-row issue ledger's sender/recipient vocabulary occurs in a proposal for an agent coordination protocol, not in a delivered-message row. The proposal is closed as superseded by a dashboard approach.",
+      "semantic_dependency": "An implementation proposal does not show that a sender transferred a task result or that a recipient used it.",
+      "participant_assessment": "The companion documentation describes a privacy-first local application using local models; no independently operating participant pair is evidenced here.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Issue-ledger design proposal, not an exchange record."
+    },
+    {
+      "id": "crossframe-common-schema-control",
+      "record_url": "https://github.com/xi-kari/crossframe-skill/blob/7c8990f9abd8be35b0f2907c49ef689e42cdd31d/skills/crossframe-promax/schemas/promax-common.schema.json",
+      "context_url": "https://github.com/xi-kari/crossframe-skill/blob/7c8990f9abd8be35b0f2907c49ef689e42cdd31d/README.md",
+      "commit_sha": "7c8990f9abd8be35b0f2907c49ef689e42cdd31d",
+      "commit_date": "2026-08-07T00:05:57Z",
+      "git_blob_shas": {
+        "schema": "6d9d0d2b0db4d0f4d8d0971a0274cadca19dd12f",
+        "readme": "8b4039c2c283560ab6f3ec9d920e62ab0129d13a"
+      },
+      "original_observation": "The file defines reusable JSON Schema objects for run and artifact attestations. The second search result is a duplicate copy under a tool-specific directory.",
+      "semantic_dependency": "Field definitions for inputs, outputs, agents and run identifiers are not emitted run rows and establish no transfer or later use.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Artifact-first runtime schema control."
+    },
+    {
+      "id": "agentteam-experiment-blueprint-control",
+      "record_url": "https://github.com/liuqliang/agentteam/blob/7f56827e8ab63aad86ee0e82caaaeaf5106562af/experiments/native_agentteam_runtime/implementation_artifacts/plans/2026-07-27-phase2-experiment-harness-and-calibration.blueprint.json",
+      "context_url": "https://github.com/liuqliang/agentteam/blob/7f56827e8ab63aad86ee0e82caaaeaf5106562af/README.md",
+      "commit_sha": "7f56827e8ab63aad86ee0e82caaaeaf5106562af",
+      "commit_date": "2026-08-10T02:41:42Z",
+      "git_blob_shas": {
+        "blueprint": "a350ac5847a0f64c653173e4d8d977256f20b803",
+        "readme": "00d487b919b7d70b1b7de16302dba17e58404014"
+      },
+      "record_date": "2026-07-27",
+      "original_observation": "The matched file is a taskpack implementation blueprint describing schemas, policies, calibration and operator review or promotion. It contains no actual-run message or artifact-consumption rows.",
+      "semantic_dependency": "A plan for a hierarchical artifact workflow cannot establish that a live recipient acquired and used a sender's result.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Designed experiment-harness blueprint, not an observed episode."
+    }
+  ],
+  "known_family_overlap": {
+    "paths": 2,
+    "family": "Tsunagou acceptance harness",
+    "assessment": "Both results were already assessed in Pass 65 as committed acceptance evidence for an intentionally designed collaboration backend. They were not treated as a new episode or reread to manufacture novelty."
+  },
+  "path_and_excerpt_only_exclusions": {
+    "global_external_paths_not_read_in_full_this_pass": 106,
+    "breakdown": {
+      "dune_sibling_or_archive_log_paths": 89,
+      "previously_reviewed_tsunagou_acceptance_paths": 2,
+      "schema_library_metadata_or_migration_snapshot_paths": 15
+    },
+    "repository_scoped_source_paths_not_read_in_full": 6,
+    "screening_basis": "Path and search excerpt only, except for the two Tsunagou paths whose family classification comes from the prior full review",
+    "limitation": "No broader file-content claim is made for unread paths. They remain eligible if a later public clue identifies a populated reply edge, content-addressed artifact use or separate-operator provenance."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "Different role labels identify independently operating agents",
+      "result": "Not supported; the selected repository configures the roles inside one declared orchestration system."
+    },
+    {
+      "alternative": "Review feedback followed by completion proves downstream use",
+      "result": "Not established; the chronology is compatible with use but lacks a populated reply edge, patch or artifact hash tying a specific suggestion to later work."
+    },
+    {
+      "alternative": "The message bus crossed an operator boundary",
+      "result": "Rejected for the retained family; project documentation and generating source define the bus, planner and reviewer loops as intended behavior."
+    },
+    {
+      "alternative": "Repeated status rows are separate participants",
+      "result": "Rejected; status rows are automatically generated by the story runner, and role names alone do not authenticate distinct operators."
+    },
+    {
+      "alternative": "Input/output artifact vocabulary identifies actual runs",
+      "result": "Rejected for the retained schema, library-metadata, migration-snapshot and blueprint matches; these are definitions or plans rather than emitted exchange records."
+    }
+  ],
+  "evidence_state": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "new_candidate_id": null,
+    "specific_sender_to_recipient_dependency": false,
+    "demonstrable_recipient_use": false,
+    "verified_autonomous_participants": false,
+    "operator_boundary_evidence": false,
+    "subjective_intent": "Not inferred",
+    "provider_attribution": "Not established",
+    "current_activity": "Not assessed; the retained records are historical committed controls."
+  },
+  "novelty_check": {
+    "performed_at_episode_level": false,
+    "reason": "No retained record survives the demonstrable-use, participant and operator-boundary gates. Scoped prior-reporting searches would therefore turn designed software controls into an unsupported episode claim.",
+    "claim": "No candidate assigned; no novelty claim made."
+  },
+  "advancement_evidence": "A committed actual-run chain with a non-null reply or source-event link, a content-addressed task result or artifact, a later recipient operation that demonstrably uses the content, independently attributable autonomous participant trajectories and primary evidence that those participants operated across separate authorization boundaries. Role names, generated status rows, design proposals, schemas and experiment blueprints do not advance the lead.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"in_reply_to\" \"from_agent\" \"to_agent\" \"artifact_digest\" extension:jsonl",
+      "\"review_feedback\" \"in_reply_to\" \"changed_files\" \"commit_sha\" extension:jsonl",
+      "\"source_message_id\" \"downstream_tool_call_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:json"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self matches, generated status rows, designed role buses, schemas, migrations, issue ledgers, tests, fixtures and experiment blueprints first. Retain only a committed actual-run edge in which later recipient behavior is linked to and semantically depends on the transferred content, then seek primary separate-operator and authorization evidence before any novelty check."
+  }
+}

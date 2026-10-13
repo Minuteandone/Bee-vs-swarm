@@ -2571,6 +2571,128 @@
       "git_blob_sha": "4aa2b4a6f4e7d607ffca0bb4c1be3299a9aef4a7",
       "commit_sha": "1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a",
       "commit_date": "2026-10-13T10:27:27Z"
+    },
+    {
+      "id": "original-epam-demo-agent-message-bus-control",
+      "url": "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/demo/logs/agent-messages.jsonl",
+      "role": "Committed 48-row multi-role message bus containing generated status, approval and plan-summary records; all reply fields in the fully read file are null or absent",
+      "event_start": "2026-03-27T14:54:02-04:00",
+      "event_end": "2026-06-02T10:09:12-04:00",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "b1b80ea53b049eeb237bf4d06fe43e024ac0e1af",
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z"
+    },
+    {
+      "id": "original-epam-gotransit-review-message-bus-control",
+      "url": "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/logs/lanes/gotransit/agent-messages.jsonl",
+      "role": "Committed 19-row role bus interleaving task-specific review feedback with later completion statuses, but preserving no populated reply link, patch, artifact hash or explicit adoption statement",
+      "event_start": "2026-08-04T19:16:39Z",
+      "event_end": "2026-08-10T04:38:28Z",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "a440075f631d3cd080f7fbcf9e3310ce9bc632e2",
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z"
+    },
+    {
+      "id": "original-epam-role-orchestration-context",
+      "url": "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/README.md",
+      "role": "Project documentation explicitly defining parallel multi-agent execution, named role orchestration, phase and reviewer gates and an inter-agent message dashboard",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "22bd507e6d39869cb68d03619a2e365b7a08f3fd",
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z"
+    },
+    {
+      "id": "original-epam-message-bus-generating-source",
+      "url": "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/scripts/send-message.sh",
+      "role": "Generating source that deliberately builds per-role inbox and outbox records and appends them to the project's central JSONL bus, including an optional reply field",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "1c528c869764b62a6f2b68a69126cbbb86eae8f8",
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z"
+    },
+    {
+      "id": "original-epam-story-runner-generating-source",
+      "url": "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/scripts/lib/story-attempt.sh",
+      "role": "Generating source that invokes the configured plan role and automatically appends completion-status records, resolving status rows as intended orchestrator output",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "d8fc18442b4ea94e4dbd50449d422a0b917e9001",
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z"
+    },
+    {
+      "id": "original-epam-plan-agent-prompt-control",
+      "url": "https://github.com/dune94/epam-cli/blob/5214f1a56f1c7cd422fb3988abf2578a93fcb333/orchestrations/prompts/templates/story-plan-agent.json",
+      "role": "Committed prompt explicitly instructing the planning role to write a plan-summary row addressed to the configured implementation role",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "67fae99727617e8411d42a6dd1f10fcfa0a492e7",
+      "commit_sha": "5214f1a56f1c7cd422fb3988abf2578a93fcb333",
+      "commit_date": "2026-10-11T14:26:32Z"
+    },
+    {
+      "id": "original-spare-neuron-issue-ledger-control",
+      "url": "https://github.com/KoushikDasika/spare_neuron/blob/ad48bf30c8bab9082a59cbe40661c7609565251f/.beads/issues.jsonl",
+      "role": "A 141-row issue ledger whose sender/recipient vocabulary occurs in a superseded coordination-protocol proposal rather than a delivered-message event",
+      "published": "2026-01-10",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "235d4c4f590d176fe57dd39b741b3347fdbd2ebd",
+      "commit_sha": "ad48bf30c8bab9082a59cbe40661c7609565251f",
+      "commit_date": "2026-01-10T03:46:01Z"
+    },
+    {
+      "id": "original-spare-neuron-local-app-context",
+      "url": "https://github.com/KoushikDasika/spare_neuron/blob/ad48bf30c8bab9082a59cbe40661c7609565251f/README.md",
+      "role": "Companion context identifying a privacy-first local application and local-model stack, not an observed sender-to-recipient episode",
+      "published": "2026-01-10",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "af92a5e4751d19957ca424d47f294cf4794f97a8",
+      "commit_sha": "ad48bf30c8bab9082a59cbe40661c7609565251f",
+      "commit_date": "2026-01-10T03:46:01Z"
+    },
+    {
+      "id": "original-crossframe-artifact-schema-control",
+      "url": "https://github.com/xi-kari/crossframe-skill/blob/7c8990f9abd8be35b0f2907c49ef689e42cdd31d/skills/crossframe-promax/schemas/promax-common.schema.json",
+      "role": "Reusable run and artifact-attestation JSON Schema containing input, output and agent fields but no emitted exchange rows",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "6d9d0d2b0db4d0f4d8d0971a0274cadca19dd12f",
+      "commit_sha": "7c8990f9abd8be35b0f2907c49ef689e42cdd31d",
+      "commit_date": "2026-08-07T00:05:57Z"
+    },
+    {
+      "id": "original-crossframe-runtime-context",
+      "url": "https://github.com/xi-kari/crossframe-skill/blob/7c8990f9abd8be35b0f2907c49ef689e42cdd31d/README.md",
+      "role": "Documentation for an intentionally artifact-first auditable AI runtime; useful schema context rather than evidence of a live cross-operator exchange",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "8b4039c2c283560ab6f3ec9d920e62ab0129d13a",
+      "commit_sha": "7c8990f9abd8be35b0f2907c49ef689e42cdd31d",
+      "commit_date": "2026-08-07T00:05:57Z"
+    },
+    {
+      "id": "original-agentteam-experiment-blueprint-control",
+      "url": "https://github.com/liuqliang/agentteam/blob/7f56827e8ab63aad86ee0e82caaaeaf5106562af/experiments/native_agentteam_runtime/implementation_artifacts/plans/2026-07-27-phase2-experiment-harness-and-calibration.blueprint.json",
+      "role": "Taskpack implementation blueprint describing schemas, calibration and operator review or promotion, not actual-run transfer or consumption rows",
+      "published": "2026-07-27",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "a350ac5847a0f64c653173e4d8d977256f20b803",
+      "commit_sha": "7f56827e8ab63aad86ee0e82caaaeaf5106562af",
+      "commit_date": "2026-08-10T02:41:42Z"
+    },
+    {
+      "id": "original-agentteam-designed-workflow-context",
+      "url": "https://github.com/liuqliang/agentteam/blob/7f56827e8ab63aad86ee0e82caaaeaf5106562af/README.md",
+      "role": "Companion documentation for a designed hierarchical multi-agent artifact workflow governed through operator taskpacks",
+      "published": "2026-08-10",
+      "observed_at": "2026-10-13T17:28:55Z",
+      "git_blob_sha": "00d487b919b7d70b1b7de16302dba17e58404014",
+      "commit_sha": "7f56827e8ab63aad86ee0e82caaaeaf5106562af",
+      "commit_date": "2026-08-10T02:41:42Z"
     }
   ]
 }

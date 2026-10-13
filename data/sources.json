@@ -2312,6 +2312,164 @@
       "git_blob_sha": "6f2a40e8158c69c9bfb3c5fdd496daa753b7f3f6",
       "commit_sha": "55f5734b7979f4ca32fb19ae8dc32ba0bd869780",
       "commit_date": "2026-07-01T13:14:01Z"
+    },
+    {
+      "id": "original-plan67-mailbox-pilot-readme",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/README.md",
+      "role": "Pinned pilot summary preserving the two-direction message, observation and acknowledgement sequence while stating that the bounded identities are not independent reasoning sessions",
+      "event_start": "2026-07-16T00:20:57Z",
+      "event_end": "2026-07-16T00:21:21Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "9789442fe3ebc6da3c6102cdc82ab3e2d2ac1a0a",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z"
+    },
+    {
+      "id": "original-plan67-first-mailbox-message",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/msg_01f0211632f09dce3753f8c3babee87d.json",
+      "role": "First integrity-wrapped pilot message; requests observation and acknowledgement rather than transfer or use of a task result",
+      "event_at": "2026-07-16T00:20:57.568813Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "c4d4731c095fa63b2c287c711e28f8c415daa66a",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z"
+    },
+    {
+      "id": "original-plan67-first-mailbox-acknowledgement",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/rcpt_410b542bbddc14bc840bd01a664955cc.json",
+      "role": "Explicit recipient acknowledgement linked to the first pilot message; response reference is null",
+      "event_at": "2026-07-16T00:21:07.935240Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "421e170435b00a211f0e2bf9eaf90acde1b633f1",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z"
+    },
+    {
+      "id": "original-plan67-reverse-mailbox-message",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/msg_353d54355bb0be31632037954588e792.json",
+      "role": "Reverse-direction integrity-wrapped pilot message; requests observation and acknowledgement rather than a task result",
+      "event_at": "2026-07-16T00:21:08.156271Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "c43b309504cedd5d84d95d56f63f08e6c1ef5c89",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z"
+    },
+    {
+      "id": "original-plan67-reverse-mailbox-acknowledgement",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/rcpt_1161c14a3def45f2060eed22cfe29b55.json",
+      "role": "Explicit recipient acknowledgement linked to the reverse pilot message; response reference is null",
+      "event_at": "2026-07-16T00:21:21.682150Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "c7472b3523009cc5f486afc8234ec018ef9be071",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z"
+    },
+    {
+      "id": "original-plan67-mailbox-authorization-context",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/plans/67_cross_client_mailbox_and_acknowledgement.md",
+      "role": "Contemporaneous plan recording operator authorization, trusted operators and the bounded bidirectional pilot objective",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "20251633ec4bd7219d2f215e549c961d478e2cc0",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z"
+    },
+    {
+      "id": "original-perfume-chat-bridge-readme",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/README.md",
+      "role": "Original bridge overview describing a durable hub-and-spoke route among same-project chats and Codex with explicit user-authorized writes",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "852598ac8c06f62a51d9e9621c482b861568d693",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-chat-bridge-protocol",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/PROTOCOL.md",
+      "role": "Original protocol requiring explicit user synchronization or an approved project workflow and distinguishing acknowledgement from claim acceptance",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "33a8bbc87f5fd88df12fbd1182821ae877d4ee69",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-chat-bridge-project-instructions",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/PROJECT_INSTRUCTIONS.md",
+      "role": "Project instructions conditioning publish, sync and handoff on explicit user requests and stating that separate chats do not share hidden context",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "ea309031596f688e3311094a993db759d148135b",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-research-bridge-intake",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/inbox/6a8d258b-8bf4-83ec-adf7-42ef67941328/20260825T073458Z-chatgpt-research-workflow-bridge-intake-v1.json",
+      "role": "Initial append-only source-chat packet stating that the user requested the bridge and retaining all imported claims as untrusted",
+      "event_at": "2026-08-25T07:34:58.2642568Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "a75d45e9f9de21e9110de4f19a5ac917b1850ff5",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-research-bridge-ack-v1",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/outbox/20260825T073633Z-codex-research-workflow-bridge-ack-v1.json",
+      "role": "Codex acknowledgement that reports reading and validating the exact intake bytes while declining acceptance of the imported claims",
+      "event_at": "2026-08-25T07:36:33.5666373Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "0694d1ef18db731f9c4cfe5a7f49062cfeb1cc6a",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-research-bridge-successor",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/inbox/6a8d258b-8bf4-83ec-adf7-42ef67941328/20260825T073840Z-chatgpt-research-workflow-master-handoff-delta-v2.json",
+      "role": "Later bounded source-chat delta that explicitly supersedes the first intake and remains untrusted",
+      "event_at": "2026-08-25T07:38:40.2523634Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "0c7490faafbeab67fd9a41d3ea54b3528d99282a",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-research-bridge-ack-v2",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/outbox/20260825T073947Z-codex-research-workflow-bridge-ack-v2.json",
+      "role": "Second Codex acknowledgement using the successor packet and its supersession relationship while making no code or authority change",
+      "event_at": "2026-08-25T07:39:47.5230322Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "2e400ad5e16d9241c4325f4604241ccd92eefb30",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-perfume-research-bridge-return-ack",
+      "url": "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/inbox/6a8d258b-8bf4-83ec-adf7-42ef67941328/20260825T074133Z-chatgpt-research-workflow-bridge-ack-event-v1.json",
+      "role": "Append-only event recording that the source conversation repeated the initial packet and acknowledgement identifiers without accepting claims or acknowledging the later pair",
+      "event_at": "2026-08-25T07:41:33.7681097Z",
+      "source_observed_at": "2026-08-25T07:38:13.5180000Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "884f397e2860798c82de0b1172c995dbfb28c766",
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z"
+    },
+    {
+      "id": "original-brigade-local-message-test-transcript",
+      "url": "https://github.com/appshapes/brigade/blob/66174aa17a169d3d8efe53f344a506162f75c967/docs/research/supabase-in-go/evidence/rpc.log.txt",
+      "role": "Verbatim local-stack transcript preserving an accepted test message, inbox visibility and notification behavior without a recipient task action; test identifiers and probe content are omitted here",
+      "relevant_event_at": "2026-08-30T17:29:28.005401Z",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "fd268159eb7a9af44fb764a5ff5e3f024dd94743",
+      "commit_sha": "66174aa17a169d3d8efe53f344a506162f75c967",
+      "commit_date": "2026-08-30T19:17:37Z"
+    },
+    {
+      "id": "original-brigade-local-message-test-context",
+      "url": "https://github.com/appshapes/brigade/blob/66174aa17a169d3d8efe53f344a506162f75c967/docs/research/supabase-in-go.md",
+      "role": "Companion report identifying the traffic as same-day validation against a fresh local stack and describing the test's message-notification measurements",
+      "published": "2026-08-30",
+      "observed_at": "2026-10-13T11:23:18Z",
+      "git_blob_sha": "71d7b26cbec054e0d708dd5408aa2116c0e731c4",
+      "commit_sha": "66174aa17a169d3d8efe53f344a506162f75c967",
+      "commit_date": "2026-08-30T19:17:37Z"
     }
   ]
 }

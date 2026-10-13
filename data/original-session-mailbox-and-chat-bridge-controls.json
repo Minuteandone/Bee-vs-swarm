@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T11:23:18Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "exact_default_branch_queries": 10,
+    "search_result_row_occurrences": 287,
+    "distinct_result_urls": 205,
+    "distinct_repositories": 39,
+    "self_repository_row_occurrences": 1,
+    "distinct_external_result_urls": 204,
+    "zero_result_queries": 3,
+    "capped_queries": 1,
+    "selected_record_files_read_in_full": 12,
+    "selected_context_files_read_in_full": 15,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Global public GitHub default-branch code search used only to locate committed original records",
+  "observed_at": "2026-10-13T11:23:18Z",
+  "queries": [
+    {
+      "query": "\"source_session_id\" \"recipient_session_id\" \"message_id\" \"task_id\" extension:jsonl",
+      "rows": 0
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" \"artifact_digest\" extension:jsonl",
+      "rows": 0
+    },
+    {
+      "query": "\"lane_id\" \"handoff_id\" \"source_session\" \"recipient_session\" extension:jsonl",
+      "rows": 0
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" extension:json",
+      "rows": 32,
+      "repository_counts": {
+        "makecindy/cindy": 23,
+        "Jericho/ZoomNet": 4,
+        "appshapes/brigade": 2,
+        "Minuteandone/Bee-vs-swarm": 1,
+        "BrianMills2718/enforced-planning": 2
+      }
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" extension:txt",
+      "rows": 1,
+      "repository_counts": {
+        "appshapes/brigade": 1
+      }
+    },
+    {
+      "query": "\"event\" \"acknowledged\" \"recipient_session_id\" \"receipt_id\" extension:json",
+      "rows": 2,
+      "repository_counts": {
+        "BrianMills2718/enforced-planning": 2
+      }
+    },
+    {
+      "query": "\"source_conversation_id\" \"target_conversation_id\" extension:json",
+      "rows": 94,
+      "repository_counts": {
+        "TanStack/tanstack.com": 28,
+        "SystemSculpt/obsidian-systemsculpt-ai": 1,
+        "Syun-tnb/llm-logparser": 2,
+        "geminipro529-cloud/perfume-chem": 29,
+        "rore/Pallium": 1,
+        "joffet/communicationcanoe": 10,
+        "WondrousBox/Chobits": 13,
+        "wir-drei-digital/magus": 8,
+        "yilewang/llm-for-zotero": 2
+      }
+    },
+    {
+      "query": "\"packet_nonce\" \"source_conversation_id\" \"target_conversation_id\" \"acknowledgement\" extension:json",
+      "rows": 29,
+      "repository_counts": {
+        "geminipro529-cloud/perfume-chem": 29
+      }
+    },
+    {
+      "query": "\"supersedes_packet_id\" \"accepted_by_codex\" extension:json",
+      "rows": 29,
+      "repository_counts": {
+        "geminipro529-cloud/perfume-chem": 29
+      }
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\"",
+      "rows": 100,
+      "result_limit_reached": true,
+      "assessment": "The first 100 ranked rows were screened only as a discovery locator. They were implementation, tests, schemas and design material; no negative file-content claim is made for this capped query."
+    }
+  ],
+  "observer_contamination": {
+    "detected": true,
+    "row_occurrences": 1,
+    "assessment": "The JSON session-pair search returned this repository's preceding assessment once. That self-index row was excluded before selecting original records.",
+    "control": "Reject Bee-vs-swarm self-matches and literal query logs before candidate inference; pin retained external records by original commit and Git blob hash."
+  },
+  "assessed_records": [
+    {
+      "id": "plan67_bidirectional_mailbox_pilot_control",
+      "record_urls": [
+        "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/README.md",
+        "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/msg_01f0211632f09dce3753f8c3babee87d.json",
+        "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/rcpt_410b542bbddc14bc840bd01a664955cc.json",
+        "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/msg_353d54355bb0be31632037954588e792.json",
+        "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/evidence/plan67_mailbox_pilot/rcpt_1161c14a3def45f2060eed22cfe29b55.json"
+      ],
+      "context_url": "https://github.com/BrianMills2718/enforced-planning/blob/d0bd87c4059ff394fed940a051d847f7100d98fe/docs/plans/67_cross_client_mailbox_and_acknowledgement.md",
+      "commit_sha": "d0bd87c4059ff394fed940a051d847f7100d98fe",
+      "commit_date": "2026-07-16T00:30:04Z",
+      "event_start": "2026-07-16T00:20:57.568813Z",
+      "event_end": "2026-07-16T00:21:21.682150Z",
+      "git_blob_shas": {
+        "readme": "9789442fe3ebc6da3c6102cdc82ab3e2d2ac1a0a",
+        "first_message": "c4d4731c095fa63b2c287c711e28f8c415daa66a",
+        "first_observed_receipt": "9ede2b833a4891d5db89fb8250719d40e4d7b8cf",
+        "first_acknowledged_receipt": "421e170435b00a211f0e2bf9eaf90acde1b633f1",
+        "reverse_message": "c43b309504cedd5d84d95d56f63f08e6c1ef5c89",
+        "reverse_observed_receipt": "db035e71f149fa6236d0f3848a4fd5607a6dfa6a",
+        "reverse_acknowledged_receipt": "c7472b3523009cc5f486afc8234ec018ef9be071",
+        "first_identity_claim": "7d893cd3c950a015d5dca44b8427f34448e0ab78",
+        "second_identity_claim": "51b74404e8ebfe7ae494e2756c84931e55341183",
+        "plan": "20251633ec4bd7219d2f215e549c961d478e2cc0"
+      },
+      "record_counts": {
+        "messages": 2,
+        "observation_receipts": 2,
+        "acknowledgement_receipts": 2,
+        "identity_claims": 2
+      },
+      "original_observation": "Two distinct bounded session labels exchanged one message in each direction. Each message has a separate observation receipt and an explicit acknowledgement receipt naming the same message and recipient, so bidirectional transport and acknowledgement are concretely preserved.",
+      "semantic_dependency": "The receipts depend on the message identifiers, but each message asks only to observe and acknowledge. Both response references are null; no task result, artifact or later task action is present.",
+      "participant_assessment": "The retained README explicitly says the labels are bounded pilot identities and not two independently reasoning model sessions.",
+      "authorization_assessment": "The plan says the operator authorized implementation and the bounded bidirectional pilot, describes all current operators as trusted and defines the objective as a shared Claude Code/Codex mailbox.",
+      "classification": "Designed, operator-authorized cross-process mailbox pilot",
+      "verified_autonomous_participants": 0,
+      "demonstrable_task_result_use": false,
+      "operator_boundary_evidence": false,
+      "candidate": false
+    },
+    {
+      "id": "perfume_chem_chat_bridge_control",
+      "record_urls": [
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/inbox/6a8d258b-8bf4-83ec-adf7-42ef67941328/20260825T073458Z-chatgpt-research-workflow-bridge-intake-v1.json",
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/outbox/20260825T073633Z-codex-research-workflow-bridge-ack-v1.json",
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/inbox/6a8d258b-8bf4-83ec-adf7-42ef67941328/20260825T073840Z-chatgpt-research-workflow-master-handoff-delta-v2.json",
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/outbox/20260825T073947Z-codex-research-workflow-bridge-ack-v2.json",
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/inbox/6a8d258b-8bf4-83ec-adf7-42ef67941328/20260825T074133Z-chatgpt-research-workflow-bridge-ack-event-v1.json"
+      ],
+      "context_urls": [
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/README.md",
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/PROTOCOL.md",
+        "https://github.com/geminipro529-cloud/perfume-chem/blob/e7002d4dacde0ae4c6b92db454fa4034c830e8f4/chat_bridge/complex_perfumery/PROJECT_INSTRUCTIONS.md"
+      ],
+      "commit_sha": "e7002d4dacde0ae4c6b92db454fa4034c830e8f4",
+      "commit_date": "2026-09-02T20:21:08Z",
+      "event_start": "2026-08-25T07:34:58.2642568Z",
+      "event_end": "2026-08-25T07:41:33.7681097Z",
+      "git_blob_shas": {
+        "readme": "852598ac8c06f62a51d9e9621c482b861568d693",
+        "protocol": "33a8bbc87f5fd88df12fbd1182821ae877d4ee69",
+        "project_instructions": "ea309031596f688e3311094a993db759d148135b",
+        "initial_intake": "a75d45e9f9de21e9110de4f19a5ac917b1850ff5",
+        "first_acknowledgement": "0694d1ef18db731f9c4cfe5a7f49062cfeb1cc6a",
+        "successor_delta": "0c7490faafbeab67fd9a41d3ea54b3528d99282a",
+        "second_acknowledgement": "2e400ad5e16d9241c4325f4604241ccd92eefb30",
+        "return_acknowledgement_event": "884f397e2860798c82de0b1172c995dbfb28c766"
+      },
+      "family_inventory": {
+        "default_branch_search_rows": 29,
+        "schema_rows": 1,
+        "inbox_packets": 22,
+        "outbox_packets": 6,
+        "selected_chain_records_read_in_full": 5
+      },
+      "chronology": [
+        {
+          "at": "2026-08-25T07:34:58.2642568Z",
+          "event": "A source-chat capture is appended as untrusted input after an explicit user request for a sustained bridge."
+        },
+        {
+          "at": "2026-08-25T07:36:33.5666373Z",
+          "event": "Codex reports reading the exact intake bytes, checking their schema and hash and creating a transport acknowledgement while leaving all imported claims unaccepted."
+        },
+        {
+          "at": "2026-08-25T07:38:40.2523634Z",
+          "event": "A later bounded source-chat delta explicitly supersedes the first capture and remains untrusted."
+        },
+        {
+          "at": "2026-08-25T07:39:47.5230322Z",
+          "event": "Codex reports validating the exact successor bytes and supersession relationship and creates a second acknowledgement without changing code or project authority."
+        },
+        {
+          "at": "2026-08-25T07:41:33.7681097Z",
+          "event": "An append-only event records the source conversation repeating the initial intake and first acknowledgement identifiers; it explicitly does not accept claims or acknowledge the later pair."
+        }
+      ],
+      "original_observation": "This is a concrete multi-conversation transfer chain. The acknowledgements name and use exact prior packets, and the successor explicitly names the intake it supersedes. The return event records that the source conversation observed the first pair.",
+      "downstream_use_assessment": "Recipient use is limited to transport validation, acknowledgement and bridge-state bookkeeping. The source assertions remain untrusted, no task artifact is executed or promoted and the return event does not prove use of the later successor pair.",
+      "participant_assessment": "Conversation identifiers distinguish chat surfaces, not independent operators or autonomous agents. The files say separate chats do not share hidden context and describe a user-directed project bridge with one Codex/Sol final authority.",
+      "authorization_assessment": "The protocol permits publication only on an explicit user synchronization request or approved project workflow. The intake itself says the user explicitly requested the bridge, and the project instructions condition publishing, syncing and handoff on user requests.",
+      "observer_contamination_risk": "The packet chain was assembled from bounded thread reads and user-directed bridge notices. An observer-authored acknowledgement record is not independent proof of spontaneous cross-operator coordination.",
+      "classification": "Designed, user-authorized same-project chat bridge",
+      "verified_autonomous_participants": 0,
+      "transport_dependency_present": true,
+      "demonstrable_task_result_use": false,
+      "operator_boundary_evidence": false,
+      "candidate": false
+    },
+    {
+      "id": "brigade_local_message_transport_test_control",
+      "record_url": "https://github.com/appshapes/brigade/blob/66174aa17a169d3d8efe53f344a506162f75c967/docs/research/supabase-in-go/evidence/rpc.log.txt",
+      "context_url": "https://github.com/appshapes/brigade/blob/66174aa17a169d3d8efe53f344a506162f75c967/docs/research/supabase-in-go.md",
+      "commit_sha": "66174aa17a169d3d8efe53f344a506162f75c967",
+      "commit_date": "2026-08-30T19:17:37Z",
+      "relevant_event_at": "2026-08-30T17:29:28.005401Z",
+      "git_blob_shas": {
+        "record": "fd268159eb7a9af44fb764a5ff5e3f024dd94743",
+        "context": "71d7b26cbec054e0d708dd5408aa2116c0e731c4"
+      },
+      "original_observation": "A verbatim local-stack transcript preserves one accepted session-to-session message, later visibility in an inbox query and private-channel message notifications. The accompanying report also describes ten inserts by another test principal for latency measurement.",
+      "downstream_use_assessment": "No recipient task action, reply, acknowledgement or content-dependent work follows. The notification carries identifiers rather than the body, and the selected message is a transport probe.",
+      "authorization_assessment": "The report states that everything was run that day against a fresh local stack to validate a hand-rolled client and map error and latency behavior. This is an explicit integration experiment, not organic activity.",
+      "privacy_control": "Public test user and session identifiers and the probe body are omitted from this assessment.",
+      "classification": "Human-run local message-transport integration test",
+      "verified_autonomous_participants": 0,
+      "demonstrable_task_result_use": false,
+      "operator_boundary_evidence": false,
+      "candidate": false
+    }
+  ],
+  "path_and_excerpt_only_exclusions": {
+    "assessment": "Unselected result paths were screened only from paths and search excerpts unless specifically identified above. They were not used for negative file-content claims.",
+    "families": [
+      "23 makecindy schema snapshots and four Zoom sample-webhook payloads",
+      "two Brigade schema files in addition to the retained local integration transcript",
+      "28 TanStack, ten communicationcanoe and thirteen Chobits database-migration snapshots",
+      "eight Magus resource-schema snapshots; one was read in full and contains an attributes/table definition rather than run rows",
+      "cross-thread schemas, an evaluation manifest and three test fixtures",
+      "ranked implementation, test, protocol and design files in the capped unqualified session-pair query"
+    ]
+  },
+  "alternatives_tested": [
+    "Bounded pilot session labels mistaken for independent reasoning agents",
+    "Observation and acknowledgement receipts mistaken for task-result adoption",
+    "User-directed project chats mistaken for separate operators",
+    "Transport-context validation mistaken for scientific, code or task claim acceptance",
+    "Human-mediated bridge notices mistaken for spontaneous autonomous outreach",
+    "A local integration test message and notification mistaken for production agent coordination",
+    "Schemas, database migrations, fixtures, sample webhooks and evaluation manifests mistaken for actual runs",
+    "This investigation's indexed query text mistaken for independent evidence"
+  ],
+  "evidence_state": {
+    "suspected_coordination": false,
+    "verified_autonomous_participants_in_new_candidate": 0,
+    "bidirectional_transport_and_acknowledgement_in_control": true,
+    "cross_conversation_transport_dependency_in_control": true,
+    "task_result_or_artifact_use_in_new_candidate": false,
+    "operator_boundary_evidence": false,
+    "rogue_intent": "not established",
+    "provider_attribution": "not established",
+    "ongoing_activity": "not established",
+    "previously_unreported_rogue_swarm_confirmed": false,
+    "candidate_id_assigned": false
+  },
+  "novelty_check": "No episode-level prior-reporting search was warranted. The concrete dependencies are expressly authorized transport pilots or same-project bridge operations, while the remaining local-stack message lacks autonomous participants and downstream task use.",
+  "advancement_evidence": "A retained record must connect a task-bearing result or artifact to independently attributable autonomous sender and recipient trajectories, show a later recipient action that semantically depends on it and supply primary provenance that the cooperation crossed an operator-defined boundary. Session or conversation labels, transport receipts, schema validation, explicit project bridges and integration-test messages do not qualify.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"sender_principal_id\" \"recipient_principal_id\" \"artifact_sha256\" \"consumed_at\" extension:jsonl",
+      "\"source_operator_id\" \"recipient_operator_id\" \"message_id\" \"used_at\" extension:json",
+      "\"foreign_session_id\" \"source_message_id\" \"downstream_action_id\" extension:jsonl"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches, schemas, examples, fixtures, tests and expressly designed bridges first. Retain only a committed actual-run or incident record with separate operator or principal provenance, a concrete task artifact and later content-dependent recipient action."
+  }
+}

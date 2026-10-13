@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T11:46:45Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "exact_default_branch_queries": 21,
+    "search_result_row_occurrences": 291,
+    "distinct_result_urls": 270,
+    "distinct_repositories": 109,
+    "self_repository_row_occurrences": 23,
+    "distinct_external_result_urls": 259,
+    "zero_result_queries": 10,
+    "capped_queries": 2,
+    "selected_record_files_read_in_full": 3,
+    "selected_context_files_read_in_full": 7,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Global public GitHub default-branch code search used only as a locator; broad capped searches cover the first 100 returned rows and are not exhaustive",
+  "observed_at": "2026-10-13T11:46:45Z",
+  "queries": [
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" \"artifact_sha256\" \"consumed_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_operator_id\" \"recipient_operator_id\" \"message_id\" \"used_at\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"foreign_session_id\" \"source_message_id\" \"downstream_action_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\"",
+      "returned_rows": 100,
+      "capped": true
+    },
+    {
+      "query": "\"source_operator_id\" \"recipient_operator_id\"",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"foreign_session_id\"",
+      "returned_rows": 100,
+      "capped": true
+    },
+    {
+      "query": "\"source_principal_id\" \"target_principal_id\"",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"operator_id\" \"sender_agent_id\" \"recipient_agent_id\"",
+      "returned_rows": 10
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\"",
+      "returned_rows": 54
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" extension:json",
+      "returned_rows": 8
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" extension:json",
+      "returned_rows": 6
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"foreign_session_id\" \"source_message_id\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"foreign_session_id\" \"source_message_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" extension:json",
+      "returned_rows": 4
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_uri\" \"status\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" \"read_at\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" \"acked_at\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" extension:json",
+      "returned_rows": 4
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"downstream_action\" extension:json",
+      "returned_rows": 3
+    }
+  ],
+  "observer_contamination": {
+    "self_repository_row_occurrences": 23,
+    "assessment": "These rows reproduce this investigation's published schemas or cursor text and are excluded before external-record inference. Distinct-result counts therefore do not equal the arithmetic sum of external and self row occurrences because several queries overlap the same URLs."
+  },
+  "assessed_records": [
+    {
+      "id": "gxeon-runtime-memory-settlement-control",
+      "record_url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/runtime-memory.json",
+      "context_urls": [
+        "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/server/runtime/autonomousRevenueScheduler.cjs",
+        "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/server/runtime/xRadarEngine.cjs",
+        "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/GXEON_MAKE_REAL_PIX_FALL_VFINAL.md",
+        "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/GXEON_LIVE_REVENUE_ACTIVATION_VFINAL.md",
+        "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/GXEON_AUTONOMOUS_REVENUE_MACHINE_FINAL_PUSH.md"
+      ],
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z",
+      "git_blob_shas": {
+        "runtime_memory": "41f7eaab07e6a0cff48c2af211c57d31d6a0379f",
+        "scheduler": "5ec6604466879b57fe033da5b598ba03aa0e5ad2",
+        "signal_engine": "0c136c9b934459e9badfeb4e002a9ffb4f902017",
+        "make_real_context": "8b8f56bfac51a4d9b718b06786de6eb7f8f1a44e",
+        "live_revenue_context": "47f3b68ce5cf09d074169111728dd8673ae7b95c",
+        "revenue_machine_context": "0b088c5c8e77b0928fc7c457ad6bab90fb5dd6d0"
+      },
+      "event_start": "2026-05-17T03:11:11.613Z",
+      "event_end": "2026-05-17T04:08:40.918Z",
+      "original_observation": "The committed memory file contains 11 settled autonomous-task queue rows, 13 commission settlements, 17 credit-ledger events, 13 generated radar signals and one private-delivery row. Public contact values embedded in the file are omitted here.",
+      "semantic_dependency": "Task, signal, producer and consumer labels create accounting linkage, but no task-result body or artifact is recorded and no later recipient action depends on signal content.",
+      "source_code_falsification": "The scheduler creates queue rows, transfers credits and marks a task settled according to a random fail-rate branch; it does not invoke a named agent or execute the represented work. The signal engine records a transfer and delivered status without a recipient semantic action.",
+      "participant_assessment": "Producer and consumer identifiers are software role labels inside one project-local runtime ledger, not independently verified autonomous participants.",
+      "operator_boundary_evidence": false,
+      "authorization_assessment": "Contemporaneous project documents provide localhost test commands for creating wallets, generating tasks, running cycles and sending mock webhook events, while listing official payment webhooks, real delivery channels and durable storage as production prerequisites.",
+      "candidate": false,
+      "classification": "Designed local monetization smoke-test ledger; accounting-state transition without demonstrated sender-to-recipient task-result use."
+    },
+    {
+      "id": "fyagent-native-continuation-control",
+      "record_url": "https://github.com/fy-agent/fyagent/blob/e3bddc4dcb41f52f232630f764ccb1733f0058c5/.trellis/tasks/archive/2026-09/09-22-session-cross-device-recovery/research/evidence--native-continuation--results.json",
+      "context_url": "https://github.com/fy-agent/fyagent/blob/e3bddc4dcb41f52f232630f764ccb1733f0058c5/.trellis/tasks/archive/2026-09/09-22-session-cross-device-recovery/implementation--native-continuation-report.md",
+      "commit_sha": "e3bddc4dcb41f52f232630f764ccb1733f0058c5",
+      "commit_date": "2026-10-12T11:02:30Z",
+      "git_blob_shas": {
+        "results": "ccc4fd615e0269289b970b792757e557e4036f6e",
+        "report": "ab0a27a2f46cbaae282f5e6bd26090e5654acbe5"
+      },
+      "original_observation": "The evidence file records three OpenCode and three Hermes continuation variants with foreign-session provenance fields.",
+      "semantic_dependency": "The report identifies the records as synthetic isolated-store migration tests and says no inference should be drawn. A loopback capture deliberately returns HTTP 400; no foreign autonomous sender, delivered task result or downstream action is preserved.",
+      "participant_assessment": "The foreign-session field records imported fixture provenance, not communication between independently operating sessions.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "One-engineer synthetic recovery/migration test."
+    },
+    {
+      "id": "paimos-dsar-inventory-schema-control",
+      "record_url": "https://github.com/inspr-at/paimos/blob/1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a/internal/dsar/inventory.json",
+      "context_url": "https://github.com/inspr-at/paimos/blob/1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a/README.md",
+      "commit_sha": "1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a",
+      "commit_date": "2026-10-13T10:27:27Z",
+      "git_blob_shas": {
+        "inventory": "3e1fb37eb64d38f0da4e9eab01b774c8df076929",
+        "readme": "4aa2b4a6f4e7d607ffca0bb4c1be3299a9aef4a7"
+      },
+      "original_observation": "The JSON enumerates table columns and privacy classifications, including principal-pair and read-state field names; it contains no message or run rows.",
+      "semantic_dependency": "A database inventory schema cannot show that a sender transferred content or that a recipient later used it.",
+      "participant_assessment": "The companion README describes an intentionally designed agent platform, not an observed cross-operator episode.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Schema and product-architecture control."
+    }
+  ],
+  "path_and_excerpt_only_exclusions": {
+    "external_paths_not_retained_for_full_record_review": 256,
+    "screening_basis": "Path and search excerpt only",
+    "dominant_classes": [
+      "implementations and field declarations",
+      "schemas and migrations",
+      "tests and fixtures",
+      "examples and generated documentation",
+      "session import/export records without a recipient action",
+      "designed agent-platform artifacts"
+    ],
+    "limitation": "No broader content claim is made for these paths. They remain eligible for later review if a committed actual-run transfer/use edge or operator-provenance clue appears."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "Ledger role labels authenticate distinct autonomous agents",
+      "result": "Not supported; the generating source creates project-local labels and state transitions without invoking those participants."
+    },
+    {
+      "alternative": "Settled or delivered status demonstrates semantic recipient use",
+      "result": "Rejected; status is set by scheduler and accounting code, with no content-bearing result or dependent action."
+    },
+    {
+      "alternative": "Foreign-session provenance is a cross-agent message",
+      "result": "Rejected for the retained record; its own report identifies synthetic isolated-store migration tests."
+    },
+    {
+      "alternative": "Principal-pair fields are event evidence",
+      "result": "Rejected for the retained schema; the file inventories columns rather than preserving rows."
+    },
+    {
+      "alternative": "Multiple identifiers imply separate operators",
+      "result": "Not supported by any retained primary record."
+    }
+  ],
+  "evidence_state": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "new_candidate_id": null,
+    "specific_sender_to_recipient_dependency": false,
+    "demonstrable_recipient_use": false,
+    "verified_autonomous_participants": false,
+    "operator_boundary_evidence": false,
+    "current_activity": "Not assessed; retained records are historical committed controls rather than verified live participants."
+  },
+  "novelty_check": {
+    "performed_at_episode_level": false,
+    "reason": "No retained record survives the transfer, downstream-use, participant and operator-boundary gates, so episode-level prior-reporting queries would manufacture a novelty question from designed or synthetic controls.",
+    "claim": "No candidate assigned; no novelty claim made."
+  },
+  "advancement_evidence": "A committed actual-run record preserving a content-bearing task result or artifact, independently attributable producer and consumer principals, a later recipient action that semantically depends on that content, and primary provenance that the participants operated across separate authorization boundaries. Financial settlement, delivery status, role labels, synthetic migrations, schemas, tests and self-index rows do not advance the lead.",
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"input_artifact_sha256\" \"output_artifact_sha256\" \"producer_agent_id\" \"consumer_agent_id\" extension:jsonl",
+      "\"source_artifacts\" \"consumer_operation_id\" \"producer_agent_id\" \"consumer_agent_id\" extension:json",
+      "\"sender_principal_id\" \"recipient_principal_id\" \"body_sha256\" \"read_at\" \"reply_to_id\" extension:json"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self-matches, financial or status-only transitions, synthetic migrations, schemas, examples, fixtures, tests and designed platforms first. Retain only committed actual-run rows in which a recipient's later operation semantically depends on a transferred task artifact and primary provenance can test separate operators."
+  }
+}

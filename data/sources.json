@@ -2470,6 +2470,107 @@
       "git_blob_sha": "71d7b26cbec054e0d708dd5408aa2116c0e731c4",
       "commit_sha": "66174aa17a169d3d8efe53f344a506162f75c967",
       "commit_date": "2026-08-30T19:17:37Z"
+    },
+    {
+      "id": "original-gxeon-runtime-memory-settlement-control",
+      "url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/runtime-memory.json",
+      "role": "Committed local runtime ledger with producer and consumer labels, settled task rows, signal and commission records, credit events and one delivery row; embedded public contact values are omitted from this repository",
+      "event_start": "2026-05-17T03:11:11.613Z",
+      "event_end": "2026-05-17T04:08:40.918Z",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "41f7eaab07e6a0cff48c2af211c57d31d6a0379f",
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z"
+    },
+    {
+      "id": "original-gxeon-autonomous-scheduler-source-control",
+      "url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/server/runtime/autonomousRevenueScheduler.cjs",
+      "role": "Generating source showing that local task rows, credit transfers and settled status are produced by a random fail-rate branch without invoking the named producer or consumer as an agent",
+      "published": "2026-05-17",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "5ec6604466879b57fe033da5b598ba03aa0e5ad2",
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z"
+    },
+    {
+      "id": "original-gxeon-signal-delivery-source-control",
+      "url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/server/runtime/xRadarEngine.cjs",
+      "role": "Generating source showing that signal consumption records settlement, a credit transfer and delivered status without a content-dependent recipient action",
+      "published": "2026-05-17",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "0c136c9b934459e9badfeb4e002a9ffb4f902017",
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z"
+    },
+    {
+      "id": "original-gxeon-local-test-context",
+      "url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/GXEON_MAKE_REAL_PIX_FALL_VFINAL.md",
+      "role": "Contemporaneous context supplying localhost test commands for wallets, tasks, cycles and mock webhooks and listing real payment, delivery and persistence work still needed",
+      "published": "2026-05-17",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "8b8f56bfac51a4d9b718b06786de6eb7f8f1a44e",
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z"
+    },
+    {
+      "id": "original-gxeon-live-revenue-test-context",
+      "url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/GXEON_LIVE_REVENUE_ACTIVATION_VFINAL.md",
+      "role": "Second contemporaneous localhost activation and validation plan distinguishing committed simulation paths from external production prerequisites",
+      "published": "2026-05-17",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "47f3b68ce5cf09d074169111728dd8673ae7b95c",
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z"
+    },
+    {
+      "id": "original-gxeon-revenue-machine-test-context",
+      "url": "https://github.com/xpex-systems-ai/GXEON-AI/blob/13f676afafed3dab081316f116c48b01603c9124/artifacts/GXEON_AUTONOMOUS_REVENUE_MACHINE_FINAL_PUSH.md",
+      "role": "Companion implementation note with localhost validation commands and deployment requirements for the designed revenue workflow",
+      "published": "2026-05-17",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "0b088c5c8e77b0928fc7c457ad6bab90fb5dd6d0",
+      "commit_sha": "13f676afafed3dab081316f116c48b01603c9124",
+      "commit_date": "2026-05-17T04:13:20Z"
+    },
+    {
+      "id": "original-fyagent-native-continuation-test-control",
+      "url": "https://github.com/fy-agent/fyagent/blob/e3bddc4dcb41f52f232630f764ccb1733f0058c5/.trellis/tasks/archive/2026-09/09-22-session-cross-device-recovery/research/evidence--native-continuation--results.json",
+      "role": "Synthetic isolated-store continuation results whose foreign-session field records fixture import provenance rather than an autonomous sender-to-recipient message",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "ccc4fd615e0269289b970b792757e557e4036f6e",
+      "commit_sha": "e3bddc4dcb41f52f232630f764ccb1733f0058c5",
+      "commit_date": "2026-10-12T11:02:30Z"
+    },
+    {
+      "id": "original-fyagent-native-continuation-test-context",
+      "url": "https://github.com/fy-agent/fyagent/blob/e3bddc4dcb41f52f232630f764ccb1733f0058c5/.trellis/tasks/archive/2026-09/09-22-session-cross-device-recovery/implementation--native-continuation-report.md",
+      "role": "Companion report explicitly classifying the six variants as synthetic isolated-store tests and recording a deliberate loopback error instead of foreign-agent activity",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "ab0a27a2f46cbaae282f5e6bd26090e5654acbe5",
+      "commit_sha": "e3bddc4dcb41f52f232630f764ccb1733f0058c5",
+      "commit_date": "2026-10-12T11:02:30Z"
+    },
+    {
+      "id": "original-paimos-dsar-inventory-schema-control",
+      "url": "https://github.com/inspr-at/paimos/blob/1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a/internal/dsar/inventory.json",
+      "role": "Database-column and privacy-classification inventory containing principal-pair and read-state field names but no message or run rows",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "3e1fb37eb64d38f0da4e9eab01b774c8df076929",
+      "commit_sha": "1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a",
+      "commit_date": "2026-10-13T10:27:27Z"
+    },
+    {
+      "id": "original-paimos-platform-context",
+      "url": "https://github.com/inspr-at/paimos/blob/1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a/README.md",
+      "role": "Companion project documentation identifying an intentionally designed agent platform rather than an observed cross-operator coordination episode",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-13T11:46:45Z",
+      "git_blob_sha": "4aa2b4a6f4e7d607ffca0bb4c1be3299a9aef4a7",
+      "commit_sha": "1f3ac9da5815a6a52f2ed4111b0fa48eed8de32a",
+      "commit_date": "2026-10-13T10:27:27Z"
     }
   ]
 }

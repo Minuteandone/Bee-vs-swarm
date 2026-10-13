@@ -2985,6 +2985,118 @@
       "git_blob_sha": "0f9ca869dcedefce54a1d58b79e90a557f85363a",
       "commit_sha": "d0ac8e11f452ab4f5a159e0c0ea356544d740317",
       "commit_date": "2026-10-13T18:49:14Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-index",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/index.json",
+      "role": "Primary archive index enumerating the six bounded Hyrm message snapshots and their row counts",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "git_blob_sha": "1a59fd70e01e2e0c19159268131b4639ae7d413a",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-20260102-092514853",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T09-25-14-853Z.jsonl",
+      "role": "Primary Hyrm message snapshot; first member of the exact 409-message overlap pair",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "event_start": "2025-12-31T21:48:11.240Z",
+      "event_end": "2026-01-02T09:25:14.851Z",
+      "git_blob_sha": "0bade8220a6e4ca26439433faf832c4f3cb71977",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-20260102-092514855",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T09-25-14-855Z.jsonl",
+      "role": "Primary Hyrm message snapshot repeating the preceding 409 messages and adding one broadcast",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "event_start": "2025-12-31T21:48:11.240Z",
+      "event_end": "2026-01-02T09:25:14.853Z",
+      "git_blob_sha": "5ede56814fd593b252944c7cf757d2568b9c39b9",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-20260102-123320454",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T12-33-20-454Z.jsonl",
+      "role": "Primary bounded Hyrm task and message snapshot",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "event_start": "2026-01-02T09:26:02.242Z",
+      "event_end": "2026-01-02T12:33:20.453Z",
+      "git_blob_sha": "44f4d3359316cc4f859e8e4e34311dddcd63aa09",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-20260102-185658107",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T18-56-58-107Z.jsonl",
+      "role": "Primary bounded Hyrm task and message snapshot",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "event_start": "2026-01-02T13:09:02.509Z",
+      "event_end": "2026-01-02T18:56:58.065Z",
+      "git_blob_sha": "f2952c10600b299e3c02ad5246ea0cf975b1f00d",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-20260103-100732758",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-03T10-07-32-758Z.jsonl",
+      "role": "Primary bounded Hyrm task and message snapshot",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "event_start": "2026-01-02T19:03:24.918Z",
+      "event_end": "2026-01-03T10:07:32.741Z",
+      "git_blob_sha": "9d36dbfce1926d21bb886e7837757bc30d3cbb6f",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-20260104-173057681",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-04T17-30-57-681Z.jsonl",
+      "role": "Primary 655-row Hyrm snapshot containing the selected complete lifecycle and duplicate-completion controls",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "event_start": "2026-01-03T10:09:09.202Z",
+      "event_end": "2026-01-04T17:30:57.658Z",
+      "git_blob_sha": "075934e309931ee8fff1cbbd6c7b543795103d23",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-coordinator-read-marker-source",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/tools/lib/coordinator.ts",
+      "role": "Primary generating source defining message addressing, unread selection and read_by as a local retrieval marker",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "git_blob_sha": "7696592328b4cdf43070cef2527435c530c8f6f5",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-task-completion-source",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/.opencode/plugin/tools/task-tools.ts",
+      "role": "Primary source defining automatic task_completed broadcasts, heuristic assessment and the separate instructed task_complete report",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "git_blob_sha": "4bb28c553194cfcff568b64c441186b2f3911872",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-message-archive-manager-source",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/tools/message-bus-manager.ts",
+      "role": "Primary generating source defining the message archive directory and index",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T23:50:47Z",
+      "git_blob_sha": "f2deabe1c970b74d1c594a20d1176fb8fcb1958d",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
     }
   ]
 }

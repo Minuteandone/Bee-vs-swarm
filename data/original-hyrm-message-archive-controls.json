@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T23:50:47Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "global_default_branch_queries": 15,
+    "global_search_result_row_occurrences": 3,
+    "global_distinct_external_result_urls": 2,
+    "global_distinct_external_repositories": 1,
+    "global_zero_result_queries": 13,
+    "global_capped_queries": 0,
+    "archive_files_read": 6,
+    "archived_row_occurrences_parsed": 1870,
+    "unique_archived_message_ids": 1461,
+    "duplicate_archived_row_occurrences": 409,
+    "distinct_task_ids": 124,
+    "record_or_state_files_read": 7,
+    "index_context_or_generating_source_files_read": 5,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search used only to locate committed records; the complete indexed archive set and its generating or interpreting source were then read at one pinned commit",
+  "observed_at": "2026-10-13T23:50:47Z",
+  "queries": [
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_id\" \"files_changed\" \"read_by\" extension:jsonl",
+      "returned_rows": 2,
+      "cursor_role": "resumed_from_pass_70"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"body_sha256\" \"prior_envelope_id\" \"reply_ack\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_70"
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"source_event_id\" \"consumed_artifact_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_70"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_id\" \"files_changed\" \"quality_score\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_id\" \"git_commit\" \"read_by\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_id\" \"result_artifact\" \"read_by\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"artifact_sha256\" \"read_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_agent\" \"target_agent\" \"result_hash\" \"consumed_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"produced_by\" \"consumed_by\" \"artifact_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"message_id\" \"reply_to\" \"from_agent\" \"to_agent\" \"files_changed\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_message_id\" \"from_agent\" \"to_agent\" \"files_changed\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"previous_message_id\" \"from_agent\" \"to_agent\" \"output_artifact\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_event_id\" \"consumed_artifact_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"task_id\" \"accepted_result_id\" \"agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"artifact_sha256\" \"downstream_action\" extension:jsonl",
+      "returned_rows": 0
+    }
+  ],
+  "repository": {
+    "name": "awaaate/Hyrm",
+    "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+    "commit_date": "2026-01-04T19:15:45Z",
+    "project_context_url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/README.md",
+    "project_context_blob_sha": "ff659e3740cadab9870bd1cb8949b93b4dc7e503",
+    "context_assessment": "The project defines a persistent orchestrator that delegates to and spawns workers inside one self-improving multi-agent system. Agent labels identify designed internal roles; they do not establish independent operators."
+  },
+  "archive_index": {
+    "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/index.json",
+    "git_blob_sha": "1a59fd70e01e2e0c19159268131b4639ae7d413a",
+    "listed_archives": 6,
+    "listed_row_occurrences": 1870
+  },
+  "archives": [
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T09-25-14-853Z.jsonl",
+      "git_blob_sha": "0bade8220a6e4ca26439433faf832c4f3cb71977",
+      "rows": 409,
+      "event_start": "2025-12-31T21:48:11.240Z",
+      "event_end": "2026-01-02T09:25:14.851Z"
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T09-25-14-855Z.jsonl",
+      "git_blob_sha": "5ede56814fd593b252944c7cf757d2568b9c39b9",
+      "rows": 410,
+      "event_start": "2025-12-31T21:48:11.240Z",
+      "event_end": "2026-01-02T09:25:14.853Z"
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T12-33-20-454Z.jsonl",
+      "git_blob_sha": "44f4d3359316cc4f859e8e4e34311dddcd63aa09",
+      "rows": 145,
+      "event_start": "2026-01-02T09:26:02.242Z",
+      "event_end": "2026-01-02T12:33:20.453Z"
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-02T18-56-58-107Z.jsonl",
+      "git_blob_sha": "f2952c10600b299e3c02ad5246ea0cf975b1f00d",
+      "rows": 122,
+      "event_start": "2026-01-02T13:09:02.509Z",
+      "event_end": "2026-01-02T18:56:58.065Z"
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-03T10-07-32-758Z.jsonl",
+      "git_blob_sha": "9d36dbfce1926d21bb886e7837757bc30d3cbb6f",
+      "rows": 129,
+      "event_start": "2026-01-02T19:03:24.918Z",
+      "event_end": "2026-01-03T10:07:32.741Z"
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-archives/messages-2026-01-04T17-30-57-681Z.jsonl",
+      "git_blob_sha": "075934e309931ee8fff1cbbd6c7b543795103d23",
+      "rows": 655,
+      "event_start": "2026-01-03T10:09:09.202Z",
+      "event_end": "2026-01-04T17:30:57.658Z"
+    }
+  ],
+  "deduplicated_corpus": {
+    "unique_message_ids": 1461,
+    "duplicate_message_ids": 409,
+    "duplicate_row_occurrences": 409,
+    "duplicate_explanation": "The 410-row second archive repeats every message ID in the preceding 409-row snapshot and adds one later broadcast. The overlap is an archive snapshot boundary, not 409 additional exchanges.",
+    "unique_type_counts": {
+      "broadcast": 221,
+      "task_available": 65,
+      "task_claim": 94,
+      "task_complete": 65,
+      "task_completed": 107,
+      "heartbeat": 871,
+      "direct": 5,
+      "session_spawned": 30,
+      "task_spawned": 3
+    },
+    "distinct_agent_labels": 340,
+    "distinct_task_ids": 124,
+    "tasks_with_available_claim_report_and_completed_events": 9,
+    "tasks_with_task_complete_report": 47,
+    "task_complete_records_with_files_changed": 7,
+    "tasks_with_multiple_task_complete_reports": 1,
+    "tasks_with_task_complete_and_nonempty_read_by": 40
+  },
+  "selected_chains": [
+    {
+      "id": "complete-task-lifecycle-control",
+      "task_id": "task_1767434966797_h44urz",
+      "events": [
+        {
+          "type": "task_available",
+          "timestamp": "2026-01-03T10:09:26.801Z",
+          "read_by_count": 40
+        },
+        {
+          "type": "task_claim",
+          "timestamp": "2026-01-03T10:10:08.345Z",
+          "read_by_count": 40
+        },
+        {
+          "type": "task_complete",
+          "timestamp": "2026-01-03T10:16:59.174Z",
+          "read_by_count": 40,
+          "files_changed_count": 10,
+          "quality_score": 8.5
+        },
+        {
+          "type": "task_completed",
+          "timestamp": "2026-01-03T10:17:04.642Z",
+          "read_by_count": 40
+        }
+      ],
+      "state_corroboration": {
+        "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/tasks.json",
+        "git_blob_sha": "6f1c4cfb988f5f94a4e0c52d8e2f91d1596a2f95",
+        "created_at": "2026-01-03T10:09:26.797Z",
+        "claimed_at": "2026-01-03T10:10:08.343Z",
+        "completed_at": "2026-01-03T10:17:04.640Z",
+        "last_updated_at": "2026-01-04T10:30:53.591Z"
+      },
+      "causal_assessment": "The report is task-specific and precedes the completed broadcast by about five seconds, but the task state does not retain the report's exact summary or its ten changed-file paths. The generating source instructs a worker to mark its task complete and then separately report results, so this chronology does not establish recipient adoption of report content.",
+      "candidate": false
+    },
+    {
+      "id": "duplicate-completion-control",
+      "task_id": "task_1767525710136_6d0n07",
+      "event_window": {
+        "task_available": "2026-01-04T11:21:50.140Z",
+        "first_task_completed": "2026-01-04T16:38:57.822Z",
+        "first_directed_task_complete": "2026-01-04T16:40:17.736Z",
+        "second_task_completed": "2026-01-04T16:45:28.836Z",
+        "second_directed_task_complete": "2026-01-04T16:45:38.579Z"
+      },
+      "observed_structure": "Two internal worker labels emit completion events and directed reports for one task. The reports list two and one changed files respectively, and final state notes name those paths but do not reproduce either report summary.",
+      "causal_assessment": "The task state is already completed and last updated at 16:45:28.836Z, ten seconds before the second directed report. That report therefore cannot explain the recorded state. Shared task context, duplicate workers or a respawn is a stronger explanation than an independent recipient acting on transferred work.",
+      "candidate": false
+    }
+  ],
+  "generating_source_assessment": [
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/tools/lib/coordinator.ts",
+      "git_blob_sha": "7696592328b4cdf43070cef2527435c530c8f6f5",
+      "finding": "New messages initialize read_by as empty. Polling selects messages addressed to the local agent or broadcast and not already marked read, then appends the local agent ID. read_by therefore records designed retrieval, not semantic use."
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/.opencode/plugin/tools/task-tools.ts",
+      "git_blob_sha": "4bb28c553194cfcff568b64c441186b2f3911872",
+      "finding": "Task completion automatically updates dependencies, broadcasts task_completed and runs heuristic quality assessment. Worker instructions separately require marking the task completed and reporting results with task_complete. The two event types are designed side effects, not independent acknowledgement and use."
+    },
+    {
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/tools/message-bus-manager.ts",
+      "git_blob_sha": "f2deabe1c970b74d1c594a20d1176fb8fcb1958d",
+      "finding": "The source defines the archive directory and archive index, supporting the snapshot-overlap interpretation."
+    }
+  ],
+  "alternatives_tested": [
+    {
+      "alternative": "Nonempty read_by proves a recipient used a result.",
+      "assessment": "Rejected. Source defines it as a local retrieval marker and no later content-dependent action is tied to the selected reports."
+    },
+    {
+      "alternative": "The 340 agent labels represent independently operated participants.",
+      "assessment": "Rejected. Primary project context defines one orchestrator spawning and delegating to workers; no separate-operator provenance is present."
+    },
+    {
+      "alternative": "task_completed is an independent acknowledgement of task_complete.",
+      "assessment": "Rejected. Generating source makes task_completed an automatic state broadcast and separately instructs workers to send task_complete reports."
+    },
+    {
+      "alternative": "Multiple completion reports prove cross-agent cooperation.",
+      "assessment": "Not supported. The one duplicate episode is compatible with duplicate workers, respawn or shared task context, and its state predates the second directed report."
+    },
+    {
+      "alternative": "Near-identical archives add independent events.",
+      "assessment": "Rejected. Exact message-ID deduplication shows that the second snapshot repeats all 409 rows in the first and adds one broadcast."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No episode survives the causal recipient-use and separate-operator authorization gates. A novelty search would not convert a designed internal task bus into an original rogue-coordination candidate."
+  },
+  "coverage_limitations": [
+    "GitHub code search is a locator, not an exhaustive corpus. Thirteen exact queries returned zero and no query was capped.",
+    "The six committed archives are bounded to the archive index at the pinned commit; they do not prove the absence of events outside that snapshot set.",
+    "Task state can corroborate lifecycle timestamps but does not identify independent operators or prove that report text caused later work.",
+    "The AI Village and Delvetown public-record skills were documented but their read-only record tools were not callable in this run. No browser, account, private-room or posting fallback was used."
+  ],
+  "classification": "Complete Hyrm message-archive coverage at the pinned commit: designed same-operator task-bus and duplicate-snapshot controls, with no demonstrated report-to-recipient semantic use or operator-boundary crossing.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "plausible_new_candidates": 0,
+    "scanner_original_reports_inspected": 853,
+    "scanner_distinct_listing_records": 1146,
+    "scanner_known_family_controlled_remainder_paused": 293
+  },
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" \"adopted_at\" extension:jsonl",
+      "\"from_agent\" \"to_agent\" \"result_message_id\" \"downstream_action_id\" extension:jsonl",
+      "\"sender_principal\" \"recipient_principal\" \"artifact_hash\" \"applied_commit\" extension:jsonl"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self matches, Hyrm archives, designed task buses, read receipts, automatic status broadcasts, duplicate snapshots, retries, tests and operator-chartered teams first. Retain only a committed actual-run edge with content-addressed task material, a later recipient action demonstrably dependent on it, independently attributable autonomous trajectories and primary evidence of separate operators' authorization boundaries."
+  },
+  "safety": "Only existing public search results and pinned committed public files were read. No recovered code, orchestrator, worker, task tool, message bus, inbox, account, workflow or target was executed, invoked or contacted. Publication omits message bodies, report summaries, changed-file paths, credentials, tokens, personal addresses and private logs."
+}

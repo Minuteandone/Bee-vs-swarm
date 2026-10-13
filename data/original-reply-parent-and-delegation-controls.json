@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T17:42:23Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "exact_global_default_branch_queries": 17,
+    "global_search_result_row_occurrences": 9,
+    "global_distinct_result_urls": 9,
+    "global_distinct_external_result_urls": 9,
+    "global_distinct_external_repositories": 3,
+    "global_zero_result_queries": 15,
+    "global_capped_queries": 0,
+    "selected_record_files_parsed_or_read": 4,
+    "selected_context_or_generating_source_files_read": 3,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search used only to locate committed records; selected immutable files and their generating or authorization context were then read at pinned commits",
+  "observed_at": "2026-10-13T17:42:23Z",
+  "queries": [
+    {
+      "query": "\"in_reply_to\" \"from_agent\" \"to_agent\" \"artifact_digest\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_68"
+    },
+    {
+      "query": "\"review_feedback\" \"in_reply_to\" \"changed_files\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_68"
+    },
+    {
+      "query": "\"source_message_id\" \"downstream_tool_call_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:json",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_68"
+    },
+    {
+      "query": "\"in_reply_to\" \"artifact_digest\" \"recipient_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_message_id\" \"artifact_digest\" \"consumer_operation_id\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"review_feedback\" \"changed_files\" \"artifact_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_message_id\" \"tool_call_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reply_to_message_id\" \"sender_id\" \"recipient_id\" \"tool_call_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_message_id\" \"from_agent\" \"to_agent\" \"result\" extension:jsonl",
+      "returned_rows": 2
+    },
+    {
+      "query": "\"in_reply_to\" \"sender\" \"recipient\" \"tool_calls\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_message_id\" \"tool_result\" \"agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"upstream_message_id\" \"downstream_message_id\" \"artifact\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"consumed_artifact_id\" \"produced_artifact_id\" \"agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"depends_on_message_id\" \"sender_id\" \"recipient_id\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"ack_for_message_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"delegated_by\" \"accepted_by\" \"result\" extension:json",
+      "returned_rows": 7
+    },
+    {
+      "query": "\"replyTo\" \"fromAgent\" \"toAgent\" \"toolCalls\" extension:json",
+      "returned_rows": 0
+    }
+  ],
+  "result_distribution": {
+    "agentops_sharegpt_training_paths": 2,
+    "ovc_operator_approved_replay_decision": 1,
+    "responderj_database_schema_snapshots": 6,
+    "note": "Counts cover all nine distinct external URLs returned by the seventeen global queries."
+  },
+  "assessed_records": [
+    {
+      "id": "agentops-sharegpt-training-corpus-control",
+      "record_urls": [
+        "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/data/training/combined.jsonl",
+        "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/data/training/review_pairs_raw_20260330_122631.jsonl"
+      ],
+      "context_urls": [
+        "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/docs/ML_TRAINING_PLAN.md",
+        "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/scripts/synthesize_training_data.py"
+      ],
+      "commit_sha": "51e815b55703b690020c2528f27ffc1de4364af5",
+      "commit_date": "2026-04-10T01:06:21Z",
+      "git_blob_shas": {
+        "combined_training_corpus": "5fa787a66528c6654a740c7e0a71a2b67ba70e94",
+        "raw_review_pairs": "c5b1d9e63f712a439dde53ab37a281dfba9da1f9",
+        "training_plan": "860f26ff65c025ac3645bed6fe23d436d0aa1be3",
+        "synthesis_source": "3fbadf600e96d01c90fdffa84902daee525079bc"
+      },
+      "original_observation": "The two matched JSONL files contain 113 and 31 ShareGPT-format training pairs. Exactly one row in each contains the queried parent-message and sender/recipient terms, inside the human side of a code-review prompt quoting a send_agent_message function. The paired model text critiques function length; neither row is a delivered message event.",
+      "generating_source_assessment": "The training plan labels review_pairs files as code-smell/refactoring examples and combined.jsonl as the aggregate fine-tuning corpus. The synthesis source explicitly converts source material into human/GPT ShareGPT pairs. These files are generated training examples, not runtime communication logs.",
+      "semantic_dependency": "No recipient trajectory, delivered artifact or later operation is recorded. Quoted function parameters do not establish that any agent sent or used a result.",
+      "participant_assessment": "The JSONL roles are dataset roles (human and gpt), not independently attributable autonomous principals.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Generated fine-tuning corpus containing quoted orchestration source, not an exchange record."
+    },
+    {
+      "id": "ovc-operator-approved-replay-decision-control",
+      "record_url": "https://github.com/owenguobadia24s-collab/ovc-replay/blob/47ad0fe3c068d6ffa445196caf28d7bb15ff357f/docs/releases/pattern-discovery-v0-3/pd-june-full-month-mdr/PD_JUNE_FULL_MONTH_MDR_WP2_CORR2_DELEGATED_DECISION.json",
+      "context_url": "https://github.com/owenguobadia24s-collab/ovc-replay/blob/47ad0fe3c068d6ffa445196caf28d7bb15ff357f/docs/releases/pattern-discovery-v0-3/pd-june-full-month-mdr/PD_JUNE_FULL_MONTH_MDR_OPERATOR_AUTHORITY.json",
+      "commit_sha": "47ad0fe3c068d6ffa445196caf28d7bb15ff357f",
+      "commit_date": "2026-10-01T21:15:44Z",
+      "git_blob_shas": {
+        "delegated_decision": "a40ef9004d2de0b09055e0fe2eada425f4b4a83a",
+        "operator_authority": "619b69e492c602c2ffd470ccf7712caf36c3f1c4"
+      },
+      "decision_date": "2026-07-31T14:14:00Z",
+      "original_observation": "The record declares a passing compatibility correction, two tested commit heads and a squash-merge receipt. Its matched delegated/accepted vocabulary describes frozen adapter acceptance and decision authority, not a sender-to-recipient message.",
+      "authorization_assessment": "The companion authority record expressly grants read-only provider intake, deterministic replay, review construction, local artifact writes, QA and eligible squash merge. The decision itself says its authority comes from an operator-approved plan.",
+      "semantic_dependency": "A governed replay output was accepted by configured adapters, but no distinguishable autonomous source and recipient trajectories exchange and use a task result.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Explicitly operator-authorized deterministic replay and QA decision, not autonomous coordination."
+    },
+    {
+      "id": "responderj-human-delegation-schema-control",
+      "record_url": "https://github.com/founderresponderja/ResponderJ-/blob/1726064509055a993fc968751ef0954e10b19d6b/drizzle/meta/0005_snapshot.json",
+      "commit_sha": "1726064509055a993fc968751ef0954e10b19d6b",
+      "commit_date": "2026-05-25T13:49:47Z",
+      "git_blob_sha": "f74eaa540a04885fe71e7f394758016a2d51a7de",
+      "original_observation": "A complete JSON parse finds delegated_by only as a column definition in the agency_admin_delegations table and accepted_by only as a column definition in the agency_invitations table. The search term result is not an event value, and the two fields do not occur in one row or task chain.",
+      "semantic_dependency": "Database column definitions for human agency administration and invitation acceptance preserve no sender artifact, recipient acquisition or downstream use.",
+      "participant_assessment": "The schema uses human account and agency vocabulary and contains no verified autonomous participant pair.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Database migration snapshot, not an emitted exchange record."
+    }
+  ],
+  "path_and_excerpt_only_exclusions": {
+    "external_paths_not_selected_for_full_parse": 5,
+    "breakdown": {
+      "responderj_earlier_database_schema_snapshots": 5
+    },
+    "screening_basis": "Path and search excerpt only; the fully parsed latest snapshot establishes the matched terms as schema columns, but no broader content claim is made for the five earlier snapshots.",
+    "limitation": "The five earlier snapshots remain eligible for review if a later public clue identifies an actual event row rather than a schema definition."
+  },
+  "coverage_rotation_limitations": {
+    "ai_village_open_chat": "The dedicated public-message reader was not exposed in this run, so the prior bounded chat cursor was not extended. No browser, account or private-room fallback was used.",
+    "delvetown": "The dedicated AT Protocol reader was also unavailable. Public search located only explicitly designed social/wiki merge workflows, which were rejected as an intentional-community substitute and were not promoted into episode evidence."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "A JSONL match containing from_agent, to_agent and parent_message_id is a runtime exchange",
+      "result": "Rejected for both matching files: the fields occur inside the quoted source portion of a human/GPT code-review training pair."
+    },
+    {
+      "alternative": "Delegated decision and accepted result imply multiple autonomous participants",
+      "result": "Rejected for the OVC record: delegated authority comes from an explicit operator-approved plan, while acceptance refers to deterministic adapters and QA conditions."
+    },
+    {
+      "alternative": "delegated_by and accepted_by fields form a delegation-use chain",
+      "result": "Rejected for the ResponderJ family: the terms are separate database column definitions for human account workflows, not populated event values."
+    },
+    {
+      "alternative": "Designed public agent-community replies can stand in for an unknown rogue trail",
+      "result": "Rejected before episode review; explicit social/wiki participation and owner merge rules are authorization controls, not evidence of unexpected cross-operator cooperation."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No selected record survived the actual-exchange, independently attributable participant, causal downstream-use and operator-boundary gates. An episode-level novelty search would therefore manufacture a candidate from controls rather than test a developed evidence chain."
+  },
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "plausible_new_candidates": 0,
+    "scanner_original_reports_inspected": 853,
+    "scanner_distinct_listing_records": 1146,
+    "scanner_known_family_controlled_remainder_paused": 293
+  },
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"responds_to_message_id\" \"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" extension:jsonl",
+      "\"causal_parent_id\" \"sender_principal_id\" \"recipient_principal_id\" \"tool_call_id\" extension:json",
+      "\"input_message_id\" \"output_artifact_sha256\" \"agent_run_id\" \"consumed_at\" extension:jsonl"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self matches, generated training corpora, quoted source, adapter QA, operator-approved replay decisions, schemas, migrations, tests, fixtures and designed social communities first. Retain only a committed actual-run edge with populated causal linkage, transferred task content or an artifact hash, later recipient behavior semantically dependent on it and primary separate-operator authorization evidence."
+  },
+  "safety": "Only existing public search results and pinned committed public files were read. No recovered code, dataset generator, model, replay, adapter, agent runtime, workflow, inbox, account, message, reply, reaction or target was executed, invoked or contacted. Publication omits raw payload bodies, credentials, tokens, personal addresses and private logs."
+}

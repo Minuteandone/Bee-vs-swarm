@@ -2693,6 +2693,76 @@
       "git_blob_sha": "00d487b919b7d70b1b7de16302dba17e58404014",
       "commit_sha": "7f56827e8ab63aad86ee0e82caaaeaf5106562af",
       "commit_date": "2026-08-10T02:41:42Z"
+    },
+    {
+      "id": "original-agentops-combined-training-corpus-control",
+      "url": "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/data/training/combined.jsonl",
+      "role": "ShareGPT aggregate in which sender, recipient and parent-message terms occur inside a quoted code-review prompt rather than a runtime exchange",
+      "published": "2026-04-10",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "5fa787a66528c6654a740c7e0a71a2b67ba70e94",
+      "commit_sha": "51e815b55703b690020c2528f27ffc1de4364af5",
+      "commit_date": "2026-04-10T01:06:21Z"
+    },
+    {
+      "id": "original-agentops-raw-review-training-control",
+      "url": "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/data/training/review_pairs_raw_20260330_122631.jsonl",
+      "role": "Raw code-review training corpus containing the same quoted send-agent-message source and generated critique, not delivered event rows",
+      "published": "2026-04-10",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "c5b1d9e63f712a439dde53ab37a281dfba9da1f9",
+      "commit_sha": "51e815b55703b690020c2528f27ffc1de4364af5",
+      "commit_date": "2026-04-10T01:06:21Z"
+    },
+    {
+      "id": "original-agentops-ml-training-plan-context",
+      "url": "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/docs/ML_TRAINING_PLAN.md",
+      "role": "Contemporaneous documentation identifying review-pair JSONL as generated code-smell examples and combined.jsonl as a fine-tuning aggregate",
+      "published": "2026-04-10",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "860f26ff65c025ac3645bed6fe23d436d0aa1be3",
+      "commit_sha": "51e815b55703b690020c2528f27ffc1de4364af5",
+      "commit_date": "2026-04-10T01:06:21Z"
+    },
+    {
+      "id": "original-agentops-training-generator-context",
+      "url": "https://github.com/as4584/Agentops/blob/51e815b55703b690020c2528f27ffc1de4364af5/scripts/synthesize_training_data.py",
+      "role": "Generating source that converts selected source material into human/GPT ShareGPT training pairs",
+      "published": "2026-04-10",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "3fbadf600e96d01c90fdffa84902daee525079bc",
+      "commit_sha": "51e815b55703b690020c2528f27ffc1de4364af5",
+      "commit_date": "2026-04-10T01:06:21Z"
+    },
+    {
+      "id": "original-ovc-operator-approved-replay-decision",
+      "url": "https://github.com/owenguobadia24s-collab/ovc-replay/blob/47ad0fe3c068d6ffa445196caf28d7bb15ff357f/docs/releases/pattern-discovery-v0-3/pd-june-full-month-mdr/PD_JUNE_FULL_MONTH_MDR_WP2_CORR2_DELEGATED_DECISION.json",
+      "role": "Passing compatibility-correction record whose delegated authority and adapter acceptance are explicitly governed by an operator-approved replay plan",
+      "published": "2026-10-01",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "a40ef9004d2de0b09055e0fe2eada425f4b4a83a",
+      "commit_sha": "47ad0fe3c068d6ffa445196caf28d7bb15ff357f",
+      "commit_date": "2026-10-01T21:15:44Z"
+    },
+    {
+      "id": "original-ovc-replay-operator-authority-context",
+      "url": "https://github.com/owenguobadia24s-collab/ovc-replay/blob/47ad0fe3c068d6ffa445196caf28d7bb15ff357f/docs/releases/pattern-discovery-v0-3/pd-june-full-month-mdr/PD_JUNE_FULL_MONTH_MDR_OPERATOR_AUTHORITY.json",
+      "role": "Primary authority record expressly permitting deterministic replay, review construction, local artifact writes, QA and eligible squash merge",
+      "published": "2026-10-01",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "619b69e492c602c2ffd470ccf7712caf36c3f1c4",
+      "commit_sha": "47ad0fe3c068d6ffa445196caf28d7bb15ff357f",
+      "commit_date": "2026-10-01T21:15:44Z"
+    },
+    {
+      "id": "original-responderj-human-delegation-schema-control",
+      "url": "https://github.com/founderresponderja/ResponderJ-/blob/1726064509055a993fc968751ef0954e10b19d6b/drizzle/meta/0005_snapshot.json",
+      "role": "Database snapshot whose delegated_by and accepted_by matches are separate human agency-administration and invitation column definitions, not event values",
+      "published": "2026-05-25",
+      "observed_at": "2026-10-13T17:42:23Z",
+      "git_blob_sha": "f74eaa540a04885fe71e7f394758016a2d51a7de",
+      "commit_sha": "1726064509055a993fc968751ef0954e10b19d6b",
+      "commit_date": "2026-05-25T13:49:47Z"
     }
   ]
 }

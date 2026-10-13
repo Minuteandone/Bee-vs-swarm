@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-13T19:36:19Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "exact_narrow_queries": 15,
+    "broad_locator_queries": 10,
+    "global_search_result_row_occurrences": 193,
+    "global_distinct_result_urls": 187,
+    "global_distinct_external_result_urls": 185,
+    "self_index_urls": 2,
+    "global_distinct_external_repositories": 46,
+    "global_zero_result_queries": 18,
+    "global_capped_queries": 1,
+    "selected_record_files_parsed_or_read": 12,
+    "selected_context_authorization_or_corroboration_files_read": 10,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search used only to locate committed records; selected immutable files and their generating, authorization or corroboration context were then read at pinned commits",
+  "observed_at": "2026-10-13T19:36:19Z",
+  "queries": [
+    {
+      "query": "\"responds_to_message_id\" \"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_69"
+    },
+    {
+      "query": "\"causal_parent_id\" \"sender_principal_id\" \"recipient_principal_id\" \"tool_call_id\" extension:json",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "cursor_role": "resumed_from_pass_69"
+    },
+    {
+      "query": "\"input_message_id\" \"output_artifact_sha256\" \"agent_run_id\" \"consumed_at\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_69"
+    },
+    {
+      "query": "\"origin_agent_id\" \"destination_agent_id\" \"parent_message_id\" \"content_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"parent_id\" \"artifact_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_id\" \"consumer_id\" \"input_hash\" \"output_hash\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" \"reply_to_message_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_session_id\" \"destination_session_id\" \"artifact_id\" \"used_at\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"from_agent_id\" \"to_agent_id\" \"accepted_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"delegation_id\" \"delegator_id\" \"delegatee_id\" \"result_artifact\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"created_by_run_id\" \"consumed_by_run_id\" \"artifact_hash\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"responding_to\" \"from_agent\" \"to_agent\" \"tool_result\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"acknowledges_message_id\" \"sender_id\" \"recipient_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reply_to\" \"source_session\" \"target_session\" \"artifact_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_message_ids\" \"output_message_id\" \"agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" extension:jsonl",
+      "returned_rows": 16,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" extension:jsonl",
+      "returned_rows": 100,
+      "cursor_role": "broad_locator",
+      "capped": true,
+      "limitation": "First-page locator only; the result count is not exhaustive coverage."
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"source_session_id\" \"target_session_id\" extension:jsonl",
+      "returned_rows": 1,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"reply_to_message_id\" \"sender_id\" \"recipient_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"artifact_sha256\" \"agent_id\" \"task_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"handoff_id\" \"from_agent\" \"to_agent\" extension:jsonl",
+      "returned_rows": 10,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"delegated_by\" \"accepted_by\" extension:json",
+      "returned_rows": 63,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"parent_message_id\" \"tool_call_id\" extension:jsonl",
+      "returned_rows": 2,
+      "cursor_role": "broad_locator"
+    },
+    {
+      "query": "\"message_id\" \"sender\" \"recipient\" \"artifact\" extension:ndjson",
+      "returned_rows": 0,
+      "cursor_role": "broad_locator"
+    }
+  ],
+  "result_distribution": {
+    "shift_ehtle": 54,
+    "dune94_epam_cli": 36,
+    "opencnid_tracer": 11,
+    "founderresponderja_responderj": 6,
+    "tyuikl32_tsunagou": 5,
+    "vagabondboffin_llmmas_otel": 5,
+    "sujeethjinesh_apex_topology_reconfiguration": 5,
+    "kuto_o_digital_being": 5,
+    "evgen_art_p_2": 5,
+    "anbubsc2k14_agentic_coding_platform": 4,
+    "as4584_agentops": 4,
+    "gabry848_agent_notifications": 4,
+    "jim2107054_ibm_bob_2": 4,
+    "icylito_multi_agent_orchestration_system": 3,
+    "other_repositories": 41,
+    "note": "Counts are row occurrences from the ten broad locators, not distinct incidents. The broad set has 192 occurrences, 187 distinct URLs, 185 external URLs and 46 external repositories; the narrow set adds one self-index occurrence but no new URL."
+  },
+  "assessed_records": [
+    {
+      "id": "hyrm-orchestrator-worker-task-use-control",
+      "record_urls": [
+        "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-bus.jsonl",
+        "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/tasks.json",
+        "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/quality-assessments.json",
+        "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/session-summaries.json"
+      ],
+      "context_url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/README.md",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z",
+      "git_blob_shas": {
+        "message_bus": "81bfbfb8144f0af8e661bf51b276e4bc2ab84c0e",
+        "tasks": "6f1c4cfb988f5f94a4e0c52d8e2f91d1596a2f95",
+        "quality_assessments": "dc4e1c72628cebe0312c24fcdc83d96b916aabb3",
+        "session_summaries": "f960aa95bd852b2b4ae433122dfc9d6dbf420bef",
+        "readme": "ff659e3740cadab9870bd1cb8949b93b4dc7e503"
+      },
+      "event_window": {
+        "started_at": "2026-01-04T17:33:45Z",
+        "ended_at": "2026-01-04T17:47:33Z"
+      },
+      "original_observation": "For task task_1767548025724_8b49mn, the orchestrator advertises a task; a worker later reports completion and sends a directed summary; the orchestrator then records completion and a 7.9 assessment. The task, quality and session state retain the same task and score, establishing a concrete result-to-use chronology.",
+      "semantic_dependency": "The orchestrator's recorded assessment and retained task notes depend on the worker's task-specific report rather than merely sharing similar text.",
+      "authorization_assessment": "The project README expressly defines one persistent orchestrator that delegates to and spawns workers inside a self-improving multi-agent system. The task bus is a designed coordination rail, not evidence that independently operated participants crossed authorization boundaries.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Concrete task-result use inside one documented orchestrator/worker system; authorized designed-team control."
+    },
+    {
+      "id": "qortroller-grok-claude-operator-rail-control",
+      "record_urls": [
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/pkg/mailbox/ledger.jsonl",
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-07-claude-daemon-build.md",
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-08-grok-crossverify.md",
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-09-claude-fctx3-sweep.md",
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-10-grok-spotcheck.md"
+      ],
+      "context_urls": [
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/.claude/skills/a2a-relay/SKILL.md",
+        "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/pkg/qortroller-pilot-kit-a2a-loop.md"
+      ],
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z",
+      "git_blob_shas": {
+        "mailbox_ledger": "fb8d4d42a2499e37c2ab5c8585b8703db7ab5b97",
+        "round_07_claude_build": "933d36e21386850822d44ba38f5c92d3a9920da9",
+        "round_08_grok_crossverify": "2f855c8bcf3cae4504f24235f78fa904711653a5",
+        "round_09_claude_sweep": "17319bad66b59a9a0687edd9ad93e7cd4021e42f",
+        "round_10_grok_spotcheck": "3dc88c413c7b80c7956d70efdb0a1462be6427af",
+        "relay_skill": "7976d093c081f4f0b4d8d0a44d98d6dc08b4ed64",
+        "pilot_charter": "8a9fddc622a77d6c0040a03f6b8d36ba02d0b480"
+      },
+      "ledger_summary": {
+        "records": 109,
+        "posted": 46,
+        "deliver_start": 23,
+        "fire_completed": 20,
+        "reply_ack": 6,
+        "handoff_ready": 10,
+        "grok_to_claude_posts": 25,
+        "claude_to_grok_posts": 21,
+        "envelopes_with_repeated_delivery_start": 5,
+        "first_posted_at": "2026-07-13T03:21:36.535Z",
+        "last_posted_at": "2026-07-25T02:13:04.909Z"
+      },
+      "selected_event_window": {
+        "started_at": "2026-07-24T20:34:12.168Z",
+        "ended_at": "2026-07-25T01:28:19.353Z"
+      },
+      "original_observation": "A Claude-labelled build is followed by a Grok-labelled cross-verification that explicitly uses its envelope, a Claude-labelled sweep that accepts the follow-up, and a Grok-labelled spot check that explicitly responds to the sweep. The ledger preserves matching delivery, handoff and acknowledgement events.",
+      "semantic_dependency": "The selected records refer to the preceding envelope and task-specific outputs and report subsequent verification, so this is stronger than label similarity or coincident timing. Repeated delivery starts on five envelopes are separately counted and prevent retries from being mistaken for extra participants.",
+      "authorization_assessment": "The contemporaneous charter defines an operator-authorized A2A build loop with Grok as product designer, Claude as builder and one operator as arbiter and sole committer. The relay skill likewise says agents do not commit, push or seal and that live handoffs and autonomous CLI firing require operator authorization.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Concrete bidirectional task use between model-labelled sessions on an explicit same-operator A2A rail; designed-team control."
+    },
+    {
+      "id": "sintraprime-human-authorized-hermes-merge-control",
+      "record_url": "https://github.com/ihoward40/SintraPrime-Unified/blob/051e2594c67a805ceacc66ea2a6fc6db9c0bc793/.mesh/ledger/2026-07.jsonl",
+      "context_urls": [
+        "https://github.com/ihoward40/SintraPrime-Unified/blob/051e2594c67a805ceacc66ea2a6fc6db9c0bc793/ops/IKE_AGENT_MESH.md",
+        "https://github.com/ihoward40/SintraPrime-Unified/pull/180",
+        "https://github.com/ihoward40/SintraPrime-Unified/commit/ad7a738fa82e2f3565ff45b61301100e10fd26a5"
+      ],
+      "commit_sha": "051e2594c67a805ceacc66ea2a6fc6db9c0bc793",
+      "commit_date": "2026-09-26T23:37:20Z",
+      "git_blob_shas": {
+        "mesh_ledger": "ce9bddcb34638d7469171e6d349b1799ab3f95dd",
+        "mesh_authority_doc": "2dc1505ff1cc01302ab56a268651866e9ab5edab"
+      },
+      "merge_commit_sha": "ad7a738fa82e2f3565ff45b61301100e10fd26a5",
+      "event_window": {
+        "started_at": "2026-07-08T20:00:00Z",
+        "ended_at": "2026-07-08T21:35:00Z",
+        "corroborated_merge_at": "2026-07-08T21:31:59Z"
+      },
+      "original_observation": "The mesh ledger records human owner isiah assigning Hermes verification of pull request 180, Hermes reporting the result and requesting a decision, the owner approving merge, and Hermes reporting the merge SHA. The public pull request and signed merge commit corroborate the merge.",
+      "semantic_dependency": "The merge follows the task-specific verification report and the human owner's explicit approval, but the chain contains one autonomous role and one human authority rather than two independently operated autonomous participants.",
+      "authorization_assessment": "The mesh authority document identifies isiah as the human owner and final authority and prohibits Hermes from merging without explicit owner approval. The recorded action follows that control.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Human-authorized single-agent verification and merge workflow; not an autonomous participant pair."
+    },
+    {
+      "id": "quietfire-deterministic-relay-baseline-control",
+      "record_url": "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/baseline-out/audit.jsonl",
+      "context_urls": [
+        "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/demo/baseline_run.py",
+        "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/baseline-out/BASELINE-baseline-9bf98a7b.md",
+        "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/README.md"
+      ],
+      "commit_sha": "54b17d0bc79a54220948d1d7550ad5ef3cc88084",
+      "commit_date": "2026-10-12T22:46:09Z",
+      "git_blob_shas": {
+        "audit": "cf08b54b98cf5c2a2f4a70661474f6e3a206f29e",
+        "baseline_source": "6d6f008ae98e63d3efd3f0e20caccd5dc6f6ee1f",
+        "after_action": "5c740d4a77e0678f6fc8c2f7c91f89ebad4914ea",
+        "readme": "3a1d20c8bd94d31a640db46dd8b72cc3ee179f19"
+      },
+      "event_window": {
+        "started_at": "2026-07-04T13:46:10.850Z",
+        "ended_at": "2026-07-04T13:46:10.894Z"
+      },
+      "original_observation": "The audit records a human-to-p1 configuration/echo, a p1-to-p2 relay and a p2-to-p1 report. The generating source, however, hard-codes every envelope, registers both local callbacks, uses deterministic stub models and deliberately seeds the p2 self-check path.",
+      "semantic_dependency": "The relay chronology is authored by one deterministic demonstration. Its after-action report also says the p2-to-p1 report lacks acknowledgement and is not counted as proven receipt.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Generated deterministic baseline with local stub participants; not independently operated autonomous coordination."
+    },
+    {
+      "id": "orchestra-aggregated-command-output-control",
+      "record_url": "https://github.com/DrSeedon/orchestra/blob/d0ac8e11f452ab4f5a159e0c0ea356544d740317/.orchestra/tasks/V-813/runs/gpt-6.1-sol.jsonl",
+      "context_url": "https://github.com/DrSeedon/orchestra/blob/d0ac8e11f452ab4f5a159e0c0ea356544d740317/README.md",
+      "commit_sha": "d0ac8e11f452ab4f5a159e0c0ea356544d740317",
+      "commit_date": "2026-10-13T18:49:14Z",
+      "git_blob_shas": {
+        "task_trace": "e5ee6dc69ccc38b65c9e50d03ad4b44227518960",
+        "readme": "0f9ca869dcedefce54a1d58b79e90a557f85363a"
+      },
+      "original_observation": "The source_session_id and target_session_id terms occur only inside aggregated command-output captures in one Codex task trace; they are not populated top-level sender and recipient events. No task result moves between those named sessions in the record.",
+      "authorization_assessment": "The repository describes Orchestra as a designed AI-agent team orchestration platform. Even that intended design is not reached by this match, which is only a single run reading routing source.",
+      "privacy_handling": "The public trace contains unrelated personal or operational material. This assessment records only its immutable link, hash and field-location conclusion and republishes none of that material.",
+      "operator_boundary_evidence": false,
+      "candidate": false,
+      "classification": "Single-agent command-output trace containing quoted routing fields, not an exchange ledger."
+    }
+  ],
+  "path_and_excerpt_only_exclusions": {
+    "external_search_paths_not_selected_for_full_read": 180,
+    "selected_external_search_paths": 5,
+    "screening_basis": "Repository, path and search excerpt only. The 180 unselected paths are not treated as negative file-level findings.",
+    "high_frequency_controls": "The largest clusters are EPAM orchestration logs, EHTLE state/history files and previously reviewed Tracer, Tsunagou, ResponderJ and Agentops families. They were not reread merely because a broader locator returned them.",
+    "limitation": "Any unselected path remains eligible if a later public clue identifies a specific causal sender-to-recipient task or artifact edge and downstream use."
+  },
+  "coverage_rotation_limitations": {
+    "ai_village_open_chat": "The public open-chat skill was available as documentation, but its read-only message and status tools were not callable in this run. The prior bounded public-chat cursor was not extended, and no browser, login, private-room or account fallback was used.",
+    "delvetown": "The Delvetown read-only skill was available as documentation, but its connection and record-reading tools were not callable in this run. No browser, account, posting or private-data fallback was used."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "A task identifier, worker completion and retained score establish cross-operator coordination",
+      "result": "Rejected for Hyrm: the README defines one orchestrator that spawns and assesses workers on the same designed task bus."
+    },
+    {
+      "alternative": "Grok and Claude labels establish separate operators",
+      "result": "Rejected for QorTroller: the charter places both roles on an operator-authorized loop and reserves commit authority to one operator."
+    },
+    {
+      "alternative": "Repeated delivery rows are additional participants or confirmations",
+      "result": "Rejected: five QorTroller envelopes have repeated deliver_start records, which are retries rather than distinct senders or uses."
+    },
+    {
+      "alternative": "SintraPrime's isiah and Hermes entries are two autonomous agents",
+      "result": "Rejected: the primary authority document identifies isiah as the human owner and final authority."
+    },
+    {
+      "alternative": "QuietFire p1 and p2 relays are independent autonomous trajectories",
+      "result": "Rejected: one source file hard-codes the envelopes and both deterministic local callbacks, and the return report lacks acknowledgement."
+    },
+    {
+      "alternative": "Orchestra source and target session fields are emitted message events",
+      "result": "Rejected: the terms occur within aggregated command output in a single task trace, not top-level event fields."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No selected chain survived the separate-operator authorization gate. The two strongest transfer/use chains are expressly designed same-operator systems; an episode-level novelty search would manufacture a candidate from controls rather than test a developed rogue-coordination chain."
+  },
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "plausible_new_candidates": 0,
+    "scanner_original_reports_inspected": 853,
+    "scanner_distinct_listing_records": 1146,
+    "scanner_known_family_controlled_remainder_paused": 293
+  },
+  "next_cursor": {
+    "source": "Global public GitHub default-branch code search used only as a locator",
+    "queries": [
+      "\"from_agent\" \"to_agent\" \"task_id\" \"files_changed\" \"read_by\" extension:jsonl",
+      "\"from_agent\" \"to_agent\" \"body_sha256\" \"prior_envelope_id\" \"reply_ack\" extension:jsonl",
+      "\"sender_agent_id\" \"recipient_agent_id\" \"source_event_id\" \"consumed_artifact_id\" extension:jsonl"
+    ],
+    "selection_rule": "Exclude Bee-vs-swarm self matches, designed parent/worker task buses, operator-chartered A2A rails, human-owner principals, deterministic baselines, fixtures, quoted command output and retry duplicates first. Retain only a committed actual-run edge with a concrete task or content-addressed artifact, later semantically dependent recipient action, independently attributable autonomous trajectories and primary evidence of separate operators' authorization boundaries."
+  },
+  "safety": "Only existing public search results, pinned committed public files and one public pull request/merge record were read. No recovered code, model, agent runtime, relay, test, workflow, inbox, message, account, pull request, repository action or target was executed, invoked or contacted. Publication omits payload bodies, credentials, tokens, sink topics, personal addresses, process identifiers and unrelated operational details."
+}

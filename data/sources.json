@@ -2763,6 +2763,228 @@
       "git_blob_sha": "f74eaa540a04885fe71e7f394758016a2d51a7de",
       "commit_sha": "1726064509055a993fc968751ef0954e10b19d6b",
       "commit_date": "2026-05-25T13:49:47Z"
+    },
+    {
+      "id": "original-hyrm-message-bus-task-use-control",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/message-bus.jsonl",
+      "role": "Primary task-bus chronology preserving an orchestrator advertisement, worker completion and directed task summary",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_start": "2026-01-04T17:33:45Z",
+      "event_end": "2026-01-04T17:47:32Z",
+      "git_blob_sha": "81bfbfb8144f0af8e661bf51b276e4bc2ab84c0e",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-task-state-control",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/tasks.json",
+      "role": "Primary retained task state incorporating the worker report and final quality score",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "6f1c4cfb988f5f94a4e0c52d8e2f91d1596a2f95",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-quality-assessment-control",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/quality-assessments.json",
+      "role": "Primary orchestrator assessment showing downstream scoring of the selected worker task",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_time": "2026-01-04T17:47:33Z",
+      "git_blob_sha": "dc4e1c72628cebe0312c24fcdc83d96b916aabb3",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-session-summary-control",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/memory/session-summaries.json",
+      "role": "Primary retained session state corroborating the selected task score",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "f960aa95bd852b2b4ae433122dfc9d6dbf420bef",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-hyrm-orchestration-context",
+      "url": "https://github.com/awaaate/Hyrm/blob/69deb7514068028c2b833a872e4fd811fa01b99f/README.md",
+      "role": "Primary project context defining one persistent orchestrator that delegates to and spawns workers",
+      "published": "2026-01-04",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "ff659e3740cadab9870bd1cb8949b93b4dc7e503",
+      "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
+      "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-qortroller-mailbox-ledger-control",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/pkg/mailbox/ledger.jsonl",
+      "role": "Primary bidirectional mailbox ledger preserving posts, delivery attempts, handoffs and reply acknowledgements",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_start": "2026-07-13T03:21:36.535Z",
+      "event_end": "2026-07-25T02:13:04.909Z",
+      "git_blob_sha": "fb8d4d42a2499e37c2ab5c8585b8703db7ab5b97",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-qortroller-round07-build-control",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-07-claude-daemon-build.md",
+      "role": "Primary Claude-labelled build record at the start of the selected semantic dependency chain",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_time": "2026-07-24T20:34:12.168Z",
+      "git_blob_sha": "933d36e21386850822d44ba38f5c92d3a9920da9",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-qortroller-round08-crossverify-control",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-08-grok-crossverify.md",
+      "role": "Primary Grok-labelled cross-verification explicitly using the preceding build envelope",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_time": "2026-07-24T20:38:26.610Z",
+      "git_blob_sha": "2f855c8bcf3cae4504f24235f78fa904711653a5",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-qortroller-round09-sweep-control",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-09-claude-fctx3-sweep.md",
+      "role": "Primary Claude-labelled sweep retaining the cross-verification follow-up",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_time": "2026-07-24T21:58:55.259Z",
+      "git_blob_sha": "17319bad66b59a9a0687edd9ad93e7cd4021e42f",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-qortroller-round10-spotcheck-control",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/retina-witness-mark/round-10-grok-spotcheck.md",
+      "role": "Primary Grok-labelled spot check explicitly responding to the preceding sweep",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_time": "2026-07-25T01:28:19.353Z",
+      "git_blob_sha": "3dc88c413c7b80c7956d70efdb0a1462be6427af",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-qortroller-relay-authorization-context",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/.claude/skills/a2a-relay/SKILL.md",
+      "role": "Primary relay rules reserving commit and sealing authority and conditioning live or autonomous handoffs on operator authorization",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "7976d093c081f4f0b4d8d0a44d98d6dc08b4ed64",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-qortroller-a2a-charter-control",
+      "url": "https://github.com/ConWan30/QorTroller/blob/51d1ab3ff9fc31503ba556149cb69281971d68fa/docs/a2a/pkg/qortroller-pilot-kit-a2a-loop.md",
+      "role": "Primary charter defining an operator-authorized Grok/Claude build loop and one operator as arbiter and sole committer",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "8a9fddc622a77d6c0040a03f6b8d36ba02d0b480",
+      "commit_sha": "51d1ab3ff9fc31503ba556149cb69281971d68fa",
+      "commit_date": "2026-09-11T10:32:11Z"
+    },
+    {
+      "id": "original-sintraprime-mesh-ledger-control",
+      "url": "https://github.com/ihoward40/SintraPrime-Unified/blob/051e2594c67a805ceacc66ea2a6fc6db9c0bc793/.mesh/ledger/2026-07.jsonl",
+      "role": "Primary task ledger recording human assignment, Hermes verification, explicit owner approval and merge report",
+      "published": "2026-09-26",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_start": "2026-07-08T20:00:00Z",
+      "event_end": "2026-07-08T21:35:00Z",
+      "git_blob_sha": "ce9bddcb34638d7469171e6d349b1799ab3f95dd",
+      "commit_sha": "051e2594c67a805ceacc66ea2a6fc6db9c0bc793",
+      "commit_date": "2026-09-26T23:37:20Z"
+    },
+    {
+      "id": "original-sintraprime-mesh-authority-control",
+      "url": "https://github.com/ihoward40/SintraPrime-Unified/blob/051e2594c67a805ceacc66ea2a6fc6db9c0bc793/ops/IKE_AGENT_MESH.md",
+      "role": "Primary authority document identifying the human owner as final authority and requiring explicit approval before Hermes merges",
+      "published": "2026-09-26",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "2dc1505ff1cc01302ab56a268651866e9ab5edab",
+      "commit_sha": "051e2594c67a805ceacc66ea2a6fc6db9c0bc793",
+      "commit_date": "2026-09-26T23:37:20Z"
+    },
+    {
+      "id": "original-sintraprime-pr180-merge-corroboration",
+      "url": "https://github.com/ihoward40/SintraPrime-Unified/pull/180",
+      "role": "Public pull request and signed merge record corroborating the task ledger's reported merge",
+      "published": "2026-07-08",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "merged_at": "2026-07-08T21:31:59Z",
+      "merge_commit_sha": "ad7a738fa82e2f3565ff45b61301100e10fd26a5"
+    },
+    {
+      "id": "original-quietfire-deterministic-baseline-audit",
+      "url": "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/baseline-out/audit.jsonl",
+      "role": "Primary deterministic baseline audit containing the apparent p1-to-p2 relay and return report",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "event_start": "2026-07-04T13:46:10.850Z",
+      "event_end": "2026-07-04T13:46:10.894Z",
+      "git_blob_sha": "cf08b54b98cf5c2a2f4a70661474f6e3a206f29e",
+      "commit_sha": "54b17d0bc79a54220948d1d7550ad5ef3cc88084",
+      "commit_date": "2026-10-12T22:46:09Z"
+    },
+    {
+      "id": "original-quietfire-baseline-generating-source",
+      "url": "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/demo/baseline_run.py",
+      "role": "Primary generating source hard-coding the envelopes, local callbacks, deterministic stubs and self-check seed",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "6d6f008ae98e63d3efd3f0e20caccd5dc6f6ee1f",
+      "commit_sha": "54b17d0bc79a54220948d1d7550ad5ef3cc88084",
+      "commit_date": "2026-10-12T22:46:09Z"
+    },
+    {
+      "id": "original-quietfire-baseline-after-action",
+      "url": "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/baseline-out/BASELINE-baseline-9bf98a7b.md",
+      "role": "Primary after-action report stating that the return report lacks acknowledgement and is not counted as proven receipt",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "5c740d4a77e0678f6fc8c2f7c91f89ebad4914ea",
+      "commit_sha": "54b17d0bc79a54220948d1d7550ad5ef3cc88084",
+      "commit_date": "2026-10-12T22:46:09Z"
+    },
+    {
+      "id": "original-quietfire-baseline-project-context",
+      "url": "https://github.com/QuietFireAI/dispatcher-agents/blob/54b17d0bc79a54220948d1d7550ad5ef3cc88084/README.md",
+      "role": "Primary project context for the deterministic dispatcher baseline",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "3a1d20c8bd94d31a640db46dd8b72cc3ee179f19",
+      "commit_sha": "54b17d0bc79a54220948d1d7550ad5ef3cc88084",
+      "commit_date": "2026-10-12T22:46:09Z"
+    },
+    {
+      "id": "original-orchestra-aggregated-output-trace-control",
+      "url": "https://github.com/DrSeedon/orchestra/blob/d0ac8e11f452ab4f5a159e0c0ea356544d740317/.orchestra/tasks/V-813/runs/gpt-6.1-sol.jsonl",
+      "role": "Single-task trace in which source and target session terms occur only inside aggregated command output, not message events",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "e5ee6dc69ccc38b65c9e50d03ad4b44227518960",
+      "commit_sha": "d0ac8e11f452ab4f5a159e0c0ea356544d740317",
+      "commit_date": "2026-10-13T18:49:14Z"
+    },
+    {
+      "id": "original-orchestra-designed-team-context-20261013",
+      "url": "https://github.com/DrSeedon/orchestra/blob/d0ac8e11f452ab4f5a159e0c0ea356544d740317/README.md",
+      "role": "Primary project context describing Orchestra as a designed AI-agent team orchestration platform",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-13T19:36:19Z",
+      "git_blob_sha": "0f9ca869dcedefce54a1d58b79e90a557f85363a",
+      "commit_sha": "d0ac8e11f452ab4f5a159e0c0ea356544d740317",
+      "commit_date": "2026-10-13T18:49:14Z"
     }
   ]
 }

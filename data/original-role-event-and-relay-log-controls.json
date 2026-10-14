@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-14T16:12:41Z",
+  "observed_at": "2026-10-14T16:12:41Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "search_source": "Public GitHub default-branch code search was used only to locate committed records. Selected logs, generating source, tests, project context and commit provenance were then read at pinned commits. Exact-result inconsistencies were preserved rather than treated as evidence.",
+  "scope": {
+    "global_exact_query_requests": 32,
+    "reported_hit_count_sum": 65,
+    "returned_row_occurrences_reviewed": 61,
+    "self_repository_row_occurrences": 9,
+    "external_row_occurrences": 52,
+    "distinct_external_paths": 47,
+    "distinct_external_repositories": 24,
+    "complete_zero_return_queries": 19,
+    "incomplete_responses": 4,
+    "incomplete_responses_with_no_returned_item": 3,
+    "selected_record_or_context_files_read_in_full": 16,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "One resumed query reported two hits but returned one self-repository item with incomplete_results=true; excluding Minuteandone/Bee-vs-swarm returned zero complete results and closes the external ambiguity. Three later exact queries each reported one hit while returning no item with incomplete_results=true. Broader term searches found only source, protocol, schema or type definitions, or no result; those three exact endpoints remain explicitly index-incomplete.",
+  "queries": [
+    {
+      "query": "\"task_result\" \"parent_session_id\" \"child_session_id\" \"commit_sha\" extension:json",
+      "reported_hits": 2,
+      "returned_rows": 1,
+      "self_rows": 1,
+      "incomplete_results": true,
+      "cursor_role": "resumed_from_pass_75"
+    },
+    {
+      "query": "\"task_result\" \"parent_session_id\" \"child_session_id\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "external_closure_for_resumed_query"
+    },
+    {
+      "query": "\"task id=\" \"state=\\\"completed\\\"\" \"recipient_session\" \"applied_commit\" extension:json",
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_75"
+    },
+    {
+      "query": "\"background_task_id\" \"result_sha256\" \"consumed_by\" \"operator_id\" extension:jsonl",
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_75"
+    },
+    {
+      "query": "\"result_digest\" \"consumed_by\" \"producer_id\" \"recipient_id\" extension:json",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"artifact_sha256\" \"sender_agent_id\" \"recipient_agent_id\" \"consumed_at\" extension:jsonl",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"task_result_id\" \"used_by\" \"sender_id\" \"recipient_id\" extension:json",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"handoff_id\" \"applied_commit\" \"sender_agent\" \"recipient_agent\" extension:jsonl",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_message_id\" \"applied_commit\" \"sender_id\" \"recipient_id\" extension:jsonl",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"reply_to\" \"tool_result\" \"sender_agent\" \"recipient_agent\" extension:jsonl",
+      "returned_rows": 5,
+      "incomplete_results": false,
+      "assessment": "All five rows are previously assessed Tsunagou acceptance-harness controls."
+    },
+    {
+      "query": "\"result_hash\" \"acknowledged_by\" \"used_by\" \"agent_id\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 1,
+      "incomplete_results": false,
+      "assessment": "The row is a required-columns CI manifest, not an event record."
+    },
+    {
+      "query": "\"produced_by\" \"consumed_by\" \"artifact_sha256\" \"commit_sha\" extension:json",
+      "returned_rows": 7,
+      "self_rows": 7,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"parent_message_id\" \"sender_id\" \"recipient_id\" \"applied_commit\" extension:json",
+      "returned_rows": 1,
+      "self_rows": 1,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"accepted_at\" \"result\" extension:jsonl",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"sender_principal\" \"recipient_principal\" \"result_digest\" \"action_receipt\" extension:jsonl",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "followup": "A broader four-term source search returned no result; retain as an index-incomplete exact endpoint."
+    },
+    {
+      "query": "\"claimed_by\" \"completed_by\" \"accepted_by\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"assigned_to\" \"completed_by\" \"reviewed_by\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"task_id\" \"from_agent\" \"to_agent\" \"result\" \"accepted\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 2,
+      "incomplete_results": false,
+      "assessment": "The two rows are an issue ledger and a single-session activity transcript, not sender-to-recipient event rows."
+    },
+    {
+      "query": "\"result_message_id\" \"reply_to\" \"sender\" \"recipient\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "followup": "A broader term search returned protocol, schema, source and test definitions but no exact actual-run record; retain as an index-incomplete endpoint."
+    },
+    {
+      "query": "\"artifact_id\" \"received_by\" \"applied_by\" \"agent_id\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"delegated_by\" \"completed_by\" \"reviewed_by\" \"output\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"task_id\" \"worker_id\" \"result\" \"reviewer_id\" \"approved\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 9,
+      "incomplete_results": false,
+      "assessment": "The rows are schemas, OpenAPI documents, templates, migration or database inventories, a CI manifest and a test fixture."
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"in_reply_to\" \"result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"from_session\" \"to_session\" \"message_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_task_id\" \"result_artifact\" \"consumed_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"producer_agent\" \"consumer_agent\" \"artifact\" \"accepted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "followup": "Broader search exposed source/type definitions, not populated result-use evidence; retain as an index-incomplete endpoint."
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 14,
+      "incomplete_results": false,
+      "assessment": "The rows comprise issue or expertise ledgers, known same-operator controls, a fixture, two selected role-labelled logs, single-session activity logs and a static corpus."
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"task_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 2,
+      "incomplete_results": false,
+      "assessment": "Both rows are known Tsunagou harness records."
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"reply_to\" \"tool_result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_agent\" \"target_agent\" \"task_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "returned_rows": 19,
+      "incomplete_results": false,
+      "assessment": "The rows are a pilot trace, an ingestion dataset, fifteen path-labelled smoke lifecycle traces, a benchmark trajectory and a multi-agent test trace."
+    }
+  ],
+  "selected_families": [
+    {
+      "id": "odoo-hr-role-labelled-operations-ledger",
+      "repository": "7cc8/odoo-hr-agents",
+      "pinned_commit_sha": "ee15834cff78c1c2923f07969effd6040b07eae8",
+      "pinned_commit_date": "2026-10-11T07:57:24Z",
+      "record": {
+        "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/logs/agent_operations_log.jsonl",
+        "git_blob_sha": "eee4842cbd6deebaeec4ef4fa63c7123f8ee8c7c",
+        "rows": 238,
+        "parse_errors": 0,
+        "event_start": "2026-10-08T20:21:48.764094+00:00",
+        "event_end": "2026-10-08T23:41:02.318612+00:00",
+        "operations": 72,
+        "role_labels": 6,
+        "unique_event_signatures": 17,
+        "operations_with_nonconsecutive_sequence": 0,
+        "first_public_file_commit_sha": "26b0f4000887413b48fc426ad0218eb2c54a9821",
+        "first_public_file_commit_date": "2026-10-08T23:51:04Z"
+      },
+      "edge_accounting": {
+        "unaddressed_or_initial_rows": 160,
+        "seraj_to_fahas": 28,
+        "fahas_to_sijil": 12,
+        "sijil_to_seraj": 12,
+        "fahas_to_modaqeq": 8,
+        "modaqeq_to_hares": 8,
+        "seraj_to_hares": 5,
+        "hares_to_seraj": 4,
+        "hares_to_katib": 1,
+        "five_step_query_audit_completion_roundtrips": 12,
+        "most_repeated_exact_event_signature_count": 10
+      },
+      "dependency_test": {
+        "task_id_nonnull_rows": 0,
+        "result_ref_nonnull_rows": 0,
+        "attempt_id_nonnull_rows": 0,
+        "plan_id_nonnull_rows": 4,
+        "finding": "The ledger has temporal role-to-role edges, but no row carries a task ID, attempt ID or result reference. It therefore does not bind a sender-produced artifact to later recipient use."
+      },
+      "generating_context": [
+        {
+          "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/agent_events_service.py",
+          "git_blob_sha": "eef1084a8818bbddcbce05315dd08fbede458b49",
+          "finding": "One local event service accepts role labels and appends them to the unified JSONL ledger."
+        },
+        {
+          "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/seraj_llm_service.py",
+          "git_blob_sha": "8033cbc922f01dac3fd2f1b601b64cde968bfeb5",
+          "finding": "The same service method emits successive Seraj, Fahas, Modaqeq, Hares and Sijil labels. Tool output is inserted into the current model message list, after which the same service emits audit and completion events; no independent recipient process is authenticated."
+        },
+        {
+          "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/tests/test_cockpit_repairs.py",
+          "git_blob_sha": "612cf5131546c874852fdb2616fae3f762c47fb9",
+          "finding": "Tests directly create operations and emit role-labelled events, explaining repeated short signatures in the checked-in ledger."
+        },
+        {
+          "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/README.md",
+          "git_blob_sha": "fa4239ab48c18d544755b3bc00f4e436cb94545f",
+          "finding": "Project context describes the current MVP as one guarded spreadsheet-validation, dry-run, approval, writer and audit pipeline; the fuller agent system is a future vision."
+        }
+      ],
+      "identity_and_boundary_assessment": "The public record authenticates one repository-local service and a set of semantic role labels, not distinguishable autonomous principals. Tests account for many repeated patterns; remaining local operations could be demos or user interactions but still traverse the same service. No separate operator is identified and no evidence says the designed pipeline exceeded authorization.",
+      "assessment": "Designed same-operator role-event control with no content-addressed result/use edge; not a rogue-swarm candidate."
+    },
+    {
+      "id": "relay-cli-simulated-handoff-ledger",
+      "repository": "icylito/multi-agent-orchestration-system",
+      "pinned_commit_sha": "d7125e23af26ef316e1c94c98ea91559ddc476e6",
+      "pinned_commit_date": "2026-05-19T14:00:32Z",
+      "record": {
+        "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/logs/activity.jsonl",
+        "git_blob_sha": "c5ccedd22df4b44b83810f9477d08b39cbb65fb2",
+        "rows": 183,
+        "parse_errors": 0,
+        "event_start": "2026-05-15T12:01:19.205202+00:00",
+        "event_end": "2026-05-15T19:34:30.799926+00:00",
+        "first_public_file_commit_sha": "069f8fb8623eb8353767e814cba53b985a11851f",
+        "first_public_file_commit_date": "2026-05-19T13:58:00Z"
+      },
+      "event_accounting": {
+        "agent_action": 81,
+        "task_started": 45,
+        "handoff_created": 22,
+        "handoff_validation": 21,
+        "relay_continued": 11,
+        "system_init": 3,
+        "scenario_001_002_003_rows": 108,
+        "handoff_edges": {
+          "coder_to_tester": 22
+        },
+        "validation_decisions": {
+          "clarification_required": 20,
+          "approved_continue": 1
+        },
+        "continued_recipient": {
+          "tester": 11
+        }
+      },
+      "generating_context": [
+        {
+          "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/scripts/relay.py",
+          "git_blob_sha": "4d5662eb6d1d11dbbee4a1c8e3c0d3b4ed69ba4c",
+          "finding": "A local command-line script appends every event. Its continue step reads the last handoff-index row, embeds that object in a new log row and changes local state; it does not authenticate or invoke a recipient agent or show semantic use of the handoff body."
+        },
+        {
+          "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/tests/run_scenario_001.sh",
+          "git_blob_sha": "23892736abb4d8d628e646df52410790d29e23ae",
+          "finding": "The scenario script explicitly supplies simulated implementation work, a simulated limit and a coder-to-tester handoff before calling validation and continuation commands."
+        },
+        {
+          "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/tests/verify_scenario_001.py",
+          "git_blob_sha": "055bd39776e37b927ab8be5307116f500908f928",
+          "finding": "The verifier asserts the presence of the same handoff, validation, continuation and state rows in the cumulative log."
+        },
+        {
+          "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/README.md",
+          "git_blob_sha": "07160da1d4b0d2fc4de96325355d0210a7ccba27",
+          "finding": "The relay is expressly experimental; its documented usage is predominantly workflow testing and it does not provide real cloud-agent relay or autonomous overnight execution."
+        },
+        {
+          "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/README.md",
+          "git_blob_sha": "12ba1ff24d2678e75d8a0340aa12c5beb4e39568",
+          "finding": "The root project describes a locally hosted, intentionally sequential orchestration system using a shared handoff layer."
+        }
+      ],
+      "identity_and_boundary_assessment": "The role names and handoff fields are authored CLI arguments inside one local designed system. Eleven continuation rows prove that one script re-read its own latest handoff metadata, not that an autonomous tester received and acted on another operator's artifact. No independent participant, operator boundary or unauthorized intent is evidenced.",
+      "assessment": "Controlled simulated relay with a mechanical local read-after-write edge; not an organic coordination candidate."
+    },
+    {
+      "id": "issue-session-and-migration-ledger-controls",
+      "controls": [
+        {
+          "repository": "florianbuetow/agent-economy",
+          "record_url": "https://github.com/florianbuetow/agent-economy/blob/705cb69ab96356940ceb0e9dbcf688993ce7da3e/.beads/issues.jsonl",
+          "record_git_blob_sha": "a166af42f240240a49973097d347f1b943dbab05",
+          "commit_sha": "705cb69ab96356940ceb0e9dbcf688993ce7da3e",
+          "commit_date": "2026-03-08T03:42:45Z",
+          "rows": 125,
+          "assessment": "A complete parse exposes issue objects only. Query terms occur inside plans, descriptions and test notes; there are no from-agent, to-agent or result-event fields."
+        },
+        {
+          "repository": "Birkankader/WhaleCode",
+          "record_url": "https://github.com/Birkankader/WhaleCode/blob/44d51b380115659e6aae30ce05392be55480e32a/.gsd/activity/006-research-slice-M002-S02.jsonl",
+          "record_git_blob_sha": "464138dc5e5c158a86752a9a21dfaae2a8c9c320",
+          "commit_sha": "44d51b380115659e6aae30ce05392be55480e32a",
+          "commit_date": "2026-06-01T07:24:09Z",
+          "rows": 74,
+          "event_start": "2026-03-23T08:02:06.784Z",
+          "event_end": "2026-03-23T08:07:18.745Z",
+          "context_url": "https://github.com/Birkankader/WhaleCode/blob/44d51b380115659e6aae30ce05392be55480e32a/README.md",
+          "context_git_blob_sha": "95ad30d2aeed112666b481bea1249d90e2be7fce",
+          "assessment": "One linear assistant/tool session writes a research summary. The apparent sender/recipient terms occur in tool-read repository text, not event fields; project context defines a user-controlled AI team with explicit orchestration and approval."
+        },
+        {
+          "repository": "vvvaibhaverma-123459876/Agentco",
+          "record_url": "https://github.com/vvvaibhaverma-123459876/Agentco/blob/b5f8a2993f869f1a1d668dc7ad36245474fa37b8/docs/audit/current/MIGRATION_IDENTITY_LEDGER.json",
+          "record_git_blob_sha": "f0c689139a506b78000a563a0cea2c93184630db",
+          "commit_sha": "b5f8a2993f869f1a1d668dc7ad36245474fa37b8",
+          "commit_date": "2026-07-18T18:03:02Z",
+          "migration_rows": 135,
+          "context_url": "https://github.com/vvvaibhaverma-123459876/Agentco/blob/b5f8a2993f869f1a1d668dc7ad36245474fa37b8/README.md",
+          "context_git_blob_sha": "8ac0439d363243eb2c6881b26079bfeb654e271f",
+          "assessment": "The complete file is a migration identity and schema-object ledger. Query terms are database identifiers, not participants or exchanges; project context describes a local evidence-governed runtime and separates real, partial and simulated claims."
+        }
+      ],
+      "assessment": "These complete records are issue, single-session and migration controls, not actual multi-principal coordination ledgers."
+    },
+    {
+      "id": "schema-smoke-benchmark-and-known-control-remainder",
+      "classification": {
+        "tsunagou_acceptance_harness_paths": 5,
+        "schema_openapi_template_or_fixture_paths": 8,
+        "known_same_operator_or_human_authorized_paths": 8,
+        "single_session_or_static_corpus_paths": 7,
+        "pilot_or_ingestion_dataset_paths": 2,
+        "path_labelled_smoke_trace_paths": 15,
+        "benchmark_or_multiagent_test_paths": 2
+      },
+      "assessment": "The 47 distinct external paths collectively resolve by full selected reads, file purpose or explicit path naming to schemas, fixtures, designed systems, static corpora, smoke traces, benchmarks or known controls. None adds an organic sender/result/use/operator-boundary chain."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": true,
+    "checked_at": "2026-10-14",
+    "queries": [
+      "\"7cc8/odoo-hr-agents\" \"agent_operations_log\"",
+      "\"evt_op_1791490908_37e184\"",
+      "\"icylito/multi-agent-orchestration-system\" \"RELAY_CONTINUED\"",
+      "\"SCENARIO-001\" \"HANDOFF_CREATED\" \"multi-agent-orchestration-system\""
+    ],
+    "result": "No prior coordination report located in the checked exact-query scope as of 2026-10-14. Returned results were unrelated lexical matches; no independent report describing either selected ledger as cross-operator coordination was located.",
+    "limits": "This bounded result is not a claim that nobody has reported the records, and search absence does not establish novelty. Both selected families fail the independent-participant and operator-boundary gates independently of this check."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "Independent agents exchanging and using task results",
+      "result": "Not supported. The Odoo ledger has no populated task, attempt or result reference; source emits role labels sequentially inside one service. The relay continuation step mechanically embeds the latest local handoff-index object without invoking or authenticating a recipient."
+    },
+    {
+      "alternative": "Single-operator designed orchestration",
+      "result": "Directly supported by both projects' source and documentation."
+    },
+    {
+      "alternative": "Repeated tests or simulations",
+      "result": "Directly supported by Odoo tests that emit events and relay scenario scripts that label their work and rate limit simulated; repeated exact event signatures and scenario IDs match those controls."
+    },
+    {
+      "alternative": "Human-requested or user-controlled activity",
+      "result": "Compatible with the remaining Odoo operations and directly documented for WhaleCode; no record shows cooperation exceeding operator authorization."
+    },
+    {
+      "alternative": "Schemas, fixtures, issue prose or observer contamination",
+      "result": "Supported for the remaining hits by file structure, paths and nine self-repository rows."
+    },
+    {
+      "alternative": "Role names or agent-like prose prove autonomous identity",
+      "result": "Rejected. The labels are application fields or authored command arguments and do not independently authenticate principals, models, providers or operators."
+    }
+  ],
+  "advancement_requirements": {
+    "odoo_hr_agents": "A public operation carrying a specific non-null task or result artifact from an independently attributable autonomous Fahas, Sijil or other sender, followed by Seraj or another distinguishable recipient semantically using that exact material, plus primary evidence the principals belonged to separate operators and the exchange exceeded authorization.",
+    "relay_system": "A public non-scenario run showing a recipient process independently acquiring and semantically acting on a handoff body, authenticated participant provenance and separate-operator authorization evidence. A CLI read of its own latest index row is insufficient.",
+    "index_incomplete_queries": "A returned committed record for each of the three one-hit/no-item exact endpoints. Broader source/schema matches do not close those service-index inconsistencies.",
+    "general": "A public actual-run task artifact tied to an independently attributable autonomous sender, a distinguishable recipient's later semantic or action use of that exact material and primary evidence that the cooperation crossed separate operators' authorization boundaries."
+  },
+  "next_record_and_query_cursor": {
+    "record_cursor": "Rotate away from the closed Odoo role-event and simulated relay cohorts. Re-enter only if a new public non-test result body, independent recipient action or operator-provenance record appears. Preserve the three exact one-hit/no-item endpoints as index-incomplete rather than silently closing them.",
+    "incomplete_exact_endpoints": [
+      "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json",
+      "\"result_message_id\" \"reply_to\" \"sender\" \"recipient\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "next_exact_queries": [
+      "\"source_event_id\" \"result_sha256\" \"used_at\" \"recipient_principal\" extension:jsonl",
+      "\"producer_session_id\" \"consumer_session_id\" \"artifact_digest\" \"applied_commit\" extension:json",
+      "\"handoff_id\" \"recipient_output_id\" \"accepted_at\" \"operator_id\" extension:jsonl"
+    ],
+    "scanner_cursor": "The 293-record known-family-controlled scanner remainder stays paused at 853 of 1,146 inspected; resume only on a new source-level participant, transfer/use, provenance or authorization cue."
+  },
+  "limitations": [
+    "The public Odoo ledger is a cumulative local file containing repeated test-shaped and possibly other local operations. Source explains its mechanics but does not prove the provenance of every row; no claim is made about uncommitted activity.",
+    "The relay log is a cumulative repository snapshot. Its local handoff files and command arguments authenticate neither independent agent execution nor separate operators.",
+    "Three exact code-search endpoints reported one hit while returning no item. Their broader term searches exposed no actual-run chain, but the exact index inconsistency remains unresolved.",
+    "Default-branch code search does not cover private repositories, deleted history, unindexed branches or private runtime state.",
+    "No inference about current activity, subjective intent or provider attribution is made."
+  ],
+  "safety": "Only existing public committed files, public search results and public commit metadata were read. No recovered code, package, agent runtime, command from an artifact, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication omits record bodies, end-user query text, local filesystem paths, organization names from the ledgers, credentials, tokens, sink topics, personal addresses and private logs.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  }
+}

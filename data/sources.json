@@ -3699,6 +3699,174 @@
       "git_blob_sha": "c27857f0af959fcafb3a61ed335e2e7c31079ef3",
       "commit_sha": "0c907a2867ebf2d5f64c2faf38f9097369a98cc9",
       "commit_date": "2026-10-03T11:05:24Z"
+    },
+    {
+      "id": "original-odoo-hr-role-event-ledger",
+      "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/logs/agent_operations_log.jsonl",
+      "role": "Primary 238-row role-labelled operations ledger with temporal edges but null task, attempt and result-reference fields",
+      "published": "2026-10-08",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "event_start": "2026-10-08T20:21:48.764094+00:00",
+      "event_end": "2026-10-08T23:41:02.318612+00:00",
+      "git_blob_sha": "eee4842cbd6deebaeec4ef4fa63c7123f8ee8c7c",
+      "commit_sha": "ee15834cff78c1c2923f07969effd6040b07eae8",
+      "commit_date": "2026-10-11T07:57:24Z",
+      "first_public_file_commit_sha": "26b0f4000887413b48fc426ad0218eb2c54a9821",
+      "first_public_file_commit_date": "2026-10-08T23:51:04Z"
+    },
+    {
+      "id": "original-odoo-hr-event-service",
+      "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/agent_events_service.py",
+      "role": "Primary generating source showing one local service appends role-labelled events to the unified ledger",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "eef1084a8818bbddcbce05315dd08fbede458b49",
+      "commit_sha": "ee15834cff78c1c2923f07969effd6040b07eae8",
+      "commit_date": "2026-10-11T07:57:24Z"
+    },
+    {
+      "id": "original-odoo-hr-routing-source",
+      "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/seraj_llm_service.py",
+      "role": "Primary source sequentially emitting multiple agent-role labels and returning tool output to one model loop",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "8033cbc922f01dac3fd2f1b601b64cde968bfeb5",
+      "commit_sha": "ee15834cff78c1c2923f07969effd6040b07eae8",
+      "commit_date": "2026-10-11T07:57:24Z"
+    },
+    {
+      "id": "original-odoo-hr-role-event-tests",
+      "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/tests/test_cockpit_repairs.py",
+      "role": "Primary tests directly creating operations and emitting role-labelled events found in the committed ledger",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "612cf5131546c874852fdb2616fae3f762c47fb9",
+      "commit_sha": "ee15834cff78c1c2923f07969effd6040b07eae8",
+      "commit_date": "2026-10-11T07:57:24Z"
+    },
+    {
+      "id": "original-odoo-hr-project-context",
+      "url": "https://github.com/7cc8/odoo-hr-agents/blob/ee15834cff78c1c2923f07969effd6040b07eae8/README.md",
+      "role": "Primary context distinguishing the current guarded MVP pipeline from a future fuller agent vision",
+      "published": "2026-10-11",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "fa4239ab48c18d544755b3bc00f4e436cb94545f",
+      "commit_sha": "ee15834cff78c1c2923f07969effd6040b07eae8",
+      "commit_date": "2026-10-11T07:57:24Z"
+    },
+    {
+      "id": "original-local-relay-activity-ledger",
+      "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/logs/activity.jsonl",
+      "role": "Primary 183-row local relay ledger containing scenario handoffs, validations and mechanical continuation rows",
+      "published": "2026-05-19",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "event_start": "2026-05-15T12:01:19.205202+00:00",
+      "event_end": "2026-05-15T19:34:30.799926+00:00",
+      "git_blob_sha": "c5ccedd22df4b44b83810f9477d08b39cbb65fb2",
+      "commit_sha": "d7125e23af26ef316e1c94c98ea91559ddc476e6",
+      "commit_date": "2026-05-19T14:00:32Z",
+      "first_public_file_commit_sha": "069f8fb8623eb8353767e814cba53b985a11851f",
+      "first_public_file_commit_date": "2026-05-19T13:58:00Z"
+    },
+    {
+      "id": "original-local-relay-generator",
+      "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/scripts/relay.py",
+      "role": "Primary local CLI source writing both handoff sides and re-embedding its latest index object during continuation",
+      "published": "2026-05-19",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "4d5662eb6d1d11dbbee4a1c8e3c0d3b4ed69ba4c",
+      "commit_sha": "d7125e23af26ef316e1c94c98ea91559ddc476e6",
+      "commit_date": "2026-05-19T14:00:32Z",
+      "first_public_file_commit_sha": "069f8fb8623eb8353767e814cba53b985a11851f",
+      "first_public_file_commit_date": "2026-05-19T13:58:00Z"
+    },
+    {
+      "id": "original-local-relay-simulated-scenario",
+      "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/tests/run_scenario_001.sh",
+      "role": "Primary test script explicitly supplying simulated work, simulated limit pressure and a coder-to-tester handoff",
+      "published": "2026-05-19",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "23892736abb4d8d628e646df52410790d29e23ae",
+      "commit_sha": "d7125e23af26ef316e1c94c98ea91559ddc476e6",
+      "commit_date": "2026-05-19T14:00:32Z",
+      "first_public_file_commit_sha": "069f8fb8623eb8353767e814cba53b985a11851f",
+      "first_public_file_commit_date": "2026-05-19T13:58:00Z"
+    },
+    {
+      "id": "original-local-relay-scenario-verifier",
+      "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/tests/verify_scenario_001.py",
+      "role": "Primary verifier asserting the simulated scenario's handoff, validation, continuation and state rows",
+      "published": "2026-05-19",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "055bd39776e37b927ab8be5307116f500908f928",
+      "commit_sha": "d7125e23af26ef316e1c94c98ea91559ddc476e6",
+      "commit_date": "2026-05-19T14:00:32Z",
+      "first_public_file_commit_sha": "069f8fb8623eb8353767e814cba53b985a11851f",
+      "first_public_file_commit_date": "2026-05-19T13:58:00Z"
+    },
+    {
+      "id": "original-local-relay-context",
+      "url": "https://github.com/icylito/multi-agent-orchestration-system/blob/d7125e23af26ef316e1c94c98ea91559ddc476e6/relay-system/README.md",
+      "role": "Primary context identifying the relay as experimental and predominantly a workflow-testing system without real cloud relay or autonomous overnight execution",
+      "published": "2026-05-19",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "07160da1d4b0d2fc4de96325355d0210a7ccba27",
+      "commit_sha": "d7125e23af26ef316e1c94c98ea91559ddc476e6",
+      "commit_date": "2026-05-19T14:00:32Z",
+      "first_public_file_commit_sha": "069f8fb8623eb8353767e814cba53b985a11851f",
+      "first_public_file_commit_date": "2026-05-19T13:58:00Z"
+    },
+    {
+      "id": "original-agent-economy-issue-ledger-control",
+      "url": "https://github.com/florianbuetow/agent-economy/blob/705cb69ab96356940ceb0e9dbcf688993ce7da3e/.beads/issues.jsonl",
+      "role": "Primary issue ledger whose apparent coordination terms occur in plans and test prose rather than exchange events",
+      "published": "2026-03-08",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "a166af42f240240a49973097d347f1b943dbab05",
+      "commit_sha": "705cb69ab96356940ceb0e9dbcf688993ce7da3e",
+      "commit_date": "2026-03-08T03:42:45Z"
+    },
+    {
+      "id": "original-whalecode-single-session-activity-control",
+      "url": "https://github.com/Birkankader/WhaleCode/blob/44d51b380115659e6aae30ce05392be55480e32a/.gsd/activity/006-research-slice-M002-S02.jsonl",
+      "role": "Primary single assistant/tool session in which apparent sender and recipient terms occur inside tool-read repository text",
+      "published": "2026-06-01",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "event_start": "2026-03-23T08:02:06.784Z",
+      "event_end": "2026-03-23T08:07:18.745Z",
+      "git_blob_sha": "464138dc5e5c158a86752a9a21dfaae2a8c9c320",
+      "commit_sha": "44d51b380115659e6aae30ce05392be55480e32a",
+      "commit_date": "2026-06-01T07:24:09Z"
+    },
+    {
+      "id": "original-whalecode-designed-team-context",
+      "url": "https://github.com/Birkankader/WhaleCode/blob/44d51b380115659e6aae30ce05392be55480e32a/README.md",
+      "role": "Primary context defining a user-controlled AI team with designed task decomposition, worktrees and approval",
+      "published": "2026-06-01",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "95ad30d2aeed112666b481bea1249d90e2be7fce",
+      "commit_sha": "44d51b380115659e6aae30ce05392be55480e32a",
+      "commit_date": "2026-06-01T07:24:09Z"
+    },
+    {
+      "id": "original-agentco-migration-identity-ledger-control",
+      "url": "https://github.com/vvvaibhaverma-123459876/Agentco/blob/b5f8a2993f869f1a1d668dc7ad36245474fa37b8/docs/audit/current/MIGRATION_IDENTITY_LEDGER.json",
+      "role": "Primary migration and schema-object ledger whose matched identifiers are not participants or exchange events",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "f0c689139a506b78000a563a0cea2c93184630db",
+      "commit_sha": "b5f8a2993f869f1a1d668dc7ad36245474fa37b8",
+      "commit_date": "2026-07-18T18:03:02Z"
+    },
+    {
+      "id": "original-agentco-local-runtime-context",
+      "url": "https://github.com/vvvaibhaverma-123459876/Agentco/blob/b5f8a2993f869f1a1d668dc7ad36245474fa37b8/README.md",
+      "role": "Primary context for a local evidence-governed runtime that distinguishes real, partial and test-only claims",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-14T16:12:41Z",
+      "git_blob_sha": "8ac0439d363243eb2c6881b26079bfeb654e271f",
+      "commit_sha": "b5f8a2993f869f1a1d668dc7ad36245474fa37b8",
+      "commit_date": "2026-07-18T18:03:02Z"
     }
   ]
 }

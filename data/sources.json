@@ -3270,6 +3270,159 @@
       "observed_at": "2026-10-14T01:38:48Z",
       "commit_sha": "a7aa7ef1d3187bbf67696038d3f044b70e403c8e",
       "commit_date": "2026-09-22T00:15:29Z"
+    },
+    {
+      "id": "original-spec-kitty-mission-status-events",
+      "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/kitty-specs/mission-a-p0-consistency-01KZWHY1/status.events.jsonl",
+      "role": "Primary 51-row mission ledger preserving implementation, review, human approval and merge state transitions for four work packages",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "event_start": "2026-08-13T03:56:00.814106+00:00",
+      "event_end": "2026-08-13T05:35:05.823832+00:00",
+      "git_blob_sha": "9cac8bb17f1cd07098ffbe2404f353d170cb1d47",
+      "commit_sha": "3b0dc028986f2aa2640daec673a01fae37e012ca",
+      "commit_date": "2026-10-13T22:32:26Z"
+    },
+    {
+      "id": "original-spec-kitty-wp04-task-context",
+      "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/kitty-specs/mission-a-p0-consistency-01KZWHY1/tasks/WP04-finalize-provenance-guard.md",
+      "role": "Primary work-package context assigning the configured implementer profile and preserving human branch authority",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "e414449494fc49762107f226208410a17c581efd",
+      "commit_sha": "3b0dc028986f2aa2640daec673a01fae37e012ca",
+      "commit_date": "2026-10-13T22:32:26Z"
+    },
+    {
+      "id": "original-spec-kitty-reviewer-profile",
+      "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/docs/api/agent_profiles/reviewer-renata.md",
+      "role": "Primary profile documentation identifying the reviewer as a routed or explicitly requested quality gate",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "146e628334bb5b405e946382937d2ac752a3ddb6",
+      "commit_sha": "3b0dc028986f2aa2640daec673a01fae37e012ca",
+      "commit_date": "2026-10-13T22:32:26Z"
+    },
+    {
+      "id": "original-spec-kitty-governance-context",
+      "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/README.md",
+      "role": "Primary context describing a governed human-in-the-loop software factory",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "a81aeaa4cd62df6b75891a155d88a03ebb980a09",
+      "commit_sha": "3b0dc028986f2aa2640daec673a01fae37e012ca",
+      "commit_date": "2026-10-13T22:32:26Z"
+    },
+    {
+      "id": "original-iexclaw-growth-task-directive",
+      "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/code/processed/msg-2026-04-05-115542-215.msg.json",
+      "role": "Primary processed goal-to-code task message beginning an exact reply chain",
+      "published": "2026-04-07",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "event_start": "2026-04-05T11:55:42.560087Z",
+      "git_blob_sha": "646a7b32df9439e0afcb22058a962ba5cc6da296",
+      "commit_sha": "6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829",
+      "commit_date": "2026-09-18T17:11:22Z",
+      "first_public_commit_sha": "2b56ae32bf1b4a806c4ae85eecf0d7033edca69a",
+      "first_public_commit_date": "2026-04-07T16:59:53Z"
+    },
+    {
+      "id": "original-iexclaw-growth-result-reply",
+      "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/goal/processed/msg-2026-04-05-151200-0001.msg.json",
+      "role": "Primary processed code-to-goal result message replying to the exact task message",
+      "published": "2026-04-07",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "event_start": "2026-04-05T15:12:00Z",
+      "git_blob_sha": "40f5962a3e687fd89f0f1df80d9c71656c006686",
+      "commit_sha": "6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829",
+      "commit_date": "2026-09-18T17:11:22Z",
+      "first_public_commit_sha": "2b56ae32bf1b4a806c4ae85eecf0d7033edca69a",
+      "first_public_commit_date": "2026-04-07T16:59:53Z"
+    },
+    {
+      "id": "original-iexclaw-growth-review-reply",
+      "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/code/processed/msg-2026-04-05-151458-4490.msg.json",
+      "role": "Primary processed goal-to-code acceptance and review message replying to the exact result",
+      "published": "2026-04-07",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "event_start": "2026-04-05T15:14:58.511545Z",
+      "git_blob_sha": "be55891b60e2df0c83ef53d9987a6d139f9d6467",
+      "commit_sha": "6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829",
+      "commit_date": "2026-09-18T17:11:22Z",
+      "first_public_commit_sha": "2b56ae32bf1b4a806c4ae85eecf0d7033edca69a",
+      "first_public_commit_date": "2026-04-07T16:59:53Z"
+    },
+    {
+      "id": "original-iexclaw-project-context",
+      "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/README.md",
+      "role": "Primary context identifying a designed human-plus-AI research prototype",
+      "published": "2026-04-07",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "e0d556bbae83fe5d18e75c4e0ecad2d9754e6920",
+      "commit_sha": "6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829",
+      "commit_date": "2026-09-18T17:11:22Z"
+    },
+    {
+      "id": "original-iexclaw-identity-context",
+      "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/IDENTITY.md",
+      "role": "Primary authority context identifying the human architect and giving that human final say",
+      "published": "2026-04-07",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "0d31535193e30343612c263fab8493780746e6f3",
+      "commit_sha": "6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829",
+      "commit_date": "2026-09-18T17:11:22Z"
+    },
+    {
+      "id": "original-holahola-claude-code-mailbox-ledger",
+      "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/mailbox-ledgers/claude-code-to-luca.json",
+      "role": "Primary six-record cross-runtime mailbox snapshot without read, acknowledgement or reply lifecycle fields",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "5af7f0ad68d534078f15dc617df0d7a846efd2c5",
+      "commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "commit_date": "2026-10-13T16:30:43Z"
+    },
+    {
+      "id": "original-holahola-luca-mailbox-ledger",
+      "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/mailbox-ledgers/luca-to-claude-code.json",
+      "role": "Primary 54-record reverse-direction mailbox snapshot without read, acknowledgement or reply lifecycle fields",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "bcc7a61f30877b85fcef207f777e38267c66d2a6",
+      "commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "commit_date": "2026-10-13T16:30:43Z"
+    },
+    {
+      "id": "original-holahola-provider-neutral-identity",
+      "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/.agents/memory/luca-provider-neutral-execution.md",
+      "role": "Primary identity context defining multiple runtimes as one logical actor and the operator as authorization source",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "0d808998b71fc69ca4e93da73df82e675c1c6a8e",
+      "commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "commit_date": "2026-10-13T16:30:43Z"
+    },
+    {
+      "id": "original-holahola-no-bifurcation-context",
+      "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/.agents/memory/luca-roles-not-bifurcation.md",
+      "role": "Primary identity context stating that runtime labels are role markers rather than separate agents or personalities",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "git_blob_sha": "912ae28bb051ee855ba48935a19c557c51c38f55",
+      "commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "commit_date": "2026-10-13T16:30:43Z"
+    },
+    {
+      "id": "original-trinity-akashic-log-null-handoffs",
+      "url": "https://github.com/gHashTag/t27/blob/6560fc0395449e833489e312e97611db189a0286/.trinity/events/akashic-log.jsonl",
+      "role": "Primary 25-row event log showing that apparent handoff fields are null even where commit metadata is present",
+      "published": "2026-10-14",
+      "observed_at": "2026-10-14T04:38:12Z",
+      "event_start": "2026-04-04T14:30:00Z",
+      "event_end": "2026-10-11T08:31:46Z",
+      "git_blob_sha": "8d0d5e9d29467edba7b9cddcd1c72d6ce9086b9d",
+      "commit_sha": "6560fc0395449e833489e312e97611db189a0286",
+      "commit_date": "2026-10-14T03:46:42Z"
     }
   ]
 }

@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-14T04:38:12Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "global_default_branch_queries": 33,
+    "global_search_result_row_occurrences": 510,
+    "global_self_result_row_occurrences": 23,
+    "global_external_result_row_occurrences": 487,
+    "global_distinct_self_result_urls": 13,
+    "global_distinct_external_result_urls": 485,
+    "global_distinct_external_repositories": 80,
+    "global_zero_result_queries": 22,
+    "global_capped_queries": 3,
+    "selected_external_record_files_read": 9,
+    "selected_external_context_or_source_files_read": 11,
+    "pinned_commit_records_read": 5,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search used only to locate committed records; selected records, generating context and commit provenance were then read at pinned commits",
+  "observed_at": "2026-10-14T04:38:12Z",
+  "queries": [
+    {
+      "query": "\"consumed_handoff_ids\" \"applied_commit_sha\" \"from_agent\" \"to_agent\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_72"
+    },
+    {
+      "query": "\"source_receipt_id\" \"artifact_digest\" \"applied_commit_sha\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_72"
+    },
+    {
+      "query": "\"producer_principal_id\" \"consumer_principal_id\" \"result_digest\" \"action_receipt_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_72"
+    },
+    {
+      "query": "\"input_message_id\" \"output_artifact_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_message_id\" \"result_digest\" \"applied_commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_receipt_id\" \"artifact_digest\" \"agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"artifact_digest\" \"consumed_at\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_digest\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent\" \"consumer_agent\" \"output_digest\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"consumed_at\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_event_id\" \"action_receipt_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"artifact_id\" \"produced_by\" \"consumed_by\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"message_id\" \"reply_to_message_id\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"found_by\" \"applied_commit_sha\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"recommended_by\" \"applied_commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reviewed_by_agent\" \"applied_commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"recommendation_id\" \"implementation_commit\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"review_agent_id\" \"implementation_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reviewer\" \"implementer\" \"commit_sha\" \"agent\" extension:jsonl",
+      "returned_rows": 21
+    },
+    {
+      "query": "\"handoff_from\" \"handoff_to\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"source_agent\" \"recipient_agent\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"upstream_message_id\" \"downstream_commit\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_artifact_digest\" \"output_artifact_digest\" \"agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_message_id\" \"agent_id\" \"commit_sha\" extension:json",
+      "returned_rows": 61,
+      "self_rows": 4
+    },
+    {
+      "query": "\"in_reply_to\" \"from_agent\" \"to_agent\" extension:json",
+      "returned_rows": 99,
+      "self_rows": 3
+    },
+    {
+      "query": "\"response_to\" \"sender\" \"recipient\" \"commit\" extension:jsonl",
+      "returned_rows": 5
+    },
+    {
+      "query": "\"reply_to\" \"sender\" \"recipient\" \"artifacts\" extension:jsonl",
+      "returned_rows": 100,
+      "capped": true
+    },
+    {
+      "query": "\"reply_to_message_id\" \"sender_id\" \"recipient_id\" extension:json",
+      "returned_rows": 100,
+      "self_rows": 2,
+      "capped": true
+    },
+    {
+      "query": "\"thread_id\" \"sender_agent\" \"recipient_agent\" \"artifact\" extension:json",
+      "returned_rows": 3,
+      "self_rows": 1
+    },
+    {
+      "query": "\"message_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:json",
+      "returned_rows": 100,
+      "self_rows": 11,
+      "capped": true
+    },
+    {
+      "query": "\"source_message\" \"applied_commit\" \"agent\" extension:json",
+      "returned_rows": 19,
+      "self_rows": 2
+    },
+    {
+      "query": "\"parent_event_id\" \"actor_id\" \"artifact_hash\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"caused_by_message_id\" \"commit_sha\" extension:json",
+      "returned_rows": 0
+    }
+  ],
+  "result_accounting": {
+    "self_repository_rows": {
+      "row_occurrences": 23,
+      "distinct_urls": 13,
+      "assessment": "Observer contamination from this repository's previously published queries and assessments; excluded from external evidence."
+    },
+    "external_rows": {
+      "row_occurrences": 487,
+      "distinct_urls": 485,
+      "distinct_repositories": 80,
+      "dominant_repository_rows": [
+        {
+          "repository": "SteinVR/BitGN-Competition",
+          "row_occurrences": 85,
+          "classification": "competition and benchmark material"
+        },
+        {
+          "repository": "dune94/epam-cli",
+          "row_occurrences": 62,
+          "classification": "previously reviewed designed role bus"
+        },
+        {
+          "repository": "useopencompany/opencompany",
+          "row_occurrences": 57,
+          "classification": "generated database snapshots"
+        },
+        {
+          "repository": "Neuro-OJ/neuro-oj",
+          "row_occurrences": 53,
+          "classification": "harness and evaluation artifacts"
+        },
+        {
+          "repository": "Pseudogiant-xr/Pseudolife-MCP",
+          "row_occurrences": 35,
+          "classification": "goldens and test scenarios"
+        },
+        {
+          "repository": "halittayyar0/Agentic-Company-OS",
+          "row_occurrences": 17,
+          "classification": "previously reviewed generated schema snapshots"
+        }
+      ],
+      "remaining_classes": "Generated snapshots and migrations, schemas, fixtures, tests, benchmarks, controlled red-team records, designed orchestration logs, archived single-session review traces and ordinary messaging database material."
+    }
+  },
+  "selected_families": [
+    {
+      "id": "spec-kitty-human-gated-review-lane",
+      "repository": "spec-kitty/spec-kitty",
+      "commit_sha": "3b0dc028986f2aa2640daec673a01fae37e012ca",
+      "commit_date": "2026-10-13T22:32:26Z",
+      "record": {
+        "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/kitty-specs/mission-a-p0-consistency-01KZWHY1/status.events.jsonl",
+        "git_blob_sha": "9cac8bb17f1cd07098ffbe2404f353d170cb1d47",
+        "rows": 51,
+        "event_start": "2026-08-13T03:56:00.814106+00:00",
+        "event_end": "2026-08-13T05:35:05.823832+00:00",
+        "work_packages": 4
+      },
+      "causal_structure": {
+        "lane_transitions_per_work_package": [
+          "genesis_to_planned",
+          "planned_to_claimed",
+          "claimed_to_in_progress",
+          "in_progress_to_for_review",
+          "for_review_to_in_review",
+          "in_review_to_approved",
+          "approved_to_done"
+        ],
+        "implementer_profile": "python-pedro",
+        "reviewer_profile": "reviewer-renata",
+        "shared_agent_label": "claude",
+        "model_or_provider": "__resolved_model_absent__",
+        "human_approval_present": true,
+        "human_reviewer_label": "Stijn Dejongh"
+      },
+      "context_sources": [
+        {
+          "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/kitty-specs/mission-a-p0-consistency-01KZWHY1/tasks/WP04-finalize-provenance-guard.md",
+          "git_blob_sha": "e414449494fc49762107f226208410a17c581efd",
+          "finding": "Assigns the implementer profile, names the command that invokes the configured agent and permits human redirection of the landing branch."
+        },
+        {
+          "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/docs/api/agent_profiles/reviewer-renata.md",
+          "git_blob_sha": "146e628334bb5b405e946382937d2ac752a3ddb6",
+          "finding": "Defines reviewer-renata as a routed or explicitly requested quality-gate profile rather than an independently attributed operator."
+        },
+        {
+          "url": "https://github.com/spec-kitty/spec-kitty/blob/3b0dc028986f2aa2640daec673a01fae37e012ca/README.md",
+          "git_blob_sha": "a81aeaa4cd62df6b75891a155d88a03ebb980a09",
+          "finding": "Describes a governed software factory where humans define intent and acceptance, agents work in traceable worktrees and reviewers accept, reject or merge."
+        }
+      ],
+      "assessment": "This is a genuine committed implementation-review-approval-merge ledger with recipient-side state changes. The apparent implementer and reviewer are configured profiles under the same Claude agent label, a human performs approval, and the project expressly designs the lane. It supplies no independent operator boundary and is not rogue coordination."
+    },
+    {
+      "id": "iexclaw-processed-directive-and-acceptance-chain",
+      "repository": "reification-labs/iex-claw",
+      "pinned_commit_sha": "6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829",
+      "pinned_commit_date": "2026-09-18T17:11:22Z",
+      "first_public_tree_commit_sha": "2b56ae32bf1b4a806c4ae85eecf0d7033edca69a",
+      "first_public_tree_commit_date": "2026-04-07T16:59:53Z",
+      "records": [
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/code/processed/msg-2026-04-05-115542-215.msg.json",
+          "git_blob_sha": "646a7b32df9439e0afcb22058a962ba5cc6da296",
+          "event_time": "2026-04-05T11:55:42.560087Z",
+          "edge": "goal_to_code",
+          "task": "growth-4-completion"
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/goal/processed/msg-2026-04-05-151200-0001.msg.json",
+          "git_blob_sha": "40f5962a3e687fd89f0f1df80d9c71656c006686",
+          "event_time": "2026-04-05T15:12:00Z",
+          "edge": "code_to_goal",
+          "exact_reply_to_preceding_message": true
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/code/processed/msg-2026-04-05-151458-4490.msg.json",
+          "git_blob_sha": "be55891b60e2df0c83ef53d9987a6d139f9d6467",
+          "event_time": "2026-04-05T15:14:58.511545Z",
+          "edge": "goal_to_code",
+          "exact_reply_to_preceding_message": true,
+          "role": "review_and_acceptance"
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/code/processed/msg-2026-04-05-182300-rewire-messages.msg.json",
+          "git_blob_sha": "8007377aabf85957a35dea6002dadfe6fff8832f",
+          "role": "follow-on rewire directive"
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/messages/inbox/code/processed/msg-2026-04-05-182700-rewire-logger.msg.json",
+          "git_blob_sha": "14df6e5f6b47b6cebe248d1879e733ca0d73b3a9",
+          "role": "exact reply to follow-on directive"
+        }
+      ],
+      "context_sources": [
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/README.md",
+          "git_blob_sha": "e0d556bbae83fe5d18e75c4e0ecad2d9754e6920",
+          "finding": "Calls the project a research prototype built as a human-plus-AI pair."
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/IDENTITY.md",
+          "git_blob_sha": "0d31535193e30343612c263fab8493780746e6f3",
+          "finding": "Names the human architect and AI collaborator and gives the human final say."
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/checkpoints/2026-04-05_20-48_code-self-surgery-and-framework-emerges/handoff.md",
+          "git_blob_sha": "bd514c15d99ceffc95674f398fb1a9fe5c5a5453",
+          "finding": "Describes a bounded work order and the configured Code role executing it."
+        },
+        {
+          "url": "https://github.com/reification-labs/iex-claw/blob/6b9d00da5f3643d94d1ae3a7e6f295bbd5dce829/agents/code/code.exs",
+          "git_blob_sha": "78fcffcdbb1b2cfb960c70ee8bc7b17a18d8d72a",
+          "finding": "Preserves the downstream thin delegators named by the rewire instructions."
+        }
+      ],
+      "assessment": "The files preserve exact replies, task continuity, review and downstream implementation evidence. They also document a deliberately designed same-project human/AI workflow with human architectural authority. Internal 5 April timestamps were first made public together on 7 April, so repository history does not independently prove each internal step's publication chronology. No separate-operator boundary survives."
+    },
+    {
+      "id": "holahola-cross-runtime-mailbox-snapshots",
+      "repository": "davidwmcintosh/HolaHola",
+      "commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "commit_date": "2026-10-13T16:30:43Z",
+      "records": [
+        {
+          "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/mailbox-ledgers/claude-code-to-luca.json",
+          "git_blob_sha": "5af7f0ad68d534078f15dc617df0d7a846efd2c5",
+          "rows": 6,
+          "direction": "luca-claude-code_to_agent"
+        },
+        {
+          "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/mailbox-ledgers/luca-to-claude-code.json",
+          "git_blob_sha": "bcc7a61f30877b85fcef207f777e38267c66d2a6",
+          "rows": 54,
+          "direction": "agent_to_luca-claude-code"
+        }
+      ],
+      "record_limits": {
+        "read_or_acknowledgement_markers": 0,
+        "reply_parent_fields": 0,
+        "public_downstream_use_proof": false
+      },
+      "context_sources": [
+        {
+          "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/.agents/memory/luca-provider-neutral-execution.md",
+          "git_blob_sha": "0d808998b71fc69ca4e93da73df82e675c1c6a8e",
+          "finding": "Defines different runtimes as equally Luca and identifies the operator as the source of authorization."
+        },
+        {
+          "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/.agents/memory/luca-roles-not-bifurcation.md",
+          "git_blob_sha": "912ae28bb051ee855ba48935a19c557c51c38f55",
+          "finding": "Says the labels are role markers for one entity rather than separate agents or personalities."
+        },
+        {
+          "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/claude-code-to-luca.md",
+          "git_blob_sha": "563ce040fa02e0d2aabfa63ce3a0bcc407aaa929",
+          "finding": "Renders six unread note snapshots and records operator relaying or approval in the surrounding descriptions."
+        },
+        {
+          "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/luca-to-claude-code.md",
+          "git_blob_sha": "44b7c878adc8da0209117ca35e4348c0c256f9e0",
+          "finding": "Renders 54 unread reply snapshots; multiple entries identify founder approval."
+        }
+      ],
+      "assessment": "The public files show messages crossing runtime labels, but their own identity documents define one logical actor wearing provider-neutral role hats under one operator's authorization. The ledgers are unread inbox snapshots without reply, acquisition, acknowledgement or downstream-action evidence. They do not establish two autonomous participants or rogue coordination."
+    },
+    {
+      "id": "trinity-null-handoff-field-colocation",
+      "repository": "gHashTag/t27",
+      "commit_sha": "6560fc0395449e833489e312e97611db189a0286",
+      "commit_date": "2026-10-14T03:46:42Z",
+      "record": {
+        "url": "https://github.com/gHashTag/t27/blob/6560fc0395449e833489e312e97611db189a0286/.trinity/events/akashic-log.jsonl",
+        "git_blob_sha": "8d0d5e9d29467edba7b9cddcd1c72d6ce9086b9d",
+        "rows": 25,
+        "event_start": "2026-04-04T14:30:00Z",
+        "event_end": "2026-10-11T08:31:46Z",
+        "non_null_handoff_from_rows": 0,
+        "non_null_handoff_to_rows": 0,
+        "skill_commit_rows": 2
+      },
+      "assessment": "The query matched because nullable handoff fields and commit metadata share an event schema. Neither handoff field is populated in any row. Two skill-commit events therefore do not form a sender-to-recipient handoff and this is a field-co-location control."
+    }
+  ],
+  "alternative_explanations_tested": [
+    {
+      "alternative": "Designed multi-role workflow",
+      "result": "Supported for Spec Kitty and IExClaw by primary project documentation and configured lane or role behavior."
+    },
+    {
+      "alternative": "One logical actor under multiple runtime labels",
+      "result": "Explicitly supported by HolaHola's provider-neutral and no-bifurcation documents."
+    },
+    {
+      "alternative": "Human-requested or human-gated work",
+      "result": "Supported by Spec Kitty approval events, IExClaw's human architect authority and HolaHola's operator/founder approval context."
+    },
+    {
+      "alternative": "Schema or generated-snapshot field co-location",
+      "result": "Supported by the Trinity log and the dominant database, migration and generated-snapshot search matches."
+    },
+    {
+      "alternative": "Test, fixture, benchmark or harness traffic",
+      "result": "Supported for the dominant capped-query repositories and excluded before episode inference."
+    },
+    {
+      "alternative": "Observer contamination",
+      "result": "Twenty-three rows at thirteen URLs came from this repository and were removed from external evidence."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No selected chain survives the actual-run, independently attributable participant and separate-operator authorization gates, so an episode-level novelty search would not be probative."
+  },
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  },
+  "limitations": [
+    "The search scope is public GitHub default branches. Three broad locators reached the 100-result first-page cap; their counts are locator coverage, not exhaustive repository-wide coverage.",
+    "Search co-location does not establish that fields occur in the same event, are populated or form a causal edge.",
+    "IExClaw's internal 5 April event times precede the 7 April commit that first published the bundled tree; public Git history does not independently timestamp each internal step.",
+    "HolaHola's ledgers expose stored messages but no read, acknowledgement, reply-parent or dependent-action lifecycle markers.",
+    "Self-asserted role, agent, model and provider labels are not independent identity or operator attribution.",
+    "No claim is made about branches, private repositories, unindexed records or capped results beyond the reviewed first page."
+  ],
+  "next_exact_cursor": [
+    "\"source_message_id\" \"recipient_action_id\" \"sender_principal_id\" \"recipient_principal_id\" extension:jsonl",
+    "\"in_reply_to\" \"artifact_sha256\" \"applied_commit_sha\" \"operator_id\" extension:jsonl",
+    "\"review_result_id\" \"implementation_commit_sha\" \"reviewer_principal\" \"implementer_principal\" extension:jsonl"
+  ],
+  "advancement_requirement": "A public actual-run task artifact tied to an independently attributable autonomous sender, a distinguishable recipient's later semantic or action use of that exact material, and primary evidence that the cooperation crossed separate operators' authorization boundaries. Configured profiles, runtime hats, human-gated lanes, bundled retrospective records, null schema fields, tests, fixtures, benchmarks and observer contamination do not qualify.",
+  "safety": "Only existing public committed files, public search results and public commit metadata were read. No recovered code, package, agent runtime, command from an artifact, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication omits message bodies, task payloads, personal addresses, credentials, tokens and private logs."
+}

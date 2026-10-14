@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-14T01:38:48Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "global_default_branch_queries": 25,
+    "global_search_result_row_occurrences": 32,
+    "global_self_result_row_occurrences": 3,
+    "global_external_result_row_occurrences": 29,
+    "global_distinct_self_result_urls": 2,
+    "global_distinct_external_result_urls": 21,
+    "global_distinct_external_repositories": 4,
+    "global_zero_result_queries": 11,
+    "global_capped_queries": 0,
+    "transient_query_failures_retried_successfully": 1,
+    "selected_external_record_files_read": 3,
+    "selected_external_schema_paths_screened_by_search_excerpt": 17,
+    "generating_schema_or_context_files_read": 10,
+    "pinned_commit_records_read": 7,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search used only to locate committed records; selected record, schema, project-context and applied-commit evidence was then read at pinned commits",
+  "observed_at": "2026-10-14T01:38:48Z",
+  "queries": [
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" \"adopted_at\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_71"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"result_message_id\" \"downstream_action_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_71"
+    },
+    {
+      "query": "\"sender_principal\" \"recipient_principal\" \"artifact_hash\" \"applied_commit\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_71"
+    },
+    {
+      "query": "\"result_message_id\" \"applied_commit\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"source_message_id\" \"applied_commit\" extension:json",
+      "returned_rows": 17
+    },
+    {
+      "query": "\"input_artifact_sha256\" \"output_commit\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"artifact_sha256\" \"applied_commit\" \"agent_id\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"produced_by_agent\" \"consumed_by_agent\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"sender_principal\" \"recipient_principal\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"commit_sha\" \"reply_to\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"origin_message_id\" \"consumed_at\" \"action_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"applied_commit\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"result_message_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"downstream_action_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"consumed_artifact_id\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"consumed_handoff_ids\" \"from_agent\" \"to_agent\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"consumed_handoff_ids\" \"produced_handoff_ids\" extension:jsonl",
+      "returned_rows": 1,
+      "note": "One transient connector failure was retried successfully; this successful result is counted once."
+    },
+    {
+      "query": "\"consumed_artifact_ids\" \"proof_artifacts\" \"handoffs\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"parent_receipt_keys\" \"consumed_handoff_ids\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"applied_commit\" extension:jsonl",
+      "returned_rows": 2
+    },
+    {
+      "query": "\"accepted_result_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"consumed_handoff_ids\" \"from_agent\" \"to_agent\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"consumed_handoff_ids\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"produced_handoff_ids\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"applied_commit_sha\" \"recommendation_id\" extension:jsonl",
+      "returned_rows": 2
+    }
+  ],
+  "result_accounting": {
+    "self_repository_rows": {
+      "row_occurrences": 3,
+      "distinct_urls": 2,
+      "assessment": "Observer contamination: two queries rediscovered the Pass 71 assessment and one rediscovered an earlier assessment. They are excluded from external evidence."
+    },
+    "external_rows": {
+      "row_occurrences": 29,
+      "distinct_urls": 21,
+      "breakdown": [
+        {
+          "family": "Agentic Company OS generated database snapshots",
+          "row_occurrences": 17,
+          "distinct_urls": 17
+        },
+        {
+          "family": "agent-consistency generated receipt sample",
+          "row_occurrences": 5,
+          "distinct_urls": 1
+        },
+        {
+          "family": "agent-consistency receipt schema",
+          "row_occurrences": 3,
+          "distinct_urls": 1
+        },
+        {
+          "family": "ELV and dircue recommendation ledgers",
+          "row_occurrences": 4,
+          "distinct_urls": 2
+        }
+      ]
+    }
+  },
+  "selected_families": [
+    {
+      "id": "agent-consistency-generated-handoff-sample",
+      "repository": "karimbaidar/agent-consistency",
+      "commit_sha": "a9e047e990609830d7b3ab0a0c94743fc9cc3046",
+      "commit_date": "2026-06-26T23:10:25Z",
+      "record": {
+        "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/docs/samples/pending-refund-receipts.jsonl",
+        "git_blob_sha": "9779bf656cac024eeb62eef6f3a0c2b5316c1d6f",
+        "rows": 7,
+        "event_start": "2026-06-25T23:06:05+00:00",
+        "event_end": "2026-06-25T23:06:05+00:00"
+      },
+      "causal_chain": [
+        {
+          "step": 1,
+          "action": "state_read",
+          "actor_label": "workflow-agent"
+        },
+        {
+          "step": 2,
+          "action": "handoff_sent",
+          "actor_label": "workflow-agent",
+          "recipient_label": "refund-agent",
+          "produced_handoff_ids": 1
+        },
+        {
+          "step": 3,
+          "action": "handoff_checked",
+          "actor_label": "refund-agent",
+          "consumed_exact_preceding_handoff_id": true,
+          "parent_receipt_points_to_step_2": true
+        },
+        {
+          "step": 4,
+          "action": "tool_call",
+          "actor_label": "refund-agent"
+        },
+        {
+          "step": 5,
+          "action": "tool_response",
+          "actor_label": "refund-agent"
+        },
+        {
+          "step": 6,
+          "action": "outcome_verify",
+          "actor_label": "reliability-layer"
+        },
+        {
+          "step": 7,
+          "action": "decision_blocked",
+          "actor_label": "reliability-layer",
+          "status": "failed"
+        }
+      ],
+      "context_sources": [
+        {
+          "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/README.md",
+          "git_blob_sha": "2b37ec34cbda5c09e9b3dcf5526e36ad227613ac",
+          "finding": "Calls this a generated pending-refund receipt sample and describes a deterministic reliability-layer demonstration."
+        },
+        {
+          "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/docs/receipts.md",
+          "git_blob_sha": "44a703b9e23ed9ca7b5105c172b787c47b7fe412",
+          "finding": "Describes receipts as a flight recorder rather than formal proof of authorship and says the pending-refund sample is deliberately blocked."
+        },
+        {
+          "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/docs/production.md",
+          "git_blob_sha": "65c365563d0760a2aec2ad3c4af4e190145261ad",
+          "finding": "Documents local in-memory or JSONL stores and deterministic outcome-verifier examples."
+        },
+        {
+          "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/src/agent_consistency/schemas/receipt.schema.json",
+          "git_blob_sha": "c3565e07d3ac249282e3cb3848313f38f1c7f557",
+          "finding": "Defines the receipt and handoff fields found by the locator queries."
+        }
+      ],
+      "assessment": "This is the strongest field-level causal dependency in the pass: one role produces a handoff, another consumes the exact ID, and a later tool step follows. The repository itself identifies the seven rows as a generated deterministic sample. Labels are local designed roles, no independent operators are identified, and the provider response is sample data rather than corroborated external activity. It is a positive causal-use control, not an observed rogue episode."
+    },
+    {
+      "id": "agentic-company-os-schema-colocation",
+      "repository": "halittayyar0/Agentic-Company-OS",
+      "commit_sha": "ba9af4a54f764a7c8e7b68793970b9f8bac3940c",
+      "commit_date": "2026-10-12T04:28:29Z",
+      "generated_snapshot_paths": {
+        "count": 17,
+        "range": "lib/db/src/generated-sql/meta/0029_snapshot.json through 0045_snapshot.json",
+        "read_level": "path and search excerpt",
+        "finding": "Each generated whole-database snapshot contains both field names in separate table definitions; no populated event row is shown."
+      },
+      "source_files": [
+        {
+          "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/schema/runtime-operations.ts",
+          "git_blob_sha": "6ad9564193f4bc354e2340cfef765afb91845e4b",
+          "finding": "source_message_id is an optional operation_receipts foreign key used for chat_turn receipts."
+        },
+        {
+          "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/schema/source-changes.ts",
+          "git_blob_sha": "d2f6ae2f0df10ceb9b270039ff8402678601ca6f",
+          "finding": "applied_commit is a nullable column in the separate source_changes table."
+        },
+        {
+          "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/generated-sql/0029_source_changes.sql",
+          "git_blob_sha": "b2b3f04b80a139f6db691dc14f4be430dcaa16d9",
+          "finding": "Creates the source_changes schema; it contains no event values and no source-message link."
+        },
+        {
+          "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/README.md",
+          "git_blob_sha": "10df0023a7e2b8b8a0fa40fd9409cbe45f99382a",
+          "finding": "Describes a private workspace for one operator and an intentionally designed agent/tool/task system."
+        }
+      ],
+      "assessment": "The apparent message-to-applied-commit combination is generated schema co-location. The fields belong to different tables, the snapshots contain definitions rather than populated records, and the project context is a deliberate one-operator orchestration product. There is no sender artifact, recipient use event or cross-operator boundary."
+    },
+    {
+      "id": "applied-recommendation-ledgers",
+      "records": [
+        {
+          "repository": "treygoff24/elv",
+          "repository_commit_sha": "e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb",
+          "repository_commit_date": "2026-10-07T19:20:23Z",
+          "url": "https://github.com/treygoff24/elv/blob/e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb/agent_ergonomics_audit/audit/recommendations.jsonl",
+          "git_blob_sha": "e850af90ebd791a6cbaf5c2a8cce8a678e3bc386",
+          "rows": 8,
+          "recommendations_applied": 7,
+          "recommendations_deferred": 1,
+          "created_at": "2026-10-07T18:22:47.105Z",
+          "applied_at": "2026-10-07T18:47:59.192Z",
+          "applied_commit": {
+            "sha": "6b6302a1af7ee91aa273798db5d8bf9f719484ab",
+            "date": "2026-10-07T18:47:13Z",
+            "url": "https://github.com/treygoff24/elv/commit/6b6302a1af7ee91aa273798db5d8bf9f719484ab",
+            "title": "Update ElevenLabs API coverage and agent workflows"
+          },
+          "context": {
+            "url": "https://github.com/treygoff24/elv/blob/e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb/agent_ergonomics_audit/README.md",
+            "git_blob_sha": "a0667118578f7b0a0ce90f179695c97f14118331",
+            "finding": "Defines an in-tree October implementation-pass audit workspace, reviewer judgments and links to the lead's integration commit."
+          }
+        },
+        {
+          "repository": "war-and-code/dircue",
+          "repository_commit_sha": "ac21c84a6dda03497aad7b45e11c3520d90467c4",
+          "repository_commit_date": "2026-10-07T15:59:19Z",
+          "url": "https://github.com/war-and-code/dircue/blob/ac21c84a6dda03497aad7b45e11c3520d90467c4/tests/ergonomics_v100/audit/recommendations.jsonl",
+          "git_blob_sha": "a40c6abbd30aee6c53c0cb61bc90a287771f1f1f",
+          "rows": 11,
+          "recommendations_applied": 11,
+          "recommendations_deferred": 0,
+          "event_start": "2026-09-21T23:06:02.972569+00:00",
+          "event_end": "2026-09-22T00:16:07.986058+00:00",
+          "applied_commits": [
+            {
+              "sha": "3ef39619f1867b645a74961676e1301d06f98fea",
+              "date": "2026-09-21T23:38:51Z",
+              "url": "https://github.com/war-and-code/dircue/commit/3ef39619f1867b645a74961676e1301d06f98fea",
+              "title": "feat(cli): add offline reference and safer command guidance",
+              "recommendation_rows": 10
+            },
+            {
+              "sha": "a7aa7ef1d3187bbf67696038d3f044b70e403c8e",
+              "date": "2026-09-22T00:15:29Z",
+              "url": "https://github.com/war-and-code/dircue/commit/a7aa7ef1d3187bbf67696038d3f044b70e403c8e",
+              "title": "fix(cli): escape terminal controls in final diagnostics",
+              "recommendation_rows": 1
+            }
+          ],
+          "context": {
+            "url": "https://github.com/war-and-code/dircue/blob/ac21c84a6dda03497aad7b45e11c3520d90467c4/tests/ergonomics_v100/README.md",
+            "git_blob_sha": "cf25809c70f53cd1a815bed856405cd11c563326",
+            "finding": "Defines a deliberate CLI usability pass with evidence-backed judgments and regression checks in the same repository and branch as implementation."
+          }
+        }
+      ],
+      "assessment": "Both ledgers preserve real recommendation-to-commit bookkeeping, and the named commits exist with matching implementation subjects. They do not identify an autonomous producer and autonomous consumer, a transferred artifact acquired by the latter or separate operator provenance. Their own context defines deliberate in-repository audit passes. They are applied-work controls, not evidence of rogue coordination."
+    }
+  ],
+  "falsification_tests": [
+    {
+      "alternative": "A real autonomous sender transferred a result that another autonomous recipient used",
+      "result": "Not established. The only exact handoff-consumption chain is explicitly a generated deterministic sample; the audit rows do not identify autonomous sender and recipient trajectories."
+    },
+    {
+      "alternative": "The message and applied-commit fields form one causal record",
+      "result": "Rejected. They are definitions in different tables copied into generated whole-database snapshots, not values in a populated event row."
+    },
+    {
+      "alternative": "Applied recommendation ledgers prove agent-to-agent adoption",
+      "result": "Rejected. They prove that audit recommendations were associated with implementation commits, but preserve no autonomous sender identity, recipient acquisition event or operator separation."
+    },
+    {
+      "alternative": "Distinct role labels prove distinct operators",
+      "result": "Rejected. agent-consistency labels are local actors in a generated sample; Agentic Company OS documents one private operator workspace; the audit workspaces are in-tree project processes."
+    },
+    {
+      "alternative": "A successful-looking tool response proves external action",
+      "result": "Rejected. The sample's local verifier deliberately blocks the outcome, and project documentation identifies the record as generated demonstration data."
+    },
+    {
+      "alternative": "Repeated search rows indicate multiple episodes",
+      "result": "Rejected. Five queries hit the same sample, three hit the same schema and two query pairs hit the same two audit ledgers. Search-row occurrences are not participant or episode counts."
+    }
+  ],
+  "evidence_classification": {
+    "original_public_observations": "One generated seven-receipt causal chain, seventeen generated database-schema snapshots, one receipt schema and two applied-recommendation ledgers at pinned public commits",
+    "verified_autonomous_participants": 0,
+    "verified_cross_operator_transfer_use_edges": 0,
+    "subjective_rogue_intent_evidence": "none",
+    "provider_attribution": "none",
+    "current_activity": "not established",
+    "checkpoint": "zero confirmed previously unreported rogue swarms"
+  },
+  "novelty_check": {
+    "status": "not_warranted",
+    "reason": "No record survives the real-run, independently attributable participant and separate-operator authorization gates. Search was used to locate the primary records, not to claim novelty."
+  },
+  "limitations": [
+    "Default-branch code search is index-dependent and does not cover deleted, private, unindexed or non-default-branch records.",
+    "The seventeen Agentic Company OS snapshot matches were screened by path and exact excerpts; the source schema files were read in full, but the generated snapshots were not treated as event corpora.",
+    "Receipt labels and audit metadata are assertions made by their repositories; they are not independent identity or authorship proofs.",
+    "No recovered code, package, verifier, agent runtime, tool, audit workflow or target system was executed or contacted.",
+    "No claim is made that the absence of a qualifying record in this bounded query vocabulary establishes global absence."
+  ],
+  "advance_requirements": [
+    "A public actual-run sender record containing a task result or content-addressed artifact, not a schema, fixture, generated sample or audit plan",
+    "A later public recipient record that cites, acquires and semantically uses that exact material in a downstream action or applied commit",
+    "Independent provenance for the autonomous sender and recipient trajectories",
+    "Primary evidence that the cooperation crossed an operator-defined authorization boundary",
+    "A scoped prior-reporting check only after those four conditions are met"
+  ],
+  "next_cursor": {
+    "queries": [
+      "\"consumed_handoff_ids\" \"applied_commit_sha\" \"from_agent\" \"to_agent\" extension:jsonl",
+      "\"source_receipt_id\" \"artifact_digest\" \"applied_commit_sha\" extension:jsonl",
+      "\"producer_principal_id\" \"consumer_principal_id\" \"result_digest\" \"action_receipt_id\" extension:jsonl"
+    ],
+    "reject_first": [
+      "this repository's indexed assessments",
+      "the agent-consistency generated pending-refund sample and receipt schema",
+      "Agentic Company OS generated schema snapshots",
+      "ELV and dircue deliberate audit ledgers",
+      "designed orchestration, tests, fixtures, benchmarks and documentation"
+    ],
+    "scanner_backlog": "Paused at 853 of 1,146 successful original inspections; the 293-record remainder remains known-family-controlled pending a source-level cue that could distinguish a new episode."
+  }
+}

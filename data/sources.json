@@ -3097,6 +3097,179 @@
       "git_blob_sha": "f2deabe1c970b74d1c594a20d1176fb8fcb1958d",
       "commit_sha": "69deb7514068028c2b833a872e4fd811fa01b99f",
       "commit_date": "2026-01-04T19:15:45Z"
+    },
+    {
+      "id": "original-agent-consistency-pending-refund-receipts",
+      "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/docs/samples/pending-refund-receipts.jsonl",
+      "role": "Primary seven-row generated sample preserving one exact produced and consumed handoff followed by local tool and outcome-verification steps",
+      "published": "2026-06-26",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "event_start": "2026-06-25T23:06:05+00:00",
+      "event_end": "2026-06-25T23:06:05+00:00",
+      "git_blob_sha": "9779bf656cac024eeb62eef6f3a0c2b5316c1d6f",
+      "commit_sha": "a9e047e990609830d7b3ab0a0c94743fc9cc3046",
+      "commit_date": "2026-06-26T23:10:25Z"
+    },
+    {
+      "id": "original-agent-consistency-project-context",
+      "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/README.md",
+      "role": "Primary project context identifying the pending-refund receipt file as a generated deterministic sample",
+      "published": "2026-06-26",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "2b37ec34cbda5c09e9b3dcf5526e36ad227613ac",
+      "commit_sha": "a9e047e990609830d7b3ab0a0c94743fc9cc3046",
+      "commit_date": "2026-06-26T23:10:25Z"
+    },
+    {
+      "id": "original-agent-consistency-receipt-context",
+      "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/docs/receipts.md",
+      "role": "Primary context describing receipts as flight-recorder evidence rather than formal authorship proof and the selected sample as deliberately blocked",
+      "published": "2026-06-26",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "44a703b9e23ed9ca7b5105c172b787c47b7fe412",
+      "commit_sha": "a9e047e990609830d7b3ab0a0c94743fc9cc3046",
+      "commit_date": "2026-06-26T23:10:25Z"
+    },
+    {
+      "id": "original-agent-consistency-production-context",
+      "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/docs/production.md",
+      "role": "Primary context documenting local in-memory or JSONL stores and deterministic outcome-verifier examples",
+      "published": "2026-06-26",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "65c365563d0760a2aec2ad3c4af4e190145261ad",
+      "commit_sha": "a9e047e990609830d7b3ab0a0c94743fc9cc3046",
+      "commit_date": "2026-06-26T23:10:25Z"
+    },
+    {
+      "id": "original-agent-consistency-receipt-schema",
+      "url": "https://github.com/karimbaidar/agent-consistency/blob/a9e047e990609830d7b3ab0a0c94743fc9cc3046/src/agent_consistency/schemas/receipt.schema.json",
+      "role": "Primary schema defining the receipt and handoff fields found by the immutable-record locators",
+      "published": "2026-06-26",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "c3565e07d3ac249282e3cb3848313f38f1c7f557",
+      "commit_sha": "a9e047e990609830d7b3ab0a0c94743fc9cc3046",
+      "commit_date": "2026-06-26T23:10:25Z"
+    },
+    {
+      "id": "original-agentic-company-os-operation-receipts-schema",
+      "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/schema/runtime-operations.ts",
+      "role": "Primary schema source placing source_message_id in operation receipts as the optional chat-turn source",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "6ad9564193f4bc354e2340cfef765afb91845e4b",
+      "commit_sha": "ba9af4a54f764a7c8e7b68793970b9f8bac3940c",
+      "commit_date": "2026-10-12T04:28:29Z"
+    },
+    {
+      "id": "original-agentic-company-os-source-changes-schema",
+      "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/schema/source-changes.ts",
+      "role": "Primary schema source placing applied_commit in the separate source_changes table",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "d2f6ae2f0df10ceb9b270039ff8402678601ca6f",
+      "commit_sha": "ba9af4a54f764a7c8e7b68793970b9f8bac3940c",
+      "commit_date": "2026-10-12T04:28:29Z"
+    },
+    {
+      "id": "original-agentic-company-os-source-changes-migration",
+      "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/generated-sql/0029_source_changes.sql",
+      "role": "Primary generated migration defining source_changes without event values or a source-message link",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "b2b3f04b80a139f6db691dc14f4be430dcaa16d9",
+      "commit_sha": "ba9af4a54f764a7c8e7b68793970b9f8bac3940c",
+      "commit_date": "2026-10-12T04:28:29Z"
+    },
+    {
+      "id": "original-agentic-company-os-generated-schema-snapshot-0029",
+      "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/lib/db/src/generated-sql/meta/0029_snapshot.json",
+      "role": "Representative generated whole-database snapshot co-locating source_message_id and applied_commit definitions from separate tables",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "9f354bc89180c6471b0d90d9b031e770f82b243f",
+      "commit_sha": "ba9af4a54f764a7c8e7b68793970b9f8bac3940c",
+      "commit_date": "2026-10-12T04:28:29Z"
+    },
+    {
+      "id": "original-agentic-company-os-project-context",
+      "url": "https://github.com/halittayyar0/Agentic-Company-OS/blob/ba9af4a54f764a7c8e7b68793970b9f8bac3940c/README.md",
+      "role": "Primary project context describing a deliberately designed private agent workspace for one operator",
+      "published": "2026-10-12",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "10df0023a7e2b8b8a0fa40fd9409cbe45f99382a",
+      "commit_sha": "ba9af4a54f764a7c8e7b68793970b9f8bac3940c",
+      "commit_date": "2026-10-12T04:28:29Z"
+    },
+    {
+      "id": "original-elv-ergonomics-recommendations",
+      "url": "https://github.com/treygoff24/elv/blob/e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb/agent_ergonomics_audit/audit/recommendations.jsonl",
+      "role": "Primary eight-row recommendation ledger linking seven applied audit recommendations to one integration commit",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "event_start": "2026-10-07T18:22:47.105Z",
+      "event_end": "2026-10-07T18:47:59.192Z",
+      "git_blob_sha": "e850af90ebd791a6cbaf5c2a8cce8a678e3bc386",
+      "commit_sha": "e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb",
+      "commit_date": "2026-10-07T19:20:23Z"
+    },
+    {
+      "id": "original-elv-ergonomics-audit-context",
+      "url": "https://github.com/treygoff24/elv/blob/e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb/agent_ergonomics_audit/README.md",
+      "role": "Primary context defining the recommendation ledger as an in-tree implementation-pass audit workspace",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "a0667118578f7b0a0ce90f179695c97f14118331",
+      "commit_sha": "e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb",
+      "commit_date": "2026-10-07T19:20:23Z"
+    },
+    {
+      "id": "original-elv-applied-integration-commit",
+      "url": "https://github.com/treygoff24/elv/commit/6b6302a1af7ee91aa273798db5d8bf9f719484ab",
+      "role": "Primary public commit corroborating the implementation target named by seven recommendation rows",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "commit_sha": "6b6302a1af7ee91aa273798db5d8bf9f719484ab",
+      "commit_date": "2026-10-07T18:47:13Z"
+    },
+    {
+      "id": "original-dircue-ergonomics-recommendations",
+      "url": "https://github.com/war-and-code/dircue/blob/ac21c84a6dda03497aad7b45e11c3520d90467c4/tests/ergonomics_v100/audit/recommendations.jsonl",
+      "role": "Primary eleven-row recommendation ledger linking a deliberate CLI audit to two implementation commits",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "event_start": "2026-09-21T23:06:02.972569+00:00",
+      "event_end": "2026-09-22T00:16:07.986058+00:00",
+      "git_blob_sha": "a40c6abbd30aee6c53c0cb61bc90a287771f1f1f",
+      "commit_sha": "ac21c84a6dda03497aad7b45e11c3520d90467c4",
+      "commit_date": "2026-10-07T15:59:19Z"
+    },
+    {
+      "id": "original-dircue-ergonomics-audit-context",
+      "url": "https://github.com/war-and-code/dircue/blob/ac21c84a6dda03497aad7b45e11c3520d90467c4/tests/ergonomics_v100/README.md",
+      "role": "Primary context defining a deliberate same-repository CLI usability pass with evidence-backed judgments and regression checks",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "git_blob_sha": "cf25809c70f53cd1a815bed856405cd11c563326",
+      "commit_sha": "ac21c84a6dda03497aad7b45e11c3520d90467c4",
+      "commit_date": "2026-10-07T15:59:19Z"
+    },
+    {
+      "id": "original-dircue-applied-guidance-commit",
+      "url": "https://github.com/war-and-code/dircue/commit/3ef39619f1867b645a74961676e1301d06f98fea",
+      "role": "Primary public commit corroborating the implementation target named by ten recommendation rows",
+      "published": "2026-09-21",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "commit_sha": "3ef39619f1867b645a74961676e1301d06f98fea",
+      "commit_date": "2026-09-21T23:38:51Z"
+    },
+    {
+      "id": "original-dircue-applied-diagnostics-commit",
+      "url": "https://github.com/war-and-code/dircue/commit/a7aa7ef1d3187bbf67696038d3f044b70e403c8e",
+      "role": "Primary public commit corroborating the implementation target named by the final recommendation row",
+      "published": "2026-09-22",
+      "observed_at": "2026-10-14T01:38:48Z",
+      "commit_sha": "a7aa7ef1d3187bbf67696038d3f044b70e403c8e",
+      "commit_date": "2026-09-22T00:15:29Z"
     }
   ]
 }

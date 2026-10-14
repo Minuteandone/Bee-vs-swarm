@@ -3575,6 +3575,130 @@
       "git_blob_sha": "5af5fecf43a50211b1b9ce2db8118afc9c70f725",
       "commit_sha": "5e12dc9e48f62331c6cc00cf2c20fa25b125926b",
       "commit_date": "2026-10-13T21:15:52Z"
+    },
+    {
+      "id": "original-kasiro-dcp-subagent-result-use",
+      "url": "https://github.com/kasiro/opencode-config/blob/48ad0452e703a1a4146e560a7e1f9664402a3806/logs/dcp/context/ses_052bf9eaaffe6BcaF7SLIVc8ci/2026-07-29T11-20-22-993Z.json",
+      "role": "Primary cumulative session preserving child-result receipt and explicit parent use inside a human-requested workflow",
+      "published": "2026-08-17",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "event_start": "2026-07-29T09:41:45.614Z",
+      "event_end": "2026-07-29T11:20:09.154Z",
+      "git_blob_sha": "f74a5c84c9d4114682d8c15df48bf74babeaac22",
+      "commit_sha": "48ad0452e703a1a4146e560a7e1f9664402a3806",
+      "commit_date": "2026-09-18T11:09:44Z",
+      "first_public_file_commit_sha": "4c9d1ed09b73754f81dcdbea947abeef928742e4",
+      "first_public_file_commit_date": "2026-08-17T18:08:18Z"
+    },
+    {
+      "id": "original-kasiro-subagent-manager-context",
+      "url": "https://github.com/kasiro/opencode-config/blob/48ad0452e703a1a4146e560a7e1f9664402a3806/plugins/subagent-manager.README.md",
+      "role": "Primary project context defining intentionally launched parent-linked general and explore subagents",
+      "published": "2026-09-18",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "1a2edbdfd685f9b1191126d369c8dec8a07bcebe",
+      "commit_sha": "48ad0452e703a1a4146e560a7e1f9664402a3806",
+      "commit_date": "2026-09-18T11:09:44Z"
+    },
+    {
+      "id": "original-omo-pulse-wake-awaiting-output",
+      "url": "https://github.com/EZotoff/omo-pulse/blob/069a2d4c7a964ce09951477617fefcfe408fea37/.omo/run-continuation/wakes/35787139-9bc1-4173-b481-d57757c78c62.json",
+      "role": "Primary persisted wake naming reported child-task completion but ending before output delivery or recipient use",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "event_start": "2026-09-28T14:51:16.268Z",
+      "event_end": "2026-09-28T14:51:22.873Z",
+      "git_blob_sha": "394dcb070deb62892d0e0b52af0fdd18fcfe7d16",
+      "commit_sha": "069a2d4c7a964ce09951477617fefcfe408fea37",
+      "commit_date": "2026-10-13T17:49:22Z"
+    },
+    {
+      "id": "original-omo-pulse-monitoring-context",
+      "url": "https://github.com/EZotoff/omo-pulse/blob/069a2d4c7a964ce09951477617fefcfe408fea37/README.md",
+      "role": "Primary project context describing a dashboard for intentionally launched sessions and background tasks",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "0563ed09cc1e4b92a40cdb12476831d9d4e0934d",
+      "commit_sha": "069a2d4c7a964ce09951477617fefcfe408fea37",
+      "commit_date": "2026-10-13T17:49:22Z"
+    },
+    {
+      "id": "original-voe-cumulative-background-command-log",
+      "url": "https://github.com/lawless-m/VoE/blob/a6df582bacf70a4c209227257e5355009a02d415/.devlog/2026-01-11-202135-4c4a6341.json",
+      "role": "Primary cumulative single-session log of background shell-command completion notices and later output interpretation",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "event_start": "2026-01-11T11:13:03.386Z",
+      "event_end": "2026-01-11T20:21:34.446Z",
+      "git_blob_sha": "14749097f7ac3cc85ee053c094997ae36a5f4eef",
+      "commit_sha": "a6df582bacf70a4c209227257e5355009a02d415",
+      "commit_date": "2026-10-07T08:24:01Z"
+    },
+    {
+      "id": "original-voe-project-context",
+      "url": "https://github.com/lawless-m/VoE/blob/a6df582bacf70a4c209227257e5355009a02d415/README.md",
+      "role": "Primary storage-project context for the human-guided development session",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "6332f24d280d295e4f5934261b3eb1da8921680b",
+      "commit_sha": "a6df582bacf70a4c209227257e5355009a02d415",
+      "commit_date": "2026-10-07T08:24:01Z"
+    },
+    {
+      "id": "original-100-tricks-d14-evidence",
+      "url": "https://github.com/sebuzdugan/100-tricks-lab/blob/c07b838a09e78784879b49f0a6e193f617a3368c/runs/d14/evidence.json",
+      "role": "Primary controlled-run evidence containing task-result language under a preregistered experiment",
+      "published": "2026-09-29",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "a03c456b30f067bea3d33acfe5c08577718529e8",
+      "commit_sha": "c07b838a09e78784879b49f0a6e193f617a3368c",
+      "commit_date": "2026-10-14T03:47:30Z",
+      "first_public_file_commit_sha": "552daca2920658735422f799b4049a81b91762c3",
+      "first_public_file_commit_date": "2026-09-29T14:21:04Z"
+    },
+    {
+      "id": "original-100-tricks-protocol",
+      "url": "https://github.com/sebuzdugan/100-tricks-lab/blob/c07b838a09e78784879b49f0a6e193f617a3368c/PROTOCOL.md",
+      "role": "Primary protocol defining controlled fresh-copy baseline and comparison runs with fixed tasks and grading",
+      "published": "2026-10-14",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "c03840acc80773d2c2332baa2fc8ea699f0ea052",
+      "commit_sha": "c07b838a09e78784879b49f0a6e193f617a3368c",
+      "commit_date": "2026-10-14T03:47:30Z"
+    },
+    {
+      "id": "original-sense-baseline-subagent-benchmark",
+      "url": "https://github.com/luuuc/sense/blob/0c907a2867ebf2d5f64c2faf38f9097369a98cc9/bench/verticals/ruby-rails/results/ollama-cloud_qwen3-coder-next/baseline/gitlabhq/run-1/transcript.json",
+      "role": "Primary baseline benchmark transcript containing one designed subagent task and result",
+      "published": "2026-06-27",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "648c071937430a640bfb698d54b469441d437fdf",
+      "commit_sha": "0c907a2867ebf2d5f64c2faf38f9097369a98cc9",
+      "commit_date": "2026-10-03T11:05:24Z",
+      "first_public_file_commit_sha": "d7a07cbf068151ab6f98bbc7c54aed5128f03a1d",
+      "first_public_file_commit_date": "2026-06-27T20:10:03Z"
+    },
+    {
+      "id": "original-sense-subagent-benchmark",
+      "url": "https://github.com/luuuc/sense/blob/0c907a2867ebf2d5f64c2faf38f9097369a98cc9/bench/verticals/ruby-rails/results/ollama-cloud_qwen3-coder-next/sense/gitlabhq/run-1/transcript.json",
+      "role": "Primary instrumented benchmark transcript containing three designed subagent task results",
+      "published": "2026-06-27",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "1991970bd51befaf3483c8feecd7178bcc75b053",
+      "commit_sha": "0c907a2867ebf2d5f64c2faf38f9097369a98cc9",
+      "commit_date": "2026-10-03T11:05:24Z",
+      "first_public_file_commit_sha": "d7a07cbf068151ab6f98bbc7c54aed5128f03a1d",
+      "first_public_file_commit_date": "2026-06-27T20:10:03Z"
+    },
+    {
+      "id": "original-sense-vertical-benchmark-context",
+      "url": "https://github.com/luuuc/sense/blob/0c907a2867ebf2d5f64c2faf38f9097369a98cc9/bench/verticals/README.md",
+      "role": "Primary context defining paired baseline-versus-Sense benchmark runs across controlled repositories and models",
+      "published": "2026-10-03",
+      "observed_at": "2026-10-14T11:29:52Z",
+      "git_blob_sha": "c27857f0af959fcafb3a61ed335e2e7c31079ef3",
+      "commit_sha": "0c907a2867ebf2d5f64c2faf38f9097369a98cc9",
+      "commit_date": "2026-10-03T11:05:24Z"
     }
   ]
 }

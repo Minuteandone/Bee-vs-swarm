@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-14T05:25:36Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "global_default_branch_query_strings": 30,
+    "initial_query_response_row_occurrences": 179,
+    "pagination_followup_rows": 20,
+    "reviewed_row_occurrences_after_pagination": 199,
+    "self_repository_row_occurrences": 28,
+    "external_row_occurrences": 171,
+    "distinct_self_result_urls": 12,
+    "distinct_external_result_urls": 171,
+    "distinct_external_repositories": 19,
+    "zero_result_queries": 18,
+    "capped_or_incomplete_queries": 1,
+    "selected_external_files_fetched_at_pinned_commits": 29,
+    "successful_commit_records_read": 16,
+    "unresolved_commit_records": 1,
+    "new_original_coordination_candidates": 0
+  },
+  "search_source": "Public GitHub default-branch code search was used only to locate committed records. Selected records, generating context, file histories and commit provenance were then read at pinned commits.",
+  "observed_at": "2026-10-14T05:25:36Z",
+  "queries": [
+    {
+      "query": "\"source_message_id\" \"recipient_action_id\" \"sender_principal_id\" \"recipient_principal_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_73"
+    },
+    {
+      "query": "\"in_reply_to\" \"artifact_sha256\" \"applied_commit_sha\" \"operator_id\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_73"
+    },
+    {
+      "query": "\"review_result_id\" \"implementation_commit_sha\" \"reviewer_principal\" \"implementer_principal\" extension:jsonl",
+      "returned_rows": 0,
+      "cursor_role": "resumed_from_pass_73"
+    },
+    {
+      "query": "\"source_message_id\" \"recipient_action_id\" extension:json",
+      "returned_rows": 1,
+      "self_rows": 1
+    },
+    {
+      "query": "\"source_message_id\" \"applied_commit_sha\" \"recipient_agent_id\" extension:json",
+      "returned_rows": 1,
+      "self_rows": 1
+    },
+    {
+      "query": "\"source_message_id\" \"commit_sha\" \"recipient_agent_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reply_to_message_id\" \"output_artifact_sha256\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reply_to_message_id\" \"applied_commit_sha\" extension:json",
+      "returned_rows": 1,
+      "self_rows": 1
+    },
+    {
+      "query": "\"accepted_message_id\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_message_sha256\" \"output_commit_sha\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"origin_message_id\" \"applied_commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_principal_id\" \"consumer_principal_id\" extension:json",
+      "returned_rows": 2,
+      "self_rows": 2
+    },
+    {
+      "query": "\"sender_operator_id\" \"recipient_operator_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_artifact_sha256\" \"downstream_action_id\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"result_artifact_sha256\" \"consumed_by\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"reply_to\" \"commit\" extension:json",
+      "first_page_rows": 100,
+      "first_page_self_rows": 7,
+      "total_count_at_first_observation": 114,
+      "pagination_followup_rows": 20,
+      "later_reported_total_count": 121,
+      "later_incomplete_results": true,
+      "page_7_rows": 0,
+      "note": "The index changed between observations. Six 20-row pages yielded 120 distinct repository/path records; a seventh page was empty while the incomplete search still reported 121. The possible one-row remainder is preserved as a cursor, not inferred."
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"in_reply_to\" \"commit_sha\" extension:json",
+      "returned_rows": 4,
+      "self_rows": 4
+    },
+    {
+      "query": "\"requested_by\" \"completed_by\" \"commit_sha\" \"agent\" extension:jsonl",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"delegated_by\" \"accepted_by\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"commit_sha\" extension:json",
+      "returned_rows": 10,
+      "self_rows": 10
+    },
+    {
+      "query": "\"reviewer_agent\" \"implementer_agent\" \"commit_sha\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"reviewed_by\" \"implemented_by\" \"commit_sha\" extension:json",
+      "returned_rows": 1
+    },
+    {
+      "query": "\"handoff\" \"accepted_by\" \"commit_sha\" \"agent\" extension:jsonl",
+      "returned_rows": 16
+    },
+    {
+      "query": "\"task_id\" \"from_agent\" \"to_agent\" \"result\" \"commit_sha\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_message_id\" \"applied_commit\" extension:json",
+      "returned_rows": 2,
+      "self_rows": 2
+    },
+    {
+      "query": "\"source_message_id\" \"result_commit\" extension:json",
+      "returned_rows": 39
+    },
+    {
+      "query": "\"recommendation_source\" \"applied_commit\" \"agent\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"originating_agent\" \"receiving_agent\" \"artifact\" extension:jsonl",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"request_message_id\" \"response_message_id\" \"commit_sha\" extension:json",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_artifact_sha\" \"output_commit_sha\" \"actor\" extension:jsonl",
+      "returned_rows": 0
+    }
+  ],
+  "result_accounting": {
+    "self_repository": {
+      "row_occurrences": 28,
+      "distinct_urls": 12,
+      "assessment": "Observer contamination from this repository's own published assessments; excluded from external evidence."
+    },
+    "broad_from_to_query_first_100": {
+      "self_repository": 7,
+      "agent_mail_fixtures": 2,
+      "openapi_schema": 1,
+      "room_database_schemas": 16,
+      "generated_knowledge_graph": 1,
+      "python_symbol_indexes": 73
+    },
+    "broad_from_to_query_page_6": {
+      "python_symbol_index": 1,
+      "legacy_schema_mapping_evidence": 2,
+      "drizzle_migration_snapshots": 9,
+      "openapi_schema": 1,
+      "static_repository_analysis_indexes": 2,
+      "database_allowlist": 1,
+      "localization_file": 1,
+      "retrospective_human_assistant_exchange_backfill": 1,
+      "test_or_conformance_fixtures": 2
+    },
+    "other_external_queries": {
+      "chora_coordination_event_log": 1,
+      "laneshadow_scheduler_state": 1,
+      "navigator_template": 1,
+      "agent_workbench_run_schema_or_event_files": 16,
+      "podium_generated_migration_snapshots": 39
+    }
+  },
+  "selected_families": [
+    {
+      "id": "chora-designed-cross-repository-coordination-ledger",
+      "repository": "liminalcommons/chora-base",
+      "pinned_commit_sha": "e94c41479f5392f976e65817bd3f856bda0f71f4",
+      "pinned_commit_date": "2025-11-25T10:27:25Z",
+      "record": {
+        "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/inbox/coordination/events.jsonl",
+        "git_blob_sha": "762d533594c92e2a80c2c108e96aa8e69ae2bf0a",
+        "rows": 55,
+        "parse_errors": 0,
+        "event_start": "2025-10-28T04:30:40Z",
+        "event_end": "2025-11-02T21:30:00Z",
+        "first_public_file_commit_sha": "c3ae4c485b004b054a7f6b828c7dc66aecfce9d3",
+        "first_public_file_commit_date": "2025-10-29T00:10:32Z"
+      },
+      "strongest_dependency": {
+        "request_id": "coord-003",
+        "accepted_at": "2025-10-30T21:01:05Z",
+        "from_repo": "chora-workspace",
+        "recipient_repo": "chora-base",
+        "completed_at": "2025-10-30T22:17:26Z",
+        "completed_by_label": "claude-code-sprint-1-2",
+        "implementation_commit_sha": "b71fc159898703bc246fddf32d07d72e5922fad7",
+        "implementation_commit_date": "2025-10-30T22:16:47Z",
+        "implementation_commit_exists": true,
+        "ledger_completion_commit_sha": "ebdaf2ef64582879022aab7b9cb8fdacbff1feac",
+        "ledger_completion_commit_date": "2025-10-30T22:18:24Z"
+      },
+      "additional_authorization_evidence": {
+        "human_requester_label": "Victor",
+        "human_approver_label": "Victor Piper",
+        "approved_coordination_id": "COORD-2025-004",
+        "linked_release_commit_sha": "ae33a27cd77662479979cdfa099575794d5885ed",
+        "linked_release_commit_date": "2025-11-02T01:59:41Z"
+      },
+      "context_sources": [
+        {
+          "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/inbox/coordination/README.md",
+          "git_blob_sha": "e928c64024f6d2876aaebb76c6c40e803b6be674",
+          "finding": "Defines a shared, append-only, multi-repository coordination infrastructure maintained inside the Chora ecosystem."
+        },
+        {
+          "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/inbox/INBOX_PROTOCOL.md",
+          "git_blob_sha": "06774a0e7f6f4d4189d84724711cf6a93b42ef19",
+          "finding": "Defines the git-native cross-repository intake, sprint, approval and implementation workflow as intended project infrastructure."
+        },
+        {
+          "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/AGENTS.md",
+          "git_blob_sha": "4fe31e618acbf8ab2a9d29f20625dceeadf6f3b3",
+          "finding": "Gives coding agents a machine-readable, human-approved project workflow."
+        }
+      ],
+      "assessment": "The ledger and commit history preserve a real request-to-implementation dependency. The apparent boundary is between repositories in one deliberately designed ecosystem, not independently attributable autonomous principals. Named human request and approval events further support authorized development. Repository labels and one completion label do not establish separate operators, so this is not rogue coordination."
+    },
+    {
+      "id": "laneshadow-implementer-completion-and-unfinished-review-dispatch",
+      "repository": "hackerpug-ai/LaneShadow-RN",
+      "pinned_commit_sha": "ce9a7654ff605d4e14885fac70b463e8b81f0324",
+      "pinned_commit_date": "2026-08-02T06:33:43Z",
+      "state_record": {
+        "url": "https://github.com/hackerpug-ai/LaneShadow-RN/blob/ce9a7654ff605d4e14885fac70b463e8b81f0324/.spec/prds/curation-hardening/tasks/sprint-06-quality-dedup-floor/.kb-run-sprint-state.json",
+        "git_blob_sha": "dccec751d5c6136425efdeb1b17cf1f388ee38d3",
+        "state_updated_at": "2026-04-19T02:00:56Z",
+        "first_public_file_commit_sha": "c17e6e2e5b6387a9e8c615e14a3baba18afcc6b0",
+        "first_public_file_commit_date": "2026-04-19T04:15:46Z"
+      },
+      "implementation_evidence": {
+        "task_id": "QUAL-001",
+        "status": "in_review",
+        "implementer_role": "python-implement",
+        "implementer_agent_id": "019da368-a25b-7870-9696-c47808bc1a18",
+        "activity_url": "https://github.com/hackerpug-ai/LaneShadow-RN/blob/ce9a7654ff605d4e14885fac70b463e8b81f0324/.spec/prds/curation-hardening/tasks/sprint-06-quality-dedup-floor/.kb-run-sprint-artifacts/QUAL-001/evidence/20260419T015717/bundle/activity.jsonl",
+        "activity_git_blob_sha": "63acee35df9e67591475d2c55b9a791fac9ac9e3",
+        "activity_rows": 13,
+        "activity_start": "2026-04-19T01:45:05Z",
+        "activity_end": "2026-04-19T01:52:38Z",
+        "files_changed_count": 5,
+        "recorded_commit_sha": "d418ba7a3e40719ce18eb40a4d8ed328d87be28c",
+        "recorded_commit_publicly_resolvable_at_observation": false
+      },
+      "review_evidence": {
+        "reviewer_role": "python-review",
+        "reviewer_agent_id": "019da378-1f4a-7b21-9100-304cd4a410f4",
+        "review_mode": "SINGLE",
+        "last_event": "reviewer_dispatched",
+        "next_action": "wait_reviewer",
+        "review_cycle_count": 1,
+        "review_result_records_located": 0,
+        "reviewer_feedback_records_located": 0,
+        "downstream_use_established": false
+      },
+      "role_plan": {
+        "url": "https://github.com/hackerpug-ai/LaneShadow-RN/blob/ce9a7654ff605d4e14885fac70b463e8b81f0324/.spec/prds/curation-hardening/tasks/sprint-06-quality-dedup-floor/QUAL-001-semantic-deduplication-engine.md",
+        "git_blob_sha": "989cd3d69f208d7af06eef488cda5756f4d23a8b",
+        "finding": "The task specification preassigns python-implement and python-review and declares SINGLE review mode."
+      },
+      "assessment": "The state preserves two distinct runtime IDs and a concrete implementer artifact, but the public chain stops at reviewer dispatch. No reviewer output, content-dependent decision or applied change was located, and the recorded worktree commit is not publicly resolvable. The roles are explicitly predesigned, and no separate operator evidence exists. This is an unresolved review-dispatch control, not a candidate."
+    },
+    {
+      "id": "agent-workbench-single-agent-human-gated-run",
+      "repository": "Borghese-Gladiator/new-tech-monorepo",
+      "pinned_commit_sha": "d364b5d0c29920a4b188d5029dd0fbcae8c5c507",
+      "pinned_commit_date": "2026-06-23T04:15:02Z",
+      "record": {
+        "url": "https://github.com/Borghese-Gladiator/new-tech-monorepo/blob/d364b5d0c29920a4b188d5029dd0fbcae8c5c507/agentic-development-task-system-v3__ai/agent-workbench-live/runs/2026-05-25-structured-human-review-handoff/events.jsonl",
+        "git_blob_sha": "07fe2d156597c99178a18d31926210009e2e2ccc",
+        "rows": 29,
+        "parse_errors": 0,
+        "event_start": "2026-05-25T04:22:48-04:00",
+        "event_end": "2026-05-25T13:25:07-04:00",
+        "first_public_file_commit_sha": "8f43419c31e3af3a75a15831eab38f303773c1bd",
+        "first_public_file_commit_date": "2026-05-25T17:25:00Z",
+        "completion_backfill_commit_sha": "b1cbcdb0d35a24e8549629cd8ab265433cc1b347",
+        "completion_backfill_commit_date": "2026-05-25T17:26:27Z"
+      },
+      "actors": {
+        "agent_events": 25,
+        "distinct_agent_names": 1,
+        "agent_name": "timothy.shee",
+        "human_events": 4,
+        "distinct_human_names": 1,
+        "human_name": "timothysheee"
+      },
+      "causal_structure": {
+        "agent_review_completed_events": 1,
+        "agent_qa_completed_events": 1,
+        "human_handoff_created_events": 1,
+        "human_start_approval_events": 1,
+        "human_completion_events": 1,
+        "accepted_by_human": true,
+        "reviewer_distinct_from_builder_in_record": false
+      },
+      "context": {
+        "url": "https://github.com/Borghese-Gladiator/new-tech-monorepo/blob/d364b5d0c29920a4b188d5029dd0fbcae8c5c507/agentic-development-task-system-v3__ai/agent-workbench-live/README.md",
+        "git_blob_sha": "d1de275b76f86a4be7a6ea3fc06fb50993064e31",
+        "finding": "Defines the eight-state lifecycle, human approval before building, intended adversarial review and human acceptance before done."
+      },
+      "assessment": "This is a genuine run ledger, but all 25 agent-authored events use one agent name. The same agent records implementation, review and QA, while the human explicitly starts and accepts the run. It is a designed, human-gated workflow and supplies neither a distinguishable autonomous pair nor a separate operator boundary."
+    },
+    {
+      "id": "holahola-human-requested-background-agent-and-reconciliation-backfill",
+      "repository": "davidwmcintosh/HolaHola",
+      "pinned_commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "pinned_commit_date": "2026-10-13T16:30:43Z",
+      "record": {
+        "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/reference/2026-08-31-claude-code-backfill-exchanges.json",
+        "git_blob_sha": "330a1ee01a7b86d02121e1244616070f05786c0c",
+        "turn_pairs": 43,
+        "per_turn_timestamps_present": false,
+        "date_label_in_filename": "2026-08-31",
+        "first_public_file_commit_sha": "3a242a4092570fca6dd35d1750a60c31aeb86621",
+        "first_public_file_commit_date": "2026-09-01T15:57:27Z",
+        "retrospective_backfill": true
+      },
+      "background_task_chain": {
+        "human_explicitly_requested_separate_task": true,
+        "assistant_reported_background_agent_launch": true,
+        "assistant_reported_background_agent_completion": true,
+        "reported_elapsed_time": "9m 4s",
+        "resulting_commit_sha": "bb4ce80b768d83b790278603369e0e60b1e0baf2",
+        "resulting_commit_date": "2026-08-30T16:38:24Z",
+        "resulting_commit_exists": true,
+        "temporal_limit": "The retrospective turns have no timestamps and the commit's UTC date precedes the file's date label; public metadata therefore does not independently timestamp the turn-by-turn order."
+      },
+      "cross_runtime_reconciliation": {
+        "assistant_reports_reading_independently_created_replit_source_promotion_work": true,
+        "human_explicitly_decides_to_keep_both_entry_points": true,
+        "dependent_reconciliation_commit_sha": "a95d53d7f82ef48b40d3af58331e2d7eae2d34af",
+        "dependent_reconciliation_commit_date": "2026-08-31T22:29:36Z",
+        "dependent_reconciliation_commit_exists": true,
+        "direct_replit_agent_message_or_receipt_in_backfill": false
+      },
+      "existing_identity_context": {
+        "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/.agents/memory/luca-roles-not-bifurcation.md",
+        "git_blob_sha": "912ae28bb051ee855ba48935a19c557c51c38f55",
+        "finding": "The repository defines runtime labels as role markers for one logical entity rather than separate agents or personalities."
+      },
+      "relationship_to_pass_73": "Pass 73 found mailbox snapshots without recipient-use lifecycle. This separate backfill adds real task-to-commit and artifact-reconciliation evidence, but it also records direct human requests, human architectural decisions and a same-project runtime design. It materially resolves the ambiguity toward authorized same-operator work.",
+      "assessment": "The chain contains real downstream commits, but the background task was explicitly requested by the human and the later cross-runtime reconciliation followed the human's explicit architectural decision. The backfill supplies no independently authenticated cross-operator sender/recipient exchange. It strengthens a designed same-operator control and is not a rogue-swarm candidate."
+    },
+    {
+      "id": "template-schema-and-generated-snapshot-colocation",
+      "controls": [
+        {
+          "repository": "zhaofei0923/navigator",
+          "url": "https://github.com/zhaofei0923/navigator/blob/9f5ee35398c8dacf2b0c6f2019d66530004a9951/data/p0/candidates/p0_delivery_evidence.template.json",
+          "git_blob_sha": "c54d32c462352ce15f2f6a9be6f0256e7d490ac3",
+          "commit_sha": "9f5ee35398c8dacf2b0c6f2019d66530004a9951",
+          "commit_date": "2026-08-28T05:49:41Z",
+          "finding": "The file declares template_only true; reviewer, implementer and commit fields are null pending placeholders."
+        },
+        {
+          "repository": "madeinorbit/podium",
+          "snapshot_url": "https://github.com/madeinorbit/podium/blob/5e12dc9e48f62331c6cc00cf2c20fa25b125926b/apps/server/src/migrations/drizzle/20260824202715_quota-windows/snapshot.json",
+          "snapshot_git_blob_sha": "e6bb5bc894453a38efaaab695e87bdab3e115ab0",
+          "schema_url": "https://github.com/madeinorbit/podium/blob/5e12dc9e48f62331c6cc00cf2c20fa25b125926b/apps/server/src/migrations/schema.ts",
+          "schema_git_blob_sha": "5af5fecf43a50211b1b9ce2db8118afc9c70f725",
+          "commit_sha": "5e12dc9e48f62331c6cc00cf2c20fa25b125926b",
+          "commit_date": "2026-10-13T21:15:52Z",
+          "matched_snapshot_paths": 39,
+          "finding": "source_message_id and result_commit_sha belong to separate generated table definitions, not one populated event."
+        }
+      ],
+      "assessment": "These matches are explicit template or generated-schema field co-location and cannot establish an exchange."
+    }
+  ],
+  "alternative_explanations_tested": [
+    {
+      "alternative": "Single-operator or human-requested automation",
+      "result": "Supported directly by Chora's named requester and approver, Agent Workbench's human gates and HolaHola's explicit task and architecture requests."
+    },
+    {
+      "alternative": "Designed multi-agent or multi-role system",
+      "result": "Supported by Chora's coordination protocol, LaneShadow's preassigned implementer/reviewer roles and Agent Workbench's documented lifecycle."
+    },
+    {
+      "alternative": "Runtime hats rather than independent participants",
+      "result": "Supported by HolaHola's previously reviewed primary identity documents and the backfill's same-project, human-governed context."
+    },
+    {
+      "alternative": "Incomplete handoff",
+      "result": "Supported for LaneShadow: the public state stops at reviewer_dispatched and wait_reviewer, with no review output or downstream use."
+    },
+    {
+      "alternative": "Schema, template, fixture or generated-snapshot co-location",
+      "result": "Supported for Navigator, Podium and the dominant broad-query rows by full source, explicit paths and null/template flags."
+    },
+    {
+      "alternative": "Observer contamination",
+      "result": "Twenty-eight row occurrences at twelve URLs came from this repository and were excluded from external evidence."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": true,
+    "checked_at": "2026-10-14",
+    "queries": [
+      "\"Fix stale drizzle-kit snapshot causing migration filename collisions\" \"background agent\"",
+      "\"coord-003\" \"chora-workspace-onboarding-improvements\"",
+      "\"QUAL-001\" \"reviewer_dispatched\" \"LaneShadow\"",
+      "\"structured-human-review-handoff\" \"Agent Workbench\"",
+      "\"2026-08-31-claude-code-backfill-exchanges\" agent collaboration",
+      "\"liminalcommons/chora-base\" coordination AI agents",
+      "\"LaneShadow-RN\" \"reviewer_dispatched\"",
+      "\"agent-workbench-live\" \"structured-human-review-handoff\""
+    ],
+    "result": "No prior coordination report located in the checked exact-query scope as of 2026-10-14; returned web results were unrelated to the selected episodes.",
+    "limits": "This bounded result is not a claim that nobody has reported the records. Search absence does not establish novelty, and none of these chains passes the independent-participant and separate-operator gates in any event.",
+    "known_project_overlap": "HolaHola was already assessed in Pass 73. The new backfill changes the evidence from mailbox-only to real human-requested task and commit use, while strengthening the same-operator exclusion."
+  },
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  },
+  "limitations": [
+    "The broad from/to query was index-incomplete: it reported 121 results after pagination, returned 120 distinct repository/path rows across six pages and returned an empty seventh page. The possible one-row remainder is unresolved.",
+    "Chora repository names and completion labels do not independently identify autonomous principals or operators.",
+    "LaneShadow's recorded implementation commit is not reachable from the public repository at observation, and no public reviewer result was located.",
+    "Agent Workbench records one agent name performing build, review and QA; intended reviewer separation in documentation is not proof that a separate reviewer acted in this run.",
+    "HolaHola's exchange file is a retrospective backfill with no per-turn timestamps. Assistant narration is not independent authentication of a background agent or a Replit agent.",
+    "Self-asserted agent, role, model and provider labels are not independent identity or operator attribution.",
+    "No claim is made about private branches, private repositories, unindexed records or the one possible unreturned search hit."
+  ],
+  "next_record_and_query_cursor": {
+    "broad_query": "\"from_agent\" \"to_agent\" \"reply_to\" \"commit\" extension:json",
+    "broad_query_next_action": "Resume with exclusions for Minuteandone/Bee-vs-swarm, tushkum34-cloud/pylibsmeta and Zer0Qing/Muse because page 7 was empty while the index reported one possible unreturned result.",
+    "exact_queries": [
+      "\"requested_by\" \"completed_by\" \"from_repo\" \"to_repo\" \"commit\" extension:jsonl",
+      "\"implementer_agent_id\" \"reviewer_agent_id\" \"review_completed\" \"commit_sha\" extension:json",
+      "\"background task completed\" \"agent\" \"commit\" extension:json"
+    ]
+  },
+  "advancement_requirements": {
+    "chora": "Independent public attribution of the request producer and implementer to distinct autonomous principals under separate operators, plus evidence the cooperation exceeded authorization; repository labels are insufficient.",
+    "laneshadow": "A public reviewer result tied to the recorded reviewer ID, demonstrable use of the implementation artifact or commit and independent operator provenance for both runtime IDs.",
+    "agent_workbench": "A record in which a distinguishable autonomous reviewer or recipient—not the same agent name—uses the builder's output, with separate-operator and authorization evidence.",
+    "holahola": "A direct public receipt, acknowledgement or dependent action by a distinguishable recipient runtime, independent principal/operator attribution and evidence the cooperation was not the human-requested same-project workflow.",
+    "general": "A public actual-run task artifact tied to an independently attributable autonomous sender, a distinguishable recipient's later semantic or action use of that exact material and primary evidence that the cooperation crossed separate operators' authorization boundaries."
+  },
+  "safety": "Only existing public committed files, public search results, public file histories and public commit metadata were read. No recovered code, package, agent runtime, command from an artifact, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication omits transcript bodies, task payloads, filesystem paths, credentials, tokens, personal addresses and private logs."
+}

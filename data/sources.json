@@ -3423,6 +3423,158 @@
       "git_blob_sha": "8d0d5e9d29467edba7b9cddcd1c72d6ce9086b9d",
       "commit_sha": "6560fc0395449e833489e312e97611db189a0286",
       "commit_date": "2026-10-14T03:46:42Z"
+    },
+    {
+      "id": "original-chora-coordination-events",
+      "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/inbox/coordination/events.jsonl",
+      "role": "Primary 55-row designed cross-repository coordination ledger with a real request-to-implementation dependency",
+      "published": "2025-10-29",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "event_start": "2025-10-28T04:30:40Z",
+      "event_end": "2025-11-02T21:30:00Z",
+      "git_blob_sha": "762d533594c92e2a80c2c108e96aa8e69ae2bf0a",
+      "commit_sha": "e94c41479f5392f976e65817bd3f856bda0f71f4",
+      "commit_date": "2025-11-25T10:27:25Z",
+      "first_public_file_commit_sha": "c3ae4c485b004b054a7f6b828c7dc66aecfce9d3",
+      "first_public_file_commit_date": "2025-10-29T00:10:32Z"
+    },
+    {
+      "id": "original-chora-coordination-context",
+      "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/inbox/coordination/README.md",
+      "role": "Primary context defining shared append-only coordination inside one maintained project ecosystem",
+      "published": "2025-11-25",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "e928c64024f6d2876aaebb76c6c40e803b6be674",
+      "commit_sha": "e94c41479f5392f976e65817bd3f856bda0f71f4",
+      "commit_date": "2025-11-25T10:27:25Z"
+    },
+    {
+      "id": "original-chora-inbox-protocol",
+      "url": "https://github.com/liminalcommons/chora-base/blob/e94c41479f5392f976e65817bd3f856bda0f71f4/inbox/INBOX_PROTOCOL.md",
+      "role": "Primary protocol defining the git-native intake, sprint, approval and implementation workflow",
+      "published": "2025-11-25",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "06774a0e7f6f4d4189d84724711cf6a93b42ef19",
+      "commit_sha": "e94c41479f5392f976e65817bd3f856bda0f71f4",
+      "commit_date": "2025-11-25T10:27:25Z"
+    },
+    {
+      "id": "original-chora-coord-003-implementation-commit",
+      "url": "https://github.com/liminalcommons/chora-base/commit/b71fc159898703bc246fddf32d07d72e5922fad7",
+      "role": "Primary implementation commit linked from completed coordination request coord-003",
+      "published": "2025-10-30",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "commit_sha": "b71fc159898703bc246fddf32d07d72e5922fad7",
+      "commit_date": "2025-10-30T22:16:47Z"
+    },
+    {
+      "id": "original-laneshadow-review-dispatch-state",
+      "url": "https://github.com/hackerpug-ai/LaneShadow-RN/blob/ce9a7654ff605d4e14885fac70b463e8b81f0324/.spec/prds/curation-hardening/tasks/sprint-06-quality-dedup-floor/.kb-run-sprint-state.json",
+      "role": "Primary state with separate implementer and reviewer runtime IDs whose chain ends at reviewer dispatch",
+      "published": "2026-04-19",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "event_end": "2026-04-19T02:00:56Z",
+      "git_blob_sha": "dccec751d5c6136425efdeb1b17cf1f388ee38d3",
+      "commit_sha": "ce9a7654ff605d4e14885fac70b463e8b81f0324",
+      "commit_date": "2026-08-02T06:33:43Z",
+      "first_public_file_commit_sha": "c17e6e2e5b6387a9e8c615e14a3baba18afcc6b0",
+      "first_public_file_commit_date": "2026-04-19T04:15:46Z"
+    },
+    {
+      "id": "original-laneshadow-implementation-activity",
+      "url": "https://github.com/hackerpug-ai/LaneShadow-RN/blob/ce9a7654ff605d4e14885fac70b463e8b81f0324/.spec/prds/curation-hardening/tasks/sprint-06-quality-dedup-floor/.kb-run-sprint-artifacts/QUAL-001/evidence/20260419T015717/bundle/activity.jsonl",
+      "role": "Primary 13-row implementation activity bundle preceding an unresolved reviewer dispatch",
+      "published": "2026-04-19",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "event_start": "2026-04-19T01:45:05Z",
+      "event_end": "2026-04-19T01:52:38Z",
+      "git_blob_sha": "63acee35df9e67591475d2c55b9a791fac9ac9e3",
+      "commit_sha": "ce9a7654ff605d4e14885fac70b463e8b81f0324",
+      "commit_date": "2026-08-02T06:33:43Z"
+    },
+    {
+      "id": "original-laneshadow-role-plan",
+      "url": "https://github.com/hackerpug-ai/LaneShadow-RN/blob/ce9a7654ff605d4e14885fac70b463e8b81f0324/.spec/prds/curation-hardening/tasks/sprint-06-quality-dedup-floor/QUAL-001-semantic-deduplication-engine.md",
+      "role": "Primary task plan preassigning implementation and review roles and single-review mode",
+      "published": "2026-04-19",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "989cd3d69f208d7af06eef488cda5756f4d23a8b",
+      "commit_sha": "ce9a7654ff605d4e14885fac70b463e8b81f0324",
+      "commit_date": "2026-08-02T06:33:43Z"
+    },
+    {
+      "id": "original-agent-workbench-human-review-run",
+      "url": "https://github.com/Borghese-Gladiator/new-tech-monorepo/blob/d364b5d0c29920a4b188d5029dd0fbcae8c5c507/agentic-development-task-system-v3__ai/agent-workbench-live/runs/2026-05-25-structured-human-review-handoff/events.jsonl",
+      "role": "Primary 29-row human-gated run in which one agent name performs implementation, review and QA",
+      "published": "2026-05-25",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "event_start": "2026-05-25T04:22:48-04:00",
+      "event_end": "2026-05-25T13:25:07-04:00",
+      "git_blob_sha": "07fe2d156597c99178a18d31926210009e2e2ccc",
+      "commit_sha": "d364b5d0c29920a4b188d5029dd0fbcae8c5c507",
+      "commit_date": "2026-06-23T04:15:02Z",
+      "first_public_file_commit_sha": "8f43419c31e3af3a75a15831eab38f303773c1bd",
+      "first_public_file_commit_date": "2026-05-25T17:25:00Z"
+    },
+    {
+      "id": "original-agent-workbench-governance-context",
+      "url": "https://github.com/Borghese-Gladiator/new-tech-monorepo/blob/d364b5d0c29920a4b188d5029dd0fbcae8c5c507/agentic-development-task-system-v3__ai/agent-workbench-live/README.md",
+      "role": "Primary context defining human approval before build and human acceptance before completion",
+      "published": "2026-06-23",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "d1de275b76f86a4be7a6ea3fc06fb50993064e31",
+      "commit_sha": "d364b5d0c29920a4b188d5029dd0fbcae8c5c507",
+      "commit_date": "2026-06-23T04:15:02Z"
+    },
+    {
+      "id": "original-holahola-retrospective-backfill",
+      "url": "https://github.com/davidwmcintosh/HolaHola/blob/239eceaaeb2dcb03c8e2d14f605c34d16a51fe17/docs/reference/2026-08-31-claude-code-backfill-exchanges.json",
+      "role": "Primary 43-turn-pair retrospective with a human-requested background task and human-directed cross-runtime reconciliation",
+      "published": "2026-09-01",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "330a1ee01a7b86d02121e1244616070f05786c0c",
+      "commit_sha": "239eceaaeb2dcb03c8e2d14f605c34d16a51fe17",
+      "commit_date": "2026-10-13T16:30:43Z",
+      "first_public_file_commit_sha": "3a242a4092570fca6dd35d1750a60c31aeb86621",
+      "first_public_file_commit_date": "2026-09-01T15:57:27Z"
+    },
+    {
+      "id": "original-holahola-background-task-commit",
+      "url": "https://github.com/davidwmcintosh/HolaHola/commit/bb4ce80b768d83b790278603369e0e60b1e0baf2",
+      "role": "Primary migration-snapshot commit attributed retrospectively to a human-requested background task",
+      "published": "2026-08-30",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "commit_sha": "bb4ce80b768d83b790278603369e0e60b1e0baf2",
+      "commit_date": "2026-08-30T16:38:24Z"
+    },
+    {
+      "id": "original-holahola-reconciliation-commit",
+      "url": "https://github.com/davidwmcintosh/HolaHola/commit/a95d53d7f82ef48b40d3af58331e2d7eae2d34af",
+      "role": "Primary dependent reconciliation commit following the human's explicit decision to keep both entry points",
+      "published": "2026-08-31",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "commit_sha": "a95d53d7f82ef48b40d3af58331e2d7eae2d34af",
+      "commit_date": "2026-08-31T22:29:36Z"
+    },
+    {
+      "id": "original-navigator-delivery-template-control",
+      "url": "https://github.com/zhaofei0923/navigator/blob/9f5ee35398c8dacf2b0c6f2019d66530004a9951/data/p0/candidates/p0_delivery_evidence.template.json",
+      "role": "Primary template-only control with null reviewer, implementer and commit fields",
+      "published": "2026-08-28",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "c54d32c462352ce15f2f6a9be6f0256e7d490ac3",
+      "commit_sha": "9f5ee35398c8dacf2b0c6f2019d66530004a9951",
+      "commit_date": "2026-08-28T05:49:41Z"
+    },
+    {
+      "id": "original-podium-message-result-schema-control",
+      "url": "https://github.com/madeinorbit/podium/blob/5e12dc9e48f62331c6cc00cf2c20fa25b125926b/apps/server/src/migrations/schema.ts",
+      "role": "Primary schema showing source-message and result-commit fields belong to separate generated table definitions",
+      "published": "2026-10-13",
+      "observed_at": "2026-10-14T05:25:36Z",
+      "git_blob_sha": "5af5fecf43a50211b1b9ce2db8118afc9c70f725",
+      "commit_sha": "5e12dc9e48f62331c6cc00cf2c20fa25b125926b",
+      "commit_date": "2026-10-13T21:15:52Z"
     }
   ]
 }

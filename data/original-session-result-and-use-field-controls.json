@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-15T12:04:45Z",
+  "observed_at": "2026-10-15T12:04:45Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "search_source": "Public GitHub default-branch code search was used only to locate committed records. Repository metadata was checked for every lower-order result repository before inclusion. The two selected context files were then read at one immutable commit. Search-service incompleteness and path/excerpt-only review are preserved rather than promoted into evidence.",
+  "scope": {
+    "global_exact_query_requests": 17,
+    "reported_hit_count_sum": 5,
+    "returned_row_occurrences_reviewed": 3,
+    "self_repository_row_occurrences": 0,
+    "external_row_occurrences": 3,
+    "distinct_external_paths": 3,
+    "distinct_external_repositories": 1,
+    "complete_zero_return_queries": 14,
+    "complete_nonzero_queries": 1,
+    "incomplete_responses": 2,
+    "incomplete_responses_with_no_returned_item": 2,
+    "lower_order_decomposition_queries": 6,
+    "lower_order_returned_row_occurrences": 45,
+    "lower_order_distinct_paths": 43,
+    "lower_order_distinct_public_repositories": 25,
+    "selected_record_files_read_in_full": 0,
+    "selected_context_files_read_in_full": 2,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "All exact requests excluded Minuteandone/Bee-vs-swarm before counting. Fourteen complete requests returned zero; one complete request returned three migration-snapshot paths in one public repository; two saved endpoints still each report one hit while returning no item with incomplete_results=true. Six lower-order decompositions produced 45 returned row occurrences at 43 distinct paths in 25 repositories independently verified as public. Those lower-order rows were reviewed as path/excerpt-only implementation, documentation, schema, protocol, test or design controls, not as fully parsed event records.",
+  "queries": [
+    {
+      "query": "\"artifact_manifest_sha256\" \"recipient_session_id\" \"adopted_at\" \"operator_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_77"
+    },
+    {
+      "query": "\"result_artifact_sha256\" \"consumer_session_id\" \"applied_commit\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_77"
+    },
+    {
+      "query": "\"source_session_id\" \"result_message_id\" \"used_at\" \"recipient_principal\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_77"
+    },
+    {
+      "query": "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "cursor_role": "unresolved_index_endpoint_from_pass_77"
+    },
+    {
+      "query": "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "cursor_role": "unresolved_index_endpoint_from_pass_77"
+    },
+    {
+      "query": "\"producer_session_id\" \"consumer_session_id\" \"artifact_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_message_id\" \"recipient_session_id\" \"used_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"upstream_session_id\" \"downstream_session_id\" \"applied_commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"sender_run_id\" \"recipient_run_id\" \"result_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"artifact_sha256\" \"accepted_at\" \"recipient_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"output_sha256\" \"consumed_by\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_message_id\" \"recipient_agent_id\" \"used_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 3,
+      "returned_rows": 3,
+      "incomplete_results": false,
+      "cursor_role": "selected_schema_snapshot_family"
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"applied_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"upstream_result_id\" \"downstream_run_id\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"handoff_id\" \"source_agent_id\" \"recipient_agent_id\" \"accepted_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"delegated_by\" \"result_artifact_sha256\" \"consumed_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    }
+  ],
+  "lower_order_decomposition": [
+    {
+      "query": "\"from_session_id\" \"to_session_id\" \"task_result\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 12,
+      "returned_rows": 12,
+      "incomplete_results": false,
+      "assessment": "Implementation, service, schema and documentation paths; no populated sender-to-recipient task-result record selected."
+    },
+    {
+      "query": "\"from_session_id\" \"to_session_id\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 16,
+      "returned_rows": 15,
+      "incomplete_results": true,
+      "assessment": "Plan, type, service, model, export, governance and design paths. The one-row count/return difference is preserved as index-incomplete."
+    },
+    {
+      "query": "\"from_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 6,
+      "returned_rows": 6,
+      "incomplete_results": false,
+      "assessment": "Five copied protocol-definition paths and one application model; no actual event selected."
+    },
+    {
+      "query": "\"to_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "assessment": "No result."
+    },
+    {
+      "query": "\"result_id\" \"received_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 7,
+      "returned_rows": 7,
+      "incomplete_results": false,
+      "assessment": "Domain, application, store, type, model, migration and integration-test field definitions; no populated task-result/use record selected."
+    },
+    {
+      "query": "\"result_id\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 6,
+      "returned_rows": 5,
+      "incomplete_results": true,
+      "assessment": "Type, model, legacy-schema, migration and schema-test paths. The one-row count/return difference is preserved as index-incomplete."
+    }
+  ],
+  "lower_order_public_repositories": [
+    "LarchLiu/sessio",
+    "TeTeHacko/claude-xmpp-bridge",
+    "CocoRoF/Geny",
+    "martin-janci/claude-fleet",
+    "GobbyAI/gobby",
+    "UnlikeOtherAI/ChatterBox",
+    "EfeDurmaz16/switchboard",
+    "eidetic-works/nucleus-mcp",
+    "juliantorr-es/rig-relay",
+    "rutts29/agentlog",
+    "Speakman-ai/agent-hub",
+    "Codeseys-Labs/chimera",
+    "leookun/cursor-byok",
+    "funny-vibes/agent-vibes",
+    "fab-agent/agentic-organization",
+    "soulvon/AnyBridge",
+    "Senguk520/CodeRelay-tools",
+    "AsukaCC/cursor-free",
+    "NSPG13/agent-bounties",
+    "Vinosaamaa/league-of-orchestrator",
+    "piyush06singhal/nexus-ai",
+    "TakshayBansal/Autonomous-Manufacturing-Operations",
+    "feegachu/fgc",
+    "KestrelSovereignAI/kestrel-sovereign",
+    "Gilmore3088/FeeInsight.com"
+  ],
+  "selected_exact_result_family": {
+    "repository": "kangnam7654/stapler",
+    "repository_visibility": "public",
+    "classification": "Generated database migration metadata for a deliberately designed delegation platform; field co-occurrence, not a populated transfer/use event",
+    "snapshot_commit_sha": "83f8367d44a638ab2f3cefa0eb4f2e55cf128411",
+    "snapshot_commit_date": "2026-04-20T17:52:35Z",
+    "observed_at": "2026-10-15T12:04:45Z",
+    "matched_paths": [
+      {
+        "url": "https://github.com/kangnam7654/stapler/blob/83f8367d44a638ab2f3cefa0eb4f2e55cf128411/packages/db/src/migrations/meta/0048_snapshot.json",
+        "blob_sha": "401f4e16bef7191c5c7d93793f45a4ecbe227fb1"
+      },
+      {
+        "url": "https://github.com/kangnam7654/stapler/blob/83f8367d44a638ab2f3cefa0eb4f2e55cf128411/packages/db/src/migrations/meta/0049_snapshot.json",
+        "blob_sha": "6b2c5eda138d5ded2766f10c0c768ebeff3635e6"
+      },
+      {
+        "url": "https://github.com/kangnam7654/stapler/blob/83f8367d44a638ab2f3cefa0eb4f2e55cf128411/packages/db/src/migrations/meta/0050_snapshot.json",
+        "blob_sha": "050fdcb2eeefd0cb7defa23ce6c2c92a4774cb26"
+      }
+    ],
+    "review_depth": "Exact paths and indexed excerpts only; the three large generated snapshots were not parsed as record corpora.",
+    "original_observation": "The snapshots co-locate source_message_id, recipient_agent_id and used_at in generated database metadata. The terms belong to schema definitions rather than a row recording a particular message, recipient and later use.",
+    "semantic_dependency_assessment": "No event body, task result, content hash, later recipient action or commit dependency is present in the returned excerpts. Field co-occurrence therefore does not establish a temporal or semantic sender-to-recipient edge.",
+    "participant_assessment": "No distinguishable autonomous sender and recipient are authenticated by migration metadata. Agent and message identifiers define platform columns, not observed principals.",
+    "operator_boundary_assessment": "Primary project context describes a user-configured orchestration platform with company goals, organization charts, budgets, governance, delegation and dashboard monitoring. This is designed operator-governed coordination, not evidence that separate operators' agents cooperated beyond authorization.",
+    "candidate_status": "excluded_control"
+  },
+  "context_records": [
+    {
+      "url": "https://github.com/kangnam7654/stapler/blob/83f8367d44a638ab2f3cefa0eb4f2e55cf128411/packages/db/src/schema/agent_delegations.ts",
+      "blob_sha": "1679d8eb6c4676648b33dfe4245d303e300c4f97",
+      "role": "Primary source schema defining source-message, delegator, delegate, status, result, run and timestamp columns for intentional agent delegation"
+    },
+    {
+      "url": "https://github.com/kangnam7654/stapler/blob/83f8367d44a638ab2f3cefa0eb4f2e55cf128411/README.md",
+      "blob_sha": "d7dcbb521a3943b069c1f258ffcbeb823cffb1f9",
+      "role": "Primary project context describing a personal orchestration fork in which the user brings agents, defines goals and monitors governed delegation"
+    }
+  ],
+  "visibility_gate": {
+    "public_repositories_verified": 26,
+    "non_public_results_excluded": 1,
+    "handling": "One account-accessible result from a broad locator was identified as non-public by repository metadata and excluded immediately. Its URL, repository identity and content are not retained or used in this assessment. No private source was substituted for the required public record."
+  },
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No episode-level prior-reporting check was warranted. The only complete nonzero exact family contains generated schema snapshots, and the fully read source/context files establish a designed platform rather than a concrete autonomous exchange.",
+    "novelty_statement": "No prior coordination report claim is made. Dataset or search absence is not treated as novelty."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "The three matched fields describe one task result that a recipient agent later used",
+      "result": "Rejected. They are database schema terms co-located in generated migration metadata; no populated row or dependent action is present."
+    },
+    {
+      "alternative": "The source delegation table is direct evidence of an observed exchange",
+      "result": "Rejected. The file defines how intentional delegation could be stored; it is implementation source, not an actual-run ledger."
+    },
+    {
+      "alternative": "Distinct agent identifier columns establish independent operators",
+      "result": "Rejected. Project documentation places agents inside a user-configured company, budget, governance and monitoring system. Identifier separation does not establish operator separation."
+    },
+    {
+      "alternative": "The unresolved exact endpoints may conceal a qualifying event",
+      "result": "Unresolved, not promoted. Each reports one indexed hit but exposes no record; lower-order decompositions yield only implementation, documentation, schema, protocol, test and design paths."
+    }
+  ],
+  "advancement_requirements": {
+    "stapler_schema_family": "A public populated delegation record with an exact source artifact or result, a distinguishable recipient's later action demonstrably dependent on it, independent principal provenance and primary evidence that the principals belonged to separate operators and exceeded authorization. Schema columns and designed workflows do not qualify.",
+    "index_incomplete_queries": "A returned committed record for each one-hit/no-item endpoint. Service-level total counts and lower-order field collisions cannot identify an episode.",
+    "general": "A public actual-run task artifact tied to an independently attributable autonomous sender, a distinguishable recipient's causal use of that exact material and primary evidence that cooperation crossed separate operators' authorization boundaries."
+  },
+  "next_record_and_query_cursor": {
+    "record_cursor": "Rotate away from Stapler's generated schema snapshots. Re-enter only if a populated public delegation record and dependent recipient action appear. Preserve both exact one-hit/no-item endpoints as index-incomplete.",
+    "incomplete_exact_endpoints": [
+      "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "next_exact_queries": [
+      "\"produced_by_session_id\" \"consumed_by_session_id\" \"artifact_digest\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"source_run_id\" \"recipient_run_id\" \"applied_commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"result_message_id\" \"consumer_operation_id\" \"accepted_at\" \"operator_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "public_social_record_cursor": "The planned read-only Delvetown/ATProto rotation produced no admissible public raw record because the companion public reader was unavailable and the public wiki page was not retrievable. Do not use an authenticated non-public fallback; retry only when a public reader or indexed immutable public message is available.",
+    "scanner_cursor": "The 293-record known-family-controlled scanner remainder stays paused at 853 of 1,146 inspected; resume only on a new source-level participant, transfer/use, provenance or authorization cue."
+  },
+  "limitations": [
+    "The three exact Stapler hits are generated migration snapshots reviewed through paths and indexed excerpts, not parsed event corpora.",
+    "Two exact endpoints and two lower-order searches were index-incomplete; count/return discrepancies are retained without inference.",
+    "The unavailable public Delvetown reader and inaccessible public wiki page prevented an admissible raw-message review in that coverage gap; no non-public fallback was used.",
+    "Default-branch code search does not cover deleted history, unindexed branches or private runtime state.",
+    "No inference about current activity, subjective intent or provider attribution is made."
+  ],
+  "safety": "Only existing public committed files, public search results and public repository/commit metadata were used. One non-public result was rejected at the visibility gate without retaining its identity or content. No recovered code, package, migration, agent runtime, scan, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication omits payload bodies, credentials, tokens, sink topics, personal addresses and private logs.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  }
+}

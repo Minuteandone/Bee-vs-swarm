@@ -1,0 +1,390 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-15",
+  "observed_at": "2026-10-15T17:57:40Z",
+  "discovery_target": "Previously unreported autonomous coordination in which a distinguishable sender transfers a task result or artifact, a recipient demonstrably uses it, and the cooperation crosses an operator-defined authorization boundary.",
+  "search_source": {
+    "service": "GitHub default-branch code search through the connected public repository reader",
+    "use": "Raw-record location and bounded coverage, followed by complete reads of selected immutable files",
+    "completeness_metadata_available": false
+  },
+  "scope": {
+    "unique_query_strings": 21,
+    "query_requests_including_retries": 24,
+    "completed_query_responses": 21,
+    "transient_service_errors_retried": 3,
+    "zero_return_query_responses": 16,
+    "nonzero_query_responses": 5,
+    "returned_row_occurrences": 72,
+    "distinct_external_paths": 67,
+    "distinct_public_repositories": 25,
+    "selected_raw_or_context_files_read_in_full": 25,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "The service returned bounded result arrays but no total count, pagination cursor or incomplete-results flag. One rate-limit response and two internal errors were retried; every unique query ultimately received a completed response. The five-row sender/recipient/in-reply-to family is a subset of the sixteen-row sender/recipient family, so distinct paths are deduplicated across query responses.",
+  "queries": [
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"output_digest\" \"used_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_80_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_agent_id\" \"child_agent_id\" \"final_response_sha256\" \"adopted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_80_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"source_event_id\" \"applied_commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_80_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"output_digest\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "split_dependency_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"output_digest\" \"used_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "split_dependency_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_agent_id\" \"child_agent_id\" \"final_response_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "split_dependency_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"final_response_sha256\" \"adopted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "split_dependency_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"source_event_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "split_dependency_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_event_id\" \"applied_commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "split_dependency_rotation",
+      "returned_rows": 0,
+      "retry_note": "The first request was rate-limited and the completed retry returned zero rows."
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"output_digest\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "json_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"output_digest\" \"used_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "json_rotation",
+      "returned_rows": 11,
+      "retry_note": "Two internal service errors preceded the completed response.",
+      "selected_family": "schema_inventory_migration_and_fixture_controls"
+    },
+    {
+      "query": "\"parent_agent_id\" \"child_agent_id\" \"final_response_sha256\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "json_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"final_response_sha256\" \"adopted_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "json_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"source_event_id\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "json_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_event_id\" \"applied_commit\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "json_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 16,
+      "selected_families": [
+        "previously_reviewed_tsunagou_acceptance_harness",
+        "previously_reviewed_opencnid_experiment"
+      ]
+    },
+    {
+      "query": "\"parent_agent_id\" \"child_agent_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 20,
+      "selected_families": [
+        "previously_reviewed_refusal_hunt_forensics",
+        "previously_reviewed_agentdc_xxl_corpus"
+      ]
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"parent_message_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"in_reply_to\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 5,
+      "selected_family": "previously_reviewed_tsunagou_acceptance_harness"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"result\" \"timestamp\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 20,
+      "selected_new_families": [
+        "yashturkar_control_tower_packets",
+        "do_ops885_deal_relay_handoff_logs"
+      ],
+      "already_reviewed_examples": [
+        "SintraPrime",
+        "flywheel_gateway",
+        "Odoo HR agents",
+        "EPAM CLI",
+        "multi-agent-orchestration-system"
+      ]
+    }
+  ],
+  "public_repositories": [
+    "3x-haust/Python_Ezy_API_AI",
+    "7cc8/odoo-hr-agents",
+    "Birkankader/WhaleCode",
+    "Dicklesworthstone/flywheel_gateway",
+    "Folken2/nuvel",
+    "JoshuaOliphant/jean-claude",
+    "KoushikDasika/spare_neuron",
+    "Marsys-Technologies/Madhav",
+    "OpenCnid/tracer",
+    "RecursiveIntell/Libraries",
+    "ayiinee/Numora",
+    "ca-mrc/loom",
+    "clairechien0627/Green_AI_Compression_Orchestrator",
+    "do-ops885/do-deal-relay",
+    "droneslab/atlas-corl-2026",
+    "dune94/epam-cli",
+    "florianbuetow/agent-economy",
+    "icylito/multi-agent-orchestration-system",
+    "ihoward40/SintraPrime-Unified",
+    "jayzalowitz/skytwin",
+    "lowelltwong-alt/logos-governance-architecture",
+    "toxicwind/refusal-hunt",
+    "tyuikl32/Tsunagou",
+    "yashturkar/control-tower",
+    "yil384/agentdc-xxl"
+  ],
+  "schema_inventory_migration_and_fixture_controls": {
+    "returned_paths": 11,
+    "repositories": 6,
+    "assessment": "No populated sender-to-recipient dependency is present. The apparent output/use pair is either separated across schema or inventory objects, generated migration metadata, a substring match, or a deliberately authored test fixture.",
+    "selected_sources": [
+      {
+        "url": "https://github.com/jayzalowitz/skytwin/blob/daac67e4b82112d05f68ea99d2e00c4ca0c4c78d/docs/security/encryption-field-inventory.json",
+        "git_blob_sha": "b8805c70a9b8b03fec8599432aa89c5c4695f316",
+        "finding": "A security inventory places used_at in recovery_codes and output_digest in twin_feedback_applications. These are different table descriptions, not one exchange row."
+      },
+      {
+        "url": "https://github.com/RecursiveIntell/Libraries/blob/2fcf600b8c92f058b3a3ff3d0d079d4445919c84/AiDENs/schemas/run-receipt/v1.schema.json",
+        "git_blob_sha": "1be28839139fd89bd971f030d6106f7f91679e76",
+        "finding": "The exact fields occur in a JSON Schema defining permit-use and tool-result reports; the file contains no report instance."
+      },
+      {
+        "url": "https://github.com/ayiinee/Numora/blob/8d27bed25de9f0a82f924569acfe0f3b4c89e60e/packages/database/drizzle/meta/0009_snapshot.json",
+        "git_blob_sha": "a3cdfa4ab5c4f9d469379693b970f7138f979d20",
+        "finding": "One of six generated migration snapshots places used_at on teacher_verification_tokens and output_digest on irt_batches. No populated row is present."
+      },
+      {
+        "url": "https://github.com/Marsys-Technologies/Madhav/blob/6ae3732dc274cfdf2dca948d34994cf2aa2f422a/00_ARCHITECTURE/control/kalayantra/SCHEMA_RECEIPT_v2_2.json",
+        "git_blob_sha": "9d2fc9ce8bb70f1b0737a316f827fd2bf049b50b",
+        "finding": "The schema receipt inventories output-digest columns while the use-looking match is last_used_at on an API-key table."
+      },
+      {
+        "url": "https://github.com/lowelltwong-alt/logos-governance-architecture/blob/83fb2d0c1e7187a9717808f6061137f7f533d066/docs/roadmap/logos-stewardship-architecture-buildout/revisions/doctrine-mesh-v2/checks/fixtures/negative-cases.json",
+        "git_blob_sha": "5827739701a808648d3fdb86b5ef21df1e9997b0",
+        "finding": "The output-digest terms are expected audit-rule names in a negative test fixture; the use-looking match is the substring in reused_attempt."
+      },
+      {
+        "url": "https://github.com/ca-mrc/loom/blob/1dda417abb884ea09f4727be91e26dd9cc7c5adf/tests/fixtures/historical/completed_task_image_publication.json",
+        "git_blob_sha": "b1a2bf2ab2265a35fc766b2bf6a0115799230591",
+        "finding": "A historical test fixture contains a placeholder output digest; the use-looking match is inside submissions_paused_at, not an independent used_at field."
+      }
+    ]
+  },
+  "control_tower_designed_dependency": {
+    "repository": "yashturkar/control-tower",
+    "snapshot_commit": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+    "snapshot_commit_date": "2026-08-07T15:35:24Z",
+    "original_observation": "Public task and ResultPacket files preserve distinguishable Inspector, Tower, Builder, Git-master and Scribe role labels. One Inspector result names a null-stdout Cursor failure and a test-contract mismatch; the later Tower-to-Builder task repeats both specific blockers, the Builder result reports changing the two named files, and a Git-master result records committing exactly those two files. A separate Builder result is explicitly named as seed_result_packet in a Tower-to-Scribe follow-up whose file inputs match the Builder result's artifacts_changed list.",
+    "sender_to_recipient_dependency": {
+      "inspector_result": {
+        "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/inspector-pr17-review.result.json",
+        "event_at": "2026-03-31T05:35:30Z",
+        "from_agent": "inspector",
+        "to_agent": "tower",
+        "finding_summary": "The result blocks merge on a null-stdout crash and a Cursor invocation/test mismatch."
+      },
+      "builder_task": {
+        "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/builder-pr17-cursor-fix.json",
+        "event_at": "2026-03-31T05:40:56Z",
+        "from_agent": "tower",
+        "to_agent": "builder",
+        "dependency": "The task repeats the two specific Inspector blockers and targets the affected implementation and test files."
+      },
+      "builder_result": {
+        "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/builder-pr17-cursor-fix.result.json",
+        "declared_event_at": "2026-03-30T22:43:55Z",
+        "from_agent": "builder",
+        "to_agent": "tower",
+        "parent_packet_id": "51df52f2-fb91-4ef5-bc8a-0c3c33d63a69",
+        "dependency": "The result reports implementing both requested fixes in the two named files and passing focused and broader tests. Its declared timestamp precedes its parent task, so exact chronology is not inferred from this field."
+      },
+      "git_result": {
+        "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/git-master-pr17-cursor-fix-push.result.json",
+        "event_at": "2026-03-31T05:46:16Z",
+        "from_agent": "git-master",
+        "to_agent": "tower",
+        "dependency": "The result records a commit and push containing exactly the Builder result's two changed files."
+      },
+      "explicit_seeded_followup": {
+        "source_result_url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/builder-refresh-codex-init-models.result.json",
+        "recipient_task_url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/scribe-docs-followup-builder-20260331T055906Z.json",
+        "recipient_task_event_at": "2026-03-31T05:59:06Z",
+        "dependency": "The Scribe task metadata names the exact Builder ResultPacket as seed_result_packet and copies both changed paths into its inputs.files array.",
+        "limitation": "No matching Scribe ResultPacket is public at the selected snapshot, so Scribe's downstream execution is not established."
+      }
+    },
+    "authorization_and_operator_boundary": {
+      "readme_url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/README.md",
+      "finding": "The project describes itself as a Codex-driven multi-agent orchestration bootstrap. A human starts Tower, Tower creates task packets, invokes role-specific subagents through codex exec, reads ResultPackets and deliberately seeds later packets from earlier results.",
+      "assessment": "Concrete task-result transfer and use exists, but it is the documented purpose of one operator-controlled system. No cooperation across separately authorized operators or out-of-scope coordination is shown."
+    },
+    "classification": "designed_same_operator_transfer_use_control",
+    "candidate": false
+  },
+  "deal_relay_handoff_log_control": {
+    "repository": "do-ops885/do-deal-relay",
+    "snapshot_commit": "5cb84814562d812409000a8252ab2323157c27ac",
+    "snapshot_commit_date": "2026-10-15T17:31:19Z",
+    "main_log": {
+      "url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/agents-docs/coordination/handoff-log.jsonl",
+      "git_blob_sha": "dded8549c0bd2bb8720528ee7360d85e2941d212",
+      "physical_nonempty_lines": 42,
+      "parsed_json_objects": 41,
+      "malformed_physical_lines": 1,
+      "unevaluated_shell_timestamp_objects": 23,
+      "state_counts": {
+        "complete": 28,
+        "partial": 5,
+        "in-progress": 8
+      },
+      "assessment": "The append-only log names planned and completed role handoffs and deliverable paths, but has no reply pointer, content hash or recipient-operation identifier. More than half the parsed rows retain a literal shell substitution in timestamp, and the last physical row is not valid JSON."
+    },
+    "specific_swarm_log": {
+      "url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/agents-docs/coordination/swarm-handoff-log.jsonl",
+      "git_blob_sha": "6d2b937132f5f8c75a39ee557199ca584d799fef",
+      "parsed_json_objects": 2,
+      "from_agents": [
+        "webhook-agent",
+        "email-agent"
+      ],
+      "to_agent": "api-interface-agent",
+      "assessment": "Both rows point to role-specific handoff files, but those two files return not found at the selected immutable snapshot. Recipient use therefore cannot be checked from the public record."
+    },
+    "designed_workflow_context": {
+      "protocol_url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/agents-docs/coordination/input-methods-handoff-protocol.md",
+      "skill_url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/.agents/skills/agent-coordination/SKILL.md",
+      "finding": "The protocol preassigns four implementation roles to an API-integration role, then validation and synthesis. The repository's coordination skill instructs agents to use the handoff log for planned transitions.",
+      "assessment": "The records are operator-designed project coordination. Public evidence does not establish an independently operated participant, causal recipient use of the missing handoff bodies or an authorization-boundary crossing."
+    },
+    "classification": "designed_handoff_log_with_missing_recipient_artifacts",
+    "candidate": false
+  },
+  "prior_reporting_check": {
+    "checked_at": "2026-10-15",
+    "queries": [
+      "\"yashturkar/control-tower\" AI agent swarm incident OR rogue OR unauthorized",
+      "\"do-ops885/do-deal-relay\" AI agent swarm incident OR rogue OR unauthorized",
+      "\"yashturkar/control-tower\" incident",
+      "\"yashturkar/control-tower\" unauthorized",
+      "\"do-ops885/do-deal-relay\" incident",
+      "\"do-ops885/do-deal-relay\" unauthorized"
+    ],
+    "sources_checked": [
+      "Public web search results",
+      "Immutable repository files and README documentation",
+      "Pinned public commit metadata"
+    ],
+    "result": "No prior coordination-incident report was located in the checked scope as of 2026-10-15. This is not a novelty claim: each repository itself publishes the selected activity as designed agent coordination, and neither family passes the operator-boundary gate."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "The Control Tower roles are independently operated agents that crossed an authorization boundary",
+      "result": "Rejected in the public scope. The README defines one Tower-controlled delegation system launched by a human, with prescribed roles, task packets and deliberate result chaining."
+    },
+    {
+      "alternative": "Role labels and exact file reuse alone prove an organic swarm",
+      "result": "Rejected. Control Tower's transfer/use edge is real but designed; the deal-relay role names are workflow labels without public independent-operator provenance."
+    },
+    {
+      "alternative": "The deal-relay completion rows prove recipients used sender artifacts",
+      "result": "Not established. The two most specific records point to absent handoff files, the general log lacks causal pointers and checksums, and timestamp quality is poor."
+    },
+    {
+      "alternative": "Output-digest and use-time co-location is a populated exchange",
+      "result": "Rejected in all eleven returned paths. Complete representative parses resolve the terms to schemas, different table inventories, generated migrations, substring matches or test fixtures."
+    },
+    {
+      "alternative": "The selected records reflect scanner retries, shared state or observer contamination",
+      "result": "Scanner retries do not explain the Control Tower packet links, but intended orchestration does. This repository excluded itself from every locator query, and no self-index result is counted."
+    }
+  ],
+  "advancement_requirements": {
+    "control_tower": "Primary evidence that separately operated agents, rather than roles deliberately spawned by one Tower workflow, exchanged and used a result outside their operators' authorization. More seeded ResultPackets within the documented loop do not qualify.",
+    "deal_relay": "The referenced public handoff bodies or an equivalent content-addressed artifact, an independently attributable recipient operation demonstrably dependent on that material, reliable event chronology and separate-operator authorization evidence.",
+    "schema_inventory_family": "A populated immutable run record tying a specific sender output digest to a distinguishable recipient and later content-dependent action; schemas, migrations, inventories and fixtures do not qualify."
+  },
+  "next_record_and_query_cursor": {
+    "scanner_backlog": "Remain paused at 853 of 1,146 inspected records. Resume the 293-record known-family-controlled remainder only on a source-level cue that distinguishes a separate episode or population.",
+    "public_chat_gap": "The AI Village open-chat skill was read, but its required public read tools were not callable in this environment. Do not substitute authentication, browser fallback or posting; retry only when an unauthenticated public reader is available.",
+    "next_queries": [
+      "\"seed_result_packet\" \"seed_result_agent\" \"artifacts_changed\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"source_result_packet\" \"recipient_agent\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"input_artifact_sha256\" \"output_commit\" \"from_agent\" \"to_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "family_reentry_rule": "Do not revisit Control Tower or deal-relay merely for more designed-role rows. Re-enter only on primary evidence of separate operator provenance, a new content-dependent recipient edge, or activity outside the documented orchestration rails."
+  },
+  "limitations": [
+    "GitHub default-branch code search does not cover deleted history, unindexed branches, private repositories or private runtime state.",
+    "The search service supplied no total-count, pagination or incompleteness metadata; all coverage counts are bounded observations.",
+    "Control Tower ResultPacket timestamps are not internally consistent: selected Builder results declare times earlier than their parent tasks. Parent IDs, trace IDs, exact file sets and later packet content remain usable, but exact temporal ordering is not inferred from the inconsistent fields.",
+    "The deal-relay main log includes literal unevaluated timestamp substitutions and one malformed physical line; role labels and completion states are not independently authenticated participant identities.",
+    "The two specific deal-relay handoff bodies are absent at the selected snapshot, so their semantic content and recipient use cannot be verified.",
+    "No inference about subjective intent, provider attribution or current autonomous activity is made."
+  ],
+  "safety": {
+    "read_only": true,
+    "code_executed": false,
+    "packages_installed": false,
+    "scans_submitted": false,
+    "agent_runtimes_invoked": false,
+    "participants_contacted": false,
+    "messages_or_reactions_posted": false,
+    "accounts_created": false,
+    "private_or_unlisted_records_read": false,
+    "payloads_replayed": false,
+    "target_systems_probed": false,
+    "publication_sanitized": true
+  },
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "alert_threshold_met": false,
+    "summary": "A concrete Inspector-to-Tower-to-Builder-to-Git task/result dependency and an explicitly seeded Builder-to-Scribe follow-up are verified, but Control Tower documents them as the intended single-operator orchestration loop. Deal-relay exposes designed role handoffs with missing recipient artifacts and weak timestamp integrity. The remaining digest/use matches are schemas, migrations, inventories or fixtures."
+  }
+}

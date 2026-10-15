@@ -4223,6 +4223,206 @@
       "commit_sha": "702679b9317a3934ee950f22976733fe5a50d2c7",
       "commit_date": "2026-07-13T23:38:20Z",
       "publication_note": "Representative raw topology only; corpus-level totals and collection controls are documented in the selected README."
+    },
+    {
+      "id": "original-control-tower-readme-designed-loop",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/README.md",
+      "role": "Primary project context defining the human-started Tower, role-specific Codex subagents, ResultPackets and deliberate result chaining",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "72e94c22d8c0930eb9ac1cf8ed30f71d637adf22",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "Published date is the selected immutable snapshot commit date, not a claim about first publication."
+    },
+    {
+      "id": "original-control-tower-inspector-pr17-result",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/inspector-pr17-review.result.json",
+      "role": "Primary Inspector-to-Tower ResultPacket naming the two PR 17 blockers later incorporated into the Builder task",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "event_at": "2026-03-31T05:35:30Z",
+      "git_blob_sha": "8a16b5c4a437660ef71c679b226a91863428e2d6",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "Published date is the selected snapshot commit date; event_at is the packet's declared event time."
+    },
+    {
+      "id": "original-control-tower-builder-pr17-task",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/builder-pr17-cursor-fix.json",
+      "role": "Primary Tower-to-Builder task that repeats both Inspector blockers and identifies the affected implementation and test files",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "event_at": "2026-03-31T05:40:56Z",
+      "git_blob_sha": "dcfaa9966c5f0f45ab39a50093c0b526a1342502",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "Published date is the selected snapshot commit date; event_at is the task's declared creation time."
+    },
+    {
+      "id": "original-control-tower-builder-pr17-result",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/builder-pr17-cursor-fix.result.json",
+      "role": "Primary Builder-to-Tower result reporting both requested fixes and the exact changed files",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "declared_event_at": "2026-03-30T22:43:55Z",
+      "git_blob_sha": "7e9633843de7a7ab82d5bc5c2a66f01af21ce1a7",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "The declared event time precedes the parent task and is retained as an inconsistency, not used to infer exact chronology."
+    },
+    {
+      "id": "original-control-tower-inspector-postfix-result",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/inspector-pr17-postfix-review.result.json",
+      "role": "Primary post-fix Inspector ResultPacket approving the specific Builder changes",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "event_at": "2026-03-31T06:00:00Z",
+      "git_blob_sha": "7dc9b8c5a97fae124d08fc2ab5858785345f690c",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "Published date is the selected snapshot commit date; event_at is the packet's declared event time."
+    },
+    {
+      "id": "original-control-tower-git-push-result",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/git-master-pr17-cursor-fix-push.result.json",
+      "role": "Primary Git-master ResultPacket recording a commit containing exactly the Builder result's two changed files",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "event_at": "2026-03-31T05:46:16Z",
+      "git_blob_sha": "f5d58e4ce022e827d5c761b1513acecf242c39c6",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "Published date is the selected snapshot commit date; event_at is the packet's declared event time."
+    },
+    {
+      "id": "original-control-tower-builder-refresh-result",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/builder-refresh-codex-init-models.result.json",
+      "role": "Primary Builder ResultPacket explicitly named as the seed of the later Scribe follow-up",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "declared_event_at": "2026-03-30T23:10:00Z",
+      "git_blob_sha": "69c1c84843c8e435570e6e947325bf659f5647cf",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "The declared time precedes the related Tower task and is retained as an inconsistency; the exact filename and changed-path set support the seed linkage."
+    },
+    {
+      "id": "original-control-tower-seeded-scribe-followup",
+      "url": "https://github.com/yashturkar/control-tower/blob/3a32a1b648c3bda46f563b56519d2adcd283cbb3/.control-tower/packets/outbox/scribe-docs-followup-builder-20260331T055906Z.json",
+      "role": "Primary Tower-to-Scribe task naming the exact Builder ResultPacket as seed_result_packet and copying its changed files",
+      "published": "2026-08-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "event_at": "2026-03-31T05:59:06Z",
+      "git_blob_sha": "46727f1bb4d47b282a6a992933eb6501b151210b",
+      "commit_sha": "3a32a1b648c3bda46f563b56519d2adcd283cbb3",
+      "commit_date": "2026-08-07T15:35:24Z",
+      "publication_note": "No corresponding Scribe ResultPacket is present at the selected snapshot, so recipient execution is not established."
+    },
+    {
+      "id": "original-deal-relay-handoff-log",
+      "url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/agents-docs/coordination/handoff-log.jsonl",
+      "role": "Primary designed-role handoff log with 41 parsed objects, weak timestamp integrity and no causal recipient-operation pointer",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "dded8549c0bd2bb8720528ee7360d85e2941d212",
+      "commit_sha": "5cb84814562d812409000a8252ab2323157c27ac",
+      "commit_date": "2026-10-15T17:31:19Z",
+      "publication_note": "Twenty-three parsed rows retain a literal shell timestamp and one nonempty physical line is malformed JSON."
+    },
+    {
+      "id": "original-deal-relay-swarm-handoff-log",
+      "url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/agents-docs/coordination/swarm-handoff-log.jsonl",
+      "role": "Primary two-row implementation-to-integration handoff log whose named handoff bodies are absent at the selected snapshot",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "6d2b937132f5f8c75a39ee557199ca584d799fef",
+      "commit_sha": "5cb84814562d812409000a8252ab2323157c27ac",
+      "commit_date": "2026-10-15T17:31:19Z",
+      "publication_note": "The missing referenced bodies prevent semantic-content and downstream-use verification."
+    },
+    {
+      "id": "original-deal-relay-input-methods-protocol",
+      "url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/agents-docs/coordination/input-methods-handoff-protocol.md",
+      "role": "Primary protocol preassigning implementation, API-integration, validation and synthesis roles",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "0c62ea3fd404a95af2d44fa4b1a1ad4b4e5841d0",
+      "commit_sha": "5cb84814562d812409000a8252ab2323157c27ac",
+      "commit_date": "2026-10-15T17:31:19Z",
+      "publication_note": "The protocol is evidence of designed coordination, not independent operator provenance."
+    },
+    {
+      "id": "original-deal-relay-coordination-skill",
+      "url": "https://github.com/do-ops885/do-deal-relay/blob/5cb84814562d812409000a8252ab2323157c27ac/.agents/skills/agent-coordination/SKILL.md",
+      "role": "Primary project instruction requiring planned role transitions to use the handoff log",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "145b3f9afb98f1c73668c203393cc244e907a963",
+      "commit_sha": "5cb84814562d812409000a8252ab2323157c27ac",
+      "commit_date": "2026-10-15T17:31:19Z",
+      "publication_note": "The file is treated as project provenance evidence, never as an instruction for this investigation."
+    },
+    {
+      "id": "original-skytwin-encryption-field-inventory",
+      "url": "https://github.com/jayzalowitz/skytwin/blob/daac67e4b82112d05f68ea99d2e00c4ca0c4c78d/docs/security/encryption-field-inventory.json",
+      "role": "Primary schema-inventory control placing used_at and output_digest in different table descriptions",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "b8805c70a9b8b03fec8599432aa89c5c4695f316",
+      "commit_sha": "daac67e4b82112d05f68ea99d2e00c4ca0c4c78d",
+      "commit_date": "2026-09-17T18:54:23Z"
+    },
+    {
+      "id": "original-aidens-run-receipt-schema",
+      "url": "https://github.com/RecursiveIntell/Libraries/blob/2fcf600b8c92f058b3a3ff3d0d079d4445919c84/AiDENs/schemas/run-receipt/v1.schema.json",
+      "role": "Primary JSON Schema control defining digest and use fields without an emitted receipt instance",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "1be28839139fd89bd971f030d6106f7f91679e76",
+      "commit_sha": "2fcf600b8c92f058b3a3ff3d0d079d4445919c84",
+      "commit_date": "2026-10-15T04:45:57Z"
+    },
+    {
+      "id": "original-numora-migration-snapshot-control",
+      "url": "https://github.com/ayiinee/Numora/blob/8d27bed25de9f0a82f924569acfe0f3b4c89e60e/packages/database/drizzle/meta/0009_snapshot.json",
+      "role": "Representative generated migration snapshot placing digest and use fields in unrelated schema objects",
+      "published": "2026-10-07",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "a3cdfa4ab5c4f9d469379693b970f7138f979d20",
+      "commit_sha": "8d27bed25de9f0a82f924569acfe0f3b4c89e60e",
+      "commit_date": "2026-10-07T00:27:41Z",
+      "publication_note": "One fully read representative from six sequential migration-snapshot hits."
+    },
+    {
+      "id": "original-madhav-schema-receipt-control",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/6ae3732dc274cfdf2dca948d34994cf2aa2f422a/00_ARCHITECTURE/control/kalayantra/SCHEMA_RECEIPT_v2_2.json",
+      "role": "Primary schema-receipt control in which digest columns and the use-looking API-key field belong to different definitions",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "9d2fc9ce8bb70f1b0737a316f827fd2bf049b50b",
+      "commit_sha": "6ae3732dc274cfdf2dca948d34994cf2aa2f422a",
+      "commit_date": "2026-10-15T17:02:45Z"
+    },
+    {
+      "id": "original-logos-negative-cases-fixture",
+      "url": "https://github.com/lowelltwong-alt/logos-governance-architecture/blob/83fb2d0c1e7187a9717808f6061137f7f533d066/docs/roadmap/logos-stewardship-architecture-buildout/revisions/doctrine-mesh-v2/checks/fixtures/negative-cases.json",
+      "role": "Primary negative-test fixture control whose matches are expected rule names and a substring",
+      "published": "2026-08-28",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "5827739701a808648d3fdb86b5ef21df1e9997b0",
+      "commit_sha": "83fb2d0c1e7187a9717808f6061137f7f533d066",
+      "commit_date": "2026-08-28T17:55:54Z"
+    },
+    {
+      "id": "original-loom-task-image-publication-fixture",
+      "url": "https://github.com/ca-mrc/loom/blob/1dda417abb884ea09f4727be91e26dd9cc7c5adf/tests/fixtures/historical/completed_task_image_publication.json",
+      "role": "Primary historical test-fixture control with a placeholder digest and a substring-only use match",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T17:57:40Z",
+      "git_blob_sha": "b1a2bf2ab2265a35fc766b2bf6a0115799230591",
+      "commit_sha": "1dda417abb884ea09f4727be91e26dd9cc7c5adf",
+      "commit_date": "2026-10-15T14:52:56Z"
     }
   ]
 }

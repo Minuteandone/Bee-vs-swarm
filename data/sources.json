@@ -4111,6 +4111,118 @@
       "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
       "commit_date": "2026-09-11T15:53:51Z",
       "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-refusal-hunt-project-context",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/README.md",
+      "role": "Primary project and authorization context for refusal detection, bounded retry, allowlisted redispatch and escalation",
+      "published": "2026-09-30",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "git_blob_sha": "74f934bb8dbde342164d56058e39ca05d46bd24f",
+      "content_sha256": "cbe3013e5107dcfa587d9b1ef72010a21d6b143fa0465ee6e89a5152f572b9d2",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "README first appears at the immutable selected snapshot; event times in the ledgers are recorded separately."
+    },
+    {
+      "id": "original-refusal-hunt-census",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/ledger/CENSUS.md",
+      "role": "Primary census identifying intentional echo, deterministic serving-layer overwrite and zero-work nominal child completions",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "git_blob_sha": "d819f376eb5251ca81328b0ccf70d894ec93fda8",
+      "content_sha256": "f5e4fde590e838af2964efd533e1a535f6f52c5cd1705c230e070e8711231d72",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "The file first appears in public history at commit 3bcee9305921d7d7172391c1d708fa50101c8692 on 2026-09-17T15:55:29Z; the selected immutable snapshot is later."
+    },
+    {
+      "id": "original-refusal-hunt-stage-spawn",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/ledger/inbox/stage-spawn.jsonl",
+      "role": "Primary 76-row spawn ledger whose nominal child completions share one refusal digest",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "event_start": "2026-09-16T03:01:31Z",
+      "event_end": "2026-09-17T10:25:38Z",
+      "git_blob_sha": "fa85519c3f2669640f1010432b76d92ba42011e9",
+      "content_sha256": "1acd27b2d536a02607ab44a7e4e96610b71bb7be439be4e5340b9a68ecb02e3a",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "The selected ledger and related audit files first appear in public history at commit a6e900fe164ac8e8de16206ac7940d813a2b4932 on 2026-09-17T21:54:05Z."
+    },
+    {
+      "id": "original-refusal-hunt-backfill",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/ledger/inbox/backfill-20260916.jsonl",
+      "role": "Primary backfill whose 76 child IDs exactly duplicate the selected stage ledger",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "git_blob_sha": "9d68540ed00c2a041675dfd967fdf8f157852f45",
+      "content_sha256": "f62c571efc7a950471a0d3a227333f17c870638e0f89b0eb23ed96eb75a24619",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "First public file commit a6e900fe164ac8e8de16206ac7940d813a2b4932 is dated 2026-09-17T21:54:05Z; exact ID overlap prevents double-counting."
+    },
+    {
+      "id": "original-refusal-hunt-audit-hits",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/sorry-audit/hits.jsonl",
+      "role": "Primary detector-output ledger used for bounded refusal, participant and repeated-observation analysis",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "event_start": "2026-09-16T10:16:54.948Z",
+      "event_end": "2026-09-17T11:02:03.594Z",
+      "git_blob_sha": "2a641f25c698129d50a50fd4451f7555a6188757",
+      "content_sha256": "6c356df57146edf60a9caf35a21fda5d3a1b859196b639b6fe6ed656f9279b02",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "First public file commit a6e900fe164ac8e8de16206ac7940d813a2b4932 is dated 2026-09-17T21:54:05Z; row count is detector observations, not participant count."
+    },
+    {
+      "id": "original-refusal-hunt-audit-fixes",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/sorry-audit/fixes.jsonl",
+      "role": "Primary remediation ledger separating observation, reissue, clean redispatch and unrecoverable classifications",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "event_start": "2026-09-16T07:45:00Z",
+      "event_end": "2026-09-17T11:10:00Z",
+      "git_blob_sha": "8f80821f9cbed50ee60df6c47dad572886c39d8f",
+      "content_sha256": "028712274d579315795271def0f101dd972f7b84a112585289160dabbe9607c2",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "First public file commit a6e900fe164ac8e8de16206ac7940d813a2b4932 is dated 2026-09-17T21:54:05Z; repeated sweep classifications are not independent exchanges."
+    },
+    {
+      "id": "original-refusal-hunt-inline-forensics",
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/sorry-audit/fix-spawn-811-forensics.md",
+      "role": "Primary forensics note documenting same-workflow inline completion after a delegated child produced only a refusal",
+      "published": "2026-09-17",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "git_blob_sha": "edd91a0b16bad304d75b8ca8387bdac0971c96e4",
+      "content_sha256": "f0021d28147d60db65b86ca001f8f696f86d2718f071e1219b55b2c258f648c8",
+      "commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+      "commit_date": "2026-09-30T00:55:06Z",
+      "publication_note": "First public file commit a6e900fe164ac8e8de16206ac7940d813a2b4932 is dated 2026-09-17T21:54:05Z; the note is operator-authored provenance rather than an independent participant report."
+    },
+    {
+      "id": "original-agentdc-xxl-context",
+      "url": "https://github.com/yil384/agentdc-xxl/blob/702679b9317a3934ee950f22976733fe5a50d2c7/README.md",
+      "role": "Primary controlled-corpus scope, preregistration, one-node collection, aggregate counts, privacy and provenance context",
+      "published": "2026-07-13",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "git_blob_sha": "ffed933970de7b9fa3983e6672a0d41353756d32",
+      "commit_sha": "702679b9317a3934ee950f22976733fe5a50d2c7",
+      "commit_date": "2026-07-13T23:38:20Z",
+      "publication_note": "The immutable selected snapshot identifies a preregistered research corpus and explicitly states that prompt/output text was not logged."
+    },
+    {
+      "id": "original-agentdc-xxl-spawn-edges",
+      "url": "https://github.com/yil384/agentdc-xxl/blob/702679b9317a3934ee950f22976733fe5a50d2c7/results/p5/e1_grid_v1/cells/f1__s0/traces/edges.jsonl",
+      "role": "Representative primary spawn-edge ledger containing parent/child topology but no task result, receipt or downstream-use field",
+      "published": "2026-07-13",
+      "observed_at": "2026-10-15T14:33:54Z",
+      "git_blob_sha": "a1987dfa721a76ea363b0697f4fa04d6760c5c74",
+      "commit_sha": "702679b9317a3934ee950f22976733fe5a50d2c7",
+      "commit_date": "2026-07-13T23:38:20Z",
+      "publication_note": "Representative raw topology only; corpus-level totals and collection controls are documented in the selected README."
     }
   ]
 }

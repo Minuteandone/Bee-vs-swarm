@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-15T14:33:54Z",
+  "observed_at": "2026-10-15T14:33:54Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "search_source": "Public GitHub default-branch code search located committed records. The connector returned result arrays without total-count, pagination or incompleteness metadata, so all counts are bounded returned rows rather than exhaustive claims. Selected repositories were independently checked as public and selected files were read at immutable commits.",
+  "scope": {
+    "global_query_requests": 15,
+    "resumed_exact_query_requests": 3,
+    "adjacent_query_requests": 12,
+    "zero_return_query_responses": 13,
+    "nonzero_query_responses": 2,
+    "returned_row_occurrences": 62,
+    "distinct_external_paths": 62,
+    "distinct_public_repositories": 3,
+    "result_completeness_metadata_available": false,
+    "selected_raw_or_context_files_read_in_full": 9,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "All three saved Pass 79 exact cursors returned zero rows. Twelve adjacent rotations added one 57-row parent/child result and one five-row known-control response; ten returned zero. The 62 returned paths belong to toxicwind/refusal-hunt (22), yil384/agentdc-xxl (35) and tyuikl32/Tsunagou (5), each independently verified as public. Service completeness metadata was unavailable, so zero means zero returned rows in the bounded response, not global absence.",
+  "queries": [
+    {
+      "query": "\"parent_agent_id\" \"child_agent_id\" \"result_hash\" \"submitted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_79_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"submission_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_79_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"source_message_id\" \"applied_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_79_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"parent_agent_id\" \"child_agent_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 57,
+      "selected_families": [
+        "refusal_hunt_runtime_forensics",
+        "agentdc_xxl_controlled_serving_traces"
+      ]
+    },
+    {
+      "query": "\"result_hash\" \"submitted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"artifact_sha256\" \"submission_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_message_id\" \"applied_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_message_id\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"recipient_agent_id\" \"result_hash\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"result_hash\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_run_id\" \"recipient_run_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"produced_by_run_id\" \"consumed_by_run_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reply_to_message_id\" \"artifact_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"message_id\" \"sender_agent_id\" \"recipient_agent_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "adjacent_rotation",
+      "returned_rows": 5,
+      "selected_family": "previously_reviewed_tsunagou_acceptance_harness"
+    }
+  ],
+  "public_repositories": [
+    "toxicwind/refusal-hunt",
+    "yil384/agentdc-xxl",
+    "tyuikl32/Tsunagou"
+  ],
+  "selected_refusal_hunt_family": {
+    "repository": "toxicwind/refusal-hunt",
+    "repository_visibility": "public",
+    "classification": "Public runtime-forensics and recovery ledger for a common refusal overwrite; apparent child completions contain no task result and later work is same-operator retry or inline recovery",
+    "snapshot_commit_sha": "39e0d4683bbd2b3d362beb90cd4509c51ac89683",
+    "snapshot_commit_date": "2026-09-30T00:55:06Z",
+    "event_window": {
+      "unique_spawn_rows_start": "2026-09-16T03:01:31Z",
+      "unique_spawn_rows_end": "2026-09-17T10:25:38Z",
+      "audit_hits_start": "2026-09-16T10:16:54.948Z",
+      "audit_hits_end": "2026-09-17T11:02:03.594Z",
+      "audit_fixes_start": "2026-09-16T07:45:00Z",
+      "audit_fixes_end": "2026-09-17T11:10:00Z"
+    },
+    "public_record_timing": {
+      "census_first_public_commit": "2026-09-17T15:55:29Z",
+      "selected_ledger_and_audit_files_first_public_commit": "2026-09-17T21:54:05Z",
+      "selected_readme_commit": "2026-09-30T00:55:06Z",
+      "observation_time": "2026-10-15T14:33:54Z"
+    },
+    "deduplicated_spawn_ledger": {
+      "unique_rows": 99,
+      "unique_parent_ids": 11,
+      "unique_child_ids": 99,
+      "status_counts": {
+        "completed": 99
+      },
+      "unique_response_body_md5_count": 1,
+      "repeated_response_body_md5": "b4aefd29108f232f9c0d5a4b030215c1",
+      "repeated_response_body_length_characters": 384,
+      "task_result_count": 0,
+      "interpretation": "Every nominal child completion carries the same canned refusal body rather than child-specific task work. Parent and child IDs therefore identify runtime topology, not a result-transfer edge."
+    },
+    "snapshot_overlap": {
+      "stage_spawn_rows": 76,
+      "backfill_rows": 76,
+      "shared_child_ids": 76,
+      "overlap_percent": 100,
+      "interpretation": "The backfill is a duplicate snapshot of the stage ledger, not 76 additional events or participants."
+    },
+    "audit_ledgers": {
+      "hits_rows": 883,
+      "hits_primary_or_spawn_rows": 44,
+      "hits_secondary_or_chat_rows": 839,
+      "hits_unique_nonnull_parent_ids": 6,
+      "hits_unique_nonnull_child_ids": 36,
+      "hits_unique_response_digests": 2,
+      "fixes_physical_lines": 711,
+      "fixes_parsed_json_objects": 713,
+      "fix_action_counts": {
+        "missing_action": 13,
+        "already_answered": 150,
+        "observed": 413,
+        "redispatched_clean": 15,
+        "reissued": 83,
+        "unrecoverable": 39
+      },
+      "fixes_dry_run_objects": 12,
+      "parse_note": "Two physical lines contain two adjacent JSON objects. Repeated JSONDecoder.raw_decode parsing yields 713 objects with no unparsed remainder; a one-object-per-line parser yields only 711.",
+      "interpretation": "The ledgers are detector and remediation outputs with repeated sweep classifications. Row counts are not counts of independent agents, transfers or adopted results."
+    },
+    "dependency_assessment": "No sender-to-recipient task-result dependency survives. The apparent senders are failed child runs whose final material is one identical refusal; the later substantive work is documented as user resend, authorized redispatch or inline execution by the same workflow. No recipient is shown using a child-produced result.",
+    "participant_assessment": "Runtime parent and child identifiers distinguish process slots but do not establish independent principals or operators. The repository documents one operator's incident response and recovery system.",
+    "operator_boundary_assessment": "The README, census and recovery records explicitly authorize bounded retry, allowlisted redispatch, inline completion when delegation fails and escalation after a cap. The observed recovery stays inside those operator-defined rails.",
+    "alternative_explanations": [
+      "A common serving-layer overwrite generated identical nominal completions across many runtime IDs.",
+      "Stage and backfill files duplicate the same 76 child IDs.",
+      "Detector and sweep outputs repeat observations and classifications rather than recording new exchanges.",
+      "Later substantive work follows user resend, authorized retry or direct same-workflow recovery rather than adoption of a child result."
+    ],
+    "candidate_status": "excluded_common_cause_and_authorized_recovery_control",
+    "advancement_requirement": "A public child-specific task result, a distinguishable recipient action causally dependent on that result, independent principal/operator provenance and primary evidence that the cooperation exceeded authorization. More runtime IDs, repeated refusal rows, retry sweeps or backfills do not qualify."
+  },
+  "selected_refusal_hunt_sources": [
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/README.md",
+      "git_blob_sha": "74f934bb8dbde342164d56058e39ca05d46bd24f",
+      "content_sha256": "cbe3013e5107dcfa587d9b1ef72010a21d6b143fa0465ee6e89a5152f572b9d2",
+      "role": "Primary project and authorization context for refusal detection, bounded retry and allowlisted recovery"
+    },
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/ledger/CENSUS.md",
+      "git_blob_sha": "d819f376eb5251ca81328b0ccf70d894ec93fda8",
+      "content_sha256": "f5e4fde590e838af2964efd533e1a535f6f52c5cd1705c230e070e8711231d72",
+      "role": "Primary census identifying intentional echo, deterministic serving-layer overwrite and zero-work child completions"
+    },
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/ledger/inbox/stage-spawn.jsonl",
+      "git_blob_sha": "fa85519c3f2669640f1010432b76d92ba42011e9",
+      "content_sha256": "1acd27b2d536a02607ab44a7e4e96610b71bb7be439be4e5340b9a68ecb02e3a",
+      "role": "Primary 76-row spawn ledger with identical nominal child completions"
+    },
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/ledger/inbox/backfill-20260916.jsonl",
+      "git_blob_sha": "9d68540ed00c2a041675dfd967fdf8f157852f45",
+      "content_sha256": "f62c571efc7a950471a0d3a227333f17c870638e0f89b0eb23ed96eb75a24619",
+      "role": "Primary backfill whose 76 child IDs exactly duplicate the stage ledger"
+    },
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/sorry-audit/hits.jsonl",
+      "git_blob_sha": "2a641f25c698129d50a50fd4451f7555a6188757",
+      "content_sha256": "6c356df57146edf60a9caf35a21fda5d3a1b859196b639b6fe6ed656f9279b02",
+      "role": "Primary detector-output ledger used for bounded refusal and participant-count analysis"
+    },
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/sorry-audit/fixes.jsonl",
+      "git_blob_sha": "8f80821f9cbed50ee60df6c47dad572886c39d8f",
+      "content_sha256": "028712274d579315795271def0f101dd972f7b84a112585289160dabbe9607c2",
+      "role": "Primary remediation ledger separating observation, reissue, clean redispatch and unrecoverable classifications"
+    },
+    {
+      "url": "https://github.com/toxicwind/refusal-hunt/blob/39e0d4683bbd2b3d362beb90cd4509c51ac89683/sorry-audit/fix-spawn-811-forensics.md",
+      "git_blob_sha": "edd91a0b16bad304d75b8ca8387bdac0971c96e4",
+      "content_sha256": "f0021d28147d60db65b86ca001f8f696f86d2718f071e1219b55b2c258f648c8",
+      "role": "Primary forensics note documenting same-workflow inline completion after delegation failure"
+    }
+  ],
+  "controlled_spawn_topology_family": {
+    "repository": "yil384/agentdc-xxl",
+    "repository_visibility": "public",
+    "snapshot_commit_sha": "702679b9317a3934ee950f22976733fe5a50d2c7",
+    "snapshot_commit_date": "2026-07-13T23:38:20Z",
+    "classification": "Preregistered, audited serving-trace research corpus collected on one operator's 8xB200 node",
+    "search_returned_paths": 35,
+    "published_totals": {
+      "sessions": 1158,
+      "requests": 74844,
+      "spawn_edges": 36264,
+      "cell_runs": 37
+    },
+    "raw_edge_fields": [
+      "run_id",
+      "cell_id",
+      "session_id",
+      "parent_agent_id",
+      "child_agent_id",
+      "spawn_seq",
+      "child_depth",
+      "ts_spawn"
+    ],
+    "representative_edge_file_rows": 64,
+    "representative_edge_file_parse_errors": 0,
+    "dependency_assessment": "The edge rows preserve spawn topology and timestamps but no task-result content, receipt or downstream semantic use. The README states text logging was disabled and all tasks derive from public benchmarks.",
+    "operator_boundary_assessment": "The corpus is an explicitly preregistered, controlled and audited experiment on one node. Distinct runtime agent IDs do not establish independent operators or unauthorized cooperation.",
+    "candidate_status": "excluded_controlled_research_corpus",
+    "sources": [
+      {
+        "url": "https://github.com/yil384/agentdc-xxl/blob/702679b9317a3934ee950f22976733fe5a50d2c7/README.md",
+        "git_blob_sha": "ffed933970de7b9fa3983e6672a0d41353756d32",
+        "role": "Primary corpus scope, preregistration, node, counts, privacy and provenance context"
+      },
+      {
+        "url": "https://github.com/yil384/agentdc-xxl/blob/702679b9317a3934ee950f22976733fe5a50d2c7/results/p5/e1_grid_v1/cells/f1__s0/traces/edges.jsonl",
+        "git_blob_sha": "a1987dfa721a76ea363b0697f4fa04d6760c5c74",
+        "role": "Representative primary spawn-edge ledger containing topology but no result or downstream-use field"
+      }
+    ]
+  },
+  "other_returned_family": {
+    "repository": "tyuikl32/Tsunagou",
+    "returned_paths": 5,
+    "assessment": "Previously reviewed BV-047 acceptance-harness evidence. The five paths were not reclassified or treated as a new episode."
+  },
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No episode survives the result-transfer, recipient-use and authorization-boundary gates. Refusal-hunt records a common failure and authorized recovery; AgentDC-XXL is a preregistered corpus; Tsunagou is an already reviewed acceptance harness.",
+    "novelty_statement": "No prior coordination report claim is made. Search or dataset absence is not treated as novelty."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "Every completed child row represents a successful task result",
+      "result": "Rejected. All 99 deduplicated spawn rows carry the same response digest and length, and the primary census says the affected child work did not run."
+    },
+    {
+      "alternative": "Stage and backfill rows are separate waves of participants",
+      "result": "Rejected. All 76 child IDs overlap exactly."
+    },
+    {
+      "alternative": "Later substantive answers demonstrate recipient adoption of child output",
+      "result": "Rejected. The audit classifies the actions as user resend, reissue, allowlisted redispatch or same-workflow inline execution; no child-specific result exists to adopt."
+    },
+    {
+      "alternative": "Different runtime IDs or a delegation tree establish distinct operators",
+      "result": "Rejected. Refusal-hunt documents one operator's recovery process; AgentDC-XXL documents one controlled node and preregistered experiment."
+    },
+    {
+      "alternative": "High row volume establishes swarm coordination",
+      "result": "Rejected. Snapshot duplication, detector sweeps, repeated common output and controlled benchmark topology explain the volume without a cross-operator semantic dependency."
+    }
+  ],
+  "next_record_and_query_cursor": {
+    "record_cursor": "Rotate away from refusal-hunt, AgentDC-XXL and the already reviewed Tsunagou harness. Re-enter only if a child-specific task artifact and causal downstream use appear outside the documented common-failure, retry or experimental controls.",
+    "next_exact_queries": [
+      "\"sender_agent_id\" \"recipient_agent_id\" \"output_digest\" \"used_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"parent_agent_id\" \"child_agent_id\" \"final_response_sha256\" \"adopted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"producer_agent_id\" \"consumer_agent_id\" \"source_event_id\" \"applied_commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "service_cursor": "The connector exposed no total-count, pagination or incomplete-results fields. Preserve this 15-query bounded result set and do not describe zero-return responses as exhaustive.",
+    "public_social_record_cursor": "The documented Delvetown/ATProto public-reader gap remains unavailable in the current tool surface. Do not substitute authentication, account creation or private access; retry only through an exposed unauthenticated public reader or an indexed immutable public message.",
+    "scanner_cursor": "The 293-record known-family-controlled scanner remainder stays paused at 853 of 1,146 inspected; resume only on a new source-level participant, transfer/use, provenance or authorization cue."
+  },
+  "limitations": [
+    "GitHub default-branch code search does not cover deleted history, unindexed branches, private repositories or private runtime state.",
+    "The search service supplied returned rows but no total-count, pagination or incompleteness metadata; query counts are bounded observations, not exhaustive coverage claims.",
+    "Refusal-hunt's public records authenticate runtime topology and operator-authored forensic classifications, not the subjective intent or provider identity of each runtime process.",
+    "Identical output is strong common-cause evidence in this documented incident, but it is not by itself proof that all superficially similar incidents share one cause.",
+    "The AgentDC-XXL representative edge ledger was sampled for field semantics; the repository's published aggregate counts and privacy limits are taken from its immutable README.",
+    "No inference about current activity is made."
+  ],
+  "safety": "Only existing public committed pages, files, search results and repository/commit metadata were read. JSON and JSONL were parsed as inert evidence. No recovered code, package, experiment, model, agent runtime, scan, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication includes immutable public record links, hashes, aggregate counts and domain-level reasoning while omitting task bodies, message text, credentials, tokens, sink topics, personal addresses, local paths and private logs.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  }
+}

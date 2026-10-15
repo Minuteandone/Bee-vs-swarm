@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-15T06:27:38Z",
+  "observed_at": "2026-10-15T06:27:38Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "search_source": "Public GitHub default-branch code search was used only to locate committed records. The selected raw transcript, its derived projection and golden, the deterministic test harness, the contract document, directory listing and file history were then read at immutable commits. Search-service incompleteness was preserved rather than treated as evidence.",
+  "scope": {
+    "global_exact_query_requests": 24,
+    "reported_hit_count_sum": 3,
+    "returned_row_occurrences_reviewed": 1,
+    "self_repository_row_occurrences": 0,
+    "external_row_occurrences": 1,
+    "distinct_external_paths": 1,
+    "distinct_external_repositories": 1,
+    "complete_zero_return_queries": 21,
+    "complete_nonzero_queries": 1,
+    "incomplete_responses": 2,
+    "incomplete_responses_with_no_returned_item": 2,
+    "selected_record_or_context_files_read_in_full": 5,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "All requests excluded Minuteandone/Bee-vs-swarm before counting, so no self-index row is present. One complete query returned one immutable external path. Two previously saved exact endpoints still each report one hit while returning no item with incomplete_results=true. A third previously incomplete endpoint now returns zero complete results and is closed. Empty connector envelopes encountered during the first concurrent request were retried sequentially; only the successful parsed responses below are counted.",
+  "queries": [
+    {
+      "query": "\"source_event_id\" \"result_sha256\" \"used_at\" \"recipient_principal\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_76"
+    },
+    {
+      "query": "\"producer_session_id\" \"consumer_session_id\" \"artifact_digest\" \"applied_commit\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_76"
+    },
+    {
+      "query": "\"handoff_id\" \"recipient_output_id\" \"accepted_at\" \"operator_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resumed_from_pass_76"
+    },
+    {
+      "query": "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "cursor_role": "unresolved_index_endpoint_from_pass_76"
+    },
+    {
+      "query": "\"result_message_id\" \"reply_to\" \"sender\" \"recipient\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false,
+      "cursor_role": "resolved_index_endpoint_from_pass_76"
+    },
+    {
+      "query": "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 0,
+      "incomplete_results": true,
+      "cursor_role": "unresolved_index_endpoint_from_pass_76"
+    },
+    {
+      "query": "\"artifact_sha256\" \"consumed_by_kind\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 1,
+      "returned_rows": 1,
+      "incomplete_results": false,
+      "cursor_role": "selected_external_record"
+    },
+    {
+      "query": "\"artifact_hash\" \"consumed_at\" \"recipient\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"output_artifact\" \"accepted_by\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"result_message_id\" \"applied_commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_session_id\" \"recipient_session_id\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"handoff_id\" \"acknowledged_at\" \"artifact_sha256\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"review_output\" \"implementation_commit\" \"reviewer_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"result_ref\" \"consumed_at\" \"recipient_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_task_id\" \"dependent_task_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"artifact_sha256\" \"session_id\" \"recipient\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"consumed_by\" \"producer\" \"recipient\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"output_sha256\" \"recipient_session_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_session_id\" \"target_session_id\" \"artifact\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"producer_agent\" \"consumer_agent\" \"artifact_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" \"result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"parent_message_id\" \"artifact_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"reply_to_message_id\" \"result_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "reported_hits": 0,
+      "returned_rows": 0,
+      "incomplete_results": false
+    }
+  ],
+  "selected_records": [
+    {
+      "record_id": "aicx_claude_transcript_oracle",
+      "repository": "Loctree/aicx",
+      "classification": "Single human-supervised assistant/tool transcript frozen as a deterministic parser and distillation test oracle; not an inter-agent exchange",
+      "record_url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/fixtures/tb_oracle/claude/6abdbe22_session.jsonl",
+      "record_blob_sha": "f294bb4e7e22c08ac239d0b435925b6359595bfd",
+      "snapshot_commit_sha": "68301a2474540100f9814ad5c76db0b6f484407c",
+      "snapshot_commit_date": "2026-09-21T04:48:40Z",
+      "first_public_file_commit_url": "https://github.com/Loctree/aicx/commit/d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_sha": "d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_date": "2026-09-20T19:51:07Z",
+      "event_start": "2026-09-17T20:32:18.186Z",
+      "event_end": "2026-09-17T20:42:28.939Z",
+      "observed_at": "2026-10-15T06:27:38Z",
+      "record_shape": {
+        "jsonl_records": 171,
+        "parse_failures": 0,
+        "session_ids": 1,
+        "record_type_counts": {
+          "user": 46,
+          "assistant": 91,
+          "last-prompt": 17,
+          "ai-title": 16,
+          "system": 1
+        }
+      },
+      "matched_term_locations": {
+        "artifact_sha256": [17],
+        "consumed_by_kind": [91, 106, 108, 109]
+      },
+      "original_observation": "The content-addressed artifact manifest appears inside a tool-result read of a frozen reference package. The consumption-looking term appears later inside tool-result source text, an assistant edit and the corresponding edit result for a parser coverage-count field. They are not the producer, consumer, sender or recipient fields of an emitted event.",
+      "participant_assessment": "Every parsed row carries the same session ID. The opening user record requests one Claude implementation agent, specifies implementation mode, requires a repository commit and explicitly forbids launching or delegating to external agent fleets. Provider attribution is the fixture's own Claude label; no second autonomous principal or operator is authenticated.",
+      "downstream_use_assessment": "The session reads the reference package and implements the distillation harness, so ordinary operator-supplied reference-file use is present. The record does not show a separately attributable autonomous sender transferring a task result to this session, and the matched consumed_by_kind symbol counts parser coverage categories rather than recording artifact adoption.",
+      "operator_boundary_assessment": "The transcript, contract and test harness all place the material inside one deliberately constructed repository workflow under a human-authored implementation contract. No separate operator or unauthorized cooperation is evidenced.",
+      "candidate_status": "excluded_control"
+    }
+  ],
+  "context_records": [
+    {
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/fixtures/tb_oracle/claude/6abdbe22_human.md",
+      "blob_sha": "c5c5314610d02ad3543c585189a6e48855d555f4",
+      "role": "Derived human-readable projection identifying one historical session, its event interval, the verified commit deliverable and the source JSONL hash"
+    },
+    {
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/fixtures/tb_oracle/claude/6abdbe22_golden-distillate.json",
+      "blob_sha": "92e1705216b99bf11526017aeaa7589e0cbff0a4",
+      "role": "Expected distillation output generated for the same single-session fixture; derivative rather than independent participant evidence"
+    },
+    {
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/tb_oracle_harness.rs",
+      "blob_sha": "dd5078ccc608ac339dfe744eb2f8801caaba256e",
+      "role": "Deterministic harness describing the frozen package as a test fixture and comparing its human projection with its index payload"
+    },
+    {
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/docs/DISTILL_CONTRACT.md",
+      "blob_sha": "28a8fa67555a3f384322081d805e517c4c816bf6",
+      "role": "Project contract naming the package as a differential oracle and stating that the distiller reads a session model without mutating it"
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No episode-level prior-reporting check was warranted. The only returned record fails the distinguishable-participant and operator-boundary gates before novelty: it is one supervised session frozen inside a documented deterministic test harness.",
+    "novelty_statement": "No prior coordination report claim is made. Dataset or search absence is not treated as novelty."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "A content-addressed result was transferred from one autonomous agent and consumed by another",
+      "result": "Not supported. artifact_sha256 labels a reference-package manifest; consumed_by_kind is a parser coverage-count field. The two terms do not form an event edge."
+    },
+    {
+      "alternative": "One supervised assistant consumed operator-provided project references",
+      "result": "Directly supported by the opening user contract, the single session ID and the transcript's tool-result reads."
+    },
+    {
+      "alternative": "The raw transcript proves a second independent sender because it references another historical session package",
+      "result": "Not supported. The referenced package is deliberately frozen as a differential test oracle, and neither its preparation nor this session authenticates a separate operator or an autonomous sender-to-recipient task-result transfer."
+    },
+    {
+      "alternative": "The human projection and golden output independently corroborate multiple participants",
+      "result": "Rejected. Both are deterministic derivatives of the same fixture and explicitly identify one session."
+    },
+    {
+      "alternative": "A test path is merely an observer label and the underlying session could still be rogue",
+      "result": "The raw session itself supplies the stronger control: a human-authored implementation request, one session ID and an explicit prohibition on external agent fleets. Current public evidence does not establish unauthorized cooperation."
+    }
+  ],
+  "advancement_requirements": {
+    "aicx_oracle_session": "A public source record tying a specific package artifact to an independently attributable autonomous producer, a distinct recipient's later semantic or action use of that exact artifact, primary evidence that the principals belonged to separate operators and evidence that the cooperation exceeded authorization. Content hashes, a prior-session reference and a local parser field are insufficient.",
+    "index_incomplete_queries": "A returned committed record for each of the two one-hit/no-item exact endpoints. Their service-level total counts do not identify an artifact and cannot be promoted into evidence.",
+    "general": "A public actual-run task artifact tied to an independently attributable autonomous sender, a distinguishable recipient's causal use of that exact material and primary evidence that the cooperation crossed separate operators' authorization boundaries."
+  },
+  "next_record_and_query_cursor": {
+    "record_cursor": "Rotate away from the closed AICX oracle fixture. Re-enter only if a public producer record, independently attributable recipient action or separate-operator provenance appears. Preserve the two exact one-hit/no-item endpoints as index-incomplete.",
+    "incomplete_exact_endpoints": [
+      "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "next_exact_queries": [
+      "\"artifact_manifest_sha256\" \"recipient_session_id\" \"adopted_at\" \"operator_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"result_artifact_sha256\" \"consumer_session_id\" \"applied_commit\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"source_session_id\" \"result_message_id\" \"used_at\" \"recipient_principal\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "scanner_cursor": "The 293-record known-family-controlled scanner remainder stays paused at 853 of 1,146 inspected; resume only on a new source-level participant, transfer/use, provenance or authorization cue."
+  },
+  "limitations": [
+    "The committed fixture preserves one ten-minute session and its deterministic derivatives, not private runtime state or uncommitted activity.",
+    "The fixture's Claude label and references to other session material do not independently authenticate a model provider, autonomous principal or operator.",
+    "Two exact code-search endpoints report one hit but return no item with incomplete_results=true; no claim is made about the hidden or stale index entries.",
+    "Default-branch code search does not cover private repositories, deleted history, unindexed branches or private runtime state.",
+    "No inference about current activity, subjective intent or provider attribution is made."
+  ],
+  "safety": "Only existing public committed files, public search results, directory listings and public commit metadata were read. No recovered code, package, test harness, assistant runtime, tool, command from a transcript, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication omits transcript bodies, tool arguments and results, local filesystem paths, personal addresses, credentials, tokens and private logs.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  }
+}

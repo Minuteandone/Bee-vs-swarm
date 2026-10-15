@@ -3867,6 +3867,70 @@
       "git_blob_sha": "8ac0439d363243eb2c6881b26079bfeb654e271f",
       "commit_sha": "b5f8a2993f869f1a1d668dc7ad36245474fa37b8",
       "commit_date": "2026-07-18T18:03:02Z"
+    },
+    {
+      "id": "original-aicx-claude-oracle-session",
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/fixtures/tb_oracle/claude/6abdbe22_session.jsonl",
+      "role": "Primary 171-record single-session assistant/tool transcript whose artifact and consumption terms resolve to a frozen reference manifest and parser coverage field",
+      "published": "2026-09-20",
+      "observed_at": "2026-10-15T06:27:38Z",
+      "event_start": "2026-09-17T20:32:18.186Z",
+      "event_end": "2026-09-17T20:42:28.939Z",
+      "git_blob_sha": "f294bb4e7e22c08ac239d0b435925b6359595bfd",
+      "commit_sha": "68301a2474540100f9814ad5c76db0b6f484407c",
+      "commit_date": "2026-09-21T04:48:40Z",
+      "first_public_file_commit_sha": "d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_date": "2026-09-20T19:51:07Z"
+    },
+    {
+      "id": "original-aicx-claude-oracle-human-projection",
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/fixtures/tb_oracle/claude/6abdbe22_human.md",
+      "role": "Primary-context projection identifying the raw fixture as one historical session and separating event time from later publication",
+      "published": "2026-09-20",
+      "observed_at": "2026-10-15T06:27:38Z",
+      "event_start": "2026-09-17T20:32:18Z",
+      "event_end": "2026-09-17T20:42:28Z",
+      "git_blob_sha": "c5c5314610d02ad3543c585189a6e48855d555f4",
+      "commit_sha": "68301a2474540100f9814ad5c76db0b6f484407c",
+      "commit_date": "2026-09-21T04:48:40Z",
+      "first_public_file_commit_sha": "d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_date": "2026-09-20T19:51:07Z"
+    },
+    {
+      "id": "original-aicx-claude-oracle-golden",
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/fixtures/tb_oracle/claude/6abdbe22_golden-distillate.json",
+      "role": "Primary-context expected output generated from the same single-session fixture; a deterministic derivative rather than independent participant evidence",
+      "published": "2026-09-20",
+      "observed_at": "2026-10-15T06:27:38Z",
+      "git_blob_sha": "92e1705216b99bf11526017aeaa7589e0cbff0a4",
+      "commit_sha": "68301a2474540100f9814ad5c76db0b6f484407c",
+      "commit_date": "2026-09-21T04:48:40Z",
+      "first_public_file_commit_sha": "d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_date": "2026-09-20T19:51:07Z"
+    },
+    {
+      "id": "original-aicx-tb-oracle-harness",
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/tests/tb_oracle_harness.rs",
+      "role": "Primary deterministic test harness identifying the transcript package as a fixture and comparing its human projection with its index payload",
+      "published": "2026-09-20",
+      "observed_at": "2026-10-15T06:27:38Z",
+      "git_blob_sha": "dd5078ccc608ac339dfe744eb2f8801caaba256e",
+      "commit_sha": "68301a2474540100f9814ad5c76db0b6f484407c",
+      "commit_date": "2026-09-21T04:48:40Z",
+      "first_public_file_commit_sha": "d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_date": "2026-09-20T19:51:07Z"
+    },
+    {
+      "id": "original-aicx-distill-contract",
+      "url": "https://github.com/Loctree/aicx/blob/68301a2474540100f9814ad5c76db0b6f484407c/docs/DISTILL_CONTRACT.md",
+      "role": "Primary project contract defining the frozen package as a differential oracle and the distiller as a read-only projection over one session model",
+      "published": "2026-09-20",
+      "observed_at": "2026-10-15T06:27:38Z",
+      "git_blob_sha": "28a8fa67555a3f384322081d805e517c4c816bf6",
+      "commit_sha": "68301a2474540100f9814ad5c76db0b6f484407c",
+      "commit_date": "2026-09-21T04:48:40Z",
+      "first_public_file_commit_sha": "d494be8afaefcd9f65f7926b1b375d7ba14f7978",
+      "first_public_file_commit_date": "2026-09-20T19:51:07Z"
     }
   ]
 }

@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 14 October 2026 UTC
+## Evidence checkpoint — 15 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused. The latest role-event rotation made 32 exact search requests and reviewed 61 returned rows: nine self-repository rows and 52 external occurrences at 47 distinct paths in 24 repositories. A 238-row Odoo HR ledger contains repeated role-to-role chains, but every task, attempt and result-reference field is null; pinned source shows one service emitting the role labels sequentially and tests generating many repeated signatures. A 183-row relay ledger contains 22 coder-to-tester handoffs and 11 continuation rows, but one local CLI writes both sides, the recipient step only re-logs its own latest index object and scenario scripts explicitly call the work simulated. Three other complete records are an issue ledger, one assistant/tool session and a migration inventory. Three exact one-hit/no-item service responses remain index-incomplete and are preserved as cursors rather than evidence. See the [role-event and relay-log assessment](data/original-role-event-and-relay-log-controls.json), the preceding [background-task result assessment](data/original-background-task-result-and-wake-controls.json) and the [dated research log](research/2026-10-14.md). These are designed same-operator, test or schema controls, not a new swarm.
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused. The latest content-addressed artifact rotation made 24 exact search requests: 21 complete zero-result searches, one external path and two one-hit/no-item responses that remain index-incomplete. The external path is a 171-record, one-session AICX transcript frozen as a deterministic test oracle. Its artifact hash occurs in reference-package metadata, while its consumption-looking term is a parser coverage field carried through tool reads and an edit. The raw opening record is a human-authored one-agent implementation request that explicitly forbids external fleets; the projection, golden, harness and contract all remain in the same designed workflow. See the [transcript-oracle and artifact-field assessment](data/original-oracle-transcript-and-artifact-field-controls.json), the preceding [role-event and relay-log assessment](data/original-role-event-and-relay-log-controls.json) and the [dated research log](research/2026-10-15.md). This is a single-operator fixture control, not a new swarm.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-14.md)
+- [Latest dated investigation log](research/2026-10-15.md)
+- [Investigation log — 14 October](research/2026-10-14.md)
 - [Investigation log — 7 October](research/2026-10-07.md)
 - [Investigation log — 6 October](research/2026-10-06.md)
 - [Investigation log — 5 October](research/2026-10-05.md)

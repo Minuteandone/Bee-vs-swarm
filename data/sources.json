@@ -3953,6 +3953,164 @@
       "commit_sha": "83f8367d44a638ab2f3cefa0eb4f2e55cf128411",
       "commit_date": "2026-04-20T17:52:35Z",
       "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-migration-snapshot-0047",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/migrations/meta/0047_snapshot.json",
+      "role": "Primary generated whole-database snapshot fully parsed to locate sender, recipient, artifact and use-looking term collisions",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "1f2792081bb92f710c3582352f0d85a18faf2ff5",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-migration-snapshot-0089",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/migrations/meta/0089_snapshot.json",
+      "role": "Primary final matched whole-database snapshot fully parsed to confirm the same cross-schema term collisions across the 43-path range",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "e629213132b4c28daad939065fcb5b5551790f66",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-prelaunch-context",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/README.md",
+      "role": "Primary project context identifying a personal/team assistant and explicitly stating that there are no production users or production data",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "433fc04f16600c92fe28aad3d7e0b328aea5097d",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-artifact-schema-control",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/artifacts.ts",
+      "role": "Primary artifact schema resolving artifact_hash as a check-constraint name around a SHA-256 field rather than a transferred-result event",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "6870c5ddbf582bc025efe1033028a9b43b0cae3e",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-channel-schema-control",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/channels.ts",
+      "role": "Primary channel authentication and identity schema resolving sender identifiers as application fields",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "ad25b0f02fea2724b6b34d67813a70a66d4eabef",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-personal-trust-schema-control",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/personal-trust.ts",
+      "role": "Primary invitation schema resolving recipient-looking index names as human/account workflow definitions",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "2b2afe017f3f0705d75d9d48ae1029fdc6644918",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-tryzoen-whatsapp-schema-control",
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/whatsapp.ts",
+      "role": "Primary bridge schema resolving the apparent used_at match as a substring of paused_at",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "e2ef3a3401b9116b427ec6bf77483df1de9bc086",
+      "commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+      "commit_date": "2026-10-04T14:04:07Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-open-cnid-direct-native-events",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/runs/2026-09-11T00-34-37-740Z-run-fa6155a8/b1-direct-native/events.jsonl",
+      "role": "Primary 288-record experiment ledger preserving two child-to-parent results and their unchanged later parent submission",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "event_start": "2026-09-11T00:34:39.819Z",
+      "event_end": "2026-09-11T00:35:39.540Z",
+      "git_blob_sha": "d46c8aae2b2de886bded4863382189f4e78a6158",
+      "content_sha256_from_published_analysis": "4f493cced019d08f851e075156b5fee79df461c1a990ee03808e6f21a1e3fa67",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; event time and immutable selected snapshot time are recorded separately."
+    },
+    {
+      "id": "original-open-cnid-native-seam-manifest",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/runs/2026-09-11T00-34-37-740Z-run-fa6155a8/manifest.json",
+      "role": "Primary manifest fixing the native-seam-v4 protocol, seed, nine trials, model, resource limits and study budget",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "event_start": "2026-09-11T00:34:37.767Z",
+      "git_blob_sha": "b06c99f3459a10bc7df38db99cdb36d2eebd59f6",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; event time and immutable selected snapshot time are recorded separately."
+    },
+    {
+      "id": "original-open-cnid-native-seam-analysis",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/runs/2026-09-11T00-34-37-740Z-run-fa6155a8/analysis.json",
+      "role": "Published derived analysis linking exact child results, wait records and parent submissions to source-log hashes and sequences while preserving route-attribution limits",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "73adfa864264d9494186d877e6af1cadde19fa0c",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-open-cnid-preregistered-probe",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/research/02-preregistered-probe.md",
+      "role": "Primary preregistration defining the bounded synthetic delegation probe and its interpretation limits",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "1e27a83df1ead425cc4f7f7cbd592952199ed25b",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-open-cnid-live-results",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/research/08-live-results.md",
+      "role": "Primary results separating task correctness, child completion and unestablished program-to-child route attribution",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "76c8c9f8b8bfde35f65a173ae54922de220514e4",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-open-cnid-project-context",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/README.md",
+      "role": "Primary project context framing the public records as a managed Agents and context-compaction investigation",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "eae8e3123a9f03ab4016ada37a914f3d88c89525",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
+    },
+    {
+      "id": "original-open-cnid-evidence-provenance",
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/README.md",
+      "role": "Primary provenance guide distinguishing live runs, local tests, copied evidence and route-attribution limitations",
+      "published": null,
+      "observed_at": "2026-10-15T13:02:57Z",
+      "git_blob_sha": "03c8d325b8c1d049972d08538c06ae766d5442ea",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "commit_date": "2026-09-11T15:53:51Z",
+      "publication_note": "First public file commit was not established; the immutable selected snapshot date is recorded separately."
     }
   ]
 }

@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "assessed_at": "2026-10-15T13:02:57Z",
+  "observed_at": "2026-10-15T13:02:57Z",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "search_source": "Public GitHub default-branch code search was used to locate committed records. The connector returned result arrays without total-count or incompleteness metadata in this pass, so all counts are bounded returned rows rather than exhaustive result claims. Repository metadata was checked before inclusion, and selected files were then read at immutable commits.",
+  "scope": {
+    "global_query_requests": 25,
+    "high_specificity_query_requests": 17,
+    "medium_width_query_requests": 8,
+    "zero_return_query_responses": 20,
+    "nonzero_query_responses": 5,
+    "returned_row_occurrences": 149,
+    "distinct_external_paths": 147,
+    "distinct_public_repositories": 11,
+    "result_completeness_metadata_available": false,
+    "selected_record_files_parsed_in_full": 3,
+    "selected_context_or_analysis_files_read_in_full": 11,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "Five saved cursors, twelve adjacent high-specificity combinations and eight medium-width JSONL rotations excluded Minuteandone/Bee-vs-swarm. The high-specificity phase returned 43 migration-snapshot paths in one repository and zero rows for sixteen queries. The medium-width phase returned 106 occurrences at 104 distinct paths; two Tsunagou paths appeared in two queries. Across both phases there are 149 returned occurrences at 147 distinct paths in eleven repositories independently verified as public. Service total-count and incompleteness fields were unavailable, so zero means zero returned rows in the bounded response, not proof of global absence.",
+  "queries": [
+    {
+      "query": "\"produced_by_session_id\" \"consumed_by_session_id\" \"artifact_digest\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_78_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_run_id\" \"recipient_run_id\" \"applied_commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_78_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"result_message_id\" \"consumer_operation_id\" \"accepted_at\" \"operator_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_78_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_session_id\" \"to_session_id\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_78_endpoint",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"result_id\" \"received_at\" \"used_at\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_78_endpoint",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_digest\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"reply_to_message_id\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"result_sha256\" \"used_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_run_id\" \"target_run_id\" \"artifact_hash\" \"consumed_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"delivered_to\" \"produced_by\" \"accepted_at\" \"commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" \"reply_to\" \"applied_commit\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_agent_id\" \"recipient_agent_id\" \"result_artifact\" \"accepted_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_result\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"artifact_hash\" \"used_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 43,
+      "selected_family": "tryzoen_generated_migration_snapshots"
+    },
+    {
+      "query": "\"source_message_id\" \"recipient_run_id\" \"consumed_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"sender_session_id\" \"receiver_session_id\" \"completed_at\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"reply_to_message_id\" \"recipient_agent_id\" \"applied_commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 16,
+      "selected_family": "open_cnid_tracer_and_known_tsunagou_acceptance"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_result\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"sender\" \"recipient\" \"reply_to\" \"task_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 11
+    },
+    {
+      "query": "\"source_agent\" \"target_agent\" \"artifact_hash\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent\" \"consumer_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 77
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"from_session_id\" \"to_session_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 2
+    },
+    {
+      "query": "\"result_message_id\" \"recipient_agent_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "medium_width_rotation",
+      "returned_rows": 0
+    }
+  ],
+  "public_repositories": [
+    "EnzoTironi/tryzoen",
+    "OpenCnid/tracer",
+    "tyuikl32/Tsunagou",
+    "wassimrahoui/job-search-ai-prototype",
+    "dhamidi/k-si",
+    "nadecancode/crew",
+    "mcp-protection-gap/mcp-redteam-benchmark",
+    "KaituoZhang/AsynCodeBench",
+    "Q8Meow/QTT_New0526",
+    "arbazkhan971/handoffgraph",
+    "averagechris/ctx"
+  ],
+  "selected_migration_snapshot_family": {
+    "repository": "EnzoTironi/tryzoen",
+    "repository_visibility": "public",
+    "classification": "Whole-database migration snapshots whose four search terms occur in unrelated schema objects or as substrings; no populated exchange row",
+    "snapshot_commit_sha": "8597987b27bc250b5d637d75483d0c9be1261ae1",
+    "snapshot_commit_date": "2026-10-04T14:04:07Z",
+    "matched_path_count": 43,
+    "matched_path_range": "db/migrations/meta/0047_snapshot.json through 0089_snapshot.json",
+    "representative_complete_parses": [
+      {
+        "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/migrations/meta/0047_snapshot.json",
+        "blob_sha": "1f2792081bb92f710c3582352f0d85a18faf2ff5",
+        "table_count": 72
+      },
+      {
+        "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/migrations/meta/0089_snapshot.json",
+        "blob_sha": "e629213132b4c28daad939065fcb5b5551790f66",
+        "table_count": 107
+      }
+    ],
+    "field_resolution": {
+      "sender_id": "Channel authentication, identity and pending-sender schema fields; later snapshots also define Matrix conversation/retirement sender fields.",
+      "recipient_id": "Substring inside workspace, personal-trust and creator-pilot recipient index names, not a common task-recipient event field.",
+      "artifact_hash": "Substring inside the private_artifact_hash check-constraint name; the artifact schema stores a SHA-256 field.",
+      "used_at": "Substring inside paused_at in the WhatsApp bridge-account schema; no independent used_at field was found in either complete representative parse."
+    },
+    "project_context": "The README calls Zoen a personal and team assistant and explicitly states that the repository is prelaunch with no production users or production data. The schema files define application storage and user/auth boundaries, not an emitted task-result ledger.",
+    "semantic_dependency_assessment": "The four search terms are distributed across unrelated tables, indexes and constraints in generated whole-database snapshots. There is no dated sender artifact, recipient receipt or later action dependent on that material.",
+    "participant_assessment": "Schema identifiers do not authenticate autonomous participants. The repository's own context says there are no production users or production data.",
+    "operator_boundary_assessment": "No actual exchange exists to cross a boundary; the intended features remain one application's designed personal/team workflows.",
+    "candidate_status": "excluded_schema_control"
+  },
+  "selected_tracer_dependency": {
+    "repository": "OpenCnid/tracer",
+    "repository_visibility": "public",
+    "classification": "Concrete child-to-parent result transfer and unchanged downstream submission inside a preregistered, operator-funded integration experiment",
+    "snapshot_commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+    "snapshot_commit_date": "2026-09-11T15:53:51Z",
+    "event_url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/runs/2026-09-11T00-34-37-740Z-run-fa6155a8/b1-direct-native/events.jsonl",
+    "event_blob_sha": "d46c8aae2b2de886bded4863382189f4e78a6158",
+    "event_content_sha256_from_published_analysis": "4f493cced019d08f851e075156b5fee79df461c1a990ee03808e6f21a1e3fa67",
+    "event_start": "2026-09-11T00:34:39.819Z",
+    "event_end": "2026-09-11T00:35:39.540Z",
+    "parsed_records": 288,
+    "parse_errors": 0,
+    "dependency_observation": {
+      "child_to_parent_result_messages": 2,
+      "first_result_sequence": 156,
+      "first_result_at": "2026-09-11T00:35:04.486Z",
+      "second_result_sequence": 191,
+      "second_result_at": "2026-09-11T00:35:06.274Z",
+      "parent_submission_call_added_sequence": 197,
+      "parent_submission_call_added_at": "2026-09-11T00:35:12.290Z",
+      "parent_submission_call_completed_sequence": 204,
+      "parent_submission_call_completed_at": "2026-09-11T00:35:18.073Z",
+      "published_analysis_submission_sequence": 200,
+      "both_child_values_reappear_unchanged_in_submission": true,
+      "payloads_published_here": false
+    },
+    "experiment_context": "The run manifest fixes the native-seam-v4 protocol, seed, model, nine rotated trials, resource limits and a two-dollar study budget. The preregistered probe defines synthetic string-transform tasks. The README and live-results record describe a managed Agents delegation experiment, not an organically observed incident.",
+    "analysis_context": "The published analysis contains nine trials across direct-native, programmatic-local and programmatic-native arms, records twelve completed child turns and five correct submissions, and explicitly leaves program-to-child route attribution unestablished. The selected direct-native ledger itself is sufficient for the bounded child-result-to-parent-submission dependency.",
+    "participant_assessment": "Runtime IDs distinguish one parent and two parent-created children within a single experimental session. They do not establish independent principals or operators.",
+    "operator_boundary_assessment": "The operator preregistered, funded and dispatched the exact delegation tasks. The observed cooperation is the intended test behavior and does not cross a separate-operator authorization boundary.",
+    "intent_and_attribution": "No rogue intent is inferred. Provider execution and model labels are project-recorded experimental metadata, not independent provider attestation or evidence of current activity.",
+    "candidate_status": "excluded_authorized_experiment"
+  },
+  "context_records": [
+    {
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/README.md",
+      "blob_sha": "433fc04f16600c92fe28aad3d7e0b328aea5097d",
+      "role": "Primary project context stating the prelaunch/no-production-data condition"
+    },
+    {
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/artifacts.ts",
+      "blob_sha": "6870c5ddbf582bc025efe1033028a9b43b0cae3e",
+      "role": "Primary artifact schema resolving the apparent artifact-hash term"
+    },
+    {
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/channels.ts",
+      "blob_sha": "ad25b0f02fea2724b6b34d67813a70a66d4eabef",
+      "role": "Primary channel/auth schema resolving sender identifiers"
+    },
+    {
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/personal-trust.ts",
+      "blob_sha": "2b2afe017f3f0705d75d9d48ae1029fdc6644918",
+      "role": "Primary invite schema resolving recipient-index matches"
+    },
+    {
+      "url": "https://github.com/EnzoTironi/tryzoen/blob/8597987b27bc250b5d637d75483d0c9be1261ae1/db/schema/whatsapp.ts",
+      "blob_sha": "e2ef3a3401b9116b427ec6bf77483df1de9bc086",
+      "role": "Primary bridge schema resolving the used_at substring match as paused_at"
+    },
+    {
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/runs/2026-09-11T00-34-37-740Z-run-fa6155a8/manifest.json",
+      "blob_sha": "b06c99f3459a10bc7df38db99cdb36d2eebd59f6",
+      "role": "Primary run manifest fixing the experiment, nine trials, limits, seed and budget"
+    },
+    {
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/runs/2026-09-11T00-34-37-740Z-run-fa6155a8/analysis.json",
+      "blob_sha": "73adfa864264d9494186d877e6af1cadde19fa0c",
+      "role": "Published derived analysis linking child results, waits and submissions to source-log sequences and hashes"
+    },
+    {
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/research/02-preregistered-probe.md",
+      "blob_sha": "1e27a83df1ead425cc4f7f7cbd592952199ed25b",
+      "role": "Primary preregistration defining the bounded synthetic delegation experiment"
+    },
+    {
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/research/08-live-results.md",
+      "blob_sha": "76c8c9f8b8bfde35f65a173ae54922de220514e4",
+      "role": "Primary project results separating answer correctness from execution-route attribution"
+    },
+    {
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/README.md",
+      "blob_sha": "eae8e3123a9f03ab4016ada37a914f3d88c89525",
+      "role": "Primary project context describing the managed Agents and compaction investigation"
+    },
+    {
+      "url": "https://github.com/OpenCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/README.md",
+      "blob_sha": "03c8d325b8c1d049972d08538c06ae766d5442ea",
+      "role": "Primary evidence-provenance guide distinguishing live runs, local tests, copied logs and attribution limits"
+    }
+  ],
+  "other_returned_families": [
+    {
+      "repository": "tyuikl32/Tsunagou",
+      "assessment": "Previously reviewed BV-047 acceptance/harness evidence; two paths overlap two medium-width queries."
+    },
+    {
+      "repository": "wassimrahoui/job-search-ai-prototype",
+      "assessment": "Previously reviewed BV-047 operator-invoked two-process proof."
+    },
+    {
+      "repositories": [
+        "dhamidi/k-si",
+        "nadecancode/crew",
+        "mcp-protection-gap/mcp-redteam-benchmark",
+        "KaituoZhang/AsynCodeBench",
+        "Q8Meow/QTT_New0526",
+        "arbazkhan971/handoffgraph",
+        "averagechris/ctx"
+      ],
+      "assessment": "Path/excerpt review resolves cassette logs, fixtures, benchmark evidence, a baseline dependency checkpoint and generated planning ledgers. These were not promoted into episode claims or substituted for original-run investigation."
+    }
+  ],
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No episode survives the authorization-boundary gate. Tryzoen supplies no event, while OpenCnid expressly preregistered and published the selected exchange as an experiment.",
+    "novelty_statement": "No prior coordination report claim is made. Search or dataset absence is not treated as novelty."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "The Tryzoen fields form one sender-to-recipient artifact-use record",
+      "result": "Rejected. Two complete snapshots place them in unrelated tables, indexes and constraints, and the apparent used_at match is only a substring of paused_at."
+    },
+    {
+      "alternative": "The OpenCnid chain is merely similar text or repeated retries",
+      "result": "Rejected for the bounded dependency. Two distinct child messages precede the parent's submission, and both result values reappear unchanged in that submission."
+    },
+    {
+      "alternative": "Different runtime IDs establish separate operators",
+      "result": "Rejected. The manifest and raw events place parent-created children inside one preregistered experimental session dispatched by one operator."
+    },
+    {
+      "alternative": "A concrete transfer/use chain is enough to classify a rogue swarm",
+      "result": "Rejected. The cooperation is exactly what the fixed experiment authorized; there is no primary evidence of a cross-operator or out-of-scope boundary crossing."
+    }
+  ],
+  "advancement_requirements": {
+    "tryzoen_snapshot_family": "A populated public event carrying exact task material between independently attributable autonomous principals, a later recipient action demonstrably dependent on it, and primary separate-operator authorization evidence. Whole-database schema co-occurrence does not qualify.",
+    "open_cnid_tracer_family": "A distinct public run not dispatched by the preregistered experiment, with independently attributable operators and primary evidence that the agents cooperated outside authorization. More trials of the same fixed harness do not qualify.",
+    "general": "A public actual-run sender artifact, independently attributable recipient, causal downstream use, separate-operator provenance and evidence that the cooperation exceeded authorization."
+  },
+  "next_record_and_query_cursor": {
+    "record_cursor": "Rotate away from Tryzoen migration snapshots and OpenCnid's published experiment. Re-enter either family only on a populated organic event or evidence of a separate operator-defined boundary.",
+    "next_exact_queries": [
+      "\"parent_agent_id\" \"child_agent_id\" \"result_hash\" \"submitted_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"submission_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"producer_run_id\" \"consumer_run_id\" \"source_message_id\" \"applied_at\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "service_cursor": "The connector exposed no total-count, pagination or incomplete-results fields for these code-search responses. Preserve the 25-query bounded result set and do not describe zero-return responses as exhaustive.",
+    "public_social_record_cursor": "Retry the saved Delvetown/ATProto public-reader gap only when an unauthenticated public reader or indexed immutable public message is available; do not use a private or authenticated fallback.",
+    "scanner_cursor": "The 293-record known-family-controlled scanner remainder stays paused at 853 of 1,146 inspected; resume only on a new source-level participant, transfer/use, provenance or authorization cue."
+  },
+  "limitations": [
+    "GitHub default-branch code search does not cover deleted history, unindexed branches, private repositories or private runtime state.",
+    "The search service supplied returned rows but no total-count or incompleteness metadata; query counts are bounded observations, not exhaustive coverage claims.",
+    "Only the first and last of 43 Tryzoen migration snapshots were fully parsed; the complete path range and shared generated-schema classification are preserved, but no claim is made about data outside the selected snapshots.",
+    "The OpenCnid dependency is verified only inside one public direct-native experimental ledger; programmatic caller-route attribution remains expressly unestablished by the source project's analysis.",
+    "No inference about subjective intent, independent provider attribution or current activity is made."
+  ],
+  "safety": "Only existing public committed files, public search results and public repository/commit metadata were read. JSON and JSONL were parsed as inert evidence. No recovered code, package, migration, experiment, agent runtime, scan, account, target, mailbox or participant was executed, installed, invoked, contacted or modified. Publication omits task payloads, result values, credentials, tokens, sink topics, personal addresses and private logs.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "scanner_original_reports_inspected": 853,
+    "scanner_total_records": 1146,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_status": "Known-family-controlled; unchanged in this pass."
+  }
+}

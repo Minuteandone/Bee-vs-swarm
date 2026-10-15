@@ -4423,6 +4423,183 @@
       "git_blob_sha": "b1a2bf2ab2265a35fc766b2bf6a0115799230591",
       "commit_sha": "1dda417abb884ea09f4727be91e26dd9cc7c5adf",
       "commit_date": "2026-10-15T14:52:56Z"
+    },
+    {
+      "id": "original-madhav-purna-events",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/EVENTS.jsonl",
+      "role": "Primary 109-record campaign ledger preserving reviewer findings, root corrections, approvals and lease actions",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "event_window": "2026-09-14T17:47:00+05:30 through 2026-09-20T02:51:56+05:30",
+      "git_blob_sha": "28a91be3124725ad35732513225dbb4d25df36c7",
+      "commit_sha": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+      "commit_date": "2026-10-15T18:03:52Z",
+      "publication_note": "Event timestamps are ledger-declared times; published is the selected public snapshot date."
+    },
+    {
+      "id": "original-madhav-purna-owner-surrogate-charter",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/PURNA_OWNER_SURROGATE_CHARTER_v1_0.md",
+      "role": "Primary owner-delegation and authority-boundary record for the conductor, surrogate and review agents",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "declared_date": "2026-09-29",
+      "git_blob_sha": "86b37be3aba4a70d9411312bfb45cfbf3b6df3a1",
+      "commit_sha": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+      "commit_date": "2026-10-15T18:03:52Z"
+    },
+    {
+      "id": "original-madhav-purna-independent-review-handoff",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/PURNA_ANVESANA_INDEPENDENT_REVIEW_HANDOFF_v1_0.md",
+      "role": "Primary selected-reviewer handoff limiting review to analysis and returning execution choice to the product owner",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "declared_date": "2026-09-22",
+      "git_blob_sha": "bd2a363121f24efa0eded86d226e4a4ed28525bd",
+      "commit_sha": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+      "commit_date": "2026-10-15T18:03:52Z"
+    },
+    {
+      "id": "original-madhav-purna-autonomous-execution-control",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/AUTONOMOUS_EXECUTION_CONTROL_v1.json",
+      "role": "Primary bounded-surrogate decision-packet and hard-authority-boundary record",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "a8ed3e58a5b752cb19b4b58340d587387f72e7bf",
+      "commit_sha": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+      "commit_date": "2026-10-15T18:03:52Z"
+    },
+    {
+      "id": "original-madhav-purna-transfer-handoff",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/TRANSFER_HANDOFF_2026-09-19.md",
+      "role": "Primary campaign execution-ownership handoff and safe continuation sequence",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "declared_date": "2026-09-19",
+      "git_blob_sha": "aa6dc1dbc8e46f8fd99dce16b65fb7f875109cd8",
+      "commit_sha": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+      "commit_date": "2026-10-15T18:03:52Z"
+    },
+    {
+      "id": "original-madhav-purna-product-acceptance-protocol",
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/PRODUCT_ACCEPTANCE_PROTOCOL_v2.json",
+      "role": "Primary product-acceptance protocol separating execution authority and human empirical review",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "629d4efcce7130781a0adf44038659110e48c156",
+      "commit_sha": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+      "commit_date": "2026-10-15T18:03:52Z"
+    },
+    {
+      "id": "original-parallax-local-surrogate-summary",
+      "url": "https://github.com/kevinadriancervantes/parallax/blob/60bc78444e6098a656c353df456a5e3769fc5eea/evidence/local-surrogate-summary.json",
+      "role": "Primary emitted summary binding a controlled 4,800-run local-model campaign to one source-result-packet hash",
+      "published": "2026-08-30",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "b85fa3c7b6bebcd117761d373ac9010fe10ec7f4",
+      "commit_sha": "60bc78444e6098a656c353df456a5e3769fc5eea",
+      "commit_date": "2026-08-30T04:26:19Z"
+    },
+    {
+      "id": "original-parallax-accepted-lineage",
+      "url": "https://github.com/kevinadriancervantes/parallax/blob/60bc78444e6098a656c353df456a5e3769fc5eea/governance/accepted-lineage.json",
+      "role": "Primary experiment-lineage record classifying the local source-result packet as descriptive-only",
+      "published": "2026-08-30",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "094700de0bad557137f84a7b65e27910de1f9a2b",
+      "commit_sha": "60bc78444e6098a656c353df456a5e3769fc5eea",
+      "commit_date": "2026-08-30T04:26:19Z",
+      "publication_note": "The lineage's named result-seal path was absent at the selected immutable snapshot."
+    },
+    {
+      "id": "original-parallax-readme-context",
+      "url": "https://github.com/kevinadriancervantes/parallax/blob/60bc78444e6098a656c353df456a5e3769fc5eea/README.md",
+      "role": "Primary project context defining the source-result summary as a controlled local-model stress campaign rather than provider execution",
+      "published": "2026-08-30",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "f952f8d14794a0116510469262ef1782ef4a800d",
+      "commit_sha": "60bc78444e6098a656c353df456a5e3769fc5eea",
+      "commit_date": "2026-08-30T04:26:19Z"
+    },
+    {
+      "id": "original-six-birds-experiment-ledger",
+      "url": "https://github.com/ioannist/six-birds-pica/blob/8fe2e4045056cd7c7f2526abc972eca60f176489/lab/ledger/experiments.jsonl",
+      "role": "Primary 106-record scientific experiment ledger selected from the producer/consumer hash query",
+      "published": "2026-10-05",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "3033430090a8428451176d300451209254e98f69",
+      "commit_sha": "8fe2e4045056cd7c7f2526abc972eca60f176489",
+      "commit_date": "2026-10-05T07:21:00Z"
+    },
+    {
+      "id": "original-six-birds-readme-context",
+      "url": "https://github.com/ioannist/six-birds-pica/blob/8fe2e4045056cd7c7f2526abc972eca60f176489/README.md",
+      "role": "Primary scientific-project context for the experiment ledger",
+      "published": "2026-10-05",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "ccd4973676ec5a9b3cab16ec95cfe21b0641d330",
+      "commit_sha": "8fe2e4045056cd7c7f2526abc972eca60f176489",
+      "commit_date": "2026-10-05T07:21:00Z"
+    },
+    {
+      "id": "original-ega-ko-hard-evidence-ledger",
+      "url": "https://github.com/KokunoYumeto/ega-ko/blob/14862b026d60efdbeba9e9f29f400f2a3181b893/evidence/hard.jsonl",
+      "role": "Primary 166-record translation and build evidence ledger selected from the producer/consumer hash query",
+      "published": "2026-09-26",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "741bde72ac3b73f68caf7a406ee1aafe5b8423b0",
+      "commit_sha": "14862b026d60efdbeba9e9f29f400f2a3181b893",
+      "commit_date": "2026-09-26T01:35:45Z"
+    },
+    {
+      "id": "original-ega-ko-readme-context",
+      "url": "https://github.com/KokunoYumeto/ega-ko/blob/14862b026d60efdbeba9e9f29f400f2a3181b893/README.md",
+      "role": "Primary translation-project context for the hard-evidence ledger",
+      "published": "2026-09-26",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "b4b3056798b2788820673704148f1129b88fb33a",
+      "commit_sha": "14862b026d60efdbeba9e9f29f400f2a3181b893",
+      "commit_date": "2026-09-26T01:35:45Z"
+    },
+    {
+      "id": "original-jittor-migration-blocker-ledger",
+      "url": "https://github.com/n19htfall/jittor_migration_artifact/blob/dfab747a9706181fda818b48ed1982845d47189c/evidence/blocker_ledger.jsonl",
+      "role": "Primary 68-record engineering blocker ledger selected from the producer/consumer hash query",
+      "published": "2026-08-27",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "6035a87a3f0d9027148509e7a4c0bbc9b5517658",
+      "commit_sha": "dfab747a9706181fda818b48ed1982845d47189c",
+      "commit_date": "2026-08-27T10:47:12Z"
+    },
+    {
+      "id": "original-jittor-migration-readme-context",
+      "url": "https://github.com/n19htfall/jittor_migration_artifact/blob/dfab747a9706181fda818b48ed1982845d47189c/README.md",
+      "role": "Primary engineering-project context for the blocker ledger",
+      "published": "2026-08-27",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "bc00de6605a645149dc95398eb77ef1cec034c93",
+      "commit_sha": "dfab747a9706181fda818b48ed1982845d47189c",
+      "commit_date": "2026-08-27T10:47:12Z"
+    },
+    {
+      "id": "original-pacify-x-operational-gap-delta",
+      "url": "https://github.com/Mountain-Nomad-BC/Pacify-X/blob/67827f97b9d101befb4007e8ad19757ceeb74455/registry/operational_gap_ledger.deltas/c1610670e5c93792f9ca86263488349ade0608a177dec5abeabe203a56a02932.jsonl",
+      "role": "Representative 196-record operational-gap delta from a 49-path same-family result cluster",
+      "published": "2026-09-29",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "765482d66c5643bd8c1413602daabd3d855f834a",
+      "commit_sha": "67827f97b9d101befb4007e8ad19757ceeb74455",
+      "commit_date": "2026-09-29T11:57:19Z",
+      "publication_note": "One representative delta was fully parsed; the other 48 returned paths are recorded only as same-family historical slices."
+    },
+    {
+      "id": "original-pacify-x-readme-context",
+      "url": "https://github.com/Mountain-Nomad-BC/Pacify-X/blob/67827f97b9d101befb4007e8ad19757ceeb74455/README.md",
+      "role": "Primary project context for the operational-gap governance ledger",
+      "published": "2026-09-29",
+      "observed_at": "2026-10-15T18:57:34Z",
+      "git_blob_sha": "b9e3758850a2fb6372713b17a7583f052098e1fa",
+      "commit_sha": "67827f97b9d101befb4007e8ad19757ceeb74455",
+      "commit_date": "2026-09-29T11:57:19Z"
     }
   ]
 }

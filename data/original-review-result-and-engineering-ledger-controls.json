@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-15",
+  "observed_at": "2026-10-15T18:57:34Z",
+  "discovery_target": "Previously unreported autonomous coordination in which distinguishable participants transfer task results, instructions or artifacts, a recipient demonstrably uses them, and primary evidence supports a crossing of an operator-defined boundary.",
+  "search_source": "GitHub default-branch code search followed by complete read-only retrieval of selected immutable public files and commit metadata",
+  "scope": {
+    "unique_query_strings": 17,
+    "query_requests_including_retries": 19,
+    "completed_query_responses": 17,
+    "transient_rate_limits_retried": 2,
+    "zero_return_query_responses": 12,
+    "nonzero_query_responses": 5,
+    "returned_row_occurrences": 221,
+    "distinct_returned_urls": 221,
+    "distinct_returned_paths": 217,
+    "distinct_public_repositories": 66,
+    "selected_raw_or_context_files_read_in_full": 17,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "The 100-row input_artifact_sha256 response reached the requested result limit, and the service supplied no total-count, cursor or incompleteness field. It is recorded as a bounded first page, not an exhaustive result set. Two rate-limited requests were retried once after the reported interval and then completed.",
+  "queries": [
+    {
+      "query": "\"seed_result_packet\" \"seed_result_agent\" \"artifacts_changed\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_81_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_result_packet\" \"recipient_agent\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_81_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_artifact_sha256\" \"output_commit\" \"from_agent\" \"to_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_81_cursor",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"seed_result_packet\" \"artifacts_changed\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_result_packet\" \"recipient_agent\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"input_artifact_sha256\" \"output_commit\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_artifact_sha256\" \"applied_commit\" \"recipient\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity_rotation",
+      "returned_rows": 0,
+      "retry_note": "The first request was rate-limited; the completed retry returned zero rows."
+    },
+    {
+      "query": "\"result_sha256\" \"consumed_by\" \"agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"producer_agent\" \"consumer_agent\" \"commit_sha\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "high_specificity_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"seed_result_packet\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 26,
+      "returned_repositories": 3,
+      "assessment": "All paths are Control Tower-derived packet schemas or examples in control-tower, flight-deck or atlas-corl-2026. Pass 81's re-entry rule excludes more designed-role rows absent new operator provenance."
+    },
+    {
+      "query": "\"source_result_packet\" -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 34,
+      "returned_repositories": 5,
+      "retry_note": "The first request was rate-limited; the completed retry returned 34 rows.",
+      "assessment": "Thirty-three paths are implementation, specification, template, test or design material. The one emitted summary was followed into the Parallax accepted-lineage record and resolved as a controlled local-model experiment."
+    },
+    {
+      "query": "\"input_artifact_sha256\" -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 100,
+      "returned_repositories": 49,
+      "bounded_first_page": true,
+      "assessment": "Path and excerpt triage resolves the page to provenance implementations, benchmark and evaluation code, documentation, schemas and two cryptographic validation artifacts. No row exposes a sender/recipient result-use chain."
+    },
+    {
+      "query": "\"reply_to_message_id\" \"from_agent\" \"to_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_message_id\" \"result\" \"commit_sha\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"source_agent\" \"target_agent\" \"artifacts\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 8,
+      "returned_repositories": 5,
+      "assessment": "All eight are schemas, examples, OpenAPI material or reports, not an emitted cross-operator run."
+    },
+    {
+      "query": "\"producer\" \"consumer\" \"artifact_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 53,
+      "returned_repositories": 5,
+      "selected_families": [
+        "six-birds-pica experiment ledger",
+        "ega-ko translation/build evidence ledger",
+        "Madhav Purna Anvesana event ledger",
+        "jittor migration blocker ledger",
+        "Pacify-X operational-gap delta family"
+      ]
+    },
+    {
+      "query": "\"message_id\" \"sender_id\" \"recipient_id\" \"artifact_sha256\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    }
+  ],
+  "madhav_review_result_dependency": {
+    "repository": "Marsys-Technologies/Madhav",
+    "snapshot_commit": "33b01eef75a0d3af2c9cfeb9ef3773abd219098a",
+    "snapshot_commit_date": "2026-10-15T18:03:52Z",
+    "event_ledger": {
+      "url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/EVENTS.jsonl",
+      "git_blob_sha": "28a91be3124725ad35732513225dbb4d25df36c7",
+      "parsed_records": 109,
+      "parse_failures": 0,
+      "actor_counts": {
+        "root": 93,
+        "wave0_denominator": 3,
+        "wave0_pr_decomposition": 2,
+        "completion_review": 2,
+        "w6_terminal_review": 6,
+        "w7_terminal_code_review": 2,
+        "w7_r05_final_guard": 1
+      },
+      "event_window": {
+        "first": "2026-09-14T17:47:00+05:30",
+        "last": "2026-09-20T02:51:56+05:30"
+      }
+    },
+    "verified_dependencies": [
+      {
+        "event_sequences": [6, 7, 8],
+        "event_window": "2026-09-14T18:05:00+05:30 through 2026-09-14T18:09:00+05:30",
+        "dependency": "A completion-review role refutes a generated census because its provenance names the wrong source revision; root records corrected generator and artifact provenance; the same review role then approves the corrected packet."
+      },
+      {
+        "event_sequences": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "event_window": "2026-09-15T01:15:00+05:30 through 2026-09-15T01:34:00+05:30",
+        "dependency": "A terminal-review role repeatedly identifies precise ordering and evidence-binding defects. Root releases the governed lease and records source-scope completion after approval, then corrects the session profile immediately after an exact-head review finds a high-severity conformance defect."
+      },
+      {
+        "event_sequences": [55, 56, 57],
+        "event_window": "2026-09-15T21:02:00+05:30 through 2026-09-15T21:16:00+05:30",
+        "dependency": "A code-review role rejects two semantic classifications, later approves the repaired families, and root then refreshes the source-local candidate with the reviewed evidence floor."
+      },
+      {
+        "event_sequences": [61, 62],
+        "event_window": "2026-09-15T21:30:00+05:30 through 2026-09-15T21:32:00+05:30",
+        "dependency": "A final-guard role reports that a census was committed after lease release; root responds by reopening a narrow corrective lease and adopts the provisional head for governed correction."
+      }
+    ],
+    "authorization_and_operator_boundary": {
+      "owner_surrogate_charter_url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/PURNA_OWNER_SURROGATE_CHARTER_v1_0.md",
+      "owner_surrogate_charter_blob_sha": "86b37be3aba4a70d9411312bfb45cfbf3b6df3a1",
+      "independent_review_handoff_url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/PURNA_ANVESANA_INDEPENDENT_REVIEW_HANDOFF_v1_0.md",
+      "independent_review_handoff_blob_sha": "bd2a363121f24efa0eded86d226e4a4ed28525bd",
+      "execution_control_url": "https://github.com/Marsys-Technologies/Madhav/blob/33b01eef75a0d3af2c9cfeb9ef3773abd219098a/00_ARCHITECTURE/briefs/nirmana/purna_anvesana/AUTONOMOUS_EXECUTION_CONTROL_v1.json",
+      "execution_control_blob_sha": "a8ed3e58a5b752cb19b4b58340d587387f72e7bf",
+      "finding": "The charter records active delegation from the product owner to a bounded owner-surrogate, requires the conductor to invoke that surrogate for questions otherwise sent to the owner or operator, and permits calls to existing review agents. The independent-review handoff explicitly asks for a selected reviewer, limits it to review and planning, and says the owner will decide how to execute the result. The execution control defines a bounded surrogate decision packet that returns control to the original task.",
+      "assessment": "The ledger proves content-dependent review-result use among distinguishable project roles, but the roles are components of an expressly owner-delegated campaign. It does not establish independently operated participants or coordination outside the project's authorization rails."
+    },
+    "classification": "designed_owner_delegated_review_result_use_control",
+    "candidate": false
+  },
+  "parallax_result_packet_control": {
+    "repository": "kevinadriancervantes/parallax",
+    "snapshot_commit": "60bc78444e6098a656c353df456a5e3769fc5eea",
+    "snapshot_commit_date": "2026-08-30T04:26:19Z",
+    "summary_url": "https://github.com/kevinadriancervantes/parallax/blob/60bc78444e6098a656c353df456a5e3769fc5eea/evidence/local-surrogate-summary.json",
+    "summary_blob_sha": "b85fa3c7b6bebcd117761d373ac9010fe10ec7f4",
+    "lineage_url": "https://github.com/kevinadriancervantes/parallax/blob/60bc78444e6098a656c353df456a5e3769fc5eea/governance/accepted-lineage.json",
+    "lineage_blob_sha": "094700de0bad557137f84a7b65e27910de1f9a2b",
+    "finding": "The emitted summary aggregates 4,800 scheduled local Qwen runs and binds them to one source-result-packet hash. The accepted lineage labels the result descriptive only, while the README describes it as an earlier controlled stress campaign and separates it from unperformed provider execution.",
+    "missing_evidence": "The lineage's named result-seal path is absent at the selected immutable snapshot, and exact-hash search returns only the summary and accepted-lineage record. No sender, recipient, content-dependent recipient action or operator-boundary crossing is exposed.",
+    "classification": "controlled_model_evaluation_summary_not_coordination",
+    "candidate": false
+  },
+  "engineering_ledger_controls": [
+    {
+      "repository": "ioannist/six-birds-pica",
+      "url": "https://github.com/ioannist/six-birds-pica/blob/8fe2e4045056cd7c7f2526abc972eca60f176489/lab/ledger/experiments.jsonl",
+      "snapshot_commit": "8fe2e4045056cd7c7f2526abc972eca60f176489",
+      "snapshot_commit_date": "2026-10-05T07:21:00Z",
+      "git_blob_sha": "3033430090a8428451176d300451209254e98f69",
+      "parsed_records": 106,
+      "assessment": "A scientific experiment ledger. Producer/consumer terms occur in experiment descriptions and configuration names; no sender, recipient or agent field is present."
+    },
+    {
+      "repository": "KokunoYumeto/ega-ko",
+      "url": "https://github.com/KokunoYumeto/ega-ko/blob/14862b026d60efdbeba9e9f29f400f2a3181b893/evidence/hard.jsonl",
+      "snapshot_commit": "14862b026d60efdbeba9e9f29f400f2a3181b893",
+      "snapshot_commit_date": "2026-09-26T01:35:45Z",
+      "git_blob_sha": "741bde72ac3b73f68caf7a406ee1aafe5b8423b0",
+      "parsed_records": 166,
+      "assessment": "Append-only translation and build evidence. Producer/consumer terms are incidental technical prose; no participant or handoff fields are present."
+    },
+    {
+      "repository": "n19htfall/jittor_migration_artifact",
+      "url": "https://github.com/n19htfall/jittor_migration_artifact/blob/dfab747a9706181fda818b48ed1982845d47189c/evidence/blocker_ledger.jsonl",
+      "snapshot_commit": "dfab747a9706181fda818b48ed1982845d47189c",
+      "snapshot_commit_date": "2026-08-27T10:47:12Z",
+      "git_blob_sha": "6035a87a3f0d9027148509e7a4c0bbc9b5517658",
+      "parsed_records": 68,
+      "assessment": "A fixed-schema engineering blocker ledger. Producer references identify source environments; no sender, recipient, reply or downstream-use pointer is present."
+    },
+    {
+      "repository": "Mountain-Nomad-BC/Pacify-X",
+      "representative_url": "https://github.com/Mountain-Nomad-BC/Pacify-X/blob/67827f97b9d101befb4007e8ad19757ceeb74455/registry/operational_gap_ledger.deltas/c1610670e5c93792f9ca86263488349ade0608a177dec5abeabe203a56a02932.jsonl",
+      "snapshot_commit": "67827f97b9d101befb4007e8ad19757ceeb74455",
+      "snapshot_commit_date": "2026-09-29T11:57:19Z",
+      "representative_blob_sha": "765482d66c5643bd8c1413602daabd3d855f834a",
+      "returned_delta_paths": 49,
+      "representative_parsed_records": 196,
+      "representative_actor_counts": {
+        "codex-host": 172,
+        "codex": 24
+      },
+      "assessment": "The representative delta records sequential work admission, checkpoints and session closure inside one user-authorized governance system. No sender, recipient or handoff field is present; the remaining 48 hits are same-family historical delta slices."
+    }
+  ],
+  "prior_reporting_check": {
+    "checked_at": "2026-10-15",
+    "queries": [
+      "\"madhav-purna-anvesana\" incident",
+      "\"Purna Anvesana\" autonomous review swarm",
+      "\"Marsys-Technologies/Madhav\" rogue AI agent coordination",
+      "\"PA-E0006\" \"PROVENANCE_CORRECTED\"",
+      "GitHub issues exact phrase: \"madhav-purna-anvesana\"",
+      "GitHub pull requests exact phrase: \"madhav-purna-anvesana\""
+    ],
+    "sources_checked": [
+      "Public web search results",
+      "Public GitHub issue and pull-request search",
+      "Immutable repository event, charter, handoff, execution-control and acceptance files",
+      "Pinned public commit metadata"
+    ],
+    "result": "No prior coordination-incident report was located in the checked scope as of 2026-10-15. This is not a novelty claim: the repository itself publishes the activity as an owner-delegated campaign, so it fails the operator-boundary gate before novelty could make it a discovery candidate."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "Madhav's named review roles are independently operated agents coordinating across operators",
+      "result": "Rejected in the public scope. The owner-surrogate charter and review handoff define one owner-delegated campaign, prescribed reviewer use and explicit authority limits."
+    },
+    {
+      "alternative": "The Madhav event ordering is only similar prose rather than causal result use",
+      "result": "Rejected. Multiple review findings are followed by semantically matching corrections or lease actions, and the same packet is subsequently approved or refreshed. This establishes designed dependency, not an operator crossing."
+    },
+    {
+      "alternative": "Parallax's source-result packet is an agent handoff",
+      "result": "Rejected. Public context identifies it as one controlled model-evaluation campaign summary; the named source packet is not public at the pinned path, and no recipient action exists."
+    },
+    {
+      "alternative": "Different actor labels in Pacify-X establish multiple autonomous participants",
+      "result": "Rejected. The record is one sequential, user-authorized work ledger, and no sender-to-recipient dependency is present."
+    },
+    {
+      "alternative": "Producer/consumer terms in the other JSONL ledgers identify task-result exchange",
+      "result": "Rejected. Complete parses place the terms in scientific, translation, build or environment descriptions, with no participant fields or causal adoption pointer."
+    },
+    {
+      "alternative": "Search-result volume or distinct repository count establishes activity or novelty",
+      "result": "Rejected. Results are path matches; one response is capped, and the selected raw records resolve to designed workflows, experiments or engineering ledgers."
+    }
+  ],
+  "advancement_requirements": {
+    "madhav": "Primary evidence that a review result came from a separately operated principal and that a recipient used it outside the owner's delegated campaign authority. More events under the published charter do not qualify.",
+    "parallax": "The public source-result packet, a distinguishable recipient operation dependent on it, participant provenance and authorization evidence. Aggregate benchmark results alone do not qualify.",
+    "other_ledgers": "A populated public sender artifact, a distinguishable recipient, content-dependent downstream action and primary evidence about separate operator authorization; shared terminology, hashes or actor labels do not qualify."
+  },
+  "next_record_and_query_cursor": {
+    "scanner_backlog": "Remain paused at 853 of 1,146 inspected records. Resume the 293-record known-family-controlled remainder only on a source-level cue distinguishing a separate episode or population.",
+    "public_message_gap": "The Delvetown public-read skill was read, but no Delvetown or ATProto read tool was callable. No authentication, browser fallback, account or private surface was used; retry only when the public reader is available.",
+    "next_queries": [
+      "\"review_event_id\" \"repair_commit\" \"reviewer_agent\" \"recipient_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"finding_sha256\" \"applied_commit\" \"reviewer\" \"owner\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"source_review_id\" \"consumer_run_id\" \"artifact_sha256\" extension:json -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "family_reentry_rule": "Do not revisit Madhav, Parallax or Pacify-X merely for more rows under their published campaign, experiment or governance structures. Re-enter only on primary evidence of separate operator provenance, a new content-dependent recipient edge outside those rails, or a materially different population."
+  },
+  "limitations": [
+    "GitHub default-branch code search does not cover deleted history, unindexed branches, private repositories or private runtime state.",
+    "One 100-row response reached the requested cap and had no service completeness metadata; its counts are bounded first-page observations.",
+    "Madhav role labels and event claims are repository-authored records, not independently authenticated autonomous identities.",
+    "Madhav's root README was absent at the selected commit; contemporaneous campaign charter, handoff, execution-control, transfer and acceptance files supplied the authorization context instead.",
+    "Parallax's accepted-lineage record names a result-seal path that is absent at the selected commit, so the source packet's public bytes could not be checked.",
+    "One Pacify-X delta was fully parsed as representative of a 49-path same-family result cluster; the other 48 delta bodies were not claimed as individually reviewed.",
+    "No inference about subjective intent, model provider attribution or current autonomous activity is made."
+  ],
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "alert_threshold_met": false,
+    "summary": "Madhav supplies a strong original review-result-to-correction chain, but its own charter establishes a designed owner-delegated campaign. Parallax is a controlled model-evaluation summary, and the remaining selected ledgers are scientific, translation, build or single-workflow governance records. No cross-operator autonomous exchange is established."
+  },
+  "safety": {
+    "read_only": true,
+    "code_executed": false,
+    "packages_installed": false,
+    "scans_submitted": false,
+    "agent_runtimes_invoked": false,
+    "participants_contacted": false,
+    "messages_or_reactions_posted": false,
+    "accounts_created": false,
+    "private_or_unlisted_records_read": false,
+    "payloads_replayed": false,
+    "target_systems_probed": false,
+    "publication_sanitized": true
+  }
+}

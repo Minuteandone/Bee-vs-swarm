@@ -5406,6 +5406,96 @@
       "first_commit_sha": "c3da6d67dc4ce5a79db163235f5d72729c86c120",
       "first_commit_date": "2026-10-03T00:06:22Z",
       "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
+    },
+    {
+      "id": "original-urlscan-p2p-chat-result",
+      "url": "https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/",
+      "role": "Primary public result-page metadata, transaction table and screenshot link for the manual peer-to-peer chat control",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T15:51:11Z",
+      "observed_at": "2026-10-16T11:24:50Z",
+      "captured_response_sha256": "63ac910e5a5e00413e7fc06224e9d0ce3c441432523af6f91183f4bdd1a5e603"
+    },
+    {
+      "id": "original-urlscan-staging-qa-result-september",
+      "url": "https://urlscan.io/result/01a0e697-8d88-730d-95b5-1b7d0d042cd5/",
+      "role": "Primary public result-page record for the first same-build staging QA page-load notification write",
+      "published": "2026-09-28",
+      "event_at": "2026-09-28T05:58:06Z",
+      "observed_at": "2026-10-16T11:28:02Z",
+      "captured_response_sha256": "17dd949bb688ed902e955da2e2b83c93f704a2e1620f623752cd6519450cf0f5"
+    },
+    {
+      "id": "original-urlscan-staging-qa-result-october",
+      "url": "https://urlscan.io/result/01a1115a-c114-76cd-8b71-6bbb9296ca17/",
+      "role": "Primary public result-page record and screenshot link for the repeated same-build staging QA page-load notification write",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T13:15:22Z",
+      "observed_at": "2026-10-16T11:27:48Z",
+      "captured_response_sha256": "17dd949bb688ed902e955da2e2b83c93f704a2e1620f623752cd6519450cf0f5"
+    },
+    {
+      "id": "original-urlscan-versioned-sync-app-result",
+      "url": "https://urlscan.io/result/01a0bed7-e59b-71ef-995c-e26e1922b348/",
+      "role": "Primary public result-page metadata, transaction table and screenshot link for the version 4.0 sync-app control",
+      "published": "2026-09-20",
+      "event_at": "2026-09-20T12:43:35Z",
+      "observed_at": "2026-10-16T11:25:48Z",
+      "captured_response_sha256": "40ebd8a8199c3260f5fb524ee22240c59465a95fa17b006d5109eba1b693cbef"
+    },
+    {
+      "id": "original-urlscan-versioned-sync-dev-result",
+      "url": "https://urlscan.io/result/01a0bef6-4abc-70fe-a99f-839cce791b18/",
+      "role": "Primary public result-page metadata, transaction table and screenshot link for the version 4.5 development sync control",
+      "published": "2026-09-20",
+      "event_at": "2026-09-20T13:16:47Z",
+      "observed_at": "2026-10-16T11:25:44Z",
+      "captured_response_sha256": "0726866bfe6aebfdbf4f45524cc027422f4d2ae324de4b31cbd7c8ec329d58a6"
+    },
+    {
+      "id": "original-urlscan-versioned-sync-lab-result",
+      "url": "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/",
+      "role": "Primary public result-page metadata, transaction table and screenshot link for the version 4.5 lab sync control",
+      "published": "2026-09-20",
+      "event_at": "2026-09-20T13:44:40Z",
+      "observed_at": "2026-10-16T11:25:17Z",
+      "captured_response_sha256": "dcc5fef358f698fd76d771e78737ad2ed932605ce541ff4acc4edb2ad6c2802d"
+    },
+    {
+      "id": "original-urlscan-school-logbook-result-a",
+      "url": "https://urlscan.io/result/01a0b586-923d-75d3-9341-442f04cf37ff/",
+      "role": "Primary public result-page record for the first cloned school-logbook failed-subscription control",
+      "published": "2026-09-18",
+      "event_at": "2026-09-18T17:18:10Z",
+      "observed_at": "2026-10-16T11:28:18Z",
+      "captured_response_sha256": "033b7e86cb04bfff0ea70bf755751385b2c5f1dce141b7c8729cba537dacb071"
+    },
+    {
+      "id": "original-urlscan-school-logbook-result-b",
+      "url": "https://urlscan.io/result/01a0b587-b1ee-7429-966b-bfbb2801177e/",
+      "role": "Primary public result-page record and screenshot link for the second cloned school-logbook failed-subscription control",
+      "published": "2026-09-18",
+      "event_at": "2026-09-18T17:19:24Z",
+      "observed_at": "2026-10-16T11:28:10Z",
+      "captured_response_sha256": "033b7e86cb04bfff0ea70bf755751385b2c5f1dce141b7c8729cba537dacb071"
+    },
+    {
+      "id": "original-urlscan-travel-checklist-result",
+      "url": "https://urlscan.io/result/01a07a83-ee48-771c-af70-c7d12d97b772/",
+      "role": "Primary public result-page record and screenshot link for the personal travel-checklist empty-subscription control",
+      "published": "2026-09-07",
+      "event_at": "2026-09-07T06:17:41Z",
+      "observed_at": "2026-10-16T11:28:23Z",
+      "captured_response_sha256": "8d0581606003bb73be143cae5d91ffb229c94257d57b18943159fc0876aa109f"
+    },
+    {
+      "id": "original-urlscan-portfolio-visitor-log-result",
+      "url": "https://urlscan.io/result/01a0abef-c307-710c-9557-9bb098fbf8bb/",
+      "role": "Primary public result-page record for the portfolio page-load visitor-logging control",
+      "published": "2026-09-16",
+      "event_at": "2026-09-16T20:36:52Z",
+      "observed_at": "2026-10-16T11:28:32Z",
+      "captured_response_sha256": "8d806ce1c82cc6d54a0f255462de8e4b43388ff0f170a6c37c7742b784420a7c"
     }
   ]
 }

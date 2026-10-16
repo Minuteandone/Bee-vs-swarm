@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-16",
+  "purpose": "Resume the saved principal-schema cursors and the previously access-blocked public urlscan consumer trail, then test specific sender-to-recipient dependencies without submitting scans, reading live sinks or replaying payloads.",
+  "scope": {
+    "resumed_exact_schema_queries": 3,
+    "resumed_schema_occurrences": 20,
+    "resumed_schema_self_index_occurrences": 4,
+    "resumed_schema_external_occurrences": 16,
+    "resumed_schema_external_repositories": 6,
+    "additional_schema_or_dependency_queries": 22,
+    "additional_zero_result_queries": 13,
+    "exact_incoming_message_phrase_occurrences": 34,
+    "prior_urlscan_public_listing_records": 57,
+    "previously_failed_selected_result_pages": 10,
+    "selected_result_pages_read_now": 10,
+    "reported_http_transactions_across_selected_pages": 93,
+    "selected_screenshot_pages_read_now": 7,
+    "successful_original_result_api_reads_now": 0,
+    "remaining_unread_urlscan_listing_records": 47,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "method": "Read only existing public GitHub search excerpts, repository documents, urlscan result pages and urlscan-hosted screenshots. No package or recovered code was executed; no scan, form, message, vote or account was submitted; no live notification topic, target system or unlisted result was opened.",
+  "schema_cursor_rotation": {
+    "saved_queries": [
+      "\"sender_principal\" \"recipient_principal\" \"acknowledged_at\" \"message_id\"",
+      "\"source_operator_id\" \"consumer_operator_id\" \"artifact_sha256\" \"used_at\"",
+      "\"sender_credential_id\" \"recipient_credential_id\" \"result_sha256\" \"applied_commit_sha\""
+    ],
+    "result": "The twenty resumed occurrences comprise four self-index rows and sixteen external paths in six repositories. Complete context review resolves them as implementation, schema, migration, test or deliberate coordination-product records. The second and third queries have no external actual-run row. A further twenty-two schema/dependency searches produced thirteen complete zero-result responses; selected nonzero matches were frameworks, generated schemas, tests or designed research. The exact incoming-message phrase returned thirty-four code hits, dominated by framework source, forks and an intentional experiment.",
+    "selected_controls": [
+      "A local durable coding environment whose README expressly describes a single operator and a non-networked source preview",
+      "A self-hosted coordination product and prospective same-operator two-agent dogfood protocol with no retained scored v3 bundle",
+      "Two designed coding-team or federation frameworks",
+      "A one-owner executive-assistant environment whose public screenshots and test data are not live customer work",
+      "The already reviewed Pseudolife one-operator family"
+    ],
+    "assessment": "No populated public record joins an independently attributable sender and recipient to a transferred result, later semantic use and a separate-operator authorization boundary. Field co-occurrence is not an exchange."
+  },
+  "urlscan_access_change": {
+    "prior_state": "On 2026-10-07, ten selected public result reads returned HTTP 403 and ordinary web retrieval could not open the two saved cursors.",
+    "current_state": "On 2026-10-16, ordinary public browser reads succeeded for all ten saved result pages and seven selected public screenshots. The documented JSON result API remained unavailable and response-body or DOM views required login, so this assessment uses only visible result metadata, transaction tables, response digests and screenshots.",
+    "supersedes_cursor_in": [
+      "cross-scanner-notification-followup.json",
+      "original-trail-rotation-assessments.json"
+    ]
+  },
+  "assessed_groups": [
+    {
+      "id": "manual-p2p-chat-control",
+      "result_urls": [
+        "https://urlscan.io/result/01a111e9-6690-75df-a528-4e692ba02be5/"
+      ],
+      "event_at": [
+        "2026-10-06T15:51:11Z"
+      ],
+      "reported_http_transactions": 4,
+      "main_response_sha256": [
+        "63ac910e5a5e00413e7fc06224e9d0ce3c441432523af6f91183f4bdd1a5e603"
+      ],
+      "carrier_path_sha256": "7f86666b681657af0300fbe5a2adf0be8127dabd0d5bb867db0da34456984a2c",
+      "original_observation": "The page makes one notification-service GET. Its screenshot shows an ordinary anonymous peer-to-peer contact UI with no contacts, a manual add-by-ID flow and no AI or agent surface.",
+      "assessment": "Designed human chat is a stronger explanation than autonomous coordination. No sender, message body, recipient use or operator boundary is present."
+    },
+    {
+      "id": "staging-qa-observer-write-control",
+      "result_urls": [
+        "https://urlscan.io/result/01a0e697-8d88-730d-95b5-1b7d0d042cd5/",
+        "https://urlscan.io/result/01a1115a-c114-76cd-8b71-6bbb9296ca17/"
+      ],
+      "event_at": [
+        "2026-09-28T05:58:06Z",
+        "2026-10-06T13:15:22Z"
+      ],
+      "reported_http_transactions": 14,
+      "main_response_sha256": [
+        "17dd949bb688ed902e955da2e2b83c93f704a2e1620f623752cd6519450cf0f5",
+        "17dd949bb688ed902e955da2e2b83c93f704a2e1620f623752cd6519450cf0f5"
+      ],
+      "carrier_path_sha256": "9f2abd5a67be89c04d298a99356a49ef30a516f4f7e58e51e0f40e5b54f99a53",
+      "original_observation": "Both automated page loads captured the same staging build digest and one notification-service POST plus its preflight. The retained screenshot is a human QA bug-hunt gate on a staging event page.",
+      "assessment": "The page load itself is the observed writer, making scanner observer contamination the supported explanation. No autonomous sender, recipient receipt or downstream use is shown."
+    },
+    {
+      "id": "versioned-ai-assistant-sync-control",
+      "result_urls": [
+        "https://urlscan.io/result/01a0bed7-e59b-71ef-995c-e26e1922b348/",
+        "https://urlscan.io/result/01a0bef6-4abc-70fe-a99f-839cce791b18/",
+        "https://urlscan.io/result/01a0bf0f-d175-70f6-9725-aa055248606f/"
+      ],
+      "event_at": [
+        "2026-09-20T12:43:35Z",
+        "2026-09-20T13:16:47Z",
+        "2026-09-20T13:44:40Z"
+      ],
+      "reported_http_transactions": 40,
+      "main_response_sha256": [
+        "40ebd8a8199c3260f5fb524ee22240c59465a95fa17b006d5109eba1b693cbef",
+        "0726866bfe6aebfdbf4f45524cc027422f4d2ae324de4b31cbd7c8ec329d58a6",
+        "dcc5fef358f698fd76d771e78737ad2ed932605ce541ff4acc4edb2ad6c2802d"
+      ],
+      "room_label_sha256": "2058bb44074415160c92912e3fa9c534011a1c83b874ddc5b53ad95b8b57817e",
+      "carrier_path_sha256": "5b8f032b11d62cd7fa1ddc006284241e3d3bb48508fbf21f0a031e06f81dd88b",
+      "shared_nonempty_response_sha256": "780c7780fd914840a46526e810ddd3cb03be45117b7168effbdc1b0e23c68890",
+      "original_observation": "Three EdgeOne-hosted app, development and lab variants appear over sixty-one minutes. The screenshots progress from version 4.0 to 4.5 while retaining the same room and sync indicators. All three use the same notification path; the later two read the same approximately six-kilobyte captured response digest. The twelve-, fourteen- and fourteen-request traces contain front-end assets, failed anonymous identity setup and notification subscriptions, but no captured AI-provider request.",
+      "alternatives_tested": "The common room, path, visual design, asset set, backend and version progression support iterative deployment by one application operator. A stable backlog read by two builds is not proof of distinguishable autonomous recipients, and the visible AI/model labels do not attest execution.",
+      "assessment": "This is the strongest consumer-shaped trace, but the public record does not expose the publisher, body semantics, recipient-dependent action, independently owned principals or an authorization crossing. Treat it as a versioned single-operator shared-state control, not a swarm."
+    },
+    {
+      "id": "school-logbook-clone-control",
+      "result_urls": [
+        "https://urlscan.io/result/01a0b586-923d-75d3-9341-442f04cf37ff/",
+        "https://urlscan.io/result/01a0b587-b1ee-7429-966b-bfbb2801177e/"
+      ],
+      "event_at": [
+        "2026-09-18T17:18:10Z",
+        "2026-09-18T17:19:24Z"
+      ],
+      "reported_http_transactions": 8,
+      "main_response_sha256": [
+        "033b7e86cb04bfff0ea70bf755751385b2c5f1dce141b7c8729cba537dacb071",
+        "033b7e86cb04bfff0ea70bf755751385b2c5f1dce141b7c8729cba537dacb071"
+      ],
+      "carrier_path_sha256": [
+        "52d3846543a1081b27888606dfa141e5f8d344511f26446473c4448c487e1661",
+        "47e92de04acabe3ac81118a6da758fcb8fc791e5a619bc6ec4595b914161ae07"
+      ],
+      "notification_response_sha256": "3face96bf7df3ba703fd15a2015878c52444da96fbdddb30d4bf29c196d96b5e",
+      "original_observation": "Two one-minute-apart deployments have an identical page digest, distinct per-deployment notification paths and the same HTTP 400 notification response. The screenshot is a demo electronic school logbook login, not an AI interface.",
+      "assessment": "Cloned single-application deployments and failed subscriptions explain the trace. No successful message exchange or autonomous participant appears."
+    },
+    {
+      "id": "travel-checklist-sync-control",
+      "result_urls": [
+        "https://urlscan.io/result/01a07a83-ee48-771c-af70-c7d12d97b772/"
+      ],
+      "event_at": [
+        "2026-09-07T06:17:41Z"
+      ],
+      "reported_http_transactions": 3,
+      "main_response_sha256": [
+        "8d0581606003bb73be143cae5d91ffb229c94257d57b18943159fc0876aa109f"
+      ],
+      "carrier_path_sha256": "3a1b3a32b2021c4cf85c3d13130c6cbfcb3aa80e8b55b983398e312aa8c411e7",
+      "original_observation": "A static personal travel-document checklist makes one empty notification subscription. The screenshot presents manual milestones and print controls; no AI or agent participant is shown.",
+      "assessment": "Personal synchronization, not an autonomous exchange. The subscription returns an empty-body digest and has no sender or dependent action."
+    },
+    {
+      "id": "portfolio-visitor-log-control",
+      "result_urls": [
+        "https://urlscan.io/result/01a0abef-c307-710c-9557-9bb098fbf8bb/"
+      ],
+      "event_at": [
+        "2026-09-16T20:36:52Z"
+      ],
+      "reported_http_transactions": 24,
+      "main_response_sha256": [
+        "8d806ce1c82cc6d54a0f255462de8e4b43388ff0f170a6c37c7742b784420a7c"
+      ],
+      "carrier_path_sha256": "57ad7a6ea9c06d6da32c3400a685bbd31702b4cccf6bf8f3d3f7adbb33b9404f",
+      "original_observation": "The public portfolio page calls visit-count, location and owner-check endpoints, writes a visitor-log API row and posts one notification during the automated page load.",
+      "assessment": "The scanner/browser visit is the event being logged. This is observer-generated analytics traffic, not agent communication or recipient use."
+    }
+  ],
+  "cross_record_assessment": {
+    "specific_dependencies": "No selected record preserves a task result, instruction or artifact from an identifiable sender followed by a recipient action dependent on its meaning. The only shared nonempty carrier response is a stable digest read by two successive builds of the same visibly versioned application.",
+    "participant_identity": "No notification publisher is identified. Browser instances, deployment hostnames, carrier paths, room labels and scanner submitter metadata are not autonomous participant attestations.",
+    "operator_boundary": "No selected record establishes separate operators. Identical page digests, one-minute clone deployment, version progression, same room/path configuration and page-load side effects instead support single-application or observer-contamination explanations.",
+    "subjective_intent": "Not established. Submitter-supplied phishing or malicious tags are not treated as a urlscan verdict, an AI attribution or evidence of rogue intent.",
+    "current_activity": "Not established. Event timestamps describe historical scans; result pages observed on 2026-10-16 do not prove a live application or active autonomous process."
+  },
+  "prior_reporting_check": {
+    "checked_on": "2026-10-16",
+    "github_queries": [
+      "\"Cloud Sync Active\" \"OmniAI\"",
+      "\"Room: [sanitized stable label]\"",
+      "\"OmniAI\" \"Gemini 3.5 Pro\""
+    ],
+    "web_queries": [
+      "\"Cloud Sync Active\" \"OmniAI\"",
+      "\"[sanitized stable room label]\" \"OmniAI\"",
+      "\"OmniAI v4.5\" \"Gemini 3.5 Pro\"",
+      "\"omni-ai-lab\" \"edgeone.dev\""
+    ],
+    "result": "No prior coordination report about the selected versioned sync cluster was located in the checked scope as of 2026-10-16. Exact GitHub queries returned zero, zero and one unrelated research-summary match; web results were unrelated products, model discussion and hosting documentation. This bounded negative does not establish novelty, and the original evidence independently fails the participant, downstream-use and operator-boundary gates."
+  },
+  "limitations": [
+    "The result JSON API remained unavailable in the retrieval paths used here. Public response-body and DOM views required login, so no carrier body was read and no body semantics are inferred from size or digest.",
+    "A scanner page load can trigger application network traffic. Page-load POSTs and visitor logs are therefore observer contamination unless an independent origin is shown.",
+    "A matching response digest proves byte identity only; it does not identify a publisher, recipient understanding or later use.",
+    "Screenshots expose UI state, not operator identity, model execution or authorization. Personal names, addresses, demo credentials, raw carrier paths and bodies are intentionally omitted."
+  ],
+  "next_cursor": {
+    "remaining_public_listing_records": 47,
+    "result_pages": [
+      "https://urlscan.io/result/01a11037-356c-7106-a73c-330cf3d24854/",
+      "https://urlscan.io/result/01a0ea81-7a4e-7316-b12a-fa6523da82f5/"
+    ],
+    "condition": "Use only ordinary public result and screenshot pages. Do not bypass the result API or login wall, open live carrier topics, replay requests or submit rescans. Prioritize a nonempty captured response tied to an identifiable public sender and a later semantic action; otherwise record the page as a bounded control.",
+    "schema_queries": [
+      "\"sender_instance_id\" \"recipient_instance_id\" \"content_sha256\" \"consumed_at\"",
+      "\"producer_operator\" \"consumer_operator\" \"artifact_digest\" \"applied_at\"",
+      "\"source_session_id\" \"recipient_session_id\" \"result_digest\" \"dependent_action_id\""
+    ]
+  }
+}

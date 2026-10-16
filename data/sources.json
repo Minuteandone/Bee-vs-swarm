@@ -4600,6 +4600,128 @@
       "git_blob_sha": "b9e3758850a2fb6372713b17a7583f052098e1fa",
       "commit_sha": "67827f97b9d101befb4007e8ad19757ceeb74455",
       "commit_date": "2026-09-29T11:57:19Z"
+    },
+    {
+      "id": "original-coda-evaluation-status-ledger",
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/state/STATUS.json",
+      "role": "Primary multi-thread evaluation status ledger with ticket dependencies and applied commits",
+      "published": "2026-08-05",
+      "event_updated_at": "2026-07-24T09:00:00Z",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "f94428d9014471f22d439e0e3b9c816617deaaca",
+      "commit_sha": "3c307c87f976b1a91998f9df982bf36082b1e551",
+      "commit_date": "2026-08-05T09:33:46Z"
+    },
+    {
+      "id": "original-coda-evaluation-plan",
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/PLAN.json",
+      "role": "Primary role, dependency, integration and user-approval context for the evaluation ledger",
+      "published": "2026-08-05",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "8cd4310a9e4a16f8c0b071c8e458f8c6dd23a05a",
+      "commit_sha": "3c307c87f976b1a91998f9df982bf36082b1e551",
+      "commit_date": "2026-08-05T09:33:46Z"
+    },
+    {
+      "id": "original-coda-eval-056-handoff",
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/EVAL-056-H.json",
+      "role": "Primary implementer handoff consumed by the later reviewer and gate",
+      "published": "2026-08-05",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "527800f254fe8c230eede1659ae38fa21fbea749",
+      "commit_sha": "3c307c87f976b1a91998f9df982bf36082b1e551",
+      "commit_date": "2026-08-05T09:33:46Z"
+    },
+    {
+      "id": "original-coda-tool-057-review-handoff",
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/TOOL-057-A.json",
+      "role": "Primary reviewer handoff recording upstream commit use and a resolved blocking defect",
+      "published": "2026-08-05",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "1acc0e7d19c454581d1be89bc1c3a6a5c78649bf",
+      "commit_sha": "3c307c87f976b1a91998f9df982bf36082b1e551",
+      "commit_date": "2026-08-05T09:33:46Z"
+    },
+    {
+      "id": "original-coda-tool-058-gate-handoff",
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/TOOL-058-G.json",
+      "role": "Primary integrator gate binding upstream handoff hashes after reviewer resolution",
+      "published": "2026-08-05",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "13985ca658d455fcfe3b0551f16d3107469fe9e2",
+      "commit_sha": "3c307c87f976b1a91998f9df982bf36082b1e551",
+      "commit_date": "2026-08-05T09:33:46Z"
+    },
+    {
+      "id": "original-rudder-review-repair-status-ledger",
+      "url": "https://github.com/Undertone0809/rudder/blob/ae74493a38f9688980d9ff46d49fff1a32896eab/doc/plans/2026-09-21-rudder-full-rust-backend-completion-status.yml",
+      "role": "Primary staged-review, repair-dispatch and fingerprint-bound acceptance ledger",
+      "published": "2026-10-14",
+      "event_updated_date": "2026-10-07",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "afe91d0266ab5efcb1c1b697d91499540b3336af",
+      "commit_sha": "ae74493a38f9688980d9ff46d49fff1a32896eab",
+      "commit_date": "2026-10-14T15:28:40Z"
+    },
+    {
+      "id": "original-rudder-readme-context",
+      "url": "https://github.com/Undertone0809/rudder/blob/ae74493a38f9688980d9ff46d49fff1a32896eab/README.md",
+      "role": "Primary project context for the designed collaborative workspace and receipt ledger",
+      "published": "2026-10-14",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "3ba5acdce0a72c771ffc24ebe179caa5f6b81889",
+      "commit_sha": "ae74493a38f9688980d9ff46d49fff1a32896eab",
+      "commit_date": "2026-10-14T15:28:40Z"
+    },
+    {
+      "id": "original-solana-paper-desk-task-queue",
+      "url": "https://github.com/pixelmanager-cloud/solana-paper-desk/blob/0dcc2117b094bfced0e92feebac9f2df47cfd1d4/docs/agent-task-queue.json",
+      "role": "Primary coordinator queue preserving findings, repairs, rereviews, commits and thread IDs",
+      "published": "2026-10-10",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "8ab87505826620606a4dfd417c4538714d9fa433",
+      "commit_sha": "0dcc2117b094bfced0e92feebac9f2df47cfd1d4",
+      "commit_date": "2026-10-10T09:38:16Z"
+    },
+    {
+      "id": "original-solana-paper-desk-agent-charter",
+      "url": "https://github.com/pixelmanager-cloud/solana-paper-desk/blob/0dcc2117b094bfced0e92feebac9f2df47cfd1d4/AGENTS.md",
+      "role": "Primary coordinator-assignment, user-authorization and worker-boundary charter",
+      "published": "2026-10-10",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "cc213422954b53c7ac99c25eb20fd7c07deffc66",
+      "commit_sha": "0dcc2117b094bfced0e92feebac9f2df47cfd1d4",
+      "commit_date": "2026-10-10T09:38:16Z"
+    },
+    {
+      "id": "original-solana-paper-desk-readme-context",
+      "url": "https://github.com/pixelmanager-cloud/solana-paper-desk/blob/0dcc2117b094bfced0e92feebac9f2df47cfd1d4/README.md",
+      "role": "Primary paper-only prototype and task-queue context",
+      "published": "2026-10-10",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "dcf4300f57bb289e2eae44986d5cac1acc424f76",
+      "commit_sha": "0dcc2117b094bfced0e92feebac9f2df47cfd1d4",
+      "commit_date": "2026-10-10T09:38:16Z"
+    },
+    {
+      "id": "original-nomue-review-sync-candidate",
+      "url": "https://github.com/licklider-ai/nomue-protocol/blob/2e4b0d8b115b7b898e2b3d619a167f4d02042961/governance/drafts/release-2-candidate/numerical/fixed-95-critical-value-evidence-review-sync-candidate.json",
+      "role": "Primary unissued governance candidate binding review, repair and close-review commit identifiers",
+      "published": "2026-09-27",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "55dcec00f8fce5efc8471150a1a2bc8439f70f30",
+      "commit_sha": "2e4b0d8b115b7b898e2b3d619a167f4d02042961",
+      "commit_date": "2026-09-27T17:08:34Z"
+    },
+    {
+      "id": "original-arnold-review-plan-control",
+      "url": "https://github.com/peteromallet/Arnold/blob/d32b5affd3fab07b361be90ae56083b4beefd613/.oracle/findings/plan-v7-pre-v8.md",
+      "role": "Primary plan-only independent-review and pre-push acceptance control with unpopulated repair fields",
+      "published": "2026-09-07",
+      "observed_at": "2026-10-16T01:12:39Z",
+      "git_blob_sha": "d91fa7f118860fefed2ced19edad444e0ccad979",
+      "commit_sha": "d32b5affd3fab07b361be90ae56083b4beefd613",
+      "commit_date": "2026-09-07T08:23:35Z"
     }
   ]
 }

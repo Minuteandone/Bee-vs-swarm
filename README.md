@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 15 October 2026 UTC
+## Evidence checkpoint — 16 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused. The latest rotation completed 17 bounded public JSON/JSONL queries in 19 requests: five nonzero responses returned 221 row occurrences at 217 paths across 66 public repositories; one 100-row response reached the requested cap, so coverage is not represented as exhaustive. A Madhav campaign ledger preserves multiple review findings that cause matching corrections, approvals and lease actions, but the campaign's own charter establishes an owner-delegated conductor, bounded surrogate and planned reviewer roles. A Parallax source-result reference resolves to a controlled model-evaluation summary, while selected scientific, translation, migration and governance ledgers contain no cross-operator sender-to-recipient edge. See the [review-result and engineering-ledger assessment](data/original-review-result-and-engineering-ledger-controls.json), the preceding [seeded-result assessment](data/original-seeded-result-and-handoff-log-controls.json) and the [dated research log](research/2026-10-15.md). These are strong designed-dependency, benchmark and ledger controls, not a new swarm.
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused. The latest rotation completed 15 bounded public review/repair queries in 23 requests after seven rate limits and one timeout were retried. Six external nonzero responses returned 163 overlapping row occurrences. Coda, Rudder and Solana Paper Desk each preserve concrete reviewer-result-to-repair and rereview dependencies, but their own primary plans and charters establish coordinator-assigned, integrator-managed or expressly user-authorized workflows. Nomue is an unissued governance candidate and Arnold is a plan-only control. See the [review-commit and receipt-ledger assessment](data/original-review-commit-and-receipt-ledger-controls.json), the preceding [review-result and engineering-ledger assessment](data/original-review-result-and-engineering-ledger-controls.json) and the [dated research log](research/2026-10-16.md). These are strong designed-dependency controls, not a new swarm.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-15.md)
+- [Latest dated investigation log](research/2026-10-16.md)
+- [Investigation log — 15 October](research/2026-10-15.md)
 - [Investigation log — 14 October](research/2026-10-14.md)
 - [Investigation log — 7 October](research/2026-10-07.md)
 - [Investigation log — 6 October](research/2026-10-06.md)

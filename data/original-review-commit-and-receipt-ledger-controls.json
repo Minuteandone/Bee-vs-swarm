@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-16",
+  "observed_at": "2026-10-16T01:12:39Z",
+  "discovery_target": "Previously unreported autonomous coordination in which distinguishable participants transfer task results, instructions or artifacts, a recipient demonstrably uses them, and primary evidence supports a crossing of an operator-defined boundary.",
+  "search_source": "GitHub default-branch code search followed by complete read-only retrieval of selected immutable public files, branch refs and commit metadata",
+  "scope": {
+    "unique_global_query_strings": 15,
+    "query_requests_including_retries": 23,
+    "completed_query_responses": 15,
+    "transient_rate_limits_retried": 7,
+    "transient_timeouts_retried": 1,
+    "external_zero_result_queries": 9,
+    "external_nonzero_result_queries": 6,
+    "external_returned_row_occurrences": 163,
+    "selected_original_record_families_read": 5,
+    "selected_primary_files_read_in_full": 18,
+    "new_original_coordination_candidates": 0
+  },
+  "query_accounting_note": "The three resumed exact cursors and one lower-arity query returned only this repository's own index and therefore count as zero external results. Seven rate-limited requests and one timed-out request were retried after the service interval; every unique query ultimately completed. Row counts are response counts, not unique incidents, and overlapping queries were not summed into a distinct-artifact count.",
+  "queries": [
+    {
+      "query": "\"review_event_id\" \"repair_commit\" \"reviewer_agent\" \"recipient_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_82_cursor",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "The sole result was this repository's source index."
+    },
+    {
+      "query": "\"finding_sha256\" \"applied_commit\" \"reviewer\" \"owner\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_82_cursor",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "The sole result was this repository's source index."
+    },
+    {
+      "query": "\"source_review_id\" \"consumer_run_id\" \"artifact_sha256\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "phase": "resumed_pass_82_cursor",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "The sole result was this repository's source index."
+    },
+    {
+      "query": "\"review_finding_id\" \"applied_commit\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0,
+      "retry_note": "The first request was rate-limited; the completed retry returned zero rows."
+    },
+    {
+      "query": "\"finding_id\" \"applied_commit\" \"reviewer\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 10,
+      "returned_repositories": 8
+    },
+    {
+      "query": "\"review_result\" \"repair_commit\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 43,
+      "retry_note": "The first request was rate-limited; the completed retry returned 43 rows."
+    },
+    {
+      "query": "\"finding_sha256\" \"applied_by\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"source_review_id\" \"consumed_by_run\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0
+    },
+    {
+      "query": "\"review_message_id\" \"commit_sha\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 19,
+      "returned_repositories": 10,
+      "retry_note": "The first request timed out; the completed retry returned 19 rows."
+    },
+    {
+      "query": "\"review_artifact_sha256\" \"applied_commit\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0,
+      "retry_note": "The first request was rate-limited; the completed retry returned zero rows."
+    },
+    {
+      "query": "\"reviewer_agent\" \"owner_agent\" \"commit_sha\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 37,
+      "returned_repositories": 12,
+      "retry_note": "The first request was rate-limited; the completed retry returned 37 rows."
+    },
+    {
+      "query": "\"finding_id\" \"resolved_commit_sha\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 14,
+      "returned_repositories": 7
+    },
+    {
+      "query": "\"review_id\" \"fix_commit_sha\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 40,
+      "returned_repositories": 21,
+      "retry_note": "The first request was rate-limited; the completed retry returned 40 rows."
+    },
+    {
+      "query": "\"review_output_sha256\" \"applied_commit\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 0,
+      "retry_note": "The first request was rate-limited; the completed retry returned zero rows."
+    },
+    {
+      "query": "\"review_result_id\" \"applied_commit_sha\"",
+      "phase": "lower_arity_original_record_rotation",
+      "returned_rows": 2,
+      "external_rows": 0,
+      "retry_note": "The first request was rate-limited; the completed retry returned two rows, both from this repository's source index."
+    }
+  ],
+  "coda_evaluation_handoff_control": {
+    "repository": "Papewhit/coda",
+    "snapshot_commit": "3c307c87f976b1a91998f9df982bf36082b1e551",
+    "snapshot_commit_date": "2026-08-05T09:33:46Z",
+    "status_ledger": {
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/state/STATUS.json",
+      "git_blob_sha": "f94428d9014471f22d439e0e3b9c816617deaaca",
+      "ledger_updated_at": "2026-07-24T09:00:00Z",
+      "accepted_tickets": 65,
+      "ticket_instances": 73,
+      "unique_thread_ids": 73,
+      "accepted_tickets_with_dependency_commits": 19,
+      "dependency_commit_references": 29,
+      "applied_dependency_commit_references": 19,
+      "active_tickets": 3,
+      "blocked_tickets": 6
+    },
+    "coordination_plan": {
+      "url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/PLAN.json",
+      "git_blob_sha": "8cd4310a9e4a16f8c0b071c8e458f8c6dd23a05a",
+      "finding": "The plan defines program-supervisor, integrator, implementer and reviewer roles; maps implementers and reviewers to model threads; lets an integrator manage their subthreads; reserves later gates for user action or approval; and predeclares dependencies and allowed write paths."
+    },
+    "verified_dependency_chains": [
+      {
+        "source": "EVAL-052-H",
+        "recipient": "TOOL-053-A",
+        "source_url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/EVAL-052-H.json",
+        "source_blob_sha": "aadae0e92f954930b2575f1ee47355fe3fb67d62",
+        "recipient_url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/TOOL-053-A.json",
+        "recipient_blob_sha": "e3921ba6677fd7c81f7066ae008221f9d8752d3a",
+        "dependency": "The reviewer consumes the implementer's exact dependency and output commits, audits the native conformance harness and records a pass."
+      },
+      {
+        "source": "TOOL-055-E and EVAL-056-H",
+        "recipient": "TOOL-057-A and TOOL-058-G",
+        "source_urls": [
+          "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/TOOL-055-E.json",
+          "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/EVAL-056-H.json"
+        ],
+        "source_blob_shas": [
+          "564834c64d59812b67fc0298467f860213577c80",
+          "527800f254fe8c230eede1659ae38fa21fbea749"
+        ],
+        "review_url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/TOOL-057-A.json",
+        "review_blob_sha": "1acc0e7d19c454581d1be89bc1c3a6a5c78649bf",
+        "gate_url": "https://github.com/Papewhit/coda/blob/3c307c87f976b1a91998f9df982bf36082b1e551/.codex/eval/handoffs/TOOL-058-G.json",
+        "gate_blob_sha": "13985ca658d455fcfe3b0551f16d3107469fe9e2",
+        "dependency": "The reviewer consumes two exact upstream commits, finds a blocking self-mutation/repetition defect and records the resolution; the downstream integrator gate binds the handoff hashes and passes only after the review is resolved."
+      }
+    ],
+    "assessment": "The records establish distinguishable-thread result transfer and content-dependent use, including a reviewer-found defect that changes the later gate outcome. The same plan explicitly designs and authorizes those roles inside one evaluation campaign, so no operator-boundary crossing is established.",
+    "classification": "designed_multi_thread_evaluation_handoff_control",
+    "candidate": false
+  },
+  "rudder_review_repair_receipt_control": {
+    "repository": "Undertone0809/rudder",
+    "snapshot_commit": "ae74493a38f9688980d9ff46d49fff1a32896eab",
+    "snapshot_commit_date": "2026-10-14T15:28:40Z",
+    "status_ledger_url": "https://github.com/Undertone0809/rudder/blob/ae74493a38f9688980d9ff46d49fff1a32896eab/doc/plans/2026-09-21-rudder-full-rust-backend-completion-status.yml",
+    "status_ledger_blob_sha": "afe91d0266ab5efcb1c1b697d91499540b3336af",
+    "ledger_updated_date": "2026-10-07",
+    "characters": 275169,
+    "agent_id_mentions": 54,
+    "unique_agent_ids": 41,
+    "verified_dependency": {
+      "review": "A v25.5 stage-review receipt rejects an exact same-key retry and missing public-case evidence.",
+      "repair": "The ledger's next agent dispatch assigns and records completion of a matching legacy-receipt replay and regression repair.",
+      "downstream_use": "The v25.6 packet records stage-review acceptance, an independent verifier pass and final-review acceptance bound to source, candidate and packet fingerprints; earlier acceptance is explicitly invalidated when source or candidate identity drifts."
+    },
+    "authorization_and_alternatives": {
+      "finding": "The same ledger repeatedly records requested worker type/model/effort and exact dispatch arguments, calls one parallel handoff user-authorized and limits it to a local CI runner repair with no production scope. It also records duplicate-message discovery and prohibits a duplicate handoff.",
+      "assessment": "The chain is stronger than role-name similarity: a specific rejection is followed by a semantically matching repair and fingerprint-bound reviews. But the record itself establishes operator dispatch, prescribed reviewer stages and explicit user authorization, while participant claims remain repository-authored."
+    },
+    "classification": "designed_user_authorized_review_repair_receipt_control",
+    "candidate": false
+  },
+  "solana_paper_desk_review_repair_control": {
+    "repository": "pixelmanager-cloud/solana-paper-desk",
+    "default_branch": "integration/cloud-wave1",
+    "snapshot_commit": "0dcc2117b094bfced0e92feebac9f2df47cfd1d4",
+    "snapshot_commit_date": "2026-10-10T09:38:16Z",
+    "task_queue": {
+      "url": "https://github.com/pixelmanager-cloud/solana-paper-desk/blob/0dcc2117b094bfced0e92feebac9f2df47cfd1d4/docs/agent-task-queue.json",
+      "git_blob_sha": "8ab87505826620606a4dfd417c4538714d9fa433",
+      "task_count": 9,
+      "historical_review_count": 34,
+      "active_claim_count": 36,
+      "unique_worker_labels": 10,
+      "unique_thread_ids": 10
+    },
+    "coordination_charter": {
+      "url": "https://github.com/pixelmanager-cloud/solana-paper-desk/blob/0dcc2117b094bfced0e92feebac9f2df47cfd1d4/AGENTS.md",
+      "git_blob_sha": "cc213422954b53c7ac99c25eb20fd7c07deffc66",
+      "finding": "The charter tells each worker to take one assigned issue in an isolated branch, follow coordinator claims, return a reviewable diff or pull request and leave integration and deployment to the coordinator. It explicitly records user approval for bounded paper experiments and forbids production access, credentials, provider calls, signing or real funds."
+    },
+    "verified_dependency_chains": [
+      {
+        "review": "PR102-INDEPENDENT-REVIEW by worker 01 identifies a corrupt-history downgrade and portability-test defect.",
+        "repair": "PR102-HISTORY-INTEGRITY-REPAIR by worker 08 publishes a matching reject-corrupt-history repair as PR109.",
+        "downstream_use": "PR109-INDEPENDENT-REREVIEW returns to worker 01 and records PASS for the original reviewer's repair."
+      },
+      {
+        "review": "PR104-INDEPENDENT-REVIEW by worker 03 identifies inconsistent delegation and invalid vault-discriminator acceptance.",
+        "repair": "PR104-VAULT-CONTROL-REPAIR by worker 01 publishes a matching vault-validation repair as PR107.",
+        "downstream_use": "PR107-INDEPENDENT-REREVIEW by worker 03 explicitly replays the vault findings against the repair and records component pass pending combined checks."
+      },
+      {
+        "review": "PR105-INDEPENDENT-REVIEW by worker 07 reports a P1 cost-basis corruption defect.",
+        "repair": "PR105-COST-BASIS-REPAIR by worker 10 publishes cost-basis reconstruction and regression coverage as PR113.",
+        "downstream_use": "PR108 rereview is queued after PR113 and a distinct PR113 independent review is dispatched, preserving the causal review-to-repair sequence while final disposition remains pending."
+      }
+    ],
+    "readme_context": {
+      "url": "https://github.com/pixelmanager-cloud/solana-paper-desk/blob/0dcc2117b094bfced0e92feebac9f2df47cfd1d4/README.md",
+      "git_blob_sha": "dcf4300f57bb289e2eae44986d5cac1acc424f76",
+      "finding": "The repository describes an unfinished paper-only research prototype and points to the task queue for dependencies and acceptance criteria."
+    },
+    "assessment": "The two complete chains preserve precise findings, separately labeled worker/thread repairs and original-reviewer rereview, satisfying temporal and semantic dependency inside the public record. They fail the operator-boundary gate because the public charter and queue expressly implement one coordinator's assigned multi-worker workflow under recorded user authorization.",
+    "classification": "designed_coordinator_assigned_review_repair_control",
+    "candidate": false
+  },
+  "lower_strength_governance_controls": [
+    {
+      "repository": "licklider-ai/nomue-protocol",
+      "snapshot_commit": "2e4b0d8b115b7b898e2b3d619a167f4d02042961",
+      "snapshot_commit_date": "2026-09-27T17:08:34Z",
+      "url": "https://github.com/licklider-ai/nomue-protocol/blob/2e4b0d8b115b7b898e2b3d619a167f4d02042961/governance/drafts/release-2-candidate/numerical/fixed-95-critical-value-evidence-review-sync-candidate.json",
+      "git_blob_sha": "55dcec00f8fce5efc8471150a1a2bc8439f70f30",
+      "assessment": "The candidate binds a reviewed implementation, review-result commit, repair commit and close-review commits, but marks itself non-authoritative and unissued and exposes no autonomous sender/recipient provenance. It is a formal governance artifact, not an observed exchange."
+    },
+    {
+      "repository": "Peteromallet/Arnold",
+      "snapshot_commit": "d32b5affd3fab07b361be90ae56083b4beefd613",
+      "snapshot_commit_date": "2026-09-07T08:23:35Z",
+      "url": "https://github.com/peteromallet/Arnold/blob/d32b5affd3fab07b361be90ae56083b4beefd613/.oracle/findings/plan-v7-pre-v8.md",
+      "git_blob_sha": "d91fa7f118860fefed2ced19edad444e0ccad979",
+      "assessment": "The 171-kilobyte plan prescribes independent review and pre-push acceptance but contains no populated emitted repair event linking a reviewer result to a recipient action. It is a plan/template control."
+    }
+  ],
+  "scoped_prior_reporting_check": {
+    "checked_at": "2026-10-16",
+    "web_queries": [
+      "\"Papewhit/coda\" rogue unauthorized agent coordination",
+      "\"pico-v3-evaluation-native-tools\" incident swarm",
+      "\"Undertone0809/rudder\" rogue unauthorized agent coordination",
+      "\"pixelmanager-cloud/solana-paper-desk\" rogue unauthorized agent coordination"
+    ],
+    "github_issue_queries": [
+      "\"pico-v3-evaluation-native-tools\" incident",
+      "\"rudder-full-rust-backend-completion-status\" rogue",
+      "\"agent-task-queue.json\" unauthorized",
+      "\"PR102-HISTORY-INTEGRITY-REPAIR\""
+    ],
+    "exact_record_queries": [
+      "\"PR102-HISTORY-INTEGRITY-REPAIR\"",
+      "\"v25_5_stage_review_receipt\" \"latest_agent_dispatch\"",
+      "\"TOOL-057-A\" \"TOOL-058-G\""
+    ],
+    "result": "No prior coordination-incident report was located in the checked scope as of 2026-10-16. Exact record searches returned only the originating repositories, and the issue searches returned no rows. This is not a novelty claim: every evidence-bearing chain fails the operator-boundary gate because its own primary context defines a designed, user-authorized workflow."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "Distinct worker or thread IDs establish separately operated autonomous participants",
+      "result": "Rejected. Each evidence-bearing repository assigns those IDs inside an explicit coordinator, integrator or user-authorized project workflow; the labels are repository-authored and do not independently authenticate operators."
+    },
+    {
+      "alternative": "Review and repair entries merely share terms and do not show causal use",
+      "result": "Rejected for the three selected ledgers. Exact commits, finding text, packet fingerprints, rereview scopes and gate outcomes establish content-dependent downstream use. This proves designed dependency, not rogue coordination."
+    },
+    {
+      "alternative": "Repeated review after rebase or retry is a second uncontrolled participant population",
+      "result": "Rejected. The ledgers expressly invalidate stale acceptance, dispatch replacement reviews and bind them to updated candidate identities; Coda and the Solana queue likewise predeclare dependencies and review order."
+    },
+    {
+      "alternative": "A role label, model name or provider-shaped thread ID proves AI identity and current activity",
+      "result": "Rejected. These are self-authored fields. No provider attestation or current independent execution evidence was read."
+    },
+    {
+      "alternative": "A lack of prior search results establishes novelty",
+      "result": "Rejected. The reporting check is scoped and search-index-limited, while the operator-boundary failure is independently decisive."
+    }
+  ],
+  "advancement_requirements": {
+    "coda": "Primary evidence that a result-bearing participant belonged to a separately operated principal and that a recipient used it outside the published integrator/supervisor campaign. More tickets under the same plan do not qualify.",
+    "rudder": "Independent participant/operator provenance and evidence that a recipient used a review or repair outside the user-authorized dispatch and staged-review workflow. Additional receipt versions alone do not qualify.",
+    "solana_paper_desk": "Primary evidence that a worker or reviewer was separately operated and crossed the coordinator's assignment/authorization boundary. More queue rows, PR reviews or repairs under AGENTS.md do not qualify.",
+    "governance_controls": "A populated public sender artifact, distinguishable autonomous recipient, content-dependent recipient action and primary operator-boundary evidence. Commit fields in plans or unissued governance candidates are insufficient."
+  },
+  "next_record_and_query_cursor": {
+    "scanner_backlog": "Remain paused at 853 of 1,146 inspected records. Resume the 293-record known-family-controlled remainder only on a source-level cue distinguishing a separate episode or population.",
+    "next_queries": [
+      "\"review_finding_sha256\" \"repair_head\" \"reviewer_thread_id\" extension:json -repo:Minuteandone/Bee-vs-swarm",
+      "\"review_receipt_sha256\" \"repair_commit_sha\" \"consumer_thread_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "\"source_finding_id\" \"rereview_result\" \"applied_head\" extension:json -repo:Minuteandone/Bee-vs-swarm"
+    ],
+    "rotation": "If the exact queries remain empty, rotate to immutable public task-result or review receipts with explicit principal/operator fields. Do not expand provider/framework issue trackers or published incident corpora as a substitute.",
+    "family_reentry_rule": "Do not revisit Coda, Rudder, Solana Paper Desk, Nomue or Arnold merely for more records under the same coordination plans. Re-enter only on primary separate-operator provenance, an out-of-rail content-dependent edge or a materially different population."
+  },
+  "limitations": [
+    "GitHub default-branch code search does not cover deleted history, unindexed branches, private repositories or private runtime state.",
+    "Search responses provide row matches rather than unique incident counts; overlapping query results were not treated as independent activity.",
+    "Participant, model, thread and authorization labels are repository-authored and were not independently authenticated.",
+    "The Rudder status file is a large evolving project ledger; selected counts and the v25.5-to-v25.6 chain are bounded observations at one immutable snapshot, not a complete audit of every embedded campaign.",
+    "The Solana task queue records some repairs and rereviews as pending at the pinned snapshot; only the two completed finding-to-repair-to-rereview chains are used as complete dependency controls.",
+    "The prior-reporting check is bounded to the listed web, GitHub issue and exact-record queries and cannot establish universal absence.",
+    "No inference about subjective intent, model-provider attribution or current autonomous activity is made."
+  ],
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "alert_threshold_met": false,
+    "summary": "Coda, Rudder and Solana Paper Desk preserve strong original reviewer-result-to-repair and rereview dependencies. Their own plans and charters also establish coordinator-assigned, integrator-managed or explicitly user-authorized workflows, so none supplies the required operator-boundary crossing."
+  },
+  "safety": {
+    "read_only": true,
+    "code_executed": false,
+    "packages_installed": false,
+    "scans_submitted": false,
+    "agent_runtimes_invoked": false,
+    "participants_contacted": false,
+    "messages_or_reactions_posted": false,
+    "accounts_created": false,
+    "private_or_unlisted_records_read": false,
+    "payloads_replayed": false,
+    "target_systems_probed": false,
+    "publication_sanitized": true
+  }
+}

@@ -5336,6 +5336,76 @@
       "git_blob_sha": "fe5419b1784fd2b3f79dcae4561d253ba7764d06",
       "commit_sha": "5b9d2e9bf06fe327bcfbd42fe987d978b1e43172",
       "commit_date": "2026-10-16T04:29:41Z"
+    },
+    {
+      "id": "original-pseudolife-single-operator-coordination-design",
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/docs/specs/2026-09-11-agent-coordination-design.md",
+      "role": "Primary one-operator scope, authorization and coordination design record",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-16T10:23:07Z",
+      "git_blob_sha": "d2c36a503722d44acb0c106f1e893aee6f557fa8",
+      "first_commit_sha": "af8e9c11d0543519fd568437baf04909a10174d6",
+      "first_commit_date": "2026-09-11T13:46:42Z",
+      "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
+    },
+    {
+      "id": "original-pseudolife-live-coordination-experiment",
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/docs/specs/2026-09-11-agent-coordination-plan.md",
+      "role": "Primary report of controlled live request, reply, acknowledgment and overlap-deferral behavior",
+      "published": "2026-09-11",
+      "observed_at": "2026-10-16T10:23:07Z",
+      "git_blob_sha": "18bb613bc651197a6a8f40b37b3d3542342085eb",
+      "first_commit_sha": "af8e9c11d0543519fd568437baf04909a10174d6",
+      "first_commit_date": "2026-09-11T13:46:42Z",
+      "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
+    },
+    {
+      "id": "original-pseudolife-codex-validation-record",
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/docs/specs/2026-09-12-codex-coordination.md",
+      "role": "Primary Codex live-delivery, receipt and authorization-boundary validation account",
+      "published": "2026-09-12",
+      "observed_at": "2026-10-16T10:23:07Z",
+      "git_blob_sha": "2c48d8a75b4e0332f997d56e4db4c48190d93f3c",
+      "first_commit_sha": "e41a575a0d2a3149c5f21dfa40111196a424017d",
+      "first_commit_date": "2026-09-12T07:23:39Z",
+      "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
+    },
+    {
+      "id": "original-pseudolife-codex-doorbell-receipt",
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/results/codex-doorbell-probe-20260928.json",
+      "role": "Primary one-message synthetic send, wake, read and acknowledgment receipt",
+      "published": "2026-09-27",
+      "event_at": "2026-09-27T17:27:23.034Z",
+      "observed_at": "2026-10-16T10:23:07Z",
+      "git_blob_sha": "74a5c0d4fe101d9f4eb55e7eb0082406961baf20",
+      "first_commit_sha": "18bd50c66f041cd2273fd3ff9ac5637a101b7db1",
+      "first_commit_date": "2026-09-27T17:37:00Z",
+      "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
+    },
+    {
+      "id": "original-pseudolife-816-message-trial-aggregate",
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/results/coordination-baseline-20260924.json",
+      "role": "Primary aggregate of the 816-message one-operator coordination trial",
+      "published": "2026-09-25",
+      "event_start": "2026-09-23T06:49:04Z",
+      "event_end": "2026-09-23T21:01:48Z",
+      "observed_at": "2026-10-16T10:23:07Z",
+      "git_blob_sha": "c5cc1745cc50c81170460117d892c06243a954a7",
+      "input_sha256": "a04f7e88987ed9c544d9607736fbe7ab3fc8ce058f7c11ba30cde9fffbceb90f",
+      "first_commit_sha": "dfbdeb3c72f770b2c1a24d2260f03198634849a5",
+      "first_commit_date": "2026-09-25T19:34:19Z",
+      "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
+    },
+    {
+      "id": "original-pseudolife-synthetic-ack-oracle",
+      "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/results/rust-port-phase0-full-bank-r5/python-oracle.json",
+      "role": "Primary synthetic same-principal sender, recipient and acknowledgment control",
+      "published": "2026-10-03",
+      "observed_at": "2026-10-16T10:23:07Z",
+      "git_blob_sha": "0eaa7435b523f60e65550873762353287ab4f5b1",
+      "first_commit_sha": "c3da6d67dc4ce5a79db163235f5d72729c86c120",
+      "first_commit_date": "2026-10-03T00:06:22Z",
+      "snapshot_commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd"
     }
   ]
 }

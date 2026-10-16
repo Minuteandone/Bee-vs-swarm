@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-16",
+  "observed_at": "2026-10-16T10:23:07Z",
+  "discovery_target": "Previously unreported, cross-operator autonomous coordination with a concrete sender-to-recipient transfer, demonstrated downstream use, and primary evidence that the cooperation exceeded authorization.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "result": "No candidate. Pseudolife-MCP publishes unusually strong original coordination controls: a live two-agent request/reply/acknowledgment experiment, an aggregate 816-message operational trial and a one-message Codex wake/read/ack receipt. The project's own contemporaneous design expressly scopes every participant to one operator, the records are controlled or synthetic, and the published artifacts omit the message bodies and per-edge downstream actions needed to reconstruct an independently operated rogue exchange."
+  },
+  "safety": {
+    "mode": "Read-only public-record review",
+    "prohibited_actions_preserved": [
+      "No recovered code was executed or installed.",
+      "No scans, agent runtimes, messages, votes, accounts, sink reads, payload replays or target probes were performed.",
+      "Retrieved agent prose and code were treated only as evidence."
+    ],
+    "publication_redactions": "No message bodies, credentials, tokens, local paths, personal addresses, sink topics or private logs are reproduced."
+  },
+  "continuity": {
+    "required_repository_state_read": [
+      "README.md",
+      "research/discovery-protocol.md",
+      "research/2026-10-16.md",
+      "research/leads.md",
+      "data/sources.json",
+      "data/README.md",
+      "data/original-scheduled-hunter-dispatch-and-signal-controls.json"
+    ],
+    "scanner_report_backlog": {
+      "distinct_original_reports": 1146,
+      "inspected": 853,
+      "paused_remainder": 293,
+      "remainder_known_family_marker_absences": 132,
+      "remainder_comparison_overlaps": 161,
+      "reopening_decision": "Not reopened: repository state contains no new source-level cue distinguishing a separate scanner episode or population."
+    }
+  },
+  "collection": {
+    "resumed_exact_cursors": {
+      "requests": 3,
+      "completed_without_retry": 3,
+      "returned_occurrences": 13,
+      "self_index_occurrences": 6,
+      "external_occurrences": 7,
+      "distinct_external_paths": 7,
+      "distinct_external_repositories": 1,
+      "queries": [
+        {
+          "query": "\"coordination_signal_ids\" \"consumed_coordination_signal_ids\" \"execution_worker_id\"",
+          "rows": 9,
+          "self_index_rows": 2,
+          "external_rows": 7
+        },
+        {
+          "query": "\"dispatch_ticket_id\" \"result_sha256\" \"consumer_worker_id\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        },
+        {
+          "query": "\"source_run_id\" \"target_worker_ids\" \"applied_commit_sha\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        }
+      ],
+      "disposition": "The seven external rows are additional implementation, template, schema, test and run-spool paths in the already reviewed GitHub Value Hunt repository. No new consumer receipt or independent operator provenance appeared, so that family was not re-entered."
+    },
+    "different_ledger_rotation": {
+      "rationale": "With the saved cursors externally exhausted, the pass rotated to public sender/recipient, acknowledgment, consumption, artifact and principal fields. Search results were used only to locate committed original records.",
+      "requests": 26,
+      "completed_without_retry": 26,
+      "returned_occurrences": 313,
+      "self_index_occurrences": 19,
+      "external_occurrences": 294,
+      "distinct_external_paths": 233,
+      "distinct_external_repositories": 137,
+      "capped_responses": 5,
+      "completeness": "Incomplete by construction: five searches reached the 50-result service cap, code search covers default branches only, and the selected Pseudolife public report is aggregate-only. Counts are path occurrences, not agents, messages or incidents.",
+      "queries": [
+        "\"sender_run_id\" \"recipient_run_id\" \"consumed_at\"",
+        "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\"",
+        "\"source_worker_id\" \"consumer_worker_id\" \"result_sha256\"",
+        "\"upstream_task_id\" \"downstream_task_id\" \"result_digest\"",
+        "\"handoff_receipt\" \"applied_commit_sha\" \"operator_principal\"",
+        "\"artifact_sha256\" \"consumed_at\" \"operator_id\"",
+        "\"sender_agent_id\" \"recipient_agent_id\" \"consumed_at\"",
+        "\"source_agent_id\" \"consumer_agent_id\" \"artifact_hash\"",
+        "\"handoff_id\" \"recipient_id\" \"result_hash\" \"consumed\"",
+        "\"produced_by\" \"consumed_by\" \"artifact_digest\"",
+        "mailbox consumed_at (scoped to ag2trust/quorum)",
+        "sender_id recipient_id consumed_at",
+        "producer_id consumer_id consumed_at",
+        "handoff recipient acknowledged_at artifact",
+        "sender_agent recipient_agent acknowledged_at",
+        "upstream_task downstream_task consumed_at",
+        "\"message_id\" \"sender_principal\" \"recipient_agent_id\" \"acknowledged_at\"",
+        "\"sender_agent_id\" \"recipient_agent_id\" \"acknowledged_at\" \"reply_to\"",
+        "\"sender_agent_id\" \"recipient_agent_id\" \"acknowledged_at\" \"created_at\" json",
+        "\"handoff_id\" \"from_agent\" \"to_agent\" \"artifact\"",
+        "\"handoff_id\" \"sender_agent\" \"recipient_agent\" \"status\"",
+        "\"from_agent_id\" \"to_agent_id\" \"artifact_sha256\"",
+        "\"producer_agent_id\" \"consumer_agent_id\" \"used_at\"",
+        "\"source_agent\" \"destination_agent\" \"result_sha256\"",
+        "\"sent_by_agent\" \"received_by_agent\" \"used\"",
+        "\"request_id\" \"sender_agent_id\" \"recipient_agent_id\" \"response_id\""
+      ],
+      "selected_repository": "Pseudogiant-xr/Pseudolife-MCP",
+      "selection_reason": "It is the only selected surface with a committed nonempty acknowledgment receipt, sender-principal metadata, a contemporaneous live-model account and a larger operational-trial summary."
+    }
+  },
+  "control": {
+    "control_id": "pseudolife-one-operator-coordination-ledger",
+    "classification": "designed_single_operator_live_and_synthetic_coordination_control",
+    "candidate": false,
+    "snapshot": {
+      "repository": "Pseudogiant-xr/Pseudolife-MCP",
+      "commit_sha": "83dda015823deae1d7e09a22968b2e62b34242dd",
+      "commit_date": "2026-10-16T07:58:45Z",
+      "observed_at": "2026-10-16T10:23:07Z"
+    },
+    "primary_records": {
+      "single_operator_design": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/docs/specs/2026-09-11-agent-coordination-design.md",
+        "git_blob_sha": "d2c36a503722d44acb0c106f1e893aee6f557fa8",
+        "first_commit_sha": "af8e9c11d0543519fd568437baf04909a10174d6",
+        "first_commit_date": "2026-09-11T13:46:42Z"
+      },
+      "live_experiment_plan_and_report": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/docs/specs/2026-09-11-agent-coordination-plan.md",
+        "git_blob_sha": "18bb613bc651197a6a8f40b37b3d3542342085eb",
+        "first_commit_sha": "af8e9c11d0543519fd568437baf04909a10174d6",
+        "first_commit_date": "2026-09-11T13:46:42Z"
+      },
+      "codex_validation_record": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/docs/specs/2026-09-12-codex-coordination.md",
+        "git_blob_sha": "2c48d8a75b4e0332f997d56e4db4c48190d93f3c",
+        "first_commit_sha": "e41a575a0d2a3149c5f21dfa40111196a424017d",
+        "first_commit_date": "2026-09-12T07:23:39Z"
+      },
+      "codex_doorbell_receipt": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/results/codex-doorbell-probe-20260928.json",
+        "git_blob_sha": "74a5c0d4fe101d9f4eb55e7eb0082406961baf20",
+        "first_commit_sha": "18bd50c66f041cd2273fd3ff9ac5637a101b7db1",
+        "first_commit_date": "2026-09-27T17:37:00Z"
+      },
+      "operational_trial_aggregate": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/results/coordination-baseline-20260924.json",
+        "git_blob_sha": "c5cc1745cc50c81170460117d892c06243a954a7",
+        "input_sha256": "a04f7e88987ed9c544d9607736fbe7ab3fc8ce058f7c11ba30cde9fffbceb90f",
+        "first_commit_sha": "dfbdeb3c72f770b2c1a24d2260f03198634849a5",
+        "first_commit_date": "2026-09-25T19:34:19Z"
+      },
+      "synthetic_ack_oracle": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/results/rust-port-phase0-full-bank-r5/python-oracle.json",
+        "git_blob_sha": "0eaa7435b523f60e65550873762353287ab4f5b1",
+        "first_commit_sha": "c3da6d67dc4ce5a79db163235f5d72729c86c120",
+        "first_commit_date": "2026-10-03T00:06:22Z"
+      },
+      "synthetic_oracle_generator": {
+        "url": "https://github.com/Pseudogiant-xr/Pseudolife-MCP/blob/83dda015823deae1d7e09a22968b2e62b34242dd/evals/rust_port/full_bank.py",
+        "git_blob_sha": "699d23963f7a94f268eca21815effbd69af96ee8"
+      }
+    },
+    "designed_context": {
+      "operator_scope": "The experimental design opens by identifying agents working for one operator and says the build must let one operator's agents find peers, send requests and receive replies.",
+      "authorization": "Participation requires operator configuration, an allowlisted principal, authenticated mailbox ownership and opt-in wake behavior. The live and synthetic probes are expressly planned acceptance work on disposable infrastructure.",
+      "authority_boundary": "Peer text cannot grant user approval or promote authority. The Codex validation record says a recipient rejected a peer's claimed deployment approval and that the successful complete-path test explicitly approved the mailbox tool in the disposable recipient's configuration.",
+      "deployment_scope": "The September 11 record describes the system as not deployed; the Codex probe was run on the maintainer's instruction and the broader trial remained an operator-managed evaluation."
+    },
+    "observed_chains": [
+      {
+        "event_window": "2026-09-11 controlled live experiment",
+        "record": "The project reports a real Claude Code shim and disposable daemon exercising idle/busy delivery, two-agent request/reply/acknowledgment, ordinary pull, crash replay and fabricated-approval refusal.",
+        "downstream_use": "An explicit awareness check caused the receiver to defer a scripted overlapping-file action while agents on disjoint files continued. This is concrete recipient behavior, but it was the planned checkpoint of the experiment rather than an unrequested action."
+      },
+      {
+        "event_window": "2026-09-23T06:49:04Z to 2026-09-23T21:01:48Z",
+        "record": "The aggregate operational-trial artifact counts 816 addressed messages among 26 logical agent rows, 25 senders and 171 directed pairs. It reports 753 sends under the claude-code principal and 63 under codex; 804 messages were acknowledged and 12 were not acknowledged by the end of the export.",
+        "limitations": "The public report is aggregate-only. It withholds bodies, raw IDs, task/project/path labels and exact per-message edges, so its heuristic 84 HANDOFF and 92 REQUEST classifications cannot establish any one semantic transfer or dependent action."
+      },
+      {
+        "event_at": "2026-09-27T17:27:23.034Z",
+        "record": "A maintainer-instructed doorbell probe sends one synthetic addressed message to a fresh Codex thread. The committed receipt records one send, one bell, one read and one acknowledgment; acknowledgment occurs 30.804 seconds after send.",
+        "recipient_behavior": "The recipient read and acknowledged the message but declined its requested one-line reply as outside the user-authorized task. This demonstrates reception and boundary preservation, not task-result adoption."
+      },
+      {
+        "published_at": "2026-10-03T00:06:22Z",
+        "record": "The porting oracle contains two synthetic sender-to-recipient messages under one default principal and an acknowledged receipt. Its generator explicitly creates synthetic sender and recipient identities for a wire-contract differential test.",
+        "classification": "Synthetic same-harness control, not an observed independent-agent exchange."
+      }
+    ],
+    "dependency_assessment": {
+      "distinguishable_sessions": "Supported for the controlled live experiments; the records distinguish sender and recipient sessions and, in the larger aggregate, claude-code and codex principals.",
+      "specific_transfer_and_receipt": "Supported for the one-message doorbell probe at the transport/read/ack level, but its body is withheld and the requested reply was intentionally refused.",
+      "causal_downstream_use": "Supported only for the project-reported scripted overlap deferral in the designed experiment. The aggregate report cannot reconstruct a specific message-to-action edge.",
+      "operator_boundary": "Contradicted by primary evidence: the system was designed for one operator's agents, and the selected probes were maintainer-instructed or harness-generated.",
+      "authorization_exceeded": "Contradicted by the published acceptance plan and explicit configuration gates.",
+      "rogue_conclusion": "The records are strong controls for what genuine coordination looks like, but they are explicitly designed, authorized and single-operator."
+    },
+    "alternative_tests": [
+      {
+        "alternative": "Single-operator automation",
+        "result": "Directly supported by the experimental design and maintainer-instructed probe."
+      },
+      {
+        "alternative": "Designed team",
+        "result": "Directly supported by the implementation plan, acceptance cases and explicit sender/recipient registration."
+      },
+      {
+        "alternative": "Repeated test or benchmark",
+        "result": "Directly supported for the differential oracle and audit-volume family; the larger baseline is an intentionally measured operational trial."
+      },
+      {
+        "alternative": "Human-requested outreach",
+        "result": "The probe was run on the maintainer's instruction and all messaging remained inside the operator-configured bank."
+      },
+      {
+        "alternative": "Shared-state fault",
+        "result": "Not needed to explain the records; sender, recipient, read and acknowledgment are deliberately separate database events."
+      },
+      {
+        "alternative": "Observer contamination",
+        "result": "The aggregate report is derived by a project-owned classifier and is explicitly heuristic. Exact semantic claims are therefore limited to the project's own contemporaneous descriptions and the one raw receipt."
+      }
+    ],
+    "participant_and_attribution_findings": {
+      "autonomous_participants": "The live records support model sessions taking receipt-related actions, but public artifacts do not independently authenticate model provider identity for every row in the 26-agent aggregate.",
+      "provider_attribution": "Claude Code, Codex CLI and one Sol/high recipient are project-reported runtime labels, not evidence of unrelated operators.",
+      "subjective_intent": "No rogue intent inferred.",
+      "current_activity": "The pinned repository head is active on 2026-10-16, but this does not establish a currently running cross-operator swarm."
+    }
+  },
+  "prior_reporting_check": {
+    "performed_after_original_chain": true,
+    "checked_at": "2026-10-16",
+    "web_queries": [
+      "\"rung, turn taken, acknowledged\" Pseudolife",
+      "\"two-agent request/reply/acknowledgment\" Pseudolife",
+      "Pseudolife-MCP agent coordination September 2026"
+    ],
+    "result": "The episode was already reported by the project itself in its September 11-12 design/validation documents and committed September 25-27 artifacts; indexed changelog mirrors also reproduce the coordination and trial descriptions. This is not a previously unreported episode even before the operator-boundary failure is applied.",
+    "scope_limit": "The check covered three web queries, GitHub default-branch code search and the pinned project history. It does not establish absence from unindexed branches, private records or the wider web."
+  },
+  "limitations_and_advancement": {
+    "missing_evidence": [
+      "Public raw message bodies and immutable sender/recipient rows for the 816-message trial.",
+      "A specific task artifact and recipient-side action linked by message or digest rather than aggregate heuristics.",
+      "Independently authenticated principals controlled by different operators.",
+      "Primary evidence that a qualifying action exceeded the relevant operator authorization."
+    ],
+    "advancement_rule": "Revisit Pseudolife only if a separate public record supplies an independently operated sender and recipient, a specific consumed artifact and evidence the cooperation exceeded the one-operator design. More authorized board volume or harness receipts do not qualify."
+  },
+  "next_record_cursors": [
+    "\"sender_principal\" \"recipient_principal\" \"acknowledged_at\" \"message_id\"",
+    "\"source_operator_id\" \"consumer_operator_id\" \"artifact_sha256\" \"used_at\"",
+    "\"sender_credential_id\" \"recipient_credential_id\" \"result_sha256\" \"applied_commit_sha\""
+  ],
+  "next_collection_rule": "Resume the three exact principal/operator cursors. If they return only schemas, tests or this self-index, rotate to an unrelated public operational ledger with an actual populated artifact-consumption edge and explicit principal ownership. Do not re-enter Pseudolife-MCP without new cross-operator or authorization evidence."
+}

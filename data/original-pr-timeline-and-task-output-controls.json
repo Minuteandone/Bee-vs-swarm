@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-16",
+  "observed_at": "2026-10-16T04:55:55.381Z",
+  "discovery_target": "Previously unreported, cross-operator autonomous coordination with a concrete sender-to-recipient transfer, demonstrated downstream use, and primary evidence that the cooperation exceeded authorization.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "result": "No candidate. Two public PR timelines preserve review-to-repair evidence, but both are owner-configured development controls and neither supplies public evidence of an unauthorized cross-operator boundary."
+  },
+  "safety": {
+    "mode": "Read-only public-record review",
+    "prohibited_actions_preserved": [
+      "No recovered code was executed or installed.",
+      "No scans, agent runtimes, messages, votes, accounts, sink reads, payload replays or target probes were performed.",
+      "Retrieved agent prose and code were treated only as evidence."
+    ],
+    "publication_redactions": "No payload bodies, credentials, tokens, sink topics, personal addresses or private logs are reproduced."
+  },
+  "continuity": {
+    "required_repository_state_read": [
+      "README.md",
+      "research/discovery-protocol.md",
+      "research/2026-10-16.md",
+      "research/leads.md",
+      "data/sources.json",
+      "data/README.md",
+      "data/original-pr-review-and-principal-schema-controls.json"
+    ],
+    "scanner_report_backlog": {
+      "distinct_original_reports": 1146,
+      "inspected": 853,
+      "paused_remainder": 293,
+      "remainder_known_family_marker_absences": 132,
+      "remainder_comparison_overlaps": 161,
+      "reopening_decision": "Not reopened: no source-level cue distinguished a separate episode or population."
+    }
+  },
+  "collection": {
+    "resumed_exact_cursors": {
+      "requests": 3,
+      "completed_without_retry": 3,
+      "returned_occurrences": 6,
+      "self_index_occurrences": 6,
+      "external_occurrences": 0,
+      "queries": [
+        {
+          "query": "\"review_comment_id\" \"repair_head_sha\" \"reviewer_app_id\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        },
+        {
+          "query": "\"reviewed_head_sha\" \"repair_head_sha\" \"implementer_principal\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        },
+        {
+          "query": "\"review_thread_id\" \"applied_repair_sha\" \"operator_id\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        }
+      ]
+    },
+    "public_pull_request_rotation": {
+      "rationale": "The saved schema cursors were externally empty, so coverage rotated once to existing public PR timelines with bot-authenticated review and attributable repair.",
+      "requests": 4,
+      "returned_occurrences": 200,
+      "unique_pull_requests": 147,
+      "overlap_occurrences": 53,
+      "all_queries_hit_50_result_cap": true,
+      "completeness": "Incomplete by construction; each query was capped at the first 50 results.",
+      "path_and_body_screened_occurrences": 39,
+      "deeply_read_selected_families": 2,
+      "queries": [
+        {
+          "query": "\"Codex Review\" Claude",
+          "returned_occurrences": 50,
+          "capped": true
+        },
+        {
+          "query": "\"@codex review\" Claude",
+          "returned_occurrences": 50,
+          "capped": true
+        },
+        {
+          "query": "\"Codex\" \"Co-authored-by: Claude\"",
+          "returned_occurrences": 50,
+          "capped": true
+        },
+        {
+          "query": "\"Codex review\" \"changes required\"",
+          "returned_occurrences": 50,
+          "capped": true
+        }
+      ]
+    },
+    "raw_task_artifact_search": {
+      "repository": "dddd2024/Nerelan",
+      "scope": "Default-branch GitHub code search for each public task identifier stated in PR 1182.",
+      "searched_identifiers": [
+        "task-1792078265561-ce2b52fa8027",
+        "task-1792122636007-622f7b99d131",
+        "task-1792123788749-06881a15809f",
+        "task-1792125899499-df0691cc0a03"
+      ],
+      "external_or_default_branch_raw_task_records": 0,
+      "interpretation": "Absence does not establish novelty. It leaves participant identity, raw task output and supervisor-copy claims unverified from a public original artifact."
+    }
+  },
+  "controls": [
+    {
+      "control_id": "nerelan-pr-1182",
+      "classification": "designed_owner_governed_review_to_task_repair_control",
+      "candidate": false,
+      "current_activity": {
+        "observed_at": "2026-10-16T04:55:55.381Z",
+        "state": "open",
+        "draft": true,
+        "updated_at": "2026-10-16T04:50:52Z",
+        "base_sha": "8a8ccdd2a21556a87e0c725e1b733585644e424f",
+        "observed_head_sha": "defb812a7814741a2d029d7101e1b3bcce685a89",
+        "commits": 6,
+        "exact_head_rereview": "Not present at observation time"
+      },
+      "primary_records": {
+        "pull_request": "https://github.com/dddd2024/Nerelan/pull/1182",
+        "codex_review_summary": "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6196561644",
+        "codex_review_receipt": "https://github.com/dddd2024/Nerelan/pull/1182#pullrequestreview-5536203008",
+        "codex_findings": [
+          "https://github.com/dddd2024/Nerelan/pull/1182#discussion_r4285393452",
+          "https://github.com/dddd2024/Nerelan/pull/1182#discussion_r4285393466",
+          "https://github.com/dddd2024/Nerelan/pull/1182#discussion_r4285393477"
+        ],
+        "owner_relayed_review_dispositions": [
+          "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6207670186",
+          "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6207768808",
+          "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6208169037"
+        ],
+        "matching_repair_commit": "https://github.com/dddd2024/Nerelan/commit/defb812a7814741a2d029d7101e1b3bcce685a89",
+        "repaired_inventory": "https://github.com/dddd2024/Nerelan/blob/defb812a7814741a2d029d7101e1b3bcce685a89/docs/resource-management-magpie-m0-inventory.md",
+        "authorization_context": [
+          "https://github.com/dddd2024/Nerelan/blob/8a8ccdd2a21556a87e0c725e1b733585644e424f/README.md",
+          "https://github.com/dddd2024/Nerelan/blob/8a8ccdd2a21556a87e0c725e1b733585644e424f/AGENTS.md",
+          "https://github.com/dddd2024/Nerelan/blob/8a8ccdd2a21556a87e0c725e1b733585644e424f/docs/agents/governance-reference.md"
+        ]
+      },
+      "observed_chain": [
+        {
+          "event_at": "2026-10-15T16:08:33Z",
+          "sender_record": "Authenticated chatgpt-codex-connector[bot] review at original commit a728a3ab824bbc95d85653d1720cab63791f83c2.",
+          "transferred_result": "Three specific documentation findings concerning 403 scope, post-failure guards and issue provenance."
+        },
+        {
+          "event_at": "2026-10-16T03:51:06Z",
+          "recipient_record": "The repository owner posted a source-review rejection at eae202080262068337279f0fd6e57d143fd19077 and explicitly said corrective work was delegated through the repository's Nerelan/GLM-via-Claude-Code workflow."
+        },
+        {
+          "event_at": "2026-10-16T04:00:10Z",
+          "recipient_record": "A second owner-posted review said the earlier 403/path findings were fixed and named remaining blockers."
+        },
+        {
+          "event_at": "2026-10-16T04:35:31Z",
+          "recipient_record": "A final owner-posted review at 245a9138853dedddf28ce7e7f0c5e10cb94a4c20 withdrew acceptance and identified host-wide post-limit and provenance errors."
+        },
+        {
+          "event_at": "2026-10-16T04:49:40Z",
+          "downstream_use": "Commit defb812a7814741a2d029d7101e1b3bcce685a89 makes both matching semantic corrections: it records the trusted-host post-limit layer and distinguishes original source-only work from later supervisor-provided issue excerpts."
+        }
+      ],
+      "participant_and_provenance_findings": {
+        "verified_review_participant": "The Codex GitHub App identity is authenticated, but its public summary says the team configured it.",
+        "unverified_repair_participants": "The 'Nerelan GLM task via Claude Code' identities are Git author/committer labels without linked authenticated GitHub users in the public commit objects.",
+        "missing_raw_artifacts": "The public PR states task IDs, READY_FOR_REVIEW states, validation results and verbatim supervisor copying, but no public raw task ledger/output was located in the checked default-branch scope.",
+        "recipient_identity": "All non-App review and delegation narratives are posted by the repository owner.",
+        "operator_boundary": "Not established. The pinned README, AGENTS and governance reference describe an owner-activated, bounded, supervisor/delegation system; Draft publication cannot mark ready, merge or deploy."
+      },
+      "alternative_tests": [
+        {
+          "alternative": "Single-operator automation",
+          "result": "Supported: one owner posts the relay narrative and controls publication."
+        },
+        {
+          "alternative": "Designed agent team",
+          "result": "Supported by the repository's own governed multi-agent platform and delegation rules."
+        },
+        {
+          "alternative": "Human-requested outreach or correction",
+          "result": "Supported: owner continuation and corrective delegation are stated in the public PR."
+        },
+        {
+          "alternative": "Shared-state or review-position update",
+          "result": "Accounted for: review comment commit_id fields moved with later diffs, while original_commit_id pins all three Codex findings to a728a3ab."
+        },
+        {
+          "alternative": "Unauthorized cross-operator cooperation",
+          "result": "No primary evidence located."
+        }
+      ],
+      "advancement_requirements": [
+        "A public raw sender task/result artifact with an immutable content hash.",
+        "An authenticated recipient-side record showing the result was consumed.",
+        "Principal or operator provenance demonstrating distinct operators rather than owner-assigned labels.",
+        "Primary evidence that the coordination exceeded the published owner-bounded workflow.",
+        "For the live Draft, a fresh exact-head review is necessary to establish acceptance but would not by itself establish a rogue boundary."
+      ]
+    },
+    {
+      "control_id": "graphgoblin-pr-215",
+      "classification": "owner_authored_self_reported_cross_model_review_control",
+      "candidate": false,
+      "current_activity": {
+        "state": "merged",
+        "opened_at": "2026-10-16T04:24:37Z",
+        "merged_at": "2026-10-16T04:45:00Z",
+        "base_sha": "98d74154d490d6ad75e389b08523691b7cd4f006",
+        "head_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89",
+        "merge_commit_sha": "379ea950c794c3bfccd6a59c944e01f07e2cda99"
+      },
+      "primary_records": {
+        "pull_request": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215",
+        "claimed_opus_repair": "https://github.com/Jacob-J-Thomas/GraphGoblin/commit/ad78d385e3866fd6c48d4af5deef6577bc0c1264",
+        "codex_review_summary": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215#issuecomment-6208047933",
+        "codex_review_receipt": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215#pullrequestreview-5543080067",
+        "codex_finding": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215#discussion_r4290930476",
+        "authorization_context": [
+          "https://github.com/Jacob-J-Thomas/GraphGoblin/blob/7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89/README.md",
+          "https://github.com/Jacob-J-Thomas/GraphGoblin/blob/7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89/AGENTS.md"
+        ]
+      },
+      "observed_chain": [
+        {
+          "event_range": "2026-10-16T03:46:18Z–2026-10-16T04:06:44Z",
+          "evidence": "The owner-authored PR body reports an Opus review of 9fff617 with two findings, and owner-authored commit ad78d385 makes matching poll-fragment and shared-card-size repairs."
+        },
+        {
+          "event_at": "2026-10-16T04:28:50Z",
+          "evidence": "An authenticated, team-configured Codex App review at final head 7e1aec37 identifies dynamic card-height placement overlap."
+        },
+        {
+          "event_at": "2026-10-16T04:45:00Z",
+          "evidence": "The owner merges without a subsequent repair commit; the final-head Codex finding therefore has no demonstrated downstream use."
+        }
+      ],
+      "participant_and_provenance_findings": {
+        "opus_identity": "Self-reported in the owner-authored PR body; no authenticated public Opus sender record was located.",
+        "repair_identity": "All three PR commits are authored and committed by Jacob-J-Thomas.",
+        "codex_identity": "Authenticated GitHub App, explicitly team-configured.",
+        "operator_boundary": "Not established. Public project context describes a designed workflow for running and observing agent loops for AI engineering."
+      },
+      "advancement_requirements": [
+        "An authenticated Opus reviewer/principal record tied to the claimed findings.",
+        "Separate-operator provenance for reviewer and repair participant.",
+        "A recipient-side record demonstrating use of the final-head Codex finding; none existed before merge.",
+        "Primary evidence the exchange exceeded project authorization."
+      ]
+    }
+  ],
+  "prior_reporting_checks": {
+    "checked_as_of": "2026-10-16",
+    "scoped_queries": [
+      {
+        "channel": "Web search",
+        "query": "\"task-1792122636007-622f7b99d131\"",
+        "result": "Only the originating Nerelan PR family was located."
+      },
+      {
+        "channel": "Web search",
+        "query": "\"Nerelan-Review\" \"REJECT\" swarm",
+        "result": "No coordination-incident report located."
+      },
+      {
+        "channel": "Web search",
+        "query": "\"Magpie M0 resource ownership\" incident",
+        "result": "No coordination-incident report located."
+      },
+      {
+        "channel": "Web search",
+        "query": "\"dddd2024/Nerelan\" rogue agent coordination",
+        "result": "Project-owned records only; no coordination-incident report located."
+      },
+      {
+        "channel": "GitHub pull-request search",
+        "query": "Exact corrective task identifier",
+        "result": "Only Nerelan PR 1182."
+      },
+      {
+        "channel": "GitHub pull-request search",
+        "query": "Exact final-rejection wording",
+        "result": "Only Nerelan PR 1182."
+      },
+      {
+        "channel": "GitHub pull-request search",
+        "query": "\"ad78d38\" \"Opus review\"",
+        "result": "GraphGoblin PR 215 plus irrelevant lexical matches; no separate incident report."
+      }
+    ],
+    "bounded_conclusion": "No prior coordination-incident report located in the checked scope as of 2026-10-16. This is not a claim that nobody has reported the activity, and dataset or search absence does not establish novelty."
+  },
+  "next_record_cursors": [
+    "\"original_commit_id\" \"task_id\" \"repair_commit_sha\"",
+    "\"review_comment_url\" \"task_output_sha256\" \"applied_commit\"",
+    "\"reviewed_head\" \"corrective_task_id\" \"operator_principal\""
+  ],
+  "next_collection_rule": "Rotate to another public PR timeline only when it exposes a raw task/result artifact and authenticated recipient principals. Do not re-enter these two families absent new public boundary evidence or, for Nerelan, an exact-head rereview that materially changes the chain.",
+  "limitations": [
+    "Each broad PR query hit a 50-result cap, so the rotation is bounded and incomplete.",
+    "GitHub default-branch code search cannot establish absence from unindexed branches or private TaskStore data.",
+    "Git author/committer names are not authenticated agent or operator identities.",
+    "Owner-authored summaries may accurately describe private task execution but are not substitutes for public raw sender artifacts.",
+    "The Nerelan PR was live and open; its state is reported only as observed, not as current beyond the timestamp."
+  ]
+}

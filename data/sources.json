@@ -4965,6 +4965,223 @@
       "git_blob_sha": "944d6e6395becc12690b9136a9c402ea31838f37",
       "commit_sha": "c9dbe318dee8d54bf7ac785f8f28258157652e41",
       "commit_date": "2026-10-15T06:06:49Z"
+    },
+    {
+      "id": "original-nerelan-pr-1182",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182",
+      "role": "Primary live Draft pull-request timeline for the review, delegated correction and repair chain",
+      "published": "2026-10-15",
+      "event_opened_at": "2026-10-15T15:49:02Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "base_sha": "8a8ccdd2a21556a87e0c725e1b733585644e424f",
+      "head_sha": "defb812a7814741a2d029d7101e1b3bcce685a89"
+    },
+    {
+      "id": "original-nerelan-codex-summary",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6196561644",
+      "role": "Primary authenticated Codex App summary and team-configured review context",
+      "published": "2026-10-15",
+      "event_at": "2026-10-15T16:06:08Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "a728a3ab824bbc95d85653d1720cab63791f83c2"
+    },
+    {
+      "id": "original-nerelan-codex-review-receipt",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#pullrequestreview-5536203008",
+      "role": "Primary authenticated Codex review receipt",
+      "published": "2026-10-15",
+      "event_at": "2026-10-15T16:08:33Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "a728a3ab824bbc95d85653d1720cab63791f83c2"
+    },
+    {
+      "id": "original-nerelan-codex-403-finding",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#discussion_r4285393452",
+      "role": "Primary Codex finding on 403 scope",
+      "published": "2026-10-15",
+      "event_at": "2026-10-15T16:08:33Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "original_commit_sha": "a728a3ab824bbc95d85653d1720cab63791f83c2"
+    },
+    {
+      "id": "original-nerelan-codex-guard-finding",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#discussion_r4285393466",
+      "role": "Primary Codex finding on post-failure guard behavior",
+      "published": "2026-10-15",
+      "event_at": "2026-10-15T16:08:33Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "original_commit_sha": "a728a3ab824bbc95d85653d1720cab63791f83c2"
+    },
+    {
+      "id": "original-nerelan-codex-provenance-finding",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#discussion_r4285393477",
+      "role": "Primary Codex finding on issue provenance",
+      "published": "2026-10-15",
+      "event_at": "2026-10-15T16:08:33Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "original_commit_sha": "a728a3ab824bbc95d85653d1720cab63791f83c2"
+    },
+    {
+      "id": "original-nerelan-owner-review-eae",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6207670186",
+      "role": "Primary owner-posted rejection and corrective-task delegation claim",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T03:51:06Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "eae202080262068337279f0fd6e57d143fd19077"
+    },
+    {
+      "id": "original-nerelan-owner-review-702",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6207768808",
+      "role": "Primary owner-posted intermediate review and partial-fix claim",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:00:10Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "7022041fbb183c2e38ffa66a27b2e8b1b44bffb1"
+    },
+    {
+      "id": "original-nerelan-owner-review-245",
+      "url": "https://github.com/dddd2024/Nerelan/pull/1182#issuecomment-6208169037",
+      "role": "Primary owner-posted final rejection naming host-guard and provenance blockers",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:35:31Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "245a9138853dedddf28ce7e7f0c5e10cb94a4c20"
+    },
+    {
+      "id": "original-nerelan-repair-702",
+      "url": "https://github.com/dddd2024/Nerelan/commit/7022041fbb183c2e38ffa66a27b2e8b1b44bffb1",
+      "role": "Primary intermediate owner-published task-labeled repair commit",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T03:58:27Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "commit_sha": "7022041fbb183c2e38ffa66a27b2e8b1b44bffb1"
+    },
+    {
+      "id": "original-nerelan-repair-245",
+      "url": "https://github.com/dddd2024/Nerelan/commit/245a9138853dedddf28ce7e7f0c5e10cb94a4c20",
+      "role": "Primary second owner-published task-labeled repair commit",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:15:29Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "commit_sha": "245a9138853dedddf28ce7e7f0c5e10cb94a4c20"
+    },
+    {
+      "id": "original-nerelan-repair-defb",
+      "url": "https://github.com/dddd2024/Nerelan/commit/defb812a7814741a2d029d7101e1b3bcce685a89",
+      "role": "Primary matching host-guard and provenance repair commit",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:49:40Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "commit_sha": "defb812a7814741a2d029d7101e1b3bcce685a89"
+    },
+    {
+      "id": "original-nerelan-repaired-inventory",
+      "url": "https://github.com/dddd2024/Nerelan/blob/defb812a7814741a2d029d7101e1b3bcce685a89/docs/resource-management-magpie-m0-inventory.md",
+      "role": "Primary repaired inventory at the observed live head",
+      "published": "2026-10-16",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "git_blob_sha": "760615179647e296c498d0f5d22561b33738a38e",
+      "commit_sha": "defb812a7814741a2d029d7101e1b3bcce685a89",
+      "commit_date": "2026-10-16T04:49:40Z"
+    },
+    {
+      "id": "original-nerelan-readme-control",
+      "url": "https://github.com/dddd2024/Nerelan/blob/8a8ccdd2a21556a87e0c725e1b733585644e424f/README.md",
+      "role": "Primary owner-governed multi-agent platform and bounded-autonomy context",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "git_blob_sha": "1b261ac738a7d467787a9ff02d83f50e6581d7ff",
+      "commit_sha": "8a8ccdd2a21556a87e0c725e1b733585644e424f",
+      "commit_date": "2026-10-15T16:18:30Z"
+    },
+    {
+      "id": "original-nerelan-agents-control",
+      "url": "https://github.com/dddd2024/Nerelan/blob/8a8ccdd2a21556a87e0c725e1b733585644e424f/AGENTS.md",
+      "role": "Primary exact-head review, owner authority and no-bypass rules",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "git_blob_sha": "86de8d0392610c3b1957fdda82ed194e7258d695",
+      "commit_sha": "8a8ccdd2a21556a87e0c725e1b733585644e424f",
+      "commit_date": "2026-10-15T16:18:30Z"
+    },
+    {
+      "id": "original-nerelan-governance-control",
+      "url": "https://github.com/dddd2024/Nerelan/blob/8a8ccdd2a21556a87e0c725e1b733585644e424f/docs/agents/governance-reference.md",
+      "role": "Primary owner-activated bounded coordinator, reviewer eligibility and publication-governance context",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "git_blob_sha": "250867deb65780a7f5d71a89f29b868161fbc956",
+      "commit_sha": "8a8ccdd2a21556a87e0c725e1b733585644e424f",
+      "commit_date": "2026-10-15T16:18:30Z"
+    },
+    {
+      "id": "original-graphgoblin-pr-215",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215",
+      "role": "Primary PR timeline containing the owner-reported Opus review and authenticated Codex review",
+      "published": "2026-10-16",
+      "event_opened_at": "2026-10-16T04:24:37Z",
+      "event_merged_at": "2026-10-16T04:45:00Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "base_sha": "98d74154d490d6ad75e389b08523691b7cd4f006",
+      "head_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89",
+      "merge_commit_sha": "379ea950c794c3bfccd6a59c944e01f07e2cda99"
+    },
+    {
+      "id": "original-graphgoblin-opus-repair",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/commit/ad78d385e3866fd6c48d4af5deef6577bc0c1264",
+      "role": "Primary owner-authored commit making the two repairs attributed to an Opus review",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:06:44Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "commit_sha": "ad78d385e3866fd6c48d4af5deef6577bc0c1264"
+    },
+    {
+      "id": "original-graphgoblin-codex-summary",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215#issuecomment-6208047933",
+      "role": "Primary authenticated Codex App summary and team-configured review context",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:24:55Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89"
+    },
+    {
+      "id": "original-graphgoblin-codex-review",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215#pullrequestreview-5543080067",
+      "role": "Primary final-head Codex review receipt",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:28:50Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "reviewed_commit_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89"
+    },
+    {
+      "id": "original-graphgoblin-codex-finding",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/pull/215#discussion_r4290930476",
+      "role": "Primary final-head Codex finding without a later repair commit",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T04:28:50Z",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "original_commit_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89"
+    },
+    {
+      "id": "original-graphgoblin-readme-control",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/blob/7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89/README.md",
+      "role": "Primary designed agent-loop platform context",
+      "published": "2026-10-16",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "git_blob_sha": "5f2835f728d475e0f3e105be5ef9d85db5d97e0f",
+      "commit_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89",
+      "commit_date": "2026-10-16T04:24:18Z"
+    },
+    {
+      "id": "original-graphgoblin-agents-control",
+      "url": "https://github.com/Jacob-J-Thomas/GraphGoblin/blob/7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89/AGENTS.md",
+      "role": "Primary repository workflow and owner-instruction context",
+      "published": "2026-10-16",
+      "observed_at": "2026-10-16T04:55:55.381Z",
+      "git_blob_sha": "dcd1e852b72e670b7932d32a7270d057783f8371",
+      "commit_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89",
+      "commit_date": "2026-10-16T04:24:18Z"
     }
   ]
 }

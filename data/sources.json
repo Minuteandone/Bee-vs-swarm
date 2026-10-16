@@ -5182,6 +5182,160 @@
       "git_blob_sha": "dcd1e852b72e670b7932d32a7270d057783f8371",
       "commit_sha": "7e1aec37c5e0af3c06eb96d22dee2f36dd47cc89",
       "commit_date": "2026-10-16T04:24:18Z"
+    },
+    {
+      "id": "original-value-hunt-readme-control",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/README.md",
+      "role": "Primary fifteen-role scheduled-hunter program context",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "a308a200851b03bb0ea204cd9fb83294d1f64272",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1",
+      "commit_date": "2026-10-15T19:49:32Z"
+    },
+    {
+      "id": "original-value-hunt-coordination-protocol",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/COORDINATION_PROTOCOL.md",
+      "role": "Primary designed worker-to-integrator coordination protocol",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "0d99adff1af4d4e0dd40b99b758d5d4bc7591f6b",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1",
+      "commit_date": "2026-10-15T19:49:32Z"
+    },
+    {
+      "id": "original-value-hunt-worker-runbook",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/WORKER_RUNBOOK.md",
+      "role": "Primary generated assignment, dispatch, activation, claim and integration rules",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "bbe6494456c89821c2a1b2a870f455611280653a",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1",
+      "commit_date": "2026-10-15T19:49:32Z"
+    },
+    {
+      "id": "original-value-hunt-worker-registry",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/worker_registry.json",
+      "role": "Primary logical worker-role registry",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "097e49ba849e905c048889492974ebcb1f8694fa",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1",
+      "commit_date": "2026-10-15T19:49:32Z"
+    },
+    {
+      "id": "original-value-hunt-dispatch-history",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/dispatch_ticket_history.jsonl",
+      "role": "Primary generated HUNTER-13 dispatch record",
+      "published": "2026-10-15",
+      "event_at": "2026-09-22T14:30:26Z",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "f3a97b14abc29b447b4d44eccb8413a8069ac462",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1"
+    },
+    {
+      "id": "original-value-hunt-claim-history",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/execution_claim_history.jsonl",
+      "role": "Primary HUNTER-13 claim and terminal stale-assignment outcome",
+      "published": "2026-10-15",
+      "event_at": "2026-09-22T14:31:20.716114Z",
+      "event_ended_at": "2026-09-22T14:36:44.722671Z",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "b64572c471f059ac5a627ab6d4c3b6e4136de0c9",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1"
+    },
+    {
+      "id": "original-value-hunt-hunter13-source-run",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/search_run_spool/20260922T143415Z-hunter13-exp007-stale-assignment-preflight.json",
+      "role": "Primary HUNTER-13 stale-assignment finding and emitted signal record",
+      "published": "2026-09-22",
+      "event_at": "2026-09-22T14:34:15.614996Z",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "4fd2dadbc7f067095337cc7a180a4328ec5e0c0e",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1"
+    },
+    {
+      "id": "original-value-hunt-hunter13-signal",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/coordination_spool/20260922T143415Z-hunter13-exp007-stale-state.json",
+      "role": "Primary HUNTER-13 to INTEGRATOR coordination packet",
+      "published": "2026-09-22",
+      "event_at": "2026-09-22T14:34:15.614996Z",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "99e188d84a423a62973bb69968821f3d79a38ee9",
+      "first_commit_sha": "1e61c6f4e373b86c7c59c8e23f3e389ee97a091f",
+      "first_commit_date": "2026-09-22T14:35:19Z",
+      "snapshot_commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1"
+    },
+    {
+      "id": "original-value-hunt-hunter13-referral",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/referrals/hunt13-r28-2026-09-22-exp007-stale-assignment-preflight.md",
+      "role": "Primary human-readable stale-state referral and next-action statement",
+      "published": "2026-09-22",
+      "event_at": "2026-09-22T14:34:37Z",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "1bf072933684386b758f6400a9a77bbcdc5fadea",
+      "first_commit_sha": "cab314dd6c5e6edac54977f90823f8a102c8bc86",
+      "snapshot_commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1"
+    },
+    {
+      "id": "original-value-hunt-canonical-runs",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/search_runs.jsonl",
+      "role": "Primary 44-row canonical run ledger with one emitted and zero consumed coordination signals",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "cb8a6d6126943af5aa6f60a149475685c6457150",
+      "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1",
+      "commit_date": "2026-10-15T19:49:32Z"
+    },
+    {
+      "id": "original-value-hunt-plan-correction",
+      "url": "https://github.com/P00NSMASHER/github-value-hunt-ledger/commit/f97add08393382b122f17ee5d4037fdc26c4c843",
+      "role": "Primary later plan update that semantically matches the HUNTER-13 stale-state finding",
+      "published": "2026-09-22",
+      "event_at": "2026-09-22T16:45:19Z",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "commit_sha": "f97add08393382b122f17ee5d4037fdc26c4c843",
+      "commit_actor": "github-actions[bot]"
+    },
+    {
+      "id": "original-loop-controller-readme-control",
+      "url": "https://github.com/XZMRR/loop-controller/blob/48e0be6e5a5673ecb390bca39f69cc07c199af4c/README.md",
+      "role": "Primary governed runtime context for result-digest schema matches",
+      "published": "2026-09-21",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "5557ca9c425744e91d3da4d1196180c32ba087b1",
+      "commit_sha": "48e0be6e5a5673ecb390bca39f69cc07c199af4c",
+      "commit_date": "2026-09-21T10:34:17Z"
+    },
+    {
+      "id": "original-ai-company-os-readme-control",
+      "url": "https://github.com/MarcelLeon/ai-company-os/blob/fed59486539f84ea25590df305d3cc66ade34f11/README.md",
+      "role": "Primary local human-governed company-role context for consumed-by matches",
+      "published": "2026-08-12",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "29585b1876149eabc5ab22854513bcebc2fe42a8",
+      "commit_sha": "fed59486539f84ea25590df305d3cc66ade34f11",
+      "commit_date": "2026-08-12T05:12:34Z"
+    },
+    {
+      "id": "original-ai-company-os-agents-control",
+      "url": "https://github.com/MarcelLeon/ai-company-os/blob/fed59486539f84ea25590df305d3cc66ade34f11/AGENTS.md",
+      "role": "Primary owner authority and agent-workflow rules",
+      "published": "2026-08-12",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "f0f4f31874faff58159f4f5bfa4ad654ba4383b7",
+      "commit_sha": "fed59486539f84ea25590df305d3cc66ade34f11",
+      "commit_date": "2026-08-12T05:12:34Z"
+    },
+    {
+      "id": "original-universal-code-readme-control",
+      "url": "https://github.com/CWNU-Open-Source-Community/Universal-Code/blob/5b9d2e9bf06fe327bcfbd42fe987d978b1e43172/README.md",
+      "role": "Primary local coding-workbench context for coordinator-message schema matches",
+      "published": "2026-10-16",
+      "observed_at": "2026-10-16T06:26:39Z",
+      "git_blob_sha": "fe5419b1784fd2b3f79dcae4561d253ba7764d06",
+      "commit_sha": "5b9d2e9bf06fe327bcfbd42fe987d978b1e43172",
+      "commit_date": "2026-10-16T04:29:41Z"
     }
   ]
 }

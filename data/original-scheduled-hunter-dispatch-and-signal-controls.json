@@ -1,0 +1,318 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-16",
+  "observed_at": "2026-10-16T06:26:39Z",
+  "discovery_target": "Previously unreported, cross-operator autonomous coordination with a concrete sender-to-recipient transfer, demonstrated downstream use, and primary evidence that the cooperation exceeded authorization.",
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "result": "No candidate. One public scheduled-hunter repository preserves a generated dispatch, a worker's stale-state signal and a later semantically matching plan correction. Its own protocol defines all roles as one designed program, repository activity resolves to one owner plus GitHub Actions, and the canonical run ledger records no consumed coordination signal."
+  },
+  "safety": {
+    "mode": "Read-only public-record review",
+    "prohibited_actions_preserved": [
+      "No recovered code was executed or installed.",
+      "No scans, agent runtimes, messages, votes, accounts, sink reads, payload replays or target probes were performed.",
+      "Retrieved agent prose and code were treated only as evidence."
+    ],
+    "publication_redactions": "No payload bodies, credentials, tokens, sink topics, personal addresses or private logs are reproduced."
+  },
+  "continuity": {
+    "required_repository_state_read": [
+      "README.md",
+      "research/discovery-protocol.md",
+      "research/2026-10-16.md",
+      "research/leads.md",
+      "data/sources.json",
+      "data/README.md",
+      "data/original-pr-timeline-and-task-output-controls.json"
+    ],
+    "scanner_report_backlog": {
+      "distinct_original_reports": 1146,
+      "inspected": 853,
+      "paused_remainder": 293,
+      "remainder_known_family_marker_absences": 132,
+      "remainder_comparison_overlaps": 161,
+      "reopening_decision": "Not reopened: no source-level cue distinguished a separate episode or population."
+    }
+  },
+  "collection": {
+    "resumed_exact_cursors": {
+      "requests": 3,
+      "completed_without_retry": 3,
+      "returned_occurrences": 6,
+      "self_index_occurrences": 6,
+      "external_occurrences": 0,
+      "queries": [
+        {
+          "query": "\"original_commit_id\" \"task_id\" \"repair_commit_sha\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        },
+        {
+          "query": "\"review_comment_url\" \"task_output_sha256\" \"applied_commit\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        },
+        {
+          "query": "\"reviewed_head\" \"corrective_task_id\" \"operator_principal\"",
+          "rows": 2,
+          "self_index_rows": 2,
+          "external_rows": 0
+        }
+      ]
+    },
+    "lower_order_original_record_rotation": {
+      "rationale": "The exact cursors were externally empty, so coverage rotated to lower-order sender, recipient, digest, consumption and downstream-commit fields in committed public records.",
+      "requests": 9,
+      "completed_without_retry": 9,
+      "returned_occurrences": 168,
+      "self_index_occurrences": 10,
+      "external_occurrences": 158,
+      "distinct_external_paths": 158,
+      "distinct_external_repositories": 84,
+      "capped_responses": 3,
+      "completeness": "Incomplete by construction: three responses stopped at the service's 50-result cap, and code search cannot establish absence from unindexed branches or private records.",
+      "queries": [
+        {
+          "query": "\"sender_agent_id\" \"recipient_agent_id\" \"consumed_at\"",
+          "rows": 50,
+          "capped": true
+        },
+        {
+          "query": "\"source_agent_id\" \"target_agent_id\" \"result_sha256\"",
+          "rows": 14,
+          "capped": false
+        },
+        {
+          "query": "\"producer_principal\" \"consumer_principal\" \"artifact_sha256\"",
+          "rows": 4,
+          "capped": false
+        },
+        {
+          "query": "\"from_agent_id\" \"to_agent_id\" \"task_result\"",
+          "rows": 50,
+          "capped": true
+        },
+        {
+          "query": "\"sender_principal\" \"recipient_principal\" \"downstream_commit\"",
+          "rows": 0,
+          "capped": false
+        },
+        {
+          "query": "\"review_comment_url\" \"applied_commit\"",
+          "rows": 0,
+          "capped": false
+        },
+        {
+          "query": "\"task_output_sha256\" \"operator_id\"",
+          "rows": 0,
+          "capped": false
+        },
+        {
+          "query": "\"artifact_sha256\" \"consumed_by\"",
+          "rows": 50,
+          "capped": true
+        },
+        {
+          "query": "\"handoff_id\" \"sender_run_id\" \"recipient_run_id\"",
+          "rows": 0,
+          "capped": false
+        }
+      ],
+      "deep_read_repositories": [
+        "P00NSMASHER/github-value-hunt-ledger",
+        "XZMRR/loop-controller",
+        "MarcelLeon/ai-company-os",
+        "CWNU-Open-Source-Community/Universal-Code"
+      ]
+    }
+  },
+  "controls": [
+    {
+      "control_id": "github-value-hunt-scheduled-hunters",
+      "classification": "designed_single_program_dispatch_signal_and_state_reconciliation_control",
+      "candidate": false,
+      "snapshot": {
+        "repository": "P00NSMASHER/github-value-hunt-ledger",
+        "commit_sha": "93347b0d34e3c761cf26a422667c30c62b06f1c1",
+        "commit_date": "2026-10-15T19:49:32Z",
+        "commit_actor": "github-actions[bot]",
+        "observed_at": "2026-10-16T06:26:39Z"
+      },
+      "primary_records": {
+        "program_context": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/README.md",
+        "coordination_protocol": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/COORDINATION_PROTOCOL.md",
+        "worker_runbook": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/WORKER_RUNBOOK.md",
+        "worker_registry": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/worker_registry.json",
+        "dispatch_history": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/dispatch_ticket_history.jsonl",
+        "claim_history": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/execution_claim_history.jsonl",
+        "source_run": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/search_run_spool/20260922T143415Z-hunter13-exp007-stale-assignment-preflight.json",
+        "signal_packet": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/coordination_spool/20260922T143415Z-hunter13-exp007-stale-state.json",
+        "referral": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/referrals/hunt13-r28-2026-09-22-exp007-stale-assignment-preflight.md",
+        "canonical_run_ledger": "https://github.com/P00NSMASHER/github-value-hunt-ledger/blob/93347b0d34e3c761cf26a422667c30c62b06f1c1/intelligence/search_runs.jsonl",
+        "matching_plan_update": "https://github.com/P00NSMASHER/github-value-hunt-ledger/commit/f97add08393382b122f17ee5d4037fdc26c4c843"
+      },
+      "designed_context": {
+        "roles": "The repository defines fifteen scheduled roles: fourteen research workers and one integrator.",
+        "coordination_design": "The coordination protocol expressly tells workers to emit packets and tells the integrator to own the shared board; the runbook defines generated assignments, dispatch, activation, claims and integration.",
+        "principal_scope": "HUNTER-13 and INTEGRATOR are durable logical role identifiers inside this program, not authenticated independent operators.",
+        "authorization": "The selected run follows a generated slot assignment and the repository's published worker protocol. No primary record says that the activity exceeded the operator's authorization."
+      },
+      "observed_chain": [
+        {
+          "event_at": "2026-09-22T14:30:26Z",
+          "record": "Generated dispatch DISPATCH:4fd17f5deba6 assigns HUNTER-13 independent verification of EXP-007 in SLOT-13."
+        },
+        {
+          "event_at": "2026-09-22T14:31:20.716114Z",
+          "record": "HUNTER-13 claims the exact dispatch as CLAIM:be6863fbb5e1; the claim links the assignment, dispatch, presence and activation identifiers."
+        },
+        {
+          "event_at": "2026-09-22T14:34:15.614996Z",
+          "sender_record": "The immutable HUNTER-13 source run rejects the assignment as stale after checking three prior canonical records, avoids two duplicate deep inspections, and emits SIG:exp007-stale-central-state. It records no consumed coordination signal."
+        },
+        {
+          "event_at": "2026-09-22T14:34:37Z",
+          "record": "The repository owner commits the accompanying referral; the signal packet is committed at 14:35:19Z and targets the INTEGRATOR lane."
+        },
+        {
+          "event_at": "2026-09-22T14:36:44.722671Z",
+          "record": "The execution claim closes FAILED_TERMINAL with failure code STALE_ASSIGNMENT rather than rerunning the obsolete task."
+        },
+        {
+          "event_at": "2026-09-22T16:45:19Z",
+          "downstream_state_change": "Commit f97add08393382b122f17ee5d4037fdc26c4c843 changes both EXP-007 slots from the obsolete entry.scan_event repair and simulator branch to the corrected LTQ v66 parser verification while preserving the real-device evidence gap. This is a later, semantically matching state correction."
+        }
+      ],
+      "dependency_assessment": {
+        "temporal_dependency": "Supported at the state level: the correction follows the committed signal by about two hours and eleven minutes.",
+        "semantic_dependency": "Supported: the later plan removes the two exact stale branches named in the run and replaces them with the stated independent LTQ v66 fixture and external-device gap.",
+        "explicit_recipient_receipt": "Not supported. At the pinned snapshot, all 44 canonical search-run rows have empty consumed_coordination_signal_ids arrays; only the HUNTER-13 row emits a signal.",
+        "causal_conclusion": "The public chronology is consistent with downstream use, but without a consumer receipt or commit-level provenance tying the plan generator to that signal, the correction is not claimed as a verified sender-to-recipient consumption edge."
+      },
+      "participant_and_operator_findings": {
+        "source_role": "HUNTER-13 is named in repository-authored records.",
+        "target_role": "INTEGRATOR is named as the target lane in the coordination packet.",
+        "authenticated_repository_activity": "The referral, source-run repairs and signal packet were committed by the P00NSMASHER account; the later plan refresh was committed by github-actions[bot].",
+        "distinct_autonomous_participants": "Not independently verified.",
+        "separate_operator_boundary": "Not established; the evidence instead supports one owner-governed scheduled program.",
+        "subjective_rogue_intent": "Not inferred.",
+        "provider_attribution": "Not established.",
+        "current_activity": "The pinned head is a 2026-10-15 integrator-state automation refresh. It does not establish current cross-operator coordination or rogue activity."
+      },
+      "alternative_tests": [
+        {
+          "alternative": "Single-operator automation",
+          "result": "Supported by one owner account, one repository, generated dispatch records and GitHub Actions plan refreshes."
+        },
+        {
+          "alternative": "Designed team",
+          "result": "Directly supported by the README, coordination protocol, worker registry and runbook."
+        },
+        {
+          "alternative": "Repeated test or duplicate work",
+          "result": "The worker explicitly detects and prevents duplicate work; this explains the terminal stale-assignment result without implying rogue behavior."
+        },
+        {
+          "alternative": "Shared-state fault",
+          "result": "Supported: the run calls the defect stale central state, and the later plan regeneration corrects that state."
+        },
+        {
+          "alternative": "Cross-operator unauthorized cooperation",
+          "result": "No primary evidence located."
+        }
+      ],
+      "advancement_requirements": [
+        "A public recipient-side record that explicitly consumes SIG:exp007-stale-central-state or a content hash from the HUNTER-13 run.",
+        "A demonstrated recipient action causally dependent on that exact material rather than an independent central-state regeneration.",
+        "Authenticated principal provenance showing sender and recipient were autonomous participants under distinct operators.",
+        "Primary evidence that their cooperation exceeded the published scheduled-hunter authorization rail."
+      ]
+    },
+    {
+      "control_id": "lower-order-schema-and-runtime-controls",
+      "classification": "designed_implementations_and_test_evidence",
+      "candidate": false,
+      "selected_records": [
+        {
+          "repository": "XZMRR/loop-controller",
+          "commit_sha": "48e0be6e5a5673ecb390bca39f69cc07c199af4c",
+          "assessment": "Result digests and source/target agent fields belong to an explicitly governed enterprise runtime and audit index; the matched paths are implementation source, not a public exchange record."
+        },
+        {
+          "repository": "MarcelLeon/ai-company-os",
+          "commit_sha": "fed59486539f84ea25590df305d3cc66ade34f11",
+          "assessment": "consumed_by fields occur in a local owner-controlled role pipeline and a synthetic benchmark harness; README and AGENTS context make the team deliberate and human-governed."
+        },
+        {
+          "repository": "CWNU-Open-Source-Community/Universal-Code",
+          "commit_sha": "5b9d2e9bf06fe327bcfbd42fe987d978b1e43172",
+          "assessment": "Sender, recipient and consumed-at fields are storage implementation for a coordinator message queue in a local coding workbench, not populated evidence of independently operated agents."
+        }
+      ],
+      "advancement_requirements": "A populated immutable event with exact transferred material, causal recipient use, independently attributable autonomous principals, distinct operator provenance and evidence that the cooperation exceeded authorization."
+    }
+  ],
+  "prior_reporting_checks": {
+    "checked_as_of": "2026-10-16",
+    "scoped_queries": [
+      {
+        "channel": "Web search",
+        "query": "\"SIG:exp007-stale-central-state\"",
+        "result": "No exact coordination-incident report located."
+      },
+      {
+        "channel": "Web search",
+        "query": "\"github-value-hunt-ledger\" coordination",
+        "result": "No external report of the selected exchange located."
+      },
+      {
+        "channel": "Web search",
+        "query": "\"EXP-007\" \"stale assignment preflight\"",
+        "result": "No exact coordination-incident report located."
+      },
+      {
+        "channel": "Web search",
+        "query": "\"GitHub Value Hunt\" agent swarm incident",
+        "result": "No relevant report located; returned pages were unrelated lexical matches."
+      },
+      {
+        "channel": "GitHub issue and pull-request search",
+        "query": "\"SIG:exp007-stale-central-state\"",
+        "result": "Zero results."
+      },
+      {
+        "channel": "GitHub issue and pull-request search",
+        "query": "\"github-value-hunt-ledger\" coordination",
+        "result": "Four project-owner records; no external incident report."
+      },
+      {
+        "channel": "GitHub issue and pull-request search",
+        "query": "\"EXP-007\" \"stale assignment preflight\"",
+        "result": "Zero results."
+      },
+      {
+        "channel": "GitHub issue and pull-request search",
+        "query": "\"GitHub Value Hunt\" swarm incident",
+        "result": "One project-owner workflow-audit issue; no external coordination report."
+      }
+    ],
+    "bounded_conclusion": "No prior coordination report located in the checked scope as of 2026-10-16. This is not a claim that nobody has reported the activity, and dataset or search absence does not establish novelty. The selected episode independently fails the operator-boundary gate."
+  },
+  "limitations": [
+    "Three lower-order code-search responses reached a 50-result cap; the 158 external paths are bounded coverage, not an exhaustive corpus.",
+    "Logical worker IDs and role labels are not identity attestations.",
+    "A later semantically matching plan correction does not prove the integrator consumed the signal when the canonical consumer field is empty.",
+    "Repository authorship and GitHub Actions identity do not establish the model, autonomy or operator provenance of a worker process.",
+    "Current activity is reported only at the immutable observed revision."
+  ],
+  "next_record_cursors": [
+    "\"coordination_signal_ids\" \"consumed_coordination_signal_ids\" \"execution_worker_id\"",
+    "\"dispatch_ticket_id\" \"result_sha256\" \"consumer_worker_id\"",
+    "\"source_run_id\" \"target_worker_ids\" \"applied_commit_sha\""
+  ],
+  "next_collection_rule": "Resume the three exact immutable-record cursors. If externally empty, rotate to a different public operational ledger with a nonempty recipient-consumption field and principal provenance. Do not re-enter GitHub Value Hunt absent a new explicit consumer receipt or independent operator-boundary evidence."
+}

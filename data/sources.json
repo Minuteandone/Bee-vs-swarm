@@ -4722,6 +4722,249 @@
       "git_blob_sha": "d91fa7f118860fefed2ced19edad444e0ccad979",
       "commit_sha": "d32b5affd3fab07b361be90ae56083b4beefd613",
       "commit_date": "2026-09-07T08:23:35Z"
+    },
+    {
+      "id": "original-unit-talk-pr-1252",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252",
+      "role": "Primary public pull-request timeline for the UTV2-1557 review, repair, validation and approval chain",
+      "published": "2026-07-18",
+      "event_opened_at": "2026-07-18T04:40:43Z",
+      "event_merged_at": "2026-07-18T16:32:00Z",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "base_sha": "15c78512dea9d2fdd249d1b06ff9fabb6e47dd0f",
+      "head_sha": "f171c67ec0e73c1446983701e79547b833a42a20",
+      "merge_commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82"
+    },
+    {
+      "id": "original-unit-talk-codex-p1",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#discussion_r3607611502",
+      "role": "Primary Codex application review finding for the stale repair-bounce cap",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T04:43:23Z",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "reviewed_head_sha_prefix": "a538b41e70"
+    },
+    {
+      "id": "original-unit-talk-codex-p2",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#discussion_r3607611503",
+      "role": "Primary Codex application review finding for the hard-coded governance-lane cap",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T04:43:23Z",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "reviewed_head_sha_prefix": "a538b41e70"
+    },
+    {
+      "id": "original-unit-talk-codex-review-summary",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#pullrequestreview-4727677429",
+      "role": "Primary automated-review summary and team-configured trigger context",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T04:43:23Z",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "reviewed_head_sha_prefix": "a538b41e70"
+    },
+    {
+      "id": "original-unit-talk-pm-codex-disposition",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5009959024",
+      "role": "Primary owner/PM changes-required disposition explicitly consuming both Codex findings",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T04:49:40Z",
+      "observed_at": "2026-10-16T04:25:44Z"
+    },
+    {
+      "id": "original-unit-talk-codex-repair-commit",
+      "url": "https://github.com/griff843/Unit-Talk-v2/commit/8fb1fa846fac5ace560095520d372ded423a11d4",
+      "role": "Primary owner-authored commit making the two semantically matching Codex-requested repairs",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "commit_sha": "8fb1fa846fac5ace560095520d372ded423a11d4",
+      "commit_date": "2026-07-18T05:03:00Z"
+    },
+    {
+      "id": "original-unit-talk-pm-scope-disposition",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010272929",
+      "role": "Primary owner/PM changes-required disposition for truthful repair scope",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T06:41:21Z",
+      "observed_at": "2026-10-16T04:25:44Z"
+    },
+    {
+      "id": "original-unit-talk-scope-truth-commit",
+      "url": "https://github.com/griff843/Unit-Talk-v2/commit/a75b363f3bab8ae972ccd4f2c5bce63d44eda5d7",
+      "role": "Primary owner-authored commit implementing the PM-requested scope correction",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "commit_sha": "a75b363f3bab8ae972ccd4f2c5bce63d44eda5d7",
+      "commit_date": "2026-07-18T06:46:15Z"
+    },
+    {
+      "id": "original-unit-talk-executor-result",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010316868",
+      "role": "Primary owner-posted executor-result claim that a Claude lane addressed both Codex findings",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T06:57:06Z",
+      "observed_at": "2026-10-16T04:25:44Z"
+    },
+    {
+      "id": "original-unit-talk-validation-failure",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010317946",
+      "role": "Primary deterministic validation rejection requiring proof, merge SHA, assertions and evidence",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T06:57:33Z",
+      "observed_at": "2026-10-16T04:25:44Z"
+    },
+    {
+      "id": "original-unit-talk-final-head-commit",
+      "url": "https://github.com/griff843/Unit-Talk-v2/commit/f171c67ec0e73c1446983701e79547b833a42a20",
+      "role": "Primary owner-authored final-head commit implementing the validation-requested evidence correction",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "commit_sha": "f171c67ec0e73c1446983701e79547b833a42a20",
+      "commit_date": "2026-07-18T07:02:57Z"
+    },
+    {
+      "id": "original-unit-talk-final-pm-approval",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5011458555",
+      "role": "Primary PM approval, external-review waiver and no-machine-activation boundary",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T13:36:36Z",
+      "observed_at": "2026-10-16T04:25:44Z"
+    },
+    {
+      "id": "original-unit-talk-pm-scope-override",
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010447138",
+      "role": "Primary owner/PM scope override preceding final approval",
+      "published": "2026-07-18",
+      "event_at": "2026-07-18T07:38:15Z",
+      "observed_at": "2026-10-16T04:25:44Z"
+    },
+    {
+      "id": "original-unit-talk-merge-commit",
+      "url": "https://github.com/griff843/Unit-Talk-v2/commit/9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "role": "Primary merge commit preserving the complete owner-controlled planning change set",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "commit_date": "2026-07-18T16:32:00Z"
+    },
+    {
+      "id": "original-unit-talk-merged-codex-review",
+      "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/T1M_DELEGATION_CODEX_ADVERSARIAL_REVIEW.md",
+      "role": "Primary merged review and identity-boundary document",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "d57710816944e8c2d9e812b190ab251ef1b6a989",
+      "commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "commit_date": "2026-07-18T16:32:00Z"
+    },
+    {
+      "id": "original-unit-talk-merged-design-packet",
+      "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/T1M_DELEGATION_DESIGN_PACKET.md",
+      "role": "Primary unimplemented multi-model delegation design and revision history",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "16642df2c3c7b3149c19e981eeed92cccb753162",
+      "commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "commit_date": "2026-07-18T16:32:00Z"
+    },
+    {
+      "id": "original-unit-talk-merged-final-decision",
+      "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/T1M_DELEGATION_FINAL_PM_DECISION.md",
+      "role": "Primary merged PM decision approving architecture without implementation",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "8a2546ff91bb7667ca174becffc93eb754bcc646",
+      "commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "commit_date": "2026-07-18T16:32:00Z"
+    },
+    {
+      "id": "original-unit-talk-merged-evidence",
+      "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/proof/UTV2-1557/evidence.json",
+      "role": "Primary merged evidence qualifying executor independence and unperformed external review",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "46339e86acca44ce08ebe468c1ba91f0942e8d80",
+      "commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "commit_date": "2026-07-18T16:32:00Z"
+    },
+    {
+      "id": "original-unit-talk-merged-verification",
+      "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/proof/UTV2-1557/verification.md",
+      "role": "Primary planning-document verification and no-runtime-activation control",
+      "published": "2026-07-18",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "bd23ca89ff01f079cac81cf41c58a4d9362ff05c",
+      "commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "commit_date": "2026-07-18T16:32:00Z"
+    },
+    {
+      "id": "original-vault-agent-memory-principal-schema",
+      "url": "https://github.com/zycaskevin/Vault-Agent-Memory/blob/50f9a5b09d869b64761396da12fc644d5ecf0d71/specs/subject-distillation/schema.v15.sql",
+      "role": "Primary producer/consumer-principal schema control",
+      "published": "2026-08-27",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "fe212ccfe9a82585d63e7cf0b8e84bf154425a63",
+      "commit_sha": "50f9a5b09d869b64761396da12fc644d5ecf0d71",
+      "commit_date": "2026-08-27T01:20:38Z"
+    },
+    {
+      "id": "original-vault-agent-memory-readme",
+      "url": "https://github.com/zycaskevin/Vault-Agent-Memory/blob/50f9a5b09d869b64761396da12fc644d5ecf0d71/README.md",
+      "role": "Primary local-first governed-memory and trusted-sync-host context",
+      "published": "2026-08-27",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "83a0d964403729d55a38c6abeb7647d158deac48",
+      "commit_sha": "50f9a5b09d869b64761396da12fc644d5ecf0d71",
+      "commit_date": "2026-08-27T01:20:38Z"
+    },
+    {
+      "id": "original-vault-agent-memory-principal-fixture",
+      "url": "https://github.com/zycaskevin/Vault-Agent-Memory/blob/50f9a5b09d869b64761396da12fc644d5ecf0d71/tests/test_subject_baseline.py",
+      "role": "Primary test fixture containing the located principal-row inserts",
+      "published": "2026-08-27",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "9f714d55287326aedbf99d8ee6b950ef6cb47f4b",
+      "commit_sha": "50f9a5b09d869b64761396da12fc644d5ecf0d71",
+      "commit_date": "2026-08-27T01:20:38Z"
+    },
+    {
+      "id": "original-ancap-agent-graph-models",
+      "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/app/db/models.py",
+      "role": "Primary agent-graph and source/recipient/artifact model definitions",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "01717fe16103f6d73165537b1c0ea29a12f602a6",
+      "commit_sha": "c9dbe318dee8d54bf7ac785f8f28258157652e41",
+      "commit_date": "2026-10-15T06:06:49Z"
+    },
+    {
+      "id": "original-ancap-readme",
+      "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/README.md",
+      "role": "Primary intentional agent marketplace, hiring and team-platform context",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "99ffd4c3b0ff663cfe6f59a4ec9ff913090c6670",
+      "commit_sha": "c9dbe318dee8d54bf7ac785f8f28258157652e41",
+      "commit_date": "2026-10-15T06:06:49Z"
+    },
+    {
+      "id": "original-ancap-roadmap",
+      "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/ROADMAP.md",
+      "role": "Primary designed paid-order relationship graph and anti-sybil roadmap context",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "054b5d6c8f07e27d4efee317cf19426fde5fa827",
+      "commit_sha": "c9dbe318dee8d54bf7ac785f8f28258157652e41",
+      "commit_date": "2026-10-15T06:06:49Z"
+    },
+    {
+      "id": "original-ancap-graph-test-fixture",
+      "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/tests/api/test_wave2_graph_enforcement.py",
+      "role": "Primary test fixture containing the located agent-relationship insert",
+      "published": "2026-10-15",
+      "observed_at": "2026-10-16T04:25:44Z",
+      "git_blob_sha": "944d6e6395becc12690b9136a9c402ea31838f37",
+      "commit_sha": "c9dbe318dee8d54bf7ac785f8f28258157652e41",
+      "commit_date": "2026-10-15T06:06:49Z"
     }
   ]
 }

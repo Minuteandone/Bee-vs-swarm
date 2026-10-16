@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0",
+  "assessed_at": "2026-10-16",
+  "observed_at": "2026-10-16T04:25:44Z",
+  "discovery_target": "Previously unreported, cross-operator autonomous coordination demonstrated by an original sender artifact, a distinguishable recipient's content-dependent use and primary authorization-boundary evidence",
+  "search_source": "GitHub public default-branch code search, immutable public pull-request timelines, commits and blobs, followed by bounded web and GitHub novelty checks",
+  "scope": {
+    "scanner_backlog": "Paused at 853 of 1,146 inspected original scanner reports. The 293-record remainder remains a known-family-controlled inventory: 132 comparison-release absences and 161 overlaps.",
+    "exact_queries": 11,
+    "requests": 11,
+    "retries": 0,
+    "returned_row_occurrences": 20,
+    "self_repository_occurrences": 15,
+    "external_occurrences": 5,
+    "external_distinct_paths": 5,
+    "external_repositories": 5,
+    "external_nonzero_queries": 3,
+    "external_zero_result_queries": 8,
+    "fully_or_deeply_read_external_families": 3,
+    "note": "Counts are search-result occurrences, not agents, messages or incidents. Unit-Talk-v2, Vault-Agent-Memory and ANCAP were selected for full or deep reading; two Azure/Terraform documentation matches were classified only from their paths and excerpts."
+  },
+  "queries": [
+    {
+      "query": "\"review_finding_sha256\" \"repair_head\" \"reviewer_thread_id\"",
+      "phase": "resumed_exact_cursor",
+      "returned_rows": 2,
+      "external_rows": 0,
+      "finding": "Both rows were this repository's indexed research records."
+    },
+    {
+      "query": "\"review_receipt_sha256\" \"repair_commit_sha\" \"consumer_thread_id\"",
+      "phase": "resumed_exact_cursor",
+      "returned_rows": 2,
+      "external_rows": 0,
+      "finding": "Both rows were this repository's indexed research records."
+    },
+    {
+      "query": "\"source_finding_id\" \"rereview_result\" \"applied_head\"",
+      "phase": "resumed_exact_cursor",
+      "returned_rows": 2,
+      "external_rows": 0,
+      "finding": "Both rows were this repository's indexed research records."
+    },
+    {
+      "query": "\"producer_principal_id\" \"consumer_principal_id\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 6,
+      "external_rows": 3,
+      "external_repositories": 3
+    },
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"reviewer_operator_id\" \"implementer_operator_id\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"reviewer_principal\" \"implementer_principal\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 3,
+      "external_rows": 1,
+      "external_repositories": 1
+    },
+    {
+      "query": "\"produced_by\" \"consumed_by\" \"artifact_sha256\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"source_agent_id\" \"recipient_agent_id\" \"artifact_hash\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 5,
+      "external_rows": 1,
+      "external_repositories": 1
+    },
+    {
+      "query": "\"output_sha256\" \"input_sha256\" \"agent_id\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 0,
+      "external_rows": 0
+    },
+    {
+      "query": "\"upstream_run_id\" \"downstream_run_id\" \"output_sha256\"",
+      "phase": "principal_field_rotation",
+      "returned_rows": 0,
+      "external_rows": 0
+    }
+  ],
+  "unit_talk_review_repair_control": {
+    "repository": "griff843/Unit-Talk-v2",
+    "pull_request": {
+      "number": 1252,
+      "url": "https://github.com/griff843/Unit-Talk-v2/pull/1252",
+      "title": "UTV2-1557 planning packet",
+      "opened_at": "2026-07-18T04:40:43Z",
+      "merged_at": "2026-07-18T16:32:00Z",
+      "base_sha": "15c78512dea9d2fdd249d1b06ff9fabb6e47dd0f",
+      "final_head_sha": "f171c67ec0e73c1446983701e79547b833a42a20",
+      "merge_commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "public_comment_count": 22,
+      "author_login": "griff843",
+      "requested_reviewers": []
+    },
+    "dependency_timeline": [
+      {
+        "event_at": "2026-07-18T04:43:23Z",
+        "actor": "Codex GitHub application",
+        "reviewed_head_sha_prefix": "a538b41e70",
+        "artifact_urls": [
+          "https://github.com/griff843/Unit-Talk-v2/pull/1252#discussion_r3607611502",
+          "https://github.com/griff843/Unit-Talk-v2/pull/1252#discussion_r3607611503",
+          "https://github.com/griff843/Unit-Talk-v2/pull/1252#pullrequestreview-4727677429"
+        ],
+        "finding": "The automated review identifies a stale repair-bounce cap of three where the authoritative value is two, and a hard-coded governance-lane cap that should instead reference the canonical concurrency configuration. The review summary says the repository team configured Codex and documents its normal pull-request triggers."
+      },
+      {
+        "event_at": "2026-07-18T04:49:40Z",
+        "actor": "repository owner/PM account",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5009959024",
+        "finding": "A CHANGES_REQUIRED disposition explicitly cites both Codex findings and requires the two matching corrections."
+      },
+      {
+        "event_at": "2026-07-18T05:03:00Z",
+        "actor": "griff843 Git author and committer",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/commit/8fb1fa846fac5ace560095520d372ded423a11d4",
+        "commit_sha": "8fb1fa846fac5ace560095520d372ded423a11d4",
+        "parent_sha_prefix": "a538b41e70",
+        "finding": "The repair changes the cap from three to two, adds supersession banners and replaces the permanent hard-coded governance cap with a reference to canonical concurrency configuration. The unsigned commit carries a Claude Sonnet 5 co-author trailer but is authored and committed by the repository owner account."
+      },
+      {
+        "event_at": "2026-07-18T06:41:21Z",
+        "actor": "repository owner/PM account",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010272929",
+        "finding": "A later CHANGES_REQUIRED disposition demands a truthful nine-file scope and rejects treating the configuration change as documentation-only."
+      },
+      {
+        "event_at": "2026-07-18T06:46:15Z",
+        "actor": "griff843 Git author and committer",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/commit/a75b363f3bab8ae972ccd4f2c5bce63d44eda5d7",
+        "commit_sha": "a75b363f3bab8ae972ccd4f2c5bce63d44eda5d7",
+        "finding": "The next owner-authored commit makes the requested scope-truth correction and carries the same Claude co-author trailer pattern."
+      },
+      {
+        "event_at": "2026-07-18T06:57:06Z",
+        "actor": "repository owner account",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010316868",
+        "finding": "An executor-result comment claims a Claude lane and states that both Codex findings were addressed; the public poster is still the owner account."
+      },
+      {
+        "event_at": "2026-07-18T06:57:33Z",
+        "actor": "repository owner/validation account",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010317946",
+        "finding": "Deterministic validation rejects the packet and asks for proof, merge SHA, assertions and evidence."
+      },
+      {
+        "event_at": "2026-07-18T07:02:57Z",
+        "actor": "griff843 Git author and committer",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/commit/f171c67ec0e73c1446983701e79547b833a42a20",
+        "commit_sha": "f171c67ec0e73c1446983701e79547b833a42a20",
+        "finding": "A matching proof/evidence correction becomes the pull request's final head."
+      },
+      {
+        "event_at": "2026-07-18T07:38:15Z",
+        "actor": "repository owner/PM account",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5010447138",
+        "finding": "The owner records an explicit scope override before the final approval, further preserving the PM-controlled decision rail."
+      },
+      {
+        "event_at": "2026-07-18T13:36:36Z",
+        "actor": "repository owner/PM account",
+        "artifact_url": "https://github.com/griff843/Unit-Talk-v2/pull/1252#issuecomment-5011458555",
+        "finding": "The PM approves the architecture packet while expressly waiving Grok, Gemini and Fable external review for this planning pull request, says the waiver is not precedent, and states that the packet does not authorize machine activation."
+      }
+    ],
+    "immutable_merge_snapshot": {
+      "merge_commit_url": "https://github.com/griff843/Unit-Talk-v2/commit/9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "merge_commit_sha": "9026bb1a744570bef2488a8a4acce44d26f19d82",
+      "review_document": {
+        "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/T1M_DELEGATION_CODEX_ADVERSARIAL_REVIEW.md",
+        "git_blob_sha": "d57710816944e8c2d9e812b190ab251ef1b6a989",
+        "finding": "The document calls the work an independent adversarial review but also states that implementers and orchestrators use the same griff843 identity, all current checks use the same GitHub App ID and distinct authenticated reviewers do not yet exist."
+      },
+      "design_document": {
+        "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/T1M_DELEGATION_DESIGN_PACKET.md",
+        "git_blob_sha": "16642df2c3c7b3149c19e981eeed92cccb753162",
+        "finding": "The packet describes an intended multi-model quorum, marks the design as not implemented and records revisions reconciling Codex review and PM correction."
+      },
+      "final_pm_decision": {
+        "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/T1M_DELEGATION_FINAL_PM_DECISION.md",
+        "git_blob_sha": "8a2546ff91bb7667ca174becffc93eb754bcc646",
+        "finding": "The final decision is an approved but unimplemented architecture synthesis under PM authority."
+      },
+      "evidence_document": {
+        "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/proof/UTV2-1557/evidence.json",
+        "git_blob_sha": "46339e86acca44ce08ebe468c1ba91f0942e8d80",
+        "finding": "The evidence says executor evidence is not independent certification, Grok/Fable review did not occur and the Codex findings were addressed."
+      },
+      "verification_document": {
+        "url": "https://github.com/griff843/Unit-Talk-v2/blob/9026bb1a744570bef2488a8a4acce44d26f19d82/docs/06_status/proof/UTV2-1557/verification.md",
+        "git_blob_sha": "bd23ca89ff01f079cac81cf41c58a4d9362ff05c",
+        "finding": "Verification is limited to planning-document and allowlist checks and says no runtime activation occurs."
+      }
+    },
+    "causality_assessment": "The chain is stronger than textual resemblance. A specific authenticated application review names two defects; the PM cites them; the next repair changes exactly those points; later PM and deterministic findings cause matching subsequent commits; and the merged documents preserve those dispositions.",
+    "identity_and_operator_assessment": "The Codex reviewer is a distinct public GitHub application identity, but that does not independently attest an exact model execution. Every repair commit is authored and committed by griff843. Claude appears only in a lane claim, repository-authored prose and co-author trailers, not as an independently authenticated recipient principal. The repository itself says distinct authenticated reviewers do not exist and that current gates share one owner/application identity.",
+    "authorization_assessment": "The review is team-configured, the repairs are owner/PM-directed, the final waiver and merge remain human-governed, and the packet expressly does not activate autonomous merge or runtime behavior.",
+    "classification": "designed_owner_governed_cross_model_review_repair_control",
+    "candidate": false
+  },
+  "principal_schema_controls": [
+    {
+      "repository": "zycaskevin/Vault-Agent-Memory",
+      "snapshot_commit": "50f9a5b09d869b64761396da12fc644d5ecf0d71",
+      "snapshot_commit_date": "2026-08-27T01:20:38Z",
+      "schema": {
+        "url": "https://github.com/zycaskevin/Vault-Agent-Memory/blob/50f9a5b09d869b64761396da12fc644d5ecf0d71/specs/subject-distillation/schema.v15.sql",
+        "git_blob_sha": "fe212ccfe9a82585d63e7cf0b8e84bf154425a63"
+      },
+      "readme": {
+        "url": "https://github.com/zycaskevin/Vault-Agent-Memory/blob/50f9a5b09d869b64761396da12fc644d5ecf0d71/README.md",
+        "git_blob_sha": "83a0d964403729d55a38c6abeb7647d158deac48"
+      },
+      "test": {
+        "url": "https://github.com/zycaskevin/Vault-Agent-Memory/blob/50f9a5b09d869b64761396da12fc644d5ecf0d71/tests/test_subject_baseline.py",
+        "git_blob_sha": "9f714d55287326aedbf99d8ee6b950ef6cb47f4b"
+      },
+      "assessment": "Producer/consumer principal fields are schema definitions. The only located inserts are explicit test fixtures. The project describes a local-first governed memory layer in which remote agents submit candidates and a trusted sync host reviews and promotes them. No populated organic transfer/use event is exposed.",
+      "classification": "designed_principal_schema_and_test_fixture_control",
+      "candidate": false
+    },
+    {
+      "repository": "ancapcloud/ancap",
+      "snapshot_commit": "c9dbe318dee8d54bf7ac785f8f28258157652e41",
+      "snapshot_commit_date": "2026-10-15T06:06:49Z",
+      "models": {
+        "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/app/db/models.py",
+        "git_blob_sha": "01717fe16103f6d73165537b1c0ea29a12f602a6"
+      },
+      "readme": {
+        "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/README.md",
+        "git_blob_sha": "99ffd4c3b0ff663cfe6f59a4ec9ff913090c6670"
+      },
+      "roadmap": {
+        "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/ROADMAP.md",
+        "git_blob_sha": "054b5d6c8f07e27d4efee317cf19426fde5fa827"
+      },
+      "test": {
+        "url": "https://github.com/ancapcloud/ancap/blob/c9dbe318dee8d54bf7ac785f8f28258157652e41/tests/api/test_wave2_graph_enforcement.py",
+        "git_blob_sha": "944d6e6395becc12690b9136a9c402ea31838f37"
+      },
+      "assessment": "The matched sender/recipient and artifact fields define an intentional agent marketplace, hiring/team graph and anti-sybil enforcement. The only located insert is a graph-enforcement test fixture; the selected public records expose no actual task result and recipient use.",
+      "classification": "designed_agent_marketplace_schema_and_test_control",
+      "candidate": false
+    },
+    {
+      "repositories": [
+        "yanorenao/deploy-crediRapido",
+        "pagopa/dx"
+      ],
+      "review_depth": "path_and_excerpt_only",
+      "assessment": "The remaining producer/consumer-principal matches are Terraform output and Azure documentation placeholders, not populated AI-participant exchanges.",
+      "classification": "infrastructure_schema_control",
+      "candidate": false
+    }
+  ],
+  "scoped_prior_reporting_check": {
+    "checked_at": "2026-10-16",
+    "web_queries": [
+      "\"Unit-Talk-v2\" \"Codex Review\" Claude",
+      "\"UTV2-1557\" agent swarm OR autonomous coordination",
+      "\"T1-M/T1-H delegation redesign\""
+    ],
+    "github_exact_queries": [
+      "\"UTV2-1557\" \"swarm\"",
+      "\"Unit-Talk-v2\" \"rogue\" \"agent\"",
+      "\"T1M_DELEGATION\" \"incident\""
+    ],
+    "result": "No prior coordination-incident report was located in the checked scope as of 2026-10-16. The web results were unrelated; the exact GitHub checks returned zero, one generic same-repository specification phrase and four same-repository design/governance paths respectively. This is not a novelty claim, and the primary operator-boundary failure is independently decisive."
+  },
+  "alternative_explanations_tested": [
+    {
+      "alternative": "The matching repair is only coincidental text similarity",
+      "result": "Rejected for Unit-Talk-v2. The PM explicitly cites the two Codex findings and the next commit changes the exact cap and concurrency-governance language; later review findings likewise precede matching corrections."
+    },
+    {
+      "alternative": "Codex and Claude labels establish independently operated autonomous participants",
+      "result": "Rejected. Codex is a distinct GitHub App identity but is configured by the team; repair commits are owner-authored, and Claude appears only in self-authored claims and commit trailers. The repository explicitly says distinct authenticated reviewers do not exist."
+    },
+    {
+      "alternative": "The review/repair chain exceeded authorization",
+      "result": "Rejected. The PM orders, validates, waives and approves the work; the documents describe a not-yet-implemented architecture and prohibit machine-authorized activation."
+    },
+    {
+      "alternative": "Principal IDs or artifact hashes prove actual cross-agent exchange",
+      "result": "Rejected for Vault-Agent-Memory and ANCAP. The matches are schema fields or test fixtures inside explicitly designed platforms, with no populated organic event and causal recipient use."
+    },
+    {
+      "alternative": "No prior search result establishes novelty",
+      "result": "Rejected. The prior-reporting check is bounded and index-limited; it cannot establish universal absence."
+    }
+  ],
+  "advancement_requirements": {
+    "unit_talk_v2": "An independently authenticated repair-side autonomous principal, primary evidence that it was separately operated, and evidence that the review/repair cooperation occurred outside the team-configured PM-controlled workflow. More owner-authored commits, lane labels, co-author trailers or planning documents do not qualify.",
+    "vault_agent_memory": "A populated non-test record tying an exact producer artifact to a distinct recipient's later semantic action, with independently attributable principals and separate-operator authorization evidence.",
+    "ancap": "A public non-test task result, recipient adoption and independently attributable operator provenance. Marketplace schemas, roadmap language and test graph rows do not qualify.",
+    "general": "A specific sender-to-recipient dependency must survive single-operator automation, designed teams, human-directed review, fixtures, schema-only records, retries, shared state and observer-contamination alternatives."
+  },
+  "next_record_and_query_cursor": {
+    "scanner_backlog": "Remain paused at 853 of 1,146 inspected reports. Resume the 293-record known-family-controlled remainder only on a source-level cue distinguishing a separate episode or population.",
+    "next_queries": [
+      "\"review_comment_id\" \"repair_head_sha\" \"reviewer_app_id\"",
+      "\"reviewed_head_sha\" \"repair_head_sha\" \"implementer_principal\"",
+      "\"review_thread_id\" \"applied_repair_sha\" \"operator_id\""
+    ],
+    "rotation": "Continue with immutable public pull-request timelines that combine an authenticated review application, a subsequent semantically matching repair commit and explicit principal/operator evidence. Do not substitute issue trackers or published incident corpora.",
+    "family_reentry_rule": "Do not re-enter Unit-Talk-v2, Vault-Agent-Memory, ANCAP or the two Azure/Terraform placeholder families without new primary sender/recipient, downstream-use or separate-operator evidence."
+  },
+  "checkpoint": {
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "candidate_ids_assigned": [],
+    "alert_threshold_met": false,
+    "summary": "Unit-Talk-v2 preserves a concrete Codex-review-to-owner-repair dependency, but its immutable records establish a deliberately configured, PM-controlled workflow and explicitly deny distinct authenticated reviewer identities. Vault-Agent-Memory and ANCAP are schema/test controls. No separate-operator rogue-swarm candidate is established."
+  },
+  "safety": {
+    "read_only": true,
+    "code_executed": false,
+    "packages_installed": false,
+    "scans_submitted": false,
+    "agent_runtimes_invoked": false,
+    "participants_contacted": false,
+    "messages_or_reactions_posted": false,
+    "accounts_created": false,
+    "private_or_unlisted_records_read": false,
+    "payloads_replayed": false,
+    "target_systems_probed": false,
+    "publication_sanitized": true
+  },
+  "limitations": [
+    "GitHub default-branch code search does not cover deleted history, unindexed branches, private repositories or private runtime state.",
+    "Search responses provide row occurrences rather than unique incidents; self-index and overlapping matches were not treated as activity.",
+    "A GitHub application identity authenticates the posting integration, not a specific model execution, model provider or independent operator.",
+    "Commit co-author trailers, lane labels and repository-authored agent claims are not independent identity attestations.",
+    "Two Azure/Terraform matches were classified only from paths and search excerpts and were not used for a substantive event conclusion.",
+    "The prior-reporting check is bounded to the listed web and GitHub exact queries and cannot establish universal absence.",
+    "No inference about subjective rogue intent, provider attribution or current autonomous activity is made."
+  ]
+}

@@ -5872,6 +5872,113 @@
       "published": "2026-09-09",
       "event_at": "2026-09-09T09:19:44.192Z",
       "observed_at": "2026-10-16T16:30:00Z"
+    },
+    {
+      "id": "original-mcp-agent-mail-rust-readme-14c82cb3",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust/blob/14c82cb38840e53fadbec967c61a2284795d0219/README.md",
+      "role": "Primary product context establishing a deliberately operated coding-agent coordination layer",
+      "git_blob_sha": "da1d6ddd04facc5e0c5587a8a299f7c8654ec253",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-mcp-agent-mail-release-smoke-generator-14c82cb3",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust/blob/14c82cb38840e53fadbec967c61a2284795d0219/tests/e2e/lib/release_smoke.py",
+      "role": "Primary generating source for the bounded release-smoke, stress and sixty-agent swarm controls",
+      "git_blob_sha": "99b6c4508dd173ecd9e307959f3c653e4f80b6d5",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-mcp-agent-mail-release-smoke-2026-09-24-c834b68a",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust/blob/14c82cb38840e53fadbec967c61a2284795d0219/docs/evidence/release_smoke/2026-09-24_c834b68a-release_vs_v0.3.36.json",
+      "role": "Primary committed release-smoke receipt; designed sender/read/ack/reply control",
+      "published": "2026-09-24",
+      "event_at": "2026-09-24T15:48:36Z",
+      "git_blob_sha": "58a0ed8d44747a1a76c675da57e634ea4aa88e08",
+      "binary_sha256": "0babdf29d5898fa1815004bf69b6739a1e07455adeb66f1fd34f4eb6ebee13e1",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-mcp-agent-mail-release-smoke-2026-10-08-v0338",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust/blob/14c82cb38840e53fadbec967c61a2284795d0219/docs/evidence/release_smoke/2026-10-08_v0.3.38-171713fa_vs_v0.3.37.json",
+      "role": "Primary committed successful release-smoke receipt; designed sender/read/ack/reply control",
+      "published": "2026-10-08",
+      "event_at": "2026-10-08T21:37:56Z",
+      "git_blob_sha": "d3a1b1471a6a6bb770385934e91fb7cbe7fa2d71",
+      "binary_sha256": "171713fa43e891f8a3430fc4f0218ff966c78465f53a79eb65253370762dfe3c",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-mcp-agent-mail-release-smoke-2026-10-13-gnu-saturated",
+      "url": "https://github.com/Dicklesworthstone/mcp_agent_mail_rust/blob/14c82cb38840e53fadbec967c61a2284795d0219/docs/evidence/release_smoke/2026-10-13_a4ec56bc-release_vs_v0.3.38_gnu_saturated-host.json",
+      "role": "Primary committed sixty-agent release-smoke receipt; explicit controlled swarm/stress test",
+      "published": "2026-10-13",
+      "event_at": "2026-10-13T19:01:12Z",
+      "git_blob_sha": "39f0924c7ce9a1a7a4d580f351ae7acf5a0ebad6",
+      "binary_sha256": "da37d3539855555ddd7f75c92e97433df6b9812e37b82bf5849c11454c983b03",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-agent-hub-readme-e8b20142",
+      "url": "https://github.com/solveitsimply/agent-hub/blob/e8b201427b29fc2042458eb5e8acb2e7649bfcb4/README.md",
+      "role": "Primary context establishing owner-enrolled, deliberately scoped agent messaging",
+      "git_blob_sha": "b28bde7c20f497fd1e01b1d6d8dedf8dc913de93",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-agent-hub-security-fixture-e8b20142",
+      "url": "https://github.com/solveitsimply/agent-hub/blob/e8b201427b29fc2042458eb5e8acb2e7649bfcb4/test/security.test.mjs",
+      "role": "Primary synthetic send/read/ack/reply security fixture",
+      "git_blob_sha": "6f80c4df727da95e35dd115597e95345e241a4ac",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-agent-hub-lifecycle-e8b20142",
+      "url": "https://github.com/solveitsimply/agent-hub/blob/e8b201427b29fc2042458eb5e8acb2e7649bfcb4/src/lifecycle.mjs",
+      "role": "Primary source for generated accountability messages and delivery receipts",
+      "git_blob_sha": "4e93b7407dce6d88626395fa0bb29a393b95b268",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-mac-readme-8afdf1b3",
+      "url": "https://github.com/jordanhubbard/mac/blob/8afdf1b3309834681cddb0651b67456bcccb8b4e/README.md",
+      "role": "Primary context establishing a human-facing runtime over a designed fleet control plane",
+      "git_blob_sha": "9319b4fd4a6eccad67931b61890b9229fbefc1b7",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-mac-agent-message-model-8afdf1b3",
+      "url": "https://github.com/jordanhubbard/mac/blob/8afdf1b3309834681cddb0651b67456bcccb8b4e/src/mac/models.py",
+      "role": "Primary AgentMessage and AgentBusStream schema control; no populated record",
+      "git_blob_sha": "67bbf2ff7a844a0fc66ffd11b9b1a150157b79aa",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-janus-readme-abd10034",
+      "url": "https://github.com/iLearn-Agent/Janus/blob/abd10034bd45365edefb3c18c501cbd74972260a/README.md",
+      "role": "Primary context establishing governed human-agent workflows and omitted production data",
+      "git_blob_sha": "652b6ccfc12bba5c52ea548d149cde0bee67a6ad",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-janus-agent-delegation-schema-abd10034",
+      "url": "https://github.com/iLearn-Agent/Janus/blob/abd10034bd45365edefb3c18c501cbd74972260a/cloud/database/baseline-sync8.sql",
+      "role": "Primary agent-delegations table definition; no populated record",
+      "git_blob_sha": "855342a31272131e75bd899b27ce01a9eaa6d22b",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-nyan-readme-9442a452",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/README.md",
+      "role": "Primary context establishing an operator control plane and omitted production acceptance receipts",
+      "git_blob_sha": "1f1e0af1b88b1626c77224a5f411df3be818d2ca",
+      "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-nyan-agent-message-model-9442a452",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/gateway_api/models.py",
+      "role": "Primary AgentMessage and delivery ORM definition; no populated record",
+      "git_blob_sha": "bdff9e9f9440599835aea4cd7033a3e440ee0b86",
+      "observed_at": "2026-10-17T21:44:50Z"
     }
   ]
 }

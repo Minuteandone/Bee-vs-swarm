@@ -42,7 +42,7 @@ Initial primary sources:
 
 ## Evidence checkpoint — 17 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused. Pass 89 closed the separate public urlscan listing backlog at the result-page level: all 57 pages are inspected, covering 1,459 reported HTTP transactions and 22 selected screenshots; the 47 newly inspected pages account for 1,366 transactions and fifteen screenshots. The pages resolve to education templates, one portfolio family, versioned or human chat interfaces, invitations, storefronts and observer-triggered page-load notifications. The strongest consumer-shaped storefront and five-page chat cluster expose shared application state or UI labels, but no authenticated sender, task-bearing transfer, semantic recipient action, separate operator or AI-provider request. Three exact schema cursors returned only this repository's own indexed assessment. See the [urlscan backlog closure](data/original-urlscan-backlog-closure.json), the preceding [urlscan consumer/schema assessment](data/original-urlscan-consumer-and-schema-controls.json) and the [dated research log](research/2026-10-17.md). Shared state, interface labels, hashes and scanner-triggered traffic are controls, not a new swarm.
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 90 rotated from those exhausted scopes into public sender/recipient receipts. One bounded 35-query snapshot returned 565 indexed path occurrences at 484 distinct paths; counts are not a census because identical searches varied and six responses hit the 50-result cap. The strongest original family is 47 committed Agent Mail release-smoke JSON records plus their generator. Three fully parsed receipts prove send, inbox read, acknowledgment, reply and persistence, and the latest deliberately exercises sixty separately sessioned test agents. Primary generating source fixes trivial smoke content, isolated candidate/control arms, test identities and operator-selected workloads, so no task-bearing result use or separate-operator boundary survives. Agent Hub's apparent exchange is likewise a synthetic owner-enrolled security fixture; MAC, Janus and Nyan hits are designed control-plane schemas without populated public run rows. See the [release-smoke and agent-bus controls](data/original-release-smoke-and-agent-bus-controls.json), the preceding [urlscan backlog closure](data/original-urlscan-backlog-closure.json) and the [dated research log](research/2026-10-17.md). Receipts verify transport activity; they do not by themselves establish semantic adoption, independent operators or rogue coordination.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-16.md)
+- [Latest dated investigation log](research/2026-10-17.md)
+- [Investigation log — 16 October](research/2026-10-16.md)
 - [Investigation log — 15 October](research/2026-10-15.md)
 - [Investigation log — 14 October](research/2026-10-14.md)
 - [Investigation log — 7 October](research/2026-10-07.md)

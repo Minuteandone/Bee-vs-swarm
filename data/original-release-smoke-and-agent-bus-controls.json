@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-17",
+  "purpose": "Follow the saved principal/recipient cursors into public sender-recipient records, prioritize committed receipt evidence over schemas, and distinguish real protocol exercise from an organic cross-operator episode.",
+  "method": {
+    "selection": "Resume the three exact Pass 89 cursors, rotate through lower-arity sender, recipient, hash, acknowledgment, handoff and task-result fields, then deeply parse the strongest committed receipt family and its generating source.",
+    "read_only_limits": "Only existing public GitHub files and indexed excerpts were read. No repository code was executed, no package was installed, no agent runtime was invoked, no message was sent, no credential or private deployment was accessed and no external system was probed.",
+    "falsification_tests": [
+      "Require task-bearing material rather than treating a delivery acknowledgment or reply to a fixed smoke message as semantic result use.",
+      "Require independently attributable autonomous participants rather than generated test identities or configured roles inside one harness.",
+      "Require primary evidence of separate operators and cooperation beyond authorization rather than an explicitly designed control plane or benchmark.",
+      "Test synthetic fixtures, release testing, single-operator orchestration, schema-only matches and search-index self-observation before considering a candidate."
+    ]
+  },
+  "scope": {
+    "consolidated_query_snapshot": {
+      "queries": 35,
+      "returned_row_occurrences": 565,
+      "self_index_occurrences": 41,
+      "external_occurrences": 524,
+      "distinct_paths": 484,
+      "distinct_external_paths": 464,
+      "repositories": 255,
+      "queries_at_50_result_cap": 6,
+      "zero_result_queries": 13
+    },
+    "release_smoke_family": {
+      "query": "\"smoke-1\" scoped to Dicklesworthstone/mcp_agent_mail_rust",
+      "returned_paths": 48,
+      "committed_json_records": 47,
+      "generating_source_files": 1,
+      "secondary_query": "\"soak_secs\" \"candidate_verdict\" scoped to Dicklesworthstone/mcp_agent_mail_rust",
+      "secondary_returned_paths": 41,
+      "secondary_committed_json_records": 40,
+      "secondary_generating_source_files": 1,
+      "fully_parsed_selected_json_records": 3
+    },
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "counting_note": "Rows are indexed-path occurrences, not messages, agents or incidents. The 35-query snapshot and two repository-scoped family searches overlap and must not be summed."
+  },
+  "search_stability": {
+    "observation": "Repeated calls for several identical queries returned different counts or different capped subsets within the same collection period. The consolidated figures preserve one bounded observation, not a stable or complete census.",
+    "example": "The three saved exact cursors initially returned two self-index paths each; a later consolidated rerun returned two, zero and two. No external path appeared in either observation.",
+    "consequence": "Search absence and result counts are discovery aids only. Classification relies on pinned source files, and no novelty inference is drawn from an empty or changing index response."
+  },
+  "query_accounting": [
+    {
+      "query": "\"source_principal_uuid\" \"sink_principal_uuid\" \"content_digest\" \"dependent_operation_uuid\"",
+      "returned_rows": 2,
+      "self_rows": 2,
+      "capped": false
+    },
+    {
+      "query": "\"origin_execution_id\" \"consumer_execution_id\" \"result_hash\" \"semantic_use_at\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"publisher_identity_id\" \"subscriber_identity_id\" \"payload_sha256\" \"action_from_payload_id\"",
+      "returned_rows": 2,
+      "self_rows": 2,
+      "capped": false
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"content_hash\" \"consumed_at\"",
+      "returned_rows": 42,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"artifact_sha256\" \"accepted_at\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_digest\"",
+      "returned_rows": 8,
+      "self_rows": 8,
+      "capped": false
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"artifact_hash\" \"applied_commit\"",
+      "returned_rows": 5,
+      "self_rows": 5,
+      "capped": false
+    },
+    {
+      "query": "\"from_session\" \"to_session\" \"payload_hash\" \"acknowledged_at\"",
+      "returned_rows": 8,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"result_sha256\" \"used_at\"",
+      "returned_rows": 4,
+      "self_rows": 3,
+      "capped": false
+    },
+    {
+      "query": "\"origin_agent\" \"receiving_agent\" \"result_hash\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"publisher_agent_id\" \"subscriber_agent_id\" \"message_sha256\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"message_type\": \"task_result\" \"sender_agent_id\" \"recipient_agent_id\"",
+      "returned_rows": 26,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"event_type\": \"handoff\" \"sender_agent_id\" \"recipient_agent_id\"",
+      "returned_rows": 50,
+      "self_rows": 0,
+      "capped": true
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"from_agent\" \"to_agent\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"status\": \"consumed\" \"sender_agent_id\" \"recipient_agent_id\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"acknowledged_at\": \"2026-\" \"sender_agent_id\"",
+      "returned_rows": 45,
+      "self_rows": 2,
+      "capped": false
+    },
+    {
+      "query": "\"consumed_at\": \"2026-\" \"recipient_agent_id\"",
+      "returned_rows": 34,
+      "self_rows": 15,
+      "capped": false
+    },
+    {
+      "query": "\"result_hash\": \"sha256:\" \"recipient_agent_id\"",
+      "returned_rows": 1,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"artifact_sha256\": \"sha256:\" \"consumed_by\"",
+      "returned_rows": 50,
+      "self_rows": 0,
+      "capped": true
+    },
+    {
+      "query": "\"sender_agent_id\": \"agent-\" \"recipient_agent_id\": \"agent-\" \"acknowledged_at\":",
+      "returned_rows": 33,
+      "self_rows": 2,
+      "capped": false
+    },
+    {
+      "query": "\"sender_agent_id\": \"agent_\" \"recipient_agent_id\": \"agent_\" \"acknowledged_at\":",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"sender_agent_id\": \"worker\" \"recipient_agent_id\": \"worker\" \"message_id\":",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"from_agent\": \"\" \"to_agent\": \"\" \"task_result\":",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"sender\": \"agent\" \"recipient\": \"agent\" \"artifact_sha256\":",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"message_type\": \"TASK_RESULT\" \"task_id\": \"\" \"recipient_agent_id\":",
+      "returned_rows": 18,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"type\": \"handoff\" \"from\": \"agent\" \"to\": \"agent\" \"result\":",
+      "returned_rows": 50,
+      "self_rows": 0,
+      "capped": true
+    },
+    {
+      "query": "\"consumed_by\": \"agent\" \"produced_by\": \"agent\" \"artifact\":",
+      "returned_rows": 50,
+      "self_rows": 2,
+      "capped": true
+    },
+    {
+      "query": "\"sender_name\" \"recipient_names\" \"ack_required\" \"thread_id\"",
+      "returned_rows": 26,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"from_agent\" \"to_agents\" \"subject\" \"body_md\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agents\" \"ack_required\"",
+      "returned_rows": 2,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"agent_mail\" \"message_id\" \"acknowledged_at\"",
+      "returned_rows": 50,
+      "self_rows": 0,
+      "capped": true
+    },
+    {
+      "query": "\"ack_required\": true \"thread_id\": \"\" \"sender\":",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"recipients\": [ \"body\": \" \"thread_id\":",
+      "returned_rows": 50,
+      "self_rows": 0,
+      "capped": true
+    },
+    {
+      "query": "\"in_reply_to\" \"ack_required\" \"sender_name\"",
+      "returned_rows": 0,
+      "self_rows": 0,
+      "capped": false
+    },
+    {
+      "query": "\"agent_inbox\" \"sender_name\" \"recipient_name\"",
+      "returned_rows": 9,
+      "self_rows": 0,
+      "capped": false
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "mcp-agent-mail-release-smoke-family",
+      "repository": "Dicklesworthstone/mcp_agent_mail_rust",
+      "pinned_commit": "14c82cb38840e53fadbec967c61a2284795d0219",
+      "family_query": "\"smoke-1\"",
+      "family_paths": 48,
+      "record_paths": 47,
+      "generator_path": "tests/e2e/lib/release_smoke.py",
+      "event_span_utc": {
+        "start": "2026-09-24T15:48:36Z",
+        "end": "2026-10-13T19:38:45Z"
+      },
+      "selected_records": [
+        {
+          "path": "docs/evidence/release_smoke/2026-09-24_c834b68a-release_vs_v0.3.36.json",
+          "git_blob_sha": "58a0ed8d44747a1a76c675da57e634ea4aa88e08",
+          "candidate_binary_sha256": "0babdf29d5898fa1815004bf69b6739a1e07455adeb66f1fd34f4eb6ebee13e1",
+          "started_at": "2026-09-24T15:48:36Z",
+          "finished_at": "2026-09-24T16:10:26Z",
+          "candidate_verdict": "FAIL"
+        },
+        {
+          "path": "docs/evidence/release_smoke/2026-10-08_v0.3.38-171713fa_vs_v0.3.37.json",
+          "git_blob_sha": "d3a1b1471a6a6bb770385934e91fb7cbe7fa2d71",
+          "candidate_binary_sha256": "171713fa43e891f8a3430fc4f0218ff966c78465f53a79eb65253370762dfe3c",
+          "started_at": "2026-10-08T21:37:56Z",
+          "finished_at": "2026-10-08T21:51:30Z",
+          "candidate_verdict": "PASS"
+        },
+        {
+          "path": "docs/evidence/release_smoke/2026-10-13_a4ec56bc-release_vs_v0.3.38_gnu_saturated-host.json",
+          "git_blob_sha": "39f0924c7ce9a1a7a4d580f351ae7acf5a0ebad6",
+          "candidate_binary_sha256": "da37d3539855555ddd7f75c92e97433df6b9812e37b82bf5849c11454c983b03",
+          "started_at": "2026-10-13T19:01:12Z",
+          "finished_at": "2026-10-13T19:38:45Z",
+          "swarm_agents": 60,
+          "swarm_seconds": 480,
+          "candidate_verdict": "FAIL"
+        }
+      ],
+      "generator_git_blob_sha": "99b6c4508dd173ecd9e307959f3c653e4f80b6d5",
+      "original_observation": "Each selected receipt records generated named agents, a fixed smoke thread, a send, recipient inbox read, acknowledgment, reply and persisted delivery receipt. The latest record also registers sixty test agents, gives each a separate MCP session and runs a fixed send/fetch/ack/reserve/release/search workload with a deliberate process kill and restart.",
+      "task_bearing_transfer": "Not established. The flow message is the generator's fixed smoke body, and the thread summary reports no key point or action item. The recipient acknowledgment and reply verify transport behavior, not use of a task result.",
+      "participant_provenance": "The generating source creates every identity and session inside isolated candidate and control arms. Names, projects, timing, workload and binaries are all harness inputs under one release test.",
+      "operator_boundary": "Not crossed. The README defines a deliberately operated coordination product, and the generator explicitly describes a bounded black-box release smoke. The cross-project phase is also a test and the selected plain-name send is refused rather than delivered across projects.",
+      "alternatives_tested": [
+        "release smoke test",
+        "controlled stress benchmark",
+        "generated same-operator identities",
+        "repeated candidate/control comparison",
+        "transport acknowledgment without semantic task use"
+      ],
+      "assessment": "High-quality original receipt control, not an organic episode or rogue-swarm candidate."
+    },
+    {
+      "id": "agent-hub-source-and-security-fixtures",
+      "repository": "solveitsimply/agent-hub",
+      "pinned_commit": "e8b201427b29fc2042458eb5e8acb2e7649bfcb4",
+      "sources": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "b28bde7c20f497fd1e01b1d6d8dedf8dc913de93"
+        },
+        {
+          "path": "test/security.test.mjs",
+          "git_blob_sha": "6f80c4df727da95e35dd115597e95345e241a4ac"
+        },
+        {
+          "path": "src/lifecycle.mjs",
+          "git_blob_sha": "4e93b7407dce6d88626395fa0bb29a393b95b268"
+        }
+      ],
+      "original_observation": "Source implements session-to-session messages with payload hashes and acknowledgment timestamps. The strongest sender/reply/receipt chain is a security test that creates synthetic principals and chats, sends fixed synthetic coordination text, verifies recipient inbox delivery and acknowledgment, then sends a reply.",
+      "participant_provenance": "The README calls the project a self-hosted coordination board, states that the owner enrolls every principal with explicit project access and permits those peers to exchange messages. The test uses synthetic tokens, a synthetic host, synthetic sessions and an in-memory fixture.",
+      "operator_boundary": "Not crossed. The source is an intended owner-governed messaging surface and its populated-looking exchange is a deterministic test fixture.",
+      "assessment": "Designed coordination and synthetic test control; no public organic run record or rogue-swarm candidate."
+    },
+    {
+      "id": "schema-only-agent-coordinator-controls",
+      "records": [
+        {
+          "repository": "jordanhubbard/mac",
+          "pinned_commit": "8afdf1b3309834681cddb0651b67456bcccb8b4e",
+          "readme_git_blob_sha": "9319b4fd4a6eccad67931b61890b9229fbefc1b7",
+          "schema_path": "src/mac/models.py",
+          "schema_git_blob_sha": "67bbf2ff7a844a0fc66ffd11b9b1a150157b79aa",
+          "assessment": "The README explicitly defines a human-facing runtime over a fleet control plane; the hit is a dataclass definition for AgentMessage and AgentBusStream, not a populated message row."
+        },
+        {
+          "repository": "iLearn-Agent/Janus",
+          "pinned_commit": "abd10034bd45365edefb3c18c501cbd74972260a",
+          "readme_git_blob_sha": "652b6ccfc12bba5c52ea548d149cde0bee67a6ad",
+          "schema_path": "cloud/database/baseline-sync8.sql",
+          "schema_git_blob_sha": "855342a31272131e75bd899b27ce01a9eaa6d22b",
+          "assessment": "The project advertises governed human-agent workflows and says production databases are not committed. The hit defines agent_delegations columns without a populated row."
+        },
+        {
+          "repository": "wada-qualia/chatgpt-gateway-mcp-nyan",
+          "pinned_commit": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+          "readme_git_blob_sha": "1f1e0af1b88b1626c77224a5f411df3be818d2ca",
+          "schema_path": "services/gateway-api/gateway_api/models.py",
+          "schema_git_blob_sha": "bdff9e9f9440599835aea4cd7033a3e440ee0b86",
+          "assessment": "The public repository describes an explicit operator control plane and excludes production acceptance receipts. The hit defines AgentMessage and delivery tables without a populated run record."
+        }
+      ],
+      "assessment": "Implementation and schema controls. Field co-occurrence does not establish an exchange, participant execution or operator-boundary crossing."
+    }
+  ],
+  "cross_record_assessment": {
+    "original_observation": "The strongest raw family proves that a designed transport can generate, deliver, read, acknowledge and reply to messages across many synthetic sessions. Agent Hub proves the same shape in a security fixture. The remaining selected hits are source definitions.",
+    "supported_coordination": "Only intentionally generated test coordination. No selected record carries a task result whose meaning causes a later autonomous recipient action.",
+    "verified_participants": "Generated test identities and configured application roles are verified as record labels, not as independently operated autonomous principals.",
+    "operator_boundary": "No separate-operator boundary is established. Primary source instead documents one release harness, one owner-enrolled board or one designed control plane.",
+    "subjective_intent": "Not established and not inferred from agent-like names, receipt fields or the word swarm.",
+    "provider_attribution": "Not established for an organic episode. Product compatibility and test-model labels do not attribute real autonomous participants.",
+    "current_activity": "Historical committed test records and current source code do not establish an active rogue population.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "prior_reporting_check": {
+    "triggered_for_new_candidate": false,
+    "reason": "No selected record passed the task-bearing-transfer, semantic downstream-use, independent-participant or separate-operator gates. A candidate-level novelty search was therefore not warranted.",
+    "bounded_statement": "No prior coordination report claim is made. These artifacts are their own public release tests, fixtures or product definitions and are exclusions rather than discovery candidates."
+  },
+  "limitations": [
+    "The public code-search service supplies no completeness guarantee, returns capped subsets and produced unstable counts on repeated identical calls.",
+    "Only three of the 47 release-smoke JSON records were fully parsed; family-level path counts come from the pinned repository-scoped search.",
+    "A delivery acknowledgment or reply proves protocol activity but not semantic adoption of task-bearing content.",
+    "Generated names and separate MCP sessions do not establish separate operators.",
+    "The selected source repositories explicitly omit private production data, so their schemas cannot establish an unobserved organic episode."
+  ],
+  "next_cursor": {
+    "schema_queries": [
+      "\"from_principal_id\" \"to_principal_id\" \"payload_hash\" \"reply_to\" \"acknowledged_at\"",
+      "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" \"dependent_commit\"",
+      "\"sender_execution_id\" \"recipient_execution_id\" \"content_sha256\" \"applied_operation_id\""
+    ],
+    "record_cursor": "Prefer committed JSON/JSONL or immutable public receipt records with nontrivial content and an explicit later dependent action. Do not reopen the 47-record release-smoke family, Agent Hub fixtures or the three schema-only products without a new populated organic record or operator-provenance cue."
+  },
+  "publication_safety": "Pinned public repository links, event and observation dates, Git blob hashes, embedded binary SHA-256 values, bounded counts and reasoning are retained. Local filesystem paths from test receipts, message bodies beyond the fixed harmless smoke control, tokens, credentials, private deployment details and personal addresses are omitted."
+}

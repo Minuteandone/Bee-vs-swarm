@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-17",
+  "purpose": "Close the remaining public urlscan notification-service listing backlog at the result-page level while preserving the distinction between visible transaction metadata and unavailable captured bodies.",
+  "method": {
+    "selection": "Resume the 47 listing records left unread by the 2026-10-16 ten-page follow-up, then classify every public result page by visible application function and recorded HTTP transaction shape.",
+    "read_only_limits": "Only existing public urlscan result pages, their transaction tables and selected urlscan-hosted screenshots were read. No scan was submitted, no live carrier route or target was opened, no payload was replayed and no login-gated body, DOM or result API was accessed.",
+    "falsification_tests": [
+      "Require a distinguishable sender and recipient rather than inferring participants from different pages, keys, UI labels or requests.",
+      "Require task-bearing content and a later recipient action semantically dependent on that content rather than shared state, polling or notification volume.",
+      "Test single-operator application sync, versioned deployment, human-directed communication, scanner retries, page-load analytics and observer contamination before considering coordination.",
+      "Require primary operator-boundary evidence before treating any supported exchange as rogue coordination."
+    ]
+  },
+  "scope": {
+    "public_listing_records": 57,
+    "result_pages_inspected_before_this_pass": 10,
+    "result_pages_inspected_this_pass": 47,
+    "result_pages_inspected_total": 57,
+    "reported_http_transactions_this_pass": 1366,
+    "reported_http_transactions_total": 1459,
+    "selected_screenshots_read_this_pass": 15,
+    "selected_screenshots_read_total": 22,
+    "successful_result_api_or_captured_body_reads": 0,
+    "remaining_unread_result_pages": 0,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "counting_note": "Result-page inspection means public metadata and transaction-table review. It is not counted as a captured-body read and is separate from the repository's urlquery original-report inspection count."
+  },
+  "assessed_groups": [
+    {
+      "id": "education-template-family",
+      "event_span_utc": {
+        "start": "2026-09-23T08:25:25.011Z",
+        "end": "2026-10-05T11:44:15.982Z"
+      },
+      "result_pages": 11,
+      "reported_http_transactions": 257,
+      "result_urls": [
+        "https://urlscan.io/result/01a10be0-e086-7117-a65f-380c84b484e1/",
+        "https://urlscan.io/result/01a1079a-2e64-7519-a58e-ebdbaa429aec/",
+        "https://urlscan.io/result/01a1078f-2d9c-74bb-a11a-1b54148c639b/",
+        "https://urlscan.io/result/01a0e632-1f1f-737c-82d4-321da671fe8e/",
+        "https://urlscan.io/result/01a0e621-4cbd-7713-8611-bbc5ac35f64a/",
+        "https://urlscan.io/result/01a0d121-8b00-75b8-8fde-80b9d3c5f73c/",
+        "https://urlscan.io/result/01a0d11d-bd19-7405-a928-4fbbee4330ab/",
+        "https://urlscan.io/result/01a0d116-37dc-759b-a8e8-b40a12cbefb9/",
+        "https://urlscan.io/result/01a0d10e-fe44-75d3-878c-d422062b9c77/",
+        "https://urlscan.io/result/01a0cd77-9fc0-776a-830f-2f672e50964a/",
+        "https://urlscan.io/result/01a0cd5e-7905-729f-b317-5775e182643d/"
+      ],
+      "representative_response_sha256": [
+        "176e894661aa9cdc9a5cba6c720044cbbf7b8bd80d1c9a142a7c24b1b6c50d15",
+        "f95558b48bca12add244a9490bb8831e87ef7cf4d31a9b3aa4e6fb8509c7d87a",
+        "1039ab47fe81ec28996408f82f0e728b8caf1803a0523b47b0bc1cf30b712057",
+        "03a027b1170c04b85b1ff1273a730a418a08d573ab87d44c7c8c05fc50944211",
+        "163693d39396e078ed4d758ac6334bcf152431fabbc48116a67b1ca5256a9036"
+      ],
+      "observation": "The screenshots and transaction tables show one cloned classroom/test application family. Repeated assets and responses belong to ordinary template deployments; no AI-provider request, task-bearing sender record, recipient action or independent principal is visible.",
+      "alternatives_tested": [
+        "cloned education template",
+        "same-operator deployments",
+        "ordinary browser application traffic"
+      ],
+      "assessment": "Education-template control; no autonomous transfer/use edge."
+    },
+    {
+      "id": "portfolio-analytics-family",
+      "event_span_utc": {
+        "start": "2026-09-16T20:36:07.375Z",
+        "end": "2026-09-16T21:10:25.522Z"
+      },
+      "result_pages": 12,
+      "reported_http_transactions": 298,
+      "result_urls": [
+        "https://urlscan.io/result/01a0abee-f823-75cd-a11d-374935894106/",
+        "https://urlscan.io/result/01a0abef-0da1-77d3-8b17-66bb6780cfe2/",
+        "https://urlscan.io/result/01a0abef-26c4-724c-8719-8fb9a11c29a9/",
+        "https://urlscan.io/result/01a0abf1-b10d-76d9-b9ce-5ecb33b407f2/",
+        "https://urlscan.io/result/01a0abf1-c2fd-73ad-85b1-be25199db110/",
+        "https://urlscan.io/result/01a0abf1-d2d5-759e-83a6-c6e864292cb3/",
+        "https://urlscan.io/result/01a0abf2-05d7-75e6-ab79-27dae4e19710/",
+        "https://urlscan.io/result/01a0abf2-7afd-733d-ad2b-36b7fadea3b5/",
+        "https://urlscan.io/result/01a0abf2-9440-7463-a8d1-f3fe1ffe2a08/",
+        "https://urlscan.io/result/01a0abf2-ac74-751b-bc5b-9ca769edcf87/",
+        "https://urlscan.io/result/01a0ac0d-759b-727c-a0b1-0d177f35a7b1/",
+        "https://urlscan.io/result/01a0ac0e-5d76-7102-b582-93432768db17/"
+      ],
+      "observation": "These twelve pages complete a thirteen-page family when combined with the portfolio result assessed on 2026-10-16. Public screenshots show ordinary portfolio routes and a cookie interface. The notification calls accompany visit analytics on every load and do not expose a sender message or recipient use.",
+      "alternatives_tested": [
+        "visitor analytics",
+        "single-site route crawl",
+        "scanner-triggered page-load effects"
+      ],
+      "assessment": "One portfolio/analytics application family; no autonomous participants or operator boundary."
+    },
+    {
+      "id": "versioned-chat-ui-cluster",
+      "event_span_utc": {
+        "start": "2026-09-26T12:31:43.479Z",
+        "end": "2026-09-29T13:10:42.724Z"
+      },
+      "result_pages": 5,
+      "reported_http_transactions": 31,
+      "result_urls": [
+        "https://urlscan.io/result/01a0e414-7d1f-778e-9834-6d6910b7a4d7/",
+        "https://urlscan.io/result/01a0ddb6-d1bd-70ea-bef0-32046849b516/",
+        "https://urlscan.io/result/01a0ddb3-0c5c-71d7-915a-59df9ca9956a/",
+        "https://urlscan.io/result/01a0e98c-ad3e-72f8-95b3-1df9de850324/",
+        "https://urlscan.io/result/01a0ed49-d9db-76bc-b1e9-8da376696dac/"
+      ],
+      "representative_response_sha256": [
+        "b7b8c8d5ac43a5e43d50dae2efc733c70e8d3521cb37cd5e0c6ae15185c79e2d",
+        "e49cfe6f776fc73b17884061507e4f2c5e9f688bfe70b706a363d7b39e073047",
+        "482f1244bcb1cc5dae0d36d9e86f9d9af7b129d9d909088d6218bd56d2255627"
+      ],
+      "observation": "Public screenshots show versioned chat interfaces, empty channels and an assistant-labeled channel. The transaction tables expose no AI-provider request, authenticated publisher, task-bearing message or later action. Two page pairs share main-document hashes, which supports cloned or iterative deployment rather than distinguishable participants.",
+      "alternatives_tested": [
+        "versioned single-operator deployment",
+        "cloned chat UI",
+        "empty shared-state interface",
+        "human chat client"
+      ],
+      "assessment": "Interface-label control. Agent-like UI text is not AI identity, result transfer or recipient use."
+    },
+    {
+      "id": "human-communication-presence-invite-controls",
+      "event_span_utc": {
+        "start": "2026-09-09T09:19:44.192Z",
+        "end": "2026-10-01T15:29:25.007Z"
+      },
+      "result_pages": 6,
+      "reported_http_transactions": 97,
+      "result_urls": [
+        "https://urlscan.io/result/01a0f815-9280-724f-b8aa-5bd981ae36d7/",
+        "https://urlscan.io/result/01a0c9f3-5f4c-766f-b8cb-7267ad1e44a9/",
+        "https://urlscan.io/result/01a0a4e8-09ca-758c-b545-bdbdf49a3869/",
+        "https://urlscan.io/result/01a08576-b47c-75b5-9ada-6335dad9dab5/",
+        "https://urlscan.io/result/01a0a5da-9290-76ea-ad74-5025a2e6643c/",
+        "https://urlscan.io/result/01a0ce42-e812-7389-8291-8e5bd9f97f2c/"
+      ],
+      "observation": "The pages are human-directed chat, voting, identity/presence selection, invitation and QR-creation surfaces. Nothing in the public records authenticates an autonomous sender or shows a recipient using task-bearing content.",
+      "alternatives_tested": [
+        "human conversation",
+        "human invitation",
+        "manual identity selection",
+        "ordinary presence state"
+      ],
+      "assessment": "Human communication controls; no agent exchange."
+    },
+    {
+      "id": "business-storefront-service-controls",
+      "event_span_utc": {
+        "start": "2026-09-19T23:23:08.594Z",
+        "end": "2026-10-06T07:57:08.900Z"
+      },
+      "result_pages": 10,
+      "reported_http_transactions": 668,
+      "result_urls": [
+        "https://urlscan.io/result/01a11037-356c-7106-a73c-330cf3d24854/",
+        "https://urlscan.io/result/01a0fe4d-288a-741e-a7be-7ea24f8ee0b7/",
+        "https://urlscan.io/result/01a0fe19-1865-71ae-a195-279358d92594/",
+        "https://urlscan.io/result/01a0f28c-d4a8-712e-891b-4d8badf120dd/",
+        "https://urlscan.io/result/01a0eff0-ccc3-7684-8021-133be965dbdb/",
+        "https://urlscan.io/result/01a0e957-ba0c-719e-9fc4-b22fdd6bb686/",
+        "https://urlscan.io/result/01a0ea81-7a4e-7316-b12a-fa6523da82f5/",
+        "https://urlscan.io/result/01a0dcd8-fba4-71cc-89e9-f0ed074f1764/",
+        "https://urlscan.io/result/01a0bede-21c3-748f-b5e5-56e7425f2c79/",
+        "https://urlscan.io/result/01a0bbfa-8f4e-73fc-9bc0-2290f14026f8/"
+      ],
+      "representative_response_sha256": [
+        "7c664311e28aed22d42f2f2ed54d77030605abf6dd5feea4099ca05cd43472d7"
+      ],
+      "observation": "These pages are an order-login surface, service and content sites, a fashion catalog, a static site, catering and billiards pages, a notification-service homepage and a wallet interface. The fashion catalog is the strongest data-consumer shape because it polls shared storage and notification feeds while using a database, but the screenshot and transaction table show one ordinary storefront application. No AI identity, independently operated sender, task-bearing result or dependent recipient action is public.",
+      "alternatives_tested": [
+        "single-application state synchronization",
+        "storefront catalog refresh",
+        "page-load alerting",
+        "ordinary business-site traffic",
+        "service-homepage baseline"
+      ],
+      "assessment": "Business/storefront controls. Data consumption by one application is not a cross-operator agent exchange."
+    },
+    {
+      "id": "observer-triggered-notification-controls",
+      "event_span_utc": {
+        "start": "2026-09-21T15:07:35.197Z",
+        "end": "2026-09-26T08:28:13.723Z"
+      },
+      "result_pages": 3,
+      "reported_http_transactions": 15,
+      "result_urls": [
+        "https://urlscan.io/result/01a0c4a1-87db-752e-a99d-f875182cc868/",
+        "https://urlscan.io/result/01a0c481-f609-759f-98f4-cdbbf0b8371d/",
+        "https://urlscan.io/result/01a0dcd4-29d3-742d-b9e6-ab91f9a6abf2/"
+      ],
+      "representative_response_sha256": [
+        "17dd949bb688ed902e955da2e2b83c93f704a2e1620f623752cd6519450cf0f5"
+      ],
+      "observation": "Two pages visibly attempt an owner notification during automated load, once failing and once succeeding. The third is another scan of the same staging build already observed twice; its main document hash is identical to the prior pair. The supported cause is scanner-triggered page execution and repeated QA/scanner coverage, not autonomous outreach.",
+      "alternatives_tested": [
+        "observer contamination",
+        "scanner retry",
+        "repeated QA scan",
+        "page-load notification"
+      ],
+      "assessment": "Observer-triggered write control; no recipient adoption or autonomous sender."
+    }
+  ],
+  "group_totals_check": {
+    "result_pages": 47,
+    "reported_http_transactions": 1366
+  },
+  "cross_record_assessment": {
+    "original_observation": "All 57 listing records now have a public result-page inspection. The 47 newly inspected pages expose 1,366 transaction rows and fifteen selected screenshots.",
+    "supported_coordination": "None. No page or joined group preserves a concrete sender-to-recipient task-result transfer followed by semantic use.",
+    "verified_participants": "None. Page instances, channels, UI labels, shared hashes and distinct requests do not authenticate autonomous participants.",
+    "operator_boundary": "Not established for any group. Same-application deployment, human communication, page-load analytics and observer effects are better-supported explanations.",
+    "subjective_intent": "Not established.",
+    "provider_attribution": "Not established.",
+    "current_activity": "Not established by historical scanner pages.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "schema_cursor_rotation": {
+    "checked_on": "2026-10-17",
+    "queries": [
+      {
+        "query": "\"sender_instance_id\" \"recipient_instance_id\" \"content_sha256\" \"consumed_at\"",
+        "returned_occurrences": 1,
+        "self_index_occurrences": 1,
+        "external_occurrences": 0
+      },
+      {
+        "query": "\"producer_operator\" \"consumer_operator\" \"artifact_digest\" \"applied_at\"",
+        "returned_occurrences": 1,
+        "self_index_occurrences": 1,
+        "external_occurrences": 0
+      },
+      {
+        "query": "\"source_session_id\" \"recipient_session_id\" \"result_digest\" \"dependent_action_id\"",
+        "returned_occurrences": 1,
+        "self_index_occurrences": 1,
+        "external_occurrences": 0
+      }
+    ],
+    "assessment": "Each exact query returned only this repository's indexed 2026-10-16 assessment. These are observer/self-index matches, not external records or new evidence."
+  },
+  "prior_reporting_check": {
+    "triggered_for_new_candidate": false,
+    "reason": "No group passed the participant, task-bearing-transfer, downstream-use or operator-boundary gates, so a candidate-level prior-reporting audit was not warranted.",
+    "bounded_context": "The 2026-10-16 pass checked exact visible phrases from the versioned chat UI and found no relevant coordination report in that scope. This does not establish novelty, and the underlying UI cluster independently fails the evidence gates."
+  },
+  "limitations": [
+    "The public result JSON API and captured body/DOM views remained unavailable or login-gated; zero bodies were read.",
+    "Transaction metadata can show a request or response digest but cannot reveal the missing message semantics, publisher provenance or authorization context.",
+    "Selected screenshots are visual controls, not a complete screenshot census.",
+    "Absence of visible AI-provider traffic does not prove that no AI was involved; it prevents positive attribution.",
+    "Historical scanner pages do not establish current activity."
+  ],
+  "next_cursor": {
+    "schema_queries": [
+      "\"source_principal_uuid\" \"sink_principal_uuid\" \"content_digest\" \"dependent_operation_uuid\"",
+      "\"origin_execution_id\" \"consumer_execution_id\" \"result_hash\" \"semantic_use_at\"",
+      "\"publisher_identity_id\" \"subscriber_identity_id\" \"payload_sha256\" \"action_from_payload_id\""
+    ],
+    "condition": "Rotate into existing read-only public original records. Count only populated records that join distinguishable participants, task-bearing material, semantic recipient use and operator provenance. Do not reopen this closed 57-page urlscan scope unless a new public sender, recipient or authorization cue can materially change one of those gates."
+  },
+  "publication_safety": "Public result-page links, event times, response hashes, domain-level application summaries and reasoning are retained. Raw carrier routes, topics, payload bodies, credentials, tokens, personal addresses and private logs are omitted."
+}

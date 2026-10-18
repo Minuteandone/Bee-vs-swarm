@@ -6427,6 +6427,129 @@
       "commit_sha": "7a9e0ba382f5d7e3bcdee2469104679aa4b28b2c",
       "commit_actor": "trillskillz",
       "observed_at": "2026-10-18T09:25:06Z"
+    },
+    {
+      "id": "original-ripr-swarm-pr-8785",
+      "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785",
+      "role": "Primary human-requested Claude pull-request timeline and merge record",
+      "published": "2026-10-18",
+      "event_start_at": "2026-10-18T08:39:22Z",
+      "event_end_at": "2026-10-18T09:57:15Z",
+      "merge_commit_sha": "2671dd85f6e159457c460a35ada5e618cba624d7",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-ripr-swarm-devin-comment-4306376192",
+      "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785#discussion_r4306376192",
+      "role": "Primary Devin traceability finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T08:40:59Z",
+      "public_comment_id": 4306376192,
+      "public_actor": "devin-ai-integration",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-ripr-swarm-devin-comment-4306376248",
+      "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785#discussion_r4306376248",
+      "role": "Primary Devin namespace scope-shadow finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T08:41:00Z",
+      "public_comment_id": 4306376248,
+      "public_actor": "devin-ai-integration",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-ripr-swarm-claude-repair-ecf282ee",
+      "url": "https://github.com/EffortlessMetrics/ripr-swarm/commit/ecf282eeb3728c33b50793cf208983d821025b0c",
+      "role": "Primary verified Claude repair implementing both Devin findings",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T09:07:19Z",
+      "commit_sha": "ecf282eeb3728c33b50793cf208983d821025b0c",
+      "tree_sha": "b037f38fc3d915cfa461d128968c6feac45e1a77",
+      "commit_actor": "claude",
+      "verified_signature": true,
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-pr-243",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243",
+      "role": "Primary CodeAnt, CodeRabbit and Claude review-to-repair timeline",
+      "published": "2026-10-18",
+      "event_start_at": "2026-10-18T12:56:32Z",
+      "event_end_at": "2026-10-18T13:35:42Z",
+      "merge_commit_sha": "c5d6858001fe46d8aaedfb86f47da102f62ee9a6",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-codeant-comment-4307115678",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307115678",
+      "role": "Primary CodeAnt single-root checkpoint finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:02:06Z",
+      "public_comment_id": 4307115678,
+      "public_actor": "codeant-ai",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-codeant-comment-4307115682",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307115682",
+      "role": "Primary CodeAnt per-scan preference finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:02:06Z",
+      "public_comment_id": 4307115682,
+      "public_actor": "codeant-ai",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-coderabbit-comment-4307132501",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132501",
+      "role": "Primary CodeRabbit per-scan preference finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:05:52Z",
+      "public_comment_id": 4307132501,
+      "public_actor": "coderabbitai",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-coderabbit-comment-4307132505",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132505",
+      "role": "Primary CodeRabbit manual-lock preservation finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:05:52Z",
+      "public_comment_id": 4307132505,
+      "public_actor": "coderabbitai",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-coderabbit-comment-4307132508",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132508",
+      "role": "Primary CodeRabbit checkpoint-scope finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:05:52Z",
+      "public_comment_id": 4307132508,
+      "public_actor": "coderabbitai",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-coderabbit-comment-4307132511",
+      "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132511",
+      "role": "Primary CodeRabbit directory-walk failure finding later implemented by Claude",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:05:52Z",
+      "public_comment_id": 4307132511,
+      "public_actor": "coderabbitai",
+      "observed_at": "2026-10-18T13:40:05Z"
+    },
+    {
+      "id": "original-lokal-claude-repair-be742585",
+      "url": "https://github.com/CHEYCKIT/lokal/commit/be742585d3efaee29e92062aab5fbc57d289dba4",
+      "role": "Primary Claude repair and tests implementing CodeAnt and CodeRabbit findings",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T13:34:51Z",
+      "commit_sha": "be742585d3efaee29e92062aab5fbc57d289dba4",
+      "tree_sha": "7b351a2f9d09f3d1c61278b64817cc4c2b6464a3",
+      "commit_actor": "claude",
+      "observed_at": "2026-10-18T13:40:05Z"
     }
   ]
 }

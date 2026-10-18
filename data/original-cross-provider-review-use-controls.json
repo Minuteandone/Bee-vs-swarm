@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "observed_at": "2026-10-18T13:40:05Z",
+  "purpose": "Resume the saved provenance cursors, rotate through content-addressed and handoff-shaped public records, then test newly located public pull-request timelines for specific cross-provider review-result-to-repair dependencies, participant provenance and an operator-defined boundary.",
+  "method": {
+    "selection": "Run the three exact Pass 94 cursors, search four progressively lower-order public-record groups, then rotate into public pull-request timelines. Deep-read the strongest timelines in which a named review service supplied a specific finding and a later authenticated agent commit implemented the same requested change.",
+    "coverage_note": "The sixty-query counts below are overlapping search-result occurrences, not messages, participants or incidents. Twenty-two responses reached their requested result cap. One trace query briefly located a generated demo path and returned zero on the stable parallel rerun; both observations are preserved rather than silently choosing the nonzero response.",
+    "read_only_limits": "Only existing public repository pages, pull-request timelines, commit metadata, indexed excerpts and web-search results were read. No code was executed, no package was installed, no review or scan was submitted, no account was created and no participant was contacted.",
+    "falsification_tests": [
+      "Require a later recipient artifact to implement a specific earlier finding, not merely appear in the same pull request.",
+      "Authenticate service identities from public comment and commit attribution without treating provider names as proof of separate operators.",
+      "Test human-requested work, installed review applications, designed repository workflow, shared ownership and ordinary code review as alternatives.",
+      "Require primary evidence that any cooperation crossed the repository operator's authorization boundary before considering a rogue interpretation."
+    ]
+  },
+  "scope": {
+    "scanner_backlog": {
+      "collected_original_reports": 1146,
+      "successfully_inspected": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "urlscan_listing_pages_closed": 57,
+      "reopened": false
+    },
+    "search_snapshot": {
+      "unique_query_expressions": 60,
+      "returned_row_occurrences": 1511,
+      "external_row_occurrences": 1480,
+      "self_repository_row_occurrences": 31,
+      "complete_zero_result_queries": 24,
+      "queries_at_requested_result_cap": 22,
+      "unstable_query_responses": 1,
+      "note": "Counts combine three resumed cursors, forty-four code/trace expressions and thirteen pull-request locator expressions. Results overlap heavily and capped pull-request searches are discovery locators rather than complete coverage."
+    },
+    "selected_original_record_families": 2,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_groups": [
+    {
+      "name": "resumed_pass94_exact_cursors",
+      "queries": [
+        "\"source_memory_run_id\" \"recipient_run_id\" \"memory_content_sha256\" \"operator_confirmation_id\"",
+        "\"producer_operator_id\" \"consumer_operator_id\" \"accepted_artifact_sha256\" \"downstream_action_id\"",
+        "\"independent_operator_proof\" \"sender_run_id\" \"recipient_run_id\" \"consumed_result_sha256\""
+      ],
+      "returned_row_occurrences": 6,
+      "external_row_occurrences": 0,
+      "self_repository_row_occurrences": 6,
+      "complete_zero_result_queries": 0,
+      "queries_at_requested_result_cap": 0,
+      "classification": "Each query returned the Pass 94 log and assessment only; no external record appeared."
+    },
+    {
+      "name": "content_addressed_dependency_fields",
+      "queries": [
+        "\"source_artifact_sha256\" \"recipient_action_sha256\" \"operator_id\"",
+        "\"produced_by_run_id\" \"consumed_by_run_id\" \"authorization\"",
+        "\"producer_run_id\" \"consumer_run_id\" \"content_sha256\"",
+        "\"upstream_message_id\" \"downstream_action_id\" \"agent_id\"",
+        "\"sender_principal\" \"recipient_principal\" \"artifact_digest\" \"consumed_at\"",
+        "\"source_agent\" \"target_agent\" \"artifact_digest\" \"used_at\"",
+        "\"artifact_sha256\" \"consumed_by_run_id\" \"recipient_agent_id\"",
+        "\"sender_run_id\" \"recipient_run_id\" \"operator_id\" \"result_digest\"",
+        "\"source_event_id\" \"recipient_action_id\" \"content_hash\" \"agent_id\"",
+        "\"producer_agent\" \"consumer_agent\" \"result_hash\" \"consumed_at\"",
+        "\"handoff_artifact\" \"recipient_action\" \"operator\" \"run_id\"",
+        "\"upstream_run_id\" \"downstream_run_id\" \"artifact_hash\" \"authorization\""
+      ],
+      "returned_row_occurrences": 25,
+      "external_row_occurrences": 2,
+      "self_repository_row_occurrences": 23,
+      "complete_zero_result_queries": 7,
+      "queries_at_requested_result_cap": 0,
+      "classification": "The two external rows are implementation or schema definitions rather than a populated exchange."
+    },
+    {
+      "name": "message_and_handoff_fields",
+      "queries": [
+        "\"from_agent\" \"to_agent\" \"message_id\" \"timestamp\"",
+        "\"sender_agent\" \"recipient_agent\" \"in_reply_to\" \"timestamp\"",
+        "\"sender_id\" \"recipient_id\" \"reply_to\" \"content_hash\"",
+        "\"sender\" \"recipient\" \"correlation_id\" \"payload_hash\"",
+        "\"source_agent\" \"target_agent\" \"task_id\" \"status\"",
+        "\"producer\" \"consumer\" \"artifact_hash\" \"timestamp\"",
+        "\"handoff_id\" \"source_agent\" \"target_agent\" \"status\"",
+        "\"received_from\" \"used_by\" \"artifact_hash\"",
+        "\"acknowledged_by\" \"result_hash\" \"agent_id\"",
+        "\"message_id\" \"reply_to_id\" \"agent_id\" \"content_sha256\"",
+        "\"sender\" \"recipients\" \"thread_id\" \"agent_id\"",
+        "\"event_type\" \"agent_handoff\" \"source_agent\" \"target_agent\""
+      ],
+      "returned_row_occurrences": 325,
+      "external_row_occurrences": 323,
+      "self_repository_row_occurrences": 2,
+      "complete_zero_result_queries": 7,
+      "queries_at_requested_result_cap": 3,
+      "classification": "External results were schemas, framework code, tests, mocks or generated demonstrations; none supplied an independently attributable organic transfer/use edge."
+    },
+    {
+      "name": "lower_order_timestamp_fields",
+      "queries": [
+        "\"handoff_id\" \"source_agent\" \"target_agent\" \"completed_at\" \"artifacts\"",
+        "\"source_agent_id\" \"target_agent_id\" \"task_description\" \"timestamp\"",
+        "\"from_agent\" \"to_agent\" \"created_at\" \"body\"",
+        "\"sender_task_id\" \"recipient_task_id\" \"body\" \"acknowledged_at\"",
+        "\"sender_id\" \"recipient_id\" \"created_at\" \"content\" \"agent_id\"",
+        "\"source_agent\" \"target_agent\" \"result\" \"completed_at\"",
+        "\"handoff_id\" \"status\" \"completed\" \"source_agent\" \"target_agent\"",
+        "\"sent_at\" \"received_at\" \"sender_agent_id\" \"recipient_agent_id\"",
+        "\"message_id\" \"sender_agent_id\" \"recipient_agent_id\" \"created_at\"",
+        "\"producer_agent_id\" \"consumer_agent_id\" \"created_at\" \"artifact\""
+      ],
+      "returned_row_occurrences": 362,
+      "external_row_occurrences": 362,
+      "self_repository_row_occurrences": 0,
+      "complete_zero_result_queries": 6,
+      "queries_at_requested_result_cap": 3,
+      "classification": "Broad lower-order matches were dominated by implementations, examples, telemetry schemas and test data; no stronger original chain survived inspection."
+    },
+    {
+      "name": "trace_event_fields",
+      "queries": [
+        "\"event_type\":\"agent_handoff\" \"tool_result\"",
+        "\"event_type\": \"agent_handoff\" \"tool_result\"",
+        "\"event_type\":\"agent_message\" \"trace_id\"",
+        "\"event_type\": \"agent_message\" \"trace_id\"",
+        "\"kind\":\"handoff\" \"source_agent\" \"target_agent\"",
+        "\"kind\": \"handoff\" \"source_agent\" \"target_agent\"",
+        "\"semantic_dependency\":\"completed\" \"source_agent\"",
+        "\"semantic_dependency\": \"completed\" \"source_agent\"",
+        "\"handoff_completed\" \"source_agent\" \"target_agent\"",
+        "\"agent_handoff\" \"trace_id\" \"span_id\" \"timestamp\" \"data\""
+      ],
+      "returned_row_occurrences": 503,
+      "external_row_occurrences": 503,
+      "self_repository_row_occurrences": 0,
+      "complete_zero_result_queries": 3,
+      "queries_at_requested_result_cap": 4,
+      "classification": "Four compact semantic paths and twenty-nine handoff-completed paths were fully inspected and resolved to ontologies, schemas, implementation, tests or mocks. One exact event-type query briefly returned an Observra demo JSONL path that its public generator creates, then returned zero in the stable rerun; it remains a generated-demo control."
+    },
+    {
+      "name": "public_pull_request_locators",
+      "queries": [
+        "\"@coderabbitai\" \"@github-copilot\" in:comments",
+        "\"@coderabbitai\" \"@copilot\" in:comments",
+        "\"@coderabbitai\" \"@gemini-code-assist\" in:comments",
+        "\"@coderabbitai\" \"@devin-ai-integration\" in:comments",
+        "\"@greptile-apps\" \"@coderabbitai\" in:comments",
+        "\"CodeRabbit\" \"Copilot\" in:comments",
+        "\"CodeRabbit\" \"Gemini Code Assist\" in:comments",
+        "\"claude-projects-attribution\" \"@gemini-code-assist\" in:comments",
+        "\"Generated by Claude Code\" \"gemini-code-assist\" in:comments",
+        "\"Generated by Claude Code\" \"coderabbitai\" in:comments",
+        "\"Generated by Claude Code\" \"copilot-pull-request-reviewer\" in:comments",
+        "\"Written by an agent\" \"coderabbitai\" in:comments",
+        "\"Written by an agent\" \"Copilot\" in:comments"
+      ],
+      "returned_row_occurrences": 290,
+      "external_row_occurrences": 290,
+      "self_repository_row_occurrences": 0,
+      "complete_zero_result_queries": 1,
+      "queries_at_requested_result_cap": 12,
+      "classification": "Locator-only coverage. Selected timelines were inspected for direct finding-to-fix dependencies; most results were ordinary multi-bot review, human-authored repair or no-use controls."
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "ripr-swarm-devin-review-to-claude-repair",
+      "repository": "EffortlessMetrics/ripr-swarm",
+      "pull_request": 8785,
+      "pull_request_url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785",
+      "event_span_utc": {
+        "created_at": "2026-10-18T08:39:22Z",
+        "merged_at": "2026-10-18T09:57:15Z"
+      },
+      "merge_commit_sha": "2671dd85f6e159457c460a35ada5e618cba624d7",
+      "source_artifacts": [
+        {
+          "actor": "devin-ai-integration",
+          "comment_id": 4306376192,
+          "created_at": "2026-10-18T08:40:59Z",
+          "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785#discussion_r4306376192",
+          "finding_summary": "The new tests lacked specification traceability."
+        },
+        {
+          "actor": "devin-ai-integration",
+          "comment_id": 4306376248,
+          "created_at": "2026-10-18T08:41:00Z",
+          "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785#discussion_r4306376248",
+          "finding_summary": "The namespace scope-shadow branch lacked a negative control."
+        }
+      ],
+      "recipient_artifact": {
+        "actor": "claude",
+        "commit_sha": "ecf282eeb3728c33b50793cf208983d821025b0c",
+        "tree_sha": "b037f38fc3d915cfa461d128968c6feac45e1a77",
+        "created_at": "2026-10-18T09:07:19Z",
+        "url": "https://github.com/EffortlessMetrics/ripr-swarm/commit/ecf282eeb3728c33b50793cf208983d821025b0c",
+        "verified_signature": true,
+        "changed_blob_hashes": {
+          ".ripr/traceability.toml": "ea37a72c1b5397f1993892604a3acd7b828e41be",
+          "tests": "750f1620f8c6d3da0346ea102c90fc6cf08120e0",
+          "spec": "6d98fc80eab5197f084112a36cf7f7dca621c433"
+        },
+        "effect_summary": "The commit registers both new tests in traceability/specification records and adds the requested namespace-shadow negative case."
+      },
+      "recipient_acknowledgments": [
+        {
+          "comment_id": 4306453569,
+          "created_at": "2026-10-18T09:07:43Z",
+          "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785#discussion_r4306453569",
+          "summary": "Claude directly replies that the namespace case and both traceability registrations were added in the named commit."
+        },
+        {
+          "comment_id": 4306453623,
+          "created_at": "2026-10-18T09:07:45Z",
+          "url": "https://github.com/EffortlessMetrics/ripr-swarm/pull/8785#discussion_r4306453623",
+          "summary": "Claude directly replies that the namespace negative was addressed in the same commit."
+        }
+      ],
+      "semantic_dependency": "Supported. The later verified Claude commit makes both concrete changes requested by the Devin comments, and its direct replies identify that same commit.",
+      "participant_provenance": "The reviewer application identity and the verified Claude commit/account are distinguishable public service identities. That does not establish independently controlled operators.",
+      "operator_boundary": "Not crossed. The pull-request body says the work was requested by a named human, links a Claude project thread and attributes generation to Claude. Devin is an installed review service acting inside the repository's ordinary review workflow.",
+      "alternative_explanations": [
+        "Human-requested Claude implementation",
+        "Installed automated reviewer",
+        "Designed pull-request review and repair workflow",
+        "Repository-owner authorization encompassing both services"
+      ],
+      "assessment": "A complete cross-provider review-result-to-repair edge and strong causal control, but not a rogue coordination candidate."
+    },
+    {
+      "id": "lokal-codeant-coderabbit-review-to-claude-repair",
+      "repository": "CHEYCKIT/lokal",
+      "pull_request": 243,
+      "pull_request_url": "https://github.com/CHEYCKIT/lokal/pull/243",
+      "event_span_utc": {
+        "created_at": "2026-10-18T12:56:32Z",
+        "merged_at": "2026-10-18T13:35:42Z"
+      },
+      "merge_commit_sha": "c5d6858001fe46d8aaedfb86f47da102f62ee9a6",
+      "source_artifacts": [
+        {
+          "actor": "codeant-ai",
+          "comment_id": 4307115678,
+          "created_at": "2026-10-18T13:02:06Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307115678",
+          "finding_summary": "A single-root scan could incorrectly save a library-wide checkpoint."
+        },
+        {
+          "actor": "codeant-ai",
+          "comment_id": 4307115682,
+          "created_at": "2026-10-18T13:02:06Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307115682",
+          "finding_summary": "Rereading a live preference could mix artist-tag behavior inside one scan."
+        },
+        {
+          "actor": "coderabbitai",
+          "comment_id": 4307132501,
+          "created_at": "2026-10-18T13:05:52Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132501",
+          "finding_summary": "Pin the scan preference once per scan."
+        },
+        {
+          "actor": "coderabbitai",
+          "comment_id": 4307132505,
+          "created_at": "2026-10-18T13:05:52Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132505",
+          "finding_summary": "Preserve manually locked artist changes."
+        },
+        {
+          "actor": "coderabbitai",
+          "comment_id": 4307132508,
+          "created_at": "2026-10-18T13:05:52Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132508",
+          "finding_summary": "Do not save watcher or single-root scans as a library-wide checkpoint."
+        },
+        {
+          "actor": "coderabbitai",
+          "comment_id": 4307132511,
+          "created_at": "2026-10-18T13:05:52Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307132511",
+          "finding_summary": "Count directory-walk failures."
+        }
+      ],
+      "recipient_artifact": {
+        "actor": "claude",
+        "commit_sha": "be742585d3efaee29e92062aab5fbc57d289dba4",
+        "tree_sha": "7b351a2f9d09f3d1c61278b64817cc4c2b6464a3",
+        "created_at": "2026-10-18T13:34:51Z",
+        "url": "https://github.com/CHEYCKIT/lokal/commit/be742585d3efaee29e92062aab5fbc57d289dba4",
+        "changed_blob_hashes": {
+          "electron/ipc/scanner.js": "04f04130b59c54834b784b06298956d44519b7ad",
+          "scanner_tests": "9bd7788274137fa41800951d6d38a869de22f10d"
+        },
+        "effect_summary": "The commit pins the preference, preserves manual artist edits, blocks single-root checkpoint writes and counts unreadable directories; tests cover the same four changes."
+      },
+      "recipient_acknowledgments": [
+        {
+          "comment_id": 4307222413,
+          "created_at": "2026-10-18T13:34:56Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307222413",
+          "summary": "Claude directly acknowledges the single-root scope correction."
+        },
+        {
+          "comment_id": 4307222514,
+          "created_at": "2026-10-18T13:34:57Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307222514",
+          "summary": "Claude directly acknowledges pinning the preference."
+        },
+        {
+          "comment_id": 4307222596,
+          "created_at": "2026-10-18T13:34:59Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307222596",
+          "summary": "Claude maps the duplicate preference finding to the same repair."
+        },
+        {
+          "comment_id": 4307222646,
+          "created_at": "2026-10-18T13:35:00Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307222646",
+          "summary": "Claude directly acknowledges preserving manual locks."
+        },
+        {
+          "comment_id": 4307222731,
+          "created_at": "2026-10-18T13:35:02Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307222731",
+          "summary": "Claude directly acknowledges preventing single-root checkpoint writes."
+        },
+        {
+          "comment_id": 4307222846,
+          "created_at": "2026-10-18T13:35:04Z",
+          "url": "https://github.com/CHEYCKIT/lokal/pull/243#discussion_r4307222846",
+          "summary": "Claude directly acknowledges counting directory-walk failures."
+        }
+      ],
+      "semantic_dependency": "Supported. The later Claude-authored commit, tests and six direct replies implement the exact findings supplied minutes earlier by CodeAnt and CodeRabbit.",
+      "participant_provenance": "Two review applications and the Claude commit identity are distinguishable public service identities. The record does not independently authenticate different human operators behind them.",
+      "operator_boundary": "Not crossed. The review applications operate inside the pull request and Claude performs a repository-authorized repair before merge; nothing in the public record indicates outreach or cooperation beyond the configured review workflow.",
+      "alternative_explanations": [
+        "Installed multi-bot review",
+        "Repository-authorized Claude repair session",
+        "Normal review feedback adoption",
+        "One owner-controlled pull-request workflow"
+      ],
+      "assessment": "A dense cross-provider finding-to-repair dependency and useful negative control, but no evidence of unauthorized or cross-operator coordination."
+    }
+  ],
+  "adjacent_controls": [
+    {
+      "record": "EffortlessMetrics/ripr-swarm pull request 8765",
+      "assessment": "A Gemini suggestion is explicitly declined by Claude; this is a recipient non-use control rather than downstream adoption."
+    },
+    {
+      "record": "EffortlessMetrics/ripr-swarm pull request 8802",
+      "assessment": "A human-requested Claude pull request receives a Gemini finding and an Actions result, but no downstream repair was public at observation time."
+    },
+    {
+      "record": "qivo pull request 157 and kyverno pull request 18050",
+      "assessment": "Automated findings are followed by human-account replies or repairs; the recipient autonomous identity is not verified."
+    },
+    {
+      "record": "verdaccio pull request 6209 and pnpm pull request 16985",
+      "assessment": "They preserve ordinary multi-bot review or an agent-authored summary without a specific bot finding consumed by a verified autonomous recipient."
+    }
+  ],
+  "cross_record_assessment": {
+    "original_observation": "Two public pull-request timelines preserve specific review-service findings followed by matching authenticated Claude commits and direct acknowledgments.",
+    "supported_coordination": "Cross-provider review-result transfer and downstream semantic use are supported in both records.",
+    "verified_participants": "Distinct public application/account identities are verified at the comment and commit layers. Independent operator ownership is not verified.",
+    "operator_boundary": "No boundary crossing is supported. One pull request is explicitly human-requested and both sequences use installed review services plus a repository-authorized implementation agent inside ordinary pull-request workflow.",
+    "subjective_intent": "No rogue intent is established or inferred from agent attribution, direct replies or multi-provider participation.",
+    "provider_attribution": "GitHub publicly attributes the comments and commits to Devin, CodeAnt, CodeRabbit and Claude identities; those labels do not by themselves establish underlying model execution or operator independence.",
+    "current_activity": "Both pull requests merged on 2026-10-18. Their public timelines establish completed review workflows, not a currently active unauthorized population.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "prior_reporting_check": {
+    "checked_on": "2026-10-18",
+    "exact_expressions": [
+      "\"module_value_use honors enclosing-scope shadows\"",
+      "\"Added: the scope-shadow test now has a namespace case\"",
+      "\"Refresh scanned artist names when Simpler Artist Names changes\"",
+      "\"a scan of one root only saves the library-wide checkpoint\"",
+      "\"ecf282eeb3728c33b50793cf208983d821025b0c\"",
+      "\"be742585d3efaee29e92062aab5fbc57d289dba4\"",
+      "\"register module_value_use hardening tests; add namespace shadow negative\"",
+      "\"Address review: pin preference per scan, count unreadable folders, keep manual artist edits, single-root scans don't save checkpoint\""
+    ],
+    "indexes_checked": [
+      "GitHub pull-request search",
+      "GitHub code search",
+      "Routine web search",
+      "Higher-recall web search"
+    ],
+    "result": "Exact phrase searches located only the originating pull requests. GitHub code search returned no indexed default-branch match for the two full commit identifiers or titles. Routine web search returned unrelated lexical noise, and higher-recall searches for both commit identifiers and titles returned no result.",
+    "bounded_statement": "No prior coordination report was located for these exact identifiers and phrases across the four checked search methods as of 2026-10-18. This bounded absence is not proof of novelty and does not turn authorized review workflows into rogue coordination.",
+    "candidate_audit_triggered": false,
+    "reason": "The original chains pass the transfer/use gate but fail the separate-operator and authorization-crossing gates."
+  },
+  "limitations": [
+    "Capped and overlapping search results are locator coverage, not a census of pull requests, agents or incidents.",
+    "GitHub application and commit attribution verifies public identities but not hidden model execution, operator ownership or authorization details beyond the published workflow.",
+    "Temporal and semantic correspondence supports downstream use but does not prove unsupervised execution.",
+    "Pull-request installation and repository governance can authorize cross-provider activity without exposing every private configuration detail.",
+    "Search absence does not establish novelty."
+  ],
+  "next_cursor": {
+    "exact_queries": [
+      "\"Generated by Claude Code\" \"devin-ai-integration\" in:comments",
+      "\"Generated by Claude Code\" \"codeant-ai\" in:comments",
+      "\"Written by an agent\" \"gemini-code-assist\" in:comments"
+    ],
+    "record_priority": "Prefer a public timeline that binds a specific machine-produced finding or artifact to a recipient action, then independently authenticates different operators and shows that their cooperation exceeded the repository's configured review or delegation scope.",
+    "do_not_reopen_without_new_evidence": [
+      "EffortlessMetrics/ripr-swarm pull request 8785",
+      "CHEYCKIT/lokal pull request 243"
+    ],
+    "reopen_trigger": "Primary evidence of independent operator ownership, activity outside the installed review workflow, or an authorization violation that materially changes either boundary assessment."
+  },
+  "safety": {
+    "retrieval": "Read-only public repository pages, pull-request timelines, commit metadata and search indexes only.",
+    "not_performed": [
+      "No recovered code, command, test or agent runtime was executed.",
+      "No package was installed and no scan, review, message, reaction, vote or account action was submitted.",
+      "No participant was contacted and no sink, unlisted room or target system was accessed."
+    ],
+    "publication": "Only public record links, timestamps, Git identifiers, domain-level summaries and reasoning are retained; raw payload bodies, credentials, tokens, personal addresses and private logs are omitted."
+  }
+}

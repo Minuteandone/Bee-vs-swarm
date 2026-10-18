@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "purpose": "Resume the exact review-provenance cursors, then test populated handoff and two-agent relay records for concrete sender-to-recipient dependence, downstream use and an operator boundary.",
+  "method": {
+    "selection": "Run the three saved Pass 91 cursors first, rotate through higher-arity result-use and handoff schemas, then fully read the strongest populated operational logs before checking their governance and commit provenance.",
+    "read_only_limits": "Only existing public GitHub files, commit metadata, indexed excerpts and public web search results were read. No repository code was executed, no package was installed, no agent runtime was invoked, no participant was contacted and no target system was probed.",
+    "falsification_tests": [
+      "Require an exact transfer to precede a recipient read, repair or other semantically matching action.",
+      "Distinguish repository-local agent labels from independently authenticated autonomous principals.",
+      "Check primary governance for user assignment, coordinator control, standing authorization and designed review gates.",
+      "Reject deterministic demos, benchmark replays, implementation schemas, fixtures, single-owner orchestration and observer summaries before considering a candidate."
+    ]
+  },
+  "scope": {
+    "global_query_snapshot": {
+      "unique_query_expressions": 49,
+      "returned_row_occurrences": 365,
+      "queries_at_50_result_cap": 4,
+      "zero_result_queries": 25,
+      "note": "Counts are one bounded observation on 2026-10-18 per exact expression. Queries overlap heavily; rows are indexed paths, not messages, agents or incidents."
+    },
+    "selected_repositories": 3,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_accounting": {
+    "resumed_exact_cursors": [
+      {
+        "query": "\"review_artifact_sha256\" \"repair_commit_sha\" \"rereview_artifact_sha256\" \"operator_principal_id\"",
+        "returned_rows": 2,
+        "classification": "Self-index only."
+      },
+      {
+        "query": "\"source_review_id\" \"repair_commit\" \"rereview_id\" \"recipient_operator_id\"",
+        "returned_rows": 2,
+        "classification": "Self-index only."
+      },
+      {
+        "query": "\"finding_ids_consumed\" \"repair_run_id\" \"reviewer_principal\" \"repair_principal\"",
+        "returned_rows": 2,
+        "classification": "Self-index only."
+      }
+    ],
+    "rotated_queries": [
+      {"query": "\"sender_principal_id\" \"recipient_principal_id\" \"message_digest\" \"applied_at\"", "returned_rows": 0},
+      {"query": "\"from_operator_id\" \"to_operator_id\" \"artifact_sha256\" \"consumed_at\"", "returned_rows": 0},
+      {"query": "\"reviewer_identity\" \"author_identity\" \"fix_commit\" \"verdict\"", "returned_rows": 0},
+      {"query": "\"review_actor\" \"repair_actor\" \"reviewed_sha\" \"repair_sha\"", "returned_rows": 0},
+      {"query": "\"review_event_id\" \"finding_ids\" \"resolution_commit\" \"rereview\"", "returned_rows": 0},
+      {"query": "\"review_id\" \"findings_consumed\" \"repair_commit_sha\"", "returned_rows": 0},
+      {"query": "\"handoff_message_id\" \"consumer_run_id\" \"artifact_digest\"", "returned_rows": 0},
+      {"query": "\"producing_agent\" \"consuming_agent\" \"artifact_digest\" \"used\"", "returned_rows": 0},
+      {"query": "\"from_session\" \"to_session\" \"artifact_path\" \"acknowledged\"", "returned_rows": 4},
+      {"query": "\"sender_run_id\" \"recipient_run_id\" \"result_hash\" \"used_at\"", "returned_rows": 3},
+      {"query": "\"source_agent\" \"target_agent\" \"consumed_at\" \"output_hash\"", "returned_rows": 3},
+      {"query": "\"agent_sender\" \"agent_recipient\" \"downstream_commit\"", "returned_rows": 0},
+      {"query": "\"recipient_actor_id\" \"source_message_id\" \"applied_at\"", "returned_rows": 0},
+      {"query": "\"depends_on_artifact\" \"producer_agent\" \"consumer_agent\"", "returned_rows": 0},
+      {"query": "\"task_result_id\" \"accepted_by_agent\" \"downstream\"", "returned_rows": 0},
+      {"query": "\"review_receipt\" \"repair_commit\" \"rereview\"", "returned_rows": 7},
+      {"query": "\"finding_id\" \"resolved_by_commit\" \"reviewer_agent\"", "returned_rows": 0},
+      {"query": "\"reviewed_commit_sha\" \"repair_commit_sha\" \"review_agent\"", "returned_rows": 0},
+      {"query": "\"source_review\" \"repair_commit\" \"rereview\"", "returned_rows": 4},
+      {"query": "\"review_findings\" \"fix_commit\" \"re_review\"", "returned_rows": 10},
+      {"query": "\"reviewed_sha\" \"fixed_sha\" \"reviewer\" \"approved\"", "returned_rows": 1},
+      {"query": "\"finding_ids\" \"fixed_in_commit\" \"reviewer\"", "returned_rows": 1},
+      {"query": "\"original_review_id\" \"resolution_commit\" \"verification_review_id\"", "returned_rows": 0},
+      {"query": "\"review_message_id\" \"fix_commit\" \"verified_by\"", "returned_rows": 0},
+      {"query": "\"type\":\"handoff\" \"from_agent\" \"to_agent\" \"task\"", "returned_rows": 33},
+      {"query": "\"event\":\"handoff\" \"sender\" \"recipient\" \"commit\"", "returned_rows": 33},
+      {"query": "\"handoff_requested\" \"transferable_to\" \"commit\"", "returned_rows": 1},
+      {"query": "\"from\":\"agent-\" \"to\":\"agent-\" \"type\":\"handoff\"", "returned_rows": 0},
+      {"query": "\"sender\":\"agent\" \"recipient\":\"agent\" \"consumed\"", "returned_rows": 0},
+      {"query": "\"delivered_at\" \"consumed_at\" \"from_agent\"", "returned_rows": 50, "capped": true},
+      {"query": "\"handoff_id\" \"recipient\" \"artifact\" \"accepted\"", "returned_rows": 50, "capped": true},
+      {"query": "\"handoff_from\" \"handoff_to\" \"result\" \"used\"", "returned_rows": 50, "capped": true},
+      {"query": "\"source_agent_id\" \"target_agent_id\" \"acknowledged_at\" \"artifact\"", "returned_rows": 20},
+      {"query": "\"delegated_by\" \"accepted_by\" \"result_artifact\"", "returned_rows": 0},
+      {"query": "\"task_result\" \"recipient_agent\" \"applied\" \"commit\"", "returned_rows": 18},
+      {"query": "\"review_findings_triaged\" \"review_passed\" \"merge_completed\"", "returned_rows": 1},
+      {"query": "\"event\":\"agent_message\" \"from\" \"to\" \"task_id\" \"result\"", "returned_rows": 50, "capped": true},
+      {"query": "\"message_type\":\"task_result\" \"in_reply_to\" \"status\":\"applied\"", "returned_rows": 0},
+      {"query": "\"from_agent\" \"to_agent\" \"artifact_sha256\" \"accepted_at\"", "returned_rows": 12},
+      {"query": "\"reviewer\":\"codex\" \"fixed_sha\" \"Approved\"", "returned_rows": 1},
+      {"query": "\"kind\":\"handoff\" \"sender_agent\" \"recipient_agent\" \"artifact\"", "returned_rows": 0},
+      {"query": "\"role\":\"reviewer\" \"finding\" \"fixed_sha\"", "returned_rows": 0},
+      {"query": "\"message_id\" \"sender_agent\" \"recipient_agent\" \"result_artifact\"", "returned_rows": 7},
+      {"query": "\"handoff_id\" \"consumed_by_agent\" \"result_commit\"", "returned_rows": 0},
+      {"query": "\"task_output_sha256\" \"recipient_agent_id\" \"used_at\"", "returned_rows": 0},
+      {"query": "\"source_task\" \"recipient_task\" \"applied_commit\"", "returned_rows": 0}
+    ],
+    "screening_summary": "Most nonselected rows were implementation, schema, documentation, test, fixture or self-index paths. Full reads were reserved for the populated PromptChain handoff/event logs, the XYZ-forge final-QA relay and evidence ledger, and one adjacent IBM Bob recording with explicit handoffs and downstream reads."
+  },
+  "selected_original_records": [
+    {
+      "id": "promptchain-handoff-and-review-repair-chain",
+      "repository": "DengHaitao-2022/PromptChain",
+      "pinned_commit": "b1d8feae0a6254b889a68c1174f64799db3e09bd",
+      "event_span_utc": {
+        "start": "2026-03-08T10:00:05Z",
+        "end": "2026-03-10T07:15:40Z"
+      },
+      "records": [
+        {
+          "path": "specs/002-content-gen-mvp1/subagent-handoffs.jsonl",
+          "git_blob_sha": "28c4c136c02b36da8950a9d74ea4b877db1dec01",
+          "observation": "One exact agent-5 to agent-0 lock-conflict handoff identifies the conflicting file, branch heads and requested resolution; the sender states it will not continue without transfer or integration."
+        },
+        {
+          "path": "specs/002-content-gen-mvp1/subagent-events.jsonl",
+          "git_blob_sha": "16d0cd9ce1f30262299325dd31735cd071344091",
+          "observation": "A 331-event operational log records the named recipient resolving the conflict at commit 085dd89f, returning the branch to agent 5, a coordinator triaging exact review findings, owners making matching repairs, rereviews passing and the round being merged."
+        },
+        {
+          "path": "AGENTS.md",
+          "git_blob_sha": "711427aa699aaa1d144355fbdb6fb31af9639df1",
+          "observation": "Primary governance assigns frontend execution to the user's IDE assistant, Codex to coordination/review/merge gates, canonical shared logs to the coordinator, and branch synchronization to the named owner unless the user authorizes the coordinator."
+        }
+      ],
+      "semantic_dependency": [
+        "The handoff precedes agent-0's matching conflict-resolution commit 085dd89f687511f8c8de580c1b6813ed9bcdff34 and a recipient record making that commit transferable back to agent 5.",
+        "The coordinator later identifies exact branch-specific defects. Agent 3 records commit 87491ce3 for its three findings; agent 2 records 626d988 for the fact-check findings; agent 4 records 2c6aaa049fd032e131e3a83d9c9dc3985eae2271 for the publish/provenance findings. Later records pass the repaired branches and complete integration."
+      ],
+      "participant_provenance": "The public log distinguishes agent-0 through agent-5 and coordinator roles, but the selected reachable repair commits are authored and committed by the same repository-owner account, DengHaitao-2022. The role labels and model-switch fields are repository-local evidence, not independently authenticated operator identities.",
+      "operator_boundary": "Not crossed. AGENTS.md explicitly defines the user, IDE assistant, Codex coordinator, file ownership, shared logs, review gates and the circumstances in which the coordinator may perform synchronization. The observed cooperation implements that authorized design.",
+      "assessment": "A genuine sender-to-recipient handoff with later recipient use and a second genuine review-to-repair chain, but a designed, user-governed development team rather than a rogue-swarm candidate."
+    },
+    {
+      "id": "xyz-forge-gh1046-final-qa-relay",
+      "repository": "HiQS-Labs/XYZ-forge",
+      "pinned_commit": "2f85f140350199cb29ddf485914041b09d0fb42e",
+      "event_span": {
+        "start_date": "2026-10-12",
+        "last_exact_commit_at": "2026-10-13T03:56:03Z"
+      },
+      "records": [
+        {
+          "path": "relay-system/2026-10-12/gh1046-final-qa.md",
+          "git_blob_sha": "58682989b8c6f454c008f3602341bb1d48694393",
+          "observation": "Codex Round 1 rejects a null-commit crash and bounds two wording claims; claude-a records dispositions and a matching repair; Codex Round 2 approves after citing the repaired lines and red/green evidence."
+        },
+        {
+          "path": "TESTS-RESULTS/2026-10-12+GH-1046/provenance.jsonl",
+          "git_blob_sha": "bc8133c5cbb8dec4f00e88005abe1f98a767c202",
+          "observation": "The evidence ledger binds pre-fix 66cd4701, repair cba245ae6e62a5583405bf93c275ca5b3054b57a, the review receipt and passing probe/suite evidence."
+        },
+        {
+          "path": "PROJECT/3-COMPLETED/GH-1046-COPY-NOT-LINK.md",
+          "git_blob_sha": "a9053349579ac19838c41f7d24ead8582e9db292",
+          "observation": "The completed project record names the owner as operator and records the Codex/Claude relay as an expected project gate."
+        },
+        {
+          "path": "AGENTS.md",
+          "git_blob_sha": "8b73dc62e13b09c6358868744b21d5d905b7fef6",
+          "observation": "Standing authorization covers operator-configured AI implementation and independent review, and the builder/orchestrator section mechanically requires a peer/Codex QA receipt."
+        }
+      ],
+      "semantic_dependency": "The Round 1 crash finding identifies the accepted commit=null receipt. Commit cba245ae normalizes null or missing source/commit values; the producer receipt points to the exact fix and probe; the next Codex turn approves that correction.",
+      "participant_provenance": "Codex and claude-a are distinct relay labels, but both selected commits are authored and committed by GitHub account noelsaw1. A Claude co-author trailer does not independently authenticate another operator.",
+      "operator_boundary": "Not crossed. The setup calls this a local single-operator CLI, the project frontmatter says owner: operator, and AGENTS.md grants standing authorization while requiring the exact relay pattern observed.",
+      "assessment": "A complete two-agent review, repair and rereview dependency; explicitly designed and operator-authorized, so not a rogue-swarm candidate."
+    },
+    {
+      "id": "ibm-bob-autoscale-mock-handoff-chain",
+      "repository": "jim2107054/ibm-bob-2",
+      "pinned_commit": "398e1d1aed0a657cba5e70b75bdb7cbab900037f",
+      "event_span_utc": {
+        "start": "2026-09-26T11:44:44Z",
+        "end": "2026-09-26T11:45:33Z"
+      },
+      "records": [
+        {
+          "path": "recordings/autoscale_20260926-174444.jsonl",
+          "git_blob_sha": "f2877cea13137e22a5e50b79d7e44752c73b7a06",
+          "observation": "The 687-record run contains six handoffs. Recipients read exact handed-off pointers and produce dependent requirements, design, review, code, test and release artifacts; the final total reports twelve agents and six handoffs."
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "172cdc4b1f9b9bfa8673a612340d72411d5123e4",
+          "observation": "The project describes a human-led delivery pipeline, replayable recordings, a mock default, scripted-agent fallback and a demo autoscale run whose runtime agents use scripted actions rather than LLM calls."
+        }
+      ],
+      "semantic_dependency": "The event stream has exact transfer-and-use edges: each downstream role reads the handed-off pointers before writing a new dependent artifact. The release manager reads code, test-plan and infrastructure pointers before producing release notes and a checklist.",
+      "participant_provenance": "The run itself declares model=mock and provider=mock; spawned role IDs are deterministic runtime labels rather than independently authenticated autonomous participants.",
+      "operator_boundary": "Not crossed. The README frames the system as a human-controlled AI team, while this exact recording marks synthetic load, scripted actions and benchmark auto-approval.",
+      "assessment": "A strong positive control for explicit handoff and downstream-use telemetry, but an intentional deterministic benchmark, not an original rogue-swarm candidate."
+    }
+  ],
+  "cross_record_assessment": {
+    "original_observation": "PromptChain and XYZ-forge preserve concrete causal dependencies in owner-published operational records; the IBM Bob recording preserves an even denser handoff/use graph.",
+    "supported_coordination": "Authorized multi-role software development and deterministic benchmark orchestration.",
+    "verified_participants": "GitHub accounts and repository-local role IDs are verified as public record fields. Distinct autonomous principals under separate operators are not verified.",
+    "operator_boundary": "Primary governance affirmatively places every selected exchange inside a user-, operator- or benchmark-defined workflow.",
+    "subjective_intent": "No rogue intent is established or inferred from agent labels, model labels, conflict resolution, review independence or task-result use.",
+    "provider_attribution": "XYZ-forge names configured vendors and PromptChain records model routing, but these workflow fields do not authenticate the actors behind each turn. The IBM selected run is explicitly mock.",
+    "current_activity": "Historical committed records and current repository governance do not establish an active rogue population.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "prior_reporting_check": {
+    "checked_on": "2026-10-18",
+    "queries": [
+      "\"DengHaitao-2022/PromptChain\" agent handoff review findings",
+      "\"HiQS-Labs/XYZ-forge\" GH-1046 Codex Claude relay",
+      "\"autoscale_20260926-174444\" OR \"jim2107054/ibm-bob-2\""
+    ],
+    "result": "The bounded web response located no indexed PromptChain or selected IBM-recording report. It returned twelve results for XYZ-forge: primarily the repository's own relay documentation/issues plus directory or social mirrors describing the designed harness ecosystem, not an independent report of the GH-1046 exchange.",
+    "bounded_statement": "No prior coordination report was located in this exact three-query scope as of 2026-10-18. That does not establish general novelty, and none of the three records passes the separate-operator or rogue-behavior gates.",
+    "candidate_audit_triggered": false,
+    "reason": "Primary authorization evidence excludes all three families before candidate promotion."
+  },
+  "limitations": [
+    "GitHub code search has no completeness guarantee, token-level matching creates false positives, and four expressions reached the requested 50-result cap.",
+    "The PromptChain event log is repository-authored telemetry; it does not cryptographically bind each role label to a separate model process or operator.",
+    "The XYZ-forge relay supplies strong semantic causality but only local role labels and one repository owner account.",
+    "The IBM recording demonstrates the telemetry shape sought by the investigation, but the exact run is deterministic mock/demo evidence and cannot support autonomous-participant attribution.",
+    "Only the strongest populated families were read in full; other matched paths were screened from indexed excerpts and paths as bounded locator coverage."
+  ],
+  "publication_safety": {
+    "included": "Pinned public record links, Git blob hashes, commit hashes, event times, domain-level summaries, query scope and limitations.",
+    "omitted": "Local absolute worktree paths, payload bodies, credentials, tokens, personal addresses, private logs and any instruction embedded in retrieved agent records."
+  },
+  "next_cursor": {
+    "schema_queries": [
+      "\"sender_operator_id\" \"recipient_operator_id\" \"handoff_artifact_sha256\" \"recipient_action_sha256\"",
+      "\"source_principal_proof\" \"recipient_principal_proof\" \"consumed_result_id\"",
+      "\"external_sender_run_id\" \"recipient_run_id\" \"dependent_commit_sha\" \"authorization_scope\""
+    ],
+    "record_cursor": "Prefer immutable exchange records that bind a task-bearing sender artifact to a recipient action while authenticating distinct principals and operator ownership. Do not reopen PromptChain, XYZ-forge GH-1046 or the IBM mock recording without new public evidence that changes participant provenance or authorization."
+  }
+}

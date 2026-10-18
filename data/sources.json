@@ -6118,6 +6118,121 @@
       "commit_sha": "548ff698a66c8552736c7028f1a37d75223e18c8",
       "commit_actor": "shuhei-suzuki",
       "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-promptchain-handoff-log-b1d8feae",
+      "url": "https://github.com/DengHaitao-2022/PromptChain/blob/b1d8feae0a6254b889a68c1174f64799db3e09bd/specs/002-content-gen-mvp1/subagent-handoffs.jsonl",
+      "role": "Primary direct conflict handoff from agent 5 to agent 0",
+      "published": "2026-03-08",
+      "event_at": "2026-03-08T10:00:05Z",
+      "git_blob_sha": "28c4c136c02b36da8950a9d74ea4b877db1dec01",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-promptchain-event-log-b1d8feae",
+      "url": "https://github.com/DengHaitao-2022/PromptChain/blob/b1d8feae0a6254b889a68c1174f64799db3e09bd/specs/002-content-gen-mvp1/subagent-events.jsonl",
+      "role": "Primary 331-event resolution, review, repair, rereview and merge ledger",
+      "published": "2026-03-10",
+      "event_span_utc": {"start": "2026-03-09T09:58:41Z", "end": "2026-03-10T07:24:00Z"},
+      "git_blob_sha": "16d0cd9ce1f30262299325dd31735cd071344091",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-promptchain-agents-b1d8feae",
+      "url": "https://github.com/DengHaitao-2022/PromptChain/blob/b1d8feae0a6254b889a68c1174f64799db3e09bd/AGENTS.md",
+      "role": "Primary user, IDE assistant, coordinator, ownership and merge-gate governance",
+      "published": "2026-05-31",
+      "git_blob_sha": "711427aa699aaa1d144355fbdb6fb31af9639df1",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-promptchain-conflict-resolution-085dd89f",
+      "url": "https://github.com/DengHaitao-2022/PromptChain/commit/085dd89f687511f8c8de580c1b6813ed9bcdff34",
+      "role": "Primary recipient-side conflict resolution commit matching the direct handoff",
+      "published": "2026-03-09",
+      "event_at": "2026-03-09T10:07:42Z",
+      "commit_sha": "085dd89f687511f8c8de580c1b6813ed9bcdff34",
+      "commit_actor": "DengHaitao-2022",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-promptchain-review-repair-2c6aaa04",
+      "url": "https://github.com/DengHaitao-2022/PromptChain/commit/2c6aaa049fd032e131e3a83d9c9dc3985eae2271",
+      "role": "Primary repair commit matching publish-snapshot and provenance review findings",
+      "published": "2026-03-10",
+      "event_at": "2026-03-10T03:45:49Z",
+      "commit_sha": "2c6aaa049fd032e131e3a83d9c9dc3985eae2271",
+      "commit_actor": "DengHaitao-2022",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-xyz-gh1046-final-qa-2f85f140",
+      "url": "https://github.com/HiQS-Labs/XYZ-forge/blob/2f85f140350199cb29ddf485914041b09d0fb42e/relay-system/2026-10-12/gh1046-final-qa.md",
+      "role": "Primary Codex finding, producer disposition and Codex rereview relay",
+      "published": "2026-10-13",
+      "git_blob_sha": "58682989b8c6f454c008f3602341bb1d48694393",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-xyz-gh1046-provenance-2f85f140",
+      "url": "https://github.com/HiQS-Labs/XYZ-forge/blob/2f85f140350199cb29ddf485914041b09d0fb42e/TESTS-RESULTS/2026-10-12%2BGH-1046/provenance.jsonl",
+      "role": "Primary pre-fix, repair, red-green and final-QA evidence ledger",
+      "published": "2026-10-13",
+      "git_blob_sha": "bc8133c5cbb8dec4f00e88005abe1f98a767c202",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-xyz-gh1046-completed-2f85f140",
+      "url": "https://github.com/HiQS-Labs/XYZ-forge/blob/2f85f140350199cb29ddf485914041b09d0fb42e/PROJECT/3-COMPLETED/GH-1046-COPY-NOT-LINK.md",
+      "role": "Primary operator ownership and expected relay-gate context",
+      "published": "2026-10-13",
+      "git_blob_sha": "a9053349579ac19838c41f7d24ead8582e9db292",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-xyz-agents-2f85f140",
+      "url": "https://github.com/HiQS-Labs/XYZ-forge/blob/2f85f140350199cb29ddf485914041b09d0fb42e/AGENTS.md",
+      "role": "Primary standing authorization and designed builder-reviewer gate context",
+      "published": "2026-10-18",
+      "git_blob_sha": "8b73dc62e13b09c6358868744b21d5d905b7fef6",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-xyz-gh1046-repair-cba245ae",
+      "url": "https://github.com/HiQS-Labs/XYZ-forge/commit/cba245ae6e62a5583405bf93c275ca5b3054b57a",
+      "role": "Primary repair commit matching the final-QA null-provenance finding",
+      "published": "2026-10-13",
+      "event_at": "2026-10-13T03:55:01Z",
+      "commit_sha": "cba245ae6e62a5583405bf93c275ca5b3054b57a",
+      "commit_actor": "noelsaw1",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-xyz-gh1046-relay-attestation-602be59e",
+      "url": "https://github.com/HiQS-Labs/XYZ-forge/commit/602be59e1af50f2345037f4f7bfaeb999b0c723f",
+      "role": "Primary producer disposition and repair-evidence relay commit",
+      "published": "2026-10-13",
+      "event_at": "2026-10-13T03:56:03Z",
+      "commit_sha": "602be59e1af50f2345037f4f7bfaeb999b0c723f",
+      "commit_actor": "noelsaw1",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-ibm-bob-autoscale-recording-398e1d1a",
+      "url": "https://github.com/jim2107054/ibm-bob-2/blob/398e1d1aed0a657cba5e70b75bdb7cbab900037f/recordings/autoscale_20260926-174444.jsonl",
+      "role": "Primary mock run with six handoffs and exact downstream pointer reads",
+      "published": "2026-10-06",
+      "event_span_utc": {"start": "2026-09-26T11:44:44Z", "end": "2026-09-26T11:45:33Z"},
+      "git_blob_sha": "f2877cea13137e22a5e50b79d7e44752c73b7a06",
+      "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-ibm-bob-readme-398e1d1a",
+      "url": "https://github.com/jim2107054/ibm-bob-2/blob/398e1d1aed0a657cba5e70b75bdb7cbab900037f/README.md",
+      "role": "Primary human-control, replay, mock-default and scripted-demo context",
+      "published": "2026-10-06",
+      "git_blob_sha": "172cdc4b1f9b9bfa8673a612340d72411d5123e4",
+      "observed_at": "2026-10-18T03:30:00Z"
     }
   ]
 }

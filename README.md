@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 17 October 2026 UTC
+## Evidence checkpoint — 18 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 90 rotated from those exhausted scopes into public sender/recipient receipts. One bounded 35-query snapshot returned 565 indexed path occurrences at 484 distinct paths; counts are not a census because identical searches varied and six responses hit the 50-result cap. The strongest original family is 47 committed Agent Mail release-smoke JSON records plus their generator. Three fully parsed receipts prove send, inbox read, acknowledgment, reply and persistence, and the latest deliberately exercises sixty separately sessioned test agents. Primary generating source fixes trivial smoke content, isolated candidate/control arms, test identities and operator-selected workloads, so no task-bearing result use or separate-operator boundary survives. Agent Hub's apparent exchange is likewise a synthetic owner-enrolled security fixture; MAC, Janus and Nyan hits are designed control-plane schemas without populated public run rows. See the [release-smoke and agent-bus controls](data/original-release-smoke-and-agent-bus-controls.json), the preceding [urlscan backlog closure](data/original-urlscan-backlog-closure.json) and the [dated research log](research/2026-10-17.md). Receipts verify transport activity; they do not by themselves establish semantic adoption, independent operators or rogue coordination.
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 91 resumed the exact receipt cursors and rotated toward immutable review → repair → rereview evidence. Fifty-two unique global queries returned 765 overlapping indexed path occurrences; twelve responses reached the 50-result cap and 27 returned zero. Four Nizam-scoped follow-ups added 244 noisy path occurrences. The strongest raw chain is Nizam feature 120: two reviewer lanes reject precise contract defects, later commits change those exact clauses, and both lanes finally approve. A rururunx aggregate likewise binds four findings to a matching design revision and two approvals. These are genuine semantic result-use controls, but primary governance and commit provenance place both inside explicitly operator-authorized, owner-governed workflows; repository-local role labels do not authenticate separate operators. See the [independent review and revision controls](data/original-independent-review-revision-controls.json), the preceding [release-smoke controls](data/original-release-smoke-and-agent-bus-controls.json) and the [dated research log](research/2026-10-18.md). Causal repair does not by itself establish a cross-operator or rogue swarm.
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-17.md)
+- [Latest dated investigation log](research/2026-10-18.md)
+- [Investigation log — 17 October](research/2026-10-17.md)
 - [Investigation log — 16 October](research/2026-10-16.md)
 - [Investigation log — 15 October](research/2026-10-15.md)
 - [Investigation log — 14 October](research/2026-10-14.md)

@@ -5979,6 +5979,145 @@
       "role": "Primary AgentMessage and delivery ORM definition; no populated record",
       "git_blob_sha": "bdff9e9f9440599835aea4cd7033a3e440ee0b86",
       "observed_at": "2026-10-17T21:44:50Z"
+    },
+    {
+      "id": "original-nizam-feature120-validator-mode-a-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/validator/120-mode-a.json",
+      "role": "Primary first Nizam feature-120 validator rejection receipt",
+      "published": "2026-10-14",
+      "git_blob_sha": "b53766ffc939b6e1716aaf63468dfe25f20ffcd8",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-qa-review-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/qa/120-contract-review.json",
+      "role": "Primary parallel Nizam feature-120 QA rejection receipt",
+      "published": "2026-10-14",
+      "git_blob_sha": "565d980c841be7dedb613a4fa22e5dd00168a7a4",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-validator-rev1-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/validator/120-mode-a-rev1.json",
+      "role": "Primary second Nizam validator receipt retaining one portability finding",
+      "published": "2026-10-14",
+      "git_blob_sha": "87ab5b0d2747bc890f412005a0206567f41b65e2",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-qa-rev1-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/qa/120-contract-review-rev1.json",
+      "role": "Primary Nizam QA rereview recording the three original findings resolved",
+      "published": "2026-10-14",
+      "git_blob_sha": "5e15250b536a8f485e66f1834006acc6005f83b2",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-validator-rev2-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/validator/120-mode-a-rev2.json",
+      "role": "Primary final Nizam pre-code validator approval receipt",
+      "published": "2026-10-14",
+      "git_blob_sha": "7133522632ebc61db258f4ba390729580b256f9b",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-qa-rev2-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/qa/120-contract-review-rev2.json",
+      "role": "Primary final Nizam pre-code QA approval receipt",
+      "published": "2026-10-14",
+      "git_blob_sha": "19cfb76f4b12665682f4c973733f199002e7ffaa",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-mode-b-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/validator/120-mode-b.json",
+      "role": "Primary Nizam post-implementation approval receipt with live-adoption limit",
+      "published": "2026-10-14",
+      "git_blob_sha": "fa1f9668e7845db60af0bd0dfb244a55551083d3",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-contract-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/.agent/contracts/120.json",
+      "role": "Primary role-ownership, trust-boundary and Root-authority contract for Nizam feature 120",
+      "git_blob_sha": "1ceca4bf64bbb5ed4e050e0e671eb16784d15f49",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-agents-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/AGENTS.md",
+      "role": "Primary operator-authorized repository-local self-adoption scope",
+      "git_blob_sha": "5b1c1a38d18cec3a223e89c6bcf8f51b6ef06a5c",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-readme-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/README.md",
+      "role": "Primary designed review-workflow and operator-decision context",
+      "git_blob_sha": "79e95783c7092e6d2cc9fa6a35386704f88eace1",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-operator-gates-4e7db5a4",
+      "url": "https://github.com/niq-cnr/nizam-framework/blob/4e7db5a47d753555abd4d724c5d16f2b5eb86c3e/docs/planning/operator_gates.md",
+      "role": "Primary human/operator gate registry limiting automated lifecycle authority",
+      "git_blob_sha": "e125e2c42481f4d18dd25e19db6873fffa59d019",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-revision-c7c62390",
+      "url": "https://github.com/niq-cnr/nizam-framework/commit/c7c62390e75c8fe6e8037533d6d69784870f9670",
+      "role": "Primary revision matching the first schema, prerequisite and capture findings",
+      "published": "2026-10-14",
+      "event_at": "2026-10-14T16:00:14Z",
+      "commit_sha": "c7c62390e75c8fe6e8037533d6d69784870f9670",
+      "commit_actor": "niq-cnr",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-nizam-feature120-revision-54f2caef",
+      "url": "https://github.com/niq-cnr/nizam-framework/commit/54f2caef522da29f936e169f3ca051d110daddce",
+      "role": "Primary revision matching the remaining portable-authority finding",
+      "published": "2026-10-14",
+      "event_at": "2026-10-14T16:11:08Z",
+      "commit_sha": "54f2caef522da29f936e169f3ca051d110daddce",
+      "commit_actor": "niq-cnr",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-rururunx-phase1-reviews-79e4d273",
+      "url": "https://github.com/shuhei-suzuki/rururunx/blob/79e4d27357ae5666c50797bfd9bde1631a30ffba/doc/verification/agent-execution-phase1-reviews.json",
+      "role": "Primary aggregate review, finding-disposition and rereview receipt",
+      "published": "2026-10-05",
+      "git_blob_sha": "b3bdd5a520de13a1763ff10c4aacb374f724cd70",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-rururunx-readme-79e4d273",
+      "url": "https://github.com/shuhei-suzuki/rururunx/blob/79e4d27357ae5666c50797bfd9bde1631a30ffba/README.md",
+      "role": "Primary local supervisor, designed review and human-escalation context",
+      "git_blob_sha": "277c468d1056e20cf2c02acabaff35e43476e3d9",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-rururunx-design-245c64b8",
+      "url": "https://github.com/shuhei-suzuki/rururunx/commit/245c64b898fab65abfac3ff6a5630688c0693a5b",
+      "role": "Primary initially rejected Phase1 design commit",
+      "published": "2026-10-05",
+      "event_at": "2026-10-05T11:05:54Z",
+      "commit_sha": "245c64b898fab65abfac3ff6a5630688c0693a5b",
+      "commit_actor": "shuhei-suzuki",
+      "observed_at": "2026-10-18T01:59:00Z"
+    },
+    {
+      "id": "original-rururunx-revision-548ff698",
+      "url": "https://github.com/shuhei-suzuki/rururunx/commit/548ff698a66c8552736c7028f1a37d75223e18c8",
+      "role": "Primary design revision matching the four reviewer findings",
+      "published": "2026-10-05",
+      "event_at": "2026-10-05T11:17:26Z",
+      "commit_sha": "548ff698a66c8552736c7028f1a37d75223e18c8",
+      "commit_actor": "shuhei-suzuki",
+      "observed_at": "2026-10-18T01:59:00Z"
     }
   ]
 }

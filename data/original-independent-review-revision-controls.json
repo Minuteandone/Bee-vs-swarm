@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "purpose": "Resume exact sender-to-recipient receipt cursors, rotate toward immutable review and repair records, and test whether concrete review-to-revision dependencies cross an operator boundary.",
+  "method": {
+    "selection": "Resume the three Pass 90 exact cursors, run high-arity and lower-arity receipt-field searches, revisit task-result shaped controls, then deeply read the strongest populated reviewer-to-revision families and their operator-governance context.",
+    "read_only_limits": "Only existing public GitHub files, commit metadata and indexed excerpts were read. No repository code was executed, no package was installed, no agent runtime was invoked, no participant was contacted and no external system was probed.",
+    "falsification_tests": [
+      "Require a reviewer finding to precede and semantically match a later revision rather than treating co-located commit IDs as causality.",
+      "Distinguish repository-local role or session labels from independently authenticated autonomous principals.",
+      "Require primary evidence of separate operators and cooperation beyond authorization rather than an owner-designed review workflow.",
+      "Test single-operator orchestration, static review, human phase gates, fixtures, schemas and search-index self-observation before considering a candidate."
+    ]
+  },
+  "scope": {
+    "global_query_snapshot": {
+      "unique_query_expressions": 52,
+      "returned_row_occurrences": 765,
+      "queries_at_50_result_cap": 12,
+      "zero_result_queries": 27,
+      "note": "Counts use one bounded observation per unique query expression. Queries overlap heavily; rows are indexed paths, not messages, agents or incidents."
+    },
+    "repository_scoped_followups": {
+      "repository": "niq-cnr/nizam-framework",
+      "pinned_commit": "4e7db5a47d753555abd4d724c5d16f2b5eb86c3e",
+      "unique_query_expressions": 4,
+      "returned_path_occurrences": 244,
+      "note": "The four queries were repeated once to confirm counts. Generated evidence inputs and token-level matches make the result sets noisy; only fully fetched receipt files are classified."
+    },
+    "logical_query_total": 56,
+    "logical_row_occurrences": 1009,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_accounting": {
+    "resumed_exact_cursors": [
+      {
+        "query": "\"from_principal_id\" \"to_principal_id\" \"payload_hash\" \"reply_to\" \"acknowledged_at\"",
+        "returned_rows": 4,
+        "classification": "Two self-index paths and two previously reviewed Agent Hub implementation/schema paths; no new populated record."
+      },
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" \"dependent_commit\"",
+        "returned_rows": 2,
+        "classification": "Self-index only."
+      },
+      {
+        "query": "\"sender_execution_id\" \"recipient_execution_id\" \"content_sha256\" \"applied_operation_id\"",
+        "returned_rows": 2,
+        "classification": "Self-index only."
+      }
+    ],
+    "high_arity_immutable_receipts": [
+      "\"source_run_id\": \" \"target_run_id\": \" \"artifact_sha256\": \"",
+      "\"producer_run_id\": \" \"consumer_run_id\": \" \"artifact_sha256\": \"",
+      "\"sender_session_id\": \" \"recipient_session_id\": \" \"message_sha256\": \"",
+      "\"source_session_id\": \" \"target_session_id\": \" \"result_sha256\": \"",
+      "\"produced_by_run\": \" \"consumed_by_run\": \" \"sha256\": \"",
+      "\"artifact_hash\": \" \"consumed_by\": \" \"commit_sha\": \"",
+      "\"source_commit\": \" \"reviewer_agent\": \" \"repair_commit\": \"",
+      "\"handoff_id\": \" \"from_run_id\": \" \"to_run_id\": \"",
+      "\"upstream_task_id\": \" \"downstream_task_id\": \" \"artifact_sha\": \"",
+      "\"origin_message_id\": \" \"reply_message_id\": \" \"applied_commit\": \"",
+      "\"message_id\": \" \"acknowledged_at\": \" \"result_commit_sha\": \"",
+      "\"delivery_id\": \" \"read_at\": \" \"used_at\": \" \"payload_hash\": \"",
+      "\"accepted_at\": \" \"artifact_sha256\": \" \"recipient_agent_id\": \"",
+      "\"adopted_at\": \" \"source_agent_id\": \" \"target_agent_id\": \"",
+      "\"recipient_agent_id\": \" \"action_taken\": \" \"message_hash\": \"",
+      "\"result_used\": true \"sender_agent\" \"recipient_agent\"",
+      "\"used_in_commit\": \" \"sender_agent_id\": \" \"recipient_agent_id\": \"",
+      "\"derived_from_message_id\": \" \"agent_id\": \" \"commit_sha\": \""
+    ],
+    "high_arity_result": "All eighteen queries returned zero rows. This is bounded negative coverage, not evidence that no such records exist.",
+    "lower_arity_receipts": [
+      {"query": "\"used_in_commit\" \"sender_agent_id\"", "returned_rows": 0},
+      {"query": "\"applied_commit\" \"message_id\"", "returned_rows": 50, "capped": true},
+      {"query": "\"artifact_sha256\" \"consumed_by\"", "returned_rows": 50, "capped": true},
+      {"query": "\"artifact_sha256\" \"used_by\"", "returned_rows": 50, "capped": true},
+      {"query": "\"result_sha256\" \"consumer\"", "returned_rows": 50, "capped": true},
+      {"query": "\"input_artifact_sha256\" \"output_commit_sha\"", "returned_rows": 0},
+      {"query": "\"handoff_id\" \"accepted_at\" \"from_agent\"", "returned_rows": 50, "capped": true},
+      {"query": "\"reply_to\" \"accepted_at\" \"sender_agent_id\"", "returned_rows": 50, "capped": true},
+      {"query": "\"depends_on_message_id\" \"agent_id\"", "returned_rows": 35},
+      {"query": "\"triggered_by_message_id\" \"commit_sha\"", "returned_rows": 13},
+      {"query": "\"source_message_id\" \"resulting_commit_sha\"", "returned_rows": 1},
+      {"query": "\"upstream_result_id\" \"downstream_task_id\"", "returned_rows": 0},
+      {"query": "\"consumed_artifact_id\" \"agent_run_id\"", "returned_rows": 2},
+      {"query": "\"evidence_digest\" \"reviewer_agent\" \"repair_commit\"", "returned_rows": 0},
+      {"query": "\"reviewed_commit\" \"fix_commit\" \"agent\"", "returned_rows": 50, "capped": true},
+      {"query": "\"producer_task_id\" \"consumer_task_id\"", "returned_rows": 50, "capped": true},
+      {"query": "\"source_task_id\" \"dependent_task_id\" \"output_hash\"", "returned_rows": 3},
+      {"query": "\"in_reply_to\" \"commit_sha\" \"agent_id\"", "returned_rows": 50, "capped": true},
+      {"query": "\"acknowledged_at\" \"commit_sha\" \"message_id\"", "returned_rows": 50, "capped": true},
+      {"query": "\"delivery_receipt\" \"artifact_sha256\"", "returned_rows": 50, "capped": true}
+    ],
+    "task_result_rechecks": [
+      {
+        "query": "\"sender_agent_id\": \"agent-\" \"recipient_agent_id\": \"agent-\" \"acknowledged_at\":" ,
+        "returned_rows": 34,
+        "classification": "Implementation, schema and test paths, plus already reviewed Pseudolife and self-index controls."
+      },
+      {
+        "query": "\"message_type\": \"task_result\" \"sender_agent_id\" \"recipient_agent_id\"",
+        "returned_rows": 27,
+        "classification": "Implementation, specification and test paths; no new raw organic exchange."
+      },
+      {
+        "query": "\"message_type\": \"TASK_RESULT\" \"task_id\": \"\" \"recipient_agent_id\":" ,
+        "returned_rows": 19,
+        "classification": "Implementation, specification and test paths; no new raw organic exchange."
+      }
+    ],
+    "reviewer_receipts": [
+      {"query": "\"reviewer\": \"/root/\" \"reviewed_commit\": \" \"verdict\":" , "returned_rows": 50, "capped": true},
+      {"query": "\"reviewer\": \"/root/\" \"fix_commit\":" , "returned_rows": 0},
+      {"query": "\"record_source\": \"reviewer final response\" \"reviewed_commit\"", "returned_rows": 1},
+      {"query": "\"independence\": \"No other reviewer\" \"reviewed_commit\"", "returned_rows": 0},
+      {"query": "\"agent_id\": \"agent-\" \"reviewed_commit\" \"fix_commit\"", "returned_rows": 0},
+      {"query": "\"reviewer_agent\" \"repair_agent\" \"commit\"", "returned_rows": 0},
+      {"query": "\"assigned_agent\": \" \"reviewer\": \" \"fix_commit\":" , "returned_rows": 0},
+      {"query": "\"review_result\" \"repair_commit\" \"reviewer\"", "returned_rows": 22}
+    ],
+    "nizam_repository_followups": [
+      {"query": "\"reviewer\": \"/root/\" \"reviewed_commit\"", "returned_rows": 56},
+      {"query": "\"feature\": \"120\" \"reviewer\": \"/root/\" \"final_verdict\"", "returned_rows": 95},
+      {"query": "\"feature\": \"120\" \"required_fix\"", "returned_rows": 58},
+      {"query": "\"feature\": \"120\" \"revision_reviewed\"", "returned_rows": 35}
+    ]
+  },
+  "selected_original_records": [
+    {
+      "id": "nizam-feature-120-review-revision-chain",
+      "repository": "niq-cnr/nizam-framework",
+      "pinned_commit": "4e7db5a47d753555abd4d724c5d16f2b5eb86c3e",
+      "event_span_utc": {
+        "start": "2026-10-14T15:39:05Z",
+        "end": "2026-10-14T17:39:44Z"
+      },
+      "records": [
+        {
+          "path": ".agent/validator/120-mode-a.json",
+          "git_blob_sha": "b53766ffc939b6e1716aaf63468dfe25f20ffcd8",
+          "reviewer_label": "/root/validator128",
+          "reviewed_commit": "87ca77e9d95aca042c49cf245ca58e63eb92ee4b",
+          "proposal_commit": "63f3bb9f5794a331207a18a091469b4c08c97c7c",
+          "approved": false,
+          "finding_summary": "Two high-severity findings: schema-invalid transition history and unspecified kind-specific prerequisite rules."
+        },
+        {
+          "path": ".agent/qa/120-contract-review.json",
+          "git_blob_sha": "565d980c841be7dedb613a4fa22e5dd00168a7a4",
+          "reviewer_label": "/root/qa119",
+          "reviewed_commit": "87ca77e9d95aca042c49cf245ca58e63eb92ee4b",
+          "proposal_commit": "63f3bb9f5794a331207a18a091469b4c08c97c7c",
+          "approved": false,
+          "finding_summary": "Three high-severity findings: schema-invalid history, undefined artifact-kind predicates and missing independently pinned execution capture."
+        },
+        {
+          "path": ".agent/validator/120-mode-a-rev1.json",
+          "git_blob_sha": "87ab5b0d2747bc890f412005a0206567f41b65e2",
+          "reviewer_label": "/root/validator128",
+          "reviewed_commit": "a8420a440385a3bdf3ded8147aac05f48d085912",
+          "proposal_commit": "c7c62390e75c8fe6e8037533d6d69784870f9670",
+          "approved": false,
+          "finding_summary": "The original issues are recorded as resolved; one medium portability finding remains because repository-local authority values are algorithm constants."
+        },
+        {
+          "path": ".agent/qa/120-contract-review-rev1.json",
+          "git_blob_sha": "5e15250b536a8f485e66f1834006acc6005f83b2",
+          "reviewer_label": "/root/qa119",
+          "reviewed_commit": "a8420a440385a3bdf3ded8147aac05f48d085912",
+          "proposal_commit": "c7c62390e75c8fe6e8037533d6d69784870f9670",
+          "approved": true,
+          "finding_summary": "All three QA findings are recorded as resolved and independently testable."
+        },
+        {
+          "path": ".agent/validator/120-mode-a-rev2.json",
+          "git_blob_sha": "7133522632ebc61db258f4ba390729580b256f9b",
+          "reviewer_label": "/root/validator128",
+          "reviewed_commit": "cdfc10f79eebd71e53b8192baf15f961a0504069",
+          "proposal_commit": "54f2caef522da29f936e169f3ca051d110daddce",
+          "approved": true,
+          "finding_summary": "The portable authority-binding correction is approved with the earlier fixes preserved."
+        },
+        {
+          "path": ".agent/qa/120-contract-review-rev2.json",
+          "git_blob_sha": "19cfb76f4b12665682f4c973733f199002e7ffaa",
+          "reviewer_label": "/root/qa119",
+          "reviewed_commit": "cdfc10f79eebd71e53b8192baf15f961a0504069",
+          "proposal_commit": "54f2caef522da29f936e169f3ca051d110daddce",
+          "approved": true,
+          "finding_summary": "The narrow portability correction is approved; the record explicitly limits this to a pre-code gate."
+        },
+        {
+          "path": ".agent/validator/120-mode-b.json",
+          "git_blob_sha": "fa1f9668e7845db60af0bd0dfb244a55551083d3",
+          "reviewer_label": "/root/validator128",
+          "reviewed_commit": "b50320bf765dcac9c750c4ad776ba0be23e5cc83",
+          "approved": true,
+          "finding_summary": "Post-implementation approval preserves the explicit limit that live Root adoption still awaits reviewed migration."
+        }
+      ],
+      "semantic_dependency": [
+        "Commit c7c62390 at 2026-10-14T16:00:14Z changes the exact history-schema, artifact-kind and capture-binding clauses identified in the first two rejection receipts.",
+        "The second QA receipt records those three findings as resolved, while the second validator receipt identifies one narrower hard-coded-authority defect.",
+        "Commit 54f2caef at 2026-10-14T16:11:08Z changes the operator-application clause from fixed phase, owner, gate and budget values to values derived from independently pinned authority.",
+        "Thirty-four seconds later the final dispatch commit cdfc10f7 sends that revision to both gates; both final receipts approve it."
+      ],
+      "participant_provenance": "The receipt files distinguish Generator, Root, validator and QA role/session labels, but all selected proposal, dispatch and release commits are authored and committed by the same GitHub account, niq-cnr. The labels are repository-local assertions rather than independently authenticated operators.",
+      "operator_boundary": "Not crossed. AGENTS.md says the operator authorized self-adoption for this repository only, requires both pre-code gates and reserves lifecycle state for the Orchestrator. The contract assigns Root the policy, candidate, receipt, transport, state and reconciliation decisions. The README calls completion and general availability operator decisions.",
+      "alternatives_tested": [
+        "single-owner repository workflow",
+        "designed independent-review gates",
+        "repository-local role labels",
+        "human/operator lifecycle authority",
+        "static and post-implementation review receipts"
+      ],
+      "assessment": "A high-quality original causal review-to-revision chain and a useful positive control for semantic downstream use, but not a separate-operator or rogue-swarm candidate."
+    },
+    {
+      "id": "rururunx-phase1-review-revision-chain",
+      "repository": "shuhei-suzuki/rururunx",
+      "pinned_commit": "79e4d27357ae5666c50797bfd9bde1631a30ffba",
+      "record_path": "doc/verification/agent-execution-phase1-reviews.json",
+      "git_blob_sha": "b3bdd5a520de13a1763ff10c4aacb374f724cd70",
+      "event_span_utc": {
+        "start": "2026-10-05T11:05:54Z",
+        "end": "2026-10-05T11:17:26Z"
+      },
+      "original_observation": "Two reviewer labels reject design commit 245c64b8 with one high- and three medium-severity findings covering premature authority retirement, unfenced legacy writers and failure to prove the actual review input. Revision 548ff698 has a matching repair-oriented commit message and the same receipt records both re-reviews as approved with explicit dispositions for every finding.",
+      "semantic_dependency": "The revised design adds separate result-finalization authority, a concrete legacy-writer fence and read-only source snapshots, directly matching the four requested changes.",
+      "participant_provenance": "Reviewer labels are local /root paths inside one committed aggregate receipt. Both design commits are authored by the repository owner account shuhei-suzuki; the public record does not authenticate separate operators behind the labels.",
+      "operator_boundary": "Not crossed. The README describes a local supervision runtime that deliberately starts reviewers, coordinates approvals and escalates to a human. The receipt calls the work static-only, with no production/native acceptance and a required human Phase2 boundary.",
+      "assessment": "Concrete review-to-revision dependency under an explicitly designed local workflow; no rogue-swarm candidate."
+    }
+  ],
+  "cross_record_assessment": {
+    "original_observation": "Both selected repositories preserve a genuine temporal and semantic dependency: specific review findings are followed by revisions that implement the requested changes and later pass re-review.",
+    "supported_coordination": "Designed review and repair inside owner-governed development workflows.",
+    "verified_participants": "Public repository accounts and repository-local role labels are verified as record fields; distinct autonomous principals or separate operators are not.",
+    "operator_boundary": "Primary context affirmatively places the roles inside one operator-authorized workflow and retains human or Root lifecycle authority.",
+    "subjective_intent": "No rogue intent is established or inferred from role labels, independence claims or revision causality.",
+    "provider_attribution": "Not established. Product/model compatibility labels do not authenticate the actors that produced the committed receipts.",
+    "current_activity": "Historical committed receipts and current governance source do not establish an active rogue population.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "prior_reporting_check": {
+    "triggered_for_new_candidate": false,
+    "reason": "No selected record passed the independently authenticated participant or separate-operator gates. Both families are self-published workflow evidence and exclusions, so a candidate-level novelty audit was not warranted.",
+    "bounded_statement": "No prior coordination report claim is made. The records are original causal controls, not discovery candidates."
+  },
+  "limitations": [
+    "GitHub code search supplies no completeness guarantee, token-level matching produced false positives and twelve global responses reached the requested 50-result cap.",
+    "Repository-local independence statements do not authenticate different operators or even prove the named roles were separate model executions.",
+    "Commit authorship by one account does not prove one human or one process, but it leaves the separate-operator requirement unmet.",
+    "The review-to-revision edge establishes semantic use, not rogue cooperation; both projects explicitly authorize the review workflows.",
+    "Only selected complete chains were deeply parsed; the broader result sets remain bounded locator coverage."
+  ],
+  "next_cursor": {
+    "schema_queries": [
+      "\"review_artifact_sha256\" \"repair_commit_sha\" \"rereview_artifact_sha256\" \"operator_principal_id\"",
+      "\"source_review_id\" \"repair_commit\" \"rereview_id\" \"recipient_operator_id\"",
+      "\"finding_ids_consumed\" \"repair_run_id\" \"reviewer_principal\" \"repair_principal\""
+    ],
+    "record_cursor": "Prefer immutable records that bind an exact review artifact to a later repair and rereview while also authenticating reviewer and repair principals under distinct operators. Do not reopen Nizam feature 120 or the rururunx Phase1 aggregate without new public provenance that changes the operator-boundary assessment."
+  },
+  "publication_safety": "Pinned public paths, Git blob hashes, commit identifiers, event and observation dates, bounded query counts and reasoning are retained. Local test roots, private execution paths, payload bodies, credentials, tokens and personal addresses are omitted."
+}

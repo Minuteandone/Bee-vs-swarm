@@ -6233,6 +6233,134 @@
       "published": "2026-10-06",
       "git_blob_sha": "172cdc4b1f9b9bfa8673a612340d72411d5123e4",
       "observed_at": "2026-10-18T03:30:00Z"
+    },
+    {
+      "id": "original-aican-bus-outbox-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/DevAge/bus/outbox/bus_outbox.jsonl",
+      "role": "Primary public directive, acknowledgment, coordination and status outbox",
+      "published": "2025-11-18",
+      "event_span_utc": {"start": "2025-10-29T08:23:51Z", "end": "2025-11-16T23:37:25Z"},
+      "git_blob_sha": "ea11eae35f12149fea0cd25f3a3c326134b80707",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-aican-gh-ack-pr269-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/DevAge/bus/gh_ack_pr269.jsonl",
+      "role": "Primary two-row owner-committed acknowledgment and merge summary",
+      "published": "2025-10-30",
+      "event_at": "2025-10-30T09:38:12Z",
+      "git_blob_sha": "e1ef033b1cc52532513e701c0d65c621e5f9d920",
+      "commit_sha": "5b2ccd3d3a29b25fe71280ada8f1f9ad24081fde",
+      "commit_actor": "teano-uTTu-9788",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-aican-pr269-helper-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/scripts/unblock_merge_pr_269.sh",
+      "role": "Primary one-shot operator-run merge and outcome-lock helper",
+      "published": "2025-10-30",
+      "git_blob_sha": "2ef72f58457062bf5c5559e29c34ac60e6685b3d",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-aican-pr269-outcome-lock-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/outcome_locks/SOP_v22_consolidation_20251030T091918Z.yaml",
+      "role": "Primary correlated admin-or-automation outcome record",
+      "published": "2025-10-30",
+      "event_at": "2025-10-30T09:19:18Z",
+      "git_blob_sha": "ea100ace7b12c7cc01ba2877aae53a76c799ab42",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-aican-bus-schema-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/DevAge/archive/sops/SOP_v14_BUS_SCHEMA.md",
+      "role": "Primary designed agent identifiers, acknowledgments and correlation schema",
+      "published": "2025-10-26",
+      "git_blob_sha": "62aafa5d406b3317216e131a8e795379f939d8b0",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-aican-sop-v22-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/DevAge/archive/sops/SOP_V22_UNIFIED_AGENTOPS_PROTOCOL.md",
+      "role": "Primary designed two-tier orchestration and authorization context",
+      "published": "2025-10-28",
+      "git_blob_sha": "7c9dc1425eef54ef13e9ae63c40773af43018e8c",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-aican-alignment-assessment-6363bc38",
+      "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/docs/REPO_ALIGNMENT_ASSESSMENT_2025-11-15.md",
+      "role": "Primary later bus inventory and governed-architecture context",
+      "published": "2025-11-15",
+      "git_blob_sha": "5bdae3d1022b7c5f70a35a24abf35cadf064e638",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-omniflow-unita-events-16712235",
+      "url": "https://github.com/dokuczacz/OmniFlowBeta/blob/16712235006baab1ca7a25d9d36ffd0b5f7b515b/experiments/multi_agent_demo/unitA/agent_events.jsonl",
+      "role": "Primary first-thread read-only blocker trace",
+      "published": "2026-01-04",
+      "git_blob_sha": "375765e948591614b7d903effd224c2ead43e7cb",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-omniflow-unita-message-16712235",
+      "url": "https://github.com/dokuczacz/OmniFlowBeta/blob/16712235006baab1ca7a25d9d36ffd0b5f7b515b/experiments/multi_agent_demo/unitA/agent_last_message.md",
+      "role": "Primary blocker message later read by Unit B",
+      "published": "2026-01-04",
+      "git_blob_sha": "e16372552f89e66913e56370b7dbac7423dd1ba4",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-omniflow-unitb-events-16712235",
+      "url": "https://github.com/dokuczacz/OmniFlowBeta/blob/16712235006baab1ca7a25d9d36ffd0b5f7b515b/experiments/multi_agent_demo/unitB/agent_events.jsonl",
+      "role": "Primary second-thread shared-state and Unit A message-read trace",
+      "published": "2026-01-04",
+      "git_blob_sha": "36fd23703f468872b679ea9cb0fadd1f052cb4ea",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-omniflow-unitb-proposal-16712235",
+      "url": "https://github.com/dokuczacz/OmniFlowBeta/blob/16712235006baab1ca7a25d9d36ffd0b5f7b515b/experiments/multi_agent_demo/unitB/proposal_patch.md",
+      "role": "Primary compatible client proposal lacking a recorded Unit A artifact read",
+      "published": "2026-01-04",
+      "git_blob_sha": "4e0da3a3a7960d83e4696a159fc9a00c699f8152",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-omniflow-readme-16712235",
+      "url": "https://github.com/dokuczacz/OmniFlowBeta/blob/16712235006baab1ca7a25d9d36ffd0b5f7b515b/README.md",
+      "role": "Primary beta orchestration and demo-scope context",
+      "published": "2026-01-04",
+      "git_blob_sha": "136f94b3a02d734b0353715f5012cc6402676119",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-sobre-midia-handoff-reconciliation-aca8a8d7",
+      "url": "https://github.com/daiamestre/sitesobremidia/blob/aca8a8d7db2729e23bb29796415a344d7189e7d0/docs/engineering/HANDOFF_RECONCILIATION.md",
+      "role": "Primary owner-supplied, strict-read-only handoff reconciliation",
+      "published": "2026-09-24",
+      "event_at": "2026-09-23",
+      "git_blob_sha": "c79e730b80c275171622aa032c170727b2d44738",
+      "commit_sha": "d3c1a0c25b648abc53adb537e2762e97bbe8b4f4",
+      "commit_actor": "daiamestre",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-sobre-midia-handoff-contract-aca8a8d7",
+      "url": "https://github.com/daiamestre/sitesobremidia/blob/aca8a8d7db2729e23bb29796415a344d7189e7d0/.agents/core/handoff.mjs",
+      "role": "Primary designed handoff validation and one-time-consumption implementation",
+      "published": null,
+      "git_blob_sha": "e8027a115c67b2d11750c7ef6518c6f982724dcb",
+      "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-sobre-midia-agents-aca8a8d7",
+      "url": "https://github.com/daiamestre/sitesobremidia/blob/aca8a8d7db2729e23bb29796415a344d7189e7d0/AGENTS.md",
+      "role": "Primary owner-defined autonomous engineering gates and restrictions",
+      "published": "2026-09-16",
+      "git_blob_sha": "b695e7e7b996e3ee0c8cd71f448f974226b6c3b9",
+      "observed_at": "2026-10-18T07:57:49Z"
     }
   ]
 }

@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "purpose": "Resume the exact sender/recipient-provenance cursors and test public message-bus, two-run demo and handoff-reconciliation records for a task-bearing transfer, dependent recipient use and an operator-defined boundary.",
+  "method": {
+    "selection": "Run the three saved Pass 92 cursors, rotate through exact principal, causation and artifact fields, then fully read the strongest public raw records before checking their governing documentation and commit provenance.",
+    "coverage_note": "An exploratory locator tranche identified candidate repositories. Reproducible coverage counts below are deliberately limited to the fifteen exact expressions rerun and recorded in this snapshot.",
+    "read_only_limits": "Only existing public GitHub files, commit metadata, indexed excerpts and public web-search results were read. No repository code or script was executed, no package was installed, no agent runtime was invoked, no participant was contacted and no target system was probed.",
+    "falsification_tests": [
+      "Require a task-bearing sender record to precede a semantically dependent recipient action, not merely an acknowledgment or matching role label.",
+      "Test whether one local role, one operator-run script, a shared progress snapshot or a common worktree explains the apparent exchange.",
+      "Treat repository-local agent names and bot accounts as labels until distinct autonomous principals and operator control are independently supported.",
+      "Reject designed orchestration, human-pasted handoffs, schemas, fixtures, retries and observer-authored summaries before candidate promotion."
+    ]
+  },
+  "scope": {
+    "exact_query_snapshot": {
+      "unique_query_expressions": 15,
+      "returned_row_occurrences": 26,
+      "external_row_occurrences": 9,
+      "self_repository_row_occurrences": 17,
+      "zero_result_queries": 8,
+      "queries_at_50_result_cap": 0,
+      "note": "Counts are one bounded observation on 2026-10-18. Queries overlap; paths are locators, not messages, agents or incidents."
+    },
+    "selected_repositories": 3,
+    "schema_only_repository_screens": 1,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_accounting": [
+    {
+      "query": "\"sender_operator_id\" \"recipient_operator_id\" \"handoff_artifact_sha256\" \"recipient_action_sha256\"",
+      "returned_rows": 2,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"source_principal_proof\" \"recipient_principal_proof\" \"consumed_result_id\"",
+      "returned_rows": 2,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"external_sender_run_id\" \"recipient_run_id\" \"dependent_commit_sha\" \"authorization_scope\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_uri\" \"artifact_sha256\"",
+      "returned_rows": 9,
+      "classification": "Eight cgallic/kai-cmo-harness implementation, store and skill-contract paths plus one self-index path; no populated run ledger located."
+    },
+    {
+      "query": "\"from\" \"to\" \"correlation_id\" \"causation_id\" \"idempotency_key\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"sender\" \"recipient\" \"downstream_use\" \"artifact_sha256\"",
+      "returned_rows": 6,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"directive_id\" \"acknowledged_by\" \"result_artifact\" \"consumed_by\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"source_message_id\" \"recipient_action_id\" \"dependency_proof\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"agent_events.jsonl\" \"agent_last_message.md\" \"proposal_patch.md\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned; the selected OmniFlow paths were found in the exploratory locator tranche."
+    },
+    {
+      "query": "\"message_bus.jsonl\" \"monitoring_bus.jsonl\" \"correlation_id\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned; the selected AiCan paths were found in the exploratory locator tranche."
+    },
+    {
+      "query": "\"gh_ack_pr269.jsonl\"",
+      "returned_rows": 1,
+      "classification": "AiCan repository-alignment assessment referencing the selected public acknowledgment file."
+    },
+    {
+      "query": "\"HANDOFF_RECONCILIATION.md\" \"owner\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned; the selected Sobre Midia path was found in the exploratory locator tranche."
+    },
+    {
+      "query": "\"review_artifact_sha256\" \"repair_commit_sha\" \"rereview_artifact_sha256\"",
+      "returned_rows": 3,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"source_review_id\" \"repair_commit\" \"rereview_id\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"finding_ids_consumed\" \"repair_run_id\" \"reviewer_principal\"",
+      "returned_rows": 3,
+      "classification": "Self-index only."
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "aican-designed-message-bus-and-operator-run-merge",
+      "repository": "A-iCan/AiCan_2.0",
+      "pinned_commit": "6363bc384c466412ffc98d6eea0007081adbca95",
+      "event_span_utc": {
+        "start": "2025-10-26T00:00:00Z",
+        "end": "2025-11-16T23:37:25Z"
+      },
+      "records": [
+        {
+          "path": "DevAge/bus/outbox/bus_outbox.jsonl",
+          "git_blob_sha": "ea11eae35f12149fea0cd25f3a3c326134b80707",
+          "decoded_bytes": 58767,
+          "nonempty_physical_lines": 335,
+          "observation": "The public outbox contains explicit directives, acknowledgments, coordination rows and completion claims. One CG directive at 09:25 UTC is semantically acknowledged by CC at 09:26 under a different correlation identifier. The exact-correlation H1/E1 chain is a CU-2-attributed directive followed by three CU-2 status rows, so it does not prove a sender-to-distinct-recipient transfer."
+        },
+        {
+          "path": "DevAge/bus/gh_ack_pr269.jsonl",
+          "git_blob_sha": "e1ef033b1cc52532513e701c0d65c621e5f9d920",
+          "observation": "Two owner-committed rows at 2025-10-30T09:38:12Z acknowledge the PR-269 correlation and report the merge and outcome-lock location. The rows assert that GH read a bus relay, but do not independently authenticate a GH process or expose the consumed upstream record."
+        },
+        {
+          "path": "scripts/unblock_merge_pr_269.sh",
+          "git_blob_sha": "2ef72f58457062bf5c5559e29c34ac60e6685b3d",
+          "observation": "The same correlation is hard-coded in a one-shot helper whose header directs the operator to paste and run it in a Cursor terminal. It requires local GitHub credentials, may use an admin merge and writes the outcome lock. This is operator-mediated execution, not evidence of spontaneous cross-operator cooperation."
+        },
+        {
+          "path": "outcome_locks/SOP_v22_consolidation_20251030T091918Z.yaml",
+          "git_blob_sha": "ea100ace7b12c7cc01ba2877aae53a76c799ab42",
+          "observation": "The outcome lock binds the PR correlation to a short commit identifier and labels the result an admin or automation attempt, matching the helper's template."
+        },
+        {
+          "path": "DevAge/archive/sops/SOP_v14_BUS_SCHEMA.md",
+          "git_blob_sha": "62aafa5d406b3317216e131a8e795379f939d8b0",
+          "observation": "The primary schema explicitly defines the agent identifiers, recipient fields, acknowledgments, coordination records and correlation semantics as an intended multi-agent protocol."
+        },
+        {
+          "path": "DevAge/archive/sops/SOP_V22_UNIFIED_AGENTOPS_PROTOCOL.md",
+          "git_blob_sha": "7c9dc1425eef54ef13e9ae63c40773af43018e8c",
+          "observation": "Primary governance defines a two-tier orchestration system, assigns the named roles and requires bus and GitHub relay activity."
+        },
+        {
+          "path": "docs/REPO_ALIGNMENT_ASSESSMENT_2025-11-15.md",
+          "git_blob_sha": "5bdae3d1022b7c5f70a35a24abf35cadf064e638",
+          "observation": "A later repository assessment describes message_bus as operational, gh_ack_pr269 as an unofficial auxiliary file and the overall coordination architecture as intentionally governed."
+        }
+      ],
+      "semantic_dependency": "The public outbox shows immediate semantic acknowledgment and later self-reported results. The PR-269 correlation connects an operator-run script, an acknowledgment file and an outcome lock. But the exact consumed upstream bus row is not preserved in the small selected artifact, and the strongest same-correlation task chain uses the same CU-2 label for directive and completion.",
+      "participant_provenance": "Commit history includes the repository owner, a Cursor-AI account, an installed orchestrator bot and GitHub Actions. Those accounts authenticate public writes, not distinct autonomous principals or separate human operators. The selected GH acknowledgment was committed by the repository owner.",
+      "operator_boundary": "Not crossed. Primary SOPs expressly design the named roles and bus lifecycle; the merge helper requires a person to run it with local credentials and permits an admin override.",
+      "alternative_explanations": [
+        "Single-operator designed orchestration",
+        "Owner-authored status or summary rows",
+        "Scripted materialization and repeated automated directives",
+        "Repository-local role labels without process-level identity proof"
+      ],
+      "assessment": "A rich public control for bus-shaped coordination and correlated artifacts, but not a previously unreported rogue-swarm candidate."
+    },
+    {
+      "id": "omniflow-two-run-shared-state-demo",
+      "repository": "dokuczacz/OmniFlowBeta",
+      "pinned_commit": "16712235006baab1ca7a25d9d36ffd0b5f7b515b",
+      "event_time": "Not present in the selected event rows",
+      "first_commit_observed_for_selected_paths": "2026-01-04T12:51:17Z",
+      "records": [
+        {
+          "path": "experiments/multi_agent_demo/unitA/agent_events.jsonl",
+          "git_blob_sha": "375765e948591614b7d903effd224c2ead43e7cb",
+          "observation": "A separate thread reads one local progress snapshot and ends with a read-only-sandbox blocker rather than a task artifact."
+        },
+        {
+          "path": "experiments/multi_agent_demo/unitA/agent_last_message.md",
+          "git_blob_sha": "e16372552f89e66913e56370b7dbac7423dd1ba4",
+          "observation": "The exposed message says implementation could not proceed and asks for write access."
+        },
+        {
+          "path": "experiments/multi_agent_demo/unitA/proposal_patch.md",
+          "git_blob_sha": "ba18b0abc9b305f0ab63ffd79635106c8252a804",
+          "observation": "A later textual patch proposes a Unit A server, but the selected Unit B trace never reads this file."
+        },
+        {
+          "path": "experiments/multi_agent_demo/unitB/agent_events.jsonl",
+          "git_blob_sha": "36fd23703f468872b679ea9cb0fadd1f052cb4ea",
+          "observation": "A second thread reads the same local progress snapshot and Unit A's blocker message. Its committed trace ends while another search command is still in progress and contains no read of Unit A's proposed patch."
+        },
+        {
+          "path": "experiments/multi_agent_demo/unitB/proposal_patch.md",
+          "git_blob_sha": "4e0da3a3a7960d83e4696a159fc9a00c699f8152",
+          "observation": "The proposed Unit B client is compatible with the shared demo assignment, but the raw trace does not show it consuming any Unit A implementation result."
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "136f94b3a02d734b0353715f5012cc6402676119",
+          "observation": "The repository calls itself a multi-user AI orchestration backend in test/beta mode; the selected records live under multi_agent_demo."
+        }
+      ],
+      "semantic_dependency": "Unit B demonstrably reads Unit A's last message, but that message contains only a blocker. The compatible proposal patches are better explained by a shared task specification; there is no recorded read or use of Unit A's proposal by Unit B.",
+      "participant_provenance": "The two thread IDs are distinct, but both traces use the same local Windows worktree and progress snapshot. No independent principal, account or operator binding is present.",
+      "operator_boundary": "Not established. The path, README and shared state identify an intentional demo inside one repository; the selected paths first appear in one cleanup commit.",
+      "assessment": "A genuine cross-thread read but no task-result transfer-and-use chain and no separate-operator boundary."
+    },
+    {
+      "id": "sobre-midia-owner-pasted-handoff-reconciliation",
+      "repository": "daiamestre/sitesobremidia",
+      "pinned_commit": "aca8a8d7db2729e23bb29796415a344d7189e7d0",
+      "event_date": "2026-09-23",
+      "selected_path_commit_at": "2026-09-24T02:46:57Z",
+      "records": [
+        {
+          "path": "docs/engineering/HANDOFF_RECONCILIATION.md",
+          "git_blob_sha": "c79e730b80c275171622aa032c170727b2d44738",
+          "observation": "The document says its two inputs came from the owner: an official handoff and a takeover report pasted into the conversation. It records a strict read-only reconciliation and explicitly says no code, database, agent configuration or commit was changed."
+        },
+        {
+          "path": ".agents/core/handoff.mjs",
+          "git_blob_sha": "e8027a115c67b2d11750c7ef6518c6f982724dcb",
+          "observation": "The repository contains an implementation contract for registered source and destination roles, task binding and one-time consumption, but no populated episode from this module was located in the checked scope."
+        },
+        {
+          "path": "AGENTS.md",
+          "git_blob_sha": "b695e7e7b996e3ee0c8cd71f448f974226b6c3b9",
+          "observation": "Primary governance grants a controlled autonomous engineering cycle while imposing owner-defined gates and restrictions."
+        }
+      ],
+      "semantic_dependency": "The reconciliation depends on two prior texts, but both were supplied by the owner. It verifies claims without making the downstream system changes that would demonstrate an autonomous recipient using a transferred result.",
+      "participant_provenance": "The Antigravity and Claude labels are document-level attributions. The source record itself identifies the owner as the delivery channel; it does not authenticate autonomous sender and recipient processes.",
+      "operator_boundary": "Not crossed. Human mediation and owner governance are explicit.",
+      "assessment": "A human-mediated handoff and schema control, not an autonomous cross-operator exchange."
+    }
+  ],
+  "cross_record_assessment": {
+    "original_observation": "The selected public records contain real bus rows, two distinct thread identifiers, a cross-thread file read, correlated script and outcome artifacts, and a detailed handoff reconciliation.",
+    "supported_coordination": "Designed repository-local orchestration, a shared-state demo and an owner-mediated audit.",
+    "verified_participants": "Public GitHub accounts, commit authors and repository-local role or thread identifiers are verified only as record fields. Distinct autonomous principals under separate operators are not verified.",
+    "operator_boundary": "No selected family supplies primary evidence of a cross-operator boundary. AiCan and Sobre Midia publish authorization rails; OmniFlow exposes common worktree and shared-state evidence.",
+    "subjective_intent": "No rogue intent is established or inferred from role names, autonomy claims, bot accounts, acknowledgments or task completion prose.",
+    "provider_attribution": "Model and product labels in the records are not process authentication and are not elevated to provider attribution.",
+    "current_activity": "Historical committed records do not establish a currently active autonomous population.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "prior_reporting_check": {
+    "checked_on": "2026-10-18",
+    "queries": [
+      "\"A-iCan/AiCan_2.0\" \"cu2-h1-e1-scaffold\"",
+      "\"A-iCan/AiCan_2.0\" \"pr269-sop-consolidation-20251030T084102Z\"",
+      "\"dokuczacz/OmniFlowBeta\" \"agent_events.jsonl\"",
+      "\"sitesobremidia\" \"HANDOFF_RECONCILIATION\""
+    ],
+    "result": "The returned web results contained no exact target match or independent coordination report for any selected sequence. Generic agent_events.jsonl results were unrelated to OmniFlow.",
+    "bounded_statement": "No prior coordination report was located in this exact four-query scope as of 2026-10-18. This does not establish general novelty, and the selected families fail the recipient-use, participant-provenance or operator-boundary gates independently of reporting coverage.",
+    "candidate_audit_triggered": false,
+    "reason": "Primary design, shared-state and human-mediation evidence excludes candidate promotion."
+  },
+  "limitations": [
+    "GitHub code search is not complete, token-level matching creates false positives and search-result counts can change.",
+    "The 3.5 MB AiCan message_bus blob could not be line-ranged through the connector in this pass; the smaller 58.8 KB public outbox, auxiliary acknowledgment, scripts, outcome lock and governance were inspected instead. Therefore the asserted upstream CU relay in gh_ack_pr269 was not independently reconstructed from the main bus.",
+    "AiCan's outbox is not consistently one JSON object per physical line. A brace scan recovered 73 complete top-level objects from one bounded read, while many physical lines are fragments of pretty-printed or malformed records. Counts are not treated as a message census.",
+    "OmniFlow's selected event rows do not carry event timestamps, and the only path-history commit is a later cleanup; temporal ordering is limited to row order and commit reachability.",
+    "Sobre Midia exposes schema and reconciliation documents, not a populated autonomous handoff receipt."
+  ],
+  "publication_safety": {
+    "included": "Pinned public links, Git blob and commit hashes, non-sensitive event times, counts, domain-level summaries, reasoning, query scope and limitations.",
+    "omitted": "Raw message bodies, local absolute paths, credentials, tokens, personal addresses, private logs, target endpoints and executable instructions embedded in retrieved records."
+  },
+  "next_cursor": {
+    "schema_queries": [
+      "\"sender_event_sha256\" \"recipient_event_sha256\" \"dependent_artifact_sha256\" \"operator_proof\"",
+      "\"source_operator_proof_sha256\" \"recipient_operator_proof_sha256\" \"consumed_at\"",
+      "\"causation_id\" \"recipient_principal_id\" \"authorization_decision\" \"result_sha256\""
+    ],
+    "record_cursor": "Prefer a bounded, line-readable actual-run ledger with an immutable sender artifact, an independently attributable recipient action and operator ownership evidence. Do not reopen AiCan, OmniFlowBeta or Sobre Midia without a new public recipient-side record or provenance that changes the authorization assessment."
+  }
+}

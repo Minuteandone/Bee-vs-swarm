@@ -6361,6 +6361,72 @@
       "published": "2026-09-16",
       "git_blob_sha": "b695e7e7b996e3ee0c8cd71f448f974226b6c3b9",
       "observed_at": "2026-10-18T07:57:49Z"
+    },
+    {
+      "id": "original-universal-code-context-memory-24162e3d",
+      "url": "https://github.com/CWNU-Open-Source-Community/Universal-Code/blob/24162e3da1ae43f10f1dc632402a473374e90779/docs/evidence/context-memory/issue338-real-model.json",
+      "role": "Primary real-provider cross-thread memory retrieval and semantic-use record",
+      "published": "2026-10-16",
+      "event_start_at": "2026-10-16T06:58:27Z",
+      "event_end_at": "2026-10-16T07:05:41Z",
+      "git_blob_sha": "b0dac48d03b62079eaf70942f4f6e0377f3259f1",
+      "commit_sha": "316a2fc6c7f5a8d8f8b77cdf87919ce739c2f9f3",
+      "commit_actor": "Qiyuanqiii",
+      "observed_at": "2026-10-18T09:25:06Z"
+    },
+    {
+      "id": "original-universal-code-context-memory-acceptance-24162e3d",
+      "url": "https://github.com/CWNU-Open-Source-Community/Universal-Code/blob/24162e3da1ae43f10f1dc632402a473374e90779/docs/acceptance/2026-10-16-context-memory-recall.md",
+      "role": "Primary operator-confirmation, edit, disable and delete acceptance context",
+      "published": "2026-10-16",
+      "git_blob_sha": "dc011dce61cfe4e79ff43fd85b84c228b0f233d2",
+      "commit_sha": "316a2fc6c7f5a8d8f8b77cdf87919ce739c2f9f3",
+      "commit_actor": "Qiyuanqiii",
+      "observed_at": "2026-10-18T09:25:06Z"
+    },
+    {
+      "id": "original-clawdmarket-pilot-operating-record-a378a684",
+      "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/DEPENDABLE_PILOT_OPERATING_RECORD_2026-10-14.json",
+      "role": "Primary negative operating record for independent activity and paid-canary claims",
+      "published": "2026-10-16",
+      "event_date": "2026-10-14",
+      "git_blob_sha": "194977e8aa7c7d52b4f46c8bc3f46dcf1dd892a7",
+      "commit_sha": "7a9e0ba382f5d7e3bcdee2469104679aa4b28b2c",
+      "commit_actor": "trillskillz",
+      "observed_at": "2026-10-18T09:25:06Z"
+    },
+    {
+      "id": "original-clawdmarket-operational-evidence-a378a684",
+      "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/evidence/security-first-release-2026-10-15/operational-evidence.json",
+      "role": "Primary later confirmation that independent activity and paid canary were not demonstrated",
+      "published": "2026-10-16",
+      "event_date": "2026-10-15",
+      "git_blob_sha": "f898d00a686bfc8c58b4204bd86ce7a1eb787ac7",
+      "commit_sha": "7a9e0ba382f5d7e3bcdee2469104679aa4b28b2c",
+      "commit_actor": "trillskillz",
+      "observed_at": "2026-10-18T09:25:06Z"
+    },
+    {
+      "id": "original-clawdmarket-independent-pilot-a378a684",
+      "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/INDEPENDENT_API_TESTING_PILOT_2026-10-14.md",
+      "role": "Primary independent-participant requirements and no-enrollment context",
+      "published": "2026-10-16",
+      "event_date": "2026-10-14",
+      "git_blob_sha": "ce402ea95c4150e744fdb84a97d3282ab9afb6ea",
+      "commit_sha": "7a9e0ba382f5d7e3bcdee2469104679aa4b28b2c",
+      "commit_actor": "trillskillz",
+      "observed_at": "2026-10-18T09:25:06Z"
+    },
+    {
+      "id": "original-clawdmarket-canary-preparation-a378a684",
+      "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/CAPPED_PAID_CANARY_PREPARATION_2026-10-14.md",
+      "role": "Primary operator-controlled canary and no-live-execution authorization context",
+      "published": "2026-10-16",
+      "event_date": "2026-10-14",
+      "git_blob_sha": "af8cfbe27c4529dcf0687cec2ae1cd674877057b",
+      "commit_sha": "7a9e0ba382f5d7e3bcdee2469104679aa4b28b2c",
+      "commit_actor": "trillskillz",
+      "observed_at": "2026-10-18T09:25:06Z"
     }
   ]
 }

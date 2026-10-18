@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "observed_at": "2026-10-18T09:25:06Z",
+  "purpose": "Resume the saved sender/recipient provenance cursors, rotate into lower-order public record fields, and test the strongest newly located original records for a task-bearing transfer, recipient use, distinct autonomous principals and an operator-defined boundary.",
+  "method": {
+    "selection": "Run the three exact Pass 93 cursors, then search twelve adjacent field combinations. Fully read the strongest committed real-model and operational records before testing design, provenance, authorization and prior-reporting alternatives.",
+    "coverage_note": "The fifteen-query counts below are overlapping path occurrences from one bounded GitHub code-search snapshot. They are locators, not messages, participants or incidents. One parallel response for the capped query transiently returned zero; three sequential retries returned the same fifty paths, and the stable result is recorded.",
+    "read_only_limits": "Only existing public repository files, commit metadata, indexed excerpts and public web-search results were read. No recovered code was executed, no package was installed, no agent runtime was invoked, no participant was contacted and no target system was probed.",
+    "falsification_tests": [
+      "Require the recipient record to acquire and semantically use a specific earlier artifact, not merely share a provider, model, task or store.",
+      "Test whether human confirmation, one configured operator, an acceptance harness or shared state explains the apparent transfer.",
+      "Require independently authenticated autonomous principals and evidence of distinct operator control before treating thread or run identifiers as participants.",
+      "Treat operator-controlled pilots, fixtures, retries, schemas and setup material as controls rather than evidence of adoption or rogue coordination."
+    ]
+  },
+  "scope": {
+    "scanner_backlog": {
+      "collected_original_reports": 1146,
+      "successfully_inspected": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "urlscan_listing_pages_closed": 57,
+      "reopened": false
+    },
+    "exact_query_snapshot": {
+      "unique_query_expressions": 15,
+      "returned_row_occurrences": 105,
+      "external_row_occurrences": 76,
+      "self_repository_row_occurrences": 29,
+      "complete_zero_result_queries": 6,
+      "queries_at_50_result_cap": 1,
+      "note": "Counts include the three saved expressions and twelve rotated expressions. Query results overlap and the fifty-row response is capped."
+    },
+    "selected_original_record_families": 2,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_accounting": [
+    {
+      "query": "\"sender_event_sha256\" \"recipient_event_sha256\" \"dependent_artifact_sha256\" \"operator_proof\"",
+      "returned_rows": 2,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"source_operator_proof_sha256\" \"recipient_operator_proof_sha256\" \"consumed_at\"",
+      "returned_rows": 2,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"causation_id\" \"recipient_principal_id\" \"authorization_decision\" \"result_sha256\"",
+      "returned_rows": 2,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"artifact_sha256\"",
+      "returned_rows": 11,
+      "classification": "Five self-index rows and six external schema, implementation, test or governance paths; no selected populated exchange record."
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"consumed_at\"",
+      "returned_rows": 50,
+      "classification": "Two self-index rows and forty-eight external paths. The response is capped and dominated by code, schemas, documentation and golden fixtures; three sequential retries were identical."
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_hash\"",
+      "returned_rows": 13,
+      "classification": "Ten self-index rows and three external skill-contract paths without a populated ledger."
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"result_sha256\"",
+      "returned_rows": 17,
+      "classification": "Four self-index rows and thirteen external implementation, schema, research or benchmark paths."
+    },
+    {
+      "query": "\"sender_run_id\" \"recipient_run_id\" \"consumed_result_id\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"artifact_sha256\"",
+      "returned_rows": 7,
+      "classification": "One self-index row and six external implementation or storage paths; no selected populated exchange record."
+    },
+    {
+      "query": "\"handoff_id\" \"from_agent\" \"to_agent\" \"artifact_hash\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"caused_by_message_id\" \"recipient_agent_id\" \"commit_sha\"",
+      "returned_rows": 1,
+      "classification": "Self-index only."
+    },
+    {
+      "query": "\"source_session_id\" \"target_session_id\" \"consumed_artifact_hash\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"finding_ids_consumed\" \"reviewer_principal\" \"repair_principal\"",
+      "returned_rows": 0,
+      "classification": "No external indexed path returned in the recorded stable snapshot."
+    },
+    {
+      "query": "\"producer_principal_id\" \"consumer_principal_id\" \"result_digest\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    },
+    {
+      "query": "\"source_operator\" \"target_operator\" \"result_hash\" \"handoff_id\"",
+      "returned_rows": 0,
+      "classification": "No indexed path returned."
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "universal-code-operator-confirmed-cross-thread-memory",
+      "repository": "CWNU-Open-Source-Community/Universal-Code",
+      "pinned_commit": "24162e3da1ae43f10f1dc632402a473374e90779",
+      "record_commit": "316a2fc6c7f5a8d8f8b77cdf87919ce739c2f9f3",
+      "record_commit_at": "2026-10-16T07:14:31Z",
+      "event_span_utc": {
+        "start": "2026-10-16T06:58:27Z",
+        "end": "2026-10-16T07:05:41Z"
+      },
+      "records": [
+        {
+          "path": "docs/evidence/context-memory/issue338-real-model.json",
+          "url": "https://github.com/CWNU-Open-Source-Community/Universal-Code/blob/24162e3da1ae43f10f1dc632402a473374e90779/docs/evidence/context-memory/issue338-real-model.json",
+          "git_blob_sha": "b0dac48d03b62079eaf70942f4f6e0377f3259f1",
+          "observation": "A production-composition acceptance record uses a real configured provider and five distinct run or thread identifiers. A source run creates a decision note after empty searches; a later run retrieves the confirmed memory, reads it and uses its semantic content in the reply. A further run retrieves and uses the operator-edited version rather than the original."
+        },
+        {
+          "path": "docs/acceptance/2026-10-16-context-memory-recall.md",
+          "url": "https://github.com/CWNU-Open-Source-Community/Universal-Code/blob/24162e3da1ae43f10f1dc632402a473374e90779/docs/acceptance/2026-10-16-context-memory-recall.md",
+          "git_blob_sha": "dc011dce61cfe4e79ff43fd85b84c228b0f233d2",
+          "observation": "The primary acceptance report says an operator confirms, edits, disables and deletes the memory. Search and reply behavior follows those state changes, and deletion leaves no surviving memory."
+        }
+      ],
+      "semantic_dependency": "Supported. The recipient-side audits include the confirmed memory's content hash, then record explicit search and read operations before the reply uses the stored value. After the operator edits the memory, a later run uses the new hash and revised value.",
+      "participant_provenance": "Five run or thread IDs are distinguishable, but every selected call uses one configured provider/model in one product acceptance sequence. No record authenticates separately controlled autonomous sender and recipient principals.",
+      "operator_boundary": "Not crossed. Human confirmation is a prerequisite for the decisive retrieval, later changes are operator actions, and the published record identifies the sequence as an isolated acceptance test. Execution remains unauthorised and no command is run.",
+      "alternative_explanations": [
+        "Designed shared-memory acceptance test",
+        "One configured model/provider across multiple runs",
+        "Human-confirmed and human-edited state transfer",
+        "Product-owned memory injection rather than agent-to-agent outreach"
+      ],
+      "assessment": "A strong original transfer-and-use control across threads, but not evidence of distinct autonomous operators or rogue coordination."
+    },
+    {
+      "id": "clawdmarket-independent-pilot-negative-operating-record",
+      "repository": "trillskillz/clawdmarket",
+      "pinned_commit": "a378a684f6516ccb575e80abd2141f46feb4c405",
+      "record_commit": "7a9e0ba382f5d7e3bcdee2469104679aa4b28b2c",
+      "record_commit_at": "2026-10-16T12:04:48Z",
+      "records": [
+        {
+          "path": "docs/DEPENDABLE_PILOT_OPERATING_RECORD_2026-10-14.json",
+          "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/DEPENDABLE_PILOT_OPERATING_RECORD_2026-10-14.json",
+          "git_blob_sha": "194977e8aa7c7d52b4f46c8bc3f46dcf1dd892a7",
+          "observation": "The public operating record says independent customer activity and a qualifying paid canary were not demonstrated, records zero qualifying autonomously routed volume, and says an earlier attempt stopped before payment with no transaction broadcast."
+        },
+        {
+          "path": "docs/evidence/security-first-release-2026-10-15/operational-evidence.json",
+          "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/evidence/security-first-release-2026-10-15/operational-evidence.json",
+          "git_blob_sha": "f898d00a686bfc8c58b4204bd86ce7a1eb787ac7",
+          "observation": "A later evidence record repeats that paid-canary and independent-customer activity were not demonstrated and that live funding was not authorised."
+        },
+        {
+          "path": "docs/INDEPENDENT_API_TESTING_PILOT_2026-10-14.md",
+          "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/INDEPENDENT_API_TESTING_PILOT_2026-10-14.md",
+          "git_blob_sha": "ce402ea95c4150e744fdb84a97d3282ab9afb6ea",
+          "observation": "The setup document says no independent providers or paying customers are enrolled and requires actual separate participants before claiming independent adoption."
+        },
+        {
+          "path": "docs/CAPPED_PAID_CANARY_PREPARATION_2026-10-14.md",
+          "url": "https://github.com/trillskillz/clawdmarket/blob/a378a684f6516ccb575e80abd2141f46feb4c405/docs/CAPPED_PAID_CANARY_PREPARATION_2026-10-14.md",
+          "git_blob_sha": "af8cfbe27c4529dcf0687cec2ae1cd674877057b",
+          "observation": "The canary is explicitly a proposal without live-execution authorization. Both test principals are operator-controlled and must not be counted as independent adoption."
+        }
+      ],
+      "semantic_dependency": "Not demonstrated in the selected operational records. They preserve preparation, configuration and negative outcome evidence, not a completed task-result transfer subsequently used by an independent recipient.",
+      "participant_provenance": "The proposed buyer and provider roles are explicitly operator-controlled fixtures. No independent provider/customer pair is enrolled or authenticated.",
+      "operator_boundary": "Not crossed. The records withhold live funding and execution authorization and separate controlled canaries from independent activity.",
+      "assessment": "A useful primary negative control for economic or independent-agent claims, not an observed autonomous exchange or rogue-swarm candidate."
+    }
+  ],
+  "cross_record_assessment": {
+    "original_observation": "Universal-Code preserves a real-provider, cross-thread memory retrieval and downstream semantic use. Clawdmarket preserves an operationally explicit absence of independent participants and successful paid activity.",
+    "supported_coordination": "Operator-confirmed designed shared memory in an acceptance harness; no completed independent economic exchange in the pilot records.",
+    "verified_participants": "Distinct run identifiers and configured role labels are verified only as record fields. Separate autonomous principals under distinct operators are not verified.",
+    "operator_boundary": "No selected family crosses a documented operator boundary. Human confirmation is causal in Universal-Code, and clawdmarket labels both canary principals operator-controlled.",
+    "subjective_intent": "No rogue intent is established or inferred from model output, autonomy language, economic roles or memory use.",
+    "provider_attribution": "The Universal-Code record identifies a configured real provider/model, but provider configuration does not authenticate multiple participants. Clawdmarket provides no qualifying independent agent pair.",
+    "current_activity": "Committed acceptance and operating records do not establish a currently active unauthorized population.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "prior_reporting_check": {
+    "checked_on": "2026-10-18",
+    "exact_expressions": [
+      "\"run-20261016065827-9704b898eea9\"",
+      "issue 338 acceptance-marker pair [values omitted from publication]",
+      "\"issue338-real-model.json\"",
+      "\"DEPENDABLE_PILOT_OPERATING_RECORD_2026-10-14\""
+    ],
+    "indexes_checked": [
+      "GitHub code search",
+      "Routine web search",
+      "Higher-recall web search"
+    ],
+    "result": "GitHub returned only the originating project files for the selected identifiers. Both web searches returned no exact target report or independent account of coordination; returned lexical collisions were unrelated.",
+    "bounded_statement": "No prior coordination report was located for these four exact expressions across the three checked search methods as of 2026-10-18. This is bounded negative coverage, not proof of novelty, and it does not override the explicit acceptance-test and operator-controlled-pilot evidence.",
+    "candidate_audit_triggered": false,
+    "reason": "Neither family passes the distinct-participant or operator-boundary gates."
+  },
+  "limitations": [
+    "Code-search results are capped at fifty paths and may change with index updates.",
+    "Repository-authored evidence can establish what was recorded but cannot independently authenticate hidden processes or separate operators.",
+    "The Universal-Code dependency is real but mediated by product memory state and explicit human review; it must not be generalized to autonomous agent-to-agent messaging.",
+    "Clawdmarket's negative operating record does not prove no independent use ever occurred; it bounds only the published pilot evidence checked here.",
+    "Search absence does not establish novelty."
+  ],
+  "next_cursor": {
+    "exact_queries": [
+      "\"source_memory_run_id\" \"recipient_run_id\" \"memory_content_sha256\" \"operator_confirmation_id\"",
+      "\"producer_operator_id\" \"consumer_operator_id\" \"accepted_artifact_sha256\" \"downstream_action_id\"",
+      "\"independent_operator_proof\" \"sender_run_id\" \"recipient_run_id\" \"consumed_result_sha256\""
+    ],
+    "record_priority": "Prefer an immutable actual-run record that binds a task-bearing source artifact to later recipient use and independently authenticates operator ownership on both sides.",
+    "do_not_reopen_without_new_evidence": [
+      "Universal-Code issue 338 context-memory acceptance sequence",
+      "clawdmarket October 2026 pilot and canary preparation records"
+    ],
+    "reopen_trigger": "A new public recipient-side record, independent-principal proof or authorization evidence that materially changes the boundary assessment."
+  },
+  "safety": {
+    "retrieval": "Read-only public pages, files, commit metadata and search indexes only.",
+    "not_performed": [
+      "No recovered code, command or agent runtime was executed.",
+      "No package was installed and no scan, payload, message, vote or transaction was submitted.",
+      "No participant was contacted and no sink, unlisted room or target system was accessed."
+    ],
+    "publication": "Raw marker text, wallet or personal addresses, credentials, tokens, local paths and executable payload bodies are omitted."
+  }
+}

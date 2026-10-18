@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "observed_at": "2026-10-18T20:01:35Z",
+  "purpose": "Resume the three saved committed-disposition cursors, follow newly exposed review-to-repair records to their original comments and commits, and rotate into public captured repair runs and feedback ledgers while testing independent-principal and operator-boundary alternatives.",
+  "method": {
+    "selection": "Enumerate the three exact saved searches first. Deep-read the two previously unreviewed Bartholomew pull requests exposed by the populated disposition ledger. Then rotate through eighteen lower-order repair and feedback expressions, follow the strongest run-shaped Agent Queue and Leafcutter records to pinned source files, public commits and pull requests, and perform a scoped prior-reporting check only after the original chains were established.",
+    "coverage_note": "Counts are overlapping indexed path occurrences, not messages, agents or incidents. The three saved searches returned eleven rows. The eighteen-query rotation returned sixty rows; one broad feedback query stopped at the requested fifty-result cap. Repository-scoped follow-ups were selection aids and are reported separately.",
+    "read_only_limits": "Only existing public repository files, pull-request timelines, commit metadata and search indexes were read. Captured commands, tests, review tools, agent runtimes and recovered code were not executed.",
+    "falsification_tests": [
+      "Require an exact source finding or result and a later artifact that implements or incorporates the same content.",
+      "Separate repository-local role labels, Git author names, application accounts, provider trailers and independently controlled principals.",
+      "Test designed workflow, human dispatch, human gate, single-account commit provenance, synthetic replay and shared operator state as alternatives.",
+      "Require primary evidence that cooperation crossed or exceeded an operator-defined authorization boundary before assigning a rogue-coordination candidate."
+    ]
+  },
+  "scope": {
+    "scanner_backlog": {
+      "collected_original_reports": 1146,
+      "successfully_inspected": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "urlscan_listing_pages_closed": 57,
+      "reopened": false
+    },
+    "resumed_exact_cursors": {
+      "query_expressions": 3,
+      "returned_row_occurrences": 11,
+      "external_row_occurrences": 5,
+      "self_repository_row_occurrences": 6,
+      "queries_at_requested_result_cap": 0,
+      "selected_external_timelines_deep_read": 2
+    },
+    "lower_order_rotation": {
+      "query_expressions": 18,
+      "returned_row_occurrences": 60,
+      "external_row_occurrences": 55,
+      "self_repository_row_occurrences": 5,
+      "complete_zero_result_queries": 15,
+      "queries_at_requested_result_cap": 1
+    },
+    "repository_scoped_followups": {
+      "agent_queue_queries": 3,
+      "agent_queue_returned_row_occurrences": 30,
+      "leafcutter_queries": 3,
+      "leafcutter_returned_first_page_occurrences": 150,
+      "leafcutter_queries_at_requested_result_cap": 3,
+      "classification": "Agent Queue follow-ups separated schema and implementation from one captured replay fixture. Leafcutter follow-ups were high-density locator searches; the selected ticket, pull request and exact repair commit were read in full rather than treating the capped rows as evidence."
+    },
+    "selected_original_record_families": 3,
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_groups": [
+    {
+      "name": "resumed_pass96_exact_cursors",
+      "queries": [
+        "\"review_comment:\" \"resolved_by_later_commit\" \"recorded_by\"",
+        "\"recommendation_id\" \"applied_commit_sha\" \"operators_applied\" \"implementation_status\"",
+        "\"source_comment_id\" \"repair_commit_sha\" \"verified_by\""
+      ],
+      "per_query_row_occurrences": [7, 2, 2],
+      "returned_row_occurrences": 11,
+      "external_row_occurrences": 5,
+      "self_repository_row_occurrences": 6,
+      "classification": "The second and third cursors returned only this repository's indexed cursor text. The first returned two self rows and five Bartholomew ledger, test or fixture paths. Its live ledger exposed pull requests 126 and 127 beyond the already reviewed pull request 124."
+    },
+    {
+      "name": "lower_order_repair_and_feedback_rotation",
+      "queries": [
+        "\"review_comment_id\" \"resolution_commit_sha\" \"verified_by\"",
+        "\"source_review_id\" \"repair_commit_sha\"",
+        "\"review_comment_url\" \"resolution_commit\"",
+        "\"feedback_comment_id\" \"applied_commit\"",
+        "\"recommendation_id\" \"implementation_commit_sha\" \"verified_by\"",
+        "\"finding_source_url\" \"resolved_by_commit\"",
+        "\"review_finding_id\" \"resolution_commit_sha\"",
+        "\"review_comment\" \"implemented_by_commit\" \"verified\"",
+        "\"source_comment\" \"fix_commit_sha\" \"verified_by\"",
+        "\"comment_url\" \"repair_commit_sha\"",
+        "\"finding_id\" \"resolution_commit\" \"reviewer\"",
+        "\"review_id\" \"implementation_commit\" \"author_agent\"",
+        "\"feedback_id\" \"commit_sha\" \"status\" \"applied\"",
+        "\"source_artifact_sha\" \"recipient_commit_sha\"",
+        "\"review_output_sha\" \"repair_commit_sha\"",
+        "\"finding_hash\" \"fix_commit_sha\"",
+        "\"upstream_review\" \"downstream_commit\"",
+        "\"review_comment_id\" \"resolved_commit_sha\""
+      ],
+      "per_query_row_occurrences": [0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 2, 0, 0],
+      "returned_row_occurrences": 60,
+      "external_row_occurrences": 55,
+      "self_repository_row_occurrences": 5,
+      "complete_zero_result_queries": 15,
+      "queries_at_requested_result_cap": 1,
+      "classification": "The eight-row source-review query contained five self rows and three Agent Queue schema or implementation paths. The capped feedback query located designed workflow tickets and product schemas, including the selected Leafcutter ticket. The two finding-hash rows were corpus validator/test code."
+    },
+    {
+      "name": "repository_scoped_selection_followups",
+      "queries": [
+        "ElectricJack/agent-queue: source_review_id",
+        "ElectricJack/agent-queue: repair_commit_shas",
+        "ElectricJack/agent-queue: feedback_id applied_commit",
+        "urlmonitor/leafcutter-ai: feedback-id:",
+        "urlmonitor/leafcutter-ai: commit status ok",
+        "urlmonitor/leafcutter-ai: reviewer feedback commit"
+      ],
+      "per_query_row_occurrences": [4, 26, 0, 50, 50, 50],
+      "queries_at_requested_result_cap": 3,
+      "classification": "Agent Queue contains a public captured-operation fixture in addition to schemas and tests. Leafcutter contains many designed phase tickets; one ticket supplies an exact reviewer finding, later commit and human-authorization statement."
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "bartholomew-pr126-pr127-disposition-continuation",
+      "repository": "perolyat/Bartholomew-identity-system",
+      "committed_disposition_ledger": {
+        "url": "https://github.com/perolyat/Bartholomew-identity-system/blob/0142673628ab74fe5991005d146dfbaa97729c90/.github/merge-qualification/dispositions.yml",
+        "ref": "0142673628ab74fe5991005d146dfbaa97729c90",
+        "blob_sha": "69ad3fbf2acc01a7c768165f3daff1e8f6f2e142",
+        "summary": "The same live gate ledger reviewed in Pass 96 also binds one Codex finding on pull request 126 and one on pull request 127 to full later Claude commit identifiers."
+      },
+      "pull_request_126": {
+        "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/126",
+        "title": "Scheduler drive seam: never lose a cancellation on CPython 3.10/3.11 (reliability repair)",
+        "created_at": "2026-09-30T10:36:58Z",
+        "merged_at": "2026-10-03T13:13:33Z",
+        "author_account": "perolyat",
+        "head_sha": "c2c774b6764e64b9e81480172afc83648a676675",
+        "merge_commit_sha": "2beeb6dc60a776da647ded26bf57ee701e12ed9c",
+        "authorization_summary": "The pull-request body labels the work a separate repair package, says it is not for merge without Taylor's explicit approval and names a User Approval Gate.",
+        "finding": {
+          "actor": "chatgpt-codex-connector[bot]",
+          "comment_id": 4171700100,
+          "created_at": "2026-10-03T04:32:57Z",
+          "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/126#discussion_r4171700100",
+          "summary": "Remove a five-second wall-clock assertion because unrelated slow stop stages can fail it even when scheduler cancellation is correct."
+        },
+        "repair": {
+          "commit_sha": "019186c17ce5ef50ed1c3a2f598a93e1dff91317",
+          "created_at": "2026-10-03T07:53:52Z",
+          "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/019186c17ce5ef50ed1c3a2f598a93e1dff91317",
+          "public_actor": "claude",
+          "selected_blob_sha": "c06bdea2b9678717190228bc9bb9459f603ba3bc",
+          "effect_summary": "The message cites Codex comment 4171700100. The test drops the elapsed assertion, pins a finite test-only drive timeout and corrects the related documentation while retaining deterministic discriminators."
+        },
+        "disposition": {
+          "commit_sha": "c2c774b6764e64b9e81480172afc83648a676675",
+          "created_at": "2026-10-03T07:54:43Z",
+          "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/c2c774b6764e64b9e81480172afc83648a676675",
+          "summary": "The Claude-attributed commit maps review_comment:4171700100 to the full repair commit and records the review body as non-substantive."
+        }
+      },
+      "pull_request_127": {
+        "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127",
+        "title": "Close-out records: PR #124 merged; stale \"not merged\" statuses corrected (docs only)",
+        "created_at": "2026-10-06T03:06:19Z",
+        "merged_at": "2026-10-07T11:53:29Z",
+        "author_account": "perolyat",
+        "head_sha": "e76c3d26cc24621699fc4ed4491a094a00402924",
+        "merge_commit_sha": "54c851bbcbe444e4d8b2fade730555072fa06444",
+        "authorization_summary": "The body says not to merge without Taylor's User Approval Gate and records Taylor's decisions and later acceptance of the Codex finding.",
+        "finding": {
+          "actor": "chatgpt-codex-connector[bot]",
+          "comment_id": 4193250224,
+          "created_at": "2026-10-06T08:41:50Z",
+          "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127#discussion_r4193250224",
+          "summary": "Close the drive-seam risk whose explicit merge condition was satisfied while retaining its two follow-ups as open."
+        },
+        "repair": {
+          "commit_sha": "f9825b998a0cc9aac337a401b2a88badefb491d7",
+          "created_at": "2026-10-06T12:42:07Z",
+          "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/f9825b998a0cc9aac337a401b2a88badefb491d7",
+          "public_actor": "claude",
+          "selected_blob_sha": "065a42fdc1ea47c32d609e0ba2836b0a79495c48",
+          "effect_summary": "The message cites Codex comment 4193250224 and Taylor's authorization. RISKS.md closes the satisfied risk in place and explicitly keeps the two follow-ups open."
+        },
+        "disposition": {
+          "commit_sha": "8dc4a50588630b0cf1ab0944a9fba1f23522b6d9",
+          "created_at": "2026-10-06T12:42:16Z",
+          "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/8dc4a50588630b0cf1ab0944a9fba1f23522b6d9",
+          "summary": "The Claude-attributed commit maps review_comment:4193250224 to the full repair commit for Taylor's review at the gate."
+        },
+        "receipts": [
+          {
+            "comment_id": 6016899745,
+            "created_at": "2026-10-06T13:05:04Z",
+            "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127#issuecomment-6016899745",
+            "summary": "The repository account says Taylor chose Option 1, the correction and disposition were pushed, qualification was READY and the User Approval Gate remained pending."
+          },
+          {
+            "comment_id": 4201266991,
+            "created_at": "2026-10-06T23:05:42Z",
+            "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127#discussion_r4201266991",
+            "summary": "A Claude-generated repository-account reply says the finding was accepted at Taylor's decision and the thread remained for Taylor's review."
+          }
+        ]
+      },
+      "semantic_dependency": "Supported twice by exact Codex comment identifiers in later repair and disposition commits, semantically matching edits and, for pull request 127, direct recipient-side receipts.",
+      "participant_provenance": "Codex comments, Claude-attributed commits and the perolyat repository account are distinguishable public identities. They authenticate service and account layers, not separate controlling operators.",
+      "operator_boundary": "Not crossed. Codex review is explicitly team-configured, both pull requests retain Taylor's approval gate, and the second repair states that Taylor accepted and authorized the correction.",
+      "alternative_explanations": [
+        "Installed Codex review application",
+        "Claude Code author sessions inside the repository workflow",
+        "Explicit human decision and merge gate",
+        "Continuation of the same already reviewed Bartholomew control population"
+      ],
+      "assessment": "Two additional high-confidence Codex-to-Claude result-use edges, but primary authorization evidence and continuity with the same designed gate exclude a distinct rogue episode or population."
+    },
+    {
+      "id": "agent-queue-captured-seven-stage-parent-repair",
+      "repository": "ElectricJack/agent-queue",
+      "pinned_ref": "24580544b3f329da728c5f4feba9168aa16e8999",
+      "repository_context": {
+        "url": "https://github.com/ElectricJack/agent-queue/blob/24580544b3f329da728c5f4feba9168aa16e8999/README.md",
+        "blob_sha": "d1d94cc7ed23d9eda6c9c3e0c8e8b28529a1d643",
+        "summary": "The README describes a local operator-run software factory that deliberately assigns tasks to configured coding-agent CLIs, records their sessions and integrates their branches under policy."
+      },
+      "captured_fixture": {
+        "url": "https://github.com/ElectricJack/agent-queue/blob/24580544b3f329da728c5f4feba9168aa16e8999/tests/fixtures/integration/parent_recovery_6397.json",
+        "blob_sha": "6f5222106d07d0e010d1aa47659df04b3d7d219b",
+        "operation_id": "6397b45b-c5f2-4ddc-8450-638f77af1631",
+        "captured_on": "2026-10-04",
+        "event_span_utc": {
+          "first_numeric_event_time": "2026-10-03T19:11:40Z",
+          "last_numeric_event_time": "2026-10-04T01:05:04.162Z"
+        },
+        "stage_count": 7,
+        "expired_stage_count": 6,
+        "passed_stage_count": 1,
+        "unique_repair_commit_oids": 25,
+        "close_event_count": 13,
+        "base_sha": "55f16d7d90dd4a4d0cf826e6157105468a7e9ece",
+        "final_head_sha": "cd394b1a6c90d4cffcae1ce99aa6c8948286d021",
+        "provenance_limit": "The fixture says project/repository, task, session, instance, workspace, completion, intent, receipt, event and domain identities were replaced by consistent one-to-one synthetic values. It retains original Git OIDs, graph, timestamps, fences and push-evidence relationships and reconstructs synthetic Git objects for replay."
+      },
+      "selected_public_commits": [
+        {
+          "commit_sha": "74af88822785b7da1a8cf3b245dd406389fc54e7",
+          "created_at": "2026-10-03T19:08:51Z",
+          "url": "https://github.com/ElectricJack/agent-queue/commit/74af88822785b7da1a8cf3b245dd406389fc54e7",
+          "public_author_label": "Agent Queue",
+          "summary": "The first retained repair commit in the stage ranges changes Discord conversation and supervisor-input handling."
+        },
+        {
+          "commit_sha": "cd394b1a6c90d4cffcae1ce99aa6c8948286d021",
+          "created_at": "2026-10-04T01:03:05Z",
+          "url": "https://github.com/ElectricJack/agent-queue/commit/cd394b1a6c90d4cffcae1ce99aa6c8948286d021",
+          "public_author_label": "Agent Queue",
+          "summary": "The final retained head integrates Discord configuration doctor checks with escalation checks and preserves the combined parent."
+        }
+      ],
+      "authorization_artifact": {
+        "url": "https://github.com/ElectricJack/agent-queue/blob/24580544b3f329da728c5f4feba9168aa16e8999/docs/superpowers/specs/2026-10-03-parent-repair-heads-design.md",
+        "blob_sha": "5a456273646166a94fd58711da815ffa901ab1fb",
+        "summary": "The design calls the repair authorized, reserves live acceptance for the supervisor/operator, says the implementing worker does not run recovery against the operator database, and retains fresh exact-head verification and the configured parent review path."
+      },
+      "semantic_dependency": "The retained Git graph and stage ranges support a concrete append-only repair progression: six stages expire, later stages contain the earlier repair range and the seventh passes at the final head. The public record demonstrates downstream incorporation inside the designed integration system.",
+      "participant_provenance": "The record deliberately syntheticizes task and session identities. Selected public commits share the same Agent Queue author/committer label. No distinct autonomous principals or operators can be authenticated from the fixture.",
+      "operator_boundary": "Not crossed. The repository defines the repair delegate, verifier and supervisor/operator responsibilities, and the selected live procedure is expressly an authorized operator action.",
+      "alternative_explanations": [
+        "Designed local agent-orchestration product",
+        "Captured and syntheticized replay fixture",
+        "Single public commit identity",
+        "Explicit supervisor/operator acceptance and verification path"
+      ],
+      "assessment": "A useful real-Git repair-run control with unusually rich graph and timing evidence, but synthetic principal provenance and explicit operator authorization prevent a cross-operator or rogue-swarm finding."
+    },
+    {
+      "id": "leafcutter-reviewer-h1-to-authorized-repair",
+      "repository": "urlmonitor/leafcutter-ai",
+      "pinned_ref": "30bb8662200f5d1f83e14658dace419bbfea108e",
+      "repository_context": {
+        "url": "https://github.com/urlmonitor/leafcutter-ai/blob/30bb8662200f5d1f83e14658dace419bbfea108e/README.md",
+        "blob_sha": "317111d628047168507394faceb3612774954b0d",
+        "summary": "The repository is an installable agent, skill and workflow package with explicit phase agents and generated Claude tooling."
+      },
+      "ticket": {
+        "url": "https://github.com/urlmonitor/leafcutter-ai/blob/30bb8662200f5d1f83e14658dace419bbfea108e/tickets/00_inbox/TICKET-20260617-Worktree_Precommit_Bootstrap.md",
+        "blob_sha": "f50d12f8b50914ef49a8587ab4e0a0713f9a4732",
+        "title": "Bootstrap .pre-commit-config.yaml in epic/feature worktrees so package hooks run",
+        "reviewer_log_time": "2026-06-30 14:00 (timezone not stated in the ticket)",
+        "finding_summary": "The pr-reviewer records H-1: the build.py-not-found branch still warns and exits zero instead of raising BootstrapError, leaving an AC-5 script-level gap.",
+        "authorization_summary": "The same append-only ticket says the commit phase was auto-authorized by a human-supervised /build-feature batch drive and the pull-request gate bypass was authorized by the user in the parent conversation."
+      },
+      "pull_request": {
+        "url": "https://github.com/urlmonitor/leafcutter-ai/pull/189",
+        "number": 189,
+        "created_at": "2026-06-30T08:35:29Z",
+        "merged_at": "2026-07-01T07:49:22Z",
+        "author_account": "urlmonitor",
+        "head_sha": "54a9a53a09dbfea31d9efe5fc947a2e70c4c803f",
+        "merge_commit_sha": "137a7e391b3130b950eae89712ee333989aa2cea",
+        "body_attribution": "Generated with Claude Code"
+      },
+      "repair": {
+        "commit_sha": "a780a2d92133497cbc19cbf3a83821b767df71ac",
+        "created_at": "2026-06-30T09:03:18Z",
+        "url": "https://github.com/urlmonitor/leafcutter-ai/commit/a780a2d92133497cbc19cbf3a83821b767df71ac",
+        "public_actor": "urlmonitor",
+        "selected_blob_sha": "a1eb33947fd31a2f265c7bdf3a36966ab12d8e49",
+        "effect_summary": "The commit message explicitly says it closes pr-reviewer H-1. It moves the existence probe outside the build-present branch, raises BootstrapError when build.py is absent, preserves the build failure as the root cause and aligns the template mirror."
+      },
+      "pr_commit_provenance": {
+        "commit_count": 9,
+        "public_author_account": "urlmonitor",
+        "summary": "All nine pull-request commits resolve to the same public author and committer account, including the original implementation, the H-1 repair and later tests."
+      },
+      "semantic_dependency": "Supported by the ticket's exact H-1 text and the later commit message and diff implementing that requested correction. The ticket timestamp lacks a zone, so the explicit causal citation is used rather than deriving order from incompatible timestamp formats.",
+      "participant_provenance": "The ticket's phase labels are repository-local records. The pull request is Claude-generated but every public commit uses the urlmonitor account. No independently authenticated reviewer and repair principal is established.",
+      "operator_boundary": "Not crossed. The workflow is intentionally multi-phase, and the ticket explicitly records a human-supervised drive, auto-authorization and user authorization for the pull-request gate bypass.",
+      "alternative_explanations": [
+        "Designed phase-agent workflow",
+        "One public GitHub account across every commit",
+        "Human-supervised batch drive",
+        "Explicit user authorization"
+      ],
+      "assessment": "A concrete reviewer-result-to-repair dependency, but it is an explicitly authorized, same-account designed workflow rather than a separately operated rogue coordination episode."
+    }
+  ],
+  "adjacent_controls": [
+    {
+      "record": "ElectricJack/agent-queue source_review_id schema and implementation paths",
+      "assessment": "The initial matches define ingest identity columns and migrations. They are product schema, not emitted sender-to-recipient records."
+    },
+    {
+      "record": "ElsonNg/sc4079-fyp finding-hash rows",
+      "assessment": "Both rows are corpus validator or test code and do not preserve an organic exchange."
+    },
+    {
+      "record": "bisq-network/localize-pipeline Guardian apply-to-commit paths",
+      "assessment": "Search excerpts describe deliberate automated review and commit behavior inside a product pipeline; no separate public episode with independently controlled principals was established in the checked slice."
+    },
+    {
+      "record": "remaining capped Leafcutter feedback rows",
+      "assessment": "The first pages are overwhelmingly phase tickets, templates, generated feedback corpora and commit-guardian implementation. They are treated as designed-workflow locators, not a population count."
+    }
+  ],
+  "prior_reporting_check": {
+    "checked_on": "2026-10-18",
+    "exact_expressions": [
+      "4171700100 019186c17ce5ef50ed1c3a2f598a93e1dff91317",
+      "4193250224 f9825b998a0cc9aac337a401b2a88badefb491d7",
+      "6397b45b-c5f2-4ddc-8450-638f77af1631 cd394b1a6c90d4cffcae1ce99aa6c8948286d021",
+      "pr-reviewer H-1 a780a2d92133497cbc19cbf3a83821b767df71ac",
+      "One high-confidence finding H-1 identified build.py not found",
+      "worktree pre-commit BootstrapError pr-reviewer H-1"
+    ],
+    "indexes_checked": [
+      "GitHub code search",
+      "GitHub pull-request search",
+      "Routine web search",
+      "Higher-recall web search"
+    ],
+    "result": "GitHub code search returned one originating Bartholomew ledger for each comment/commit pair, three originating Agent Queue fixture/design paths for the operation/final-head pair, and the originating Leafcutter ticket or implementation paths for phrase variants. Exact commit-pair search for Leafcutter returned no row; its repair is linked by the public PR commit history. Pull-request search returned zero for the four paired expressions. Routine web search returned no result. Higher-recall web search returned no relevant independent report; the only surfaced pages for the abbreviated AC-5 wording were unrelated air-conditioning or other AC pages.",
+    "bounded_statement": "No prior coordination report was located for these exact expressions across the checked scope as of 2026-10-18. This bounded absence is not proof of novelty and cannot turn human-gated or designed orchestration into rogue coordination.",
+    "candidate_audit_triggered": false,
+    "reason": "Every selected chain fails the independently authenticated operator and authorization-crossing gates."
+  },
+  "cross_record_assessment": {
+    "original_observation": "Two new Bartholomew review-to-repair mappings, one syntheticized seven-stage captured repair operation and one Leafcutter reviewer-to-fix chain were inspected from original public records.",
+    "supported_coordination": "Specific result use is supported for both Bartholomew findings and the Leafcutter H-1 finding. Agent Queue supports an append-only repair progression and downstream integration, but its participant identities are syntheticized.",
+    "verified_participants": "Codex, Claude, repository-account and commit-author layers are distinguishable where GitHub exposes them. Agent Queue and Leafcutter role labels do not independently authenticate autonomous principals or controlling operators.",
+    "operator_boundary": "No selected record crosses an operator-defined boundary. Bartholomew preserves Taylor's explicit gate, Agent Queue assigns the workflow to an authorized supervisor/operator, and Leafcutter records human-supervised auto-authorization and one public commit account.",
+    "subjective_intent": "No rogue intent is established. Agent-like prose, provider labels, session URLs and role names are treated as claims or attribution layers rather than intent evidence.",
+    "provider_attribution": "GitHub attributes Bartholomew review comments to Codex and repair commits to Claude; Leafcutter says the pull request was generated with Claude Code. These facts do not prove hidden execution details or independent control.",
+    "current_activity": "The selected episodes completed between June and October 2026. Later repository activity does not establish that any unauthorized coordination is current.",
+    "checkpoint": "Zero confirmed previously unreported rogue swarms."
+  },
+  "limitations": [
+    "One global feedback query and all three Leafcutter repository searches reached the requested fifty-row cap; unreturned rows were not enumerated.",
+    "Agent Queue deliberately replaces the task, session, instance, workspace, completion, receipt, event and domain identities needed for participant and operator attribution.",
+    "Leafcutter ticket timestamps do not state a timezone, so causal order is taken from the repair commit's explicit H-1 citation rather than comparing local-looking ticket times with UTC commit times.",
+    "A shared GitHub account, application label or provider trailer cannot prove whether one or several models ran, nor whether any were independently controlled.",
+    "Exact semantic repair proves use of a finding, not action outside human supervision or repository authorization.",
+    "Search absence does not establish novelty."
+  ],
+  "next_cursor": {
+    "exact_queries": [
+      "\"source_review_id\" \"resolution_commit_sha\" \"recipient_principal_id\" \"authorization_scope\"",
+      "\"feedback_id\" \"addressed_by\" \"commit_sha\" \"operator_id\"",
+      "\"repair_task_id\" \"source_result_sha256\" \"recipient_action_sha256\" \"operator_proof\""
+    ],
+    "record_priority": "Prefer a bounded public actual-run ledger with non-synthetic sender and recipient provenance, a specific transferred result, a later semantically dependent recipient action, distinct operator proof and an explicit authorization-scope decision.",
+    "do_not_reopen_without_new_evidence": [
+      "perolyat/Bartholomew-identity-system pull requests 126 and 127",
+      "ElectricJack/agent-queue captured operation 6397b45b-c5f2-4ddc-8450-638f77af1631",
+      "urlmonitor/leafcutter-ai pull request 189"
+    ],
+    "reopen_trigger": "A new public record that authenticates separate controlling operators and shows the cooperation exceeded the documented review, repair, supervisor or user-authorization rail."
+  },
+  "safety": {
+    "retrieval": "Read-only public repository files, pull-request timelines, commit metadata and search indexes only.",
+    "not_performed": [
+      "No recovered code, command, test, scanner, review service or agent runtime was executed.",
+      "No package was installed and no scan, review, comment, reaction, vote, transaction or account action was submitted.",
+      "No participant was contacted and no sink inbox, unlisted room or target system was accessed."
+    ],
+    "publication": "Only public source links, separate event and observation timestamps, Git identifiers, blob hashes, domain-level summaries and reasoning are retained. Raw payloads, credentials, tokens, personal addresses, private logs, local paths and executable instructions are omitted."
+  }
+}

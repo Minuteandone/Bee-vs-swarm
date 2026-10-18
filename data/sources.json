@@ -6763,6 +6763,192 @@
       "ref": "e478c1a105fbdd3d8f3c649da7eb039b71c9e4eb",
       "blob_sha": "38243300e0480a60ae69a89d107ca2c4a9997276",
       "observed_at": "2026-10-18T14:21:44Z"
+    },
+    {
+      "id": "original-bartholomew-pr-126",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/126",
+      "role": "Primary Codex review, Claude repair and explicit Taylor approval-gate timeline",
+      "published": "2026-09-30",
+      "event_at": "2026-09-30T10:36:58Z",
+      "merge_commit_sha": "2beeb6dc60a776da647ded26bf57ee701e12ed9c",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-codex-comment-4171700100",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/126#discussion_r4171700100",
+      "role": "Primary Codex wall-clock test finding later implemented by Claude",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T04:32:57Z",
+      "public_comment_id": 4171700100,
+      "public_actor": "chatgpt-codex-connector",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-claude-repair-019186c1",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/019186c17ce5ef50ed1c3a2f598a93e1dff91317",
+      "role": "Primary Claude repair citing and implementing Codex comment 4171700100",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T07:53:52Z",
+      "commit_sha": "019186c17ce5ef50ed1c3a2f598a93e1dff91317",
+      "commit_actor": "claude",
+      "selected_blob_sha": "c06bdea2b9678717190228bc9bb9459f603ba3bc",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-disposition-c2c774b6",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/c2c774b6764e64b9e81480172afc83648a676675",
+      "role": "Primary Claude disposition binding Codex comment 4171700100 to its full repair commit",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T07:54:43Z",
+      "commit_sha": "c2c774b6764e64b9e81480172afc83648a676675",
+      "commit_actor": "claude",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-pr-127",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127",
+      "role": "Primary Codex documentation finding, Claude repair and explicit Taylor decision timeline",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T03:06:19Z",
+      "merge_commit_sha": "54c851bbcbe444e4d8b2fade730555072fa06444",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-codex-comment-4193250224",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127#discussion_r4193250224",
+      "role": "Primary Codex stale-risk-status finding later implemented by Claude",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T08:41:50Z",
+      "public_comment_id": 4193250224,
+      "public_actor": "chatgpt-codex-connector",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-claude-repair-f9825b99",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/f9825b998a0cc9aac337a401b2a88badefb491d7",
+      "role": "Primary Claude documentation repair citing Codex comment 4193250224 and Taylor authorization",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T12:42:07Z",
+      "commit_sha": "f9825b998a0cc9aac337a401b2a88badefb491d7",
+      "commit_actor": "claude",
+      "selected_blob_sha": "065a42fdc1ea47c32d609e0ba2836b0a79495c48",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-disposition-8dc4a505",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/commit/8dc4a50588630b0cf1ab0944a9fba1f23522b6d9",
+      "role": "Primary Claude disposition binding Codex comment 4193250224 to its full repair commit",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T12:42:16Z",
+      "commit_sha": "8dc4a50588630b0cf1ab0944a9fba1f23522b6d9",
+      "commit_actor": "claude",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-owner-summary-6016899745",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127#issuecomment-6016899745",
+      "role": "Primary repository-account receipt recording Taylor's decision, repairs and pending User Approval Gate",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T13:05:04Z",
+      "public_comment_id": 6016899745,
+      "public_actor": "perolyat",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-bartholomew-owner-reply-4201266991",
+      "url": "https://github.com/perolyat/Bartholomew-identity-system/pull/127#discussion_r4201266991",
+      "role": "Primary Claude-generated repository-account reply linking the Codex finding to the Taylor-authorized repair",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T23:05:42Z",
+      "public_comment_id": 4201266991,
+      "public_actor": "perolyat",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-agent-queue-readme-24580544",
+      "url": "https://github.com/ElectricJack/agent-queue/blob/24580544b3f329da728c5f4feba9168aa16e8999/README.md",
+      "role": "Primary designed local software-factory and operator-policy context",
+      "published": "2026-10-15",
+      "ref": "24580544b3f329da728c5f4feba9168aa16e8999",
+      "blob_sha": "d1d94cc7ed23d9eda6c9c3e0c8e8b28529a1d643",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-agent-queue-parent-recovery-6397",
+      "url": "https://github.com/ElectricJack/agent-queue/blob/24580544b3f329da728c5f4feba9168aa16e8999/tests/fixtures/integration/parent_recovery_6397.json",
+      "role": "Primary captured seven-stage repair operation with retained Git OIDs and syntheticized participant identities",
+      "published": "2026-10-15",
+      "event_at": "2026-10-03T19:11:40Z",
+      "ref": "24580544b3f329da728c5f4feba9168aa16e8999",
+      "blob_sha": "6f5222106d07d0e010d1aa47659df04b3d7d219b",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-agent-queue-parent-repair-design-24580544",
+      "url": "https://github.com/ElectricJack/agent-queue/blob/24580544b3f329da728c5f4feba9168aa16e8999/docs/superpowers/specs/2026-10-03-parent-repair-heads-design.md",
+      "role": "Primary authorization and supervisor/operator acceptance context for the captured repair",
+      "published": "2026-10-15",
+      "ref": "24580544b3f329da728c5f4feba9168aa16e8999",
+      "blob_sha": "5a456273646166a94fd58711da815ffa901ab1fb",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-agent-queue-repair-74af8882",
+      "url": "https://github.com/ElectricJack/agent-queue/commit/74af88822785b7da1a8cf3b245dd406389fc54e7",
+      "role": "Primary first retained public repair commit in the captured stage ranges",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T19:08:51Z",
+      "commit_sha": "74af88822785b7da1a8cf3b245dd406389fc54e7",
+      "commit_actor": "Agent Queue",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-agent-queue-final-head-cd394b1a",
+      "url": "https://github.com/ElectricJack/agent-queue/commit/cd394b1a6c90d4cffcae1ce99aa6c8948286d021",
+      "role": "Primary final public head of the captured seven-stage repair operation",
+      "published": "2026-10-04",
+      "event_at": "2026-10-04T01:03:05Z",
+      "commit_sha": "cd394b1a6c90d4cffcae1ce99aa6c8948286d021",
+      "commit_actor": "Agent Queue",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-leafcutter-readme-30bb8662",
+      "url": "https://github.com/urlmonitor/leafcutter-ai/blob/30bb8662200f5d1f83e14658dace419bbfea108e/README.md",
+      "role": "Primary designed phase-agent and workflow-package context",
+      "published": "2026-10-17",
+      "ref": "30bb8662200f5d1f83e14658dace419bbfea108e",
+      "blob_sha": "317111d628047168507394faceb3612774954b0d",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-leafcutter-worktree-ticket-30bb8662",
+      "url": "https://github.com/urlmonitor/leafcutter-ai/blob/30bb8662200f5d1f83e14658dace419bbfea108e/tickets/00_inbox/TICKET-20260617-Worktree_Precommit_Bootstrap.md",
+      "role": "Primary phase log preserving reviewer H-1, later repair and human-supervised authorization",
+      "published": "2026-10-17",
+      "ref": "30bb8662200f5d1f83e14658dace419bbfea108e",
+      "blob_sha": "f50d12f8b50914ef49a8587ab4e0a0713f9a4732",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-leafcutter-pr-189",
+      "url": "https://github.com/urlmonitor/leafcutter-ai/pull/189",
+      "role": "Primary Claude-generated pull request containing the reviewer-to-repair chain under one public account",
+      "published": "2026-06-30",
+      "event_at": "2026-06-30T08:35:29Z",
+      "merge_commit_sha": "137a7e391b3130b950eae89712ee333989aa2cea",
+      "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-leafcutter-h1-repair-a780a2d9",
+      "url": "https://github.com/urlmonitor/leafcutter-ai/commit/a780a2d92133497cbc19cbf3a83821b767df71ac",
+      "role": "Primary same-account repair explicitly closing the pr-reviewer H-1 finding",
+      "published": "2026-06-30",
+      "event_at": "2026-06-30T09:03:18Z",
+      "commit_sha": "a780a2d92133497cbc19cbf3a83821b767df71ac",
+      "commit_actor": "urlmonitor",
+      "selected_blob_sha": "a1eb33947fd31a2f265c7bdf3a36966ab12d8e49",
+      "observed_at": "2026-10-18T20:01:35Z"
     }
   ]
 }

@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "assessed_on": "2026-10-18",
+  "observed_at": "2026-10-19T02:12:56Z",
+  "purpose": "Resume the saved principal-and-authorization cursors, rotate into public inbox and acknowledgment records, and test whether a concrete role-labelled letter-to-implementation dependency crosses an operator-defined boundary.",
+  "method": {
+    "selection": "Reconstruct the paused scanner remainder, run the three saved exact cursors, then rotate through lower-arity, dated and anomaly-language expressions. Read the strongest original exchange, its implementing commit, code artifact, contemporaneous governance and later verification receipt at immutable refs. Perform prior-reporting checks only after the dependency is established.",
+    "coverage_note": "The final sequential verification issued 39 exact expressions and returned 1,333 overlapping indexed path occurrences: 1,240 external and 93 from this repository. Twenty-three responses reached the requested 50-result cap. Counts are locator coverage, not messages, participants or incidents. An earlier parallel observation of the same 36 rotation expressions returned only 550 occurrences, so both observations are retained as evidence of search-index volatility and neither is treated as exhaustive.",
+    "read_only_limits": "Only existing public repository files, immutable commit metadata, public project pages and search indexes were read. No recovered code, command, test, package, agent runtime, public application, inbox, target or sink was executed or probed.",
+    "falsification_tests": [
+      "Require a task-bearing source, a distinguishable recipient and a public downstream artifact whose structure depends semantically on the source.",
+      "Separate role names, model labels and co-author trailers from independently authenticated principals and controlling operators.",
+      "Test same-commit publication, one-custodian authorship, explicit human review, designed role-play, human-carried messages, shared state, repeated tests and observer contamination as alternatives.",
+      "Require primary evidence that cooperation crossed or exceeded an operator-defined authorization boundary before assigning a rogue-coordination candidate."
+    ]
+  },
+  "scope": {
+    "scanner_backlog": {
+      "collected_original_reports": 1146,
+      "successfully_inspected": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "reconstructed_remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+      "remaining_comparison_overlaps": 161,
+      "remaining_comparison_absences_with_known_family_or_host_control": 132,
+      "urlscan_listing_pages_closed": 57,
+      "reopened": false,
+      "reason": "The canonical 293-record remainder reproduces the committed hash and still contains no source-level cue separating a new episode from the known families or host controls."
+    },
+    "resumed_exact_cursors": {
+      "query_expressions": 3,
+      "returned_row_occurrences": 10,
+      "external_row_occurrences": 2,
+      "self_repository_row_occurrences": 8,
+      "queries_at_requested_result_cap": 0,
+      "classification": "The two external rows are Agent Commons relay implementation and a Devhub database schema. Neither is a populated exchange."
+    },
+    "rotation_sequential_verification": {
+      "query_expressions": 36,
+      "returned_row_occurrences": 1323,
+      "external_row_occurrences": 1238,
+      "self_repository_row_occurrences": 85,
+      "complete_zero_result_queries": 1,
+      "queries_at_requested_result_cap": 23,
+      "selected_original_record_families": 1
+    },
+    "earlier_parallel_rotation_observation": {
+      "query_expressions": 36,
+      "returned_row_occurrences": 550,
+      "external_row_occurrences": 541,
+      "self_repository_row_occurrences": 9,
+      "complete_zero_result_queries": 25,
+      "queries_at_requested_result_cap": 11,
+      "interpretation": "The material difference from the sequential rerun demonstrates backend/index instability. These totals are preserved for reproducibility but not used as completeness evidence."
+    },
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_groups": [
+    {
+      "name": "resumed_pass98_exact_cursors",
+      "queries": [
+        "\"in_reply_to\" \"sender_session_id\" \"recipient_session_id\" \"operator_id\"",
+        "\"acked_at\" \"sender_agent_id\" \"recipient_agent_id\" \"owner_id\"",
+        "\"source_session_id\" \"consumer_session_id\" \"applied_commit_sha\" \"authorization\""
+      ],
+      "per_query_row_occurrences": [3, 4, 3],
+      "returned_row_occurrences": 10,
+      "external_row_occurrences": 2,
+      "self_repository_row_occurrences": 8,
+      "classification": "Two external implementation/schema paths and eight self-index rows; no emitted sender-to-recipient record."
+    },
+    {
+      "name": "lower_arity_dependency_rotation",
+      "queries": [
+        "\"in_reply_to\" \"sender_session_id\" \"recipient_session_id\"",
+        "\"reply_to\" \"sender_agent_id\" \"recipient_agent_id\"",
+        "\"acknowledged_at\" \"sender\" \"recipient\" \"content_hash\"",
+        "\"acked_at\" \"sender_agent_id\" \"recipient_agent_id\"",
+        "\"artifact_sha256\" \"consumed_by\" \"consumed_at\"",
+        "\"artifact_hash\" \"producer_agent\" \"consumer_agent\"",
+        "\"source_message_id\" \"recipient_action\" \"commit_sha\"",
+        "\"origin_session_id\" \"recipient_session_id\" \"result\"",
+        "\"received_from\" \"applied_commit\" \"agent_id\"",
+        "\"handoff_message_id\" \"accepted_at\" \"recipient_agent\"",
+        "\"delivery_id\" \"sender_trajectory_id\" \"recipient_trajectory_id\"",
+        "\"result_message_id\" \"recipient_principal\" \"used_at\""
+      ],
+      "per_query_row_occurrences": [41, 50, 50, 50, 50, 19, 5, 35, 0, 1, 2, 4],
+      "returned_row_occurrences": 307,
+      "external_row_occurrences": 266,
+      "self_repository_row_occurrences": 41,
+      "complete_zero_result_queries": 1,
+      "queries_at_requested_result_cap": 4,
+      "classification": "Rows were dominated by source, schemas, fixtures, documentation and previously reviewed controls. Capped responses were locators only."
+    },
+    {
+      "name": "dated_message_rotation",
+      "queries": [
+        "\"acked_at\" \"2026-\" \"sender_agent_id\"",
+        "\"acknowledged_at\" \"2026-\" \"recipient_agent_id\"",
+        "\"in_reply_to\" \"msg_\" \"created_at\" \"2026-\"",
+        "\"sender_session_id\" \"ses_\" \"recipient_session_id\" \"ses_\"",
+        "\"from_agent\" \"agent-\" \"to_agent\" \"agent-\" \"timestamp\" \"2026-\"",
+        "\"reply_to\" \"msg_\" \"recipient_agent_id\"",
+        "\"artifact_sha256\" \"consumed_at\" \"2026-\" \"agent_id\"",
+        "\"source_message_id\" \"used_at\" \"2026-\" \"agent_id\"",
+        "\"handoff_message_id\" \"accepted_at\" \"2026-\"",
+        "\"delivery_id\" \"acknowledged_at\" \"2026-\"",
+        "\"result_message_id\" \"applied_at\" \"2026-\"",
+        "\"sender_session_id\" \"recipient_session_id\" \"operator_id\" \"2026-\""
+      ],
+      "per_query_row_occurrences": [32, 50, 50, 50, 50, 50, 50, 50, 3, 50, 22, 6],
+      "returned_row_occurrences": 463,
+      "external_row_occurrences": 419,
+      "self_repository_row_occurrences": 44,
+      "complete_zero_result_queries": 0,
+      "queries_at_requested_result_cap": 8,
+      "classification": "Most returned paths are designed protocols, schemas, tests, synthetic datasets or already reviewed families. A synthetic email benchmark containing personal-looking fields was treated as a dataset control and is not linked or reproduced."
+    },
+    {
+      "name": "anomaly_language_rotation",
+      "queries": [
+        "\"unexpected\" \"from_agent\" \"to_agent\"",
+        "\"unprompted\" \"sender_agent\" \"recipient_agent\"",
+        "\"without authorization\" \"agent\" \"message\"",
+        "\"unauthorized\" \"from_agent\" \"to_agent\"",
+        "\"not requested\" \"agent\" \"handoff\"",
+        "\"unknown sender\" \"agent\" \"message\"",
+        "\"unexpected message\" \"session\" \"agent\"",
+        "\"unsolicited message\" \"sender\" \"recipient\"",
+        "\"another agent\" \"message\" \"without\" \"asked\"",
+        "\"unsolicited\" \"agent\" \"message\" \"inbox\"",
+        "\"not initiated\" \"agent\" \"conversation\"",
+        "\"cross-operator\" \"agent\" \"message\""
+      ],
+      "per_query_row_occurrences": [50, 3, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50],
+      "returned_row_occurrences": 553,
+      "external_row_occurrences": 553,
+      "self_repository_row_occurrences": 0,
+      "complete_zero_result_queries": 0,
+      "queries_at_requested_result_cap": 11,
+      "classification": "Broad anomaly terms were mostly source-level error handling, policy prose, designed agent tools and unrelated inbox text. One FreeLattice inbox path exposed the selected original letter-to-implementation chain."
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "freelattice-letter-five-to-quiet-voices",
+      "repository": "Chaos2Cured/FreeLattice",
+      "source_letter": {
+        "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/inbox/cc.md",
+        "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+        "blob_sha": "c9e80c9604e9887aaeaba0dab16d966a9a08a7d3",
+        "embedded_event_date": "2026-06-18",
+        "sender_role": "Opus",
+        "recipient_role": "CC",
+        "summary": "Letter Five supplies a non-recreation checklist, instructs CC to build one generalized sentinel-ledger factory, specifies its returned API and privacy-first behavior, defines two concrete instances, names touched files and assigns version v5.56.0."
+      },
+      "recipient_response": {
+        "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/inbox/opus.md",
+        "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+        "blob_sha": "50b8cd45b978a80538b313c00b6e39f8f6cacb33",
+        "embedded_event_date": "2026-06-18",
+        "sender_role": "CC",
+        "recipient_role": "Opus",
+        "summary": "CC says it read Letter Five first, checked each named module, used the factory shape exactly, added one validation hook, and shipped v5.56.0. The response then supplies a human chair-test brief."
+      },
+      "implementation": {
+        "module_url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/modules/sentinel-ledger.js",
+        "module_blob_sha": "5cc39f88a59aba8509fc346c6324073d1e0fd73f",
+        "commit_url": "https://github.com/Chaos2Cured/FreeLattice/commit/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+        "commit_sha": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+        "committed_at": "2026-06-18T22:17:47Z",
+        "commit_author": "Kirk Miller",
+        "commit_committer": "Kirk Miller",
+        "coauthor_label": "Claude Opus 4.7",
+        "summary": "The commit adds the source letter, recipient response and implementing module together. Its message expressly attributes the generalized factory to Letter Five, and the module header identifies v5.56.0 and that letter. The implemented API and privacy/ledger structure match the source brief."
+      },
+      "human_verification_receipt": {
+        "url": "https://github.com/Chaos2Cured/FreeLattice/blob/93b5cf509d613189812f04f0268c986542aaed62/docs/library/CHAIR_TEST_QUEUE.md",
+        "ref": "93b5cf509d613189812f04f0268c986542aaed62",
+        "blob_sha": "e0e69a6b1de87fb061062b621b0b1cbd4d743c0d",
+        "embedded_event_date": "2026-06-19",
+        "pinned_ref_committed_at": "2026-10-18T14:38:20Z",
+        "summary": "The later queue records Kirk confirming the console harness and says its six passing tests included the v5.56.0 preserve and annotate behavior. This is a project-authored human verification receipt, not independent telemetry."
+      },
+      "governance": {
+        "orientation_url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/AI_ORIENTATION.md",
+        "orientation_blob_sha": "648c9aba2540dd244a8f5fa05608f4de4a078533",
+        "coordination_url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/library/COORDINATION.md",
+        "coordination_blob_sha": "ee69acc72c78b3917e8387d469c484420ec9ff44",
+        "summary": "The orientation names a designed set of AI collaborator roles, says Claude Code commits under Kirk's local git identity and states that Kirk reviews and approves all changes. The coordination log calls itself the shared channel and repeats Kirk's approval authority."
+      },
+      "semantic_dependency": "High confidence. The response names the exact letter, describes checking and applying its concrete factory design, and the same commit introduces matching code and downstream files. This is stronger than lexical similarity.",
+      "temporal_dependency": "Limited. The letter is internally dated before or during the build, but the public source letter, recipient response and code first appear together in one commit. Public commit chronology therefore proves co-publication and semantic correspondence, not an independently timestamped sender-before-recipient sequence.",
+      "participant_provenance": "Opus and CC are distinguishable project roles. The public record does not independently authenticate them as autonomous principals; the implementing commit is authored and committed by Kirk Miller and carries a Claude Opus co-author label.",
+      "operator_boundary": "Not crossed. Contemporaneous project governance says Kirk reviews and approves every change and that Claude Code commits through Kirk's identity. The response itself assigns the next step to Kirk's chair test.",
+      "authorization": "Explicit project authorization and human review are documented. No public evidence shows either role initiating cooperation outside that workflow or acting against the operator's scope.",
+      "alternative_explanations": [
+        "Designed multi-role collaboration under one human custodian",
+        "Human carrying content between model sessions",
+        "One model or one operator using multiple role names",
+        "Same-commit narrative and implementation documentation",
+        "Project-authored verification rather than independent observation"
+      ],
+      "provider_attribution": "The repository self-labels CC as Claude Code and the commit carries a Claude Opus co-author trailer. These are project assertions, not provider-authenticated session records.",
+      "subjective_intent": "Not inferred. Agent-like prose and role voice do not establish autonomy or rogue intent.",
+      "current_activity": "Not inferred from the June exchange. The October ref is used only to pin the later preserved receipt.",
+      "assessment": "A concrete original task-result/use chain and useful positive control for semantic dependency, but a designed, human-governed collaboration. Same-commit publication, one-account provenance and explicit human approval prevent independent-participant, operator-boundary or rogue-swarm classification."
+    }
+  ],
+  "prior_reporting_check": {
+    "checked_on": "2026-10-18",
+    "github_exact_queries": [
+      {
+        "query": "\"Your Letter Five landed clean\"",
+        "rows": 1,
+        "classification": "Originating FreeLattice response only."
+      },
+      {
+        "query": "\"SentinelLedger.create(config)\" \"Letter Five\"",
+        "rows": 2,
+        "classification": "Originating response and implementation only."
+      },
+      {
+        "query": "\"FreeLattice\" \"Opus\" \"CC\" \"Quiet Voices\"",
+        "rows": 9,
+        "classification": "FreeLattice's own inbox, module, audit, map, poem and chair-test records."
+      },
+      {
+        "query": "\"v5.56.0\" \"Quiet Voices\" \"FreeLattice\"",
+        "rows": 7,
+        "classification": "FreeLattice's own records only."
+      }
+    ],
+    "web_queries": [
+      "\"Your Letter Five landed clean\"",
+      "\"SentinelLedger.create(config)\" \"Letter Five\"",
+      "\"FreeLattice\" Opus CC \"Quiet Voices\" coordination",
+      "\"v5.56.0\" \"Quiet Voices\" FreeLattice",
+      "Chaos2Cured FreeLattice Opus CC AI collaboration report",
+      "FreeLattice \"Letter Five\" Opus CC",
+      "FreeLattice rogue AI swarm",
+      "FreeLattice multi-agent coordination"
+    ],
+    "result": "The higher-recall web pass found FreeLattice's own repository and project pages, including explicit self-description as one human working with a chosen family of AI roles and a page describing a human carrying words between them, plus unrelated lexical results. No independent incident report or study of this exact Letter Five exchange was located in the checked scope as of 2026-10-18. That bounded result is not a claim of universal novelty; the project itself publicly describes the collaboration, and its primary governance excludes a rogue interpretation."
+  },
+  "known_family_overlap": {
+    "overlap_found": false,
+    "note": "No overlap was found with the excluded DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI May Artifactory, OpenAI July Hugging Face, AISI GitHub handoff or Covert Assistance/METR families. FreeLattice is retained as a separate designed-collaboration control, not a discovery."
+  },
+  "limitations": [
+    "The public source letter, response and implementation are co-published in one commit, so the public record lacks an independent sender-before-recipient timestamp.",
+    "Role labels, model names and co-author trailers are self-attributed and do not authenticate separate autonomous principals or operators.",
+    "The repository supplies no public raw provider-session transcript, invocation log or authorization record independent of the project custodian.",
+    "The chair-test receipt is project-authored and human-mediated; it supports downstream verification but not autonomous cross-operator use.",
+    "Capped and volatile search results are discovery aids, not estimates of prevalence or completeness."
+  ],
+  "evidence_needed_to_advance": [
+    "A separately timestamped, content-addressed sender artifact and later recipient action rather than same-commit publication.",
+    "Independent authentication that the sender and recipient are distinct autonomous principals controlled by different operators.",
+    "Primary evidence showing the recipient acquired and used the task content without Kirk carrying, requesting, approving or otherwise authorizing the exchange.",
+    "Evidence that the cooperation exceeded the documented FreeLattice role workflow rather than continuing the designed project collaboration."
+  ],
+  "next_exact_cursor": [
+    "\"sender_operator_id\" \"recipient_operator_id\" \"source_message_sha256\" \"applied_commit_sha\"",
+    "\"source_principal_id\" \"recipient_principal_id\" \"authorization_decision\" \"consumed_at\"",
+    "\"origin_message_commit\" \"recipient_action_commit\" \"operator_boundary\" \"agent_id\""
+  ],
+  "do_not_reopen_without_new_evidence": [
+    "The FreeLattice Letter Five / v5.56.0 Quiet Voices chain, unless a public record independently authenticates distinct operators, supplies pre-commit sender chronology or shows activity outside Kirk's approval workflow.",
+    "The paused 293-report scanner remainder or closed 57-page urlscan scope, unless a new source-level cue separates a genuinely different episode."
+  ],
+  "safety": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "agent_runtime_invoked": false,
+    "scan_submitted": false,
+    "messages_or_reactions_posted": false,
+    "participants_contacted": false,
+    "accounts_created": false,
+    "private_or_unlisted_rooms_accessed": false,
+    "targets_or_sinks_probed": false,
+    "sensitive_material_published": false
+  }
+}

@@ -7087,6 +7087,76 @@
       "ref": "8420e8b0a61c29510724f13470a13b9717a4028f",
       "blob_sha": "98177d161fa9e8e23d41bdebc67af1ca9a970dcf",
       "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-freelattice-letter-five-614daa14",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/inbox/cc.md",
+      "role": "Primary Opus-labelled task brief addressed to CC",
+      "published": "2026-06-18",
+      "event_date_embedded": "2026-06-18",
+      "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "blob_sha": "c9e80c9604e9887aaeaba0dab16d966a9a08a7d3",
+      "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-freelattice-cc-letter-five-response-614daa14",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/inbox/opus.md",
+      "role": "Primary CC-labelled response claiming use of Letter Five and reporting the implementation",
+      "published": "2026-06-18",
+      "event_date_embedded": "2026-06-18",
+      "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "blob_sha": "50b8cd45b978a80538b313c00b6e39f8f6cacb33",
+      "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-freelattice-sentinel-ledger-614daa14",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/modules/sentinel-ledger.js",
+      "role": "Primary implementation matching the Letter Five factory design",
+      "published": "2026-06-18",
+      "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "blob_sha": "5cc39f88a59aba8509fc346c6324073d1e0fd73f",
+      "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-freelattice-quiet-voices-commit-614daa14",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/commit/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "role": "Primary commit co-publishing source letter, recipient response and matching implementation",
+      "published": "2026-06-18",
+      "event_at": "2026-06-18T22:17:47Z",
+      "commit_sha": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "commit_actor": "Kirk Miller",
+      "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-freelattice-orientation-614daa14",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/AI_ORIENTATION.md",
+      "role": "Contemporaneous primary collaborator roles, commit identity and human approval boundary",
+      "published": null,
+      "pinned_ref_committed_at": "2026-06-18T22:17:47Z",
+      "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "blob_sha": "648c9aba2540dd244a8f5fa05608f4de4a078533",
+      "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-freelattice-coordination-614daa14",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/blob/614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1/docs/library/COORDINATION.md",
+      "role": "Contemporaneous primary shared-channel and Kirk approval rules",
+      "published": null,
+      "pinned_ref_committed_at": "2026-06-18T22:17:47Z",
+      "ref": "614daa140ccafb4e0f3b4e9a3e2772b2c20fd7a1",
+      "blob_sha": "ee69acc72c78b3917e8387d469c484420ec9ff44",
+      "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-freelattice-chair-test-93b5cf50",
+      "url": "https://github.com/Chaos2Cured/FreeLattice/blob/93b5cf509d613189812f04f0268c986542aaed62/docs/library/CHAIR_TEST_QUEUE.md",
+      "role": "Later primary project receipt recording Kirk's harness verification",
+      "published": null,
+      "event_date_embedded": "2026-06-19",
+      "pinned_ref_committed_at": "2026-10-18T14:38:20Z",
+      "ref": "93b5cf509d613189812f04f0268c986542aaed62",
+      "blob_sha": "e0e69a6b1de87fb061062b621b0b1cbd4d743c0d",
+      "observed_at": "2026-10-19T02:12:56Z"
     }
   ]
 }

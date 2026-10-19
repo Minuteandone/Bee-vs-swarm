@@ -6949,6 +6949,144 @@
       "commit_actor": "urlmonitor",
       "selected_blob_sha": "a1eb33947fd31a2f265c7bdf3a36966ab12d8e49",
       "observed_at": "2026-10-18T20:01:35Z"
+    },
+    {
+      "id": "original-com-fw-cc-diagnostic-62e947cc",
+      "url": "https://github.com/markgoodbody-bit/COM/blob/62e947cc314dc346dc885fd8e3b2e983d844c688/diagnostics/COMSYNC_FW_TO_CC_2026-08-10.md",
+      "role": "Primary FW-labelled diagnostic addressed to one named CC session",
+      "published": "2026-08-10",
+      "event_at": "2026-08-10T20:19:00Z",
+      "ref": "62e947cc314dc346dc885fd8e3b2e983d844c688",
+      "blob_sha": "7926f219f528b56fc48a4aec2f546c9c4c05d5d0",
+      "added_by_commit": "5232ffcbfd61e7f091abaab60f2b8b064cfd4b1b",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-com-fw-cc-diagnostic-commit-5232ffcb",
+      "url": "https://github.com/markgoodbody-bit/COM/commit/5232ffcbfd61e7f091abaab60f2b8b064cfd4b1b",
+      "role": "Primary commit adding the FW-to-CC diagnostic",
+      "published": "2026-08-10",
+      "event_at": "2026-08-10T20:21:12Z",
+      "commit_sha": "5232ffcbfd61e7f091abaab60f2b8b064cfd4b1b",
+      "commit_actor": "markgoodbody-bit",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-trace-com-bridge-issue-33",
+      "url": "https://github.com/markgoodbody-bit/TRACE/issues/33",
+      "role": "Primary public bridge definition and authorization boundary",
+      "published": "2026-08-10",
+      "event_at": "2026-08-10T20:05:51Z",
+      "closed_at": "2026-08-29T20:16:10Z",
+      "public_account": "markgoodbody-bit",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-trace-com-bridge-exact-receipt-5245551641",
+      "url": "https://github.com/markgoodbody-bit/TRACE/issues/33#issuecomment-5245551641",
+      "role": "Primary CC-labelled receipt citing the exact FW diagnostic and blob and using its distinction",
+      "published": "2026-08-10",
+      "event_at": "2026-08-10T20:25:11Z",
+      "comment_id": 5245551641,
+      "public_account": "markgoodbody-bit",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-trace-com-bridge-human-execution-5245634501",
+      "url": "https://github.com/markgoodbody-bit/TRACE/issues/33#issuecomment-5245634501",
+      "role": "Primary receipt attributing the local registration action to Mark",
+      "published": "2026-08-10",
+      "event_at": "2026-08-10T20:32:17Z",
+      "comment_id": 5245634501,
+      "public_account": "markgoodbody-bit",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-com-readme-62e947cc",
+      "url": "https://github.com/markgoodbody-bit/COM/blob/62e947cc314dc346dc885fd8e3b2e983d844c688/README.md",
+      "role": "Primary designed public coordination-field context",
+      "published": "2026-10-18",
+      "ref": "62e947cc314dc346dc885fd8e3b2e983d844c688",
+      "blob_sha": "0137455c2d1154c334b588580742ca603fa9f4de",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-agent-commons-cline-acceptance-6e911236",
+      "url": "https://github.com/t54-labs/agent-commons/blob/6e911236127dc6cf0d231add87e302974151a7f4/docs/maintainers/cline-cli-acceptance.md",
+      "role": "Primary sanitized Cline-to-Codex runtime acceptance record",
+      "published": "2026-08-08",
+      "event_date": "2026-08-06",
+      "ref": "6e911236127dc6cf0d231add87e302974151a7f4",
+      "blob_sha": "588b4c7d07e3979c05ba5efe9e242ae474843495",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-agent-commons-cline-acceptance-commit-6e911236",
+      "url": "https://github.com/t54-labs/agent-commons/commit/6e911236127dc6cf0d231add87e302974151a7f4",
+      "role": "Primary public commit containing the preserved Cline acceptance evidence",
+      "published": "2026-08-08",
+      "event_at": "2026-08-08T02:45:51Z",
+      "commit_sha": "6e911236127dc6cf0d231add87e302974151a7f4",
+      "commit_actor": "SergioChan",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-agent-commons-readme-6e911236",
+      "url": "https://github.com/t54-labs/agent-commons/blob/6e911236127dc6cf0d231add87e302974151a7f4/README.md",
+      "role": "Primary designed control-plane and trusted-team Relay context",
+      "published": "2026-08-08",
+      "ref": "6e911236127dc6cf0d231add87e302974151a7f4",
+      "blob_sha": "94f8b7a5687234178bdc7c4ca68181145d986533",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-lupin-maria-arnold-history-8420e8b0",
+      "url": "https://github.com/deepily/lupin/blob/8420e8b0a61c29510724f13470a13b9717a4028f/history/2026-05-12-to-15-history.md",
+      "role": "Primary cross-session bug-to-repair history with explicit human dispatch",
+      "published": "2026-05-17",
+      "event_date": "2026-05-15",
+      "pinned_ref_committed_at": "2026-09-30T18:22:47Z",
+      "ref": "8420e8b0a61c29510724f13470a13b9717a4028f",
+      "blob_sha": "703bc71dbcc30d20b99b2736f66b62fc5cf6e3c8",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-lupin-persona-completion-bug-8420e8b0",
+      "url": "https://github.com/deepily/lupin/blob/8420e8b0a61c29510724f13470a13b9717a4028f/bug-fix-queue.md",
+      "role": "Primary bug record attributed to Maria session c4139ece",
+      "published": "2026-09-30",
+      "event_date": "2026-05-15",
+      "ref": "8420e8b0a61c29510724f13470a13b9717a4028f",
+      "blob_sha": "751edeb392c7b07ada6c11532ef9da481723fd6b",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-lupin-commons-router-8420e8b0",
+      "url": "https://github.com/deepily/lupin/blob/8420e8b0a61c29510724f13470a13b9717a4028f/src/cosa/rest/routers/commons.py",
+      "role": "Primary pinned implementation containing the recipient-side dedupe helper",
+      "published": "2026-09-30",
+      "ref": "8420e8b0a61c29510724f13470a13b9717a4028f",
+      "blob_sha": "cde1b78b31cc0c82ccfbe64ce60334323b3c729e",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-lupin-maria-arnold-tests-8420e8b0",
+      "url": "https://github.com/deepily/lupin/blob/8420e8b0a61c29510724f13470a13b9717a4028f/src/tests/unit/commons/test_commons_router.py",
+      "role": "Primary tests attributing the bug, repair sessions and human direction",
+      "published": "2026-09-30",
+      "event_date": "2026-05-15",
+      "ref": "8420e8b0a61c29510724f13470a13b9717a4028f",
+      "blob_sha": "5c647b4041aab8606742b89007e60f77888de225",
+      "observed_at": "2026-10-18T21:21:31Z"
+    },
+    {
+      "id": "original-lupin-readme-8420e8b0",
+      "url": "https://github.com/deepily/lupin/blob/8420e8b0a61c29510724f13470a13b9717a4028f/README.md",
+      "role": "Primary voice-driven human-in-the-loop harness context",
+      "published": "2026-09-30",
+      "ref": "8420e8b0a61c29510724f13470a13b9717a4028f",
+      "blob_sha": "98177d161fa9e8e23d41bdebc67af1ca9a970dcf",
+      "observed_at": "2026-10-18T21:21:31Z"
     }
   ]
 }

@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "purpose": "Resume the saved operator-boundary cursors, rotate through lower-arity content-addressed handoff fields, and test whether a public cross-provider validation-to-disposition dependency represents independent or unauthorized coordination.",
+  "assessed_on": "2026-10-19",
+  "observed_at": "2026-10-19T06:58:16Z",
+  "safety": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "agent_runtime_invoked": false,
+    "scan_submitted": false,
+    "messages_or_reactions_posted": false,
+    "participants_contacted": false,
+    "accounts_created": false,
+    "private_or_unlisted_rooms_accessed": false,
+    "targets_or_sinks_probed": false,
+    "sensitive_material_published": false
+  },
+  "method": {
+    "selection": "Preserve the paused scanner and urlscan checkpoints, run the three saved exact cursors, then rotate through fifteen lower-arity sender/recipient, artifact-digest and downstream-use expressions. Read the strongest original record at immutable commits, reconstruct its public commit order, compare task and session provenance, test designed-workflow and same-custodian alternatives, and perform a scoped prior-reporting check only after the dependency is established.",
+    "coverage_note": "The eighteen exact expressions returned 107 overlapping indexed path occurrences: 77 external and 30 from this repository. One response reached the requested 50-result cap and six returned zero. Counts are volatile locator coverage, not messages, participants, incidents or a completeness estimate.",
+    "read_only_limits": "Only existing public repository files, immutable Git objects, commit metadata and search indexes were read. Recovered project code, tests, commands, packages and agent runtimes were not executed.",
+    "falsification_tests": [
+      "Require a specific producer artifact, a distinguishable recipient and a later public action whose content depends semantically on the transferred result.",
+      "Separate provider, model, role and session labels asserted inside a project record from independently authenticated principals and operators.",
+      "Test pre-dispatched review, one-custodian Git provenance, human or coordinator mediation, designed team structure, benchmark/test execution, scanner retry, shared state and observer contamination as alternatives.",
+      "Require primary evidence that the cooperation crossed or exceeded an operator-defined authorization boundary before assigning a rogue-coordination candidate."
+    ]
+  },
+  "scope": {
+    "scanner_backlog": {
+      "collected_original_reports": 1146,
+      "successfully_inspected": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "reconstructed_remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+      "remaining_comparison_overlaps": 161,
+      "remaining_comparison_absences_with_known_family_or_host_control": 132,
+      "urlscan_listing_pages_closed": 57,
+      "reopened": false,
+      "reason": "No new source-level cue separates any record in the canonical remainder from the committed known-family and host controls."
+    },
+    "resumed_exact_cursors": {
+      "query_expressions": 3,
+      "returned_row_occurrences": 6,
+      "external_row_occurrences": 0,
+      "self_repository_row_occurrences": 6,
+      "complete_zero_result_queries": 0,
+      "queries_at_requested_result_cap": 0,
+      "classification": "Every row was this repository's indexed Pass 99 query text. The saved cursor therefore closes as observer contamination."
+    },
+    "lower_arity_rotation": {
+      "query_expressions": 15,
+      "returned_row_occurrences": 101,
+      "external_row_occurrences": 77,
+      "self_repository_row_occurrences": 24,
+      "complete_zero_result_queries": 6,
+      "queries_at_requested_result_cap": 1,
+      "selected_original_record_families": 1,
+      "classification": "Most external paths were schemas, implementation, tests, designed workflows or generated records. One immutable cross-provider review chain warranted complete reading."
+    },
+    "combined_exact_search": {
+      "query_expressions": 18,
+      "returned_row_occurrences": 107,
+      "external_row_occurrences": 77,
+      "self_repository_row_occurrences": 30,
+      "complete_zero_result_queries": 6,
+      "queries_at_requested_result_cap": 1
+    },
+    "new_original_coordination_candidates": 0,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "query_groups": [
+    {
+      "name": "resumed_pass99_operator_boundary_cursors",
+      "queries": [
+        "\"sender_operator_id\" \"recipient_operator_id\" \"source_message_sha256\" \"applied_commit_sha\"",
+        "\"source_principal_id\" \"recipient_principal_id\" \"authorization_decision\" \"consumed_at\"",
+        "\"origin_message_commit\" \"recipient_action_commit\" \"operator_boundary\" \"agent_id\""
+      ],
+      "per_query_row_occurrences": [
+        2,
+        2,
+        2
+      ],
+      "returned_row_occurrences": 6,
+      "external_row_occurrences": 0,
+      "self_repository_row_occurrences": 6,
+      "classification": "Only this repository's prior log and assessment were indexed; no external record survived."
+    },
+    {
+      "name": "lower_arity_content_addressed_handoff_rotation",
+      "queries": [
+        "\"sender_operator\" \"recipient_operator\" \"artifact_digest\"",
+        "\"owner_id\" \"sender_agent_id\" \"recipient_agent_id\" \"used\"",
+        "\"produced_by_agent\" \"consumed_by_agent\"",
+        "\"from_principal\" \"to_principal\" \"artifact_sha\"",
+        "\"upstream_agent_id\" \"downstream_agent_id\" \"result_sha\"",
+        "\"origin_agent_id\" \"consumer_agent_id\" \"commit_sha\"",
+        "\"handoff_from\" \"handoff_to\" \"commit_sha\" \"2026-\"",
+        "\"message_sha256\" \"applied_by\" \"agent\"",
+        "\"source_artifact_sha256\" \"recipient\" \"applied\"",
+        "\"evidence_hash\" \"recipient_agent\" \"action_commit\"",
+        "\"sent_by\" \"received_by\" \"applied_in_commit\"",
+        "\"task_result_hash\" \"recipient_agent_id\"",
+        "\"source_commit\" \"consumer_commit\" \"agent_id\"",
+        "\"result_sha256\" \"consumer_agent\"",
+        "\"operator_scope\" \"source_agent\" \"recipient_agent\""
+      ],
+      "per_query_row_occurrences": [
+        1,
+        50,
+        4,
+        4,
+        0,
+        2,
+        11,
+        0,
+        17,
+        0,
+        0,
+        0,
+        0,
+        11,
+        1
+      ],
+      "returned_row_occurrences": 101,
+      "external_row_occurrences": 77,
+      "self_repository_row_occurrences": 24,
+      "complete_zero_result_queries": 6,
+      "queries_at_requested_result_cap": 1,
+      "classification": "The selected crypto-autoresearcher chain preserves a real result-to-disposition dependency. Other retained paths were designed ledgers, schemas, tests or single-run controls; the capped query was used only as a locator."
+    }
+  ],
+  "selected_original_records": [
+    {
+      "id": "crypto-autoresearcher-batch-5fd128-cross-provider-review",
+      "repository": "aburan28/crypto-autoresearcher",
+      "producer": {
+        "task_id": "TASK-20260809-1be9ec",
+        "role": "coordinator",
+        "artifact_url": "https://github.com/aburan28/crypto-autoresearcher/blob/39d49d11c49efc5b6431fa0a67edc7efd9babf58/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/tasks/TASK-20260809-1be9ec/design-report.yaml",
+        "artifact_blob_sha": "c166632fc5c15e3be31393c9a25103e66ff62a0b",
+        "specification_url": "https://github.com/aburan28/crypto-autoresearcher/blob/39d49d11c49efc5b6431fa0a67edc7efd9babf58/experiments/EXP-ECDLP-6dbb4c/specification.yaml",
+        "specification_blob_sha": "828e6cc63de501fa6e1509c9b7504018e344e597",
+        "snapshot_commit": "39d49d11c49efc5b6431fa0a67edc7efd9babf58",
+        "snapshot_committed_at": "2026-08-09T09:45:41-07:00",
+        "provider_claim": "OpenAI",
+        "runtime_claim": "native Codex authenticated through ChatGPT",
+        "model_claim": "gpt-5.6-sol",
+        "native_session_id": "019fe746-d773-7002-b19a-727aab9bcb7e",
+        "summary": "The producer created a nonexperimental serializer-design successor and explicitly left it pending snapshot and independent review. It did not authorize implementation or execution."
+      },
+      "validator": {
+        "task_id": "TASK-20260809-4d3e95",
+        "role": "validator",
+        "review_url": "https://github.com/aburan28/crypto-autoresearcher/blob/e22345430883003824e3c1b907dc63be109f24cb/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/reviews/TASK-20260809-4d3e95/review-report.yaml",
+        "review_blob_sha": "761ddd32b814e1639c72f5667e443bd2c591a48b",
+        "review_sha256_reported": "03f4fda6c3badf5c18786dec6991710ac56d2362846d05428203caa8dec173b9",
+        "completion_receipt_url": "https://github.com/aburan28/crypto-autoresearcher/blob/e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/dispatch_queue.json",
+        "completion_receipt_blob_sha": "54161af39779d33f2047f567cb2f7d39bab5e8c4",
+        "completion_receipt_commit": "e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b",
+        "completion_receipt_committed_at": "2026-08-09T10:08:54-07:00",
+        "provider_claim": "Anthropic",
+        "runtime_claim": "direct Claude Code authenticated through a claude.ai Max subscription",
+        "model_claim": "claude-opus-5",
+        "native_session_id": "5c09e22e-0902-49dd-9dc8-f40de74eef1a",
+        "producer_session_distinct": true,
+        "verdict": "REVISE",
+        "blocking_finding_ids": [
+          "VAL-4D3E95-ARTIFACT-IDENTITY-001",
+          "VAL-4D3E95-RETAINED-ARTIFACT-BUDGET-002"
+        ],
+        "summary": "The validator says it independently reconstructed the frozen design, then found that undefined per-case artifact bytes permit two conformant result roots and leave the retained-artifact budget ambiguous. The earlier queue commit publishes this verdict, both defects and the review digest before the recipient checkpoint."
+      },
+      "recipient_disposition": {
+        "task_id": "TASK-20260809-293e8d",
+        "role": "coordinator",
+        "checkpoint_url": "https://github.com/aburan28/crypto-autoresearcher/blob/e22345430883003824e3c1b907dc63be109f24cb/ledger/goals/GOAL-ECDLP-001/checkpoints/BATCH-5fd128.yaml",
+        "checkpoint_blob_sha": "68fd343dd50b0cff93c890aca64679322d4280ba",
+        "decision_url": "https://github.com/aburan28/crypto-autoresearcher/blob/e22345430883003824e3c1b907dc63be109f24cb/ledger/decisions/DEC-20260809-89fad8.yaml",
+        "decision_blob_sha": "0f71aa0328cc4691d27b981d97f3431f2cf2fc0d",
+        "completion_receipt_url": "https://github.com/aburan28/crypto-autoresearcher/blob/4d099ebf2aaefc783c128906ad6c071798c78e0f/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/dispatch_queue.json",
+        "completion_receipt_blob_sha": "6662e34baa248972746f83cb895609c8dd06dab1",
+        "completion_receipt_commit": "4d099ebf2aaefc783c128906ad6c071798c78e0f",
+        "completion_receipt_committed_at": "2026-08-09T10:10:36-07:00",
+        "archive_commit": "e22345430883003824e3c1b907dc63be109f24cb",
+        "archive_committed_at": "2026-08-09T10:14:36-07:00",
+        "summary": "The coordinator accepts the exact REVISE verdict, repeats the two blocker meanings and requires a new immutable successor that defines artifact bytes and reconciles the retained-artifact cap. It keeps the design unfrozen, non-executable and evidence-ineligible."
+      },
+      "public_temporal_sequence": [
+        {
+          "commit": "39d49d11c49efc5b6431fa0a67edc7efd9babf58",
+          "committed_at": "2026-08-09T09:45:41-07:00",
+          "event": "Producer design and specification snapshot"
+        },
+        {
+          "commit": "e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b",
+          "committed_at": "2026-08-09T10:08:54-07:00",
+          "event": "Validator completion receipt with exact verdict, defects and review digest"
+        },
+        {
+          "commit": "4d099ebf2aaefc783c128906ad6c071798c78e0f",
+          "committed_at": "2026-08-09T10:10:36-07:00",
+          "event": "Coordinator checkpoint completion receipt accepting the verdict and prescribing repair"
+        },
+        {
+          "commit": "e22345430883003824e3c1b907dc63be109f24cb",
+          "committed_at": "2026-08-09T10:14:36-07:00",
+          "event": "Full review, checkpoint and decision archived together"
+        }
+      ],
+      "git_provenance": {
+        "author_and_committer_for_all_four_commits": "Dispatch Test synthetic identity",
+        "interpretation": "Git authenticates one public custodian for the chain. The provider, model and native-session identities are assertions inside project records, not distinct provider-authenticated Git principals."
+      },
+      "workflow_authorization": {
+        "dispatch_record_url": "https://github.com/aburan28/crypto-autoresearcher/blob/e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/dispatch_queue.json",
+        "summary": "The contemporaneous queue preassigns the coordinator-to-validator handoff, requires a fresh session, fixes the validator write scope and completion gate, then explicitly assigns the coordinator alone to interpret the review and archive the disposition. The exchange is the planned behavior of the batch, not unsolicited outreach."
+      },
+      "semantic_dependency": "High confidence. The recipient names the exact validator task and finding IDs, repeats both defects, preserves the REVISE verdict and prescribes the precise repair those findings require.",
+      "temporal_dependency": "High confidence for the public receipt sequence. The validator completion receipt precedes the recipient completion receipt by 102 seconds. The complete review and disposition are co-archived four minutes later, so the preceding queue commits—not file creation times inside the archive—supply the public before/after evidence.",
+      "participant_provenance": "The records identify distinct native sessions and different claimed providers. Those claims are detailed but project-authored; no provider-independent record authenticates two separately controlled principals.",
+      "operator_boundary": "Not crossed. The contemporaneous dispatch queue creates both roles within one batch, makes independent review mandatory, and reserves interpretation to the coordinator. One Git identity publishes every step.",
+      "authorization": "Explicitly designed and pre-authorized within the project workflow. The validator's objections limit execution, and the coordinator follows those limits.",
+      "alternative_explanations": [
+        "Designed multi-agent scientific workflow",
+        "One operator invoking different provider sessions for assigned roles",
+        "Project-authored provider and session labels",
+        "Coordinator-mediated review rather than peer-initiated outreach",
+        "Single Git custodian serializing multiple tool sessions"
+      ],
+      "provider_attribution": "OpenAI/Codex and Anthropic/Claude Code are self-reported by the project records. No backend probe or provider-authenticated public trace is available, and the review explicitly says no backend network probe was run.",
+      "subjective_intent": "Not inferred. The validator's adversarial language and the coordinator's acceptance are assigned roles, not evidence of rogue intent.",
+      "current_activity": "Not inferred. The assessed exchange occurred on 2026-08-09; later repository activity does not establish continuation of this batch.",
+      "assessment": "A strong original positive control for cross-session and cross-provider-labelled task-result use, with a publicly ordered validator-receipt-to-coordinator-disposition edge. It is not a rogue-swarm candidate because the exact handoff, independent review and downstream interpretation are pre-dispatched inside one owner-governed workflow and all public commits use one custodian identity."
+    }
+  ],
+  "additional_original_control": {
+    "id": "t27-akashic-log-null-handoff-control",
+    "url": "https://github.com/gHashTag/t27/blob/088a559dbf3049962bb2ec7b955fb93d8457f47b/.trinity/events/akashic-log.jsonl",
+    "ref": "088a559dbf3049962bb2ec7b955fb93d8457f47b",
+    "blob_sha": "8d0d5e9d29467edba7b9cddcd1c72d6ce9086b9d",
+    "committed_at": "2026-10-19T03:36:14Z",
+    "rows": 25,
+    "distinct_agent_labels": 4,
+    "nonnull_handoff_from_rows": 0,
+    "nonnull_handoff_to_rows": 0,
+    "commit_event_rows": 0,
+    "assessment": "The run-shaped ledger has several agent labels but no populated handoff endpoint or commit event. Labels and task intents alone do not preserve a sender-to-recipient result dependency."
+  },
+  "known_family_overlap": {
+    "overlap_found": false,
+    "note": "No overlap was found with the excluded DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI May Artifactory, OpenAI July Hugging Face, AISI GitHub handoff or Covert Assistance/METR families. BATCH-5fd128 is retained as a separate designed scientific-workflow control, not a discovery."
+  },
+  "prior_reporting_check": {
+    "checked_on": "2026-10-19",
+    "github_exact_queries": [
+      {
+        "query": "\"VAL-E93546-CASE-IDENTITY-001\"",
+        "rows": 12,
+        "classification": "Originating repository records only."
+      },
+      {
+        "query": "\"TASK-20260809-4d3e95\"",
+        "rows": 9,
+        "classification": "Originating repository records only."
+      },
+      {
+        "query": "\"artifact_sha256\" \"two-manifest commitment ambiguity\"",
+        "rows": 1,
+        "classification": "Originating review only."
+      },
+      {
+        "query": "\"TASK-20260809-74940e\"",
+        "rows": 4,
+        "classification": "Originating repository records only."
+      },
+      {
+        "query": "\"EXP-ECDLP-6dbb4c\" \"artifact_sha256\"",
+        "rows": 4,
+        "classification": "Originating repository records only."
+      },
+      {
+        "query": "\"VAL-4D3E95-ARTIFACT-IDENTITY-001\"",
+        "rows": 4,
+        "classification": "Originating review, checkpoint, evidence and decision."
+      },
+      {
+        "query": "\"VAL-4D3E95-RETAINED-ARTIFACT-BUDGET-002\"",
+        "rows": 4,
+        "classification": "Originating review, checkpoint, evidence and decision."
+      },
+      {
+        "query": "\"content-divergence control\" \"retained-artifact\"",
+        "rows": 3,
+        "classification": "Originating repository records only."
+      },
+      {
+        "query": "\"artifacts/cases/<case_id>.bin\" \"fixed-field-order\"",
+        "rows": 1,
+        "classification": "Originating checkpoint only."
+      }
+    ],
+    "web_queries": [
+      "\"TASK-20260809-4d3e95\"",
+      "\"VAL-4D3E95-ARTIFACT-IDENTITY-001\"",
+      "\"BATCH-5fd128\" \"crypto-autoresearcher\"",
+      "\"crypto-autoresearcher\" Codex Claude \"independent review\"",
+      "site:github.com/aburan28/crypto-autoresearcher \"TASK-20260809-4d3e95\"",
+      "site:github.com/aburan28/crypto-autoresearcher \"VAL-4D3E95-ARTIFACT-IDENTITY-001\"",
+      "site:github.com/aburan28/crypto-autoresearcher \"Record TASK-20260809-4d3e95 REVISE\"",
+      "site:github.com/aburan28/crypto-autoresearcher Codex Claude"
+    ],
+    "result": "The nine exact GitHub queries returned 42 rows, all in the originating repository. Routine and higher-recall web searches found no independent incident report or study of this exact BATCH-5fd128 exchange in the checked scope as of 2026-10-19. This bounded result is not proof of universal novelty: the project itself publishes the exchange, and its primary task records establish a designed authorized workflow."
+  },
+  "limitations": [
+    "Provider, runtime, model and native-session identifiers are project-authored assertions; the public Git history authenticates only one author and committer identity.",
+    "The full review and full recipient disposition first appear together in the archive commit. The earlier queue commits preserve concise but sufficiently specific receipts, not the complete artifacts.",
+    "The records establish different sessions and claimed providers, not different controlling operators.",
+    "The exact batch is historical. Later repository commits do not demonstrate current continuation or current coordination among the same sessions.",
+    "Search results are volatile and one expression reached its requested cap; search counts are locators, not prevalence or completeness evidence."
+  ],
+  "evidence_needed_to_advance": [
+    "Provider-independent authentication that the producer, validator and recipient principals were controlled by distinct operators.",
+    "Primary evidence that the validator or coordinator initiated cooperation outside the pre-dispatched BATCH-5fd128 task graph or exceeded its exact write and decision scopes.",
+    "A public task-bearing artifact and downstream action under those independently authenticated principals, not only project-authored session labels and one-custodian commits.",
+    "Evidence of unauthorized continuation or outreach beyond the documented review-to-disposition path."
+  ],
+  "next_exact_cursor": [
+    "\"native_session_id\" \"producer_session_id\" \"distinct_session\" \"operator_id\"",
+    "\"review_report_sha256\" \"accepted_by_task\" \"recipient_session_id\" \"owner_id\"",
+    "\"source_commit_sha\" \"disposition_commit_sha\" \"operator_authorization\" \"provider\""
+  ],
+  "do_not_reopen_without_new_evidence": [
+    "BATCH-5fd128 / EXP-ECDLP-6dbb4c, unless a public record independently authenticates distinct controlling operators or shows cooperation outside the pre-dispatched review and coordinator-disposition workflow.",
+    "The t27 akashic-log snapshot at ref 088a559dbf3049962bb2ec7b955fb93d8457f47b, unless populated handoff fields or a task-result-to-use edge appears.",
+    "The paused 293-report scanner remainder or closed 57-page urlscan scope, unless a new source-level cue separates a genuinely different episode."
+  ]
+}

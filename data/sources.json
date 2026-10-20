@@ -7157,6 +7157,126 @@
       "ref": "93b5cf509d613189812f04f0268c986542aaed62",
       "blob_sha": "e0e69a6b1de87fb061062b621b0b1cbd4d743c0d",
       "observed_at": "2026-10-19T02:12:56Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-producer-report-39d49d11",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/39d49d11c49efc5b6431fa0a67edc7efd9babf58/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/tasks/TASK-20260809-1be9ec/design-report.yaml",
+      "role": "Primary Codex-labelled producer design report for BATCH-5fd128",
+      "published": "2026-08-09",
+      "event_date_embedded": "2026-08-09",
+      "ref": "39d49d11c49efc5b6431fa0a67edc7efd9babf58",
+      "blob_sha": "c166632fc5c15e3be31393c9a25103e66ff62a0b",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-specification-39d49d11",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/39d49d11c49efc5b6431fa0a67edc7efd9babf58/experiments/EXP-ECDLP-6dbb4c/specification.yaml",
+      "role": "Primary immutable producer artifact reviewed by the validator",
+      "published": "2026-08-09",
+      "ref": "39d49d11c49efc5b6431fa0a67edc7efd9babf58",
+      "blob_sha": "828e6cc63de501fa6e1509c9b7504018e344e597",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-producer-snapshot-39d49d11",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/commit/39d49d11c49efc5b6431fa0a67edc7efd9babf58",
+      "role": "Primary producer snapshot commit preceding independent review",
+      "published": "2026-08-09",
+      "event_at": "2026-08-09T09:45:41-07:00",
+      "commit_sha": "39d49d11c49efc5b6431fa0a67edc7efd9babf58",
+      "commit_actor": "Dispatch Test",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-validator-queue-e96f8ce1",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/dispatch_queue.json",
+      "role": "Primary validator completion receipt with exact verdict, findings and review digest",
+      "published": "2026-08-09",
+      "event_date_embedded": "2026-08-09",
+      "ref": "e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b",
+      "blob_sha": "54161af39779d33f2047f567cb2f7d39bab5e8c4",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-validator-receipt-commit-e96f8ce1",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/commit/e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b",
+      "role": "Primary commit establishing public validator-receipt time",
+      "published": "2026-08-09",
+      "event_at": "2026-08-09T10:08:54-07:00",
+      "commit_sha": "e96f8ce1e4ddac0f680ba9b5f7ab93fd55ad606b",
+      "commit_actor": "Dispatch Test",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-validator-report-e2234543",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/e22345430883003824e3c1b907dc63be109f24cb/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/reviews/TASK-20260809-4d3e95/review-report.yaml",
+      "role": "Primary full Claude Code-labelled validator report",
+      "published": "2026-08-09",
+      "event_date_embedded": "2026-08-09",
+      "ref": "e22345430883003824e3c1b907dc63be109f24cb",
+      "blob_sha": "761ddd32b814e1639c72f5667e443bd2c591a48b",
+      "reported_sha256": "03f4fda6c3badf5c18786dec6991710ac56d2362846d05428203caa8dec173b9",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-recipient-queue-4d099ebf",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/4d099ebf2aaefc783c128906ad6c071798c78e0f/coordination/goals/GOAL-ECDLP-001/batches/BATCH-5fd128/dispatch_queue.json",
+      "role": "Primary coordinator completion receipt accepting the validator result",
+      "published": "2026-08-09",
+      "event_date_embedded": "2026-08-09",
+      "ref": "4d099ebf2aaefc783c128906ad6c071798c78e0f",
+      "blob_sha": "6662e34baa248972746f83cb895609c8dd06dab1",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-recipient-receipt-commit-4d099ebf",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/commit/4d099ebf2aaefc783c128906ad6c071798c78e0f",
+      "role": "Primary commit establishing public recipient-disposition time",
+      "published": "2026-08-09",
+      "event_at": "2026-08-09T10:10:36-07:00",
+      "commit_sha": "4d099ebf2aaefc783c128906ad6c071798c78e0f",
+      "commit_actor": "Dispatch Test",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-checkpoint-e2234543",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/e22345430883003824e3c1b907dc63be109f24cb/ledger/goals/GOAL-ECDLP-001/checkpoints/BATCH-5fd128.yaml",
+      "role": "Primary recipient checkpoint using the exact validator findings",
+      "published": "2026-08-09",
+      "event_date_embedded": "2026-08-09",
+      "ref": "e22345430883003824e3c1b907dc63be109f24cb",
+      "blob_sha": "68fd343dd50b0cff93c890aca64679322d4280ba",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-decision-e2234543",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/e22345430883003824e3c1b907dc63be109f24cb/ledger/decisions/DEC-20260809-89fad8.yaml",
+      "role": "Primary coordinator decision preserving REVISE and requiring the matching repair",
+      "published": "2026-08-09",
+      "event_date_embedded": "2026-08-09",
+      "ref": "e22345430883003824e3c1b907dc63be109f24cb",
+      "blob_sha": "0f71aa0328cc4691d27b981d97f3431f2cf2fc0d",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-crypto-autoresearcher-archive-commit-e2234543",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/commit/e22345430883003824e3c1b907dc63be109f24cb",
+      "role": "Primary commit co-archiving full validator report, recipient checkpoint and decision",
+      "published": "2026-08-09",
+      "event_at": "2026-08-09T10:14:36-07:00",
+      "commit_sha": "e22345430883003824e3c1b907dc63be109f24cb",
+      "commit_actor": "Dispatch Test",
+      "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-t27-akashic-log-088a559d",
+      "url": "https://github.com/gHashTag/t27/blob/088a559dbf3049962bb2ec7b955fb93d8457f47b/.trinity/events/akashic-log.jsonl",
+      "role": "Primary 25-row run-shaped ledger with null handoff endpoints",
+      "published": "2026-10-19",
+      "pinned_ref_committed_at": "2026-10-19T03:36:14Z",
+      "ref": "088a559dbf3049962bb2ec7b955fb93d8457f47b",
+      "blob_sha": "8d0d5e9d29467edba7b9cddcd1c72d6ce9086b9d",
+      "observed_at": "2026-10-19T06:58:16Z"
     }
   ]
 }

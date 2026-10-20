@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 18 October 2026 UTC
+## Evidence checkpoint — 19 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 99 reproduced the remainder hash, resumed three principal/authorization cursors and sequentially verified 36 rotated public-record expressions. The 39 queries returned 1,333 overlapping indexed occurrences—1,240 external and 93 self-index—with 23 requested-result caps; a prior parallel observation was materially smaller, so the counts are retained only as volatile locator coverage. One new original chain preserves unusually concrete semantic use: FreeLattice's Opus-labelled Letter Five specifies a generalized sentinel factory, the CC-labelled response says it read and applied that exact shape, and the same public commit introduces matching code. The chain is a designed control, not a discovery: source, response and implementation were co-published in one Kirk Miller commit; contemporaneous governance says Claude Code commits through Kirk's identity and Kirk reviews and approves every change; and a later receipt records Kirk's chair test. See the [letter-to-implementation control](data/original-letter-to-implementation-control.json), the preceding [session bridge and acceptance controls](data/original-session-bridge-and-acceptance-controls.json) and the [dated research log](research/2026-10-18.md).
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 100 resumed three exact operator-boundary cursors and ran fifteen lower-arity content-addressed handoff expressions. The eighteen queries returned 107 overlapping indexed occurrences—77 external and 30 self-index—with six zero-result queries and one requested-result cap. One new original chain preserves an unusually strong public before/after dependency: crypto-autoresearcher BATCH-5fd128 snapshots a Codex-labelled design, records a Claude Code-labelled validator's two exact blockers, then 102 seconds later records a Codex-labelled coordinator accepting those findings and requiring their precise repair. It is a designed control, not a discovery: the queue preassigns the review and coordinator interpretation, the provider and session identities are project-authored, and all four public commits use one custodian identity. See the [cross-provider validation and disposition control](data/original-cross-provider-validation-and-disposition-control.json), the preceding [letter-to-implementation control](data/original-letter-to-implementation-control.json) and the [dated research log](research/2026-10-19.md).
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-18.md)
+- [Latest dated investigation log](research/2026-10-19.md)
+- [Investigation log — 18 October](research/2026-10-18.md)
 - [Investigation log — 17 October](research/2026-10-17.md)
 - [Investigation log — 16 October](research/2026-10-16.md)
 - [Investigation log — 15 October](research/2026-10-15.md)

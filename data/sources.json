@@ -7498,6 +7498,102 @@
       "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
       "blob_sha": "25b869b302a5d5f61b750f41ff5aece463c306b7",
       "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-whalepod-pr385-handoff-loop",
+      "url": "https://github.com/RyanOnMe/whalepod/pull/385",
+      "role": "Originating pull request for the public two-member handoff-loop acceptance",
+      "published": "2026-10-17",
+      "created_at": "2026-10-17T21:37:31Z",
+      "merged_at": "2026-10-17T23:58:07Z",
+      "head_sha": "c450102792f4862d84a9b54a907e44dc1062fd23",
+      "merge_commit_sha": "44e46c3f645b3030458c019dbe5659507f6719ee",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-handoff-loop-acceptance-9ed51986",
+      "url": "https://github.com/RyanOnMe/whalepod/blob/c450102792f4862d84a9b54a907e44dc1062fd23/docs/agent/handoff-loop-acceptance.md",
+      "role": "Primary operator-authored acceptance report for upstream completion, human-published replay handoff, receiver confirmation, task acceptance and downstream start",
+      "event_date_embedded": "2026-10-17",
+      "ref": "c450102792f4862d84a9b54a907e44dc1062fd23",
+      "blob_sha": "9ed5198668a625db3af308148e8865f575f02cd1",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-pr385-merge-44e46c3f",
+      "url": "https://github.com/RyanOnMe/whalepod/commit/44e46c3f645b3030458c019dbe5659507f6719ee",
+      "role": "Primary public merge event for the first handoff-loop acceptance",
+      "published": "2026-10-17",
+      "event_at": "2026-10-17T23:58:07Z",
+      "commit_sha": "44e46c3f645b3030458c019dbe5659507f6719ee",
+      "commit_actor": "RyanOnMe",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-pr397-handoff-consumption",
+      "url": "https://github.com/RyanOnMe/whalepod/pull/397",
+      "role": "Originating pull request requiring downstream execution-context consumption of the handoff and receiver understanding",
+      "published": "2026-10-19",
+      "created_at": "2026-10-19T09:42:55Z",
+      "merged_at": "2026-10-19T17:34:37Z",
+      "head_sha": "ed50cbac7226b0a56f70ddac744506669de1d366",
+      "merge_commit_sha": "0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-handoff-consumption-acceptance-f1bbdea3",
+      "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/docs/agent/handoff-context-consumption-acceptance.md",
+      "role": "Primary operator-authored acceptance report asserting immutable handoff injection and downstream replay-output use",
+      "event_date_embedded": "2026-10-19",
+      "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+      "blob_sha": "f1bbdea3e76069d6c00d4715faffbbfa32062186",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-pr397-merge-0820a62f",
+      "url": "https://github.com/RyanOnMe/whalepod/commit/0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+      "role": "Primary public merge event for the execution-context consumption change",
+      "published": "2026-10-19",
+      "event_at": "2026-10-19T17:34:37Z",
+      "commit_sha": "0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+      "commit_actor": "RyanOnMe",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-handoff-authority-adr-f94861f5",
+      "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/docs/adr/0017-task-agreement-and-handoff-boundary.md",
+      "role": "Primary boundary record reserving task confirmation, handoff publication, receiver acceptance and execution start to humans",
+      "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+      "blob_sha": "f94861f535d535ed933e74d394575d0a811423de",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-execution-context-adr-070dcbeb",
+      "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/docs/adr/0020-execution-context-consumes-handoff.md",
+      "role": "Primary design record for immutable handoff injection without a new autonomous communication channel",
+      "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+      "blob_sha": "070dcbeb1ec16672d58dfc451f1758e087be1af0",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-handoff-e2e-4275b27d",
+      "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/apps/web/tests/e2e/handoff-loop.spec.ts",
+      "role": "Primary E2E specification showing one serial runner creates and drives both members and asserting downstream use plus artifact-digest equality",
+      "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+      "blob_sha": "4275b27d1248ab8a477ddbf7d6255460fc5d05aa",
+      "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-whalepod-pr397-workflow-39293451086",
+      "url": "https://github.com/RyanOnMe/whalepod/actions/runs/39293451086",
+      "role": "Primary CI status for the PR 397 head; not live-provider or independent-operator evidence",
+      "published": "2026-10-19",
+      "head_sha": "ed50cbac7226b0a56f70ddac744506669de1d366",
+      "workflow_name": "check",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 637,
+      "observed_at": "2026-10-20T13:43:31Z"
     }
   ]
 }

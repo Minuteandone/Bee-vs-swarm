@@ -1,0 +1,462 @@
+{
+  "schema_version": "1.0",
+  "title": "Original human-gated handoff consumption control",
+  "assessed_on": "2026-10-20",
+  "observed_at": "2026-10-20T13:43:31Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Resume the saved content-addressed sender/recipient cursors, rotate from code indexes into public commit records, and test a concrete cross-member upstream-handoff-to-downstream-use chain for independently controlled autonomous participants and an operator-defined authorization crossing.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code or tests",
+      "install a package",
+      "invoke an agent runtime or provider",
+      "submit a scan",
+      "contact a participant",
+      "post, vote, react, or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target"
+    ],
+    "publication_note": "Replay-fixture bodies, generated handoff text beyond a short domain-level summary, credentials, tokens, personal addresses, raw carrier URLs, private logs, and unpublished result packages are not reproduced. Public record links, immutable Git object identifiers, event and observation times, domain-level reasoning, and bounded query coverage are retained."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No new source-level cue separated an unread scanner record from the committed known-family, comparison, Amap, or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "global_search_scope": {
+    "saved_exact_cursors": [
+      {
+        "query": "\"predecessor_receipt_digest\" \"producer_identity\" \"candidate_digest\" \"gate_authority\"",
+        "row_occurrences": 10,
+        "external_occurrences": 8,
+        "self_index_occurrences": 2,
+        "classification": "Eight external paths are implementation or tests in the already excluded owner-controlled Tim's Software Factory family; two paths are this repository's index."
+      },
+      {
+        "query": "\"provider_response_digest\" \"recipient_action_commit\" \"operator_id\"",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"receipt_digest\" \"downstream_verdict\" \"source_operator\" \"recipient_operator\"",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      }
+    ],
+    "saved_cursor_totals": {
+      "queries": 3,
+      "row_occurrences": 14,
+      "external_occurrences": 8,
+      "self_index_occurrences": 6,
+      "zero_result_queries": 0,
+      "queries_at_requested_result_cap": 0
+    },
+    "lower_arity_queries": [
+      {
+        "query": "\"producer_id\" \"consumer_id\" \"artifact_sha256\" \"acknowledged_at\"",
+        "first_complete_row_occurrences": 3
+      },
+      {
+        "query": "\"source_agent_id\" \"recipient_agent_id\" \"result_sha256\" \"used_at\"",
+        "first_complete_row_occurrences": 8
+      },
+      {
+        "query": "\"sender_session_id\" \"recipient_session_id\" \"result_digest\" \"applied_commit\"",
+        "first_complete_row_occurrences": 1
+      },
+      {
+        "query": "\"upstream_receipt\" \"downstream_receipt\" \"artifact_digest\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"input_receipt_digest\" \"output_receipt_digest\" \"operator\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"handoff_id\" \"source_run_id\" \"target_run_id\" \"result_digest\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"delegated_by\" \"completed_by\" \"output_digest\" \"accepted_by\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"origin_agent\" \"recipient_agent\" \"artifact_digest\" \"decision\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"producer_principal\" \"consumer_principal\" \"receipt\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"coordination_id\" \"sender_agent\" \"receiver_agent\" \"artifact_hash\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"task_result_digest\" \"accepted_at\" \"operator_id\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"result_digest\" \"consumed_by\" \"commit_sha\"",
+        "first_complete_row_occurrences": 16
+      },
+      {
+        "query": "\"receipt_sha256\" \"applied_by\" \"source_agent\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"provenance\" \"recipient\" \"downstream_action\" \"sha256\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"message_id\" \"in_reply_to\" \"action_commit\" \"agent\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"review_result_digest\" \"repair_commit\" \"session_id\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"parent_result_digest\" \"child_result_digest\" \"operator\"",
+        "first_complete_row_occurrences": 0
+      },
+      {
+        "query": "\"source_trace_id\" \"destination_trace_id\" \"artifact_digest\"",
+        "first_complete_row_occurrences": 0
+      }
+    ],
+    "lower_arity_first_complete_totals": {
+      "queries": 18,
+      "row_occurrences": 28,
+      "external_occurrences": 11,
+      "self_index_occurrences": 17,
+      "zero_result_queries": 14,
+      "queries_at_requested_result_cap": 0
+    },
+    "combined_first_complete_totals": {
+      "queries": 21,
+      "row_occurrences": 42,
+      "external_occurrences": 19,
+      "self_index_occurrences": 23,
+      "zero_result_queries": 14,
+      "queries_at_requested_result_cap": 0
+    },
+    "index_volatility": {
+      "repeat_observation": "A later aggregate retry returned connector errors for twelve lower-arity expressions and 55 rows across the successful expressions. The origin-agent query, initially zero, later returned four external implementation or verification paths; the provenance/downstream-action query, initially zero, later returned 23 paths, thirteen external and ten self-index.",
+      "classification": "The later external paths are schemas, source, contracts, tests, benchmark configuration, generated rungs, API code, or controlled verification scripts. No populated sender-to-recipient record with independent operator provenance was selected.",
+      "counting_rule": "First complete responses are the bounded count snapshot. Later responses document volatility and are not added to that snapshot. Counts are locators, not unique messages, participants, exchanges, or completeness evidence."
+    },
+    "commit_search_rotation": {
+      "queries": [
+        {
+          "query": "\"handoff receipt\" agent",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"consumed result\" agent",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"applied findings\" agent",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"recipient\" \"result digest\"",
+          "row_occurrences": 27
+        },
+        {
+          "query": "\"agent-to-agent\" handoff",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"from Codex\" \"Claude\"",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"from Claude\" \"Codex\"",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"review findings\" \"repair commit\"",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"received from agent\"",
+          "row_occurrences": 50
+        },
+        {
+          "query": "\"handoff complete\" agent",
+          "row_occurrences": 50
+        }
+      ],
+      "row_occurrences": 477,
+      "unique_commits": 476,
+      "repositories": 410,
+      "queries_at_requested_result_cap": 9,
+      "selection": "Commit search was used only to locate original records. The selected WhalePod family preserves a versioned upstream handoff, an explicit receiver interpretation, a separate downstream run, and asserted downstream use. Other high-ranked rows were designed source, tests, schemas, benchmark traces, or session-closeout records without a stronger operator-separated edge.",
+      "limitation": "The capped and overlapping search is not a census. One commit appeared under two expressions, and repository counts do not represent participants or episodes."
+    },
+    "screened_external_implementation_controls": [
+      {
+        "repository": "gkapil1213/NEXUS",
+        "classification": "Database and bootstrap schema for a designed engineering control platform; no populated exchange selected."
+      },
+      {
+        "repository": "cardarellocristian86-debug/skinharmony-ai-backend",
+        "classification": "Host-governance implementation and tests; no populated cross-operator record selected."
+      },
+      {
+        "repository": "itakura-hidetoshi/KuuOS",
+        "classification": "Runtime contracts and tests; no populated external exchange selected."
+      },
+      {
+        "repository": "poyrazK/faas",
+        "classification": "Schema registry rather than an episode record."
+      },
+      {
+        "repository": "ElectricJack/agent-queue",
+        "classification": "Previously reviewed designed framework, documentation, and source."
+      },
+      {
+        "repository": "kimjooyoon/gooo-measurement-boundary-projector",
+        "classification": "Implementation and contract paths without a populated sender/recipient episode."
+      },
+      {
+        "repository": "kimjooyoon/gooo-self-improvement-ledger",
+        "classification": "Controlled verification script that reports zero repository writes and no current runtime; not a participant exchange."
+      }
+    ]
+  },
+  "selected_original_family": {
+    "repository": "RyanOnMe/whalepod",
+    "repository_url": "https://github.com/RyanOnMe/whalepod",
+    "repository_role": "Public project implementing an explicitly designed two-member handoff and downstream execution-context acceptance flow.",
+    "primary_records": [
+      {
+        "record": "P1-381 pull request",
+        "url": "https://github.com/RyanOnMe/whalepod/pull/385",
+        "created_at": "2026-10-17T21:37:31Z",
+        "merged_at": "2026-10-17T23:58:07Z",
+        "head_sha": "c450102792f4862d84a9b54a907e44dc1062fd23",
+        "merge_commit_sha": "44e46c3f645b3030458c019dbe5659507f6719ee",
+        "role": "Originating public change record for the two-member handoff-loop acceptance."
+      },
+      {
+        "record": "P1-381 handoff-loop acceptance",
+        "url": "https://github.com/RyanOnMe/whalepod/blob/c450102792f4862d84a9b54a907e44dc1062fd23/docs/agent/handoff-loop-acceptance.md",
+        "ref": "c450102792f4862d84a9b54a907e44dc1062fd23",
+        "blob_sha": "9ed5198668a625db3af308148e8865f575f02cd1",
+        "reported_acceptance_date": "2026-10-17",
+        "role": "Operator-authored acceptance report for upstream completion, bounded replay handoff drafting, human publication, receiver confirmation, task acceptance, downstream start, and artifact copy."
+      },
+      {
+        "record": "P1-381 merge commit",
+        "url": "https://github.com/RyanOnMe/whalepod/commit/44e46c3f645b3030458c019dbe5659507f6719ee",
+        "event_at": "2026-10-17T23:58:07Z",
+        "commit_sha": "44e46c3f645b3030458c019dbe5659507f6719ee",
+        "role": "Public merge event separating publication time from the acceptance report's embedded run date."
+      },
+      {
+        "record": "P1-396 pull request",
+        "url": "https://github.com/RyanOnMe/whalepod/pull/397",
+        "created_at": "2026-10-19T09:42:55Z",
+        "merged_at": "2026-10-19T17:34:37Z",
+        "head_sha": "ed50cbac7226b0a56f70ddac744506669de1d366",
+        "merge_commit_sha": "0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+        "role": "Originating public change record requiring actual execution-context consumption of the handoff and receiver understanding."
+      },
+      {
+        "record": "P1-396 handoff-consumption acceptance",
+        "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/docs/agent/handoff-context-consumption-acceptance.md",
+        "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+        "blob_sha": "f1bbdea3e76069d6c00d4715faffbbfa32062186",
+        "reported_acceptance_date": "2026-10-19",
+        "role": "Operator-authored acceptance report asserting that the downstream runtime's first model instruction receives the immutable handoff, receiver understanding, and artifact identities, and that its output uses the handoff and understanding."
+      },
+      {
+        "record": "P1-396 merge commit",
+        "url": "https://github.com/RyanOnMe/whalepod/commit/0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+        "event_at": "2026-10-19T17:34:37Z",
+        "commit_sha": "0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+        "role": "Public merge event for the downstream-context change."
+      },
+      {
+        "record": "Task agreement and handoff boundary ADR",
+        "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/docs/adr/0017-task-agreement-and-handoff-boundary.md",
+        "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+        "blob_sha": "f94861f535d535ed933e74d394575d0a811423de",
+        "role": "Primary authority boundary: a human assignee confirms the task; the handoff model call has no tools or write authority; the owner reviews and publishes; the receiver confirms, accepts, and explicitly starts work."
+      },
+      {
+        "record": "Execution-context consumption ADR",
+        "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/docs/adr/0020-execution-context-consumes-handoff.md",
+        "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+        "blob_sha": "070dcbeb1ec16672d58dfc451f1758e087be1af0",
+        "role": "Primary design record for injecting immutable handoff content into a downstream execution context without creating an autonomous handoff channel."
+      },
+      {
+        "record": "Two-member handoff E2E test",
+        "url": "https://github.com/RyanOnMe/whalepod/blob/ed50cbac7226b0a56f70ddac744506669de1d366/apps/web/tests/e2e/handoff-loop.spec.ts",
+        "ref": "ed50cbac7226b0a56f70ddac744506669de1d366",
+        "blob_sha": "4275b27d1248ab8a477ddbf7d6255460fc5d05aa",
+        "role": "Primary executable specification showing one serial runner creates both browser members, the team, invite, replay agent and all human clicks, then asserts downstream prompt/output use and artifact-digest equality."
+      },
+      {
+        "record": "P1-396 head workflow",
+        "url": "https://github.com/RyanOnMe/whalepod/actions/runs/39293451086",
+        "run_id": 39293451086,
+        "head_sha": "ed50cbac7226b0a56f70ddac744506669de1d366",
+        "status": "completed",
+        "conclusion": "success",
+        "run_number": 637,
+        "role": "CI-status corroboration only; it does not authenticate a live model, a distinct operator, or an autonomous participant."
+      }
+    ],
+    "chronology": [
+      {
+        "stage": "upstream run",
+        "reported_event_date": "2026-10-17",
+        "observation": "The acceptance report says the upstream business run completes before a handoff draft is generated."
+      },
+      {
+        "stage": "bounded draft and publication",
+        "reported_event_date": "2026-10-17",
+        "observation": "A replay-backed, tool-free bounded model call drafts a handoff; the owner reviews and explicitly publishes immutable version 1."
+      },
+      {
+        "stage": "receiver interpretation and acceptance",
+        "reported_event_date": "2026-10-17",
+        "observation": "The receiver explicitly records an intended next step, confirms understanding, separately accepts the task, and later starts the downstream run."
+      },
+      {
+        "stage": "downstream execution-context use",
+        "reported_event_date": "2026-10-19",
+        "observation": "The updated acceptance asserts the first downstream model instruction includes immutable handoff text, receiver understanding or difference, and artifact identities; the asserted replay output contains the upstream decision and receiver understanding."
+      },
+      {
+        "stage": "public merge",
+        "event_at": "2026-10-19T17:34:37Z",
+        "observation": "The downstream-consumption change merges publicly."
+      }
+    ],
+    "participant_provenance": {
+      "distinguishable_member_accounts": "The test uses two separate browser contexts and member identities, conventionally Alice and Bob.",
+      "distinguishable_run_trajectories": "The acceptance logic asserts separate upstream and downstream run identifiers.",
+      "autonomous_principal_status": "Not established. One serial test runner creates both members, the team, invite and one replay-configured agent, and then performs the decisive user interactions.",
+      "provider_attribution": "The checked acceptance uses provider 'replay' and model 'replay-model'. A real external model/provider execution is not established.",
+      "operator_provenance": "Both member trajectories are fixtures inside one repository-controlled acceptance test. No independently controlling operator is authenticated."
+    },
+    "specific_transfer": {
+      "assessment": "supported inside the public acceptance specification",
+      "transferred_material": "An immutable handoff narrative, the receiver's recorded understanding or difference, and a content-addressed artifact snapshot.",
+      "binding": "The test matches the Hub handoff-snapshot artifact digest to the Node-side copied artifact digest and preserves separate upstream and downstream run IDs.",
+      "limitation": "No committed raw result package for the selected acceptance run was located. The runtime facts are therefore operator-authored acceptance claims plus test assertions and CI status, not an independently authenticated model transcript."
+    },
+    "downstream_use": {
+      "assessment": "supported as a designed replay dependency",
+      "reason": "The downstream prompt is asserted to contain the published upstream handoff, receiver interpretation and artifact identities; the replay-backed downstream output is asserted to include both the upstream decision and receiver understanding.",
+      "not_merely_similarity": "The test explicitly injects the selected immutable handoff version and compares the copied artifact digest. The causal path is stronger than adjacent timestamps or similar text.",
+      "limitation": "Because the expected output is replay-fixture controlled, this does not establish a separately operated model choosing to use another agent's result."
+    },
+    "operator_boundary": {
+      "facts": [
+        "A human assignee confirms the task before its agreement is frozen.",
+        "The handoff draft is one bounded model call with no tools and no write authority.",
+        "The owner explicitly reviews and publishes the draft; a model cannot publish it.",
+        "The receiver explicitly confirms understanding, accepts the task, pairs a device, selects the replay path in the test, and starts the downstream run.",
+        "The handoff grants no execution, approval, acceptance, or merge authority.",
+        "One serial test runner creates and drives both member contexts in a designed acceptance environment."
+      ],
+      "assessment": "No operator-defined authorization boundary crossing is established. Human decisions are causal at every transition, and one project-controlled test runner explains both sides."
+    },
+    "current_activity": "The selected records are merged acceptance and design artifacts dated 17-19 October 2026. They do not show an independently operating current population.",
+    "subjective_intent": "No rogue or evasive intent is established. The behavior is a documented product acceptance path with explicit human authority.",
+    "assessment": "High-confidence designed handoff-to-downstream-context dependency; replay-backed, human-gated, single-test-runner acceptance control; not a rogue-swarm candidate."
+  },
+  "alternative_hypotheses": [
+    {
+      "alternative": "previously unrecognized rogue cross-operator swarm",
+      "result": "contradicted",
+      "reason": "The public ADRs and E2E test make owner publication, receiver confirmation, task acceptance and explicit run start causal; one runner creates and drives both sides."
+    },
+    {
+      "alternative": "separately controlled autonomous sender and recipient",
+      "result": "not established",
+      "reason": "Separate browser members and run IDs are distinguishable trajectories, but both are fixtures created by one serial runner and use one replay-configured agent."
+    },
+    {
+      "alternative": "single-operator designed team or acceptance test",
+      "result": "supported",
+      "reason": "The repository explicitly labels and tests the behavior as a two-member acceptance loop and retains human authority at each boundary."
+    },
+    {
+      "alternative": "downstream use inferred from similar prose",
+      "result": "rejected",
+      "reason": "The test binds a selected handoff version, injects its content into the downstream execution context, checks the output for the upstream decision and receiver interpretation, and verifies artifact-digest equality."
+    },
+    {
+      "alternative": "observer contamination or human relay",
+      "result": "supported as the mechanism",
+      "reason": "The test runner supplies all human actions, including invitation, understanding confirmation, task acceptance, device pairing, fixture selection and downstream start."
+    },
+    {
+      "alternative": "real provider coordination",
+      "result": "not established",
+      "reason": "The selected records use the replay provider and explicitly leave real-provider quality, latency and cost validation unrun."
+    },
+    {
+      "alternative": "current rogue activity",
+      "result": "not supported",
+      "reason": "The records are project acceptance artifacts, not evidence of a current independent population."
+    }
+  ],
+  "prior_reporting_checks": {
+    "checked_on": "2026-10-20",
+    "web_queries": [
+      "\"双成员 handoff 闭环生产组装验收\"",
+      "\"P1-396\" \"WhalePod\" handoff",
+      "\"双成员 handoff 闭环\" WhalePod",
+      "\"RyanOnMe/whalepod\" \"handoff-context-consumption\""
+    ],
+    "github_exact_queries": [
+      "P1-396",
+      "handoff-context-consumption-acceptance.md",
+      "0820a62f3af7583a92f8c303ba522dc1ff7442d6",
+      "双成员 handoff 闭环生产组装验收"
+    ],
+    "github_repository_scoped_query": "repo:RyanOnMe/whalepod is:pr P1-396",
+    "result": "No independent coordination report located in the checked scope as of 20 October 2026. Exact global code and issue indexes returned no result for the selected titles, file or merge SHA, while the repository-scoped pull-request search returned only originating PR 397. Web results were unrelated generic handoff pages or lexical collisions.",
+    "interpretation": "Search-index absence does not establish novelty. The originating repository itself publicly describes the controlled episode, and the explicit replay and human-authorization evidence excludes it from the discovery target regardless.",
+    "limitation": "Coverage is bounded and search indexes are incomplete. Direct primary URLs resolved even when exact global searches returned zero."
+  },
+  "evidence_that_would_advance": [
+    "A public content-addressed runtime result package authenticating the actual upstream and downstream runs rather than only acceptance prose and test assertions.",
+    "Independent authentication that the sender and recipient executions were controlled by different operators rather than one test runner or project owner.",
+    "A live-provider receipt and recipient-side action causally bound to the exact handoff, with provider and operator provenance.",
+    "Primary evidence that publication, acceptance, execution, or downstream action happened without or beyond the documented owner and receiver authorization gates.",
+    "More replay fixtures, browser contexts, team-member labels, acceptance assertions, CI passes, or same-project handoff versions do not advance this lead."
+  ],
+  "next_exact_cursors": [
+    "\"handoff_revision_id\" \"downstream_run_id\" \"result_digest\" \"operator_principal\"",
+    "\"source_run_id\" \"recipient_run_id\" \"execution_context_digest\" \"provider_receipt\"",
+    "\"upstream_artifact_sha256\" \"downstream_output_sha256\" \"receiver_operator_id\""
+  ],
+  "conclusion": {
+    "specific_transfer_and_use": "supported inside an explicit replay acceptance specification",
+    "distinguishable_autonomous_participants": "separate member contexts and run IDs are distinguishable, but independent autonomous principals are not authenticated",
+    "operator_boundary": "not crossed",
+    "authorization_crossing": "contradicted by explicit owner and receiver gates",
+    "provider_attribution": "replay fixture; no live provider established",
+    "subjective_intent": "not established",
+    "current_activity": "not established",
+    "candidate_status": "excluded designed replay and human-gated control",
+    "confirmed_previously_unreported_rogue_swarms": 0
+  }
+}

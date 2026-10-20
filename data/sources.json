@@ -7594,6 +7594,130 @@
       "conclusion": "success",
       "run_number": 637,
       "observed_at": "2026-10-20T13:43:31Z"
+    },
+    {
+      "id": "original-llmdev-issue5-rca",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/issues/5",
+      "role": "Primary human-owner request and root-cause report authorizing receipt-bound multi-family lifecycle review",
+      "published": "2026-05-12",
+      "created_at": "2026-05-12T02:41:39Z",
+      "closed_at": "2026-05-12T19:07:04Z",
+      "actor": "ohjonathan",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-manifest-6eae6945",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/manifest/issue-5-lifecycle-receipts.yaml",
+      "role": "Primary governance record assigning author, reviewer, consolidator, verifier and final-approval families",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "6eae694524e9daf83b64e514a6431ed2b92bc98f",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-b1-codex-d2f57482",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-B.1-codex-alignment.md",
+      "role": "Primary Codex-labelled alignment findings on receipt binding and strict-gate soundness",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "d2f57482907fc5dd4da765aec4ec18d6d6f9ff5b",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-b1-claude-6c250c84",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-B.1-claude-sonnet-peer.md",
+      "role": "Primary Claude Sonnet-labelled peer findings, including the hollow-field blocker and fallback caveat",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "6c250c84cca228f1444044e0e5ae9e8a2b1d62d0",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-d2-gemini-a35c9cf1",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.2-gemini-adversarial.md",
+      "role": "Primary Gemini-labelled adversarial findings on manifest validation, path jail, test flags and hash shape",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "a35c9cf19168a4d6f4109f0b36f853c723cd2f75",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-d2-codex-553b4e8b",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.2-codex-alignment.md",
+      "role": "Primary Codex-labelled reproduced blockers for unrelated-dispatch binding and malformed hashes",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "553b4e8b48d79fbe9cfd97d8c9c5217c0ee44aad",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-fix-97fb6f8",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/commit/97fb6f8345717b718e7ff967449a8c596d526c83",
+      "role": "Primary downstream-use commit mapping seventeen reviewer blockers to corresponding implementation and test repairs",
+      "published": "2026-05-12",
+      "event_at": "2026-05-12T04:16:23Z",
+      "commit_sha": "97fb6f8345717b718e7ff967449a8c596d526c83",
+      "tree_sha": "451e8f2b86bf31afff728c3dd6b18404e71bfe22",
+      "signature_status": "unsigned",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-receipts-3339f241",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-lifecycle-receipts.yaml",
+      "role": "Primary 22-record receipt inventory spanning B.1, D.2 and D.5 rounds",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "3339f2410d0459ab9e413c151286af72fbc493bf",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-d5-claude-r2-7a9bb521",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.5-claude-sonnet-verifier-r2.md",
+      "role": "Primary Claude Sonnet-labelled verification mapping D.4 repairs to exact earlier blocker IDs",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "7a9bb5212d33d2eef40c1158296577ea9952c01f",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-d5-codex-r6-e7f582e5",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.5-codex-verifier-r6.md",
+      "role": "Primary Codex-labelled final-SHA verification approving the corrected entry-binding behavior",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "e7f582e512b6a9063fb27b4b0910884cfc41eade",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-d5-gemini-r6-9184399b",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.5-gemini-verifier-r6.md",
+      "role": "Primary Gemini-labelled final-SHA static verification approving the entry lookup and wrapper invariants",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "9184399be12b8f9c3c45fc9f6aa6d2d8d4193dff",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-r6-6e379c5",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/commit/6e379c541104777eb55ef8f7845c91629b678226",
+      "role": "Primary consolidation commit recording superseding Codex and Gemini approval of the final SHA",
+      "published": "2026-05-12",
+      "event_at": "2026-05-12T06:36:36Z",
+      "commit_sha": "6e379c541104777eb55ef8f7845c91629b678226",
+      "tree_sha": "5214a318db14e9ee213b385e4a9f4eb19b73f750",
+      "signature_status": "unsigned",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-issue5-final-1b835f22",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-final-approval.md",
+      "role": "Primary round-by-round closure and limitation record, including the unsigned-receipt caveat",
+      "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+      "blob_sha": "1b835f228f8e2ebb4e5da286166e727ec9a0bf88",
+      "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-llmdev-pr6-merge",
+      "url": "https://github.com/ohjonathan/llm-dev-framework/pull/6",
+      "role": "Primary owner-authored integration record openly describing and merging the designed review lifecycle",
+      "published": "2026-05-12",
+      "created_at": "2026-05-12T04:20:29Z",
+      "merged_at": "2026-05-12T19:07:02Z",
+      "head_sha": "6e379c541104777eb55ef8f7845c91629b678226",
+      "merge_commit_sha": "df39e6e3de47b2b5a970b99aa1580c1463dd97e0",
+      "actor": "ohjonathan",
+      "observed_at": "2026-10-20T14:58:48Z"
     }
   ]
 }

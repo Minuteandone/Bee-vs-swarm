@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "title": "Original governed multi-family review-to-repair control",
+  "assessed_on": "2026-10-20",
+  "observed_at": "2026-10-20T14:58:48Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Resume the three saved content-addressed run-handoff cursors, lower query arity to locate populated original records, and test a concrete multi-family reviewer-finding-to-repair-to-verification chain for separately controlled autonomous participants and an operator-defined authorization crossing.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code, tests, or shell fragments",
+      "install a package",
+      "invoke an agent runtime, model provider, or review wrapper",
+      "submit a scan",
+      "contact a participant",
+      "post, comment, vote, react, or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target"
+    ],
+    "publication_note": "Raw reviewer transcripts, prompts, provider paths, carrier details, generated payload bodies, credentials, tokens, personal addresses, and private logs are not reproduced. Public primary-record links, immutable Git identifiers, blob hashes, event and observation times, domain-level finding-to-fix mappings, bounded query accounting, and limitations are retained."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No new source-level cue separated an unread scanner record from the committed known-family, comparison, Amap, or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "global_search_scope": {
+    "saved_exact_cursors": [
+      {
+        "query": "\"handoff_revision_id\" \"downstream_run_id\" \"result_digest\" \"operator_principal\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"source_run_id\" \"recipient_run_id\" \"execution_context_digest\" \"provider_receipt\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"upstream_artifact_sha256\" \"downstream_output_sha256\" \"receiver_operator_id\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      }
+    ],
+    "saved_cursor_totals": {
+      "queries": 3,
+      "row_occurrences": 3,
+      "external_occurrences": 0,
+      "self_index_occurrences": 3,
+      "zero_result_queries": 0,
+      "queries_at_requested_result_cap": 0
+    },
+    "lower_arity_queries": [
+      {
+        "query": "\"handoff_revision_id\" \"downstream_run_id\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"source_run_id\" \"recipient_run_id\"",
+        "row_occurrences": 25,
+        "external_occurrences": 16,
+        "self_index_occurrences": 9
+      },
+      {
+        "query": "\"upstream_artifact_sha256\" \"downstream_output_sha256\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\"",
+        "row_occurrences": 14,
+        "external_occurrences": 0,
+        "self_index_occurrences": 14
+      },
+      {
+        "query": "\"sender_principal\" \"receiver_principal\" \"result_digest\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_action_id\" \"artifact_sha256\"",
+        "row_occurrences": 3,
+        "external_occurrences": 0,
+        "self_index_occurrences": 3
+      },
+      {
+        "query": "\"parent_run_id\" \"child_run_id\" \"output_digest\" consumed",
+        "row_occurrences": 9,
+        "external_occurrences": 9,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"upstream_run_id\" \"downstream_run_id\" handoff",
+        "row_occurrences": 4,
+        "external_occurrences": 1,
+        "self_index_occurrences": 3
+      },
+      {
+        "query": "\"source_session\" \"recipient_session\" \"content_hash\" applied",
+        "row_occurrences": 3,
+        "external_occurrences": 2,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"producer_session\" \"consumer_session\" \"artifact_sha256\"",
+        "row_occurrences": 11,
+        "external_occurrences": 6,
+        "self_index_occurrences": 5
+      },
+      {
+        "query": "\"received_artifact_sha256\" \"applied_commit_sha\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"input_artifact_sha256\" \"output_artifact_sha256\" \"operator_id\"",
+        "row_occurrences": 10,
+        "external_occurrences": 9,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"source_event_id\" \"recipient_event_id\" \"result_hash\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"sender_actor_id\" \"recipient_actor_id\" \"artifact_digest\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"origin_run_id\" \"destination_run_id\" \"result_digest\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"handoff_version\" \"receiver_confirmed_at\" \"run_id\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"upstream_output_digest\" \"downstream_input_digest\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"source_principal_id\" \"recipient_principal_id\" \"receipt\"",
+        "row_occurrences": 4,
+        "external_occurrences": 1,
+        "self_index_occurrences": 3
+      },
+      {
+        "query": "\"producer_identity\" \"consumer_identity\" \"used_at\"",
+        "row_occurrences": 1,
+        "external_occurrences": 1,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"received_from_run_id\" \"used_by_run_id\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      }
+    ],
+    "lower_arity_totals": {
+      "queries": 20,
+      "row_occurrences": 86,
+      "external_occurrences": 45,
+      "self_index_occurrences": 41,
+      "zero_result_queries": 8,
+      "queries_at_requested_result_cap": 0
+    },
+    "combined_complete_totals": {
+      "queries": 23,
+      "row_occurrences": 89,
+      "external_occurrences": 45,
+      "self_index_occurrences": 44,
+      "zero_result_queries": 8,
+      "queries_at_requested_result_cap": 0
+    },
+    "retrieval_notes": {
+      "counting_rule": "The first complete response for every exact expression is the bounded snapshot. Rows are locator occurrences, not unique messages, participants, exchanges, or a completeness claim.",
+      "volatility": "The first parallel lower-arity request returned transient errors for fifteen expressions. Sequential retries completed every expression and supply the recorded counts.",
+      "supplementary_populated_record_probe": "Eight overconstrained colon-form expressions completed with zero rows; seven overquoted forms were rejected by the connector even after a sequential retry. Rejected expressions are not counted as negative coverage or included in the totals."
+    },
+    "screened_external_families": [
+      {
+        "repository": "yvrohith/Agent-swarm",
+        "classification": "Synthetic source-use benchmark and audit. Its own evidence card says the core benchmark requires no real agents and can be completed under hypothetical models; public-wiki identities, read receipts, and downstream use remain unresolved."
+      },
+      {
+        "repository": "juliantorr-es/rig-relay",
+        "classification": "Implementation, governance, schema, and source paths from the previously excluded designed same-custodian control; no new emitted exchange selected."
+      },
+      {
+        "repository": "ohjonathan/llm-dev-framework",
+        "classification": "Selected original family because its public receipt inventory, reviewer artifacts, finding-addressed repair commit, and superseding verification commits preserve a specific causal chain."
+      },
+      {
+        "repositories": [
+          "AgentPaaS/agentpaas",
+          "David7583/baigong",
+          "Solenes/attn",
+          "Mindburn/helm-kernel",
+          "bussechr/AI-trading-agent"
+        ],
+        "classification": "Remaining selected rows are source, schemas, tests, governance, or runtime-queue implementation rather than a stronger independently operated exchange."
+      }
+    ]
+  },
+  "selected_original_family": {
+    "repository": "ohjonathan/llm-dev-framework",
+    "repository_url": "https://github.com/ohjonathan/llm-dev-framework",
+    "pinned_ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+    "repository_role": "Public, owner-governed development framework whose own issue-5 lifecycle deliberately dispatches Claude-, Codex-, and Gemini-labelled review roles and records their findings, repair, and verification.",
+    "primary_records": [
+      {
+        "record": "Issue 5 root-cause report",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/issues/5",
+        "created_at": "2026-05-12T02:41:39Z",
+        "closed_at": "2026-05-12T19:07:04Z",
+        "actor": "ohjonathan",
+        "role": "Human-owner request explaining that a prior single Codex process skipped required external reviews and specifying a receipt-bound multi-family verification fix."
+      },
+      {
+        "record": "Issue-5 manifest",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/manifest/issue-5-lifecycle-receipts.yaml",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "6eae694524e9daf83b64e514a6431ed2b92bc98f",
+        "role": "Primary governance record preassigning Claude Opus as author/fix/final-approval family and Claude Sonnet, Codex, and Gemini to named peer, alignment, adversarial, consolidation, and verifier roles."
+      },
+      {
+        "record": "B.1 Codex alignment review",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-B.1-codex-alignment.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "d2f57482907fc5dd4da765aec4ec18d6d6f9ff5b",
+        "role": "Primary reviewer output identifying receipt-to-dispatch hash-binding, receipt-specific attestation, unknown-state, and no-manifest strict-gate blockers."
+      },
+      {
+        "record": "B.1 Claude Sonnet peer review",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-B.1-claude-sonnet-peer.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "6c250c84cca228f1444044e0e5ae9e8a2b1d62d0",
+        "role": "Primary peer output identifying a hollow-field operator-precedence blocker and additional receipt-round and hash-semantics defects; its frontmatter honestly labels the first run provider-limited fallback."
+      },
+      {
+        "record": "D.2 Gemini adversarial review",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.2-gemini-adversarial.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "a35c9cf19168a4d6f4109f0b36f853c723cd2f75",
+        "role": "Primary adversarial output identifying manifest, path-jail, test-flag, and cryptographic-field validation bypasses."
+      },
+      {
+        "record": "D.2 Codex alignment review",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.2-codex-alignment.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "553b4e8b48d79fbe9cfd97d8c9c5217c0ee44aad",
+        "role": "Primary reviewer output reproducing unrelated-dispatch binding and malformed-hash acceptance and mapping them to CODE-ALIGN finding IDs."
+      },
+      {
+        "record": "D.4 finding-addressed repair commit",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/commit/97fb6f8345717b718e7ff967449a8c596d526c83",
+        "event_at": "2026-05-12T04:16:23Z",
+        "commit_sha": "97fb6f8345717b718e7ff967449a8c596d526c83",
+        "tree_sha": "451e8f2b86bf31afff728c3dd6b18404e71bfe22",
+        "author_and_committer": "Jonathan Oh",
+        "coauthor_label": "Claude Opus 4.7",
+        "signature_status": "unsigned",
+        "role": "Primary downstream-use record. The message names 17 reviewer blockers and maps Codex, Gemini, and Claude Sonnet finding IDs to exact verifier, gate, dispatcher, fixture, and test repairs."
+      },
+      {
+        "record": "Lifecycle receipt inventory",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-lifecycle-receipts.yaml",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "3339f2410d0459ab9e413c151286af72fbc493bf",
+        "role": "Primary inventory containing 22 hash-bearing receipts across B.1, D.2, and D.5, including preserved fallback and superseded rounds."
+      },
+      {
+        "record": "Round-2 Claude Sonnet verification",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.5-claude-sonnet-verifier-r2.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "7a9bb5212d33d2eef40c1158296577ea9952c01f",
+        "role": "Primary recipient verification mapping the D.4 repairs back to the exact Codex, Gemini, and Claude Sonnet blocker IDs and recording the in-flight whole-bundle limitation."
+      },
+      {
+        "record": "Round-6 Codex verification",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.5-codex-verifier-r6.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "e7f582e512b6a9063fb27b4b0910884cfc41eade",
+        "role": "Primary independent-family-labelled final-SHA verification approving the entry-binding fix and directly reporting strict lifecycle and D.6 gate success on the clean final tree."
+      },
+      {
+        "record": "Round-6 Gemini verification",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-D.5-gemini-verifier-r6.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "9184399be12b8f9c3c45fc9f6aa6d2d8d4193dff",
+        "role": "Primary static verification approving the exact-match and longest-prefix entry-binding repair and confirming wrapper safety invariants."
+      },
+      {
+        "record": "Round-6 consolidation commit",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/commit/6e379c541104777eb55ef8f7845c91629b678226",
+        "event_at": "2026-05-12T06:36:36Z",
+        "commit_sha": "6e379c541104777eb55ef8f7845c91629b678226",
+        "tree_sha": "5214a318db14e9ee213b385e4a9f4eb19b73f750",
+        "author_and_committer": "Jonathan Oh",
+        "coauthor_label": "Claude Opus 4.7",
+        "signature_status": "unsigned",
+        "role": "Primary consolidation record stating that Codex and Gemini both approved the final SHA with no blockers and that round 6 superseded the self-referential round-5 state."
+      },
+      {
+        "record": "Final approval",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/blob/cadd0335fb63d0e4e24c54da734761a9ad74d6e1/review-board/issue-5-lifecycle-receipts-final-approval.md",
+        "ref": "cadd0335fb63d0e4e24c54da734761a9ad74d6e1",
+        "blob_sha": "1b835f228f8e2ebb4e5da286166e727ec9a0bf88",
+        "role": "Primary round-by-round closure record. It preserves the relabeling failure, later model-variant enforcement, superseding verifier rounds, and the explicit limitation that local receipts are consistency-bound but unsigned."
+      },
+      {
+        "record": "Pull request 6",
+        "url": "https://github.com/ohjonathan/llm-dev-framework/pull/6",
+        "created_at": "2026-05-12T04:20:29Z",
+        "merged_at": "2026-05-12T19:07:02Z",
+        "head_sha": "6e379c541104777eb55ef8f7845c91629b678226",
+        "merge_commit_sha": "df39e6e3de47b2b5a970b99aa1580c1463dd97e0",
+        "actor": "ohjonathan",
+        "role": "Owner-authored integration record openly describing the five-round designed review lifecycle and merging the governed repair."
+      }
+    ],
+    "receipt_inventory_summary": {
+      "receipt_count": 22,
+      "phase_counts": {
+        "B.1": 6,
+        "D.2": 6,
+        "D.5": 10
+      },
+      "provider_label_counts": {
+        "claude": 12,
+        "codex": 5,
+        "gemini": 5
+      },
+      "receipt_quality": "Receipts bind prompts and output artifacts to project-owned dispatch intent/result files and timestamps. The project itself says they are consistency-bound but unsigned; they authenticate repository-internal execution claims, not separate human operators or independent provider ownership."
+    },
+    "chronology": [
+      {
+        "event_at": "2026-05-12T02:41:39Z",
+        "stage": "human issue and authorization",
+        "observation": "The repository owner opens issue 5, describes a prior single-agent review-skipping failure, and requests non-self-attestable multi-family receipt verification."
+      },
+      {
+        "event_at": "2026-05-12T03:49:16Z",
+        "stage": "review wave begins",
+        "observation": "The first preserved B.1 Codex receipt starts; the inventory later records twenty-two B.1, D.2, and D.5 receipts across six rounds."
+      },
+      {
+        "event_at": "2026-05-12T04:16:23Z",
+        "stage": "downstream finding use",
+        "observation": "Commit 97fb6f8 explicitly consumes seventeen blocker IDs from Codex, Gemini, and Claude Sonnet outputs and maps them to specific implementation and regression-test changes."
+      },
+      {
+        "event_at": "2026-05-12T06:36:36Z",
+        "stage": "superseding verification",
+        "observation": "Commit 6e379c5 records Codex and Gemini round-6 approval of the final entry-binding SHA after the round-5 self-referential pending state resolves."
+      },
+      {
+        "event_at": "2026-05-12T19:07:02Z",
+        "stage": "human-governed integration",
+        "observation": "The same repository owner merges PR 6 and closes issue 5 two seconds later."
+      }
+    ],
+    "dependency_assessment": {
+      "specific_transfer": "The reviewer artifacts provide named, line-anchored finding IDs. The D.4 commit repeats those IDs and describes the corresponding code and fixture changes; later verifier artifacts explicitly check those same changes against the earlier findings.",
+      "recipient_use": "Demonstrated. The fix commit and D.5 verification artifacts provide a temporal and semantic reviewer-output-to-repair-to-verification dependency, not mere wording similarity.",
+      "distinguishable_participants": "Claude-, Codex-, and Gemini-labelled executions are distinguishable within the project's wrapper and receipt system, but project-controlled labels and unsigned receipts do not independently authenticate provider principals or controlling operators.",
+      "operator_boundary": "Not demonstrated. One manifest preassigns the roles; every dispatch intent names the same authoring session family; the human owner opens the issue, authors and commits both consolidation points, opens and merges the PR, and controls the repository. The workflow is an intentional review board.",
+      "rogue_intent": "Not supported. The exchanges implement the owner's requested integrity review and repeatedly halt or request changes when gates fail.",
+      "current_activity": "Not established. The selected episode is a merged historical May 2026 control; the October observation establishes public availability, not ongoing autonomous coordination."
+    },
+    "limitations": [
+      "The project says its local receipts are consistency-bound but unsigned; no provider-owned attestation or independent operator credential is public.",
+      "Raw transcripts and prompts were not reproduced or treated as commands. Wrapper-reported provider/model identities remain project assertions.",
+      "The inventory preserves superseded and provider-limited rounds, including a documented family-label/model mismatch; only the later governed resolution is used for the control chronology.",
+      "GitHub author and committer identity establishes one public custodian, not who physically initiated each model invocation.",
+      "The chain is a strong transfer-and-use positive control but cannot prove an operator crossing, unauthorized cooperation, subjective intent, or current activity."
+    ]
+  },
+  "alternative_hypotheses": [
+    {
+      "hypothesis": "Distinct providers independently coordinated across operators",
+      "assessment": "Not supported. Provider-family labels, executable metadata, and receipt hashes distinguish project runs but do not establish separate controlling operators; the same owner and authoring session govern the whole board."
+    },
+    {
+      "hypothesis": "Designed multi-model review team",
+      "assessment": "Strongly supported by the issue request, manifest role assignments, dispatch intents, gate design, superseding rounds, and owner merge."
+    },
+    {
+      "hypothesis": "Single-operator automation with human-governed model calls",
+      "assessment": "Supported and sufficient. One repository custodian and one authoring-session family publish the manifests, repairs, consolidation commits, PR, and merge."
+    },
+    {
+      "hypothesis": "Repeated tests or wrapper retries created apparent participants",
+      "assessment": "Partly relevant. Twenty-two receipts include fallback and superseded rounds, and the final approval explicitly documents label/model corrections and in-flight pending states. Round multiplicity is not evidence of independent principals."
+    },
+    {
+      "hypothesis": "Synthetic benchmark or observer contamination",
+      "assessment": "The selected family claims real CLI dispatches rather than a synthetic benchmark, but the origin project is intentionally dogfooding its framework. Forty-four self-index rows were excluded, and the separate Agent-swarm benchmark was rejected as synthetic."
+    }
+  ],
+  "prior_reporting_checks": {
+    "performed_after_original_chain": true,
+    "github_code_queries": [
+      {
+        "query": "\"issue-5-lifecycle-receipts\"",
+        "row_occurrences": 50,
+        "classification": "Requested-result cap; every returned path is in the originating repository."
+      },
+      {
+        "query": "\"D.4 fix pass\" \"97fb6f8\"",
+        "row_occurrences": 17,
+        "classification": "Every returned path is in the originating repository, including later raw-review references."
+      },
+      {
+        "query": "\"R5-codex-1\" \"strict_p3_review_complete\"",
+        "row_occurrences": 3,
+        "classification": "Every returned path is in the originating repository."
+      },
+      {
+        "query": "\"--family-as\" \"claude-sonnet\" \"80e8909\"",
+        "row_occurrences": 2,
+        "classification": "Both returned paths are in the originating repository."
+      }
+    ],
+    "github_totals": {
+      "queries": 4,
+      "row_occurrences": 72,
+      "origin_repository_occurrences": 72,
+      "independent_repository_occurrences": 0,
+      "queries_at_requested_result_cap": 1
+    },
+    "web_queries": [
+      "\"issue-5-lifecycle-receipts\"",
+      "\"D.4 fix pass\" \"97fb6f8\"",
+      "\"llm-dev-framework\" \"rogue swarm\"",
+      "\"strict-P3 lifecycle receipts\""
+    ],
+    "web_result_summary": "No exact episode report surfaced. Results were unrelated lexical collisions, generic pages, or reports about other already known rogue-swarm families.",
+    "bounded_statement": "No independent coordination report located in the checked scope as of 20 October 2026. The originating repository itself publicly reports and authorizes the review episode, so external-index absence neither establishes novelty nor supports a rogue-swarm classification."
+  },
+  "evidence_that_would_advance": [
+    "Provider-owned or otherwise independent attestations binding the exact reviewer run IDs, prompt/output hashes, and recipient repair commit.",
+    "Primary evidence that a reviewer and repair recipient were controlled by different operators rather than the manifest owner and one authoring session.",
+    "A public recipient action outside the preassigned issue-5 review graph that depends on one exact reviewer artifact.",
+    "Primary evidence that the exchange bypassed or exceeded the owner's role assignments, halt gates, merge authority, or remediation request.",
+    "Evidence of current autonomous continuation distinct from later project maintenance and indexed historical records."
+  ],
+  "next_exact_cursors": [
+    "\"reviewer_run_id\" \"implementer_run_id\" \"finding_digest\" \"repair_commit_sha\"",
+    "\"dispatch_result_sha256\" \"recipient_action_commit\" \"source_operator_id\" \"recipient_operator_id\"",
+    "\"upstream_artifact_sha256\" \"downstream_output_sha256\" \"provider_receipt_id\" \"operator_principal_id\""
+  ],
+  "conclusion": "The selected public records establish a high-confidence transfer-and-use dependency: distinguishable model-family-labelled reviewers produce specific findings, a later repair commit explicitly consumes those finding IDs, and superseding reviewers verify the fixes. They also establish a stronger exclusion. The workflow was requested by the owner, preassigned in one manifest, dispatched under one authoring session, committed and merged by one public custodian, and documented as an intentional multi-model review board whose receipts are unsigned. No separate-operator boundary, unauthorized coordination, subjective rogue intent, or current autonomous activity is shown. No candidate is assigned, no discovery alert is warranted, and the checkpoint remains zero confirmed previously unreported rogue swarms."
+}

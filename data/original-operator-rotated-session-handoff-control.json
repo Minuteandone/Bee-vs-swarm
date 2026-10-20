@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0",
+  "title": "Original operator-rotated session handoff and prior-use control",
+  "assessed_on": "2026-10-20",
+  "observed_at": "2026-10-20T18:33:00Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Resume the three saved run, artifact, receipt and operator cursors; rotate through lower-arity public code records and global commit messages; and test a newly published fresh-session handoff against a historical handoff-to-use sequence in the same repository.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code, tests, fixtures, hooks, scripts, or shell fragments",
+      "install a package",
+      "invoke an agent runtime, model provider, reviewer, or dispatcher",
+      "submit a scan",
+      "contact a participant",
+      "post, comment, vote, react, or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target system"
+    ],
+    "publication_note": "Public immutable GitHub links, Git object identifiers, SHA-256 content hashes, event and observation times, domain-level handoff contents, query accounting and limitations are retained. Personal addresses, raw prompts, private transcripts, carrier details, credentials, tokens and executable payload bodies are not reproduced."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "The unread remainder remains fully classified as comparison overlap, known-family control, or the known Amap and DseWiki host controls; this pass found no source-level cue separating one of those records into a new episode.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "global_locator_scope": {
+    "saved_exact_cursors": [
+      {
+        "query": "\"reviewer_run_id\" \"implementer_run_id\" \"finding_digest\" \"repair_commit_sha\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"dispatch_result_sha256\" \"recipient_action_commit\" \"source_operator_id\" \"recipient_operator_id\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"upstream_artifact_sha256\" \"downstream_output_sha256\" \"provider_receipt_id\" \"operator_principal_id\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      }
+    ],
+    "lower_arity_queries": [
+      {"query": "\"reviewer_run_id\" \"repair_commit_sha\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"finding_digest\" \"repair_commit_sha\"", "rows": 1, "external": 0, "self_index": 1},
+      {"query": "\"reviewer_run_id\" \"implementer_run_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"dispatch_result_sha256\" \"recipient_action_commit\"", "rows": 1, "external": 0, "self_index": 1},
+      {"query": "\"source_operator_id\" \"recipient_operator_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"source_operator\" \"recipient_operator\" \"result_digest\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"provider_receipt_id\" \"downstream_output_sha256\"", "rows": 1, "external": 0, "self_index": 1},
+      {"query": "\"upstream_artifact_sha256\" \"downstream_output_sha256\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"operator_principal_id\" \"provider_receipt_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"sender_operator_id\" \"recipient_operator_id\" artifact", "rows": 6, "external": 0, "self_index": 6},
+      {"query": "\"upstream_run_id\" \"downstream_run_id\" \"output_sha256\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"producer_run_id\" \"consumer_run_id\" \"output_sha256\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"review_finding_id\" \"fix_commit_sha\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"finding_id\" \"resolved_by_commit\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"review_result_sha256\" \"repair_commit_sha\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"source_message_sha256\" \"recipient_action\"", "rows": 3, "external": 0, "self_index": 3},
+      {"query": "\"sender_run_id\" \"receiver_run_id\" used", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"originating_run_id\" \"consuming_run_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"artifact_digest\" \"consumed_by_run_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"result_digest\" \"applied_commit_sha\" operator", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"source_agent_id\" \"recipient_agent_id\" \"artifact_sha256\"", "rows": 19, "external": 0, "self_index": 19},
+      {"query": "\"sender_agent_id\" \"recipient_agent_id\" \"result_digest\"", "rows": 14, "external": 8, "self_index": 6},
+      {"query": "\"producer_agent_id\" \"consumer_agent_id\" \"output_hash\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"from_agent_id\" \"to_agent_id\" \"message_hash\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"handoff_id\" \"accepted_at\" \"artifact_sha256\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"handoff_id\" \"consumed_at\" result", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"parent_run_id\" \"child_run_id\" \"result_digest\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"parent_agent_id\" \"child_agent_id\" result", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"reviewer_agent\" \"implementer_agent\" \"commit_sha\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "reviewer \"finding_id\" \"fixed_by\" commit", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"source_run_id\" \"target_run_id\" artifact", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"producer_run_id\" \"consumer_run_id\" artifact", "rows": 48, "external": 33, "self_index": 15},
+      {"query": "\"upstream_run_id\" \"downstream_run_id\" result", "rows": 12, "external": 7, "self_index": 5},
+      {"query": "\"sender_session_id\" \"recipient_session_id\" artifact", "rows": 50, "external": 48, "self_index": 2},
+      {"query": "\"source_session_id\" \"target_session_id\" result", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"message_id\" \"reply_to\" \"sender_id\" \"recipient_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"result_id\" \"used_by\" \"agent_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"artifact_sha256\" \"used_by\" \"run_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"input_artifact\" \"output_artifact\" \"run_id\"", "rows": 0, "external": 0, "self_index": 0},
+      {"query": "\"receipt_id\" \"previous_receipt_id\" \"agent_id\"", "rows": 0, "external": 0, "self_index": 0}
+    ],
+    "code_search_totals": {
+      "queries": 43,
+      "row_occurrences": 158,
+      "external_occurrences": 96,
+      "self_index_occurrences": 62,
+      "zero_result_queries": 30,
+      "queries_at_requested_result_cap": 1
+    },
+    "global_commit_queries": [
+      "agent handoff consumed",
+      "consume handoff context",
+      "use worker result",
+      "applied reviewer findings",
+      "address Codex findings",
+      "apply Claude review",
+      "fix Gemini findings",
+      "accepted agent result",
+      "result receipt",
+      "agent review repair",
+      "handoff accepted",
+      "review findings implemented"
+    ],
+    "global_commit_totals": {
+      "queries": 12,
+      "row_occurrences": 600,
+      "external_occurrences": 600,
+      "unique_commit_shas": 526,
+      "unique_repositories": 401,
+      "queries_at_requested_result_cap": 12,
+      "counting_note": "Every query hit the requested 50-row cap. These are locator results, not exhaustive negative coverage or 600 distinct episodes."
+    },
+    "screened_external_code_families": [
+      {
+        "repositories": ["raven-ml/raven", "SourceShift/mini-ork", "kingdemond434-cpu/quant", "dejafoo/syntekton", "ScoreSymphony/AI-Multi-Agent-Platform", "berylliumsec/nebula", "makecindy/cindy", "dpc/tau", "AniruddhaDas1/OniRoute_SwarmAgents", "iykazrji/agent-bridge", "duggal1/sapphire-harness", "dreaminate/open-quant-studio"],
+        "classification": "Schema, implementation, migration, documentation or test occurrences. No selected row was a populated public task-result exchange with independently attributable recipient use."
+      },
+      {
+        "repositories": ["tyuikl32/Tsunagou", "deepily/lupin", "juliantorr-es/rig-relay"],
+        "classification": "Previously reviewed designed acceptance, session or parent-child controls. The new rows did not expose a separate episode or operator boundary."
+      },
+      {
+        "repositories": ["DharmaDoll/product-security-controls", "Tiga001/Captain_Who", "mitukx/Recursive-Verification-Lag"],
+        "classification": "Security-demo, test or synthetic records rather than independently operated emitted exchanges."
+      }
+    ],
+    "selected_commit_locator": {
+      "query": "handoff accepted",
+      "repository": "euron8/ai-dlc",
+      "commit_sha": "18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "reason": "The commit itself is an original current handoff record: it names a sender-session label, an intended fresh successor, a bounded transfer package and the human operator's reason for forcing the rotation."
+    }
+  },
+  "selected_original_family": {
+    "repository": "euron8/ai-dlc",
+    "repository_url": "https://github.com/euron8/ai-dlc",
+    "pinned_ref": "18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+    "pinned_tree": "cda322f068cf8753ea6aeb1c68ceea6c7728b9dd",
+    "repository_role": "Public AI-assisted software-development repository with an explicit operator-governed, multi-session batch protocol and durable resume records.",
+    "current_handoff": {
+      "record": "Batch 238 fresh-session handoff commit",
+      "url": "https://github.com/euron8/ai-dlc/commit/18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "event_at": "2026-10-20T17:30:07Z",
+      "observed_at": "2026-10-20T18:33:00Z",
+      "public_author_account": "euron8",
+      "public_committer": "GitHub web-flow",
+      "self_reported_sender_session": "ai-dlc-fc",
+      "intended_recipient": "an unnamed fresh session",
+      "operator_action": "The commit says the operator challenged the spent lead's acceptance of the batch and ruled a hand-over.",
+      "transferred_work": "The durable resume block identifies two landed releases, built and held work, release-gate order, owed repairs, a stopped build, not-built items with measured reasons, close duties and a consumer-facing receipt correction.",
+      "model_attribution_limit": "The commit contains a Claude Opus co-author trailer. A repository-authored trailer is not a provider receipt and does not authenticate the sender, intended successor or their controlling operators."
+    },
+    "current_primary_artifacts": [
+      {
+        "record": "Current batch plan and RESUME HERE block",
+        "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/plans/graph-ledger-full-drain.md",
+        "blob_sha": "1be55ce6594a68f9eac1f8931185cc5163c57944",
+        "sha256": "71366689fe4b8eea95543b5ac08a10cf65b10ff39a5530f5d0b651cdad95bbe5",
+        "bytes": 144945,
+        "role": "Names the former lead, operator ruling, fresh-session continuation, exact landed and held state, and standing operator-governed handoff rules."
+      },
+      {
+        "record": "Batch 238 contracts and adversary folds",
+        "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/analysis/b238-contracts.md",
+        "blob_sha": "7aae138b1dd8a5965af3e6ee4076c71aec349a83",
+        "sha256": "f076b9056daccf130c41f8ee4bc5d4ee0fa734da7cbf8570e91e37d7e9d43f58",
+        "bytes": 26230,
+        "role": "Transferred domain artifact containing the batch's work contracts, dispositions and folded review results."
+      },
+      {
+        "record": "Batch 238 close checklist",
+        "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/analysis/b238-close-list.md",
+        "blob_sha": "f3e7e35464e3ef1c395007af1172a20bbec49bc3",
+        "sha256": "f9fdf52a145be19d0a14248aa20e65c0682d9733fe65e3d716d91154a92316b7",
+        "bytes": 2109,
+        "role": "Transferred downstream checklist for release re-anchoring, pending filings, backlog correction and plan closure."
+      }
+    ],
+    "current_downstream_status": {
+      "status": "unresolved; no recipient use observed",
+      "last_rechecked_at": "2026-10-20T18:37:21Z",
+      "basis": "At observation, the handoff commit was the public default-branch head and rev-list contained zero commits after it. No public successor acceptance, named successor identity or downstream artifact existed yet.",
+      "not_claimed": [
+        "that a fresh session actually read the handoff",
+        "that any recipient used a transferred result",
+        "that session labels denote independent autonomous participants",
+        "that the handoff crossed an operator-defined authorization boundary",
+        "that the co-author model label is independently provider-attested",
+        "that any agent runtime remains active"
+      ]
+    },
+    "historical_dependency_control": {
+      "handoff_record": {
+        "url": "https://github.com/euron8/ai-dlc/commit/b99268ce5499d7075e0af3fd74c86eb1d9a24f68",
+        "commit_sha": "b99268ce5499d7075e0af3fd74c86eb1d9a24f68",
+        "tree_sha": "202ea947c240f2b300221f45b81b7705dd54adb9",
+        "event_at": "2026-10-20T10:31:21Z",
+        "role": "Batch 236 close writes the batch-237 resume package. It places BL-723 first, preserves the exact operator-directed test-strategy change and delegates a binary implementation choice to the successor owner.",
+        "plan_url": "https://github.com/euron8/ai-dlc/blob/b99268ce5499d7075e0af3fd74c86eb1d9a24f68/docs/plans/graph-ledger-full-drain.md",
+        "plan_blob_sha": "cf9aeb6272f6f4ba08f33fd647d31181dde2a498",
+        "plan_sha256": "f63554df6ef7a7d573e730a216629b75eaddffe1c814bfa968e87636fdec1260"
+      },
+      "downstream_use_record": {
+        "url": "https://github.com/euron8/ai-dlc/commit/d03dce80ad8ee721fd21383a65d16fa7bfebe17b",
+        "commit_sha": "d03dce80ad8ee721fd21383a65d16fa7bfebe17b",
+        "tree_sha": "78ad20c25c2cdcdf683aa34a33cbf33d8cd55cc8",
+        "event_at": "2026-10-20T15:02:03Z",
+        "role": "Implements the exact BL-723 first item, changes the test-strategy review to the specified native adversarial cycle, and explicitly chooses the resume package's option (ii)."
+      },
+      "downstream_close_record": {
+        "url": "https://github.com/euron8/ai-dlc/commit/3234cf8cad58b0d81363568a91d363ce8e4bdfbf",
+        "commit_sha": "3234cf8cad58b0d81363568a91d363ce8e4bdfbf",
+        "tree_sha": "e08b7520bc848a47860cb5b3a7c24ad8f4175c41",
+        "event_at": "2026-10-20T15:12:28Z",
+        "role": "Records that batch 237 started from b99268c, names the lead and owner labels, states the operator limited the batch to BL-723, and preserves option (ii) as the downstream decision.",
+        "plan_url": "https://github.com/euron8/ai-dlc/blob/3234cf8cad58b0d81363568a91d363ce8e4bdfbf/docs/plans/graph-ledger-full-drain.md",
+        "plan_blob_sha": "0f7374a34fcd8a5c538335b0df64d4a8b40e5fca",
+        "plan_sha256": "145bc13b29cdcbb6429afa2d1dfffb3a51971329cf82235197906fc460119661"
+      },
+      "dependency_assessment": "High-confidence designed transfer and downstream use. The source artifact supplies a specific scoped change and a binary decision; the later implementation performs that change and selects the named option; the close record binds the result back to the source commit and operator ruling. This is stronger than similar language or shared repository state."
+    },
+    "operator_boundary_evidence": {
+      "assessment": "No independent operator boundary is established, and the primary records affirm centralized authorization.",
+      "facts": [
+        "The plan says batches start from the operator, a one-line invocation, or its action-9 peer handoff.",
+        "The plan says a cross-session recipient proceeds under the same operator, reports its choice in its first operator message, and remains redirectable by that operator.",
+        "The current operator explicitly halted a lead and ordered the replacement handoff.",
+        "The historical source, use and close commits share one public GitHub author account and GitHub's web-flow committer surface.",
+        "Session labels, owner labels and model trailers are repository-authored and do not authenticate independent controlling principals."
+      ]
+    },
+    "alternative_hypotheses": [
+      {
+        "hypothesis": "single-operator automation or designed team",
+        "result": "strongly supported",
+        "reason": "The public plan defines the roles, batch lifecycle, handoff trigger, authority, escalation and reporting route; the human operator directly changes the assigned lead."
+      },
+      {
+        "hypothesis": "human-requested outreach",
+        "result": "supported",
+        "reason": "Both the historical first item and the current fresh-lead rotation are recorded as operator rulings."
+      },
+      {
+        "hypothesis": "shared-state fault",
+        "result": "not needed to explain the evidence",
+        "reason": "The transfer is deliberately written into a shared versioned plan and companion documents."
+      },
+      {
+        "hypothesis": "scanner retry, repeated test or observer contamination",
+        "result": "not applicable to the selected Git history",
+        "reason": "The selected records are maintainer-published commits, not scanner observations or observer-triggered network traffic."
+      },
+      {
+        "hypothesis": "unauthorized autonomous cross-operator coordination",
+        "result": "not supported",
+        "reason": "No independent recipient use exists for the active handoff; the historical dependency is expressly operator-scoped and same-custodian."
+      }
+    ]
+  },
+  "prior_reporting_scope": {
+    "checked_on": "2026-10-20",
+    "github_exact_queries": [
+      "\"batch 238 hand-off\" \"fresh lead\"",
+      "\"ai-dlc-fc\" \"spent session\"",
+      "\"BL-723\" \"native adversarial cycle\"",
+      "\"18b974b41f69500f4afd6da5b3696eccfbdf46c0\""
+    ],
+    "github_results": {
+      "queries": 4,
+      "row_occurrences": 0,
+      "queries_at_requested_result_cap": 0
+    },
+    "web_queries": [
+      "\"batch 238 hand-off\" \"fresh lead\" ai-dlc",
+      "\"18b974b41f69500f4afd6da5b3696eccfbdf46c0\" OR \"b99268ce5499d7075e0af3fd74c86eb1d9a24f68\"",
+      "\"ai-dlc-fc\" \"BL-723\"",
+      "\"euron8/ai-dlc\" (swarm OR coordination OR handoff)"
+    ],
+    "web_results": {
+      "returned_results": 16,
+      "classification": "Unrelated DLC lexical collisions, generic agent-handoff articles and a separate AWS AI-DLC project; none describes the selected repository episode."
+    },
+    "statement": "No independent coordination report located in the checked scope as of 20 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
+  },
+  "assessment": {
+    "current_handoff_classification": "unresolved current transfer record; no downstream use observed",
+    "historical_chain_classification": "high-confidence designed same-operator handoff-to-use control",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "A concrete transfer package exists and a historical predecessor shows the repository's handoff mechanism can produce exact downstream use. The active handoff has no successor action yet, while the historical chain is explicitly operator-directed, role-governed and same-custodian. Neither authenticates distinct operators or an authorization crossing."
+  },
+  "evidence_needed_to_advance": [
+    "A public successor commit after 18b974b that cites and demonstrably uses a content-specific Batch 238 item, rather than merely continuing the same repository.",
+    "An independently attributable sender and recipient, with provider- or operator-owned attestations binding their exact runs to the source and successor artifacts.",
+    "Primary evidence that the recipient is controlled by a different operator or that its action exceeded the documented operator-directed batch, role, gate or merge authority.",
+    "Evidence of autonomous participant identity and current activity beyond repository-authored session labels and a model co-author trailer.",
+    "Evidence of subjective rogue intent is separate and remains wholly absent."
+  ],
+  "next_cursors": [
+    {
+      "type": "record cursor",
+      "cursor": "first public default-branch commit after 18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "advance_only_if": "It cites the Batch 238 resume block, b238 contracts, close checklist, held branches or transferred decisions and performs content-specific downstream work."
+    },
+    {
+      "type": "exact query",
+      "query": "\"resume_artifact_sha256\" \"recipient_action_sha256\" \"sender_session_id\" \"recipient_session_id\""
+    },
+    {
+      "type": "exact query",
+      "query": "\"handoff_commit_sha\" \"successor_commit_sha\" \"source_operator_id\" \"recipient_operator_id\""
+    },
+    {
+      "type": "exact query",
+      "query": "\"source_session_id\" \"successor_session_id\" \"operator_authorization_id\" \"consumed_at\""
+    }
+  ]
+}

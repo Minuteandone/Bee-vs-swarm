@@ -7718,6 +7718,82 @@
       "merge_commit_sha": "df39e6e3de47b2b5a970b99aa1580c1463dd97e0",
       "actor": "ohjonathan",
       "observed_at": "2026-10-20T14:58:48Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-handoff-18b974b",
+      "url": "https://github.com/euron8/ai-dlc/commit/18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "role": "Primary current operator-ruled fresh-session handoff commit",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T17:30:07Z",
+      "commit_sha": "18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "tree_sha": "cda322f068cf8753ea6aeb1c68ceea6c7728b9dd",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-plan-1be55ce6",
+      "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/plans/graph-ledger-full-drain.md",
+      "role": "Primary current RESUME HERE package and operator-governed handoff rules",
+      "ref": "18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "blob_sha": "1be55ce6594a68f9eac1f8931185cc5163c57944",
+      "sha256": "71366689fe4b8eea95543b5ac08a10cf65b10ff39a5530f5d0b651cdad95bbe5",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-contracts-7aae138b",
+      "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/analysis/b238-contracts.md",
+      "role": "Primary transferred batch contracts and folded review results",
+      "ref": "18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "blob_sha": "7aae138b1dd8a5965af3e6ee4076c71aec349a83",
+      "sha256": "f076b9056daccf130c41f8ee4bc5d4ee0fa734da7cbf8570e91e37d7e9d43f58",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-close-list-f3e7e354",
+      "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/analysis/b238-close-list.md",
+      "role": "Primary transferred batch close checklist",
+      "ref": "18b974b41f69500f4afd6da5b3696eccfbdf46c0",
+      "blob_sha": "f3e7e35464e3ef1c395007af1172a20bbec49bc3",
+      "sha256": "f9fdf52a145be19d0a14248aa20e65c0682d9733fe65e3d716d91154a92316b7",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b237-handoff-b99268c",
+      "url": "https://github.com/euron8/ai-dlc/commit/b99268ce5499d7075e0af3fd74c86eb1d9a24f68",
+      "role": "Primary historical batch-237 resume and task-choice handoff commit",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T10:31:21Z",
+      "commit_sha": "b99268ce5499d7075e0af3fd74c86eb1d9a24f68",
+      "tree_sha": "202ea947c240f2b300221f45b81b7705dd54adb9",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b237-plan-cf9aeb62",
+      "url": "https://github.com/euron8/ai-dlc/blob/b99268ce5499d7075e0af3fd74c86eb1d9a24f68/docs/plans/graph-ledger-full-drain.md",
+      "role": "Primary historical sender artifact specifying BL-723 and the successor's binary decision",
+      "ref": "b99268ce5499d7075e0af3fd74c86eb1d9a24f68",
+      "blob_sha": "cf9aeb6272f6f4ba08f33fd647d31181dde2a498",
+      "sha256": "f63554df6ef7a7d573e730a216629b75eaddffe1c814bfa968e87636fdec1260",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b237-use-d03dce8",
+      "url": "https://github.com/euron8/ai-dlc/commit/d03dce80ad8ee721fd21383a65d16fa7bfebe17b",
+      "role": "Primary downstream-use commit implementing BL-723 and selecting the handed-off option",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T15:02:03Z",
+      "commit_sha": "d03dce80ad8ee721fd21383a65d16fa7bfebe17b",
+      "tree_sha": "78ad20c25c2cdcdf683aa34a33cbf33d8cd55cc8",
+      "observed_at": "2026-10-20T18:33:00Z"
+    },
+    {
+      "id": "original-ai-dlc-b237-close-3234cf8",
+      "url": "https://github.com/euron8/ai-dlc/commit/3234cf8cad58b0d81363568a91d363ce8e4bdfbf",
+      "role": "Primary downstream close binding the implemented choice to the source handoff and operator ruling",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T15:12:28Z",
+      "commit_sha": "3234cf8cad58b0d81363568a91d363ce8e4bdfbf",
+      "tree_sha": "e08b7520bc848a47860cb5b3a7c24ad8f4175c41",
+      "observed_at": "2026-10-20T18:33:00Z"
     }
   ]
 }

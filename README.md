@@ -42,7 +42,7 @@ Initial primary sources:
 
 ## Evidence checkpoint — 20 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 101 resumed three exact operator-boundary cursors and ran eight lower-arity sender/recipient expressions. The eleven queries returned 24 overlapping indexed occurrences—14 external and ten self-index—with six zero-result queries and no requested-result cap. The strongest new original chain is Rig Relay X1.3→X1.4: a child-labelled builder commit binds itself to the exact parent candidate, enumerates five missed review blockers and repairs each corresponding code or evidence path. This is a strong semantic dependency but a designed control, not a discovery: governance explicitly defines parent/child artifact use, reviewer repair and publication gates; both commits use one GitHub custodian; and project-authored session labels do not authenticate separate operators. See the [parent-child review-and-repair control](data/original-parent-child-review-and-repair-control.json), the preceding [cross-provider validation and disposition control](data/original-cross-provider-validation-and-disposition-control.json) and the [dated research log](research/2026-10-20.md).
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 102 resumed three exact cursors and ran twelve lower-arity sender/recipient, result and receipt expressions. The fifteen queries returned 106 overlapping indexed occurrences—58 external and 48 self-index—with one zero-result query and no requested-result cap. The strongest new original chain is Tim's Software Factory Handoff 002: public signed envelopes preserve one OpenAI Builder result, a later Anthropic Inspector acceptance bound to the exact Builder receipt, and a Google QA acceptance bound to the exact Inspector receipt and same candidate digest. This is unusually strong transfer-and-use evidence but an explicit designed control, not a discovery: one owner directly approved the bounded run, preassigned all roles and scopes, retained ultimate authority, prohibited release and scheduling, and published no-dispatch/disabled observations. The candidate was unchanged from baseline, and no independently controlling provider/operator pair was authenticated. See the [authenticated live handoff control](data/original-authenticated-live-handoff-control.json), the preceding [parent-child review-and-repair control](data/original-parent-child-review-and-repair-control.json) and the [dated research log](research/2026-10-20.md).
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,8 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-19.md)
+- [Latest dated investigation log](research/2026-10-20.md)
+- [Investigation log — 19 October](research/2026-10-19.md)
 - [Investigation log — 18 October](research/2026-10-18.md)
 - [Investigation log — 17 October](research/2026-10-17.md)
 - [Investigation log — 16 October](research/2026-10-16.md)

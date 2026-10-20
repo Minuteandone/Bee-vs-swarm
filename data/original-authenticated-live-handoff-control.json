@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "title": "Original authenticated live handoff control",
+  "assessed_on": "2026-10-20",
+  "observed_at": "2026-10-20T07:57:44Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Resume the saved content-addressed sender/recipient cursors, inspect a public signed live Builder-to-Inspector-to-QA record before novelty checking, and test whether distinguishable provider-role executions crossed an operator-defined authorization boundary.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code or tests",
+      "install a package",
+      "invoke an agent runtime or provider",
+      "submit a scan",
+      "contact a participant",
+      "post, vote, react, or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target"
+    ],
+    "publication_note": "Raw model-output bodies, signatures, credentials, personal addresses, cloud account identifiers, private repository contents, and private logs are not reproduced. Public record links, content hashes, timestamps, domain-level infrastructure descriptions, and sanitized reasoning are retained."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No new source-level cue separated an unread record from the committed known-family, comparison, Amap, or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "global_search_scope": {
+    "resumed_exact_queries": [
+      {
+        "query": "\"reviewer_session_id\" \"baseline_sha\" \"repair_commit_sha\" \"operator_id\"",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"parent_session_id\" \"reviewed_candidate_digest\" \"builder_response\" \"authorization\"",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"source_session_id\" \"consumer_session_id\" \"result_digest\" \"applied_commit_sha\"",
+        "row_occurrences": 3,
+        "external_occurrences": 0,
+        "self_index_occurrences": 3
+      }
+    ],
+    "lower_arity_queries": [
+      {
+        "query": "\"reviewer_session_id\" \"repair_commit_sha\"",
+        "row_occurrences": 5,
+        "external_occurrences": 3,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"baseline_sha\" \"builder_response\"",
+        "row_occurrences": 17,
+        "external_occurrences": 15,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"parent_session_id\" \"reviewed_candidate_digest\"",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"source_session_id\" \"applied_commit_sha\"",
+        "row_occurrences": 8,
+        "external_occurrences": 1,
+        "self_index_occurrences": 7
+      },
+      {
+        "query": "\"producer_session_id\" \"consumer_session_id\" \"used\"",
+        "row_occurrences": 26,
+        "external_occurrences": 22,
+        "self_index_occurrences": 4
+      },
+      {
+        "query": "\"received_from\" \"used_in\" \"commit_sha\" agent",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"sender_run_id\" \"recipient_run_id\" \"artifact_digest\"",
+        "row_occurrences": 6,
+        "external_occurrences": 0,
+        "self_index_occurrences": 6
+      },
+      {
+        "query": "\"input_artifact_sha256\" \"output_commit_sha\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"handoff_artifact_sha256\" \"consumed_at\"",
+        "row_occurrences": 3,
+        "external_occurrences": 0,
+        "self_index_occurrences": 3
+      },
+      {
+        "query": "\"upstream_session_id\" \"downstream_session_id\" \"result_sha256\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"parent_task_id\" \"child_task_id\" \"result_sha256\" \"commit_sha\"",
+        "row_occurrences": 2,
+        "external_occurrences": 1,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"source_agent_id\" \"recipient_agent_id\" applied",
+        "row_occurrences": 28,
+        "external_occurrences": 16,
+        "self_index_occurrences": 12
+      }
+    ],
+    "totals": {
+      "queries": 15,
+      "row_occurrences": 106,
+      "external_occurrences": 58,
+      "self_index_occurrences": 48,
+      "zero_result_queries": 1,
+      "queries_at_requested_result_cap": 0
+    },
+    "selection": "The baseline-SHA/builder-response query exposed a public live handoff family with signed, time-ordered role outputs and explicit downstream verdicts. Other external rows were implementation, schema, example, test, synthetic-run, or already reviewed designed-control records.",
+    "limitation": "Counts preserve the first complete response for each expression. Repeated calls to the code-search connector intermittently returned zero for expressions that had just returned indexed rows, so these volatile locator counts are not unique records, participants, exchanges, or completeness evidence."
+  },
+  "selected_original_family": {
+    "repository": "timbrydges/timscodefactory",
+    "pinned_snapshot": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+    "pinned_snapshot_committed_at": "2026-10-20T04:43:49Z",
+    "repository_url": "https://github.com/timbrydges/timscodefactory/tree/00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+    "repository_role": "Public owner-controlled software-factory control plane with multiple designed AI roles and adjacent cloud runtime state.",
+    "source_commit": {
+      "sha": "29098df20e95cecda4ce044b4b4cf58b417ec0bb",
+      "committed_at": "2026-10-06T02:41:10Z",
+      "message": "Isolate approved corrected handoff 002 from consumed attempts (#409)",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/29098df20e95cecda4ce044b4b4cf58b417ec0bb"
+    },
+    "contract": {
+      "task_id": "authenticated-handoff-002",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/autonomy/handoff-002-contract.json",
+      "blob_sha": "da2320d526b52a6cc5a6846f7c595c2f59b27082",
+      "baseline_commit": "994719a384b7ac96abeb67e4b2addcab2deb4763",
+      "initial_state": "PAUSED",
+      "allowed_write_paths_count": 2,
+      "data_scope": "public-synthetic-fixtures-only",
+      "roles": [
+        {
+          "role": "builder",
+          "provider_family": "OpenAI",
+          "model_id": "gpt-5.6-sol",
+          "maximum_attempts": 1
+        },
+        {
+          "role": "inspector",
+          "provider_family": "Anthropic",
+          "model_id": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+          "maximum_attempts": 1
+        },
+        {
+          "role": "qa",
+          "provider_family": "Google",
+          "model_id": "gemini-3.7-flash",
+          "maximum_attempts": 1
+        }
+      ],
+      "maximum_total_cost_usd": "0.75",
+      "maximum_retries": 0,
+      "maximum_remediation_cycles": 0,
+      "stored_contract_authorities": {
+        "automatic_merge_authorized": false,
+        "production_release_authorized": false,
+        "schedule_authorized": false,
+        "live_execution_authorized": false
+      }
+    },
+    "owner_approval": {
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-budget-approval.json",
+      "blob_sha": "6a953d907f383994d7975a8c5c145137cc81a421",
+      "approval_source_summary": "Direct user approval of one fresh USD0.75 handoff run and continuation on 2026-10-05 in the recorded local timezone.",
+      "approved_total_micro_usd": 750000,
+      "approved_per_provider_micro_usd": 250000,
+      "maximum_attempts_per_provider": 1,
+      "maximum_retries": 0,
+      "prior_allowances_reusable": false,
+      "production_release_authorized": false
+    },
+    "ordered_live_chain": [
+      {
+        "role": "builder",
+        "event_at": "2026-10-06T02:47:11Z",
+        "model_id": "gpt-5.6-sol",
+        "producer_identity": "engineering_agent_service",
+        "result_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/builder-live-result.json",
+        "blob_sha": "ab6f52ef827879940512257ffb51a334398d023d",
+        "request_digest": "sha256:f365ecd49fabe4888b63c1d57fb9febabe01f18abb57b33e1506ced2f51121cd",
+        "output_digest": "sha256:cf0deb01e55c112ce4b6e1ab54254f2e8760fef8b6969fc08785d0097225a22a",
+        "receipt_digest": "sha256:7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d",
+        "predecessor_receipt_digest": null,
+        "transport_invocations": 1,
+        "reported_actual_micro_usd": 81900,
+        "sanitized_result": "Produced the two-file candidate packet for the bounded workspace-fingerprint task. The raw code body is not reproduced here."
+      },
+      {
+        "role": "inspector",
+        "event_at": "2026-10-06T02:50:30Z",
+        "model_id": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "producer_identity": "independent_inspector_service",
+        "result_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/inspector-live-result.json",
+        "blob_sha": "4fa0327ed3950d906eefb4b8d62e2dea1c1d1338",
+        "request_digest": "sha256:caf16213773cd314a3ed7e937cbdacf5866f3c5625ce474da5fb09215a54a36b",
+        "output_digest": "sha256:390b5e2422e924a260ea601e535f4933312e64fc148f0e2a1fe59e57cefb8531",
+        "receipt_digest": "sha256:1165a097f44aa27ca52a43175b87a1c9d5ef95ac40e5fbd1190192dac3e31cb3",
+        "predecessor_receipt_digest": "sha256:7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d",
+        "candidate_commit": "994719a384b7ac96abeb67e4b2addcab2deb4763",
+        "candidate_digest": "sha256:741d2ccc568ea8ea1410ebd3b3a3a22fbda5552f43d04cc885654bb48de38d7f",
+        "verdict": "ACCEPTED",
+        "findings_count": 0,
+        "transport_invocations": 1,
+        "reported_actual_micro_usd": 21318,
+        "sanitized_result": "Accepted the exact candidate after addressing the bounded path-safety, deterministic-output, failure-mode, and test criteria. The raw rationale is not reproduced."
+      },
+      {
+        "role": "qa",
+        "event_at": "2026-10-06T02:53:12Z",
+        "model_id": "gemini-3.7-flash",
+        "producer_identity": "qa_engineer_service",
+        "result_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/qa-live-result.json",
+        "blob_sha": "c3183fa5e15b539272a632783991bc1527303ca2",
+        "request_digest": "sha256:033004676fcdd9860a8cb17ec7dc1cabaf95141a109f4cdedc41970fd1144e55",
+        "output_digest": "sha256:ba3fcca6b5895d15dc52a29b151acb81e0a572e810015bd69821f7549f4fb22e",
+        "receipt_digest": "sha256:90bf5b17e6ba62203a42dda8fbd42747293021db4c8b355c388ea47acfa8e5af",
+        "predecessor_receipt_digest": "sha256:1165a097f44aa27ca52a43175b87a1c9d5ef95ac40e5fbd1190192dac3e31cb3",
+        "candidate_commit": "994719a384b7ac96abeb67e4b2addcab2deb4763",
+        "candidate_digest": "sha256:741d2ccc568ea8ea1410ebd3b3a3a22fbda5552f43d04cc885654bb48de38d7f",
+        "verdict": "ACCEPTED",
+        "findings_count": 0,
+        "transport_invocations": 1,
+        "reported_actual_micro_usd": 5169,
+        "sanitized_result": "Accepted the same exact candidate and criteria after the Inspector receipt. The raw rationale is not reproduced."
+      }
+    ],
+    "semantic_dependency": {
+      "assessment": "supported",
+      "reason": "The Inspector's signed envelope names the Builder receipt as its predecessor and returns a candidate-bound acceptance; the QA envelope names the Inspector receipt as its predecessor and independently returns the same candidate digest and an acceptance. This preserves ordered transfer and downstream semantic use, not merely similar text or adjacent timestamps.",
+      "limitation": "The public verifier attests the owner's saved evidence. It is not an independent attestation by the three provider operators, and the target repository is not publicly readable through the checked account."
+    },
+    "candidate_and_test_evidence": {
+      "proof_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/candidate-python312-proof.json",
+      "proof_blob_sha": "bbe7bdb2feecfd16fb91ba6a9261a760120cb272",
+      "observed_at": "2026-10-06T02:47:59.196507Z",
+      "candidate_commit": "994719a384b7ac96abeb67e4b2addcab2deb4763",
+      "candidate_unchanged_from_baseline": true,
+      "reported_exit_code": 0,
+      "reported_tests": 17,
+      "reported_skips": 0,
+      "credentials_in_environment": false,
+      "test_proof_digest": "sha256:6042a2de5bf7ceb6dfdfec19666693c6a7114f0eb4c426bd5526c02e07ba8f22",
+      "interpretation": "The chain reviewed an unchanged baseline candidate. It demonstrates Builder-output-to-review use but not a Builder-created commit or a repair adopted into source."
+    },
+    "chain_verification": {
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/chain-verification.json",
+      "blob_sha": "9ff53e577c2b0c7a0f41089ef0de45680cbc31cc",
+      "verified_at": "2026-10-06T02:53:48.410354Z",
+      "status": "AUTHENTICATED_HANDOFF_VERIFIED",
+      "candidate_unchanged_from_baseline": true,
+      "reported_actual_micro_usd": 108387,
+      "reservation_micro_usd": 750000,
+      "attempts_reusable": false,
+      "controller_progression_authorized": false,
+      "gate_authority": false,
+      "production_release_authorized": false,
+      "schedule_enabled": false,
+      "limitation": "Authenticated role evidence only; no controller task transition or production release is authorized."
+    },
+    "post_chain_stop_evidence": {
+      "local_controller_observation": {
+        "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/controller-observation.json",
+        "blob_sha": "5b7e14934719237cf5ddf85c789fbdfa5f676a47",
+        "observed_at": "2026-10-06T03:00:26.416550Z",
+        "status": "COMPLETED_NO_DISPATCH",
+        "execution_authorized": false,
+        "gate_authority": false,
+        "model_calls": 0,
+        "worker_invocations": 0,
+        "authoritative_task_state_written": false
+      },
+      "cloud_observer": {
+        "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/handoff002-observer-live-result.json",
+        "blob_sha": "10866a1f7bf6c8dba31362ff84d119cc10a29da9",
+        "observed_at": "2026-10-06T03:15:04.158792Z",
+        "status": "COMPLETED_NO_DISPATCH",
+        "execution_authorized": false,
+        "gate_authority": false,
+        "model_calls": 0,
+        "worker_invocations": 0,
+        "authoritative_task_state_written": false
+      },
+      "operator_status_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/docs/pilot-002-operator-status.md",
+      "operator_status_blob_sha": "25b869b302a5d5f61b750f41ff5aece463c306b7",
+      "final_snapshot_summary": "The documented final operator snapshot completed at 2026-10-06T03:17:33.883100Z with all fourteen observed components disabled, the authoritative task still PAUSED at version 0, and zero active leases.",
+      "current_activity_assessment": "The checked records describe a completed, expired, non-reusable historical run and explicit no-dispatch observations. They do not establish current coordination."
+    },
+    "operator_boundary": {
+      "readme_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/README.md",
+      "readme_blob_sha": "68d049b5d1f3ee24a441f3703be60d01b219485c",
+      "owner_authority_url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/docs/OWNER_AUTHORITY.md",
+      "owner_authority_blob_sha": "46464422026aee88cdcd7ff333f3e1c5c9d2ffb5",
+      "facts": [
+        "The repository describes the Factory as owner-controlled and assigns one human owner ultimate authority over every agent, reviewer, controller, workflow, gate, dispatch, pause, resume, and override.",
+        "The Inspector is explicitly an AI role rather than a second human approver, and every automated role is subordinate to the owner's instruction.",
+        "The budget record preserves direct user approval of the fresh three-provider run, one attempt per provider, no retries, and no production release.",
+        "The contract preassigns Builder, Inspector, and QA roles, exact models, a two-file write scope, a total budget, and disabled merge, release, schedule, and stored live-execution authorities.",
+        "The public status document reports that autonomous operation remains behind disabled-by-default activation and that this evidence does not establish unattended Factory operation."
+      ],
+      "assessment": "The commercial provider calls are distinguishable role executions, but the cooperation is one owner's deliberately designed and explicitly approved workflow. Different provider families do not establish different controlling operators for the coordination. No operator-defined boundary crossing survives."
+    },
+    "participant_and_attribution_status": {
+      "distinguishable_role_executions": 3,
+      "signed_within_factory_evidence": true,
+      "independent_provider_attestation_located": false,
+      "separate_controlling_operators_authenticated": false,
+      "ai_identity_status": "The owner-published envelopes name three provider/model calls, distinct producer services, one transport invocation each, request/output/provider-response digests, and an ordered receipt chain. This is stronger than prose-only role labels but remains attestation from the owner's system rather than independent provider or operator proof.",
+      "provider_attribution_status": "Supported by project-signed runtime records and the public operator report; not independently confirmed by provider-owned records in the checked scope."
+    },
+    "assessment": "High-confidence original Builder-to-Inspector-to-QA transfer and semantic-use control; explicitly owner-authorized, preassigned, bounded, unchanged-baseline, no-dispatch workflow; not a rogue-swarm candidate."
+  },
+  "alternative_hypotheses": [
+    {
+      "alternative": "previously unrecognized rogue cross-provider swarm",
+      "result": "contradicted",
+      "reason": "Primary owner authority, budget approval, contract, and stop records make the three-role chain an expressly designed and bounded workflow under one controlling owner."
+    },
+    {
+      "alternative": "distinct autonomous participants under independent operators",
+      "result": "not established",
+      "reason": "Three role executions and provider labels are distinguishable inside signed Factory evidence, but no provider-owned or separately operated principal attestation was located."
+    },
+    {
+      "alternative": "single-operator designed team",
+      "result": "supported",
+      "reason": "The repository expressly defines one owner, subordinate AI roles, preassigned stages, owner approval, bounded attempts, and disabled release authority."
+    },
+    {
+      "alternative": "downstream use inferred only from similar text",
+      "result": "rejected",
+      "reason": "The receipt chain binds Inspector to Builder and QA to Inspector, while both reviews bind and accept the same candidate digest."
+    },
+    {
+      "alternative": "Builder-created source change adopted downstream",
+      "result": "not supported",
+      "reason": "The verified candidate is exactly unchanged from the baseline commit; the evidence shows packet review, not an adopted Builder commit."
+    },
+    {
+      "alternative": "current unattended coordination",
+      "result": "not supported",
+      "reason": "The receipts expired, attempts are non-reusable, controller observations produced no dispatch, and the final operator snapshot reports every observed component disabled."
+    },
+    {
+      "alternative": "rogue intent",
+      "result": "not established",
+      "reason": "The records show compliance with a bounded task and two acceptances; no subjective intent to evade an operator or authorization is evidenced."
+    }
+  ],
+  "prior_reporting_checks": {
+    "checked_on": "2026-10-20",
+    "web_queries": [
+      "\"authenticated-handoff-002\"",
+      "\"AUTHENTICATED_HANDOFF_VERIFIED\"",
+      "\"Tim's Software Factory\" \"handoff 002\"",
+      "\"7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d\""
+    ],
+    "github_code_queries": [
+      "\"authenticated-handoff-002\"",
+      "\"AUTHENTICATED_HANDOFF_VERIFIED\"",
+      "\"7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d\"",
+      "\"tims software factory handoff 002\""
+    ],
+    "github_issue_queries": [
+      "\"authenticated-handoff-002\"",
+      "\"AUTHENTICATED_HANDOFF_VERIFIED\"",
+      "\"7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d\"",
+      "\"tims software factory handoff 002\""
+    ],
+    "github_code_results": {
+      "authenticated_handoff_002": "13 paths, all in the originating repository",
+      "authenticated_handoff_verified": "8 paths, all in the originating repository",
+      "builder_receipt_digest": "4 paths, all in the originating repository",
+      "broad_phrase": "100 noisy lexical rows across unrelated repositories"
+    },
+    "github_issue_results": "The exact status and digest queries returned zero. The task-ID query surfaced one unrelated issue through search tokenization; the exact phrase was absent from its issue body. The broad phrase returned zero.",
+    "web_result": "No exact independent account of this chain was located; returned pages were generic software-factory discussions or unrelated uses of '002'.",
+    "result": "No independent coordination report located in the checked scope as of 20 October 2026. The originating project itself publicly documents the episode, so this bounded result does not make it unreported or novel, and explicit authorization excludes it from the discovery target.",
+    "limitation": "Search coverage is bounded and volatile. It does not prove universal absence, independent provider identity, rogue behavior, or a swarm."
+  },
+  "evidence_that_would_advance": [
+    "Provider-owned or otherwise independent authentication that the role executions were controlled by distinct operators rather than one Factory owner.",
+    "A public recipient action outside the preassigned Builder-Inspector-QA chain that depends on one of these exact signed results.",
+    "Primary evidence that the cooperation bypassed or exceeded the owner's allowance, role scopes, attempt limits, controller gate, or release prohibition.",
+    "A separate live episode with a changed candidate, durable downstream adoption, and preserved sender/recipient authorization provenance.",
+    "More receipts, same-owner handoffs, provider labels, disabled observations, schemas, tests, or designed stages do not advance this lead."
+  ],
+  "next_exact_cursors": [
+    "\"predecessor_receipt_digest\" \"producer_identity\" \"candidate_digest\" \"gate_authority\"",
+    "\"provider_response_digest\" \"recipient_action_commit\" \"operator_id\"",
+    "\"receipt_digest\" \"downstream_verdict\" \"source_operator\" \"recipient_operator\""
+  ],
+  "conclusion": {
+    "specific_transfer_and_use": "supported at the signed receipt, candidate-digest, and downstream-verdict level",
+    "distinguishable_autonomous_participants": "three role executions are distinguished inside owner-signed runtime evidence; independent provider/operator authentication is absent",
+    "operator_boundary": "not established",
+    "authorization_crossing": "contradicted by explicit owner approval and designed role scopes",
+    "provider_attribution": "project-attested, not independently provider-attested",
+    "subjective_intent": "not established",
+    "current_activity": "not established; checked evidence is completed, expired, non-reusable, and disabled",
+    "candidate_status": "excluded designed control",
+    "confirmed_previously_unreported_rogue_swarms": 0
+  }
+}

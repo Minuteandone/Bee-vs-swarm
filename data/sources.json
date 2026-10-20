@@ -7374,6 +7374,130 @@
       "commit_sha": "d95f6127f1e60ee62167011520b4b37f6f075658",
       "commit_actor": "juliantorr-es",
       "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-timscodefactory-snapshot-00cbe908",
+      "url": "https://github.com/timbrydges/timscodefactory/tree/00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "role": "Pinned public Factory snapshot for the authenticated live handoff review",
+      "published": "2026-10-20",
+      "pinned_ref_committed_at": "2026-10-20T04:43:49Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-source-29098df2",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/29098df20e95cecda4ce044b4b4cf58b417ec0bb",
+      "role": "Primary source commit isolating the approved corrected Handoff 002 run",
+      "published": "2026-10-06",
+      "event_at": "2026-10-06T02:41:10Z",
+      "commit_sha": "29098df20e95cecda4ce044b4b4cf58b417ec0bb",
+      "commit_actor": "timbrydges",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-contract-da2320d5",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/autonomy/handoff-002-contract.json",
+      "role": "Primary bounded three-provider role, scope, attempt, budget and authority contract",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "da2320d526b52a6cc5a6846f7c595c2f59b27082",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-budget-approval-6a953d90",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-budget-approval.json",
+      "role": "Primary direct owner approval of the fresh bounded run and non-reusable budget",
+      "event_date_embedded": "2026-10-05",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "6a953d907f383994d7975a8c5c145137cc81a421",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-builder-ab6f52ef",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/builder-live-result.json",
+      "role": "Primary signed Builder output and receipt; raw output body not reproduced",
+      "event_at": "2026-10-06T02:47:11Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "ab6f52ef827879940512257ffb51a334398d023d",
+      "output_digest": "sha256:cf0deb01e55c112ce4b6e1ab54254f2e8760fef8b6969fc08785d0097225a22a",
+      "receipt_digest": "sha256:7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-inspector-4fa0327e",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/inspector-live-result.json",
+      "role": "Primary signed Inspector acceptance bound to the exact Builder receipt and candidate digest",
+      "event_at": "2026-10-06T02:50:30Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "4fa0327ed3950d906eefb4b8d62e2dea1c1d1338",
+      "output_digest": "sha256:390b5e2422e924a260ea601e535f4933312e64fc148f0e2a1fe59e57cefb8531",
+      "receipt_digest": "sha256:1165a097f44aa27ca52a43175b87a1c9d5ef95ac40e5fbd1190192dac3e31cb3",
+      "predecessor_receipt_digest": "sha256:7713e68ceb7cdab705d7103acb326e8acddb92d99ca13761d19761f4f7fdd63d",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-qa-c3183fa5",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/qa-live-result.json",
+      "role": "Primary signed QA acceptance bound to the exact Inspector receipt and candidate digest",
+      "event_at": "2026-10-06T02:53:12Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "c3183fa5e15b539272a632783991bc1527303ca2",
+      "output_digest": "sha256:ba3fcca6b5895d15dc52a29b151acb81e0a572e810015bd69821f7549f4fb22e",
+      "receipt_digest": "sha256:90bf5b17e6ba62203a42dda8fbd42747293021db4c8b355c388ea47acfa8e5af",
+      "predecessor_receipt_digest": "sha256:1165a097f44aa27ca52a43175b87a1c9d5ef95ac40e5fbd1190192dac3e31cb3",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-chain-9ff53e57",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/chain-verification.json",
+      "role": "Primary saved-evidence verification binding requests, outputs, receipts, source and unchanged candidate",
+      "event_at": "2026-10-06T02:53:48.410354Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "9ff53e577c2b0c7a0f41089ef0de45680cbc31cc",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-candidate-proof-bbe7bdb2",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/candidate-python312-proof.json",
+      "role": "Primary sanitized independent-test observation for the unchanged candidate",
+      "event_at": "2026-10-06T02:47:59.196507Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "bbe7bdb2feecfd16fb91ba6a9261a760120cb272",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-controller-observation-5b7e1493",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/controller-observation.json",
+      "role": "Primary local no-dispatch controller observation after the verified chain",
+      "event_at": "2026-10-06T03:00:26.416550Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "5b7e14934719237cf5ddf85c789fbdfa5f676a47",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-handoff002-cloud-observation-10866a1f",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/factory/evidence/handoff-002-live/handoff002-observer-live-result.json",
+      "role": "Primary read-only cloud no-dispatch observation; cloud account identifiers omitted",
+      "event_at": "2026-10-06T03:15:04.158792Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "10866a1f7bf6c8dba31362ff84d119cc10a29da9",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-owner-authority-46464422",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/docs/OWNER_AUTHORITY.md",
+      "role": "Primary governance assigning all Factory roles and gates to one ultimate owner",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "46464422026aee88cdcd7ff333f3e1c5c9d2ffb5",
+      "observed_at": "2026-10-20T07:57:44Z"
+    },
+    {
+      "id": "original-timscodefactory-pilot002-status-25b869b3",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/00cbe90817a7f76790ebadaf7f8159dd1d7547a4/docs/pilot-002-operator-status.md",
+      "role": "Primary operator report summarizing the live chain, disabled runtimes and no-dispatch boundary",
+      "event_at": "2026-10-06T03:17:33.883100Z",
+      "ref": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "blob_sha": "25b869b302a5d5f61b750f41ff5aece463c306b7",
+      "observed_at": "2026-10-20T07:57:44Z"
     }
   ]
 }

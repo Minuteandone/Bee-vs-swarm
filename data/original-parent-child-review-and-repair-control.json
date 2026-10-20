@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "title": "Original parent-child review-and-repair control",
+  "assessed_on": "2026-10-20",
+  "observed_at": "2026-10-20T07:21:09Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Resume content-addressed sender/recipient cursors, inspect public original records before novelty checking, and test whether a session-labelled review-to-repair dependency crosses an operator-defined boundary.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install a package",
+      "run an agent or test harness",
+      "submit a scan",
+      "contact a participant",
+      "post, vote, react, or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target"
+    ]
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No source-level cue separated an unread record from the committed known-family, comparison, Amap, or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "global_search_scope": {
+    "resumed_exact_queries": [
+      {
+        "query": "\"native_session_id\" \"producer_session_id\" \"distinct_session\" \"operator_id\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"review_report_sha256\" \"accepted_by_task\" \"recipient_session_id\" \"owner_id\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"source_commit_sha\" \"disposition_commit_sha\" \"operator_authorization\" \"provider\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      }
+    ],
+    "lower_arity_queries": [
+      {
+        "query": "\"producer_native_session_id\" \"consumer_native_session_id\" operator",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"source_task_id\" \"accepted_by_task\" \"artifact_sha256\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"review_sha256\" \"decision_task_id\" \"operator_id\"",
+        "row_occurrences": 0,
+        "external_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"sender_session\" \"recipient_session\" \"authorization_scope\" \"commit_sha\"",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"source_result_sha256\" \"recipient_action_sha256\" owner",
+        "row_occurrences": 2,
+        "external_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"producer_principal\" \"consumer_principal\" disposition",
+        "row_occurrences": 6,
+        "external_occurrences": 5,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"source_commit\" \"accepted_at\" \"recipient_session\"",
+        "row_occurrences": 2,
+        "external_occurrences": 1,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"from_session_id\" \"to_session_id\" \"artifact_sha256\"",
+        "row_occurrences": 12,
+        "external_occurrences": 8,
+        "self_index_occurrences": 4
+      }
+    ],
+    "totals": {
+      "queries": 11,
+      "row_occurrences": 24,
+      "external_occurrences": 14,
+      "self_index_occurrences": 10,
+      "zero_result_queries": 6,
+      "requested_result_caps": 0
+    },
+    "limitation": "Counts are volatile locator results, not unique records, participants, exchanges, or completeness evidence. Transient rate limits were retried without broadening scope."
+  },
+  "selected_original_family": {
+    "repository": "juliantorr-es/rig-relay",
+    "pinned_snapshot": "59564ac5d477e77c3c8a7c4d988fd8a577509c7a",
+    "repository_role": "A local governed control plane for orchestrated agent coordination and multi-provider review.",
+    "targeted_query_scope": {
+      "queries": 9,
+      "row_occurrences": 83,
+      "requested_result_caps": 1,
+      "queries_and_counts": [
+        ["\"lane_x2.6_x0_consumer_boundary_handoff\"", 0],
+        ["\"ce0a3c66965f\"", 50],
+        ["\"Phase N\" \"stale lease cleanup\" \"handoff\"", 3],
+        ["\"prepublication_admitted_candidate_local\" \"X0 Inference Studio\"", 1],
+        ["\"coord.handoff.accepted\"", 7],
+        ["\"handoff_from_session_id\" \"handoff_to_session_id\" \"accepted\"", 2],
+        ["\"parent_session_id\" \"artifact_sha256\" \"coord.artifact.published\"", 9],
+        ["\"coord.projection.read\" \"artifact_sha256\"", 8],
+        ["\"Agent profile:\" \"Parent session:\" \"Session:\"", 3]
+      ],
+      "interpretation": "The capped digest is repeated generated documentation. Handoff event matches resolve to source, documentation, tests, or a sample fixture; no committed actual runtime observability ledger was located."
+    },
+    "primary_chain": {
+      "task": "PostgresVerifiedProductMaterializationAndRecoveryBoundary",
+      "reviewed_candidate": {
+        "session_label": "x1_3_prepublication_admitted",
+        "profile_label": "builder",
+        "parent_session": null,
+        "commit_sha": "e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+        "commit_at": "2026-05-27T07:11:44Z",
+        "commit_url": "https://github.com/juliantorr-es/rig-relay/commit/e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+        "contract_url": "https://github.com/juliantorr-es/rig-relay/blob/e2cd4b49b2862a6fb20ece0ec0cd098414cbba94/docs/json/contracts/x0_postgres_consumer_admission.v1.json",
+        "contract_blob_sha": "cdaa1c1c7757c871fe0dbc75016d9980af4b4232",
+        "relevant_state": "The candidate contract still used PENDING_PREPUBLICATION_ADMISSION rather than binding its source commit."
+      },
+      "review_result": {
+        "reviewer_session_label": "ses_197be3b17ffeHcyrwVtpuVmP30",
+        "baseline_sha": "e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+        "round_one_disposition": "prepublication_admitted",
+        "post_review_verdict": "invalidated_by_missed_blocking_defects",
+        "blocking_defects": [
+          "Corruption was mislabeled VERIFIED.",
+          "A projection path bypassed the producer-digest gate.",
+          "A positional digest call hashed one publication table instead of three.",
+          "The consumer contract had an unbound candidate-commit placeholder.",
+          "The pushed slice lacked a canonical review-cycle record."
+        ],
+        "record_url": "https://github.com/juliantorr-es/rig-relay/blob/8fa2e2143154a881f5fc445aa63a83fe04de9c20/docs/json/evidence/prepublication_review_cycle_x1_4.v1.json",
+        "record_blob_sha": "732aa8a909a25a77020cfcca31166f7a07f8a5c5"
+      },
+      "recipient_use": {
+        "session_label": "x1_4_reviewer_failure_repair",
+        "profile_label": "builder",
+        "parent_session_label": "x1_3",
+        "commit_sha": "8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+        "commit_at": "2026-05-27T07:36:18Z",
+        "commit_url": "https://github.com/juliantorr-es/rig-relay/commit/8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+        "compare_url": "https://github.com/juliantorr-es/rig-relay/compare/e2cd4b49b2862a6fb20ece0ec0cd098414cbba94...8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+        "repaired_contract_url": "https://github.com/juliantorr-es/rig-relay/blob/8fa2e2143154a881f5fc445aa63a83fe04de9c20/docs/json/contracts/x0_postgres_consumer_admission.v1.json",
+        "repaired_contract_blob_sha": "91aa2f73965a16ff186cd44b5ea6ee3ce11a31c9",
+        "dependency": "The child-labelled commit names all five review blockers and changes the corresponding code or evidence path. The review record maps each defect to a matching repair and its builder response says all five were repaired.",
+        "publication_state": {
+          "prepublication_admitted": false,
+          "push_authorized": false,
+          "status": "prepublication_repair_required",
+          "round_two": "pending reviewer inspection"
+        }
+      },
+      "topology_check": {
+        "merge_base": "e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+        "repair_commit_ahead_by": 3,
+        "intervening_commits": [
+          "3fae372",
+          "2d52f10",
+          "8fa2e2143154a881f5fc445aa63a83fe04de9c20"
+        ],
+        "conclusion": "The chronology and exact defect-to-repair mapping support downstream semantic use despite two unrelated/intervening lane commits."
+      }
+    },
+    "governance": {
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/59564ac5d477e77c3c8a7c4d988fd8a577509c7a/docs/governance/cross-session-coordination.md",
+      "blob_sha": "c255e9bc7559a901e2c72723b3fc317f97ec08c8",
+      "facts": [
+        "Child sessions publish artifacts and status; parent sessions consume compact projections.",
+        "The orchestrator is the sole authority for shared-file mutation while agents submit proposals.",
+        "Internal prepublication review and named milestone authorization gate publication.",
+        "A reviewer response can seed the next mission or child session.",
+        "Blocking findings are expected to be repaired and resubmitted."
+      ],
+      "assessment": "Review, repair, parent-child continuation, and publication gating are explicit designed functions of the owner-governed system."
+    },
+    "provenance": {
+      "x1_3_author_login": "juliantorr-es",
+      "x1_3_committer_login": "juliantorr-es",
+      "x1_4_author_login": "juliantorr-es",
+      "x1_4_committer_login": "juliantorr-es",
+      "independent_reviewer_identity_authenticated": false,
+      "independent_builder_identity_authenticated": false,
+      "separate_operator_boundary_established": false,
+      "ai_identity_status": "Project-authored session and profile labels only; no independent provider or model attestation was located."
+    },
+    "assessment": "Strong original temporal and semantic review-result-to-repair dependency; designed, same-custodian, explicitly authorized workflow control; not a rogue-swarm candidate."
+  },
+  "secondary_controls": [
+    {
+      "name": "Y3 to Y3.1 parent-child continuation",
+      "parent_commit": "f22962fb2a75a3105ed7771bf31fa667900c1f14",
+      "parent_commit_at": "2026-05-27T23:15:09Z",
+      "child_commit": "d95f6127f1e60ee62167011520b4b37f6f075658",
+      "child_commit_at": "2026-05-28T01:26:12Z",
+      "child_parent_label": "y3_coordinator (f22962fb2)",
+      "topology": "Child is six commits ahead and has the parent commit as merge base.",
+      "assessment": "Designed same-custodian orchestrator continuation. Its review record says downstream consumer implementations are deferred and push_authorized is false, so it does not show an external recipient using the artifact."
+    },
+    {
+      "name": "Coordination event sample",
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/59564ac5d477e77c3c8a7c4d988fd8a577509c7a/tests/investigation_timeline/fixtures/coordination_events_sample.jsonl",
+      "blob_sha": "4d299dd21a112134886f0a2044d7aa248c267f4c",
+      "assessment": "A test fixture contains requested, accepted, and rejected handoff events, but all use one sample session and it is not an actual runtime exchange."
+    },
+    {
+      "name": "Other external locator matches",
+      "families": [
+        "SessionFS recipient-session schema",
+        "Hacker Bob static invariant template",
+        "Record Platform test fixture",
+        "Vault Agent Memory schema",
+        "Cloud CUA test/catalog files"
+      ],
+      "assessment": "Implementation, schema, catalog, or fixture controls without an original sender-result-to-recipient-use event chain."
+    }
+  ],
+  "alternative_hypotheses": [
+    {
+      "alternative": "independent rogue reviewer and repair agent",
+      "result": "not supported",
+      "reason": "No independently authenticated principals or separate operators are visible; the same GitHub custodian authors and commits both endpoints."
+    },
+    {
+      "alternative": "authorized designed team",
+      "result": "supported",
+      "reason": "Governance assigns orchestrator authority, reviewer loops, child continuation, repair, resubmission, and publication gates."
+    },
+    {
+      "alternative": "single-operator automation or human-mediated workflow",
+      "result": "not excluded and favored over a cross-operator claim",
+      "reason": "One account controls commit provenance, while session and reviewer identities are project-authored labels."
+    },
+    {
+      "alternative": "shared-state fault or repeated test",
+      "result": "insufficient as the sole explanation",
+      "reason": "The five defects are explicitly enumerated and matched to repairs, so semantic use is stronger than mere shared state; authorization still resolves the discovery question."
+    },
+    {
+      "alternative": "current activity or subjective rogue intent",
+      "result": "not established",
+      "reason": "The records are historical repository artifacts and contain explicit control and authorization language."
+    }
+  ],
+  "prior_reporting_checks": {
+    "checked_on": "2026-10-20",
+    "web_queries": [
+      "\"x1_4_reviewer_failure_repair\" \"Rig Relay\"",
+      "\"prepublication_review_cycle_x1_4\" OR \"lane-x1.4\"",
+      "\"y3.1_coordinator\" \"f22962fb2\"",
+      "\"juliantorr-es/rig-relay\" agent coordination incident swarm"
+    ],
+    "github_code_queries": [
+      "\"x1_4_reviewer_failure_repair\"",
+      "\"Five blocking defects were missed\" \"X1.3\"",
+      "\"y3.1_coordinator\" \"f22962fb2\"",
+      "\"Rig Relay\" \"rogue swarm\""
+    ],
+    "github_issue_queries": [
+      "\"x1_4_reviewer_failure_repair\"",
+      "\"prepublication_review_cycle_x1_4\"",
+      "\"y3.1_coordinator\" \"f22962fb2\"",
+      "\"Rig Relay\" swarm"
+    ],
+    "result": "No independent coordination report or study of this exact X1.3-to-X1.4 chain was located in the checked scope as of 20 October 2026. Exact code searches returned zero; exact issue searches returned zero, except the broad Rig Relay phrase produced eight unrelated lexical/name collisions. Web results were unrelated word or name collisions.",
+    "limitation": "The originating project openly publishes the workflow. Bounded prior-reporting absence does not establish universal novelty, independent operators, rogue behavior, or a swarm."
+  },
+  "conclusion": {
+    "specific_transfer_and_use": "supported at the repository session/commit level",
+    "distinguishable_autonomous_participants": "claimed by project labels but not independently verified",
+    "operator_boundary": "not established",
+    "authorization_crossing": "contradicted by explicit governance",
+    "provider_attribution": "not established",
+    "subjective_intent": "not established",
+    "current_activity": "not established",
+    "candidate_status": "excluded designed control",
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "evidence_that_would_advance": [
+    "Independent authentication that the reviewer and repair builder are controlled by different operators.",
+    "A public actual runtime reviewer message or result and a later recipient action bound to that exact result.",
+    "Primary evidence that the cooperation bypassed or exceeded orchestrator and milestone authorization.",
+    "More same-custodian commits, session labels, review findings, schemas, or fixtures do not advance the lead."
+  ],
+  "next_exact_cursors": [
+    "\"reviewer_session_id\" \"baseline_sha\" \"repair_commit_sha\" \"operator_id\"",
+    "\"parent_session_id\" \"reviewed_candidate_digest\" \"builder_response\" \"authorization\"",
+    "\"source_session_id\" \"consumer_session_id\" \"result_digest\" \"applied_commit_sha\""
+  ]
+}

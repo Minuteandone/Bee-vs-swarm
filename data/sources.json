@@ -7277,6 +7277,103 @@
       "ref": "088a559dbf3049962bb2ec7b955fb93d8457f47b",
       "blob_sha": "8d0d5e9d29467edba7b9cddcd1c72d6ce9086b9d",
       "observed_at": "2026-10-19T06:58:16Z"
+    },
+    {
+      "id": "original-rig-relay-snapshot-59564ac5",
+      "url": "https://github.com/juliantorr-es/rig-relay/tree/59564ac5d477e77c3c8a7c4d988fd8a577509c7a",
+      "role": "Pinned repository snapshot for the parent-child and handoff-record review",
+      "published": "2026-06-01",
+      "pinned_ref_committed_at": "2026-06-01T06:08:42Z",
+      "ref": "59564ac5d477e77c3c8a7c4d988fd8a577509c7a",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-x1-3-candidate-e2cd4b49",
+      "url": "https://github.com/juliantorr-es/rig-relay/commit/e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+      "role": "Primary X1.3 builder-labelled candidate commit later named as the repair baseline",
+      "published": "2026-05-27",
+      "event_at": "2026-05-27T07:11:44Z",
+      "commit_sha": "e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+      "commit_actor": "juliantorr-es",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-x1-3-contract-cdaa1c1c",
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/e2cd4b49b2862a6fb20ece0ec0cd098414cbba94/docs/json/contracts/x0_postgres_consumer_admission.v1.json",
+      "role": "Primary X1.3 candidate contract with an unbound source-commit placeholder",
+      "published": "2026-05-27",
+      "ref": "e2cd4b49b2862a6fb20ece0ec0cd098414cbba94",
+      "blob_sha": "cdaa1c1c7757c871fe0dbc75016d9980af4b4232",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-x1-4-repair-8fa2e214",
+      "url": "https://github.com/juliantorr-es/rig-relay/commit/8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+      "role": "Primary child-labelled commit repairing the five review blockers",
+      "published": "2026-05-27",
+      "event_at": "2026-05-27T07:36:18Z",
+      "commit_sha": "8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+      "commit_actor": "juliantorr-es",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-x1-4-review-cycle-732aa8a9",
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/8fa2e2143154a881f5fc445aa63a83fe04de9c20/docs/json/evidence/prepublication_review_cycle_x1_4.v1.json",
+      "role": "Primary review-cycle record binding the X1.3 baseline, five defects and five repairs",
+      "published": "2026-05-27",
+      "event_date_embedded": "2026-05-27",
+      "ref": "8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+      "blob_sha": "732aa8a909a25a77020cfcca31166f7a07f8a5c5",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-x1-4-contract-91aa2f73",
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/8fa2e2143154a881f5fc445aa63a83fe04de9c20/docs/json/contracts/x0_postgres_consumer_admission.v1.json",
+      "role": "Primary repaired candidate contract bound to the exact X1.3 commit",
+      "published": "2026-05-27",
+      "ref": "8fa2e2143154a881f5fc445aa63a83fe04de9c20",
+      "blob_sha": "91aa2f73965a16ff186cd44b5ea6ee3ce11a31c9",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-cross-session-governance-c255e9bc",
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/59564ac5d477e77c3c8a7c4d988fd8a577509c7a/docs/governance/cross-session-coordination.md",
+      "role": "Primary governance defining orchestrator authority, child artifact use and designed coordination",
+      "published": "2026-06-01",
+      "pinned_ref_committed_at": "2026-06-01T06:08:42Z",
+      "ref": "59564ac5d477e77c3c8a7c4d988fd8a577509c7a",
+      "blob_sha": "c255e9bc7559a901e2c72723b3fc317f97ec08c8",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-coordination-events-fixture-4d299dd2",
+      "url": "https://github.com/juliantorr-es/rig-relay/blob/59564ac5d477e77c3c8a7c4d988fd8a577509c7a/tests/investigation_timeline/fixtures/coordination_events_sample.jsonl",
+      "role": "Primary sample fixture resolving handoff-event matches as non-runtime test data",
+      "published": "2026-06-01",
+      "pinned_ref_committed_at": "2026-06-01T06:08:42Z",
+      "ref": "59564ac5d477e77c3c8a7c4d988fd8a577509c7a",
+      "blob_sha": "4d299dd21a112134886f0a2044d7aa248c267f4c",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-y3-parent-f22962fb",
+      "url": "https://github.com/juliantorr-es/rig-relay/commit/f22962fb2a75a3105ed7771bf31fa667900c1f14",
+      "role": "Primary Y3 orchestrator-labelled parent commit for the secondary continuation control",
+      "published": "2026-05-27",
+      "event_at": "2026-05-27T23:15:09Z",
+      "commit_sha": "f22962fb2a75a3105ed7771bf31fa667900c1f14",
+      "commit_actor": "juliantorr-es",
+      "observed_at": "2026-10-20T07:21:09Z"
+    },
+    {
+      "id": "original-rig-relay-y3-1-child-d95f6127",
+      "url": "https://github.com/juliantorr-es/rig-relay/commit/d95f6127f1e60ee62167011520b4b37f6f075658",
+      "role": "Primary Y3.1 child commit explicitly naming the Y3 parent",
+      "published": "2026-05-28",
+      "event_at": "2026-05-28T01:26:12Z",
+      "commit_sha": "d95f6127f1e60ee62167011520b4b37f6f075658",
+      "commit_actor": "juliantorr-es",
+      "observed_at": "2026-10-20T07:21:09Z"
     }
   ]
 }

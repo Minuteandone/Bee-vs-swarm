@@ -7982,6 +7982,110 @@
       "commit_sha": "1f1c3a0248484a69981c60ad0aab2c84c45a705c",
       "tree_sha": "4faaba19cb5f63bb25a20f116f8ab0ce772538c7",
       "observed_at": "2026-10-21T01:23:54Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-release-0896-e227344",
+      "url": "https://github.com/euron8/ai-dlc/commit/e2273444b473ef5c884eed887cd093ae79263619",
+      "role": "Primary batch-238 successor release 0.896.0 under continuing lead ai-dlc-1a",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T01:58:02Z",
+      "commit_sha": "e2273444b473ef5c884eed887cd093ae79263619",
+      "tree_sha": "2cfd82e021fb0d448f7c72a35941543fe90e3fd9",
+      "parent_sha": "809807a0e0aafaacc0c6be3cec5f1e6b7fd528c1",
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-release-0897-297642c",
+      "url": "https://github.com/euron8/ai-dlc/commit/297642c214db26513f6a0e8f1f93f9e1057e3285",
+      "role": "Primary batch-238 successor release 0.897.0 preserving the operator's out-of-scope ruling",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T03:28:10Z",
+      "commit_sha": "297642c214db26513f6a0e8f1f93f9e1057e3285",
+      "tree_sha": "935cf8dc931ceb660a223864ac101d2e90bcd47b",
+      "parent_sha": "e2273444b473ef5c884eed887cd093ae79263619",
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-readset-e272cad",
+      "url": "https://github.com/euron8/ai-dlc/commit/e272cad3c5a43a41a436760d750c4d564ec29400",
+      "role": "Primary assigned-lead reconciliation of the batch-238 read set",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T03:41:36Z",
+      "commit_sha": "e272cad3c5a43a41a436760d750c4d564ec29400",
+      "tree_sha": "ef65d86080a950b9a0693e1a64be11fb02243c8b",
+      "parent_sha": "297642c214db26513f6a0e8f1f93f9e1057e3285",
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-release-0898-e173927",
+      "url": "https://github.com/euron8/ai-dlc/commit/e1739275b56a5f3494ceedef922f99c30fbf4257",
+      "role": "Primary batch-238 successor release 0.898.0 closing BL-605",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T05:01:21Z",
+      "commit_sha": "e1739275b56a5f3494ceedef922f99c30fbf4257",
+      "tree_sha": "4596aeadcb76d399a0426c503f1f2adfa358ba4a",
+      "parent_sha": "e272cad3c5a43a41a436760d750c4d564ec29400",
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-docs-ddfa69f",
+      "url": "https://github.com/euron8/ai-dlc/commit/ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
+      "role": "Primary batch-238 documentation continuation adding the operator-ruled graph-watch role and interval",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T05:08:51Z",
+      "commit_sha": "ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
+      "tree_sha": "89924a90b3710b35fd1dca9410a88a1e2eb94af8",
+      "parent_sha": "e1739275b56a5f3494ceedef922f99c30fbf4257",
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-plan-219535a",
+      "url": "https://github.com/euron8/ai-dlc/blob/ddfa69f03c4f6c780a1c228b7a0c42939a4994f9/docs/plans/graph-ledger-full-drain.md",
+      "role": "Latest immutable batch-238 plan preserving the handoff and adding an operator-assigned graph-watch session",
+      "ref": "ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
+      "blob_sha": "219535a2bf3076d6611a7174ee375ec168992f42",
+      "sha256": "12fa2653a86503d8786ed8c6f9f901f7320caaeada760054d56f3515239d1aa0",
+      "bytes": 145679,
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-elsa-foundation-outage-merge-da9a492",
+      "url": "https://github.com/elsa-workflows/elsa-foundation/commit/da9a4927d98fb29eda017b4e1a74a28ee4316439",
+      "role": "Primary Claude-app outage reference after six self-review rounds; no distinct source takeover is recorded",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T02:59:06Z",
+      "commit_sha": "da9a4927d98fb29eda017b4e1a74a28ee4316439",
+      "tree_sha": "ca8fbb9e17a1fc60b7f25f146d9ea8091116ab4a",
+      "parent_sha": "b555bd8460270476e49496e519c69b65180e9505",
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-elsa-hub-human-approved-merge-d6970f7",
+      "url": "https://github.com/elsa-workflows/elsa-hub/commit/d6970f7a41269b9773a70b00833b0e5f119d07d1",
+      "role": "Primary outage merge expressly made on the human owner's decision after the review cap",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T04:45:10Z",
+      "commit_sha": "d6970f7a41269b9773a70b00833b0e5f119d07d1",
+      "tree_sha": "771ba7df5aa4b8890a97a06f8b8a74dbe968ea62",
+      "parent_shas": [
+        "363e64b7796c231be028237ab0adbff9066ba577",
+        "29439260c4ed6332f6a5f84af8a3b826243d69b1"
+      ],
+      "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-elsa-hub-outage-followup-793df62",
+      "url": "https://github.com/elsa-workflows/elsa-hub/commit/793df624a48e5b5e5478eacdb5a661c7c9738c6c",
+      "role": "Primary Claude-app follow-up outage merge after two self-review rounds",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T05:14:34Z",
+      "commit_sha": "793df624a48e5b5e5478eacdb5a661c7c9738c6c",
+      "tree_sha": "9345036ae99895443992fbc44f33d83cd1ec4f23",
+      "parent_shas": [
+        "d6970f7a41269b9773a70b00833b0e5f119d07d1",
+        "c76a019156d1132a3a367c4b344a1a16c013e43e"
+      ],
+      "observed_at": "2026-10-21T05:40:46Z"
     }
   ]
 }

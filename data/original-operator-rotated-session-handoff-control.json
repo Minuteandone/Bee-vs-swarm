@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "Original operator-rotated session handoff and successor-use control",
-  "assessed_on": "2026-10-20",
-  "observed_at": "2026-10-21T01:23:54Z",
+  "assessed_on": "2026-10-21",
+  "observed_at": "2026-10-21T05:40:46Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the three saved run, artifact, receipt and operator cursors; rotate through lower-arity public code records and global commit messages; and test a newly published fresh-session handoff against a historical handoff-to-use sequence in the same repository.",
   "safety": {
@@ -172,6 +172,14 @@
         "role": "Names the former lead, operator ruling, fresh-session continuation, exact landed and held state, and standing operator-governed handoff rules."
       },
       {
+        "record": "Latest observed batch plan after twelve descendants",
+        "url": "https://github.com/euron8/ai-dlc/blob/ddfa69f03c4f6c780a1c228b7a0c42939a4994f9/docs/plans/graph-ledger-full-drain.md",
+        "blob_sha": "219535a2bf3076d6611a7174ee375ec168992f42",
+        "sha256": "12fa2653a86503d8786ed8c6f9f901f7320caaeada760054d56f3515239d1aa0",
+        "bytes": 145679,
+        "role": "Preserves the fresh-session takeover and continuing lead while adding an operator-assigned graph-watch role with a ten-minute reporting interval; this strengthens the designed-workflow explanation."
+      },
+      {
         "record": "Batch 238 contracts and adversary folds",
         "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/analysis/b238-contracts.md",
         "blob_sha": "7aae138b1dd8a5965af3e6ee4076c71aec349a83",
@@ -190,8 +198,8 @@
     ],
     "current_downstream_status": {
       "status": "content-specific successor use observed; designed-control classification retained",
-      "last_rechecked_at": "2026-10-21T01:23:54Z",
-      "basis": "Seven direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close three named held branches, append a graph-watch result relayed through the assigned lead, release one of those held repairs and fold the continuing lead's close notes. This establishes temporal and semantic handoff consumption, not merely generic repository continuation; the three added descendants remain inside the same assigned batch and do not change the designed-control assessment.",
+      "last_rechecked_at": "2026-10-21T05:40:46Z",
+      "basis": "Twelve direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and update the plan. The five newest descendants remain a linear continuation of batch 238; the latest plan expressly adds an operator-ruled graph-watch role and interval. This establishes temporal and semantic handoff consumption, not merely generic repository continuation, while strengthening rather than weakening the designed-control assessment.",
       "successor_records": [
         {
           "url": "https://github.com/euron8/ai-dlc/commit/0877fe65f98604f791765883a4d202a5b75870d4",
@@ -259,8 +267,54 @@
           "tree_sha": "03f5e56e6b6f79ad7812b2765c4e929fe0d88b0b",
           "parent_sha": "599da0aef83f6de7e7cfc3f8e75415c27fe743a9",
           "event_at": "2026-10-21T01:03:23Z",
-          "role": "Documentation-only fold of the continuing lead's batch-238 close-list notes. The source plan blob remains unchanged, and the batch is not yet closed.",
+          "role": "Documentation-only fold of the continuing lead's batch-238 close-list notes. At this observation point the source plan blob remained unchanged, and the batch was not closed.",
           "changed_paths": ["docs/analysis/b238-close-list.md"]
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/e2273444b473ef5c884eed887cd093ae79263619",
+          "commit_sha": "e2273444b473ef5c884eed887cd093ae79263619",
+          "tree_sha": "2cfd82e021fb0d448f7c72a35941543fe90e3fd9",
+          "parent_sha": "809807a0e0aafaacc0c6be3cec5f1e6b7fd528c1",
+          "event_at": "2026-10-21T01:58:02Z",
+          "self_reported_recipient_session": "ai-dlc-1a",
+          "role": "Release 0.896.0 continues batch 238 under the same lead and closes BL-709."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/297642c214db26513f6a0e8f1f93f9e1057e3285",
+          "commit_sha": "297642c214db26513f6a0e8f1f93f9e1057e3285",
+          "tree_sha": "935cf8dc931ceb660a223864ac101d2e90bcd47b",
+          "parent_sha": "e2273444b473ef5c884eed887cd093ae79263619",
+          "event_at": "2026-10-21T03:28:10Z",
+          "self_reported_recipient_session": "ai-dlc-1a",
+          "role": "Release 0.897.0 closes BL-718 and BL-719 and records an operator ruling that a residual item remains out of scope."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/e272cad3c5a43a41a436760d750c4d564ec29400",
+          "commit_sha": "e272cad3c5a43a41a436760d750c4d564ec29400",
+          "tree_sha": "ef65d86080a950b9a0693e1a64be11fb02243c8b",
+          "parent_sha": "297642c214db26513f6a0e8f1f93f9e1057e3285",
+          "event_at": "2026-10-21T03:41:36Z",
+          "self_reported_recipient_session": "ai-dlc-1a",
+          "role": "The assigned lead reconciles the batch-238 read set and re-traces 21 fixtures; the record describes lead activity rather than a new independently controlled participant."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/e1739275b56a5f3494ceedef922f99c30fbf4257",
+          "commit_sha": "e1739275b56a5f3494ceedef922f99c30fbf4257",
+          "tree_sha": "4596aeadcb76d399a0426c503f1f2adfa358ba4a",
+          "parent_sha": "e272cad3c5a43a41a436760d750c4d564ec29400",
+          "event_at": "2026-10-21T05:01:21Z",
+          "self_reported_recipient_session": "ai-dlc-1a",
+          "role": "Release 0.898.0 closes BL-605 inside continuing batch-238 authority."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
+          "commit_sha": "ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
+          "tree_sha": "89924a90b3710b35fd1dca9410a88a1e2eb94af8",
+          "parent_sha": "e1739275b56a5f3494ceedef922f99c30fbf4257",
+          "event_at": "2026-10-21T05:08:51Z",
+          "self_reported_recipient_session": "ai-dlc-1a",
+          "role": "Documentation continuation files five batch items, re-anchors 17 landed lines and adds the graph-watch session to the lead designation at an operator-ruled ten-minute interval.",
+          "plan_blob_sha": "219535a2bf3076d6611a7174ee375ec168992f42"
         }
       ],
       "not_claimed": [
@@ -308,7 +362,7 @@
         "The plan says a cross-session recipient proceeds under the same operator, reports its choice in its first operator message, and remains redirectable by that operator.",
         "The current operator explicitly halted a lead and ordered the replacement handoff.",
         "The historical source, use and close commits share one public GitHub author account and GitHub's web-flow committer surface.",
-        "The current handoff and all four successor commits likewise share one Git author identity and GitHub's web-flow committer surface.",
+        "The current handoff and all twelve direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
         "The successor work stays inside the transferred batch, branch order, item list, checklist and rulebook authority rather than departing from them.",
         "Session labels, owner labels and model trailers are repository-authored and do not authenticate independent controlling principals."
       ]
@@ -342,7 +396,7 @@
     ]
   },
   "prior_reporting_scope": {
-    "checked_on": "2026-10-20",
+    "checked_on": "2026-10-21",
     "github_exact_queries": [
       "\"batch 238 hand-off\" \"fresh lead\"",
       "\"ai-dlc-fc\" \"spent session\"",
@@ -350,12 +404,18 @@
       "\"18b974b41f69500f4afd6da5b3696eccfbdf46c0\"",
       "\"Batch 238, lead ai-dlc-1a\"",
       "\"taken over from ai-dlc-fc\"",
-      "\"0.892.0\" \"BL-678\" \"BL-724\""
+      "\"0.892.0\" \"BL-678\" \"BL-724\"",
+      "\"ddfa69f03c4f6c780a1c228b7a0c42939a4994f9\"",
+      "\"0.898.0\" \"BL-605\"",
+      "\"graph-watch session\" \"10-minute interval\""
     ],
     "github_results": {
-      "queries": 7,
-      "row_occurrences": 0,
-      "queries_at_requested_result_cap": 0
+      "queries": 10,
+      "row_occurrences": 3,
+      "origin_occurrences": 3,
+      "external_occurrences": 0,
+      "queries_at_requested_result_cap": 0,
+      "classification": "The three incremental exact searches each returned one originating ai-dlc commit and no independent account."
     },
     "web_queries": [
       "\"batch 238 hand-off\" \"fresh lead\" ai-dlc",
@@ -371,7 +431,7 @@
       "returned_results": 21,
       "classification": "Unrelated DLC lexical collisions, generic agent-handoff articles, a separate AWS AI-DLC project and unrelated equipment/catalog pages; none describes the selected repository episode."
     },
-    "statement": "No independent coordination report located in the checked scope as of 20 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
+    "statement": "No independent coordination report located in the checked scope as of 21 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
   },
   "assessment": {
     "current_handoff_classification": "high-confidence designed same-operator handoff-to-use control",
@@ -379,7 +439,7 @@
     "previously_unreported_rogue_swarm": false,
     "plausible_discovery_candidate": false,
     "notification_threshold_met": false,
-    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; later descendants consume the transferred close duty and two more held branches. This confirms content-specific transfer and use. The chain remains explicitly operator-directed, role-governed, inside the assigned batch and same-custodian, so it does not authenticate independent operators or an authorization crossing."
+    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; twelve descendants now consume transferred duties and continue the same batch. This confirms content-specific transfer and use. The latest plan adds an operator-ruled graph-watch role and interval, while every commit remains inside assigned batch authority and one public custodian, so the chain does not authenticate independent operators or an authorization crossing."
   },
   "evidence_needed_to_advance": [
     "An independently attributable sender and recipient, with provider- or operator-owned attestations binding their exact runs to the source and successor artifacts.",
@@ -390,7 +450,7 @@
   "next_cursors": [
     {
       "type": "record cursor",
-      "cursor": "first public default-branch commit after 809807a0e0aafaacc0c6be3cec5f1e6b7fd528c1",
+      "cursor": "first public default-branch commit after ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
       "advance_only_if": "It supplies independently attributable operator or provider provenance, departs from the assigned batch authority, or closes the batch with evidence that changes the designed-control assessment."
     },
     {

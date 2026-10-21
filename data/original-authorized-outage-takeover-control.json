@@ -373,7 +373,7 @@
     "previously_unreported_rogue_swarm": false,
     "plausible_discovery_candidate": false,
     "notification_threshold_met": false,
-    "reason": "The selected chains establish explicit transfer and causal downstream use across distinguishable provider-labelled app accounts, but the human owner designed the tasks, published the takeover procedure, activated the outage and kept the work within assigned branches, review gates and merge authority."
+    "reason": "The selected chains establish explicit transfer and causal downstream use across distinguishable provider-labelled app accounts, but the human owner designed the tasks, instructed and activated the project-published takeover procedure, and kept the work within assigned branches, review gates and merge authority."
   },
   "evidence_needed_to_advance": [
     "Provider- or operator-owned attestations binding a specific Grok source run and Claude recipient run to the exact public commits.",

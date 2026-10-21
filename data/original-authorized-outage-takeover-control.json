@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "title": "Original authorized Grok-to-Claude outage takeover and downstream-use control",
   "assessed_on": "2026-10-21",
-  "observed_at": "2026-10-21T05:40:46Z",
+  "observed_at": "2026-10-21T07:05:44Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Rotate from the paused scanner backlog into public original GitHub records, test two explicit agent takeovers for temporal and semantic dependency, and distinguish provider-labelled work continuity from an operator-boundary crossing.",
   "safety": {
@@ -272,7 +272,7 @@
     }
   ],
   "outage_population_boundary": {
-    "issue_14_reference_events_at_observation": 13,
+    "issue_14_reference_events_at_observation": 14,
     "repositories": [
       "elsa-workflows/elsa-hub",
       "elsa-workflows/elsa-foundation"
@@ -281,7 +281,7 @@
       "2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
       "1f1c3a0248484a69981c60ad0aab2c84c45a705c"
     ],
-    "other_reference_events": "Eleven other merge commits cite the outage and self-review convergence but do not, from their merge messages alone, establish an additional Grok-to-Claude takeover. They are retained as population context rather than promoted into the selected transfer chain.",
+    "other_reference_events": "Twelve other merge commits cite the outage and self-review convergence but do not, from their merge messages alone, establish an additional Grok-to-Claude takeover. They are retained as population context rather than promoted into the selected transfer chain.",
     "latest_reference_records": [
       {
         "url": "https://github.com/elsa-workflows/elsa-foundation/commit/da9a4927d98fb29eda017b4e1a74a28ee4316439",
@@ -312,6 +312,20 @@
         ],
         "event_at": "2026-10-21T05:14:34Z",
         "role": "Claude-app follow-up merge after two self-review rounds. It descends from the human-approved PR-57 merge and adds no independently controlled participant."
+      },
+      {
+        "url": "https://github.com/elsa-workflows/elsa-hub/commit/889a57a919ae767f5095bfbedee6be3540659d41",
+        "commit_sha": "889a57a919ae767f5095bfbedee6be3540659d41",
+        "tree_sha": "66b254facb4d0e782bcdeea57ecbab21ba33c570",
+        "parents": [
+          "793df624a48e5b5e5478eacdb5a661c7c9738c6c",
+          "19b38b4543dd2ba0d35870e005a7d65a4914f3c7"
+        ],
+        "event_at": "2026-10-21T05:49:08Z",
+        "pull_request_url": "https://github.com/elsa-workflows/elsa-hub/pull/105",
+        "public_author_account": "elsa-workflows-claude[bot]",
+        "review_timeline": "Six public comments from the same Claude-labelled app between 05:08:54Z and 05:49:04Z record four self-review rounds and matching fixes before merge.",
+        "role": "PR 105 merge refuses a duplicate Solo Bundle purchase after a same-app self-review loop. It cites the outage but names no Grok source, takeover, foreign task result or independently controlled recipient."
       }
     ],
     "limit": "Issue-reference count measures public GitHub references to the outage issue, not agent count, runtime count or independent coordination."
@@ -404,6 +418,14 @@
       "returned_results": 4,
       "classification": "The results were a generic Elsa Workflows site, its main public repository and two unrelated community Q&A pages. None independently described the selected takeover episode."
     },
+    "latest_incremental_web_check": {
+      "queries": [
+        "\"889a57a919ae767f5095bfbedee6be3540659d41\"",
+        "\"Academy checkout\" \"Solo Bundle\" \"outage\" \"elsa-workflows\""
+      ],
+      "relevant_results": 0,
+      "classification": "No independent account of PR 105 or its outage reference was returned; the visible results were unrelated checkout and catalog pages."
+    },
     "statement": "No independent coordination report located in the checked scope as of 21 October 2026. This bounded absence does not establish novelty. The originating organization itself openly publishes the takeovers, their operator authorization and their downstream merges."
   },
   "assessment": {
@@ -412,7 +434,7 @@
     "operator_boundary": "not crossed; one public human operator and organization authorize and govern both sides",
     "provider_attribution": "project-attributed Grok source roles and Claude successor role; no provider-owned attestation",
     "subjective_rogue_intent": "not observed",
-    "current_activity": "three later public outage references were current at observation; no claim is made about live agent runtimes",
+    "current_activity": "four later public outage references were current at observation; no claim is made about live agent runtimes",
     "classification": "high-confidence authorized same-operator cross-provider-labelled takeover-to-use control",
     "previously_unreported_rogue_swarm": false,
     "plausible_discovery_candidate": false,
@@ -429,7 +451,7 @@
   "next_cursors": [
     {
       "type": "outage event cursor",
-      "cursor": "first public issue-14 reference event after commit 793df624a48e5b5e5478eacdb5a661c7c9738c6c",
+      "cursor": "first public issue-14 reference event after commit 889a57a919ae767f5095bfbedee6be3540659d41",
       "advance_only_if": "The referenced primary record establishes an additional source-to-recipient dependency and adds independent operator provenance or conduct beyond outage authorization."
     },
     {

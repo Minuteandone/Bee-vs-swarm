@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0",
+  "title": "Original cross-repository closed-loop and founder-authorized handoff controls",
+  "assessed_on": "2026-10-21",
+  "observed_at": "2026-10-21T07:05:44Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Follow two newly located original handoff trails from a specific sender artifact through content-specific recipient use, then test participant identity, operator separation, authorization, prior reporting and alternative explanations before promotion.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code, tests, fixtures, hooks, scripts, workflows or shell fragments",
+      "install a package",
+      "invoke an agent runtime, model provider, reviewer, dispatcher or scanner",
+      "contact a participant",
+      "post, comment, vote, react or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target system"
+    ],
+    "publication_note": "Only public GitHub records, immutable Git identifiers, content hashes, event and observation times, domain-level summaries and limitations are retained. Personal addresses, secrets, tokens, raw prompts, private logs and executable payload bodies are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "The unread remainder remains fully classified as comparison overlap, known-family control, or the known Amap and DseWiki host controls. Neither selected public Git trail supplies a source-level cue separating one paused scanner record into a new episode.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "locator_scope": {
+    "global_commit_queries": [
+      {
+        "query": "\"handoff received\" agent",
+        "rows": 42
+      },
+      {
+        "query": "\"continued from\" \"agent\" \"handoff\"",
+        "rows": 50,
+        "requested_result_cap_reached": true
+      },
+      {
+        "query": "\"applied agent findings\"",
+        "rows": 5
+      },
+      {
+        "query": "\"resume from previous\" agent",
+        "rows": 45
+      }
+    ],
+    "counting_note": "The 142 returned rows are locator occurrences, not 142 episodes. The capped query is not exhaustive. The two selected trails were chosen because their immutable records expose a named source, transferred task material and later content-specific use; other visible rows were designed teams, review workflows, implementation records or documentation controls.",
+    "selected_records": [
+      "ajoe734/drts-fleet-platform to ajoe734/tenant-commute-hub task TCH-SDK-BUMP-001 / TCH-SDK-CONSUME-001",
+      "beehive-nature/beehive-nature WB004 to BNROSE-RUST-001 handoff"
+    ]
+  },
+  "selected_original_records": [
+    {
+      "lead_id": "BV-085",
+      "title": "DRTS tenant-governance contract to tenant-commute-hub implementation",
+      "repositories": [
+        "ajoe734/drts-fleet-platform",
+        "ajoe734/tenant-commute-hub"
+      ],
+      "source_record": {
+        "url": "https://github.com/ajoe734/drts-fleet-platform/commit/373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+        "commit_sha": "373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+        "tree_sha": "589ff7e7d46a2b27b7a60e9dc926e8a8d9bf8287",
+        "parent_sha": "77fdf1f3ef8f3cae952bb386f998e58de125b83f",
+        "event_at": "2026-05-14T01:34:04Z",
+        "public_git_author_label": "Claude",
+        "message_role": "Finalizes the tenant-governance API documentation used as the receiving repository's locked contract. The message labels LLM-Agent Codex2 and Reviewer Claude2; those project-authored labels conflict with the Git author label and are not identity attestations."
+      },
+      "source_authorization_artifacts": [
+        {
+          "url": "https://github.com/ajoe734/drts-fleet-platform/blob/373225b746ab15b72b7c5b954b24b89b4b8ce23f/ai-status.json",
+          "blob_sha": "874e36cfc4773aff89266bb0e077825f735d8568",
+          "sha256": "7c1d760c4cc7079344e2e39e63b4c041e3544accaf51114453e20dc48d3a5559",
+          "bytes": 8103705,
+          "role": "Primary machine-truth snapshot. It registers TCH-SDK-BUMP-001 as a cross-repository placeholder, assigns both owner and reviewer to cross-repo, names the three recipient UI surfaces, states the backend dependencies and says the actual work belongs in tenant-commute-hub."
+        },
+        {
+          "url": "https://github.com/ajoe734/drts-fleet-platform/blob/373225b746ab15b72b7c5b954b24b89b4b8ce23f/support/sidecars/TCH-SDK-BUMP-001/TCH-SDK-BUMP-001-SIDECAR-ACCEPTANCE.md",
+          "blob_sha": "b5bc27632bf775ea3bf75e341785a1f92ee35aef",
+          "sha256": "154c0b21eedb74c4367a76e1cda21bc21b504b23c8b2c00e506a899554a1b2c0",
+          "bytes": 10846,
+          "role": "Public acceptance packet that allocates the cost-center, approval-rule, quota and approval-request surfaces to the receiving repository and forbids inventing local contract semantics."
+        },
+        {
+          "url": "https://github.com/ajoe734/drts-fleet-platform/blob/373225b746ab15b72b7c5b954b24b89b4b8ce23f/docs/03-runbooks/post-tenant-governance-followup-wave-planning-20260513.md",
+          "blob_sha": "13dcd22558c0e25b6ee58728912f2df8d8ebf2c1",
+          "sha256": "6f2b5b2c872ffb94c158391e5b6af50bd54aa2721d1a4c8dcc4ef100d678d90e",
+          "bytes": 10339,
+          "role": "Pre-existing planning record for the cross-repository UI integration."
+        }
+      ],
+      "transfer_record": {
+        "url": "https://github.com/ajoe734/tenant-commute-hub/commit/bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+        "commit_sha": "bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+        "tree_sha": "8d93d06bbc8d9adaa042cc65f0b37c7b61528b07",
+        "parent_sha": "1183a1a508275ba7331aa304ec3a68b672d0eab1",
+        "event_at": "2026-05-14T11:52:35Z",
+        "public_git_author_label": "Gemini2",
+        "self_reported_agent_label": "Claude",
+        "source_commit_sha": "373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+        "source_task": "TCH-SDK-BUMP-001",
+        "recipient_task": "TCH-SDK-CONSUME-001",
+        "role": "Explicit handoff-received checkpoint. It locks the source commit, replaces the recipient's iteration-zero spec with three concrete iteration-one scopes and regenerates the shared contract snapshot."
+      },
+      "transfer_artifacts": [
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/blob/bd49d28e834ed51e4ff6fc2e19beef8f284f7a04/.ai-loop/CONTRACT_VERSION.lock",
+          "blob_sha": "a06ce39a8d636d8f71cee0d4fc4879038432c453",
+          "sha256": "61c9944a65110a064fc8b6fb0089eeaf86e035c85f334fed8fc3745701885af1",
+          "bytes": 342,
+          "role": "Pins the exact source repository and commit and records TCH-SDK-BUMP-001."
+        },
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/blob/bd49d28e834ed51e4ff6fc2e19beef8f284f7a04/.ai-loop/FRONTEND_CHANGE_SPEC.json",
+          "blob_sha": "41ca4d66e1489fe54dc9bd6a08e7750dc6a9b019",
+          "sha256": "2c9b1646791d5b7b791a94e5cba5fce8c485d9b8212c5b0490dd88c1941ae55a",
+          "bytes": 2537,
+          "role": "Machine-readable recipient task containing the three exact UI scopes and the source contract version."
+        },
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/blob/bd49d28e834ed51e4ff6fc2e19beef8f284f7a04/.ai-loop/README.md",
+          "blob_sha": "19bcc3348177926f040c4feab0c1328a1b05efad",
+          "sha256": "15ea6d7983875fb9989a921f343f8c60a17782f355980a8a083729f5017f3872",
+          "bytes": 3220,
+          "role": "Governance record describing the intended GitHub-driven closed loop: source LLM writes a spec, automation copies it to the recipient, the recipient implements it, feedback is dispatched back and the source orchestrator continues."
+        }
+      ],
+      "recipient_use_records": [
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/commit/4db72d044b62b8c11d5b5a93b8263bff71b997c5",
+          "commit_sha": "4db72d044b62b8c11d5b5a93b8263bff71b997c5",
+          "tree_sha": "3807701993daf116f013bcb7e9cb1d6545ebd583",
+          "parent_sha": "bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+          "event_at": "2026-05-14T11:57:42Z",
+          "role": "Direct child implements the transferred cost-center methods, page and coverage report."
+        },
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/commit/8f4e6130ef86c462081478cb1805aacc7727190e",
+          "commit_sha": "8f4e6130ef86c462081478cb1805aacc7727190e",
+          "tree_sha": "67fb5b4cc77e2365d77662d8f7be5571d513fc18",
+          "parent_sha": "4db72d044b62b8c11d5b5a93b8263bff71b997c5",
+          "event_at": "2026-05-14T12:04:26Z",
+          "role": "Implements the transferred approval-rule CRUD, reorder and dry-run scope."
+        },
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/commit/593edc34481c96f3ef29fae45b9c78f7d4d6232c",
+          "commit_sha": "593edc34481c96f3ef29fae45b9c78f7d4d6232c",
+          "tree_sha": "d3577b55228fed8380bc5167c8debcfffe1eaeb8",
+          "parent_sha": "8f4e6130ef86c462081478cb1805aacc7727190e",
+          "event_at": "2026-05-14T12:08:46Z",
+          "role": "Implements the transferred booking cost-center selection, quota preview and named error handling."
+        },
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/commit/43fbf4e3367e600d018f2a141bc4a2795dbf19a5",
+          "commit_sha": "43fbf4e3367e600d018f2a141bc4a2795dbf19a5",
+          "tree_sha": "c2c1ed9323b0a0d74864cc1fe49091f24eb6f90e",
+          "parent_sha": "593edc34481c96f3ef29fae45b9c78f7d4d6232c",
+          "event_at": "2026-05-14T12:10:59Z",
+          "role": "Closes the iteration, maps each transferred scope to its implementation commit and expressly hands feedback back to the source supervisor."
+        },
+        {
+          "url": "https://github.com/ajoe734/tenant-commute-hub/blob/43fbf4e3367e600d018f2a141bc4a2795dbf19a5/.ai-loop/LOVABLE_CHANGE_FEEDBACK.md",
+          "blob_sha": "eb03b406b3653ab8fd61de1eaaca104c94b88600",
+          "sha256": "ffb632f8526b1696bb16ff794f76053ababa4f12ff8d04283d43afb45b5a2e67",
+          "bytes": 5972,
+          "role": "Content-specific closeout names all three implementation commits, reports the exact completed scopes and asks the source supervisor to choose the next iteration."
+        }
+      ],
+      "dependency_assessment": {
+        "temporal": "The transfer commit follows the source contract by 10 hours 18 minutes 31 seconds. Its direct child begins implementation 5 minutes 7 seconds later, and the three slices plus closeout form one uninterrupted five-commit chain.",
+        "semantic": "High confidence. The recipient pins the exact source SHA, imports the named contract surface, implements all three assigned scopes and returns a commit-anchored feedback artifact.",
+        "verified_participants": "Two inconsistent Git author/model-label sets are visible, but neither is a provider-owned run attestation. The receiver's Git identity says Gemini2 while its messages self-label Claude; the source commit's Git identity says Claude while its message labels Codex2 and Claude2 roles.",
+        "operator_boundary": "Not established. Both repositories are in the same public GitHub namespace, the source task explicitly assigns the work to the receiving repository, and the receiving repository documents the exchange as an intended automated closed loop.",
+        "subjective_rogue_intent": "Not observed.",
+        "current_activity": "Historical May sequence; no claim that any named runtime remains active."
+      },
+      "alternative_tests": [
+        {
+          "alternative": "designed cross-repository workflow",
+          "result": "supported",
+          "basis": "The machine-truth placeholder, acceptance packet, recipient spec and .ai-loop README predefine the transfer, roles, files, return path and task scope."
+        },
+        {
+          "alternative": "single operator using several local agent labels",
+          "result": "not excluded and favored over independent operators",
+          "basis": "Both repositories share one owner namespace, every receiving commit uses one Git author label, and project-authored model labels conflict with Git labels."
+        },
+        {
+          "alternative": "unauthorized recipient action",
+          "result": "not supported",
+          "basis": "Every implementation commit maps to one of the three transferred scopes; the closeout records deferrals instead of acting beyond the iteration."
+        }
+      ],
+      "classification": "high-confidence content-specific transfer and recipient use; designed same-operator cross-repository control",
+      "previously_unreported_rogue_swarm": false,
+      "plausible_discovery_candidate": false,
+      "notification_threshold_met": false
+    },
+    {
+      "lead_id": "BV-086",
+      "title": "WB004 correction handoff to the BNROSE Rust execution lane",
+      "repository": "beehive-nature/beehive-nature",
+      "source_record": {
+        "url": "https://github.com/beehive-nature/beehive-nature/commit/dcdf5039824ac6f8c670e1a3adbbaeb5d881e6df",
+        "commit_sha": "dcdf5039824ac6f8c670e1a3adbbaeb5d881e6df",
+        "tree_sha": "e7e8407ebf0df0485199929e7d7e4fdf4894b79e",
+        "parent_sha": "5c607cd6e410e66f5349b8da8bfc73cdf6736382",
+        "event_at": "2026-10-13T04:17:17Z",
+        "public_author_account": "loviswaternakamoto",
+        "role": "Records a retry-safety correction at source, transfers chain receipts and a deterministic reference regression to the Rust lane, and archives the sending lane."
+      },
+      "source_pull_request": {
+        "url": "https://github.com/beehive-nature/beehive-nature/pull/408",
+        "number": 408,
+        "created_at": "2026-10-13T04:17:38Z",
+        "merged_at": "2026-10-13T07:28:11Z",
+        "merge_commit_sha": "2fb6293e37897775c01add039979659932f02595",
+        "role": "Primary public task record. It states a founder ruling, defines the correction and persistence law, assigns the handoff to the BNROSE-RUST-001/SETTLE owner, forbids a new JavaScript signer and says the lane archives after merge."
+      },
+      "handoff_artifact": {
+        "url": "https://github.com/beehive-nature/beehive-nature/blob/2fb6293e37897775c01add039979659932f02595/docs/handoffs/2026-10-13-wb004-jungle-live-settle-rust.md",
+        "ref": "2fb6293e37897775c01add039979659932f02595",
+        "blob_sha": "9aa65332b5b5e5c1c12364e973169fd937640bbd",
+        "sha256": "4de372ce8a3a10cbf72a08aeac40b5ab35430aa5e0c977a8840ea5ad2cdc23ef",
+        "bytes": 5943,
+        "role": "Merged handoff version after source commit dcdf503 and same-branch rider c1d0766. It names the sending seat, founder ruling, exact evidence package, required persistence behavior, prohibited replacement behavior, compatibility vectors, preserved findings and the receiving Rust lane."
+      },
+      "recipient_use_record": {
+        "url": "https://github.com/beehive-nature/beehive-nature/commit/729106c0585fb083cc4ab34bdeebff236624d6c7",
+        "commit_sha": "729106c0585fb083cc4ab34bdeebff236624d6c7",
+        "tree_sha": "0f4363c4f41330289a9e226655c1a5d269bf6adc",
+        "parent_sha": "01785a6885eef59d7d6710df3b59a0e3fd4d9790",
+        "author_at": "2026-10-13T07:51:06Z",
+        "committer_at": "2026-10-13T23:31:26Z",
+        "public_author_account": "loviswaternakamoto",
+        "role": "Explicit handoff-received record. It says the receiving lane read the named handoff and regression in full, verifies three source-inspection findings, implements ordered steps under one authorization, adds recovery and adversarial rows, and routes a separate timeout issue onward."
+      },
+      "recipient_artifact": {
+        "url": "https://github.com/beehive-nature/beehive-nature/blob/729106c0585fb083cc4ab34bdeebff236624d6c7/docs/dispatches/2026-10-13-bnrose-wb004-handoff-received.md",
+        "blob_sha": "74bb08472e0a4ecb664111a9113631acf2974877",
+        "sha256": "7a546ea722b39a81bb87f4b35477a953d04a5900f3096ce55f08eada97b11c7e",
+        "bytes": 4320,
+        "role": "Maps the transferred retry-safety rules to concrete Rust implementation and test changes and expressly records the receiving owner."
+      },
+      "recipient_lane_authorization": {
+        "url": "https://github.com/beehive-nature/beehive-nature/pull/411",
+        "number": 411,
+        "created_at": "2026-10-13T06:04:20Z",
+        "merged_at": "2026-10-13T23:30:54Z",
+        "merge_commit_sha": "f731b174f5155634dc9b1556e995a4984a3a7c78",
+        "role": "Public receiving-lane task says the build follows the founder order, records ownership before the run, bounds claims to a single supervisor, reports no human interaction during execution and names an authorized merger as next owner."
+      },
+      "dependency_assessment": {
+        "temporal": "The recipient authored its handoff-use record 22 minutes 55 seconds after the source PR merged; its branch was later rebased and committed after the receiving PR merge, so author and committer times are retained separately.",
+        "semantic": "High confidence. The recipient names the exact handoff, reads its source findings, adopts its persistence/refusal rules and implements matching Rust paths and tests.",
+        "verified_participants": "One public GitHub account authors both source and recipient commits. Lane and agent numbers are project roles, not independently authenticated principals.",
+        "operator_boundary": "Not crossed. A founder ruling assigns the transfer, both PRs pre-record lane ownership, and one public account carries both sides inside one repository.",
+        "subjective_rogue_intent": "Not observed.",
+        "current_activity": "Historical 13 October sequence; no claim that a runtime or lane remains active."
+      },
+      "alternative_tests": [
+        {
+          "alternative": "founder-authorized designed handoff",
+          "result": "supported",
+          "basis": "Both PR bodies and both dispatch files identify the founder ruling, receiving lane, allowed evidence and prohibited actions before recipient use."
+        },
+        {
+          "alternative": "same human or same operator publishing several role voices",
+          "result": "not excluded and strongly supported by provenance",
+          "basis": "The same public GitHub account authors the source correction, handoff and recipient-use commit."
+        },
+        {
+          "alternative": "the phrase 'a genuinely new supervisor' proves a second real participant",
+          "result": "rejected",
+          "basis": "In context it describes a recovery test scenario reconstructed from a journal, not a public message sender, account, provider run or separate operator."
+        },
+        {
+          "alternative": "unauthorized scope expansion",
+          "result": "not supported",
+          "basis": "The recipient implements the exact persistence and retry-safety duties transferred by PR 408, leaves separately owned work untouched and routes the timeout issue to its assigned lane."
+        }
+      ],
+      "classification": "high-confidence content-specific transfer and recipient use; founder-authorized same-custodian control",
+      "previously_unreported_rogue_swarm": false,
+      "plausible_discovery_candidate": false,
+      "notification_threshold_met": false
+    }
+  ],
+  "prior_reporting_scope": {
+    "checked_on": "2026-10-21",
+    "web_queries": [
+      "\"TCH-SDK-CONSUME-001\"",
+      "\"TCH-SDK-BUMP-001\" agent handoff",
+      "\"tenant-commute-hub\" \"drts-fleet-platform\" handoff",
+      "\"bd49d28e834ed51e4ff6fc2e19beef8f284f7a04\"",
+      "\"bnrose-rust-002\" \"#408 handoff received\"",
+      "\"wb004 correction\" \"BNROSE-RUST-001\""
+    ],
+    "result": "No independent coordination report located in the checked scope as of 21 October 2026. Results were absent or unrelated medical, networking, Rust documentation, product and generic handoff pages. The originating GitHub repositories openly publish both handoffs, so this bounded absence does not establish novelty.",
+    "known_family_overlap": "No selected record matches the DseWiki/RubyGems, Transluce AIHW/Fedresurs/Quidax, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub, Covert Assistance or METR comparison families. Both instead close as newly documented designed controls."
+  },
+  "cross_record_assessment": {
+    "transfer_and_use": "high confidence for both trails",
+    "verified_participants": "insufficient for independent autonomous participant pairs",
+    "operator_boundary": "not crossed in either trail",
+    "provider_attribution": "project-authored and internally inconsistent in BV-085; absent as a provider attestation in BV-086",
+    "subjective_rogue_intent": "not observed",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "The original records establish exactly the transfer-and-use dependency the investigation seeks, but also preserve the contrary evidence needed to reject promotion: preassigned tasks, explicit owner/founder authorization, same-namespace or same-account custody and recipient actions bounded to the transferred scope."
+  },
+  "evidence_needed_to_advance": [
+    "Provider- or operator-owned attestations binding exact sender and recipient runs to independently controlled principals.",
+    "Primary evidence that a recipient acted outside the published closed-loop task, founder ruling, assigned lane, branch, issue, review or merge authority.",
+    "A separately timestamped task-result edge to a third participant not covered by the recorded workflow, followed by content-specific downstream use.",
+    "Separate primary evidence of subjective rogue intent; none is currently present."
+  ],
+  "next_cursors": [
+    {
+      "type": "TCH return-path cursor",
+      "cursor": "first public drts-fleet-platform record that consumes tenant-commute-hub closeout 43fbf4e3367e600d018f2a141bc4a2795dbf19a5 or marks TCH-SDK-CONSUME-001 done",
+      "advance_only_if": "It adds an independently controlled principal, contradicts the closed-loop authorization or shows recipient work beyond the three assigned scopes."
+    },
+    {
+      "type": "Beehive recipient cursor",
+      "cursor": "first public record after 729106c0585fb083cc4ab34bdeebff236624d6c7 that transfers the WB004-derived result to a separately attributable operator",
+      "advance_only_if": "The new recipient demonstrably uses the result and is not covered by the founder's lane assignments."
+    },
+    {
+      "type": "rotated locator",
+      "cursor": "resume uncapped pages for the 50-row \"continued from\" agent handoff query, then rotate to exact received-artifact plus implemented-result expressions"
+    }
+  ]
+}

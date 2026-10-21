@@ -8086,6 +8086,243 @@
         "c76a019156d1132a3a367c4b344a1a16c013e43e"
       ],
       "observed_at": "2026-10-21T05:40:46Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-release-0899-af1536d",
+      "url": "https://github.com/euron8/ai-dlc/commit/af1536de34cbd46f9db457da4a0b04eeca0bd30f",
+      "role": "Primary batch-238 release 0.899.0 enforcing reviewer-shard separation and re-dispatch",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T05:53:43Z",
+      "commit_sha": "af1536de34cbd46f9db457da4a0b04eeca0bd30f",
+      "tree_sha": "c19ece21aa29d8b158a7de9150c9df3df3add38a",
+      "parent_sha": "ddfa69f03c4f6c780a1c228b7a0c42939a4994f9",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-readset-dec50e4",
+      "url": "https://github.com/euron8/ai-dlc/commit/dec50e4a375e6aa26bdb84e6e07623561f137dc6",
+      "role": "Primary assigned-lead read-set reconciliation inside batch 238",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T06:05:06Z",
+      "commit_sha": "dec50e4a375e6aa26bdb84e6e07623561f137dc6",
+      "tree_sha": "39f21cf7d681d6831722e5aff92ecde6ee78fda2",
+      "parent_sha": "af1536de34cbd46f9db457da4a0b04eeca0bd30f",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-docs-d505ef8",
+      "url": "https://github.com/euron8/ai-dlc/commit/d505ef8c6b7f40b9561710e0c1cdbd4c9bd97685",
+      "role": "Primary batch-238 documentation continuation recording the refused graph merge and ruled role shape",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T06:12:19Z",
+      "commit_sha": "d505ef8c6b7f40b9561710e0c1cdbd4c9bd97685",
+      "tree_sha": "a20b8c3609e0e2a9ad10153fec0c03c0a0943b0b",
+      "parent_sha": "dec50e4a375e6aa26bdb84e6e07623561f137dc6",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-release-0900-836c096",
+      "url": "https://github.com/euron8/ai-dlc/commit/836c0962d116e8bbdea7505651980c82975adafe",
+      "role": "Primary batch-238 release 0.900.0 under continuing assigned lead authority",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T06:52:10Z",
+      "commit_sha": "836c0962d116e8bbdea7505651980c82975adafe",
+      "tree_sha": "ef8f298df07d7cf43d3532584754cd0cd0d9071b",
+      "parent_sha": "d505ef8c6b7f40b9561710e0c1cdbd4c9bd97685",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-elsa-hub-outage-pr105",
+      "url": "https://github.com/elsa-workflows/elsa-hub/pull/105",
+      "role": "Primary same-app four-round self-review timeline for the Solo Bundle checkout guard under outage issue 14",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T05:49:08Z",
+      "public_author_account": "elsa-workflows-claude[bot]",
+      "merge_commit_sha": "889a57a919ae767f5095bfbedee6be3540659d41",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-elsa-hub-outage-merge-889a57a",
+      "url": "https://github.com/elsa-workflows/elsa-hub/commit/889a57a919ae767f5095bfbedee6be3540659d41",
+      "role": "Primary Claude-app outage reference after four same-app self-review rounds; no distinct source takeover is recorded",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T05:49:08Z",
+      "commit_sha": "889a57a919ae767f5095bfbedee6be3540659d41",
+      "tree_sha": "66b254facb4d0e782bcdeea57ecbab21ba33c570",
+      "parent_shas": [
+        "793df624a48e5b5e5478eacdb5a661c7c9738c6c",
+        "19b38b4543dd2ba0d35870e005a7d65a4914f3c7"
+      ],
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-drts-tch-contract-373225b",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/commit/373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+      "role": "Primary source contract commit later pinned and consumed by tenant-commute-hub",
+      "published": "2026-05-14",
+      "event_at": "2026-05-14T01:34:04Z",
+      "commit_sha": "373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+      "tree_sha": "589ff7e7d46a2b27b7a60e9dc926e8a8d9bf8287",
+      "parent_sha": "77fdf1f3ef8f3cae952bb386f998e58de125b83f",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-drts-tch-machine-truth-874e36c",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/blob/373225b746ab15b72b7c5b954b24b89b4b8ce23f/ai-status.json",
+      "role": "Primary machine-truth snapshot registering TCH-SDK-BUMP-001 as a cross-repository placeholder",
+      "ref": "373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+      "blob_sha": "874e36cfc4773aff89266bb0e077825f735d8568",
+      "sha256": "7c1d760c4cc7079344e2e39e63b4c041e3544accaf51114453e20dc48d3a5559",
+      "bytes": 8103705,
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-drts-tch-acceptance-b5bc276",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/blob/373225b746ab15b72b7c5b954b24b89b4b8ce23f/support/sidecars/TCH-SDK-BUMP-001/TCH-SDK-BUMP-001-SIDECAR-ACCEPTANCE.md",
+      "role": "Primary acceptance packet allocating the exact cross-repository recipient scope",
+      "ref": "373225b746ab15b72b7c5b954b24b89b4b8ce23f",
+      "blob_sha": "b5bc27632bf775ea3bf75e341785a1f92ee35aef",
+      "sha256": "154c0b21eedb74c4367a76e1cda21bc21b504b23c8b2c00e506a899554a1b2c0",
+      "bytes": 10846,
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-handoff-bd49d28",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/commit/bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+      "role": "Primary cross-repository handoff-received checkpoint pinning the source contract and recipient task",
+      "published": "2026-05-14",
+      "event_at": "2026-05-14T11:52:35Z",
+      "commit_sha": "bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+      "tree_sha": "8d93d06bbc8d9adaa042cc65f0b37c7b61528b07",
+      "parent_sha": "1183a1a508275ba7331aa304ec3a68b672d0eab1",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-loop-readme-19bcc33",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/blob/bd49d28e834ed51e4ff6fc2e19beef8f284f7a04/.ai-loop/README.md",
+      "role": "Primary governance record defining the intended GitHub-driven source-to-recipient-to-source closed loop",
+      "ref": "bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+      "blob_sha": "19bcc3348177926f040c4feab0c1328a1b05efad",
+      "sha256": "15ea6d7983875fb9989a921f343f8c60a17782f355980a8a083729f5017f3872",
+      "bytes": 3220,
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-costcenter-4db72d0",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/commit/4db72d044b62b8c11d5b5a93b8263bff71b997c5",
+      "role": "Direct-child recipient implementation of the transferred cost-center scope",
+      "published": "2026-05-14",
+      "event_at": "2026-05-14T11:57:42Z",
+      "commit_sha": "4db72d044b62b8c11d5b5a93b8263bff71b997c5",
+      "tree_sha": "3807701993daf116f013bcb7e9cb1d6545ebd583",
+      "parent_sha": "bd49d28e834ed51e4ff6fc2e19beef8f284f7a04",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-rules-8f4e613",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/commit/8f4e6130ef86c462081478cb1805aacc7727190e",
+      "role": "Recipient implementation of the transferred approval-rule scope",
+      "published": "2026-05-14",
+      "event_at": "2026-05-14T12:04:26Z",
+      "commit_sha": "8f4e6130ef86c462081478cb1805aacc7727190e",
+      "tree_sha": "67fb5b4cc77e2365d77662d8f7be5571d513fc18",
+      "parent_sha": "4db72d044b62b8c11d5b5a93b8263bff71b997c5",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-booking-593edc3",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/commit/593edc34481c96f3ef29fae45b9c78f7d4d6232c",
+      "role": "Recipient implementation of the transferred booking-governance scope",
+      "published": "2026-05-14",
+      "event_at": "2026-05-14T12:08:46Z",
+      "commit_sha": "593edc34481c96f3ef29fae45b9c78f7d4d6232c",
+      "tree_sha": "d3577b55228fed8380bc5167c8debcfffe1eaeb8",
+      "parent_sha": "8f4e6130ef86c462081478cb1805aacc7727190e",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-closeout-43fbf4e",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/commit/43fbf4e3367e600d018f2a141bc4a2795dbf19a5",
+      "role": "Primary recipient closeout mapping the transferred scopes to implementation commits and handing feedback back",
+      "published": "2026-05-14",
+      "event_at": "2026-05-14T12:10:59Z",
+      "commit_sha": "43fbf4e3367e600d018f2a141bc4a2795dbf19a5",
+      "tree_sha": "c2c1ed9323b0a0d74864cc1fe49091f24eb6f90e",
+      "parent_sha": "593edc34481c96f3ef29fae45b9c78f7d4d6232c",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-tch-feedback-eb03b40",
+      "url": "https://github.com/ajoe734/tenant-commute-hub/blob/43fbf4e3367e600d018f2a141bc4a2795dbf19a5/.ai-loop/LOVABLE_CHANGE_FEEDBACK.md",
+      "role": "Primary content-specific recipient feedback naming all three use commits and bounded deferrals",
+      "ref": "43fbf4e3367e600d018f2a141bc4a2795dbf19a5",
+      "blob_sha": "eb03b406b3653ab8fd61de1eaaca104c94b88600",
+      "sha256": "ffb632f8526b1696bb16ff794f76053ababa4f12ff8d04283d43afb45b5a2e67",
+      "bytes": 5972,
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-beehive-wb004-source-dcdf503",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/dcdf5039824ac6f8c670e1a3adbbaeb5d881e6df",
+      "role": "Primary WB004 retry-safety correction and handoff source record",
+      "published": "2026-10-13",
+      "event_at": "2026-10-13T04:17:17Z",
+      "commit_sha": "dcdf5039824ac6f8c670e1a3adbbaeb5d881e6df",
+      "tree_sha": "e7e8407ebf0df0485199929e7d7e4fdf4894b79e",
+      "parent_sha": "5c607cd6e410e66f5349b8da8bfc73cdf6736382",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-beehive-pr408",
+      "url": "https://github.com/beehive-nature/beehive-nature/pull/408",
+      "role": "Primary founder-ruling and source-lane handoff record",
+      "published": "2026-10-13",
+      "created_at": "2026-10-13T04:17:38Z",
+      "merged_at": "2026-10-13T07:28:11Z",
+      "merge_commit_sha": "2fb6293e37897775c01add039979659932f02595",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-beehive-wb004-handoff-9aa6533",
+      "url": "https://github.com/beehive-nature/beehive-nature/blob/2fb6293e37897775c01add039979659932f02595/docs/handoffs/2026-10-13-wb004-jungle-live-settle-rust.md",
+      "role": "Primary transferred artifact naming evidence, required behavior, prohibitions and receiving lane",
+      "ref": "2fb6293e37897775c01add039979659932f02595",
+      "blob_sha": "9aa65332b5b5e5c1c12364e973169fd937640bbd",
+      "sha256": "4de372ce8a3a10cbf72a08aeac40b5ab35430aa5e0c977a8840ea5ad2cdc23ef",
+      "bytes": 5943,
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-beehive-recipient-729106c",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/729106c0585fb083cc4ab34bdeebff236624d6c7",
+      "role": "Primary receiving-lane use record adopting the transferred retry-safety law",
+      "published": "2026-10-13",
+      "author_at": "2026-10-13T07:51:06Z",
+      "committer_at": "2026-10-13T23:31:26Z",
+      "commit_sha": "729106c0585fb083cc4ab34bdeebff236624d6c7",
+      "tree_sha": "0f4363c4f41330289a9e226655c1a5d269bf6adc",
+      "parent_sha": "01785a6885eef59d7d6710df3b59a0e3fd4d9790",
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-beehive-handoff-received-74bb084",
+      "url": "https://github.com/beehive-nature/beehive-nature/blob/729106c0585fb083cc4ab34bdeebff236624d6c7/docs/dispatches/2026-10-13-bnrose-wb004-handoff-received.md",
+      "role": "Primary recipient artifact mapping the source findings to Rust implementation and tests",
+      "ref": "729106c0585fb083cc4ab34bdeebff236624d6c7",
+      "blob_sha": "74bb08472e0a4ecb664111a9113631acf2974877",
+      "sha256": "7a546ea722b39a81bb87f4b35477a953d04a5900f3096ce55f08eada97b11c7e",
+      "bytes": 4320,
+      "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-beehive-pr411",
+      "url": "https://github.com/beehive-nature/beehive-nature/pull/411",
+      "role": "Primary receiving-lane ownership and founder-order record",
+      "published": "2026-10-13",
+      "created_at": "2026-10-13T06:04:20Z",
+      "merged_at": "2026-10-13T23:30:54Z",
+      "merge_commit_sha": "f731b174f5155634dc9b1556e995a4984a3a7c78",
+      "observed_at": "2026-10-21T07:05:44Z"
     }
   ]
 }

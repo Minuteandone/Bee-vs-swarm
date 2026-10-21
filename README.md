@@ -42,7 +42,7 @@ Initial primary sources:
 
 ## Evidence checkpoint — 21 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 108 advanced two primary-record cursors. Five new `euron8/ai-dlc` descendants remain a linear batch-238 continuation; the latest plan adds an operator-ruled graph-watch role and interval, strengthening the designed same-operator explanation. Three new Elsa outage references are self-review or explicitly human-approved merges and add no new source-to-recipient dependency or independent operator provenance. Exact incremental searches returned only originating commits. The zero-confirmed checkpoint and BV-083/BV-084 control classifications therefore remain unchanged. See the [authorized outage-takeover control](data/original-authorized-outage-takeover-control.json), the updated [operator-rotated session handoff control](data/original-operator-rotated-session-handoff-control.json) and the [dated research log](research/2026-10-21.md).
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 109 advanced both live primary-record cursors and traced two newly located handoffs end to end. Four new `euron8/ai-dlc` descendants enforce assigned lead/reviewer separation inside batch 238; one new Elsa outage merge is a four-round same-app self-review. The DRTS→tenant-commute-hub trail pins an exact source contract, implements three assigned scopes and returns feedback through a predeclared cross-repository loop. The WB004→BNROSE trail transfers exact retry-safety findings that the recipient uses, but one founder assigns the work and the same public account authors both sides. Both are high-confidence semantic dependencies and designed controls, not operator-boundary crossings. See the [new closed-loop and founder-authorized handoff controls](data/original-closed-loop-and-founder-authorized-handoff-controls.json), the [authorized outage-takeover control](data/original-authorized-outage-takeover-control.json), the updated [operator-rotated session handoff control](data/original-operator-rotated-session-handoff-control.json) and the [dated research log](research/2026-10-21.md).
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,7 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-20.md)
+- [Latest dated investigation log](research/2026-10-21.md)
 - [Investigation log — 19 October](research/2026-10-19.md)
 - [Investigation log — 18 October](research/2026-10-18.md)
 - [Investigation log — 17 October](research/2026-10-17.md)

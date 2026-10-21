@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "title": "Original operator-rotated session handoff and successor-use control",
   "assessed_on": "2026-10-20",
-  "observed_at": "2026-10-21T00:15:05Z",
+  "observed_at": "2026-10-21T01:23:54Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the three saved run, artifact, receipt and operator cursors; rotate through lower-arity public code records and global commit messages; and test a newly published fresh-session handoff against a historical handoff-to-use sequence in the same repository.",
   "safety": {
@@ -190,8 +190,8 @@
     ],
     "current_downstream_status": {
       "status": "content-specific successor use observed; designed-control classification retained",
-      "last_rechecked_at": "2026-10-21T00:15:05Z",
-      "basis": "Four direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close the separately held BL-715 branch and close the named BL-674/BL-697/BL-707 branch. This establishes temporal and semantic handoff consumption, not merely generic repository continuation.",
+      "last_rechecked_at": "2026-10-21T01:23:54Z",
+      "basis": "Seven direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close three named held branches, append a graph-watch result relayed through the assigned lead, release one of those held repairs and fold the continuing lead's close notes. This establishes temporal and semantic handoff consumption, not merely generic repository continuation; the three added descendants remain inside the same assigned batch and do not change the designed-control assessment.",
       "successor_records": [
         {
           "url": "https://github.com/euron8/ai-dlc/commit/0877fe65f98604f791765883a4d202a5b75870d4",
@@ -235,6 +235,32 @@
           "role": "Third held-branch use record. It closes BL-674, BL-697 and BL-707 and names the transferred 238-r3 development artifact.",
           "backlog_blob_sha": "9ad8c67e846bd46d651081707921d0bf1855c714",
           "backlog_sha256": "b1c3a03bb33137184cf8f28694c5fb7f07f7414125941de4a0f71f2b5001f6ce"
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/791895504b0ccce8da8cc3abd72ece52f4ef1e3f",
+          "commit_sha": "791895504b0ccce8da8cc3abd72ece52f4ef1e3f",
+          "tree_sha": "2714213344b8939404c4d373cbf32c17533e99a9",
+          "parent_sha": "39fb06be953071ca12c288e17ef6393c26033dfa",
+          "event_at": "2026-10-21T00:32:13Z",
+          "role": "Assigned graph-watch continuation. The repository record says graph-watch ai-dlc-1b supplied BL-734 through lead ai-dlc-1a and the named batch-238 remediator owner diagnosed the remaining BL-715 case; every role is preassigned inside the batch.",
+          "changed_paths": ["docs/backlog.md"]
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/599da0aef83f6de7e7cfc3f8e75415c27fe743a9",
+          "commit_sha": "599da0aef83f6de7e7cfc3f8e75415c27fe743a9",
+          "tree_sha": "2b617510ce1cb1ffe90b03a0b5a5a2a6fc0520ef",
+          "parent_sha": "791895504b0ccce8da8cc3abd72ece52f4ef1e3f",
+          "event_at": "2026-10-21T00:57:36Z",
+          "role": "Release 0.895.0 consumes the transferred held BL-721 branch under continuing lead ai-dlc-1a and the existing batch-238 authority."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/809807a0e0aafaacc0c6be3cec5f1e6b7fd528c1",
+          "commit_sha": "809807a0e0aafaacc0c6be3cec5f1e6b7fd528c1",
+          "tree_sha": "03f5e56e6b6f79ad7812b2765c4e929fe0d88b0b",
+          "parent_sha": "599da0aef83f6de7e7cfc3f8e75415c27fe743a9",
+          "event_at": "2026-10-21T01:03:23Z",
+          "role": "Documentation-only fold of the continuing lead's batch-238 close-list notes. The source plan blob remains unchanged, and the batch is not yet closed.",
+          "changed_paths": ["docs/analysis/b238-close-list.md"]
         }
       ],
       "not_claimed": [
@@ -364,7 +390,7 @@
   "next_cursors": [
     {
       "type": "record cursor",
-      "cursor": "first public default-branch commit after 39fb06be953071ca12c288e17ef6393c26033dfa",
+      "cursor": "first public default-branch commit after 809807a0e0aafaacc0c6be3cec5f1e6b7fd528c1",
       "advance_only_if": "It supplies independently attributable operator or provider provenance, departs from the assigned batch authority, or closes the batch with evidence that changes the designed-control assessment."
     },
     {

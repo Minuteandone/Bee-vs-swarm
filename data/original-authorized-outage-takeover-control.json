@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "title": "Original authorized Grok-to-Claude outage takeover and downstream-use control",
+  "assessed_on": "2026-10-20",
+  "observed_at": "2026-10-21T01:23:54Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Rotate from the paused scanner backlog into public original GitHub records, test two explicit agent takeovers for temporal and semantic dependency, and distinguish provider-labelled work continuity from an operator-boundary crossing.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code, tests, migrations, fixtures, hooks, scripts, or shell fragments",
+      "install a package or invoke an agent runtime, reviewer, model provider, or dispatcher",
+      "submit a scan or probe a target system",
+      "contact a participant or post, comment, vote, react, merge, or create an account",
+      "read a private inbox, private repository, unlisted room, secret, or runtime log"
+    ],
+    "publication_note": "Only existing public issue, pull-request, comment and Git-object links; public timestamps; Git object IDs; public app labels; domain-level work summaries; query scope; and limitations are retained. Personal email addresses, raw prompts, secrets, tokens, test output bodies and executable code are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No source-level cue separated one paused comparison or known-family record into a new episode.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "locator_scope": {
+    "saved_exact_queries": [
+      {
+        "query": "\"resume_artifact_sha256\" \"recipient_action_sha256\" \"sender_session_id\" \"recipient_session_id\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"handoff_commit_sha\" \"successor_commit_sha\" \"source_operator_id\" \"recipient_operator_id\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      },
+      {
+        "query": "\"source_session_id\" \"successor_session_id\" \"operator_authorization_id\" \"consumed_at\"",
+        "row_occurrences": 1,
+        "external_occurrences": 0,
+        "self_index_occurrences": 1
+      }
+    ],
+    "rotated_global_commit_queries": [
+      {
+        "query": "\"taken over from\" agent",
+        "rows": 50,
+        "requested_cap": 50
+      },
+      {
+        "query": "\"handoff\" \"consumed\" agent",
+        "rows": 50,
+        "requested_cap": 50
+      },
+      {
+        "query": "\"successor session\" handoff",
+        "rows": 50,
+        "requested_cap": 50
+      },
+      {
+        "query": "\"relayed by\" agent result",
+        "rows": 50,
+        "requested_cap": 50
+      }
+    ],
+    "counting_note": "The 200 rows are overlapping capped locators, not 200 episodes, participants or an exhaustive search. Original records were read only after a selected commit exposed a specific takeover claim.",
+    "selected_locator": {
+      "repository": "elsa-workflows/elsa-hub",
+      "commit_sha": "2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+      "url": "https://github.com/elsa-workflows/elsa-hub/commit/2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+      "reason": "The immutable merge commit says the branch was taken over from Grok agents and points to an outage rule and pull request containing the source branch, takeover claim, successor commits and review rounds."
+    }
+  },
+  "operator_governance": {
+    "policy_pull_request": {
+      "url": "https://github.com/elsa-workflows/.github/pull/13",
+      "created_at": "2026-10-16T09:59:17Z",
+      "merged_at": "2026-10-16T10:55:04Z",
+      "head_sha": "31a4fe478810ca15804fc460e5d53623f8b134df",
+      "merge_commit_sha": "d7fc2d241986c458d0c87bb0542917e63213e009",
+      "public_author_and_merger": "elsa-workflows-claude[bot]",
+      "operator_instruction": "The public body says Sipke instructed authors to self-review and self-merge while Code Review was unavailable and allowed other workers to take over Grok's in-flight work.",
+      "takeover_rule": "A recipient posts claim-takeover on the issue and pull request, verifies the offline worker has not posted or pushed since listing, becomes the pull request author, and keeps the existing branch.",
+      "authority_limit": "Takeovers and self-merges are allowed only in sessions Sipke starts; human holds, blocked or needs:decision states, required checks and branch protection remain binding."
+    },
+    "outage_issue": {
+      "url": "https://github.com/elsa-workflows/.github/issues/14",
+      "created_at": "2026-10-16T10:30:29Z",
+      "state_at_observation": "open",
+      "label": "outage",
+      "label_applied_at": "2026-10-20T19:31:39Z",
+      "label_applied_by": "sfmskywalker",
+      "declared_scope": "The issue says Grok lead, engineer and QA agents posting through elsa-workflows-bot[bot] were offline; Cursor using the same login was expressly not offline. It says the issue was opened at Sipke's request and ends when closed.",
+      "authorization_effect": "The human owner's label activated the already published outage-takeover rules before either selected takeover claim."
+    },
+    "source_work_issues": [
+      {
+        "url": "https://github.com/elsa-workflows/elsa-hub/issues/39",
+        "created_at": "2026-10-15T17:16:59Z",
+        "public_author": "sfmskywalker",
+        "role": "Human-authored Academy checkout work specification with an assigned owner, branch, acceptance criteria, merge gate and explicit no-deploy boundary."
+      },
+      {
+        "url": "https://github.com/elsa-workflows/elsa-hub/issues/47",
+        "created_at": "2026-10-15T17:27:46Z",
+        "public_author": "sfmskywalker",
+        "role": "Human-authored Stripe-customer-reference specification with an assigned branch, review gate and instruction to tell the Training Lead before merge."
+      }
+    ]
+  },
+  "participant_provenance": {
+    "source": {
+      "public_login": "elsa-workflows-bot[bot]",
+      "project_attribution": "Issue 14 identifies the offline Grok lead, engineer and QA agents as roles that post through this shared app login.",
+      "limit": "A shared repository app login and project-authored attribution do not independently authenticate a particular Grok provider run, session or controlling operator."
+    },
+    "recipient": {
+      "public_login": "elsa-workflows-claude[bot]",
+      "project_attribution": "Takeover comments, successor commits and Claude Opus co-author trailers label the successor side as Claude.",
+      "limit": "The app identity distinguishes the public account from the source login, but project comments and co-author trailers are not provider-owned run attestations."
+    },
+    "operator": {
+      "public_login": "sfmskywalker",
+      "evidence": "The same human authored the selected source work issues, was named as the outage authority, applied the activating outage label and authored the merge-from-main commits on both takeover branches.",
+      "assessment": "The public record supports one operator-directed project using two provider-labelled app surfaces, not two independently controlling operators."
+    }
+  },
+  "selected_transfer_use_chains": [
+    {
+      "pull_request": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/pull/63",
+        "created_at": "2026-10-15T17:59:35Z",
+        "merged_at": "2026-10-20T20:38:39Z",
+        "public_author": "elsa-workflows-bot[bot]",
+        "base_sha_at_merge": "83b97b0ac00426f616c08ac9db373aad4674466e",
+        "head_sha_at_merge": "8d729428bcba35b282cc24477b5589998174635e",
+        "merge_commit_sha": "2c9d0be168414c5cabae473a51f5b32f7c0fe21d"
+      },
+      "source_artifact": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/commit/7189f1588586169ba3a8d896ecaec08ceb2826ee",
+        "commit_sha": "7189f1588586169ba3a8d896ecaec08ceb2826ee",
+        "tree_sha": "3dcd39f91a80b3255706e41275c406254bc7b6e8",
+        "parent_sha": "441accc80357a530a02d3f1c5ad2d189eb1ed124",
+        "event_at": "2026-10-15T17:59:31Z",
+        "public_author_and_committer": "elsa-workflows-bot[bot]",
+        "domain_summary": "Introduces fail-closed Solo-price and Team-SKU consistency checks on the assigned branch."
+      },
+      "takeover": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/pull/63#issuecomment-6299630111",
+        "comment_id": 6299630111,
+        "event_at": "2026-10-20T19:35:41Z",
+        "public_author": "elsa-workflows-claude[bot]",
+        "content_summary": "Claims the existing pull request from the Grok agents under outage issue 14 and promises to update main, fix open findings, perform an independent self-review loop and merge under the outage rules."
+      },
+      "successor_use": [
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/68d7ee082581e4c3c0ec6297675e65852883533c",
+          "commit_sha": "68d7ee082581e4c3c0ec6297675e65852883533c",
+          "event_at": "2026-10-20T19:51:54Z",
+          "role": "First Claude-labelled child after the human-authored merge from main; modifies the inherited price-consistency implementation to answer the open row-cap review finding."
+        },
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/d0399a953bf83a5fdf7573f661ad1ecfab52631b",
+          "commit_sha": "d0399a953bf83a5fdf7573f661ad1ecfab52631b",
+          "event_at": "2026-10-20T20:04:52Z",
+          "role": "Replaces the first repair with a capless inherited-domain check and adds error handling and matching tests."
+        },
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/8d729428bcba35b282cc24477b5589998174635e",
+          "commit_sha": "8d729428bcba35b282cc24477b5589998174635e",
+          "tree_sha": "33e0e54bbe2c3d3c25a02a64c944fca027ca2679",
+          "event_at": "2026-10-20T20:31:22Z",
+          "role": "Final Claude-labelled branch head after four documented self-review rounds; remains a descendant of the source branch."
+        }
+      ],
+      "merge_record": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/commit/2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+        "commit_sha": "2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+        "tree_sha": "33e0e54bbe2c3d3c25a02a64c944fca027ca2679",
+        "parent_sha": "83b97b0ac00426f616c08ac9db373aad4674466e",
+        "event_at": "2026-10-20T20:38:38Z",
+        "content_summary": "Squash merge says it was taken over from the Grok agents and that self-review converged in four rounds."
+      },
+      "dependency_assessment": "High-confidence artifact continuity and semantic use: the recipient explicitly claims the source branch, keeps its domain implementation, answers a specific open finding and merges the corrected result."
+    },
+    {
+      "pull_request": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/pull/56",
+        "created_at": "2026-10-15T17:41:24Z",
+        "merged_at": "2026-10-20T21:43:53Z",
+        "public_author": "elsa-workflows-bot[bot]",
+        "base_sha_at_merge": "2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+        "head_sha_at_merge": "297f34061798131321a87fbf13d2d9c62d03801a",
+        "merge_commit_sha": "1f1c3a0248484a69981c60ad0aab2c84c45a705c"
+      },
+      "source_artifacts": [
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/dd7598ee9c61f2a6ad028fb9a63396f5f690a1e8",
+          "commit_sha": "dd7598ee9c61f2a6ad028fb9a63396f5f690a1e8",
+          "tree_sha": "414a88cff4903676e1be86531df7cf04f5a2d9f3",
+          "event_at": "2026-10-15T17:41:20Z",
+          "public_author_and_committer": "elsa-workflows-bot[bot]",
+          "domain_summary": "Introduces organization and user Stripe-customer-reference tables, uniqueness and access rules."
+        },
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/833c9d2daf62202e7589b987279e1761d71cc789",
+          "commit_sha": "833c9d2daf62202e7589b987279e1761d71cc789",
+          "event_at": "2026-10-15T18:03:53Z",
+          "public_author_and_committer": "elsa-workflows-bot[bot]",
+          "role": "Last of three original source-side commits before takeover."
+        }
+      ],
+      "takeover": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/pull/56#issuecomment-6299627176",
+        "comment_id": 6299627176,
+        "event_at": "2026-10-20T19:35:34Z",
+        "public_author": "elsa-workflows-claude[bot]",
+        "content_summary": "Claims the existing pull request from the Grok agents under outage issue 14 and promises the same update, finding-repair, self-review and merge steps."
+      },
+      "successor_use": [
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/5c36f300429596ec8b41aab2c7dd0bb7e47ac558",
+          "commit_sha": "5c36f300429596ec8b41aab2c7dd0bb7e47ac558",
+          "event_at": "2026-10-20T20:08:05Z",
+          "role": "First Claude-labelled successor commit preserves the inherited migration and changes one access-policy expression to match repository style."
+        },
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/ade3687ed6f7775fdd376b5fbc464f819b9a6b6c",
+          "commit_sha": "ade3687ed6f7775fdd376b5fbc464f819b9a6b6c",
+          "event_at": "2026-10-20T20:32:36Z",
+          "role": "Repairs concrete failures found in round one while retaining and expanding the original schema work."
+        },
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/commit/297f34061798131321a87fbf13d2d9c62d03801a",
+          "commit_sha": "297f34061798131321a87fbf13d2d9c62d03801a",
+          "tree_sha": "4faaba19cb5f63bb25a20f116f8ab0ce772538c7",
+          "event_at": "2026-10-20T21:32:58Z",
+          "role": "Final Claude-labelled branch head after six documented review rounds; remains a descendant of all three source commits."
+        }
+      ],
+      "review_round_comments": [
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/pull/56#issuecomment-6300721108",
+          "comment_id": 6300721108,
+          "event_at": "2026-10-20T20:26:07Z",
+          "head": "5c36f300429596ec8b41aab2c7dd0bb7e47ac558",
+          "round": 1
+        },
+        {
+          "url": "https://github.com/elsa-workflows/elsa-hub/pull/56#issuecomment-6302249317",
+          "comment_id": 6302249317,
+          "event_at": "2026-10-20T21:43:49Z",
+          "head": "297f34061798131321a87fbf13d2d9c62d03801a",
+          "round": 6,
+          "result": "converged"
+        }
+      ],
+      "merge_record": {
+        "url": "https://github.com/elsa-workflows/elsa-hub/commit/1f1c3a0248484a69981c60ad0aab2c84c45a705c",
+        "commit_sha": "1f1c3a0248484a69981c60ad0aab2c84c45a705c",
+        "tree_sha": "4faaba19cb5f63bb25a20f116f8ab0ce772538c7",
+        "parent_sha": "2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+        "event_at": "2026-10-20T21:43:53Z",
+        "content_summary": "Squash merge says it was taken over from the Grok agents and that self-review converged in six rounds."
+      },
+      "dependency_assessment": "High-confidence artifact continuity and semantic use: the recipient explicitly claims a three-commit source branch, changes the inherited schema and tests in response to concrete review findings, then merges the resulting tree."
+    }
+  ],
+  "outage_population_boundary": {
+    "issue_14_reference_events_at_observation": 10,
+    "repositories": [
+      "elsa-workflows/elsa-hub",
+      "elsa-workflows/elsa-foundation"
+    ],
+    "selected_explicit_grok_takeover_merges": [
+      "2c9d0be168414c5cabae473a51f5b32f7c0fe21d",
+      "1f1c3a0248484a69981c60ad0aab2c84c45a705c"
+    ],
+    "other_reference_events": "Eight later merge commits cite the outage and self-review convergence but do not, from their merge messages alone, establish a Grok-to-Claude takeover. They are retained as population context rather than promoted into the selected transfer chain.",
+    "limit": "Issue-reference count measures public GitHub references to the outage issue, not agent count, runtime count or independent coordination."
+  },
+  "alternative_tests": [
+    {
+      "alternative": "single-operator automation or designed team",
+      "result": "supported",
+      "basis": "The human owner specified both tasks, authorized outage takeovers, activated the outage label and authored both branch-update merges. The two app surfaces operate inside the same public organization and governance."
+    },
+    {
+      "alternative": "human-requested takeover",
+      "result": "supported",
+      "basis": "The governance pull request attributes the takeover rule to Sipke's instruction, and the outage issue says it was opened at his request."
+    },
+    {
+      "alternative": "designed reviewer/repair loop",
+      "result": "supported",
+      "basis": "The outage policy requires documented independent review rounds and permits merge only at the reviewed head under stated gates. Both pull requests follow that rail."
+    },
+    {
+      "alternative": "shared-state fault, scanner retry or observer contamination",
+      "result": "not needed to explain the selected dependency",
+      "basis": "Immutable ancestry, explicit takeover comments and content-specific successor commits establish intentional continuity directly."
+    },
+    {
+      "alternative": "independently operated participants crossing authority",
+      "result": "not established",
+      "basis": "Distinct app logins and provider labels do not establish distinct controlling operators, while the public human authorization covers the exact takeover and merge behavior observed."
+    },
+    {
+      "alternative": "rogue intent",
+      "result": "unsupported",
+      "basis": "Every selected action is framed as compliance with the operator's outage procedure; no primary record shows concealment, refusal of a stop, unauthorized contact or departure from task scope."
+    }
+  ],
+  "prior_reporting_scope": {
+    "checked_on": "2026-10-20",
+    "github_queries": [
+      {
+        "query": "\"Taken over from the Grok agents\"",
+        "surface": "commit search",
+        "rows": 2,
+        "classification": "Both selected origin merge commits."
+      },
+      {
+        "query": "\"Taking this over from the Grok agents during the outage\"",
+        "surface": "issue and pull-request search",
+        "rows": 0,
+        "classification": "The exact public comments resolved directly but were not returned by the issue index."
+      },
+      {
+        "query": "\"claim-takeover\" \"Grok agents\"",
+        "surface": "issue and pull-request search",
+        "rows": 1,
+        "classification": "One unrelated coordination-protocol issue; no report about the selected episode."
+      },
+      {
+        "query": "\"Self-review converged in 6 rounds\" outage",
+        "surface": "commit search",
+        "rows": 1,
+        "classification": "Selected origin merge commit only."
+      },
+      {
+        "query": "\"elsa-workflows/.github/issues/14\" \"Grok agents\"",
+        "surface": "commit search",
+        "rows": 2,
+        "classification": "Both selected origin merge commits."
+      }
+    ],
+    "web_queries": [
+      "\"Taken over from the Grok agents\"",
+      "\"Taking this over from the Grok agents during the outage\"",
+      "\"elsa-workflows\" \"Grok agents\" Claude takeover",
+      "\"claim-takeover\" \"elsa-workflows\""
+    ],
+    "web_results": {
+      "returned_results": 4,
+      "classification": "The results were a generic Elsa Workflows site, its main public repository and two unrelated community Q&A pages. None independently described the selected takeover episode."
+    },
+    "statement": "No independent coordination report located in the checked scope as of 20 October 2026. This bounded absence does not establish novelty. The originating organization itself openly publishes the takeovers, their operator authorization and their downstream merges."
+  },
+  "assessment": {
+    "transfer_and_use": "high confidence",
+    "verified_participants": "two distinguishable public GitHub app logins; exact provider runs and autonomous identities are not independently verified",
+    "operator_boundary": "not crossed; one public human operator and organization authorize and govern both sides",
+    "provider_attribution": "project-attributed Grok source roles and Claude successor role; no provider-owned attestation",
+    "subjective_rogue_intent": "not observed",
+    "current_activity": "the public takeover and merge records were current at observation; no claim is made about live agent runtimes",
+    "classification": "high-confidence authorized same-operator cross-provider-labelled takeover-to-use control",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "The selected chains establish explicit transfer and causal downstream use across distinguishable provider-labelled app accounts, but the human owner designed the tasks, published the takeover procedure, activated the outage and kept the work within assigned branches, review gates and merge authority."
+  },
+  "evidence_needed_to_advance": [
+    "Provider- or operator-owned attestations binding a specific Grok source run and Claude recipient run to the exact public commits.",
+    "Independent evidence that source and recipient were controlled by different operators rather than one owner's installed project apps and sessions.",
+    "Primary evidence that the recipient acted outside the human-started outage session, assigned branch, issue scope, review loop, hold checks or merge gate.",
+    "A task-result transfer to a third participant not covered by the published takeover rules, followed by content-specific use and an operator-boundary crossing.",
+    "Separate primary evidence of subjective rogue intent; none is currently present."
+  ],
+  "next_cursors": [
+    {
+      "type": "outage event cursor",
+      "cursor": "first public issue-14 reference event after commit 73a4f8bf838a21d8d42d35bea28053492e600aeb",
+      "advance_only_if": "The referenced primary record establishes an additional source-to-recipient dependency and adds independent operator provenance or conduct beyond outage authorization."
+    },
+    {
+      "type": "source branch provenance",
+      "cursor": "public records binding elsa-workflows-bot[bot] commits 7189f1588586169ba3a8d896ecaec08ceb2826ee or dd7598ee9c61f2a6ad028fb9a63396f5f690a1e8 to exact provider runs",
+      "advance_only_if": "The attestation is provider- or operator-owned rather than another repository-authored model label."
+    },
+    {
+      "type": "recipient authority",
+      "cursor": "public hold, stop, branch-protection or issue-scope record contradicted by one selected successor action",
+      "advance_only_if": "The contradiction is primary, timestamped and not superseded by the human outage authorization."
+    }
+  ]
+}

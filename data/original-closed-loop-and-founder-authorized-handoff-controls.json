@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "title": "Original cross-repository closed-loop and founder-authorized handoff controls",
   "assessed_on": "2026-10-21",
-  "observed_at": "2026-10-21T07:05:44Z",
+  "observed_at": "2026-10-21T12:19:45Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Follow two newly located original handoff trails from a specific sender artifact through content-specific recipient use, then test participant identity, operator separation, authorization, prior reporting and alternative explanations before promotion.",
   "safety": {
@@ -170,6 +170,24 @@
           "role": "Content-specific closeout names all three implementation commits, reports the exact completed scopes and asks the source supervisor to choose the next iteration."
         }
       ],
+      "return_path_check": {
+        "candidate_source_record": {
+          "url": "https://github.com/ajoe734/drts-fleet-platform/commit/75ce143781bc7408cd0185d4f64d1095ed262001",
+          "commit_sha": "75ce143781bc7408cd0185d4f64d1095ed262001",
+          "event_at": "2026-05-16T04:23:15Z",
+          "role": "Later source-side squash merge initially located by the TCH task marker."
+        },
+        "disposition": "not feedback consumption",
+        "basis": [
+          "The ai-status.json in 75ce143 is byte-identical to the source-contract snapshot: both use Git blob 874e36cfc4773aff89266bb0e077825f735d8568.",
+          "That snapshot says updated_at 2026-05-13T12:23:02Z and leaves TCH-SDK-BUMP-001 blocked with a 13 May last update, before the 14 May transfer and closeout.",
+          "Neither TCH-SDK-CONSUME-001 nor recipient closeout 43fbf4e appears in the later snapshot, any searched source revision or the current default branch.",
+          "At current source head ca6c6937998b83a5cbcc2c0d6a22472657932ba2, .ai-loop-incoming contains only .gitkeep. The public receiver workflow defines the intended dispatch-to-commit return path, but no resulting feedback file is present."
+        ],
+        "current_incoming_directory": "https://github.com/ajoe734/drts-fleet-platform/tree/ca6c6937998b83a5cbcc2c0d6a22472657932ba2/.ai-loop-incoming",
+        "designed_receiver_workflow": "https://github.com/ajoe734/drts-fleet-platform/blob/ca6c6937998b83a5cbcc2c0d6a22472657932ba2/.github/workflows/receive-frontend-feedback.yml",
+        "missing_evidence": "A public source commit that imports the 43fbf4e feedback artifact or marks TCH-SDK-CONSUME-001 complete. The outbound transfer and recipient implementation are verified; source-side consumption is not."
+      },
       "dependency_assessment": {
         "temporal": "The transfer commit follows the source contract by 10 hours 18 minutes 31 seconds. Its direct child begins implementation 5 minutes 7 seconds later, and the three slices plus closeout form one uninterrupted five-commit chain.",
         "semantic": "High confidence. The recipient pins the exact source SHA, imports the named contract surface, implements all three assigned scopes and returns a commit-anchored feedback artifact.",
@@ -254,6 +272,17 @@
         "merge_commit_sha": "f731b174f5155634dc9b1556e995a4984a3a7c78",
         "role": "Public receiving-lane task says the build follows the founder order, records ownership before the run, bounds claims to a single supervisor, reports no human interaction during execution and names an authorized merger as next owner."
       },
+      "same_custodian_reuse_check": {
+        "url": "https://github.com/beehive-nature/beehive-nature/commit/06f246fecf2b68d6a0c6381bcc7d03d36718edfa",
+        "commit_sha": "06f246fecf2b68d6a0c6381bcc7d03d36718edfa",
+        "event_at": "2026-10-16T00:28:30Z",
+        "public_author_account": "loviswaternakamoto",
+        "dispatch_url": "https://github.com/beehive-nature/beehive-nature/blob/06f246fecf2b68d6a0c6381bcc7d03d36718edfa/docs/dispatches/2026-10-16-sovexec-002-authority-live.md",
+        "dispatch_blob_sha": "ab840b0cc9fe80a944b3a20c3e6e21619a12cecf",
+        "dispatch_bytes": 11206,
+        "result": "content-specific later reuse, but no new operator-boundary transfer",
+        "basis": "The later SOVEXEC-002 lane reuses the WB004 custody kit and explicitly follows the 13 October correction's one-push-per-step and no-replacement-on-uncertain-outcome law. Its record says the founder ordered the lane in the current session; the same public account and repository publish it. This advances the content-use cursor but does not identify a separately controlled recipient."
+      },
       "dependency_assessment": {
         "temporal": "The recipient authored its handoff-use record 22 minutes 55 seconds after the source PR merged; its branch was later rebased and committed after the receiving PR merge, so author and committer times are retained separately.",
         "semantic": "High confidence. The recipient names the exact handoff, reads its source findings, adopts its persistence/refusal rules and implements matching Rust paths and tests.",
@@ -323,12 +352,12 @@
   "next_cursors": [
     {
       "type": "TCH return-path cursor",
-      "cursor": "first public drts-fleet-platform record that consumes tenant-commute-hub closeout 43fbf4e3367e600d018f2a141bc4a2795dbf19a5 or marks TCH-SDK-CONSUME-001 done",
+      "cursor": "first public drts-fleet-platform record after current head ca6c6937998b83a5cbcc2c0d6a22472657932ba2 that consumes tenant-commute-hub closeout 43fbf4e3367e600d018f2a141bc4a2795dbf19a5 or marks TCH-SDK-CONSUME-001 done",
       "advance_only_if": "It adds an independently controlled principal, contradicts the closed-loop authorization or shows recipient work beyond the three assigned scopes."
     },
     {
       "type": "Beehive recipient cursor",
-      "cursor": "first public record after 729106c0585fb083cc4ab34bdeebff236624d6c7 that transfers the WB004-derived result to a separately attributable operator",
+      "cursor": "first public record after same-custodian reuse 06f246fecf2b68d6a0c6381bcc7d03d36718edfa that transfers the WB004-derived result to a separately attributable operator",
       "advance_only_if": "The new recipient demonstrably uses the result and is not covered by the founder's lane assignments."
     },
     {

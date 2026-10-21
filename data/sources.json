@@ -8323,6 +8323,211 @@
       "merged_at": "2026-10-13T23:30:54Z",
       "merge_commit_sha": "f731b174f5155634dc9b1556e995a4984a3a7c78",
       "observed_at": "2026-10-21T07:05:44Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0901-5b21170",
+      "url": "https://github.com/euron8/ai-dlc/commit/5b21170f8c17875d2f33355685bf3e6ddc5b841b",
+      "role": "Batch-238 release 0.901.0 continuation under the assigned successor lead",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T08:06:10Z",
+      "commit_sha": "5b21170f8c17875d2f33355685bf3e6ddc5b841b",
+      "tree_sha": "8e3c886eabcc8dadc47c82b08878ccb84ac44bec",
+      "parent_sha": "836c0962d116e8bbdea7505651980c82975adafe",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-close-f788979",
+      "url": "https://github.com/euron8/ai-dlc/commit/f788979f6d27314622fc37d8dcc4a4b8f4fe0429",
+      "role": "Operator-governed batch-238 close and resume-state record",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T08:19:34Z",
+      "commit_sha": "f788979f6d27314622fc37d8dcc4a4b8f4fe0429",
+      "tree_sha": "4e824e6d5211e01a0a309331e5362402917b75fd",
+      "parent_sha": "5b21170f8c17875d2f33355685bf3e6ddc5b841b",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-ai-dlc-b238-resume-fix-2c235a4",
+      "url": "https://github.com/euron8/ai-dlc/commit/2c235a42e1b91427720813a6858c6220a4c1e54b",
+      "role": "Correction to the closed batch's governed resume block",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T08:23:53Z",
+      "commit_sha": "2c235a42e1b91427720813a6858c6220a4c1e54b",
+      "tree_sha": "eed3c58a7b578782647157862152adfb3188a0c7",
+      "parent_sha": "f788979f6d27314622fc37d8dcc4a4b8f4fe0429",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-ai-dlc-b239-handoff-b1ac6fc",
+      "url": "https://github.com/euron8/ai-dlc/commit/b1ac6fc1249012a91158b66938550524655ef6bd",
+      "role": "Primary operator 'hand off now' ruling and batch-239 first-work assignment",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T10:48:33Z",
+      "commit_sha": "b1ac6fc1249012a91158b66938550524655ef6bd",
+      "tree_sha": "384c77893b910a7dfdf9bc3bf7e8cfc956799d60",
+      "parent_sha": "2c235a42e1b91427720813a6858c6220a4c1e54b",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-ai-dlc-b239-receipts-bf0b3f0",
+      "url": "https://github.com/euron8/ai-dlc/commit/bf0b3f0bf8916d9a15903ee25eb067dc801fe926",
+      "role": "Latest operator-governed transition record adjudicating four close-candidate receipts",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T10:52:31Z",
+      "commit_sha": "bf0b3f0bf8916d9a15903ee25eb067dc801fe926",
+      "tree_sha": "368530f9132b6b681802de5a7d203f7c26cbc70a",
+      "parent_sha": "b1ac6fc1249012a91158b66938550524655ef6bd",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-ai-dlc-plan-bf0b3f0",
+      "url": "https://github.com/euron8/ai-dlc/blob/bf0b3f0bf8916d9a15903ee25eb067dc801fe926/docs/plans/graph-ledger-full-drain.md",
+      "role": "Latest batch plan closing batch 238 and defining the operator-ordered batch-239 pull runbook",
+      "ref": "bf0b3f0bf8916d9a15903ee25eb067dc801fe926",
+      "blob_sha": "d9e30990828cd5d59a1d84cdbcf791e92a8dc388",
+      "sha256": "0e68d574f20c17cb1eb7d977d667cc9c4396d1365b6d67a0cd17bdbcb3b17fee",
+      "bytes": 148334,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-elsa-hub-pr55",
+      "url": "https://github.com/elsa-workflows/elsa-hub/pull/55",
+      "role": "Human-requested Cursor-to-Claude outage takeover and extended self-review record",
+      "published": "2026-10-21",
+      "created_at": "2026-10-15T17:41:03Z",
+      "merged_at": "2026-10-21T10:01:00Z",
+      "merge_commit_sha": "e7fb61fde6656303647432079291bd27abc85d89",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-elsa-hub-merge-e7fb61f",
+      "url": "https://github.com/elsa-workflows/elsa-hub/commit/e7fb61fde6656303647432079291bd27abc85d89",
+      "role": "Outage merge after Sipke-authorized Claude takeover and review rounds beyond the normal cap",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T10:00:59Z",
+      "commit_sha": "e7fb61fde6656303647432079291bd27abc85d89",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-elsa-foundation-pr3134",
+      "url": "https://github.com/elsa-workflows/elsa-foundation/pull/3134",
+      "role": "Human-authorized same-Claude-app outage self-review through round nine",
+      "published": "2026-10-21",
+      "created_at": "2026-10-20T18:56:01Z",
+      "merged_at": "2026-10-21T10:16:23Z",
+      "merge_commit_sha": "882e90101cf53045ecb1d2df122ada52106e955a",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-elsa-foundation-merge-882e901",
+      "url": "https://github.com/elsa-workflows/elsa-foundation/commit/882e90101cf53045ecb1d2df122ada52106e955a",
+      "role": "Same-Claude-app outage merge after an explicitly extended review cap",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T10:16:22Z",
+      "commit_sha": "882e90101cf53045ecb1d2df122ada52106e955a",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-drts-w1a-squash-75ce143",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/commit/75ce143781bc7408cd0185d4f64d1095ed262001",
+      "role": "Later source-side squash merge tested and rejected as a feedback-consumption record",
+      "published": "2026-05-16",
+      "event_at": "2026-05-16T04:23:15Z",
+      "commit_sha": "75ce143781bc7408cd0185d4f64d1095ed262001",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-drts-stale-machine-truth-874e36c",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/blob/75ce143781bc7408cd0185d4f64d1095ed262001/ai-status.json",
+      "role": "Pre-transfer machine-truth blob preserved unchanged in the later squash merge",
+      "ref": "75ce143781bc7408cd0185d4f64d1095ed262001",
+      "blob_sha": "874e36cfc4773aff89266bb0e077825f735d8568",
+      "sha256": "7c1d760c4cc7079344e2e39e63b4c041e3544accaf51114453e20dc48d3a5559",
+      "bytes": 8103705,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-drts-empty-incoming-e69de29",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/blob/ca6c6937998b83a5cbcc2c0d6a22472657932ba2/.ai-loop-incoming/.gitkeep",
+      "role": "Current empty public incoming-feedback directory marker",
+      "ref": "ca6c6937998b83a5cbcc2c0d6a22472657932ba2",
+      "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-drts-feedback-receiver-60365f3",
+      "url": "https://github.com/ajoe734/drts-fleet-platform/blob/ca6c6937998b83a5cbcc2c0d6a22472657932ba2/.github/workflows/receive-frontend-feedback.yml",
+      "role": "Designed source-side dispatch receiver that would commit returned feedback if invoked",
+      "ref": "ca6c6937998b83a5cbcc2c0d6a22472657932ba2",
+      "blob_sha": "60365f3c19e208b1d29940ed0068f40cf4e8cdc7",
+      "bytes": 2347,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-beehive-sovexec-reuse-06f246f",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/06f246fecf2b68d6a0c6381bcc7d03d36718edfa",
+      "role": "Founder-ordered same-custodian lane reusing the WB004 custody and retry-safety law",
+      "published": "2026-10-16",
+      "event_at": "2026-10-16T00:28:30Z",
+      "commit_sha": "06f246fecf2b68d6a0c6381bcc7d03d36718edfa",
+      "tree_sha": "c14a9807ba19fad1f1f25c8e861792dc653d45fe",
+      "parent_sha": "3283d203291631b659b1cf891bf758daf64323a5",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-beehive-sovexec-dispatch-ab840b0",
+      "url": "https://github.com/beehive-nature/beehive-nature/blob/06f246fecf2b68d6a0c6381bcc7d03d36718edfa/docs/dispatches/2026-10-16-sovexec-002-authority-live.md",
+      "role": "Primary later reuse record naming the founder order and adopted WB004 persistence law",
+      "ref": "06f246fecf2b68d6a0c6381bcc7d03d36718edfa",
+      "blob_sha": "ab840b0cc9fe80a944b3a20c3e6e21619a12cecf",
+      "bytes": 11206,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-rpgpo-consumed-handoff-00e1f60",
+      "url": "https://github.com/rahulbittu/rpgpo/commit/00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9",
+      "role": "Primary critique-to-implementation record archiving the request and response and implementing the returned download recommendation",
+      "published": "2026-03-15",
+      "event_at": "2026-03-15T16:23:40Z",
+      "commit_sha": "00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9",
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-rpgpo-validation-request-0da2258",
+      "url": "https://github.com/rahulbittu/rpgpo/blob/00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9/.gpo-handoff/archive/1773591550402-validation-review.request.md",
+      "role": "Bounded Claude-labelled critique request to ChatGPT with explicit intended downstream use",
+      "ref": "00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9",
+      "blob_sha": "0da225833d6d1e790eb20666c9d13241e9873c82",
+      "bytes": 2367,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-rpgpo-validation-response-08c0af8",
+      "url": "https://github.com/rahulbittu/rpgpo/blob/00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9/.gpo-handoff/archive/1773591550403-validation-review.response.md",
+      "role": "Returned ChatGPT-labelled critique recommending downloadable artifacts before expansion",
+      "ref": "00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9",
+      "blob_sha": "08c0af87b6ebdfc9a6fdc24fe36c593b8599b693",
+      "bytes": 6476,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-rpgpo-handoff-log-ba1196e",
+      "url": "https://github.com/rahulbittu/rpgpo/blob/00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9/.gpo-handoff/handoff-log.md",
+      "role": "Relay chronology showing response arrival, duplicate writes and archival before implementation",
+      "ref": "00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9",
+      "blob_sha": "ba1196ef84df7a8f8c1a52d89990323b2fcf99b6",
+      "bytes": 13150,
+      "observed_at": "2026-10-21T12:19:45Z"
+    },
+    {
+      "id": "original-rpgpo-handoff-failure-8915c14",
+      "url": "https://github.com/rahulbittu/rpgpo/blob/00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9/artifacts/testing/handoff-failures.json",
+      "role": "Intentional relay failure record resolving the initially unconsumed packet as asynchronous delay",
+      "ref": "00e1f60a5ff1d3a91d8a8a1ad3e7f1fd79bfe0c9",
+      "blob_sha": "8915c145a42f5530d1c5ffa16929dfc1f09387ef",
+      "bytes": 835,
+      "observed_at": "2026-10-21T12:19:45Z"
     }
   ]
 }

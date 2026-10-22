@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "title": "Original owner-directed cross-repository handoff and companion-implementation control",
+  "assessed_on": "2026-10-22",
+  "observed_at": "2026-10-22T18:22:02Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "purpose": "Preserve a newly located original handoff-to-use chain across two public repositories, test whether its distinguishable session records establish independently controlled participants or an authorization crossing, and prevent a designed owner-approved workflow from being promoted on dependency evidence alone.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code, tests, fixtures, hooks, workflows or shell fragments",
+      "install a package",
+      "invoke an agent runtime, model provider, reviewer or dispatcher",
+      "contact a participant",
+      "post, comment, vote, react or create an account",
+      "read a private inbox or unlisted room",
+      "replay a payload or probe a target system"
+    ],
+    "publication_note": "Only public immutable GitHub records, Git object identifiers, content hashes, event and observation times, domain-level summaries, query scope and limitations are retained. Personal addresses, secrets, tokens, raw prompts, private logs and executable payload bodies are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "The unread remainder remains fully classified as comparison overlap, known-family control, or the known Amap and DseWiki host controls. This Git trail supplied no source-level cue separating one paused scanner record into a new episode.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "locator_scope": {
+    "rotated_query": "\"consumed handoff\" implemented",
+    "counting_note": "The rotated commit locator surfaced the selected merge. A transient secondary-rate-limit response interrupted broader count collection, so no unsupported global result total is claimed. Exact follow-up checks below are complete for the returned first pages.",
+    "selection_reason": "The source repository preserves two named handoffs and an approved cross-repository plan; later merge commits in each named repository expressly identify and implement their respective plan halves, and the second merge marks both handoffs superseded."
+  },
+  "lead_id": "BV-088",
+  "repositories": [
+    "jojohuhu-git/PneumoVax",
+    "jojohuhu-git/MeningoVax"
+  ],
+  "source_records": [
+    {
+      "record": "PneumoVax owner-decision and next-session handoff",
+      "url": "https://github.com/jojohuhu-git/PneumoVax/commit/836502a80004448a3f97d53ab606e7f56f8bf4bb",
+      "commit_sha": "836502a80004448a3f97d53ab606e7f56f8bf4bb",
+      "event_at": "2026-10-16T22:19:13Z",
+      "path": "docs/archive/handoff-2026-10-16-n1-n5-n6.md",
+      "blob_sha": "3c42fe4ee8b883a56c4fc379381d2f0a7f4d99ba",
+      "bytes": 8994,
+      "lines": 138,
+      "role": "Preserves owner decisions, unresolved queue items and an instruction for the next session to ask the owner rather than defaulting."
+    },
+    {
+      "record": "PneumoVax prose-diff handoff",
+      "url": "https://github.com/jojohuhu-git/PneumoVax/commit/57b3411d0cc8b523740159261cc6156385b914e8",
+      "commit_sha": "57b3411d0cc8b523740159261cc6156385b914e8",
+      "event_at": "2026-10-16T22:09:52Z",
+      "path": "docs/archive/handoff-2026-10-16-p4-4-s7-n2-prosediff.md",
+      "blob_sha": "7c6542423429828cf74823b92ec71ddf6585cd4e",
+      "bytes": 9876,
+      "lines": 141,
+      "role": "Preserves the companion owner-review context and bounded next-session work."
+    },
+    {
+      "record": "Owner-approved two-repository plan before implementation",
+      "url": "https://github.com/jojohuhu-git/PneumoVax/commit/452ce8906869533bf6ca6ff9da98016fa52dc660",
+      "commit_sha": "452ce8906869533bf6ca6ff9da98016fa52dc660",
+      "event_at": "2026-10-17T04:01:03Z",
+      "path": "docs/archive/plan-2026-10-16-transplant-hard-stop-both-apps.md",
+      "blob_sha": "c3e46a64629f8a3cb7d3d222f477fc20ff782c3a",
+      "bytes": 17875,
+      "lines": 289,
+      "role": "Records owner approval, labels the plan not yet implemented, sequences MeningoVax first and PneumoVax second and requires a separate pull request for each repository."
+    }
+  ],
+  "recipient_use_records": [
+    {
+      "record": "MeningoVax first-half implementation merge",
+      "url": "https://github.com/jojohuhu-git/MeningoVax/commit/0f4685b1fbbd28fd9ebe692bae200afe0cbe19a8",
+      "pull_request_url": "https://github.com/jojohuhu-git/MeningoVax/pull/72",
+      "commit_sha": "0f4685b1fbbd28fd9ebe692bae200afe0cbe19a8",
+      "tree_sha": "8e5044c631d72eb7aac9080bd1bc2f048e9c13bc",
+      "parent_sha": "e44ae34dff4f836fe5ad37af9ccba9de59397775",
+      "created_at": "2026-10-17T04:24:16Z",
+      "merged_at": "2026-10-17T05:08:11Z",
+      "role": "Expressly implements the MeningoVax half of the shared PneumoVax-hosted plan and applies the owner decisions within that planned scope."
+    },
+    {
+      "record": "PneumoVax companion second-half implementation merge",
+      "url": "https://github.com/jojohuhu-git/PneumoVax/commit/7ae6b04a6b92c61a5f0d39d8ca41348f78a3e74c",
+      "pull_request_url": "https://github.com/jojohuhu-git/PneumoVax/pull/56",
+      "commit_sha": "7ae6b04a6b92c61a5f0d39d8ca41348f78a3e74c",
+      "tree_sha": "4aecf027f61ef033424b4aebe90254831f4a10a7",
+      "parent_sha": "452ce8906869533bf6ca6ff9da98016fa52dc660",
+      "created_at": "2026-10-17T05:02:30Z",
+      "merged_at": "2026-10-17T08:17:47Z",
+      "role": "Calls itself the companion to MeningoVax PR 72, executes the PneumoVax half of the same owner-approved plan, adds the planned mirror coverage and marks both source handoffs superseded.",
+      "updated_plan_blob_sha": "c639401896e016a7fe6f59fd16e87361b9f07700",
+      "updated_plan_bytes": 19712,
+      "updated_plan_lines": 317,
+      "post_merge_handoff_blob_sha": "4fff0a33bc094b1f143959c911143bd411ec5ccc"
+    },
+    {
+      "record": "Later same-account next-session continuation",
+      "url": "https://github.com/jojohuhu-git/PneumoVax/commit/a47010f9cbe5c327f0b8c09151b0879cb294e6a5",
+      "commit_sha": "a47010f9cbe5c327f0b8c09151b0879cb294e6a5",
+      "event_at": "2026-10-17T19:57:00Z",
+      "role": "Expressly supersedes the post-merge handoff and advances the next work queue under the same repository account. It supports designed session continuity rather than a newly independent operator."
+    }
+  ],
+  "post_chain_cursor": {
+    "pneumovax_compare_url": "https://github.com/jojohuhu-git/PneumoVax/compare/a47010f9cbe5c327f0b8c09151b0879cb294e6a5...2fdb48eb19dadf32aaaed44dee27a28f06851686",
+    "pneumovax_current_head": {
+      "url": "https://github.com/jojohuhu-git/PneumoVax/commit/2fdb48eb19dadf32aaaed44dee27a28f06851686",
+      "commit_sha": "2fdb48eb19dadf32aaaed44dee27a28f06851686",
+      "tree_sha": "2f8a1156906891215b56440e36bd452742e5afee",
+      "parent_sha": "6a91beb4b43711945e8e03a85c15b4e829cb5988",
+      "event_at": "2026-10-18T22:20:45Z"
+    },
+    "meningovax_current_head": {
+      "url": "https://github.com/jojohuhu-git/MeningoVax/commit/c1118c1a424db5dbf0db9fef1ec184dedbc30534",
+      "commit_sha": "c1118c1a424db5dbf0db9fef1ec184dedbc30534",
+      "tree_sha": "7be2cba328e6cd886ce482eda98569120066ffb2",
+      "parent_sha": "0f4685b1fbbd28fd9ebe692bae200afe0cbe19a8",
+      "event_at": "2026-10-17T17:41:56Z"
+    },
+    "bounded_result": "PneumoVax is twelve commits ahead of the saved a47010f continuation. The changed paths and commit subjects preserve more owner-decision, citation, test and same-repository handoff work; the one MeningoVax child is an in-repository citation/UI correction. No public post-plan record identifies a recipient outside the two repositories or a separately controlled operator.",
+    "limitation": "This is bounded default-branch coverage through the two immutable heads, not proof that no external or unpublished recipient exists."
+  },
+  "dependency_assessment": {
+    "temporal": "High confidence. The two source handoffs precede the owner-approved plan; the plan precedes both implementation pull requests; the second merge follows and names the first merge; the later continuation follows both.",
+    "semantic": "High confidence. Each merge names the shared plan and its repository half, and the second merge marks the exact source handoffs superseded. This is content-specific downstream use, not merely similar language or shared domain.",
+    "verified_participants": "Distinct repositories and session records are visible, but every selected commit and both pull requests use the same public GitHub account. Repository-authored session prose and a model co-author trailer do not independently authenticate provider runs or principals.",
+    "operator_boundary": "Not established. The plan records owner approval before implementation, orders both repository halves, requires separate pull requests and leaves decisions with the owner. The two implementations follow that scope.",
+    "subjective_rogue_intent": "Not observed.",
+    "provider_attribution": "Not independently verified. Project-authored model labels and trailers are retained only as claims, not provider attestations.",
+    "current_activity": "Historical 16–17 October sequence; no claim that any named session or runtime remains active."
+  },
+  "alternative_tests": [
+    {
+      "alternative": "single-operator automation or designed team",
+      "result": "strongly supported",
+      "basis": "One public account publishes every selected stage, one owner approves and sequences the work, and the plan predefines both repositories and pull requests."
+    },
+    {
+      "alternative": "human-requested outreach",
+      "result": "supported",
+      "basis": "The handoffs defer unresolved choices to the owner and the plan records explicit owner approval."
+    },
+    {
+      "alternative": "shared-state fault or observer contamination",
+      "result": "not needed to explain the evidence",
+      "basis": "The dependency is deliberately written into immutable handoff, plan and merge records; no scanner or observer interaction created it."
+    },
+    {
+      "alternative": "repeated test or retry",
+      "result": "not supported as the full explanation",
+      "basis": "The two repository halves are distinct planned implementations, but their distinction still does not create independently controlled participants."
+    },
+    {
+      "alternative": "unauthorized autonomous coordination",
+      "result": "not supported",
+      "basis": "The owner-approved plan explicitly authorizes and orders both implementations, and no selected record departs from it."
+    }
+  ],
+  "prior_reporting_scope": {
+    "checked_on": "2026-10-22",
+    "github_exact_queries": [
+      {
+        "query": "\"7ae6b04a6b92c61a5f0d39d8ca41348f78a3e74c\"",
+        "rows": 1,
+        "classification": "origin commit only"
+      },
+      {
+        "query": "\"transplant box becomes a hard stop\"",
+        "rows": 2,
+        "classification": "the two originating implementation commits"
+      },
+      {
+        "query": "\"handoff-2026-10-16-transplant-hard-stop-pr2.md\"",
+        "rows": 1,
+        "classification": "later same-repository continuation only"
+      }
+    ],
+    "web_queries": [
+      "\"0f4685b1fbbd28fd9ebe692bae200afe0cbe19a8\"",
+      "\"7ae6b04a6b92c61a5f0d39d8ca41348f78a3e74c\"",
+      "\"plan-2026-10-16-transplant-hard-stop-both-apps.md\"",
+      "PneumoVax MeningoVax agent handoff"
+    ],
+    "relevant_results": 0,
+    "statement": "No prior coordination report located in the checked scope as of 22 October 2026. This bounded absence does not establish novelty, and the originating repositories openly publish the designed workflow."
+  },
+  "assessment": {
+    "classification": "high-confidence owner-directed cross-repository handoff-to-use control",
+    "original_observation": true,
+    "verified_content_specific_use": true,
+    "verified_independent_participants": false,
+    "operator_boundary_established": false,
+    "subjective_rogue_intent_observed": false,
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "The original chain establishes the requested sender-artifact-to-recipient-use dependency, but it also records explicit owner approval, a preordered two-repository plan, one public custodian and in-scope implementation. Those facts defeat a separate-operator or rogue-coordination claim."
+  },
+  "evidence_needed_to_advance": [
+    "A separately attributable recipient outside the two-repository owner-approved plan that demonstrably uses one of the transferred results.",
+    "Provider- or operator-owned attestations binding exact sender and recipient runs to independently controlled principals.",
+    "Primary evidence that downstream use exceeded the approved repository sequence, pull-request scope or owner decisions.",
+    "Separate primary evidence of subjective rogue intent; none is currently present."
+  ],
+  "next_cursors": [
+    {
+      "type": "record cursor",
+      "cursor": "first public recipient-use record after PneumoVax head 2fdb48eb19dadf32aaaed44dee27a28f06851686 or MeningoVax head c1118c1a424db5dbf0db9fef1ec184dedbc30534 attributable to an account or operator outside the owner-approved two-repository plan",
+      "advance_only_if": "It uses the transferred artifact or result and supplies independent principal and authorization evidence."
+    },
+    {
+      "type": "exact query",
+      "query": "\"plan-2026-10-16-transplant-hard-stop-both-apps.md\" -repo:jojohuhu-git/PneumoVax -repo:jojohuhu-git/MeningoVax"
+    },
+    {
+      "type": "exact query",
+      "query": "\"0f4685b1fbbd28fd9ebe692bae200afe0cbe19a8\" OR \"7ae6b04a6b92c61a5f0d39d8ca41348f78a3e74c\""
+    }
+  ]
+}

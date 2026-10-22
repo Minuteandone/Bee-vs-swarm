@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "Original cross-repository closed-loop and founder-authorized handoff controls",
-  "assessed_on": "2026-10-21",
-  "observed_at": "2026-10-21T12:19:45Z",
+  "assessed_on": "2026-10-22",
+  "observed_at": "2026-10-22T18:22:02Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Follow two newly located original handoff trails from a specific sender artifact through content-specific recipient use, then test participant identity, operator separation, authorization, prior reporting and alternative explanations before promotion.",
   "safety": {
@@ -177,15 +177,23 @@
           "event_at": "2026-05-16T04:23:15Z",
           "role": "Later source-side squash merge initially located by the TCH task marker."
         },
+        "current_promotion_record": {
+          "url": "https://github.com/ajoe734/drts-fleet-platform/commit/9f55a01b977ca4dbbb8d96be7507d944584a794f",
+          "commit_sha": "9f55a01b977ca4dbbb8d96be7507d944584a794f",
+          "tree_sha": "08be3c339757cc562a72e4c0c77108425e93bcd5",
+          "parent_sha": "ca6c6937998b83a5cbcc2c0d6a22472657932ba2",
+          "event_at": "2026-10-21T14:18:54Z",
+          "role": "Current source promotion tested as the next possible feedback-consumption record."
+        },
         "disposition": "not feedback consumption",
         "basis": [
           "The ai-status.json in 75ce143 is byte-identical to the source-contract snapshot: both use Git blob 874e36cfc4773aff89266bb0e077825f735d8568.",
           "That snapshot says updated_at 2026-05-13T12:23:02Z and leaves TCH-SDK-BUMP-001 blocked with a 13 May last update, before the 14 May transfer and closeout.",
-          "Neither TCH-SDK-CONSUME-001 nor recipient closeout 43fbf4e appears in the later snapshot, any searched source revision or the current default branch.",
-          "At current source head ca6c6937998b83a5cbcc2c0d6a22472657932ba2, .ai-loop-incoming contains only .gitkeep. The public receiver workflow defines the intended dispatch-to-commit return path, but no resulting feedback file is present."
+          "The complete recursive tree for current promotion 9f55a01 is not truncated and contains neither root ai-status.json, TCH-SDK-CONSUME-001 nor recipient closeout 43fbf4e. Removing or omitting the stale status file is not evidence that the feedback was consumed.",
+          "At current source head 9f55a01b977ca4dbbb8d96be7507d944584a794f, .ai-loop-incoming contains only zero-byte .gitkeep blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391. The public receiver workflow remains present, but no resulting feedback file is visible."
         ],
-        "current_incoming_directory": "https://github.com/ajoe734/drts-fleet-platform/tree/ca6c6937998b83a5cbcc2c0d6a22472657932ba2/.ai-loop-incoming",
-        "designed_receiver_workflow": "https://github.com/ajoe734/drts-fleet-platform/blob/ca6c6937998b83a5cbcc2c0d6a22472657932ba2/.github/workflows/receive-frontend-feedback.yml",
+        "current_incoming_directory": "https://github.com/ajoe734/drts-fleet-platform/tree/9f55a01b977ca4dbbb8d96be7507d944584a794f/.ai-loop-incoming",
+        "designed_receiver_workflow": "https://github.com/ajoe734/drts-fleet-platform/blob/9f55a01b977ca4dbbb8d96be7507d944584a794f/.github/workflows/receive-frontend-feedback.yml",
         "missing_evidence": "A public source commit that imports the 43fbf4e feedback artifact or marks TCH-SDK-CONSUME-001 complete. The outbound transfer and recipient implementation are verified; source-side consumption is not."
       },
       "dependency_assessment": {
@@ -352,7 +360,7 @@
   "next_cursors": [
     {
       "type": "TCH return-path cursor",
-      "cursor": "first public drts-fleet-platform record after current head ca6c6937998b83a5cbcc2c0d6a22472657932ba2 that consumes tenant-commute-hub closeout 43fbf4e3367e600d018f2a141bc4a2795dbf19a5 or marks TCH-SDK-CONSUME-001 done",
+      "cursor": "first public drts-fleet-platform record after current head 9f55a01b977ca4dbbb8d96be7507d944584a794f that consumes tenant-commute-hub closeout 43fbf4e3367e600d018f2a141bc4a2795dbf19a5 or marks TCH-SDK-CONSUME-001 done",
       "advance_only_if": "It adds an independently controlled principal, contradicts the closed-loop authorization or shows recipient work beyond the three assigned scopes."
     },
     {

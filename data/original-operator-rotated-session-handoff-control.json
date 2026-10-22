@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "Original operator-rotated session handoff and successor-use control",
-  "assessed_on": "2026-10-21",
-  "observed_at": "2026-10-21T12:19:45Z",
+  "assessed_on": "2026-10-22",
+  "observed_at": "2026-10-22T18:22:02Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the three saved run, artifact, receipt and operator cursors; rotate through lower-arity public code records and global commit messages; and test a newly published fresh-session handoff against a historical handoff-to-use sequence in the same repository.",
   "safety": {
@@ -188,6 +188,21 @@
         "role": "Records batch 238 closed after twelve releases, keeps ai-dlc-fc then ai-dlc-1a as the governed lead succession, assigns graph-watch ai-dlc-1b by operator ruling and defines the operator-ordered batch-239 pull runbook as the next work."
       },
       {
+        "record": "Batch-239 graph-pull runbook after twenty-two descendants",
+        "url": "https://github.com/euron8/ai-dlc/blob/b0f9f69e7511341efa5017f802688f3d138eff34/docs/plans/graph-pull-0891-to-0901.md",
+        "blob_sha": "606861fcb0c5172edda56041318d654929a5c055",
+        "sha256": "1f2163f36f9623db520321ef9a470eb09d628e0bcc3d3e82f3c601eef695f301",
+        "bytes": 37779,
+        "lines": 436,
+        "role": "Source-side record saying a graph consumer used a rehearsed verdict while named changes were merged. It also says green status is not authorization, requires the operator to initiate the pull and retains operator merge approval. The named graph repository and recipient commits were not publicly resolvable at observation time."
+      },
+      {
+        "record": "Current graph-ledger plan after thirty-two descendants",
+        "url": "https://github.com/euron8/ai-dlc/blob/58db3d175afd2d7806c4a508d656f5828c37000a/docs/plans/graph-ledger-full-drain.md",
+        "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
+        "role": "Closes batch 239 after seven releases, names the operator rulings and assigned seats, says the graph's own session ran the prior pull, and starts batch 240 under another named session. The same plan preserves the graph repository as read-only to the AI-DLC lead and keeps execution and merge authority operator-governed."
+      },
+      {
         "record": "Batch 238 contracts and adversary folds",
         "url": "https://github.com/euron8/ai-dlc/blob/18b974b41f69500f4afd6da5b3696eccfbdf46c0/docs/analysis/b238-contracts.md",
         "blob_sha": "7aae138b1dd8a5965af3e6ee4076c71aec349a83",
@@ -206,8 +221,8 @@
     ],
     "current_downstream_status": {
       "status": "content-specific successor use observed; designed-control classification retained",
-      "last_rechecked_at": "2026-10-21T12:19:45Z",
-      "basis": "Twenty-one direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and update the plan. The five newest descendants remain one linear continuation: release 0.901.0 closes BL-740; two documentation commits close batch 238 and correct its resume block; then the operator orders a batch-239 handoff whose first work is an as-yet-unpublished pull runbook; the latest commit adjudicates four close-candidate receipts. Batch 238 now closes after twelve releases, but the operator, assigned lead, graph-watch role and next runbook remain explicit. This establishes temporal and semantic handoff consumption while strengthening, not weakening, the designed-control assessment.",
+      "last_rechecked_at": "2026-10-22T18:22:02Z",
+      "basis": "Thirty-two direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and update the plan. Eight records after 0.903.0 release 0.904.0 through 0.908.0, close batch 239, rotate its plan and start batch 240 under self-labelled lead ai-dlc-3f at 0.909.0. The current source commit says the consumer graph installed 0.908.0 and ran a byte-identical validator, materially strengthening the source-side claim of downstream use. The graph repository and named recipient commits remain publicly unresolved, while the plan reserves the graph as read-only to the lead and preserves operator initiation, rulings and merge authority. Every descendant still uses the same public author account and web-flow committer. This strengthens the dependency but not an independent-operator or authorization-crossing claim.",
       "successor_records": [
         {
           "url": "https://github.com/euron8/ai-dlc/commit/0877fe65f98604f791765883a4d202a5b75870d4",
@@ -402,6 +417,95 @@
           "parent_sha": "b1ac6fc1249012a91158b66938550524655ef6bd",
           "event_at": "2026-10-21T10:52:31Z",
           "role": "Adjudicates four close-candidate receipts under the operator-ordered transition and preserves the governed lead and graph-watch roles; it adds no separately attributable operator."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/b0f9f69e7511341efa5017f802688f3d138eff34",
+          "commit_sha": "b0f9f69e7511341efa5017f802688f3d138eff34",
+          "tree_sha": "30746c4840795809764a472cd503d98026110dd4",
+          "parent_sha": "bf0b3f0bf8916d9a15903ee25eb067dc801fe926",
+          "event_at": "2026-10-21T13:34:02Z",
+          "role": "Publishes and marks discharged the batch-239 graph-pull runbook. It reports that the graph-side gate read a rehearsed verdict, while expressly reserving initiation and merge approval to the operator. The cited recipient commits are not independently public at the saved locator."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/7ff1303540882a6e008b810723028f9c6aad3372",
+          "commit_sha": "7ff1303540882a6e008b810723028f9c6aad3372",
+          "tree_sha": "a88f9a40dcd540e033f055aea5876e5414067490",
+          "parent_sha": "b0f9f69e7511341efa5017f802688f3d138eff34",
+          "event_at": "2026-10-21T16:36:05Z",
+          "role": "Release 0.902.0 continues batch 239 under the same public account and governed release authority."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/182e0d0e2a3154e96cb5af5643b3216d3f9fe11d",
+          "commit_sha": "182e0d0e2a3154e96cb5af5643b3216d3f9fe11d",
+          "tree_sha": "e194b962682e03835bf2a5d1bf2a678736a63ba5",
+          "parent_sha": "7ff1303540882a6e008b810723028f9c6aad3372",
+          "event_at": "2026-10-21T17:09:30Z",
+          "role": "Release 0.903.0 continues the same batch and custodian; it adds no independently attributable recipient or operator."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/9af758b38b0494b869f4dac428244203a84d5f4c",
+          "commit_sha": "9af758b38b0494b869f4dac428244203a84d5f4c",
+          "tree_sha": "2bbb0ef35b9be5d261c25aa4ca49ccaf44dfe68f",
+          "parent_sha": "182e0d0e2a3154e96cb5af5643b3216d3f9fe11d",
+          "event_at": "2026-10-21T17:50:59Z",
+          "role": "Release 0.904.0 continues batch 239 under the same public account and assigned lead."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/b60ba56e817803d4be0ae59555bb61284e096fa9",
+          "commit_sha": "b60ba56e817803d4be0ae59555bb61284e096fa9",
+          "tree_sha": "4d98169f02885019f93430096f1b6862e47e61e0",
+          "parent_sha": "9af758b38b0494b869f4dac428244203a84d5f4c",
+          "event_at": "2026-10-21T18:23:25Z",
+          "role": "Release 0.905.0 continues the same batch, custodian and governed derivation lane."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/0577739b40e8d13888217d052490177f5fa2a18a",
+          "commit_sha": "0577739b40e8d13888217d052490177f5fa2a18a",
+          "tree_sha": "21c1d039749f5e25a44054f66d73520c9164bb15",
+          "parent_sha": "b60ba56e817803d4be0ae59555bb61284e096fa9",
+          "event_at": "2026-10-21T19:03:21Z",
+          "role": "Release 0.906.0 continues the same batch and assigned shard-merge roles."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/2509a41cd66bf764eff6f50919b77ae10a43f314",
+          "commit_sha": "2509a41cd66bf764eff6f50919b77ae10a43f314",
+          "tree_sha": "62f53d05b7bc17cd4c306a4f52a1249aa1cc2d8c",
+          "parent_sha": "0577739b40e8d13888217d052490177f5fa2a18a",
+          "event_at": "2026-10-21T19:28:27Z",
+          "role": "Release 0.907.0 continues the same batch and recovery-gate lane."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/25a31205d2fe012405b0671154b164982fe94832",
+          "commit_sha": "25a31205d2fe012405b0671154b164982fe94832",
+          "tree_sha": "294c5125d1861132d26efd94a42ac41a47f7c409",
+          "parent_sha": "2509a41cd66bf764eff6f50919b77ae10a43f314",
+          "event_at": "2026-10-21T21:04:12Z",
+          "role": "Release 0.908.0 completes the seven-release batch-239 sequence under the same custodian."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/5bfca99f78868ca56bc0fb37b711036e0461a011",
+          "commit_sha": "5bfca99f78868ca56bc0fb37b711036e0461a011",
+          "tree_sha": "49fa51bf1b7d648fca908ee17d7402534ae2b63d",
+          "parent_sha": "25a31205d2fe012405b0671154b164982fe94832",
+          "event_at": "2026-10-21T21:45:35Z",
+          "role": "Closes batch 239, records seven releases after the graph-pull runbook, preserves operator rulings and rotates the plan for the next session."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/725e89df5fd3c60c5cd494bb3070607797a30cc4",
+          "commit_sha": "725e89df5fd3c60c5cd494bb3070607797a30cc4",
+          "tree_sha": "7bf7d116c13c500c915c75dd3a4cddf01dff3ef0",
+          "parent_sha": "5bfca99f78868ca56bc0fb37b711036e0461a011",
+          "event_at": "2026-10-21T21:50:34Z",
+          "role": "Corrects two archive citations without introducing a new principal or changing batch authority."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/58db3d175afd2d7806c4a508d656f5828c37000a",
+          "commit_sha": "58db3d175afd2d7806c4a508d656f5828c37000a",
+          "tree_sha": "3ca6c3157a850cd933f7b941a0280a2fe6bf3e84",
+          "parent_sha": "725e89df5fd3c60c5cd494bb3070607797a30cc4",
+          "event_at": "2026-10-22T17:48:21Z",
+          "self_reported_recipient_session": "ai-dlc-3f",
+          "role": "Starts batch 240 at release 0.909.0 and states that the consumer graph had installed 0.908.0 with a byte-identical validator. This is a material source-side downstream-use claim, but it remains under the same public account and does not expose an independently attributable graph-side record."
         }
       ],
       "not_claimed": [
@@ -449,7 +553,7 @@
         "The plan says a cross-session recipient proceeds under the same operator, reports its choice in its first operator message, and remains redirectable by that operator.",
         "The current operator explicitly halted a lead and ordered the replacement handoff.",
         "The historical source, use and close commits share one public GitHub author account and GitHub's web-flow committer surface.",
-        "The current handoff and all twenty-one direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
+        "The current handoff and all thirty-two direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
         "The successor work stays inside the transferred batch, branch order, item list, checklist and rulebook authority rather than departing from them.",
         "Session labels, owner labels and model trailers are repository-authored and do not authenticate independent controlling principals."
       ]
@@ -534,7 +638,48 @@
       "relevant_results": 0,
       "classification": "No independent account of the five later descendants or the operator-ordered batch-239 runbook was returned; visible results were unrelated numeric and patent-page collisions."
     },
-    "statement": "No independent coordination report located in the checked scope as of 21 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
+    "pass_111_incremental_check": {
+      "github_queries": [
+        "\"b0f9f69e7511341efa5017f802688f3d138eff34\"",
+        "\"graph-pull-0891-to-0901\"",
+        "\"832368d49\" ai-dlc"
+      ],
+      "web_queries": [
+        "\"b0f9f69e7511341efa5017f802688f3d138eff34\"",
+        "\"graph-pull-0891-to-0901\"",
+        "\"832368d49\" ai-dlc"
+      ],
+      "relevant_results": 0,
+      "classification": "No independent coordination report or publicly resolvable graph-side recipient record was located. Results were generic Microsoft Graph and unrelated AI/DLC pages; the originating ai-dlc record remains the only episode account in the checked scope."
+    },
+    "pass_112_incremental_check": {
+      "checked_on": "2026-10-22",
+      "github_queries": [
+        {
+          "query": "58db3d175afd2d7806c4a508d656f5828c37000a",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "consumer graph installed 0.908.0",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "graph's own session ran the pull",
+          "rows": 20,
+          "classification": "tokenized broad results, including originating and older ai-dlc commits plus unrelated repositories; no independent account of this episode"
+        }
+      ],
+      "web_queries": [
+        "\"58db3d175afd2d7806c4a508d656f5828c37000a\"",
+        "\"graph's own session ran the pull\"",
+        "\"installed 0.908.0\" \"consumer graph\" ai-dlc"
+      ],
+      "relevant_results": 0,
+      "classification": "Results were generic graph documentation, unrelated AI-DLC material and other lexical collisions. No independent episode report or public graph-side recipient record was located."
+    },
+    "statement": "No independent coordination report located in the checked scope as of 22 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
   },
   "assessment": {
     "current_handoff_classification": "high-confidence designed same-operator handoff-to-use control",
@@ -542,7 +687,7 @@
     "previously_unreported_rogue_swarm": false,
     "plausible_discovery_candidate": false,
     "notification_threshold_met": false,
-    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; twenty-one descendants consume transferred duties, close batch 238 and enter an operator-ordered batch-239 handoff. This confirms content-specific transfer and use. The latest records preserve an operator-ruled lead, graph-watch role and next runbook under one public custodian, so the chain does not authenticate independent operators or an authorization crossing."
+    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; thirty-two descendants consume transferred duties, close batches 238 and 239 and start batch 240. The newest commit materially strengthens the source-side downstream-use account by saying the consumer graph installed 0.908.0 and ran a byte-identical validator. The recipient records remain publicly unresolved, every source record uses one public custodian, and the plan preserves explicit operator initiation, rulings and merge authority. The chain does not authenticate independent operators or an authorization crossing."
   },
   "evidence_needed_to_advance": [
     "An independently attributable sender and recipient, with provider- or operator-owned attestations binding their exact runs to the source and successor artifacts.",
@@ -553,8 +698,13 @@
   "next_cursors": [
     {
       "type": "record cursor",
-      "cursor": "first public default-branch commit after bf0b3f0bf8916d9a15903ee25eb067dc801fe926",
+      "cursor": "first public default-branch commit after 58db3d175afd2d7806c4a508d656f5828c37000a",
       "advance_only_if": "It supplies independently attributable operator or provider provenance, departs from the assigned batch authority, or closes the batch with evidence that changes the designed-control assessment."
+    },
+    {
+      "type": "recipient-evidence cursor",
+      "cursor": "first public graph-side commit or log that independently binds the b0f9f69 runbook to recipient use",
+      "advance_only_if": "The recipient is publicly attributable, uses the transferred verdict or artifact, and is not covered by the runbook's operator-initiation and merge-approval authority."
     },
     {
       "type": "exact query",

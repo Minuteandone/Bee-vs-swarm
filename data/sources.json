@@ -8776,13 +8776,24 @@
       "observed_at": "2026-10-22T19:53:46Z"
     },
     {
+      "id": "original-ai-dlc-release-0912-782fd93",
+      "url": "https://github.com/euron8/ai-dlc/commit/782fd93f9dee3eaf2e4c8b58dae38000250d4737",
+      "role": "Batch-240 source record claiming an uncommitted graph finding was closed about 83 minutes later",
+      "published": "2026-10-22",
+      "event_at": "2026-10-22T20:15:36Z",
+      "commit_sha": "782fd93f9dee3eaf2e4c8b58dae38000250d4737",
+      "tree_sha": "40e5ab318016a31abe8dfeb70a2e9d3bb954371c",
+      "parent_sha": "ed5ba0e9e38b13f9587a3a61fc4d12e2ad7207cb",
+      "observed_at": "2026-10-22T21:06:17Z"
+    },
+    {
       "id": "original-ai-dlc-current-plan-4f17514",
-      "url": "https://github.com/euron8/ai-dlc/blob/ed5ba0e9e38b13f9587a3a61fc4d12e2ad7207cb/docs/plans/graph-ledger-full-drain.md",
+      "url": "https://github.com/euron8/ai-dlc/blob/782fd93f9dee3eaf2e4c8b58dae38000250d4737/docs/plans/graph-ledger-full-drain.md",
       "role": "Current unchanged plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
-      "ref": "ed5ba0e9e38b13f9587a3a61fc4d12e2ad7207cb",
+      "ref": "782fd93f9dee3eaf2e4c8b58dae38000250d4737",
       "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
       "bytes": 148670,
-      "observed_at": "2026-10-22T19:53:46Z"
+      "observed_at": "2026-10-22T21:06:17Z"
     },
     {
       "id": "original-pneumovax-postcontrol-head-2fdb48e",

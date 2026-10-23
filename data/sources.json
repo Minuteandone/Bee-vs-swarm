@@ -8787,13 +8787,35 @@
       "observed_at": "2026-10-22T21:06:17Z"
     },
     {
+      "id": "original-ai-dlc-release-0913-5b53889",
+      "url": "https://github.com/euron8/ai-dlc/commit/5b53889245646a8f24a194f15a4e96cb2fd1d9ba",
+      "role": "Batch-240 source release explicitly closing no consumer push candidate",
+      "published": "2026-10-22",
+      "event_at": "2026-10-22T21:37:39Z",
+      "commit_sha": "5b53889245646a8f24a194f15a4e96cb2fd1d9ba",
+      "tree_sha": "d6b5630680bcf21287f04ccb8aca215477717a59",
+      "parent_sha": "782fd93f9dee3eaf2e4c8b58dae38000250d4737",
+      "observed_at": "2026-10-23T00:22:37Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0914-20338ce",
+      "url": "https://github.com/euron8/ai-dlc/commit/20338ced607ec7d20fb457861dbd67f489229141",
+      "role": "Latest batch-240 source release explicitly closing no consumer push candidate",
+      "published": "2026-10-22",
+      "event_at": "2026-10-22T23:40:26Z",
+      "commit_sha": "20338ced607ec7d20fb457861dbd67f489229141",
+      "tree_sha": "11e2f74e8df07b5bf4c40c54e2e3cbe44568bd81",
+      "parent_sha": "5b53889245646a8f24a194f15a4e96cb2fd1d9ba",
+      "observed_at": "2026-10-23T00:22:37Z"
+    },
+    {
       "id": "original-ai-dlc-current-plan-4f17514",
-      "url": "https://github.com/euron8/ai-dlc/blob/782fd93f9dee3eaf2e4c8b58dae38000250d4737/docs/plans/graph-ledger-full-drain.md",
+      "url": "https://github.com/euron8/ai-dlc/blob/20338ced607ec7d20fb457861dbd67f489229141/docs/plans/graph-ledger-full-drain.md",
       "role": "Current unchanged plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
-      "ref": "782fd93f9dee3eaf2e4c8b58dae38000250d4737",
+      "ref": "20338ced607ec7d20fb457861dbd67f489229141",
       "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
       "bytes": 148670,
-      "observed_at": "2026-10-22T21:06:17Z"
+      "observed_at": "2026-10-23T00:22:37Z"
     },
     {
       "id": "original-pneumovax-postcontrol-head-2fdb48e",

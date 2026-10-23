@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0",
+  "title": "Original cross-account review-to-repair control",
+  "assessed_on": "2026-10-23",
+  "observed_at": "2026-10-23T11:45:21Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_id": "BV-090",
+  "purpose": "Preserve a public review-to-repair chain with three content-specific transfers and downstream use while separating GitHub-account distinction from autonomous-participant, operator-boundary and authorization claims.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts, formatters or agent tooling",
+      "invoke an agent runtime or model provider",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "open private review logs, task environments, inboxes or unlisted rooms",
+      "replay commands, payloads or provider calls",
+      "probe a target system"
+    ],
+    "publication_note": "Only public GitHub pull-request, review and Git-object metadata, event and observation times, changed-path summaries and bounded search results are retained. Personal addresses, private log paths, prompts, credentials and executable bodies are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No source-level cue separates the unread known-family-controlled remainder into a distinct episode.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "selected_original_chain": {
+    "repository": "inflatable-cookie/swallowtail",
+    "repository_url": "https://github.com/inflatable-cookie/swallowtail",
+    "pull_request": {
+      "number": 504,
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/504",
+      "title": "184: Adopt supported Oxide routes in Swallowtail Effigy workflows",
+      "created_at": "2026-10-23T06:09:28Z",
+      "merged_at": "2026-10-23T07:54:53Z",
+      "public_author_and_merger": "betterthanclay",
+      "author_association": "CONTRIBUTOR",
+      "role": "Repository-governed pull request whose public body records all three review resolutions, the final route inventory, validation boundaries and operations not executed."
+    },
+    "reviewed_head": {
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/ae35c65bd967281f343aed48c3724075eedb31a2",
+      "commit_sha": "ae35c65bd967281f343aed48c3724075eedb31a2",
+      "tree_sha": "8f64bfa7ab05417fe05e8716451cf69dcecc2b88",
+      "parent_sha": "5287316441bab35f7486a5191928dbec3a30e331",
+      "event_at": "2026-10-23T06:39:02Z",
+      "signature": "unsigned Git commit",
+      "git_author_label": "northstar worker",
+      "identity_limit": "The Git author label is not linked to a GitHub account and is treated as a project role label, not an authenticated agent or operator."
+    },
+    "reviewer": {
+      "github_login": "inflatable-tester",
+      "github_account_type": "User",
+      "author_association": "NONE",
+      "identity_limit": "A distinct public account and non-collaborator association distinguish the review surface, but do not prove AI control, provider identity, separate operator ownership or lack of repository authorization."
+    },
+    "review_repair_pairs": [
+      {
+        "review": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5624911048",
+          "review_id": 5624911048,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T06:53:16Z",
+          "reviewed_commit_sha": "ae35c65bd967281f343aed48c3724075eedb31a2",
+          "domain_level_result": "P1 identifies two switched parent routes that still reach private-target builds, names the affected route and guard paths, and requests plain-Cargo deferral plus guard coverage."
+        },
+        "repair": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/commit/224f6876eb75f3623215f38d008b5e3559c69981",
+          "commit_sha": "224f6876eb75f3623215f38d008b5e3559c69981",
+          "tree_sha": "a358c10aa21b24ddf44a212d2d2fc60dc164feb3",
+          "parent_sha": "ae35c65bd967281f343aed48c3724075eedb31a2",
+          "event_at": "2026-10-23T06:56:17Z",
+          "seconds_after_review": 181,
+          "changed_paths": [
+            "docs/guides/validation-tiers.md",
+            "effigy.toml",
+            "scripts/check-release-floor.sh",
+            "scripts/tests/oxide-selector-routing.py"
+          ],
+          "semantic_use": "Direct child restores the two named parent routes to the pending/plain path and adds the requested guard coverage."
+        }
+      },
+      {
+        "review": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5625110008",
+          "review_id": 5625110008,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T07:17:23Z",
+          "reviewed_commit_sha": "224f6876eb75f3623215f38d008b5e3559c69981",
+          "domain_level_result": "P2 reports that the changed Python guard fails its required pinned-format check and requests formatting without semantic changes."
+        },
+        "repair": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/commit/a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+          "commit_sha": "a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+          "tree_sha": "643affb61e7750facfd41046feb52d51142575a8",
+          "parent_sha": "224f6876eb75f3623215f38d008b5e3559c69981",
+          "event_at": "2026-10-23T07:17:58Z",
+          "seconds_after_review": 35,
+          "changed_paths": [
+            "scripts/tests/oxide-selector-routing.py"
+          ],
+          "semantic_use": "Direct child changes only the named guard file and records the requested pinned-format repair."
+        }
+      },
+      {
+        "review": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5625196701",
+          "review_id": 5625196701,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T07:27:06Z",
+          "reviewed_commit_sha": "a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+          "domain_level_result": "P2 identifies a maintained local-heavy release recipe that still routes a whole-workspace private-target lane, and requests restoration of the plain-Cargo recipe plus a focused regression."
+        },
+        "repair": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/commit/d3f5008b0242a2661623593dfde0cbca0fa5cc7d",
+          "commit_sha": "d3f5008b0242a2661623593dfde0cbca0fa5cc7d",
+          "tree_sha": "7f17b520fa7556b35b94a0c03a324057e2215953",
+          "parent_sha": "a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+          "event_at": "2026-10-23T07:30:12Z",
+          "seconds_after_review": 186,
+          "signature": "unsigned Git commit",
+          "changed_paths": [
+            "config/release.toml",
+            "docs/guides/validation-tiers.md",
+            "scripts/tests/oxide-selector-routing.py"
+          ],
+          "semantic_use": "Direct child restores the exact release recipe, updates its pending classification and adds rejection coverage for the routed regression."
+        }
+      }
+    ],
+    "approval_and_merge": {
+      "approval": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5625444826",
+        "review_id": 5625444826,
+        "state": "APPROVED",
+        "submitted_at": "2026-10-23T07:54:31Z",
+        "reviewed_commit_sha": "d3f5008b0242a2661623593dfde0cbca0fa5cc7d",
+        "role": "Confirms both named findings are resolved, records fresh checks and says the reviewer read the owner-provided task brief and repository authority documents."
+      },
+      "merge": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/commit/bea9caf84e5daea61fbd7903589780dd11243862",
+        "commit_sha": "bea9caf84e5daea61fbd7903589780dd11243862",
+        "tree_sha": "7f17b520fa7556b35b94a0c03a324057e2215953",
+        "parent_shas": [
+          "45eb7daac12b6611d5fdc1681f4c05fff8fba143",
+          "d3f5008b0242a2661623593dfde0cbca0fa5cc7d"
+        ],
+        "event_at": "2026-10-23T07:54:53Z",
+        "seconds_after_approval": 22,
+        "signature": "GitHub-signed merge commit"
+      }
+    },
+    "semantic_dependency": "High confidence. Three distinct, content-specific review results are followed by direct-child commits that repair the named paths and behavior within 35 to 186 seconds; the final reviewer then approves the repaired head and the same public PR author lands the merge. This is stronger than text or timing similarity alone.",
+    "timeline_source": "https://api.github.com/repos/inflatable-cookie/swallowtail/issues/504/timeline"
+  },
+  "participant_and_boundary_assessment": {
+    "verified_public_accounts": "The reviewer account inflatable-tester is distinct from pull-request author and merger betterthanclay.",
+    "recipient_identity_limit": "The first reviewed and repair commits use the unlinked Git author label northstar worker. The PR branch and later GitHub-signed merge authenticate repository custody, not a separate autonomous recipient or provider run.",
+    "model_labels": "A Claude Opus co-author trailer on the final repair is project-authored commit metadata, not a provider receipt.",
+    "operator_evidence": "The review says it used an owner-provided task environment and read the Queue brief and repository authority guidance. The pull-request body incorporates every review resolution, and the same public PR author lands the merge after approval.",
+    "operator_boundary": "No independent operator boundary is established. Account distinction and author_association NONE do not identify separate controlling principals.",
+    "authorization": "The public record supports an ordinary repository-governed review and repair lane. No record says the reviewer or repair work exceeded repository authorization.",
+    "subjective_rogue_intent": "No evidence.",
+    "provider_attribution": "Unverified beyond project-authored role and co-author labels.",
+    "current_activity": "No runtime activity claim; the selected chain ends in a public merged commit."
+  },
+  "alternative_explanations": [
+    {
+      "alternative": "designed repository-governed review lane",
+      "assessment": "strongly supported by the owner-provided task environment, repository authority references, PR resolution text and post-approval merge"
+    },
+    {
+      "alternative": "single operator or shared control plane behind both public accounts",
+      "assessment": "not resolved by public account distinction; no independently attributable execution receipt or operator principal is published"
+    },
+    {
+      "alternative": "human-requested or human-mediated review and repair",
+      "assessment": "not excluded; GitHub records authenticate accounts and commits, not who or what generated the review and repairs"
+    },
+    {
+      "alternative": "repeated test or scanner retry",
+      "assessment": "rejected for the dependency itself because the findings are semantically different and each has a matching direct-child repair"
+    },
+    {
+      "alternative": "shared-state fault or observer contamination",
+      "assessment": "not needed to explain the chain; the public PR timeline itself preserves the review, repair, approval and merge order"
+    },
+    {
+      "alternative": "independently operated agents cooperating outside authorization",
+      "assessment": "not supported by the public records"
+    }
+  ],
+  "prior_reporting_scope": {
+    "github_queries": [
+      {
+        "query": "bea9caf84e5daea61fbd7903589780dd11243862",
+        "surface": "global commit search",
+        "rows": 0,
+        "classification": "not indexed in the checked search surface"
+      },
+      {
+        "query": "\"Keep every parent route reaching the registered-courier private build pending\"",
+        "surface": "global code and commit search",
+        "rows": 0,
+        "classification": "no indexed independent account"
+      },
+      {
+        "query": "\"Ready to merge at d3f5008b0242a2661623593dfde0cbca0fa5cc7d\"",
+        "surface": "global code and commit search",
+        "rows": 0,
+        "classification": "no indexed independent account"
+      }
+    ],
+    "web_queries": [
+      "\"bea9caf84e5daea61fbd7903589780dd11243862\"",
+      "\"Keep every parent route reaching the registered-courier private build pending\"",
+      "\"Ready to merge at d3f5008b0242a2661623593dfde0cbca0fa5cc7d\""
+    ],
+    "relevant_independent_results": 0,
+    "statement": "No prior coordination report located in the checked scope as of 23 October 2026. This bounded absence does not establish novelty, and the originating pull request publicly documents the designed review and repair workflow.",
+    "known_family_overlap": "No overlap located with the excluded DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub handoff or Covert Assistance/METR families."
+  },
+  "assessment": {
+    "classification": "high-confidence cross-account review-to-repair control inside a repository-governed workflow",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "The chain proves three result-transfer-and-use edges, but public account distinction does not authenticate autonomous AI participants or separate operators. The owner-provided environment, authority documents, PR resolution record and post-approval merge instead support designed, authorized review."
+  },
+  "evidence_needed_to_advance": [
+    "Provider- or operator-owned receipts independently binding the reviewer and repair worker to specific autonomous runs.",
+    "Primary evidence that the two principals are controlled by distinct operators rather than one owner or shared control plane.",
+    "A public rule or operator statement showing that this review, repair or merge sequence occurred outside or exceeded the repository's authorized workflow.",
+    "A content-specific recipient record attributable independently of the unlinked northstar worker Git label."
+  ],
+  "next_cursors": [
+    {
+      "type": "repository cursor",
+      "cursor": "first public pull request or default-branch record after PR 504 / bea9caf84e5daea61fbd7903589780dd11243862 that adds participant, operator or authorization provenance",
+      "advance_only_if": "It independently binds a sender and recipient to distinct operators or materially changes the authorization assessment."
+    },
+    {
+      "type": "reviewer provenance cursor",
+      "cursor": "first public provider- or operator-owned record binding inflatable-tester's selected reviews to an autonomous run",
+      "advance_only_if": "The record is independently attributable and does not merely repeat repository-authored labels."
+    },
+    {
+      "type": "recipient provenance cursor",
+      "cursor": "first public record binding the northstar worker-labelled repair commits to an independently operated recipient",
+      "advance_only_if": "It proves content-specific use under a separate operator and addresses authorization."
+    }
+  ]
+}

@@ -42,7 +42,7 @@ Initial primary sources:
 
 ## Evidence checkpoint — 23 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 119 preserves a new high-confidence transfer-and-use control in `beehive-nature/beehive-nature`: a retrospectively published founder-shared three-register design artifact is demonstrably used in later wallet planning and implementation. The public chain nevertheless has one custodian, explicit founder direction, project-authored model labels, retrospective source provenance and no independently attested operator-boundary crossing, so it is not a rogue-swarm candidate. The `euron8/ai-dlc` cursor also advances to release 0.923.0 and forty-six descendants; the release closes no PC ID, changes only source-side process, validation, fixture, release and backlog paths, and leaves the operator-governed plan byte-identical. Exact GitHub checks locate only the two source origins and scoped web checks locate no independent episode account. See the new [founder-directed artifact-to-wallet control](data/original-founder-directed-artifact-to-wallet-control.json), updated [operator-rotated session handoff control](data/original-operator-rotated-session-handoff-control.json) and [latest dated research log](research/2026-10-23.md).
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused, and the separate 57-page urlscan listing backlog remains closed. Pass 120 preserves a new high-confidence transfer-and-use control in `inflatable-cookie/swallowtail`: one public reviewer account issues three content-specific change requests, matching direct-child repairs land 35–186 seconds later, and the reviewer approves before the same PR author lands the merge. GitHub account distinction does not establish autonomous AI participants or separate operators. The repair heads partly use an unlinked project role label, the reviewer cites an owner-provided task environment and repository authority documents, and the PR records each resolution. The best-supported explanation is a designed repository review workflow, not rogue coordination. Exact GitHub and scoped web checks locate no independent episode account. See the new [cross-account review-to-repair control](data/original-cross-account-review-to-repair-control.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-23.md).
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,7 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-21.md)
+- [Latest dated investigation log](research/2026-10-23.md)
 - [Investigation log — 19 October](research/2026-10-19.md)
 - [Investigation log — 18 October](research/2026-10-18.md)
 - [Investigation log — 17 October](research/2026-10-17.md)

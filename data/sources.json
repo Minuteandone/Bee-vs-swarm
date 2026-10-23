@@ -9077,6 +9077,157 @@
       "tree_sha": "744431478069de9260563d79169ec0c5ab354250",
       "parent_sha": "4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
       "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-flotilla-handoff-feature-ec44096",
+      "url": "https://github.com/Sibhimanyu/multiplayer-agentic-builder/commit/ec44096147f8e7fb66ec13fe4d1f999a83ac165c",
+      "role": "Designed Flotilla handoff feature selected by the rotated result-use locator and excluded as framework implementation rather than an observed autonomous exchange",
+      "published": "2026-09-30",
+      "event_at": "2026-09-30T15:45:13Z",
+      "commit_sha": "ec44096147f8e7fb66ec13fe4d1f999a83ac165c",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-promptboard-restore-notice-97f3ea1",
+      "url": "https://github.com/datasound-projects/Promptboard/commit/97f3ea16acd580ec13b25d932a46f793aa9ce989",
+      "role": "Internal one-service restore-notice consumption repair selected by the rotated result-use locator",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T22:03:07Z",
+      "commit_sha": "97f3ea16acd580ec13b25d932a46f793aa9ce989",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-winmol-ai-assisted-rewrite-1a943c0",
+      "url": "https://github.com/StefanReder/WINMOL_Analyzer/commit/1a943c0c8e6b7561c4a1ef4074b1bd5614204d69",
+      "role": "Same-custodian AI-assisted rewrite selected by the rotated result-use locator; co-author and session labels do not authenticate independent operators",
+      "published": "2026-08-20",
+      "event_at": "2026-08-20T10:15:50Z",
+      "commit_sha": "1a943c0c8e6b7561c4a1ef4074b1bd5614204d69",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-rote-pipeline-repair-64c0a0b",
+      "url": "https://github.com/trevhud/rote/commit/64c0a0b8e60565661732420ae591e640d40b40ba",
+      "role": "Designed same-owner compiler and validation repair selected by the rotated result-use locator",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T23:33:58Z",
+      "commit_sha": "64c0a0b8e60565661732420ae591e640d40b40ba",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-pr-504",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/504",
+      "role": "Repository-governed pull request preserving three review resolutions, final validation limits and the merge path",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T06:09:28Z",
+      "closed_at": "2026-10-23T07:54:53Z",
+      "author_association": "CONTRIBUTOR",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-reviewed-head-ae35c65",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/ae35c65bd967281f343aed48c3724075eedb31a2",
+      "role": "Initial reviewed PR head; unsigned and attributed only to an unlinked project role label",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T06:39:02Z",
+      "commit_sha": "ae35c65bd967281f343aed48c3724075eedb31a2",
+      "tree_sha": "8f64bfa7ab05417fe05e8716451cf69dcecc2b88",
+      "parent_sha": "5287316441bab35f7486a5191928dbec3a30e331",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-review-private-routes-5624911048",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5624911048",
+      "role": "Changes-required review identifying two exact private-target parent routes and requesting matching guard coverage",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T06:53:16Z",
+      "ref": "ae35c65bd967281f343aed48c3724075eedb31a2",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-private-route-repair-224f687",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/224f6876eb75f3623215f38d008b5e3559c69981",
+      "role": "Direct-child repair matching the first review's route deferrals and guard request",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T06:56:17Z",
+      "commit_sha": "224f6876eb75f3623215f38d008b5e3559c69981",
+      "tree_sha": "a358c10aa21b24ddf44a212d2d2fc60dc164feb3",
+      "parent_sha": "ae35c65bd967281f343aed48c3724075eedb31a2",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-review-python-format-5625110008",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5625110008",
+      "role": "Changes-required review reporting the changed guard's pinned-format failure",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:17:23Z",
+      "ref": "224f6876eb75f3623215f38d008b5e3559c69981",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-python-format-repair-a3d5812",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+      "role": "Direct-child formatting repair changing only the guard file named by the second review",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:17:58Z",
+      "commit_sha": "a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+      "tree_sha": "643affb61e7750facfd41046feb52d51142575a8",
+      "parent_sha": "224f6876eb75f3623215f38d008b5e3559c69981",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-review-release-recipe-5625196701",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5625196701",
+      "role": "Changes-required review identifying the remaining routed whole-workspace release recipe and requesting a focused regression",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:27:06Z",
+      "ref": "a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-release-recipe-repair-d3f5008",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/d3f5008b0242a2661623593dfde0cbca0fa5cc7d",
+      "role": "Direct-child repair restoring the exact plain release recipe and adding the requested regression guard",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:30:12Z",
+      "commit_sha": "d3f5008b0242a2661623593dfde0cbca0fa5cc7d",
+      "tree_sha": "7f17b520fa7556b35b94a0c03a324057e2215953",
+      "parent_sha": "a3d5812181471893d69dc19aa1c5a0f1e8d0437b",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-approval-5625444826",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/504#pullrequestreview-5625444826",
+      "role": "Final approval confirming the two substantive findings and formatting failure are resolved under the owner-provided task and repository authority",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:54:31Z",
+      "ref": "d3f5008b0242a2661623593dfde0cbca0fa5cc7d",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-merge-bea9caf",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/bea9caf84e5daea61fbd7903589780dd11243862",
+      "role": "GitHub-signed merge landed by the same public PR author 22 seconds after final approval",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:54:53Z",
+      "commit_sha": "bea9caf84e5daea61fbd7903589780dd11243862",
+      "tree_sha": "7f17b520fa7556b35b94a0c03a324057e2215953",
+      "parent_shas": [
+        "45eb7daac12b6611d5fdc1681f4c05fff8fba143",
+        "d3f5008b0242a2661623593dfde0cbca0fa5cc7d"
+      ],
+      "observed_at": "2026-10-23T11:45:21Z"
+    },
+    {
+      "id": "original-swallowtail-pr504-timeline",
+      "url": "https://api.github.com/repos/inflatable-cookie/swallowtail/issues/504/timeline",
+      "role": "Public issue timeline preserving the interleaved review, repair, approval and merge chronology",
+      "published": "2026-10-23",
+      "observed_at": "2026-10-23T11:45:21Z"
     }
   ]
 }

@@ -8821,12 +8821,94 @@
     },
     {
       "id": "original-ai-dlc-current-plan-4f17514",
-      "url": "https://github.com/euron8/ai-dlc/blob/1c2fefc6202ca97f780a2af5bf66a76eb98fda95/docs/plans/graph-ledger-full-drain.md",
+      "url": "https://github.com/euron8/ai-dlc/blob/8649dfce5b571611856e2ce4120a7d5cb5f766ad/docs/plans/graph-ledger-full-drain.md",
       "role": "Current byte-identical plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
-      "ref": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
+      "ref": "8649dfce5b571611856e2ce4120a7d5cb5f766ad",
       "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
       "bytes": 148670,
-      "observed_at": "2026-10-23T01:46:30Z"
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0916-8649dfc",
+      "url": "https://github.com/euron8/ai-dlc/commit/8649dfce5b571611856e2ce4120a7d5cb5f766ad",
+      "role": "Latest batch-240 source release explicitly closing no PC ID and publishing no durable graph-side event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T01:52:33Z",
+      "commit_sha": "8649dfce5b571611856e2ce4120a7d5cb5f766ad",
+      "tree_sha": "aea2069433c93259c0aab6903796cdd14f31b316",
+      "parent_sha": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-renewable-binding-64e3849",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/64e3849814c20abe49a06331937aaf4a817b637c",
+      "role": "Signed post-Handoff-002 implementation commit preserving disabled credential defaults and denying live identity exchange or execution",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T18:40:49Z",
+      "commit_sha": "64e3849814c20abe49a06331937aaf4a817b637c",
+      "tree_sha": "71596f8aba8c0fbfb379721670d33100656562c3",
+      "parent_sha": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-disabled-job-identity-3f865d1",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/3f865d10f93d9de15af47e2fbc29790f6757d752",
+      "role": "Signed disabled-by-default identity-acquisition commit expressly denying mappings, token requests, runner registration or production enablement",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T18:48:38Z",
+      "commit_sha": "3f865d10f93d9de15af47e2fbc29790f6757d752",
+      "tree_sha": "6754ab474daadb9ad024a8cb2083d91baf112b2b",
+      "parent_sha": "64e3849814c20abe49a06331937aaf4a817b637c",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-paused-identity-bootstrap-e894a5c",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/e894a5c0edcc2c9f245a698d418f4ee5cb66a50a",
+      "role": "Signed hash-pinned paused bootstrap commit expressly denying real issuance, identity requests, provider calls, access changes or production activation",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T18:53:35Z",
+      "commit_sha": "e894a5c0edcc2c9f245a698d418f4ee5cb66a50a",
+      "tree_sha": "47a47f8e2b4c8b18f28cb7856ed2748e22941376",
+      "parent_sha": "3f865d10f93d9de15af47e2fbc29790f6757d752",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-disabled-private-source-a3ea034",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/a3ea03442ea63ea6f36e73a5a764e6ef50890875",
+      "role": "Signed disabled private-source implementation commit expressly denying live credential use or activation",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T01:25:27Z",
+      "commit_sha": "a3ea03442ea63ea6f36e73a5a764e6ef50890875",
+      "tree_sha": "ee6d7f30ba9309d793f2887e2fefb937393c6afe",
+      "parent_sha": "e894a5c0edcc2c9f245a698d418f4ee5cb66a50a",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-disabled-app-credential-f045659",
+      "url": "https://github.com/timbrydges/timscodefactory/commit/f0456590242dee3ff2b99f10589570ad7d334382",
+      "role": "Signed offline credential-framing commit expressly denying actual signing or live activation",
+      "published": "2026-10-21",
+      "event_at": "2026-10-21T01:30:34Z",
+      "commit_sha": "f0456590242dee3ff2b99f10589570ad7d334382",
+      "tree_sha": "a7cf71bc94c79f300bbc23ca9d6dba63741b0e48",
+      "parent_sha": "a3ea03442ea63ea6f36e73a5a764e6ef50890875",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-credential-renewal-status-19c3214",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/f0456590242dee3ff2b99f10589570ad7d334382/docs/development-credential-renewal.md",
+      "role": "Current public status preserving disabled defaults and separate approval requirements for live identity configuration and activation",
+      "ref": "f0456590242dee3ff2b99f10589570ad7d334382",
+      "blob_sha": "19c3214464a34a6b347952b2419f7234a10aa3d1",
+      "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-timscodefactory-private-source-status-64e3758",
+      "url": "https://github.com/timbrydges/timscodefactory/blob/f0456590242dee3ff2b99f10589570ad7d334382/docs/private-source-access-v1.json",
+      "role": "Current public status saying access setup exists while credential use and source fetch remain unauthorized and production changes remain zero",
+      "ref": "f0456590242dee3ff2b99f10589570ad7d334382",
+      "blob_sha": "64e3758e9700a0c02bcb541293658d043eb204db",
+      "observed_at": "2026-10-23T03:30:37Z"
     },
     {
       "id": "original-pneumovax-postcontrol-head-2fdb48e",

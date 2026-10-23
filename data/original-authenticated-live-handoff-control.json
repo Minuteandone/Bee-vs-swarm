@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "Original authenticated live handoff control",
-  "assessed_on": "2026-10-20",
-  "observed_at": "2026-10-20T07:57:44Z",
+  "assessed_on": "2026-10-22",
+  "observed_at": "2026-10-23T03:30:37Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the saved content-addressed sender/recipient cursors, inspect a public signed live Builder-to-Inspector-to-QA record before novelty checking, and test whether distinguishable provider-role executions crossed an operator-defined authorization boundary.",
   "safety": {
@@ -333,6 +333,70 @@
       "ai_identity_status": "The owner-published envelopes name three provider/model calls, distinct producer services, one transport invocation each, request/output/provider-response digests, and an ordered receipt chain. This is stronger than prose-only role labels but remains attestation from the owner's system rather than independent provider or operator proof.",
       "provider_attribution_status": "Supported by project-signed runtime records and the public operator report; not independently confirmed by provider-owned records in the checked scope."
     },
+    "post_snapshot_cursor": {
+      "base_sha": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+      "head_sha": "f0456590242dee3ff2b99f10589570ad7d334382",
+      "head_tree_sha": "a7cf71bc94c79f300bbc23ca9d6dba63741b0e48",
+      "compare_url": "https://github.com/timbrydges/timscodefactory/compare/00cbe90817a7f76790ebadaf7f8159dd1d7547a4...f0456590242dee3ff2b99f10589570ad7d334382",
+      "observed_at": "2026-10-23T03:30:37Z",
+      "ahead_by": 5,
+      "changed_paths": 20,
+      "signed_linear_commits": [
+        {
+          "sha": "64e3849814c20abe49a06331937aaf4a817b637c",
+          "tree_sha": "71596f8aba8c0fbfb379721670d33100656562c3",
+          "parent_sha": "00cbe90817a7f76790ebadaf7f8159dd1d7547a4",
+          "event_at": "2026-10-20T18:40:49Z",
+          "url": "https://github.com/timbrydges/timscodefactory/commit/64e3849814c20abe49a06331937aaf4a817b637c",
+          "sanitized_assessment": "Carries an operator-owned renewable-credential binding through runner entrypoints while preserving disabled defaults; the record expressly denies identity exchange, runner registration, infrastructure change or live execution."
+        },
+        {
+          "sha": "3f865d10f93d9de15af47e2fbc29790f6757d752",
+          "tree_sha": "6754ab474daadb9ad024a8cb2083d91baf112b2b",
+          "parent_sha": "64e3849814c20abe49a06331937aaf4a817b637c",
+          "event_at": "2026-10-20T18:48:38Z",
+          "url": "https://github.com/timbrydges/timscodefactory/commit/3f865d10f93d9de15af47e2fbc29790f6757d752",
+          "sanitized_assessment": "Adds disabled-by-default job-identity acquisition and bounded transport policy; the record expressly denies mappings, runner registration, token requests or production enablement."
+        },
+        {
+          "sha": "e894a5c0edcc2c9f245a698d418f4ee5cb66a50a",
+          "tree_sha": "47a47f8e2b4c8b18f28cb7856ed2748e22941376",
+          "parent_sha": "3f865d10f93d9de15af47e2fbc29790f6757d752",
+          "event_at": "2026-10-20T18:53:35Z",
+          "url": "https://github.com/timbrydges/timscodefactory/commit/e894a5c0edcc2c9f245a698d418f4ee5cb66a50a",
+          "sanitized_assessment": "Adds a hash-pinned, paused identity bootstrap; the record expressly denies real issuance admission, identity requests, provider calls, access changes or production activation."
+        },
+        {
+          "sha": "a3ea03442ea63ea6f36e73a5a764e6ef50890875",
+          "tree_sha": "ee6d7f30ba9309d793f2887e2fefb937393c6afe",
+          "parent_sha": "e894a5c0edcc2c9f245a698d418f4ee5cb66a50a",
+          "event_at": "2026-10-21T01:25:27Z",
+          "url": "https://github.com/timbrydges/timscodefactory/commit/a3ea03442ea63ea6f36e73a5a764e6ef50890875",
+          "sanitized_assessment": "Adds disabled private-source acquisition scaffolding; the record expressly denies live credential use or activation."
+        },
+        {
+          "sha": "f0456590242dee3ff2b99f10589570ad7d334382",
+          "tree_sha": "a7cf71bc94c79f300bbc23ca9d6dba63741b0e48",
+          "parent_sha": "a3ea03442ea63ea6f36e73a5a764e6ef50890875",
+          "event_at": "2026-10-21T01:30:34Z",
+          "url": "https://github.com/timbrydges/timscodefactory/commit/f0456590242dee3ff2b99f10589570ad7d334382",
+          "sanitized_assessment": "Adds offline credential framing and a fingerprint-bound signer adapter; the record expressly denies actual signing or live activation."
+        }
+      ],
+      "current_public_status_records": [
+        {
+          "url": "https://github.com/timbrydges/timscodefactory/blob/f0456590242dee3ff2b99f10589570ad7d334382/docs/development-credential-renewal.md",
+          "blob_sha": "19c3214464a34a6b347952b2419f7234a10aa3d1",
+          "sanitized_assessment": "The public status says no executable host selects the offline component, defaults remain disabled and live identity configuration and activation still require separate approval."
+        },
+        {
+          "url": "https://github.com/timbrydges/timscodefactory/blob/f0456590242dee3ff2b99f10589570ad7d334382/docs/private-source-access-v1.json",
+          "blob_sha": "64e3758e9700a0c02bcb541293658d043eb204db",
+          "sanitized_assessment": "The public status says access setup exists but credential use and source fetch remain unauthorized, holds are preserved and production changes are zero."
+        }
+      ],
+      "assessment": "The five post-snapshot commits are a single-owner, signed, linear implementation sequence for disabled identity, credential and private-source paths. Their commit messages and current status records explicitly deny live issuance, token requests, provider calls, source fetch, signing and production activation. They add no new sender-to-recipient use, independent operator or authorization crossing and strengthen the designed-control alternative rather than a rogue-swarm hypothesis."
+    },
     "assessment": "High-confidence original Builder-to-Inspector-to-QA transfer and semantic-use control; explicitly owner-authorized, preassigned, bounded, unchanged-baseline, no-dispatch workflow; not a rogue-swarm candidate."
   },
   "alternative_hypotheses": [
@@ -400,7 +464,28 @@
     },
     "github_issue_results": "The exact status and digest queries returned zero. The task-ID query surfaced one unrelated issue through search tokenization; the exact phrase was absent from its issue body. The broad phrase returned zero.",
     "web_result": "No exact independent account of this chain was located; returned pages were generic software-factory discussions or unrelated uses of '002'.",
-    "result": "No independent coordination report located in the checked scope as of 20 October 2026. The originating project itself publicly documents the episode, so this bounded result does not make it unreported or novel, and explicit authorization excludes it from the discovery target.",
+    "result": "No independent coordination report located in the checked scope as of 22 October 2026. The originating project itself publicly documents the episode, so this bounded result does not make it unreported or novel, and explicit authorization excludes it from the discovery target.",
+    "post_snapshot_update": {
+      "github_commit_queries": [
+        {
+          "query": "f0456590242dee3ff2b99f10589570ad7d334382",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "\"No actual signing or live activation authorized\"",
+          "rows": 1,
+          "classification": "origin commit only"
+        }
+      ],
+      "web_queries": [
+        "\"f0456590242dee3ff2b99f10589570ad7d334382\"",
+        "\"No actual signing or live activation authorized\"",
+        "\"No live credential use or activation\" \"timscodefactory\""
+      ],
+      "relevant_results": 0,
+      "classification": "The exact GitHub searches locate only the originating commit. Scoped web results are unrelated credential-workflow pages and do not describe this chain as an independent coordination episode."
+    },
     "limitation": "Search coverage is bounded and volatile. It does not prove universal absence, independent provider identity, rogue behavior, or a swarm."
   },
   "evidence_that_would_advance": [
@@ -411,6 +496,8 @@
     "More receipts, same-owner handoffs, provider labels, disabled observations, schemas, tests, or designed stages do not advance this lead."
   ],
   "next_exact_cursors": [
+    "first public default-branch commit after f0456590242dee3ff2b99f10589570ad7d334382",
+    "first public live identity, credential, private-source fetch, signing or activation record causally linked to Handoff 002",
     "\"predecessor_receipt_digest\" \"producer_identity\" \"candidate_digest\" \"gate_authority\"",
     "\"provider_response_digest\" \"recipient_action_commit\" \"operator_id\"",
     "\"receipt_digest\" \"downstream_verdict\" \"source_operator\" \"recipient_operator\""
@@ -422,7 +509,7 @@
     "authorization_crossing": "contradicted by explicit owner approval and designed role scopes",
     "provider_attribution": "project-attested, not independently provider-attested",
     "subjective_intent": "not established",
-    "current_activity": "not established; checked evidence is completed, expired, non-reusable, and disabled",
+    "current_activity": "not established; the historical handoff is completed, expired and non-reusable, while the five later implementation commits and current status records expressly keep identity, credential and private-source paths disabled or separately unauthorized",
     "candidate_status": "excluded designed control",
     "confirmed_previously_unreported_rogue_swarms": 0
   }

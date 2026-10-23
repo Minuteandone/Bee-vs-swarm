@@ -9701,6 +9701,103 @@
       "tree_sha": "63d71277b379acfa0d02b0e87139a6600a6e8884",
       "parent_sha": "e6c698f938c335c97e2df954f4371c522079238c",
       "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-osa-proof-runtime-a321fd2",
+      "url": "https://github.com/HazEOskA/osa-proof/commit/a321fd2b26b723e1fa8d4a26911828ec15b87b08",
+      "role": "Slice 2 runtime commit implementing execution-bound evidence and sealed receipts used by the later static console snapshot",
+      "published": "2026-09-28",
+      "event_at": "2026-09-28T20:44:15Z",
+      "commit_sha": "a321fd2b26b723e1fa8d4a26911828ec15b87b08",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-osa-proof-console-850a249",
+      "url": "https://github.com/HazEOskA/osa-proof/commit/850a249a04d1e24f08f8f34d4337f7af1298e924",
+      "role": "Commit publishing the static three-run tracing console and explicitly identifying example executors and lack of API wiring",
+      "published": "2026-09-29",
+      "event_at": "2026-09-29T12:03:33Z",
+      "commit_sha": "850a249a04d1e24f08f8f34d4337f7af1298e924",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-osa-proof-static-trace-6078bca",
+      "url": "https://github.com/HazEOskA/osa-proof/blob/850a249a04d1e24f08f8f34d4337f7af1298e924/apps/web/console/index.html",
+      "role": "Embedded original planner-to-builder execution trace with ordered handoff, evidence hashes, downstream use and proof receipt",
+      "published": "2026-09-29",
+      "blob_sha": "6078bcabb18f5e9707497e83568e3f7a01b8c544",
+      "record_created_at": "2026-09-28T09:21:00.000Z",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-osa-proof-protocol-v2-a321fd2",
+      "url": "https://github.com/HazEOskA/osa-proof/blob/a321fd2b26b723e1fa8d4a26911828ec15b87b08/docs/PROOF_PROTOCOL_V2.md",
+      "role": "Primary protocol stating that same-process verifier provenance does not establish external trust",
+      "published": "2026-09-28",
+      "ref": "a321fd2b26b723e1fa8d4a26911828ec15b87b08",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-osa-proof-fixture-server-a321fd2",
+      "url": "https://github.com/HazEOskA/osa-proof/blob/a321fd2b26b723e1fa8d4a26911828ec15b87b08/apps/api/src/server.ts",
+      "role": "Primary source defining the project fixture planner and builder and their deliberate upstream-input flow",
+      "published": "2026-09-28",
+      "ref": "a321fd2b26b723e1fa8d4a26911828ec15b87b08",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-935-0-c9dea46",
+      "url": "https://github.com/euron8/ai-dlc/commit/c9dea46c22ae9f22155f790cd7367b1edfdde47f",
+      "role": "Same-custodian source and fixture release with no public graph-side sender, recipient or use event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T18:34:48Z",
+      "commit_sha": "c9dea46c22ae9f22155f790cd7367b1edfdde47f",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-936-0-ced2899",
+      "url": "https://github.com/euron8/ai-dlc/commit/ced2899db49d49ef09bbcea7538ce57ec0e18317",
+      "role": "Same-custodian validator and process release with no public graph-side sender, recipient or use event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T20:32:07Z",
+      "commit_sha": "ced2899db49d49ef09bbcea7538ce57ec0e18317",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-937-0-f47915c",
+      "url": "https://github.com/euron8/ai-dlc/commit/f47915c093b666a633d79ab073b05ab0be540bbe",
+      "role": "Same-custodian remediator and fixture release with no public graph-side sender, recipient or use event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T21:02:19Z",
+      "commit_sha": "f47915c093b666a633d79ab073b05ab0be540bbe",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-938-0-9e3565f",
+      "url": "https://github.com/euron8/ai-dlc/commit/9e3565f562629a7567034ab00bf0d16f4053c627",
+      "role": "Same-custodian fixture-efficiency release with no public graph-side sender, recipient or use event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T22:26:48Z",
+      "commit_sha": "9e3565f562629a7567034ab00bf0d16f4053c627",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-939-0-d69bd35",
+      "url": "https://github.com/euron8/ai-dlc/commit/d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+      "role": "Same-custodian recorded-PASS engine and validator release with no public graph-side sender, recipient or use event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T23:08:10Z",
+      "commit_sha": "d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+      "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-ai-dlc-current-plan-d69bd35",
+      "url": "https://github.com/euron8/ai-dlc/blob/d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0/docs/plans/graph-ledger-full-drain.md",
+      "role": "Current project-owned plan and evidence cursor retained as data rather than instructions",
+      "published": "2026-10-23",
+      "ref": "d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+      "blob_sha": "b9b239679bf4fd2a5ea7f93e67bf30941409d54a",
+      "observed_at": "2026-10-23T23:28:22Z"
     }
   ]
 }

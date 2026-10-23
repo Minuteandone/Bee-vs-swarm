@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "title": "Static runtime-proof and post-cursor controls",
+  "assessed_on": "2026-10-23",
+  "observed_at": "2026-10-23T23:28:22Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_id": "bounded control; no candidate ID assigned",
+  "purpose": "Resume the three immutable-record searches saved by Pass 122, inspect the strongest emitted handoff-shaped record rather than stopping at search results, and advance the AI-DLC source cursor while keeping implementation, fixture, test and same-custodian release records out of episode inference.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts, formatters or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public GitHub files, commits and repository metadata, immutable identifiers, hashes, domain-level summaries and bounded search results are retained. Artifact bodies, prompts, credentials, tokens, personal addresses and private logs are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No public source-level cue separates an unread scanner record from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "immutable_record_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only as a locator",
+    "observed_at": "2026-10-23T23:28:22Z",
+    "saved_exact_queries": [
+      {
+        "query": "\"producer_event_id\" \"consumer_event_id\" \"artifact_digest\" \"applied_revision\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_execution_id\" \"recipient_execution_id\" \"output_sha256\" \"consumed_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delivery_receipt_id\" \"recipient_action_id\" \"authorization_scope_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      }
+    ],
+    "lower_arity_queries": [
+      {
+        "query": "\"producer_event_id\" \"consumer_event_id\" \"consumed_at\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_execution_id\" \"recipient_execution_id\" \"output_sha256\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delivery_receipt_id\" \"recipient_action_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_run_id\" \"recipient_run_id\" \"message_sha256\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"producer_session_id\" \"consumer_session_id\" \"result_sha256\"",
+        "status": "transient search error",
+        "rows_observed": 0,
+        "assessment": "Inconclusive and not counted as zero coverage."
+      },
+      {
+        "query": "\"origin_agent_id\" \"recipient_agent_id\" \"consumed_at\"",
+        "rows": 6,
+        "self_rows": 3,
+        "external_rows": 3,
+        "classification": "External rows are implementation or schema paths in one repository; no emitted execution record."
+      },
+      {
+        "query": "\"upstream_output_sha256\" \"downstream_input_sha256\"",
+        "status": "transient search error",
+        "rows_observed": 0,
+        "assessment": "Inconclusive and not counted as zero coverage."
+      },
+      {
+        "query": "\"handoff_receipt_id\" \"application_commit\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"task_result_sha256\" \"recipient_run_id\" \"applied_at\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_artifact_sha256\" \"recipient_action_id\"",
+        "rows": 2,
+        "self_rows": 2,
+        "external_rows": 0
+      },
+      {
+        "query": "\"producer_trajectory_id\" \"recipient_trajectory_id\" \"used_at\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_execution_id\" \"receiver_execution_id\" \"result_digest\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "broader_field_queries": [
+      {
+        "query": "\"from_agent_id\" \"to_agent_id\" \"content_sha256\"",
+        "rows": 37,
+        "self_rows": 3,
+        "external_rows": 34,
+        "external_repositories": 18,
+        "classification": "Schemas, storage and workflow implementations, demo seeds, tests and one embedded OSA Proof execution snapshot. The snapshot was advanced to original-file and generating-commit review below."
+      },
+      {
+        "query": "\"sender_agent_id\" \"receiver_agent_id\" \"artifact_sha256\"",
+        "rows": 3,
+        "self_rows": 1,
+        "external_rows": 2,
+        "classification": "One benchmark implementation and one integration test."
+      },
+      {
+        "query": "\"source_agent_id\" \"target_agent_id\" \"result_digest\"",
+        "rows": 8,
+        "self_rows": 5,
+        "external_rows": 3,
+        "classification": "API contract, schema and implementation paths; no emitted execution record."
+      },
+      {
+        "query": "\"producer_agent_id\" \"consumer_agent_id\" \"used_at\"",
+        "rows": 13,
+        "self_rows": 13,
+        "external_rows": 0
+      },
+      {
+        "query": "\"handoff_id\" \"received_at\" \"applied_at\" \"artifact_sha256\"",
+        "rows": 5,
+        "self_rows": 2,
+        "external_rows": 3,
+        "classification": "External rows are schemas or implementation paths."
+      },
+      {
+        "query": "\"message_id\" \"recipient_agent_id\" \"action_commit\"",
+        "rows": 3,
+        "self_rows": 3,
+        "external_rows": 0
+      },
+      {
+        "query": "\"task_result_id\" \"consumed_by\" \"commit_sha\"",
+        "rows": 3,
+        "self_rows": 3,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delegated_by\" \"accepted_by\" \"result_sha256\"",
+        "rows": 2,
+        "self_rows": 2,
+        "external_rows": 0
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "assessment": "The three saved queries and most exact lower-arity hits resolve only to this project's prior snapshots. Self rows were excluded before external inference."
+    }
+  },
+  "selected_original_control": {
+    "repository": "HazEOskA/osa-proof",
+    "repository_url": "https://github.com/HazEOskA/osa-proof",
+    "runtime_commit": {
+      "url": "https://github.com/HazEOskA/osa-proof/commit/a321fd2b26b723e1fa8d4a26911828ec15b87b08",
+      "commit_sha": "a321fd2b26b723e1fa8d4a26911828ec15b87b08",
+      "event_at": "2026-09-28T20:44:15Z",
+      "role": "Introduces the Slice 2 content-addressed evidence and sealed-receipt implementation from which the console snapshot says its three records were produced."
+    },
+    "console_commit": {
+      "url": "https://github.com/HazEOskA/osa-proof/commit/850a249a04d1e24f08f8f34d4337f7af1298e924",
+      "commit_sha": "850a249a04d1e24f08f8f34d4337f7af1298e924",
+      "event_at": "2026-09-29T12:03:33Z",
+      "changed_paths": [
+        "apps/web/README.md",
+        "apps/web/console/index.html"
+      ],
+      "role": "Publishes the embedded trace and expressly calls it a static snapshot of three sealed runs made with example executors, not wired to the API."
+    },
+    "embedded_verified_run": {
+      "public_file": "https://github.com/HazEOskA/osa-proof/blob/850a249a04d1e24f08f8f34d4337f7af1298e924/apps/web/console/index.html",
+      "run_id": "run_6101dd364aefa2249058d90f",
+      "execution_id": "exec_f73d431f-5087-412a-a355-c016bc06353a",
+      "record_created_at": "2026-09-28T09:21:00.000Z",
+      "graph_summary": "One project-owned two-role graph contains a planner-to-builder handoff edge. The ordered event stream records planner evidence, HANDOFF_CREATED, builder start, builder artifact evidence and a verified receipt.",
+      "downstream_use": "The final output retains the planner result under an upstream field while the builder produces the bounded synthetic artifact. This is a concrete within-runtime task-result dependency, not a similarity inference.",
+      "planner_evidence_sha256": "b5312892765aa0503e23762e89b48607b637f455501ae16632d9d1154281db66",
+      "builder_evidence_sha256": "46a12e31b3438de4aecbfcaf41020d3e2d95ad1bcd6713f74bc27afecf494c00",
+      "builder_content_sha256": "4b0ea111282df7438cb5c6d3e17d3dd0accf4c0c91e15cd5de0aa1f7f2ec660e",
+      "final_output_sha256": "ff9481445a64bdb1453610d917d4b3cb3ea0abb20eeb8b856dffa945ee13e663",
+      "receipt_sha256": "75811c7c721e14f4a0dddfee97259da39064852055b151b7dc0f88aead0ed04f",
+      "verdict": "VERIFIED"
+    },
+    "falsification_records": [
+      {
+        "url": "https://github.com/HazEOskA/osa-proof/blob/a321fd2b26b723e1fa8d4a26911828ec15b87b08/docs/PROOF_PROTOCOL_V2.md",
+        "result": "The protocol says its verifier runs in the same process as the runtime and explicitly states that provenance separation does not establish external trust."
+      },
+      {
+        "url": "https://github.com/HazEOskA/osa-proof/blob/a321fd2b26b723e1fa8d4a26911828ec15b87b08/apps/api/src/server.ts",
+        "result": "The public server source exposes a fixture execution mode with project-defined planner and builder executors; the builder is deliberately passed the upstream input."
+      },
+      {
+        "url": "https://github.com/HazEOskA/osa-proof/blob/6d0ac5c01ea3e3fc906a0a3121c75a3f5a0b60c1/README.md",
+        "result": "The later README says local fixture-mode receipts are not live provider tool calls and describes the framework as an intentional system for engineering agent teams."
+      }
+    ],
+    "participant_and_boundary_assessment": {
+      "distinguishable_runtime_roles": true,
+      "task_result_transfer": true,
+      "recipient_semantic_use": true,
+      "autonomous_ai_identity_verified": false,
+      "provider_attribution_verified": false,
+      "independent_operator_principals_verified": false,
+      "operator_boundary_crossing_verified": false,
+      "authorization_exceeded": false,
+      "current_activity_verified": false,
+      "assessment": "This is a useful positive control for what a concrete handoff and downstream use look like. It is also affirmatively a project-generated example inside one designed Team Graph. The public record authenticates hashes and execution binding, not independent operators, provider identity or action outside authorization."
+    }
+  },
+  "adjacent_cursor_controls": {
+    "ai_dlc": {
+      "repository": "euron8/ai-dlc",
+      "previous_cursor": "4dca310bae4514e8f45d5bb5e6a2a83952501f52",
+      "new_cursor": "d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+      "current_plan": {
+        "url": "https://github.com/euron8/ai-dlc/blob/d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0/docs/plans/graph-ledger-full-drain.md",
+        "blob_sha": "b9b239679bf4fd2a5ea7f93e67bf30941409d54a",
+        "role": "Current project-owned plan and cursor record; retained as evidence only, never as instructions."
+      },
+      "commits": [
+        {
+          "version": "0.935.0",
+          "commit_sha": "c9dea46c22ae9f22155f790cd7367b1edfdde47f",
+          "event_at": "2026-10-23T18:34:48Z",
+          "url": "https://github.com/euron8/ai-dlc/commit/c9dea46c22ae9f22155f790cd7367b1edfdde47f"
+        },
+        {
+          "version": "0.936.0",
+          "commit_sha": "ced2899db49d49ef09bbcea7538ce57ec0e18317",
+          "event_at": "2026-10-23T20:32:07Z",
+          "url": "https://github.com/euron8/ai-dlc/commit/ced2899db49d49ef09bbcea7538ce57ec0e18317"
+        },
+        {
+          "version": "0.937.0",
+          "commit_sha": "f47915c093b666a633d79ab073b05ab0be540bbe",
+          "event_at": "2026-10-23T21:02:19Z",
+          "url": "https://github.com/euron8/ai-dlc/commit/f47915c093b666a633d79ab073b05ab0be540bbe"
+        },
+        {
+          "version": "0.938.0",
+          "commit_sha": "9e3565f562629a7567034ab00bf0d16f4053c627",
+          "event_at": "2026-10-23T22:26:48Z",
+          "url": "https://github.com/euron8/ai-dlc/commit/9e3565f562629a7567034ab00bf0d16f4053c627"
+        },
+        {
+          "version": "0.939.0",
+          "commit_sha": "d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+          "event_at": "2026-10-23T23:08:10Z",
+          "url": "https://github.com/euron8/ai-dlc/commit/d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0"
+        }
+      ],
+      "assessment": "Five linear releases modify source-side fixtures, validators, roles, process and backlog records. They close no consumer PC ID and publish no independently attributable graph-side sender, recipient or result-use event. The public custodian and batch remain the same."
+    },
+    "unchanged": [
+      {
+        "repository": "inflatable-cookie/swallowtail",
+        "cursor": "fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31"
+      },
+      {
+        "repository": "beehive-nature/beehive-nature",
+        "cursor": "22bddf3dda2a3a8a7d99eed2a77960fcc19f836d"
+      },
+      {
+        "repository": "wseternal/ssetunnel",
+        "cursor": "cd6607160b98c32f9643c8b73ed275e64682d4e8"
+      },
+      {
+        "repository": "RyanOnMe/whalepod",
+        "cursor": "07d3509"
+      }
+    ]
+  },
+  "prior_reporting_scope": {
+    "github_exact_checks": [
+      {
+        "query": "run_6101dd364aefa2249058d90f",
+        "rows": 2,
+        "repositories": [
+          "HazEOskA/osa-proof"
+        ]
+      },
+      {
+        "query": "proof_75811c7c721e14f4a0dddfee97259da39064852055b151b7dc0f88aead0ed04f",
+        "rows": 1,
+        "repositories": [
+          "HazEOskA/osa-proof"
+        ]
+      },
+      {
+        "query_description": "Exact public synthetic landing-page objective; objective text omitted under the payload-sanitization rule.",
+        "rows": 1,
+        "repositories": [
+          "HazEOskA/osa-proof"
+        ]
+      }
+    ],
+    "web_checks": [
+      "exact run identifier",
+      "exact proof identifier",
+      "exact synthetic objective with planner/builder terms"
+    ],
+    "result": "No prior coordination report was located in the checked scope as of 23 October 2026. Exact GitHub identifiers resolve only to the originating repository; web results for the synthetic objective are generic landing-page material and do not describe the record. This bounded absence does not establish novelty, and the source repository itself documents the example."
+  },
+  "alternative_explanations": [
+    {
+      "explanation": "Deliberately designed example or fixture",
+      "status": "affirmatively supported",
+      "evidence": "The console and its introducing commit call the records a static snapshot made with example executors; the README separately labels local proofs as fixture-mode rather than live provider calls."
+    },
+    {
+      "explanation": "Single-operator or single-project orchestration",
+      "status": "not excluded and favored",
+      "evidence": "Both roles are defined in one project-owned Team Graph and no independent operator principal or provider receipt appears."
+    },
+    {
+      "explanation": "Independent agents exceeded authorization",
+      "status": "not supported",
+      "evidence": "The exact handoff is the intended edge and the framework exists to run and verify that team."
+    },
+    {
+      "explanation": "Observer contamination",
+      "status": "present in query rows but excluded",
+      "evidence": "Saved query strings repeatedly matched this project's own snapshots; those rows were removed from external inference."
+    }
+  ],
+  "assessment": {
+    "plausible_previously_unreported_coordination_candidate": false,
+    "material_candidate_change": false,
+    "notification_threshold_met": false,
+    "reason": "The OSA record has an unusually complete sender, transfer and downstream-use trace, but its primary source affirmatively identifies it as a designed static example with same-process verification and no external trust. AI-DLC adds only same-custodian source releases. No independently operated participants, cross-operator boundary or action beyond authorization is established."
+  },
+  "evidence_needed_to_advance": [
+    "A public, provider- or operator-owned receipt independently binding the OSA planner and builder to distinct autonomous principals rather than example executors.",
+    "Primary evidence that the recipient operated under a separately controlled operator or authorization scope.",
+    "A content-specific recipient action outside the deliberately configured Team Graph or beyond the graph owner's authority.",
+    "For AI-DLC, a durable public graph-side sender record, matching recipient record and content-specific downstream use with independently attributable provenance."
+  ],
+  "next_cursors": [
+    {
+      "type": "AI-DLC source cursor",
+      "cursor": "first public default-branch commit after d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+      "advance_only_if": "It publishes a durable independently attributable graph-side sender, recipient and use event or materially changes operator authority."
+    },
+    {
+      "type": "OSA Proof emitted-record cursor",
+      "cursor": "first public default-branch emitted run or proof after commit 850a249a04d1e24f08f8f34d4337f7af1298e924 that is not documented as a fixture, example, test or owner-configured team",
+      "advance_only_if": "It adds independently attributable participant operators, a cross-operator authorization boundary and content-specific downstream use."
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"upstream_evidence_sha256\" \"recipient_execution_id\" \"consumption_event_id\""
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"handoff_content_sha256\" \"recipient_action_id\" \"operator_principal_id\""
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"source_operation_id\" \"destination_operation_id\" \"applied_revision\""
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "title": "Original operator-rotated session handoff and successor-use control",
   "assessed_on": "2026-10-23",
-  "observed_at": "2026-10-23T07:30:51Z",
+  "observed_at": "2026-10-23T17:47:01Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the three saved run, artifact, receipt and operator cursors; rotate through lower-arity public code records and global commit messages; and test a newly published fresh-session handoff against a historical handoff-to-use sequence in the same repository.",
   "safety": {
@@ -197,11 +197,12 @@
         "role": "Source-side record saying a graph consumer used a rehearsed verdict while named changes were merged. It also says green status is not authorization, requires the operator to initiate the pull and retains operator merge approval. The named graph repository and recipient commits were not publicly resolvable at observation time."
       },
       {
-        "record": "Current unchanged graph-ledger plan after forty-six descendants",
-        "url": "https://github.com/euron8/ai-dlc/blob/664262275d447914625c60ee91e8f89317a3b45d/docs/plans/graph-ledger-full-drain.md",
-        "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
-        "bytes": 148670,
-        "role": "Closes batch 239 after seven releases, names the operator rulings and assigned seats, says the graph's own session ran the prior pull, and starts batch 240 under another named session. The same plan preserves the graph repository as read-only to the AI-DLC lead and keeps execution and merge authority operator-governed."
+        "record": "Current rotated graph-ledger plan after fifty-eight descendants",
+        "url": "https://github.com/euron8/ai-dlc/blob/6d9218cf141299ec1876a3e7b062d25dbafcedec/docs/plans/graph-ledger-full-drain.md",
+        "blob_sha": "b9b239679bf4fd2a5ea7f93e67bf30941409d54a",
+        "sha256": "b15487afe73ff7fc2330b2b8051e9dd1b2fbb1b3349e03f704aaded8f7f6cd54",
+        "bytes": 146359,
+        "role": "Closes batch 240, rotates the earlier plan history, records explicit operator and lead rulings, and begins batch 241. It preserves the graph repository as read-only to the AI-DLC lead and keeps consumer-pull and merge authority operator-governed."
       },
       {
         "record": "Batch 238 contracts and adversary folds",
@@ -222,8 +223,8 @@
     ],
     "current_downstream_status": {
       "status": "content-specific successor use observed; designed-control classification retained",
-      "last_rechecked_at": "2026-10-23T07:30:51Z",
-      "basis": "Forty-six direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and update the plan. Releases 0.909.0 through 0.911.0 claim a consumer install, three named graph finding closures and twenty affected graph-ledger rows. Release 0.912.0 says the graph filed another named candidate uncommitted around 14:52 EDT and the source closed it at 16:15:36 EDT, an approximately 83-minute source-claimed feedback-to-fix interval. Releases 0.913.0 through 0.915.0 then expressly close no consumer push candidate, and releases 0.916.0 through 0.923.0 expressly close no PC ID. Release 0.923.0 changes nine source-side paths to mark completed story parts, surface prior operator rulings during smoke diagnosis, add a validator self-probe and file an open limitation; it publishes no durable graph-side sender, recipient or use event. Exact searches locate only the source origin, and scoped web results are unrelated. The byte-identical plan reserves the graph as read-only to the lead and preserves operator initiation, rulings and merge authority. Every descendant still uses the same public author account and web-flow committer. This sharpens the documented designed protocol but not independent participant, operator-boundary or authorization-crossing evidence.",
+      "last_rechecked_at": "2026-10-23T17:47:01Z",
+      "basis": "Fifty-eight direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and rotate the plan. Release 0.912.0 says the graph filed another named candidate uncommitted and the source closed it about 83 minutes later, so the durable sender record remains unavailable. Twelve new descendants through releases 0.924.0–0.933.0 close batch 240 and begin batch 241 using source-side process, validation, fixture, role and backlog paths; they publish no graph-side sender, recipient or use event. The rotated plan explicitly preserves operator rulings, consumer pulls and merge authority. Every descendant still uses the same public author account and web-flow committer. This sharpens the designed protocol but not independent participant, operator-boundary or authorization-crossing evidence.",
       "successor_records": [
         {
           "url": "https://github.com/euron8/ai-dlc/commit/0877fe65f98604f791765883a4d202a5b75870d4",
@@ -669,7 +670,7 @@
         "The plan says a cross-session recipient proceeds under the same operator, reports its choice in its first operator message, and remains redirectable by that operator.",
         "The current operator explicitly halted a lead and ordered the replacement handoff.",
         "The historical source, use and close commits share one public GitHub author account and GitHub's web-flow committer surface.",
-        "The current handoff and all forty-five direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
+        "The current handoff and all fifty-eight direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
         "The successor work stays inside the transferred batch, branch order, item list, checklist and rulebook authority rather than departing from them.",
         "Session labels, owner labels and model trailers are repository-authored and do not authenticate independent controlling principals."
       ]
@@ -1080,6 +1081,32 @@
       "relevant_results": 0,
       "classification": "All three exact GitHub searches return only the originating AI-DLC commit. The scoped web checks return unrelated tool, freight, product and numerical collisions rather than an independent account. Release 0.923.0 stays inside the operator-governed source workflow and publishes no inspectable graph-side event."
     },
+    "pass_121_incremental_check": {
+      "checked_on": "2026-10-23",
+      "range": "664262275d447914625c60ee91e8f89317a3b45d..6d9218cf141299ec1876a3e7b062d25dbafcedec",
+      "commits": [
+        "8336c400972b8a37e3dfb4ebf154dc7012195f5e",
+        "8cf7749b18519b60fc0357a0c37fe36f7373f810",
+        "65d51577ba39de90a971451f507419798d986723",
+        "143c92c704bea7abb4b857840fb721f66d37a416",
+        "c17de1709fb746eaa0c4bce40f68962e5844ddb8",
+        "e30a7795cde111d8350358fbd51017154cf4648e",
+        "508062b5bfe16eb7b57b3f86ce916e4e7ab19c6e",
+        "bdb9817126e6e139efc2ec129d712a1c5864410a",
+        "318ae13163b74eaf2fd6ae8b84811baf3332c34b",
+        "f1136f614f0d3217f51fe4d28bd2005324b523d5",
+        "73f3e8b39f52098fcd2445a7cfb456b574406b4e",
+        "6d9218cf141299ec1876a3e7b062d25dbafcedec"
+      ],
+      "changed_path_classes": [
+        "source-side process and operator-rule text",
+        "validation hooks and fixtures",
+        "team-role and skill definitions",
+        "release and backlog records",
+        "rotated graph-ledger plan"
+      ],
+      "classification": "Twelve linear same-custodian descendants close batch 240 and begin batch 241 through releases 0.924.0–0.933.0. The rotated plan records explicit operator rulings and continues to reserve consumer pulls and merge authority. No durable graph-side sender, recipient or downstream-use event is published, so the designed same-operator assessment is unchanged."
+    },
     "statement": "No independent coordination report located in the checked scope as of 23 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
   },
   "assessment": {
@@ -1088,7 +1115,7 @@
     "previously_unreported_rogue_swarm": false,
     "plausible_discovery_candidate": false,
     "notification_threshold_met": false,
-    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; forty-six descendants consume transferred duties, close batches 238 and 239 and continue batch 240. Release 0.912.0 claims a named graph finding was filed uncommitted and closed about 83 minutes later, but the absent durable sender record prevents independent inspection. Releases 0.913.0 through 0.915.0 explicitly close no consumer push candidate, and releases 0.916.0 through 0.923.0 explicitly close no PC ID. Release 0.923.0 remains a source-side governed release and adds no inspectable graph-side record. Every public source record uses one custodian and the byte-identical plan preserves explicit operator initiation, rulings and merge authority. The chain does not authenticate independent operators or an authorization crossing."
+    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; fifty-eight descendants consume transferred duties and continue through releases 0.924.0–0.933.0. Release 0.912.0 claims a named graph finding was filed uncommitted and closed about 83 minutes later, but the absent durable sender record prevents independent inspection. The twelve latest records remain source-side process, validation, plan, role, fixture and backlog work and add no inspectable graph-side event. Every public source record uses one custodian, while the rotated plan preserves explicit operator initiation, rulings, consumer-pull and merge authority. The chain does not authenticate independent operators or an authorization crossing."
   },
   "evidence_needed_to_advance": [
     "An independently attributable sender and recipient, with provider- or operator-owned attestations binding their exact runs to the source and successor artifacts.",
@@ -1099,7 +1126,7 @@
   "next_cursors": [
     {
       "type": "record cursor",
-      "cursor": "first public default-branch commit after 664262275d447914625c60ee91e8f89317a3b45d",
+      "cursor": "first public default-branch commit after 6d9218cf141299ec1876a3e7b062d25dbafcedec",
       "advance_only_if": "It supplies independently attributable operator or provider provenance, departs from the assigned batch authority, or closes the batch with evidence that changes the designed-control assessment."
     },
     {

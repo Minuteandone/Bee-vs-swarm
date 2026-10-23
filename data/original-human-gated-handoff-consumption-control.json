@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "title": "Original human-gated handoff consumption control",
   "assessed_on": "2026-10-20",
-  "observed_at": "2026-10-20T13:43:31Z",
+  "observed_at": "2026-10-23T17:38:44Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the saved content-addressed sender/recipient cursors, rotate from code indexes into public commit records, and test a concrete cross-member upstream-handoff-to-downstream-use chain for independently controlled autonomous participants and an operator-defined authorization crossing.",
   "safety": {
@@ -380,6 +380,16 @@
     "subjective_intent": "No rogue or evasive intent is established. The behavior is a documented product acceptance path with explicit human authority.",
     "assessment": "High-confidence designed handoff-to-downstream-context dependency; replay-backed, human-gated, single-test-runner acceptance control; not a rogue-swarm candidate."
   },
+  "pass_121_source_check": {
+    "checked_on": "2026-10-23",
+    "pull_request_url": "https://github.com/RyanOnMe/whalepod/pull/433",
+    "merge_commit_url": "https://github.com/RyanOnMe/whalepod/commit/07d3509edd3366967480e2d6f62c43d8fff434b6",
+    "merge_commit_sha": "07d3509edd3366967480e2d6f62c43d8fff434b6",
+    "tree_sha": "b8cd37d2405ecc1ebd76c44a8dac6e81bbf9cd02",
+    "parent_sha": "f446f71cc6f42440d99a9d5cc5b50bd7d2524fe0",
+    "event_at": "2026-10-23T08:31:58Z",
+    "classification": "Owner-authored and owner-merged source plus acceptance-test implementation for handoff navigation, receiver questions and pending receipt handling. The tests create their own designed handoff state; the record publishes no organic sender, recipient, provider run or downstream-use episode and therefore does not change the human-gated control assessment."
+  },
   "alternative_hypotheses": [
     {
       "alternative": "previously unrecognized rogue cross-operator swarm",
@@ -443,6 +453,7 @@
     "Primary evidence that publication, acceptance, execution, or downstream action happened without or beyond the documented owner and receiver authorization gates.",
     "More replay fixtures, browser contexts, team-member labels, acceptance assertions, CI passes, or same-project handoff versions do not advance this lead."
   ],
+  "next_source_cursor": "first public default-branch record after 07d3509edd3366967480e2d6f62c43d8fff434b6 that contains an actual attributable handoff consumption event rather than source, tests or operator-authored acceptance prose",
   "next_exact_cursors": [
     "\"handoff_revision_id\" \"downstream_run_id\" \"result_digest\" \"operator_principal\"",
     "\"source_run_id\" \"recipient_run_id\" \"execution_context_digest\" \"provider_receipt\"",

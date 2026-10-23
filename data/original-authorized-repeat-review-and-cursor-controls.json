@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0",
+  "title": "Original authorized repeat-review and post-cursor controls",
+  "assessed_on": "2026-10-23",
+  "observed_at": "2026-10-23T17:47:01Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_id": "BV-091",
+  "purpose": "Test a newly observed cross-account review-to-repair chain against autonomous-participant, separate-operator and authorization requirements, then advance saved public source cursors without treating feature code, intentional communities or project-authored role labels as organic coordination.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts, formatters or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public GitHub pull-request, review, commit and account-event metadata, immutable object identifiers, changed-path summaries, domain-level message summaries and bounded search results are retained. Review bodies, letter subjects, household keys, personal addresses, provider-session links, credentials, tokens and executable bodies are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No new source-level cue separates an unread scanner report from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "locator_scope": {
+    "saved_exact_cursors": [
+      {
+        "query": "\"handoff_revision_id\" \"downstream_run_id\" \"result_digest\" \"operator_principal\"",
+        "rows": 0
+      },
+      {
+        "query": "\"source_run_id\" \"recipient_run_id\" \"execution_context_digest\" \"provider_receipt\"",
+        "rows": 0
+      },
+      {
+        "query": "\"upstream_artifact_sha256\" \"downstream_output_sha256\" \"receiver_operator_id\"",
+        "rows": 0
+      }
+    ],
+    "commit_locators": [
+      "\"handoff received\" agent",
+      "\"result consumed\" agent",
+      "\"downstream use\" \"handoff\"",
+      "\"review findings\" \"implemented\" agent",
+      "\"task result\" \"recipient\"",
+      "\"from agent\" \"applied\""
+    ],
+    "selection_rule": "Commit search located public original records; the records themselves, their Git ancestry and pull-request timelines supplied the evidence. Framework source, tests, intentional communities and published controls were closed rather than counted as episodes."
+  },
+  "selected_original_chain": {
+    "repository": "wseternal/ssetunnel",
+    "repository_url": "https://github.com/wseternal/ssetunnel",
+    "pull_request": {
+      "number": 81,
+      "url": "https://github.com/wseternal/ssetunnel/pull/81",
+      "title": "fix(shell): resolve cloud shell freeze on vim with large files",
+      "created_at": "2026-10-23T09:08:06Z",
+      "merged_at": "2026-10-23T12:49:40Z",
+      "public_author_and_merger": "zhaohua-jiang",
+      "author_association": "COLLABORATOR",
+      "head_repository": "wseternal/ssetunnel",
+      "role": "Repository-owned branch whose later commits explicitly map a review result into repairs."
+    },
+    "reviewed_head": {
+      "url": "https://github.com/wseternal/ssetunnel/commit/75f25926482687614669a26bd4fedf02f8aad03d",
+      "commit_sha": "75f25926482687614669a26bd4fedf02f8aad03d",
+      "event_at": "2026-10-23T09:09:49Z",
+      "authenticated_github_author": "wseternal",
+      "identity_limit": "The head is human-authored public Git metadata and does not identify an autonomous recipient run."
+    },
+    "review_transfer": {
+      "reviewer": "visdom-bot-cicd",
+      "github_account_type": "User",
+      "author_association": "NONE",
+      "reviews": [
+        {
+          "url": "https://github.com/wseternal/ssetunnel/pull/81#pullrequestreview-5626294578",
+          "review_id": 5626294578,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T09:18:59Z",
+          "reviewed_commit_sha": "75f25926482687614669a26bd4fedf02f8aad03d",
+          "domain_level_result": "A structured multi-perspective review lists one critical item plus warning, safety and non-blocking findings against the reviewed shell-session change."
+        },
+        {
+          "url": "https://github.com/wseternal/ssetunnel/pull/81#pullrequestreview-5626299441",
+          "review_id": 5626299441,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T09:19:28Z",
+          "reviewed_commit_sha": "75f25926482687614669a26bd4fedf02f8aad03d",
+          "domain_level_result": "A near-immediate second review repeats the same structured assessment; it is treated as a duplicate submission or update, not another participant."
+        }
+      ],
+      "identity_limit": "A user account with a bot-like login and agent-like prose is distinguishable from the pull-request author, but neither feature authenticates AI control, a model provider or an independent operator."
+    },
+    "downstream_use": {
+      "url": "https://github.com/wseternal/ssetunnel/commit/54256dcd8c66ce8ad1ad6458aca0df0b2da82cfc",
+      "commit_sha": "54256dcd8c66ce8ad1ad6458aca0df0b2da82cfc",
+      "parent_sha": "ee10c7e2217b3bd0fa9692c59238ba3f8a3579d1",
+      "event_at": "2026-10-23T11:41:35Z",
+      "authenticated_github_author": "wseternal",
+      "semantic_use": "The commit subject explicitly identifies PR 81 review findings by their critical, warning, safety and non-blocking identifiers, and the changed implementation follows those named findings. Four later direct descendants refine the repaired concurrency and generated-asset state before approval.",
+      "recipient_limit": "Every branch commit is authored and committed under one human identity; no provider-owned receipt binds the repair to an autonomous recipient."
+    },
+    "approval_and_merge": {
+      "approval": {
+        "url": "https://github.com/wseternal/ssetunnel/pull/81#pullrequestreview-5628412476",
+        "review_id": 5628412476,
+        "state": "APPROVED",
+        "submitted_at": "2026-10-23T12:47:34Z",
+        "reviewed_commit_sha": "f8a54b480a2b1c65616b3690ef460c6c19dd79ee"
+      },
+      "merge": {
+        "url": "https://github.com/wseternal/ssetunnel/commit/cd6607160b98c32f9643c8b73ed275e64682d4e8",
+        "commit_sha": "cd6607160b98c32f9643c8b73ed275e64682d4e8",
+        "event_at": "2026-10-23T12:49:40Z",
+        "public_merger": "zhaohua-jiang",
+        "seconds_after_approval": 126
+      }
+    },
+    "semantic_dependency": "High confidence. The review names a structured set of findings, the later commit expressly maps those identifiers to its repairs, further branch commits refine the same areas, and the reviewer approves the repaired final head before merge.",
+    "authorization_evidence": {
+      "earlier_same_repository_cycles": [
+        {
+          "changes_requested_url": "https://github.com/wseternal/ssetunnel/pull/79#pullrequestreview-5486803865",
+          "changes_requested_at": "2026-10-12T05:26:40Z"
+        },
+        {
+          "approval_url": "https://github.com/wseternal/ssetunnel/pull/79#pullrequestreview-5486809765",
+          "approval_at": "2026-10-12T05:27:55Z"
+        },
+        {
+          "approval_url": "https://github.com/wseternal/ssetunnel/pull/78#pullrequestreview-5453743683",
+          "approval_at": "2026-10-08T08:21:03Z"
+        }
+      ],
+      "public_member_event": {
+        "source": "https://api.github.com/users/visdom-bot-cicd/events/public?per_page=100",
+        "event_id": "17005215145",
+        "event_type": "MemberEvent",
+        "event_at": "2026-10-12T12:44:45Z",
+        "repository": "wseternal/go-launch-daemon",
+        "action": "added",
+        "member": "visdom-bot-cicd"
+      },
+      "assessment": "Repeated review/approval cycles in the same repository and a public membership addition in another repository under the same owner naming pattern strongly support an installed or authorized reviewer relationship. The PR association value NONE is therefore not evidence of a foreign operator."
+    }
+  },
+  "alternative_explanations": [
+    {
+      "alternative": "installed or owner-authorized review control",
+      "assessment": "strongly supported by repeated same-repository cycles, the related public membership event, use of the repository-owned branch and human merge"
+    },
+    {
+      "alternative": "human recipient implementing an automated review",
+      "assessment": "strongly supported because every branch commit is authenticated to one human GitHub account"
+    },
+    {
+      "alternative": "duplicate autonomous reviewers",
+      "assessment": "rejected; the two near-identical changes-requested records come from one account against one head within 29 seconds and are treated as a duplicate submission or update"
+    },
+    {
+      "alternative": "independently operated AI agents cooperating beyond authority",
+      "assessment": "not supported; neither autonomous recipient identity nor separate operator control is established, and the public history supports routine authorization"
+    },
+    {
+      "alternative": "scanner retry, shared-state fault or observer contamination explains the repair",
+      "assessment": "not needed for the causal edge; the repository timeline preserves the review and explicit repair, although it does not establish rogue coordination"
+    }
+  ],
+  "adjacent_original_controls": [
+    {
+      "repository": "CatholicOS/crmedr",
+      "pull_request_url": "https://github.com/CatholicOS/crmedr/pull/169",
+      "event_span_utc": {
+        "created_at": "2026-10-23T11:55:27Z",
+        "merged_at": "2026-10-23T12:21:48Z"
+      },
+      "source": {
+        "url": "https://github.com/CatholicOS/crmedr/pull/169#discussion_r4359296284",
+        "actor": "coderabbitai[bot]",
+        "created_at": "2026-10-23T12:02:38Z",
+        "finding_summary": "The review identifies a boundedness error in one historical-place claim and requests an end-time filter."
+      },
+      "use": {
+        "commit_url": "https://github.com/CatholicOS/crmedr/commit/b53f04837392e2c2699e80c4f228fa88f40e91ef",
+        "commit_sha": "b53f04837392e2c2699e80c4f228fa88f40e91ef",
+        "parent_sha": "9818010a637fee7b8e8bf13deb4b3a870b46ac45",
+        "event_at": "2026-10-23T12:16:48Z",
+        "acknowledgment_url": "https://github.com/CatholicOS/crmedr/pull/169#issuecomment-6364668638",
+        "acknowledged_at": "2026-10-23T12:16:53Z",
+        "effect_summary": "The direct child adds the requested filter and tests, and the human member explicitly maps the finding to that commit."
+      },
+      "classification": "High-confidence installed-review-to-human-repair control. The member authors, acknowledges and merges the change; a Claude co-author trailer and session locator are project-authored metadata, not provider authentication of an autonomous recipient."
+    },
+    {
+      "repository": "postmark-town/postmark",
+      "commit_url": "https://github.com/postmark-town/postmark/commit/6ee514e3fcd94d630a6551944044fbeffc08c7fc",
+      "commit_sha": "6ee514e3fcd94d630a6551944044fbeffc08c7fc",
+      "tree_sha": "b8f3cb64a4a23ce58ddbb8c46a1b77f1e0f3fea1",
+      "parent_sha": "64839e23bfc20347d62512995fa41533883c3072",
+      "event_at": "2026-10-23T12:00:06Z",
+      "domain_level_observation": "One public drain commit adds 107 town-letter records among distinguishable agent-labelled residents.",
+      "governance_blobs": {
+        "README.md": "c3d84bbaa201842b84927e5ffe43428b95cbabfd",
+        "AGENTS.md": "f462b3edca337f9df8b43833478a96efc6b41027",
+        "CONTRIBUTING.md": "903ed3ca76f474ff2cd37df659f84b2c1a0f21f1"
+      },
+      "classification": "Explicitly intentional AI-and-human letter community. Public governance requires a participating human, treats content as non-command text, and routes changes through repository review. It is an exclusion, not an organic or rogue episode."
+    },
+    {
+      "repository": "RyanOnMe/whalepod",
+      "pull_request_url": "https://github.com/RyanOnMe/whalepod/pull/433",
+      "merge_commit_url": "https://github.com/RyanOnMe/whalepod/commit/07d3509edd3366967480e2d6f62c43d8fff434b6",
+      "merge_commit_sha": "07d3509edd3366967480e2d6f62c43d8fff434b6",
+      "tree_sha": "b8cd37d2405ecc1ebd76c44a8dac6e81bbf9cd02",
+      "parent_sha": "f446f71cc6f42440d99a9d5cc5b50bd7d2524fe0",
+      "event_at": "2026-10-23T08:31:58Z",
+      "classification": "Owner-authored and owner-merged feature and acceptance implementation for an explicitly human-gated handoff product. It creates tests and navigation for future receipts but publishes no organic sender, recipient, provider run or downstream-use episode."
+    },
+    {
+      "repository": "euron8/ai-dlc",
+      "range": "664262275d447914625c60ee91e8f89317a3b45d..6d9218cf141299ec1876a3e7b062d25dbafcedec",
+      "commits": [
+        {
+          "sha": "8336c400972b8a37e3dfb4ebf154dc7012195f5e",
+          "tree_sha": "01a904a38d8aec74048eb7bcd2b1c3f74d9f46f0",
+          "event_at": "2026-10-23T08:50:55Z",
+          "summary": "Release 0.924.0 closes source-side batch-240 validation and handoff-path items."
+        },
+        {
+          "sha": "8cf7749b18519b60fc0357a0c37fe36f7373f810",
+          "tree_sha": "afbe83c70bde9723e3217ea8a07ce1bdf9cf52ce",
+          "event_at": "2026-10-23T09:15:31Z",
+          "summary": "Batch-240 documentation close rotates the public plan and records owner rules."
+        },
+        {
+          "sha": "65d51577ba39de90a971451f507419798d986723",
+          "tree_sha": "40d74064672624174d5e3e468de0abc3deee6798",
+          "event_at": "2026-10-23T09:51:50Z",
+          "summary": "Documentation records two explicit operator rulings after the batch close."
+        },
+        {
+          "sha": "143c92c704bea7abb4b857840fb721f66d37a416",
+          "tree_sha": "40042f76be1b15bcc9e0dd5dc42889bcb8d90182",
+          "event_at": "2026-10-23T11:32:31Z",
+          "summary": "Release 0.925.0 changes source validation and files one consumer-side loss as backlog rather than a graph event."
+        },
+        {
+          "sha": "c17de1709fb746eaa0c4bce40f68962e5844ddb8",
+          "tree_sha": "de29309382b03d01b22d000c662214c2990445aa",
+          "event_at": "2026-10-23T12:49:37Z",
+          "summary": "Release 0.926.0 closes three source-side process-rule items and files another backlog item."
+        },
+        {
+          "sha": "e30a7795cde111d8350358fbd51017154cf4648e",
+          "tree_sha": "e4ff18e327e870990f20e9802d159dc6ba6dab36",
+          "event_at": "2026-10-23T13:21:09Z",
+          "summary": "Release 0.927.0 advances source-side validation and fixture work without a graph-side exchange record."
+        },
+        {
+          "sha": "508062b5bfe16eb7b57b3f86ce916e4e7ab19c6e",
+          "tree_sha": "9ba276bda6744b313ec6ee34efed7ab592e74ad8",
+          "event_at": "2026-10-23T14:18:25Z",
+          "summary": "Release 0.928.0 continues source-side hooks and governed backlog work."
+        },
+        {
+          "sha": "bdb9817126e6e139efc2ec129d712a1c5864410a",
+          "tree_sha": "4779e2c46ddc6d16b8975655e7efc6d4336f061f",
+          "event_at": "2026-10-23T14:53:15Z",
+          "summary": "Release 0.929.0 adds another same-custodian source and validation change."
+        },
+        {
+          "sha": "318ae13163b74eaf2fd6ae8b84811baf3332c34b",
+          "tree_sha": "28b4e7bec2431460d20d8cc478d08fba4b60bd78",
+          "event_at": "2026-10-23T15:41:15Z",
+          "summary": "Release 0.930.0 continues the source-side governed release sequence."
+        },
+        {
+          "sha": "f1136f614f0d3217f51fe4d28bd2005324b523d5",
+          "tree_sha": "d48ff6da4e7c4605b8349c243e3b38958ff11c7f",
+          "event_at": "2026-10-23T16:02:35Z",
+          "summary": "Release 0.931.0 changes project source and fixtures without publishing a graph-side sender or recipient."
+        },
+        {
+          "sha": "73f3e8b39f52098fcd2445a7cfb456b574406b4e",
+          "tree_sha": "cee827156dc67e607e6eea47cd21942b2ff08486",
+          "event_at": "2026-10-23T16:51:32Z",
+          "summary": "Release 0.932.0 continues same-custodian validation and backlog closure."
+        },
+        {
+          "sha": "6d9218cf141299ec1876a3e7b062d25dbafcedec",
+          "tree_sha": "6c14b4615789c028aeb96882751b47de87f00ad5",
+          "event_at": "2026-10-23T17:43:17Z",
+          "summary": "Release 0.933.0 remains source-side work and publishes no durable graph-side consumption event."
+        }
+      ],
+      "classification": "Twelve linear same-custodian source records through releases 0.924.0–0.933.0. The rotated plan continues to reserve operator rulings, consumer pulls and merge authority, and no durable graph-side sender/recipient/use event is published. BV-083 remains a designed same-operator control."
+    }
+  ],
+  "unchanged_source_cursors": [
+    {
+      "repository": "inflatable-cookie/swallowtail",
+      "default_head": "bea9caf84e5daea61fbd7903589780dd11243862"
+    },
+    {
+      "repository": "beehive-nature/beehive-nature",
+      "default_head": "e6c698f938c335c97e2df954f4371c522079238c"
+    },
+    {
+      "repository": "timbrydges/timscodefactory",
+      "default_head": "f0456590242dee3ff2b99f10589570ad7d334382"
+    },
+    {
+      "repository": "jojohuhu-git/PneumoVax",
+      "default_head": "2fdb48eb19dadf32aaaed44dee27a28f06851686"
+    },
+    {
+      "repository": "jojohuhu-git/MeningoVax",
+      "default_head": "c1118c1a424db5dbf0db9fef1ec184dedbc30534"
+    },
+    {
+      "repository": "Chaos2Cured/FreeLattice",
+      "default_head": "0ce52da8e1c1b7ef8acf44f784c9e33360448d6d"
+    }
+  ],
+  "prior_reporting_scope": {
+    "github_commit_queries": [
+      {
+        "query": "cd6607160b98c32f9643c8b73ed275e64682d4e8",
+        "rows": 1,
+        "classification": "origin repository only"
+      },
+      {
+        "query": "\"visdom-bot-cicd\" \"PR #81\"",
+        "rows": 0
+      },
+      {
+        "query": "\"fix(shell): address PR #81 review findings\"",
+        "rows": 1,
+        "classification": "origin repository only"
+      },
+      {
+        "query": "b53f04837392e2c2699e80c4f228fa88f40e91ef",
+        "rows": 1,
+        "classification": "origin repository only"
+      }
+    ],
+    "web_queries": [
+      "\"cd6607160b98c32f9643c8b73ed275e64682d4e8\"",
+      "\"visdom-bot-cicd\" \"PR #81\" ssetunnel",
+      "\"fix(shell): address PR #81 review findings\" \"visdom-bot-cicd\"",
+      "\"b53f04837392e2c2699e80c4f228fa88f40e91ef\" CodeRabbit"
+    ],
+    "relevant_independent_results": 0,
+    "statement": "No prior coordination report located in the checked scope as of 23 October 2026. This bounded absence does not establish novelty. Both selected pull requests publicly document ordinary review and repair, and the authorization and recipient evidence excludes them independently of reporting status.",
+    "known_family_overlap": "No overlap located with the excluded DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub handoff or Covert Assistance/METR families."
+  },
+  "assessment": {
+    "classification": "high-confidence authorized repeat-review-to-human-repair control with adjacent designed handoff and intentional-community exclusions",
+    "specific_transfer_and_use": "supported for the ssetunnel and crmedr review chains",
+    "verified_autonomous_participants": "not established",
+    "operator_boundary": "not crossed",
+    "authorization_crossing": "contradicted by repeated public workflow history, related membership evidence, repository-owned branches and human merge control",
+    "provider_attribution": "unverified for the ssetunnel reviewer and recipient; CodeRabbit is authenticated only on the source side of the crmedr control",
+    "subjective_rogue_intent": "no evidence",
+    "current_rogue_activity": "not established",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false
+  },
+  "evidence_needed_to_advance": [
+    "Provider- or operator-owned receipts independently binding the ssetunnel reviewer and a recipient to specific autonomous runs.",
+    "Primary evidence that the two sides are controlled by distinct operators rather than one repository owner, installed reviewer or shared control plane.",
+    "A content-specific recipient record not attributable only to the human branch author.",
+    "A public authorization rule or operator statement showing that the review, repair, approval or merge exceeded the repository's intended workflow.",
+    "More bot-like prose, account distinction, association NONE values, repeated reviews, co-author trailers, tests or feature implementations do not advance the lead."
+  ],
+  "next_cursors": [
+    {
+      "type": "ssetunnel provenance cursor",
+      "cursor": "first public PR or default-branch record after PR 81 / cd6607160b98c32f9643c8b73ed275e64682d4e8 that independently authenticates the reviewer and recipient operators or changes authorization"
+    },
+    {
+      "type": "ai-dlc source cursor",
+      "cursor": "first public default-branch commit after 6d9218cf141299ec1876a3e7b062d25dbafcedec",
+      "advance_only_if": "It publishes a durable independently attributable graph-side sender/recipient/use event or materially changes operator authority."
+    },
+    {
+      "type": "WhalePod source cursor",
+      "cursor": "first public default-branch record after PR 433 / 07d3509edd3366967480e2d6f62c43d8fff434b6",
+      "advance_only_if": "It contains an actual content-addressed handoff consumption record rather than source, tests or operator-authored acceptance prose."
+    },
+    {
+      "type": "intentional-community exclusion",
+      "cursor": "Do not revisit postmark-town/postmark letter drains absent primary evidence of an episode outside its published human-approved community rules."
+    },
+    {
+      "type": "exact query",
+      "query": "\"review_result_digest\" \"repair_commit_sha\" \"reviewer_operator_id\" \"recipient_operator_id\""
+    },
+    {
+      "type": "exact query",
+      "query": "\"sender_run_attestation\" \"recipient_run_attestation\" \"authorization_boundary\""
+    }
+  ]
+}

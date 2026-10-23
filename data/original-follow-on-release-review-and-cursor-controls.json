@@ -1,0 +1,401 @@
+{
+  "schema_version": "1.0",
+  "title": "Original follow-on release-review and post-cursor controls",
+  "assessed_on": "2026-10-23",
+  "observed_at": "2026-10-23T18:16:40Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_id": "BV-090 follow-up",
+  "purpose": "Resume the first public Swallowtail record after PR 504, test a second review-to-repair sequence against autonomous-participant and operator-boundary requirements, and advance saved immutable and repository cursors without treating implementation, test or source-only records as organic coordination.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts, formatters or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public GitHub pull-request, review, commit, CI, tag and repository metadata, immutable identifiers, changed-path summaries, domain-level message summaries and bounded search results are retained. Personal addresses, private paths, prompts, credentials, tokens and executable bodies are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No public source-level cue separates an unread scanner record from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "immutable_record_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only as a locator",
+    "observed_at": "2026-10-23T18:16:40Z",
+    "saved_exact_queries": [
+      {
+        "query": "\"content_sha256\" \"producing_run_id\" \"consuming_run_id\" \"consumed_at\"",
+        "rows": 2,
+        "self_rows": 2,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delivery_id\" \"sender_trajectory_id\" \"recipient_trajectory_id\" \"use_event_id\"",
+        "rows": 2,
+        "self_rows": 2,
+        "external_rows": 0
+      },
+      {
+        "query": "\"artifact_digest\" \"origin_run_id\" \"recipient_run_id\" \"adoption_event_id\"",
+        "rows": 2,
+        "self_rows": 2,
+        "external_rows": 0
+      }
+    ],
+    "lower_arity_queries": [
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"consumption_event_id\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_execution_id\" \"recipient_execution_id\" \"artifact_sha256\"",
+        "rows": 3,
+        "self_rows": 3,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_task_id\" \"target_task_id\" \"result_digest\"",
+        "rows": 14,
+        "self_rows": 1,
+        "external_rows": 13,
+        "external_repositories": 5,
+        "classification": "Database specifications, protocol registries, orchestration implementation and one integration test; no emitted actual-run record."
+      },
+      {
+        "query": "\"upstream_message_id\" \"downstream_action_id\" \"content_digest\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delegation_id\" \"result_sha256\" \"consumed_at\"",
+        "rows": 18,
+        "self_rows": 1,
+        "external_rows": 17,
+        "external_repositories": 8,
+        "classification": "Implementation, migrations, schemas, plans, tests and a generated fixture; no emitted actual-run record."
+      },
+      {
+        "query": "\"handoff_event_id\" \"application_commit_sha\" \"recipient_run_id\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "assessment": "Every row from the three saved exact queries and the sender-execution query is this repository's own saved query text. Self rows were excluded before external inference."
+    },
+    "assessment": "The rotation located no immutable emitted record preserving production, transfer, later use and operator provenance. External lower-arity hits were code, schemas, specifications, migrations, plans, fixtures or tests and were closed before episode inference."
+  },
+  "selected_original_chain": {
+    "repository": "inflatable-cookie/swallowtail",
+    "repository_url": "https://github.com/inflatable-cookie/swallowtail",
+    "pull_request": {
+      "number": 505,
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/505",
+      "title": "185: Prepare the separately reviewed Swallowtail v0.6.0 source candidate",
+      "created_at": "2026-10-23T09:27:40Z",
+      "merged_at": "2026-10-23T13:10:40Z",
+      "public_author_and_merger": "betterthanclay",
+      "author_association": "CONTRIBUTOR",
+      "base_sha": "bea9caf84e5daea61fbd7903589780dd11243862",
+      "final_head_sha": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+      "role": "The first merged pull request after BV-090's PR 504. Its public body defines a source-only candidate, requires independent review and explicitly withholds tag, publication, credential, provider and live-work authority."
+    },
+    "reviewer": {
+      "github_login": "inflatable-tester",
+      "github_account_type": "User",
+      "author_association": "NONE",
+      "identity_limit": "The reviewer is a distinct public account, but account type and association do not prove AI control, provider identity, a different operator or lack of repository authorization."
+    },
+    "review_repair_pairs": [
+      {
+        "review": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5626695180",
+          "review_id": 5626695180,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T09:57:53Z",
+          "reviewed_commit_sha": "da18126dadae38cdfc216e6fde5ef446b56e039d",
+          "domain_level_result": "Identifies two missing released lease-behaviour assertions and requests their exact restoration; separately notes source-identity wording and reproducibility limits."
+        },
+        "repair": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/commit/7205d4cab07f2e554c2407c5451b52b6c920456a",
+          "commit_sha": "7205d4cab07f2e554c2407c5451b52b6c920456a",
+          "tree_sha": "801d07d19f29dcb87b9e9108f6bec874ac6136f7",
+          "parent_sha": "da18126dadae38cdfc216e6fde5ef446b56e039d",
+          "event_at": "2026-10-23T10:02:02Z",
+          "seconds_after_review": 249,
+          "git_author_label": "Northstar Worker",
+          "changed_paths": [
+            "crates/swallowtail-runtime/src/registered_tool/tests.rs"
+          ],
+          "semantic_use": "The direct child restores the two named assertions in the exact selected test surface and says no runtime policy or public API changed."
+        }
+      },
+      {
+        "review": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5626942335",
+          "review_id": 5626942335,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T10:22:28Z",
+          "reviewed_commit_sha": "7205d4cab07f2e554c2407c5451b52b6c920456a",
+          "domain_level_result": "Accepts the lease repair and requests two documentation corrections: distinguish public-API identity from source identity and state baseline counts precisely."
+        },
+        "repair": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/commit/fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+          "commit_sha": "fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+          "tree_sha": "71bbb44eb78f933a3af938b06da03dccf5300cdd",
+          "parent_sha": "7205d4cab07f2e554c2407c5451b52b6c920456a",
+          "event_at": "2026-10-23T10:23:39Z",
+          "seconds_after_review": 71,
+          "git_author_label": "Northstar Worker",
+          "changed_paths": [
+            "CHANGELOG.md",
+            "docs/releases/0.6.0.md",
+            "docs/releases/currentness-minor-compatibility.md"
+          ],
+          "semantic_use": "The direct child changes only the named documentation surfaces and records the precise runtime source delta and baseline counts."
+        }
+      },
+      {
+        "review": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5627194711",
+          "review_id": 5627194711,
+          "state": "CHANGES_REQUESTED",
+          "submitted_at": "2026-10-23T10:48:31Z",
+          "reviewed_commit_sha": "fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+          "domain_level_result": "Requests exact origin wording for restored baselines and narrows the archive proof from the whole documentation tree to the retained research evidence actually required."
+        },
+        "repair": {
+          "url": "https://github.com/inflatable-cookie/swallowtail/commit/1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+          "commit_sha": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+          "tree_sha": "ceff874f84d3a10165e18741528e26caafdcf3b8",
+          "parent_sha": "fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+          "event_at": "2026-10-23T10:50:58Z",
+          "seconds_after_review": 147,
+          "authenticated_github_author": "betterthanclay",
+          "changed_paths": [
+            "docs/releases/0.6.0.md",
+            "scripts/verify-affected-packages.sh"
+          ],
+          "semantic_use": "The direct child makes the two requested scope corrections. Unlike the first two role-labelled repairs, this final repair is authenticated to the public PR author."
+        }
+      }
+    ],
+    "approval_ci_merge_and_tag": {
+      "approval": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5627389125",
+        "review_id": 5627389125,
+        "state": "APPROVED",
+        "submitted_at": "2026-10-23T11:07:50Z",
+        "reviewed_commit_sha": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+        "role": "Confirms every prior item resolved and says readiness remains subject to the named merge hold; explicitly states that a passed gate does not authorize a tag."
+      },
+      "manual_exact_head_ci": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/actions/runs/39944039823",
+        "run_id": 39944039823,
+        "event": "workflow_dispatch",
+        "actor": "betterthanclay",
+        "head_sha": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+        "started_at": "2026-10-23T11:08:51Z",
+        "completed_at": "2026-10-23T11:15:29Z",
+        "conclusion": "success"
+      },
+      "merge": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/commit/8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+        "commit_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+        "tree_sha": "ceff874f84d3a10165e18741528e26caafdcf3b8",
+        "parent_shas": [
+          "bea9caf84e5daea61fbd7903589780dd11243862",
+          "1bd687ce08be98bd978488ebb25d288ffffe2e4c"
+        ],
+        "event_at": "2026-10-23T13:10:40Z",
+        "public_author": "betterthanclay",
+        "signature": "GitHub-signed merge commit"
+      },
+      "canonical_ci": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/actions/runs/39959061032",
+        "run_id": 39959061032,
+        "event": "push",
+        "actor": "betterthanclay",
+        "head_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+        "started_at": "2026-10-23T13:10:43Z",
+        "completed_at": "2026-10-23T13:16:57Z",
+        "conclusion": "success"
+      },
+      "tag": {
+        "ref_url": "https://api.github.com/repos/inflatable-cookie/swallowtail/git/ref/tags/v0.6.0",
+        "object_url": "https://api.github.com/repos/inflatable-cookie/swallowtail/git/tags/0fcda93ca711e33e48b6bac4a36bb4d6901adeb6",
+        "tag": "v0.6.0",
+        "tag_object_sha": "0fcda93ca711e33e48b6bac4a36bb4d6901adeb6",
+        "peeled_commit_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+        "event_at": "2026-10-23T15:49:04Z",
+        "tagger_label": "Tom Wright",
+        "signature": "unsigned annotated tag",
+        "authorization_summary": "The tag message names a separate operator decision that authorizes annotated-tag creation and push only, while denying package publication, a GitHub Release, binaries, sidecars, installers and model artifacts."
+      },
+      "authorization_record": {
+        "url": "https://github.com/inflatable-cookie/swallowtail/commit/fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31",
+        "commit_sha": "fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31",
+        "tree_sha": "ae82d7dcadfb17cdc97384ff41da4e85c248b595",
+        "parent_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+        "event_at": "2026-10-23T15:51:00Z",
+        "authenticated_github_author": "betterthanclay",
+        "domain_level_result": "Records an exact-SHA human operator decision for the tag and preserves explicit denials of registry publication, GitHub Release creation, consumer repins, new provider claims and live work."
+      }
+    },
+    "semantic_dependency": "High confidence. Three different content-specific changes-required results are followed by matching direct-child repairs in 71 to 249 seconds. The same reviewer then approves the corrected head; the PR author triggers exact-head CI, lands the merge after success and later records narrowly scoped human tag authority.",
+    "timeline_source": "https://api.github.com/repos/inflatable-cookie/swallowtail/issues/505/events"
+  },
+  "participant_and_boundary_assessment": {
+    "verified_public_accounts": "The reviewer account inflatable-tester is distinct from pull-request author, CI actor, merger and release recorder betterthanclay.",
+    "recipient_identity_limit": "The first two repairs use the unlinked Git author label Northstar Worker, while the third repair is authenticated to betterthanclay. The records prove repository custody and use of review findings, not an independently operated autonomous recipient.",
+    "model_labels": "The final repair's Claude co-author trailer is project-authored metadata, not a provider receipt.",
+    "operator_evidence": "The sequence begins on a repository-owned branch and repeats the same review account immediately after PR 504. Review approval preserves a merge hold, a human account triggers CI and merges, and a later public record names an exact-SHA human operator decision for tag creation only.",
+    "operator_boundary": "No independent operator boundary is established. Distinct accounts and association NONE do not identify distinct controlling principals, and the explicit human gate sequence contradicts an unauthorized-crossing inference.",
+    "authorization": "Strong affirmative evidence for a designed repository-governed review, repair, validation, merge and release process.",
+    "subjective_rogue_intent": "No evidence.",
+    "provider_attribution": "Unverified beyond project-authored role and co-author labels.",
+    "current_activity": "The selected chain ends in a public source tag and a documentation-only release record; no runtime coordination claim is made."
+  },
+  "alternative_explanations": [
+    {
+      "alternative": "designed repository-governed review and release lane",
+      "assessment": "strongly supported by repeated review rounds, explicit holds, human-triggered CI, human merge and exact-SHA tag authority"
+    },
+    {
+      "alternative": "single operator or shared control plane behind both public accounts",
+      "assessment": "not resolved by public account distinction; no independent operator receipts are published"
+    },
+    {
+      "alternative": "human-requested or human-mediated review and repair",
+      "assessment": "strongly compatible with the public author, CI, merge and release records"
+    },
+    {
+      "alternative": "repeated tests or review retries",
+      "assessment": "rejected for the dependency itself because the three findings are semantically different and each produces a matching direct-child repair"
+    },
+    {
+      "alternative": "independently operated agents cooperating outside authorization",
+      "assessment": "not supported and contradicted by the preserved human authorization gates"
+    }
+  ],
+  "adjacent_cursor_controls": [
+    {
+      "repository": "euron8/ai-dlc",
+      "url": "https://github.com/euron8/ai-dlc/commit/4dca310bae4514e8f45d5bb5e6a2a83952501f52",
+      "commit_sha": "4dca310bae4514e8f45d5bb5e6a2a83952501f52",
+      "tree_sha": "45ff0b44ace8590a9c266d6da66d4f56e8fab59c",
+      "parent_sha": "6d9218cf141299ec1876a3e7b062d25dbafcedec",
+      "event_at": "2026-10-23T18:07:23Z",
+      "signature": "GitHub-verified commit",
+      "classification": "Release 0.934.0 is one same-custodian source child. It describes a read-only measurement of a consumer history and withdraws a source-side causal claim, but the cited consumer record was not located on checked public search surfaces and no durable graph-side sender, recipient or use event is published. BV-083 remains a designed same-operator control."
+    },
+    {
+      "repository": "beehive-nature/beehive-nature",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/22bddf3dda2a3a8a7d99eed2a77960fcc19f836d",
+      "commit_sha": "22bddf3dda2a3a8a7d99eed2a77960fcc19f836d",
+      "tree_sha": "63d71277b379acfa0d02b0e87139a6600a6e8884",
+      "parent_sha": "e6c698f938c335c97e2df954f4371c522079238c",
+      "event_at": "2026-10-23T15:14:55Z",
+      "classification": "One authenticated account records another explicit founder reissue, a read-only reconciliation and zero new external collection. It strengthens the human-directed same-custodian explanation for BV-089 and supplies no independently operated recipient."
+    },
+    {
+      "repository": "wseternal/ssetunnel",
+      "default_head": "cd6607160b98c32f9643c8b73ed275e64682d4e8",
+      "classification": "No post-BV-091 default-branch record."
+    },
+    {
+      "repository": "RyanOnMe/whalepod",
+      "default_head": "07d3509edd3366967480e2d6f62c43d8fff434b6",
+      "classification": "No post-feature actual handoff record."
+    }
+  ],
+  "prior_reporting_scope": {
+    "github_code_queries": [
+      {
+        "query": "\"8fe3bcbd90419debd075068f1dddfeac4626ba0f\"",
+        "rows": 0,
+        "classification": "not indexed on the checked default-branch code surface"
+      },
+      {
+        "query": "\"seven restored lease methods have no released test coverage\"",
+        "rows": 0,
+        "classification": "no indexed independent account"
+      },
+      {
+        "query": "\"a3423b67-4adc-487c-8efd-fc1a47a068a4\"",
+        "rows": 0,
+        "classification": "no indexed independent account"
+      }
+    ],
+    "web_queries": [
+      "\"8fe3bcbd90419debd075068f1dddfeac4626ba0f\"",
+      "\"seven restored lease methods have no released test coverage\"",
+      "\"a3423b67-4adc-487c-8efd-fc1a47a068a4\""
+    ],
+    "relevant_independent_results": 0,
+    "statement": "No prior coordination report located in the checked scope as of 23 October 2026. This bounded absence does not establish novelty, and the originating pull request, CI runs, tag and release record publicly document a designed review and release workflow.",
+    "known_family_overlap": "No overlap located with the excluded DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub handoff or Covert Assistance/METR families."
+  },
+  "assessment": {
+    "classification": "high-confidence follow-on cross-account review-to-repair control with explicit human merge and release authorization",
+    "specific_transfer_and_use": "supported for three review findings and matching direct-child repairs",
+    "verified_autonomous_participants": "not established",
+    "operator_boundary": "not crossed",
+    "authorization_crossing": "contradicted by the repository-owned branch, repeated reviewer history, explicit merge hold, human-triggered CI, human merge and exact-SHA tag decision",
+    "provider_attribution": "not independently established",
+    "subjective_rogue_intent": "no evidence",
+    "current_rogue_activity": "not established",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false
+  },
+  "evidence_needed_to_advance": [
+    "Provider- or operator-owned receipts independently binding the reviewer and a repair recipient to specific autonomous runs.",
+    "Primary evidence that the two sides are controlled by distinct operators rather than the repository owner or one shared control plane.",
+    "A content-specific recipient record independent of both the Northstar Worker role label and the authenticated human PR author.",
+    "A public authorization rule or operator statement showing that review, repair, validation, merge or release exceeded the documented workflow.",
+    "More review rounds, role labels, association values, co-author trailers, CI checks or exact-SHA release records do not advance the lead."
+  ],
+  "next_cursors": [
+    {
+      "type": "Swallowtail provenance cursor",
+      "cursor": "first public pull request or default-branch record after fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31",
+      "advance_only_if": "It independently authenticates the reviewer and recipient operators or materially changes the explicit authorization record."
+    },
+    {
+      "type": "AI-DLC source cursor",
+      "cursor": "first public default-branch commit after 4dca310bae4514e8f45d5bb5e6a2a83952501f52",
+      "advance_only_if": "It publishes a durable independently attributable graph-side sender, recipient and use event or materially changes operator authority."
+    },
+    {
+      "type": "Beehive source cursor",
+      "cursor": "first public default-branch commit after 22bddf3dda2a3a8a7d99eed2a77960fcc19f836d",
+      "advance_only_if": "It supplies independently attributable sender or recipient provenance outside the founder's documented request."
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"producer_event_id\" \"consumer_event_id\" \"artifact_digest\" \"applied_revision\""
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"source_execution_id\" \"recipient_execution_id\" \"output_sha256\" \"consumed_at\""
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"delivery_receipt_id\" \"recipient_action_id\" \"authorization_scope_id\""
+    }
+  ]
+}

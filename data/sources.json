@@ -9536,6 +9536,171 @@
       "tree_sha": "6c14b4615789c028aeb96882751b47de87f00ad5",
       "parent_sha": "73f3e8b39f52098fcd2445a7cfb456b574406b4e",
       "observed_at": "2026-10-23T17:47:01Z"
+    },
+    {
+      "id": "original-swallowtail-pr-505",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/505",
+      "role": "Repository-governed source-candidate pull request with explicit review, merge and release holds",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T09:27:40Z",
+      "closed_at": "2026-10-23T13:10:40Z",
+      "author_association": "CONTRIBUTOR",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-review-5626695180",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5626695180",
+      "role": "Changes-required review identifying two missing released lease-behaviour assertions",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T09:57:53Z",
+      "review_id": 5626695180,
+      "reviewed_commit_sha": "da18126dadae38cdfc216e6fde5ef446b56e039d",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-repair-7205d4c",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/7205d4cab07f2e554c2407c5451b52b6c920456a",
+      "role": "Direct-child repair restoring the two review-requested lease assertions",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T10:02:02Z",
+      "commit_sha": "7205d4cab07f2e554c2407c5451b52b6c920456a",
+      "tree_sha": "801d07d19f29dcb87b9e9108f6bec874ac6136f7",
+      "parent_sha": "da18126dadae38cdfc216e6fde5ef446b56e039d",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-review-5626942335",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5626942335",
+      "role": "Changes-required review requesting precise source-identity and baseline-count wording",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T10:22:28Z",
+      "review_id": 5626942335,
+      "reviewed_commit_sha": "7205d4cab07f2e554c2407c5451b52b6c920456a",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-documentation-repair-fc94e29",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+      "role": "Direct-child documentation repair matching the second review's two accuracy findings",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T10:23:39Z",
+      "commit_sha": "fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+      "tree_sha": "71bbb44eb78f933a3af938b06da03dccf5300cdd",
+      "parent_sha": "7205d4cab07f2e554c2407c5451b52b6c920456a",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-review-5627194711",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5627194711",
+      "role": "Changes-required review requesting precise baseline provenance and a narrower archive-proof evidence scope",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T10:48:31Z",
+      "review_id": 5627194711,
+      "reviewed_commit_sha": "fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-scope-repair-1bd687c",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+      "role": "Authenticated direct-child repair matching the third review's two scope corrections",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T10:50:58Z",
+      "commit_sha": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+      "tree_sha": "ceff874f84d3a10165e18741528e26caafdcf3b8",
+      "parent_sha": "fc94e296e5d0983afdd3894dbd9c134ea376ab4c",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-approval-5627389125",
+      "url": "https://github.com/inflatable-cookie/swallowtail/pull/505#pullrequestreview-5627389125",
+      "role": "Approval of the corrected exact head while preserving the merge hold and separate tag authority",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T11:07:50Z",
+      "review_id": 5627389125,
+      "reviewed_commit_sha": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+      "author_association": "NONE",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-ci-39944039823",
+      "url": "https://github.com/inflatable-cookie/swallowtail/actions/runs/39944039823",
+      "role": "Human-triggered exact-head validation after review approval and before merge",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T11:08:51Z",
+      "closed_at": "2026-10-23T11:15:29Z",
+      "ref": "1bd687ce08be98bd978488ebb25d288ffffe2e4c",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-v060-merge-8fe3bcb",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+      "role": "PR-author merge of the approved source candidate after exact-head validation",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T13:10:40Z",
+      "commit_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+      "tree_sha": "ceff874f84d3a10165e18741528e26caafdcf3b8",
+      "parent_shas": [
+        "bea9caf84e5daea61fbd7903589780dd11243862",
+        "1bd687ce08be98bd978488ebb25d288ffffe2e4c"
+      ],
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-ci-39959061032",
+      "url": "https://github.com/inflatable-cookie/swallowtail/actions/runs/39959061032",
+      "role": "Successful canonical push validation at the exact merged source commit",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T13:10:43Z",
+      "closed_at": "2026-10-23T13:16:57Z",
+      "ref": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-v060-tag-0fcda93",
+      "url": "https://api.github.com/repos/inflatable-cookie/swallowtail/git/tags/0fcda93ca711e33e48b6bac4a36bb4d6901adeb6",
+      "role": "Annotated source tag naming exact-SHA operator authority and explicit publication exclusions",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T15:49:04Z",
+      "ref": "v0.6.0",
+      "tag_object_sha": "0fcda93ca711e33e48b6bac4a36bb4d6901adeb6",
+      "commit_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-swallowtail-release-authority-fb3b5b7",
+      "url": "https://github.com/inflatable-cookie/swallowtail/commit/fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31",
+      "role": "Human-authored public record of the exact-SHA tag decision and retained authorization gates",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T15:51:00Z",
+      "commit_sha": "fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31",
+      "tree_sha": "ae82d7dcadfb17cdc97384ff41da4e85c248b595",
+      "parent_sha": "8fe3bcbd90419debd075068f1dddfeac4626ba0f",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-934-0-4dca310",
+      "url": "https://github.com/euron8/ai-dlc/commit/4dca310bae4514e8f45d5bb5e6a2a83952501f52",
+      "role": "Same-custodian source release withdrawing one causal claim after a source-side read-only measurement; no public graph-side exchange event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T18:07:23Z",
+      "commit_sha": "4dca310bae4514e8f45d5bb5e6a2a83952501f52",
+      "tree_sha": "45ff0b44ace8590a9c266d6da66d4f56e8fab59c",
+      "parent_sha": "6d9218cf141299ec1876a3e7b062d25dbafcedec",
+      "observed_at": "2026-10-23T18:16:40Z"
+    },
+    {
+      "id": "original-beehive-order-33-22bddf3",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/22bddf3dda2a3a8a7d99eed2a77960fcc19f836d",
+      "role": "Authenticated record of another explicit founder reissue, read-only reconciliation and zero new external collection",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T15:14:55Z",
+      "commit_sha": "22bddf3dda2a3a8a7d99eed2a77960fcc19f836d",
+      "tree_sha": "63d71277b379acfa0d02b0e87139a6600a6e8884",
+      "parent_sha": "e6c698f938c335c97e2df954f4371c522079238c",
+      "observed_at": "2026-10-23T18:16:40Z"
     }
   ]
 }

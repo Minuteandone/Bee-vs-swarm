@@ -8811,7 +8811,7 @@
     {
       "id": "original-ai-dlc-release-0915-1c2fefc",
       "url": "https://github.com/euron8/ai-dlc/commit/1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
-      "role": "Latest batch-240 source release enforcing handoff and QA evidence fields while explicitly closing no consumer push candidate",
+      "role": "Batch-240 source release enforcing handoff and QA evidence fields while explicitly closing no consumer push candidate",
       "published": "2026-10-22",
       "event_at": "2026-10-23T01:22:56Z",
       "commit_sha": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
@@ -8821,23 +8821,89 @@
     },
     {
       "id": "original-ai-dlc-current-plan-4f17514",
-      "url": "https://github.com/euron8/ai-dlc/blob/8649dfce5b571611856e2ce4120a7d5cb5f766ad/docs/plans/graph-ledger-full-drain.md",
+      "url": "https://github.com/euron8/ai-dlc/blob/8267655d24eb0125e2b6165165ba0eeb502b6a86/docs/plans/graph-ledger-full-drain.md",
       "role": "Current byte-identical plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
-      "ref": "8649dfce5b571611856e2ce4120a7d5cb5f766ad",
+      "ref": "8267655d24eb0125e2b6165165ba0eeb502b6a86",
       "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
       "bytes": 148670,
-      "observed_at": "2026-10-23T03:30:37Z"
+      "observed_at": "2026-10-23T06:32:53Z"
     },
     {
       "id": "original-ai-dlc-release-0916-8649dfc",
       "url": "https://github.com/euron8/ai-dlc/commit/8649dfce5b571611856e2ce4120a7d5cb5f766ad",
-      "role": "Latest batch-240 source release explicitly closing no PC ID and publishing no durable graph-side event",
+      "role": "Batch-240 source release explicitly closing no PC ID and publishing no durable graph-side event",
       "published": "2026-10-23",
       "event_at": "2026-10-23T01:52:33Z",
       "commit_sha": "8649dfce5b571611856e2ce4120a7d5cb5f766ad",
       "tree_sha": "aea2069433c93259c0aab6903796cdd14f31b316",
       "parent_sha": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
       "observed_at": "2026-10-23T03:30:37Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0917-94e05a7",
+      "url": "https://github.com/euron8/ai-dlc/commit/94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+      "role": "Batch-240 source release recording operator-shown-region comparison while explicitly closing no PC ID",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T03:31:46Z",
+      "commit_sha": "94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+      "tree_sha": "1e1252394976f8be4398e186841d9f71d6b02187",
+      "parent_sha": "8649dfce5b571611856e2ce4120a7d5cb5f766ad",
+      "observed_at": "2026-10-23T06:32:53Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0918-527a076",
+      "url": "https://github.com/euron8/ai-dlc/commit/527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+      "role": "Batch-240 source fixture-duration release explicitly closing no PC ID",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T03:58:44Z",
+      "commit_sha": "527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+      "tree_sha": "f29c4756d32b5f6462055457b6382e4fafb3dd50",
+      "parent_sha": "94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+      "observed_at": "2026-10-23T06:32:53Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0919-664c4a1",
+      "url": "https://github.com/euron8/ai-dlc/commit/664c4a145e02ca947895f40a0f19a6c5b4e68464",
+      "role": "Batch-240 source transient-ignore release explicitly closing no PC ID",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T04:27:19Z",
+      "commit_sha": "664c4a145e02ca947895f40a0f19a6c5b4e68464",
+      "tree_sha": "332105b842de7a2f91dcc51953dc3dd0e8059a3e",
+      "parent_sha": "527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+      "observed_at": "2026-10-23T06:32:53Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0920-fe45cf7",
+      "url": "https://github.com/euron8/ai-dlc/commit/fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+      "role": "Batch-240 source operator-decision-shape release explicitly closing no PC ID",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T04:48:17Z",
+      "commit_sha": "fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+      "tree_sha": "530fa618ccb37bd06fcf81d9fbc4c41151e4ad04",
+      "parent_sha": "664c4a145e02ca947895f40a0f19a6c5b4e68464",
+      "observed_at": "2026-10-23T06:32:53Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0921-ca34048",
+      "url": "https://github.com/euron8/ai-dlc/commit/ca340488caf6fa770a759cee9335d96ea3781d72",
+      "role": "Batch-240 source advisor-window release explicitly closing no PC ID",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T05:11:22Z",
+      "commit_sha": "ca340488caf6fa770a759cee9335d96ea3781d72",
+      "tree_sha": "32f7c6c76f6f4bf7eec3dde5d6072ed2d1979bbe",
+      "parent_sha": "fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+      "observed_at": "2026-10-23T06:32:53Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0922-8267655",
+      "url": "https://github.com/euron8/ai-dlc/commit/8267655d24eb0125e2b6165165ba0eeb502b6a86",
+      "role": "Batch-240 source validation release claiming a read-only graph measurement while explicitly closing no PC ID and publishing no graph-side record",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T05:43:10Z",
+      "commit_sha": "8267655d24eb0125e2b6165165ba0eeb502b6a86",
+      "tree_sha": "b99f6b1e4354da79006a37b1cfe4b5f4c15efe7f",
+      "parent_sha": "ca340488caf6fa770a759cee9335d96ea3781d72",
+      "observed_at": "2026-10-23T06:32:53Z"
     },
     {
       "id": "original-timscodefactory-renewable-binding-64e3849",

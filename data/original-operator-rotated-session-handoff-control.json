@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "Original operator-rotated session handoff and successor-use control",
-  "assessed_on": "2026-10-22",
-  "observed_at": "2026-10-23T03:30:37Z",
+  "assessed_on": "2026-10-23",
+  "observed_at": "2026-10-23T06:32:53Z",
   "checkpoint": "zero confirmed previously unreported rogue swarms",
   "purpose": "Resume the three saved run, artifact, receipt and operator cursors; rotate through lower-arity public code records and global commit messages; and test a newly published fresh-session handoff against a historical handoff-to-use sequence in the same repository.",
   "safety": {
@@ -197,8 +197,8 @@
         "role": "Source-side record saying a graph consumer used a rehearsed verdict while named changes were merged. It also says green status is not authorization, requires the operator to initiate the pull and retains operator merge approval. The named graph repository and recipient commits were not publicly resolvable at observation time."
       },
       {
-        "record": "Current unchanged graph-ledger plan after thirty-nine descendants",
-        "url": "https://github.com/euron8/ai-dlc/blob/8649dfce5b571611856e2ce4120a7d5cb5f766ad/docs/plans/graph-ledger-full-drain.md",
+        "record": "Current unchanged graph-ledger plan after forty-five descendants",
+        "url": "https://github.com/euron8/ai-dlc/blob/8267655d24eb0125e2b6165165ba0eeb502b6a86/docs/plans/graph-ledger-full-drain.md",
         "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
         "bytes": 148670,
         "role": "Closes batch 239 after seven releases, names the operator rulings and assigned seats, says the graph's own session ran the prior pull, and starts batch 240 under another named session. The same plan preserves the graph repository as read-only to the AI-DLC lead and keeps execution and merge authority operator-governed."
@@ -222,8 +222,8 @@
     ],
     "current_downstream_status": {
       "status": "content-specific successor use observed; designed-control classification retained",
-      "last_rechecked_at": "2026-10-23T03:30:37Z",
-      "basis": "Thirty-nine direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and update the plan. Releases 0.909.0 through 0.911.0 claim a consumer install, three named graph finding closures and twenty affected graph-ledger rows. Release 0.912.0 says the graph filed another named candidate uncommitted around 14:52 EDT and the source closed it at 16:15:36 EDT, an approximately 83-minute source-claimed feedback-to-fix interval. Releases 0.913.0 through 0.916.0 then expressly close no consumer push candidate. Release 0.916.0 changes only source-side release, fixture, validation, backlog and process surfaces; it closes no PC ID and adds no durable graph-side event. Exact searches locate only the source origin or self-index rows, not a durable graph record or independent account. The unchanged plan reserves the graph as read-only to the lead and preserves operator initiation, rulings and merge authority. Every descendant still uses the same public author account and web-flow committer. This sharpens the documented designed protocol but not independent participant, operator-boundary or authorization-crossing evidence.",
+      "last_rechecked_at": "2026-10-23T06:32:53Z",
+      "basis": "Forty-five direct default-branch descendants now follow the handoff. The first is the handoff commit's child, self-labels lead ai-dlc-1a as taking over from ai-dlc-fc, and closes the exact six-item first branch named in the transferred resume block. Later descendants perform the close-checklist filing, close named held branches, append graph-watch results, release further batch work and update the plan. Releases 0.909.0 through 0.911.0 claim a consumer install, three named graph finding closures and twenty affected graph-ledger rows. Release 0.912.0 says the graph filed another named candidate uncommitted around 14:52 EDT and the source closed it at 16:15:36 EDT, an approximately 83-minute source-claimed feedback-to-fix interval. Releases 0.913.0 through 0.915.0 then expressly close no consumer push candidate, and releases 0.916.0 through 0.922.0 expressly close no PC ID. The six newest releases change source-side hooks, fixtures, validation, process text, release notes and backlog records. Release 0.922.0 includes a source-authored measurement over graph transcripts, but publishes neither those transcripts nor a durable graph-side sender, recipient or use event. Exact searches locate each source origin only, not a graph record or independent account. The byte-identical plan reserves the graph as read-only to the lead and preserves operator initiation, rulings and merge authority. Every descendant still uses the same public author account and web-flow committer. This sharpens the documented designed protocol but not independent participant, operator-boundary or authorization-crossing evidence.",
       "successor_records": [
         {
           "url": "https://github.com/euron8/ai-dlc/commit/0877fe65f98604f791765883a4d202a5b75870d4",
@@ -566,6 +566,54 @@
           "parent_sha": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
           "event_at": "2026-10-23T01:52:33Z",
           "role": "Release 0.916.0 continues batch 240 across twenty source-repository paths and expressly says none of BL-699, BL-616 or BL-771 carries a PC ID. It closes no consumer push candidate, changes no governing plan blob and supplies no durable graph-side sender, recipient or use event."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+          "commit_sha": "94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+          "tree_sha": "1e1252394976f8be4398e186841d9f71d6b02187",
+          "parent_sha": "8649dfce5b571611856e2ce4120a7d5cb5f766ad",
+          "event_at": "2026-10-23T03:31:46Z",
+          "role": "Release 0.917.0 adds a source-side mechanism for comparing a re-rendered report with the first operator-shown region and explicitly closes no PC ID. Its references to the consumer git directory describe designed apply behavior, not a durable recipient event."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+          "commit_sha": "527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+          "tree_sha": "f29c4756d32b5f6462055457b6382e4fafb3dd50",
+          "parent_sha": "94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+          "event_at": "2026-10-23T03:58:44Z",
+          "role": "Release 0.918.0 prunes retired fixture-duration rows while retaining consumer-layout rows and explicitly closes no PC ID. The receipt run is a source fixture, not evidence of an independent recipient."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/664c4a145e02ca947895f40a0f19a6c5b4e68464",
+          "commit_sha": "664c4a145e02ca947895f40a0f19a6c5b4e68464",
+          "tree_sha": "332105b842de7a2f91dcc51953dc3dd0e8059a3e",
+          "parent_sha": "527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+          "event_at": "2026-10-23T04:27:19Z",
+          "role": "Release 0.919.0 adds a declared transient-ignore rule and an expected first-pull worklist row, explicitly closes no PC ID and publishes no graph-side event."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+          "commit_sha": "fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+          "tree_sha": "530fa618ccb37bd06fcf81d9fbc4c41151e4ad04",
+          "parent_sha": "664c4a145e02ca947895f40a0f19a6c5b4e68464",
+          "event_at": "2026-10-23T04:48:17Z",
+          "role": "Release 0.920.0 normalizes operator-decision records and validation checkpoints inside the governed source workflow and explicitly closes no PC ID."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/ca340488caf6fa770a759cee9335d96ea3781d72",
+          "commit_sha": "ca340488caf6fa770a759cee9335d96ea3781d72",
+          "tree_sha": "32f7c6c76f6f4bf7eec3dde5d6072ed2d1979bbe",
+          "parent_sha": "fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+          "event_at": "2026-10-23T05:11:22Z",
+          "role": "Release 0.921.0 aligns a source rule with the operator-defined advisor window and explicitly closes no PC ID; it adds no separately attributable sender or recipient."
+        },
+        {
+          "url": "https://github.com/euron8/ai-dlc/commit/8267655d24eb0125e2b6165165ba0eeb502b6a86",
+          "commit_sha": "8267655d24eb0125e2b6165165ba0eeb502b6a86",
+          "tree_sha": "b99f6b1e4354da79006a37b1cfe4b5f4c15efe7f",
+          "parent_sha": "ca340488caf6fa770a759cee9335d96ea3781d72",
+          "event_at": "2026-10-23T05:43:10Z",
+          "role": "Release 0.922.0 says a source validator was measured read-only over graph transcripts and changed from five failures to pass, but it closes no PC ID, does not publish the measured records and changes only source-side fixtures, scripts, release notes and backlog files."
         }
       ],
       "not_claimed": [
@@ -613,7 +661,7 @@
         "The plan says a cross-session recipient proceeds under the same operator, reports its choice in its first operator message, and remains redirectable by that operator.",
         "The current operator explicitly halted a lead and ordered the replacement handoff.",
         "The historical source, use and close commits share one public GitHub author account and GitHub's web-flow committer surface.",
-        "The current handoff and all thirty-nine direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
+        "The current handoff and all forty-five direct descendants share one public Git author identity and GitHub's web-flow committer surface.",
         "The successor work stays inside the transferred batch, branch order, item list, checklist and rulebook authority rather than departing from them.",
         "Session labels, owner labels and model trailers are repository-authored and do not authenticate independent controlling principals."
       ]
@@ -913,7 +961,88 @@
       "relevant_results": 0,
       "classification": "The full-SHA commit search returns only the origin; the exact three-term code query returns no row; scoped web results are unrelated numerical and product collisions. Release 0.916.0 expressly closes no PC ID and supplies no durable graph-side record or independent episode account."
     },
-    "statement": "No independent coordination report located in the checked scope as of 22 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
+    "pass_118_incremental_check": {
+      "checked_on": "2026-10-23",
+      "github_queries": [
+        {
+          "query": "94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6",
+          "surface": "commit search",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "527a0769e9f514f92db9a04e0bd00ae5407f3db1",
+          "surface": "commit search",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "664c4a145e02ca947895f40a0f19a6c5b4e68464",
+          "surface": "commit search",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "fe45cf7879331103c9b49cd332ed2a00de8b74f1",
+          "surface": "commit search",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "ca340488caf6fa770a759cee9335d96ea3781d72",
+          "surface": "commit search",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "8267655d24eb0125e2b6165165ba0eeb502b6a86",
+          "surface": "commit search",
+          "rows": 1,
+          "classification": "origin commit only"
+        },
+        {
+          "query": "\"Closes no PC- id\" \"BL-692\" \"BL-744\"",
+          "surface": "commit search",
+          "rows": 0
+        },
+        {
+          "query": "\"Closes no PC- id\" \"BL-783\" \"BL-781\"",
+          "surface": "repository-scoped code search",
+          "rows": 0
+        },
+        {
+          "query": "\"0.919.0\" \"0.922.0\" \"Closes no PC- id\"",
+          "surface": "repository-scoped code search",
+          "rows": 0
+        }
+      ],
+      "web_queries": [
+        "\"94e05a71b3ab28a6f53bdc6ae1879dc2eb1735d6\"",
+        "\"527a0769e9f514f92db9a04e0bd00ae5407f3db1\"",
+        "\"Closes no PC- id\" \"BL-692\" \"BL-744\"",
+        "\"0.917.0\" \"0.918.0\" \"ai-dlc\"",
+        "\"664c4a145e02ca947895f40a0f19a6c5b4e68464\" \"fe45cf7879331103c9b49cd332ed2a00de8b74f1\"",
+        "\"ca340488caf6fa770a759cee9335d96ea3781d72\" \"8267655d24eb0125e2b6165165ba0eeb502b6a86\"",
+        "\"0.919.0\" \"0.920.0\" \"0.921.0\" \"0.922.0\" \"ai-dlc\"",
+        "\"Check B stops scoring writes\" \"graph\" \"PC\""
+      ],
+      "relevant_results": 0,
+      "classification": "Each full-SHA commit search returns only its originating ai-dlc commit. The exact no-PC searches return no row, and the scoped web searches return unrelated product, numerical and generic AI-DLC collisions rather than an independent account of this episode. Releases 0.917.0 through 0.922.0 expressly close no PC ID; 0.922.0's graph measurement is source-authored and does not publish the measured graph transcript records.",
+      "adjacent_cursor_rotation": {
+        "queries": [
+          "repo:RyanOnMe/whalepod commit: handoff",
+          "repo:RyanOnMe/whalepod commit: consumption",
+          "repo:RyanOnMe/whalepod commit: receipt",
+          "repo:Chaos2Cured/FreeLattice commit: handoff",
+          "repo:Chaos2Cured/FreeLattice commit: letter",
+          "repo:Chaos2Cured/FreeLattice commit: receipt"
+        ],
+        "returned_rows": [8, 0, 7, 14, 20, 20],
+        "limits": "The two twenty-row FreeLattice results reached the requested result limit; this is a latest-by-committer-date cursor check, not exhaustive historical coverage.",
+        "classification": "WhalePod's newest handoff or receipt match remains the already reviewed 0820a62 record from 20 October 2026. FreeLattice's newest matching handoff or letter is 719e4f0 and newest receipt match is 0171719, both from 15 October 2026 and predating the saved current head. No post-cursor transfer, receipt or downstream-use record was located."
+      }
+    },
+    "statement": "No independent coordination report located in the checked scope as of 23 October 2026. This bounded absence does not establish novelty. The originating repository itself openly publishes the handoff and its operator authorization."
   },
   "assessment": {
     "current_handoff_classification": "high-confidence designed same-operator handoff-to-use control",
@@ -921,7 +1050,7 @@
     "previously_unreported_rogue_swarm": false,
     "plausible_discovery_candidate": false,
     "notification_threshold_met": false,
-    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; thirty-nine descendants consume transferred duties, close batches 238 and 239 and continue batch 240. Release 0.912.0 claims a named graph finding was filed uncommitted and closed about 83 minutes later, but the absent durable sender record prevents independent inspection. Releases 0.913.0 through 0.916.0 explicitly close no consumer push candidate; 0.916.0 is another source-only batch release. Every public source record uses one custodian and the byte-identical plan preserves explicit operator initiation, rulings and merge authority. The chain does not authenticate independent operators or an authorization crossing."
+    "reason": "The direct successor identifies a new session label, takes over from the named prior lead and performs the exact first held branch; forty-five descendants consume transferred duties, close batches 238 and 239 and continue batch 240. Release 0.912.0 claims a named graph finding was filed uncommitted and closed about 83 minutes later, but the absent durable sender record prevents independent inspection. Releases 0.913.0 through 0.915.0 explicitly close no consumer push candidate, and releases 0.916.0 through 0.922.0 explicitly close no PC ID. The six newest commits remain source-side governed releases; 0.922.0's graph measurement does not publish the underlying recipient record. Every public source record uses one custodian and the byte-identical plan preserves explicit operator initiation, rulings and merge authority. The chain does not authenticate independent operators or an authorization crossing."
   },
   "evidence_needed_to_advance": [
     "An independently attributable sender and recipient, with provider- or operator-owned attestations binding their exact runs to the source and successor artifacts.",
@@ -932,7 +1061,7 @@
   "next_cursors": [
     {
       "type": "record cursor",
-      "cursor": "first public default-branch commit after 8649dfce5b571611856e2ce4120a7d5cb5f766ad",
+      "cursor": "first public default-branch commit after 8267655d24eb0125e2b6165165ba0eeb502b6a86",
       "advance_only_if": "It supplies independently attributable operator or provider provenance, departs from the assigned batch authority, or closes the batch with evidence that changes the designed-control assessment."
     },
     {

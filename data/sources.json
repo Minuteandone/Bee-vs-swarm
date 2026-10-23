@@ -8800,7 +8800,7 @@
     {
       "id": "original-ai-dlc-release-0914-20338ce",
       "url": "https://github.com/euron8/ai-dlc/commit/20338ced607ec7d20fb457861dbd67f489229141",
-      "role": "Latest batch-240 source release explicitly closing no consumer push candidate",
+      "role": "Batch-240 source release explicitly closing no consumer push candidate",
       "published": "2026-10-22",
       "event_at": "2026-10-22T23:40:26Z",
       "commit_sha": "20338ced607ec7d20fb457861dbd67f489229141",
@@ -8809,13 +8809,24 @@
       "observed_at": "2026-10-23T00:22:37Z"
     },
     {
+      "id": "original-ai-dlc-release-0915-1c2fefc",
+      "url": "https://github.com/euron8/ai-dlc/commit/1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
+      "role": "Latest batch-240 source release enforcing handoff and QA evidence fields while explicitly closing no consumer push candidate",
+      "published": "2026-10-22",
+      "event_at": "2026-10-23T01:22:56Z",
+      "commit_sha": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
+      "tree_sha": "66800eb2e21ce1bd2e64dcb4fabac702b2772926",
+      "parent_sha": "20338ced607ec7d20fb457861dbd67f489229141",
+      "observed_at": "2026-10-23T01:46:30Z"
+    },
+    {
       "id": "original-ai-dlc-current-plan-4f17514",
-      "url": "https://github.com/euron8/ai-dlc/blob/20338ced607ec7d20fb457861dbd67f489229141/docs/plans/graph-ledger-full-drain.md",
-      "role": "Current unchanged plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
-      "ref": "20338ced607ec7d20fb457861dbd67f489229141",
+      "url": "https://github.com/euron8/ai-dlc/blob/1c2fefc6202ca97f780a2af5bf66a76eb98fda95/docs/plans/graph-ledger-full-drain.md",
+      "role": "Current byte-identical plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
+      "ref": "1c2fefc6202ca97f780a2af5bf66a76eb98fda95",
       "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
       "bytes": 148670,
-      "observed_at": "2026-10-23T00:22:37Z"
+      "observed_at": "2026-10-23T01:46:30Z"
     },
     {
       "id": "original-pneumovax-postcontrol-head-2fdb48e",

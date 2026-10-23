@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "title": "Original founder-directed shared-artifact to wallet-implementation control",
+  "assessed_on": "2026-10-23",
+  "observed_at": "2026-10-23T07:30:51Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_id": "BV-089",
+  "purpose": "Preserve an original public artifact-to-implementation dependency while separating semantic use from model-label, operator-boundary and rogue-intent claims.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts or audit instruments",
+      "open or replay the shared carrier artifact",
+      "invoke an agent runtime or model provider",
+      "contact a participant or founder",
+      "post, comment, vote, react or create an account",
+      "read a private inbox or unlisted room",
+      "probe a target system"
+    ],
+    "publication_note": "Only immutable public GitHub records, Git object identifiers, event and observation times, domain-level artifact contents and bounded query results are retained. The raw carrier URL, carrier identifier, personal addresses, prompts and executable bodies are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No source-level cue separates the unread known-family-controlled remainder into a distinct episode.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "selected_original_chain": {
+    "repository": "beehive-nature/beehive-nature",
+    "repository_url": "https://github.com/beehive-nature/beehive-nature",
+    "public_custodian": "loviswaternakamoto",
+    "source_publication": {
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/e6c698f938c335c97e2df954f4371c522079238c",
+      "commit_sha": "e6c698f938c335c97e2df954f4371c522079238c",
+      "tree_sha": "ce961f6bde372a01b9a66e7e213367b3e99f5b6e",
+      "parent_sha": "8e7a6e8fe374f743dfd38e5a4382af220e44676e",
+      "event_at": "2026-10-22T17:38:55Z",
+      "signature": "GitHub-verified",
+      "role": "Publishes a founder-shared design blueprint, a three-register audit, screenshots and a read-only audit instrument. The record says the artifact was captured under a founder request on 25 September 2026.",
+      "temporal_limit": "The public commit is 22 October 2026. The asserted 25 September capture and the carrier's creation time are not independently attested, so the claimed source date and public observation date remain separate."
+    },
+    "source_artifacts": [
+      {
+        "url": "https://github.com/beehive-nature/beehive-nature/blob/e6c698f938c335c97e2df954f4371c522079238c/docs/dispatches/2026-09-25-skaists-design-system-blueprint.md",
+        "path": "docs/dispatches/2026-09-25-skaists-design-system-blueprint.md",
+        "blob_sha": "2e13e42d86fae97a7d29d4dc4cf50c36a1067271",
+        "lines": 229,
+        "role": "Domain-level source blueprint attributed by the project to a zCode/GLM-labelled seat; it defines three deliberately different visual registers and reports a 115-surface review."
+      },
+      {
+        "url": "https://github.com/beehive-nature/beehive-nature/blob/e6c698f938c335c97e2df954f4371c522079238c/docs/dispatches/2026-09-25-three-register-audit.md",
+        "path": "docs/dispatches/2026-09-25-three-register-audit.md",
+        "blob_sha": "fd69df0dfb07cec6e117e46c638517698a099e89",
+        "lines": 157,
+        "role": "Project-authored audit says zero of 115 reviewed surfaces implemented the requested voice, density and dress separation."
+      },
+      {
+        "url": "https://github.com/beehive-nature/beehive-nature/blob/e6c698f938c335c97e2df954f4371c522079238c/scripts/register-audit.mjs",
+        "path": "scripts/register-audit.mjs",
+        "blob_sha": "7e9a98f3a5837048c076e58f430f687f12e4299a",
+        "role": "Read-only audit instrument retained as evidence but not executed."
+      }
+    ],
+    "downstream_records": [
+      {
+        "url": "https://github.com/beehive-nature/beehive-nature/commit/792be2af8622c5897f80629e37de5434152f786e",
+        "commit_sha": "792be2af8622c5897f80629e37de5434152f786e",
+        "tree_sha": "c1c5d16d083c64740ebbee6a8231c8948164f367",
+        "parent_sha": "2fb2052b32f411b5316daed86859f996ba6b5186",
+        "event_at": "2026-09-26T02:57:23Z",
+        "signature": "unsigned Git commit",
+        "role": "Implements the blueprint's three-register rule in the wallet after an explicit founder request; changes wallet code, tests and screenshots and carries a project-authored zCode co-author trailer."
+      },
+      {
+        "url": "https://github.com/beehive-nature/beehive-nature/commit/4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
+        "commit_sha": "4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
+        "tree_sha": "2633da110b493278fff550605485d00151b591b7",
+        "parent_sha": "8dfb68d81d2710dd07bf4eb0679aa409d2dbe030",
+        "event_at": "2026-09-26T06:04:58Z",
+        "signature": "unsigned Git commit",
+        "artifact_url": "https://github.com/beehive-nature/beehive-nature/blob/4e6ee4f4d170e1313bfa3392d9d08c2a755af82d/docs/dispatches/2026-09-26-wallet-three-grammars.md",
+        "artifact_blob_sha": "a113a7055724fc023f862120e974c476528b6012",
+        "role": "Turns the founder's critique into three content-specific navigation grammars before implementation; carries a project-authored Claude Opus co-author trailer."
+      },
+      {
+        "url": "https://github.com/beehive-nature/beehive-nature/commit/3f8ba9b8ac59f60d97eef0be78338d6509fa4019",
+        "commit_sha": "3f8ba9b8ac59f60d97eef0be78338d6509fa4019",
+        "tree_sha": "744431478069de9260563d79169ec0c5ab354250",
+        "parent_sha": "4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
+        "event_at": "2026-09-26T06:31:11Z",
+        "signature": "unsigned Git commit",
+        "role": "Direct child implementing the three-grammar matrix across 19 files with 2,327 additions and 162 deletions; carries the same project-authored Claude Opus co-author trailer."
+      }
+    ],
+    "lineage": {
+      "792be2a_to_4e6ee4f": "same default-branch ancestry; downstream is eight commits ahead and zero behind",
+      "4e6ee4f_to_3f8ba9b": "direct parent-child",
+      "3f8ba9b_to_e6c698f": "same default-branch ancestry; source-publication commit is 1,545 commits ahead and zero behind",
+      "semantic_dependency": "High confidence. The later matrix and implementation use the source's distinctive three-register rule and connect it to explicit founder direction; this is stronger than text similarity alone.",
+      "publication_order_limit": "The source artifact was publicly committed after the downstream work, so the source record is retrospective provenance rather than contemporaneous public sender evidence."
+    }
+  },
+  "participant_and_boundary_assessment": {
+    "verified_public_participants": "One GitHub account/custodian publishes every selected commit.",
+    "model_labels": "zCode/GLM and Claude Opus appear in project-authored prose or co-author trailers. They are not provider-owned receipts and do not authenticate distinct runs, providers or operators.",
+    "operator_evidence": "The founder explicitly requested the differentiated interface work and intentionally shared the source artifact. The selected downstream action stays within that request.",
+    "operator_boundary": "No independent operator boundary is established.",
+    "authorization": "Human-requested and project-directed on the public record.",
+    "subjective_rogue_intent": "No evidence.",
+    "current_activity": "No runtime activity claim; the latest selected record is a repository commit."
+  },
+  "alternative_explanations": [
+    {
+      "alternative": "single operator publishing multiple role voices",
+      "assessment": "strongly supported by the one-account provenance"
+    },
+    {
+      "alternative": "designed human-requested relay",
+      "assessment": "strongly supported by the founder direction and intentionally shared artifact"
+    },
+    {
+      "alternative": "post-hoc provenance or observer contamination",
+      "assessment": "not excluded because the source artifact was publicly committed on 22 October while claiming a 25 September capture"
+    },
+    {
+      "alternative": "independently operated agents crossing authorization boundaries",
+      "assessment": "not supported by the public records"
+    }
+  ],
+  "prior_reporting_scope": {
+    "github_queries": [
+      {
+        "query": "e6c698f938c335c97e2df954f4371c522079238c",
+        "surface": "global commit search",
+        "rows": 1,
+        "classification": "origin commit only"
+      },
+      {
+        "query": "\"THREE-REGISTER AUDIT\" \"skaists design system blueprint\"",
+        "surface": "global commit search",
+        "rows": 1,
+        "classification": "origin commit only"
+      },
+      {
+        "query": "2026-09-25-skaists-design-system-blueprint.md",
+        "surface": "global code search",
+        "rows": 3,
+        "classification": "all paths in the originating repository"
+      }
+    ],
+    "web_queries": [
+      "\"e6c698f938c335c97e2df954f4371c522079238c\"",
+      "\"THREE-REGISTER AUDIT\" \"skaists design system blueprint\"",
+      "\"founder shared claude.ai artifact\" \"register-audit\""
+    ],
+    "relevant_independent_results": 0,
+    "statement": "No independent coordination report located in the checked scope as of 23 October 2026. This bounded absence does not establish novelty, and the originating project itself openly publishes the designed workflow.",
+    "known_family_overlap": "No overlap located with the excluded DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub handoff or Covert Assistance/METR families."
+  },
+  "assessment": {
+    "classification": "high-confidence founder-directed same-custodian artifact-to-implementation control",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "The chain preserves a concrete semantic transfer and downstream use, but one public custodian publishes every selected record, the founder explicitly directs the work, model labels are not provider attestations, the source provenance is retrospective, and no cross-operator authorization boundary or rogue intent is evidenced."
+  },
+  "evidence_needed_to_advance": [
+    "A contemporaneous public sender record independently attributable to a specific run and provider or operator.",
+    "A separately attributable recipient record showing exact content-specific use under a different operator.",
+    "Primary evidence that the cooperation exceeded the founder's documented request or another operator-defined authorization boundary.",
+    "Provider-owned provenance if provider attribution is claimed; project-authored prose and co-author trailers are insufficient."
+  ],
+  "next_cursors": [
+    {
+      "type": "source provenance cursor",
+      "cursor": "first public contemporaneous record independently binding the claimed 25 September shared artifact to its sender run",
+      "advance_only_if": "It authenticates the sender independently of repository-authored labels and preserves the transferred content without exposing a private carrier."
+    },
+    {
+      "type": "recipient provenance cursor",
+      "cursor": "first public record independently binding a recipient run to the 792be2a or 3f8ba9b implementation",
+      "advance_only_if": "It establishes a different operator or action outside the explicit founder request."
+    },
+    {
+      "type": "repository cursor",
+      "cursor": "first default-branch commit after e6c698f938c335c97e2df954f4371c522079238c",
+      "advance_only_if": "It adds contemporaneous sender/recipient provenance or materially changes authorization evidence."
+    }
+  ]
+}

@@ -8821,12 +8821,12 @@
     },
     {
       "id": "original-ai-dlc-current-plan-4f17514",
-      "url": "https://github.com/euron8/ai-dlc/blob/8267655d24eb0125e2b6165165ba0eeb502b6a86/docs/plans/graph-ledger-full-drain.md",
+      "url": "https://github.com/euron8/ai-dlc/blob/664262275d447914625c60ee91e8f89317a3b45d/docs/plans/graph-ledger-full-drain.md",
       "role": "Current byte-identical plan closing batch 239, recording graph-side pull use, operator rulings and the batch-240 session transition",
-      "ref": "8267655d24eb0125e2b6165165ba0eeb502b6a86",
+      "ref": "664262275d447914625c60ee91e8f89317a3b45d",
       "blob_sha": "4f17514635aeac952748364b60cf758034896aeb",
       "bytes": 148670,
-      "observed_at": "2026-10-23T06:32:53Z"
+      "observed_at": "2026-10-23T07:30:51Z"
     },
     {
       "id": "original-ai-dlc-release-0916-8649dfc",
@@ -8997,6 +8997,86 @@
       "tree_sha": "7be2cba328e6cd886ce482eda98569120066ffb2",
       "parent_sha": "0f4685b1fbbd28fd9ebe692bae200afe0cbe19a8",
       "observed_at": "2026-10-22T18:22:02Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0923-6642622",
+      "url": "https://github.com/euron8/ai-dlc/commit/664262275d447914625c60ee91e8f89317a3b45d",
+      "role": "Batch-240 source process and validation release explicitly closing no PC ID and publishing no graph-side record",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T07:02:28Z",
+      "commit_sha": "664262275d447914625c60ee91e8f89317a3b45d",
+      "tree_sha": "20b0dde77c7b2a692c5f8f3208b8dca83c7e2ea6",
+      "parent_sha": "8267655d24eb0125e2b6165165ba0eeb502b6a86",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-founder-artifact-publication-e6c698f",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/e6c698f938c335c97e2df954f4371c522079238c",
+      "role": "Verified public commit preserving a founder-shared design blueprint, audit and read-only audit instrument with retrospective 25 September provenance",
+      "published": "2026-10-22",
+      "event_at": "2026-10-22T17:38:55Z",
+      "commit_sha": "e6c698f938c335c97e2df954f4371c522079238c",
+      "tree_sha": "ce961f6bde372a01b9a66e7e213367b3e99f5b6e",
+      "parent_sha": "8e7a6e8fe374f743dfd38e5a4382af220e44676e",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-skaists-blueprint-2e13e42",
+      "url": "https://github.com/beehive-nature/beehive-nature/blob/e6c698f938c335c97e2df954f4371c522079238c/docs/dispatches/2026-09-25-skaists-design-system-blueprint.md",
+      "role": "Retrospectively published three-register source blueprint attributed by the project to a zCode/GLM-labelled seat",
+      "ref": "e6c698f938c335c97e2df954f4371c522079238c",
+      "blob_sha": "2e13e42d86fae97a7d29d4dc4cf50c36a1067271",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-three-register-audit-fd69df0",
+      "url": "https://github.com/beehive-nature/beehive-nature/blob/e6c698f938c335c97e2df954f4371c522079238c/docs/dispatches/2026-09-25-three-register-audit.md",
+      "role": "Retrospectively published 115-surface design audit accompanying the shared blueprint",
+      "ref": "e6c698f938c335c97e2df954f4371c522079238c",
+      "blob_sha": "fd69df0dfb07cec6e117e46c638517698a099e89",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-register-audit-instrument-7e9a98f",
+      "url": "https://github.com/beehive-nature/beehive-nature/blob/e6c698f938c335c97e2df954f4371c522079238c/scripts/register-audit.mjs",
+      "role": "Read-only source audit instrument retained as evidence and not executed",
+      "ref": "e6c698f938c335c97e2df954f4371c522079238c",
+      "blob_sha": "7e9a98f3a5837048c076e58f430f687f12e4299a",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-founder-wallet-order-792be2a",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/792be2af8622c5897f80629e37de5434152f786e",
+      "role": "Founder-directed wallet implementation using the source blueprint's three-register rule",
+      "published": "2026-09-26",
+      "event_at": "2026-09-26T02:57:23Z",
+      "commit_sha": "792be2af8622c5897f80629e37de5434152f786e",
+      "tree_sha": "c1c5d16d083c64740ebbee6a8231c8948164f367",
+      "parent_sha": "2fb2052b32f411b5316daed86859f996ba6b5186",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-wallet-three-grammars-4e6ee4f",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
+      "role": "Founder-critique response mapping the three registers to content-specific wallet navigation grammars",
+      "published": "2026-09-26",
+      "event_at": "2026-09-26T06:04:58Z",
+      "commit_sha": "4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
+      "tree_sha": "2633da110b493278fff550605485d00151b591b7",
+      "parent_sha": "8dfb68d81d2710dd07bf4eb0679aa409d2dbe030",
+      "artifact_blob_sha": "a113a7055724fc023f862120e974c476528b6012",
+      "observed_at": "2026-10-23T07:30:51Z"
+    },
+    {
+      "id": "original-beehive-wallet-matrix-use-3f8ba9b",
+      "url": "https://github.com/beehive-nature/beehive-nature/commit/3f8ba9b8ac59f60d97eef0be78338d6509fa4019",
+      "role": "Direct-child implementation of the founder-directed three-grammar wallet matrix",
+      "published": "2026-09-26",
+      "event_at": "2026-09-26T06:31:11Z",
+      "commit_sha": "3f8ba9b8ac59f60d97eef0be78338d6509fa4019",
+      "tree_sha": "744431478069de9260563d79169ec0c5ab354250",
+      "parent_sha": "4e6ee4f4d170e1313bfa3392d9d08c2a755af82d",
+      "observed_at": "2026-10-23T07:30:51Z"
     }
   ]
 }

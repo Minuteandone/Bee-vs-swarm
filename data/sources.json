@@ -10235,6 +10235,124 @@
       "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
       "blob_sha": "e98a81f89a7ff75a21dd868c22395306702added",
       "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-ever-head-d095d3b",
+      "url": "https://github.com/Lioooooo123/Ever/commit/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "role": "Ever default-branch source cursor for complete-tree and adjacent implementation/test review",
+      "published": "2026-08-17",
+      "event_at": "2026-08-17T11:40:19Z",
+      "commit_sha": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-ever-readme-fe34bd1",
+      "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/README.md",
+      "role": "Primary Ever scope documenting normal Sessions, opt-in Goal mode and the durable operator-selected Task control plane",
+      "published": null,
+      "ref": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "blob_sha": "fe34bd1f4862b3f512022c6027f7e79b860fcc13",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-ever-store-09873e9",
+      "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/src/store.ts",
+      "role": "Message receipt, dispatch-context and predecessor-Episode storage implementation without populated public exchange rows",
+      "published": null,
+      "ref": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "blob_sha": "09873e989bc2890070e961b94073b39f66fad71e",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-ever-flow-test-3a7faee",
+      "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/test/flow.test.ts",
+      "role": "In-memory flow fixture freezing two accepted predecessor Episodes into one downstream synthesize dispatch",
+      "published": null,
+      "ref": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "blob_sha": "3a7faeea1a19a92005c5e3ebf771b56f9b14b5e0",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-ever-dispatch-test-bb574ef",
+      "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/test/agent-dispatch.test.ts",
+      "role": "In-memory parent/child message fixture with queued, delivered, model-visible and acknowledged states",
+      "published": null,
+      "ref": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "blob_sha": "bb574efca48e6ea632fc55d13ef59f07306bc142",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-ever-session-test-a9b5fc2",
+      "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/coding-agent/test/agent-coordination-extension.test.ts",
+      "role": "Mocked Session fixture acknowledging a message only after provider visibility and settlement, and waking on a committed child result",
+      "published": null,
+      "ref": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+      "blob_sha": "a9b5fc2063176ff3afde60397650f6a79483c60e",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-nyan-head-9442a45",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/commit/9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "role": "ChatGPT Gateway MCP Nyan default-branch source cursor for complete-tree and adjacent schema/test review",
+      "published": "2026-09-14",
+      "event_at": "2026-09-14T20:27:21Z",
+      "commit_sha": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-nyan-readme-1f1e0af",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/README.md",
+      "role": "Primary owner-scoped control-plane context stating private production and internal acceptance evidence are not published",
+      "published": null,
+      "ref": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "blob_sha": "1f1e0af1b88b1626c77224a5f411df3be818d2ca",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-nyan-models-bdff9e9",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/gateway_api/models.py",
+      "role": "Owner-scoped message, delivery, handoff and integration database models without populated event rows",
+      "published": null,
+      "ref": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "blob_sha": "bdff9e9f9440599835aea4cd7033a3e440ee0b86",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-nyan-handoff-schema-2f48676",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/schemas/gateway.agent.handoff.created.v1.schema.json",
+      "role": "Handoff event schema binding source, target, lease, fence and required changes without a populated event",
+      "published": null,
+      "ref": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "blob_sha": "2f48676aab31ac51255349bb8bd880f864afafc0",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-nyan-coordination-2f9c826",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/gateway_api/agent_coordination.py",
+      "role": "Designed owner-scoped lease, handoff, conflict and integration service implementation",
+      "published": null,
+      "ref": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "blob_sha": "2f9c826d7ac851316eec00c378d938e72f27faa2",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-nyan-api-test-b064e7d",
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/tests/test_gateway_api.py",
+      "role": "Deterministic addressed-message and lease-gated handoff/integration API fixtures under one test process",
+      "published": null,
+      "ref": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+      "blob_sha": "b064e7d0131f5c80eda5dd59b5362a9b5ef29a53",
+      "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-ai-dlc-docs-batch-241-6075fa3",
+      "url": "https://github.com/euron8/ai-dlc/commit/6075fa36d6a17b12cd58db87b445a61ac7a0b91d",
+      "role": "Documentation-only direct child setting BL-800 consumer exposure to none on an explicit operator answer; no graph-side exchange",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T12:03:50Z",
+      "commit_sha": "6075fa36d6a17b12cd58db87b445a61ac7a0b91d",
+      "parent_sha": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+      "observed_at": "2026-10-24T12:27:52Z"
     }
   ]
 }

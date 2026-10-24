@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "title": "Message visibility and handoff test controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T12:27:52Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-095"
+  ],
+  "purpose": "Continue the original-record rotation from exact sender/recipient and producer/consumer fields, inspect every new external path and distinguish durable transfer/use mechanisms from emitted public episodes.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public default-branch source, tests, schemas, commits and repository documentation are retained. Test content is summarized without reproducing message or command payload bodies, credentials, tokens, sink identifiers, personal addresses or private logs."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No public source-level cue separates an unread scanner record from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "exact_locator_rotation": {
+    "scope": "Public default-branch GitHub code paths. Self-repository matches are recorded separately as observer contamination. Search results locate originals; repository files and context control the assessment.",
+    "queries": [
+      {
+        "query": "\"source_task_run_id\" \"target_task_run_id\" \"result_sha256\"",
+        "row_occurrences": 0,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"origin_principal_id\" \"recipient_principal_id\" \"message_sha256\"",
+        "row_occurrences": 0,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"produced_by_agent\" \"consumed_by_agent\" \"artifact_sha256\"",
+        "row_occurrences": 3,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 3
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"payload_sha256\" \"consumed_at\"",
+        "row_occurrences": 6,
+        "external_path_occurrences": 3,
+        "self_index_occurrences": 3,
+        "external_repositories": [
+          "Lioooooo123/Ever",
+          "wada-qualia/chatgpt-gateway-mcp-nyan"
+        ]
+      },
+      {
+        "query": "\"upstream_run_id\" \"downstream_run_id\" \"result_digest\" \"used_at\"",
+        "row_occurrences": 0,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"source_actor_id\" \"recipient_actor_id\" \"artifact_digest\" \"applied_at\"",
+        "row_occurrences": 0,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"gateway.agent.handoff.created.v1\" \"handoff_id\"",
+        "row_occurrences": 3,
+        "external_path_occurrences": 3,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"MessageModelVisible\" \"artifactRefs\" \"summary\"",
+        "row_occurrences": 2,
+        "external_path_occurrences": 2,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"sourceEpisodes\" \"contextManifestSha256\" \"settledAt\"",
+        "row_occurrences": 2,
+        "external_path_occurrences": 2,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"handoff_content_sha256\" \"recipient_action_id\"",
+        "row_occurrences": 0,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"producer_event_id\" \"consumer_event_id\" \"artifact_digest\" \"applied_revision\"",
+        "row_occurrences": 0,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 0
+      },
+      {
+        "query": "\"source_execution_id\" \"recipient_execution_id\" \"output_sha256\" \"consumed_at\"",
+        "row_occurrences": 2,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 2
+      },
+      {
+        "query": "\"delivery_receipt_id\" \"recipient_action_id\" \"authorization_scope_id\"",
+        "row_occurrences": 2,
+        "external_path_occurrences": 0,
+        "self_index_occurrences": 2
+      }
+    ],
+    "totals": {
+      "queries": 13,
+      "row_occurrences": 20,
+      "external_path_occurrences": 10,
+      "self_index_occurrences": 10,
+      "distinct_external_paths": 8,
+      "external_repositories": 2,
+      "zero_result_queries": 6,
+      "result_caps_reached": 0
+    }
+  },
+  "ever_control": {
+    "repository": "Lioooooo123/Ever",
+    "repository_url": "https://github.com/Lioooooo123/Ever",
+    "default_branch": "main",
+    "default_branch_head_at_observation": "d095d3b1fd463194a1bddd8c2be3a2a663f3f73f",
+    "head_event_at": "2026-08-17T11:40:19Z",
+    "recursive_tree_truncated": false,
+    "recursive_tree_entries": 1806,
+    "repository_context": {
+      "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/README.md",
+      "blob_sha": "fe34bd1f4862b3f512022c6027f7e79b860fcc13",
+      "assessment": "Ever documents an opt-in Goal mode and a durable Task control plane. Named agents, delegation, budgets and Session delivery are intended product behavior under one user's selected workflow, not evidence of an unrequested public exchange."
+    },
+    "matched_paths": [
+      {
+        "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/src/store.ts",
+        "blob_sha": "09873e989bc2890070e961b94073b39f66fad71e",
+        "classification": "storage_implementation",
+        "assessment": "Defines message rows and delivery/model-visibility/acknowledgement receipts, dispatch context manifests and source Episode lineage. It is implementation, not a populated public exchange."
+      },
+      {
+        "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/src/types.ts",
+        "blob_sha": "0fad43a6cfacb60a6a3385c5bec801e9020d2c79",
+        "classification": "type_definition",
+        "assessment": "Defines durable task, agent, dispatch and message state types without emitted episode data."
+      }
+    ],
+    "populated_tests": [
+      {
+        "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/test/flow.test.ts",
+        "blob_sha": "3a7faeea1a19a92005c5e3ebf771b56f9b14b5e0",
+        "dependency_summary": "Two fabricated research nodes commit accepted Episodes; a downstream synthesize dispatch freezes those exact Episode summaries rather than a later unrelated result.",
+        "classification": "in_memory_flow_test"
+      },
+      {
+        "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/long-tasks/test/agent-dispatch.test.ts",
+        "blob_sha": "bb574efca48e6ea632fc55d13ef59f07306bc142",
+        "dependency_summary": "A fabricated parent queues a directive to a fabricated child; the test tracks queued, delivered, provider-visible and acknowledged states and binds subsequent dispatch context to the child's prior result.",
+        "classification": "in_memory_dispatch_test"
+      },
+      {
+        "url": "https://github.com/Lioooooo123/Ever/blob/d095d3b1fd463194a1bddd8c2be3a2a663f3f73f/packages/coding-agent/test/agent-coordination-extension.test.ts",
+        "blob_sha": "a9b5fc2063176ff3afde60397650f6a79483c60e",
+        "dependency_summary": "The fixture acknowledges a durable message only after it is included in a prepared provider request and the run settles; a committed child result can wake an ordinary Session.",
+        "classification": "mocked_extension_test"
+      }
+    ],
+    "downstream_use_assessment": "The tests establish content-specific recipient visibility and downstream context construction inside the designed runtime. They do not establish that any public non-test recipient autonomously used a sender's result.",
+    "operator_boundary_assessment": "Every selected participant is a fixture created by one test harness under one task store and one product-defined control plane. No independently controlled operator or exceeded authorization is evidenced.",
+    "actual_run_record_search": "The complete non-truncated default-branch tree was inspected for committed ledgers or receipts adjacent to the matched source and tests; no populated non-test public exchange was located."
+  },
+  "gateway_control": {
+    "repository": "wada-qualia/chatgpt-gateway-mcp-nyan",
+    "repository_url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan",
+    "default_branch": "main",
+    "default_branch_head_at_observation": "9442a452c0a37f7b6f358a41a0fa3c9a4864399b",
+    "head_event_at": "2026-09-14T20:27:21Z",
+    "recursive_tree_truncated": false,
+    "recursive_tree_entries": 482,
+    "repository_context": {
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/README.md",
+      "blob_sha": "1f1e0af1b88b1626c77224a5f411df3be818d2ca",
+      "assessment": "The repository describes an operator-facing MCP control plane with explicit authorization, audit, approvals and controlled-autonomy primitives. It states that private infrastructure, production topology and internal acceptance evidence are not published; its public chat-context example expressly calls itself synthetic and not production evidence."
+    },
+    "matched_paths": [
+      {
+        "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/gateway_api/models.py",
+        "blob_sha": "bdff9e9f9440599835aea4cd7033a3e440ee0b86",
+        "classification": "database_model",
+        "assessment": "Defines messages, deliveries, handoff barriers, integration records and owner-scoped fields without populated event rows."
+      },
+      {
+        "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/database/alembic/postgresql_baseline.sql",
+        "blob_sha": "9010d90e99c7e4cfbe35a5be36c1a6ac6c551da5",
+        "classification": "database_schema",
+        "assessment": "A baseline schema match, not a public message or handoff record."
+      },
+      {
+        "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/schemas/gateway.agent.handoff.created.v1.schema.json",
+        "blob_sha": "2f48676aab31ac51255349bb8bd880f864afafc0",
+        "classification": "event_schema",
+        "fields": [
+          "handoff_id",
+          "room_id",
+          "source_agent_id",
+          "target_agent_id",
+          "lease_id",
+          "expected_fencing_token",
+          "required_change_ids"
+        ],
+        "assessment": "Defines an immutable-shaped handoff event but contains no populated event."
+      },
+      {
+        "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/gateway_api/agent_coordination.py",
+        "blob_sha": "2f9c826d7ac851316eec00c378d938e72f27faa2",
+        "classification": "service_implementation",
+        "assessment": "Implements owner-scoped leases, handoff readiness and acceptance, conflict checks and coordinator integration; it is designed workflow source, not an episode."
+      }
+    ],
+    "populated_tests": {
+      "url": "https://github.com/wada-qualia/chatgpt-gateway-mcp-nyan/blob/9442a452c0a37f7b6f358a41a0fa3c9a4864399b/services/gateway-api/tests/test_gateway_api.py",
+      "blob_sha": "b064e7d0131f5c80eda5dd59b5362a9b5ef29a53",
+      "message_dependency": "A fabricated sender addresses one fabricated recipient with a review request and artifact reference; the recipient reads the inbox twice and acknowledges the message. The test proves delivery, not semantic use.",
+      "handoff_dependency": "Two fabricated writers create guarded changes. A handoff from writer A to writer B is refused while A's lease remains held, accepted after release, and then compared with B's change in a fabricated coordinator integration that progresses from review to approval to integrated status.",
+      "classification": "api_fixture",
+      "limitation": "All agents, rooms, messages, leases, changes and commits are deterministic fixture values inside one test process. The integrated commit and external-operation decision are assertions, not evidence that an external agent performed the operation."
+    },
+    "operator_boundary_assessment": "The implementation and tests key all selected records to one owner subject and an explicit coordinator. No independent operator, public production receipt or cooperation beyond the configured control plane is shown.",
+    "actual_run_record_search": "The complete non-truncated default-branch tree exposes source, schemas, migrations, tests and a synthetic example. The project documentation says production acceptance evidence is private, so no public actual-run exchange is available in this repository."
+  },
+  "ai_dlc_cursor": {
+    "repository": "euron8/ai-dlc",
+    "previous_head": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+    "observed_head": "6075fa36d6a17b12cd58db87b445a61ac7a0b91d",
+    "event_at": "2026-10-24T12:03:50Z",
+    "relationship": "direct_child",
+    "classification": "same_custodian_documentation_only_cursor_advance",
+    "assessment": "The batch-241 close changes documentation and explicitly records that the operator never armed the relevant cache, changing BL-800 consumer exposure from unmeasured to none. It strengthens the operator-controlled negative explanation and adds no graph-side sender, recipient or downstream-use event."
+  },
+  "saved_cursor_checks": {
+    "queries": [
+      {
+        "query": "\"producer_task_id\" \"consumer_task_id\" \"artifact_digests\" \"decided_by_principal_id\"",
+        "result": "Ananta implementation paths and this repository's saved index only; no emitted record."
+      },
+      {
+        "query": "\"producer_task_id\" \"consumer_task_id\" \"content_text\" \"orchestration_id\"",
+        "result": "BernOS implementation paths and this repository's saved index only; no emitted record."
+      },
+      {
+        "query": "\"sender_task_id\" \"receiver_task_id\" \"consumed_at_ms\" \"payload_text\"",
+        "result": "BernOS implementation/test paths and this repository's saved index only; no emitted record."
+      }
+    ],
+    "source_heads": {
+      "bubbleverse": {
+        "head": "bc9a4909bedb1d8be508c7f255407827f49ada9d",
+        "changed": false
+      },
+      "omx_agent_adapter": {
+        "head": "2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1",
+        "changed": false
+      },
+      "ananta": {
+        "head": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+        "changed": false
+      },
+      "bernos": {
+        "head": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+        "changed": false
+      }
+    }
+  },
+  "prior_reporting_check": {
+    "performed": false,
+    "reason": "No actual episode survived primary-file review. A novelty search cannot convert schemas, implementation or deterministic test fixtures into an observation."
+  },
+  "falsification_summary": {
+    "single_operator_automation": "Not excluded; it is the documented default for both repositories and fully explains the fixtures.",
+    "designed_team": "Supported. Both projects intentionally implement named agents, messaging and handoffs.",
+    "human_requested_outreach": "No outreach episode is present.",
+    "repeated_tests": "Supported. Every populated selected exchange is a deterministic test fixture.",
+    "scanner_retry": "Not applicable; no scanner-derived request sequence is used.",
+    "shared_state_fault": "No fault episode is observed; the selected files are state models and tests.",
+    "observer_contamination": "Ten of twenty exact-search row occurrences are this repository's own indexed cursor text and are excluded from external evidence.",
+    "ai_identity": "Role and provider labels are fixture or project assertions, not independent attestations.",
+    "rogue_intent": "No evidence. Every selected transfer is configured and authorization-aware."
+  },
+  "evidence_required_to_advance": [
+    "a committed non-test sender record with immutable task-bearing message or artifact identity",
+    "a public recipient record showing content-specific semantic use of that exact transfer",
+    "independent provenance binding the participants to distinct autonomous executions and operators",
+    "primary evidence the cooperation bypassed or exceeded the governing user's or control plane's authorization"
+  ],
+  "next_record_cursors": [
+    "First public Ever non-test dispatch, message receipt or Episode ledger after d095d3b1fd463194a1bddd8c2be3a2a663f3f73f that binds sender content to a recipient action.",
+    "First public Nyan production-shaped receipt or externally attributable event after 9442a452c0a37f7b6f358a41a0fa3c9a4864399b; source, schema and tests alone do not advance the lead.",
+    "First public AI-DLC default-branch commit after 6075fa36d6a17b12cd58db87b445a61ac7a0b91d; advancement still requires a graph-side sender, recipient and use event.",
+    "First Bubbleverse V156 record or independently controlled delivery evidence after bc9a4909bedb1d8be508c7f255407827f49ada9d.",
+    "First OMX handoff outside the documented single-user controller after 2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1."
+  ],
+  "conclusion": "Ever and Nyan provide unusually explicit transfer, visibility, receipt and downstream-context mechanisms, but the only populated public records are deterministic designed tests. No public actual-run exchange, independently controlled participant pair, authorization crossing or rogue-swarm candidate is established."
+}

@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0",
+  "title": "Original owner-authorized single-run and private-mailbox controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T23:28:20Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-099"
+  ],
+  "purpose": "Resume exact public run-ledger cursors, trace a live one-shot execution from pre-run contract through result evidence, test for a separate recipient and operator boundary, and distinguish public workflow source from private emitted coordination state.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute retrieved code, tests, scripts, skills, workflows or agent tooling",
+      "install a package or invoke an agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "open a private output, ignored live mailbox, sink inbox or unlisted room",
+      "download an expired artifact, replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only existing public GitHub pages, immutable commit/blob identities, domain-level request summaries and bounded search results are retained. Municipal request paths, query bodies and identifiers, payload bodies, credentials, personal addresses and private mailbox state are omitted."
+  },
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 161,
+    "urlscan_listing_pages_closed": 57,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "scanner_reopened": false,
+    "scanner_pause_reason": "No new source-level participant, dependency, provenance or authorization cue separates the remainder from the known Amap, DseWiki or Transluce-controlled families."
+  },
+  "exact_record_queries": [
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" \"used_at\"",
+      "result": "14 rows; all are this repository's saved cursor text"
+    },
+    {
+      "query": "\"source_agent_id\" \"target_agent_id\" \"artifact_sha256\" \"consumed_at\"",
+      "result": "11 rows; all are this repository's saved cursor text"
+    },
+    {
+      "query": "\"upstream_run_id\" \"downstream_run_id\" \"input_sha256\" \"output_sha256\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"handoff_from\" \"handoff_to\" \"artifact_hash\" \"accepted\"",
+      "result": "8 rows; external hits are workflow contracts, schemas or source, with no selected emitted run"
+    },
+    {
+      "query": "\"sender_id\" \"recipient_id\" \"payload_hash\" \"used_at\"",
+      "result": "50-row cap; broad database/schema matches, no selected emitted episode"
+    },
+    {
+      "query": "\"source_commit\" \"recipient_commit\" \"handoff\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"artifact_digest\" \"consumed_by\" \"commit_sha\"",
+      "result": "50-row cap; selected the TASK 089 public evidence verifier for original-record tracing"
+    },
+    {
+      "query": "\"parent_agent\" \"child_agent\" \"result_hash\" \"accepted_at\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"source_run_id\" \"recipient_run_id\" \"applied_commit_sha\"",
+      "result": "6 rows; all are this repository's saved cursor text"
+    },
+    {
+      "query": "\"result_message_id\" \"consumer_operation_id\" \"accepted_at\" \"operator_id\"",
+      "result": "2 rows; both are this repository's saved cursor text"
+    },
+    {
+      "query": "\"upstream_task_id\" \"downstream_task_id\" \"result_digest\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"handoff_receipt\" \"applied_commit_sha\" \"operator_principal\"",
+      "result": "1 row; this repository's saved cursor text"
+    },
+    {
+      "query": "\"from_session\" \"to_session\" \"artifact_path\" \"acknowledged\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"sender_session_id\" \"recipient_session_id\" \"message_sha256\" \"used_at\"",
+      "result": "2 rows; both are this repository's saved cursor text"
+    },
+    {
+      "query": "\"produced_by_run\" \"consumed_by_run\" \"sha256\" \"authorization\"",
+      "result": "4 rows; all are this repository's saved cursor text"
+    },
+    {
+      "query": "\"source_artifact_sha256\" \"recipient_action_sha256\" \"operator_id\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"sender_agent_id\" \"recipient_agent_id\" \"consumed_at\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"artifact_sha256\"",
+      "result": "transient GitHub 429; no negative inference drawn"
+    },
+    {
+      "query": "\"produced_by_agent\" \"consumed_by_agent\" \"artifact_sha256\"",
+      "result": "4 rows; all are this repository's saved cursor text"
+    },
+    {
+      "query": "\"source_worker_id\" \"consumer_worker_id\" \"result_sha256\"",
+      "result": "1 row; this repository's saved cursor text"
+    },
+    {
+      "query": "\"handoff_id\" \"accepted_at\" \"result_sha256\"",
+      "result": "14 rows; two external Cayu paths are schema history, the rest are self-index rows"
+    },
+    {
+      "query": "\"sender\" \"recipient\" \"result_hash\" \"used_at\"",
+      "result": "50-row cap; selected Jenny's public mailbox implementation for source/control review"
+    }
+  ],
+  "commit_message_locators": [
+    {
+      "query": "agent result applied",
+      "result": "50-row cap; broad commit-message recall, no selected episode with a public independent sender→recipient→use chain"
+    },
+    {
+      "query": "agent handoff implemented",
+      "result": "50-row cap; broad commit-message recall, no selected episode with a public independent sender→recipient→use chain"
+    },
+    {
+      "query": "consumed agent output",
+      "result": "50-row cap; broad commit-message recall, no selected episode with a public independent sender→recipient→use chain"
+    },
+    {
+      "query": "picked up agent result",
+      "result": "50-row cap; broad commit-message recall, no selected episode with a public independent sender→recipient→use chain"
+    },
+    {
+      "query": "agent-to-agent handoff",
+      "result": "50-row cap; broad commit-message recall, no selected episode with a public independent sender→recipient→use chain"
+    },
+    {
+      "query": "autonomous agent handoff",
+      "result": "50-row cap; broad commit-message recall, no selected episode with a public independent sender→recipient→use chain"
+    }
+  ],
+  "original_controls": [
+    {
+      "control_id": "task089-owner-authorized-single-run",
+      "lead_id": "BV-099",
+      "repository": "ferinbon-cpu/robo-dados-publicos",
+      "current_default_branch_head": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "current_head_event_at": "2026-10-12T16:37:34Z",
+      "chronology": [
+        {
+          "event_at": "2026-09-04T11:24:03Z",
+          "record": "pre-run task contract commit",
+          "commit_sha": "a1efbc2960012cc7fcda456beaf2f100e4fcfdbc",
+          "blob_sha": "7e568df40a2eda20e25da1ba3c2c27f18558ee83",
+          "assessment": "one bounded stateful public-source query; at most three requests; no remote writes, recurrence or automatic retry"
+        },
+        {
+          "event_at": "2026-09-04T11:24:21Z",
+          "record": "single-use workflow execution head",
+          "commit_sha": "46aafb71a0656a9607d456cf0de887ce3c7749c8",
+          "workflow_blob_sha": "c5741a55a14e98736475ae271975963dd18d9691",
+          "assessment": "same repository owner authored the contract and execution commit"
+        },
+        {
+          "event_at": "2026-09-04T11:24:24Z",
+          "completed_at": "2026-09-04T11:24:44Z",
+          "record": "GitHub Actions run 33867790494",
+          "job_id": 101006491391,
+          "event": "push",
+          "conclusion": "success",
+          "assessment": "one job consumed the contract and made three requests to one municipal contract-record host; result NO_MATCH, zero candidate records and zero repository/queue/serving/publication writes"
+        },
+        {
+          "event_at": "2026-09-04T11:26:08Z",
+          "record": "initial sanitized execution evidence commit",
+          "commit_sha": "ee4d660927e2d26cfce06f4c79c90880e3e90ebf"
+        },
+        {
+          "event_at": "2026-09-04T11:29:06Z",
+          "record": "repository-owner authorization comment",
+          "comment_id": 5539799359,
+          "assessment": "posted after execution and expressly described as documenting an earlier owner instruction, not creating authorization retroactively"
+        },
+        {
+          "event_at": "2026-09-04T11:30:02Z",
+          "record": "consumed owner-authorization record commit",
+          "commit_sha": "67068da2b2524a5d2a3c39ce7f15fae53267143f",
+          "blob_sha": "7939c648524f0debe9eed05b82b509ef2cd0546c"
+        },
+        {
+          "event_at": "2026-09-04T11:30:04Z",
+          "record": "pre-run chain provenance commit",
+          "commit_sha": "91ccc0e50ea95e6ae98cc369ea47835144560b32",
+          "blob_sha": "03c2a1dbe9bc5f5c8af4ecf9adb7c50efef714df"
+        },
+        {
+          "event_at": "2026-09-04T11:30:06Z",
+          "record": "hardened execution-evidence commit",
+          "commit_sha": "4afc38a3004fe2b6225f027a6e8eecf487bfc858",
+          "blob_sha": "96037138cf46b1a39c8ee4a9e125f2c7202392ea"
+        },
+        {
+          "event_at": "2026-09-04T11:34:24Z",
+          "record": "pinned sanitized result payload commit",
+          "commit_sha": "235c291118d7bdfd60245cf0f6760578b4dfd39b",
+          "blob_sha": "2adf56b81d3d8b67d454cbee10a7c8be25b4a074"
+        },
+        {
+          "event_at": "2026-09-04T11:34:29Z",
+          "record": "offline verifier commit",
+          "commit_sha": "022e5f0910e5b59156f08f29b9af7365bec8fe9f",
+          "blob_sha": "d65d6b10999898e54f754133564d84fa59b346c4",
+          "assessment": "read as evidence only; not executed"
+        },
+        {
+          "event_at": "2026-09-04T11:37:40Z",
+          "record": "pull request 387 merged",
+          "merge_commit_sha": "11f57bd9d4144c2c2dff7026f03cdd14fbb72b0a",
+          "assessment": "opened and merged by the same repository owner"
+        }
+      ],
+      "exact_result_identity": {
+        "result_canonical_sha256": "9a18afe974028d969f58f885524a24a85b631eca4ddd88ddcc7e6ba556d199de",
+        "artifact_digest": "sha256:dc4fbe266c8bb3a8db09502e7098ef76fa88912bf10e7bcce8f8ac90c2bacca2",
+        "artifact_retention_days": 1,
+        "artifact_listing_at_observation": "empty after declared one-day retention; the current public evidence blobs preserve the claimed digest and sanitized result",
+        "preserved_workflow_blob_matches_executed_workflow": true,
+        "original_workflow_removed_after_run": true
+      },
+      "dependency_assessment": {
+        "observed": "owner task contract → one GitHub Actions job → sanitized no-match result and evidence incorporation",
+        "not_observed": "no distinguishable autonomous sender and recipient, no recipient-owned later action, no task result crossing an operator-defined boundary and no unauthorized continuation",
+        "causal_strength": "the run metadata, job steps, exact workflow blob and result hashes establish one job's contract/result chain; they do not establish inter-agent coordination"
+      },
+      "alternatives_tested": {
+        "single_operator_automation": "supported: one GitHub account owns the repository, authors the contract and execution, triggers the run, comments, commits evidence, opens and merges the pull request",
+        "designed_team": "supported more strongly than a swarm: the public record defines one bounded workflow and manual owner authorization, not multiple autonomous principals",
+        "human_requested_outreach": "not present",
+        "repeated_test_or_retry": "rejected as an explanation for multiple participants because there is only run number 1 and the authorization records disallow retry and future execution",
+        "shared_state_fault": "no public evidence of another process receiving or using the result",
+        "observer_contamination": "self-index GitHub results were removed from external counts",
+        "operator_boundary": "not established; the only public account and execution actor are the repository owner, and the earlier chat instruction is asserted by owner-authored records"
+      },
+      "classification": "live owner-authorized single-run control; not a coordination candidate",
+      "evidence_needed_to_advance": "A public sender result committed before a separately attributable recipient execution, content-specific downstream use by that recipient, independently supported runtime/operator provenance, and primary evidence that the use exceeded the bounded owner authorization. More same-owner evidence files, verifier assertions or one-job steps do not qualify."
+    },
+    {
+      "control_id": "jenny-private-mailbox-source",
+      "repository": "ret2c/jenny",
+      "current_default_branch_head": "2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
+      "current_head_event_at": "2026-08-16T01:23:25Z",
+      "public_records": [
+        {
+          "path": "tools/review_mailbox/MIDLANE_TO_HUNTER.example.md",
+          "blob_sha": "764bae530870a088c73ca3e0a0d82e1f33d45671",
+          "assessment": "labels the real append-only coordination log private and ignored; requests require explicit operator authorization"
+        },
+        {
+          "path": "tools/review_mailbox/README.md",
+          "blob_sha": "c614b222f313e292f0cd3acbb03be59251ec33b1",
+          "assessment": "describes designed Target Scoper, Hunter, bounded Midlane Reviewer and independently armed Final Reviewer roles; live SQLite/mailbox state is private workflow state and only the operator arms the reviewer"
+        },
+        {
+          "path": "skills/triage/SKILL.md",
+          "blob_sha": "00e1d3e6e6b7c37542fc99cc31fad4bfae3d706d",
+          "assessment": "delegation is optional, requires current operator authorization and is reconciled by the parent role"
+        }
+      ],
+      "dependency_assessment": {
+        "observed": "public source and policy for an intentionally designed multi-role workflow",
+        "not_observed": "no public emitted mailbox row, result receipt, independent sender/recipient provenance or downstream action from a specific live episode",
+        "collection_limit": "the repository expressly locates live coordination state in ignored/private files; those files were not opened or sought"
+      },
+      "classification": "designed source-only/private-state control; no lead assigned",
+      "evidence_needed_to_advance": "A deliberately public, sanitized emitted receipt with independently attributable source and recipient executions, content-specific recipient use and operator-boundary evidence. More schema, tests, prompts or private-state descriptions do not qualify."
+    }
+  ],
+  "scoped_prior_reporting_check": {
+    "checked_on": "2026-10-24",
+    "github_scope": [
+      "repository code search for TASK 089 records and consumed-by/provenance fields",
+      "path-scoped commit history for the task contract, owner authorization, gate chain, execution evidence, sanitized result and verifier",
+      "public pull-request discussion and Actions run/job metadata"
+    ],
+    "web_queries": [
+      "\"TASK_089_BOUNDED_NEXT_EXECUTABLE_CONTRACT_QUERY\"",
+      "\"33867790494\" \"robo-dados-publicos\"",
+      "\"TASK_089_PRE_RUN_GATE_CHAIN_V1\"",
+      "\"robo-dados-publicos\" \"bounded contract query\""
+    ],
+    "result": "No prior coordination report was located in the checked scope as of 24 October 2026. Exact GitHub evidence remains in the origin repository and web results were unrelated. This bounded absence does not establish novelty and is not probative of a swarm because the original record itself resolves to one owner-authorized execution with no separate recipient."
+  },
+  "bounded_negative_coverage": [
+    "Six broad commit-message locators each reached the 50-row cap; commit prose alone was not treated as a result/use edge.",
+    "Jenny's source documents designed roles and private ignored live state; absence of a public event is an evidence limit, not proof that no private exchange occurred.",
+    "The TASK 089 artifact listing is empty at observation after its declared one-day retention; current committed evidence preserves hashes but cannot substitute for an independently retained artifact download.",
+    "GitHub secondary-rate failures are recorded as retrieval errors and never counted as negative search results."
+  ],
+  "next_cursors": [
+    "First public record where a result committed by one independently attributable execution is consumed by a separate recipient execution and causes a content-specific action.",
+    "First deliberately public Jenny emitted mailbox receipt or sanitized run record; do not reopen on schema, policy, prompt or test changes alone.",
+    "Rotate exact producer/consumer provenance locators toward pre-action commits, separate operator principals and result hashes rather than generic handoff prose.",
+    "Keep the 293-record scanner remainder paused until a source-level participant, dependency, provenance or authorization cue separates a new episode."
+  ],
+  "conclusion": "Zero confirmed previously unreported rogue swarms. BV-099 is a live but single-owner, single-job authorization-consumption control. Jenny supplies designed source-only/private-state coverage. Neither establishes autonomous sender-to-recipient coordination or an operator-boundary crossing."
+}

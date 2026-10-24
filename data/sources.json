@@ -10793,6 +10793,148 @@
       "event_at": "2026-05-08T10:06:29Z",
       "commit_sha": "cdc4733dbd5cdee14779c6be6e167b03618b2f82",
       "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-task089-current-head-6e40f39",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/commit/6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "role": "Current public default-branch cursor containing TASK 089 evidence; later TASK300 commit does not add a downstream TASK 089 recipient",
+      "published": "2026-10-12",
+      "event_at": "2026-10-12T16:37:34Z",
+      "commit_sha": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-contract-a1efbc2",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/commit/a1efbc2960012cc7fcda456beaf2f100e4fcfdbc",
+      "role": "Pre-run one-shot bounded-query contract; sanitized scope and authorization-consumption control",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:24:03Z",
+      "commit_sha": "a1efbc2960012cc7fcda456beaf2f100e4fcfdbc",
+      "blob_sha": "7e568df40a2eda20e25da1ba3c2c27f18558ee83",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-execution-head-46aafb7",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/commit/46aafb71a0656a9607d456cf0de887ce3c7749c8",
+      "role": "Single-use workflow execution head; read as source, never executed by this investigation",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:24:21Z",
+      "commit_sha": "46aafb71a0656a9607d456cf0de887ce3c7749c8",
+      "workflow_blob_sha": "c5741a55a14e98736475ae271975963dd18d9691",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-actions-run-33867790494",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/actions/runs/33867790494",
+      "role": "Original one-job public run metadata and successful bounded execution steps",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:24:24Z",
+      "completed_at": "2026-09-04T11:24:44Z",
+      "commit_sha": "46aafb71a0656a9607d456cf0de887ce3c7749c8",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-pr-387",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/pull/387",
+      "role": "Same-owner pull request, post-run authorization-record comment and merge chronology",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:26:20Z",
+      "merged_at": "2026-09-04T11:37:40Z",
+      "merge_commit_sha": "11f57bd9d4144c2c2dff7026f03cdd14fbb72b0a",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-owner-auth-7939c64",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/blob/6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf/docs/evidence/TASK_089_OWNER_AUTHORIZATION_0.8.0.json",
+      "role": "Owner-authored record saying one pre-execution instruction was consumed and retry/future execution were not authorized",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:30:02Z",
+      "ref": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "blob_sha": "7939c648524f0debe9eed05b82b509ef2cd0546c",
+      "commit_sha": "67068da2b2524a5d2a3c39ce7f15fae53267143f",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-gate-chain-03c2a1d",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/blob/6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf/docs/evidence/TASK_089_PRE_RUN_GATE_CHAIN_0.8.0.json",
+      "role": "Exact task-contract, execution-head and preserved workflow-blob provenance",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:30:04Z",
+      "ref": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "blob_sha": "03c2a1dbe9bc5f5c8af4ecf9adb7c50efef714df",
+      "commit_sha": "91ccc0e50ea95e6ae98cc369ea47835144560b32",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-execution-evidence-9603713",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/blob/6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf/docs/evidence/TASK_089_BOUNDED_NEXT_EXECUTABLE_CONTRACT_QUERY_0.8.0.json",
+      "role": "Sanitized run, result-hash, artifact-digest and zero-write evidence record",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:30:06Z",
+      "ref": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "blob_sha": "96037138cf46b1a39c8ee4a9e125f2c7202392ea",
+      "commit_sha": "4afc38a3004fe2b6225f027a6e8eecf487bfc858",
+      "result_sha256": "9a18afe974028d969f58f885524a24a85b631eca4ddd88ddcc7e6ba556d199de",
+      "artifact_digest": "sha256:dc4fbe266c8bb3a8db09502e7098ef76fa88912bf10e7bcce8f8ac90c2bacca2",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-sanitized-payload-2adf56b",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/blob/6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf/docs/evidence/TASK_089_LIVE_ARTIFACT_PAYLOAD_0.8.0.json",
+      "role": "Committed sanitized no-match result; raw municipal paths, request values and identifiers are not reproduced by this project",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:34:24Z",
+      "ref": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "blob_sha": "2adf56b81d3d8b67d454cbee10a7c8be25b4a074",
+      "commit_sha": "235c291118d7bdfd60245cf0f6760578b4dfd39b",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-task089-verifier-d65d6b1",
+      "url": "https://github.com/ferinbon-cpu/robo-dados-publicos/blob/6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf/scripts/verify_task089_bounded_query_evidence.py",
+      "role": "Offline evidence verifier linking exact blobs, run identity and result hashes; inspected as text and never executed",
+      "published": "2026-09-04",
+      "event_at": "2026-09-04T11:34:29Z",
+      "ref": "6e40f39ed3f9e9dd04c472969bcdcb096e7cf9cf",
+      "blob_sha": "d65d6b10999898e54f754133564d84fa59b346c4",
+      "commit_sha": "022e5f0910e5b59156f08f29b9af7365bec8fe9f",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-jenny-current-head-2fa72a0",
+      "url": "https://github.com/ret2c/jenny/commit/2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
+      "role": "Current public default-branch cursor for the designed vulnerability-research workflow",
+      "published": "2026-08-16",
+      "event_at": "2026-08-16T01:23:25Z",
+      "commit_sha": "2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-jenny-mailbox-example-764bae5",
+      "url": "https://github.com/ret2c/jenny/blob/2fa72a09d5e225cbeb4c08c2360f92db00c4d831/tools/review_mailbox/MIDLANE_TO_HUNTER.example.md",
+      "role": "Public example stating the live append-only coordination log is private/ignored and cannot authorize action without the operator",
+      "published": null,
+      "ref": "2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
+      "blob_sha": "764bae530870a088c73ca3e0a0d82e1f33d45671",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-jenny-mailbox-readme-c614b22",
+      "url": "https://github.com/ret2c/jenny/blob/2fa72a09d5e225cbeb4c08c2360f92db00c4d831/tools/review_mailbox/README.md",
+      "role": "Designed role/mailbox documentation; live SQLite and coordination state are private workflow state",
+      "published": null,
+      "ref": "2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
+      "blob_sha": "c614b222f313e292f0cd3acbb03be59251ec33b1",
+      "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-jenny-triage-skill-00e1d3e",
+      "url": "https://github.com/ret2c/jenny/blob/2fa72a09d5e225cbeb4c08c2360f92db00c4d831/skills/triage/SKILL.md",
+      "role": "Public policy making delegation optional, operator-authorized and parent-reconciled",
+      "published": null,
+      "ref": "2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
+      "blob_sha": "00e1d3e6e6b7c37542fc99cc31fad4bfae3d706d",
+      "observed_at": "2026-10-24T23:28:20Z"
     }
   ]
 }

@@ -42,7 +42,7 @@ Initial primary sources:
 
 ## Evidence checkpoint — 24 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused and the separate 57-page urlscan listing scope closed. Pass 130 rotates eight exact transfer/use queries and checks four external public trees. The strongest new original record is Ageree/sthrip's two-step sprint carry-over: one evaluator finding is written into the next contract, implemented and verified, then a second evaluator finding is carried into the following contract and closed. This is concrete semantic downstream use, but the role topology and fresh-team cadence are prescribed by user criteria, the Lead passes the files and retains decisions, one GitHub account authors and merges the work, and the pull request expressly identifies an autonomous harness with remaining operator gates. Public Git chronology also batch-publishes several result and contract records after the corresponding implementation, so their causal order is content-asserted rather than independently timestamped. BV-098 is therefore a designed operator-harness control, not a candidate. See the [sprint carry-over and operator-harness control](data/original-sprint-carryover-and-operator-harness-control.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-24.md).
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused and the separate 57-page urlscan listing scope closed. Pass 131 rotates twenty-two exact record-field queries and six commit-message locators, then traces a live public one-shot run in `ferinbon-cpu/robo-dados-publicos`. A task contract was committed before the run, one owner-triggered Actions job consumed it, made three bounded requests to one municipal contract-record host and recorded a no-match result with zero writes; the same GitHub account authored the contract and execution, posted the authorization record, committed the evidence, and opened and merged the pull request. No separate recipient or downstream result use exists. `ret2c/jenny` adds an intentional multi-role source control, but its live mailbox and SQLite state are explicitly private/ignored, so no public episode can be inferred. BV-099 is therefore an owner-authorized single-run control, not a candidate. See the [owner-authorized single-run and private-mailbox controls](data/original-owner-authorized-single-run-and-private-mailbox-controls.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-24.md).
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -106,7 +106,7 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-23.md)
+- [Latest dated investigation log](research/2026-10-24.md)
 - [Investigation log — 19 October](research/2026-10-19.md)
 - [Investigation log — 18 October](research/2026-10-18.md)
 - [Investigation log — 17 October](research/2026-10-17.md)

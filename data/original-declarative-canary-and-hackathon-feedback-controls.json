@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.0",
+  "title": "Original declarative-canary and hackathon-feedback controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T17:53:01Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-097"
+  ],
+  "purpose": "Resume exact public original-record cursors, distinguish emitted records from schemas and tests, and test a newly located live investigator-to-evaluator dependency against participant, operator-boundary, authorization and novelty requirements.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute retrieved code, tests, scripts or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant, repository owner or service",
+      "post, comment, review, vote, react or create an account",
+      "read a private operational record, sink inbox or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only existing public GitHub pages, immutable commits, blob identities, sanitized receipt fields and domain-level reasoning are retained. Source bodies, credentials, private operational state, personal addresses and raw carrier paths are not reproduced."
+  },
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 161,
+    "urlscan_listing_pages_closed": 57,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "scanner_reopened": false,
+    "scanner_pause_reason": "No new source-level participant, transfer/use, provenance or authorization cue separates the remainder from the known Amap, DseWiki or Transluce-controlled families."
+  },
+  "cursor_replay": {
+    "saved_high_arity_queries": {
+      "query_count": 9,
+      "successful_self_index_only": 5,
+      "retrieval_errors": 4,
+      "new_external_original_records": 0,
+      "note": "The successful queries returned only this repository's indexed cursor text; retrieval errors are recorded as bounded failures, not negative evidence."
+    },
+    "lower_arity_queries": [
+      {
+        "query": "\"producing_run_id\" \"consuming_run_id\"",
+        "result": "3 self-index paths; no external original record"
+      },
+      {
+        "query": "\"origin_run_id\" \"recipient_run_id\"",
+        "result": "retrieval error"
+      },
+      {
+        "query": "\"sender_operator_id\" \"recipient_operator_id\"",
+        "result": "15 paths; selected external repositories reduced to source, schema or test material"
+      },
+      {
+        "query": "\"source_principal_id\" \"recipient_principal_id\"",
+        "result": "10 paths; selected external repositories reduced to source, schema or test material"
+      },
+      {
+        "query": "\"origin_message_commit\" \"recipient_action_commit\"",
+        "result": "3 self-index paths; no external original record"
+      },
+      {
+        "query": "\"handoff_commit_sha\" \"successor_commit_sha\"",
+        "result": "2 self-index paths; no external original record"
+      }
+    ],
+    "dependency_queries": [
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"consumed_at\"",
+        "result": "26 rows: 24 self-index rows and 2 Botfluencerz migration/test rows"
+      },
+      {
+        "query": "\"source_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"applied_at\"",
+        "result": "retrieval error"
+      },
+      {
+        "query": "\"producer_session_id\" \"consumer_session_id\" \"artifact_sha256\" \"accepted_at\"",
+        "result": "self-index only"
+      },
+      {
+        "query": "\"message_id\" \"recipient_agent_id\" \"consumed_at\" \"result_sha256\"",
+        "result": "retrieval error"
+      },
+      {
+        "query": "\"handoff_id\" \"from_agent_id\" \"to_agent_id\" \"accepted_at\"",
+        "result": "34 rows dominated by source implementations and deterministic tests; no selected emitted episode"
+      },
+      {
+        "query": "\"artifact_sha256\" \"recipient_action\" \"sender_session\"",
+        "result": "self-index only"
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_message_id\" \"applied_commit_sha\"",
+        "result": "retrieval error"
+      },
+      {
+        "query": "\"upstream_run_id\" \"downstream_run_id\" \"consumed_at\" \"operator_id\"",
+        "result": "self-index only"
+      }
+    ],
+    "recent_commit_queries": [
+      {
+        "query": "agent handoff accepted",
+        "returned_rows": 50,
+        "capped": true
+      },
+      {
+        "query": "agent result consumed",
+        "returned_rows": 50,
+        "capped": true
+      },
+      {
+        "query": "recipient used artifact",
+        "returned_rows": 50,
+        "capped": true
+      },
+      {
+        "query": "handoff receipt accepted",
+        "returned_rows": 50,
+        "capped": true
+      }
+    ]
+  },
+  "complete_tree_checks": [
+    {
+      "repository": "samuel-1-avson/CipherVault",
+      "ref": "e5a9e155e4306c4307997ec16174fb4b9f81e1c3",
+      "tree_entries": 689,
+      "result": "P2P backup operator-RPC source and tests; no committed public actual-run ledger located."
+    },
+    {
+      "repository": "vivekyarra/Sledgewire",
+      "ref": "c54c786234a918348bf4cb7b739889ebbdcaed5d",
+      "tree_entries": 162,
+      "result": "Receipt implementation, fixtures and tests; no committed public actual-run ledger located."
+    },
+    {
+      "repository": "intent-hq/intentd",
+      "ref": "156ad83c31494eeed4c04fe9e7fe300efcf97047",
+      "tree_entries": 2084,
+      "result": "Source, tests and fixtures; no selected committed public actual-run sender-to-recipient ledger located."
+    },
+    {
+      "repository": "Mindburn-Labs/helm-ai-kernel",
+      "ref": "fe79f092dc60aa189e52fc2e6213ff18f33baeed",
+      "tree_entries": 5663,
+      "result": "Golden artifacts, source, tests and fixtures; no selected emitted production episode."
+    }
+  ],
+  "original_controls": [
+    {
+      "control_id": "botfluencerz-public-snapshot",
+      "repository": "RSB-HOLDING/botfluencerz",
+      "ref": "f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "ref_event_at": "2026-08-05T07:35:52Z",
+      "public_tree": {
+        "blob_entries": 1490,
+        "canary_named_paths": 110,
+        "public_runtime_artifact_or_contract_json_files": 6,
+        "emitted_public_runtime_receipts_located": 0
+      },
+      "selected_records": [
+        {
+          "path": "README.md",
+          "blob_sha": "7ece8b9bacd5b7ca2cdc6cee777f4ee3e63dde1c",
+          "observation": "Describes an experimental social network for AI agents while retaining human ownership, readiness controls and safety oversight; says private operational state and production-specific evidence were excluded from the public snapshot."
+        },
+        {
+          "path": "supabase/migrations/20260722022000_external_runtime_social_parity_canary.sql",
+          "blob_sha": "f9e8a17ff07fa28b936f65e73a7a057ccda1b08d",
+          "observation": "Defines canary tables, functions and proof fields; it is schema, not a populated exchange."
+        },
+        {
+          "path": "src/lib/external-runtime-production-canary-recorder-postgres.test.ts",
+          "blob_sha": "49735b7ab8fbc6800b48078e1fd84571ef3ddff4",
+          "observation": "Deterministic fixture using reserved example domains; it is not an emitted production record."
+        },
+        {
+          "path": "public/runtime-artifacts/2026-07-25-runtime-canary-credential-epoch-repair.json",
+          "blob_sha": "79c1c5b7c35d0cf97145c3cd979efa7148f9f565",
+          "artifact_kind": "declarative_runtime_bundle",
+          "executable": false,
+          "observation": "Release contract expressly distinguishes delivery or presence from adoption and requires operator-minted authority and server evidence."
+        }
+      ],
+      "alternatives_tested": [
+        "A public field name or migration row is not evidence that any sender sent an artifact.",
+        "A deterministic canary test is not an autonomous episode.",
+        "A declarative release bundle is not proof that a recipient adopted or used it.",
+        "The project's statement that a private version was live cannot substitute for the excluded public operational receipts."
+      ],
+      "classification": "Designed intentional-community platform snapshot with no public emitted coordination record selected; not a candidate.",
+      "evidence_needed_to_advance": [
+        "A public emitted sender record and independently identifiable recipient record.",
+        "A content-specific recipient action that uses the transferred result or artifact.",
+        "Primary provenance for distinct autonomous executions and operators.",
+        "Evidence that the exchange exceeded the operator-owned admission, readiness and safety controls."
+      ]
+    },
+    {
+      "control_id": "sovrenai-live-feedback-run",
+      "lead_id": "BV-097",
+      "repository": "SOVRENAI/evidence-gated-agents-",
+      "introducing_commit": "356c0b1fea8a9e4967169b52e9e30795965ce5ab",
+      "introducing_commit_event_at": "2026-10-24T11:29:31Z",
+      "current_head": "c28030551e558d425ed74196d2692257e7febaa4",
+      "current_head_event_at": "2026-10-24T16:40:47Z",
+      "current_live_record": {
+        "path": "examples/recorded_run.json",
+        "blob_sha": "57b8bb13cebe5a9775e27c2e061df02ed60d802c",
+        "receipt_id": "audit-20261024T163853.096405Z",
+        "event_at": "2026-10-24T16:38:53.101051+00:00",
+        "live": true,
+        "replayed_from": null,
+        "receipt_sha256": "5a3625a80e7ac0b10456395969da98d5fae5f2851a7b90b98d53679a2bc30889",
+        "model_receipt_summary": {
+          "calls": 1,
+          "reported_model": "nvidia/nemotron-3-ultra-550b-a55b"
+        },
+        "semantic_dependency": [
+          {
+            "step": 1,
+            "role_label": "investigator",
+            "action": "reports a change-pattern claim for c1"
+          },
+          {
+            "step": 2,
+            "role_label": "evaluator",
+            "action": "challenges whether the supposedly unchanged periods existed at the boundary"
+          },
+          {
+            "step": 3,
+            "role_label": "investigator",
+            "action": "answers with a second query covering 19 periods and three boundary rows"
+          },
+          {
+            "step": 4,
+            "role_label": "evaluator",
+            "action": "uses the answer to withdraw the unsupported half and narrow the surviving claim"
+          },
+          {
+            "step": 5,
+            "role_label": "workflow",
+            "action": "continues to retrieval and one later model call on the narrowed evidence"
+          }
+        ],
+        "downstream_use_verified": true,
+        "sender_to_recipient_transport_verified": false,
+        "distinct_autonomous_principals_verified": false,
+        "distinct_operators_verified": false
+      },
+      "replay_control": {
+        "path_at_introducing_commit": "evidence/receipts/audit-20261024T112930.751386Z-2c1efe35.json",
+        "blob_sha": "4a46de49000763ef1f8b6aaef9b36f5246ac6072",
+        "live": false,
+        "replayed_from_receipt_id": "audit-20261024T112928.346265Z",
+        "note": "The replay copied the ledger from the recording and did not execute it; it was not counted as a second participant or second live exchange.",
+        "event_at": "2026-10-24T11:29:30.754856+00:00",
+        "receipt_sha256": "2c1efe351678a5b3a58ae821f99bff61a7583337da65e0ba629b740d2ff5e923"
+      },
+      "design_and_authorization": [
+        "The introducing commit quotes the Hackathon AI Usage Policy requirement that agent roles be distinct and interact more than once, and says the feedback step was added to satisfy it.",
+        "The current submission checklist marks the investigator/evaluator exchange complete under that same requirement and records a team/submission workflow.",
+        "The README labels the repository an Open Agent Hackathon 2026 Track 3 submission and describes the investigator and evaluator as code in the same bounded workflow.",
+        "All twelve latest commits inspected through the current head have the same GitHub author and committer account; a co-author/provider label does not authenticate a separate operator.",
+        "The one reported model call occurs after the investigator/evaluator adjudication and does not prove those role labels are independently operated model instances."
+      ],
+      "alternatives_tested": [
+        {
+          "alternative": "independent autonomous participants",
+          "result": "not supported; only internal role labels and one repository-owned live run are public"
+        },
+        {
+          "alternative": "cross-operator coordination",
+          "result": "not supported; current and introducing commits are published by one account within one submission"
+        },
+        {
+          "alternative": "rogue intent or authorization crossing",
+          "result": "contradicted by the explicit competition requirement and submission checklist"
+        },
+        {
+          "alternative": "replay as another participant",
+          "result": "rejected; the replay records copied state and declares live false"
+        },
+        {
+          "alternative": "provider-labelled role independence",
+          "result": "not supported; provider and co-author strings do not establish separate principals or operators"
+        }
+      ],
+      "classification": "Verified public live semantic feedback dependency, but an explicitly designed single-submission Hackathon control; not a rogue-swarm candidate.",
+      "evidence_needed_to_advance": [
+        "Primary records authenticating distinct autonomous runtime principals, not investigator/evaluator labels inside one program.",
+        "Independent operator provenance for sender and recipient.",
+        "A public transport or delivery edge binding one participant's output to the other participant's use.",
+        "Evidence that the exchange occurred outside or exceeded the Hackathon's required multi-role workflow and the submitter's authority."
+      ]
+    }
+  ],
+  "scoped_prior_reporting_check": {
+    "checked_on": "2026-10-24",
+    "github_queries": [
+      {
+        "query": "audit-20261024T112928.346265Z",
+        "result": "7 indexed paths, all in SOVRENAI/evidence-gated-agents-: the live receipt and same-repository replays."
+      },
+      {
+        "query": "\"Agent roles are distinct\" \"interact more than once\"",
+        "result": "3 indexed paths: one same-repository acceptance note and two copies of the Open Agent Hackathon policy requirement."
+      }
+    ],
+    "web_queries": [
+      "\"audit-20261024T112928.346265Z\"",
+      "\"evidence-gated-agents\" investigator evaluator hackathon",
+      "\"Agent roles are distinct and they interact more than once\"",
+      "\"SOVRENAI\" \"evidence gated agents\""
+    ],
+    "result": "No prior coordination report located in the checked scope as of 2026-10-24. The exact receipt is indexed only in the source repository, while broader results are unrelated evidence-gated-agent designs. This is not a novelty claim and does not alter the exclusion: the source itself documents a deliberately constructed Hackathon interaction."
+  },
+  "next_cursors": [
+    "First public emitted Botfluencerz runtime receipt or social episode after f0ce49642cbc369f840844a331b33a18037f6a9b; do not reopen on another schema, test or declarative bundle.",
+    "First SOVRENAI public commit after c28030551e558d425ed74196d2692257e7febaa4 that independently authenticates distinct runtime principals or operators, or shows a transfer/use event outside the explicit Hackathon role-interaction requirement.",
+    "Rotate exact record searches toward committed live receipts containing immutable producer output, recipient identity and content-specific downstream use; continue excluding this repository's own indexed cursor text.",
+    "Keep the 293-report scanner remainder paused unless a new source-level participant, dependency, provenance or authorization cue separates it from the known families."
+  ],
+  "conclusion": "No previously unreported rogue swarm is confirmed. BV-097 preserves a real live semantic dependency and downstream narrowing, but the public originals show one designed Hackathon submission, internal role labels, one account and explicit authorization. Botfluencerz supplies schema, tests and declarative release contracts without a public emitted episode."
+}

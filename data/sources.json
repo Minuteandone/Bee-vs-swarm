@@ -10528,6 +10528,142 @@
       "ref": "d397732f65da2d1566089b9153a4145a605f8557",
       "blob_sha": "b6f1574561ae31434c3ebdc6f90ce0b0a0526194",
       "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-ciphervault-head-e5a9e15",
+      "url": "https://github.com/samuel-1-avson/CipherVault/commit/e5a9e155e4306c4307997ec16174fb4b9f81e1c3",
+      "role": "Immutable head for complete-tree check; P2P backup RPC source/tests but no public emitted run ledger",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T21:54:51Z",
+      "commit_sha": "e5a9e155e4306c4307997ec16174fb4b9f81e1c3",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sledgewire-head-c54c786",
+      "url": "https://github.com/vivekyarra/Sledgewire/commit/c54c786234a918348bf4cb7b739889ebbdcaed5d",
+      "role": "Immutable head for complete-tree check; receipt source, fixtures and tests but no public emitted run ledger",
+      "published": "2026-09-27",
+      "event_at": "2026-09-27T10:42:18Z",
+      "commit_sha": "c54c786234a918348bf4cb7b739889ebbdcaed5d",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-intentd-head-156ad83",
+      "url": "https://github.com/intent-hq/intentd/commit/156ad83c31494eeed4c04fe9e7fe300efcf97047",
+      "role": "Immutable head for complete-tree check; source/tests/fixtures without a selected committed actual-run sender-to-recipient ledger",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T16:25:42Z",
+      "commit_sha": "156ad83c31494eeed4c04fe9e7fe300efcf97047",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-helm-ai-kernel-head-fe79f09",
+      "url": "https://github.com/Mindburn-Labs/helm-ai-kernel/commit/fe79f092dc60aa189e52fc2e6213ff18f33baeed",
+      "role": "Immutable head for complete-tree check; golden artifacts, source and tests without a selected emitted production episode",
+      "published": "2026-10-18",
+      "event_at": "2026-10-18T21:58:34Z",
+      "commit_sha": "fe79f092dc60aa189e52fc2e6213ff18f33baeed",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-botfluencerz-open-source-head-f0ce496",
+      "url": "https://github.com/RSB-HOLDING/botfluencerz/commit/f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "role": "Single root open-source snapshot used for complete public-tree review",
+      "published": "2026-08-05",
+      "event_at": "2026-08-05T07:35:52Z",
+      "commit_sha": "f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-botfluencerz-readme-7ece8b9",
+      "url": "https://github.com/RSB-HOLDING/botfluencerz/blob/f0ce49642cbc369f840844a331b33a18037f6a9b/README.md",
+      "role": "Project statement retaining human ownership, readiness and safety controls and excluding private operational evidence",
+      "ref": "f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "blob_sha": "7ece8b9bacd5b7ca2cdc6cee777f4ee3e63dde1c",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-botfluencerz-canary-migration-f9e8a17",
+      "url": "https://github.com/RSB-HOLDING/botfluencerz/blob/f0ce49642cbc369f840844a331b33a18037f6a9b/supabase/migrations/20260722022000_external_runtime_social_parity_canary.sql",
+      "role": "Canary proof schema and functions; definition rather than populated runtime evidence",
+      "ref": "f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "blob_sha": "f9e8a17ff07fa28b936f65e73a7a057ccda1b08d",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-botfluencerz-canary-test-49735b7",
+      "url": "https://github.com/RSB-HOLDING/botfluencerz/blob/f0ce49642cbc369f840844a331b33a18037f6a9b/src/lib/external-runtime-production-canary-recorder-postgres.test.ts",
+      "role": "Deterministic canary recorder fixture, not an emitted production episode",
+      "ref": "f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "blob_sha": "49735b7ab8fbc6800b48078e1fd84571ef3ddff4",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-botfluencerz-declarative-bundle-79c1c5b",
+      "url": "https://github.com/RSB-HOLDING/botfluencerz/blob/f0ce49642cbc369f840844a331b33a18037f6a9b/public/runtime-artifacts/2026-07-25-runtime-canary-credential-epoch-repair.json",
+      "role": "Non-executable declarative runtime bundle explicitly separating delivery/presence from adoption",
+      "published": "2026-07-25",
+      "ref": "f0ce49642cbc369f840844a331b33a18037f6a9b",
+      "blob_sha": "79c1c5b7c35d0cf97145c3cd979efa7148f9f565",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sovrenai-feedback-introduction-356c0b1",
+      "url": "https://github.com/SOVRENAI/evidence-gated-agents-/commit/356c0b1fea8a9e4967169b52e9e30795965ce5ab",
+      "role": "Commit introducing the live investigator/evaluator feedback receipts while explicitly tying the interaction to a Hackathon requirement",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T11:29:31Z",
+      "commit_sha": "356c0b1fea8a9e4967169b52e9e30795965ce5ab",
+      "parent_sha": "62eec2ad56170c872e351c45b268296234d6766f",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sovrenai-current-head-c280305",
+      "url": "https://github.com/SOVRENAI/evidence-gated-agents-/commit/c28030551e558d425ed74196d2692257e7febaa4",
+      "role": "Current head regenerating the published live recording after a code-fingerprint change",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T16:40:47Z",
+      "commit_sha": "c28030551e558d425ed74196d2692257e7febaa4",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sovrenai-readme-8a42d77",
+      "url": "https://github.com/SOVRENAI/evidence-gated-agents-/blob/c28030551e558d425ed74196d2692257e7febaa4/README.md",
+      "role": "Hackathon submission description locating investigator and evaluator inside one bounded workflow",
+      "ref": "c28030551e558d425ed74196d2692257e7febaa4",
+      "blob_sha": "8a42d777e91df09c6f3c575f998320145efa071d",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sovrenai-checklist-7155369",
+      "url": "https://github.com/SOVRENAI/evidence-gated-agents-/blob/c28030551e558d425ed74196d2692257e7febaa4/SUBMISSION_CHECKLIST.md",
+      "role": "Submission checklist marking the investigator/evaluator feedback loop as satisfying the competition's distinct-role interaction requirement",
+      "ref": "c28030551e558d425ed74196d2692257e7febaa4",
+      "blob_sha": "715536913dc885c83bf5dfbac96a8f4414f8e751",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sovrenai-live-recording-57b8bb1",
+      "url": "https://github.com/SOVRENAI/evidence-gated-agents-/blob/c28030551e558d425ed74196d2692257e7febaa4/examples/recorded_run.json",
+      "role": "Live public receipt recording challenge, second query, evaluator claim narrowing and later continuation",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T16:38:53.101051+00:00",
+      "ref": "c28030551e558d425ed74196d2692257e7febaa4",
+      "blob_sha": "57b8bb13cebe5a9775e27c2e061df02ed60d802c",
+      "receipt_sha256": "5a3625a80e7ac0b10456395969da98d5fae5f2851a7b90b98d53679a2bc30889",
+      "observed_at": "2026-10-24T17:53:01Z"
+    },
+    {
+      "id": "original-sovrenai-replay-4a46de4",
+      "url": "https://github.com/SOVRENAI/evidence-gated-agents-/blob/356c0b1fea8a9e4967169b52e9e30795965ce5ab/evidence/receipts/audit-20261024T112930.751386Z-2c1efe35.json",
+      "role": "Explicit non-live replay pointing back to the original live receipt and copying its ledger rather than executing it",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T11:29:30.754856+00:00",
+      "ref": "356c0b1fea8a9e4967169b52e9e30795965ce5ab",
+      "blob_sha": "4a46de49000763ef1f8b6aaef9b36f5246ac6072",
+      "replayed_from_receipt_id": "audit-20261024T112928.346265Z",
+      "observed_at": "2026-10-24T17:53:01Z",
+      "receipt_sha256": "2c1efe351678a5b3a58ae821f99bff61a7583337da65e0ba629b740d2ff5e923"
     }
   ]
 }

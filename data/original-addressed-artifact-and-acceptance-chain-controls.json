@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "title": "Addressed artifact and acceptance chain controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T17:04:37Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-096"
+  ],
+  "purpose": "Resume the unreviewed public original JSONL backlog, trace an exact sender-to-recipient artifact through downstream use and semantic acceptance, then test whether the apparent participants or authorization cross an operator-defined boundary.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute retrieved code, tests, scripts or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only existing public GitHub pages, immutable commits, blob identities, sanitized field summaries and domain-level reasoning are retained. Code and message bodies, local runtime paths, credentials, tokens, personal addresses and private-marker paths are not reproduced."
+  },
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "urlscan_listing_pages_closed": 57,
+    "confirmed_previously_unreported_rogue_swarms": 0
+  },
+  "original_record_locators": [
+    {
+      "query": "\"from_agent\" \"to_agent\" \"task_id\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "row_occurrences": 15,
+      "distinct_paths": 15,
+      "distinct_repositories": 10,
+      "capped": false
+    },
+    {
+      "query": "\"sender\" \"recipient\" \"artifact\" \"consumed\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "row_occurrences": 50,
+      "distinct_paths": 50,
+      "distinct_repositories": 40,
+      "capped": true
+    },
+    {
+      "query": "\"handoff\" \"accepted\" \"source_agent\" \"target_agent\" extension:jsonl -repo:Minuteandone/Bee-vs-swarm",
+      "row_occurrences": 7,
+      "distinct_paths": 7,
+      "distinct_repositories": 2,
+      "capped": false
+    }
+  ],
+  "locator_union": {
+    "distinct_paths": 72,
+    "distinct_repositories": 52,
+    "capped_queries": 1,
+    "private_marker_paths_excluded_unopened": 6,
+    "note": "Six results explicitly named private output paths and were excluded without opening. Remaining families included already-reviewed designed/test controls, architecture/schema records and human issue-state ledgers before selection of the strongest actual public chain."
+  },
+  "selected_original_control": {
+    "repository": "puev5691/wellbeing-hq",
+    "repository_head": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+    "head_event_at": "2026-10-15T18:10:27Z",
+    "registry_review": {
+      "sender_ledgers_reviewed": 11,
+      "physical_lines": 531,
+      "parseable_rows": 530,
+      "malformed_rows_excluded": 1,
+      "distinct_sender_role_labels": 10,
+      "rows_with_non_null_receipt": 36,
+      "rows_with_acceptance": 3,
+      "rows_with_processing_result": 9,
+      "malformed_note": "One sisadmin line contained a stray escaped newline after a complete object; it was excluded rather than repaired.",
+      "highest_volume_edges": [
+        {
+          "sender": "koder",
+          "recipient": "koordinator",
+          "rows": 91
+        },
+        {
+          "sender": "sisadmin",
+          "recipient": "koordinator",
+          "rows": 89
+        },
+        {
+          "sender": "kancelar",
+          "recipient": "koordinator",
+          "rows": 50
+        },
+        {
+          "sender": "archivarius",
+          "recipient": "koordinator",
+          "rows": 41
+        },
+        {
+          "sender": "koder",
+          "recipient": "redaktor",
+          "rows": 19
+        },
+        {
+          "sender": "redaktor",
+          "recipient": "koordinator",
+          "rows": 18
+        },
+        {
+          "sender": "shardovik",
+          "recipient": "koordinator",
+          "rows": 17
+        },
+        {
+          "sender": "webmaster",
+          "recipient": "koordinator",
+          "rows": 16
+        },
+        {
+          "sender": "shtabist",
+          "recipient": "koordinator",
+          "rows": 15
+        },
+        {
+          "sender": "sisadmin",
+          "recipient": "redaktor",
+          "rows": 15
+        }
+      ]
+    },
+    "chain_identity": {
+      "artifact_sha256": "51eda2ef2a79a3a0886e0622bd935cdce9593203df1b0b8227a3a455bb86a32a",
+      "source_blob_sha": "fc28cbda873d9b5cf977c157823591607d8fb512"
+    },
+    "dependency_chain": [
+      {
+        "step": 1,
+        "event": "source artifact published",
+        "event_at": "2026-09-09T22:54:47Z",
+        "commit_sha": "5844cd3e7ddd9a0fa275ed943ce021324aad6e2b",
+        "blob_sha": "fc28cbda873d9b5cf977c157823591607d8fb512",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/5844cd3e7ddd9a0fa275ed943ce021324aad6e2b/entities/koder/outbox/KOD__safe-client-helper-v02__KOO.py"
+      },
+      {
+        "step": 2,
+        "event": "koder addressed immutable artifact to koordinator",
+        "event_at": "2026-09-09T22:55:36Z",
+        "commit_sha": "ba9436259a7276a8e58c3d79e0637cef6ddaedb5",
+        "blob_sha": "c1b57cec87671965690bc3d8a965356acae49382",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/ba9436259a7276a8e58c3d79e0637cef6ddaedb5/routes/dispatch/KOD__safe-client-helper-v02__KOO.md",
+        "linkage": "Names the exact source commit, blob and SHA-256 and requires an identity check, receipt and separate acceptance decision."
+      },
+      {
+        "step": 3,
+        "event": "koordinator issued a downstream task to sisadmin",
+        "event_at": "2026-09-09T23:10:57Z",
+        "commit_sha": "ece7058d615e083e08737246a128023d35323a12",
+        "blob_sha": "288a2aa22131e161c9523bb83e7d3565b01ff885",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/ece7058d615e083e08737246a128023d35323a12/entities/koordinator/outbox/KOO__safe-client-helper-v02-deploy__SIS.md",
+        "linkage": "Cites the exact source commit, blob and digest and instructs use of that immutable artifact in a bounded read-path task."
+      },
+      {
+        "step": 4,
+        "event": "sisadmin returned a task-bound PASS result",
+        "event_at": "2026-09-09T23:16:23Z",
+        "commit_sha": "46f1d167f817ca786c991950533a74149ac5edec",
+        "blob_sha": "03fe4c2bb4c54b36c16d555879f903ee75f5dd2c",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/46f1d167f817ca786c991950533a74149ac5edec/entities/sisadmin/outbox/SIS__safe-client-helper-v02-result__KOO.md",
+        "linkage": "Cites the downstream task and the same source identity, and reports bounded deployment/read-path verification without reproducing local paths or outputs here."
+      },
+      {
+        "step": 5,
+        "event": "koordinator recorded receipt of the exact result",
+        "event_at": "2026-09-09T23:20:46Z",
+        "commit_sha": "1a10ac004f2c89bbb8e0decd6699b54bffbfd80c",
+        "blob_sha": "471e888ec35ba241b527cf71c5f7e82dccb21a39",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/1a10ac004f2c89bbb8e0decd6699b54bffbfd80c/routes/receipts/SIS__safe-client-helper-v02-result__KOO.receipt.md",
+        "linkage": "Names the result commit and blob, records an identity-check PASS and explicitly separates receipt from semantic acceptance."
+      },
+      {
+        "step": 6,
+        "event": "koordinator semantically accepted and closed the result stage",
+        "event_at": "2026-09-09T23:20:54Z",
+        "commit_sha": "7a993901b0601036e44820d8b5a6fff5f0490fe4",
+        "blob_sha": "23e737dc67f8eb7e3264bc94db69ace627d6cad5",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/7a993901b0601036e44820d8b5a6fff5f0490fe4/entities/koordinator/outbox/KOO__safe-client-helper-v02-acceptance__SIS.md",
+        "linkage": "Names the returned-result commit/blob and receipt, records ACCEPTED and closes the bounded stage."
+      },
+      {
+        "step": 7,
+        "event": "acceptance was addressed back to sisadmin",
+        "event_at": "2026-09-09T23:21:00Z",
+        "commit_sha": "6e2dd66120f2e77a465a3795bf13b1099a5ca9c4",
+        "blob_sha": "f66bc0a93684749428e1f47bb310c2e0f68736d7",
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/6e2dd66120f2e77a465a3795bf13b1099a5ca9c4/entities/sisadmin/inbox/KOO__safe-client-helper-v02-acceptance__SIS.md",
+        "linkage": "Names the acceptance artifact and immutable commit and says no further action is required absent a new verified defect."
+      }
+    ],
+    "later_route_closure": {
+      "event_at": "2026-09-12T16:06:46Z",
+      "commit_sha": "865ed12f4058bda7f7ab84edcfbe17157cd1e38a",
+      "public_url": "https://github.com/puev5691/wellbeing-hq/commit/865ed12f4058bda7f7ab84edcfbe17157cd1e38a"
+    },
+    "provenance_assessment": {
+      "selected_commit_authors": [
+        "puev5691"
+      ],
+      "selected_commit_committers": [
+        "puev5691"
+      ],
+      "independent_autonomous_principals_verified": false,
+      "independent_operators_verified": false,
+      "provider_attribution_verified": false,
+      "current_activity_inferred": false
+    },
+    "governance_controls": [
+      {
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/EXCHANGE-GATE.md",
+        "finding": "The project deliberately requires outbox publication, addressed dispatch, recipient inbox, receipt and separate acceptance, and says the operator should not act as manual transport when a role can publish."
+      },
+      {
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/FILE-EXCHANGE-PROTOCOL.md",
+        "finding": "The protocol defines the same sender/recipient lifecycle and warns that inbox presence is not semantic acceptance."
+      },
+      {
+        "public_url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/registry/staff/software-development.jsonl",
+        "finding": "The KOD, SIS and SHD role records place authority under existing approval rules and identify explicit operator decisions in the current chat as the decision basis."
+      }
+    ],
+    "alternatives_tested": [
+      {
+        "alternative": "single-operator designed workflow",
+        "result": "strongly supported",
+        "basis": "One public account authored and committed every selected causal stage, and repository governance deliberately prescribes the observed exchange lifecycle."
+      },
+      {
+        "alternative": "distinct autonomous participants",
+        "result": "not established",
+        "basis": "Role labels and addressed paths distinguish project roles but do not authenticate independent executions or controllers."
+      },
+      {
+        "alternative": "unauthorized or rogue cooperation",
+        "result": "not established",
+        "basis": "The exchange is the intended protocol and role authority is operator-derived; no action outside the recorded task or approval boundary is public."
+      },
+      {
+        "alternative": "mere similar text or retries",
+        "result": "rejected as the explanation for the selected chain",
+        "basis": "Exact commit, blob, digest, task, receipt and acceptance references provide a temporal and semantic dependency, although this does not prove independent participants."
+      }
+    ],
+    "classification": "designed same-custodian artifact-transfer control; not a rogue-swarm candidate",
+    "evidence_needed_to_advance": [
+      "Primary provenance authenticating separate autonomous executions for sender and recipient roles.",
+      "Primary evidence those executions were controlled by independent operators or crossed a recorded operator boundary.",
+      "A content-specific downstream action attributable to the recipient outside the designed exchange gate or exceeding its authorization.",
+      "Provider or operator evidence separating role labels from one account's authored workflow."
+    ]
+  },
+  "scoped_prior_reporting_check": {
+    "checked_on": "2026-10-24",
+    "github_queries": [
+      {
+        "query": "\"KOD__safe-client-helper-v02__KOO\"",
+        "result": "Nine indexed paths, all in the origin repository."
+      },
+      {
+        "query": "\"SIS__safe-client-helper-v02-result__KOO\"",
+        "result": "Six indexed paths, all in the origin repository."
+      },
+      {
+        "query": "\"ACCEPTED\" \"safe client helper v0.2\"",
+        "result": "Origin records plus preservation copies in the same owner's wellbeing-entity-bootstrap repository."
+      }
+    ],
+    "web_queries": [
+      "\"wellbeing-hq\" \"safe client helper v0.2\"",
+      "\"puev5691\" \"wellbeing-hq\" multi-agent",
+      "\"safe client helper v0.2\" sisadmin koordinator",
+      "\"wellbeing-hq\" swarm agent"
+    ],
+    "result": "No prior coordination report was located in the checked scope as of 24 October 2026. This bounded result does not establish novelty, and the episode remains a control rather than a candidate."
+  },
+  "cursor_checks": [
+    {
+      "repository": "puev5691/wellbeing-hq",
+      "prior_ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "current_ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "changed": false
+    },
+    {
+      "repository": "euron8/ai-dlc",
+      "prior_ref": "6075fa36d6a17b12cd58db87b445a61ac7a0b91d",
+      "current_ref": "6075fa36d6a17b12cd58db87b445a61ac7a0b91d",
+      "changed": false
+    },
+    {
+      "repository": "heterarchy-systems/omx-agent-adapter",
+      "prior_ref": "2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1",
+      "current_ref": "2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1",
+      "changed": false
+    },
+    {
+      "repository": "Morfindien/Bubbleverse",
+      "prior_ref": "bc9a4909bedb1d8be508c7f255407827f49ada9d",
+      "current_ref": "d397732f65da2d1566089b9153a4145a605f8557",
+      "changed": true,
+      "event_at": "2026-10-24T16:13:37Z",
+      "public_url": "https://github.com/Morfindien/Bubbleverse/commit/d397732f65da2d1566089b9153a4145a605f8557",
+      "assessment": "The five-file Q049 V2 upload preserves an operator-authorized result package. Its result record says NOT_DISPATCHED, READY_FOR_MANUAL_UPLOAD and USER_UPLOAD_PENDING; the budget ledger records operator authorization and pending registry writeback. It therefore extends the designed same-custodian control without showing recipient exposure or use."
+    }
+  ],
+  "next_cursors": [
+    "First unreviewed parseable record after the current wellbeing-hq registry head cadb19b2e2e5a4c1db008565330b2d51d1fad420, prioritizing a different-account recipient action or independent execution provenance.",
+    "First Bubbleverse public commit after d397732f65da2d1566089b9153a4145a605f8557; Q049 advancement requires an actual dispatch plus independently attributable recipient use, not another manual upload or prepared handoff.",
+    "First AI-DLC public default-branch commit after 6075fa36d6a17b12cd58db87b445a61ac7a0b91d; advancement still requires a graph-side sender, recipient and use event.",
+    "First OMX Agent Adapter public default-branch commit after 2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1 that evidences an independently controlled sender/recipient exchange."
+  ],
+  "conclusion": "The selected wellbeing-hq originals establish a concrete artifact dependency across addressed roles, a task-bound returned result, immutable receipt and semantic acceptance. They do not establish independently controlled autonomous participants or an authorization crossing: one account authored every selected stage and the repository explicitly designs this workflow under operator-derived authority. Bubbleverse's moved cursor remains not dispatched and user-upload pending. No plausible previously unreported rogue swarm is established."
+}

@@ -6133,7 +6133,10 @@
       "url": "https://github.com/DengHaitao-2022/PromptChain/blob/b1d8feae0a6254b889a68c1174f64799db3e09bd/specs/002-content-gen-mvp1/subagent-events.jsonl",
       "role": "Primary 331-event resolution, review, repair, rereview and merge ledger",
       "published": "2026-03-10",
-      "event_span_utc": {"start": "2026-03-09T09:58:41Z", "end": "2026-03-10T07:24:00Z"},
+      "event_span_utc": {
+        "start": "2026-03-09T09:58:41Z",
+        "end": "2026-03-10T07:24:00Z"
+      },
       "git_blob_sha": "16d0cd9ce1f30262299325dd31735cd071344091",
       "observed_at": "2026-10-18T03:30:00Z"
     },
@@ -6222,7 +6225,10 @@
       "url": "https://github.com/jim2107054/ibm-bob-2/blob/398e1d1aed0a657cba5e70b75bdb7cbab900037f/recordings/autoscale_20260926-174444.jsonl",
       "role": "Primary mock run with six handoffs and exact downstream pointer reads",
       "published": "2026-10-06",
-      "event_span_utc": {"start": "2026-09-26T11:44:44Z", "end": "2026-09-26T11:45:33Z"},
+      "event_span_utc": {
+        "start": "2026-09-26T11:44:44Z",
+        "end": "2026-09-26T11:45:33Z"
+      },
       "git_blob_sha": "f2877cea13137e22a5e50b79d7e44752c73b7a06",
       "observed_at": "2026-10-18T03:30:00Z"
     },
@@ -6239,7 +6245,10 @@
       "url": "https://github.com/A-iCan/AiCan_2.0/blob/6363bc384c466412ffc98d6eea0007081adbca95/DevAge/bus/outbox/bus_outbox.jsonl",
       "role": "Primary public directive, acknowledgment, coordination and status outbox",
       "published": "2025-11-18",
-      "event_span_utc": {"start": "2025-10-29T08:23:51Z", "end": "2025-11-16T23:37:25Z"},
+      "event_span_utc": {
+        "start": "2025-10-29T08:23:51Z",
+        "end": "2025-11-16T23:37:25Z"
+      },
       "git_blob_sha": "ea11eae35f12149fea0cd25f3a3c326134b80707",
       "observed_at": "2026-10-18T07:57:49Z"
     },
@@ -10353,6 +10362,172 @@
       "commit_sha": "6075fa36d6a17b12cd58db87b445a61ac7a0b91d",
       "parent_sha": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
       "observed_at": "2026-10-24T12:27:52Z"
+    },
+    {
+      "id": "original-wellbeing-hq-head-cadb19b",
+      "url": "https://github.com/puev5691/wellbeing-hq/commit/cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "role": "Immutable repository head used for registry and governance review",
+      "published": "2026-10-15",
+      "event_at": "2026-10-15T18:10:27Z",
+      "commit_sha": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-exchange-gate-aafd9b8",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/EXCHANGE-GATE.md",
+      "role": "Project governance requiring intentional outbox, dispatch, inbox, receipt and separate acceptance stages",
+      "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "blob_sha": "aafd9b8e125c3382177ca36fc1ec337c2d6f8bc4",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-file-protocol-f4cfe90",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/FILE-EXCHANGE-PROTOCOL.md",
+      "role": "Original file-exchange protocol separating publication, addressed delivery, receipt and semantic acceptance",
+      "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "blob_sha": "f4cfe90774470a2be4a3915058ff93b3db5887b1",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-entity-map-2df669f",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/ENTITY-MAP.md",
+      "role": "Public mapping of operator and project role labels to repository entities",
+      "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "blob_sha": "2df669fa8d24b95fbac1ce340b8253fc40ebb78f",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-staff-registry-d4d8fa0",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/registry/staff/software-development.jsonl",
+      "role": "Role-authority records tying KOD, SIS and SHD decisions to existing approval rules and explicit operator decisions",
+      "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "blob_sha": "d4d8fa090987bab763d5775fad047dda4d8c181f",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-koder-ledger-7e741d0",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/registry/by-sender/koder.jsonl",
+      "role": "Public sender ledger containing 132 parseable KOD records used in the role-edge inventory",
+      "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "blob_sha": "7e741d0da2f65e9abf4879f8136f506c6c7706cc",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-sisadmin-ledger-d2a7d5f",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/registry/by-sender/sisadmin.jsonl",
+      "role": "Public sender ledger with 126 parseable SIS records and one excluded malformed physical line",
+      "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+      "blob_sha": "d2a7d5f01970c65d5e738dbfbcf30ff2296b8c6d",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-source-artifact-5844cd3",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/5844cd3e7ddd9a0fa275ed943ce021324aad6e2b/entities/koder/outbox/KOD__safe-client-helper-v02__KOO.py",
+      "role": "Immutable source artifact later named by dispatch, downstream task, returned result and acceptance",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T22:54:47Z",
+      "ref": "5844cd3e7ddd9a0fa275ed943ce021324aad6e2b",
+      "blob_sha": "fc28cbda873d9b5cf977c157823591607d8fb512",
+      "content_sha256": "51eda2ef2a79a3a0886e0622bd935cdce9593203df1b0b8227a3a455bb86a32a",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-source-dispatch-ba94362",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/ba9436259a7276a8e58c3d79e0637cef6ddaedb5/routes/dispatch/KOD__safe-client-helper-v02__KOO.md",
+      "role": "Addressed KOD-to-KOO dispatch binding the source commit, blob and SHA-256 and requiring receipt plus separate acceptance",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T22:55:36Z",
+      "ref": "ba9436259a7276a8e58c3d79e0637cef6ddaedb5",
+      "blob_sha": "c1b57cec87671965690bc3d8a965356acae49382",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-downstream-task-ece7058",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/ece7058d615e083e08737246a128023d35323a12/entities/koordinator/outbox/KOO__safe-client-helper-v02-deploy__SIS.md",
+      "role": "KOO-to-SIS task citing the exact source identity and requiring bounded downstream use",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T23:10:57Z",
+      "ref": "ece7058d615e083e08737246a128023d35323a12",
+      "blob_sha": "288a2aa22131e161c9523bb83e7d3565b01ff885",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-returned-result-46f1d16",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/46f1d167f817ca786c991950533a74149ac5edec/entities/sisadmin/outbox/SIS__safe-client-helper-v02-result__KOO.md",
+      "role": "SIS-to-KOO result citing the exact task and source and reporting bounded PASS verification",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T23:16:23Z",
+      "ref": "46f1d167f817ca786c991950533a74149ac5edec",
+      "blob_sha": "03fe4c2bb4c54b36c16d555879f903ee75f5dd2c",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-result-receipt-1a10ac0",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/1a10ac004f2c89bbb8e0decd6699b54bffbfd80c/routes/receipts/SIS__safe-client-helper-v02-result__KOO.receipt.md",
+      "role": "Exact KOO receipt for the SIS result, recording identity verification and separating receipt from acceptance",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T23:20:46Z",
+      "ref": "1a10ac004f2c89bbb8e0decd6699b54bffbfd80c",
+      "blob_sha": "471e888ec35ba241b527cf71c5f7e82dccb21a39",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-result-acceptance-7a99390",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/7a993901b0601036e44820d8b5a6fff5f0490fe4/entities/koordinator/outbox/KOO__safe-client-helper-v02-acceptance__SIS.md",
+      "role": "Semantic acceptance citing the returned-result commit/blob and receipt and closing the bounded stage",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T23:20:54Z",
+      "ref": "7a993901b0601036e44820d8b5a6fff5f0490fe4",
+      "blob_sha": "23e737dc67f8eb7e3264bc94db69ace627d6cad5",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-acceptance-dispatch-6e2dd66",
+      "url": "https://github.com/puev5691/wellbeing-hq/blob/6e2dd66120f2e77a465a3795bf13b1099a5ca9c4/entities/sisadmin/inbox/KOO__safe-client-helper-v02-acceptance__SIS.md",
+      "role": "Addressed delivery of KOO's acceptance back to SIS with the immutable acceptance commit",
+      "published": "2026-09-09",
+      "event_at": "2026-09-09T23:21:00Z",
+      "ref": "6e2dd66120f2e77a465a3795bf13b1099a5ca9c4",
+      "blob_sha": "f66bc0a93684749428e1f47bb310c2e0f68736d7",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-wellbeing-hq-route-closure-865ed12",
+      "url": "https://github.com/puev5691/wellbeing-hq/commit/865ed12f4058bda7f7ab84edcfbe17157cd1e38a",
+      "role": "Later direct-route closure for the source artifact exchange",
+      "published": "2026-09-12",
+      "event_at": "2026-09-12T16:06:46Z",
+      "commit_sha": "865ed12f4058bda7f7ab84edcfbe17157cd1e38a",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-bubbleverse-q049-v2-upload-d397732",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/d397732f65da2d1566089b9153a4145a605f8557",
+      "role": "Five-file Q049 V2 upload advancing the saved Bubbleverse cursor while retaining manual-upload and no-dispatch controls",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T16:13:37Z",
+      "commit_sha": "d397732f65da2d1566089b9153a4145a605f8557",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-bubbleverse-q049-v2-result-177e96d",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/d397732f65da2d1566089b9153a4145a605f8557/Q049_V2_RESULT_STATE_AND_HANDOFF.json",
+      "role": "Q049 V2 result state explicitly recording no dispatch, manual-upload readiness and pending user upload",
+      "published": "2026-10-24",
+      "record_created_at": "2026-10-24T15:17:35.750470+00:00",
+      "ref": "d397732f65da2d1566089b9153a4145a605f8557",
+      "blob_sha": "177e96d46370fb3e7ff0a521b68c8f666a78cfd4",
+      "observed_at": "2026-10-24T17:04:37Z"
+    },
+    {
+      "id": "original-bubbleverse-q049-budget-b6f1574",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/d397732f65da2d1566089b9153a4145a605f8557/Q049_QUESTION_BUDGET_LEDGER_V4.json",
+      "role": "Q049 budget ledger preserving operator authorization, pending canonical writeback and a finalized bounded run",
+      "published": "2026-10-24",
+      "record_updated_at": "2026-10-24T15:17:35.750470+00:00",
+      "ref": "d397732f65da2d1566089b9153a4145a605f8557",
+      "blob_sha": "b6f1574561ae31434c3ebdc6f90ce0b0a0526194",
+      "observed_at": "2026-10-24T17:04:37Z"
     }
   ]
 }

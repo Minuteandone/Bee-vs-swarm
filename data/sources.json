@@ -10125,6 +10125,116 @@
       "event_at": "2026-10-24T04:39:15Z",
       "commit_sha": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
       "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-ananta-enterprise-handoff-schema-8d085bf",
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/migrations/enterprise_organization_schema_v1.py",
+      "role": "Frozen DDL snapshot defining producer/consumer task, team, artifact-digest and deciding-principal fields without a populated handoff",
+      "published": "2026-08-02",
+      "event_at": "2026-08-02T20:37:10Z",
+      "ref": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+      "blob_sha": "8d085bf910ef19f6e418ceb4b5408ee7e643f106",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-ananta-readme-cacf0d2",
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/README.md",
+      "role": "Primary project context describing a controlled local-first platform whose Hub owns goals, tasks, policy, approval, audit and artifact flow",
+      "published": "2026-09-01",
+      "event_at": "2026-09-01T00:25:08Z",
+      "ref": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+      "blob_sha": "cacf0d2fddb79e4bce115d85ba53c822c6b9a8c9",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-ananta-team-handoff-test-d27996c",
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/tests/integration/test_team_handoff_runtime.py",
+      "role": "Integration fixture binding a fabricated implementation-task artifact to a review-task and enforcing lease, scope and separation-of-duties gates",
+      "published": "2026-08-02",
+      "event_at": "2026-08-02T20:37:52Z",
+      "ref": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+      "blob_sha": "d27996c64a193a625033192eb8a5d5293921612c",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-ananta-worker-result-recovery-56cfa21",
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/artifacts/test-gates/bpmn-native-worker-result-recovery.v1.json",
+      "role": "Committed worker-result persistence/retrieval gate self-classified as a synthetic technical observation and not production-release evidence",
+      "published": "2026-10-13",
+      "event_at": "2026-10-13T12:41:31Z",
+      "ref": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+      "blob_sha": "56cfa219a94ad03cd2099f061542b2505529fb03",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-ananta-result-maintenance-90d6219",
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/artifacts/test-gates/bpmn-delegated-result-maintenance.v1.json",
+      "role": "Committed delegated-result gate self-classified as synthetic, non-production and undeployed, with synthetic queue or fake-child-queue scope",
+      "published": "2026-10-13",
+      "event_at": "2026-10-13T12:41:31Z",
+      "ref": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+      "blob_sha": "90d621990617b31b0762c5f787d86665816f9c17",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-bernos-architecture-6a534d9",
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/ARCHITECTURE.md",
+      "role": "Primary architecture defining a local-first single-node kernel with governed process graphs and intentional spawn/send actions",
+      "published": "2026-04-24",
+      "event_at": "2026-04-24T15:32:59Z",
+      "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+      "blob_sha": "6a534d9508f577315300f5515986fd2a456de3da",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-bernos-orchestration-status-99d1d4f",
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/services/status/orchestration.rs",
+      "role": "Status-view implementation grouping stored producer artifacts and consumer input references without emitting a run record",
+      "published": "2026-04-24",
+      "event_at": "2026-04-24T15:32:59Z",
+      "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+      "blob_sha": "99d1d4fa1284c2f5cbc4517621092c67739412d3",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-bernos-workflow-migrations-55723ed",
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/storage/schema/migrations.rs",
+      "role": "SQLite workflow-artifact and consumer-input schema and migration source without populated exchange data",
+      "published": "2026-04-24",
+      "event_at": "2026-04-24T15:32:59Z",
+      "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+      "blob_sha": "55723ed10c92556390698347d800d38648cfa0e3",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-bernos-orchestrator-test-ca712f3",
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/orchestrator/tests/mod.rs",
+      "role": "Unit fixtures asserting exact upstream result inclusion in downstream prompts for linear and parallel workflow graphs",
+      "published": "2026-04-24",
+      "event_at": "2026-04-24T15:32:59Z",
+      "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+      "blob_sha": "ca712f351fac11b29f0a157800408d449889ca01",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-bernos-workflow-storage-test-b29402a",
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/storage/workflows/tests/orchestration_state.rs",
+      "role": "Storage fixture persisting a fabricated research artifact as input to a fabricated deliver attempt and preserving producer/consumer lineage",
+      "published": "2026-04-24",
+      "event_at": "2026-04-24T15:32:59Z",
+      "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+      "blob_sha": "b29402ac4b6d7ae781e5af1a731ef89451bafd08",
+      "observed_at": "2026-10-24T07:23:50Z"
+    },
+    {
+      "id": "original-bernos-ipc-storage-test-e98a81f",
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/storage/ipc/tests/messages.rs",
+      "role": "IPC storage fixture with fabricated sender/receiver messages and fixed delivered/consumed timestamp transitions",
+      "published": "2026-04-24",
+      "event_at": "2026-04-24T15:32:59Z",
+      "ref": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+      "blob_sha": "e98a81f89a7ff75a21dd868c22395306702added",
+      "observed_at": "2026-10-24T07:23:50Z"
     }
   ]
 }

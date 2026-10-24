@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "title": "Artifact-lineage schema and local-runtime controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T07:23:50Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-094"
+  ],
+  "purpose": "Rotate from the closed scanner and urlscan backlogs into exact producer-to-consumer lineage fields, inspect every new external path in full, and distinguish populated task-result dependencies from schemas, synthetic fixtures and deliberately local orchestration.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public default-branch files, commits, recursive trees and repository metadata are retained. Test bodies are summarized at the field and dependency level; no retrieved code was executed and no payload, credential, token, personal address or private log is reproduced."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No public source-level cue separates an unread scanner record from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "exact_locator_rotation": {
+    "scope": "Public default-branch GitHub code paths; self-repository matches are observer contamination and are separated from external paths.",
+    "queries": [
+      {
+        "query": "\"producer_task_id\" \"consumer_task_id\" \"consumed_at\"",
+        "row_occurrences": 3,
+        "external_paths": 3,
+        "repositories": 2,
+        "result": "One frozen Ananta DDL snapshot and two BernOS implementation paths."
+      },
+      {
+        "query": "\"source_run_id\" \"recipient_run_id\" \"consumed_result_sha256\"",
+        "row_occurrences": 0,
+        "external_paths": 0,
+        "repositories": 0
+      },
+      {
+        "query": "\"origin_agent_id\" \"recipient_agent_id\" \"applied_commit_sha\"",
+        "row_occurrences": 2,
+        "external_paths": 0,
+        "self_index_paths": 2
+      },
+      {
+        "query": "\"delegated_by\" \"result_consumed_by\" \"operator_id\"",
+        "row_occurrences": 0,
+        "external_paths": 0,
+        "repositories": 0
+      },
+      {
+        "query": "\"sender_session_id\" \"receiver_session_id\" \"artifact_sha256\"",
+        "row_occurrences": 0,
+        "external_paths": 0,
+        "repositories": 0
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_action_id\" \"result_digest\"",
+        "row_occurrences": 2,
+        "external_paths": 0,
+        "self_index_paths": 2
+      }
+    ],
+    "totals": {
+      "queries": 6,
+      "row_occurrences": 7,
+      "external_paths": 3,
+      "self_index_paths": 4,
+      "external_repositories": 2
+    },
+    "adjacent_web_locators": {
+      "queries": [
+        "site:github.com \"producer_task_id\" \"consumer_task_id\" \"content_text\"",
+        "site:github.com \"producer_task_id\" \"consumer_task_id\" \"completed_at\" artifact",
+        "site:github.com \"consumed_at_ms\" \"producer_task_id\"",
+        "site:github.com \"source_task_id\" \"consumer_task_id\" \"artifact_id\""
+      ],
+      "returned_results": 0,
+      "limitation": "These are bounded discovery locators in an ordinary web index, not proof that no matching public record exists. Repository trees and selected originals, rather than search snippets, control the assessments below."
+    }
+  },
+  "ananta_control": {
+    "repository": "ananta888/ananta",
+    "repository_url": "https://github.com/ananta888/ananta",
+    "default_branch": "main",
+    "default_branch_head_at_observation": "d33bab0ad6a3c4a12d37862bc4530f11b9688195",
+    "head_event_at": "2026-10-23T09:23:43Z",
+    "recursive_tree_sha": "d9ff36d0877d3177cb8d3892eba1605216af2b7d",
+    "recursive_tree_truncated": false,
+    "recursive_tree_entries": 16998,
+    "repository_context": {
+      "readme_url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/README.md",
+      "blob_sha": "cacf0d2fddb79e4bce115d85ba53c822c6b9a8c9",
+      "latest_file_commit": "8163884b6779dda4faeb5eeb209a5419960dc5a3",
+      "latest_file_event_at": "2026-09-01T00:25:08Z",
+      "assessment": "The project identifies itself as a controlled local-first multi-agent platform. Its Hub owns goals, tasks, policy, approval, audit and artifact flow, and the README explicitly contrasts Hub-controlled orchestration with worker-to-worker automation."
+    },
+    "matched_schema": {
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/migrations/enterprise_organization_schema_v1.py",
+      "blob_sha": "8d085bf910ef19f6e418ceb4b5408ee7e643f106",
+      "latest_file_commit": "94e29f8b429a4f40b328c40a5c44a32b7dbf32aa",
+      "latest_file_event_at": "2026-08-02T20:37:10Z",
+      "classification": "frozen_ddl_snapshot",
+      "fields": [
+        "producer_task_id",
+        "consumer_task_id",
+        "producer_team_id",
+        "consumer_team_id",
+        "artifact_digests",
+        "decided_by_principal_id",
+        "status"
+      ],
+      "assessment": "The only global three-field match is a table declaration for organization_team_handoffs. It contains no populated sender, recipient, artifact or decision row."
+    },
+    "adjacent_populated_fixture": {
+      "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/tests/integration/test_team_handoff_runtime.py",
+      "blob_sha": "d27996c64a193a625033192eb8a5d5293921612c",
+      "latest_file_commit": "3714880a20b044ae4b9b58b38cf4f96f08b748bd",
+      "latest_file_event_at": "2026-08-02T20:37:52Z",
+      "classification": "integration_test_fixture",
+      "dependency_summary": "A fabricated implementation-task produces a digest-labelled artifact for a fabricated review-task. The test accepts it for review only when assignment, lease and scope match, and separately proves that the same principal cannot self-accept it.",
+      "downstream_use": "The fixture exercises admission and separation-of-duties decisions; it is not an observed autonomous recipient action or a real-run result."
+    },
+    "adjacent_evidence": [
+      {
+        "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/artifacts/test-gates/bpmn-native-worker-result-recovery.v1.json",
+        "blob_sha": "56cfa219a94ad03cd2099f061542b2505529fb03",
+        "event_commit": "1e3bbf96a3075aa091c65b7895d463a957c1d7af",
+        "event_at": "2026-10-13T12:41:31Z",
+        "self_classification": "synthetic_test_technical_observation",
+        "production_release_evidence": false,
+        "assessment": "The record verifies result persistence and controlled retrieval but expressly denies production-release status and automatic consumer execution."
+      },
+      {
+        "url": "https://github.com/ananta888/ananta/blob/d33bab0ad6a3c4a12d37862bc4530f11b9688195/artifacts/test-gates/bpmn-delegated-result-maintenance.v1.json",
+        "blob_sha": "90d621990617b31b0762c5f787d86665816f9c17",
+        "event_commit": "1e3bbf96a3075aa091c65b7895d463a957c1d7af",
+        "event_at": "2026-10-13T12:41:31Z",
+        "self_classification": "synthetic_scoped_execution_technical_observation",
+        "production_release_evidence": false,
+        "deployment_performed": false,
+        "assessment": "The record describes signed Worker execution and Hub ingestion inside a synthetic queue/fake child queue, with full productive dispatch still pending."
+      }
+    ],
+    "conclusion": "The repository supplies exact producer/consumer vocabulary and a causal test dependency, but primary context makes it a Hub-governed schema/test control. It supplies no public actual-run participant pair, independent operators or exceeded authorization."
+  },
+  "bernos_control": {
+    "repository": "Bernuz2003/BernOS",
+    "repository_url": "https://github.com/Bernuz2003/BernOS",
+    "default_branch": "master",
+    "default_branch_head_at_observation": "34180ff52894dc45ce0f02b71dd5a07747b6beb7",
+    "head_event_at": "2026-04-24T15:32:59Z",
+    "recursive_tree_sha": "ca632b8312f5eda801a8a8d04359cacf451d7789",
+    "recursive_tree_truncated": false,
+    "recursive_tree_entries": 819,
+    "architecture": {
+      "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/ARCHITECTURE.md",
+      "blob_sha": "6a534d9508f577315300f5515986fd2a456de3da",
+      "assessment": "BernOS describes a local-first, single-node AI workstation kernel. A kernel control plane owns processes, workflow state, policy, tool visibility, scheduler quotas and IPC; spawn/send are intentional runtime actions."
+    },
+    "matched_implementation": [
+      {
+        "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/services/status/orchestration.rs",
+        "blob_sha": "99d1d4fa1284c2f5cbc4517621092c67739412d3",
+        "classification": "status_view_source",
+        "assessment": "Groups stored artifacts by producer task and input references by consumer task/attempt for display. It emits no run record."
+      },
+      {
+        "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/storage/schema/migrations.rs",
+        "blob_sha": "55723ed10c92556390698347d800d38648cfa0e3",
+        "classification": "sqlite_schema_and_migration_source",
+        "assessment": "Defines workflow artifact and artifact-input tables plus migration copy helpers. It contains no populated exchange."
+      }
+    ],
+    "populated_tests": [
+      {
+        "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/orchestrator/tests/mod.rs",
+        "blob_sha": "ca712f351fac11b29f0a157800408d449889ca01",
+        "classification": "unit_test",
+        "dependency_summary": "A linear fixture inserts task A output into task B's prompt, then task B output into task C's prompt. A parallel fixture inserts B and C outputs into task D's prompt.",
+        "downstream_use": "Exact prompt inclusion is asserted, but all task IDs, PIDs, artifacts and outputs are test literals inside an in-memory Orchestrator."
+      },
+      {
+        "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/storage/workflows/tests/orchestration_state.rs",
+        "blob_sha": "b29402ac4b6d7ae781e5af1a731ef89451bafd08",
+        "classification": "storage_test",
+        "dependency_summary": "A fabricated research result is stored as the input to a fabricated deliver attempt; reopen assertions preserve producer and consumer IDs. The deliver attempt is deliberately failed and produces a partial draft artifact.",
+        "downstream_use": "The test proves persistence and lineage, not a real autonomous recipient's semantic action."
+      },
+      {
+        "url": "https://github.com/Bernuz2003/BernOS/blob/34180ff52894dc45ce0f02b71dd5a07747b6beb7/crates/bernos-kernel/src/storage/ipc/tests/messages.rs",
+        "blob_sha": "e98a81f89a7ff75a21dd868c22395306702added",
+        "classification": "ipc_storage_test",
+        "dependency_summary": "Fabricated planner messages exercise PID, task, role and channel mailboxes; a separate fabricated worker notification is marked failed and then consumed at fixed timestamps.",
+        "downstream_use": "A consumed status proves the storage transition only; no task result or dependent recipient action is present."
+      }
+    ],
+    "conclusion": "BernOS contains exact, content-specific producer-to-consumer dependencies in tests, including prompt inclusion, but the complete public tree contains implementation, tests and UI rather than an emitted actual-run ledger. Its own architecture fixes the participants inside one local single-node kernel and intentional workflow graph."
+  },
+  "alternative_hypotheses": [
+    {
+      "hypothesis": "The role and task labels authenticate distinct autonomous participants.",
+      "assessment": "Not supported. Both repositories generate or hard-code role, task, process and principal labels inside one documented control plane."
+    },
+    {
+      "hypothesis": "The populated dependencies are real-world observations.",
+      "assessment": "Rejected for the selected records. They are unit/integration/storage fixtures or artifacts that self-classify as synthetic and non-production."
+    },
+    {
+      "hypothesis": "A consumed timestamp or prompt inclusion proves rogue coordination.",
+      "assessment": "Rejected. Those facts prove intended lineage behavior inside tests; they supply neither independent operator provenance nor an authorization crossing."
+    },
+    {
+      "hypothesis": "Separate team or process names imply separate operators.",
+      "assessment": "Rejected. Ananta's Hub owns orchestration and BernOS is expressly single-node; no independently controlled publisher, receiver or provider attestation appears."
+    }
+  ],
+  "source_cursors": {
+    "Bubbleverse": {
+      "head": "bc9a4909bedb1d8be508c7f255407827f49ada9d",
+      "event_at": "2026-10-24T04:01:51Z",
+      "status": "unchanged; next cursor is a public V156 record or independently controlled delivery/identity evidence"
+    },
+    "ai-dlc": {
+      "head": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+      "event_at": "2026-10-24T04:39:15Z",
+      "status": "unchanged; next cursor is the first later public default-branch commit"
+    },
+    "omx-agent-adapter": {
+      "head": "2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1",
+      "event_at": "2026-07-31T00:40:50Z",
+      "status": "unchanged; next cursor requires a handoff outside the same local controller"
+    }
+  },
+  "novelty_check": {
+    "performed": false,
+    "reason": "No actual episode or plausible external coordination candidate survived original-file review. A prior-reporting search would not convert schemas or synthetic fixtures into an observation."
+  },
+  "overall_assessment": {
+    "specific_sender_to_recipient_dependency": "Present only in designed Ananta and BernOS test fixtures; BernOS asserts exact upstream output inclusion in downstream prompts.",
+    "verified_autonomous_participants": "Not established.",
+    "operator_boundary": "Not established; primary context instead establishes a Hub-controlled platform and a local single-node kernel.",
+    "rogue_intent": "Not established.",
+    "current_activity": "Repository activity only; no public actual-run exchange is identified.",
+    "previously_unreported_rogue_swarm": false
+  },
+  "evidence_needed_to_advance": [
+    "A public non-test Ananta handoff row with immutable producer, consumer and artifact references plus a later recipient operation caused by the artifact.",
+    "A public BernOS run export or ledger binding a real producer process to a real consumer process and preserving the consumer's content-specific use.",
+    "Primary provenance showing independently controlled operators or providers for sender and recipient rather than project-authored role or process labels.",
+    "Primary authorization evidence showing that the cooperation exceeded the Hub, kernel workflow, user instruction or other governing control plane."
+  ],
+  "next_record_cursor": {
+    "exact_queries": [
+      "\"producer_task_id\" \"consumer_task_id\" \"artifact_digests\" \"decided_by_principal_id\"",
+      "\"producer_task_id\" \"consumer_task_id\" \"content_text\" \"orchestration_id\"",
+      "\"sender_task_id\" \"receiver_task_id\" \"consumed_at_ms\" \"payload_text\""
+    ],
+    "selection_rule": "Advance only a committed actual-run record with a task-bearing transfer, content-specific recipient use, independently attributable trajectories and primary operator-boundary evidence. Schemas, migrations, implementation, tests, generated examples and synthetic gates are exclusion controls."
+  }
+}

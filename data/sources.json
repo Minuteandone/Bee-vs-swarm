@@ -9798,6 +9798,196 @@
       "ref": "d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
       "blob_sha": "b9b239679bf4fd2a5ea7f93e67bf30941409d54a",
       "observed_at": "2026-10-23T23:28:22Z"
+    },
+    {
+      "id": "original-bubbleverse-v109-source-result-67a018c",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/67a018cd9b84a6ca437f8975efd744fa1612b83e",
+      "role": "Commit publishing the accepted V109 actual-consumer result package that becomes the parent of the V110 task",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T05:39:59Z",
+      "commit_sha": "67a018cd9b84a6ca437f8975efd744fa1612b83e",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v109-ingestion-46bb424",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/46bb4241b8477b969d638d4f00cc2d837054df78",
+      "role": "Commit publishing V109 ingestion plus the exact V110 Mathematics task and handoff",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T05:49:52Z",
+      "commit_sha": "46bb4241b8477b969d638d4f00cc2d837054df78",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v109-handoff-3b47450",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/46bb4241b8477b969d638d4f00cc2d837054df78/Q048_V109_INGESTION_HANDOFF_ENVELOPE_V1.json",
+      "role": "Original V109 ingestion envelope binding the accepted parent, exact V110 task ID and task hash while recording prepared manual delivery",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T05:47:56.573013+00:00",
+      "ref": "46bb4241b8477b969d638d4f00cc2d837054df78",
+      "blob_sha": "3b47450a9798f8c4e55f21a908764b31deab4043",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v110-proof-791175b",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/791175b674a830ade5fe00703c956f67f976e8eb",
+      "role": "Commit publishing the V110 pinned specification, execution record, accepted result and return handoff",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T06:02:48Z",
+      "commit_sha": "791175b674a830ade5fe00703c956f67f976e8eb",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v110-spec-91bc4e5",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/791175b674a830ade5fe00703c956f67f976e8eb/Q048_V110_SOURCE_CORRECT_PROOF_SPEC_V1.json",
+      "role": "Recipient-side specification pinning the exact V109 task and parent checkpoint before bounded execution",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T05:56:41.178711+00:00",
+      "ref": "791175b674a830ade5fe00703c956f67f976e8eb",
+      "blob_sha": "91bc4e5cccbc2904060cfc19919b27a034774211",
+      "content_sha256": "adc656a9e3defeeb4d33f70d78599bc215e2182b1530b2ab0fcabbbabe69d0ce",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v110-execution-20d04de",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/791175b674a830ade5fe00703c956f67f976e8eb/Q048_V110_SOURCE_CORRECT_PROOF_EXECUTION_V1.json",
+      "role": "Original execution record for the exact V110 task, reporting one bounded complete run and validation",
+      "published": "2026-10-20",
+      "record_started_at": "2026-10-20T05:56:41.245066+00:00",
+      "record_ended_at": "2026-10-20T05:56:42.313399+00:00",
+      "ref": "791175b674a830ade5fe00703c956f67f976e8eb",
+      "blob_sha": "20d04de07a760c8d89ff642a99d73b80914b50e1",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v110-acceptance-45a0f4f",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/791175b674a830ade5fe00703c956f67f976e8eb/Q048_V110_SOURCE_CORRECT_PROOF_ACCEPTANCE_V1.json",
+      "role": "Accepted V110 result bound to the exact task, parent checkpoint, specification and verification hashes",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T05:56:42.308884+00:00",
+      "ref": "791175b674a830ade5fe00703c956f67f976e8eb",
+      "blob_sha": "45a0f4f862af9500a498cb9a34b10ea45e529a33",
+      "content_sha256": "524aa47cec3698015824722380adc9e08359c41e4d4f5ec7dda404dadf1d111f",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v110-ingestion-2c3b32e",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/2c3b32e6660a1aed5b40469c1e15b54b22b298b5",
+      "role": "Commit ingesting the accepted V110 result and publishing a prepared V111 Builder task",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T06:14:16Z",
+      "commit_sha": "2c3b32e6660a1aed5b40469c1e15b54b22b298b5",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v110-ingestion-envelope-3d4467e",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/2c3b32e6660a1aed5b40469c1e15b54b22b298b5/Q048_V110_INGESTION_HANDOFF_ENVELOPE_V1.json",
+      "role": "Original downstream ingestion envelope naming the accepted V110 task/result and preparing its Builder successor",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T06:09:50.732853+00:00",
+      "ref": "2c3b32e6660a1aed5b40469c1e15b54b22b298b5",
+      "blob_sha": "3d4467e053f3644f632aed1e52779f0102d16a6f",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v121-ingestion-48d8733",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/48d8733f109b5140dd0732a29279e5ab369d32d9",
+      "role": "Commit publishing the last envelope in the inspected V109-V121 window and preparing a not-yet-public V122 diagnostic task",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T15:22:27Z",
+      "commit_sha": "48d8733f109b5140dd0732a29279e5ab369d32d9",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v121-envelope-646bd06",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/48d8733f109b5140dd0732a29279e5ab369d32d9/Q048_V121_INGESTION_HANDOFF_ENVELOPE_V1.json",
+      "role": "Last inspected contiguous handoff envelope; records prepared manual delivery, pending writeback and no automatic dispatch",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T15:17:53.780715+00:00",
+      "ref": "48d8733f109b5140dd0732a29279e5ab369d32d9",
+      "blob_sha": "646bd06fba5d440cdab0f1d16e9f956be050320a",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-omx-ade-dogfood-d2e86d2",
+      "url": "https://github.com/heterarchy-systems/omx-agent-adapter/commit/d2e86d2381f8fd46dc19b97e8be9e15713397608",
+      "role": "Commit publishing the ADE dogfood report, machine evidence and cross-provider handoff implementation",
+      "published": "2026-07-28",
+      "event_at": "2026-07-28T08:38:35Z",
+      "commit_sha": "d2e86d2381f8fd46dc19b97e8be9e15713397608",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-omx-ade-dogfood-evidence-55ccb3e",
+      "url": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/d2e86d2381f8fd46dc19b97e8be9e15713397608/docs/architecture/evidence/ade-dogfood-final.json",
+      "role": "Machine-readable Codex-labelled to OMX-labelled handoff with source and target hashes, target success and one human controller",
+      "published": "2026-07-28",
+      "record_observed_on": "2026-07-28",
+      "ref": "d2e86d2381f8fd46dc19b97e8be9e15713397608",
+      "blob_sha": "55ccb3edf6b169632f6714d455b03950e0dc2af5",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-omx-ade-dogfood-report-4690c0b",
+      "url": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/d2e86d2381f8fd46dc19b97e8be9e15713397608/docs/architecture/ade-dogfood-report.md",
+      "role": "Companion report describing the native dogfood handoff and its human-ade ownership",
+      "published": "2026-07-28",
+      "ref": "d2e86d2381f8fd46dc19b97e8be9e15713397608",
+      "blob_sha": "4690c0bf35f9c4898a6a729ee034368f66121e6c",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-omx-handoff-service-d488ab2",
+      "url": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/d2e86d2381f8fd46dc19b97e8be9e15713397608/src/comx_harness/application/harness_service.py",
+      "role": "Primary implementation showing verified source text and digest are built into the target objective before target execution",
+      "published": "2026-07-28",
+      "ref": "d2e86d2381f8fd46dc19b97e8be9e15713397608",
+      "blob_sha": "d488ab2b6af10cd7bda8bf1b3ed760b058aae96c",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-omx-single-user-readme-4e2d2c3",
+      "url": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1/README.md",
+      "role": "Later primary scope record expressly identifying the workbench as local and single-user and cross-provider review as designed behavior",
+      "published": "2026-07-31",
+      "ref": "2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1",
+      "blob_sha": "4e2d2c32f502aa00dff11b1ed0745ec811ee4510",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "research-tracer-managed-agents-adcc41f",
+      "url": "https://github.com/lilCnid/tracer/commit/adcc41f47af5a866829b608964017d6cdc8a4492",
+      "role": "Commit publishing the managed-Agents experiment trace and context archive; selection exclusion rather than discovery candidate",
+      "published": "2026-09-11",
+      "event_at": "2026-09-11T15:53:51Z",
+      "commit_sha": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "research-tracer-message-tool-span-ef51943",
+      "url": "https://github.com/lilCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/trace-reviews/v4-b1-native/span_d147ade42c7a31d6.json",
+      "role": "Raw experimental trace with a sender-to-recipient value reused in a completed tool submission; excluded as a published research experiment",
+      "published": "2026-09-11",
+      "ref": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "blob_sha": "ef5194321310e8fbba3843bf71bbed10dca05e33",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "research-tracer-study-scope-eae8e31",
+      "url": "https://github.com/lilCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/README.md",
+      "role": "Primary project scope identifying the trace corpus as an OpenCnid managed-Agents experiment",
+      "published": "2026-09-11",
+      "ref": "adcc41f47af5a866829b608964017d6cdc8a4492",
+      "blob_sha": "eae8e3123a9f03ab4016ada37a914f3d88c89525",
+      "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-940-0-2e322a4",
+      "url": "https://github.com/euron8/ai-dlc/commit/2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
+      "role": "Same-custodian trace-window, fixture and validator release with no public graph-side sender, recipient or use event",
+      "published": "2026-10-23",
+      "event_at": "2026-10-23T23:32:44Z",
+      "commit_sha": "2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
+      "observed_at": "2026-10-24T00:22:56Z"
     }
   ]
 }

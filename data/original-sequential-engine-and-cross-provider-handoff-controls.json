@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.0",
+  "title": "Sequential-engine and cross-provider handoff controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T00:22:56Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-092",
+    "BV-093"
+  ],
+  "purpose": "Resume the three exact immutable-record queries saved by Pass 123, follow two previously unreviewed public handoff records through their original task, execution, result and ingestion evidence, and distinguish real result dependency from independently operated or unauthorized coordination.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts, formatters or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public GitHub files, commits and repository metadata, immutable identifiers, hashes, domain-level summaries and bounded search results are retained. Artifact bodies, local execution paths, commands, prompts, credentials, tokens, personal addresses and private logs are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No public source-level cue separates an unread scanner record from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "immutable_record_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only as a locator",
+    "observed_at": "2026-10-24T00:22:56Z",
+    "saved_exact_queries": [
+      {
+        "query": "\"upstream_evidence_sha256\" \"recipient_execution_id\" \"consumption_event_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"handoff_content_sha256\" \"recipient_action_id\" \"operator_principal_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_operation_id\" \"destination_operation_id\" \"applied_revision\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      }
+    ],
+    "lower_arity_queries": [
+      {
+        "query": "\"upstream_evidence_sha256\" \"recipient_execution_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"handoff_content_sha256\" \"recipient_action_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_operation_id\" \"destination_operation_id\"",
+        "rows": 28,
+        "self_rows": 1,
+        "external_rows": 27,
+        "external_repositories": 4,
+        "classification": "External rows are generic virtual-machine, storage, billing, finance implementation or test paths; none is an emitted AI sender-to-recipient record."
+      },
+      {
+        "query": "\"producer_operation_id\" \"consumer_operation_id\" \"content_sha256\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_evidence_id\" \"recipient_evidence_id\" \"used_at\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delivery_event_id\" \"recipient_execution_id\" \"applied_at\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"origin_execution_id\" \"destination_execution_id\" \"artifact_digest\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_operation_id\" \"receiver_operation_id\" \"result_sha256\"",
+        "rows": 0,
+        "self_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "selected_raw_record_locators": [
+      {
+        "query": "\"handoff_id\" \"target_run_id\" \"source_result_sha256\"",
+        "rows": 1,
+        "repositories": [
+          "heterarchy-systems/omx-agent-adapter"
+        ],
+        "advanced_to_original_review": true
+      },
+      {
+        "query": "\"delivery_status\" \"next_task_dispatched\" \"writeback_status\"",
+        "rows": 13,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ],
+        "advanced_to_original_review": true
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"tracer_submit\"",
+        "rows": 13,
+        "repositories": [
+          "lilCnid/tracer"
+        ],
+        "advanced_to_original_review": false,
+        "classification": "The repository identifies these records as a preregistered managed-Agents experiment. One exact message-to-tool dependency was confirmed, then excluded as an already published research experiment rather than substituted for an original real-world lead."
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "assessment": "The three saved queries and the first two lower-arity variants resolve only to this project's prior snapshots. Self rows were excluded before external inference."
+    }
+  },
+  "selected_original_controls": {
+    "bubbleverse_sequential_engine_chain": {
+      "repository": "Morfindien/Bubbleverse",
+      "repository_url": "https://github.com/Morfindien/Bubbleverse",
+      "default_branch_head_at_observation": "b99a5c78058b624c8d5847bed582df4ea816358a",
+      "public_commit_sequence": [
+        {
+          "commit_sha": "67a018cd9b84a6ca437f8975efd744fa1612b83e",
+          "event_at": "2026-10-20T05:39:59Z",
+          "url": "https://github.com/Morfindien/Bubbleverse/commit/67a018cd9b84a6ca437f8975efd744fa1612b83e",
+          "role": "Publishes the accepted V109 actual-consumer checkpoint and its result package."
+        },
+        {
+          "commit_sha": "46bb4241b8477b969d638d4f00cc2d837054df78",
+          "event_at": "2026-10-20T05:49:52Z",
+          "url": "https://github.com/Morfindien/Bubbleverse/commit/46bb4241b8477b969d638d4f00cc2d837054df78",
+          "role": "Publishes V109 ingestion plus the exact V110 Mathematics task and handoff."
+        },
+        {
+          "commit_sha": "791175b674a830ade5fe00703c956f67f976e8eb",
+          "event_at": "2026-10-20T06:02:48Z",
+          "url": "https://github.com/Morfindien/Bubbleverse/commit/791175b674a830ade5fe00703c956f67f976e8eb",
+          "role": "Publishes the V110 specification, frozen input pins, execution record, accepted result and return handoff."
+        },
+        {
+          "commit_sha": "2c3b32e6660a1aed5b40469c1e15b54b22b298b5",
+          "event_at": "2026-10-20T06:14:16Z",
+          "url": "https://github.com/Morfindien/Bubbleverse/commit/2c3b32e6660a1aed5b40469c1e15b54b22b298b5",
+          "role": "Publishes V110 ingestion of the accepted proof plus a prepared V111 Builder task."
+        }
+      ],
+      "sender_handoff": {
+        "public_file": "https://github.com/Morfindien/Bubbleverse/blob/46bb4241b8477b969d638d4f00cc2d837054df78/Q048_V109_INGESTION_HANDOFF_ENVELOPE_V1.json",
+        "blob_sha": "3b47450a9798f8c4e55f21a908764b31deab4043",
+        "record_created_at": "2026-10-20T05:47:56.573013+00:00",
+        "handoff_id": "LOCAL-Q048-V109-INGESTION-TO-V110-MATHEMATICS-V1",
+        "next_task_id": "LOCAL-Q048-V110-SOURCE-CORRECT-NEW-PROOF-960-950-V1",
+        "next_task_sha256": "57a4ac3fa0bf3ce3b430ed7d47301135d04bd16d8a8bbcfa3ed5b8f09d8f9888",
+        "parent_result_sha256": "37a1d5d738f2d64fba0e23ab7b19d53f58acef22f776735a14c98e6524e284ba",
+        "selected_recipient_role": "BUBBLEVERSE.MATHEMATICS",
+        "delivery_status": "PREPARED",
+        "writeback_status": "PENDING",
+        "next_task_dispatched": false
+      },
+      "recipient_execution_and_result": {
+        "specification_file": "https://github.com/Morfindien/Bubbleverse/blob/791175b674a830ade5fe00703c956f67f976e8eb/Q048_V110_SOURCE_CORRECT_PROOF_SPEC_V1.json",
+        "specification_blob_sha": "91bc4e5cccbc2904060cfc19919b27a034774211",
+        "specification_sha256": "adc656a9e3defeeb4d33f70d78599bc215e2182b1530b2ab0fcabbbabe69d0ce",
+        "task_id": "LOCAL-Q048-V110-SOURCE-CORRECT-NEW-PROOF-960-950-V1",
+        "task_fingerprint": "318be278c63a0628275b1e22ced43cbd100065a4dc54d7fb428c4f8967194d6e",
+        "dependency_binding": "The V110 specification pins the exact V109 next-task file at SHA-256 57a4ac3f… and the V109 accepted parent checkpoint at SHA-256 37a1d5d7… before its bounded execution.",
+        "execution_file": "https://github.com/Morfindien/Bubbleverse/blob/791175b674a830ade5fe00703c956f67f976e8eb/Q048_V110_SOURCE_CORRECT_PROOF_EXECUTION_V1.json",
+        "execution_blob_sha": "20d04de07a760c8d89ff642a99d73b80914b50e1",
+        "reported_start_at": "2026-10-20T05:56:41.245066+00:00",
+        "reported_end_at": "2026-10-20T05:56:42.313399+00:00",
+        "reported_status": "COMPLETE",
+        "acceptance_file": "https://github.com/Morfindien/Bubbleverse/blob/791175b674a830ade5fe00703c956f67f976e8eb/Q048_V110_SOURCE_CORRECT_PROOF_ACCEPTANCE_V1.json",
+        "acceptance_blob_sha": "45a0f4f862af9500a498cb9a34b10ea45e529a33",
+        "acceptance_content_sha256": "524aa47cec3698015824722380adc9e08359c41e4d4f5ec7dda404dadf1d111f",
+        "accepted_at": "2026-10-20T05:56:42.308884+00:00",
+        "reported_status_after_validation": "ACCEPTED"
+      },
+      "downstream_ingestion": {
+        "public_file": "https://github.com/Morfindien/Bubbleverse/blob/2c3b32e6660a1aed5b40469c1e15b54b22b298b5/Q048_V110_INGESTION_HANDOFF_ENVELOPE_V1.json",
+        "blob_sha": "3d4467e053f3644f632aed1e52779f0102d16a6f",
+        "record_created_at": "2026-10-20T06:09:50.732853+00:00",
+        "new_result_id": "LOCAL-Q048-V110-SOURCE-CORRECT-NEW-PROOF-960-950-V1",
+        "accepted_result_sha256": "524aa47cec3698015824722380adc9e08359c41e4d4f5ec7dda404dadf1d111f",
+        "next_recipient_role": "BUBBLEVERSE.EXECUTION_MECHANISM_NUMERICAL_HPC_MOTOR_BUILDER",
+        "next_task_status": "PREPARED; not dispatched"
+      },
+      "envelope_window": {
+        "range": "V109 through V121",
+        "files_read": 13,
+        "first_record_created_at": "2026-10-20T05:47:56.573013+00:00",
+        "last_record_created_at": "2026-10-20T15:17:53.780715+00:00",
+        "last_public_file": "https://github.com/Morfindien/Bubbleverse/blob/48d8733f109b5140dd0732a29279e5ab369d32d9/Q048_V121_INGESTION_HANDOFF_ENVELOPE_V1.json",
+        "last_blob_sha": "646bd06fba5d440cdab0f1d16e9f956be050320a",
+        "common_state": "All thirteen envelopes say delivery PREPARED, writeback PENDING, repository sync USER_UPLOAD_PENDING, next_task_dispatched false and zero new proof or actual cells inside ingestion.",
+        "next_cursor": "Q048_V122_INGESTION_HANDOFF_ENVELOPE_V1.json or a matching V122 result package; neither path was public at observation time."
+      },
+      "participant_and_boundary_assessment": {
+        "distinguishable_workflow_roles": true,
+        "exact_task_transfer": true,
+        "recipient_semantic_use": true,
+        "later_result_ingestion": true,
+        "autonomous_ai_identity_verified": false,
+        "provider_attribution_verified": false,
+        "independent_operator_principals_verified": false,
+        "operator_boundary_crossing_verified": false,
+        "authorization_exceeded": false,
+        "current_activity_verified": false,
+        "assessment": "This is a high-confidence instruction-to-result-to-next-task dependency, not similarity. It is also affirmatively a designed, owner-uploaded sequence: one GitHub account publishes every selected stage, the records call each handoff within the existing operator scope, automatic dispatch is false, paid compute is not authorized or requested, and each repository update remains pending manual upload. Role and engine labels do not authenticate independent agents or operators."
+      }
+    },
+    "omx_single_user_cross_provider_dogfood": {
+      "repository": "heterarchy-systems/omx-agent-adapter",
+      "repository_url": "https://github.com/heterarchy-systems/omx-agent-adapter",
+      "introducing_commit": {
+        "url": "https://github.com/heterarchy-systems/omx-agent-adapter/commit/d2e86d2381f8fd46dc19b97e8be9e15713397608",
+        "commit_sha": "d2e86d2381f8fd46dc19b97e8be9e15713397608",
+        "event_at": "2026-07-28T08:38:35Z",
+        "role": "Publishes the ADE dogfood report, machine-readable evidence and the handoff implementation."
+      },
+      "machine_record": {
+        "public_file": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/d2e86d2381f8fd46dc19b97e8be9e15713397608/docs/architecture/evidence/ade-dogfood-final.json",
+        "blob_sha": "55ccb3edf6b169632f6714d455b03950e0dc2af5",
+        "record_observed_on": "2026-07-28",
+        "controller_id": "human-ade",
+        "handoff_id": "handoff-idem-a803f7407c609d0b972b85b6",
+        "origin_run_id": "run-idem-f61a977e74f504830e0b3cc7",
+        "source_provider_label": "codex",
+        "source_result_sha256": "2ccca104f27471855fd688476e7ee8052ef823f1cd382f5174881f1ece54b219",
+        "target_provider_label": "omx",
+        "target_run_id": "run-idem-5ae14988179ccbc05f2880ed",
+        "target_result_sha256": "2f07824932c483a93499e5e95c8024d6e53bdc9eb4c01ad92bde524261eb43c7",
+        "target_result_size_bytes": 2078,
+        "target_status": "succeeded",
+        "all_completed_owner_controller_ids": [
+          "human-ade"
+        ]
+      },
+      "companion_report": {
+        "public_file": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/d2e86d2381f8fd46dc19b97e8be9e15713397608/docs/architecture/ade-dogfood-report.md",
+        "blob_sha": "4690c0bf35f9c4898a6a729ee034368f66121e6c",
+        "assessment": "The report calls this an ADE-native Codex-to-OMX dogfood handoff, records the source digest, target run and non-empty target digest, and says every completed record is owned by human-ade."
+      },
+      "implementation_record": {
+        "public_file": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/d2e86d2381f8fd46dc19b97e8be9e15713397608/src/comx_harness/application/harness_service.py",
+        "blob_sha": "d488ab2b6af10cd7bda8bf1b3ed760b058aae96c",
+        "assessment": "The handoff method reads the selected verified source artifact, builds the target objective from its text and digest, and starts the target provider run. This establishes system-level consumption of the source artifact before the successful target result."
+      },
+      "single_user_scope": {
+        "public_file": "https://github.com/heterarchy-systems/omx-agent-adapter/blob/2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1/README.md",
+        "blob_sha": "4e2d2c32f502aa00dff11b1ed0745ec811ee4510",
+        "assessment": "The later README expressly calls the product a local, single-user Agent Harness Workbench and describes Codex-to-OMX review as a deterministic cross-provider execution profile."
+      },
+      "participant_and_boundary_assessment": {
+        "distinguishable_provider_runs": true,
+        "task_result_transfer": true,
+        "recipient_system_consumption": true,
+        "recipient_semantic_use_independently_inspectable": false,
+        "autonomous_ai_identity_verified": false,
+        "provider_attribution_independently_attested": false,
+        "independent_operator_principals_verified": false,
+        "operator_boundary_crossing_verified": false,
+        "authorization_exceeded": false,
+        "current_activity_verified": false,
+        "assessment": "The public implementation and run hashes establish a real technical Codex-labelled to OMX-labelled artifact dependency. The target result body is not public, so exact content-specific semantic use cannot be independently checked. More decisively, every selected run is owned by human-ade inside a documented local single-user workbench whose normal contract includes this handoff. This is a designed single-controller control, not a rogue coordination candidate."
+      }
+    }
+  },
+  "research_exclusion": {
+    "repository": "lilCnid/tracer",
+    "trace_file": "https://github.com/lilCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/evidence/trace-reviews/v4-b1-native/span_d147ade42c7a31d6.json",
+    "trace_blob_sha": "ef5194321310e8fbba3843bf71bbed10dca05e33",
+    "context_file": "https://github.com/lilCnid/tracer/blob/adcc41f47af5a866829b608964017d6cdc8a4492/README.md",
+    "context_blob_sha": "eae8e3123a9f03ab4016ada37a914f3d88c89525",
+    "assessment": "The raw trace records one subagent-to-agent value that the recipient places into a completed tool submission, but the repository identifies the corpus as OpenCnid's preregistered managed-Agents experiment. It was rejected at selection as an already published research demonstration, not promoted or used as substitute discovery coverage."
+  },
+  "adjacent_cursor_controls": {
+    "ai_dlc": {
+      "repository": "euron8/ai-dlc",
+      "previous_cursor": "d69bd35df40a0a8c2620fc8358fe9a9ce58be7e0",
+      "new_cursor": "2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
+      "version": "0.940.0",
+      "event_at": "2026-10-23T23:32:44Z",
+      "url": "https://github.com/euron8/ai-dlc/commit/2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
+      "assessment": "One same-custodian source/test release modifies read-set trace-window locking, keyed marker greps, fixtures, validators and backlog. It closes no PC ID and publishes no independently attributable graph-side sender, recipient or result-use event."
+    },
+    "unchanged": [
+      {
+        "repository": "HazEOskA/osa-proof",
+        "cursor": "6d0ac5c01ea3e3fc906a0a3121c75a3f5a0b60c1"
+      },
+      {
+        "repository": "inflatable-cookie/swallowtail",
+        "cursor": "fb3b5b769ae8c0b96e18af15aef7d8de8e7c7e31"
+      },
+      {
+        "repository": "beehive-nature/beehive-nature",
+        "cursor": "22bddf3dda2a3a8a7d99eed2a77960fcc19f836d"
+      },
+      {
+        "repository": "wseternal/ssetunnel",
+        "cursor": "cd6607160b98c32f9643c8b73ed275e64682d4e8"
+      },
+      {
+        "repository": "RyanOnMe/whalepod",
+        "cursor": "07d3509edd3366967480e2d6f62c43d8fff434b6"
+      }
+    ]
+  },
+  "prior_reporting_scope": {
+    "bubbleverse_github_exact_checks": [
+      {
+        "query": "exact V110 task identifier",
+        "rows": 18,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ]
+      },
+      {
+        "query": "exact V109-to-V110 task SHA-256",
+        "rows": 4,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ]
+      },
+      {
+        "query": "exact V110 accepted-result SHA-256",
+        "rows": 25,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ]
+      }
+    ],
+    "omx_github_exact_checks": [
+      {
+        "query": "exact handoff identifier",
+        "rows": 2,
+        "repositories": [
+          "heterarchy-systems/omx-agent-adapter"
+        ]
+      },
+      {
+        "query": "exact source-result SHA-256",
+        "rows": 2,
+        "repositories": [
+          "heterarchy-systems/omx-agent-adapter"
+        ]
+      },
+      {
+        "query": "exact target-run identifier",
+        "rows": 2,
+        "repositories": [
+          "heterarchy-systems/omx-agent-adapter"
+        ]
+      },
+      {
+        "query": "exact target-result SHA-256",
+        "rows": 2,
+        "repositories": [
+          "heterarchy-systems/omx-agent-adapter"
+        ]
+      }
+    ],
+    "web_checks": [
+      "exact Bubbleverse task identifier",
+      "exact Bubbleverse task SHA-256",
+      "exact Bubbleverse accepted-result SHA-256",
+      "exact OMX handoff identifier",
+      "exact OMX source-result SHA-256",
+      "exact OMX target-run identifier",
+      "exact OMX dogfood-report phrase"
+    ],
+    "result": "No prior coordination report was located in the checked scope as of 24 October 2026. Exact GitHub identifiers resolve only to their originating repositories; exact web searches returned no relevant independent episode account. This bounded absence does not establish novelty. Both source repositories themselves document the workflows, and their primary authorization evidence excludes a rogue-swarm classification."
+  },
+  "alternative_explanations": [
+    {
+      "explanation": "Single-operator, manually relayed sequential workflow",
+      "status": "affirmatively supported for Bubbleverse",
+      "evidence": "One GitHub account publishes each selected commit; every envelope remains pending manual upload with automatic dispatch false; the records call the work within the existing operator scope."
+    },
+    {
+      "explanation": "Designed single-controller cross-provider review",
+      "status": "affirmatively supported for OMX",
+      "evidence": "All completed records use owner_controller_id human-ade, and the README calls the workbench local and single-user with cross-provider handoff in its public contract."
+    },
+    {
+      "explanation": "Distinct autonomous principals under separate operators",
+      "status": "not supported",
+      "evidence": "Engine, provider and role labels are project-authored; neither chain includes provider-owned identity attestations or a separately controlled recipient principal."
+    },
+    {
+      "explanation": "Cooperation exceeded authorization",
+      "status": "contradicted by selected originals",
+      "evidence": "Bubbleverse expressly scopes the next task and denies automatic dispatch; OMX expressly designs the handoff as a normal workbench operation."
+    },
+    {
+      "explanation": "Published research experiment",
+      "status": "affirmatively supported for the discarded tracer path",
+      "evidence": "The repository presents the trace corpus as a managed-Agents experiment and publishes its protocol and outcome."
+    }
+  ],
+  "assessment": {
+    "plausible_previously_unreported_coordination_candidate": false,
+    "material_candidate_change": false,
+    "notification_threshold_met": false,
+    "reason": "Bubbleverse supplies an exact multi-stage task/result dependency and OMX supplies a real cross-provider artifact dependency, but both are affirmatively designed and controlled by one operator. No independently authenticated autonomous pair, cross-operator boundary or action beyond authorization is established. The tracer path is an already published experiment."
+  },
+  "evidence_needed_to_advance": [
+    "For Bubbleverse, a public delivery or recipient record controlled independently from the repository owner, plus evidence that the recipient acted outside the manually prepared and expressly scoped chain.",
+    "Provider- or operator-owned attestations binding Bubbleverse engine labels or OMX provider labels to distinct autonomous principals under different operators.",
+    "For OMX, the public target result or an independently verifiable recipient action that demonstrates content-specific semantic use, not only successful system-level consumption.",
+    "Primary evidence that either exchange bypassed, expanded or contradicted the documented operator authorization."
+  ],
+  "next_cursors": [
+    {
+      "type": "Bubbleverse envelope/result cursor",
+      "cursor": "first public Q048 V122 ingestion envelope or result package after V121 blob 646bd06fba5d440cdab0f1d16e9f956be050320a",
+      "advance_only_if": "It supplies an independently controlled recipient, automatic delivery evidence or action outside the owner-scoped manual chain."
+    },
+    {
+      "type": "OMX emitted handoff cursor",
+      "cursor": "first public handoff record after d2e86d2381f8fd46dc19b97e8be9e15713397608 not owned by the same local controller",
+      "advance_only_if": "It adds independently attributable operators, content-specific recipient use and authorization-boundary evidence."
+    },
+    {
+      "type": "AI-DLC source cursor",
+      "cursor": "first public default-branch commit after 2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
+      "advance_only_if": "It publishes a durable independently attributable graph-side sender, recipient and use event or materially changes operator authority."
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"controller_id\" \"source_result_sha256\" \"target_result_sha256\" \"target_run_id\""
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"owner_controller_id\" \"origin_run_id\" \"target_run_id\" \"handoff_id\""
+    },
+    {
+      "type": "exact immutable query",
+      "query": "\"delivery_status\" \"next_task_dispatched\" \"recipient_action_id\""
+    }
+  ]
+}

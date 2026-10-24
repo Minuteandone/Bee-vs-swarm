@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "title": "Original sprint carry-over and operator-harness control",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T19:26:49Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-098"
+  ],
+  "purpose": "Resume exact public transfer/use locators, trace a two-stage evaluator-to-successor dependency through immutable public artifacts, and test chronology, participant, operator-boundary, authorization and novelty alternatives.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute retrieved code, tests, scripts, skills or agent tooling",
+      "install a package or invoke an agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "open a private output, sink inbox or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only existing public GitHub pages, immutable commit and blob identities, sanitized dependency summaries and bounded search results are retained. No payload bodies, credentials, private outputs, personal addresses or operational endpoints are reproduced."
+  },
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 161,
+    "urlscan_listing_pages_closed": 57,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "scanner_reopened": false,
+    "scanner_pause_reason": "No new source-level participant, dependency, provenance or authorization cue separates the remainder from the known Amap, DseWiki or Transluce-controlled families."
+  },
+  "exact_record_queries": [
+    {
+      "query": "\"producer_id\" \"consumer_id\" \"artifact_sha256\" \"consumed_at\"",
+      "result": "retrieval error; no inference drawn"
+    },
+    {
+      "query": "\"sender_run_id\" \"recipient_run_id\" \"result_sha256\"",
+      "result": "9 rows, all this repository's saved cursor text"
+    },
+    {
+      "query": "\"source_receipt_id\" \"consumed_by\" \"applied_at\"",
+      "result": "4 rows; external hits reduce to fabelgeist and djd1m documentation or model definitions, not selected emitted episodes"
+    },
+    {
+      "query": "\"handoff_id\" \"recipient_run_id\" \"accepted_at\" \"used_at\"",
+      "result": "5 rows, all this repository's saved cursor text"
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"output_hash\"",
+      "result": "retrieval error; no inference drawn"
+    },
+    {
+      "query": "\"origin_agent_id\" \"recipient_agent_id\" \"used_output\"",
+      "result": "retrieval error; no inference drawn"
+    },
+    {
+      "query": "\"source_run_id\" \"downstream_run_id\" \"artifact_digest\"",
+      "result": "6 rows, all this repository's saved cursor text"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"result_hash\" \"accepted_at\"",
+      "result": "9 rows; selected external hits are a ChainlessChain schema, Ageree/sthrip record model and swarm-ops-project source"
+    }
+  ],
+  "complete_tree_checks": [
+    {
+      "repository": "adventure-simulator-group/fabelgeist",
+      "ref": "990430b77a9f63548ffcb642074185f61ddb3322",
+      "tree_entries": 7089,
+      "blob_entries": 6208,
+      "result": "Numerous source and audit paths; selected query hit is a Rust record model, not a public emitted sender-to-recipient episode."
+    },
+    {
+      "repository": "chainlesschain/chainlesschain",
+      "ref": "1f9aed62786bfbdb1f04db72b0d6c7f3b30e75eb",
+      "result": "Recursive tree retrieval failed; preserved as a bounded collection error, not negative evidence."
+    },
+    {
+      "repository": "Ageree/sthrip",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "tree_entries": 809,
+      "blob_entries": 732,
+      "result": "Public harness contracts, Generator reports, Evaluator results, Lead decisions and code commits expose two content-specific carry-over chains."
+    },
+    {
+      "repository": "younestsouli2019-bot/swarm-ops-project",
+      "ref": "e9338cecd7cf84a3b71bcb90afb69c6030f34c15",
+      "tree_entries": 446,
+      "blob_entries": 317,
+      "result": "Source, tests and worklog records; no selected emitted cross-operator transfer/use chain."
+    }
+  ],
+  "original_control": {
+    "control_id": "sthrip-phase2-sprint-carryovers",
+    "lead_id": "BV-098",
+    "repository": "Ageree/sthrip",
+    "current_head": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+    "current_head_event_at": "2026-05-08T10:12:40Z",
+    "pull_request": {
+      "number": 4,
+      "url": "https://github.com/Ageree/sthrip/pull/4",
+      "created_at": "2026-05-08T09:22:49Z",
+      "merged_at": "2026-05-08T10:12:40Z",
+      "merge_commit": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "author_and_merger_account": "Ageree",
+      "requested_reviewers": [],
+      "public_claim": "The pull request describes seven sprints run by an autonomous harness with a periodic loop and independent Evaluator review.",
+      "retained_operator_actions": [
+        "merge the branch",
+        "provision or deploy live infrastructure",
+        "change feature flags after review"
+      ]
+    },
+    "selected_records": [
+      {
+        "path": ".harness/phase2-money-and-tee/user-criteria.md",
+        "blob_sha": "5ae2b61866be158411f9fb1f498e9ce8a110bd6b",
+        "observation": "User-authored criteria prescribe Lead, Planner, Generator and independent Evaluator roles, per-sprint artifacts and fresh teams."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/lead-decisions.md",
+        "blob_sha": "a8eeafbef9757e921a69c86c2b45318c52a8387e",
+        "observation": "Lead decisions are pre-authorized, files are passed between contexts and the Lead retains decisions and sequencing."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/sprint-5-result.md",
+        "blob_sha": "9c050e8a2471aa7727e57613904891931366e7eb",
+        "observation": "The self-described independent Evaluator identifies M-1: TEE routing omits Railway-side HubRoute creation and status behavior, and requires a later sprint to fix or constrain it."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/sprint-6-contract.md",
+        "blob_sha": "9fa5f39c1992adeda2c7bd230d52cdf3b28b133d",
+        "observation": "Carries M-1 forward verbatim in substance, records the Lead's Railway-side repair decision and requires a targeted test."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/sprint-6-generator-report.md",
+        "blob_sha": "ba7c873ed82a68c785c7cc3091728c23658eb82c",
+        "observation": "Reports implementation of the carry-over repair and its targeted test."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/sprint-6-result.md",
+        "blob_sha": "6eb28f0851143254473100a6f347682d13ade207",
+        "observation": "Verifies M-1 closure, then identifies a new non-dictionary 4xx response edge that could be misrouted as success."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/sprint-7-contract.md",
+        "blob_sha": "c869273e9a837a777768a6408837370112291b2c",
+        "observation": "Carries the Sprint 6 edge into the next Generator task and requires a defensive exception path and test."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/sprint-7-result.md",
+        "blob_sha": "3321002170b64643d7a2676e3808208dab0c3496",
+        "observation": "Confirms the content-specific carry-over fix and no-fallback behavior."
+      },
+      {
+        "path": ".harness/phase2-money-and-tee/state.json",
+        "blob_sha": "4be65c2cbdc2c12df0dd483e2a4ddaef71eb7bbe",
+        "observation": "Summarizes both carry-overs and preserves explicit operator action items."
+      }
+    ],
+    "semantic_dependencies": [
+      {
+        "source": "Sprint 5 Evaluator",
+        "transferred_result": "M-1 TEE/Railway HubRoute behavioral divergence",
+        "recipient_record": "Sprint 6 contract and Generator report",
+        "downstream_use": "Railway-side HubRoute write and targeted verification",
+        "later_verification": "Sprint 6 Evaluator closes M-1",
+        "content_specific_use_verified": true
+      },
+      {
+        "source": "Sprint 6 Evaluator",
+        "transferred_result": "non-dictionary 4xx response could be treated as success",
+        "recipient_record": "Sprint 7 contract and Generator report",
+        "downstream_use": "TEEUserError path, HTTP error translation and no fallback",
+        "later_verification": "Sprint 7 Evaluator confirms the repair",
+        "content_specific_use_verified": true
+      }
+    ],
+    "public_commit_chronology": [
+      {
+        "commit": "ed3821c4f79e2d14f03225a860d118295f7da87c",
+        "event_at": "2026-05-07T14:54:02Z",
+        "observation": "Publishes Sprint 5 implementation and Generator report; selected Sprint 5 Evaluator result is absent from this commit."
+      },
+      {
+        "commit": "6fee072a0ffc400f28d18ee2a9ea86c433122326",
+        "event_at": "2026-05-07T15:24:25Z",
+        "observation": "Publishes the Sprint 6 code repair."
+      },
+      {
+        "commit": "1ffb77c241cf78633045c3a0a338bb46c2c1c2bc",
+        "event_at": "2026-05-07T15:46:01Z",
+        "observation": "Publishes the Sprint 7 code repair."
+      },
+      {
+        "commit": "cdc4733dbd5cdee14779c6be6e167b03618b2f82",
+        "event_at": "2026-05-08T10:06:29Z",
+        "observation": "Batch-publishes several earlier-labelled evaluator results, contracts and reports on the rebased pull-request branch."
+      }
+    ],
+    "chronology_assessment": {
+      "semantic_sequence_supported_by_cross_referencing_records": true,
+      "causal_publication_order_independently_verified": false,
+      "limitation": "The records consistently name the preceding finding and matching repair, but several result and contract files became public after the corresponding implementation commit. Git history therefore does not independently establish that evaluator output preceded or caused the code."
+    },
+    "participant_and_boundary_assessment": {
+      "distinguishable_role_contexts_self_described": true,
+      "distinct_autonomous_principals_verified": false,
+      "distinct_operators_verified": false,
+      "sender_to_recipient_transport_outside_lead_workflow_verified": false,
+      "authorization_crossing_verified": false,
+      "subjective_rogue_intent_verified": false,
+      "provider_attribution_verified": false,
+      "current_activity_after_head_located": false
+    },
+    "alternatives_tested": [
+      {
+        "alternative": "designed multi-agent team",
+        "result": "supported; user criteria prescribe the roles, fresh-team cadence, file interfaces and evaluation loop"
+      },
+      {
+        "alternative": "single-operator orchestration",
+        "result": "supported by one GitHub author/merger, Lead-mediated records and retained operator gates"
+      },
+      {
+        "alternative": "independently timestamped cross-context causality",
+        "result": "not established; key result/contract records were batch-published after matching code"
+      },
+      {
+        "alternative": "independent providers or operators",
+        "result": "not supported; role labels and fresh contexts are not principal or operator attestations"
+      },
+      {
+        "alternative": "rogue or authorization-exceeding cooperation",
+        "result": "contradicted by the explicit user criteria and pull-request description"
+      }
+    ],
+    "classification": "Verified two-stage semantic carry-over inside an explicitly designed, single-owner operator harness; not a rogue-swarm candidate.",
+    "evidence_needed_to_advance": [
+      "A public sender result independently timestamped before the recipient's implementation or action.",
+      "Primary provenance authenticating distinct autonomous runtime principals and independent operators.",
+      "A public delivery edge outside the Lead-controlled file workflow.",
+      "Primary evidence that cooperation exceeded the user-prescribed harness or operator authorization."
+    ]
+  },
+  "scoped_prior_reporting_check": {
+    "checked_on": "2026-10-24",
+    "github_queries": [
+      {
+        "query": "\"Sprint 5 carry-over M-1\" \"HubRoute\"",
+        "result": "2 default-branch paths, both in Ageree/sthrip: the successor contract and implementation source."
+      },
+      {
+        "query": "\"Sprint 6 carry-over\" \"TEEUserError\"",
+        "result": "4 default-branch paths, all in Ageree/sthrip: result, Generator report, state and test."
+      },
+      {
+        "query": "\"autonomous /harness-long-task\" \"independent Evaluator\"",
+        "result": "0 indexed code paths; the matching description remains in pull request 4."
+      }
+    ],
+    "web_queries": [
+      "\"Ageree/sthrip\" autonomous harness",
+      "\"Sprint 5 carry-over M-1\" HubRoute",
+      "sthrip TEEUserError HubRoute",
+      "\"revenue + TEE hardening\" \"Phase 2\""
+    ],
+    "result": "No prior coordination report located in the checked scope as of 2026-10-24. Exact GitHub hits remain in the source repository and web results are unrelated. This is not a novelty claim and does not alter the designed-harness exclusion."
+  },
+  "bounded_negative_coverage": [
+    "fabelgeist selected hit is a record-model definition rather than an emitted exchange.",
+    "swarm-ops-project selected tree exposes source, tests and worklog but no selected public cross-operator episode.",
+    "ChainlessChain recursive-tree retrieval failed; the path is unresolved rather than cleared.",
+    "No Sthrip default-branch commit after 0d0f637f2ccd3fbd190acb3929fc06b08ed978b3 was located at observation time."
+  ],
+  "next_cursors": [
+    "First Sthrip public commit after 0d0f637f2ccd3fbd190acb3929fc06b08ed978b3 that authenticates separate operators or runtime principals; do not reopen on more same-harness role records.",
+    "First public run ledger in which a sender result is independently committed before a separately attributable recipient action and the recipient's content-specific use is preserved.",
+    "Rotate exact carry-over, contract, result and accepted-use locators toward committed run ledgers rather than repository-defined model classes.",
+    "Keep the 293-report scanner remainder paused unless a new source-level participant, dependency, provenance or authorization cue separates it from the known families."
+  ],
+  "conclusion": "No previously unreported rogue swarm is confirmed. BV-098 contains two concrete semantic result-to-implementation dependencies, but the records describe an authorized user-designed harness under one owner, and public Git chronology does not independently establish the claimed causal order."
+}

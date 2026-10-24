@@ -10664,6 +10664,135 @@
       "replayed_from_receipt_id": "audit-20261024T112928.346265Z",
       "observed_at": "2026-10-24T17:53:01Z",
       "receipt_sha256": "2c1efe351678a5b3a58ae821f99bff61a7583337da65e0ba629b740d2ff5e923"
+    },
+    {
+      "id": "original-sthrip-current-merge-0d0f637",
+      "url": "https://github.com/Ageree/sthrip/commit/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "role": "Current default-branch merge commit used as immutable tree and authorship cursor",
+      "published": "2026-05-08",
+      "event_at": "2026-05-08T10:12:40Z",
+      "commit_sha": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-pr-4",
+      "url": "https://github.com/Ageree/sthrip/pull/4",
+      "role": "Owner-authored and owner-merged pull request explicitly describing the autonomous harness, independent Evaluator review and retained operator actions",
+      "published": "2026-05-08",
+      "event_at": "2026-05-08T09:22:49Z",
+      "merged_at": "2026-05-08T10:12:40Z",
+      "merge_commit_sha": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-phase2-user-criteria-5ae2b61",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/user-criteria.md",
+      "role": "User-authored role topology, fresh-team cadence and per-sprint artifact contract",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "5ae2b61866be158411f9fb1f498e9ce8a110bd6b",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-phase2-lead-decisions-a8eeafb",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/lead-decisions.md",
+      "role": "Pre-authorized Lead decisions and file-mediated role handoff record",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "a8eeafbef9757e921a69c86c2b45318c52a8387e",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint5-evaluator-9c050e8",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/sprint-5-result.md",
+      "role": "Evaluator record identifying the HubRoute M-1 carry-over later used by the Sprint 6 contract and implementation",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "9c050e8a2471aa7727e57613904891931366e7eb",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint6-contract-9fa5f39",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/sprint-6-contract.md",
+      "role": "Successor contract carrying the Sprint 5 evaluator's exact M-1 into a Lead-selected repair and targeted test",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "9fa5f39c1992adeda2c7bd230d52cdf3b28b133d",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint6-generator-ba7c873",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/sprint-6-generator-report.md",
+      "role": "Generator report claiming the M-1 carry-over implementation and targeted test",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "ba7c873ed82a68c785c7cc3091728c23658eb82c",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint6-evaluator-6eb28f0",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/sprint-6-result.md",
+      "role": "Evaluator record closing M-1 and identifying the non-dictionary 4xx edge carried to Sprint 7",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "6eb28f0851143254473100a6f347682d13ade207",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint7-contract-c869273",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/sprint-7-contract.md",
+      "role": "Successor contract carrying the Sprint 6 evaluator's 4xx finding into a defensive implementation and test",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "c869273e9a837a777768a6408837370112291b2c",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint7-evaluator-3321002",
+      "url": "https://github.com/Ageree/sthrip/blob/0d0f637f2ccd3fbd190acb3929fc06b08ed978b3/.harness/phase2-money-and-tee/sprint-7-result.md",
+      "role": "Evaluator record confirming the content-specific 4xx carry-over repair",
+      "published": "2026-05-08",
+      "ref": "0d0f637f2ccd3fbd190acb3929fc06b08ed978b3",
+      "blob_sha": "3321002170b64643d7a2676e3808208dab0c3496",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint5-code-ed3821c",
+      "url": "https://github.com/Ageree/sthrip/commit/ed3821c4f79e2d14f03225a860d118295f7da87c",
+      "role": "Sprint 5 feature commit; public chronology control lacking the selected Evaluator result",
+      "published": "2026-05-07",
+      "event_at": "2026-05-07T14:54:02Z",
+      "commit_sha": "ed3821c4f79e2d14f03225a860d118295f7da87c",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint6-code-6fee072",
+      "url": "https://github.com/Ageree/sthrip/commit/6fee072a0ffc400f28d18ee2a9ea86c433122326",
+      "role": "Sprint 6 implementation commit closing the HubRoute M-1",
+      "published": "2026-05-07",
+      "event_at": "2026-05-07T15:24:25Z",
+      "commit_sha": "6fee072a0ffc400f28d18ee2a9ea86c433122326",
+      "parent_sha": "ed3821c4f79e2d14f03225a860d118295f7da87c",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-sprint7-code-1ffb77c",
+      "url": "https://github.com/Ageree/sthrip/commit/1ffb77c241cf78633045c3a0a338bb46c2c1c2bc",
+      "role": "Sprint 7 implementation commit closing the 4xx carry-over",
+      "published": "2026-05-07",
+      "event_at": "2026-05-07T15:46:01Z",
+      "commit_sha": "1ffb77c241cf78633045c3a0a338bb46c2c1c2bc",
+      "parent_sha": "6fee072a0ffc400f28d18ee2a9ea86c433122326",
+      "observed_at": "2026-10-24T19:26:49Z"
+    },
+    {
+      "id": "original-sthrip-batch-records-cdc4733",
+      "url": "https://github.com/Ageree/sthrip/commit/cdc4733dbd5cdee14779c6be6e167b03618b2f82",
+      "role": "Later rebased commit batch-publishing several earlier-labelled contracts, reports and evaluator results; causal-publication chronology limitation",
+      "published": "2026-05-08",
+      "event_at": "2026-05-08T10:06:29Z",
+      "commit_sha": "cdc4733dbd5cdee14779c6be6e167b03618b2f82",
+      "observed_at": "2026-10-24T19:26:49Z"
     }
   ]
 }

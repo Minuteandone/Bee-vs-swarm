@@ -9988,6 +9988,143 @@
       "event_at": "2026-10-23T23:32:44Z",
       "commit_sha": "2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
       "observed_at": "2026-10-24T00:22:56Z"
+    },
+    {
+      "id": "original-bubbleverse-v122-result-2de3ad1",
+      "url": "https://github.com/Morfindien/Bubbleverse/commit/2de3ad13efb3e768ffa9c45bcb3868e1426d50bd",
+      "role": "Commit publishing the V122 pinned diagnostic specification, execution, validated obstruction and delivery package; corrects the prior guessed-filename cursor",
+      "published": "2026-10-20",
+      "event_at": "2026-10-20T15:40:00Z",
+      "commit_sha": "2de3ad13efb3e768ffa9c45bcb3868e1426d50bd",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v122-acceptance-1648654",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/2de3ad13efb3e768ffa9c45bcb3868e1426d50bd/Q048_V122_LOW_Z_DISPATCH_DIAGNOSTIC_ACCEPTANCE_V1.json",
+      "role": "Original V122 acceptance recording a validated obstruction, zero new actual cells and no consumer authorization",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T15:31:23.114678+00:00",
+      "ref": "2de3ad13efb3e768ffa9c45bcb3868e1426d50bd",
+      "blob_sha": "16486542c9928546d84eeb423bc125cc219bb431",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v122-ingestion-0c7c809",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/9cac3d1e44ca336c0b8b237758ec6f087fe6157c/Q048_V122_INGESTION_STATE_V1.json",
+      "role": "Original V122 ingestion state preparing a corrected V123 task while preserving pending writeback, user upload and no in-ingestion execution",
+      "published": "2026-10-20",
+      "record_created_at": "2026-10-20T15:57:02.211761+00:00",
+      "ref": "9cac3d1e44ca336c0b8b237758ec6f087fe6157c",
+      "blob_sha": "0c7c80940c959c872be9466e4ba2ed7c59d0d47d",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v129-task-4b2bf07",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/19a639b1fe1856deaafc827b7c97e05cf6717c0d/Q048_V129_NEXT_BUILDER_TASK_TWO_OPERATOR_CONDITIONAL_CONSUMER_V1.json",
+      "role": "Prepared V129 task authorizing exactly one pinned theorem consumption into at most one accepted actual cell, with no launcher dispatch claimed",
+      "published": "2026-10-21",
+      "record_created_at": "2026-10-21T04:54:02.755018+00:00",
+      "ref": "19a639b1fe1856deaafc827b7c97e05cf6717c0d",
+      "blob_sha": "4b2bf0771bde24ea8ef2436f84189f94cd774381",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v129-result-eade80c",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/7240e990e9150a2d176c67f4c5edc5b5dc3c6d4c/Q048_V129_RESULT_CONTRACT_V1.json",
+      "role": "Original V129 result binding the exact task and reporting one theorem consumption, one new actual cell and a bounded local-runtime pass",
+      "published": "2026-10-21",
+      "ref": "7240e990e9150a2d176c67f4c5edc5b5dc3c6d4c",
+      "blob_sha": "eade80c498458f1eddddb16bb139986db41e1af2",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v130-acceptance-d66ab53",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/61ea41aaaf1f8cf2c598e3244622d71897ca74ad/Q048_V130_ACCEPTANCE_V1.json",
+      "role": "Accepted V130 proof naming HMLA and SWIFT as mathematical operators, adding one proof cell and granting no consumer authorization",
+      "published": "2026-10-21",
+      "record_created_at": "2026-10-21T06:12:39.276101+00:00",
+      "ref": "61ea41aaaf1f8cf2c598e3244622d71897ca74ad",
+      "blob_sha": "d66ab536d1baad37b31d9c3f3e58f69c5bdd78f6",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v132-checkpoint-a127bcf",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/ff9b01dfb51ae5c3d5ca24a860f0448240b1a210/Q048_V132_ACCEPTED_CHECKPOINT_V1.json",
+      "role": "Accepted V132 checkpoint reporting one later actual cell after postaccept and frontier 870",
+      "published": "2026-10-21",
+      "record_created_at": "2026-10-21T08:30:12.549964+00:00",
+      "ref": "ff9b01dfb51ae5c3d5ca24a860f0448240b1a210",
+      "blob_sha": "a127bcffea8f9dd2946114d9ec0ef04062662f01",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v151-task-abc9873",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/4388f7bc3a0d7800a5d2e915447ce69b5337d3ea/Q048_V151_NEXT_BUILDER_TASK_CONDITIONAL_CONSUMER_820_810_V1.json",
+      "role": "Prepared V151 consumer task with exactly-once proof authorization and an explicit statement that ingestion performed no dispatch",
+      "published": "2026-10-23",
+      "record_created_at": "2026-10-23T07:30:26.266253+00:00",
+      "ref": "4388f7bc3a0d7800a5d2e915447ce69b5337d3ea",
+      "blob_sha": "abc987331288ec848d053a572eab42fdea016295",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v151-result-02ec3ed",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/51adf6cc451ce6428e98f8e76803df6d83466e6b/Q048_V151_RESULT_STATE_AND_HANDOFF_V1.json",
+      "role": "Original V151 result reporting one prior-proof consumption, one new actual cell, frontier 810 and no automatic dispatch",
+      "published": "2026-10-23",
+      "record_created_at": "2026-10-23T07:53:43.024093+00:00",
+      "ref": "51adf6cc451ce6428e98f8e76803df6d83466e6b",
+      "blob_sha": "02ec3ed8c4dc1deae10158b7939dbc5eb2383534",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v154-result-4c3a6c3",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/3773859a2bad401c2abfd114b5a04d36da166a06/Q048_V154_RESULT_STATE_V1.json",
+      "role": "Original V154 accepted but unconsumed proof state recording manual-upload readiness, user-upload-pending integration and no Builder-granted consumer authorization",
+      "published": "2026-10-23",
+      "record_created_at": "2026-10-23T21:20:18.849642+00:00",
+      "ref": "3773859a2bad401c2abfd114b5a04d36da166a06",
+      "blob_sha": "4c3a6c35ada72088f7bbd48663c3364fcc7ac2c1",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v155-task-740b078",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/d9ae9f40f6fdbcc62522e5d88ee48c2ca8f93c90/Q048_V155_NEXT_BUILDER_TASK_CONDITIONAL_CONSUMER_810_800_V1.json",
+      "role": "Bounded V155 task that pins the V154 proof, records ingestion authorization and explicitly remains not dispatched",
+      "published": "2026-10-23",
+      "record_created_at": "2026-10-23T21:37:43.839597+00:00",
+      "ref": "d9ae9f40f6fdbcc62522e5d88ee48c2ca8f93c90",
+      "blob_sha": "740b0782842eec73d56f3b4697c601c9e55a6ae7",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v155-terminal-077f08e",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/2cce8549567e98b64bd0d5a52e06199184c2c4de/Q048_V155_TERMINAL_PREFREEZE_FAILURE_V1.json",
+      "role": "Terminal V155 pre-freeze failure recording no consumer dispatch, no chain attempt, no theorem consumption and no state advance",
+      "published": "2026-10-23",
+      "record_created_at": "2026-10-23T22:13:25.966942+00:00",
+      "ref": "2cce8549567e98b64bd0d5a52e06199184c2c4de",
+      "blob_sha": "077f08ec19af5cabef5860a395d99c63223a198b",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-bubbleverse-v155-ingestion-a831751",
+      "url": "https://github.com/Morfindien/Bubbleverse/blob/f761a9ea5117b77ba2c5d52640d167652ad057ad/Q048_V155_INGESTION_STATE_V1.json",
+      "role": "Current Q048 checkpoint with no next task, pending manual writeback/upload and an operator-owned budget-policy continuation gate",
+      "published": "2026-10-23",
+      "record_created_at": "2026-10-23T22:28:16.409035+00:00",
+      "ref": "f761a9ea5117b77ba2c5d52640d167652ad057ad",
+      "blob_sha": "a83175182dc9011cf36091d391bfb51f4ba66e91",
+      "observed_at": "2026-10-24T06:22:02Z"
+    },
+    {
+      "id": "original-ai-dlc-release-0-941-0-5dc2dee",
+      "url": "https://github.com/euron8/ai-dlc/commit/5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+      "role": "Same-custodian source, fixture, receipt and validator release; files and closes BL-800, closes no consumer PC ID and adds no public graph-side use event",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T04:39:15Z",
+      "commit_sha": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+      "observed_at": "2026-10-24T06:22:02Z"
     }
   ]
 }

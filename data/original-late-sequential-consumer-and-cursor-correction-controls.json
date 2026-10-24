@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.0",
+  "title": "Late sequential-consumer and cursor-correction controls",
+  "assessed_on": "2026-10-24",
+  "observed_at": "2026-10-24T06:22:02Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-092"
+  ],
+  "purpose": "Correct the prior filename-based V122 cursor, review the public Bubbleverse Q048 chain through its latest V155 checkpoint, test whether exact theorem-to-consumer dependencies cross an operator boundary, and advance adjacent raw-record cursors without treating designed project roles as autonomous principals.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute repository code, tests, scripts or agent tooling",
+      "install a package or invoke a model or agent runtime",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private inbox, local task environment or unlisted room",
+      "replay a payload, submit a scan or probe a target system"
+    ],
+    "publication_note": "Only public GitHub files, commits and repository metadata, immutable identifiers, hashes, domain-level summaries and bounded search results are retained. Artifact bodies, local execution paths, commands, prompts, credentials, tokens, personal addresses and private logs are omitted."
+  },
+  "paused_backlog_state": {
+    "urlquery_distinct_records": 1146,
+    "successfully_inspected_original_reports": 853,
+    "paused_records": 293,
+    "paused_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "reason_not_reopened": "No public source-level cue separates an unread scanner record from the committed known-family, comparison, Amap or DseWiki controls.",
+    "urlscan_public_result_pages": 57,
+    "urlscan_scope_status": "closed"
+  },
+  "cursor_correction": {
+    "superseded_statement": "Pass 124 said a V122 ingestion handoff envelope or matching result package was not public at observation time.",
+    "correction": "The inference was based on a guessed V122 envelope filename. The same default-branch tree already contained 23 V122-prefixed files under different names, including a specification, execution, acceptance, ingestion state and prepared V123 task. The public Q048 sequence continues through V155.",
+    "effect_on_prior_assessment": "The correction materially expands inspected original coverage and strengthens the exact dependency record, but does not create an independent operator or authorization crossing. BV-092 remains a designed same-custodian control.",
+    "repository": "Morfindien/Bubbleverse",
+    "default_branch_head_at_observation": "bc9a4909bedb1d8be508c7f255407827f49ada9d",
+    "head_event_at": "2026-10-24T04:01:51Z",
+    "recursive_tree_sha": "7f7eecfd4719e04348324974a676048b76fcb140",
+    "recursive_tree_truncated": false,
+    "latest_record_version_present": 155,
+    "v156_prefixed_files_present": false,
+    "version_file_counts": {
+      "V122": 23,
+      "V123": 11,
+      "V124": 2,
+      "V125": 3,
+      "V126": 2,
+      "V127": 11,
+      "V128": 5,
+      "V129": 5,
+      "V130": 14,
+      "V131": 15,
+      "V132": 17,
+      "V133": 15,
+      "V134": 9,
+      "V135": 7,
+      "V136": 10,
+      "V137": 22,
+      "V138": 22,
+      "V139": 25,
+      "V140": 31,
+      "V141": 31,
+      "V142": 34,
+      "V143": 1,
+      "V144": 19,
+      "V145": 6,
+      "V146": 7,
+      "V147": 8,
+      "V148": 5,
+      "V149": 6,
+      "V150": 3,
+      "V151": 8,
+      "V152": 7,
+      "V153": 4,
+      "V154": 8,
+      "V155": 10
+    },
+    "head_delta_after_v155_ingestion": {
+      "commits": 6,
+      "range": "f761a9ea5117b77ba2c5d52640d167652ad057ad..bc9a4909bedb1d8be508c7f255407827f49ada9d",
+      "classification": "Owner-authored cleanup scripts, placeholders and an installation workflow only; no V156 handoff, result or recipient-use record. No retrieved code was executed."
+    }
+  },
+  "selected_original_control": {
+    "repository": "Morfindien/Bubbleverse",
+    "repository_url": "https://github.com/Morfindien/Bubbleverse",
+    "single_public_publisher": "Morfindien",
+    "v122_diagnostic_and_ingestion": {
+      "result_commit": {
+        "commit_sha": "2de3ad13efb3e768ffa9c45bcb3868e1426d50bd",
+        "event_at": "2026-10-20T15:40:00Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/commit/2de3ad13efb3e768ffa9c45bcb3868e1426d50bd"
+      },
+      "specification": {
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/2de3ad13efb3e768ffa9c45bcb3868e1426d50bd/Q048_V122_LOW_Z_DISPATCH_DIAGNOSTIC_SPEC_V1.json",
+        "blob_sha": "7d58b4d89b1153c948b1b45ebfc34c4b3bba3900",
+        "record_created_at": "2026-10-20T15:27:10.187995+00:00",
+        "task_id": "LOCAL-Q048-V122-LOW-Z-SOURCE-DISPATCH-DIAGNOSTIC-900-890-V1",
+        "task_fingerprint": "3a65e574aafe20c4ec790539ea06c99ccff72fa7ba3240f02242a07c9e45ea6a"
+      },
+      "execution": {
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/2de3ad13efb3e768ffa9c45bcb3868e1426d50bd/Q048_V122_LOW_Z_DISPATCH_DIAGNOSTIC_EXECUTION_V1.json",
+        "blob_sha": "c18526058aee7205173cf2ccb5140272bf9b5657",
+        "reported_status": "COMPLETE",
+        "new_actual_cells": 0
+      },
+      "acceptance": {
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/2de3ad13efb3e768ffa9c45bcb3868e1426d50bd/Q048_V122_LOW_Z_DISPATCH_DIAGNOSTIC_ACCEPTANCE_V1.json",
+        "blob_sha": "16486542c9928546d84eeb423bc125cc219bb431",
+        "record_created_at": "2026-10-20T15:31:23.114678+00:00",
+        "reported_status": "VALIDATED_OBSTRUCTION",
+        "consumer_authorization": "NOT_GRANTED",
+        "new_actual_cells": 0
+      },
+      "ingestion": {
+        "commit_sha": "9cac3d1e44ca336c0b8b237758ec6f087fe6157c",
+        "event_at": "2026-10-20T15:58:38Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/9cac3d1e44ca336c0b8b237758ec6f087fe6157c/Q048_V122_INGESTION_STATE_V1.json",
+        "blob_sha": "0c7c80940c959c872be9466e4ba2ed7c59d0d47d",
+        "record_created_at": "2026-10-20T15:57:02.211761+00:00",
+        "selected_next_engine_id": "BUBBLEVERSE.MATHEMATICS2.1.0",
+        "next_task_id": "LOCAL-Q048-V123-CORRECTED-LOW-Z-SOURCE-DISPATCH-DIAGNOSTIC-900-890-V1",
+        "delivery_status": "PREPARED",
+        "writeback_status": "PENDING",
+        "repository_sync_status": "USER_UPLOAD_PENDING",
+        "observed_incoming_v122_sync": "PUSHED_BY_OPERATOR_OBSERVED"
+      },
+      "next_task": {
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/9cac3d1e44ca336c0b8b237758ec6f087fe6157c/Q048_V123_NEXT_MATHEMATICS_TASK_CORRECTED_LOW_Z_DISPATCH_V1.json",
+        "blob_sha": "508d779ca78b7971b403e1d886eac5926679ac51",
+        "reported_status": "PREPARED_NOT_EXECUTED"
+      },
+      "assessment": "V122 proves the guessed filename cursor was wrong. It also preserves the same manual pattern as V109-V121: the repository owner uploads a completed package, ingestion prepares but does not execute the successor, and repository synchronization remains pending user upload."
+    },
+    "v128_to_v132_theorem_consumer_chain": {
+      "v129_task": {
+        "commit_sha": "19a639b1fe1856deaafc827b7c97e05cf6717c0d",
+        "event_at": "2026-10-21T04:56:16Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/19a639b1fe1856deaafc827b7c97e05cf6717c0d/Q048_V129_NEXT_BUILDER_TASK_TWO_OPERATOR_CONDITIONAL_CONSUMER_V1.json",
+        "blob_sha": "4b2bf0771bde24ea8ef2436f84189f94cd774381",
+        "task_id": "LOCAL-Q048-V129-TWO-OPERATOR-CONDITIONAL-SOURCE-REAL-ACTUAL-CONSUMER-890-880-V1",
+        "task_fingerprint": "4b4d4bff00b339a479dd95b6da9366fe4d19708512da31520eda2ce54fa2f0a0",
+        "record_created_at": "2026-10-21T04:54:02.755018+00:00",
+        "authorization": "GRANTED_BY_INGESTION_FOR_EXACTLY_ONE_CONDITIONAL_SOURCE_REAL_CELL_890_TO_880",
+        "theorem_consumptions_required": 1,
+        "dispatch_status": "PREPARED_NOT_EXECUTED"
+      },
+      "v129_result": {
+        "commit_sha": "7240e990e9150a2d176c67f4c5edc5b5dc3c6d4c",
+        "event_at": "2026-10-21T05:25:39Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/7240e990e9150a2d176c67f4c5edc5b5dc3c6d4c/Q048_V129_RESULT_CONTRACT_V1.json",
+        "blob_sha": "eade80c498458f1eddddb16bb139986db41e1af2",
+        "run_id": "LOCAL-Q048-V129-20261021T051157061124Z-CONSUMER-V1",
+        "compute_backend": "LOCAL_RUNTIME",
+        "reported_status": "PASS_FOR_BOUNDED_V129_TASK",
+        "new_actual_cells": 1,
+        "theorem_consumptions": 1,
+        "accepted_frontier": 880
+      },
+      "v130_proof": {
+        "task_url": "https://github.com/Morfindien/Bubbleverse/blob/ad5f6eaae4caada42c375e77b075d080bbab8e96/Q048_V130_NEXT_MATHEMATICS_TASK_880_870_V1.json",
+        "task_blob_sha": "162542e11729b0a0e130114363a5fd890070c926",
+        "task_commit_sha": "ad5f6eaae4caada42c375e77b075d080bbab8e96",
+        "task_event_at": "2026-10-21T05:50:36Z",
+        "task_dispatch_status": "PREPARED_NOT_EXECUTED",
+        "acceptance_url": "https://github.com/Morfindien/Bubbleverse/blob/61ea41aaaf1f8cf2c598e3244622d71897ca74ad/Q048_V130_ACCEPTANCE_V1.json",
+        "acceptance_blob_sha": "d66ab536d1baad37b31d9c3f3e58f69c5bdd78f6",
+        "acceptance_commit_sha": "61ea41aaaf1f8cf2c598e3244622d71897ca74ad",
+        "acceptance_event_at": "2026-10-21T06:39:14Z",
+        "reported_status": "ACCEPTED_CONDITIONAL_SOURCE_REAL_CONNECTED_PROOF",
+        "operators": [
+          "HMLA",
+          "SWIFT"
+        ],
+        "consumer_authorization": "NOT_GRANTED_BY_MATHEMATICS",
+        "new_mathematical_proof_cells": 1,
+        "new_actual_cells": 0
+      },
+      "v132_checkpoint": {
+        "commit_sha": "ff9b01dfb51ae5c3d5ca24a860f0448240b1a210",
+        "event_at": "2026-10-21T08:42:45Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/ff9b01dfb51ae5c3d5ca24a860f0448240b1a210/Q048_V132_ACCEPTED_CHECKPOINT_V1.json",
+        "blob_sha": "a127bcffea8f9dd2946114d9ec0ef04062662f01",
+        "record_created_at": "2026-10-21T08:30:12.549964+00:00",
+        "reported_status": "ACCEPTED_AFTER_POSTACCEPT",
+        "new_actual_cells": 1,
+        "accepted_frontier": 870
+      },
+      "semantic_dependency_assessment": "This is a concrete theorem-to-consumer-to-checkpoint dependency: the V129 task authorizes exactly one prior-theorem consumption, its result reports exactly one consumption and one new actual cell, V130 produces the next proof, and V132 records the later accepted actual checkpoint. The project term 'two operator' refers to the named mathematical operators HMLA and SWIFT, not authenticated human or autonomous principals."
+    },
+    "v151_to_v155_terminal_chain": {
+      "v151_task": {
+        "commit_sha": "4388f7bc3a0d7800a5d2e915447ce69b5337d3ea",
+        "event_at": "2026-10-23T07:33:30Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/4388f7bc3a0d7800a5d2e915447ce69b5337d3ea/Q048_V151_NEXT_BUILDER_TASK_CONDITIONAL_CONSUMER_820_810_V1.json",
+        "blob_sha": "abc987331288ec848d053a572eab42fdea016295",
+        "task_id": "LOCAL-Q048-V151-CONDITIONAL-ACTUAL-CONSUMER-820-810-V1",
+        "task_fingerprint": "eb708dce6f57c79f49b369a0f65aa5ece13e1dd99f20a8e8ec4d395dd5db1f20",
+        "authorization_scope": "Build and, after successful preflight/freeze, execute one bounded 820-to-810 conditional consumer chain; ingestion performed no dispatch."
+      },
+      "v151_result": {
+        "commit_sha": "51adf6cc451ce6428e98f8e76803df6d83466e6b",
+        "event_at": "2026-10-23T10:15:47Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/51adf6cc451ce6428e98f8e76803df6d83466e6b/Q048_V151_RESULT_STATE_AND_HANDOFF_V1.json",
+        "blob_sha": "02ec3ed8c4dc1deae10158b7939dbc5eb2383534",
+        "record_created_at": "2026-10-23T07:53:43.024093+00:00",
+        "reported_dependency": "V150 proof ACCEPTED_CONSUMED_ONCE",
+        "reported_new_actual_cells": 1,
+        "reported_theorem_consumptions": 1,
+        "reported_frontier": 810,
+        "dispatch_state": "NOT_DISPATCHED"
+      },
+      "v154_result_and_ingestion": {
+        "result_url": "https://github.com/Morfindien/Bubbleverse/blob/3773859a2bad401c2abfd114b5a04d36da166a06/Q048_V154_RESULT_STATE_V1.json",
+        "result_blob_sha": "4c3a6c35ada72088f7bbd48663c3364fcc7ac2c1",
+        "result_commit_sha": "3773859a2bad401c2abfd114b5a04d36da166a06",
+        "result_event_at": "2026-10-23T21:26:05Z",
+        "reported_status": "ACCEPTED_UNCONSUMED_CONDITIONAL_SOURCE_REAL_PROOF",
+        "memory_write_status": "FILES_READY_FOR_MANUAL_UPLOAD",
+        "memory_integration_status": "USER_UPLOAD_PENDING",
+        "next_action_dispatch_status": "NOT_DISPATCHED",
+        "next_action_consumer_authorization": "NOT_GRANTED_BY_BUILDER",
+        "ingestion_url": "https://github.com/Morfindien/Bubbleverse/blob/d9ae9f40f6fdbcc62522e5d88ee48c2ca8f93c90/Q048_V154_INGESTION_STATE_V1.json",
+        "ingestion_blob_sha": "904671eb56599be3c6313e7be44e57066f160c15",
+        "ingestion_commit_sha": "d9ae9f40f6fdbcc62522e5d88ee48c2ca8f93c90",
+        "ingestion_event_at": "2026-10-23T21:46:48Z",
+        "delivery_status": "PREPARED_NOT_DISPATCHED",
+        "writeback_status": "PENDING_GITHUB_USER_UPLOAD",
+        "repository_sync_status": "USER_UPLOAD_PENDING"
+      },
+      "v155_task": {
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/d9ae9f40f6fdbcc62522e5d88ee48c2ca8f93c90/Q048_V155_NEXT_BUILDER_TASK_CONDITIONAL_CONSUMER_810_800_V1.json",
+        "blob_sha": "740b0782842eec73d56f3b4697c601c9e55a6ae7",
+        "task_id": "LOCAL-Q048-V155-CONDITIONAL-ACTUAL-CONSUMER-810-800-V1",
+        "task_fingerprint": "4ea824e47fd32e2c5a6ab78b36113c8aa146cc903dca0e2420ec8c98d5c0f8d5",
+        "record_created_at": "2026-10-23T21:37:43.839597+00:00",
+        "authorization_scope": "After exact current-state reconciliation and successful preflight/freeze, execute at most one 810-to-800 consumer chain; ingestion only prepares and performs no dispatch.",
+        "dispatch": "NOT_DISPATCHED"
+      },
+      "v155_terminal_record": {
+        "commit_sha": "2cce8549567e98b64bd0d5a52e06199184c2c4de",
+        "event_at": "2026-10-23T22:23:25Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/2cce8549567e98b64bd0d5a52e06199184c2c4de/Q048_V155_TERMINAL_PREFREEZE_FAILURE_V1.json",
+        "blob_sha": "077f08ec19af5cabef5860a395d99c63223a198b",
+        "record_created_at": "2026-10-23T22:13:25.966942+00:00",
+        "reported_status": "TERMINAL_TECHNICAL_PREFREEZE_FAILURE",
+        "consumer_dispatched": false,
+        "chain_attempts": 0,
+        "new_actual_cells": 0,
+        "theorem_consumptions": 0,
+        "canonical_state_advanced": false
+      },
+      "v155_ingestion": {
+        "commit_sha": "f761a9ea5117b77ba2c5d52640d167652ad057ad",
+        "event_at": "2026-10-23T22:29:56Z",
+        "url": "https://github.com/Morfindien/Bubbleverse/blob/f761a9ea5117b77ba2c5d52640d167652ad057ad/Q048_V155_INGESTION_STATE_V1.json",
+        "blob_sha": "a83175182dc9011cf36091d391bfb51f4ba66e91",
+        "record_created_at": "2026-10-23T22:28:16.409035+00:00",
+        "disposition": "CHECKPOINT",
+        "epistemic_status": "INCONCLUSIVE",
+        "selected_next_engine_id": null,
+        "next_task": null,
+        "delivery_status": "PREPARED",
+        "writeback_status": "PENDING",
+        "repository_sync_status": "USER_UPLOAD_PENDING",
+        "operator_gate": "Any budget top-up or policy change is operator-owned and is not assumed.",
+        "budget_remaining_points": 38
+      },
+      "assessment": "The late chain proves repeated content-specific use inside the Q048 workflow, but its own records deny automatic dispatch and preserve owner-mediated upload. V155 ends before recipient execution, with no chain attempt or theorem consumption, and defers any continuation to an operator-owned policy decision."
+    },
+    "participant_and_boundary_assessment": {
+      "distinguishable_project_roles": true,
+      "exact_task_transfer": true,
+      "recipient_semantic_use_at_v129_and_v151": true,
+      "later_result_ingestion": true,
+      "autonomous_ai_identity_verified": false,
+      "provider_attribution_verified": false,
+      "independent_operator_principals_verified": false,
+      "operator_boundary_crossing_verified": false,
+      "authorization_exceeded": false,
+      "current_activity_verified": true,
+      "current_activity_scope": "Public repository updates through 2026-10-24T04:01:51Z; activity is not evidence of a rogue swarm.",
+      "assessment": "The chain is a high-confidence task/result dependency but an affirmative designed-control record. Every selected commit is published by one account; tasks are bounded by explicit ingestion authorization; successor records repeatedly say prepared/not dispatched; synchronization requires user upload; the final gate is operator-owned. Engine and mathematical-operator labels do not authenticate independent autonomous principals."
+    }
+  },
+  "immutable_record_rotation": {
+    "search_source": "Global public GitHub default-branch code search used only as a locator",
+    "observed_at": "2026-10-24T06:22:02Z",
+    "resumed_queries": [
+      {
+        "query": "\"controller_id\" \"source_result_sha256\" \"target_result_sha256\" \"target_run_id\"",
+        "rows": 2,
+        "self_rows": 1,
+        "external_rows": 1,
+        "classification": "The only external row is the already reviewed OMX single-user dogfood record."
+      },
+      {
+        "query": "\"owner_controller_id\" \"origin_run_id\" \"target_run_id\" \"handoff_id\"",
+        "rows": 4,
+        "self_rows": 1,
+        "external_rows": 3,
+        "classification": "The external rows are the already reviewed OMX dogfood evidence and two same-project tests."
+      },
+      {
+        "query": "\"delivery_status\" \"next_task_dispatched\" \"recipient_action_id\"",
+        "rows": 1,
+        "self_rows": 1,
+        "external_rows": 0
+      }
+    ],
+    "rotated_queries": [
+      {
+        "query": "\"accepted_checkpoint_sha256\" \"recipient_result_sha256\" \"consumer_authorization\"",
+        "rows": 0
+      },
+      {
+        "query": "\"source_result_sha256\" \"recipient_result_sha256\" \"operator_scope\"",
+        "rows": 0
+      },
+      {
+        "query": "\"handoff_status\" \"result_validation_status\" \"return_route\"",
+        "rows": 3,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ],
+        "classification": "All rows are same-project Q048 output or manifest records already within BV-092; no new population."
+      }
+    ],
+    "exact_identifier_checks": [
+      {
+        "identifier": "LOCAL-Q048-V129-TWO-OPERATOR-CONDITIONAL-SOURCE-REAL-ACTUAL-CONSUMER-890-880-V1",
+        "github_rows": 3,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ]
+      },
+      {
+        "identifier": "LOCAL-Q048-V155-CONDITIONAL-ACTUAL-CONSUMER-810-800-V1",
+        "github_rows": 3,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ]
+      },
+      {
+        "identifier": "4ea824e47fd32e2c5a6ab78b36113c8aa146cc903dca0e2420ec8c98d5c0f8d5",
+        "github_rows": 4,
+        "repositories": [
+          "Morfindien/Bubbleverse"
+        ]
+      }
+    ],
+    "observer_contamination": {
+      "detected": true,
+      "assessment": "The resumed queries include this project's previously published snapshot. Self rows were separated before external inference."
+    }
+  },
+  "prior_reporting_scope": {
+    "checked_on": "2026-10-24",
+    "queries": [
+      "\"LOCAL-Q048-V155-CONDITIONAL-ACTUAL-CONSUMER-810-800-V1\"",
+      "\"LOCAL-Q048-V129-TWO-OPERATOR-CONDITIONAL-SOURCE-REAL-ACTUAL-CONSUMER-890-880-V1\"",
+      "\"4ea824e47fd32e2c5a6ab78b36113c8aa146cc903dca0e2420ec8c98d5c0f8d5\""
+    ],
+    "web_result": "No indexed web result was returned for the three exact queries.",
+    "github_result": "Exact GitHub code searches returned only the origin repository.",
+    "conclusion": "No prior coordination report was located in the checked scope as of 24 October 2026. This bounded absence does not establish novelty; the origin repository itself documents an operator-mediated designed workflow."
+  },
+  "adjacent_cursor_controls": {
+    "ai_dlc": {
+      "previous_commit": "2e322a41b02d96bb82f55cc693eb1b6ff689c5e9",
+      "current_commit": "5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+      "current_version": "0.941.0",
+      "event_at": "2026-10-24T04:39:15Z",
+      "url": "https://github.com/euron8/ai-dlc/commit/5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd",
+      "classification": "Same-custodian source, fixture, receipt and validator release. It files and closes BL-800 in the same release, closes no consumer PC ID and adds no public graph-side sender/recipient/use event."
+    },
+    "omx_agent_adapter": {
+      "head": "2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1",
+      "moved": false
+    }
+  },
+  "alternative_explanations": [
+    {
+      "hypothesis": "independent autonomous agents crossed an operator boundary",
+      "status": "not supported",
+      "reason": "No provider or operator attestation binds the project roles to distinct autonomous principals, and one account publishes every selected record."
+    },
+    {
+      "hypothesis": "designed same-operator orchestration",
+      "status": "best supported",
+      "reason": "Explicit ingestion authorization, prepared/not-dispatched tasks, user-upload-pending synchronization and operator-owned continuation gates describe the observed sequence."
+    },
+    {
+      "hypothesis": "two operator means two independent principals",
+      "status": "rejected",
+      "reason": "The acceptance record names HMLA and SWIFT as mathematical operators inside one proof, not as authenticated people, providers or separately controlled agents."
+    },
+    {
+      "hypothesis": "the V155 recipient used the V154 proof",
+      "status": "rejected by the terminal record",
+      "reason": "The record says consumer_dispatched false, chain_attempts zero, theorem_consumptions zero and no canonical state advance."
+    },
+    {
+      "hypothesis": "a shared-state or retry artifact explains duplicate-looking files",
+      "status": "plausible for duplicate filenames but not needed for the dependency finding",
+      "reason": "Several Markdown delivery files have numbered duplicates with identical blobs. Exact task fingerprints and accepted-result records establish the intended chain without treating duplicate uploads as participants."
+    }
+  ],
+  "assessment": {
+    "new_plausible_unreported_coordination_candidate": false,
+    "material_candidate_change": false,
+    "access_blocker_requiring_user_action": false,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "conclusion": "Pass 125 corrects and advances the Bubbleverse cursor from V121 through V155. It confirms several exact task/proof/result dependencies and repeated downstream use, but the original records affirm a manually uploaded, explicitly authorized single-custodian workflow and terminate at an operator-owned checkpoint. No rogue-swarm discovery or alert threshold is met."
+  },
+  "evidence_needed_to_advance": [
+    "A public sender or delivery record controlled independently from the repository owner.",
+    "Provider or operator attestations binding project roles to distinct autonomous principals.",
+    "A content-specific recipient action outside the manually prepared and uploaded Q048 chain.",
+    "Primary evidence that a recipient action bypassed or exceeded the recorded ingestion authorization or operator gate.",
+    "For V155 specifically, a public dispatch and downstream-use record; another prepared task, same-account upload or role label is insufficient."
+  ],
+  "next_cursors": [
+    "Bubbleverse: first public Q048 V156-prefixed task, result, ingestion or recipient-use record after bc9a4909bedb1d8be508c7f255407827f49ada9d; do not re-read cleanup-only commits unless they add a record edge.",
+    "Bubbleverse: independently controlled delivery or provider/operator identity evidence for any already reviewed V122-V155 edge.",
+    "AI-DLC: first public default-branch commit after 5dc2dee7c8b9dfbe2cbfa6632839d463063ed1dd.",
+    "OMX Agent Adapter: first public handoff outside human-ade or other evidence of a separately controlled recipient after 2d93f37f2a1a8b1a0bb9a52b491250ae390b16b1.",
+    "Original-record rotation: a non-self, non-Bubbleverse emitted record matching the saved recipient-result or validation-return fields."
+  ],
+  "research_exclusion": "This snapshot is a control and cursor correction, not a discovery alert. It must not be counted as a confirmed previously unreported rogue swarm."
+}

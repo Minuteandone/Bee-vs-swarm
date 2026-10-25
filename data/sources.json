@@ -11705,6 +11705,114 @@
       "blob_sha": "0a69ac0ae34a224bc86eb62d215d31ff6eb19e85",
       "ref_date": "2026-10-23T22:52:54Z",
       "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-dennis-platform-work-order-d209a11",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/agent-1-platform-photon.md",
+      "role": "Human-facing work order assigning the platform lane and repository-only inter-agent coordination",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "d209a11490426d035fdbeb9bf31cbb27394a961f",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-purchasing-work-order-1e14e7c",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/agent-2-purchasing-nessie.md",
+      "role": "Human-facing work order assigning the purchasing lane inside the four-agent plan",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "1e14e7c63ea324e11d6e3ce9cacadcc501680900",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-llm-work-order-75041a8",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/agent-3-shortme-llm-chalk.md",
+      "role": "Human-facing work order assigning the LLM and evaluation integration lane",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "75041a81d8b7176a98144574d9acce9b0d803c46",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-frontend-work-order-17761c7",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/agent-4-frontend-demo-eval.md",
+      "role": "Human-facing work order assigning frontend, demonstration and evaluation work",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "17761c731a15f4de032f754f0db6d8f96549118c",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-build-spec-3686537",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/dennis-build-spec.md",
+      "role": "Shared source of truth defining four concurrent coding agents and verified, assumed or simulated behavior",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "368653755edb9c7748cda8358a1db4f32ccff7a2",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-contract-ledger-15e9115",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/docs/CONTRACT_REQUESTS.md",
+      "role": "Public request/status ledger used by the four assigned lanes and governed by a human lead",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "15e9115e9b1cd7b1e2d6581193437ff6ca73463e",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-demo-runbook-674a3d5",
+      "url": "https://github.com/johnquevedo/HackHarvard/blob/52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944/docs/DEMO_RUNBOOK.md",
+      "role": "Demo runbook identifying simulated and mock fallbacks and retained human rehearsal steps",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "blob_sha": "674a3d58507fee5884e3a7a059da58e7cef872b4",
+      "ref_date": "2026-10-22T05:28:43Z",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-purchasing-request-15fd71d",
+      "url": "https://github.com/johnquevedo/HackHarvard/commit/15fd71d895b18adfc703bdf47b3675f87f1e13a6",
+      "role": "Platform-lane publication of two concrete purchasing integration failures and a request to the owning lane",
+      "published": "2026-10-17",
+      "ref": "15fd71d895b18adfc703bdf47b3675f87f1e13a6",
+      "tree_sha": "5a5588d5ad4807578b168d85cf2d5ef705417f7b",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-purchasing-fix-38f4b28",
+      "url": "https://github.com/johnquevedo/HackHarvard/commit/38f4b287ee7e2fad0f1292bda2657631a1f0d2e8",
+      "role": "Purchasing-lane correction matching both reported failures; author and committer timestamps differ",
+      "published": "2026-10-17",
+      "ref": "38f4b287ee7e2fad0f1292bda2657631a1f0d2e8",
+      "tree_sha": "8cd406a6c14fe4b47984d2d775086d7718613864",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-recipient-integration-890d138",
+      "url": "https://github.com/johnquevedo/HackHarvard/commit/890d138f0a574589681ec4af3c5578f47a54f976",
+      "role": "Requester-lane integration of the purchasing corrections and shared checks",
+      "published": "2026-10-17",
+      "ref": "890d138f0a574589681ec4af3c5578f47a54f976",
+      "tree_sha": "71a85f66033b972b4e4bcbb7f1d5d3adb6794e8c",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-authorized-publication-b20a666",
+      "url": "https://github.com/johnquevedo/HackHarvard/commit/b20a6667c9b531a9bde7d5c401935e7b4f2d59d9",
+      "role": "Human-authored merge explicitly describing authorized publication and preservation of both lanes' notes",
+      "published": "2026-10-17",
+      "ref": "b20a6667c9b531a9bde7d5c401935e7b4f2d59d9",
+      "tree_sha": "ea7546038edab35045da6366202fc0e03fd0200d",
+      "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-dennis-third-lane-verification-10e011a",
+      "url": "https://github.com/johnquevedo/HackHarvard/commit/10e011a7e8bce1819fed462b6627fbd91706405d",
+      "role": "Third human-published lane verification after the purchasing integration",
+      "published": "2026-10-17",
+      "ref": "10e011a7e8bce1819fed462b6627fbd91706405d",
+      "tree_sha": "b9ff1b3d14715e14c92f4061154c06bb9d558de9",
+      "observed_at": "2026-10-25T18:14:29Z"
     }
   ]
 }

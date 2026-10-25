@@ -1,0 +1,323 @@
+{
+  "snapshot": "human-directed hackathon agent handoff control",
+  "observed_at": "2026-10-25T18:14:29Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "d619d980a2084da5f177210d6a69fd2491ff1412",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level cue separates the paused scanner remainder from known comparison families; collection resumed the saved original-record code-search cursor."
+  },
+  "collection": {
+    "resumed_query": {
+      "query": "\"consumed\": true \"source_agent_id\" \"target_agent_id\" \"artifact\"",
+      "pages_read": 2,
+      "unique_rows": 159,
+      "observed_result_total_range": [
+        154,
+        159
+      ],
+      "self_index_rows": 12,
+      "external_rows": 147,
+      "external_classification": {
+        "published_experiment_outputs": 34,
+        "implementation_source": 69,
+        "tests_fixtures_or_demos": 16,
+        "schemas_or_contracts": 12,
+        "documentation_plans_or_skills": 14,
+        "other_code_paths": 2
+      },
+      "result": "No non-experiment emitted episode survived outside the previously classified published-experiment family."
+    },
+    "saved_exact_variants": [
+      {
+        "query": "\"delivery_event\" \"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"consumed_at\"",
+        "rows": 1,
+        "result": "This repository's indexed prior snapshot only."
+      },
+      {
+        "query": "\"recipient_action_id\" \"source_message_sha256\" \"sender_session_id\" \"recipient_session_id\"",
+        "rows": 1,
+        "result": "This repository's indexed prior snapshot only."
+      },
+      {
+        "query": "\"accepted_result_sha256\" \"recipient_execution_id\" \"source_agent_id\"",
+        "rows": 1,
+        "result": "This repository's indexed prior snapshot only."
+      }
+    ],
+    "rotated_exact_queries": [
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"consumed_at\"",
+        "rows_reviewed": 105,
+        "self_index_rows": 28,
+        "external_rows": 77,
+        "external_repositories": 23
+      },
+      {
+        "query": "\"from_agent_id\" \"to_agent_id\" \"consumed_at\"",
+        "rows_reviewed": 100,
+        "self_index_rows": 10,
+        "external_rows": 90,
+        "external_repositories": 45
+      },
+      {
+        "query": "\"producer_agent_id\" \"consumer_agent_id\" \"consumed\"",
+        "rows_reviewed": 37,
+        "self_index_rows": 22,
+        "external_rows": 15,
+        "external_repositories": 6
+      },
+      {
+        "query": "\"sender_session_id\" \"recipient_session_id\" \"downstream_action\"",
+        "rows_reviewed": 4,
+        "self_index_rows": 4,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_message_id\" \"used_by\" \"agent_id\"",
+        "rows_reviewed": 110,
+        "self_index_rows": 5,
+        "external_rows": 105,
+        "external_repositories": 60
+      },
+      {
+        "query": "\"handoff_id\" \"artifact_sha256\" \"recipient_agent\"",
+        "rows_reviewed": 24,
+        "self_index_rows": 23,
+        "external_rows": 1,
+        "external_repositories": 1
+      },
+      {
+        "query": "\"result_sha256\" \"consumed_at\" \"recipient_agent\"",
+        "rows_reviewed": 21,
+        "self_index_rows": 21,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delivery_receipt\" \"recipient_agent_id\" \"consumed\"",
+        "rows_reviewed": 13,
+        "self_index_rows": 4,
+        "external_rows": 9,
+        "external_repositories": 5
+      },
+      {
+        "query": "\"parent_run_id\" \"child_run_id\" \"consumed\"",
+        "reported_total": 2232,
+        "rows_reviewed": 50,
+        "self_index_rows": 0,
+        "external_rows": 50,
+        "external_repositories": 37,
+        "selector_status": "rejected-as-too-broad",
+        "result": "The reviewed first page contains source or documentation, not emitted transfer/use records. Page two is not retained as a cursor; narrower content-addressed variants replace it."
+      },
+      {
+        "query": "\"source_agent_id\" \"target_agent_id\" \"adopted\" \"artifact\"",
+        "rows_reviewed": 41,
+        "self_index_rows": 4,
+        "external_rows": 37,
+        "external_repositories": 26
+      }
+    ],
+    "aggregate": {
+      "exact_queries": 14,
+      "reviewed_row_occurrences": 667,
+      "self_index_row_occurrences": 136,
+      "external_row_occurrences": 531,
+      "method": "GitHub default-branch code search. Rows are locators until the original file, pinned repository context and commit history are read.",
+      "transient_errors": "Search rate limits were retried without widening scope."
+    },
+    "selected_repository": {
+      "repository": "johnquevedo/HackHarvard",
+      "ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "pinned_ref_event_at": "2026-10-22T05:28:43Z",
+      "recursive_tree_paths": 391,
+      "recursive_tree_truncated": false,
+      "commits_at_or_before_pinned_ref": 59,
+      "selected_reason": "Two independent rotations reached an original repository containing explicit inter-agent contract requests plus a content-specific fix, integration and later verification chain."
+    }
+  },
+  "original_records": {
+    "work_orders": [
+      {
+        "path": "agent-1-platform-photon.md",
+        "git_blob_sha": "d209a11490426d035fdbeb9bf31cbb27394a961f",
+        "finding": "Human-facing instructions define one of four concurrent coding roles and permit coordination only through the repository contract-request file."
+      },
+      {
+        "path": "agent-2-purchasing-nessie.md",
+        "git_blob_sha": "1e14e7c63ea324e11d6e3ce9cacadcc501680900",
+        "finding": "Human-facing instructions assign the purchasing lane inside the same four-agent plan."
+      },
+      {
+        "path": "agent-3-shortme-llm-chalk.md",
+        "git_blob_sha": "75041a81d8b7176a98144574d9acce9b0d803c46",
+        "finding": "Human-facing instructions assign a third bounded implementation lane."
+      },
+      {
+        "path": "agent-4-frontend-demo-eval.md",
+        "git_blob_sha": "17761c731a15f4de032f754f0db6d8f96549118c",
+        "finding": "Human-facing instructions assign frontend, demonstration and evaluation work."
+      }
+    ],
+    "build_spec": {
+      "path": "dennis-build-spec.md",
+      "git_blob_sha": "368653755edb9c7748cda8358a1db4f32ccff7a2",
+      "finding": "The project calls this the single source of truth for four concurrent coding agents and labels behavior as verified, assumed or simulated."
+    },
+    "coordination_ledger": {
+      "path": "docs/CONTRACT_REQUESTS.md",
+      "git_blob_sha": "15e9115e9b1cd7b1e2d6581193437ff6ca73463e",
+      "section_count": 60,
+      "finding": "The public file records requests and statuses among the four assigned roles, repeatedly reserves decisions and publication to a human lead, and contains the selected purchasing dependency."
+    },
+    "runbook": {
+      "path": "docs/DEMO_RUNBOOK.md",
+      "git_blob_sha": "674a3d58507fee5884e3a7a059da58e7cef872b4",
+      "finding": "The demo runbook identifies simulated and mock fallbacks and does not establish a live autonomous exchange outside the project."
+    },
+    "product_readme": {
+      "path": "README.md",
+      "git_blob_sha": "918eb789fcb50f43e89026ba927e4279ef5f08d1",
+      "finding": "The product description retains user opt-in and owner approvals and labels the bulk-deal demonstration as simulated."
+    }
+  },
+  "dependency_chain": [
+    {
+      "stage": "request",
+      "commit": "15fd71d895b18adfc703bdf47b3675f87f1e13a6",
+      "tree_sha": "5a5588d5ad4807578b168d85cf2d5ef705417f7b",
+      "event_at": "2026-10-17T20:58:31Z",
+      "finding": "The platform lane records two concrete failures in the purchasing lane: a missing required pool-account reference and a recipient lookup that searched the wrong post-match intent set. It asks the purchasing lane to review rather than silently taking ownership of that lane."
+    },
+    {
+      "stage": "foreign-lane-fix",
+      "commit": "38f4b287ee7e2fad0f1292bda2657631a1f0d2e8",
+      "tree_sha": "8cd406a6c14fe4b47984d2d775086d7718613864",
+      "author_at": "2026-10-17T20:51:58Z",
+      "committed_at": "2026-10-17T21:02:43Z",
+      "changed_file": "packages/purchasing/src/groups/service.ts",
+      "changed_file_blob_sha": "b4632ef01eb36db75c88e112ec25a3877115dc94",
+      "finding": "The purchasing lane selects a seeded pool account instead of a null reference and resolves the exact recipient member's intent instead of searching only shared intents.",
+      "chronology_limit": "The author timestamp predates the request while the committer timestamp follows it. Exact semantic correspondence and later integration support dependency, but this is not independent runtime telemetry."
+    },
+    {
+      "stage": "recipient-integration",
+      "commit": "890d138f0a574589681ec4af3c5578f47a54f976",
+      "tree_sha": "71a85f66033b972b4e4bcbb7f1d5d3adb6794e8c",
+      "event_at": "2026-10-17T21:13:05Z",
+      "finding": "The platform lane integrates the purchasing corrections and adds the shared checks, establishing downstream use of the foreign-lane result."
+    },
+    {
+      "stage": "human-authorized-publication",
+      "commit": "b20a6667c9b531a9bde7d5c401935e7b4f2d59d9",
+      "tree_sha": "ea7546038edab35045da6366202fc0e03fd0200d",
+      "event_at": "2026-10-17T21:20:52Z",
+      "parents": [
+        "216e9a084526dacd996dc77fd7d420aa7e40574d",
+        "15dc64b1395e5b3dff0fb23cb185cc034848ed20"
+      ],
+      "finding": "The merge message explicitly describes authorized publication and preservation of both agents' notes."
+    },
+    {
+      "stage": "independent-lane-verification",
+      "commit": "10e011a7e8bce1819fed462b6627fbd91706405d",
+      "tree_sha": "b9ff1b3d14715e14c92f4061154c06bb9d558de9",
+      "event_at": "2026-10-17T21:22:32Z",
+      "finding": "A third human-published lane records that main is green after the purchasing integration."
+    }
+  ],
+  "dependency_assessment": {
+    "distinguishable_assigned_roles": true,
+    "task_result_or_artifact_transfer": true,
+    "semantic_downstream_use": true,
+    "public_git_chronology": true,
+    "multiple_public_human_accounts": true,
+    "independently_authenticated_autonomous_runtimes": false,
+    "independently_verified_operator_boundary": false,
+    "authorization_crossing": false,
+    "provider_or_model_attribution": "Commit co-author trailers are project-authored metadata, not independent provider attestations or execution provenance.",
+    "subjective_rogue_intent_evidence": false,
+    "current_activity_claimed": false
+  },
+  "authorization_and_alternatives": {
+    "designed_team": "Strongly supported by four explicit work orders, one shared build specification and a designated repository coordination file.",
+    "human_direction": "Strongly supported by repeated human-lead decisions, branch policy and an explicitly authorized publication merge.",
+    "single_operator_automation": "Multiple human publishing accounts make a literal one-account explanation incomplete, but do not establish separate autonomous operators or a boundary crossing.",
+    "human_requested_outreach": "No foreign outreach or unassigned recipient is needed to explain the chain.",
+    "repeated_tests_or_retries": "The selected chain is substantive development and verification, not inferred from duplicate text or retry volume.",
+    "shared_state_fault": "The identified failures are ordinary integration defects corrected inside the planned workflow.",
+    "observer_contamination": "Self-index rows were separated before selection; the dependency comes from pinned origin records and Git history."
+  },
+  "prior_reporting_check": {
+    "checked_as_of": "2026-10-25",
+    "web_queries": [
+      "\"johnquevedo/HackHarvard\" Dennis agent coordination",
+      "\"Dennis\" \"HackHarvard 2026\" \"Agent 1\"",
+      "\"Dennis\" \"HackHarvard\" \"johnquevedo\"",
+      "exact public purchasing-request label",
+      "exact purchasing-integration commit title"
+    ],
+    "github_code_queries": [
+      "exact public purchasing-request label",
+      "\"Dennis coding-agent work order\""
+    ],
+    "result": "No prior coordination report located in this exact checked scope as of 2026-10-25. The exact work-order phrase resolves only to the four origin files; the exact request label resolves only to the origin coordination ledger. Search absence does not establish global novelty and is not used to promote this authorized workflow."
+  },
+  "classification": {
+    "lead_id": "BV-107",
+    "result": "human-directed multi-operator coding handoff control",
+    "candidate": false,
+    "reason": "The sender-to-recipient dependency is concrete, but every transfer stays inside an explicitly assigned four-agent hackathon workflow. Human leads define roles, retain branch and publication authority, and approve the integration. No primary evidence shows cooperation beyond an operator-defined boundary."
+  },
+  "missing_evidence_to_advance": [
+    "Primary evidence that an agent-originated transfer escaped the assigned repository, task or human-lead authorization.",
+    "Independently attributable runtime or session provenance rather than project-authored role names or commit trailers.",
+    "A recipient action outside the designed work order and contract-request workflow.",
+    "An owner, operator or policy record showing that the cooperation itself violated an authorization boundary."
+  ],
+  "next_cursors": [
+    {
+      "query": "\"parent_run_id\" \"child_run_id\" \"result_sha256\" \"consumed_at\"",
+      "page": 1,
+      "rationale": "Refines the rejected broad parent/child selector toward content-addressed emitted use."
+    },
+    {
+      "query": "\"parent_run_id\" \"child_run_id\" \"artifact_sha256\" \"recipient_action\"",
+      "page": 1,
+      "rationale": "Requires both lineage and a recipient-side action."
+    },
+    {
+      "query": "\"review_finding_id\" \"applied_in_commit\" \"reviewer_agent_id\" \"implementer_agent_id\"",
+      "page": 1,
+      "rationale": "Looks for an exact review-to-implementation adoption edge."
+    },
+    {
+      "query": "\"source_commit_sha\" \"recipient_commit_sha\" \"handoff_id\" \"accepted\"",
+      "page": 1,
+      "rationale": "Looks for separately committed sender and recipient records."
+    },
+    {
+      "repository": "johnquevedo/HackHarvard",
+      "after_ref": "52dfdc4ff2eb4bfe77956f8a9fdd716ea014e944",
+      "condition": "Revisit only if a public later record shows an unassigned recipient, independently attributable runtime or cooperation outside the human-approved project workflow."
+    }
+  ],
+  "safeguards": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_installed": false,
+    "agent_runtime_invoked": false,
+    "participants_contacted": false,
+    "messages_or_votes_posted": false,
+    "scans_submitted": false,
+    "target_systems_probed": false,
+    "sensitive_material_published": false,
+    "sanitization": "Original public record links, timestamps and hashes are retained. Raw task/session identifiers, payload bodies, credentials, tokens, sink topics, personal addresses and private paths are omitted."
+  }
+}

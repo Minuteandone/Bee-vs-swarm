@@ -1,0 +1,288 @@
+{
+  "snapshot": "owner-configured Codex review service and Main acceptance control",
+  "observed_at": "2026-10-25T12:14:17Z",
+  "repository": "dwalleck/cyril",
+  "repository_ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level cue separates the paused scanner remainder from known families."
+  },
+  "collection": {
+    "resumed_queries": [
+      {
+        "query": "\"review_result_sha256\" \"consumed_by\" \"decision\"",
+        "page": 1,
+        "result_count": 4,
+        "result": "Three self-index rows and one test-source file; no emitted external exchange."
+      },
+      {
+        "query": "\"source_handoff_sha256\" \"downstream_action\" \"result_sha256\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Both rows were this repository's self-index."
+      },
+      {
+        "query": "\"producer_commit\" \"reviewer_commit\" \"acceptance_commit\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Both rows were this repository's self-index."
+      }
+    ],
+    "cross_repository_rotation": [
+      {
+        "query": "\"producer_handoff_sha256\" \"review_decision_sha256\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"source_handoff_sha256\" \"owner_accepted\"",
+        "page": 1,
+        "result_count": 6,
+        "result": "Five Free FT owner-governed records and one self-index row; no independent operator boundary."
+      },
+      {
+        "query": "\"reviewer_session\" \"downstream_decision\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Two CIB version-log filename inventories, not emitted sender/recipient records."
+      },
+      {
+        "query": "\"handoff_sha256\" \"accepted_by\" \"consumed\"",
+        "page": 1,
+        "result_count": 11,
+        "result": "Self-index, source/tests and one substantive Cyril handoff selected for original-record tracing."
+      },
+      {
+        "query": "\"producer_session\" \"recipient_session\" \"decision_sha256\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      }
+    ],
+    "bounded_negatives": [
+      {
+        "repository": "niirmataa/free_falcon_sign",
+        "result": "Owner-governed worker/coordinator records; owner acceptance or independent consumer evidence remains absent."
+      },
+      {
+        "repository": "JasonLn0711/cib-semantic-risk-asr-to-paper-4-ab",
+        "repository_ref_prefix": "9f100477",
+        "result": "The two matches are version-history filenames for human audit records, not an emitted coordination chain."
+      }
+    ]
+  },
+  "original_record": {
+    "release_merge": {
+      "commit": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "tree": "8e300041dbb28c4fdbdfb5109f2664939bad5c73",
+      "parents": [
+        "d357d2c6db8b49bb7577dd4e05c222b9d61b2424",
+        "d1f4e87f935d47f829d18448d2f7ef582ed55535"
+      ],
+      "event_at": "2026-10-23T04:53:39Z",
+      "message": "Merge pull request #201 from dwalleck/ci/qualify-five-batches-final-20261020",
+      "github_signature_verified": true,
+      "owner_merged": true
+    },
+    "governance": {
+      "readme_blob_sha": "782ff2b25fd0944a6e3636af05d03cb147a3cde3",
+      "agents_blob_sha": "01aff1cecb919406449b0c50409432ddace23451",
+      "finding": "The repository is an experimental Agent Client Protocol client. AGENTS is explicit Claude Code guidance; the selected handoff assigns integration authority and reserves qualification, publication and merge effects to Main."
+    },
+    "handoff": {
+      "git_blob_sha": "fcbfaa310ef861d608ff1f5afcbb18ac2e6f12f3",
+      "status": "REPLAY_REPAIR_SOURCE_ASSEMBLED_HELD_READY_FOR_COORDINATOR_NOT_QUALIFIED",
+      "finding": "The public handoff records individually authorized source integrations and keeps final qualification and publication with Main.",
+      "publication_limit": "Raw local paths, local-only references and task/session identifiers in the source were not republished."
+    },
+    "evidence_index": {
+      "git_blob_sha": "0008bb9a9c1dbd8e9daea346ea8cd0217e81a35f",
+      "status": "RAW_NEWOVER8_OF9_FAIL_RETAINED_REQUIRED_NATIVE_OUTCOMES_ACCEPTED_BY_REVIEWED_ADJUDICATION",
+      "preserved_results": {
+        "preview": "41/41",
+        "inventory": "17/17",
+        "within_budget": "12/12",
+        "over_budget_raw": "8/9 FAIL, exit 1"
+      },
+      "finding": "The raw failed boundary and later-unreached assertion are retained rather than rewritten as a clean automated pass."
+    },
+    "adjudication_review": {
+      "git_blob_sha": "4356abd395bfbba8bbb79c83cd26b478d58c52ba",
+      "schema": "cyril-native-timeout-adjudication-review/v1",
+      "status": "COMPLETE",
+      "blocker": "NONE",
+      "correctness": "correct",
+      "confidence": 0.97,
+      "method": "read-only original-record review; no commands, tests, builds or Git actions",
+      "finding": "The record maps exact required outcomes to preserved traces, output, source and CI, and expressly distinguishes adjudicated acceptance from a clean automated result."
+    },
+    "main_acceptance": {
+      "git_blob_sha": "b027e0f691222df36f494cb0b663526f23e7d653",
+      "status": "ACCEPTED_BY_MAIN_AFTER_INDEPENDENT_REVIEW",
+      "finding": "Main accepts the required outcomes using observed native execution and existing regressions while retaining the raw 8/9 failure and unmeasured exact cleanup time."
+    },
+    "co_publication": {
+      "commit": "c7f20f25300fa4c82939002522d54b29ac33f896",
+      "tree": "3997a9170528efe967bc3d50d0fb58e3d6118839",
+      "parent": "11c7798242341ffd5dac59ec9c806526ff21fb27",
+      "event_at": "2026-10-23T04:08:18Z",
+      "files_changed": 12,
+      "signed": false,
+      "owner_authored_and_committed": true,
+      "chronology_finding": "The review, acceptance and handoff update first appear together. Git independently dates their publication but not review-before-acceptance order."
+    },
+    "pull_request": {
+      "number": 201,
+      "created_at": "2026-10-22T23:39:18Z",
+      "merged_at": "2026-10-23T04:53:39Z",
+      "head_commit": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
+      "base_commit": "d357d2c6db8b49bb7577dd4e05c222b9d61b2424",
+      "commits": 41,
+      "changed_files": 345,
+      "owner_opened_and_merged": true,
+      "formal_github_reviews": 0,
+      "inline_review_comments": 0
+    },
+    "configured_codex_review": {
+      "public_account": "chatgpt-codex-connector[bot]",
+      "comment_id": 6357259636,
+      "comment_created_at": "2026-10-23T04:17:43Z",
+      "comment_updated_at": "2026-10-23T04:26:45Z",
+      "exact_head_commit": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
+      "code_review_completed_at": "2026-10-23T04:20:21.049993Z",
+      "security_review_completed_at": "2026-10-23T04:26:42.768981Z",
+      "findings": false,
+      "merge_gate_enabled": false,
+      "trigger": "draft marked ready",
+      "configuration_disclosure": "The public summary says the team set up Codex to review pull requests in the repository.",
+      "limitation": "The mutable comment's creation time precedes its embedded completion times and is not treated as completion chronology."
+    },
+    "owner_disposition": {
+      "independent_review_note_at": "2026-10-23T04:19:41Z",
+      "final_disposition_at": "2026-10-23T04:53:19Z",
+      "merge_at": "2026-10-23T04:53:39Z",
+      "finding": "The earlier owner note predates the two embedded Codex completion times and cannot consume them. The later disposition cites green CI, the ordinary integration review and the separately reviewed adjudication, then the owner merges 20 seconds later."
+    }
+  },
+  "dependency_assessment": {
+    "internal_temporal_dependency": "repository-asserted; review and acceptance co-published",
+    "internal_semantic_dependency": "verified",
+    "internal_downstream_use": true,
+    "public_service_temporal_dependency": "verified: service reviews completed before final owner disposition and merge",
+    "public_service_semantic_dependency": "not demonstrated",
+    "procedural_gate_use": true,
+    "independently_verified_public_accounts": true,
+    "independently_verified_operators": false,
+    "operator_boundary_evidence": false,
+    "autonomous_identity_evidence": "The service account is separately attributable, but its own notice establishes owner/team configuration and an explicit draft-ready trigger. Repository role labels do not authenticate independent runtimes or operators.",
+    "provider_attribution": "Public account label identifies the Codex connector service; no stronger provider or model attribution is inferred.",
+    "current_activity_claimed": false,
+    "subjective_rogue_intent_evidence": false
+  },
+  "authorization_and_alternatives": {
+    "explicit_team_configuration": true,
+    "explicit_review_trigger": true,
+    "main_authority_reserved": true,
+    "owner_controls_branch_disposition_and_merge": true,
+    "single_operator_with_configured_service_supported": true,
+    "designed_multi_agent_or_harness_workflow_supported": true,
+    "human_requested_review_supported": true,
+    "same_operator_internal_roles_not_excluded": true,
+    "shared_state_or_serialized_workflow_not_excluded": true,
+    "unauthorized_cross_boundary_coordination_supported": false,
+    "repeated_test_or_scanner_retry": false,
+    "observer_contamination": false
+  },
+  "scoped_prior_reporting_check": {
+    "as_of": "2026-10-25",
+    "github_code_queries": [
+      {
+        "query": "\"ACCEPTED_BY_MAIN_AFTER_INDEPENDENT_REVIEW\"",
+        "result": "4 paths, all in the Cyril origin repository"
+      },
+      {
+        "query": "\"REQUIRED_FOUR_ARM_OUTCOMES_ACCEPTED_BY_MAIN_AFTER_INDEPENDENT_REVIEW\"",
+        "result": "3 paths, all in the Cyril origin repository"
+      },
+      {
+        "query": "\"native-mcp-acceptance\" \"adjudication-review\"",
+        "result": "8 paths, all in the Cyril origin repository"
+      },
+      {
+        "query": "\"RAW_NEWOVER8_OF9_FAIL_RETAINED_REQUIRED_NATIVE_OUTCOMES_ACCEPTED_BY_REVIEWED_ADJUDICATION\"",
+        "result": "1 path, the origin evidence index"
+      },
+      {
+        "query": "\"c7f20f25300fa4c82939002522d54b29ac33f896\"",
+        "result": "0 code-search rows"
+      }
+    ],
+    "web_queries": [
+      "\"ACCEPTED_BY_MAIN_AFTER_INDEPENDENT_REVIEW\"",
+      "\"REQUIRED_FOUR_ARM_OUTCOMES_ACCEPTED_BY_MAIN_AFTER_INDEPENDENT_REVIEW\"",
+      "\"RAW_NEWOVER8_OF9_FAIL_RETAINED_REQUIRED_NATIVE_OUTCOMES_ACCEPTED_BY_REVIEWED_ADJUDICATION\"",
+      "\"c7f20f25300fa4c82939002522d54b29ac33f896\""
+    ],
+    "web_result": "No indexed result returned for the four exact web queries.",
+    "result": "No prior coordination report located in the checked scope as of 2026-10-25.",
+    "limitation": "Search absence does not establish global novelty. Explicit owner/team configuration and retained Main authority independently disqualify the episode.",
+    "known_family_overlap_found": false
+  },
+  "classification": {
+    "lead_id": "BV-104",
+    "label": "owner-configured Codex review service and Main acceptance control",
+    "candidate": false,
+    "rationale": "A content-specific internal evidence-to-review-to-acceptance dependency is preserved, but review and acceptance are co-published by one owner. A separately attributable service later reviews the exact PR head, yet the service is expressly team-configured and draft-triggered, and the owner retains the effect boundary. No unauthorized cross-operator coordination survives.",
+    "evidence_needed_to_advance": [
+      "Independently timestamped public delivery of a content-specific result between separately operated autonomous principals.",
+      "A recipient action that demonstrably uses that result rather than merely satisfying a configured procedural gate.",
+      "Primary evidence that the exchange exceeded the team's review authorization or Main's reserved authority.",
+      "A downstream effect outside the owner-controlled repository workflow."
+    ]
+  },
+  "next_cursors": [
+    {
+      "type": "repository",
+      "cursor": "dwalleck/cyril after 9d4eda70adbad2286da9704f246215ead2a33de6",
+      "advance_only_if": "A new public record independently authenticates separate operators, unauthorized result use or an effect outside Main's control."
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"acceptance_commit\" \"source_review_commit\" \"owner_authorized\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"accepted_by_main\" \"independent_review\" \"handoff_sha256\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"review_trigger\" \"downstream_action\" \"artifact_sha256\"",
+      "next_page": 1
+    },
+    {
+      "type": "repository",
+      "cursor": "JasonLn0711/cib-semantic-risk-asr-to-paper-4-ab after 9f1004776fc6bf0585d17b0ec2695224367be53e",
+      "advance_only_if": "An emitted public record binds a sender, recipient and downstream decision rather than listing audit filenames."
+    }
+  ],
+  "safety": {
+    "read_only_public_records_only": true,
+    "code_tests_scripts_or_agent_runtime_executed": false,
+    "evidence_archives_or_payloads_opened_or_executed": false,
+    "participants_contacted": false,
+    "scans_messages_reviews_reactions_or_votes_submitted": false,
+    "local_paths_session_or_task_ids_published": false,
+    "raw_message_bodies_credentials_or_personal_addresses_published": false
+  }
+}

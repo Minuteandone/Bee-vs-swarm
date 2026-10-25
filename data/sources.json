@@ -11374,6 +11374,110 @@
       "ref": "2b7d50d80e6239656fc5f5beafe9be51e20f9a88",
       "blob_sha": "23f122958af863d40c1cb68372528d46be963395",
       "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-cyril-merge-9d4eda7",
+      "url": "https://github.com/dwalleck/cyril/commit/9d4eda70adbad2286da9704f246215ead2a33de6",
+      "role": "GitHub-signed owner merge of pull request 201; exact selected repository tree and final effect boundary",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "tree_sha": "8e300041dbb28c4fdbdfb5109f2664939bad5c73",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-readme-782ff2b",
+      "url": "https://github.com/dwalleck/cyril/blob/9d4eda70adbad2286da9704f246215ead2a33de6/README.md",
+      "role": "Project scope: experimental Agent Client Protocol terminal interface",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "blob_sha": "782ff2b25fd0944a6e3636af05d03cb147a3cde3",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-agent-guidance-01aff1c",
+      "url": "https://github.com/dwalleck/cyril/blob/9d4eda70adbad2286da9704f246215ead2a33de6/AGENTS.md",
+      "role": "Explicit Claude Code guidance and repository workflow context",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "blob_sha": "01aff1cecb919406449b0c50409432ddace23451",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-handoff-fcbfaa3",
+      "url": "https://github.com/dwalleck/cyril/blob/9d4eda70adbad2286da9704f246215ead2a33de6/.cyril-qualify-five-batches-final/handoff.json",
+      "role": "Sanitized review source for owner-authorized integration handoff and Main-reserved qualification/publication authority",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "blob_sha": "fcbfaa310ef861d608ff1f5afcbb18ac2e6f12f3",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-native-acceptance-b027e0f",
+      "url": "https://github.com/dwalleck/cyril/blob/9d4eda70adbad2286da9704f246215ead2a33de6/.cyril-qualify-five-batches-final/native-mcp-acceptance/acceptance.json",
+      "role": "Main acceptance consuming bounded adjudication while preserving raw failure and timing limitation",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "blob_sha": "b027e0f691222df36f494cb0b663526f23e7d653",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-adjudication-review-4356abd",
+      "url": "https://github.com/dwalleck/cyril/blob/9d4eda70adbad2286da9704f246215ead2a33de6/.cyril-qualify-five-batches-final/native-mcp-acceptance/adjudication-review.json",
+      "role": "Content-specific read-only adjudication mapping preserved evidence to required outcomes",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "blob_sha": "4356abd395bfbba8bbb79c83cd26b478d58c52ba",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-evidence-index-0008bb9",
+      "url": "https://github.com/dwalleck/cyril/blob/9d4eda70adbad2286da9704f246215ead2a33de6/.cyril-qualify-five-batches-final/native-mcp-acceptance/evidence-index.json",
+      "role": "Evidence index retaining exact successful boundaries and raw 8-of-9 failure",
+      "published": "2026-10-23",
+      "ref": "9d4eda70adbad2286da9704f246215ead2a33de6",
+      "blob_sha": "0008bb9a9c1dbd8e9daea346ea8cd0217e81a35f",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-review-acceptance-publication-c7f20f2",
+      "url": "https://github.com/dwalleck/cyril/commit/c7f20f25300fa4c82939002522d54b29ac33f896",
+      "role": "Unsigned owner co-publication of adjudication review, Main acceptance and updated handoff",
+      "published": "2026-10-23",
+      "ref": "c7f20f25300fa4c82939002522d54b29ac33f896",
+      "tree_sha": "3997a9170528efe967bc3d50d0fb58e3d6118839",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-pr-201",
+      "url": "https://github.com/dwalleck/cyril/pull/201",
+      "role": "Owner-opened 41-commit integration pull request and public review/merge chronology",
+      "published": "2026-10-22",
+      "ref": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-configured-codex-review-6357259636",
+      "url": "https://github.com/dwalleck/cyril/pull/201#issuecomment-6357259636",
+      "role": "Mutable Codex connector summary for exact PR head; no-finding code/security reviews, explicit team configuration and draft-ready trigger",
+      "published": "2026-10-23",
+      "ref": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-owner-review-note-6357284254",
+      "url": "https://github.com/dwalleck/cyril/pull/201#issuecomment-6357284254",
+      "role": "Owner-published bounded review note predating the connector's embedded completion times; expressly not GitHub approval",
+      "published": "2026-10-23",
+      "ref": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
+      "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-cyril-owner-final-disposition-6357686495",
+      "url": "https://github.com/dwalleck/cyril/pull/201#issuecomment-6357686495",
+      "role": "Owner final disposition citing green CI, ordinary review and separately reviewed adjudication 20 seconds before merge",
+      "published": "2026-10-23",
+      "ref": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
+      "observed_at": "2026-10-25T12:14:17Z"
     }
   ]
 }

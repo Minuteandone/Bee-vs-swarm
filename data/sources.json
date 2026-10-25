@@ -11268,6 +11268,112 @@
       "ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
       "tree_sha": "dc28912174a1e78fc149dd6b79a3397733b57569",
       "observed_at": "2026-10-25T08:04:07Z"
+    },
+    {
+      "id": "original-project-angler-public-release-b2eb5b3",
+      "url": "https://github.com/ProjectAngler/Angler/commit/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "role": "Current public research release head used to pin ProjectAngler records",
+      "published": "2026-08-29",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "tree_sha": "10e998e4e2487e28fc276087bb20ce97d2ba54e1",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-readme-6d75c85",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/README.md",
+      "role": "Disclosure of sustained human direction, acceptance and responsibility for Codex-assisted work",
+      "published": "2026-08-29",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "6d75c851ba794aa20bb36bf72e16f10e2ed615b3",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-owner-governance-6b8ec60",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/AGENTS.md",
+      "role": "Owner authority, bounded work grants, gates and designed role/handoff topology",
+      "published": "2026-08-25",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "6b8ec60b03b86fc46e0711279ffadaf067c2261a",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-provenance-b40de50",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/PROVENANCE.md",
+      "role": "New-lineage reconstruction and owner–Codex provenance disclosure; former history explicitly unrecovered",
+      "published": "2026-08-29",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "b40de506a0853caeada2eb71a1a392af0745d3f2",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-authorization-fe2844a",
+      "url": "https://github.com/ProjectAngler/Angler/commit/fe2844a149135fc05bffe67665488c87cdb640fb",
+      "role": "Unsigned authorization publication preceding continuity-004 execution/review records",
+      "published": "2026-08-25",
+      "ref": "fe2844a149135fc05bffe67665488c87cdb640fb",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-manifest-3c1cb79",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/docs/blueprints/releases/construction-0/MANIFEST.md",
+      "role": "Authorized single-leaf manifest with preserved failed and rejected predecessor lineage",
+      "published": "2026-08-25",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "3c1cb7971079e8f6d0eb29610a92cbe8462e8edf",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-revalidation-008-eb28df3",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/docs/blueprints/releases/construction-0/revalidations/ANG-CR0-REVALIDATION-20260825-008-decision.json",
+      "role": "Independent-review-labelled pending-packet approval requiring a separate owner transition and validator pass",
+      "published": "2026-08-25",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "eb28df3faf00fb90b100296e8e23ec3da9863950",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-handoff-004-3192583",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/docs/blueprints/work/slice-00/handoffs/ANG-WORK-CR0-CONTINUITY-004.md",
+      "role": "Executor-complete handoff awaiting independent review; first public in the rejection commit",
+      "published": "2026-08-25",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "3192583e1ab4babbc919a32ead6b540df0e6cc32",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-rejection-receipt-6647da7",
+      "url": "https://github.com/ProjectAngler/Angler/blob/b2eb5b34970f861a9aff6f37fbd8e8eb1173408d/docs/blueprints/releases/construction-0/branch-receipts/CONTINUITY-004.md",
+      "role": "Reviewer receipt binding the exact handoff/test hashes and returning a content-specific rejection",
+      "published": "2026-08-25",
+      "ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "blob_sha": "6647da78c4816dca62e4014fc9d78eaecc9a4e75",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-project-angler-rejection-commit-c3f70bf",
+      "url": "https://github.com/ProjectAngler/Angler/commit/c3f70bfe308149179e965ab0a9a9f2fc6b4b31dc",
+      "role": "Unsigned co-publication of executor handoff, reviewer receipt and corrective addendum after authorization",
+      "published": "2026-08-25",
+      "ref": "c3f70bfe308149179e965ab0a9a9f2fc6b4b31dc",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-free-ft-owner-worker-rules-90a2f64",
+      "url": "https://github.com/niirmataa/free_falcon_sign/blob/2b7d50d80e6239656fc5f5beafe9be51e20f9a88/AGENTS.md",
+      "role": "Owner decisions defining worker–coordinator division and staged handoffs; rotated designed-workflow negative",
+      "published": "2026-10-20",
+      "ref": "2b7d50d80e6239656fc5f5beafe9be51e20f9a88",
+      "blob_sha": "90a2f64382a24cd64e5ef53ce532b0b6d1cbedee",
+      "observed_at": "2026-10-25T09:07:19Z"
+    },
+    {
+      "id": "original-free-ft-b20-review-result-23f1229",
+      "url": "https://github.com/niirmataa/free_falcon_sign/blob/2b7d50d80e6239656fc5f5beafe9be51e20f9a88/proofs/ft1536/stages/B20_001_V01_FINAL_001/REVIEW_RESULT.json",
+      "role": "Scoped review binding a source handoff while owner acceptance and push authorization remain false",
+      "published": "2026-09-23",
+      "ref": "2b7d50d80e6239656fc5f5beafe9be51e20f9a88",
+      "blob_sha": "23f122958af863d40c1cb68372528d46be963395",
+      "observed_at": "2026-10-25T09:07:19Z"
     }
   ]
 }

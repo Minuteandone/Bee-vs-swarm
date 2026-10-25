@@ -1,0 +1,256 @@
+{
+  "snapshot": "owner-directed executor review rejection control",
+  "observed_at": "2026-10-25T09:07:19Z",
+  "repository": "ProjectAngler/Angler",
+  "repository_ref": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level participant, transfer/use, provenance or authorization cue separates the paused scanner remainder from known families."
+  },
+  "collection": {
+    "resumed_queries": [
+      {
+        "query": "\"producer_session\" \"integrator_session\" \"artifact_sha256\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Both rows were this repository's prior self-indexed control; no external original record."
+      },
+      {
+        "query": "\"handoff_sha256\" \"reviewer_session\" \"consumed\"",
+        "page": 1,
+        "result_count": 7,
+        "result": "Five external rows reduced to one source utility and four ProjectAngler original records; two rows were this repository's self-index."
+      },
+      {
+        "query": "\"source_handoff\" \"joined_result\" \"accepted_by\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Both rows were this repository's prior self-indexed control; no external original record."
+      }
+    ],
+    "cross_repository_rotation": [
+      {
+        "query": "\"executor_task_id\" \"reviewer_session_ref\" \"handoff_sha256\"",
+        "page": 1,
+        "result_count": 6,
+        "result": "All six rows were ProjectAngler original records."
+      },
+      {
+        "query": "\"reviewer_session_ref\" \"result_sha256\" \"disposition\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"consumed_handoff_sha256\" \"reviewer_session\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"source_handoff_sha256\" \"reviewer\" \"accepted\"",
+        "page": 1,
+        "result_count": 23,
+        "result": "Twenty-three rows across designed proof, workflow, test and same-custodian records. One Free FT review record was checked in full and remained owner-directed with owner acceptance and push authorization false."
+      },
+      {
+        "query": "\"executor_complete_pending_independent_review\" \"RECONCILIATION_REJECTED\"",
+        "page": 1,
+        "result_count": 1,
+        "result": "The sole row was the ProjectAngler executor handoff reviewed here."
+      }
+    ],
+    "selected_rotation_negative": {
+      "repository": "niirmataa/free_falcon_sign",
+      "repository_ref": "2b7d50d80e6239656fc5f5beafe9be51e20f9a88",
+      "owner_rules_blob_sha": "90a2f64382a24cd64e5ef53ce532b0b6d1cbedee",
+      "review_result_blob_sha": "23f122958af863d40c1cb68372528d46be963395",
+      "review_commit": "d9b6e96a4c5c5a7898ceda988924fe39bb12ac67",
+      "result": "The repository expressly assigns workers and a coordinator under owner decisions. The selected scoped review binds a source handoff but records owner_accepted=false and push_authorized=false, so it supplies no accepted downstream use or operator-boundary evidence."
+    }
+  },
+  "original_record": {
+    "release_head": {
+      "commit": "b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "event_at": "2026-08-29T20:27:50Z",
+      "message": "Prepare Project Angler public research release",
+      "tree": "10e998e4e2487e28fc276087bb20ce97d2ba54e1"
+    },
+    "governance": {
+      "readme_blob_sha": "6d75c851ba794aa20bb36bf72e16f10e2ed615b3",
+      "agents_blob_sha": "6b8ec60b03b86fc46e0711279ffadaf067c2261a",
+      "finding": "The README discloses sustained human direction and review. AGENTS defines owner authority, bounded work grants, gates, assigned roles and handoffs. This is an intentionally designed workflow."
+    },
+    "provenance": {
+      "blob_sha": "b40de506a0853caeada2eb71a1a392af0745d3f2",
+      "finding": "The repository says it is a new lineage reconstructed after deletion of an earlier repository/account/conversations; former history and authorship were not recovered. The fresh architecture derives from owner–Codex discussions and owner authorization."
+    },
+    "authorization": {
+      "commit": "fe2844a149135fc05bffe67665488c87cdb640fb",
+      "parent": "21f7474ad40b46a6dc09ebab521f54c9089fbf50",
+      "event_at": "2026-08-25T22:54:24Z",
+      "message": "Authorize continuity reconciliation 008",
+      "files_changed": 7,
+      "signed": false,
+      "api_linked_author": false,
+      "api_linked_committer": false,
+      "manifest_blob_sha": "3c1cb7971079e8f6d0eb29610a92cbe8462e8edf",
+      "revalidation_decision_blob_sha": "eb28df3faf00fb90b100296e8e23ec3da9863950",
+      "finding": "The decision reviews a pending, non-authorizing packet and explicitly says approval alone grants no execution authority. It requires a narrowly specified owner-recorded transition and a validator pass. The manifest then authorizes one continuity leaf only."
+    },
+    "executor_handoff": {
+      "git_blob_sha": "3192583e1ab4babbc919a32ead6b540df0e6cc32",
+      "embedded_content_sha256": "A8F3C6F16AC6EE8E4B7FE22A2D2E91177228CECA780013C32129B5105ABDBC28",
+      "status": "executor complete; independent review pending",
+      "claimed_event_date": "2026-08-25",
+      "limitation": "No exact public event time is supplied, and Git first publishes this handoff in the same commit as the reviewer receipt."
+    },
+    "reviewer_receipt": {
+      "git_blob_sha": "6647da78c4816dca62e4014fc9d78eaecc9a4e75",
+      "disposition": "RECONCILIATION_REJECTED",
+      "claimed_event_date": "2026-08-25",
+      "consumed_handoff_sha256": "A8F3C6F16AC6EE8E4B7FE22A2D2E91177228CECA780013C32129B5105ABDBC28",
+      "consumed_test_sha256": "B0D3D6A00AB8F07BAF7884C1BC9D711CA66CAF0DBF75A11E7F99CA98FBF9B103",
+      "finding": "The reviewer reports independently rerunning the declared test and tree checks, then rejects the packet because the green test omitted the precommitted negative-mutation matrix and required positive lineage bindings."
+    },
+    "rejection_publication": {
+      "commit": "c3f70bfe308149179e965ab0a9a9f2fc6b4b31dc",
+      "parent": "fe2844a149135fc05bffe67665488c87cdb640fb",
+      "event_at": "2026-08-25T23:11:20Z",
+      "message": "Preserve rejected continuity reconciliation 004",
+      "files_changed": 3,
+      "added_git_blob_shas": [
+        "ace29877c1287e63f8f9cee230b8a6b0e43e1ce1",
+        "3192583e1ab4babbc919a32ead6b540df0e6cc32",
+        "6647da78c4816dca62e4014fc9d78eaecc9a4e75"
+      ],
+      "signed": false,
+      "api_linked_author": false,
+      "api_linked_committer": false,
+      "embedded_identity": "OpenAI Codex (AI-assisted)",
+      "chronology_finding": "Public Git history independently orders the authorization commit before this rejection-publication commit by 16 minutes 56 seconds. It does not independently order the handoff before the receipt because both first appear together here."
+    },
+    "prior_failure_lineage": {
+      "revalidation_005": "APPROVED review followed by FAILED_VALIDATION_NO_AUTHORITY; no leaf, test, output or receipt ran.",
+      "revalidation_006": "APPROVED pending-packet review required a separate owner transition; its later continuity-002 execution was rejected.",
+      "packet_007": "AUDIT_FAILED_PRE_ACTIVATION_NO_AUTHORITY; no review decision or leaf execution.",
+      "significance": "The current control records explicit rejection and preservation of failures rather than silently converting green checks into acceptance."
+    }
+  },
+  "dependency_assessment": {
+    "temporal_dependency": "partially verified",
+    "semantic_dependency": "verified within the public records",
+    "downstream_use": true,
+    "accepted_downstream_work": false,
+    "basis": "The receipt names the exact handoff and test hashes and makes a content-specific rejection based on missing controls. Authorization clearly predates the later publication. Handoff-to-receipt ordering is repository-asserted rather than independently timestamped because both files were committed together.",
+    "independently_verified_participants": false,
+    "operator_boundary_evidence": false,
+    "autonomous_identity_evidence": "The repository discloses Codex assistance, but named executor/reviewer roles and session labels are repository-authored. The selected commits are unsigned, have no GitHub-linked API author/committer objects and share one embedded AI-assisted identity.",
+    "current_activity_claimed": false,
+    "subjective_rogue_intent_evidence": false
+  },
+  "authorization_and_alternatives": {
+    "explicit_owner_authorization": true,
+    "designed_executor_reviewer_topology": true,
+    "independent_review_required_by_project": true,
+    "human_direction_and_acceptance_disclosed": true,
+    "single_operator_automation_not_excluded": true,
+    "same_harness_subagents_not_excluded": true,
+    "repository_authored_role_labels_not_operator_provenance": true,
+    "shared_state_or_serialized_workflow_not_excluded": true,
+    "unauthorized_cross_boundary_coordination_supported": false,
+    "repeated_test_or_scanner_retry": false,
+    "observer_contamination": false
+  },
+  "scoped_prior_reporting_check": {
+    "as_of": "2026-10-25",
+    "github_code_queries": [
+      {
+        "query": "\"ANG-WORK-CR0-CONTINUITY-004\"",
+        "result": "9 paths, all in ProjectAngler/Angler"
+      },
+      {
+        "query": "\"A8F3C6F16AC6EE8E4B7FE22A2D2E91177228CECA780013C32129B5105ABDBC28\"",
+        "result": "1 path, the origin reviewer receipt"
+      },
+      {
+        "query": "\"RECONCILIATION_REJECTED\" \"CONTINUITY-004\"",
+        "result": "9 paths, all in ProjectAngler/Angler"
+      },
+      {
+        "query": "\"ANG-CR0-REVALIDATION-20260825-008\"",
+        "result": "6 paths, all in ProjectAngler/Angler"
+      },
+      {
+        "query": "\"executor_complete_pending_independent_review\" \"independent review\"",
+        "result": "3 origin-repository handoffs in the same designed workflow"
+      }
+    ],
+    "web_queries": [
+      "\"ANG-WORK-CR0-CONTINUITY-004\"",
+      "\"A8F3C6F16AC6EE8E4B7FE22A2D2E91177228CECA780013C32129B5105ABDBC28\"",
+      "\"Project Angler\" \"RECONCILIATION_REJECTED\"",
+      "\"ANG-CR0-REVALIDATION-20260825-008\""
+    ],
+    "web_result": "No indexed result returned for the four exact web queries.",
+    "result": "No prior coordination report located in the checked scope as of 2026-10-25.",
+    "limitation": "Search absence does not establish global novelty. The origin's explicit owner governance and missing operator boundary independently disqualify this episode.",
+    "known_family_overlap_found": false
+  },
+  "classification": {
+    "lead_id": "BV-103",
+    "label": "owner-directed executor review rejection control",
+    "candidate": false,
+    "rationale": "This is a real, content-bound handoff-to-review dependency, but it is an expressly designed owner-directed Codex workflow. The public history co-publishes sender and reviewer records under one unsigned identity and supplies no independently authenticated operator boundary or unauthorized objective.",
+    "evidence_needed_to_advance": [
+      "A public sender record and a separately attributable recipient record with independent runtime and operator provenance.",
+      "Independent public chronology showing the recipient obtained the exact handoff before producing the content-specific result.",
+      "Primary evidence that the exchange exceeded the owner's bounded work grant, review topology or effect authority.",
+      "A downstream action that consumes the result outside the repository-authored control plane."
+    ]
+  },
+  "next_cursors": [
+    {
+      "type": "repository",
+      "cursor": "ProjectAngler/Angler after b2eb5b34970f861a9aff6f37fbd8e8eb1173408d",
+      "advance_only_if": "A new public record independently attributes a sender or recipient, or shows result use outside the owner-designed topology."
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"review_result_sha256\" \"consumed_by\" \"decision\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"source_handoff_sha256\" \"downstream_action\" \"result_sha256\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"producer_commit\" \"reviewer_commit\" \"acceptance_commit\"",
+      "next_page": 1
+    },
+    {
+      "type": "repository",
+      "cursor": "niirmataa/free_falcon_sign after 2b7d50d80e6239656fc5f5beafe9be51e20f9a88",
+      "advance_only_if": "A public owner-acceptance or consumer record binds the selected review result and crosses the documented worker–coordinator topology."
+    }
+  ],
+  "safety": {
+    "read_only_public_records_only": true,
+    "code_tests_scripts_or_agent_runtime_executed": false,
+    "archives_or_payloads_executed": false,
+    "participants_contacted": false,
+    "scans_messages_reviews_reactions_or_votes_submitted": false,
+    "private_session_paths_or_task_ids_published": false,
+    "raw_message_bodies_credentials_or_personal_addresses_published": false
+  }
+}

@@ -11595,6 +11595,116 @@
       "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
       "blob_sha": "4a564d7f404902f1e0a0e31678cde295c72dffa5",
       "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-agent-studio-cockpit-rehearsal-8dc30a4",
+      "url": "https://github.com/DeconvFFT/Content-creator-optimizer/blob/bf6529217dbc5681947e84926a8ae5d05d1c3065/social_media_optimiser/raw/run-exports/2026-05-17-live-cockpit-walkthrough.md",
+      "role": "Committed summary of a database-backed but explicitly provider-free local dry rehearsal; referenced detailed ledger files are absent from the complete pinned tree",
+      "event_date": "2026-05-17",
+      "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+      "blob_sha": "8dc30a4e4711c9c01e7dd83c619c6a4c89cd0adf",
+      "ref_date": "2026-06-05T19:14:11Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-agent-studio-operating-contract-beddc28",
+      "url": "https://github.com/DeconvFFT/Content-creator-optimizer/blob/bf6529217dbc5681947e84926a8ae5d05d1c3065/AGENTS.md",
+      "role": "Repository operating contract defining local Agent Studio, subagent scope, operator approval and provider/publication proof gates",
+      "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+      "blob_sha": "beddc2885cef0c168ccca433251830c5677437fb",
+      "ref_date": "2026-06-05T19:14:11Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-agent-studio-project-map-8933f58",
+      "url": "https://github.com/DeconvFFT/Content-creator-optimizer/blob/bf6529217dbc5681947e84926a8ae5d05d1c3065/social_media_optimiser/Agent%20Studio%20MOC.md",
+      "role": "Project map identifying the seeded demo, Human gates and still-pending provider-backed proof",
+      "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+      "blob_sha": "8933f58dbd1e6c1a58ff8b2f830188bda538ec3d",
+      "ref_date": "2026-06-05T19:14:11Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-agent-studio-content-workflow-eda4a20",
+      "url": "https://github.com/DeconvFFT/Content-creator-optimizer/blob/bf6529217dbc5681947e84926a8ae5d05d1c3065/src/all_about_llms/orchestration/content_workflow.py",
+      "role": "Generating source that deliberately creates the named local roles and sender/recipient task messages",
+      "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+      "blob_sha": "eda4a20482b63e26182cfd0e8e377bbbf7220437",
+      "ref_date": "2026-06-05T19:14:11Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-agent-studio-conversation-router-ab7a2da",
+      "url": "https://github.com/DeconvFFT/Content-creator-optimizer/blob/bf6529217dbc5681947e84926a8ae5d05d1c3065/src/all_about_llms/orchestration/conversation_router.py",
+      "role": "Generating source routing a voice or text turn into the designed local content workflow",
+      "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+      "blob_sha": "ab7a2dacfb496f90dca52937c26a0cc1e70a44f4",
+      "ref_date": "2026-06-05T19:14:11Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-enforced-planning-delivery-receipt-589e802",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33/docs/evidence/plan113_governed_delivery_receipt.json",
+      "role": "Real one-session governed-task verification receipt selected to distinguish delivery evidence from cross-session transfer",
+      "event_at": "2026-08-21T01:17:20.462970Z",
+      "ref": "35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33",
+      "blob_sha": "589e802ce026459c3538e3467c2dbad9fbc20d05",
+      "ref_date": "2026-10-23T22:18:05Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-enforced-planning-session-continuity-source-8a53066",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33/enforced_planning/session_continuity.py",
+      "role": "Implementation source for exact owner/successor custody and consumption receipt fields",
+      "ref": "35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33",
+      "blob_sha": "8a530665b5a1f183ab5145fab776513c45106738",
+      "ref_date": "2026-10-23T22:18:05Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-enforced-planning-session-continuity-test-d440010",
+      "url": "https://github.com/BrianMills2718/enforced-planning/blob/35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33/tests/test_session_continuity.py",
+      "role": "Deterministic synthetic test carrying the indexed dated runtime-consumed assertion",
+      "ref": "35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33",
+      "blob_sha": "d4400102ec903f6b16362b288065730fc36d8395",
+      "ref_date": "2026-10-23T22:18:05Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-loop-controller-result-source-dc792e0",
+      "url": "https://github.com/XZMRR/loop-controller/blob/48e0be6e5a5673ecb390bca39f69cc07c199af4c/src/loop_controller/server.py",
+      "role": "Governed runtime source containing source/target-agent and result-digest fields",
+      "ref": "48e0be6e5a5673ecb390bca39f69cc07c199af4c",
+      "blob_sha": "dc792e07aa44ab29b5f04e15ec85475b6567821e",
+      "ref_date": "2026-09-21T10:34:17Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-loop-controller-result-test-4f14822",
+      "url": "https://github.com/XZMRR/loop-controller/blob/48e0be6e5a5673ecb390bca39f69cc07c199af4c/tests/test_server.py",
+      "role": "Deterministic server test selected to separate result-digest fixtures from emitted runtime records",
+      "ref": "48e0be6e5a5673ecb390bca39f69cc07c199af4c",
+      "blob_sha": "4f14822d77ff523c119e9771efe79087c83a65d8",
+      "ref_date": "2026-09-21T10:34:17Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-peak-trade-secure-handoff-source-3324c01",
+      "url": "https://github.com/rauterfrank-ui/Peak_Trade/blob/5d1c838c15369507c5247834db4dd0df25592169/src/meta/learning_loop/secure_handoff_envelope_v1.py",
+      "role": "Explicitly offline secure-handoff contract source containing producer/consumer and digest fields",
+      "ref": "5d1c838c15369507c5247834db4dd0df25592169",
+      "blob_sha": "3324c01c7e21a9e059dc5bd2bc1997da66d1da27",
+      "ref_date": "2026-10-23T22:52:54Z",
+      "observed_at": "2026-10-25T13:57:31Z"
+    },
+    {
+      "id": "original-peak-trade-secure-handoff-test-0a69ac0",
+      "url": "https://github.com/rauterfrank-ui/Peak_Trade/blob/5d1c838c15369507c5247834db4dd0df25592169/tests/meta/test_secure_handoff_envelope_v1.py",
+      "role": "Deterministic contract tests for the offline secure-handoff source",
+      "ref": "5d1c838c15369507c5247834db4dd0df25592169",
+      "blob_sha": "0a69ac0ae34a224bc86eb62d215d31ff6eb19e85",
+      "ref_date": "2026-10-23T22:52:54Z",
+      "observed_at": "2026-10-25T13:57:31Z"
     }
   ]
 }

@@ -1,0 +1,323 @@
+{
+  "snapshot": "provider-free rehearsal and emitted-receipt controls",
+  "observed_at": "2026-10-25T13:57:31Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level cue separates the paused scanner remainder from known families."
+  },
+  "collection": {
+    "resumed_pass_137_queries": [
+      {
+        "query": "\"human_gate_required\" \"input_digest_sha256\" \"invalidates\"",
+        "page": 1,
+        "rows": 50,
+        "self_index_rows": 2,
+        "external_rows": 48,
+        "capped": true,
+        "result": "Every external row belongs to the already classified Seventeen Floor production workflow."
+      },
+      {
+        "query": "\"durable_decision\" \"input_digest_sha256\" \"accepted_master\"",
+        "page": 1,
+        "rows": 4,
+        "self_index_rows": 2,
+        "external_rows": 2,
+        "result": "Both external rows are additional visual-QA records in the same designed workflow."
+      },
+      {
+        "query": "\"fresh bounded worker\" \"handoff_sha256\" \"human_gate_required\"",
+        "page": 1,
+        "rows": 2,
+        "self_index_rows": 2,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor and snapshot."
+      }
+    ],
+    "rotated_exact_queries": [
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\"",
+        "page": 1,
+        "rows": 37,
+        "self_index_rows": 30,
+        "external_rows": 7
+      },
+      {
+        "query": "\"sender_session_id\" \"recipient_session_id\" \"consumed_at\"",
+        "page": 1,
+        "rows": 31,
+        "self_index_rows": 11,
+        "external_rows": 20
+      },
+      {
+        "query": "\"source_agent\" \"target_agent\" \"result_sha256\" \"accepted\"",
+        "page": 1,
+        "rows": 20,
+        "self_index_rows": 11,
+        "external_rows": 9
+      },
+      {
+        "query": "\"producer_id\" \"consumer_id\" \"handoff_digest\"",
+        "page": 1,
+        "rows": 2,
+        "self_index_rows": 0,
+        "external_rows": 2
+      },
+      {
+        "query": "\"received_from\" \"downstream_action\" \"sha256\"",
+        "page": 1,
+        "rows": 2,
+        "self_index_rows": 2,
+        "external_rows": 0
+      },
+      {
+        "query": "\"upstream_task_id\" \"consumer_task_id\" \"status\"",
+        "page": 1,
+        "rows": 4,
+        "self_index_rows": 0,
+        "external_rows": 4
+      },
+      {
+        "query": "\"delivery_receipt\" \"artifact_sha256\" \"accepted_by\"",
+        "page": 1,
+        "rows": 6,
+        "self_index_rows": 1,
+        "external_rows": 5
+      },
+      {
+        "query": "\"originating_agent\" \"receiving_agent\" \"used\"",
+        "page": 1,
+        "rows": 6,
+        "self_index_rows": 1,
+        "external_rows": 5
+      },
+      {
+        "query": "\"runtime_consumed\": true \"recipient_session_id\"",
+        "page": 1,
+        "rows": 5,
+        "self_index_rows": 0,
+        "external_rows": 5
+      },
+      {
+        "query": "\"consumed_at\": \"2026-\" \"sender_session_id\" \"recipient_session_id\"",
+        "page": 1,
+        "rows": 12,
+        "self_index_rows": 11,
+        "external_rows": 1
+      },
+      {
+        "query": "\"accepted_at\": \"2026-\" \"source_agent_id\" \"target_agent_id\"",
+        "page": 1,
+        "rows": 30,
+        "self_index_rows": 7,
+        "external_rows": 23
+      },
+      {
+        "query": "\"artifact_sha256\": \"sha256:\" \"recipient_agent_id\" \"status\": \"accepted\"",
+        "page": 1,
+        "rows": 9,
+        "self_index_rows": 2,
+        "external_rows": 7
+      },
+      {
+        "query": "\"handoff_digest\": \"sha256:\" \"producer_id\" \"consumer_id\"",
+        "page": 1,
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"result_sha256\": \"sha256:\" \"source_agent_id\" \"target_agent_id\"",
+        "page": 1,
+        "rows": 5,
+        "self_index_rows": 2,
+        "external_rows": 3
+      },
+      {
+        "query": "\"consumed\": true \"source_agent_id\" \"target_agent_id\" \"artifact\"",
+        "page": 1,
+        "rows": 50,
+        "self_index_rows": 1,
+        "external_rows": 49,
+        "capped": true
+      }
+    ],
+    "rotated_aggregate": {
+      "query_count": 15,
+      "row_occurrences": 219,
+      "self_index_row_occurrences": 79,
+      "external_row_occurrences": 140,
+      "distinct_external_repositories": 96,
+      "capped_queries": 1,
+      "method": "GitHub default-branch code search; rows are locators until the underlying file and context are read."
+    },
+    "selected_repository_checks": [
+      {
+        "repository": "DeconvFFT/Content-creator-optimizer",
+        "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+        "recursive_tree_paths": 1081,
+        "recursive_tree_truncated": false,
+        "selected_reason": "Only selected family with a committed file describing a real database-backed run."
+      },
+      {
+        "repository": "BrianMills2718/enforced-planning",
+        "ref": "35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33",
+        "recursive_tree_paths": 1102,
+        "recursive_tree_truncated": false,
+        "selected_reason": "Strongest session-consumption field match plus committed delivery and adoption receipts."
+      },
+      {
+        "repository": "XZMRR/loop-controller",
+        "ref": "48e0be6e5a5673ecb390bca39f69cc07c199af4c",
+        "recursive_tree_paths": 689,
+        "recursive_tree_truncated": false,
+        "selected_reason": "Source/target-agent and result-digest fields could have led to an emitted execution record."
+      },
+      {
+        "repository": "rauterfrank-ui/Peak_Trade",
+        "ref": "5d1c838c15369507c5247834db4dd0df25592169",
+        "selected_reason": "Only producer/consumer/handoff-digest match; exact search returned one source and one test path.",
+        "limitation": "The recursive-tree request returned an empty connector response, so this repository classification is limited to pinned file reads and repository-scoped exact search."
+      }
+    ]
+  },
+  "selected_original_record": {
+    "repository": "DeconvFFT/Content-creator-optimizer",
+    "ref": "bf6529217dbc5681947e84926a8ae5d05d1c3065",
+    "pinned_ref_event_at": "2026-06-05T19:14:11Z",
+    "pinned_ref_note": "The pinned head is an immutable observation anchor, not a claim that it first published the run record.",
+    "run_export": {
+      "path": "social_media_optimiser/raw/run-exports/2026-05-17-live-cockpit-walkthrough.md",
+      "git_blob_sha": "8dc30a4e4711c9c01e7dd83c619c6a4c89cd0adf",
+      "event_date_claimed": "2026-05-17",
+      "status": "blocked",
+      "finding": "The repository says live Postgres plus pgvector stored a seeded provider-free demo, one local rehearsal turn and several ledgers. It expressly marks the session dry-run, not provider-backed, and keeps provider-backed readiness blocked."
+    },
+    "public_artifact_availability": {
+      "referenced_source_artifact_count": 5,
+      "referenced_source_artifacts_present_in_complete_tree": 0,
+      "committed_summary_present": true,
+      "finding": "The summary names five local ledger files, but none of their referenced paths exists in the complete pinned tree. The public record therefore does not expose message-level sender delivery, recipient acquisition or a recipient action bound to a foreign result."
+    },
+    "designed_topology": {
+      "agent_contract_blob_sha": "beddc2885cef0c168ccca433251830c5677437fb",
+      "project_map_blob_sha": "8933f58dbd1e6c1a58ff8b2f830188bda538ec3d",
+      "conversation_router_blob_sha": "ab7a2dacfb496f90dca52937c26a0cc1e70a44f4",
+      "content_workflow_blob_sha": "eda4a20482b63e26182cfd0e8e377bbbf7220437",
+      "finding": "The repository deliberately defines a local Agent Studio, seeded demo workflow, named worker roles, human feedback gates, operator approvals and subagent contracts. Source creates sender/recipient task records by construction; source alone is not an emitted episode."
+    },
+    "identifier_scope_checks": {
+      "exact_public_run_identifier": "Three origin-repository paths: the run export, project log and project map.",
+      "exact_public_rehearsal_identifier": "One origin-repository path: the run export.",
+      "exact_rehearsal_phrase": "One origin-repository path: the run export.",
+      "note": "Raw run and session identifiers are deliberately omitted from this sanitized snapshot."
+    }
+  },
+  "bounded_negative_controls": [
+    {
+      "repository": "BrianMills2718/enforced-planning",
+      "ref": "35eb90c5b9d3c4fe69218ff1c1bb68372fd5ca33",
+      "delivery_receipt_blob_sha": "589e802ce026459c3538e3467c2dbad9fbc20d05",
+      "session_continuity_source_blob_sha": "8a530665b5a1f183ab5145fab776513c45106738",
+      "session_continuity_test_blob_sha": "d4400102ec903f6b16362b288065730fc36d8395",
+      "finding": "A real delivery receipt records one agent session verifying one governed task. The explicit cross-session runtime-consumed fields occur in implementation and synthetic tests; the dated emitted-record query found only that test outside this repository. The already registered Plan 67 mailbox remains an intentional pilot, so no separate episode is inferred."
+    },
+    {
+      "repository": "XZMRR/loop-controller",
+      "ref": "48e0be6e5a5673ecb390bca39f69cc07c199af4c",
+      "server_source_blob_sha": "dc792e07aa44ab29b5f04e15ec85475b6567821e",
+      "server_test_blob_sha": "4f14822d77ff523c119e9771efe79087c83a65d8",
+      "finding": "Source and tests define governed task/result fields. The README describes an internal governance runtime and says several real production deployment proofs remain incomplete. No committed emitted sender-to-recipient result-use record appears in the complete tree."
+    },
+    {
+      "repository": "rauterfrank-ui/Peak_Trade",
+      "ref": "5d1c838c15369507c5247834db4dd0df25592169",
+      "secure_handoff_source_blob_sha": "3324c01c7e21a9e059dc5bd2bc1997da66d1da27",
+      "secure_handoff_test_blob_sha": "0a69ac0ae34a224bc86eb62d215d31ff6eb19e85",
+      "finding": "The only exact producer/consumer/handoff-digest matches are an explicitly offline contract owner and its deterministic contract tests. No public emitted envelope or downstream use record was located in the checked scope."
+    }
+  ],
+  "dependency_assessment": {
+    "committed_actual_run_summary": true,
+    "specific_sender_result": false,
+    "distinguishable_recipient_acquisition": false,
+    "causal_recipient_use": false,
+    "independently_verified_autonomous_participants": false,
+    "independently_verified_operators": false,
+    "operator_boundary_evidence": false,
+    "provider_or_model_attribution": "The run record explicitly denies provider-backed execution for the rehearsal. Source names roles and providers but does not authenticate live participants.",
+    "current_activity_claimed": false,
+    "subjective_rogue_intent_evidence": false
+  },
+  "authorization_and_alternatives": {
+    "seeded_demo_supported": true,
+    "dry_run_rehearsal_supported": true,
+    "designed_single_project_orchestration_supported": true,
+    "human_feedback_and_operator_gates_present": true,
+    "source_or_test_match_supported_for_other_selected_families": true,
+    "shared_state_fault_not_testable_from_public_summary": true,
+    "unauthorized_cross_boundary_coordination_supported": false,
+    "observer_contamination_rows_removed_from_external_count": true
+  },
+  "scoped_prior_reporting_check": {
+    "performed": false,
+    "reason": "No original transfer-and-use chain survived the primary evidence gate. Exact run-identifier searches were used only to establish public-record locality; an episode-level novelty claim was not developed.",
+    "limitation": "This does not establish that no other public artifact or report exists."
+  },
+  "classification": {
+    "lead_id": "BV-106",
+    "label": "provider-free rehearsal and emitted-receipt control",
+    "candidate": false,
+    "rationale": "The strongest public original is a real database-backed but expressly local dry rehearsal. Its public summary does not expose the five referenced ledger files or bind a specific sender result to recipient acquisition and use. Other selected matches are a single-session delivery receipt, implementation source or deterministic tests. No independently operated participant pair or authorization crossing is established.",
+    "evidence_needed_to_advance": [
+      "A sanitized committed emitted record containing a task-bearing result from a specific autonomous sender.",
+      "A separately attributable recipient receipt and later operation demonstrably dependent on that exact result.",
+      "Independent runtime and operator provenance for both participants.",
+      "Primary evidence that the cooperation exceeded the documented demo, governance, handoff or human-approval boundary."
+    ]
+  },
+  "next_cursors": [
+    {
+      "type": "exact_query",
+      "cursor": "\"consumed\": true \"source_agent_id\" \"target_agent_id\" \"artifact\"",
+      "next_page": 2,
+      "note": "Page one reached the 50-row cap; continue only with emitted data paths, excluding source, tests, schemas, fixtures, examples and published experiments."
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"delivery_event\" \"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"consumed_at\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"recipient_action_id\" \"source_message_sha256\" \"sender_session_id\" \"recipient_session_id\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"accepted_result_sha256\" \"recipient_execution_id\" \"source_agent_id\"",
+      "next_page": 1
+    },
+    {
+      "type": "repository",
+      "cursor": "DeconvFFT/Content-creator-optimizer after bf6529217dbc5681947e84926a8ae5d05d1c3065",
+      "advance_only_if": "A deliberately public sanitized emitted ledger binds a sender result to recipient use; never access private databases, local artifacts or provider credentials."
+    }
+  ],
+  "safety": {
+    "read_only_public_records_only": true,
+    "code_tests_scripts_or_agent_runtime_executed": false,
+    "recovered_artifacts_or_payloads_executed": false,
+    "participants_contacted": false,
+    "scans_messages_reviews_reactions_or_votes_submitted": false,
+    "personal_local_paths_or_task_session_identifiers_published": false,
+    "raw_message_bodies_credentials_tokens_sink_topics_or_addresses_published": false
+  }
+}

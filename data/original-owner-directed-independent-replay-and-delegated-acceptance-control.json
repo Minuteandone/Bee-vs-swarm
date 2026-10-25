@@ -1,0 +1,208 @@
+{
+  "snapshot": "owner-directed independent replay and delegated acceptance control",
+  "observed_at": "2026-10-25T06:46:51Z",
+  "repository": "blackforestdev/datum-eda",
+  "repository_ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "collection": {
+    "exact_query_rotation": {
+      "initial_queries": 24,
+      "refresh_queries": 18,
+      "note": "The refresh completed after transient search throttling; search results were locators, not episode counts."
+    },
+    "complete_tree_screens": [
+      {
+        "repository": "razzant/ouroboros",
+        "ref": "6f3ddff05ff3e6c6f8d007ff96358df6af872e83",
+        "paths": 4963,
+        "assessment": "selected sender/reviewer/result hits were source or tests only"
+      },
+      {
+        "repository": "qwmks/Alatyr_AI",
+        "ref": "b4596c9b41ed0f38935eced95c91f9f07b382f40",
+        "paths": 846,
+        "assessment": "selected sender/reviewer/result hits were source or tests only"
+      },
+      {
+        "repository": "blackforestdev/datum-eda",
+        "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+        "paths": 8386,
+        "workflow_delivery_paths": 803,
+        "independent_review_paths": 15,
+        "handoff_paths": 23
+      }
+    ],
+    "next_page_cursors": [
+      "\"sender_session\" \"recipient_session\" \"consumed\"",
+      "\"producer_session\" \"reviewer_session\" \"result\"",
+      "\"producer_session\" \"reviewer_session\" \"accepted\""
+    ]
+  },
+  "original_record": {
+    "path": "docs/reviews/workflow-delivery-rollout/s5a/c04-native-current-proof.json",
+    "stages": [
+      {
+        "stage": "candidate handoff",
+        "commit": "2becd6443fdb5eb4cdd849b08ed77408135af900",
+        "commit_event_at": "2026-10-22T05:28:12Z",
+        "git_blob": "2c3d2b2f84f052151048afe0274468af5249eb20",
+        "content_sha256_prefix": "d01e420b",
+        "state": {
+          "C04_complete": true,
+          "C05_completed": false,
+          "C06_accepted": false
+        }
+      },
+      {
+        "stage": "reserved independent review and manager acceptance",
+        "commit": "a52093285bda2b6ebff7078e058881ea7118b5c1",
+        "commit_event_at": "2026-10-22T05:51:38Z",
+        "git_blob": "ef44ebd2ba50f3e9e2d4fe73ee7fddbe56ec0a1c",
+        "reviewer_pass_event_at": "2026-10-22T05:42:22.063Z",
+        "manager_acceptance_recorded_at": "2026-10-22T05:49:06Z",
+        "candidate_prefix": "2becd644",
+        "source_prefix": "037ec5b6",
+        "gui_sha256_prefix": "d3c151d7",
+        "review_receipt_sha256": "ca1a238e20125b90b9a42ec55202c9c41195aa3331b09c8fbcf98265f4762361",
+        "state": {
+          "C04_complete": true,
+          "C05_completed": true,
+          "C06_accepted": false
+        }
+      },
+      {
+        "stage": "owner-delegated closing acceptance",
+        "commit": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+        "commit_event_at": "2026-10-22T14:49:27Z",
+        "git_blob": "171b2803050a6023f10852a6294e3545520c4be0",
+        "owner_delegation_event_at": "2026-10-22T14:31:38.720Z",
+        "appointed_pm_acceptance_event_at": "2026-10-22T14:32:14.251Z",
+        "durable_recorded_at": "2026-10-22T14:44:45Z",
+        "consumed_candidate_prefix": "2becd644",
+        "consumed_source_prefix": "037ec5b6",
+        "consumed_gui_sha256_prefix": "d3c151d7",
+        "consumed_review_receipt_sha256": "ca1a238e20125b90b9a42ec55202c9c41195aa3331b09c8fbcf98265f4762361",
+        "landing_commit_prefix": "a5209328",
+        "successor_selected": false,
+        "state": {
+          "C04_complete": true,
+          "C05_completed": true,
+          "C06_accepted": true
+        }
+      }
+    ]
+  },
+  "reported_roles": [
+    {
+      "role": "worker",
+      "session_id": "01a15249-fb58-7023-9a10-1828067d8850"
+    },
+    {
+      "role": "reserved reviewer",
+      "session_id": "01a0e343-3d9c-70f1-899e-5bd239513383"
+    },
+    {
+      "role": "appointed manager",
+      "session_id": "01a13df1-7a0d-72c1-bbdd-f0d96d481598"
+    },
+    {
+      "role": "owner delegation / appointed PM",
+      "session_id": "01a160d9-b499-7923-984a-b3390beb2e34"
+    },
+    {
+      "role": "governance witness",
+      "session_id": "01a13e3f-8074-7943-91c1-8a0b09fc21e8"
+    }
+  ],
+  "dependency_assessment": {
+    "temporal_dependency": true,
+    "semantic_dependency": true,
+    "downstream_use": true,
+    "basis": "The reserved review binds the exact candidate/source/GUI tuple; manager acceptance records that review; the closing stage consumes the same tuple and exact receipt digest.",
+    "independently_verified_participants": false,
+    "operator_boundary_evidence": false,
+    "autonomous_identity_evidence": "Repository-authored session and role labels only.",
+    "current_activity_claimed": false
+  },
+  "authorization_and_alternatives": {
+    "explicit_owner_authorization": true,
+    "designed_team_topology": true,
+    "same_public_github_author_and_committer_for_transition_commits": true,
+    "single_operator_automation_not_excluded": true,
+    "shared_state_or_repo_authored_transcript_not_excluded": true,
+    "repeated_test_or_scanner_retry": "not the selected dependency; bounded review controls preserve retries and corrections",
+    "observer_contamination": "the public record reports internal messages and roles; no independent transport record authenticates them",
+    "subjective_rogue_intent_evidence": false
+  },
+  "bounded_controls": [
+    {
+      "path": "docs/reviews/workflow-delivery-rollout/s5a/exact30-candidate-review-return.json",
+      "git_blob": "c09d019637601e91200e2a06914d61a7257833ac",
+      "assessment": "Owner-reserved REVISE to correction to bounded PASS."
+    },
+    {
+      "path": "docs/reviews/workflow-delivery-rollout/adoption/handoff.json",
+      "git_blob": "9965920fdf305a404ff38c54826e98e0c0c3735b",
+      "assessment": "No external-session acknowledgement; producer, reviewer and acceptance ledgers remain unstarted."
+    },
+    {
+      "first_publication_commit": "2a414c69b5d83fddfd8d2c4edd3c5cf6af80cf9e",
+      "first_publication_event_at": "2026-09-09T15:56:54Z",
+      "git_blobs": {
+        "producer_inspection": "ba9cee050a2b14318bb2625cc49f23b0fc594ccb",
+        "independent_review": "6b6a39b9668b362e006b41f5a88a7b059ad0416c",
+        "independent_handoff": "9b3f71ad62c34d538a012adf3df57925b8de4d82"
+      },
+      "assessment": "Reviewer blocks activation, but the three records were first committed together, so Git history does not independently authenticate their claimed internal order."
+    }
+  ],
+  "scoped_prior_reporting_check": {
+    "as_of": "2026-10-25",
+    "queries": [
+      {
+        "scope": "exact reserved reviewer session",
+        "result": "29 GitHub hits, all in Datum EDA"
+      },
+      {
+        "scope": "exact S5A-C03-EXACT-30-DELIVERY-01 packet ID",
+        "result": "3 GitHub hits, all in Datum EDA"
+      },
+      {
+        "scope": "exact C05 status phrase",
+        "result": "0 matching GitHub records"
+      },
+      {
+        "scope": "exact C05 receipt digest",
+        "result": "0 matching GitHub records"
+      },
+      {
+        "scope": "four exact web queries",
+        "result": "unrelated Datum/EDA or general agent-review pages"
+      }
+    ],
+    "conclusion": "No prior coordination report located in the checked scope as of 25 October 2026.",
+    "limitation": "Bounded search absence does not establish novelty.",
+    "known_family_overlap_found": false
+  },
+  "classification": {
+    "lead_id": "BV-101",
+    "label": "owner-directed independent replay and delegated acceptance control",
+    "candidate": false,
+    "rationale": "A strong result-use dependency exists, but explicit owner direction, designed role topology, same-account Git publication and missing independent operator provenance defeat the rogue and cross-operator criteria.",
+    "evidence_needed_to_advance": [
+      "Public sender and recipient records independently authenticating distinct runtimes and operators.",
+      "The same content-bound downstream use outside the repository-authored transcript.",
+      "Primary evidence that cooperation exceeded the owner grant, reserved-review topology, manager authority or commit control."
+    ]
+  },
+  "safety": {
+    "read_only_public_records_only": true,
+    "code_or_archives_executed": false,
+    "participants_contacted": false,
+    "scans_or_messages_submitted": false,
+    "private_session_paths_published": false,
+    "raw_message_bodies_published": false
+  }
+}

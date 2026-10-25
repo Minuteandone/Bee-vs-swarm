@@ -11101,6 +11101,119 @@
       "ref": "bc79e30c8088a9deb47f3942aa15914a59b69799",
       "blob_sha": "d597d9933f6e0f2981b4315d0083e5737d37b34b",
       "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-datum-readme-69ed3af",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/README.md",
+      "role": "Origin governance: engineered AI collaboration, shared proposal/review/apply paths and human commit authority",
+      "published": null,
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "69ed3af9ac5b5305b57b6050d5229dd1910b99a3",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-s5a-c04-candidate-2c3d2b2",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/2becd6443fdb5eb4cdd849b08ed77408135af900/docs/reviews/workflow-delivery-rollout/s5a/c04-native-current-proof.json",
+      "role": "Candidate-stage C04 record; C05 and C06 false",
+      "published": "2026-10-22",
+      "ref": "2becd6443fdb5eb4cdd849b08ed77408135af900",
+      "blob_sha": "2c3d2b2f84f052151048afe0274468af5249eb20",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-s5a-c05-ef44ebd",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/a52093285bda2b6ebff7078e058881ea7118b5c1/docs/reviews/workflow-delivery-rollout/s5a/c04-native-current-proof.json",
+      "role": "Same record after reserved-review PASS and manager acceptance; C05 true, C06 false",
+      "published": "2026-10-22",
+      "ref": "a52093285bda2b6ebff7078e058881ea7118b5c1",
+      "blob_sha": "ef44ebd2ba50f3e9e2d4fe73ee7fddbe56ec0a1c",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-s5a-c06-171b280",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/docs/reviews/workflow-delivery-rollout/s5a/c04-native-current-proof.json",
+      "role": "Same record after explicit owner delegation and appointed-PM C06 closure",
+      "published": "2026-10-22",
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "171b2803050a6023f10852a6294e3545520c4be0",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-s5a-candidate-commit-2becd64",
+      "url": "https://github.com/blackforestdev/datum-eda/commit/2becd6443fdb5eb4cdd849b08ed77408135af900",
+      "role": "Candidate handoff commit event at 2026-10-22T05:28:12Z",
+      "published": "2026-10-22",
+      "ref": "2becd6443fdb5eb4cdd849b08ed77408135af900",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-s5a-c05-landing-commit-a520932",
+      "url": "https://github.com/blackforestdev/datum-eda/commit/a52093285bda2b6ebff7078e058881ea7118b5c1",
+      "role": "C05 landing commit event at 2026-10-22T05:51:38Z",
+      "published": "2026-10-22",
+      "ref": "a52093285bda2b6ebff7078e058881ea7118b5c1",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-s5a-c06-closure-commit-09683bc",
+      "url": "https://github.com/blackforestdev/datum-eda/commit/09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "role": "Owner-delegated C06 closure commit event at 2026-10-22T14:49:27Z",
+      "published": "2026-10-22",
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-exact30-return-c09d019",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/docs/reviews/workflow-delivery-rollout/s5a/exact30-candidate-review-return.json",
+      "role": "Owner-reserved review control preserving REVISE, correction and bounded PASS",
+      "published": null,
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "c09d019637601e91200e2a06914d61a7257833ac",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-adoption-handoff-9965920",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/docs/reviews/workflow-delivery-rollout/adoption/handoff.json",
+      "role": "Prepared handoff reporting no external-session acknowledgement or product acceptance",
+      "published": null,
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "9965920fdf305a404ff38c54826e98e0c0c3735b",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-final-producer-ba9cee0",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/docs/reviews/workflow-delivery-rollout/infrastructure/final-publication/producer-inspection.json",
+      "role": "Final-publication producer inspection; activation and publication authority false",
+      "published": "2026-09-09",
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "ba9cee050a2b14318bb2625cc49f23b0fc594ccb",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-final-review-6b6a39b",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/docs/reviews/workflow-delivery-rollout/infrastructure/final-publication/independent-review.md",
+      "role": "Independent review blocks activation and requires renewed exact owner approval",
+      "published": "2026-09-09",
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "6b6a39b9668b362e006b41f5a88a7b059ad0416c",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-final-handoff-9b3f71a",
+      "url": "https://github.com/blackforestdev/datum-eda/blob/09683bcfbbf0500b25a27c227c0c12d27ec4622f/docs/reviews/workflow-delivery-rollout/infrastructure/final-publication/independent-handoff.json",
+      "role": "Independent handoff with activation asserted and recommended false",
+      "published": "2026-09-09",
+      "ref": "09683bcfbbf0500b25a27c227c0c12d27ec4622f",
+      "blob_sha": "9b3f71ad62c34d538a012adf3df57925b8de4d82",
+      "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-datum-final-publication-commit-2a414c6",
+      "url": "https://github.com/blackforestdev/datum-eda/commit/2a414c69b5d83fddfd8d2c4edd3c5cf6af80cf9e",
+      "role": "Single first-publication commit for producer inspection, independent review and handoff; internal order not independently timestamped by Git",
+      "published": "2026-09-09",
+      "ref": "2a414c69b5d83fddfd8d2c4edd3c5cf6af80cf9e",
+      "observed_at": "2026-10-25T06:46:51Z"
     }
   ]
 }

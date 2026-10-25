@@ -1,0 +1,329 @@
+{
+  "snapshot": "human-authorized RPA recovery and root-step handoff controls",
+  "observed_at": "2026-10-25T18:38:49Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "6f973f4cb33b3f9744eb981d48b1c2b9058db5d7",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level cue separates the paused scanner remainder from known controls; the pass resumed the four saved emitted-record cursors."
+  },
+  "collection": {
+    "saved_cursor_results": [
+      {
+        "query": "\"parent_run_id\" \"child_run_id\" \"result_sha256\" \"consumed_at\"",
+        "rows": 4,
+        "self_index_rows": 3,
+        "external_rows": 1,
+        "result": "The external row is PRA runtime schema source."
+      },
+      {
+        "query": "\"parent_run_id\" \"child_run_id\" \"artifact_sha256\" \"recipient_action\"",
+        "rows": 4,
+        "self_index_rows": 4,
+        "external_rows": 0
+      },
+      {
+        "query": "\"review_finding_id\" \"applied_in_commit\" \"reviewer_agent_id\" \"implementer_agent_id\"",
+        "rows": 2,
+        "self_index_rows": 2,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_commit_sha\" \"recipient_commit_sha\" \"handoff_id\" \"accepted\"",
+        "rows": 2,
+        "self_index_rows": 2,
+        "external_rows": 0
+      }
+    ],
+    "rotated_queries": [
+      {
+        "query": "\"source_result_id\" \"result_sha256\" \"accepted_at\" \"ack_state\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1
+      },
+      {
+        "query": "\"source_execution_attempt_id\" \"result_sha256\" \"RECONCILE\"",
+        "rows": 6,
+        "self_index_rows": 0,
+        "external_rows": 6
+      },
+      {
+        "query": "\"receipt_and_ack_binding_valid\" \"two_stage_contract_binding_valid\"",
+        "rows": 5,
+        "self_index_rows": 0,
+        "external_rows": 5
+      },
+      {
+        "query": "\"parent_run_id\" \"child_run_id\" \"result_sha256\"",
+        "rows": 37,
+        "self_index_rows": 4,
+        "external_rows": 33,
+        "external_repositories": 13
+      },
+      {
+        "query": "\"review_finding_id\" \"applied_in_commit\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_commit_sha\" \"recipient_commit_sha\"",
+        "rows": 3,
+        "self_index_rows": 3,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_result_id\" \"reconciliation_pending\" \"requires_manual_review\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"handoff.recorded\" \"full_output_artifact\" \"consumer_attempt\"",
+        "rows": 20,
+        "self_index_rows": 0,
+        "external_rows": 20
+      },
+      {
+        "query": "\"handoff_envelope\" \"consumer_attempt\" \"result_sha256\"",
+        "rows": 14,
+        "self_index_rows": 0,
+        "external_rows": 14
+      },
+      {
+        "query": "\"source_result_id\" \"source_execution_attempt_id\" \"accepted_at\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1
+      },
+      {
+        "query": "\"child_result_sha256\" \"parent_result_sha256\" \"accepted_at\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1,
+        "result": "Known Project-AI-Ceta control already classified as BV-102; not reopened."
+      },
+      {
+        "query": "\"artifact_refs\" \"full_output_ref\" \"consumer_attempt\"",
+        "rows": 18,
+        "self_index_rows": 0,
+        "external_rows": 18
+      }
+    ],
+    "aggregate": {
+      "exact_queries": 16,
+      "row_occurrences": 118,
+      "self_index_row_occurrences": 18,
+      "external_row_occurrences": 100,
+      "distinct_external_repositories": 14,
+      "method": "GitHub default-branch code search. Search rows were treated only as locators; selected original files, complete pinned trees, commit history and public issue history were read before classification."
+    },
+    "selected_repositories": [
+      {
+        "repository": "etereath/PRA-project",
+        "ref": "aaa93497ea2862fc80d303be2aeafc65227d943b",
+        "ref_event_at": "2026-10-03T06:52:05Z",
+        "recursive_tree_paths": 811,
+        "recursive_tree_truncated": false,
+        "selected_reason": "Only saved-cursor external hit; its complete tree contains sanitized real-machine request/result/receipt evidence."
+      },
+      {
+        "repository": "haoxiang-xu/PuPu",
+        "ref": "8b4097c4878e3d0f7797f6d882e0cca3563ca8f0",
+        "ref_event_at": "2026-10-22T17:10:45Z",
+        "recursive_tree_paths": 3621,
+        "recursive_tree_truncated": false,
+        "selected_reason": "Lower-arity parent/child query exposes committed run-shaped handoff records with a direct project statement distinguishing graph-step recovery from live sub-agent execution."
+      }
+    ]
+  },
+  "pra_original_chain": {
+    "project_context": {
+      "repository": "etereath/PRA-project",
+      "pinned_ref": "aaa93497ea2862fc80d303be2aeafc65227d943b",
+      "agents_blob_sha": "6ffe9a315e0f318bafdf0b5a4566a69d068ad96b",
+      "owner_boundary_blob_sha": "0f62dff49afb4986430d08aa2a4f8ad6792e82fe",
+      "finding": "The root instructions and owner boundary describe an internal family-farm automation system. The current controller is a human manager; an AI sales agent is future scope and must use the same validation and authorization interfaces."
+    },
+    "first_publication": {
+      "commit": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "event_at": "2026-07-27T10:54:00Z",
+      "tree_sha": "950e95d857a1babdf80eb4c022a0f79781c39906",
+      "commit_message": "Complete task13 listing lifecycle handoff"
+    },
+    "public_record_links": {
+      "acceptance_report": "https://github.com/etereath/PRA-project/blob/9923dd98bc0ba9ee1f6473b1181eec7820c5461b/docs/reports/task13_unknown_reconcile_acceptance_20260727.md",
+      "sanitized_evidence_index": "https://github.com/etereath/PRA-project/blob/9923dd98bc0ba9ee1f6473b1181eec7820c5461b/docs/evidence/task13/index.md",
+      "publication_commit": "https://github.com/etereath/PRA-project/commit/9923dd98bc0ba9ee1f6473b1181eec7820c5461b"
+    },
+    "selected_raw_record_git_blobs": {
+      "initial_result": "db481018d7fa48ae22e4e382b0a2fe64e28d5ef9",
+      "initial_receipt": "273c1fdf5dd22839d65b67fc5cbafcfd9b9e2d51",
+      "followup_request": "d03cbeaa62c2920b26560a7bd8ef5ce1829dc1e7",
+      "followup_result": "00ebbf2e84478dfa204b9641894ac4e5b3f281d6",
+      "followup_receipt": "04e1d30672f2717ccce34c623209914eb4edae5a",
+      "validation_report": "081f3b6b5fe858722a7b241b07c395af64cd8609"
+    },
+    "event_sequence": [
+      {
+        "event_at": "2026-07-26T21:06:02.290162Z",
+        "event": "A human-confirmed write request is created for one item in commit mode."
+      },
+      {
+        "event_at": "2026-07-26T21:06:05Z",
+        "event": "The worker begins the write attempt."
+      },
+      {
+        "event_at": "2026-07-26T21:06:28Z",
+        "event": "The worker returns UNKNOWN after the controlled post-confirmation readback interruption; reconciliation is pending and manual review is initially required."
+      },
+      {
+        "event_at": "2026-07-26T21:06:31.427476Z",
+        "event": "The importer accepts the result receipt."
+      },
+      {
+        "event_at": "2026-07-26T21:06:31.499643Z",
+        "event": "The importer creates a single read-only reconciliation request bound to the source result."
+      },
+      {
+        "event_at": "2026-07-26T21:06:34Z",
+        "event": "The reconciliation worker starts."
+      },
+      {
+        "event_at": "2026-07-26T21:07:45Z",
+        "event": "Read-only reconciliation returns VERIFIED, clears reconciliation pending and closes manual review without another write click."
+      },
+      {
+        "event_at": "2026-07-26T21:07:47.840055Z",
+        "event": "The importer accepts the reconciliation receipt."
+      },
+      {
+        "event_at": "2026-07-26T21:25:42.272264Z",
+        "event": "The committed validator records all binding, count, database-ledger, review-closure, single-reconcile and write-lock checks true."
+      }
+    ],
+    "implementation_context": {
+      "queue_source_blob_sha": "b7ce42720f3ff18a98b7e96ef48437c0d7b57409",
+      "pipeline_source_blob_sha": "bdfd824a3644d36dad5a66a4f6cf98a7993d9a2b",
+      "finding": "Source imports an immutable result, and only when an item reports a needs-reconciliation state does it ensure one follow-up reconciliation attempt. The acceptance report says that follow-up is read-only and deliberately fault-injected."
+    },
+    "dependency_assessment": {
+      "specific_source_result": true,
+      "distinguishable_followup_process": true,
+      "source_result_bound_into_followup": true,
+      "causal_downstream_use": true,
+      "independent_receipts": true,
+      "real_machine_evidence": true,
+      "autonomous_ai_sender": false,
+      "autonomous_ai_recipient": false,
+      "independently_verified_operator_boundary": false,
+      "authorization_crossing": false,
+      "subjective_rogue_intent_evidence": false,
+      "provider_or_model_attribution": "None. ShadowBot here is a bounded RPA worker; the canonical project documents the current controller as human and AI sales control as future scope.",
+      "current_activity_claimed": false
+    }
+  },
+  "pupu_control": {
+    "repository": "haoxiang-xu/PuPu",
+    "evidence_publication_commit": "afbe040740dfe38b48f4e934c997ef67fbfba841",
+    "event_at": "2026-09-12T02:04:43Z",
+    "tree_sha": "ccc7fdbf272c39dc0c28bfc146b648c8cf4da148",
+    "public_issue": {
+      "url": "https://github.com/haoxiang-xu/PuPu/issues/224",
+      "created_at": "2026-08-23T02:52:42Z",
+      "closed_at": "2026-09-12T02:17:52Z",
+      "finding": "The issue publicly describes the producer-to-renderer boundary, real local-model reproduction, planned root/child recovery checks and maintainer authorization. It is prior reporting, not an original discovery."
+    },
+    "selected_blobs": {
+      "verification_summary": "399ee4dbd0e173f5aa06a1e0dbd1ef43ab4be920",
+      "final_verification": "fec0a56263778b5617afba2851007c003f8f5725",
+      "run_shaped_snapshot": "983542d020b8c116dcf56f3c302361419ecfb4e9",
+      "single_model_probe": "4f9781be9c942da27fa988ddbb94b76ea01c050a",
+      "orchestration_documentation": "bda959dc0a30b823a7ea0829439d22003f7b99a8"
+    },
+    "finding": "The selected snapshot contains two content-addressed handoff events with parent/child run fields and full-output envelopes. However, the project's verification report explicitly states that the shipped default graph had no sub-agent node or toolkit, so a delegated live question was unreachable; generic kernel sub-agent records were regression tests. The accompanying real-model probe contains one local model run, no parent/child run and no agent identity. These are root graph-step and human-input recovery records, not two autonomous AI participants.",
+    "prior_reporting": "The public issue predates and describes the controlled verification. Even absent that report, the original records fail the independent-participant gate."
+  },
+  "alternatives": {
+    "designed_automation": "Decisive for both families. PRA deliberately creates one read-only recovery after an UNKNOWN result; PuPu deliberately tests human-input resume and renderer recovery.",
+    "single_operator_or_owner": "Both projects retain explicit human or maintainer control. Public process/run labels do not establish independently operated agents.",
+    "repeated_tests": "PuPu's kernel sub-agent matches are explicitly regression evidence. PRA's selected package is a real-machine controlled fault test, not uncontrolled behavior.",
+    "shared_state_fault": "PuPu investigates recovery-state defects inside one product. PRA validates the intended recovery path rather than a cross-operator coordination event.",
+    "observer_contamination": "Eighteen self-index rows were separated. The Project-AI-Ceta row is a registered BV-102 control and was not reopened."
+  },
+  "prior_reporting_check": {
+    "checked_as_of": "2026-10-25",
+    "web_queries": [
+      "\"etereath/PRA-project\" \"UNKNOWN\" \"RECONCILE\"",
+      "\"PRA-project\" ShadowBot automatic reconcile",
+      "\"haoxiang-xu/PuPu\" ticket 224 handoff recorded",
+      "\"ticket-224\" \"handoff.recorded\" \"consumer_attempt\""
+    ],
+    "stronger_queries": [
+      "\"etereath/PRA-project\" ShadowBot RECONCILE",
+      "exact PRA acceptance-report title",
+      "\"haoxiang-xu/PuPu\" \"ticket-224\" handoff",
+      "exact PuPu run-snapshot filename"
+    ],
+    "github_code_queries": [
+      "exact PRA acceptance-report title",
+      "\"single_read_only_reconcile_valid\" \"review_closed_by_reconcile_valid\"",
+      "\"No subagent node or subagent toolkit is configured\"",
+      "\"generic kernel subagent tests are regression evidence\""
+    ],
+    "result": "No prior coordination report was located for the PRA process chain in the exact checked scope as of 2026-10-25; exact phrases resolve only to the origin repository. PuPu issue 224 is itself a prior public report and implementation brief. Search absence does not establish global novelty, and neither family qualifies as autonomous cross-operator AI coordination."
+  },
+  "classification": {
+    "lead_id": "BV-108",
+    "result": "human-authorized RPA recovery and root-step handoff controls",
+    "candidate": false,
+    "reason": "PRA preserves a real content-specific process handoff with downstream use, but neither process is established as an AI agent and the human-controlled system intentionally creates the recovery. PuPu preserves content-addressed parent/child handoff records, but the project explicitly says no live sub-agent was configured in those runs and the episode was already publicly reported."
+  },
+  "missing_evidence_to_advance": [
+    "For PRA: primary evidence that both sender and recipient were autonomous AI participants rather than a bounded RPA worker and importer/recovery process.",
+    "For either family: independent runtime and operator provenance for distinguishable AI participants.",
+    "A recipient action outside the documented recovery/test topology and human or maintainer authorization.",
+    "Primary owner, operator or policy evidence that the cooperation itself crossed an authorization boundary."
+  ],
+  "next_cursors": [
+    {
+      "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" \"consumed_at\"",
+      "page": 1,
+      "rationale": "Requires two run identities plus content-addressed use."
+    },
+    {
+      "query": "\"handoff_envelope\" \"consumer_attempt\" \"agent_id\" \"occurred_at\"",
+      "page": 1,
+      "rationale": "Adds attributable agent and event-time fields missing from the PuPu control."
+    },
+    {
+      "query": "\"source_result_sha256\" \"recipient_result_sha256\" \"accepted_at\"",
+      "page": 1,
+      "rationale": "Looks for separately hashed source and recipient results."
+    },
+    {
+      "query": "\"sender_provider\" \"recipient_provider\" \"source_message_sha256\" \"consumed_at\"",
+      "page": 1,
+      "rationale": "Looks for provider-attributed message transfer and causal use."
+    }
+  ],
+  "safeguards": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_installed": false,
+    "agent_runtime_invoked": false,
+    "participants_contacted": false,
+    "messages_or_votes_posted": false,
+    "scans_submitted": false,
+    "target_systems_probed": false,
+    "sensitive_material_published": false,
+    "sanitization": "Original public report, index, issue and commit links plus event/observation timestamps and Git hashes are retained. Product identities, raw run/task/session identifiers, payload bodies, local paths, addresses, credentials, tokens and private logs are omitted."
+  }
+}

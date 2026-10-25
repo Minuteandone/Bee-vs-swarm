@@ -11813,6 +11813,148 @@
       "ref": "10e011a7e8bce1819fed462b6627fbd91706405d",
       "tree_sha": "b9ff1b3d14715e14c92f4061154c06bb9d558de9",
       "observed_at": "2026-10-25T18:14:29Z"
+    },
+    {
+      "id": "original-pra-root-instructions-6ffe9a3",
+      "url": "https://github.com/etereath/PRA-project/blob/aaa93497ea2862fc80d303be2aeafc65227d943b/AGENTS.md",
+      "role": "Canonical project instructions stating that the current controller is human and future agents remain behind existing validation and authorization interfaces",
+      "ref": "aaa93497ea2862fc80d303be2aeafc65227d943b",
+      "blob_sha": "6ffe9a315e0f318bafdf0b5a4566a69d068ad96b",
+      "ref_date": "2026-10-03T06:52:05Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-owner-boundary-0f62dff",
+      "url": "https://github.com/etereath/PRA-project/blob/aaa93497ea2862fc80d303be2aeafc65227d943b/docs/owner_product_boundary.md",
+      "role": "Owner product boundary for the internal family-farm system and human sales-controller scope",
+      "ref": "aaa93497ea2862fc80d303be2aeafc65227d943b",
+      "blob_sha": "0f62dff49afb4986430d08aa2a4f8ad6792e82fe",
+      "ref_date": "2026-10-03T06:52:05Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-recovery-publication-9923dd9",
+      "url": "https://github.com/etereath/PRA-project/commit/9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "role": "First public commit containing the selected real-machine recovery evidence and acceptance report",
+      "published": "2026-07-27",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "tree_sha": "950e95d857a1babdf80eb4c022a0f79781c39906",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-recovery-acceptance-54addc1",
+      "url": "https://github.com/etereath/PRA-project/blob/9923dd98bc0ba9ee1f6473b1181eec7820c5461b/docs/reports/task13_unknown_reconcile_acceptance_20260727.md",
+      "role": "Human-authored acceptance report describing controlled fault injection, exactly one read-only recovery and final verified state",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "blob_sha": "54addc118501dc751549ba27188cd5f84fabc217",
+      "ref_date": "2026-07-27T10:54:00Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-sanitized-evidence-index-fe0ea78",
+      "url": "https://github.com/etereath/PRA-project/blob/9923dd98bc0ba9ee1f6473b1181eec7820c5461b/docs/evidence/task13/index.md",
+      "role": "Sanitized real-machine evidence index for write, recovery, zero-write and receipt-binding cases",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "blob_sha": "fe0ea7877037f160a13455d593a7720defe38e2c",
+      "ref_date": "2026-07-27T10:54:00Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-initial-result-db48101",
+      "url": "https://api.github.com/repos/etereath/PRA-project/git/blobs/db481018d7fa48ae22e4e382b0a2fe64e28d5ef9",
+      "role": "Sanitized initial result blob returning an unknown state and requiring follow-up recovery; product and run identifiers are not reproduced here",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "blob_sha": "db481018d7fa48ae22e4e382b0a2fe64e28d5ef9",
+      "ref_date": "2026-07-27T10:54:00Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-recovery-request-d03cbea",
+      "url": "https://api.github.com/repos/etereath/PRA-project/git/blobs/d03cbeaa62c2920b26560a7bd8ef5ce1829dc1e7",
+      "role": "Sanitized read-only recovery request bound to the source result; identifiers and payload are omitted from publication",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "blob_sha": "d03cbeaa62c2920b26560a7bd8ef5ce1829dc1e7",
+      "ref_date": "2026-07-27T10:54:00Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-recovery-result-00ebbf2",
+      "url": "https://api.github.com/repos/etereath/PRA-project/git/blobs/00ebbf2e84478dfa204b9641894ac4e5b3f281d6",
+      "role": "Sanitized read-only recovery result returning verified state without a new write action",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "blob_sha": "00ebbf2e84478dfa204b9641894ac4e5b3f281d6",
+      "ref_date": "2026-07-27T10:54:00Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-recovery-validation-081f3b6",
+      "url": "https://api.github.com/repos/etereath/PRA-project/git/blobs/081f3b6b5fe858722a7b241b07c395af64cd8609",
+      "role": "Committed validator output confirming two-stage binding, receipts, single recovery, final ledger, review closure and lock release",
+      "ref": "9923dd98bc0ba9ee1f6473b1181eec7820c5461b",
+      "blob_sha": "081f3b6b5fe858722a7b241b07c395af64cd8609",
+      "ref_date": "2026-07-27T10:54:00Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pra-queue-source-b7ce427",
+      "url": "https://github.com/etereath/PRA-project/blob/aaa93497ea2862fc80d303be2aeafc65227d943b/app/services/shadowbot_queue.py",
+      "role": "Queue/importer source showing that a needs-reconciliation result creates the designed follow-up attempt",
+      "ref": "aaa93497ea2862fc80d303be2aeafc65227d943b",
+      "blob_sha": "b7ce42720f3ff18a98b7e96ef48437c0d7b57409",
+      "ref_date": "2026-10-03T06:52:05Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pupu-issue-224",
+      "url": "https://github.com/haoxiang-xu/PuPu/issues/224",
+      "role": "Prior public issue describing the local-model question defect, cross-process producer/consumer boundary, verification plan and maintainer authorization",
+      "published": "2026-08-23",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pupu-verification-publication-afbe040",
+      "url": "https://github.com/haoxiang-xu/PuPu/commit/afbe040740dfe38b48f4e934c997ef67fbfba841",
+      "role": "First publication of final recovery verification and selected run-shaped evidence",
+      "published": "2026-09-12",
+      "ref": "afbe040740dfe38b48f4e934c997ef67fbfba841",
+      "tree_sha": "ccc7fdbf272c39dc0c28bfc146b648c8cf4da148",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pupu-verification-summary-399ee4d",
+      "url": "https://github.com/haoxiang-xu/PuPu/blob/afbe040740dfe38b48f4e934c997ef67fbfba841/docs/implementation/ticket-224-evidence/verification-2026-09-11/README.md",
+      "role": "Verification summary stating that no live sub-agent node/toolkit was configured and generic sub-agent records are regression evidence",
+      "ref": "afbe040740dfe38b48f4e934c997ef67fbfba841",
+      "blob_sha": "399ee4dbd0e173f5aa06a1e0dbd1ef43ab4be920",
+      "ref_date": "2026-09-12T02:04:43Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pupu-final-verification-fec0a56",
+      "url": "https://github.com/haoxiang-xu/PuPu/blob/afbe040740dfe38b48f4e934c997ef67fbfba841/docs/implementation/ticket-224-evidence/verification-2026-09-11/final3.md",
+      "role": "Final controlled recovery verification and maintainer-authorized delivery record",
+      "ref": "afbe040740dfe38b48f4e934c997ef67fbfba841",
+      "blob_sha": "fec0a56263778b5617afba2851007c003f8f5725",
+      "ref_date": "2026-09-12T02:04:43Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pupu-run-snapshot-983542d",
+      "url": "https://api.github.com/repos/haoxiang-xu/PuPu/git/blobs/983542d020b8c116dcf56f3c302361419ecfb4e9",
+      "role": "Committed run-shaped snapshot containing graph-step handoff envelopes; payload and run/session identifiers are not reproduced",
+      "ref": "afbe040740dfe38b48f4e934c997ef67fbfba841",
+      "blob_sha": "983542d020b8c116dcf56f3c302361419ecfb4e9",
+      "ref_date": "2026-09-12T02:04:43Z",
+      "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-pupu-single-model-probe-4f9781b",
+      "url": "https://api.github.com/repos/haoxiang-xu/PuPu/git/blobs/4f9781be9c942da27fa988ddbb94b76ea01c050a",
+      "role": "Real local-model probe with one model run, human-input events and no parent/child or agent identity",
+      "ref": "afbe040740dfe38b48f4e934c997ef67fbfba841",
+      "blob_sha": "4f9781be9c942da27fa988ddbb94b76ea01c050a",
+      "ref_date": "2026-09-12T02:04:43Z",
+      "observed_at": "2026-10-25T18:38:49Z"
     }
   ]
 }

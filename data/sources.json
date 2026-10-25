@@ -11214,6 +11214,60 @@
       "published": "2026-09-09",
       "ref": "2a414c69b5d83fddfd8d2c4edd3c5cf6af80cf9e",
       "observed_at": "2026-10-25T06:46:51Z"
+    },
+    {
+      "id": "original-ceta-checkpoint-commit-c7bcf2b",
+      "url": "https://github.com/IAmSoThirsty/Project-AI-Ceta/commit/c7bcf2bfc0b6e6085d39967d4559a97c705411ec",
+      "role": "Owner-published development checkpoint containing the two-producer joined diagnostics evidence",
+      "published": "2026-10-20",
+      "ref": "c7bcf2bfc0b6e6085d39967d4559a97c705411ec",
+      "tree_sha": "dc28912174a1e78fc149dd6b79a3397733b57569",
+      "observed_at": "2026-10-25T08:04:07Z"
+    },
+    {
+      "id": "original-ceta-transport-manifest-4e88462",
+      "url": "https://github.com/IAmSoThirsty/Project-AI-Ceta/blob/3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028/handoff/development-checkpoints/20261020-0007/EVIDENCE-TRANSPORT.json",
+      "role": "Public manifest of 387 content-addressed producer, integration, review, live-result and prior-checkpoint artifacts; raw archive not opened",
+      "published": "2026-10-20",
+      "ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "blob_sha": "4e88462784fe4c0657de801fe877cc850f047151",
+      "observed_at": "2026-10-25T08:04:07Z"
+    },
+    {
+      "id": "original-ceta-development-checkpoint-e72683f",
+      "url": "https://github.com/IAmSoThirsty/Project-AI-Ceta/blob/3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028/DEVELOPMENT-CHECKPOINT.json",
+      "role": "Checkpoint status binding joined checks, adverse review, live diagnostics, acceptance limits and exact product deltas",
+      "published": "2026-10-20",
+      "ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "blob_sha": "e72683f0c88ff353efb0cfe0e03519de5745682c",
+      "observed_at": "2026-10-25T08:04:07Z"
+    },
+    {
+      "id": "original-ceta-root-publication-signal-49e280a",
+      "url": "https://github.com/IAmSoThirsty/Project-AI-Ceta/blob/3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028/handoff/development-checkpoints/20261020-0007/ROOT-PUBLICATION-SIGNAL.json",
+      "role": "Root publication signal for 559 canonical payloads across 66 paths with destination runtime tests pending",
+      "published": "2026-10-20",
+      "ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "blob_sha": "49e280af3575a2f1dd96d0b555648e9396fadcde",
+      "observed_at": "2026-10-25T08:04:07Z"
+    },
+    {
+      "id": "original-ceta-owner-authority-7bb531c",
+      "url": "https://github.com/IAmSoThirsty/Project-AI-Ceta/blob/3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028/AGENTS.md",
+      "role": "Owner authority and mandatory collaborative-review contract; decisive designed-workflow control",
+      "published": "2026-10-21",
+      "ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "blob_sha": "7bb531c6e4a6c9f8c0bf331c0e48f3b524805ec1",
+      "observed_at": "2026-10-25T08:04:07Z"
+    },
+    {
+      "id": "original-ceta-main-merge-3f9af35",
+      "url": "https://github.com/IAmSoThirsty/Project-AI-Ceta/commit/3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "role": "Owner-authored main merge summary naming the two Sol producers, Astra review and live-result use; exact checkpoint tree",
+      "published": "2026-10-21",
+      "ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "tree_sha": "dc28912174a1e78fc149dd6b79a3397733b57569",
+      "observed_at": "2026-10-25T08:04:07Z"
     }
   ]
 }

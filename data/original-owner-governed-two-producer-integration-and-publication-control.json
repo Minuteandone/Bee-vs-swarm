@@ -1,0 +1,265 @@
+{
+  "snapshot": "owner-governed two-producer integration and publication control",
+  "observed_at": "2026-10-25T08:04:07Z",
+  "repository": "IAmSoThirsty/Project-AI-Ceta",
+  "repository_ref": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level participant, transfer/use, provenance or authorization cue separates the paused scanner remainder from known families."
+  },
+  "collection": {
+    "broad_cursor_rotation": [
+      {
+        "query": "\"sender_session\" \"recipient_session\" \"consumed\"",
+        "pages_reviewed": [
+          1,
+          2
+        ],
+        "result": "Indexed results were exhausted in the checked two-page scope; they were predominantly source/schema records. Project-AI-Ceta was retained for original-record inspection."
+      },
+      {
+        "query": "\"producer_session\" \"reviewer_session\" \"result\"",
+        "pages_reviewed": [
+          1,
+          2
+        ],
+        "result": "Indexed results were exhausted in the checked two-page scope; selected run-shaped hits resolved to designed workflows or source/schema records."
+      },
+      {
+        "query": "\"producer_session\" \"reviewer_session\" \"accepted\"",
+        "pages_reviewed": [
+          1,
+          2
+        ],
+        "result": "Indexed results were exhausted in the checked two-page scope; selected run-shaped hits resolved to designed workflows or source/schema records."
+      }
+    ],
+    "trail_refresh": [
+      {
+        "repository": "tangosdev/sm64ds-decomp",
+        "previous_ref": "5ef06674d8ba69f4b85537842f286bca7350e5ed",
+        "observed_ref": "c7adaa770e1f5abf7fbe8697b810ba39c3ebbbd3",
+        "result": "The repository advanced by 56 commits, but notes/experiments/fbase-init-native1014.json retained Git blob 1af149c460e2c249fba1f726555262ed25e85d30; no recipient acceptance or root serialization appeared."
+      },
+      {
+        "repository": "Reggie-sun/AI-VIDEO",
+        "observed_ref": "2d17c49e0f22ce2ffb44a713b25c81ef7a546aa6",
+        "result": "Default-branch cursor unchanged."
+      },
+      {
+        "repository": "janwohlers78/mardorf-data-collector",
+        "observed_ref": "f53eab03211ebe5bd361a11902ac6ed609a0bfdd",
+        "result": "Default-branch cursor unchanged; the missing public consumer remains unresolved."
+      }
+    ]
+  },
+  "original_record": {
+    "checkpoint_commit": {
+      "commit": "c7bcf2bfc0b6e6085d39967d4559a97c705411ec",
+      "event_at": "2026-10-20T22:27:07Z",
+      "tree": "dc28912174a1e78fc149dd6b79a3397733b57569",
+      "parent": "3ab94d8c11e3169eee85c9fbb3f53fd7c234871a",
+      "public_author_and_committer_account": "IAmSoThirsty",
+      "message_scope": "Accepted owned-service diagnostics and operator integration as development preservation; full-product acceptance remained open."
+    },
+    "merge_commit": {
+      "commit": "3f9af35c549fdb6c0a7f3eb4f22de1d339dc6028",
+      "event_at": "2026-10-21T01:07:46Z",
+      "tree": "dc28912174a1e78fc149dd6b79a3397733b57569",
+      "parents": [
+        "039eb7180fd98b8c4de0d1df9a01e6297cc9ab05",
+        "c7bcf2bfc0b6e6085d39967d4559a97c705411ec"
+      ],
+      "public_author_account": "IAmSoThirsty",
+      "github_merge_signature_verified": true,
+      "assessment": "The merge publishes the exact checkpoint tree without adding a distinct participant-controlled artifact."
+    },
+    "transport_manifest": {
+      "path": "handoff/development-checkpoints/20261020-0007/EVIDENCE-TRANSPORT.json",
+      "git_blob": "4e88462784fe4c0657de801fe877cc850f047151",
+      "archive_git_blob": "5c48267d9929d89c8a636970230f79cf0dbb0442",
+      "archive_sha256": "1bd03bab640ffde1338c5262453f7aa8ff4b05b6d716a654a2a4dadabcebf81a",
+      "members": 387,
+      "member_groups": {
+        "sol-owned-diagnostics-r1": 98,
+        "sol-operator-diagnostics-r1": 83,
+        "operator-diagnostics-integration-r1": 100,
+        "checkpoint-0006": 106
+      },
+      "limitation": "The public manifest supplies member paths, hashes and sizes. The 11.3 MB raw archive was not opened or executed, so its internal role claims are not independently authenticated here."
+    },
+    "producer_lanes": [
+      {
+        "lane": "sol-owned-diagnostics-r1",
+        "source_handoff_sha256": "6a7a83bdefdb83cd2609633e1099a76a174af4ef09df6d13d17007f46808fb21",
+        "review_result_sha256": "efc1424ad35a6536466f8ae6112e94520e4e516f69257e626b439e35b744626c",
+        "review_record_sha256": "3b430b65b201e13ad1727e0e3b6c1189f3d74bb630a1e16f29674270d7b51421"
+      },
+      {
+        "lane": "sol-operator-diagnostics-r1",
+        "source_handoff_sha256": "5d6437062bc33a46f21cc51afa52f92e78abffc7a7cb05065a6416033e73b86e",
+        "review_record_sha256": "bcca0f66b99a6578f142a39330feffa956c5b8f641ca1c56118037b87b7f4737"
+      }
+    ],
+    "integration_lane": {
+      "lane": "operator-diagnostics-integration-r1",
+      "join_sha256": "ec57a5693d38e190d3a01ff9206d153bc8d718733d026e9e469d4a2cb6fd55cf",
+      "joined_tests_r2_result_sha256": "9d5c44aa19b32602f195b24e4e26930b5c54275a4be1838475ee318749eb571b",
+      "review_record_sha256": "bb3abef16ba4c3eea146d78b8a321e53bdf2395ae6157e6796006c8864a9ca35",
+      "provenance_review_sha256": "94cb8ae0a798e14f1a852cae4802ed398932ae454bc4300253cc8893aadbe71d",
+      "live_cli_result_sha256": "97ed48257c934c59266c4c9063a25b0fe4f5db8124bd56eeade84dae8a7cad0e"
+    },
+    "checkpoint_status": {
+      "path": "DEVELOPMENT-CHECKPOINT.json",
+      "git_blob": "e72683f0c88ff353efb0cfe0e03519de5745682c",
+      "prepared_at": "2026-10-20T22:25:59.422369+00:00",
+      "checkpoint_sequence": 7,
+      "source_payloads": 559,
+      "product_source_delta": {
+        "added": 325,
+        "removed": 10
+      },
+      "product_test_delta": {
+        "added": 618,
+        "removed": 0
+      },
+      "joined_controlled_checks": 137,
+      "independent_adverse_checks": 6,
+      "host_bound_qualification_tooling": true,
+      "clean_clone_product_execution_claim": false,
+      "native_worker_qualification": false,
+      "full_joined_suite_acceptance": false,
+      "destination_acceptance": false,
+      "installed_product_acceptance": false,
+      "governed_authorization_to_effect_acceptance": false,
+      "endurance_acceptance": false,
+      "human_acceptance": false,
+      "full_product_operational": false
+    },
+    "root_publication_signal": {
+      "path": "handoff/development-checkpoints/20261020-0007/ROOT-PUBLICATION-SIGNAL.json",
+      "git_blob": "49e280af3575a2f1dd96d0b555648e9396fadcde",
+      "event_at": "2026-10-20T22:25:32.548649+00:00",
+      "status": "CANONICAL_DEVELOPMENT_SOURCE_PUBLISHED_DESTINATION_RUNTIME_TESTS_PENDING",
+      "source_manifest_sha256": "d525e5091051af9f260c60d59ba1a0ff7c55dd48516953c9f7960922a2259c78",
+      "source_payloads": 559,
+      "applied_paths": 66,
+      "publication_receipt_sha256": "4f410920449793f7a79b19e711a1c2a6873878e948ba7eb7ab54828de34525b7",
+      "destination_hash_verification_sha256": "c6963613764dfd75568079664883130fb7a5172a6d7dff1cadd11ef73ece7726",
+      "full_product_acceptance": false
+    },
+    "governance": {
+      "path": "AGENTS.md",
+      "git_blob": "7bb531c6e4a6c9f8c0bf331c0e48f3b524805ec1",
+      "assessment": "The owner-selected repository explicitly authorizes routine engineering, requires named review before substantial handoff, reserves production and publication boundaries, and states that role names do not establish isolation."
+    }
+  },
+  "dependency_assessment": {
+    "temporal_dependency": true,
+    "semantic_dependency": true,
+    "downstream_use": true,
+    "basis": "The manifest pins two distinct source-handoff families, a joined integration artifact, joined test result, independent review record, live execution result and a later canonical publication signal. The checkpoint and merge message state that the joined source uses both contributions and was independently checked before publication.",
+    "independently_verified_participants": false,
+    "operator_boundary_evidence": false,
+    "autonomous_identity_evidence": "Sol and Astra identities are repository-authored role/provider labels; no public independent runtime attestation or distinct operator control was located.",
+    "current_activity_claimed": false,
+    "subjective_rogue_intent_evidence": false
+  },
+  "authorization_and_alternatives": {
+    "explicit_owner_authorization": true,
+    "designed_team_topology": true,
+    "mandatory_independent_review": true,
+    "same_public_github_account_for_checkpoint_and_merge": true,
+    "checkpoint_and_merge_share_exact_tree": true,
+    "single_operator_automation_not_excluded": true,
+    "shared_state_or_repo_authored_transcript_not_excluded": true,
+    "human_requested_or_owner_governed_workflow_supported": true,
+    "repeated_test_or_scanner_retry": "Not the selected dependency; the record preserves joined tests and adverse rechecks as designed validation.",
+    "observer_contamination": "The manifest and checkpoint were assembled and published inside the same owner-controlled repository; role labels and internal event order are not independent transport attestations."
+  },
+  "scoped_prior_reporting_check": {
+    "as_of": "2026-10-25",
+    "github_code_queries": [
+      {
+        "query": "\"operator-diagnostics-integration-r1\"",
+        "result": "6 indexed paths, all in IAmSoThirsty/Project-AI-Ceta"
+      },
+      {
+        "query": "\"137 joined\" \"6 independent\"",
+        "result": "3 relevant origin-repository paths plus 1 unrelated token match"
+      },
+      {
+        "query": "\"sol-owned-diagnostics-r1\" \"sol-operator-diagnostics-r1\"",
+        "result": "5 indexed paths, all in IAmSoThirsty/Project-AI-Ceta"
+      },
+      {
+        "query": "\"1bd03bab640ffde1338c5262453f7aa8ff4b05b6d716a654a2a4dadabcebf81a\"",
+        "result": "1 indexed path, the origin transport manifest"
+      }
+    ],
+    "web_queries": [
+      "\"operator-diagnostics-integration-r1\"",
+      "\"two Sol coders\" diagnostics",
+      "\"1bd03bab640ffde1338c5262453f7aa8ff4b05b6d716a654a2a4dadabcebf81a\""
+    ],
+    "result": "Exact web searches returned unrelated pages rather than an account of this chain. No prior coordination report located in the checked scope as of 25 October 2026.",
+    "limitation": "Bounded search absence does not establish novelty. The origin's explicit governance independently defeats the rogue-swarm classification.",
+    "known_family_overlap_found": false
+  },
+  "classification": {
+    "lead_id": "BV-102",
+    "label": "owner-governed two-producer integration and publication control",
+    "candidate": false,
+    "rationale": "A content-bound producer-to-integrator-to-reviewer-to-publication dependency is preserved, but the topology is explicitly owner-authorized and mandatory, publication stays under one public account, participant labels lack independent provenance, and no operator-defined boundary crossing is evidenced.",
+    "evidence_needed_to_advance": [
+      "Public sender, integrator and reviewer records independently authenticating distinct autonomous runtimes and operators.",
+      "The same content-bound handoff and downstream use outside the repository-assembled manifest and owner-controlled publication path.",
+      "Primary evidence that cooperation exceeded the routine-engineering grant, mandatory review topology or reserved production/publication boundaries.",
+      "A public raw record that establishes the internal event order without relying only on the same repository's assembled archive and summaries."
+    ]
+  },
+  "next_cursors": [
+    {
+      "type": "Project-AI-Ceta",
+      "cursor": "first public post-3f9af35 record that independently attributes a producer, integrator or reviewer to a different operator and preserves the same handoff digest",
+      "advance_only_if": "The record shows content-specific use and evidence that the cooperation exceeded the owner-governed workflow."
+    },
+    {
+      "type": "exact field rotation",
+      "cursor": "page 1 of \"producer_session\" \"integrator_session\" \"artifact_sha256\"",
+      "advance_only_if": "An emitted original record contains a real sender artifact and causal downstream use."
+    },
+    {
+      "type": "exact field rotation",
+      "cursor": "page 1 of \"handoff_sha256\" \"reviewer_session\" \"consumed\"",
+      "advance_only_if": "A content-bound reviewer consumes the handoff and independent operator provenance exists."
+    },
+    {
+      "type": "exact field rotation",
+      "cursor": "page 1 of \"source_handoff\" \"joined_result\" \"accepted_by\"",
+      "advance_only_if": "The hit is an emitted run record rather than source, schema, fixture or designed-team documentation."
+    },
+    {
+      "type": "scanner backlog",
+      "cursor": "paused at 853/1,146 with 293 records retained under inventory digest 9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+      "advance_only_if": "A new source-level participant, transfer/use, provenance or authorization cue separates a record from known families."
+    }
+  ],
+  "safety": {
+    "read_only_public_records_only": true,
+    "raw_archive_opened": false,
+    "code_tests_scripts_or_agent_runtime_executed": false,
+    "participants_contacted": false,
+    "scans_messages_reviews_reactions_or_votes_submitted": false,
+    "private_paths_or_personal_data_published": false,
+    "raw_message_bodies_or_credentials_published": false
+  }
+}

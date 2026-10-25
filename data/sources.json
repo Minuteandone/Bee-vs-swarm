@@ -10935,6 +10935,172 @@
       "ref": "2fa72a09d5e225cbeb4c08c2360f92db00c4d831",
       "blob_sha": "00e1d3e6e6b7c37542fc99cc31fad4bfae3d706d",
       "observed_at": "2026-10-24T23:28:20Z"
+    },
+    {
+      "id": "original-ai-video-current-head-31fe5b1",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/commit/31fe5b1f92462b83f5a075302c971f379f7d9dd3",
+      "role": "Current public default-branch cursor for the governed learning-adoption control",
+      "published": "2026-10-24",
+      "event_at": "2026-10-24T15:17:32Z",
+      "commit_sha": "31fe5b1f92462b83f5a075302c971f379f7d9dd3",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-h3-evidence-2a17357",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/63ea712ae2b968f670392b781609fb689f278864/docs/record_for_agent/2026-09-05-local-h3-lighthouse-30s-test.md",
+      "role": "Original bounded attempt, repair, user-gate and evidence-index record; media and prompt bodies are not reproduced",
+      "published": "2026-09-05",
+      "event_at": "2026-09-05T12:12:34Z",
+      "ref": "63ea712ae2b968f670392b781609fb689f278864",
+      "blob_sha": "2a17357246d6f2d643ae08de82642f6808478231",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-h3-candidate-0514739",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/63ea712ae2b968f670392b781609fb689f278864/docs/record_for_agent/learning/h3-shot-local-visible-context.md",
+      "role": "Original pending learning claim binding two content-specific observations before adoption",
+      "published": "2026-09-05",
+      "event_at": "2026-09-05T12:12:34Z",
+      "ref": "63ea712ae2b968f670392b781609fb689f278864",
+      "blob_sha": "0514739fda836a17d48091446165aec257d30096",
+      "commit_sha": "63ea712ae2b968f670392b781609fb689f278864",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-h3-adoption-5d17c05",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/commit/5d17c05864b588d1d893f66a3b8b28be4340e3a6",
+      "role": "Same-account user-confirmed adoption commit applying the bounded H3 guidance",
+      "published": "2026-09-05",
+      "event_at": "2026-09-05T12:18:37Z",
+      "commit_sha": "5d17c05864b588d1d893f66a3b8b28be4340e3a6",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-h3-target-c12a3e7",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/5d17c05864b588d1d893f66a3b8b28be4340e3a6/.agents/skills/h3-video/SKILL.md",
+      "role": "Adoption target showing content-specific downstream use; inspected as text and never executed",
+      "published": "2026-09-05",
+      "event_at": "2026-09-05T12:18:37Z",
+      "ref": "5d17c05864b588d1d893f66a3b8b28be4340e3a6",
+      "blob_sha": "c12a3e78be910a1632dd8a187fc2fa35e550b123",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-hyper-evidence-d4c94da",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/0d01a97f7c340baf350c6681274c0dde9fce5b96/docs/record_for_agent/2026-08-29-qingyan-caption-final-acceptance.md",
+      "role": "Original exact local caption-source evidence and guardrail record; media and cue bodies are omitted",
+      "published": "2026-08-28",
+      "event_at": "2026-08-28T18:03:59Z",
+      "ref": "0d01a97f7c340baf350c6681274c0dde9fce5b96",
+      "blob_sha": "d4c94dab6c944ec76eae1be9fa491dbd55241e56",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-hyper-candidate-a067aee",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/0d01a97f7c340baf350c6681274c0dde9fce5b96/docs/record_for_agent/learning/hyperframes-caption-exact-source-readiness.md",
+      "role": "Original pending material claim update before adoption",
+      "published": "2026-08-28",
+      "event_at": "2026-08-28T18:03:59Z",
+      "ref": "0d01a97f7c340baf350c6681274c0dde9fce5b96",
+      "blob_sha": "a067aee11c6e7cfc789b7a4067fa7f593ed16c40",
+      "commit_sha": "0d01a97f7c340baf350c6681274c0dde9fce5b96",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-hyper-adoption-9fa6524",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/commit/9fa65248647bcf5ae07ca15edafeb82b0e69d9bd",
+      "role": "Same-account user-confirmed gate-adoption commit",
+      "published": "2026-08-28",
+      "event_at": "2026-08-28T19:47:00Z",
+      "commit_sha": "9fa65248647bcf5ae07ca15edafeb82b0e69d9bd",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-ai-video-hyper-target-9c76cbc",
+      "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/9fa65248647bcf5ae07ca15edafeb82b0e69d9bd/.agent/context/control-plane-playbook.md",
+      "role": "Control-plane adoption target showing exact-source guidance use; inspected as text and never executed",
+      "published": "2026-08-28",
+      "event_at": "2026-08-28T19:47:00Z",
+      "ref": "9fa65248647bcf5ae07ca15edafeb82b0e69d9bd",
+      "blob_sha": "9c76cbcb83e15a3f960d4ba05ccc2c8dbc7e756c",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-sm64-fbase-report-1af149c",
+      "url": "https://github.com/tangosdev/sm64ds-decomp/blob/5ef06674d8ba69f4b85537842f286bca7350e5ed/notes/experiments/fbase-init-native1014.json",
+      "role": "Original source/proof record identifying one producer and source-author session and withholding independent acceptance",
+      "published": null,
+      "ref": "5ef06674d8ba69f4b85537842f286bca7350e5ed",
+      "blob_sha": "1af149c460e2c249fba1f726555262ed25e85d30",
+      "source_checkpoint": "87457bcf4376f635eea96e0dde513f29cdcd55c3",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-sm64-fbase-source-87457bc",
+      "url": "https://github.com/tangosdev/sm64ds-decomp/commit/87457bcf4376f635eea96e0dde513f29cdcd55c3",
+      "role": "Public source checkpoint changing code, manifest and the experiment record under one human account",
+      "published": "2026-10-14",
+      "event_at": "2026-10-14T07:13:58Z",
+      "commit_sha": "87457bcf4376f635eea96e0dde513f29cdcd55c3",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-sm64-pr3144-b88dbbe",
+      "url": "https://github.com/tangosdev/sm64ds-decomp/pull/3144",
+      "role": "Historical governed process-adoption lineage with a human author, project-authored Claude attribution, named verifier session and validation-bot result",
+      "published": "2026-09-25",
+      "event_at": "2026-09-25T17:45:44Z",
+      "merge_commit_sha": "b88dbbebdfcb4f61f41480e0302283c4ca0b7486",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-mardorf-release-v1-09ac233",
+      "url": "https://github.com/janwohlers78/mardorf-data-collector/blob/f53eab03211ebe5bd361a11902ac6ed609a0bfdd/config/dev03_wp15_collector_release_v1.json",
+      "role": "Bounded canary-only source configuration with collection disabled and no public consumer commit",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T05:50:05Z",
+      "ref": "f53eab03211ebe5bd361a11902ac6ed609a0bfdd",
+      "blob_sha": "09ac233368fb07ab28b5e1b0ec61d19aadcd273d",
+      "commit_sha": "4c7a641aed163fcaf31db0b1eb022aeda6024a21",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-mardorf-release-v2-344884c",
+      "url": "https://github.com/janwohlers78/mardorf-data-collector/blob/f53eab03211ebe5bd361a11902ac6ed609a0bfdd/config/dev03_wp15_collector_release_v2.json",
+      "role": "Second bounded canary-only source configuration; collection remains disabled",
+      "published": "2026-10-03",
+      "event_at": "2026-10-03T07:14:18Z",
+      "ref": "f53eab03211ebe5bd361a11902ac6ed609a0bfdd",
+      "blob_sha": "344884c35eaf467c1c0537230454e71b7e0e593b",
+      "commit_sha": "e00d27e27dbb913427abba9fc6e8f6b1e13a96ea",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-crypto-auxin-receipt-d7bc169",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/4ea4e6a22ab30e4da6f4b7515e4fe2dfbdfa8a58/coordination/goals/GOAL-AUXIN-a93442/batches/BATCH-14b284/archives/TASK-20260929-8e99fa/snapshot-receipt.json",
+      "role": "Designed-family archive receipt reporting draft/unapproved successor state and zero runs",
+      "published": null,
+      "ref": "4ea4e6a22ab30e4da6f4b7515e4fe2dfbdfa8a58",
+      "blob_sha": "d7bc1693e52b157edab05a61e20ed1157db96eaf",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-crypto-auxin-receipt-f9cfe97",
+      "url": "https://github.com/aburan28/crypto-autoresearcher/blob/4ea4e6a22ab30e4da6f4b7515e4fe2dfbdfa8a58/coordination/goals/GOAL-AUXIN-a93442/batches/BATCH-1907cf/archives/TASK-20260929-991b5e/snapshot-receipt.json",
+      "role": "Second designed-family archive receipt reporting draft/unapproved successor state and zero runs",
+      "published": null,
+      "ref": "4ea4e6a22ab30e4da6f4b7515e4fe2dfbdfa8a58",
+      "blob_sha": "f9cfe97f540befcb98c2a6cfe29b89f64a25247f",
+      "observed_at": "2026-10-25T00:16:54Z"
+    },
+    {
+      "id": "original-capital-chronicle-gap-d597d99",
+      "url": "https://github.com/fatcat2109/capital-chronicle-contentops/blob/bc79e30c8088a9deb47f3942aa15914a59b69799/docs/automation/CONTENTOPS_NEWSROOM_AND_TIER1_FINAL_ACCEPTANCE_GAP_CLOSURE_V3/contentops_newsroom_tier1_final_gap_closure_v3_20260714_1/newsroom_tier1_final_gap_closure_packet_v3.json",
+      "role": "Designed pipeline packet with publication authority false, zero scheduled publications and local no-write operation",
+      "published": "2026-07-14",
+      "ref": "bc79e30c8088a9deb47f3942aa15914a59b69799",
+      "blob_sha": "d597d9933f6e0f2981b4315d0083e5737d37b34b",
+      "observed_at": "2026-10-25T00:16:54Z"
     }
   ]
 }

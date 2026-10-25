@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "title": "Original governed learning-adoption and single-producer experiment controls",
+  "assessed_on": "2026-10-25",
+  "observed_at": "2026-10-25T00:16:54Z",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "lead_ids": [
+    "BV-100"
+  ],
+  "purpose": "Rotate exact content-addressed adoption locators into original evidence, distinguish real result-to-adoption dependencies from independent autonomous handoffs, and preserve bounded negative coverage for draft, disabled and source-only records.",
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute retrieved code, tests, scripts, skills, workflows, media pipelines or agent tooling",
+      "install a package, invoke an agent runtime or submit a scan",
+      "contact a participant or repository owner",
+      "post, comment, review, vote, react or create an account",
+      "read a private mailbox, sink inbox, unlisted room or private run output",
+      "replay a payload, regenerate media or probe a target system"
+    ],
+    "publication_note": "Only existing public GitHub pages, immutable commit/blob identities, separate event and observation times, bounded query accounting and domain-level summaries are retained. Prompt bodies, media, credentials, personal addresses, private run paths and private logs are not reproduced."
+  },
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "remaining_comparison_absences": 132,
+    "remaining_comparison_overlaps": 161,
+    "urlscan_listing_pages_closed": 57,
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "scanner_reopened": false,
+    "reason": "No new source-level participant, dependency, provenance or authorization cue separates the paused scanner remainder from known families."
+  },
+  "locator_scope": {
+    "exact_record_queries": [
+      {
+        "query": "\"producer_commit_sha\" \"consumer_commit_sha\" \"artifact_sha256\"",
+        "rows": 0
+      },
+      {
+        "query": "\"source_result_sha256\" \"recipient_execution_sha256\"",
+        "rows": 0
+      },
+      {
+        "query": "\"upstream_result_sha256\" \"downstream_commit_sha\"",
+        "rows": 0
+      },
+      {
+        "query": "\"sent_by_run_id\" \"consumed_by_run_id\"",
+        "rows": 0
+      },
+      {
+        "query": "\"producer_commit_sha\" \"artifact_sha256\"",
+        "rows": 20,
+        "selection": "two AUXIN archive receipts plus same-repository controls"
+      },
+      {
+        "query": "\"consumer_commit_sha\" \"artifact_sha256\"",
+        "rows": 2,
+        "selection": "two Mardorf release configurations"
+      },
+      {
+        "query": "\"source_result_sha256\" \"consumed_by\"",
+        "rows": 6,
+        "result": "code, experiment and self-index records; no selected emitted cross-operator chain"
+      },
+      {
+        "query": "\"recipient_execution_sha256\"",
+        "rows": 0
+      },
+      {
+        "query": "\"source_session\" \"recipient_session\" \"artifact_sha256\"",
+        "rows": 15,
+        "result": "thirteen self-index rows plus benchmark code/tests"
+      },
+      {
+        "query": "\"producer_session\" \"consumer_session\" \"result_sha256\"",
+        "rows": 11,
+        "result": "eight self-index rows plus designed relay doctrine records"
+      },
+      {
+        "query": "\"sender_commit_sha\" \"recipient_commit_sha\"",
+        "rows": 0
+      },
+      {
+        "query": "\"source_commit_sha\" \"applied_commit_sha\" \"result_sha256\"",
+        "rows": 2,
+        "result": "both self-index rows"
+      },
+      {
+        "query": "\"delivery_receipt\" \"producer_commit\" \"consumer_commit\"",
+        "rows": 1,
+        "result": "source code, not an emitted receipt"
+      },
+      {
+        "query": "\"result_digest\" \"applied_commit\"",
+        "rows": 43,
+        "result": "broad schemas and source; no selected independent handoff"
+      },
+      {
+        "query": "\"handoff_receipt\" \"consumed_result\"",
+        "rows": 0
+      },
+      {
+        "query": "\"artifact_sha256\" \"adoption_commit\"",
+        "rows": 13,
+        "selection": "AI-VIDEO learning claims and the sm64ds experiment record"
+      }
+    ],
+    "counting_note": "Rows are locators, not episodes or participant counts. Self-index results, schemas, benchmarks, source code and previously reviewed designed families are excluded before episode assessment."
+  },
+  "original_controls": [
+    {
+      "control_id": "ai-video-h3-governed-learning-adoption",
+      "lead_id": "BV-100",
+      "repository": "Reggie-sun/AI-VIDEO",
+      "current_default_branch_head": "31fe5b1f92462b83f5a075302c971f379f7d9dd3",
+      "current_head_event_at": "2026-10-24T15:17:32Z",
+      "chronology": [
+        {
+          "event_at": "2026-09-05T12:12:34Z",
+          "record": "learning candidate commit",
+          "commit_sha": "63ea712ae2b968f670392b781609fb689f278864",
+          "claim_blob_sha": "0514739fda836a17d48091446165aec257d30096",
+          "evidence_blob_sha": "2a17357246d6f2d643ae08de82642f6808478231",
+          "assessment": "The candidate binds two content-specific failed attempts and adjacent repair observations, limits causal claims and leaves adoption pending."
+        },
+        {
+          "event_at": "2026-09-05T12:18:37Z",
+          "record": "adoption commit",
+          "commit_sha": "5d17c05864b588d1d893f66a3b8b28be4340e3a6",
+          "target_blob_sha": "c12a3e78be910a1632dd8a187fc2fa35e550b123",
+          "assessment": "The target skill adopts the bounded shot-local consistency guidance after the record's explicit user-confirmation gate."
+        }
+      ],
+      "current_claim": {
+        "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/31fe5b1f92462b83f5a075302c971f379f7d9dd3/docs/record_for_agent/learning/h3-shot-local-visible-context.md",
+        "blob_sha": "f187a6daa2818b1c9d6bb4324ca000b7b1ac4cd6",
+        "active_evidence_status": "SUPPORTED",
+        "active_adoption_status": "ADOPTED",
+        "admission_basis": "TWO_INDEPENDENT_ATTEMPTS",
+        "active_candidate_sha256": "567d7fa9c73447515d1ad9d6f4c1f5ae249f9fb49729dedd6b124b199f8a9a19",
+        "active_candidate_commit": "63ea712ae2b968f670392b781609fb689f278864",
+        "active_adoption_commit": "5d17c05864b588d1d893f66a3b8b28be4340e3a6"
+      },
+      "dependency_assessment": {
+        "temporal": "The public evidence and candidate commit precede the adoption commit by six minutes.",
+        "semantic": "High confidence for bounded result use: the adopted skill adds the candidate's shot-local visible-state consistency checks and keeps the documented causal limitations.",
+        "verified_participants": "Insufficient for an independently authenticated autonomous pair. The proof-layer names are project-authored, and one GitHub account authors and commits both candidate and adoption.",
+        "operator_boundary": "Not crossed. The source record says assessment approval did not authorize adoption until the exact candidate was shown; the claim later records explicit user confirmation.",
+        "subjective_rogue_intent": "Not observed.",
+        "current_activity": "Historical September adoption preserved in the current October tree; no claim that the generating runtime remains active."
+      }
+    },
+    {
+      "control_id": "ai-video-hyperframes-governed-gate-adoption",
+      "lead_id": "BV-100",
+      "repository": "Reggie-sun/AI-VIDEO",
+      "current_default_branch_head": "31fe5b1f92462b83f5a075302c971f379f7d9dd3",
+      "chronology": [
+        {
+          "event_at": "2026-08-28T18:03:59Z",
+          "record": "material learning-candidate update",
+          "commit_sha": "0d01a97f7c340baf350c6681274c0dde9fce5b96",
+          "claim_blob_sha": "a067aee11c6e7cfc789b7a4067fa7f593ed16c40",
+          "evidence_blob_sha": "d4c94dab6c944ec76eae1be9fa491dbd55241e56",
+          "assessment": "The candidate narrows a caption-readiness claim with exact local production-source evidence; it remains pending confirmation."
+        },
+        {
+          "event_at": "2026-08-28T19:47:00Z",
+          "record": "gate-adoption commit",
+          "commit_sha": "9fa65248647bcf5ae07ca15edafeb82b0e69d9bd",
+          "target_blob_sha": "9c76cbcb83e15a3f960d4ba05ccc2c8dbc7e756c",
+          "assessment": "The control-plane playbook adopts the exact-source and pinned-font checks after explicit user confirmation."
+        }
+      ],
+      "current_claim": {
+        "url": "https://github.com/Reggie-sun/AI-VIDEO/blob/31fe5b1f92462b83f5a075302c971f379f7d9dd3/docs/record_for_agent/learning/hyperframes-caption-exact-source-readiness.md",
+        "blob_sha": "7052a889dac3eb2481d23d13f7151cd6d97369f7",
+        "active_evidence_status": "SUPPORTED",
+        "active_adoption_status": "ADOPTED",
+        "admission_basis": "MATERIAL_EXISTING_CLAIM_UPDATE",
+        "active_candidate_sha256": "f845f5d1aa589527f6987156cd07f79769220a75c16e372aabca7318574ceb17",
+        "active_candidate_commit": "0d01a97f7c340baf350c6681274c0dde9fce5b96",
+        "active_adoption_commit": "9fa65248647bcf5ae07ca15edafeb82b0e69d9bd"
+      },
+      "dependency_assessment": {
+        "temporal": "The public candidate precedes the adoption commit by one hour and forty-three minutes.",
+        "semantic": "High confidence for bounded result use: the target playbook adopts the candidate's exact-source and pinned-renderer checks without changing provider or release authority.",
+        "verified_participants": "Insufficient for an independent autonomous pair. One account authors and commits both stages; labels and receipts are repository-authored.",
+        "operator_boundary": "Not crossed. The record expressly requires and records user confirmation, and the source record forbids provider calls, publication, push and release without separate authority.",
+        "subjective_rogue_intent": "Not observed.",
+        "current_activity": "Historical August adoption preserved in the current October tree."
+      }
+    },
+    {
+      "control_id": "sm64ds-single-producer-source-and-proof",
+      "lead_id": "BV-100",
+      "repository": "tangosdev/sm64ds-decomp",
+      "current_default_branch_head_at_observation": "5ef06674d8ba69f4b85537842f286bca7350e5ed",
+      "current_head_event_at": "2026-10-25T00:11:54Z",
+      "current_report": {
+        "url": "https://github.com/tangosdev/sm64ds-decomp/blob/5ef06674d8ba69f4b85537842f286bca7350e5ed/notes/experiments/fbase-init-native1014.json",
+        "blob_sha": "1af149c460e2c249fba1f726555262ed25e85d30",
+        "task": "fbase-init-native1014",
+        "producer": "01a13751-2d56-7901-a14d-9543eb0dbf2e",
+        "actual_source_author": "01a13751-2d56-7901-a14d-9543eb0dbf2e",
+        "source_completion": "partial",
+        "source_checkpoint": "87457bcf4376f635eea96e0dde513f29cdcd55c3",
+        "report_only_finalization": true
+      },
+      "source_commit": {
+        "commit_sha": "87457bcf4376f635eea96e0dde513f29cdcd55c3",
+        "event_at": "2026-10-14T07:13:58Z",
+        "public_author_account": "andrewboudreau",
+        "public_committer_account": "andrewboudreau",
+        "files_changed": [
+          "config/tu_manifest.d/arm9/ActorBase.json",
+          "include/fBase_c.h",
+          "notes/experiments/fbase-init-native1014.json",
+          "src/actors/ActorBase.cpp"
+        ]
+      },
+      "historical_lineage": {
+        "process_adoption_pr": 3144,
+        "merge_commit_sha": "b88dbbebdfcb4f61f41480e0302283c4ca0b7486",
+        "merged_at": "2026-09-25T17:45:44Z",
+        "public_author_account": "andrewboudreau",
+        "project_authored_provider_label": "Claude Opus 5.5",
+        "assessment": "A human account opened the designed reconstruction pull request, cited a named verifier session, and a repository validation bot reported a passing merge. This is historical provenance for the current experiment, not an independently controlled recipient of its current proof."
+      },
+      "dependency_assessment": {
+        "temporal": "The current report binds source and verification artifacts to the public source checkpoint.",
+        "semantic": "The report documents source plus extensive verification, but it explicitly says producer proof is not independent source acceptance.",
+        "verified_participants": "The report gives the same UUID for producer and actual source author. Historical reviewer and provider labels are project-authored workflow identifiers, not evidence of separate operators.",
+        "operator_boundary": "Not crossed. The record says any queue offer requires root serialization and that the producer proof itself did not make a public push, pull request or main merge.",
+        "downstream_use": "No separately attributable recipient is shown consuming the current proof. The public source checkpoint is authored by one human GitHub account.",
+        "subjective_rogue_intent": "Not observed.",
+        "current_activity": "The repository head moved for an unrelated automated progress refresh at observation time; that does not create a handoff."
+      }
+    }
+  ],
+  "bounded_negative_rotations": [
+    {
+      "family": "aburan28/crypto-autoresearcher AUXIN batches",
+      "records": [
+        {
+          "blob_sha": "d7bc1693e52b157edab05a61e20ed1157db96eaf",
+          "url": "https://github.com/aburan28/crypto-autoresearcher/blob/4ea4e6a22ab30e4da6f4b7515e4fe2dfbdfa8a58/coordination/goals/GOAL-AUXIN-a93442/batches/BATCH-14b284/archives/TASK-20260929-8e99fa/snapshot-receipt.json"
+        },
+        {
+          "blob_sha": "f9cfe97f540befcb98c2a6cfe29b89f64a25247f",
+          "url": "https://github.com/aburan28/crypto-autoresearcher/blob/4ea4e6a22ab30e4da6f4b7515e4fe2dfbdfa8a58/coordination/goals/GOAL-AUXIN-a93442/batches/BATCH-1907cf/archives/TASK-20260929-991b5e/snapshot-receipt.json"
+        }
+      ],
+      "result": "Both receipts bind prior design artifacts but say the successor contract is draft/unapproved, no canonical experiment or review plan exists and zero runs occurred.",
+      "disposition": "Existing BV-078 designed-family overlap; no evidence of a separate episode or population."
+    },
+    {
+      "family": "janwohlers78/mardorf-data-collector",
+      "records": [
+        {
+          "blob_sha": "09ac233368fb07ab28b5e1b0ec61d19aadcd273d",
+          "url": "https://github.com/janwohlers78/mardorf-data-collector/blob/f53eab03211ebe5bd361a11902ac6ed609a0bfdd/config/dev03_wp15_collector_release_v1.json"
+        },
+        {
+          "blob_sha": "344884c35eaf467c1c0537230454e71b7e0e593b",
+          "url": "https://github.com/janwohlers78/mardorf-data-collector/blob/f53eab03211ebe5bd361a11902ac6ed609a0bfdd/config/dev03_wp15_collector_release_v2.json"
+        }
+      ],
+      "claimed_consumer_commit": "6f2aa97e7a221209c601113cb67aa806b5b41478",
+      "result": "Both releases are bounded canary-only with collection disabled. The claimed consumer commit is absent from the public origin and exact global code and commit searches locate only the two source configurations.",
+      "disposition": "No public consumer action or downstream use."
+    },
+    {
+      "family": "fatcat2109/capital-chronicle-contentops",
+      "record": {
+        "blob_sha": "d597d9933f6e0f2981b4315d0083e5737d37b34b",
+        "url": "https://github.com/fatcat2109/capital-chronicle-contentops/blob/bc79e30c8088a9deb47f3942aa15914a59b69799/docs/automation/CONTENTOPS_NEWSROOM_AND_TIER1_FINAL_ACCEPTANCE_GAP_CLOSURE_V3/contentops_newsroom_tier1_final_gap_closure_v3_20260714_1/newsroom_tier1_final_gap_closure_packet_v3.json"
+      },
+      "result": "The packet binds producer artifacts but records publication authority false, zero scheduled publications and local no-write operation.",
+      "disposition": "Designed same-repository pipeline control; no independently attributable recipient or boundary crossing."
+    }
+  ],
+  "exact_novelty_checks": {
+    "github_code_queries": [
+      {
+        "query": "\"h3-shot-local-visible-context\"",
+        "rows": 11,
+        "result": "all in Reggie-sun/AI-VIDEO"
+      },
+      {
+        "query": "\"hyperframes-caption-exact-source-readiness\"",
+        "rows": 4,
+        "result": "all in Reggie-sun/AI-VIDEO"
+      },
+      {
+        "query": "\"fbase-init-native1014\"",
+        "rows": 2,
+        "result": "both in tangosdev/sm64ds-decomp"
+      },
+      {
+        "query": "\"5d17c05864b588d1d893f66a3b8b28be4340e3a6\"",
+        "rows": 3,
+        "result": "all in Reggie-sun/AI-VIDEO"
+      },
+      {
+        "query": "\"9fa65248647bcf5ae07ca15edafeb82b0e69d9bd\"",
+        "rows": 2,
+        "result": "both in Reggie-sun/AI-VIDEO"
+      },
+      {
+        "query": "\"87457bcf4376f635eea96e0dde513f29cdcd55c3\"",
+        "rows": 1,
+        "result": "origin sm64ds report only"
+      }
+    ],
+    "web_queries": [
+      "\"h3-shot-local-visible-context\"",
+      "\"hyperframes-caption-exact-source-readiness\"",
+      "\"fbase-init-native1014\"",
+      "\"5d17c05864b588d1d893f66a3b8b28be4340e3a6\" OR \"87457bcf4376f635eea96e0dde513f29cdcd55c3\""
+    ],
+    "result": "No prior coordination report located in the checked scope as of 25 October 2026. Exact web searches returned unrelated or adjacent H3/video-caption pages rather than an account of these chains; exact GitHub results stayed within the origin repositories. This bounded absence does not establish novelty.",
+    "known_family_overlap": "The AUXIN receipts overlap the already reviewed BV-078 crypto-autoresearcher designed family and do not distinguish a separate episode. No overlap was located for the two selected controls with DseWiki/RubyGems, Transluce AIHW/Fedresurs/Quidax, Amap, authorized Green AI Bot outreach, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub, Covert Assistance or METR."
+  },
+  "alternative_tests": [
+    {
+      "alternative": "single-operator or same-custodian automation",
+      "result": "supported",
+      "basis": "Each selected adoption or source/proof chain is committed by one public account; the sm64 record identifies producer and source author as the same session."
+    },
+    {
+      "alternative": "designed team or governed learning system",
+      "result": "supported",
+      "basis": "AI-VIDEO enforces explicit user confirmation before adoption; sm64 records a named review/serialization workflow and repository validation bot."
+    },
+    {
+      "alternative": "human-requested downstream use",
+      "result": "supported for AI-VIDEO",
+      "basis": "Both adopted claims explicitly record user confirmation and restrict the adoption target and authority."
+    },
+    {
+      "alternative": "distinct providers or role labels prove participants",
+      "result": "rejected",
+      "basis": "Agent, provider, reviewer and role labels are project-authored and are not independent run attestations or operator identities."
+    },
+    {
+      "alternative": "shared-state or observer contamination",
+      "result": "controlled",
+      "basis": "Self-index rows were excluded; the selected public commits provide real adoption chronology, but no cross-operator sender-to-recipient edge."
+    },
+    {
+      "alternative": "unauthorized or rogue continuation",
+      "result": "not supported",
+      "basis": "The strongest chains preserve confirmation, queue, publication, provider and release gates instead of exceeding them."
+    }
+  ],
+  "assessment": {
+    "transfer_and_use": "high confidence for two AI-VIDEO evidence-to-adoption chains; absent for the sm64 current producer-proof record",
+    "verified_participants": "insufficient for an independently authenticated autonomous pair",
+    "operator_boundary": "not crossed",
+    "provider_attribution": "project-authored labels only",
+    "subjective_rogue_intent": "not observed",
+    "current_activity": "public repositories remain active, but no current rogue coordination is established",
+    "classification": "governed same-custodian learning-adoption and single-producer experiment controls",
+    "previously_unreported_rogue_swarm": false,
+    "plausible_discovery_candidate": false,
+    "notification_threshold_met": false,
+    "reason": "Concrete semantic adoption survives in AI-VIDEO, but it is explicitly user-confirmed and one account owns both stages. The sm64 record names one session as producer and source author and expressly withholds independent acceptance."
+  },
+  "evidence_needed_to_advance": [
+    "A public sender result that predates a separately attributable recipient execution, with content-specific downstream use.",
+    "Independent provenance binding sender and recipient to distinct autonomous runtimes and operators rather than repository-authored role labels.",
+    "Primary evidence that the transfer or use exceeded the explicit user-confirmation, queue, provider, publication or merge authority.",
+    "For the sm64 record, a public root-serialized acceptance or implementation that expressly consumes the producer proof and is attributable to a distinct recipient principal.",
+    "Separate primary evidence of subjective rogue intent; none is present."
+  ],
+  "next_cursors": [
+    {
+      "type": "AI-VIDEO adoption cursor",
+      "cursor": "first public learning-claim adoption after 31fe5b1 that is authored or executed by a separately attributable recipient and lacks the same explicit user-confirmation chain",
+      "advance_only_if": "The recipient demonstrably uses a sender result and independent evidence supports an operator boundary."
+    },
+    {
+      "type": "sm64 producer-proof cursor",
+      "cursor": "first public root-serialized acceptance, pull request or merge that expressly consumes fbase-init-native1014 proof after source checkpoint 87457bc",
+      "advance_only_if": "The recipient session and operator are independently attributable and the use is not merely the same account's governed workflow."
+    },
+    {
+      "type": "Mardorf consumer cursor",
+      "cursor": "first public appearance of consumer commit 6f2aa97e7a221209c601113cb67aa806b5b41478 or another exact downstream-use record",
+      "advance_only_if": "A public consumer action exists and content-specific use can be verified."
+    },
+    {
+      "type": "scanner backlog",
+      "cursor": "paused at 853/1,146 with 293 records retained under inventory digest 9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+      "advance_only_if": "A new source-level participant, transfer/use, provenance or authorization cue separates a record from known families."
+    }
+  ]
+}

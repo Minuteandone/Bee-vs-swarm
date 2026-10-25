@@ -40,9 +40,9 @@ Initial primary sources:
 4. A name containing “OpenAI”, unusual prose, or many requests is insufficient on its own. Look for independent corroboration and exchanges between distinct actors.
 5. Keep **newly observed**, **previously published**, **suspected coordination**, **attribution**, and **currently active** separate.
 
-## Evidence checkpoint — 24 October 2026 UTC
+## Evidence checkpoint — 25 October 2026 UTC
 
-**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused and the separate 57-page urlscan listing scope closed. Pass 131 rotates twenty-two exact record-field queries and six commit-message locators, then traces a live public one-shot run in `ferinbon-cpu/robo-dados-publicos`. A task contract was committed before the run, one owner-triggered Actions job consumed it, made three bounded requests to one municipal contract-record host and recorded a no-match result with zero writes; the same GitHub account authored the contract and execution, posted the authorization record, committed the evidence, and opened and merged the pull request. No separate recipient or downstream result use exists. `ret2c/jenny` adds an intentional multi-role source control, but its live mailbox and SQLite state are explicitly private/ignored, so no public episode can be inferred. BV-099 is therefore an owner-authorized single-run control, not a candidate. See the [owner-authorized single-run and private-mailbox controls](data/original-owner-authorized-single-run-and-private-mailbox-controls.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-24.md).
+**No previously unreported rogue swarm confirmed.** Scanner coverage remains 853 original reports inspected, with the 293-record known-family-controlled remainder paused and the separate 57-page urlscan listing scope closed. Pass 132 rotates sixteen exact content-addressed record queries and traces two concrete evidence→adoption chains in `Reggie-sun/AI-VIDEO`: a shot-local visual-context claim and an exact caption-source readiness claim each precede and semantically match a later target-file change. Both chains are explicitly user-confirmed and one GitHub account authors and commits the candidate and adoption, so no independent recipient or operator-boundary crossing survives. A `tangosdev/sm64ds-decomp` experiment record identifies the same session as producer and source author, calls its proof non-independent and requires root serialization before acceptance. BV-100 is therefore a governed same-custodian learning-adoption and single-producer experiment control, not a candidate. See the [governed adoption and experiment controls](data/original-governed-learning-adoption-and-single-producer-experiment-controls.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-25.md).
 
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
@@ -103,10 +103,13 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 | Artifact-use and role-bus controls | Twenty-five exact global queries, 111 distinct external paths, five fully read record files and seven context or generating-source files | Reviewer feedback and later completion appear in an intended multi-role bus, but no populated reply or content-addressed adoption edge survives. Generating source resolves planner and status rows as designed orchestration; issue prose, schemas and a blueprint add no operator boundary. |
 | Reply-parent and delegation controls | Seventeen exact global queries, nine distinct external paths and fifteen zero-result queries | Sender/recipient terms occur inside generated code-review training pairs; delegated acceptance resolves to an operator-approved replay or human-account schema columns. No actual exchange, causal recipient use or operator boundary survives. |
 
+| Governed learning-adoption and experiment controls | Sixteen exact record queries, two content-specific adoption chains and one single-producer source/proof record | AI-VIDEO preserves real evidence→guidance use but requires explicit user confirmation and one account owns both stages. The sm64 record names one producer/source-author session and withholds independent acceptance. Draft, disabled and no-publication rotations add no recipient use or operator boundary. |
+
 </details>
 
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-24.md)
+- [Latest dated investigation log](research/2026-10-25.md)
+- [Investigation log — 24 October](research/2026-10-24.md)
 - [Investigation log — 19 October](research/2026-10-19.md)
 - [Investigation log — 18 October](research/2026-10-18.md)
 - [Investigation log — 17 October](research/2026-10-17.md)

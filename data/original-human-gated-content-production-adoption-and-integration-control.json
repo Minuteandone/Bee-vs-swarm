@@ -1,0 +1,351 @@
+{
+  "snapshot": "human-gated content-production adoption and integration control",
+  "observed_at": "2026-10-25T13:13:27Z",
+  "repository": "TsungmingLiu/seventeen-floor-neighbor",
+  "repository_ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+  "repository_tree": "096384dc049db7aeff4faf4d248233f854e9a282",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "remaining_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No source-level cue separates the paused scanner remainder from known families."
+  },
+  "collection": {
+    "resumed_queries": [
+      {
+        "query": "\"acceptance_commit\" \"source_review_commit\" \"owner_authorized\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Both rows were this repository's self-index."
+      },
+      {
+        "query": "\"accepted_by_main\" \"independent_review\" \"handoff_sha256\"",
+        "page": 1,
+        "result_count": 3,
+        "result": "Two self-index rows and the already classified Cyril handoff; no new external trail."
+      },
+      {
+        "query": "\"review_trigger\" \"downstream_action\" \"artifact_sha256\"",
+        "page": 1,
+        "result_count": 2,
+        "result": "Both rows were this repository's self-index."
+      }
+    ],
+    "cross_repository_rotation": [
+      {
+        "query": "\"producer_artifact_sha256\" \"consumer_result_sha256\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"input_artifact_sha256\" \"review_decision\" \"accepted\"",
+        "page": 1,
+        "result_count": 6,
+        "result": "Source and test files only; no emitted cross-operator exchange."
+      },
+      {
+        "query": "\"upstream_commit\" \"downstream_commit\" \"consumed\"",
+        "page": 1,
+        "result_count": 1,
+        "result": "One generating source script, not a public run record."
+      },
+      {
+        "query": "\"source_sha256\" \"accepted_by\" \"reviewer\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"handoff_digest\" \"downstream\" \"accepted\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"result_digest\" \"consumed_by\" \"decision\"",
+        "page": 1,
+        "result_count": 50,
+        "result": "Broad source and schema matches; none advanced without an original emitted record."
+      },
+      {
+        "query": "\"handoff_sha256\" \"decision\" \"ACCEPTED\"",
+        "page": 1,
+        "result_count": 50,
+        "result": "Selected committed decision records in three repositories for original-record review."
+      },
+      {
+        "query": "\"consumed_artifact_sha256\" \"status\" \"accepted\"",
+        "page": 1,
+        "result_count": 19,
+        "result": "Mostly source/tests; one designed review family and a small number of committed reports."
+      },
+      {
+        "query": "\"source_artifact_sha256\" \"downstream_action\"",
+        "page": 1,
+        "result_count": 3,
+        "result": "Two self-index rows and one test file."
+      },
+      {
+        "query": "\"received_handoff_sha256\" \"decision\"",
+        "page": 1,
+        "result_count": 0,
+        "result": "No indexed row."
+      },
+      {
+        "query": "\"input_sha256\" \"accepted_by\" \"output_sha256\"",
+        "page": 1,
+        "result_count": 50,
+        "result": "Broad source and audit-log matches; selected records were checked against their governance and history."
+      }
+    ],
+    "bounded_negatives": [
+      {
+        "repository": "GodlyDonuts/RSNA-Knee-Abnormality-Detection",
+        "repository_ref": "bccaf9d0bcea4d64f3aae22cfbef5c6cac04d4d4",
+        "result": "Accepted cache/deployment decisions explicitly name owner autonomous authority. The decision and observed successor start were first published together by the same owner in commit 6a09ad5789f78daa3d9e21560e8caf8c20cd9de7, so internal order is not independently established and no foreign operator boundary appears."
+      },
+      {
+        "repository": "StatPan/datapan-registry",
+        "repository_ref": "151da89679e34e3d7c034077c3a45a7c648b9de5",
+        "result": "A manual review decision and exact handoff digest are real, but the reviewer is the repository owner, later state marks the decision expired and requires revalidation, and the public release-gate machinery is explicitly designed. No independently operated sender or recipient is established."
+      }
+    ]
+  },
+  "original_record": {
+    "pinned_repository": {
+      "commit": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "tree": "096384dc049db7aeff4faf4d248233f854e9a282",
+      "event_at": "2026-10-08T04:19:18Z",
+      "github_signature_verified": true,
+      "finding": "The current public tree preserves the governance contract and all selected decision records. Current presence is not evidence that the workflow remains active."
+    },
+    "governance": {
+      "production_orchestration_blob_sha": "3bbd940de233daf9ff22741bac640f8fadcd932e",
+      "ai_readme_blob_sha": "b305c174d0433dac70b4997fc7e42ecd001229ca",
+      "agents_blob_sha": "30c4100ca74b97c1d0264afbdd96fa3586dfa72a",
+      "finding": "The canonical contract makes the parent a control-plane-only Production Coordinator, assigns one harness/pass to each fresh bounded worker, routes canonical artifacts and structured handoffs, forbids automatic retries and requires final Human acceptance."
+    },
+    "early_stage_co_publication": {
+      "commit": "aebda00d92f8dc614a8bdc6e1671541fd4d660ce",
+      "tree": "b18b3b329a4ec61eea49b34ec21b7a9151f7f7ba",
+      "parent": "5d86f612601236292d20d653335be8da7d0892cc",
+      "event_at": "2026-10-01T23:21:15Z",
+      "message": "Revise walking street view perpendicular to roadway and record candidate review",
+      "signed": false,
+      "same_owner_authored_and_committed": true,
+      "files_changed": 10,
+      "finding": "Planning, manifest review, render packet, blocked render, recovery and visual-QA decisions first appear in one owner commit. Exact in-record dependencies are substantive, but Git cannot independently order those internal stages."
+    },
+    "plan": {
+      "git_blob_sha": "7965d49dd23a42464ffb733921ecf73d23767e73",
+      "task_id": "PLAN-COM02X-WALK-006",
+      "status": "PASS",
+      "harness": "cg_planner",
+      "finding": "The planner consumes exact prior Human, QA and render records and emits a content-specific manifest result."
+    },
+    "render_recovery": {
+      "git_blob_sha": "f87f18b4616ac9e17e198d42f50844de8a367fa0",
+      "task_id": "RENDER-COM02X-WALK-003-RECOVERY",
+      "status": "PASS",
+      "finding": "The recovery record consumes the exact blocked-render decision and produces a pinned candidate digest."
+    },
+    "visual_qa": {
+      "git_blob_sha": "46e287451a89bad7b16096aae33a3f243713080a",
+      "task_id": "VQA-COM02X-WALK-003",
+      "status": "FAIL",
+      "harness": "content_qa",
+      "candidate_sha256": "a1aa0d08023cc19a42b3c9260bca732059e77eb5dd37c8578afb82bd7dd82400",
+      "finding": "The visual review consumes the exact recovery decision and candidate, returns content-specific checks and preserves a failed minimum-resolution result plus a review-needed crop issue."
+    },
+    "adoption_and_integration_co_publication": {
+      "commit": "ba5f8322d607f6e0cb1a65dc373aed6926ef9af2",
+      "tree": "668ce179009d22cbfbc212671ea9dc52380abe53",
+      "parent": "45f62c381e194bc8b9bc9b3c7629a9a1e2ff8379",
+      "author_event_at": "2026-10-02T02:42:34Z",
+      "commit_event_at": "2026-10-02T02:42:53Z",
+      "message": "Apply COM02X CGs across conversation and walk-home paths",
+      "signed": false,
+      "same_owner_authored_and_committed": true,
+      "files_changed": 23,
+      "finding": "Human adoption, integration, display-coverage review, exact candidate bytes and downstream route/test changes first appear together. Git establishes publication after the earlier QA commit but not adoption-before-integration within this commit."
+    },
+    "human_adoption": {
+      "git_blob_sha": "a17167961939eaacd67c155667eb6a578344ca5d",
+      "task_id": "HUMAN-COM02X-WALK-ADOPTION-003",
+      "status": "HUMAN_ACCEPTED_AS_IS",
+      "input_visual_qa_sha256": "460d1ec15ba572db9ad63502c444677628479ef8b177ca57570edcffaa9f32c1",
+      "input_render_recovery_sha256": "7fa8a923b6c593a01e08e919a1c09e39cf779008ab0c1722649b6185fa184fb4",
+      "accepted_master_sha256": "a1aa0d08023cc19a42b3c9260bca732059e77eb5dd37c8578afb82bd7dd82400",
+      "finding": "The Human record deliberately adopts the exact candidate as-is while retaining the earlier QA failure and review limitation; it does not rewrite them as a pass."
+    },
+    "integration": {
+      "git_blob_sha": "cf78c9b753efa0f2707d4bc1cb3c08db6b9e5ef7",
+      "task_id": "INTEGRATE-COM02X-VISUAL-BINDINGS-006",
+      "status": "PASS",
+      "harness": "integrator",
+      "human_decision_sha256": "bb85fc36688bef43097da0a147bf70f061c5eb9091f4def5b19176b0e8c1139e",
+      "display_review_sha256": "08fb46ea061365c33388c2753e194bc1923a4b5c72076304387c847f149f82bb",
+      "finding": "The integration decision consumes the exact Human adoption and display-review records, then emits exact manifest, route, asset, test and validation identities. This is verified semantic downstream use."
+    },
+    "verification": {
+      "publication_commit": "4e81e7215df7b85d631e424aa56d653a326e645e",
+      "publication_tree": "b115c22467c6b217af5996373bbeb521cb409af5",
+      "publication_parent": "ba5f8322d607f6e0cb1a65dc373aed6926ef9af2",
+      "event_at": "2026-10-02T03:09:00Z",
+      "git_blob_sha": "4dadb1e924795948f8336e38bfc6722665269d4c",
+      "task_id": "VERIFY-COM02X-VISUAL-BINDINGS-008",
+      "status": "PASS",
+      "harness": "integrator",
+      "finding": "A later commit independently orders verification after integration. The verifier consumes exact adoption, integration and display-review digests and returns the same production route, manifest and asset identities while leaving final Human acceptance open."
+    },
+    "final_human_acceptance": {
+      "publication_commit": "25be09b5001a90b63cc37d276b57d8be04f9388c",
+      "publication_tree": "a129c882b21ccdc3ac8e8da46a2352c47474ef74",
+      "publication_parent": "c5251cd2ac58e8daca0d034a0799b60c456dd7d7",
+      "event_at": "2026-10-02T12:53:41Z",
+      "git_blob_sha": "4a564d7f404902f1e0a0e31678cde295c72dffa5",
+      "task_id": "HUMAN-COM02X-PLAYABLE-009",
+      "status": "PASS",
+      "finding": "Seven commits after the adoption/integration commit, the same owner publishes final playable acceptance consuming the exact verification decision and returning the same runtime route, manifest and asset identities. The record itself notes that the tested URL and commit were not explicitly reported."
+    },
+    "chronology": {
+      "compare_base": "ba5f8322d607f6e0cb1a65dc373aed6926ef9af2",
+      "compare_head": "25be09b5001a90b63cc37d276b57d8be04f9388c",
+      "github_compare_status": "ahead",
+      "ahead_by": 7,
+      "verified_order": [
+        "early stage co-publication",
+        "Human adoption and integration co-publication",
+        "verification publication",
+        "final Human acceptance publication"
+      ],
+      "limitation": "Within each co-publication commit, repository fields assert stage order but Git does not independently timestamp it."
+    }
+  },
+  "dependency_assessment": {
+    "content_specific_transfer": true,
+    "exact_artifact_dependencies": true,
+    "downstream_use_verified": true,
+    "early_internal_temporal_dependency": "repository-asserted within one commit",
+    "adoption_to_integration_temporal_dependency": "repository-asserted within one commit",
+    "integration_to_verification_temporal_dependency": "verified by parent commit",
+    "verification_to_final_human_acceptance_temporal_dependency": "verified by later descendant commit",
+    "distinguishable_workflow_roles": true,
+    "independently_verified_autonomous_participants": false,
+    "independently_verified_operators": false,
+    "operator_boundary_evidence": false,
+    "provider_or_model_attribution": "The repository describes AI-assisted production and role harnesses; no selected record authenticates a provider, model, independent runtime or separate operator.",
+    "current_activity_claimed": false,
+    "subjective_rogue_intent_evidence": false
+  },
+  "authorization_and_alternatives": {
+    "explicit_production_coordinator": true,
+    "explicit_fresh_worker_topology": true,
+    "explicit_human_gates": true,
+    "explicit_no_automatic_retry": true,
+    "human_adoption_of_failed_qa_is_preserved": true,
+    "owner_controls_publication_and_effect_boundary": true,
+    "single_operator_automation_supported": true,
+    "designed_multi_agent_workflow_supported": true,
+    "human_requested_workflow_supported": true,
+    "repeated_test_or_retry_excluded_as_explanation_for_commit_order": false,
+    "shared_state_or_serialized_workflow_not_excluded": true,
+    "unauthorized_cross_boundary_coordination_supported": false,
+    "observer_contamination": false
+  },
+  "scoped_prior_reporting_check": {
+    "as_of": "2026-10-25",
+    "github_code_queries": [
+      {
+        "query": "\"HUMAN-COM02X-WALK-ADOPTION-003\"",
+        "result": "8 paths, all in the origin repository"
+      },
+      {
+        "query": "\"a1aa0d08023cc19a42b3c9260bca732059e77eb5dd37c8578afb82bd7dd82400\"",
+        "result": "11 paths, all in the origin repository"
+      },
+      {
+        "query": "\"VERIFY-COM02X-VISUAL-BINDINGS-008\"",
+        "result": "6 paths, all in the origin repository"
+      },
+      {
+        "query": "\"HUMAN-COM02X-PLAYABLE-009\"",
+        "result": "6 paths, all in the origin repository"
+      },
+      {
+        "query": "\"com02x-visual-bindings-20261001\"",
+        "result": "14 paths, all in the origin repository"
+      }
+    ],
+    "web_queries": [
+      "\"HUMAN-COM02X-WALK-ADOPTION-003\"",
+      "\"VERIFY-COM02X-VISUAL-BINDINGS-008\"",
+      "\"HUMAN-COM02X-PLAYABLE-009\"",
+      "\"com02x-visual-bindings-20261001\""
+    ],
+    "web_result": "No relevant exact-match report was returned; the results were unrelated lexical matches.",
+    "result": "No prior coordination report located in the checked scope as of 2026-10-25.",
+    "limitation": "Search absence does not establish global novelty. The repository's own governance and Human gates independently classify the chain as designed.",
+    "known_family_overlap_found": false
+  },
+  "classification": {
+    "lead_id": "BV-105",
+    "label": "human-gated content-production adoption and integration control",
+    "candidate": false,
+    "rationale": "The exact result-to-use chain is stronger than role-name similarity: a recovered candidate is reviewed, deliberately adopted despite preserved QA failure, integrated, verified and finally accepted. But the repository explicitly defines the Coordinator and fresh-worker topology, requires Human gates, uses one public owner for every selected commit and supplies no independent operator or authorization-boundary evidence.",
+    "evidence_needed_to_advance": [
+      "Separately attributable public sender and recipient records with independent runtime and operator provenance.",
+      "Independent publication chronology for the exact delivery and use, not only stage fields co-published in one owner commit.",
+      "Primary evidence that the participants or exchange exceeded the Production Coordinator topology or Human authorization.",
+      "A downstream effect outside the owner-controlled repository and Human-gated workflow."
+    ]
+  },
+  "next_cursors": [
+    {
+      "type": "repository",
+      "cursor": "TsungmingLiu/seventeen-floor-neighbor after 32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "advance_only_if": "A public record authenticates separately operated principals or use outside the Coordinator and Human gates."
+    },
+    {
+      "type": "repository",
+      "cursor": "GodlyDonuts/RSNA-Knee-Abnormality-Detection after bccaf9d0bcea4d64f3aae22cfbef5c6cac04d4d4",
+      "advance_only_if": "An independently published sender/recipient record separates a successor's use from the owner's co-published decision and start observation."
+    },
+    {
+      "type": "repository",
+      "cursor": "StatPan/datapan-registry after 151da89679e34e3d7c034077c3a45a7c648b9de5",
+      "advance_only_if": "A current independently attributable reviewer decision and recipient effect replace the expired owner review boundary."
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"human_gate_required\" \"input_digest_sha256\" \"invalidates\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"durable_decision\" \"input_digest_sha256\" \"accepted_master\"",
+      "next_page": 1
+    },
+    {
+      "type": "exact_query",
+      "cursor": "\"fresh bounded worker\" \"handoff_sha256\" \"human_gate_required\"",
+      "next_page": 1
+    }
+  ],
+  "safety": {
+    "read_only_public_records_only": true,
+    "code_tests_scripts_or_agent_runtime_executed": false,
+    "recovered_artifacts_or_payloads_executed": false,
+    "participants_contacted": false,
+    "scans_messages_reviews_reactions_or_votes_submitted": false,
+    "personal_local_paths_or_task_session_identifiers_published": false,
+    "raw_message_bodies_credentials_tokens_sink_topics_or_addresses_published": false
+  }
+}

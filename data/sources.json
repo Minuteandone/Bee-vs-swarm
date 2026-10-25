@@ -11478,6 +11478,123 @@
       "published": "2026-10-23",
       "ref": "d1f4e87f935d47f829d18448d2f7ef582ed55535",
       "observed_at": "2026-10-25T12:14:17Z"
+    },
+    {
+      "id": "original-seventeen-floor-pinned-tree-32de069",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/tree/32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "role": "Pinned public tree for designed human-gated production workflow; current presence does not establish current activity",
+      "published": "2026-10-08",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "tree_sha": "096384dc049db7aeff4faf4d248233f854e9a282",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-orchestration-contract-3bbd940",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/.ai/PRODUCTION_ORCHESTRATION.md",
+      "role": "Canonical Coordinator, fresh-worker, structured-handoff, no-auto-retry and final-Human-gate contract",
+      "published": "2026-10-02",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "3bbd940de233daf9ff22741bac640f8fadcd932e",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-early-stage-publication-aebda00",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/commit/aebda00d92f8dc614a8bdc6e1671541fd4d660ce",
+      "role": "Unsigned same-owner co-publication of planning, render recovery and visual-QA decisions",
+      "published": "2026-10-01",
+      "ref": "aebda00d92f8dc614a8bdc6e1671541fd4d660ce",
+      "tree_sha": "b18b3b329a4ec61eea49b34ec21b7a9151f7f7ba",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-plan-7965d49",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-cg-20260930/PLAN-COM02X-WALK-006.decision.json",
+      "role": "Content-specific planner decision consuming exact prior Human, QA and render records",
+      "published": "2026-10-01",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "7965d49dd23a42464ffb733921ecf73d23767e73",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-render-recovery-f87f18b",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-cg-20260930/RENDER-COM02X-WALK-003-RECOVERY.decision.json",
+      "role": "Recovery decision consuming exact blocked-render record and emitting pinned candidate digest",
+      "published": "2026-10-01",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "f87f18b4616ac9e17e198d42f50844de8a367fa0",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-visual-qa-46e2874",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-cg-20260930/VQA-COM02X-WALK-003.decision.json",
+      "role": "Content-specific visual QA consuming recovered candidate and preserving FAIL plus review-needed result",
+      "published": "2026-10-01",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "46e287451a89bad7b16096aae33a3f243713080a",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-adoption-integration-ba5f832",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/commit/ba5f8322d607f6e0cb1a65dc373aed6926ef9af2",
+      "role": "Unsigned same-owner co-publication of Human adoption, integration, display review and downstream production outputs",
+      "published": "2026-10-02",
+      "ref": "ba5f8322d607f6e0cb1a65dc373aed6926ef9af2",
+      "tree_sha": "668ce179009d22cbfbc212671ea9dc52380abe53",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-human-adoption-a171679",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-visual-bindings-20261001/HUMAN-COM02X-WALK-ADOPTION-003.decision.json",
+      "role": "Human exact-candidate adoption preserving prior visual-QA failure and scope limits",
+      "published": "2026-10-02",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "a17167961939eaacd67c155667eb6a578344ca5d",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-integration-cf78c9b",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-visual-bindings-20261001/INTEGRATE-COM02X-VISUAL-BINDINGS-006.decision.json",
+      "role": "Integrator decision consuming exact Human adoption and display-review digests into pinned route, asset and test outputs",
+      "published": "2026-10-02",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "cf78c9b753efa0f2707d4bc1cb3c08db6b9e5ef7",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-verification-4e81e72",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/commit/4e81e7215df7b85d631e424aa56d653a326e645e",
+      "role": "Later same-owner commit independently ordering exact integration verification after adoption/integration publication",
+      "published": "2026-10-02",
+      "ref": "4e81e7215df7b85d631e424aa56d653a326e645e",
+      "tree_sha": "b115c22467c6b217af5996373bbeb521cb409af5",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-verify-decision-4dadb1e",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-visual-bindings-20261001/VERIFY-COM02X-VISUAL-BINDINGS-008.decision.json",
+      "role": "Verification decision consuming exact adoption, integration and review records while retaining final Human gate",
+      "published": "2026-10-02",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "4dadb1e924795948f8336e38bfc6722665269d4c",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-final-human-acceptance-25be09b",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/commit/25be09b5001a90b63cc37d276b57d8be04f9388c",
+      "role": "Later owner publication of final playable acceptance after exact verification",
+      "published": "2026-10-02",
+      "ref": "25be09b5001a90b63cc37d276b57d8be04f9388c",
+      "tree_sha": "a129c882b21ccdc3ac8e8da46a2352c47474ef74",
+      "observed_at": "2026-10-25T13:13:27Z"
+    },
+    {
+      "id": "original-seventeen-floor-final-human-record-4a564d7",
+      "url": "https://github.com/TsungmingLiu/seventeen-floor-neighbor/blob/32de069e9b50bc78b60054e0f263d5fbd194758c/content/production/runs/com02x-visual-bindings-20261001/HUMAN-COM02X-PLAYABLE-009.decision.json",
+      "role": "Final Human decision consuming exact verification record and returning the same runtime identities",
+      "published": "2026-10-02",
+      "ref": "32de069e9b50bc78b60054e0f263d5fbd194758c",
+      "blob_sha": "4a564d7f404902f1e0a0e31678cde295c72dffa5",
+      "observed_at": "2026-10-25T13:13:27Z"
     }
   ]
 }

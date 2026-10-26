@@ -11955,6 +11955,153 @@
       "blob_sha": "4f9781be9c942da27fa988ddbb94b76ea01c050a",
       "ref_date": "2026-09-12T02:04:43Z",
       "observed_at": "2026-10-25T18:38:49Z"
+    },
+    {
+      "id": "original-assignment3-source-commit-187d724",
+      "url": "https://github.com/NotAProgrammer404/assignment-3/commit/187d7249c561c1af1c84ca1c2472cc08fe27273f",
+      "role": "First public source commit containing the selected designed message-bus run and architecture",
+      "ref": "187d7249c561c1af1c84ca1c2472cc08fe27273f",
+      "ref_date": "2026-04-12T15:57:20Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-assignment3-readme-6249809",
+      "url": "https://github.com/NotAProgrammer404/assignment-3/blob/187d7249c561c1af1c84ca1c2472cc08fe27273f/README.md",
+      "role": "Explicit five-role architecture, ordered flow, shared bus and test-integration boundary",
+      "ref": "187d7249c561c1af1c84ca1c2472cc08fe27273f",
+      "blob_sha": "624980939a0445cd021110fb46714161826c90fd",
+      "ref_date": "2026-04-12T15:57:20Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-assignment3-message-log-0fb2c8d",
+      "url": "https://github.com/NotAProgrammer404/assignment-3/blob/187d7249c561c1af1c84ca1c2472cc08fe27273f/message_log.json",
+      "role": "Thirteen-message designed run preserving result transfer, reviewer use and revision; payloads and identifiers are not reproduced",
+      "ref": "187d7249c561c1af1c84ca1c2472cc08fe27273f",
+      "blob_sha": "0fb2c8d061a854be181c368ced19fef41208f88e",
+      "ref_date": "2026-04-12T15:57:20Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-assignment3-pr-2",
+      "url": "https://github.com/NotAProgrammer404/assignment-3/pull/2",
+      "role": "Initial engineering artifact created during the logged run and merged by the repository owner",
+      "ref": "046c52455b51b97857f3a3cd9c42cda3a9d1e83e",
+      "ref_date": "2026-04-12T15:32:23Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-assignment3-pr-4",
+      "url": "https://github.com/NotAProgrammer404/assignment-3/pull/4",
+      "role": "Revision artifact created after the logged reviewer failure and later closed unmerged",
+      "ref": "39885765ec78cebd13edf6c3adf62cb2f6f9698f",
+      "ref_date": "2026-04-12T15:29:14Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-awaaz-initial-commit-3b4d9d6",
+      "url": "https://github.com/afanatif/Awaaz/commit/3b4d9d6f925f152ec74d450bde5b7904fe9f065c",
+      "role": "Initial publication containing an earlier controlled five-stage run",
+      "ref": "3b4d9d6f925f152ec74d450bde5b7904fe9f065c",
+      "ref_date": "2026-05-19T12:48:53Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-awaaz-initial-log-506c87f",
+      "url": "https://github.com/afanatif/Awaaz/blob/3b4d9d6f925f152ec74d450bde5b7904fe9f065c/message_log.json",
+      "role": "Earlier five-message run with the same role order and four parent links; payloads and identifiers are not reproduced",
+      "ref": "3b4d9d6f925f152ec74d450bde5b7904fe9f065c",
+      "blob_sha": "506c87f881d63e168d159115d6ec880b986d50d7",
+      "ref_date": "2026-05-19T12:48:53Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-awaaz-record-commit-4acc21d",
+      "url": "https://github.com/afanatif/Awaaz/commit/4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+      "role": "First publication of the selected parent-linked pipeline run",
+      "ref": "4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+      "ref_date": "2026-05-19T16:22:53Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-awaaz-readme-ea59865",
+      "url": "https://github.com/afanatif/Awaaz/blob/4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf/README.md",
+      "role": "Fixed multi-agent pipeline, simulated-action and audit-log design context",
+      "ref": "4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+      "blob_sha": "ea598656c7da5ed71f381e52277595e861ba78ee",
+      "ref_date": "2026-05-19T16:22:53Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-awaaz-message-log-f31dfaf",
+      "url": "https://github.com/afanatif/Awaaz/blob/4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf/message_log.json",
+      "role": "Five-message exact parent chain from ingestion through monitoring; payloads and identifiers are not reproduced",
+      "ref": "4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+      "blob_sha": "f31dfaf3b038738ccc941adb839776ebff9655bf",
+      "ref_date": "2026-05-19T16:22:53Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-awaaz-outcome-c4fdb42",
+      "url": "https://github.com/afanatif/Awaaz/blob/4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf/output/outcome.json",
+      "role": "Terminal outcome for the selected designed pipeline run",
+      "ref": "4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+      "blob_sha": "c4fdb420b1ca3cd35c03bc61952f3b0bbd0f5fce",
+      "ref_date": "2026-05-19T16:22:53Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-launchmind-abc-commit-fc82f4c",
+      "url": "https://github.com/ahsanabdul1870/Launchmind-ABC/commit/fc82f4c9a8be9f42994b029f447d25ad1e144a68",
+      "role": "Publication ref for the selected template-family designed-run control",
+      "ref": "fc82f4c9a8be9f42994b029f447d25ad1e144a68",
+      "ref_date": "2026-04-12T20:35:30Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-launchmind-abc-readme-31a495e",
+      "url": "https://github.com/ahsanabdul1870/Launchmind-ABC/blob/fc82f4c9a8be9f42994b029f447d25ad1e144a68/README.md",
+      "role": "Explicit shared-bus, bounded-iteration pipeline design",
+      "ref": "fc82f4c9a8be9f42994b029f447d25ad1e144a68",
+      "blob_sha": "31a495e458cc595914f4f1bc49da0ca93e555a3f",
+      "ref_date": "2026-04-12T20:35:30Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-launchmind-abc-transcript-24be84f",
+      "url": "https://github.com/ahsanabdul1870/Launchmind-ABC/blob/fc82f4c9a8be9f42994b029f447d25ad1e144a68/message_bus_transcript.json",
+      "role": "Twenty-five-message designed pipeline transcript; payloads and identifiers are not reproduced",
+      "ref": "fc82f4c9a8be9f42994b029f447d25ad1e144a68",
+      "blob_sha": "24be84f849f1c9f911a4f4217d8dfed6cecc1eb1",
+      "ref_date": "2026-04-12T20:35:30Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-launchmind-conflicted-log-3097c94",
+      "url": "https://github.com/HamzaBurney/launchmind/blob/a25e73157bb208ad41a431d8bcbfd9475cd06f2c/logs/message_bus.json",
+      "role": "Message-bus file with unresolved merge-conflict markers; invalid-record control",
+      "ref": "a25e73157bb208ad41a431d8bcbfd9475cd06f2c",
+      "blob_sha": "3097c94fbeee695c830484b868ed696d5cd7c3d3",
+      "ref_date": "2026-04-21T09:08:13Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-team-cotimestamped-log-ed0cb5f",
+      "url": "https://github.com/heffrey78/team/blob/f21903dda40b91eb2595ad772d9685c0494bf7c8/agent_messages.json",
+      "role": "Co-timestamped role status ledger with duplicate-key defects; causal-record control",
+      "ref": "f21903dda40b91eb2595ad772d9685c0494bf7c8",
+      "blob_sha": "ed0cb5ffdfd10039d7655e426277ee78e26e7745",
+      "ref_date": "2025-06-03T23:05:08Z",
+      "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-merlin-pending-log-75abf77",
+      "url": "https://github.com/merlingame-netizen/M.E.R.L.I.N/blob/629131cc9ef848fbf4750b2428d6fb74d67171c5/tools/autodev/status/agent_messages.json",
+      "role": "Single pending sender-to-orchestrator message with no handled time or downstream use",
+      "ref": "629131cc9ef848fbf4750b2428d6fb74d67171c5",
+      "blob_sha": "75abf776a10a13481e5ea5d7457c199ed76d46be",
+      "ref_date": "2026-10-09T18:05:17Z",
+      "observed_at": "2026-10-26T00:10:37Z"
     }
   ]
 }

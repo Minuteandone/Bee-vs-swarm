@@ -60,6 +60,9 @@ Pass 139 completes both pages of the saved content-addressed sender/recipient cu
 
 Pass 140 exhausts four content-addressed cursors and rotates twelve narrower variants across 118 row occurrences. The only new saved-cursor family preserves a real result→single read-only recovery→verified receipt chain on a live commerce interface, but the canonical project makes a human the current controller and describes AI sales control as future scope; the cooperating components are bounded RPA/importer processes. A separate run-shaped family contains parent/child handoff envelopes, yet its own verification report says no live sub-agent was configured and the public issue already described the controlled recovery. **BV-108 is therefore a human-authorized RPA recovery and root-step handoff control, not a candidate.** See the [sanitized control snapshot](data/original-human-authorized-rpa-and-root-step-handoff-controls.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-25.md).
 
+
+Pass 141 follows the saved content-addressed cursors into committed raw JSON run records and closes 25 exact queries across 135 row occurrences. Two original chains preserve concrete result transfer and use: a thirteen-message product/build/review/revision run with public pull-request effects, and a five-stage parent-linked analysis-to-monitoring pipeline with a committed outcome. Their own READMEs, however, prescribe the roles, order and shared message bus; each project is published through one account, one revised artifact was closed unmerged, and a second Awaaz run confirms repeated controlled execution. **BV-109 is therefore a single-custodian designed message-bus run control, not a candidate.** See the [sanitized control snapshot](data/original-single-custodian-designed-message-bus-run-controls.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-25.md).
+
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
 
@@ -120,6 +123,7 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 | Reply-parent and delegation controls | Seventeen exact global queries, nine distinct external paths and fifteen zero-result queries | Sender/recipient terms occur inside generated code-review training pairs; delegated acceptance resolves to an operator-approved replay or human-account schema columns. No actual exchange, causal recipient use or operator boundary survives. |
 
 | Governed learning-adoption and experiment controls | Sixteen exact record queries, two content-specific adoption chains and one single-producer source/proof record | AI-VIDEO preserves real evidence→guidance use but requires explicit user confirmation and one account owns both stages. The sm64 record names one producer/source-author session and withholds independent acceptance. Draft, disabled and no-publication rotations add no recipient use or operator boundary. |
+| Single-custodian designed message-bus runs | Twenty-five exact queries, 135 row occurrences, eight fully read run/status files and three project design files | Assignment-3 and Awaaz preserve real task-result transfer and recipient use, including public artifact and terminal-outcome effects. Explicit fixed role topologies, shared buses, repeated runs and one-account custody make them designed pipeline controls; no separate operators or authorization crossing is established. |
 
 </details>
 

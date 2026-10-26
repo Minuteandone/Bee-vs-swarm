@@ -1,0 +1,410 @@
+{
+  "snapshot": "single-custodian designed message-bus run controls",
+  "observed_at": "2026-10-26T00:10:37Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "ccb0949a567ea35d2bfcee20c1ddf5adeb539e75",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "urlscan_listing_pages_closed": 57,
+    "scanner_reopened": false,
+    "reason": "No new source-level cue separates the paused scanner remainder from known controls; this pass resumed saved content-addressed cursors and rotated into committed raw JSON run records."
+  },
+  "collection": {
+    "saved_cursor_results": [
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\" \"consumed_at\"",
+        "rows": 15,
+        "self_index_rows": 15,
+        "external_rows": 0
+      },
+      {
+        "query": "\"handoff_envelope\" \"consumer_attempt\" \"agent_id\" \"occurred_at\"",
+        "rows": 15,
+        "self_index_rows": 2,
+        "external_rows": 13,
+        "result": "All thirteen external rows are the already classified PuPu controlled-recovery family; it was not reopened."
+      },
+      {
+        "query": "\"source_result_sha256\" \"recipient_result_sha256\" \"accepted_at\"",
+        "rows": 2,
+        "self_index_rows": 2,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_provider\" \"recipient_provider\" \"source_message_sha256\" \"consumed_at\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "raw_extension_queries": [
+      {
+        "query": "\"from_agent_id\" \"to_agent_id\" \"body\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"created_at\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_message_id\" \"used_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"artifact_refs\" \"sender_agent_id\" extension:json",
+        "rows": 56,
+        "self_index_rows": 0,
+        "external_rows": 56,
+        "result": "All 56 rows are examples or schema snapshots in Nova-Harness and adea, not emitted episodes."
+      },
+      {
+        "query": "\"message.accepted\" \"delivery.settled\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"task_delegation\" \"read_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"model_visible_at\" \"settled_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"recipient_session_id\" \"source_message_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"message\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_principal_id\" \"recipient_principal_id\" \"acked_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "narrow_exact_record_locators": [
+      {
+        "query": "\"SleepPillow\" \"revision_request\" \"from_agent\" \"to_agent\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1
+      },
+      {
+        "query": "\"Pipeline analysis for investments and commodities resulted in a contradicted verdict\"",
+        "rows": 3,
+        "self_index_rows": 0,
+        "external_rows": 3
+      },
+      {
+        "query": "\"lora_trainer\" \"orchestrator\" \"model_ready\" \"handled_at\"",
+        "rows": 2,
+        "self_index_rows": 0,
+        "external_rows": 2
+      },
+      {
+        "query": "\"game-architect-001\" \"qa-engineer-001\" \"task_completion\" \"quality_report\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1
+      },
+      {
+        "query": "\"message_id\" \"from_agent\" \"to_agent\" \"message_type\" \"parent_message_id\" extension:json",
+        "rows": 29,
+        "self_index_rows": 0,
+        "external_rows": 29
+      },
+      {
+        "query": "\"Ingestion\" \"Analyst\" \"Strategist\" \"Executor\" \"Monitor\" \"parent_message_id\"",
+        "rows": 3,
+        "self_index_rows": 0,
+        "external_rows": 3
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"b1-direct-native\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "template_context_checks": [
+      {
+        "query": "\"LaunchMind - Multi-Agent Startup System\"",
+        "rows": 3,
+        "self_index_rows": 0,
+        "external_rows": 3,
+        "result": "Origin or same-assignment/template-family material."
+      },
+      {
+        "query": "\"CEO Agent\" \"Product Agent\" \"Engineer Agent\" \"Marketing Agent\" \"QA Agent\" \"message_log.json\"",
+        "rows": 3,
+        "self_index_rows": 0,
+        "external_rows": 3,
+        "result": "Origin or same-assignment/template-family material."
+      },
+      {
+        "query": "\"All agents communicate via structured JSON messages through a shared message bus\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1,
+        "result": "Origin or same-assignment/template-family material."
+      },
+      {
+        "query": "\"custom Python orchestration pipeline\" \"shared JSON message bus\" \"up to 3 iterations\"",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1,
+        "result": "Origin or same-assignment/template-family material."
+      }
+    ],
+    "aggregate": {
+      "exact_queries": 25,
+      "row_occurrences": 135,
+      "self_index_row_occurrences": 19,
+      "external_row_occurrences": 116,
+      "distinct_external_repositories": 14,
+      "method": "GitHub default-branch code search. Counts are row occurrences, not distinct episodes. Search results were only locators; selected complete records, documentation, commit metadata and pull-request state were read at immutable refs.",
+      "volatility_note": "One broad field query changed across index observations. Selected records were re-located by content-specific exact queries, so no conclusion depends on that broad count."
+    },
+    "selected_records": [
+      {
+        "repository": "NotAProgrammer404/assignment-3",
+        "ref": "187d7249c561c1af1c84ca1c2472cc08fe27273f",
+        "ref_event_at": "2026-04-12T15:57:20Z",
+        "message_log_blob_sha": "0fb2c8d061a854be181c368ced19fef41208f88e",
+        "readme_blob_sha": "624980939a0445cd021110fb46714161826c90fd",
+        "selected_reason": "Complete thirteen-message product, build, review and revision run with public pull-request effects."
+      },
+      {
+        "repository": "afanatif/Awaaz",
+        "ref": "4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+        "ref_event_at": "2026-05-19T16:22:53Z",
+        "message_log_blob_sha": "f31dfaf3b038738ccc941adb839776ebff9655bf",
+        "readme_blob_sha": "ea598656c7da5ed71f381e52277595e861ba78ee",
+        "outcome_blob_sha": "c4fdb420b1ca3cd35c03bc61952f3b0bbd0f5fce",
+        "selected_reason": "Complete five-stage parent-linked pipeline whose recipient stages use predecessor output and publish a final outcome."
+      },
+      {
+        "repository": "ahsanabdul1870/Launchmind-ABC",
+        "ref": "fc82f4c9a8be9f42994b029f447d25ad1e144a68",
+        "ref_event_at": "2026-04-12T20:35:30Z",
+        "transcript_blob_sha": "24be84f849f1c9f911a4f4217d8dfed6cecc1eb1",
+        "readme_blob_sha": "31a495e458cc595914f4f1bc49da0ca93e555a3f",
+        "selected_reason": "Twenty-five-message template-family control explicitly documenting one custom pipeline, a shared bus and bounded revision iterations."
+      }
+    ]
+  },
+  "assignment3_chain": {
+    "repository": "NotAProgrammer404/assignment-3",
+    "source_publication": {
+      "commit": "187d7249c561c1af1c84ca1c2472cc08fe27273f",
+      "event_at": "2026-04-12T15:57:20Z",
+      "message_log_blob_sha": "0fb2c8d061a854be181c368ced19fef41208f88e",
+      "readme_blob_sha": "624980939a0445cd021110fb46714161826c90fd"
+    },
+    "run_window": {
+      "first_event_at": "2026-04-12T15:17:55.697776Z",
+      "last_event_at": "2026-04-12T15:30:22.581707Z",
+      "messages": 13,
+      "explicit_parent_links": 2
+    },
+    "sanitized_dependency_sequence": [
+      "An orchestrator assigns product work; the product role returns a structured result.",
+      "The orchestrator carries the returned product fields into separate engineering and marketing tasks.",
+      "Engineering and marketing return artifacts; the orchestrator carries both plus the product specification into the reviewer task.",
+      "The reviewer returns a failure result; the orchestrator sends the cited issue back to engineering as a parent-linked revision request.",
+      "Engineering returns a revised pull request and the orchestrator emits a final summary."
+    ],
+    "public_artifact_effects": [
+      {
+        "url": "https://github.com/NotAProgrammer404/assignment-3/pull/2",
+        "created_at": "2026-04-12T15:23:07Z",
+        "merged_at": "2026-04-12T15:32:23Z",
+        "merge_commit": "046c52455b51b97857f3a3cd9c42cda3a9d1e83e",
+        "finding": "The initial engineering artifact was created and merged by the same public account that owns the repository."
+      },
+      {
+        "url": "https://github.com/NotAProgrammer404/assignment-3/pull/4",
+        "created_at": "2026-04-12T15:29:14Z",
+        "closed_at": "2026-04-12T16:54:40Z",
+        "merged": false,
+        "finding": "The requested revision produced a second artifact, but it was closed unmerged; adoption is not claimed."
+      }
+    ],
+    "project_context": "The README defines the five roles, their ordered flow, a shared JSON bus, local-model configuration and test integrations. One public GitHub account created both pull requests and merged the accepted artifact.",
+    "dependency_assessment": {
+      "task_result_transfer": true,
+      "content_specific_recipient_use": true,
+      "public_external_artifact_effect": true,
+      "verified_autonomous_ai_participants": false,
+      "independently_verified_separate_operators": false,
+      "operator_boundary_evidence": false,
+      "authorization_crossing": false,
+      "subjective_rogue_intent_evidence": false,
+      "provider_or_model_attribution": "Project-authored configuration names a local model, but no provider or runtime independently attests the role identities.",
+      "current_activity_claimed": false
+    }
+  },
+  "awaaz_chain": {
+    "repository": "afanatif/Awaaz",
+    "selected_publication": {
+      "commit": "4acc21d96ae98f2af6bf6b0c92ecdb68023ac8cf",
+      "event_at": "2026-05-19T16:22:53Z",
+      "message_log_blob_sha": "f31dfaf3b038738ccc941adb839776ebff9655bf",
+      "readme_blob_sha": "ea598656c7da5ed71f381e52277595e861ba78ee",
+      "outcome_blob_sha": "c4fdb420b1ca3cd35c03bc61952f3b0bbd0f5fce"
+    },
+    "run_window": {
+      "first_event_at": "2026-05-19T12:54:33.715315Z",
+      "last_event_at": "2026-05-19T12:54:50.851071Z",
+      "messages": 5,
+      "explicit_parent_links": 4
+    },
+    "sanitized_dependency_sequence": [
+      "Ingestion sends a task to analysis.",
+      "Analysis sends its result to strategy with an exact parent link.",
+      "Strategy sends the selected decision to execution with an exact parent link.",
+      "Execution sends its simulated action record to monitoring with an exact parent link.",
+      "Monitoring sends the final result to the system with an exact parent link; a separate outcome file preserves the terminal summary."
+    ],
+    "repeated_run_control": {
+      "initial_commit": "3b4d9d6f925f152ec74d450bde5b7904fe9f065c",
+      "initial_commit_event_at": "2026-05-19T12:48:53Z",
+      "initial_message_log_blob_sha": "506c87f881d63e168d159115d6ec880b986d50d7",
+      "earlier_run_window": "2026-05-19T12:23:43.132701Z to 2026-05-19T12:24:01.229333Z",
+      "finding": "The initial commit contains a different five-message run with the same role order and four parent links, supporting repeated controlled execution."
+    },
+    "project_context": "The README describes a fixed multi-agent pipeline and labels execution a simulation with retries and audit logging. One repository account publishes the run and context.",
+    "dependency_assessment": {
+      "task_result_transfer": true,
+      "content_specific_recipient_use": true,
+      "exact_parent_chain": true,
+      "terminal_outcome_published": true,
+      "verified_autonomous_ai_participants": false,
+      "independently_verified_separate_operators": false,
+      "operator_boundary_evidence": false,
+      "authorization_crossing": false,
+      "subjective_rogue_intent_evidence": false,
+      "provider_or_model_attribution": "Role labels and application prose only; no independent provider or runtime attestation.",
+      "current_activity_claimed": false
+    }
+  },
+  "additional_controls": {
+    "launchmind_abc": {
+      "ref": "fc82f4c9a8be9f42994b029f447d25ad1e144a68",
+      "event_at": "2026-04-12T20:35:30Z",
+      "transcript_blob_sha": "24be84f849f1c9f911a4f4217d8dfed6cecc1eb1",
+      "finding": "Twenty-five messages belong to an explicitly documented custom five-role pipeline with a shared bus, provider fallback and up to three iterations."
+    },
+    "conflicted_log": {
+      "repository": "HamzaBurney/launchmind",
+      "ref": "a25e73157bb208ad41a431d8bcbfd9475cd06f2c",
+      "blob_sha": "3097c94fbeee695c830484b868ed696d5cd7c3d3",
+      "finding": "The log contains unresolved Git merge-conflict markers and is not valid JSON, so it cannot authenticate one coherent exchange."
+    },
+    "cotimestamped_status_ledger": {
+      "repository": "heffrey78/team",
+      "ref": "f21903dda40b91eb2595ad772d9685c0494bf7c8",
+      "blob_sha": "ed0cb5ffdfd10039d7655e426277ee78e26e7745",
+      "finding": "Eleven role-labelled entries share one timestamp and some objects contain duplicate keys; this is a designed status ledger, not causal runtime evidence."
+    },
+    "pending_message": {
+      "repository": "merlingame-netizen/M.E.R.L.I.N",
+      "ref": "629131cc9ef848fbf4750b2428d6fb74d67171c5",
+      "blob_sha": "75abf776a10a13481e5ea5d7457c199ed76d46be",
+      "finding": "One model-ready message remains pending with a null handled time; no recipient acquisition or use is recorded."
+    }
+  },
+  "alternatives": {
+    "designed_team": "Decisive. Both projects prescribe the role topology, order, shared bus and review or monitor stages before the recorded runs.",
+    "single_operator_automation": "Decisive. Each project is published and externally acted on through one GitHub account; role names are not independent operators.",
+    "human_requested_outreach": "The assignment documents test inbox and team-channel integrations. No sink inbox or private recipient record was read, and no public recipient acknowledgement or dependent action was found.",
+    "repeated_tests": "Awaaz publishes an earlier run with the same five-stage shape. LaunchMind-family repositories and assignment wording also support coursework or template reuse.",
+    "scanner_retries": "Not applicable to these committed records; scanner traffic was not treated as participant evidence.",
+    "shared_state_fault": "A shared bus could explain visibility, but documented orchestration already requires every selected transfer. No unintended contamination is needed.",
+    "observer_contamination": "Nineteen search rows are this repository's indexed cursor text and were counted separately. Conclusions use pinned external records."
+  },
+  "prior_reporting_check": {
+    "checked_as_of": "25 October 2026",
+    "web_queries": [
+      "\"NotAProgrammer404/assignment-3\" SleepPillow multi-agent",
+      "\"message_log.json\" SleepPillow \"revision_request\"",
+      "\"afanatif/Awaaz\" multi-agent pipeline",
+      "\"Pipeline analysis for investments and commodities resulted in a contradicted verdict\""
+    ],
+    "github_code_queries": [
+      "\"SleepPillow\" \"revision_request\" \"from_agent\" \"to_agent\"",
+      "\"NotAProgrammer404/assignment-3\" \"message_log.json\"",
+      "\"Pipeline analysis for investments and commodities resulted in a contradicted verdict\"",
+      "\"Ingestion\" \"Analyst\" \"Strategist\" \"Executor\" \"Monitor\" \"parent_message_id\""
+    ],
+    "result": "No prior coordination report was located in this exact checked scope as of 25 October 2026. Exact checks resolved to origin records or same-assignment or template material. Search absence does not establish global novelty and cannot override explicit designed authorization."
+  },
+  "classification": {
+    "lead_id": "BV-109",
+    "result": "single-custodian designed message-bus run controls",
+    "candidate": false,
+    "reason": "The original records establish task-result transfer and recipient use, but not independently operated autonomous participants or an operator-defined authorization crossing. Effects remain inside prescribed pipelines and one-account custody."
+  },
+  "missing_evidence_to_advance": [
+    "Primary records independently authenticating at least two autonomous AI runtimes and their distinct operators, rather than application role labels.",
+    "A delivery edge outside the prescribed shared-bus topology, with the recipient action causally tied to the exact transferred result.",
+    "Owner, operator or policy evidence that the cooperation itself exceeded authorization; an individual bad action, test integration or model-like prose is insufficient.",
+    "For the assignment revision, public evidence that the revised artifact was adopted; for outreach, a public recipient acknowledgement or dependent action without reading a sink inbox."
+  ],
+  "next_cursors": [
+    {
+      "query": "\"parent_message_id\" \"sender_runtime_id\" \"recipient_runtime_id\" \"handled_at\" extension:json",
+      "page": 1,
+      "rationale": "Require reply lineage plus independently attributable runtime fields and handling."
+    },
+    {
+      "query": "\"source_message_sha256\" \"recipient_action_sha256\" \"consumed_at\" extension:json",
+      "page": 1,
+      "rationale": "Require a content-addressed source and bound downstream action."
+    },
+    {
+      "query": "\"message_id\" \"sender_operator_id\" \"recipient_operator_id\" \"acknowledged_at\" extension:json",
+      "page": 1,
+      "rationale": "Require operator provenance and recipient acknowledgement."
+    },
+    {
+      "query": "\"artifact_sha256\" \"produced_by_session\" \"consumed_by_session\" \"used_at\" extension:json",
+      "page": 1,
+      "rationale": "Require separate production and consumption sessions plus explicit use."
+    }
+  ],
+  "safeguards": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_installed": false,
+    "agent_runtime_invoked": false,
+    "participants_contacted": false,
+    "messages_or_votes_posted": false,
+    "scans_submitted": false,
+    "target_systems_probed": false,
+    "sensitive_material_published": false,
+    "sanitization": "Retains public links, immutable refs, hashes, event and observation times, role-level dependencies and limitations. Omits payload bodies, message, run and task IDs, carrier URLs, inboxes, channel names, personal addresses, credentials, tokens and private paths."
+  }
+}

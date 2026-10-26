@@ -12102,6 +12102,76 @@
       "blob_sha": "75abf776a10a13481e5ea5d7457c199ed76d46be",
       "ref_date": "2026-10-09T18:05:17Z",
       "observed_at": "2026-10-26T00:10:37Z"
+    },
+    {
+      "id": "original-multiagent-web03-commit-339c175",
+      "url": "https://github.com/donbblu/MultiAgent/commit/339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "role": "Immutable publication ref for the designed real-CLI three-role acceptance run",
+      "ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "ref_date": "2026-09-18T06:05:26Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-multiagent-web03-report-7a1eabb",
+      "url": "https://github.com/donbblu/MultiAgent/blob/339c175cef3f5121b19efd2a2a074da045f2dff7/VerificationReports/PRODUCT-CONTINUITY-WEB-03-REAL-01.md",
+      "role": "Public verification report documenting explicit authorization, overlapping worker lifecycles, aggregation and limitations",
+      "ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "blob_sha": "7a1eabb19c3a94f05a264fd132629952049cc71e",
+      "ref_date": "2026-09-18T06:05:26Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-multiagent-web03-parallel-4f4f637",
+      "url": "https://github.com/donbblu/MultiAgent/blob/339c175cef3f5121b19efd2a2a074da045f2dff7/VerificationReports/PRODUCT-CONTINUITY-WEB-03-REAL-01-PARALLEL.json",
+      "role": "Raw nine-message result record preserving two worker returns and a later aggregate; payloads and identifiers are not reproduced",
+      "ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "blob_sha": "4f4f6371220c181c770da1596d17383560c344a9",
+      "ref_date": "2026-09-18T06:05:26Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-multiagent-readme-1868e92",
+      "url": "https://github.com/donbblu/MultiAgent/blob/339c175cef3f5121b19efd2a2a074da045f2dff7/README.md",
+      "role": "Local-first harness design, user entry-agent selection and runtime control context",
+      "ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "blob_sha": "1868e9248e2f26623f54ed2059c5717df66ec0ec",
+      "ref_date": "2026-09-18T06:05:26Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-multiagent-a2a-v3-readme-5972a5f",
+      "url": "https://github.com/donbblu/MultiAgent/blob/339c175cef3f5121b19efd2a2a074da045f2dff7/demo/product_a2a/v3/README.md",
+      "role": "Designed bounded delegation and three-role provider mapping context",
+      "ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "blob_sha": "5972a5fa560e2bf1cfd7f5f4c8d285bd3e45b32c",
+      "ref_date": "2026-09-18T06:05:26Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-lidlift-handoff-ref-03e659f",
+      "url": "https://github.com/igor-holt/lidlift-mcp/commit/03e659f8f5f8624e2051273a02b7abf9e2eda82a",
+      "role": "Immutable observation ref containing the static future-work handoff file",
+      "ref": "03e659f8f5f8624e2051273a02b7abf9e2eda82a",
+      "ref_date": "2026-05-29T13:30:36Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-lidlift-static-handoff-8fa0b03",
+      "url": "https://github.com/igor-holt/lidlift-mcp/blob/03e659f8f5f8624e2051273a02b7abf9e2eda82a/a2a/copilot-opus-4.5-fleet-next-steps.jsonl",
+      "role": "Static thirteen-record sender/target-labelled roadmap with no public recipient receipt or use",
+      "ref": "03e659f8f5f8624e2051273a02b7abf9e2eda82a",
+      "blob_sha": "8fa0b036889968e4ae5922587dd7f398b6ba6dca",
+      "ref_date": "2026-05-29T13:30:36Z",
+      "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-lidlift-readme-f966d48",
+      "url": "https://github.com/igor-holt/lidlift-mcp/blob/03e659f8f5f8624e2051273a02b7abf9e2eda82a/README.md",
+      "role": "Project and operator-console context for the static handoff control",
+      "ref": "03e659f8f5f8624e2051273a02b7abf9e2eda82a",
+      "blob_sha": "f966d484721734c67f1c0b4b3bc35f25978d7345",
+      "ref_date": "2026-05-29T13:30:36Z",
+      "observed_at": "2026-10-26T01:30:42Z"
     }
   ]
 }

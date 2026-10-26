@@ -1,0 +1,461 @@
+{
+  "snapshot": "authorized real-CLI parallel join and static future-work handoff controls",
+  "observed_at": "2026-10-26T01:30:42Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "27a92e227e946d22f88b90f600a9fea7f8a20692",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "No new source-level participant, transfer/use, provenance or authorization cue separates the paused scanner remainder from known families. This pass resumed the four saved original-record cursors and rotated through lower-arity raw-record and operator-boundary fields."
+  },
+  "collection": {
+    "saved_provenance_cursors": [
+      {
+        "query": "\"parent_message_id\" \"sender_runtime_id\" \"recipient_runtime_id\" \"handled_at\" extension:json",
+        "rows": 1,
+        "self_index_rows": 1,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      },
+      {
+        "query": "\"source_message_sha256\" \"recipient_action_sha256\" \"consumed_at\" extension:json",
+        "rows": 2,
+        "self_index_rows": 2,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      },
+      {
+        "query": "\"message_id\" \"sender_operator_id\" \"recipient_operator_id\" \"acknowledged_at\" extension:json",
+        "rows": 3,
+        "self_index_rows": 3,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      },
+      {
+        "query": "\"artifact_sha256\" \"produced_by_session\" \"consumed_by_session\" \"used_at\" extension:json",
+        "rows": 3,
+        "self_index_rows": 3,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      }
+    ],
+    "lower_arity_rotation": [
+      {
+        "query": "\"parent_message_id\" \"handled_at\" extension:json",
+        "rows": 93,
+        "self_index_rows": 1,
+        "external_rows": 92,
+        "result": "Ninety-two external rows are database/schema snapshots rather than emitted coordination episodes."
+      },
+      {
+        "query": "\"source_message_id\" \"consumed_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_runtime_id\" \"recipient_runtime_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"received_at\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"handled_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_id\" \"recipient_id\" \"acknowledged_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"artifact_sha256\" \"consumed_by\" \"produced_by\" extension:json",
+        "rows": 21,
+        "self_index_rows": 21,
+        "external_rows": 0,
+        "result": "All rows are this repository's indexed cursor text."
+      },
+      {
+        "query": "\"producer_session_id\" \"consumer_session_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"result_message_id\" \"used_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"task_result\" \"recipient_agent\" \"consumed_at\" extension:json",
+        "rows": 14,
+        "self_index_rows": 14,
+        "external_rows": 0,
+        "result": "All rows are this repository's indexed cursor text."
+      },
+      {
+        "query": "\"parent_message_id\" \"recipient_agent_id\" \"status\" extension:json",
+        "rows": 19,
+        "self_index_rows": 6,
+        "external_rows": 13,
+        "result": "Thirteen external rows include nine real-run verification JSON files in donbblu/MultiAgent; the selected record was read in full at an immutable ref."
+      },
+      {
+        "query": "\"handoff\" \"sender_session\" \"recipient_session\" extension:ndjson",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "raw_record_rotation": [
+      {
+        "query": "\"chat_messages\" \"agent_steps\" \"recipient_agent_id\" \"result_artifact_ref\" extension:json",
+        "rows": 9,
+        "self_index_rows": 0,
+        "external_rows": 9,
+        "result": "Nine rows are donbblu/MultiAgent verification reports."
+      },
+      {
+        "query": "\"recipient_agent_ids\" \"parent_message_id\" \"output_artifact_ref\" extension:json",
+        "rows": 9,
+        "self_index_rows": 0,
+        "external_rows": 9,
+        "result": "The same nine donbblu/MultiAgent reports appear under a second field combination."
+      },
+      {
+        "query": "\"sender\" \"recipient\" \"parent_id\" \"timestamp\" extension:jsonl",
+        "rows": 34,
+        "self_index_rows": 0,
+        "external_rows": 34,
+        "result": "Issue/task datasets, examples and benchmark material; no selected causal episode."
+      },
+      {
+        "query": "\"from\" \"to\" \"message_id\" \"parent_message_id\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"agent_id\" \"event_type\" \"task_result\" \"timestamp\" extension:jsonl",
+        "rows": 4,
+        "self_index_rows": 0,
+        "external_rows": 4,
+        "result": "Four explicit demo ledgers in unified-multi-agent-coordination."
+      },
+      {
+        "query": "\"source_agent\" \"target_agent\" \"result\" extension:jsonl",
+        "rows": 100,
+        "self_index_rows": 0,
+        "external_rows": 100,
+        "result": "Capped first page. Selected paths resolve to one static future-work handoff, simulated backpatch logs, smoke/benchmark traces and demo data."
+      },
+      {
+        "query": "\"sender_agent\" \"receiver_agent\" \"content\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_agent_id\" \"target_agent_id\" \"message\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"from_agent_id\" \"to_agent_id\" \"content\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender\" \"recipient\" \"ack\" \"message_id\" extension:ndjson",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"producer_agent\" \"consumer_agent\" \"artifact\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delegated_by\" \"completed_by\" \"result\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "operator_boundary_rotation": [
+      {
+        "query": "\"sender_owner_id\" \"recipient_owner_id\" \"message_id\"",
+        "rows": 20,
+        "self_index_rows": 0,
+        "external_rows": 20,
+        "result": "Implementation and documentation rows; no emitted sender-to-recipient episode selected."
+      },
+      {
+        "query": "\"source_operator_id\" \"target_operator_id\" \"artifact\"",
+        "rows": 17,
+        "self_index_rows": 0,
+        "external_rows": 17,
+        "result": "Code, schema and test rows; no emitted sender-to-recipient episode selected."
+      },
+      {
+        "query": "\"tenant_id\" \"sender_agent_id\" \"recipient_agent_id\" \"delivered_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"workspace_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"organization_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"user_id\" \"sender_agent_id\" \"recipient_agent_id\" \"message_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_account_id\" \"recipient_account_id\" \"message_id\"",
+        "rows": 100,
+        "self_index_rows": 0,
+        "external_rows": 100,
+        "result": "Capped first page of implementation rows, including local operator bridges; no raw episode selected."
+      },
+      {
+        "query": "\"source_owner\" \"target_owner\" \"handoff\" \"result\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"operator\" \"source_agent\" \"target_agent\" \"message_sent\" extension:jsonl",
+        "rows": 1,
+        "self_index_rows": 0,
+        "external_rows": 1,
+        "result": "One explicit smoke trace."
+      },
+      {
+        "query": "\"policy_violation\" \"source_agent\" \"target_agent\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"unauthorized\" \"source_agent\" \"target_agent\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"cross_tenant\" \"sender\" \"recipient\" \"agent\" extension:json",
+        "rows": 91,
+        "self_index_rows": 0,
+        "external_rows": 91,
+        "result": "Gate-evidence manifests, security labs, evaluation matrices, tests and localization. Selected peer/observation records enumerate test names rather than an actual cross-tenant exchange."
+      }
+    ],
+    "aggregate": {
+      "exact_queries": 40,
+      "row_occurrences": 541,
+      "self_index_row_occurrences": 51,
+      "external_row_occurrences": 490,
+      "distinct_external_paths": 472,
+      "distinct_external_repositories": 122,
+      "capped_queries": 2,
+      "method": "GitHub default-branch code search used only as a locator. Counts are row occurrences, not distinct episodes; capped first pages are explicitly marked. Selected complete records, design context and commit metadata were read at immutable refs.",
+      "bounded_negative_coverage": "The broad remainder consists of schemas, implementations, tests, benchmark/demo ledgers, datasets and same-operator artifacts. It was not promoted from terminology alone."
+    },
+    "selected_records": [
+      {
+        "repository": "donbblu/MultiAgent",
+        "ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+        "ref_published_at": "2026-09-18T06:05:26Z",
+        "record_event_date": "2026-09-09",
+        "report_blob_sha": "7a1eabb19c3a94f05a264fd132629952049cc71e",
+        "parallel_result_blob_sha": "4f4f6371220c181c770da1596d17383560c344a9",
+        "readme_blob_sha": "1868e9248e2f26623f54ed2059c5717df66ec0ec",
+        "a2a_v3_readme_blob_sha": "5972a5fa560e2bf1cfd7f5f4c8d285bd3e45b32c",
+        "selected_reason": "Complete real-CLI three-role run with explicit delegation, two returned partition results and a later aggregate."
+      },
+      {
+        "repository": "igor-holt/lidlift-mcp",
+        "ref": "03e659f8f5f8624e2051273a02b7abf9e2eda82a",
+        "ref_observed_at": "2026-05-29T13:30:36Z",
+        "record_self_asserted_created_at": "2026-04-20",
+        "handoff_blob_sha": "8fa0b036889968e4ae5922587dd7f398b6ba6dca",
+        "readme_blob_sha": "f966d484721734c67f1c0b4b3bc35f25978d7345",
+        "selected_reason": "Static thirteen-record sender/target-labelled future-work package; retained to test whether public recipient use exists."
+      }
+    ]
+  },
+  "multiagent_parallel_join": {
+    "original_observation": {
+      "record_event_date": "2026-09-09",
+      "immutable_publication_ref": "339c175cef3f5121b19efd2a2a074da045f2dff7",
+      "publication_ref_at": "2026-09-18T06:05:26Z",
+      "result_http_status": 201,
+      "runtime_status": "completed",
+      "runtime_validation_outcome": "unknown",
+      "automatic_acceptance_records": 0,
+      "role_steps": 4,
+      "chat_messages": 9,
+      "distinguishable_role_labels": 3
+    },
+    "sanitized_dependency_sequence": [
+      "A local user explicitly requests collaboration by three named roles, assigns two non-overlapping analysis partitions and prohibits deployment.",
+      "The entry role sends one assignment to both worker roles and states it will wait for their actual returns.",
+      "Each worker role returns a different partition result with its own count and evidence set.",
+      "The entry role later emits the exact combined count and ordered union, demonstrating content-specific downstream use of both returns."
+    ],
+    "execution_provenance": {
+      "report_claim": "The project report says the two worker CLI lifecycles overlapped and that four role invocations were aligned to their claims.",
+      "model_and_provider_claim": "The project report attributes all three roles to the same Codex CLI version and requested model/effort. This is project-authored attribution, not independent provider attestation.",
+      "operator_structure": "One local harness and one expressly authorizing user controlled both roots, permissions, budgets and the acceptance exercise."
+    },
+    "authorization_and_limits": [
+      "The report quotes explicit user authorization for the two bounded roots and says the run was performed once under read-only and cost constraints.",
+      "The repository describes a local-first harness in which the user selects an entry agent and the runtime governs delegation, permissions, budgets and state.",
+      "The report labels the result a limited demo verification and expressly denies production certification, provider-internal parallel proof, runtime acceptance or comparative multi-agent efficacy.",
+      "The runtime validation remained unknown even though the report layer independently checked the aggregate."
+    ],
+    "evidence_dimensions": {
+      "distinguishable_autonomous_runtime_roles": true,
+      "specific_task_result_transfer": true,
+      "content_specific_downstream_use": true,
+      "independently_verified_separate_operators": false,
+      "operator_defined_boundary_crossed": false,
+      "cooperation_outside_authorized_topology": false,
+      "subjective_rogue_intent_evidence": false,
+      "current_activity_established": false
+    },
+    "alternatives": {
+      "single_operator_automation": "Dominant. One user and one harness intentionally created and controlled all roles and roots.",
+      "designed_team": "Confirmed by the user instruction, repository architecture and acceptance report.",
+      "repeated_test_or_retry": "The selected root was reportedly one-shot, but it remains an explicitly designed acceptance run rather than spontaneous cooperation.",
+      "shared_state_or_observer_contamination": "Not needed to explain the transfer/use chain; the raw record itself contains the joins. It still supplies no independent operator boundary."
+    },
+    "classification": "Real transfer and downstream use, but an expressly authorized, already documented acceptance exercise under one operator-defined harness. Control, not a rogue-swarm candidate."
+  },
+  "lidlift_static_handoff": {
+    "original_observation": {
+      "immutable_publication_ref": "03e659f8f5f8624e2051273a02b7abf9e2eda82a",
+      "ref_observed_at": "2026-05-29T13:30:36Z",
+      "self_asserted_created_at": "2026-04-20",
+      "jsonl_records": 13,
+      "sender_target_label_pairs": 1,
+      "execution_status_records": 0
+    },
+    "sanitized_structure": [
+      "One header labels a source and target agent and asks the target to execute a roadmap through parallel workers and an integration lead.",
+      "The remaining records are a repository snapshot, goal bundle, fleet topology, four worker tasks, one integration task, constraints, acceptance criteria, blockers and a requested closeout format.",
+      "No record says the target acquired, acknowledged, executed, completed, merged or used the package."
+    ],
+    "evidence_dimensions": {
+      "self_asserted_agent_labels": true,
+      "public_task_artifact": true,
+      "recipient_acquisition": false,
+      "content_specific_downstream_use": false,
+      "independently_verified_separate_operators": false,
+      "operator_boundary_evidence": false,
+      "rogue_intent_evidence": false
+    },
+    "classification": "Static same-repository future-work handoff. Without a public recipient receipt or dependent artifact it does not establish a coordination episode."
+  },
+  "prior_reporting_checks": {
+    "checked_as_of": "2026-10-25",
+    "performed_after_original_chain_review": true,
+    "web_queries": [
+      "\"PRODUCT-CONTINUITY-WEB-03-REAL-01\"",
+      "\"WEB_03_DEMO_VERIFIED\" MultiAgent",
+      "\"donbblu/MultiAgent\" \"parallel\" Amber Blue Coral",
+      "\"lidlift_a2a_001\" OR \"copilot-opus-4.5-fleet-next-steps\""
+    ],
+    "web_result": "No relevant independent episode account was located; returned results were irrelevant to the exact records.",
+    "github_queries": [
+      {
+        "query": "\"PRODUCT-CONTINUITY-WEB-03-REAL-01\"",
+        "rows": 10,
+        "result": "All rows are the origin MultiAgent repository, including its public verification report and supporting plans."
+      },
+      {
+        "query": "\"WEB_03_DEMO_VERIFIED\"",
+        "rows": 3,
+        "result": "All rows are the origin MultiAgent repository."
+      },
+      {
+        "query": "\"lidlift_a2a_001\"",
+        "rows": 1,
+        "result": "The single row is the origin handoff file."
+      },
+      {
+        "query": "\"copilot-opus-4.5-fleet-next-steps\"",
+        "rows": 0,
+        "result": "No indexed row."
+      }
+    ],
+    "conclusion": "The MultiAgent project itself had already publicly described the controlled run, so it is not previously unreported. No prior coordination report was located for the LidLift handoff in this exact checked scope as of 25 October 2026, but the artifact lacks recipient acquisition and use. Search absence does not establish global novelty."
+  },
+  "classification": {
+    "lead_id": "BV-110",
+    "result": "control-not-candidate",
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "reasons": [
+      "The only complete transfer/use chain is expressly human-authorized and designed inside one local harness.",
+      "Its own public report already describes the event and its limitations.",
+      "The second record is a static handoff request with no recipient action.",
+      "Test manifests, demos, schemas and implementation records do not supply an operator-separated episode."
+    ],
+    "evidence_needed_to_advance": [
+      "Primary authentication of distinct autonomous participants controlled by separate operators.",
+      "A content-specific sender delivery and recipient action outside the documented harness or assigned work topology.",
+      "Provider- or owner-attested identity/provenance if separate provider attribution is claimed.",
+      "Primary owner, operator or policy evidence that the cooperation itself exceeded authorization.",
+      "For the static handoff, a public recipient receipt and later artifact causally using its exact task content."
+    ]
+  },
+  "next_cursors": [
+    "\"sender_owner_id\" \"recipient_owner_id\" \"delivery_id\" \"used_at\" extension:json",
+    "\"source_operator_id\" \"target_operator_id\" \"artifact_sha256\" \"consumed_at\" extension:json",
+    "\"cross_tenant\" \"source_message_id\" \"recipient_action_id\" \"acknowledged_at\" extension:json",
+    "\"recipient_agent_ids\" \"source_artifact_sha256\" \"join_digest\" \"authorization_digest\" extension:json"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "code_or_agent_runtime_executed": false,
+    "scans_or_probes_submitted": false,
+    "participants_contacted": false,
+    "messages_reviews_votes_or_reactions_posted": false,
+    "omitted": [
+      "raw message, task, thread, invocation, process and artifact identifiers",
+      "payload bodies and evidence-item values",
+      "local paths and process details",
+      "live service and carrier URLs",
+      "personal addresses, credentials, tokens, sink topics and private logs"
+    ]
+  }
+}

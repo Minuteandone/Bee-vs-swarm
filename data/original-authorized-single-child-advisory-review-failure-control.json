@@ -1,0 +1,496 @@
+{
+  "snapshot": "authorized single-child advisory and failed parent-verification control",
+  "observed_at": "2026-10-26T17:31:49Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "d88ef1e82d1edcc7f0e1a3239fed592f2c741f8c",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "All four saved recipient-use cursors returned only repository self-index rows. No external source-level cue justified reopening the known-family-controlled scanner remainder."
+  },
+  "collection": {
+    "github_scope": {
+      "exact_queries": 38,
+      "code_queries": 38,
+      "row_occurrences": 387,
+      "external_row_occurrences": 324,
+      "self_index_row_occurrences": 63,
+      "distinct_external_urls": 316,
+      "external_repositories": 78,
+      "selected_file_fetches": 14,
+      "selected_repository_chronology_records": 7,
+      "note": "Three broad queries reached the 100-row first-page cap. Rows and URLs overlap; broad hits were mostly schemas, fixtures, transcripts, generated records and designed runtimes. Counts are locator coverage, not event or participant counts."
+    },
+    "saved_cursors": [
+      {
+        "query": "\"delegate_result_sha256\" \"recipient_runtime_id\" \"effect_commit_sha\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"subagent_output_sha256\" \"parent_consumed_at\" \"result_commit\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"handoff_id\" \"recipient_model\" \"artifact_sha256\" \"used_at\" extension:json",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2
+      },
+      {
+        "query": "\"source_task_id\" \"target_task_id\" \"downstream_commit_sha\" \"operator_id\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      }
+    ],
+    "schema_rotation": [
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\" \"consumed_at\" extension:json",
+        "rows": 32,
+        "external_rows": 0,
+        "self_index_rows": 32,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"producer_task_id\" \"consumer_task_id\" \"artifact_sha256\" \"accepted_at\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"source_agent\" \"recipient_agent\" \"source_hash\" \"output_hash\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff_id\" \"accepted_by\" \"result_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"message_id\" \"in_reply_to\" \"artifact_sha256\" \"commit_sha\" extension:json",
+        "rows": 15,
+        "external_rows": 0,
+        "self_index_rows": 15,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"upstream_task_id\" \"downstream_task_id\" \"input_digest\" \"output_digest\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"delegation_id\" \"child_task_id\" \"result_sha256\" \"parent_task_id\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"from_run_id\" \"to_run_id\" \"artifact_sha256\" \"applied_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_session_id\" \"recipient_session_id\" \"result_sha256\" \"used_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"produced_by\" \"consumed_by\" \"sha256\" \"commit\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"input_artifact_sha256\" \"output_artifact_sha256\" \"agent_id\" extension:json",
+        "rows": 4,
+        "external_rows": 1,
+        "self_index_rows": 3,
+        "note": "one external template locator plus repository self-index rows"
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_id\" \"effect_commit_sha\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"task_result_id\" \"recipient_task_id\" \"consumed_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff_artifact\" \"recipient\" \"verified_at\" \"commit\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"parent_result_id\" \"child_task_id\" \"used\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"agent_handoff\" \"result_hash\" \"accepted_by\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"upstream_run\" \"downstream_run\" \"artifact_hash\" \"status\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"submitted_by_agent\" \"reviewed_by_agent\" \"accepted\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_model\" \"recipient_model\" \"artifact_hash\" \"timestamp\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"source_run\" \"target_run\" \"input_sha256\" \"output_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"result_from\" \"result_to\" \"task_id\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"producer_session\" \"consumer_session\" \"artifact_id\" extension:json",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"originating_agent_id\" \"consuming_agent_id\" \"artifact\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"delegate_result\" \"recipient_agent\" \"artifact\" \"commit\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "note": "repository self-index rows only"
+      }
+    ],
+    "broad_rotation": [
+      {
+        "query": "\"parent_task_id\" \"subagent\" \"result\" extension:json",
+        "rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"parent_task_id\" \"agent\" \"result\" \"status\" extension:jsonl",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"parent_task_id\" \"child\" \"artifact\" \"result\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"delegated_to\" \"result\" \"parent_task_id\" extension:json",
+        "rows": 3,
+        "external_rows": 3,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff\" \"parent_task_id\" \"result\" \"completed_at\" extension:json",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      }
+    ],
+    "selected_family_checks": [
+      {
+        "description": "exact selected parent-task locator; raw identifier withheld",
+        "surface": "code search",
+        "rows": 1,
+        "result": "one origin worker-result record"
+      },
+      {
+        "description": "exact selected child-run locator; raw identifier withheld",
+        "surface": "code search",
+        "rows": 1,
+        "result": "one origin worker-result record"
+      },
+      {
+        "query": "\"ATTEMPT_COMPLETED_REQUIRES_REVIEW\"",
+        "surface": "code search",
+        "rows": 4,
+        "result": "origin harness, progress record and two worker-result records"
+      },
+      {
+        "query": "\"REQUIRES_INDEPENDENT_REVIEW\" \"s16.sourceaudit\"",
+        "surface": "code search",
+        "rows": 8,
+        "result": "origin harness, audit code, preflights and worker records"
+      },
+      {
+        "query": "\"s16-source-completion-p4-c36c79478003\"",
+        "surface": "code search",
+        "rows": 7,
+        "result": "origin authorization, result, independent review, preflight and worker records"
+      }
+    ],
+    "selected_file_scope": {
+      "followup_worker_and_control_records": 7,
+      "origin_reports_and_design_files": 5,
+      "earlier_trial_records": 2,
+      "recursive_tree_reads": 1,
+      "note": "Fourteen selected files plus one recursive tree were read. Retrieved code and agent messages were treated only as evidence and were not executed or followed as instructions."
+    },
+    "chronology_scope": [
+      "selected follow-up worker-result path history",
+      "selected follow-up authorization path history",
+      "earlier worker-result path history",
+      "origin semantic-review result path history",
+      "earlier trial first-publication commit",
+      "follow-up trial first-publication commit",
+      "later evidence-preserving merge commit"
+    ],
+    "scoped_web_checks": {
+      "checked_at": "2026-10-26",
+      "queries": 4,
+      "descriptions": [
+        "exact selected public case locator",
+        "origin author plus exact terminal-status phrase",
+        "origin repository plus named child-role term",
+        "exact origin failure label plus S16 source-completion term"
+      ],
+      "result": "No independent report of the exact record sequence was located. Returned pages were unrelated uses of S16 or source-completion terms. The origin repository itself already published a detailed report of the episode."
+    }
+  },
+  "control": {
+    "classification_id": "BV-116",
+    "repository": "Moonrainbowh/chaos-agent",
+    "pinned_ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+    "event_chronology": {
+      "earlier_trial": {
+        "parent_started_at": "2026-10-07T11:54:27.886733Z",
+        "parent_updated_at": "2026-10-07T11:55:39.187934Z",
+        "first_located_publication_ref": "8807ca56810c43891212eeecf4934ba154d7f1b8",
+        "first_located_publication_at": "2026-10-07T12:29:57Z",
+        "publication_lag_from_parent_update_seconds": 2057.813
+      },
+      "selected_followup": {
+        "offline_preflight_child_started_at": "2026-10-07T14:48:43.896664Z",
+        "offline_preflight_child_completed_at": "2026-10-07T14:48:45.425935Z",
+        "parent_started_at": "2026-10-07T14:48:58.807320Z",
+        "real_child_started_at": "2026-10-07T14:49:23.797099Z",
+        "real_child_completed_at": "2026-10-07T14:49:54.789748Z",
+        "parent_updated_at": "2026-10-07T14:51:47.719083Z",
+        "first_located_publication_ref": "b28868a92f22106688c433c698ccbc6af982c892",
+        "first_located_publication_at": "2026-10-07T15:02:10Z",
+        "publication_lag_from_parent_update_seconds": 622.281
+      },
+      "assessment": "Internal event times precede publication and are useful for ordering within the origin record, but the commits are the independently visible publication chronology. The offline preflight is a synthetic control path, not a second participant in the real attempt."
+    },
+    "participant_and_transfer_evidence": {
+      "verified_from_origin_records": [
+        "Each real trial records one parent task and exactly one read-only child lifecycle moving through queued, running and completed.",
+        "In the selected follow-up, the real child makes four source reads and returns a content-specific advisory to the parent history.",
+        "The selected parent has one failed delegate invocation followed by one successful delegation; lifecycle data still records only one real child.",
+        "After the returned advisory, the parent issues three source-read attempts. All fail, and the record ends unchanged and unverified."
+      ],
+      "limits": [
+        "The three parent reads were already required by the user-authored task, so temporal order alone does not establish that their content depended on the child advisory.",
+        "No accepted conclusion, changed artifact or later action is shown to depend on the advisory.",
+        "The origin independent review says the parent failed to obtain the sources, did not correct the child's residual errors and did not produce a usable audit.",
+        "A non-empty final assistant message and completed runtime state do not establish semantic acceptance."
+      ]
+    },
+    "authorization_and_design": {
+      "evidence": [
+        "The earlier trial is marked user-approved under a plan that calls for one bounded medium P4 attempt and preservation of any failure.",
+        "The selected follow-up has a separate explicit user-approved local-follow-up record.",
+        "The frozen task expressly requests one child delegation, four read-only source checks, parent independent review, no edits, no outside sources and an unverified result.",
+        "Harness source asserts exactly one child entry and assigns the terminal semantic status requiring independent review.",
+        "Both parent and child use the same declared model/profile label inside one Host TaskService; no distinct operator is identified."
+      ],
+      "alternatives_tested": [
+        "designed team execution",
+        "single-operator local harness",
+        "human-requested delegation",
+        "bounded repeated evaluation",
+        "delegate retry rather than a second child",
+        "offline synthetic preflight",
+        "shared-state and stale-read failures",
+        "origin observer review"
+      ]
+    },
+    "provenance_and_attribution": {
+      "model_label": "The records label both parent and child as GLM-5.3-flash with medium reasoning.",
+      "provider_limit": "The harness records external-send attempts, but the provider and model identity are origin-authored configuration evidence rather than independent provider attestation.",
+      "operator_boundary": "No public evidence places parent and child under different operators or shows an operator-defined boundary crossing.",
+      "current_activity": "The reviewed records describe bounded 7 October trials; they do not establish continuing activity on 26 October."
+    },
+    "prior_reporting": {
+      "origin_report": "The semantic-review result and independent-review files, published with the follow-up record, explicitly describe the Host parent/child exchange, the content errors, the failed parent review and the unverified terminal state.",
+      "scoped_statement": "No independent coordination report for this exact record sequence was located in the checked scope as of 26 October 2026.",
+      "limit": "Search absence does not establish global novelty. More importantly, origin publication already reports the episode, so it is not a previously unreported discovery."
+    },
+    "missing_evidence": [
+      "A recipient action or artifact whose content demonstrably depends on a specific child finding",
+      "Independent runtime or provider provenance for both participants rather than origin-authored labels alone",
+      "Distinct operator provenance for sender and recipient",
+      "Primary evidence that the cooperation exceeded the explicit one-child user authorization",
+      "Evidence of a continuing population rather than two bounded trials and one offline preflight"
+    ],
+    "assessment": "BV-116 is an authorized single-child advisory and failed parent-verification control, not a rogue-swarm candidate. The original record proves a designed parent/child transfer but not content-dependent recipient use, cross-operator cooperation, unauthorized behavior or novelty."
+  },
+  "novelty": {
+    "statement": "No independent coordination report for this exact record sequence was located in the checked scope as of 26 October 2026.",
+    "limits": [
+      "Search absence does not establish global novelty.",
+      "Origin documentation already reports the exact episode and its failure, independently making it ineligible as a previously unreported discovery.",
+      "No dataset or index absence is treated as novelty evidence."
+    ],
+    "known_family_overlap": "No record-level overlap with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families. The resemblance is only to generic designed delegation and bounded evaluation controls."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/commit/8807ca56810c43891212eeecf4934ba154d7f1b8",
+      "role": "first located publication of the earlier authorized one-child trial"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/commit/b28868a92f22106688c433c698ccbc6af982c892",
+      "role": "first located publication of the selected follow-up trial and its origin failure report"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/commit/692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "role": "later merge retaining the S16 evidence and acceptance boundary"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/worker-result.json",
+      "blob_sha": "fb488ddb8f0f0998b3fc3a58029bac004c628a95",
+      "role": "selected Host parent/child result, lifecycle and delivery record; raw task identifiers and message bodies not reproduced"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/authorization.json",
+      "blob_sha": "5f091ed1070e6ee7591acb62c11cce85d27afccc",
+      "role": "explicit user-approved local follow-up scope"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/freeze.json",
+      "blob_sha": "65513df94bfa1727dd2f735579093bf4c6e2e776",
+      "role": "frozen one-child runtime and source-read constraints; prompt body not reproduced"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/real-supervisor.json",
+      "blob_sha": "e5098d542129af10a7ce44a24c81d113d4a81798",
+      "role": "selected real-attempt supervisor status"
+    },
+    {
+      "url": "https://api.github.com/repos/Moonrainbowh/chaos-agent/git/blobs/ad936f4886339ff19e8b8673670b3810ef67e654",
+      "blob_sha": "ad936f4886339ff19e8b8673670b3810ef67e654",
+      "role": "selected real child event ledger; raw thread identifier and message bodies not reproduced"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-72d041646622/worker-result.json",
+      "blob_sha": "5b38705c969c94f9deb5e0093168f91844da19b3",
+      "role": "earlier user-approved one-child trial result"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-72d041646622/authorization.json",
+      "blob_sha": "d1f9b62e5d37f974fa32342e0ebc01fc5e44e65f",
+      "role": "earlier user-approved plan scope"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/plan.md",
+      "blob_sha": "0fc3335d515e38b67bb1798e5e0a2edac6b08cef",
+      "role": "designed P4 one-attempt plan and failure-preservation boundary"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/run_real_source_completion.py",
+      "blob_sha": "86464a1c2e6b1146a0f26b77310094dc97cd2b60",
+      "role": "harness source enforcing exactly one child and preserving real versus offline-preflight paths; code read only, never executed"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/semantic-review/result.md",
+      "blob_sha": "58188ad9d6309875b0dbd6aeeee3a74a66b70397",
+      "role": "origin report explicitly describing the selected Host failure and bounded replays"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/semantic-review/independent-review.md",
+      "blob_sha": "cb224469c55e4af7b00300084d624712e292e498",
+      "role": "origin independent review of the child advisory and failed parent verification"
+    },
+    {
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/README.md",
+      "blob_sha": "42ae3fa0a8d207b92d0666db1179a7f4afbf8097",
+      "role": "runtime description and warning that unverified completion is not successful validation"
+    }
+  ],
+  "next_cursors": [
+    "\"parent_task_id\" \"child_run_id\" \"result_sha256\" \"semantic_acceptance\" extension:json",
+    "\"delegate_agent\" \"parent_consumed_at\" \"child_output_sha256\" \"effect_commit_sha\" extension:json",
+    "\"recipient_action\" \"advisory_sha256\" \"verified_at\" \"operator_id\" extension:json",
+    "\"source_result_sha256\" \"recipient_runtime_id\" \"downstream_commit_sha\" \"authorization_scope\" extension:json"
+  ],
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install a package",
+      "invoke an agent runtime",
+      "submit a scan",
+      "contact a participant",
+      "read a sink inbox",
+      "replay a payload",
+      "probe a target"
+    ],
+    "publication_omits": [
+      "raw task and thread identifiers",
+      "message and prompt bodies",
+      "tool-result bodies",
+      "commands",
+      "local paths",
+      "infrastructure addresses",
+      "credentials",
+      "tokens",
+      "personal addresses",
+      "private logs"
+    ]
+  }
+}

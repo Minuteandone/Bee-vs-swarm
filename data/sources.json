@@ -12758,6 +12758,138 @@
       "blob_sha": "ff2869361d285b2200b61476acd7da15025826d7",
       "ref_date": "2026-05-31T15:11:16Z",
       "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-chaos-s16-first-publication-8807ca",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/commit/8807ca56810c43891212eeecf4934ba154d7f1b8",
+      "role": "First located publication of earlier authorized one-child trial",
+      "ref": "8807ca56810c43891212eeecf4934ba154d7f1b8",
+      "ref_date": "2026-10-07T12:29:57Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-followup-publication-b28868",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/commit/b28868a92f22106688c433c698ccbc6af982c892",
+      "role": "First located publication of follow-up trial and origin failure report",
+      "ref": "b28868a92f22106688c433c698ccbc6af982c892",
+      "ref_date": "2026-10-07T15:02:10Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-evidence-merge-692538",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/commit/692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "role": "Later evidence-preserving merge and acceptance-boundary statement",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-followup-worker-fb488d",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/worker-result.json",
+      "role": "Selected Host parent/child lifecycle and delivery record; raw identifiers and message bodies not reproduced",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "fb488ddb8f0f0998b3fc3a58029bac004c628a95",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-followup-authorization-5f091e",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/authorization.json",
+      "role": "Explicit user-approved local follow-up scope",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "5f091ed1070e6ee7591acb62c11cce85d27afccc",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-followup-freeze-65513d",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/freeze.json",
+      "role": "Frozen one-child runtime and source constraints; prompt body not reproduced",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "65513df94bfa1727dd2f735579093bf4c6e2e776",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-followup-supervisor-e5098d",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-c36c79478003/real-supervisor.json",
+      "role": "Selected real-attempt supervisor status requiring review",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "e5098d542129af10a7ce44a24c81d113d4a81798",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-followup-child-ad936f",
+      "url": "https://api.github.com/repos/Moonrainbowh/chaos-agent/git/blobs/ad936f4886339ff19e8b8673670b3810ef67e654",
+      "role": "Selected real child event ledger; raw thread identifier and message bodies not reproduced",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "ad936f4886339ff19e8b8673670b3810ef67e654",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-first-worker-5b3870",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-72d041646622/worker-result.json",
+      "role": "Earlier authorized one-child Host result",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "5b38705c969c94f9deb5e0093168f91844da19b3",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-first-authorization-d1f9b6",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/owned-cases-p4/s16-source-completion-p4-72d041646622/authorization.json",
+      "role": "Earlier user-approved P4 plan scope",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "d1f9b62e5d37f974fa32342e0ebc01fc5e44e65f",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-plan-0fc333",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/plan.md",
+      "role": "Designed bounded P4 attempt and failure-preservation plan",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "0fc3335d515e38b67bb1798e5e0a2edac6b08cef",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-harness-86464a",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/run_real_source_completion.py",
+      "role": "Exactly-one-child harness and real/preflight separation; code read only, never executed",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "86464a1c2e6b1146a0f26b77310094dc97cd2b60",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-result-report-58188a",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/semantic-review/result.md",
+      "role": "Origin report of selected Host failure and bounded replays",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "58188ad9d6309875b0dbd6aeeee3a74a66b70397",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-s16-independent-review-cb2244",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/docs/next-version/s16-source-completion/semantic-review/independent-review.md",
+      "role": "Origin independent review of child advisory and failed parent verification",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "cb224469c55e4af7b00300084d624712e292e498",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
+    },
+    {
+      "id": "original-chaos-readme-42ae3f",
+      "url": "https://github.com/Moonrainbowh/chaos-agent/blob/692538dbbaaf88a64482b2d5d4156e73e53bf865/README.md",
+      "role": "Runtime description and unverified-completion limitation",
+      "ref": "692538dbbaaf88a64482b2d5d4156e73e53bf865",
+      "blob_sha": "42ae3fa0a8d207b92d0666db1179a7f4afbf8097",
+      "ref_date": "2026-10-10T01:37:45Z",
+      "observed_at": "2026-10-26T17:31:49Z"
     }
   ]
 }

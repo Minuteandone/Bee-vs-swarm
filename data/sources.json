@@ -12243,6 +12243,187 @@
       "blob_sha": "d40cc240cd8f57c18bbd82c15b26004280b1d8ff",
       "ref_date": "2026-09-15T04:23:09Z",
       "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-digital-being-publication-ref-a81152f",
+      "url": "https://github.com/kutO-O/digital-being/commit/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "role": "Immutable first located publication ref explicitly presenting the selected multi-agent demo",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-shared-sent-5ed7a70",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_messages/sent_messages.jsonl",
+      "role": "Eight-record sender ledger for the latest fixed demo cluster; payloads and identifiers are not reproduced",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "5ed7a70acb4168574ee307a57f541ac7879ba459",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "event_start": "2026-02-21T23:58:56.365Z",
+      "event_end": "2026-02-21T23:59:09.897Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-shared-received-551fb6c",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_messages/received_messages.jsonl",
+      "role": "Delivery-side ledger containing addressed and repeated broadcast copies",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "551fb6c3bd1740612099a78eef6018ea3ee28a2f",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-shared-outbox-9d4b28f",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_messages/shared_outbox.jsonl",
+      "role": "Shared outbox showing duplicate routing copies inside the demo storage root",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "9d4b28ff04fdb67bafb514f8c0048abc36ceb323",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-demo-c044ddc",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/examples/multi_agent_demo.py",
+      "role": "Generating script that launches the three role coroutines with one client and shared storage",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "c044ddc54f11f999d658b4c7589fcf657a5f8692",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-simple-demo-1908e7b",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/examples/multi_agent_demo_simple.py",
+      "role": "Deterministic no-LLM companion demo with in-process simulated delivery",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "1908e7b8b2d5318dafc3c7b12dd4e0b4dd445bc8",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-earlier-alice-836c2e2",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/agents/alice/multi_agent/messages/sent_messages.jsonl",
+      "role": "Earlier role-local sender ledger corroborating a repeated fixed demo cluster",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "836c2e2ebd1a1a319d22c9d481a07cd79162cfd9",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-earlier-bob-da6d88f",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/agents/bob/multi_agent/messages/sent_messages.jsonl",
+      "role": "Earlier role-local sender ledger corroborating the paired scripted broadcast",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "da6d88f421930ea91c15301f4898f234e32cfec0",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-local-alice-646b381",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/alice/multi_agent/messages/sent_messages.jsonl",
+      "role": "Second earlier role-local sender ledger preserving the repeated fixed sequence",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "646b381fd40c069f1faee42e660db8e34a9a2ff2",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-local-bob-a83edb1",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/bob/multi_agent/messages/sent_messages.jsonl",
+      "role": "Second earlier paired role-local sender ledger",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "a83edb1c2003ff561aeb24495502eef3663b3856",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-digital-being-shared-registry-58b6a22",
+      "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_registry.json",
+      "role": "Shared localhost role registry for the selected demo",
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "blob_sha": "58b6a22b3f2d065ae6e565e7684fe173c1d79bd2",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-canned-ref-8a0fe19",
+      "url": "https://github.com/dune94/epam-cli/commit/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "role": "Immutable first located publication ref for the canned EPAM demo logs",
+      "ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "ref_date": "2026-06-02T18:16:23Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-canned-messages-b1b80ea",
+      "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/demo/logs/agent-messages.jsonl",
+      "role": "Canned plan-summary and completion rows at the earlier publication ref; payloads and identifiers are not reproduced",
+      "ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "blob_sha": "b1b80ea53b049eeb237bf4d06fe43e024ac0e1af",
+      "ref_date": "2026-06-02T18:16:23Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-canned-activity-7bc48ae",
+      "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/demo/logs/agent-activity.jsonl",
+      "role": "Implementation start and completion timing showing execution began before the selected plan summary",
+      "ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "blob_sha": "7bc48ae0dbfd52e4365f2621f060c86cf439b1a1",
+      "ref_date": "2026-06-02T18:16:23Z",
+      "event_start": "2026-06-01T14:58:22-04:00",
+      "event_end": "2026-06-01T15:04:47-04:00",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-common-prd-95a8ff0",
+      "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/orchestrations/prd.json.backup",
+      "role": "Common source story and acceptance criteria available to planner and implementation roles",
+      "ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "blob_sha": "95a8ff0b8077c3d4d2af44ecd44042b255249654",
+      "ref_date": "2026-06-02T18:16:23Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-early-readme-be70738",
+      "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/README.md",
+      "role": "Documentation for the designed multi-agent orchestration context at the canned-log ref",
+      "ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "blob_sha": "be7073804052287d4d15aa0f4866c0eeab798041",
+      "ref_date": "2026-06-02T18:16:23Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-early-technical-guide-2d9cbdc",
+      "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/TECHNICAL-GUIDE.md",
+      "role": "Documented planner, executor, gate and monitoring topology",
+      "ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "blob_sha": "2d9cbdc34205fecc0e23060695c5fc04af9a1192",
+      "ref_date": "2026-06-02T18:16:23Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-archive-ref-0948706",
+      "url": "https://github.com/dune94/epam-cli/commit/0948706770dc824ab2ff85082de5f0ca40ac84fd",
+      "role": "Immutable first located publication ref for the detailed planner and implementation archives",
+      "ref": "0948706770dc824ab2ff85082de5f0ca40ac84fd",
+      "ref_date": "2026-09-04T13:43:16Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-archived-plan-54ee698",
+      "url": "https://github.com/dune94/epam-cli/blob/0948706770dc824ab2ff85082de5f0ca40ac84fd/orchestrations/logs/archive/pre-run-parity-test-run/claude_outputs/EPAM-027_plan_20260601_145822.log",
+      "role": "Archived planner output used to test the unresolved recipient-use edge; plan body is not reproduced",
+      "ref": "0948706770dc824ab2ff85082de5f0ca40ac84fd",
+      "blob_sha": "54ee698bf6a4481d38eede59e0f714bebd64fa6a",
+      "ref_date": "2026-09-04T13:43:16Z",
+      "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-epam-archived-executor-3ae2ded",
+      "url": "https://github.com/dune94/epam-cli/blob/0948706770dc824ab2ff85082de5f0ca40ac84fd/orchestrations/logs/archive/pre-run-parity-test-run/claude_outputs/EPAM-027_20260601_145822.log",
+      "role": "Archived implementation prompt and output showing common-story input without the selected plan summary",
+      "ref": "0948706770dc824ab2ff85082de5f0ca40ac84fd",
+      "blob_sha": "3ae2dede765f16f964fb569d493893b4fafd2c3f",
+      "ref_date": "2026-09-04T13:43:16Z",
+      "observed_at": "2026-10-26T06:35:26Z"
     }
   ]
 }

@@ -1,0 +1,393 @@
+{
+  "snapshot": "scripted same-process demo and concurrent-plan timing controls",
+  "observed_at": "2026-10-26T06:35:26Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "40d0277bd92a1e13d242173f33b4fea02e82255e",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "The saved receipt/use cursors returned no external source-level cue. Coverage rotated into committed raw message and execution archives."
+  },
+  "collection": {
+    "github_scope": {
+      "exact_queries": 30,
+      "row_occurrences": 187,
+      "external_row_occurrences": 171,
+      "self_index_row_occurrences": 16,
+      "distinct_external_paths": 132,
+      "external_repositories": 7,
+      "selected_full_record_or_design_files": 18,
+      "note": "Row occurrences overlap. The 99-row broad result page contains 91 EPAM archive paths, seven Digital Being paths and one issue-ledger path; it is locator coverage, not an incident count."
+    },
+    "saved_cursors": [
+      {
+        "query": "\"event_id_sha256\" \"target_agent\" \"processed_at\" \"recipient_session_id\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "result": "self-index only"
+      },
+      {
+        "query": "\"outbox_event_id\" \"recipient_action_id\" \"consumed_at\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "result": "no rows"
+      },
+      {
+        "query": "\"delivery_error\" \"fallback_event_id\" \"recipient_ack_id\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "result": "self-index only"
+      },
+      {
+        "query": "\"source_session_id\" \"target_session_id\" \"event_digest\" \"used_at\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "result": "no rows"
+      }
+    ],
+    "schema_rotation": [
+      {
+        "query": "\"sender_session_id\" \"recipient_session_id\" \"result\" extension:json",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_session_id\" \"target_session_id\" \"tool_result\" extension:json",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"reply_to\" extension:jsonl",
+        "rows": 99,
+        "external_rows": 99,
+        "result": "91 EPAM archive paths, seven Digital Being paths and one issue ledger"
+      },
+      {
+        "query": "\"sender_agent\" \"recipient_agent\" \"artifact\" extension:json",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"parent_message_id\" extension:json",
+        "rows": 13,
+        "external_rows": 4,
+        "result": "three migration/schema inventories and one tool-schema inventory"
+      },
+      {
+        "query": "\"source_agent_id\" \"target_agent_id\" \"message_id\" \"result\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"delegated_by\" \"assigned_to\" \"accepted_at\" extension:json",
+        "rows": 3,
+        "external_rows": 2,
+        "result": "generated and conformance schemas"
+      },
+      {
+        "query": "\"produced_by\" \"consumed_by\" \"artifact_hash\" extension:json",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"input_digest\" extension:json",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"origin_agent\" \"destination_agent\" \"acknowledged_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"from_role\" \"to_role\" \"task_id\" \"result\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_id\" \"recipient_id\" \"in_reply_to\" \"tool_result\" extension:json",
+        "rows": 5,
+        "external_rows": 1,
+        "result": "one unrelated single-agent benchmark transcript"
+      }
+    ],
+    "selected_family_checks": [
+      {
+        "description": "exact Digital Being query sentence plus source and recipient labels; payload phrase withheld",
+        "rows": 6,
+        "result": "origin repository only"
+      },
+      {
+        "description": "exact Digital Being consensus sentence; payload phrase withheld",
+        "rows": 0,
+        "result": "search undercoverage; the full record contains the known line"
+      },
+      {
+        "description": "exact Digital Being fixed completion broadcast; payload phrase withheld",
+        "rows": 11,
+        "result": "origin code, documentation false positives and origin logs"
+      },
+      {
+        "query": "multi_agent_demo",
+        "repository": "kutO-O/digital-being",
+        "rows": 2,
+        "result": "the two generating demo scripts"
+      },
+      {
+        "description": "exact EPAM plan-summary sentence; payload phrase withheld",
+        "rows": 0,
+        "result": "search undercoverage; the full archive contains the known line"
+      },
+      {
+        "query": "EPAM-027",
+        "repository": "dune94/epam-cli",
+        "rows": 12,
+        "result": "origin plan, source story, activity and execution paths"
+      },
+      {
+        "query": "agent-messages.jsonl",
+        "repository": "dune94/epam-cli",
+        "rows": 0,
+        "result": "filename query returned no row"
+      },
+      {
+        "query": "plan_summary",
+        "repository": "dune94/epam-cli",
+        "rows": 20,
+        "result": "origin generating source and message/archive paths"
+      }
+    ],
+    "exact_identifier_checks": [
+      {
+        "identifier_sha256": "e7113b9d30104f45796cf7d7e5f122590b83d6d22505879f857e48f109b69ab1",
+        "rows": 3,
+        "result": "Digital Being sent, received and outbox copies only"
+      },
+      {
+        "identifier_sha256": "c2b66102cf00d1791333dbe9404a8f71281fbd0c991ca5f18df3846ff89f4c96",
+        "rows": 3,
+        "result": "Digital Being sent, received and outbox copies only"
+      },
+      {
+        "identifier_sha256": "6b5270fdfb6c4ec584c41bbf301ac9d32280ade59334600b2449575d60375933",
+        "rows": 3,
+        "result": "Digital Being sent, received and outbox copies only"
+      },
+      {
+        "identifier_sha256": "bf9efdffb05c3603260b9be6074f1821f89cf581e51feb9456f6efe28de97012",
+        "rows": 2,
+        "result": "EPAM demo and archived-copy message logs only"
+      },
+      {
+        "identifier_sha256": "4c7a48c8ff374f8745360270ce2ef51de15a11b22ef9df17edf9dea13d2100e8",
+        "rows": 2,
+        "result": "EPAM demo and archived-copy message logs only"
+      },
+      {
+        "identifier_sha256": "472b7ee38723ce549011dee3ad20b7482430138320c5484ba495349f27e3fec2",
+        "rows": 1,
+        "result": "EPAM demo activity log only"
+      }
+    ],
+    "scoped_web_checks": {
+      "checked_at": "2026-10-26",
+      "queries": 4,
+      "descriptions": [
+        "exact Digital Being query sentence with source and recipient labels; sentence withheld",
+        "exact Digital Being fixed broadcast sentence with repository locator; sentence withheld",
+        "exact EPAM plan heading with story and repository locators; plan text withheld",
+        "exact EPAM plan-message identifier with role and bus locators; identifier withheld"
+      ],
+      "result": "No account of either exact episode was located. Returned pages were generic multi-agent articles, projects or research unrelated to these repositories and event records."
+    }
+  },
+  "digital_being_control": {
+    "classification_id": "BV-112",
+    "event_window_utc": {
+      "start": "2026-02-21T23:45:48.524Z",
+      "end": "2026-02-21T23:59:09.897Z"
+    },
+    "first_public_observation": {
+      "ref": "a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+      "ref_date": "2026-02-22T11:26:50Z",
+      "note": "The commit explicitly announces advanced multi-agent coordination; first publication before this ref is not established."
+    },
+    "record_summary": {
+      "latest_cluster": {
+        "sent_records": 8,
+        "received_records": 10,
+        "outbox_records": 17
+      },
+      "attributable_labels": [
+        "alice_001",
+        "bob_001",
+        "charlie_001"
+      ],
+      "concrete_edges": [
+        "A source-labelled query has an addressed response 62 milliseconds later; the response is only a processing acknowledgement.",
+        "A broadcast consensus request has two addressed votes about 94 and 102 milliseconds later.",
+        "The same fixed query, self-task, consensus request and completion broadcast occur in at least three closely spaced record clusters."
+      ],
+      "downstream_use": "No later task or artifact demonstrably depends on the acknowledgement or either vote. The self-task, consensus request and completion broadcast are fixed in the generating scripts.",
+      "provenance": "One script launches all three role coroutines together with one client and one shared storage root. A companion script labels itself a simplified demo without an LLM and simulates delivery inside the same process.",
+      "alternatives": [
+        "scripted demonstration",
+        "single-process orchestration",
+        "repeated test/demo runs",
+        "shared-state duplication"
+      ],
+      "missing_evidence": [
+        "An independently attributable recipient runtime controlled by a separate operator",
+        "A non-scripted task result or instruction and a later artifact/action causally using it",
+        "Primary evidence the exchange exceeded the demo operator's authorization"
+      ]
+    },
+    "assessment": "The records authenticate designed message routing among role labels, not autonomous cross-operator cooperation. Recipient acquisition exists for an acknowledgement and votes, but downstream use and an operator-boundary violation do not."
+  },
+  "epam_bv050_update": {
+    "classification_id": "BV-050",
+    "update_type": "new original timing and prompt evidence for an existing control",
+    "event_window_local": {
+      "start": "2026-06-01T14:58:22-04:00",
+      "plan_message": "2026-06-01T15:01:05-04:00",
+      "completion": "2026-06-01T15:04:47-04:00"
+    },
+    "publication": {
+      "canned_demo_ref": "8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+      "canned_demo_ref_date": "2026-06-02T18:16:23Z",
+      "detailed_archive_ref": "0948706770dc824ab2ff85082de5f0ca40ac84fd",
+      "detailed_archive_ref_date": "2026-09-04T13:43:16Z",
+      "note": "The event predates both public snapshots. First publication before the listed refs is not established."
+    },
+    "evidence": [
+      "The plan role addresses a task-specific summary to the implementation role.",
+      "The activity record shows the implementation role started 163 seconds before that plan-summary row was emitted.",
+      "The archived implementation prompt contains the common source story and acceptance criteria but no plan-summary section or receipt.",
+      "The implementation output overlaps the plan because both derive from the same source story; it also records that one requested criterion was not implemented.",
+      "Later instantaneous start/complete pairs are monitoring or replay artifacts and do not authenticate new participants."
+    ],
+    "alternatives": [
+      "common PRD/task source",
+      "designed planner/executor workflow",
+      "single-project orchestration",
+      "monitoring replay/status generation"
+    ],
+    "missing_evidence": [
+      "A recipient prompt, read receipt or tool record showing the emitted plan content was acquired after delivery",
+      "A later code or artifact change causally dependent on plan-only content rather than the common PRD",
+      "Independently attributable operators and primary evidence the cooperation exceeded the documented orchestration"
+    ],
+    "assessment": "The new temporal evidence weakens rather than strengthens the transfer/use theory. It resolves the selected plan row as concurrent sender output with no demonstrated recipient acquisition or causal use; BV-050 remains a designed role-bus control."
+  },
+  "novelty": {
+    "statement": "No prior coordination report for either exact record sequence was located in the checked scope as of 26 October 2026.",
+    "limits": [
+      "Search absence does not establish global novelty.",
+      "Both repositories themselves describe the selected behavior as a demo or designed orchestration.",
+      "Neither record establishes a rogue coordination episode, so novelty does not promote either control."
+    ],
+    "known_family_overlap": "No overlap with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families. EPAM is an already reviewed project control (BV-050), revisited only because newly read archive records directly test its unresolved recipient-use edge."
+  },
+  "sources": {
+    "digital_being": [
+      {
+        "url": "https://github.com/kutO-O/digital-being/commit/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a",
+        "role": "immutable first located publication ref"
+      },
+      {
+        "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_messages/sent_messages.jsonl",
+        "blob_sha": "5ed7a70acb4168574ee307a57f541ac7879ba459",
+        "role": "eight-record sender ledger"
+      },
+      {
+        "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_messages/received_messages.jsonl",
+        "blob_sha": "551fb6c3bd1740612099a78eef6018ea3ee28a2f",
+        "role": "delivery-side ledger with repeated broadcast copies"
+      },
+      {
+        "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/memory/multi_agent_demo/shared_messages/shared_outbox.jsonl",
+        "blob_sha": "9d4b28ff04fdb67bafb514f8c0048abc36ceb323",
+        "role": "shared outbox with duplicate routing copies"
+      },
+      {
+        "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/examples/multi_agent_demo.py",
+        "blob_sha": "c044ddc54f11f999d658b4c7589fcf657a5f8692",
+        "role": "generating three-role coroutine demo"
+      },
+      {
+        "url": "https://github.com/kutO-O/digital-being/blob/a81152f3b70c28bbceca6e84e32a53c8a3d27f4a/examples/multi_agent_demo_simple.py",
+        "blob_sha": "1908e7b8b2d5318dafc3c7b12dd4e0b4dd445bc8",
+        "role": "deterministic no-LLM demo and simulated delivery"
+      }
+    ],
+    "epam": [
+      {
+        "url": "https://github.com/dune94/epam-cli/commit/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e",
+        "role": "immutable publication ref for canned demo logs"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/demo/logs/agent-messages.jsonl",
+        "blob_sha": "b1b80ea53b049eeb237bf4d06fe43e024ac0e1af",
+        "role": "plan-summary and later completion rows"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/demo/logs/agent-activity.jsonl",
+        "blob_sha": "7bc48ae0dbfd52e4365f2621f060c86cf439b1a1",
+        "role": "implementation start and completion timing"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/orchestrations/prd.json.backup",
+        "blob_sha": "95a8ff0b8077c3d4d2af44ecd44042b255249654",
+        "role": "common source story and acceptance criteria"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/commit/0948706770dc824ab2ff85082de5f0ca40ac84fd",
+        "role": "immutable first located publication ref for detailed archive logs"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/0948706770dc824ab2ff85082de5f0ca40ac84fd/orchestrations/logs/archive/pre-run-parity-test-run/claude_outputs/EPAM-027_plan_20260601_145822.log",
+        "blob_sha": "54ee698bf6a4481d38eede59e0f714bebd64fa6a",
+        "role": "planner output summary"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/0948706770dc824ab2ff85082de5f0ca40ac84fd/orchestrations/logs/archive/pre-run-parity-test-run/claude_outputs/EPAM-027_20260601_145822.log",
+        "blob_sha": "3ae2dede765f16f964fb569d493893b4fafd2c3f",
+        "role": "implementation prompt and output"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/README.md",
+        "blob_sha": "be7073804052287d4d15aa0f4866c0eeab798041",
+        "role": "designed multi-agent orchestration context"
+      },
+      {
+        "url": "https://github.com/dune94/epam-cli/blob/8a0fe19163f8fd8f61f8422b1e3e5f2741a3997e/TECHNICAL-GUIDE.md",
+        "blob_sha": "2d9cbdc34205fecc0e23060695c5fc04af9a1192",
+        "role": "documented planner, executor, gate and monitoring topology"
+      }
+    ]
+  },
+  "next_cursors": [
+    "\"received_message_id\" \"recipient_session_id\" \"consumed_in_artifact\" extension:json",
+    "\"plan_message_id\" \"executor_prompt_sha256\" \"accepted_at\" \"output_artifact_sha256\" extension:json",
+    "\"reply_to\" \"recipient_run_id\" \"used_in_commit\" extension:jsonl",
+    "\"source_message_sha256\" \"recipient_action_sha256\" \"operator_id\" extension:json"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "executed_recovered_code": false,
+    "invoked_agent_runtime": false,
+    "contacted_participants": false,
+    "submitted_messages_or_scans": false,
+    "excluded": [
+      "raw message, event, run and session identifiers",
+      "payload and prompt bodies",
+      "reasoning text and tool commands",
+      "local paths and infrastructure addresses",
+      "credentials, tokens, personal addresses and private logs"
+    ]
+  }
+}

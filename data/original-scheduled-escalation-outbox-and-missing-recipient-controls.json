@@ -1,0 +1,387 @@
+{
+  "snapshot": "scheduled escalation outbox and missing-recipient controls",
+  "observed_at": "2026-10-26T01:54:08Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "d440df5cf5ee445e7ecb74b4f8fad8a7c7c3d209",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "All four saved owner/operator cursors returned only this repository's indexed cursor text. No new source-level cue distinguishes the paused scanner remainder, so coverage rotated into an existing public raw-session archive."
+  },
+  "collection": {
+    "saved_cursors": [
+      {
+        "query": "\"sender_owner_id\" \"recipient_owner_id\" \"delivery_id\" \"used_at\" extension:json",
+        "rows": 1,
+        "self_index_rows": 1,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      },
+      {
+        "query": "\"source_operator_id\" \"target_operator_id\" \"artifact_sha256\" \"consumed_at\" extension:json",
+        "rows": 1,
+        "self_index_rows": 1,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      },
+      {
+        "query": "\"cross_tenant\" \"source_message_id\" \"recipient_action_id\" \"acknowledged_at\" extension:json",
+        "rows": 1,
+        "self_index_rows": 1,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      },
+      {
+        "query": "\"recipient_agent_ids\" \"source_artifact_sha256\" \"join_digest\" \"authorization_digest\" extension:json",
+        "rows": 1,
+        "self_index_rows": 1,
+        "external_rows": 0,
+        "result": "Only this repository's indexed cursor text was returned."
+      }
+    ],
+    "raw_archive_locators": [
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"source_agent\" \"target_agent\" \"result\" extension:jsonl",
+        "rows": 15,
+        "self_index_rows": 0,
+        "external_rows": 15,
+        "result": "Fifteen raw shared-orchestrator session paths in the REGGIE archive."
+      },
+      {
+        "query": "repo:PremModhaOfficial/motadata-ai-pipeline \"source_agent\" \"target_agent\" \"result\" extension:jsonl",
+        "rows": 2,
+        "self_index_rows": 0,
+        "external_rows": 2,
+        "result": "Two explicit learning/backpatch logs from a designed software pipeline."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"target_agent\" \"source_agent\" \"artifact\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No rows."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"agent_id\" \"session_id\" \"handoff\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No rows."
+      }
+    ],
+    "escalation_dependency_checks": [
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"agent/escalate\" \"target_agent\" \"d1_cto\"",
+        "rows": 19,
+        "self_index_rows": 0,
+        "external_rows": 19,
+        "result": "Nineteen rows: design/runbook material and shared-orchestrator session archives."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"source_agent\":\"shared_master_orchestrator\" \"target_agent\":\"d1_cto\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No rows; punctuation-sensitive form did not locate the known record."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"agent_events\" \"d1_cto\" \"acknowledged\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No rows."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"d1_cto\" \"event_id\" \"resolution\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No rows."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"d1_cto\" \"agent/escalate\" \"received\"",
+        "rows": 6,
+        "self_index_rows": 0,
+        "external_rows": 6,
+        "result": "Six rows: configuration/design paths and one sender-side session archive, not a recipient receipt."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software \"d1_cto\" \"stale heartbeat\" \"follow-up\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No rows."
+      }
+    ],
+    "recipient_path_checks": [
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software path:archive/2026-05-05-sweep/agents/d1_cto/sessions extension:jsonl \"agent_events\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No indexed recipient-session row."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software path:archive/2026-05-05-sweep/agents/d1_cto/sessions extension:jsonl \"agent/escalate\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No indexed recipient-session row."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software path:archive/2026-05-05-sweep/agents/d1_cto/sessions extension:jsonl \"escalation\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No indexed recipient-session row."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software path:archive/2026-05-05-sweep/agents/d1_cto extension:md \"Escalation\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No indexed recipient-session row."
+      },
+      {
+        "query": "repo:jeremiahvanwagner-droid/reggie-software path:archive/2026-05-05-sweep/agents/d1_cto \"shared_master_orchestrator\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0,
+        "result": "No indexed recipient-session row."
+      }
+    ],
+    "operator_boundary_rotation": [
+      {
+        "query": "\"sender_account\" \"recipient_account\" \"result\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_user_id\" \"recipient_user_id\" \"agent\" \"task\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"operator_id\" \"agent_id\" \"message_id\" \"recipient\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"owner_id\" \"sender_agent_id\" \"recipient_agent_id\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_owner_id\" \"target_owner_id\" \"message_id\"",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_principal\" \"recipient_principal\" \"artifact\" \"consumed\" extension:json",
+        "rows": 21,
+        "self_index_rows": 19,
+        "external_rows": 2,
+        "result": "Twenty self-index rows and one external data-inventory schema; no emitted episode."
+      },
+      {
+        "query": "\"producer_owner\" \"consumer_owner\" \"used_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"source_operator\" \"target_operator\" \"accepted_at\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"sender_tenant_id\" \"recipient_tenant_id\" \"message_id\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"origin_tenant\" \"target_tenant\" \"delivery\" \"agent\" extension:json",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"cross_workspace\" \"sender\" \"recipient\" \"result\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      },
+      {
+        "query": "\"cross_account\" \"sender\" \"recipient\" \"task\" extension:jsonl",
+        "rows": 0,
+        "self_index_rows": 0,
+        "external_rows": 0
+      }
+    ],
+    "exact_event_identifier_checks": [
+      {
+        "identifier_sha256": "e48ac43c7cf12bf14fd6d5d3321f2118a72c9aa150dab7a82bcc993982de69e1",
+        "rows": 1,
+        "result": "One origin shared-orchestrator session was indexed."
+      },
+      {
+        "identifier_sha256": "45bd2c537e1680167a61610d420eb6db942d921310804ee42be662cc219d1391",
+        "rows": 1,
+        "result": "One separate shared-orchestrator session was indexed."
+      }
+    ],
+    "aggregate": {
+      "exact_github_queries": 33,
+      "row_occurrences": 69,
+      "self_index_row_occurrences": 23,
+      "external_row_occurrences": 46,
+      "distinct_external_paths": 27,
+      "distinct_external_repositories": 3,
+      "web_prior_reporting_queries": 3,
+      "method": "GitHub default-branch code search used only as a locator, followed by full reads at an immutable repository ref. Counts are row occurrences, not episodes.",
+      "index_limit": "Exact-ID search under-indexed at least one known later same-sender reference found by full-file reading. Zero-result recipient-path searches are bounded coverage, not proof of absence."
+    },
+    "selected_files": [
+      {
+        "role": "Origin scheduled-health session with failed direct send and fallback outbox insertion",
+        "blob_sha": "7d2eb376d3f309ac0ae61c85f7c26619402a2110"
+      },
+      {
+        "role": "Second scheduled-health session corroborating repeated no-session behavior",
+        "blob_sha": "cb2956cf68c8d5171fd07b4b4e44601a6bd0db41"
+      },
+      {
+        "role": "Later same-orchestrator hourly session with another failed direct send",
+        "blob_sha": "a4bc16c8ba5b72fbe5faed6b998664f7e38c89f6"
+      },
+      {
+        "role": "Later same-orchestrator monitor session reading the pending escalation state",
+        "blob_sha": "dc0e167dcbb153ca8d008b4dc5eb398bea804ea0"
+      },
+      {
+        "role": "Configured role and trigger topology",
+        "blob_sha": "1aef06412d36881148490cbb27a98a55393e9e54"
+      },
+      {
+        "role": "Operator-facing designed multi-agent architecture",
+        "blob_sha": "f59f53a0f6a8dd0587f6ab9c343de78989011768"
+      },
+      {
+        "role": "Escalation queue and maintenance runbook",
+        "blob_sha": "d40cc240cd8f57c18bbd82c15b26004280b1d8ff"
+      },
+      {
+        "role": "Repository state context; not treated as proof of the archived event's current activity",
+        "blob_sha": "c1225454dac70678394f7b1398ca6ae07f0deaf7"
+      }
+    ]
+  },
+  "original_chain": {
+    "repository": "jeremiahvanwagner-droid/reggie-software",
+    "immutable_observation_ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+    "observation_ref_at": "2026-09-15T04:23:09Z",
+    "first_publication_not_established": true,
+    "event_window": {
+      "scheduled_instruction_at": "2026-03-13T15:05:21.468Z",
+      "direct_send_failed_at": "2026-03-13T15:06:41.351Z",
+      "fallback_event_created_at": "2026-03-13T15:07:39.784215Z"
+    },
+    "sanitized_dependency_sequence": [
+      "A human-authored scheduled instruction tells the shared orchestrator to check network health and escalate critical findings to the configured CTO role.",
+      "The orchestrator attempts a direct session send to that role.",
+      "The tool returns an error that no session exists for the label.",
+      "The same orchestrator inserts a high-priority escalation row addressed to the CTO role in the designed event table.",
+      "The returned row has no processing timestamp.",
+      "Later selected records show the same orchestrator reading or repeating the escalation state; none is a receipt or dependent action by the named CTO role."
+    ],
+    "record_binding": {
+      "sanitized_event_identifier_sha256": "e48ac43c7cf12bf14fd6d5d3321f2118a72c9aa150dab7a82bcc993982de69e1",
+      "source_role": "shared master orchestrator",
+      "target_role": "configured CTO",
+      "direct_delivery_succeeded": false,
+      "fallback_outbox_row_created": true,
+      "fallback_processed_at_creation": null,
+      "public_recipient_receipt_found": false,
+      "public_recipient_dependent_action_found": false
+    },
+    "architecture_and_authorization": [
+      "The cron instruction explicitly requests escalation to the CTO role.",
+      "The repository describes an operator-facing multi-agent operating system, and its configuration explicitly assigns both roles and their triggers.",
+      "The runbook defines the event queue, pending-event checks and escalation-path verification as intended operations.",
+      "The selected session records are under an archive path; current activity is not inferred from them."
+    ],
+    "evidence_dimensions": {
+      "verified_autonomous_sender_session": true,
+      "target_role_configured": true,
+      "verified_autonomous_recipient_session": false,
+      "task_or_instruction_transfer_attempt": true,
+      "recipient_acquisition": false,
+      "downstream_recipient_use": false,
+      "independently_verified_separate_operators": false,
+      "operator_boundary_evidence": false,
+      "subjective_rogue_intent_evidence": false,
+      "current_activity_established": false
+    },
+    "alternatives": {
+      "designed_monitoring": "Confirmed. The human cron explicitly asks for the health check and escalation.",
+      "single_operator_automation": "Dominant. One configured system and one shared orchestrator create the attempted send and fallback row.",
+      "repeated_test_or_retry": "Supported by later same-orchestrator attempts and monitor reads.",
+      "shared_state_or_observer_contamination": "Later references belong to the same orchestrator reading its own notes/outbox state, not a foreign recipient.",
+      "independent_recipient": "Not established; the direct send failed and no recipient-session record was located in the bounded checks."
+    }
+  },
+  "prior_reporting_checks": {
+    "checked_as_of": "2026-10-25",
+    "performed_after_original_chain_review": true,
+    "web_queries": [
+      "[exact event-summary phrase withheld; SHA-256 locator retained internally]",
+      "\"No session found with label: d1_cto\"",
+      "\"jeremiahvanwagner-droid/reggie-software\" escalation d1_cto"
+    ],
+    "web_result": "No account of this exact archived escalation was located. One later OpenClaw issue describes the same generic no-session failure class but a different operator, agent set and date.",
+    "github_result": "Exact event-identifier checks indexed one origin session per event. Recipient-path queries returned zero, but known index undercoverage prevents treating those zeros as exhaustive.",
+    "conclusion": "No prior coordination report was located for this exact archived event in the checked scope as of 25 October 2026. That does not establish global novelty, and the original record itself fails to show a recipient or coordination episode."
+  },
+  "classification": {
+    "lead_id": "BV-111",
+    "result": "control-not-candidate",
+    "confirmed_previously_unreported_rogue_swarms": 0,
+    "reason": "A verified autonomous sender attempts an explicitly authorized escalation, but direct delivery fails; the fallback remains an unprocessed addressed row and later references are by the same sender. There is no second autonomous participant's acquisition or use and no authorization crossing.",
+    "evidence_needed_to_advance": [
+      "A public recipient-session record bound to the sanitized event identifier or exact content.",
+      "A later action by that independently attributable recipient that depends on the escalation.",
+      "Primary provenance authenticating separate operators if an operator boundary is claimed.",
+      "Primary owner, operator or policy evidence that any cooperation exceeded the scheduled monitoring and escalation authorization."
+    ]
+  },
+  "next_cursors": [
+    "\"event_id_sha256\" \"target_agent\" \"processed_at\" \"recipient_session_id\" extension:json",
+    "\"outbox_event_id\" \"recipient_action_id\" \"consumed_at\" extension:jsonl",
+    "\"delivery_error\" \"fallback_event_id\" \"recipient_ack_id\" extension:json",
+    "\"source_session_id\" \"target_session_id\" \"event_digest\" \"used_at\" extension:jsonl"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "code_or_agent_runtime_executed": false,
+    "scans_or_probes_submitted": false,
+    "participants_contacted": false,
+    "messages_reviews_votes_or_reactions_posted": false,
+    "omitted": [
+      "raw event, run, session, call and correlation identifiers",
+      "payload bodies, reasoning text and tool commands",
+      "local paths, infrastructure addresses and personal names",
+      "credentials, tokens, account identifiers, sink topics and private logs"
+    ]
+  }
+}

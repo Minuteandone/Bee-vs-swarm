@@ -12172,6 +12172,77 @@
       "blob_sha": "f966d484721734c67f1c0b4b3bc35f25978d7345",
       "ref_date": "2026-05-29T13:30:36Z",
       "observed_at": "2026-10-26T01:30:42Z"
+    },
+    {
+      "id": "original-reggie-observation-ref-8c4156c",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/commit/8c4156c7791866ef3392f3427963f6086f411c77",
+      "role": "Immutable observation ref containing the selected historical session archive",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-origin-session-7d2eb37",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/archive/2026-05-05-sweep/agents/shared_master_orchestrator/sessions/e1f8d183-72d1-4977-be66-0c944d51ec1f.jsonl",
+      "role": "Original scheduled-health session with failed direct delivery and a fallback event row; payloads and identifiers are not reproduced",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "7d2eb376d3f309ac0ae61c85f7c26619402a2110",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-repeat-session-cb2956c",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/archive/2026-05-05-sweep/agents/shared_master_orchestrator/sessions/ecbe966a-132d-425a-aa47-13cb6a81b744.jsonl",
+      "role": "Second same-orchestrator scheduled session corroborating the repeated no-session failure mode",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "cb2956cf68c8d5171fd07b4b4e44601a6bd0db41",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-hourly-followup-a4bc16c",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/archive/2026-05-05-sweep/agents/shared_master_orchestrator/sessions/3d0678a8-36d1-4a35-bd52-0137beabdd3d.jsonl",
+      "role": "Later same-orchestrator session with another failed direct delivery; no recipient use is reproduced",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "a4bc16c8ba5b72fbe5faed6b998664f7e38c89f6",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-monitor-followup-dc0e167",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/archive/2026-05-05-sweep/agents/shared_master_orchestrator/sessions/11dbec36-2c5e-4af4-89bc-147bbbba08a2.jsonl",
+      "role": "Later same-orchestrator monitor read of pending escalation state; not a target-role receipt",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "dc0e167dcbb153ca8d008b4dc5eb398bea804ea0",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-agent-config-1aef064",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/agents_config.json",
+      "role": "Designed sender/target roles, triggers and escalation paths",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "1aef06412d36881148490cbb27a98a55393e9e54",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-readme-f59f53a",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/README.md",
+      "role": "Operator-facing designed multi-agent architecture and historical-artifact context",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "f59f53a0f6a8dd0587f6ab9c343de78989011768",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
+    },
+    {
+      "id": "original-reggie-runbook-d40cc24",
+      "url": "https://github.com/jeremiahvanwagner-droid/reggie-software/blob/8c4156c7791866ef3392f3427963f6086f411c77/docs/RUNBOOKS.md",
+      "role": "Designed event-queue, pending-event and escalation-path operations",
+      "ref": "8c4156c7791866ef3392f3427963f6086f411c77",
+      "blob_sha": "d40cc240cd8f57c18bbd82c15b26004280b1d8ff",
+      "ref_date": "2026-09-15T04:23:09Z",
+      "observed_at": "2026-10-26T01:54:08Z"
     }
   ]
 }

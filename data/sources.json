@@ -12564,6 +12564,112 @@
       "blob_sha": "2327b9e6507b801c6c044a843ed097a5e1222c2d",
       "ref_date": "2026-04-16T16:44:47Z",
       "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-teamwork-evidence-commit-76a22f",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/commit/76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "role": "First located publication of the selected certification records and reports",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-source-commit-d74b55",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/commit/d74b55d74956ce304ee495747729d502d15936d7",
+      "role": "Certified release source state preceding both selected exercises",
+      "ref": "d74b55d74956ce304ee495747729d502d15936d7",
+      "ref_date": "2026-08-17T07:24:18Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-independent-record-9af40c",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/independent-forward-test.json",
+      "role": "Machine record for one zero-history Codex continuation; raw carrier identifier and body not reproduced",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "9af40ccea83283122d6c8c1375425d20fbe3cbde",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-independent-doc-8b1563",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/docs/INDEPENDENT_FORWARD_TEST.md",
+      "role": "Origin report limiting the forward test to one fresh agent and describing the disposable fixture",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "8b1563fdba39316cc8c0bba722276145a6609906",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-cross-record-7d96c5",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/cross-machine-kubuntu-to-macos.json",
+      "role": "Machine-separated producer/consumer harness record; raw carrier identifier and instruction not reproduced",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "7d96c521ee1c809ee234988dce93b8919ea5fcba",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-cross-doc-241ba2",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/docs/CROSS_MACHINE_TRANSFER.md",
+      "role": "Origin workflow report and disposable-fixture/local-relay deletion limitation",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "241ba2d1155c06f6ddc35b7db5c02cda64fc6053",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-certification-e01fd5",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/docs/CERTIFICATION.md",
+      "role": "Designed certification levels and explicit warning against higher claims from declared labels",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "e01fd5b12853c33c37c4dbbc85d99a21376b3ca8",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-readme-2925ff",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/README.md",
+      "role": "Intentional agent-continuity product description and self-reported certification",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "2925ff05cd6a4d7b313df7f950a8aab17502056c",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-index-cec420",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/index.json",
+      "role": "Hash index binding the selected machine reports to the release artifact",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "cec4205ee7e66f1fbe657b3ab2d0de8ccc01bd53",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-teamwork-artifact-validation-7ec474",
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/artifact-validation.json",
+      "role": "Release-artifact validation record; does not authenticate autonomous endpoints",
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "blob_sha": "7ec474d51c3a390432271f01e160dc2eb06ae5d9",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-lily-recall-receipt-2cc91e",
+      "url": "https://github.com/LilyLuo001/research-portfolio/blob/8b0dc63d68314983378aff9b7c97148e225699af/dax/mapping/mapA_v2_recall_audit_receipt.json",
+      "role": "Aggregate research-audit receipt; no sender, recipient or dependent-use chain",
+      "ref": "8b0dc63d68314983378aff9b7c97148e225699af",
+      "blob_sha": "2cc91e0e6dcfc059c03f35d558f36c5e792cf908",
+      "ref_date": "2026-08-21T13:44:24Z",
+      "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-lily-readme-5b2057",
+      "url": "https://github.com/LilyLuo001/research-portfolio/blob/8b0dc63d68314983378aff9b7c97148e225699af/README.md",
+      "role": "Human-driven multi-seat design with repository leases, human gates and no direct seat communication",
+      "ref": "8b0dc63d68314983378aff9b7c97148e225699af",
+      "blob_sha": "5b205737c566f819083e88b2d8bb71dac9e1c94e",
+      "ref_date": "2026-08-21T13:44:24Z",
+      "observed_at": "2026-10-26T11:41:25Z"
     }
   ]
 }

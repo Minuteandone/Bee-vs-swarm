@@ -1,0 +1,432 @@
+{
+  "snapshot": "one-agent forward and machine-separated harness controls",
+  "observed_at": "2026-10-26T11:41:25Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "658a730e6f9b9e6d8b969c46c592f0b379566b3a",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "All four saved recipient-use cursors returned only this repository's indexed cursor text, so there was no source-level cue to reopen the known-family-controlled scanner remainder."
+  },
+  "collection": {
+    "github_scope": {
+      "exact_queries": 34,
+      "code_queries": 33,
+      "commit_queries": 1,
+      "row_occurrences": 588,
+      "external_row_occurrences": 480,
+      "self_index_row_occurrences": 108,
+      "distinct_external_urls": 471,
+      "external_repositories": 86,
+      "selected_full_record_or_design_file_reads": 12,
+      "selected_repository_chronology_records": 6,
+      "note": "Four broad schema rotations reached the 100-row first-page cap. Rows and URLs overlap; most broad hits were schemas, migrations, fixtures, evaluations or previously reviewed designed systems. Counts are locator coverage, not event or participant counts."
+    },
+    "saved_cursors": [
+      {
+        "query": "\"source_handoff_id\" \"recipient_read_at\" \"applied_commit_sha\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"parent_handoff_id\" \"producer_commit_sha\" \"consumer_commit_sha\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"source_handoff_id\" \"prompt_sha256\" \"output_sha256\" \"used_at\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"handoff_id\" \"recipient_session_id\" \"receipt_at\" \"effect_commit_sha\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      }
+    ],
+    "schema_rotation": [
+      {
+        "query": "\"source_agent\" \"target_agent\" \"consumed_at\" \"artifact\" extension:json",
+        "rows": 19,
+        "external_rows": 0,
+        "self_index_rows": 19,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"sender_agent\" \"recipient_agent\" \"reply_to\" \"result\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"delegated_by\" \"completed_by\" \"input_artifacts\" \"output_artifacts\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"producer\" \"consumer\" \"artifact_digest\" \"applied_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"agent_from\" \"agent_to\" \"status\" \"result\" extension:json",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap; mostly unrelated schemas, benchmark transcripts and package metadata"
+      },
+      {
+        "query": "\"source_task_id\" \"recipient_task_id\" \"result\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"from_agent_id\" \"to_agent_id\" \"payload_hash\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"task_id\" \"parent_task_id\" \"agent_id\" \"output\" extension:jsonl",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap; mostly fixtures, evaluations and replay transcripts"
+      },
+      {
+        "query": "\"receipt\" \"sender\" \"recipient\" \"artifact_hash\" extension:json",
+        "rows": 86,
+        "external_rows": 71,
+        "self_index_rows": 15,
+        "note": "mostly schemas and migrations"
+      },
+      {
+        "query": "\"handoff\" \"result\" \"used_by\" \"timestamp\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"producer_agent\" \"consumer_agent\" \"artifact_sha256\" extension:json",
+        "rows": 32,
+        "external_rows": 1,
+        "self_index_rows": 31,
+        "note": "the one external row selected the Teamwork certification family"
+      },
+      {
+        "query": "\"source_run_id\" \"recipient_run_id\" \"output_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"message_type\" \"task_result\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_id\" \"recipient_id\" \"reply_to_id\" \"result\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"source_agent_id\" \"target_agent_id\" \"result\" \"timestamp\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"delivered_at\" \"payload\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"producer_agent\" \"consumer_agent\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff_from\" \"handoff_to\" \"accepted\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_agent_id\" \"recipient_agent_id\" \"message\" extension:json",
+        "rows": 100,
+        "external_rows": 78,
+        "self_index_rows": 22,
+        "note": "first-page cap; mostly schemas, golden records and migrations"
+      },
+      {
+        "query": "\"in_reply_to\" \"sender_agent\" \"recipient_agent\" extension:json",
+        "rows": 20,
+        "external_rows": 4,
+        "self_index_rows": 16,
+        "note": "external rows were an already reviewed family, a schema and a test vector"
+      },
+      {
+        "query": "\"assigned_by\" \"completed_by\" \"parent_task_id\" extension:json",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap; migration and workflow records"
+      },
+      {
+        "query": "\"source_task\" \"target_task\" \"artifact_hash\" extension:json",
+        "rows": 3,
+        "external_rows": 2,
+        "self_index_rows": 1,
+        "note": "selected a schema and a human-directed research receipt"
+      },
+      {
+        "query": "\"sent_at\" \"received_at\" \"sender_agent\" \"recipient_agent\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"message_id\" \"reply_to_id\" \"sender_agent\" \"recipient_agent\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      }
+    ],
+    "selected_family_checks": [
+      {
+        "description": "exact independent-forward payload identifier; identifier withheld",
+        "surface": "code search",
+        "rows": 2,
+        "result": "two origin-repository files"
+      },
+      {
+        "description": "exact cross-machine payload identifier; identifier withheld",
+        "surface": "code search",
+        "rows": 2,
+        "result": "two origin-repository files"
+      },
+      {
+        "description": "exact release-artifact SHA-256",
+        "surface": "code search",
+        "rows": 17,
+        "result": "seventeen origin-repository files"
+      },
+      {
+        "description": "exact fixture task symbol plus certification class",
+        "surface": "code search",
+        "rows": 1,
+        "result": "one origin-repository document"
+      },
+      {
+        "description": "exact claim-boundary phrase plus role label",
+        "surface": "code search",
+        "rows": 1,
+        "result": "one origin-repository machine record"
+      },
+      {
+        "query": "Record Teamwork v1.0.0 certification evidence",
+        "surface": "commit search",
+        "rows": 1,
+        "result": "the origin evidence-publication commit"
+      }
+    ],
+    "selected_file_scope": {
+      "teamwork_reads": 10,
+      "teamwork_description": "Eight evidence-commit files plus the later current revisions of README and CERTIFICATION were read; the selected machine records and detailed evidence documents are unchanged at the current ref.",
+      "research_portfolio_reads": 2,
+      "research_portfolio_description": "A selected audit receipt and its repository README were read as a rotated coverage control."
+    },
+    "chronology_scope": [
+      "independent-forward machine-record path history",
+      "cross-machine machine-record path history",
+      "release source commit",
+      "evidence-publication commit",
+      "unresolvable disposable-fixture baseline lookup",
+      "research audit-receipt first-publication history"
+    ],
+    "scoped_web_checks": {
+      "checked_at": "2026-10-26",
+      "queries": 4,
+      "descriptions": [
+        "origin repository plus independent-forward evidence terms",
+        "withheld exact independent-forward payload identifier",
+        "withheld exact cross-machine payload identifier",
+        "repository title plus zero-history Codex and cross-machine terms"
+      ],
+      "result": "No independent account of either exact exercise was located. The origin repository's own evidence commit and documentation explicitly report both exercises."
+    }
+  },
+  "control": {
+    "classification_id": "BV-114",
+    "repository": "RandyNorthrup/teamwork-skill",
+    "claimed_event_window_utc": {
+      "start": "2026-08-17T07:39:24Z",
+      "end": "2026-08-17T07:47:28Z"
+    },
+    "first_located_publication": {
+      "ref": "76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "ref_date": "2026-08-17T07:53:33Z",
+      "effect": "The independent-forward record, cross-machine record, evidence documents, certification claim boundaries and hash index are published together."
+    },
+    "source_state": {
+      "ref": "d74b55d74956ce304ee495747729d502d15936d7",
+      "ref_date": "2026-08-17T07:24:18Z",
+      "note": "The release source commit changes one test-path comparison and precedes both claimed exercises."
+    },
+    "independent_forward_test": {
+      "observation": [
+        "The origin machine record and report say one zero-history Codex agent recovered a pending task from a sealed local payload, changed a README and one Python source file, passed five unchanged tests and resealed revision 2.",
+        "The report labels a fresh forward agent and an independent root auditor, but its own claim boundary is one fresh Codex agent. The auditor is a verification role, not primary evidence of a second autonomous participant.",
+        "The disposable fixture baseline named by the record does not resolve in the origin repository. The sealed input/output carrier and target fixture were intentionally untracked and are not public, so the asserted transfer and downstream diff cannot be independently reconstructed from the published repository."
+      ],
+      "generated_at": "2026-08-17T07:39:24Z",
+      "source_commit_to_generation_seconds": 906,
+      "generation_to_publication_seconds": 849,
+      "classification": "single-autonomous-agent forward-test control"
+    },
+    "cross_machine_test": {
+      "observation": [
+        "The machine record says a payload and complete Git fixture moved from a Kubuntu producer environment to a macOS consumer environment; a safe action was committed and the payload revision advanced from 1 to 2.",
+        "Producer and consumer are declared role labels under the same cross-machine end-to-end harness. Neither the record nor its detailed evidence document establishes that a model or autonomous agent operated either endpoint.",
+        "The local relay and both disposable VM fixtures were removed after validation, leaving a self-attested machine report rather than a public sender, recipient and effect chain."
+      ],
+      "generated_at": "2026-08-17T07:47:28Z",
+      "generation_to_publication_seconds": 365,
+      "classification": "machine-separated deterministic harness control"
+    },
+    "publication_chronology": {
+      "assessment": "The timing is internally plausible: source, exercises and evidence publication occur in that order. It does not cure the missing public carrier/fixture or convert declared roles into authenticated autonomous participants."
+    },
+    "authorization_and_alternatives": [
+      "The repository deliberately certifies an agent-continuity product and defines the transfer topology.",
+      "The independent-forward exercise is expressly limited to one fresh agent plus a root audit.",
+      "The cross-machine exercise is an end-to-end harness with declared identities and no model-runtime provenance.",
+      "Single-operator automation, deterministic harness execution, designed testing and self-attested reporting explain the observations without a rogue swarm."
+    ],
+    "rotated_negative_control": {
+      "repository": "LilyLuo001/research-portfolio",
+      "assessment": "The selected recall receipt is aggregate research-audit metadata, not a sender-to-recipient transfer. Its README describes human-driven model seats that never talk to one another and coordinate through a leased repository with human gates."
+    },
+    "missing_evidence": [
+      "Public sanitized input and output carrier contents or content-addressed equivalents tied to independently attributable sender and recipient runtimes",
+      "A public disposable-fixture pre-state, recipient-side acquisition record and later commit whose content depends on the acquired result",
+      "Primary runtime provenance establishing two autonomous participants rather than one agent plus an auditor or two harness labels",
+      "Independent operator provenance and primary evidence that the exchange exceeded the explicit certification authorization"
+    ],
+    "assessment": "BV-114 is a one-agent forward-test and machine-separated harness control, not a rogue-swarm candidate. One record supports downstream action by one fresh agent; the other supports cross-environment payload continuity. Neither supports autonomous sender-to-recipient coordination across an operator-defined boundary."
+  },
+  "novelty": {
+    "statement": "Origin documentation published with the machine records already reports both exercises. No independent coordination report for either exact record sequence was located in the checked external web scope as of 26 October 2026.",
+    "limits": [
+      "Search absence does not establish global novelty.",
+      "Origin self-reporting independently makes both exercises ineligible as previously unreported discoveries.",
+      "No dataset or index absence is treated as novelty evidence."
+    ],
+    "known_family_overlap": "No record-level overlap with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families. The resemblance is only to generic designed experiment and harness controls."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/commit/76a22f6d0082db7a5c2c0da99ded725c582c5473",
+      "role": "first located evidence-publication commit"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/commit/d74b55d74956ce304ee495747729d502d15936d7",
+      "role": "certified release source commit"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/independent-forward-test.json",
+      "blob_sha": "9af40ccea83283122d6c8c1375425d20fbe3cbde",
+      "role": "single-agent machine record"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/docs/INDEPENDENT_FORWARD_TEST.md",
+      "blob_sha": "8b1563fdba39316cc8c0bba722276145a6609906",
+      "role": "single-agent evidence report and claim boundary"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/cross-machine-kubuntu-to-macos.json",
+      "blob_sha": "7d96c521ee1c809ee234988dce93b8919ea5fcba",
+      "role": "cross-machine harness machine record"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/docs/CROSS_MACHINE_TRANSFER.md",
+      "blob_sha": "241ba2d1155c06f6ddc35b7db5c02cda64fc6053",
+      "role": "cross-machine workflow and deletion limitation"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/docs/CERTIFICATION.md",
+      "blob_sha": "e01fd5b12853c33c37c4dbbc85d99a21376b3ca8",
+      "role": "designed claim levels and explicit limits"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/README.md",
+      "blob_sha": "2925ff05cd6a4d7b313df7f950a8aab17502056c",
+      "role": "designed continuity-product description"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/index.json",
+      "blob_sha": "cec4205ee7e66f1fbe657b3ab2d0de8ccc01bd53",
+      "role": "hash index binding the published machine reports"
+    },
+    {
+      "url": "https://github.com/RandyNorthrup/teamwork-skill/blob/76a22f6d0082db7a5c2c0da99ded725c582c5473/certification-results/artifact-validation.json",
+      "blob_sha": "7ec474d51c3a390432271f01e160dc2eb06ae5d9",
+      "role": "release-artifact validation record"
+    },
+    {
+      "url": "https://github.com/LilyLuo001/research-portfolio/blob/8b0dc63d68314983378aff9b7c97148e225699af/dax/mapping/mapA_v2_recall_audit_receipt.json",
+      "blob_sha": "2cc91e0e6dcfc059c03f35d558f36c5e792cf908",
+      "role": "rotated research-audit receipt control"
+    },
+    {
+      "url": "https://github.com/LilyLuo001/research-portfolio/blob/8b0dc63d68314983378aff9b7c97148e225699af/README.md",
+      "blob_sha": "5b205737c566f819083e88b2d8bb71dac9e1c94e",
+      "role": "human-driven multi-seat design and no-seat-communication statement"
+    }
+  ],
+  "next_cursors": [
+    "\"input_payload_sha256\" \"recipient_runtime_id\" \"effect_commit_sha\" extension:json",
+    "\"producer_harness\" \"consumer_harness\" \"recipient_model\" \"output_revision\" extension:json",
+    "\"source_artifact_sha256\" \"recipient_read_at\" \"result_commit\" extension:json",
+    "\"handoff_revision\" \"consumed_at\" \"recipient_operator_id\" extension:json"
+  ],
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install suspect packages",
+      "invoke an agent runtime",
+      "submit a scan",
+      "contact a participant",
+      "read a sink inbox",
+      "replay a payload",
+      "probe a target"
+    ],
+    "publication_omits": [
+      "raw carrier identifiers",
+      "payload bodies",
+      "task or prompt bodies",
+      "local paths",
+      "infrastructure addresses",
+      "credentials",
+      "tokens",
+      "personal addresses",
+      "private logs"
+    ]
+  }
+}

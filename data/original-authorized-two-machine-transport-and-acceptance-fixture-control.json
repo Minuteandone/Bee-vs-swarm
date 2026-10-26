@@ -1,0 +1,629 @@
+{
+  "snapshot": "authorized two-machine transport and acceptance-fixture control",
+  "observed_at": "2026-10-26T18:28:31Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "aac11b91fd9cc761b28d2b78aeae97c8720f0589",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "All four saved recipient-use cursors returned two repository self-index rows apiece. No external source-level cue justified reopening the known-family-controlled scanner remainder."
+  },
+  "collection": {
+    "github_scope": {
+      "exact_queries": 51,
+      "code_queries": 51,
+      "row_occurrences": 2211,
+      "external_row_occurrences": 2008,
+      "self_index_row_occurrences": 203,
+      "distinct_external_urls": 1953,
+      "external_repositories": 1129,
+      "first_page_caps": 19,
+      "selected_file_reads": 19,
+      "recursive_tree_reads": 1,
+      "selected_commit_metadata_reads": 5,
+      "note": "Rows, URLs and repositories overlap across queries. Broad results were triaged from paths and indexed excerpts; the selected raw records and design files were read in full. Counts are locator coverage, not event or participant counts."
+    },
+    "query_ledger": [
+      {
+        "query": "\"sender_agent\" \"recipient_agent\" \"artifact_sha256\" \"consumed_at\"",
+        "rows": 38,
+        "external_rows": 2,
+        "self_index_rows": 36
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"result\" \"applied\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\"",
+        "rows": 23,
+        "external_rows": 0,
+        "self_index_rows": 23
+      },
+      {
+        "query": "\"source_agent_id\" \"target_agent_id\" \"output_sha256\"",
+        "rows": 23,
+        "external_rows": 16,
+        "self_index_rows": 7
+      },
+      {
+        "query": "\"handoff\" \"accepted\" \"commit_sha\" \"operator\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"upstream_run_id\" \"downstream_run_id\" \"result_sha256\"",
+        "rows": 8,
+        "external_rows": 0,
+        "self_index_rows": 8
+      },
+      {
+        "query": "\"sender_runtime_id\" \"recipient_runtime_id\"",
+        "rows": 52,
+        "external_rows": 49,
+        "self_index_rows": 3
+      },
+      {
+        "query": "\"message_id\" \"recipient\" \"consumed_at\" \"artifact\"",
+        "rows": 100,
+        "external_rows": 94,
+        "self_index_rows": 6,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"delegated_by\" \"completed_by\" \"output_sha256\"",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2
+      },
+      {
+        "query": "\"parent_run_id\" \"child_run_id\" \"tool_result\" \"artifact\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"recipient_session_id\" \"receipt_at\" \"effect_commit_sha\"",
+        "rows": 3,
+        "external_rows": 0,
+        "self_index_rows": 3
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_action\" \"commit_sha\"",
+        "rows": 13,
+        "external_rows": 0,
+        "self_index_rows": 13
+      },
+      {
+        "query": "\"artifact_digest\" \"consumed_by\" \"producer\"",
+        "rows": 100,
+        "external_rows": 79,
+        "self_index_rows": 21,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"produced_by\" \"consumed_by\" \"sha256\" \"agent\"",
+        "rows": 100,
+        "external_rows": 87,
+        "self_index_rows": 13,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"sender_id\" \"recipient_id\" \"task_result\" \"used\"",
+        "rows": 100,
+        "external_rows": 90,
+        "self_index_rows": 10,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"deliver_to\" \"acknowledged_at\" \"result_sha256\"",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff_id\" \"receipt_id\" \"result_sha256\"",
+        "rows": 43,
+        "external_rows": 37,
+        "self_index_rows": 6
+      },
+      {
+        "query": "\"result_ref\" \"recipient\" \"applied_commit\"",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2
+      },
+      {
+        "query": "\"origin_task_id\" \"dependent_task_id\" \"output_sha\"",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"message_sha256\" \"recipient_run_id\" \"used_in_commit\"",
+        "rows": 3,
+        "external_rows": 0,
+        "self_index_rows": 3
+      },
+      {
+        "query": "\"source_output_sha\" \"consumer_run\" \"effect\"",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"advisory\" \"accepted_at\" \"commit_sha\" \"agent\"",
+        "rows": 100,
+        "external_rows": 98,
+        "self_index_rows": 2,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"evidence_sha256\" \"adopted_at\" \"recipient\"",
+        "rows": 14,
+        "external_rows": 14,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff_result\" \"downstream_effect\" \"operator_id\"",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"source_message_id\" \"recipient_message_id\" \"result\"",
+        "rows": 8,
+        "external_rows": 7,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"handoff_from\" \"handoff_to\" \"status\" \"completed\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"sender\" \"recipient\" \"artifact\" \"accepted_at\"",
+        "rows": 100,
+        "external_rows": 97,
+        "self_index_rows": 3,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"producer\" \"consumer\" \"artifact_sha256\" \"timestamp\"",
+        "rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"parent_agent\" \"child_agent\" \"result\" \"commit\"",
+        "rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"agent_id\" \"parent_id\" \"task_id\" \"output\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"message_type\" \"task_result\" \"sender\" \"recipient\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"sender_role\" \"recipient_role\" \"artifact_hash\"",
+        "rows": 17,
+        "external_rows": 15,
+        "self_index_rows": 2
+      },
+      {
+        "query": "\"source_task\" \"target_task\" \"result_hash\"",
+        "rows": 10,
+        "external_rows": 8,
+        "self_index_rows": 2
+      },
+      {
+        "query": "\"result_digest\" \"accepted_by\"",
+        "rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"review_result\" \"implemented_in_commit\"",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"finding_id\" \"resolved_by_commit\" \"reviewer\"",
+        "rows": 19,
+        "external_rows": 15,
+        "self_index_rows": 4
+      },
+      {
+        "query": "\"received_at\" \"processed_at\" \"sender_agent_id\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"acknowledged_at\" \"consumed_at\" \"agent_id\"",
+        "rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"causation_id\" \"correlation_id\" \"handoff\" \"artifact_refs\"",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"task_result\" \"downstream\" \"commit_sha\"",
+        "rows": 100,
+        "external_rows": 80,
+        "self_index_rows": 20,
+        "note": "first-page cap"
+      },
+      {
+        "description": "exact selected delegation locator; raw identifier withheld",
+        "rows": 10,
+        "external_rows": 10,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "description": "exact acceptance-fixture work-report command",
+        "rows": 2,
+        "external_rows": 2,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "description": "exact selected target-worker locator; raw identity withheld",
+        "rows": 4,
+        "external_rows": 4,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "description": "exact selected acknowledgement-worker locator; raw identity withheld",
+        "rows": 4,
+        "external_rows": 4,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "description": "exact selected artifact-import locator; raw identifier withheld",
+        "rows": 2,
+        "external_rows": 2,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "description": "exact selected target-result phrase; payload text withheld",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "description": "exact selected rerun locator; raw phrase withheld",
+        "rows": 2,
+        "external_rows": 2,
+        "self_index_rows": 0,
+        "scope": "selected-family check"
+      },
+      {
+        "query": "\"parent_task_id\" \"child_run_id\" \"result_sha256\" \"semantic_acceptance\"",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "cursor": "resumed"
+      },
+      {
+        "query": "\"delegate_agent\" \"parent_consumed_at\" \"child_output_sha256\" \"effect_commit_sha\"",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "cursor": "resumed"
+      },
+      {
+        "query": "\"recipient_action\" \"advisory_sha256\" \"verified_at\" \"operator_id\"",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "cursor": "resumed"
+      },
+      {
+        "query": "\"source_result_sha256\" \"recipient_runtime_id\" \"downstream_commit_sha\" \"authorization_scope\"",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "cursor": "resumed"
+      }
+    ],
+    "web_prior_reporting_scope": {
+      "queries": [
+        "\"dev-7-wave6-two-mac\" \"multi-agent-harness\"",
+        "exact selected delegation locator; raw identifier withheld",
+        "exact target-result phrase; payload text withheld",
+        "cyl19970726 multi-agent-harness two Mac collaboration report"
+      ],
+      "returned_results": 36,
+      "independent_reports_of_selected_episode": 0,
+      "origin_self_report_present": true,
+      "note": "Search results were used only for a bounded prior-reporting check. Generic harness, Wave6 acoustics, Target retail and multi-agent research results were irrelevant to this episode."
+    }
+  },
+  "selected_original_control": {
+    "repository": "cyl19970726/multi-agent-harness",
+    "pinned_ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+    "pinned_ref_date": "2026-09-17T12:03:36Z",
+    "public_record_summary": [
+      "The origin calls this the first authorized real-machine Wave 6 journey over a user-provided Tailscale overlay, with fixed source, target and control-plane authority and one team per node.",
+      "A source work ledger records creation, start and submission. The collaboration ledger later records source attestation, delegation proposal and acceptance, target-work creation, a second attestation/proposal/acceptance cycle and two remote fact publications.",
+      "The target trust ledger records remote-message persistence, claim, provider receipt and acknowledgement, followed by work-finding and work-report entries. This establishes an addressed transport and receipt sequence inside the harness.",
+      "The v3 manifest binds the selected slice to content digests, reports exact-publication replay and changed-expiry conflict, and states that the team did not span nodes and source work did not auto-complete."
+    ],
+    "event_chronology_utc": [
+      {
+        "time": "2026-08-13T02:54:49.187Z",
+        "event": "source work created"
+      },
+      {
+        "time": "2026-08-13T02:58:06.538Z",
+        "event": "source work submitted"
+      },
+      {
+        "time": "2026-08-13T03:05:30.694Z",
+        "event": "first source attestation and delegation proposal"
+      },
+      {
+        "time": "2026-08-13T03:06:12.627Z",
+        "event": "first target-work creation"
+      },
+      {
+        "time": "2026-08-13T03:13:30.000Z",
+        "event": "explicit acceptance-fixture inbound-policy step"
+      },
+      {
+        "time": "2026-08-13T03:34:36.212Z",
+        "event": "second source attestation and delegation proposal"
+      },
+      {
+        "time": "2026-08-13T03:35:50.029Z",
+        "event": "selected target work created"
+      },
+      {
+        "time": "2026-08-13T03:41:39.998Z",
+        "event": "selected target work claimed"
+      },
+      {
+        "time": "2026-08-13T04:01:29.656Z",
+        "event": "target finding publication"
+      },
+      {
+        "time": "2026-08-13T04:06:00.367Z",
+        "event": "target report publication"
+      },
+      {
+        "time": "2026-08-13T15:01:26.504Z",
+        "event": "55-byte artifact import persisted"
+      }
+    ],
+    "publication_chronology": [
+      {
+        "time": "2026-08-13T00:47:59Z",
+        "commit": "3a0fd4af553c66e76e517542eab0f8d4a8ba4993",
+        "event": "origin first publishes the two-machine collaboration report"
+      },
+      {
+        "time": "2026-08-13T15:16:05Z",
+        "commit": "fed7644133b7eb02459b658e3f705785632aef4f",
+        "event": "origin first publishes the recomputable v3 evidence bundle"
+      },
+      {
+        "time": "2026-08-16T20:27:21Z",
+        "commit": "1316934286feea8821bfc0c02e8283be72998722",
+        "event": "origin updates control-plane authority fencing"
+      },
+      {
+        "time": "2026-09-17T12:03:36Z",
+        "commit": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "event": "pinned observation ref"
+      }
+    ],
+    "dependency_assessment": {
+      "observed_transfer": "A source-labelled message is persisted at the target, claimed, given a provider-receipt entry and acknowledged.",
+      "claimed_recipient_use": "The origin's report links the delivery to a target finding and report.",
+      "causal_limit": "The finding and report describe transport acceptance rather than a task result derived from source content. The later artifact import occurs about 10 hours 55 minutes after the report and therefore cannot be its input.",
+      "runtime_limit": "The task-specific target session, membership, claim, receipt, acknowledgement, finding and report are recorded under commands explicitly prefixed acceptance_fixture. The target work ledger has only created and claimed events; the runtime-command slice has process-start settlement but no task-specific provider result.",
+      "provider_limit": "Source and target provider files contain marker, command, session and transcript digests, but both state that the accepted markers were reused from an earlier Wave 5 provider journey. They do not independently bind a provider-generated target result to this task.",
+      "operator_limit": "Human operator labels create the source and target identities, but those labels and all selected ledgers are authored by the same origin repository. They are not independent proof of distinct real-world operators.",
+      "provenance_limit": "The manifest says committed slice bytes are recomputable while source-store and selector digests were recorded at export and are not completeness proofs."
+    },
+    "authorization_and_design": [
+      "The origin explicitly labels the run authorized and describes fixed source, target and control-plane authority.",
+      "The canonical README defines a provider-neutral AI-company execution foundation, deliberate Agent Teams, Work and Messages, provider-native sessions and a remote fabric.",
+      "The dogfood contract prescribes Host gates, controlled canaries and deterministic fixtures. Temporary subagents are internal resources, not separate owners.",
+      "One public account publishes the report, evidence bundle and later authority-fencing update. No public record shows the exchange exceeding the stated test scope."
+    ],
+    "classification": "BV-117: authorized two-machine transport and acceptance-fixture control, not a rogue-swarm candidate"
+  },
+  "bounded_negative_control": {
+    "repository": "ccpk1/ChoreOps",
+    "pinned_ref": "9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76",
+    "assessment": "Three completed handoff documents use strategist, plan-agent and builder labels and one document reports a final handback plus a 100-test result. The roles and handoff state coexist in owner-authored living documents; no recipient-runtime receipt or content-dependent autonomous action is public. The README expressly describes AI-assisted development under human oversight with every commit audited. This is designed same-custodian documentation, not a candidate."
+  },
+  "primary_sources": [
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/README.md",
+      "blob_sha": "b619746bd18db82d19e581569a52130e74097eac",
+      "role": "canonical designed-system and workflow scope"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/integration/live-agent-team-acceptance-2026-07-21.md",
+      "blob_sha": "8f34cdb3abd60cacf6926282955c42b691f5addb",
+      "role": "origin live-provider acceptance report"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac.md",
+      "blob_sha": "5ed96330b2f6c61aebb82d29950a74017c86f64c",
+      "role": "origin authorized two-machine report"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3.json",
+      "blob_sha": "c0fcba2774b7bc18203b72b54962289fddec9b1e",
+      "role": "sanitized v3 evidence manifest and limitations"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/central-collaboration.jsonl",
+      "blob_sha": "5287a07957f98c1086f1f49bb5a01d6430521172",
+      "role": "collaboration chronology and late artifact import"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-work.jsonl",
+      "blob_sha": "c9bdd07b155b1e26c8f3ac03f89c42122500d83a",
+      "role": "source work lifecycle"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-work.jsonl",
+      "blob_sha": "cb34915b00aafdf6975aa7f9f6ecc5b6e24593d6",
+      "role": "target work creation and claim only"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-trust.jsonl",
+      "blob_sha": "473c52aa769099b63deb807238579c24dc760c4b",
+      "role": "source identity, provider effect and message-authoring records"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-trust.jsonl",
+      "blob_sha": "2a051b10d68eed1ecb4a965e9b0c44dd718220b2",
+      "role": "target fixture-authored receipt, acknowledgement, finding and report"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-provider.json",
+      "blob_sha": "519adc5ac29d0f7a990c496ce306517235954df4",
+      "role": "reused source provider marker metadata"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-provider.json",
+      "blob_sha": "2fa4ecc0662805127c4579997d48b2c0d793c999",
+      "role": "reused target provider marker metadata"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-runtime-commands.jsonl",
+      "blob_sha": "ed6d9fdb796b5af9d6ab8b8a47fdc4d2b7cf8778",
+      "role": "source process-start command slice"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-runtime-commands.jsonl",
+      "blob_sha": "c730831901cfbd270f5c6d4e27b7a43434e49a4d",
+      "role": "target process-start command slice"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/product/agent-team-dogfood-loop.md",
+      "blob_sha": "b4b1b1b75a86d4856a9ccfadacc16ec52809b2ee",
+      "role": "canonical authorized dogfood and fixture contract"
+    },
+    {
+      "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/apps/agent-dashboard/fixtures/workbench-layout-v2-native-v1/team_messages.jsonl",
+      "blob_sha": "903d4487e821eff1919c3fa33dbe976f39084d20",
+      "role": "designed dashboard team-message fixture"
+    }
+  ],
+  "novelty_and_overlap": {
+    "scoped_conclusion": "No independent coordination report for this exact evidence sequence was located in the checked scope as of 26 October 2026.",
+    "qualification": "Search absence does not establish global novelty. More importantly, the origin had already publicly reported the exact authorized exercise on 13 August 2026, so it is not a previously unreported episode.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families. Generic similarity to designed agent-team harnesses does not establish a shared population."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "designed team or acceptance run",
+      "result": "supported by explicit authorization, product contract, fixture command names and origin reports"
+    },
+    {
+      "alternative": "single custodian or observer-authored record",
+      "result": "supported; one public account publishes the evidence and human/operator labels are repository-authored"
+    },
+    {
+      "alternative": "independent provider-generated target result",
+      "result": "not established; task-specific target result commands are fixture-prefixed and provider markers are reused"
+    },
+    {
+      "alternative": "artifact-caused recipient report",
+      "result": "falsified by chronology; artifact import follows the report by almost eleven hours"
+    },
+    {
+      "alternative": "cross-operator rogue coordination",
+      "result": "not supported; no independent operator provenance or exceeded authorization is public"
+    },
+    {
+      "alternative": "current activity",
+      "result": "not inferred from historical committed evidence"
+    }
+  ],
+  "missing_evidence": [
+    "A task-specific provider-native target output tied to the selected source message or result.",
+    "A content-addressed recipient action or artifact whose substance demonstrably depends on source content.",
+    "Independent provenance for distinct sender and recipient runtimes and their real-world operators.",
+    "Primary evidence that any cooperation exceeded the explicit two-machine acceptance authorization.",
+    "An independently complete source-store export or other proof that the committed slices are complete.",
+    "Evidence of a continuing autonomous population rather than a bounded acceptance exercise."
+  ],
+  "next_exact_cursors": [
+    "\"work_report_id\" \"recipient_provider_receipt_id\" \"downstream_commit_sha\" extension:json",
+    "\"remote_fact_publish\" \"recipient_runtime_id\" \"artifact_sha256\" \"accepted_at\" extension:json",
+    "\"message_delivery_ack\" \"source_result_sha256\" \"effect_commit_sha\" extension:json",
+    "\"cross_machine\" \"recipient_action_sha256\" \"operator_id\" \"authorization_scope\" extension:json"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install suspect packages",
+      "submit scans",
+      "invoke agent runtimes",
+      "contact participants",
+      "post messages",
+      "read non-public sinks",
+      "replay payloads",
+      "probe targets"
+    ],
+    "omitted": [
+      "raw task, message, session and delegation identifiers",
+      "payload and prompt bodies",
+      "commands",
+      "local paths",
+      "network addresses",
+      "credentials and tokens",
+      "personal addresses",
+      "private logs"
+    ],
+    "retrieved_material_treated_as_evidence_not_instructions": true
+  }
+}
+

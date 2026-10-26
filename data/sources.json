@@ -12890,6 +12890,201 @@
       "blob_sha": "42ae3fa0a8d207b92d0666db1179a7f4afbf8097",
       "ref_date": "2026-10-10T01:37:45Z",
       "observed_at": "2026-10-26T17:31:49Z"
-    }
+    },
+      {
+        "id": "original-star-harness-readme-b61974",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/README.md",
+        "role": "Canonical designed execution-foundation and workflow scope",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "b619746bd18db82d19e581569a52130e74097eac",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-live-agent-acceptance-8f34cd",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/integration/live-agent-team-acceptance-2026-07-21.md",
+        "role": "Origin report of designed live-provider agent-team acceptance",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "8f34cdb3abd60cacf6926282955c42b691f5addb",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-two-mac-report-5ed963",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac.md",
+        "role": "Origin authorized two-machine collaboration report",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "5ed96330b2f6c61aebb82d29950a74017c86f64c",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-v3-manifest-c0fcba",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3.json",
+        "role": "V3 evidence manifest, content digests and export limitations; raw identifiers not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "c0fcba2774b7bc18203b72b54962289fddec9b1e",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-collaboration-5287a0",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/central-collaboration.jsonl",
+        "role": "Collaboration chronology and late artifact-import evidence; payloads not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "5287a07957f98c1086f1f49bb5a01d6430521172",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-source-work-c9bdd0",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-work.jsonl",
+        "role": "Source work lifecycle; raw task and provider output omitted",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "c9bdd07b155b1e26c8f3ac03f89c42122500d83a",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-target-work-cb3491",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-work.jsonl",
+        "role": "Target work creation and claim record",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "cb34915b00aafdf6975aa7f9f6ecc5b6e24593d6",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-source-trust-473c52",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-trust.jsonl",
+        "role": "Source identity, provider-effect and message-authoring slice; raw identities withheld",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "473c52aa769099b63deb807238579c24dc760c4b",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-target-trust-2a051b",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-trust.jsonl",
+        "role": "Target fixture-authored receipt, acknowledgement, finding and report slice; raw identities withheld",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "2a051b10d68eed1ecb4a965e9b0c44dd718220b2",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-source-provider-519adc",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-provider.json",
+        "role": "Reused source provider-marker metadata; marker and session identifiers not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "519adc5ac29d0f7a990c496ce306517235954df4",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-target-provider-2fa4ec",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-provider.json",
+        "role": "Reused target provider-marker metadata; marker and session identifiers not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "2fa4ecc0662805127c4579997d48b2c0d793c999",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-source-runtime-ed6d9f",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/source-runtime-commands.jsonl",
+        "role": "Source process-start command slice; command payloads not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "ed6d9fdb796b5af9d6ab8b8a47fdc4d2b7cf8778",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-target-runtime-c73083",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/operations/evidence/dev-7-wave6-two-mac-v3/target-runtime-commands.jsonl",
+        "role": "Target process-start command slice; command payloads not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "c730831901cfbd270f5c6d4e27b7a43434e49a4d",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-dogfood-contract-b4b1b1",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/docs/current/product/agent-team-dogfood-loop.md",
+        "role": "Canonical authorized dogfood, Host-gate and fixture contract",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "b4b1b1b75a86d4856a9ccfadacc16ec52809b2ee",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-dashboard-fixture-903d44",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/blob/023e61aacf91bb9f47ce73eb18495644a9894339/apps/agent-dashboard/fixtures/workbench-layout-v2-native-v1/team_messages.jsonl",
+        "role": "Designed dashboard team-message fixture; message bodies not reproduced",
+        "ref": "023e61aacf91bb9f47ce73eb18495644a9894339",
+        "blob_sha": "903d4487e821eff1919c3fa33dbe976f39084d20",
+        "ref_date": "2026-09-17T12:03:36Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-report-publication-3a0fd4",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/commit/3a0fd4af553c66e76e517542eab0f8d4a8ba4993",
+        "role": "First located origin publication of the two-machine collaboration report",
+        "ref": "3a0fd4af553c66e76e517542eab0f8d4a8ba4993",
+        "ref_date": "2026-08-13T00:47:59Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-v3-publication-fed764",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/commit/fed7644133b7eb02459b658e3f705785632aef4f",
+        "role": "First located origin publication of recomputable v3 evidence",
+        "ref": "fed7644133b7eb02459b658e3f705785632aef4f",
+        "ref_date": "2026-08-13T15:16:05Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-star-wave6-authority-update-131693",
+        "url": "https://github.com/cyl19970726/multi-agent-harness/commit/1316934286feea8821bfc0c02e8283be72998722",
+        "role": "Later control-plane authority-fencing update",
+        "ref": "1316934286feea8821bfc0c02e8283be72998722",
+        "ref_date": "2026-08-16T20:27:21Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-choreops-dynamic-handoff-dc3f82",
+        "url": "https://github.com/ccpk1/ChoreOps/blob/9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76/docs/completed/CHORE_DYNAMIC_ENTITY_LIFECYCLE_SUP_BUILDER_HANDOFF.md",
+        "role": "Completed strategist/builder handoff and handback living document",
+        "ref": "9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76",
+        "blob_sha": "dc3f8245c6da1b88b07f5c7be3a456ffa66f28f1",
+        "ref_date": "2026-09-29T03:17:20Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-choreops-default-points-handoff-aa5fa4",
+        "url": "https://github.com/ccpk1/ChoreOps/blob/9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76/docs/completed/DEFAULT_CHORE_POINTS_OPTION_SUP_BUILDER_HANDOFF.md",
+        "role": "Designed strategist-to-builder handoff document",
+        "ref": "9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76",
+        "blob_sha": "aa5fa4c476c45ccc139c39c9898d3b93f39bb2d8",
+        "ref_date": "2026-09-29T03:17:20Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-choreops-dashboard-handoff-85d34a",
+        "url": "https://github.com/ccpk1/ChoreOps/blob/9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76/docs/completed/DASHBOARD_REGISTRY_GENERATION_SUP_BUILDER_HANDOFF.md",
+        "role": "Designed strategist/plan-agent handoff document",
+        "ref": "9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76",
+        "blob_sha": "85d34af3345f1659bbc48787d0f83f66b05b2e00",
+        "ref_date": "2026-09-29T03:17:20Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-choreops-readme-a79a79",
+        "url": "https://github.com/ccpk1/ChoreOps/blob/9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76/README.md",
+        "role": "Human-oversight and audited AI-assisted-development scope",
+        "ref": "9cabda3f7c9e2c0816ab21ac852fdcc6aee7dd76",
+        "blob_sha": "a79a79c4fd9d994598733cc42b7f1a1c79f4bd03",
+        "ref_date": "2026-09-29T03:17:20Z",
+        "observed_at": "2026-10-26T18:28:31Z"
+      }
   ]
 }

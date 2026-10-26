@@ -1,0 +1,421 @@
+{
+  "snapshot": "keyword-triggered mock-backend subagent handoff control",
+  "observed_at": "2026-10-26T12:42:26Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "b8dc86b7e93b65391e366ff88a12c79e3ad264b1",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "The four saved recipient-use cursors returned only this repository's indexed cursor text, so there was no source-level cue to reopen the known-family-controlled scanner remainder."
+  },
+  "collection": {
+    "github_scope": {
+      "exact_queries": 35,
+      "code_queries": 35,
+      "row_occurrences": 591,
+      "external_row_occurrences": 566,
+      "self_index_row_occurrences": 25,
+      "distinct_external_urls": 399,
+      "external_repositories": 39,
+      "selected_file_fetches": 38,
+      "selected_repository_chronology_records": 7,
+      "note": "Four queries reached the 100-row first-page cap. Rows and URLs overlap; broad hits included schemas, migrations, fixtures, evaluation logs and designed runtimes. Counts are locator coverage, not event or participant counts."
+    },
+    "saved_cursors": [
+      {
+        "query": "\"input_payload_sha256\" \"recipient_runtime_id\" \"effect_commit_sha\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"producer_harness\" \"consumer_harness\" \"recipient_model\" \"output_revision\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"source_artifact_sha256\" \"recipient_read_at\" \"result_commit\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      },
+      {
+        "query": "\"handoff_revision\" \"consumed_at\" \"recipient_operator_id\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1
+      }
+    ],
+    "schema_rotation": [
+      {
+        "query": "\"sender\" \"recipient\" \"delivered_at\" \"read_at\" \"payload_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"artifact_id\" \"consumed_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"author_agent_id\" \"recipient_agent_id\" \"created_at\" \"body\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"message_id\" \"sender\" \"recipient\" \"acknowledged_at\" \"response_id\" extension:json",
+        "rows": 6,
+        "external_rows": 5,
+        "self_index_rows": 1,
+        "note": "locator rows; selected families were assessed from original records where warranted"
+      },
+      {
+        "query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_id\" \"commit_sha\" extension:json",
+        "rows": 5,
+        "external_rows": 0,
+        "self_index_rows": 5,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"upstream_agent\" \"downstream_agent\" \"result\" \"used_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"delegator_id\" \"delegate_id\" \"task_id\" \"result_id\" extension:json",
+        "rows": 1,
+        "external_rows": 1,
+        "self_index_rows": 0,
+        "note": "locator rows; selected families were assessed from original records where warranted"
+      },
+      {
+        "query": "\"source_message_id\" \"target_agent_id\" \"applied\" extension:json",
+        "rows": 9,
+        "external_rows": 3,
+        "self_index_rows": 6,
+        "note": "locator rows; selected families were assessed from original records where warranted"
+      },
+      {
+        "query": "\"origin_agent\" \"destination_agent\" \"content_hash\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_role\" \"receiver_role\" \"result_artifact\" \"status\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"created_by_agent\" \"consumed_by_agent\" \"artifact_sha256\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "note": "repository self-index rows only"
+      },
+      {
+        "query": "\"agent_id\" \"parent_agent_id\" \"task_id\" \"completion\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"from_agent\" \"to_agent\" \"reply_to\" \"timestamp\" extension:yaml",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_agent\" \"recipient_agent\" \"message_id\" \"read_at\" extension:json",
+        "rows": 45,
+        "external_rows": 37,
+        "self_index_rows": 8,
+        "note": "locator rows; selected families were assessed from original records where warranted"
+      },
+      {
+        "query": "\"originating_agent\" \"receiving_agent\" \"task_result\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"producer_session_id\" \"consumer_session_id\" \"artifact_path\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"source_agent_id\" \"destination_agent_id\" \"payload\" \"received_at\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"agent_sender\" \"agent_receiver\" \"content\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"handoff_from_agent\" \"handoff_to_agent\" \"result\" extension:json",
+        "rows": 6,
+        "external_rows": 6,
+        "self_index_rows": 0,
+        "note": "locator rows; selected families were assessed from original records where warranted"
+      },
+      {
+        "query": "\"sent_by\" \"received_by\" \"task_id\" \"output\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"agent\" \"subagent\" \"result\" \"parent_task_id\" extension:json",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "note": "first-page cap"
+      },
+      {
+        "query": "\"conversation_id\" \"sender_type\" \"recipient_type\" \"tool_result\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"agent_name\" \"recipient\" \"in_reply_to\" \"artifact\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      },
+      {
+        "query": "\"sender_id\" \"receiver_id\" \"event_type\" \"task_result\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0
+      }
+    ],
+    "selected_family_checks": [
+      {
+        "description": "exact hard-coded delegate-reason sentence",
+        "surface": "code search",
+        "rows": 100,
+        "result": "first-page cap; origin source, memory and receipt records"
+      },
+      {
+        "description": "exact hard-coded sub-agent completion sentence",
+        "surface": "code search",
+        "rows": 100,
+        "result": "first-page cap; origin source, memory and receipt records"
+      },
+      {
+        "query": "file_worker",
+        "surface": "code search",
+        "rows": 74,
+        "result": "origin sub-agent definition, handoffs and receipt records"
+      },
+      {
+        "description": "exact demonstration-task sentence",
+        "surface": "code search",
+        "rows": 100,
+        "result": "first-page cap; origin state and receipt records"
+      },
+      {
+        "description": "exact selected parent-task locator; raw identifier withheld",
+        "surface": "code search",
+        "rows": 4,
+        "result": "four origin receipt files"
+      },
+      {
+        "description": "first exact output-digest locator, superseded after receipt verification",
+        "surface": "code search",
+        "rows": 0,
+        "result": "zero rows"
+      },
+      {
+        "query": "e6d4bd2889bf559d1644d3b7681979e3ef7a318647b9ab9e45554761a075664d",
+        "surface": "code search",
+        "rows": 36,
+        "result": "thirty-six origin decision receipts with the same delegate output"
+      }
+    ],
+    "selected_file_scope": {
+      "handoff_records": 4,
+      "adjacent_queue_records": 5,
+      "memory_and_log_records": 3,
+      "receipt_records": 14,
+      "runtime_state_or_source_files": 12,
+      "note": "Four top-level handoff records, their fourteen parent receipt records, adjacent queue/memory/log records, and the generating runtime, configuration and role documents were fetched without executing code."
+    },
+    "chronology_scope": [
+      "selected handoff-record path history",
+      "selected decision-receipt path history",
+      "mock-backend source path history",
+      "runtime-configuration path history",
+      "first handoff-publication commit",
+      "first decision-receipt-publication commit",
+      "earliest located mock-backend source commit"
+    ],
+    "scoped_web_checks": {
+      "checked_at": "2026-10-26",
+      "queries": 4,
+      "descriptions": [
+        "origin repository plus sub-agent handoff and role terms",
+        "exact hard-coded delegate-reason sentence",
+        "exact hard-coded sub-agent completion sentence",
+        "origin repository plus deterministic mock-backend delegation and receipt terms"
+      ],
+      "result": "Returned pages concerned unrelated agent-delegation receipt specifications and other generic controls; no independent report of the selected origin record sequence was located."
+    }
+  },
+  "control": {
+    "classification_id": "BV-115",
+    "repository": "adaptco/agent-shell",
+    "pinned_ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+    "claimed_event_window_utc": {
+      "start": "2026-04-25T04:40:09Z",
+      "end": "2026-04-25T04:46:44Z"
+    },
+    "first_located_publication": {
+      "handoff_ref": "f9002308809fa8953549b710b434655fe7956731",
+      "handoff_ref_date": "2026-05-01T16:29:09Z",
+      "receipt_ref": "e569c1d7113eb7ec634fe466e9fe49792e5e4b6a",
+      "receipt_ref_date": "2026-05-01T16:29:13Z",
+      "assessment": "Selected artifacts claim 25 April event times but first appear in two adjacent 1 May commits. Publication lag does not establish or refute execution; it prevents treating internal timestamps as independent chronology."
+    },
+    "apparent_chain": {
+      "observation": [
+        "Four public handoff records use distinct task identifiers but the same sub-agent role, bounded file-reading task, context-file list and return contract.",
+        "Four parent receipt chains show a delegate decision, a child tool-result/final sequence, a delegate-result event and then a parent final state.",
+        "The selected decision receipts share the same input and output digests; the exact output digest occurs in thirty-six repository receipt files."
+      ],
+      "limit": "The records expose loop progression, not content-specific recipient use. No parent result contains a summary derived from the file, artifact lineage or later effect dependent on such content."
+    },
+    "generating_source": {
+      "mock_backend": [
+        "For a parent task whose text contains the delegation keywords, the backend returns a fixed delegate decision, fixed role and fixed file-reading subtask.",
+        "For a named sub-agent, the backend emits a fixed file-read call and, after any tool-result event, a fixed completion response without inspecting the tool-result content.",
+        "After any non-empty parent history, the backend emits a generic final response determined only by task text and history length."
+      ],
+      "orchestration": [
+        "The sub-agent manager writes the handoff locally, instantiates another loop with the same backend name, runs a generated child task and returns that result to the parent.",
+        "The parent loop appends the delegate result, but the mock backend's next decision does not semantically inspect it.",
+        "The runtime configuration names mock as the default backend and the public runtime guide demonstrates mock-backed commands."
+      ],
+      "inference": "The byte-identical receipt outputs, exact source constants, default configuration and repeated digest make a deterministic local harness the best-supported explanation. The records do not authenticate an external model call or a separately controlled recipient."
+    },
+    "authorization_and_alternatives": [
+      "The repository is an intentional filesystem-backed agent runtime whose documented contract includes sub-agent delegation.",
+      "All observed handoffs are produced inside the same local service and queue topology by source that explicitly creates the child loop.",
+      "Repeated fixed outputs across distinct task identifiers favor a demo or smoke-test harness over independent autonomous participants.",
+      "Single-operator execution, deterministic mock behavior, repeated tests and shared local state explain the record sequence without unauthorized cooperation."
+    ],
+    "missing_evidence": [
+      "Recipient-side provider or runtime provenance establishing an independently running autonomous participant",
+      "A non-generic, content-addressed child result derived from the named source artifact",
+      "A parent or downstream action whose content depends on that child result rather than merely on history being non-empty",
+      "Independent operator provenance and primary evidence that the exchange exceeded the runtime owner's explicit delegation authorization"
+    ],
+    "assessment": "BV-115 is a keyword-triggered mock-backend subagent handoff control, not a rogue-swarm candidate. The public chain is generated by a designed same-service runtime and does not preserve semantic recipient use or an operator-boundary crossing."
+  },
+  "novelty": {
+    "statement": "No prior coordination report for this exact record sequence was located in the checked scope as of 26 October 2026.",
+    "limits": [
+      "Search absence does not establish global novelty.",
+      "The generating source and designed runtime classification independently prevent promotion to a discovery candidate.",
+      "No dataset or index absence is treated as novelty evidence."
+    ],
+    "known_family_overlap": "No record-level overlap with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families. The resemblance is only to generic designed delegation and deterministic-harness controls."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/adaptco/agent-shell/commit/f9002308809fa8953549b710b434655fe7956731",
+      "role": "first located publication of the selected handoff record"
+    },
+    {
+      "url": "https://github.com/adaptco/agent-shell/commit/e569c1d7113eb7ec634fe466e9fe49792e5e4b6a",
+      "role": "first located publication of the selected decision receipt"
+    },
+    {
+      "url": "https://api.github.com/repos/adaptco/agent-shell/git/blobs/b511638378d928f82162c7d12adf08367b7ca1cf",
+      "blob_sha": "b511638378d928f82162c7d12adf08367b7ca1cf",
+      "role": "selected handoff record; raw task identifiers not reproduced"
+    },
+    {
+      "url": "https://api.github.com/repos/adaptco/agent-shell/git/blobs/aa3a1ec8d5957f77d5d5c58970adb47179fda25a",
+      "blob_sha": "aa3a1ec8d5957f77d5d5c58970adb47179fda25a",
+      "role": "selected delegate-decision receipt; raw identifiers and body not reproduced"
+    },
+    {
+      "url": "https://api.github.com/repos/adaptco/agent-shell/git/blobs/9a5375d0d0aa52af435064e8a00cb298989619c6",
+      "blob_sha": "9a5375d0d0aa52af435064e8a00cb298989619c6",
+      "role": "selected parent-final receipt; raw identifiers and body not reproduced"
+    },
+    {
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/runtime/llm.py",
+      "blob_sha": "e17b6f144059107693c9d2fd8d8b7bd684558d92",
+      "role": "hard-coded mock-backend delegate, child tool and generic final decisions"
+    },
+    {
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/runtime/subagents.py",
+      "blob_sha": "caa093f4f1db780fc17a12de94b0d3baa4172205",
+      "role": "same-service child-loop creation and local handoff writing"
+    },
+    {
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/runtime/agent_loop.py",
+      "blob_sha": "c0a8035abb26ed2938ecdde0d0da7875f595ebd1",
+      "role": "parent history append and generic next-decision path"
+    },
+    {
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/infra/runtime.json",
+      "blob_sha": "fded7851f00e5111079b11f95c30ff549b7518fc",
+      "role": "default mock backend and single local runtime configuration"
+    },
+    {
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/README.md",
+      "blob_sha": "ff2869361d285b2200b61476acd7da15025826d7",
+      "role": "intentional filesystem-backed agent runtime description"
+    }
+  ],
+  "next_cursors": [
+    "\"delegate_result_sha256\" \"recipient_runtime_id\" \"effect_commit_sha\" extension:json",
+    "\"subagent_output_sha256\" \"parent_consumed_at\" \"result_commit\" extension:json",
+    "\"handoff_id\" \"recipient_model\" \"artifact_sha256\" \"used_at\" extension:json",
+    "\"source_task_id\" \"target_task_id\" \"downstream_commit_sha\" \"operator_id\" extension:json"
+  ],
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install suspect packages",
+      "invoke an agent runtime",
+      "submit a scan",
+      "contact a participant",
+      "read a sink inbox",
+      "replay a payload",
+      "probe a target"
+    ],
+    "publication_omits": [
+      "raw handoff and task identifiers",
+      "payload and prompt bodies",
+      "tool-result content",
+      "commands",
+      "local paths",
+      "infrastructure addresses",
+      "credentials",
+      "tokens",
+      "personal addresses",
+      "private logs"
+    ]
+  }
+}

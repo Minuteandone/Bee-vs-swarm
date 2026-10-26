@@ -12670,6 +12670,94 @@
       "blob_sha": "5b205737c566f819083e88b2d8bb71dac9e1c94e",
       "ref_date": "2026-08-21T13:44:24Z",
       "observed_at": "2026-10-26T11:41:25Z"
+    },
+    {
+      "id": "original-adaptco-handoff-publication-f90023",
+      "url": "https://github.com/adaptco/agent-shell/commit/f9002308809fa8953549b710b434655fe7956731",
+      "role": "First located publication of a selected local handoff record",
+      "ref": "f9002308809fa8953549b710b434655fe7956731",
+      "ref_date": "2026-05-01T16:29:09Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-receipt-publication-e569c1",
+      "url": "https://github.com/adaptco/agent-shell/commit/e569c1d7113eb7ec634fe466e9fe49792e5e4b6a",
+      "role": "First located publication of a selected delegate-decision receipt",
+      "ref": "e569c1d7113eb7ec634fe466e9fe49792e5e4b6a",
+      "ref_date": "2026-05-01T16:29:13Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-handoff-blob-b51163",
+      "url": "https://api.github.com/repos/adaptco/agent-shell/git/blobs/b511638378d928f82162c7d12adf08367b7ca1cf",
+      "role": "Selected local handoff record; raw task identifiers and body not reproduced",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "b511638378d928f82162c7d12adf08367b7ca1cf",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-delegate-receipt-aa3a1e",
+      "url": "https://api.github.com/repos/adaptco/agent-shell/git/blobs/aa3a1ec8d5957f77d5d5c58970adb47179fda25a",
+      "role": "Selected fixed-output delegate-decision receipt; raw identifiers and body not reproduced",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "aa3a1ec8d5957f77d5d5c58970adb47179fda25a",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-parent-final-9a5375",
+      "url": "https://api.github.com/repos/adaptco/agent-shell/git/blobs/9a5375d0d0aa52af435064e8a00cb298989619c6",
+      "role": "Selected generic parent-final receipt; raw identifiers and body not reproduced",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "9a5375d0d0aa52af435064e8a00cb298989619c6",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-mock-backend-e17b6f",
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/runtime/llm.py",
+      "role": "Hard-coded mock delegate, sub-agent tool and generic final decisions",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "e17b6f144059107693c9d2fd8d8b7bd684558d92",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-subagents-caa093",
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/runtime/subagents.py",
+      "role": "Same-service child-loop creation and local handoff writing",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "caa093f4f1db780fc17a12de94b0d3baa4172205",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-agent-loop-c0a803",
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/runtime/agent_loop.py",
+      "role": "Parent delegate-result append and next-decision path",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "c0a8035abb26ed2938ecdde0d0da7875f595ebd1",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-runtime-config-fded78",
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/infra/runtime.json",
+      "role": "Default mock backend and local runtime configuration",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "fded7851f00e5111079b11f95c30ff549b7518fc",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
+    },
+    {
+      "id": "original-adaptco-readme-ff2869",
+      "url": "https://github.com/adaptco/agent-shell/blob/1e27c6fe66051e0bd218581151d3328df50d1e52/README.md",
+      "role": "Intentional filesystem-backed agent runtime description",
+      "ref": "1e27c6fe66051e0bd218581151d3328df50d1e52",
+      "blob_sha": "ff2869361d285b2200b61476acd7da15025826d7",
+      "ref_date": "2026-05-31T15:11:16Z",
+      "observed_at": "2026-10-26T12:42:26Z"
     }
   ]
 }

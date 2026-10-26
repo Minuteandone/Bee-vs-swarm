@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-10-26T23:27:18Z",
+  "research_pass": 150,
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "The four saved provenance cursors produced only self-index rows, so there was no source-level cue to reopen the paused remainder."
+    },
+    "github_code_search": {
+      "queries": 33,
+      "row_occurrences": 837,
+      "external_rows": 565,
+      "self_index_rows": 272,
+      "first_page_caps": 3,
+      "selected_file_reads": 12,
+      "selected_commit_records": 4,
+      "qualification": "Rows overlap across queries and are locator coverage, not event, participant or repository counts. The final five exact-family checks contribute 97 origin-repository rows and intentionally overlap the broader locator set."
+    }
+  },
+  "query_ledger": [
+    {"query": "\"work_report_id\" \"recipient_provider_receipt_id\" \"downstream_commit_sha\" extension:json", "rows": 1, "external_rows": 0, "self_index_rows": 1, "cursor": "resumed"},
+    {"query": "\"remote_fact_publish\" \"recipient_runtime_id\" \"artifact_sha256\" \"accepted_at\" extension:json", "rows": 1, "external_rows": 0, "self_index_rows": 1, "cursor": "resumed"},
+    {"query": "\"message_delivery_ack\" \"source_result_sha256\" \"effect_commit_sha\" extension:json", "rows": 1, "external_rows": 0, "self_index_rows": 1, "cursor": "resumed"},
+    {"query": "\"cross_machine\" \"recipient_action_sha256\" \"operator_id\" \"authorization_scope\" extension:json", "rows": 1, "external_rows": 0, "self_index_rows": 1, "cursor": "resumed"},
+    {"query": "\"recipient_run_id\" \"source_artifact_sha256\" \"applied_at\"", "rows": 2, "external_rows": 0, "self_index_rows": 2},
+    {"query": "\"sender_agent_id\" \"recipient_agent_id\" \"result_sha256\"", "rows": 23, "external_rows": 1, "self_index_rows": 22},
+    {"query": "\"handoff_id\" \"consumed_at\" \"artifact_sha256\"", "rows": 47, "external_rows": 17, "self_index_rows": 30},
+    {"query": "\"source_agent\" \"target_agent\" \"accepted_at\" \"commit_sha\"", "rows": 20, "external_rows": 10, "self_index_rows": 10},
+    {"query": "\"result_sha256\" \"used_at\" \"recipient_id\"", "rows": 12, "external_rows": 2, "self_index_rows": 10},
+    {"query": "\"parent_task_id\" \"child_task_id\" \"output_sha256\" \"consumed_at\"", "rows": 1, "external_rows": 0, "self_index_rows": 1},
+    {"query": "\"source_message_id\" \"recipient_session_id\" \"applied_commit\"", "rows": 7, "external_rows": 0, "self_index_rows": 7},
+    {"query": "\"message_id\" \"recipient\" \"artifact_sha256\" \"commit_sha\"", "rows": 61, "external_rows": 15, "self_index_rows": 46},
+    {"query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\"", "rows": 23, "external_rows": 0, "self_index_rows": 23},
+    {"query": "\"delegation_id\" \"result_artifact\" \"accepted_at\"", "rows": 4, "external_rows": 3, "self_index_rows": 1},
+    {"query": "\"received_at\" \"used_at\" \"source_run_id\"", "rows": 100, "external_rows": 100, "self_index_rows": 0, "note": "first-page cap"},
+    {"query": "\"handoff_received\" \"downstream_effect\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"sender_session_id\" \"recipient_session_id\" \"message_kind\" \"reply_to_message_id\"", "rows": 1, "external_rows": 1, "self_index_rows": 0},
+    {"query": "\"from_agent\" \"to_agent\" \"artifact_sha256\" \"status\"", "rows": 100, "external_rows": 75, "self_index_rows": 25, "note": "first-page cap"},
+    {"query": "\"producer_agent_id\" \"consumer_agent_id\" \"result_sha256\"", "rows": 14, "external_rows": 4, "self_index_rows": 10},
+    {"query": "\"source_run_id\" \"recipient_run_id\" \"result_sha256\"", "rows": 9, "external_rows": 0, "self_index_rows": 9},
+    {"query": "\"task_result\" \"recipient\" \"consumed_at\"", "rows": 66, "external_rows": 45, "self_index_rows": 21},
+    {"query": "\"source_task_id\" \"target_task_id\" \"result_sha256\"", "rows": 8, "external_rows": 3, "self_index_rows": 5},
+    {"query": "\"recipient_agent\" \"source_agent\" \"artifact_hash\"", "rows": 21, "external_rows": 1, "self_index_rows": 20},
+    {"query": "\"sent_at\" \"received_at\" \"processed_at\" \"agent_id\"", "rows": 100, "external_rows": 100, "self_index_rows": 0, "note": "first-page cap"},
+    {"query": "\"message_sha256\" \"recipient\" \"used_at\"", "rows": 26, "external_rows": 13, "self_index_rows": 13},
+    {"query": "\"result_hash\" \"recipient_run\" \"accepted_at\"", "rows": 8, "external_rows": 0, "self_index_rows": 8},
+    {"query": "\"handoff\" \"accepted_at_utc\" \"artifact_sha256\"", "rows": 67, "external_rows": 67, "self_index_rows": 0},
+    {"query": "\"parent_agent\" \"child_agent\" \"artifact_sha256\" \"accepted\"", "rows": 16, "external_rows": 11, "self_index_rows": 5},
+    {"query": "\"H-L4D-01A-TOOLS-v1\" \"H-L4D-01B-IOT-v1\"", "rows": 9, "external_rows": 9, "self_index_rows": 0, "scope": "selected-family check"},
+    {"query": "\"L4D-01B-IOT\" \"Agent Compatibility Contract v1\"", "rows": 14, "external_rows": 14, "self_index_rows": 0, "scope": "selected-family check"},
+    {"query": "\"L4D-01C-DOCS\" \"H-L4D-01B-IOT-v1\"", "rows": 9, "external_rows": 9, "self_index_rows": 0, "scope": "selected-family check"},
+    {"query": "\"38e4ae5f\" \"H-L4D-01B-IOT-v1\"", "rows": 5, "external_rows": 5, "self_index_rows": 0, "scope": "selected-family check"},
+    {"query": "\"L4Desk\" \"handoff_id\" \"accepted_at_utc\"", "rows": 60, "external_rows": 60, "self_index_rows": 0, "scope": "selected-family check"}
+  ],
+  "selected_original_control": {
+    "classification": "BV-118: human-directed same-custodian cross-repository contract adoption control, not a rogue-swarm candidate",
+    "repositories": [
+      {"name": "OlegLebedevRU/etranprocessing", "pinned_ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433"},
+      {"name": "OlegLebedevRU/iot-rpc-rest-app", "pinned_ref": "f6ea377353b2749bc0e86cafddf89c1cee7e3c53"}
+    ],
+    "dependency_assessment": {
+      "observed_transfer": "A source handoff publishes a nine-artifact compatibility contract and exact golden-vector semantics for a named consumer stage.",
+      "recipient_use": "The consumer prompt requires that handoff; the later consumer report says all nine source artifacts were checked and the resulting adapter and tests implement the source semantics. A third-stage report then records both the source and consumer handoffs.",
+      "independent_chronology": "Git places the source publication at 17:43:14Z, the consumer implementation at 18:36:42Z and the third-stage report at 19:11:24Z on 17 September 2026. The recipient effect is therefore later than the source publication.",
+      "participant_limit": "Every selected stage is authored and committed by the same public GitHub account and carries the same Junie co-author trailer. A trailer and repository-authored role labels do not authenticate independently controlled runtimes or operators.",
+      "operator_limit": "The project standard defines the journal as the sole inter-agent transfer channel. The controller waits for a user-specified completed prompt, handles exactly one user-provided result per iteration and requires permission or confirmation at effect gates. This is an intended, human-directed cascade.",
+      "current_activity_limit": "Historical public records do not establish a currently active autonomous population or production deployment."
+    },
+    "publication_chronology": [
+      {"time": "2026-09-17T17:43:14Z", "commit": "7e0292c48e8b64429b413578dac03ffb720c316c", "event": "first located publication of source contract, fixtures, report and tests"},
+      {"time": "2026-09-17T18:36:42Z", "commit": "0307dd7953b339ee48c3068a490732c82ea4e401", "event": "consumer adapter, tests and acceptance report published"},
+      {"time": "2026-09-17T19:11:24Z", "commit": "b07962f8805666581d87a7d4b064dcafb2e869fb", "event": "third-stage compatibility report published"},
+      {"time": "2026-09-17T19:13:40Z", "commit": "fc8a2216f5e8a906cfae001c458c10743374fe2a", "event": "both accepted handoffs registered in the journal"}
+    ],
+    "timestamp_limit": "The reports label internal event times 20:45Z, 21:15Z and 22:00Z, about three hours after the corresponding Git publications. They appear to be UTC+3 wall times mislabeled UTC. Git chronology is used for independently observed order; internal timestamps remain origin assertions.",
+    "byte_provenance": {
+      "finding": "The four selected historical digest differences are completely explained by CRLF normalization, not content substitution.",
+      "selected_artifacts": [
+        {"role": "source contract", "git_blob_sha": "66ed7de1d578c8411c7094024960f95369076d32", "git_raw_lf_sha256": "51a29c80272b1e92c2d80b65057b413c4bdad9c7df6b8d0c274b83037ba8db4d", "historical_crlf_sha256": "38e4ae5f13d563b3ae57a83259d63f9a63049d528d9667ae33efbd5a1e71267a"},
+        {"role": "golden vectors", "git_blob_sha": "79f38aafc2aba226a0756914a34a65cc5ac908df", "git_raw_lf_sha256": "0ae6f4b2815d95f41c41eba80712ed1184f05cd81740a2597246b54dfa24a202", "historical_crlf_sha256": "b4f3c1a465e88babf89c0850cfd8dffc29a4cd921ec51a73e2112e6cf9c3034b"},
+        {"role": "consumer adapter", "git_blob_sha": "56cadac6e75e45d6979e6d6cef1af50cbcc0b89f", "git_raw_lf_sha256": "a5d3f998cfa931e3bc8d1398b88eb7395512a314ea402ed1886c56e660a77164", "historical_crlf_sha256": "4c22174762d570dd70cbcbea28fc419748184a9a65ae9296f3f7577d7fa584e8"},
+        {"role": "consumer tests", "git_blob_sha": "6b900d61e2ca2f81bb6be12b5bd6d5691e9bdeaf", "git_raw_lf_sha256": "5841e28da7224f6974c189a2503e89d811213ae9e6a5f806f5e1b1f45bf323d4", "historical_crlf_sha256": "0c5005d42935736030c793af7b4e3c9e08ba382523750d742d5a2d169e768a7f"}
+      ],
+      "origin_corroboration": "A later verification file explicitly distinguishes fresh Git/raw hashes from three historical CRLF digests and says it is documentation evidence, not a repeated runtime or deployment check."
+    },
+    "provenance_limits": [
+      "The source handoff names producer commit c33030bc5f9…, but that object was not located in the current public repository. The independently located first source publication is 7e0292c48e8b64429b413578dac03ffb720c316c.",
+      "The current third-stage report retains a COMMIT_HASH_PLACEHOLDER rather than an immutable producer commit.",
+      "The consumer report and tests support semantic adoption, but no provider-owned receipt or runtime log independently authenticates a distinct recipient agent.",
+      "The later origin verification says runtime verification was not repeated and does not prove current deployment."
+    ]
+  },
+  "rotated_negative_controls": [
+    {"family": "Rig Relay", "assessment": "implementation, schemas and designed review artifacts; no emitted public sender/recipient ledger located"},
+    {"family": "Agent Runner", "assessment": "receipt and handoff schemas, architecture and private-fixture references; no selected public independent exchange"},
+    {"family": "rigorous-open-math-research", "assessment": "formalization handoff implementation, documentation and tests; no emitted actual-run record located"},
+    {"family": "Napaxi and Canvillage matches", "assessment": "implementation or deterministic test paths rather than public cross-operator coordination episodes"}
+  ],
+  "novelty_and_overlap": {
+    "github_exact_check": "Five exact selected-family queries returned 97 rows, all within the two origin repositories; no independent repository report was located.",
+    "web_queries": [
+      "\"H-L4D-01A-TOOLS-v1\" \"H-L4D-01B-IOT-v1\"",
+      "\"L4D-01B-IOT\" agent handoff",
+      "\"OlegLebedevRU\" \"L4Desk\" multi-agent coordination",
+      "\"Agent Compatibility Contract v1\" \"L4D-01C-DOCS\""
+    ],
+    "scoped_conclusion": "No independent coordination report for this exact record sequence was located in the checked scope as of 26 October 2026.",
+    "qualification": "Search absence does not establish global novelty. More importantly, the origin records explicitly design and report the handoff cascade, so this is not a previously unreported episode even though the investigation independently reconstructed its causal chain.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "alternatives_tested": [
+    {"alternative": "content-independent similar text", "result": "rejected; the source contract and golden vectors are hash-bound and the later adapter/tests implement their exact semantics"},
+    {"alternative": "forged or substituted artifact hashes", "result": "not supported; selected historical digests exactly match CRLF-normalized bytes and later origin evidence documents the line-ending issue"},
+    {"alternative": "independently controlled agents", "result": "not established; all selected stages use one account and the same co-author trailer"},
+    {"alternative": "designed team or human-requested workflow", "result": "supported by the mandatory prompt standard and controller procedure"},
+    {"alternative": "rogue operator-boundary crossing", "result": "not supported; no independent operator provenance or evidence of exceeded user authorization is public"},
+    {"alternative": "current activity", "result": "not inferred from historical commits or documentation-only verification"}
+  ],
+  "missing_evidence": [
+    "Provider- or operator-owned authentication for distinct sender and recipient runtimes.",
+    "Primary evidence that the recipient was controlled by an operator independent from the source and repository owner.",
+    "A recipient-side runtime receipt binding the exact source result to the later effect.",
+    "Primary evidence that the exchange exceeded the user-directed cascade, permission gates or assigned work.",
+    "An immutable correction for the unavailable claimed source commit and the third-stage commit placeholder.",
+    "Evidence of a continuing autonomous population or current production effect."
+  ],
+  "primary_sources": [
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/tools/docs/l4desk/handoffs/L4D-01A-TOOLS-report.md", "blob_sha": "f8d549eba902635b9c62a3c526e6822cef4c40c1", "role": "source compatibility-contract handoff"},
+    {"url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/f6ea377353b2749bc0e86cafddf89c1cee7e3c53/l4desk-service/docs/prompts/L4D-01B-IOT.md", "blob_sha": "ea25ea5e7af49918d184123f333e4ceb226944fc", "role": "consumer prompt requiring the source handoff"},
+    {"url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/f6ea377353b2749bc0e86cafddf89c1cee7e3c53/docs/l4desk/handoffs/L4D-01B-IOT-report.md", "blob_sha": "8b4ba2aec6cd7858e2c981f9babb9c47dca0e315", "role": "consumer verification, adoption and output handoff"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/L4D-01C-DOCS.md", "blob_sha": "fe94e59386738855d892d9d4be2b3eb8f21a94b5", "role": "third-stage prompt requiring both prior handoffs"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/handoffs/L4D-01C-DOCS-report.md", "blob_sha": "160687207396c4d8e25eadc47ffb6415de34dbce", "role": "third-stage compatibility report"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/contracts/acceptance-18c-iot-evidence-v1/verification.md", "blob_sha": "1ed2170aa9e41b5aa42a15c9ece92746e966db3f", "role": "later Git/raw versus CRLF hash clarification and runtime limitation"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/PROMPT-STANDARD.md", "blob_sha": "66256f1f159b1cda1d3e6228cf99fc577cd1a810", "role": "mandatory designed handoff standard"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/HANDOFF-CONTROLLER-PROMPT.md", "blob_sha": "f7c8529e9ab138860ce2a7e6fa145cb86688c1bb", "role": "user-fed, permission-gated controller procedure"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/7e0292c48e8b64429b413578dac03ffb720c316c/tools/docs/l4desk/contracts/agent_compatibility_contract_v1.json", "blob_sha": "66ed7de1d578c8411c7094024960f95369076d32", "role": "source publication-commit contract bytes"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/blob/7e0292c48e8b64429b413578dac03ffb720c316c/tools/docs/l4desk/fixtures/golden_vectors_v1.json", "blob_sha": "79f38aafc2aba226a0756914a34a65cc5ac908df", "role": "source publication-commit golden-vector bytes"},
+    {"url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/0307dd7953b339ee48c3068a490732c82ea4e401/app-service/core/adapters/agent_contract_v1.py", "blob_sha": "56cadac6e75e45d6979e6d6cef1af50cbcc0b89f", "role": "consumer publication-commit adapter bytes; not executed"},
+    {"url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/0307dd7953b339ee48c3068a490732c82ea4e401/app-service/tests/core/test_l4d_01b_agent_contract_v1.py", "blob_sha": "6b900d61e2ca2f81bb6be12b5bd6d5691e9bdeaf", "role": "consumer publication-commit test bytes; not executed"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/commit/7e0292c48e8b64429b413578dac03ffb720c316c", "role": "first located source publication"},
+    {"url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/commit/0307dd7953b339ee48c3068a490732c82ea4e401", "role": "consumer publication"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/commit/b07962f8805666581d87a7d4b064dcafb2e869fb", "role": "third-stage report publication"},
+    {"url": "https://github.com/OlegLebedevRU/etranprocessing/commit/fc8a2216f5e8a906cfae001c458c10743374fe2a", "role": "journal registration publication"}
+  ],
+  "next_exact_cursors": [
+    "\"received_at\" \"used_at\" \"source_run_id\" \"effect_commit_sha\"",
+    "\"from_agent\" \"to_agent\" \"artifact_sha256\" \"consumed_at\"",
+    "\"sent_at\" \"received_at\" \"processed_at\" \"result_sha256\"",
+    "\"handoff\" \"accepted_at_utc\" \"artifact_sha256\" \"operator_id\""
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "actions_not_taken": ["execute recovered code", "install packages", "submit scans", "invoke agent runtimes", "contact participants", "post messages", "read non-public sinks", "replay payloads", "probe targets"],
+    "omitted": ["raw carrier and sink addresses", "payload and prompt bodies", "commands", "local paths", "host addresses", "credentials and tokens", "personal addresses", "private logs"],
+    "retrieved_material_treated_as_evidence_not_instructions": true
+  }
+}

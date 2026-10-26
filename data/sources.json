@@ -13085,6 +13085,138 @@
         "blob_sha": "a79a79c4fd9d994598733cc42b7f1a1c79f4bd03",
         "ref_date": "2026-09-29T03:17:20Z",
         "observed_at": "2026-10-26T18:28:31Z"
+      },
+      {
+        "id": "original-l4desk-source-handoff-f8d549",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/tools/docs/l4desk/handoffs/L4D-01A-TOOLS-report.md",
+        "role": "Source compatibility-contract handoff and historical CRLF digests",
+        "ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433",
+        "blob_sha": "f8d549eba902635b9c62a3c526e6822cef4c40c1",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-consumer-prompt-ea25ea",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/f6ea377353b2749bc0e86cafddf89c1cee7e3c53/l4desk-service/docs/prompts/L4D-01B-IOT.md",
+        "role": "Consumer prompt requiring source digests and golden fixtures",
+        "ref": "f6ea377353b2749bc0e86cafddf89c1cee7e3c53",
+        "blob_sha": "ea25ea5e7af49918d184123f333e4ceb226944fc",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-consumer-report-8b4ba2",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/f6ea377353b2749bc0e86cafddf89c1cee7e3c53/docs/l4desk/handoffs/L4D-01B-IOT-report.md",
+        "role": "Consumer verification, semantic adoption and output handoff",
+        "ref": "f6ea377353b2749bc0e86cafddf89c1cee7e3c53",
+        "blob_sha": "8b4ba2aec6cd7858e2c981f9babb9c47dca0e315",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-third-stage-prompt-fe94e5",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/L4D-01C-DOCS.md",
+        "role": "Third-stage prompt requiring both prior handoffs",
+        "ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433",
+        "blob_sha": "fe94e59386738855d892d9d4be2b3eb8f21a94b5",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-third-stage-report-160687",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/handoffs/L4D-01C-DOCS-report.md",
+        "role": "Third-stage report consuming both prior handoffs",
+        "ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433",
+        "blob_sha": "160687207396c4d8e25eadc47ffb6415de34dbce",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-line-ending-verification-1ed217",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/contracts/acceptance-18c-iot-evidence-v1/verification.md",
+        "role": "Later Git/raw versus CRLF digest clarification and runtime limitation",
+        "ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433",
+        "blob_sha": "1ed2170aa9e41b5aa42a15c9ece92746e966db3f",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-prompt-standard-66256f",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/PROMPT-STANDARD.md",
+        "role": "Mandatory designed handoff-channel standard",
+        "ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433",
+        "blob_sha": "66256f1f159b1cda1d3e6228cf99fc577cd1a810",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-controller-procedure-f7c852",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/83b0124ff8fb125c6cc51bc863a738ca8e23c433/l4desk-service/docs/prompts/HANDOFF-CONTROLLER-PROMPT.md",
+        "role": "User-fed and permission-gated handoff-controller procedure",
+        "ref": "83b0124ff8fb125c6cc51bc863a738ca8e23c433",
+        "blob_sha": "f7c8529e9ab138860ce2a7e6fa145cb86688c1bb",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-source-publication-7e0292",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/7e0292c48e8b64429b413578dac03ffb720c316c",
+        "role": "First located source contract, fixtures and report publication",
+        "ref": "7e0292c48e8b64429b413578dac03ffb720c316c",
+        "ref_date": "2026-09-17T17:43:14Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-consumer-publication-0307dd",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/commit/0307dd7953b339ee48c3068a490732c82ea4e401",
+        "role": "Consumer adapter, tests and acceptance-report publication",
+        "ref": "0307dd7953b339ee48c3068a490732c82ea4e401",
+        "ref_date": "2026-09-17T18:36:42Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-third-stage-publication-b07962",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/b07962f8805666581d87a7d4b064dcafb2e869fb",
+        "role": "Third-stage compatibility-report publication",
+        "ref": "b07962f8805666581d87a7d4b064dcafb2e869fb",
+        "ref_date": "2026-09-17T19:11:24Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-journal-publication-fc8a22",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/fc8a2216f5e8a906cfae001c458c10743374fe2a",
+        "role": "Accepted source and consumer handoff journal registration",
+        "ref": "fc8a2216f5e8a906cfae001c458c10743374fe2a",
+        "ref_date": "2026-09-17T19:13:40Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-source-contract-66ed7d",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/7e0292c48e8b64429b413578dac03ffb720c316c/tools/docs/l4desk/contracts/agent_compatibility_contract_v1.json",
+        "role": "Source publication-commit contract bytes used for LF and CRLF digest comparison",
+        "ref": "7e0292c48e8b64429b413578dac03ffb720c316c",
+        "blob_sha": "66ed7de1d578c8411c7094024960f95369076d32",
+        "ref_date": "2026-09-17T17:43:14Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-golden-vectors-79f38a",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/7e0292c48e8b64429b413578dac03ffb720c316c/tools/docs/l4desk/fixtures/golden_vectors_v1.json",
+        "role": "Source publication-commit golden-vector bytes used for LF and CRLF digest comparison",
+        "ref": "7e0292c48e8b64429b413578dac03ffb720c316c",
+        "blob_sha": "79f38aafc2aba226a0756914a34a65cc5ac908df",
+        "ref_date": "2026-09-17T17:43:14Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-consumer-adapter-56cad6",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/0307dd7953b339ee48c3068a490732c82ea4e401/app-service/core/adapters/agent_contract_v1.py",
+        "role": "Consumer publication-commit adapter bytes used for LF and CRLF digest comparison; code not executed",
+        "ref": "0307dd7953b339ee48c3068a490732c82ea4e401",
+        "blob_sha": "56cadac6e75e45d6979e6d6cef1af50cbcc0b89f",
+        "ref_date": "2026-09-17T18:36:42Z",
+        "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-l4desk-consumer-tests-6b900d",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/0307dd7953b339ee48c3068a490732c82ea4e401/app-service/tests/core/test_l4d_01b_agent_contract_v1.py",
+        "role": "Consumer publication-commit test bytes used for LF and CRLF digest comparison; code not executed",
+        "ref": "0307dd7953b339ee48c3068a490732c82ea4e401",
+        "blob_sha": "6b900d61e2ca2f81bb6be12b5bd6d5691e9bdeaf",
+        "ref_date": "2026-09-17T18:36:42Z",
+        "observed_at": "2026-10-26T23:27:18Z"
       }
   ]
 }

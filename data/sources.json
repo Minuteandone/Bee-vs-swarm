@@ -12424,6 +12424,146 @@
       "blob_sha": "3ae2dede765f16f964fb569d493893b4fafd2c3f",
       "ref_date": "2026-09-04T13:43:16Z",
       "observed_at": "2026-10-26T06:35:26Z"
+    },
+    {
+      "id": "original-qbic-effect-commit-bfad196",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/commit/bfad196dc1121d64c06dfe0b54ad673185d81270",
+      "role": "Signed target-effect commit predating the claimed root handoff",
+      "ref": "bfad196dc1121d64c06dfe0b54ad673185d81270",
+      "ref_date": "2026-04-16T10:09:57Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-effect-pr-8",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/pull/8",
+      "role": "Pull request for the target prompt effect, merged by a separate public account",
+      "ref": "8",
+      "ref_date": "2026-04-16T10:14:54Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-trace-commit-1d26fa4",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/commit/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "role": "Signed first located publication of all seven selected session records",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-effect-trace-compare",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/compare/bfad196dc1121d64c06dfe0b54ad673185d81270...1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "role": "Independent comparison showing target effect predates trace publication",
+      "ref": "bfad196dc1121d64c06dfe0b54ad673185d81270...1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-root-handoff-649e5ac",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0001-orchestrator-to-planner.json",
+      "role": "Claimed root orchestrator-to-planner handoff; identifiers and body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "649e5ac621b45027b1fd7d6e3a57a86909db7110",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-plan-relay-b9f466e",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0002-planner-to-writer.json",
+      "role": "Claimed planner-to-writer relay asserting plan input; body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "b9f466e04d2209122f601b4814e6513869aa10a5",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-writer-relay-e7063c2",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0003-writer-to-reviewer.json",
+      "role": "Claimed writer-to-reviewer implementation relay; body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "e7063c2c60cb4efc31748068ac1e4bc088f92c06",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-review-clarification-7c7c76a",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0004-orchestrator-to-reviewer.json",
+      "role": "Claimed orchestrator-to-reviewer clarification; body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "7c7c76ae392260a96e9da94ed33a59f253f557f9",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-planner-result-b35aab6",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/results/0001-planner-implementation_plan.json",
+      "role": "Claimed planner result linked to the root handoff; body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "b35aab68f6b31237ffbe4e56da4b3d715c44fc0f",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-writer-result-05ed5f2",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/results/0002-writer-implementation_summary.json",
+      "role": "Claimed writer result naming target files and a deviation; body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "05ed5f24844a684859f04fec277888aa54072c48",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-review-result-0cf666b",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/results/0004-reviewer-review_result.json",
+      "role": "Claimed content-specific reviewer result; body not reproduced",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "0cf666b9e058312e1debfe06a26a1a39e1486ab6",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-coding-prompt-b52b911",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/bfad196dc1121d64c06dfe0b54ad673185d81270/prompts/coding-boss.txt",
+      "role": "Target effect and single-orchestrator handoff/result-writing contract; prompt body not reproduced",
+      "ref": "bfad196dc1121d64c06dfe0b54ad673185d81270",
+      "blob_sha": "b52b911317c409dad2845a08be59d76f816bdf26",
+      "ref_date": "2026-04-16T10:09:57Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-docs-prompt-473f443",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/bfad196dc1121d64c06dfe0b54ad673185d81270/prompts/docs.txt",
+      "role": "Parallel documentation-orchestrator handoff/result-writing contract; prompt body not reproduced",
+      "ref": "bfad196dc1121d64c06dfe0b54ad673185d81270",
+      "blob_sha": "473f4438d4831d27e4596601b0647bd462c5b408",
+      "ref_date": "2026-04-16T10:09:57Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-readme-e2c849e",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/c133ade8723d77858b51affba1780c776e41a90f/README.md",
+      "role": "Repository description of intentional planning-first multi-tier workflow",
+      "ref": "c133ade8723d77858b51affba1780c776e41a90f",
+      "blob_sha": "e2c849e100affefe55a4209655769e0e63501357",
+      "ref_date": "2026-04-16T17:29:33Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-handoff-schema-b5cd474",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/schemas/handoff.schema.json",
+      "role": "Schema defining the selected role-labelled handoff records",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "b5cd474cb5ac7953fa7da71007efc548a613ed3d",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
+    },
+    {
+      "id": "original-qbic-result-schema-2327b9e",
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/schemas/result.schema.json",
+      "role": "Schema defining the selected role-labelled result records",
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "blob_sha": "2327b9e6507b801c6c044a843ed097a5e1222c2d",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "observed_at": "2026-10-26T07:40:09Z"
     }
   ]
 }

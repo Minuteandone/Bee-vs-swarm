@@ -1,0 +1,442 @@
+{
+  "snapshot": "backfilled self-service handoff chronology control",
+  "observed_at": "2026-10-26T07:40:09Z",
+  "status": "control-not-candidate",
+  "confirmed_previously_unreported_rogue_swarms": 0,
+  "notify_user": false,
+  "starting_state": {
+    "repository_main_ref": "31151f25a50d5bf659eb5750a75df0b684802cca",
+    "scanner_reports_inspected": 853,
+    "scanner_reports_total": 1146,
+    "known_family_controlled_remainder_paused": 293,
+    "scanner_reopened": false,
+    "reason": "All four saved recipient-use cursors returned only self-index text or no external row, so there was no source-level cue to reopen the known-family-controlled scanner remainder."
+  },
+  "collection": {
+    "github_scope": {
+      "exact_queries": 34,
+      "row_occurrences": 398,
+      "external_row_occurrences": 370,
+      "self_index_row_occurrences": 28,
+      "distinct_external_urls": 365,
+      "external_repositories": 88,
+      "selected_full_record_or_design_files": 12,
+      "selected_repository_chronology_records": 6,
+      "note": "Three broad schema rotations reached the 100-row first-page cap. Rows and URLs overlap; most broad hits were schemas, fixtures, benchmarks or previously reviewed designed systems. Counts are locator coverage, not event or participant counts."
+    },
+    "saved_cursors": [
+      {
+        "query": "\"received_message_id\" \"recipient_session_id\" \"consumed_in_artifact\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"plan_message_id\" \"executor_prompt_sha256\" \"accepted_at\" \"output_artifact_sha256\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"reply_to\" \"recipient_run_id\" \"used_in_commit\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"source_message_sha256\" \"recipient_action_sha256\" \"operator_id\" extension:json",
+        "rows": 4,
+        "external_rows": 0,
+        "self_index_rows": 4,
+        "external_repositories": 0
+      }
+    ],
+    "schema_rotation": [
+      {
+        "query": "\"received_from\" \"used_in\" \"agent_id\" \"artifact_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"source_message_id\" \"consumer_session_id\" \"output_sha256\" extension:json",
+        "rows": 1,
+        "external_rows": 0,
+        "self_index_rows": 1,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"handoff_id\" \"accepted_by\" \"result_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"in_reply_to\" \"artifact_sha256\" \"agent_id\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"sender_session\" \"receiver_session\" \"consumed\" extension:json",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"upstream_run_id\" \"downstream_run_id\" \"artifact_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"input_artifact_sha256\" \"output_artifact_sha256\" \"actor_id\" extension:json",
+        "rows": 2,
+        "external_rows": 0,
+        "self_index_rows": 2,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"message_id\" \"consumed_by\" \"produced_by\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"delivery_id\" \"recipient_id\" \"acknowledged_at\" \"result\" extension:json",
+        "rows": 62,
+        "external_rows": 61,
+        "self_index_rows": 1,
+        "external_repositories": 7
+      },
+      {
+        "query": "\"handoff\" \"recipient\" \"evidence_sha256\" \"accepted\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"sender_agent_id\" \"receiver_agent_id\" \"payload_sha256\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"delegated_task_id\" \"completed_by\" \"result_artifact\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"message_type\" \"result\" \"sender_id\" \"recipient_id\" \"reply_to\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"type\" \"agent_result\" \"from\" \"to\" \"timestamp\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"kind\" \"handoff\" \"from_agent\" \"to_agent\" extension:json",
+        "rows": 100,
+        "external_rows": 98,
+        "self_index_rows": 2,
+        "external_repositories": 35
+      },
+      {
+        "query": "\"event_type\" \"task_completed\" \"agent_id\" \"parent_task_id\" extension:jsonl",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"task_result\" \"recipient_agent\" \"source_agent\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"result_message_id\" \"sender\" \"recipient\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"message_id\" \"from_agent\" \"to_agent\" \"timestamp\" extension:jsonl",
+        "rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "external_repositories": 5
+      },
+      {
+        "query": "\"action\" \"consume\" \"artifact_sha256\" \"agent\" extension:json",
+        "rows": 100,
+        "external_rows": 96,
+        "self_index_rows": 4,
+        "external_repositories": 37
+      },
+      {
+        "query": "\"received_at\" \"processed_at\" \"sender_agent\" \"recipient_agent\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"accepted_at\" \"accepted_by\" \"artifact_sha256\" \"produced_by\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      },
+      {
+        "query": "\"handoff_id\" \"source_agent\" \"target_agent\" \"status\" extension:json",
+        "rows": 16,
+        "external_rows": 6,
+        "self_index_rows": 10,
+        "external_repositories": 4
+      },
+      {
+        "query": "\"origin_session\" \"target_session\" \"artifact\" extension:json",
+        "rows": 0,
+        "external_rows": 0,
+        "self_index_rows": 0,
+        "external_repositories": 0
+      }
+    ],
+    "selected_family_checks": [
+      {
+        "description": "exact root handoff identifier; identifier withheld",
+        "rows": 3,
+        "result": "three origin-repository record links"
+      },
+      {
+        "description": "exact final review handoff identifier; identifier withheld",
+        "rows": 2,
+        "result": "two origin-repository record links"
+      },
+      {
+        "description": "exact planner-result sentence; sentence withheld",
+        "rows": 1,
+        "result": "one origin-repository record link"
+      },
+      {
+        "description": "exact reviewer-result sentence; sentence withheld",
+        "rows": 1,
+        "result": "one origin-repository record link"
+      },
+      {
+        "description": "exact prompt-change commit title in code search",
+        "rows": 0,
+        "result": "no code row"
+      },
+      {
+        "query": "self-service handoffs",
+        "surface": "commit search",
+        "rows": 2,
+        "result": "the prompt-change commit and its merge commit in the origin repository"
+      }
+    ],
+    "scoped_web_checks": {
+      "checked_at": "2026-10-26",
+      "queries": 4,
+      "descriptions": [
+        "repository plus self-service-handoff phrase",
+        "exact prompt-change commit title",
+        "exact final-review identifier with reviewer locator; identifier withheld",
+        "repository title plus hybrid-workflow terms"
+      ],
+      "result": "Only the origin GitHub repository was located; no external account of the selected record sequence was returned."
+    }
+  },
+  "control": {
+    "classification_id": "BV-113",
+    "repository": "qbicsoftware/opencode-config-bundle",
+    "attributable_labels": [
+      "orchestrator",
+      "planner",
+      "writer",
+      "reviewer"
+    ],
+    "claimed_event_window_utc": {
+      "start": "2026-04-16T18:32:00Z",
+      "end": "2026-04-16T19:05:00Z"
+    },
+    "first_located_effect": {
+      "ref": "bfad196dc1121d64c06dfe0b54ad673185d81270",
+      "ref_date": "2026-04-16T10:09:57Z",
+      "effect": "Both target prompt files receive the self-service, user-summary and orchestrator-written-result changes.",
+      "merge_record": {
+        "pull_request": 8,
+        "merged_at": "2026-04-16T10:14:54Z",
+        "assessment": "merged by a separate public account"
+      }
+    },
+    "first_located_trace_publication": {
+      "ref": "1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "ref_date": "2026-04-16T16:44:47Z",
+      "verification": "valid SSH signature",
+      "effect": "All four handoff files and all three result files are added together by one public account."
+    },
+    "record_chain": [
+      "The root handoff addresses the planner; a planner result links back three minutes later.",
+      "A planner-to-writer handoff five minutes later explicitly treats that plan as verified input; the writer result names the target files and a plan deviation.",
+      "A writer-to-reviewer summary relays the implemented changes; an orchestrator-to-reviewer follow-up narrows the requested check; the reviewer result reports content-specific inspection and approval.",
+      "Taken only at face value, the identifiers, timestamps and semantics describe result transfer and downstream use."
+    ],
+    "chronology_test": {
+      "prompt_change_before_claimed_root_seconds": 30123,
+      "human_merge_before_claimed_root_seconds": 29826,
+      "trace_publication_before_claimed_root_seconds": 6433,
+      "trace_publication_before_claimed_final_review_seconds": 8413,
+      "compare_result": "The trace-publication commit is six commits after the prompt-change commit. The comparison adds the seven session artifacts and release-build changes; it does not add either claimed target-file effect.",
+      "assessment": "Independent Git history reverses the record's claimed causality. The target effects were committed and merged by a separate public account more than eight hours before the root handoff's claimed time. The complete trace was then published before its own claimed events. Clock skew could explain metadata error, but it cannot make these records evidence that the handoffs caused the earlier prompt changes."
+    },
+    "provenance_and_authorization": [
+      "The repository describes a planning-first multi-tier agent bundle and explicitly assigns routing, planning, execution and validation tiers.",
+      "The target prompts state that one orchestrator writes or updates every handoff and persists every subagent response; role-labelled JSON files therefore do not independently authenticate their named writers.",
+      "One signed public account co-publishes every selected session artifact, and a separate public account merges the effect pull request."
+    ],
+    "alternatives": [
+      "backfilled or synthetic session trace",
+      "incorrect or local-time-labelled-as-UTC timestamps",
+      "single-orchestrator artifact writing",
+      "designed multi-agent workflow",
+      "separate-account merge"
+    ],
+    "missing_evidence": [
+      "A recipient-side runtime record independently timestamped before the target effect",
+      "A content-addressed result acquired by a separately attributable recipient and a later change causally dependent on it",
+      "Independent operator provenance for the role-labelled trajectories",
+      "Primary evidence that any cooperation exceeded the documented workflow and merge path"
+    ],
+    "assessment": "BV-113 is a backfilled self-service handoff chronology control, not a rogue-swarm candidate. The internal record is semantically coherent, but independent Git ordering falsifies it as evidence for the claimed result-to-effect chronology."
+  },
+  "novelty": {
+    "statement": "No prior coordination report for this exact record sequence was located in the checked scope as of 26 October 2026.",
+    "limits": [
+      "Search absence does not establish global novelty.",
+      "The origin repository itself publishes the trace and explicitly describes the designed multi-agent workflow.",
+      "A backfilled control is not promoted by novelty."
+    ],
+    "known_family_overlap": "No overlap with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/commit/bfad196dc1121d64c06dfe0b54ad673185d81270",
+      "role": "signed target-effect commit"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/pull/8",
+      "role": "effect pull request merged by a separate public account"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/commit/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "role": "signed first located trace-publication commit"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/compare/bfad196dc1121d64c06dfe0b54ad673185d81270...1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f",
+      "role": "independent effect-to-trace ordering"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0001-orchestrator-to-planner.json",
+      "blob_sha": "649e5ac621b45027b1fd7d6e3a57a86909db7110",
+      "role": "root handoff"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0002-planner-to-writer.json",
+      "blob_sha": "b9f466e04d2209122f601b4814e6513869aa10a5",
+      "role": "plan relay"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0003-writer-to-reviewer.json",
+      "blob_sha": "e7063c2c60cb4efc31748068ac1e4bc088f92c06",
+      "role": "implementation relay"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/handoffs/0004-orchestrator-to-reviewer.json",
+      "blob_sha": "7c7c76ae392260a96e9da94ed33a59f253f557f9",
+      "role": "review clarification"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/results/0001-planner-implementation_plan.json",
+      "blob_sha": "b35aab68f6b31237ffbe4e56da4b3d715c44fc0f",
+      "role": "planner result"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/results/0002-writer-implementation_summary.json",
+      "blob_sha": "05ed5f24844a684859f04fec277888aa54072c48",
+      "role": "writer result"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/sessions/2026-04-16T183200Z/results/0004-reviewer-review_result.json",
+      "blob_sha": "0cf666b9e058312e1debfe06a26a1a39e1486ab6",
+      "role": "reviewer result"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/bfad196dc1121d64c06dfe0b54ad673185d81270/prompts/coding-boss.txt",
+      "blob_sha": "b52b911317c409dad2845a08be59d76f816bdf26",
+      "role": "effect and single-orchestrator writing contract"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/bfad196dc1121d64c06dfe0b54ad673185d81270/prompts/docs.txt",
+      "blob_sha": "473f4438d4831d27e4596601b0647bd462c5b408",
+      "role": "parallel documentation-orchestrator contract"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/c133ade8723d77858b51affba1780c776e41a90f/README.md",
+      "blob_sha": "e2c849e100affefe55a4209655769e0e63501357",
+      "role": "designed multi-tier workflow context"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/schemas/handoff.schema.json",
+      "blob_sha": "b5cd474cb5ac7953fa7da71007efc548a613ed3d",
+      "role": "handoff record schema"
+    },
+    {
+      "url": "https://github.com/qbicsoftware/opencode-config-bundle/blob/1d26fa4abaa08895e84cb8aae7deecbbfc8f3b8f/.opencode/schemas/result.schema.json",
+      "blob_sha": "2327b9e6507b801c6c044a843ed097a5e1222c2d",
+      "role": "result record schema"
+    }
+  ],
+  "next_cursors": [
+    "\"source_handoff_id\" \"recipient_read_at\" \"applied_commit_sha\" extension:json",
+    "\"parent_handoff_id\" \"producer_commit_sha\" \"consumer_commit_sha\" extension:json",
+    "\"source_handoff_id\" \"prompt_sha256\" \"output_sha256\" \"used_at\" extension:json",
+    "\"handoff_id\" \"recipient_session_id\" \"receipt_at\" \"effect_commit_sha\" extension:json"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "executed_recovered_code": false,
+    "invoked_agent_runtime": false,
+    "contacted_participants": false,
+    "submitted_messages_or_scans": false,
+    "excluded": [
+      "raw message and run identifiers outside public record links",
+      "payload and prompt bodies",
+      "reasoning text and tool commands",
+      "local paths and infrastructure addresses",
+      "credentials, tokens, sink topics, personal addresses and private logs"
+    ]
+  }
+}

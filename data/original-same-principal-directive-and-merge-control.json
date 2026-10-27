@@ -1,0 +1,398 @@
+{
+  "generated_at": "2026-10-27T05:32:45Z",
+  "research_pass": 152,
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "discovery_target": "Previously unreported autonomous sender-to-recipient coordination with a concrete task result or artifact, demonstrable recipient use and primary evidence that the cooperation crossed an operator-defined boundary",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "The four resumed exact cursors returned only this repository's own indexed history, so they supplied no source-level cue to reopen the paused scanner remainder."
+    },
+    "github_code_search": {
+      "record_locator_queries": 24,
+      "record_locator_row_occurrences": 632,
+      "external_rows": 473,
+      "self_index_rows": 159,
+      "first_page_caps": 5,
+      "selected_repository_context_queries": 16,
+      "selected_repository_context_row_occurrences": 1009,
+      "selected_repository_context_first_page_caps": 9,
+      "selected_file_reads": 18,
+      "selected_unique_commit_or_history_records": 6,
+      "selected_pull_request_timelines": 1,
+      "qualification": "Rows overlap across queries and are locator coverage, not event, participant or repository counts. Capped pages are bounded first-page coverage, not exhaustive result sets."
+    }
+  },
+  "query_ledger": [
+    {
+      "query": "\"source_message_id\" \"recipient_action_sha256\" \"accepted_at\"",
+      "rows": 9,
+      "external_rows": 0,
+      "self_index_rows": 9,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"received_receipt_id\" \"result_artifact_sha256\" \"used_at\"",
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" \"consumed_at\"",
+      "rows": 22,
+      "external_rows": 0,
+      "self_index_rows": 22,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"in_reply_to\" \"result_sha256\" \"effect_commit_sha\" \"authorization_scope\"",
+      "rows": 3,
+      "external_rows": 0,
+      "self_index_rows": 3,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"handoff_id\" \"recipient_run_id\" \"result_sha256\" \"consumed_at\"",
+      "rows": 14,
+      "external_rows": 0,
+      "self_index_rows": 14
+    },
+    {
+      "query": "\"from_agent_id\" \"to_agent_id\" \"in_reply_to\" \"output_sha256\"",
+      "rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1
+    },
+    {
+      "query": "\"sender_run_id\" \"receiver_run_id\" \"message_sha256\" \"applied_at\"",
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0
+    },
+    {
+      "query": "\"source_receipt_id\" \"consumer_receipt_id\" \"artifact_sha256\"",
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0
+    },
+    {
+      "query": "\"origin_task_id\" \"recipient_task_id\" \"result_hash\" \"accepted_at\"",
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0
+    },
+    {
+      "query": "\"producer_run\" \"consumer_run\" \"content_hash\" \"used_at\"",
+      "rows": 4,
+      "external_rows": 0,
+      "self_index_rows": 4
+    },
+    {
+      "query": "\"source_message_id\" \"consumer_task_id\" \"artifact_digest\"",
+      "rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1
+    },
+    {
+      "query": "\"received_from_agent\" \"used_in_commit\"",
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0
+    },
+    {
+      "query": "\"parent_message_id\" \"recipient_agent_id\" \"result_sha256\"",
+      "rows": 3,
+      "external_rows": 0,
+      "self_index_rows": 3
+    },
+    {
+      "query": "\"dispatch_receipt_id\" \"runtime_receipt_hash\" \"completed_at\"",
+      "rows": 1,
+      "external_rows": 1,
+      "self_index_rows": 0,
+      "note": "One deterministic Mupot test path already bounded by BV-119."
+    },
+    {
+      "query": "\"sender_agent\" \"recipient_agent\" \"reply_to\" \"artifact_sha256\"",
+      "rows": 31,
+      "external_rows": 4,
+      "self_index_rows": 27,
+      "note": "All four external rows are one canary migration plus three test paths in a single repository; no emitted exchange was selected."
+    },
+    {
+      "query": "\"input_artifact_sha256\" \"output_artifact_sha256\" \"recipient_run_id\"",
+      "rows": 3,
+      "external_rows": 0,
+      "self_index_rows": 3
+    },
+    {
+      "query": "\"in_reply_to\" \"from_agent\" \"to_agent\"",
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "note": "First-page cap. The selected emitted dispatch family contributed eight rows; the remainder was dominated by source, documentation and test paths."
+    },
+    {
+      "query": "\"artifact_sha256\" \"consumed_at\" \"recipient\"",
+      "rows": 100,
+      "external_rows": 60,
+      "self_index_rows": 40,
+      "note": "First-page cap; selected non-self paths were schema, implementation or designed-control material."
+    },
+    {
+      "query": "\"message_id\" \"sender\" \"recipient\" \"applied_at\"",
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "note": "First-page cap; path and excerpt screening did not expose a content-addressed emitted dependency."
+    },
+    {
+      "query": "\"task_result\" \"reply_to\" \"agent_id\" \"status\"",
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "note": "First-page cap; selected paths were implementation, evaluations, documentation or the already bounded Mupot family."
+    },
+    {
+      "query": "\"handoff_id\" \"source_agent\" \"target_agent\" \"status\"",
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "note": "First-page cap; no public actual-run record with a causal downstream effect was selected."
+    },
+    {
+      "query": "\"output_sha256\" \"parent_task_id\" \"child_task_id\"",
+      "rows": 10,
+      "external_rows": 8,
+      "self_index_rows": 2,
+      "note": "The eight external rows are implementation, schema, demo, telemetry-ingest or test paths. Ouroboros had already been screened at this pinned ref in Pass 149."
+    },
+    {
+      "query": "\"producer_agent_id\" \"consumer_agent_id\" \"used_at\"",
+      "rows": 18,
+      "external_rows": 0,
+      "self_index_rows": 18
+    },
+    {
+      "query": "\"source_artifact\" \"recipient_action\" \"commit_sha\"",
+      "rows": 10,
+      "external_rows": 0,
+      "self_index_rows": 10
+    }
+  ],
+  "selected_repository_context_queries": [
+    {"query": "in_reply_to", "rows": 100, "first_page_cap": true},
+    {"query": "dispatch", "rows": 100, "first_page_cap": true},
+    {"query": "receipt", "rows": 100, "first_page_cap": true},
+    {"query": "workstream", "rows": 100, "first_page_cap": true},
+    {"query": "review-response", "rows": 100, "first_page_cap": true},
+    {"query": "handoff", "rows": 100, "first_page_cap": true},
+    {"query": "principal Jordan", "rows": 100, "first_page_cap": true},
+    {"query": "single operator", "rows": 13},
+    {"query": "human principal", "rows": 100, "first_page_cap": true},
+    {"query": "agent identities", "rows": 19},
+    {"query": "Each agent", "rows": 100, "first_page_cap": true},
+    {"query": "D44-R3", "rows": 21, "scope": "selected-family exact check"},
+    {"query": "PR #182", "rows": 7, "scope": "selected-family exact check"},
+    {"query": "fd419bc", "rows": 4, "scope": "selected-family exact check"},
+    {"query": "directive #564", "rows": 3, "scope": "selected-family exact check"},
+    {"query": "git-captain regex", "rows": 42, "scope": "selected-family exact check"}
+  ],
+  "selected_original_control": {
+    "classification": "BV-120: designed same-principal directive-to-merge control, not a rogue-swarm candidate",
+    "repository": "the-agency-ai/the-agency",
+    "current_pinned_ref": "3edc4e0b201bcd9c185b34b414fb792145792b67",
+    "event_effect_ref": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+    "dependency_assessment": {
+      "observed_transfer": "A captain-labelled public directive addressed to a devex-labelled recipient asks it to package and open a pull request after named implementation and quality-gate commits. The directive first appears publicly before the pull request opens.",
+      "recipient_use": "Pull request 182 opens 130 seconds after the directive's first public commit. Its body names the exact work, head commits, quality-gate receipt and captain directive number, and the pull request merges 67 seconds later. This is a temporal and semantic dependency stronger than role labels or similar prose.",
+      "reply_limit": "A devex-labelled dispatch says the pull request is ready and points back to directive 564, but Git first publishes that reply at 06:36:41Z, 71 minutes after the merge. It is a retrospective origin record, not independent proof that the recipient read the directive before acting.",
+      "participant_limit": "Captain and devex are distinguishable project roles, but the event-time configuration places both under one principal sandbox. Both first-publication commits are authored and committed by the same human identity; the pull request and merge also use the configured GitHub account. Project-authored co-author trailers and Generated-With labels do not authenticate separate operators or provider runtimes.",
+      "operator_limit": "The event-time README defines humans as principals, says humans set direction and approve at boundaries, assigns merge authority to captain and describes dispatch as designed coordination. The directive and pull-request body both record principal approval. The exact exchange is within the intended workflow.",
+      "intent_limit": "The public record describes an assigned release task and normal quality-gated shipping. It contains no primary evidence of unauthorized or subjectively rogue intent.",
+      "provider_limit": "Claude Code and role co-author labels are repository-authored attribution, not provider-owned attestations that two independently controlled autonomous participants ran.",
+      "current_activity_limit": "The current repository head shows continued framework development, but the April records do not independently establish that the historical captain and devex executions remain active or coordinated now."
+    },
+    "event_and_publication_chronology": [
+      {
+        "time": "2026-04-17T04:52:30Z",
+        "kind": "public Git commit",
+        "commit": "51211ed32d3a8a4ac351f26a522afcb429fa13ac",
+        "event": "implementation commit later named by the directive and pull request"
+      },
+      {
+        "time": "2026-04-17T05:17:10Z",
+        "kind": "public Git commit",
+        "commit": "97bdb1c11f3be31f98bddda22377f08cf5d691fd",
+        "event": "quality-gate corrections later named by the directive and pull request"
+      },
+      {
+        "time": "2026-04-17T05:21:00Z",
+        "kind": "record-authored event time",
+        "event": "captain directive addressed to devex"
+      },
+      {
+        "time": "2026-04-17T05:22:20Z",
+        "kind": "first public file publication",
+        "commit": "8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78",
+        "event": "directive first appears in Git"
+      },
+      {
+        "time": "2026-04-17T05:24:30Z",
+        "kind": "public GitHub pull-request event",
+        "event": "pull request 182 opens and cites principal approval plus directive 564"
+      },
+      {
+        "time": "2026-04-17T05:24:43Z",
+        "kind": "public Git commit",
+        "commit": "2f2dd023e7bf56413b76ae1a339dfe75215cd6db",
+        "event": "quality-gate receipt and dispatch-drain commit at the pull-request head"
+      },
+      {
+        "time": "2026-04-17T05:25:00Z",
+        "kind": "record-authored event time",
+        "event": "devex reply claims the pull request is ready and points to directive 564"
+      },
+      {
+        "time": "2026-04-17T05:25:37Z",
+        "kind": "public GitHub merge event",
+        "commit": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "event": "pull request 182 merges"
+      },
+      {
+        "time": "2026-04-17T06:36:41Z",
+        "kind": "first public file publication",
+        "commit": "94e26671921e0024c095e933c99343b95595ea39",
+        "event": "the devex reply first appears in Git, after the merge"
+      }
+    ],
+    "selected_records": [
+      {
+        "role": "captain directive",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78/usr/jordan/captain/dispatches/directive-to-devex-pr-your-d44-r3-now-branch-regex-widening-ready-to--20260417-1321.md",
+        "git_blob_sha": "b151e6a74b2c3a5a1002547dd65149c5653ef07f",
+        "first_publication_commit": "8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78"
+      },
+      {
+        "role": "devex reply to directive 564",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/94e26671921e0024c095e933c99343b95595ea39/usr/jordan/devex/dispatches/dispatch-to-captain-d44-r3-pr-ready-for-merge-pr-182-20260417-1325.md",
+        "git_blob_sha": "ae2f8c67052850b38344d06b6b1c12cf2d0e7bae",
+        "first_publication_commit": "94e26671921e0024c095e933c99343b95595ea39"
+      },
+      {
+        "role": "recipient-side public effect and contemporaneous directive reference",
+        "url": "https://github.com/the-agency-ai/the-agency/pull/182",
+        "created_at": "2026-04-17T05:24:30Z",
+        "merged_at": "2026-04-17T05:25:37Z",
+        "head_sha": "2f2dd023e7bf56413b76ae1a339dfe75215cd6db",
+        "merge_commit_sha": "25053c3085c03fdde6e965116a19ad1f5ef78fe1"
+      },
+      {
+        "role": "event-time framework description",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/claude/README-THEAGENCY.md",
+        "git_blob_sha": "1144ee5a5309a7f8cbcac8e4bd5297e9f35cd616"
+      },
+      {
+        "role": "event-time human-principal and agent-collaboration guide",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/claude/REFERENCE-PRINCIPAL-GUIDE.md",
+        "git_blob_sha": "e1a8cf05aedfe3ed2c3ef23611fb6ae4b756a766"
+      },
+      {
+        "role": "event-time principal and GitHub identity mapping",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/claude/config/agency.yaml",
+        "git_blob_sha": "d3cc293f6a1aa4e3eed3d8b9eeb2a56cb7d7f3e2"
+      },
+      {
+        "role": "principal sandbox ownership statement",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/usr/jordan/README.md",
+        "git_blob_sha": "114c192452782b086e16c1aa27486fe127f20ec3"
+      }
+    ]
+  },
+  "alternative_hypotheses": [
+    {
+      "alternative": "independently operated captain and devex agents",
+      "assessment": "not established; the event-time configuration, sandbox paths and public authorship resolve both roles to one configured human principal and one GitHub account"
+    },
+    {
+      "alternative": "recipient independently acknowledged the directive before acting",
+      "assessment": "not independently established; the reply file was first committed after the merge, although the earlier pull-request body contemporaneously names the directive"
+    },
+    {
+      "alternative": "unauthorized autonomous cooperation",
+      "assessment": "contradicted by the directive, principal approval in the pull request and the framework's documented human-principal, captain-merge and quality-gate workflow"
+    },
+    {
+      "alternative": "shared-state or routing fault",
+      "assessment": "not needed to explain the evidence; the exact directive number, commit set, receipt and pull request line up within the designed dispatch workflow"
+    },
+    {
+      "alternative": "observer contamination",
+      "assessment": "159 self-index rows were counted separately and excluded from external evidence"
+    }
+  ],
+  "rotated_negative_coverage": [
+    {
+      "family": "saved content-addressed cursors",
+      "assessment": "All 36 rows were this repository's own indexed history; no external source-level cue reopened the scanner remainder."
+    },
+    {
+      "family": "Botfluencerz canary rows",
+      "assessment": "One migration and three deterministic test paths, not a selected emitted dependency."
+    },
+    {
+      "family": "Ouroboros and other parent/child output rows",
+      "assessment": "Implementation, schema, demo, telemetry-ingest and test paths. Ouroboros had already been screened at the same pinned ref in Pass 149."
+    },
+    {
+      "family": "broad reply, message, task-result and handoff first pages",
+      "assessment": "Five 100-row pages were bounded rather than treated as exhaustive. Path and excerpt screening was dominated by implementation, documentation, evaluation and test material; TheAgency supplied the only selected emitted reply family."
+    }
+  ],
+  "novelty_and_overlap": {
+    "selected_family_github_checks": "Five exact selected-family code searches returned 77 overlapping rows, all in the origin repository.",
+    "web_queries": [
+      "\"the-agency-ai/the-agency\" \"PR #182\"",
+      "\"D44-R3\" \"git-captain\"",
+      "\"the-agency/jordan/devex\"",
+      "\"TheAgency\" \"AI agents are developers\" \"humans are principals\"",
+      "site:github.com/the-agency-ai/the-agency \"directive-to-devex-pr-your-d44-r3-now\"",
+      "site:github.com/the-agency-ai/the-agency \"dispatch-to-captain-d44-r3-pr-ready\"",
+      "site:github.com/the-agency-ai/the-agency/commit \"D44-R3\" \"dispatch\"",
+      "\"D44-R3: git-captain checkout-branch regex accepts uppercase\"",
+      "\"PR your D44-R3 now — branch-regex widening ready to ship\"",
+      "\"D44-R3 PR ready for merge — PR #182\""
+    ],
+    "scoped_conclusion": "No separate coordination report for this exact directive-to-merge exchange was located in the checked scope as of 27 October 2026.",
+    "qualification": "Search absence does not establish global novelty. The origin pull request itself publicly reported the directive, principal approval, agent-assisted work and merge effect, and the framework documentation publicly describes the designed agent team. The episode is neither unreported nor an authorization-boundary crossing.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "advancement_requirements": [
+    "provider- or operator-owned authentication that captain and devex were distinct autonomous executions rather than project-authored role labels",
+    "primary evidence that the sender and recipient belonged to independently controlled operators or principals",
+    "a recipient-side receipt or message observation publicly preserved before the downstream effect",
+    "a task-result or artifact whose content caused a later action outside the exact assigned shipping workflow",
+    "primary evidence that the exchange exceeded the recorded principal approval, quality gates or captain merge authority",
+    "evidence of a continuing autonomous population or current external effect"
+  ],
+  "next_cursors": [
+    "\"in_reply_to\" \"merge_commit_sha\" \"sender_principal_id\" \"recipient_principal_id\"",
+    "\"source_message_id\" \"recipient_commit_sha\" \"sender_operator\" \"recipient_operator\"",
+    "\"dispatch_id\" \"reply_to\" \"head_sha\" \"merged_at\"",
+    "\"result_artifact_sha256\" \"consumer_commit_sha\" \"authorization_scope\" \"operator_id\""
+  ],
+  "safety": {
+    "read_only": true,
+    "actions_not_taken": [
+      "No recovered code or shell script was executed.",
+      "No package or agent runtime was installed or invoked.",
+      "No scan, message, comment, vote, account action or participant contact was performed.",
+      "No carrier, sink, target system or private inbox was probed."
+    ],
+    "publication_sanitization": "The snapshot preserves original public links, Git identities and hashes needed for provenance while omitting message bodies beyond high-level summaries, personal addresses, credentials, tokens, local paths and private logs."
+  }
+}

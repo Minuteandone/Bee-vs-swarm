@@ -13321,6 +13321,116 @@
         "role": "Origin report of human-final-seal and multi-provider fleet governance",
         "published": "2026-08-08",
         "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-theagency-captain-directive-b151e6",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78/usr/jordan/captain/dispatches/directive-to-devex-pr-your-d44-r3-now-branch-regex-widening-ready-to--20260417-1321.md",
+        "role": "Captain-labelled release directive addressed to the devex role",
+        "ref": "8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78",
+        "blob_sha": "b151e6a74b2c3a5a1002547dd65149c5653ef07f",
+        "ref_date": "2026-04-17T05:22:20Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-directive-publication-8f6e0e",
+        "url": "https://github.com/the-agency-ai/the-agency/commit/8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78",
+        "role": "First public Git publication of the selected captain directive",
+        "ref": "8f6e0e12ba2733fd7dd891a0ff9ffd1234755d78",
+        "ref_date": "2026-04-17T05:22:20Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-pr-182",
+        "url": "https://github.com/the-agency-ai/the-agency/pull/182",
+        "role": "Contemporaneous downstream effect citing principal approval, the selected directive and exact implementation/receipt chain",
+        "ref": "182",
+        "ref_date": "2026-04-17T05:24:30Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-devex-reply-ae2f8c",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/94e26671921e0024c095e933c99343b95595ea39/usr/jordan/devex/dispatches/dispatch-to-captain-d44-r3-pr-ready-for-merge-pr-182-20260417-1325.md",
+        "role": "Devex-labelled retrospective reply referencing directive 564 and pull request 182",
+        "ref": "94e26671921e0024c095e933c99343b95595ea39",
+        "blob_sha": "ae2f8c67052850b38344d06b6b1c12cf2d0e7bae",
+        "ref_date": "2026-04-17T06:36:41Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-reply-publication-94e266",
+        "url": "https://github.com/the-agency-ai/the-agency/commit/94e26671921e0024c095e933c99343b95595ea39",
+        "role": "First public Git publication of the selected devex reply, after the merge effect",
+        "ref": "94e26671921e0024c095e933c99343b95595ea39",
+        "ref_date": "2026-04-17T06:36:41Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-implementation-51211e",
+        "url": "https://github.com/the-agency-ai/the-agency/commit/51211ed32d3a8a4ac351f26a522afcb429fa13ac",
+        "role": "Implementation commit named by the directive and pull request",
+        "ref": "51211ed32d3a8a4ac351f26a522afcb429fa13ac",
+        "ref_date": "2026-04-17T04:52:30Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-quality-gate-fixes-97bdb1",
+        "url": "https://github.com/the-agency-ai/the-agency/commit/97bdb1c11f3be31f98bddda22377f08cf5d691fd",
+        "role": "Quality-gate correction commit named by the directive and pull request",
+        "ref": "97bdb1c11f3be31f98bddda22377f08cf5d691fd",
+        "ref_date": "2026-04-17T05:17:10Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-pr-head-2f2dd0",
+        "url": "https://github.com/the-agency-ai/the-agency/commit/2f2dd023e7bf56413b76ae1a339dfe75215cd6db",
+        "role": "Pull-request head commit adding the quality-gate receipt and dispatch drain",
+        "ref": "2f2dd023e7bf56413b76ae1a339dfe75215cd6db",
+        "ref_date": "2026-04-17T05:24:43Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-pr-182-merge-25053c",
+        "url": "https://github.com/the-agency-ai/the-agency/commit/25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "role": "Merge effect for pull request 182",
+        "ref": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "ref_date": "2026-04-17T05:25:37Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-event-framework-1144ee",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/claude/README-THEAGENCY.md",
+        "role": "Event-time description of human principals, designed multi-agent dispatch, quality gates and captain merge authority",
+        "ref": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "blob_sha": "1144ee5a5309a7f8cbcac8e4bd5297e9f35cd616",
+        "ref_date": "2026-04-17T05:25:37Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-event-principal-guide-e1a8cf",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/claude/REFERENCE-PRINCIPAL-GUIDE.md",
+        "role": "Event-time guide defining human principals, specialized Claude Code agents and designed collaboration",
+        "ref": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "blob_sha": "e1a8cf05aedfe3ed2c3ef23611fb6ae4b756a766",
+        "ref_date": "2026-04-17T05:25:37Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-event-principal-map-d3cc29",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/claude/config/agency.yaml",
+        "role": "Event-time mapping of repository identity and system user to the shared human principal; personal addresses omitted from publication",
+        "ref": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "blob_sha": "d3cc293f6a1aa4e3eed3d8b9eeb2a56cb7d7f3e2",
+        "ref_date": "2026-04-17T05:25:37Z",
+        "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-theagency-principal-sandbox-114c19",
+        "url": "https://github.com/the-agency-ai/the-agency/blob/25053c3085c03fdde6e965116a19ad1f5ef78fe1/usr/jordan/README.md",
+        "role": "Principal sandbox ownership statement covering the captain and devex role paths",
+        "ref": "25053c3085c03fdde6e965116a19ad1f5ef78fe1",
+        "blob_sha": "114c192452782b086e16c1aa27486fe127f20ec3",
+        "ref_date": "2026-04-17T05:25:37Z",
+        "observed_at": "2026-10-27T05:32:45Z"
       }
   ]
 }

@@ -13653,6 +13653,142 @@
         "ref": "f9e204f7fde05c72c95dbfaf1f6e83b6584af9b7",
         "ref_date": "2026-10-27T06:57:12Z",
         "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-xcrawl-coordination-baseline-29f056",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/coordination/00-coordination-baseline.md",
+        "role": "Explicit owner grant, coordinator/worker topology, delegation depth and documentary-draft limits",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "29f0564a40054697260c18ae65ffe806dc8ce901",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-coordinator-ledger-553b6e",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/coordination/coordinator-ledger.md",
+        "role": "Origin-authored W2/W3 task, change-request, routing and claimed event chronology ledger",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "553b6e4f8dbef6810e689627bc9b9021999dd499",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-fix3-rulings-62169d",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/coordination/FIX3-rulings.md",
+        "role": "Coordinator routing of the PC08 recovery-field finding to PC02 FIX3",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "62169d4b11a390c0776abb1e6736e307714d7a37",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-pc08-handoff-dd40a0",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/handoffs/PC08-handoff.md",
+        "role": "W2 recovery-contract gap and later fixture consumption of the routed PC02 fields",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "dd40a02d32ee10ba776caa5bf05a3dd3929bd447",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-pc02-handoff-576d68",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/handoffs/PC02-handoff.md",
+        "role": "W3 result adding the exact manifest-digest and operator-acknowledgement fields",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "576d68daef7a37d5c15de3db540cb9e5c1a6d0a6",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-entities-contract-137ef9",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/contracts/data/entities.yaml",
+        "role": "Contract effect containing all four content-specific recovery fields",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "137ef9efb97ec46e43f2de63c9f9a6aad9310f63",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-recovery-fixture-fb44f2",
+        "url": "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/acceptance/fixtures/recovery/m-post-restore-reconciled-dispatch-reopens.json",
+        "role": "Downstream consumer fixture using all four routed fields while explicitly remaining NOT_RUN and DRAFT_FOR_REVIEW",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "blob_sha": "fb44f2138390875463d5926eb573543010b451f2",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-precode-publication-196276",
+        "url": "https://github.com/hairbui76/xcrawl/commit/19627610d991390d618545028c6e3a0dfc3b3148",
+        "role": "First located co-publication of the complete PC08-to-PC02-to-PC08 feedback chain",
+        "ref": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "ref_date": "2026-09-07T03:56:40Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-xcrawl-observed-main-828127",
+        "url": "https://github.com/hairbui76/xcrawl/commit/828127419f85e0fdc6ff1728e5a10d31d07cc86e",
+        "role": "Observed default ref; selected publication is an ancestor but current activity is not inferred",
+        "ref": "828127419f85e0fdc6ff1728e5a10d31d07cc86e",
+        "ref_date": "2026-09-09T10:44:15Z",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-agentic-rl-s2-handoff-audit-47943c",
+        "url": "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/logs/s2-20261022/handoff-audit.json",
+        "role": "Published S2 handoff audit with passed implementation-artifact consistency checks",
+        "ref": "55b521a66a810cb05a886d71df13a4c874bbb089",
+        "blob_sha": "47943c7d2c986f6ec7f68061bff2ee58a73d6180",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-agentic-rl-independent-review-run-342141",
+        "url": "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/logs/s2-20261022-api/independent-review-v1/run.json",
+        "role": "Different-model semantic-review run: seven completed reviews, no human review",
+        "ref": "55b521a66a810cb05a886d71df13a4c874bbb089",
+        "blob_sha": "34214165380de7b2d5a5706f813710bb120eca05",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-agentic-rl-independent-reviews-d91c2e",
+        "url": "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/logs/s2-20261022-api/independent-review-v1/reviews.json",
+        "role": "Seven completed independent-model rejection records with zero human or identity reviews",
+        "ref": "55b521a66a810cb05a886d71df13a4c874bbb089",
+        "blob_sha": "d91c2e262b524db454264f4ba96055981387e29e",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-agentic-rl-progress-gate-05442b",
+        "url": "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/PROGRESS.md",
+        "role": "Origin progress record pausing for human review, withholding formal data and forbidding automatic S3 advancement",
+        "ref": "55b521a66a810cb05a886d71df13a4c874bbb089",
+        "blob_sha": "05442b7f9e8dd7feeb66e3c5e90e24aa198b394f",
+        "ref_date": "2026-10-22T05:12:10+08:00",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-sovereignai-handoff-b71842",
+        "url": "https://github.com/yashjaiswal2818/sovereignAI/blob/5159e9a82c709097dd0f9148df8593ca71a87c09/docs/HANDOFF.md",
+        "role": "Controlled local handoff with iteration-limit runs and pending human review",
+        "ref": "5159e9a82c709097dd0f9148df8593ca71a87c09",
+        "blob_sha": "b718423de7f1f88eb31c59f22cdc86da5425f719",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-inspire-flow-backend-handoff-95b46a",
+        "url": "https://github.com/AdvxPlora2026/inspire-flow-frontend/blob/f682b85581a00ef8c282aca2de9032b235025377/BACKEND-HANDOFF.md",
+        "role": "Target-design handoff that explicitly says the prior API was never built",
+        "ref": "f682b85581a00ef8c282aca2de9032b235025377",
+        "blob_sha": "95b46aa6edc1515b3e213b685aaaa2ed457f9525",
+        "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-eliot-p00-draft-control-5b80ba",
+        "url": "https://github.com/UnknownAlienHuman/eliot-search/blob/c8e38b6fc9829f1cd38070773b1b3e5b21de18ad/docs/handoff/P00_DRAFT_CONTROL_PLANE.md",
+        "role": "Non-claimable pre-issuance control: no assignment, context, lease, submission, accepted handoff or receipt",
+        "ref": "c8e38b6fc9829f1cd38070773b1b3e5b21de18ad",
+        "blob_sha": "5b80ba5ebf639d606ea9ea05b448abdbb8341859",
+        "observed_at": "2026-10-27T11:43:01Z"
       }
   ]
 }

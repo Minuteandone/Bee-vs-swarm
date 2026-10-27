@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-10-27T11:43:01Z",
+  "research_pass": 155,
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "No new source-level cue separated the paused scanner remainder from its known-family controls, so it was not reopened."
+    },
+    "github_code_search": {
+      "queries": 7,
+      "row_occurrences": 306,
+      "external_rows": 299,
+      "self_index_rows": 7,
+      "qualification": "Four resumed exact cursors returned six self-index rows and no external row. Three broad cursor expressions each returned the connector maximum of 100 rows. The wrapper exposes no page parameter, so those 300 rows are bounded current search sets and are not credited as the requested page-three reads."
+    },
+    "selected_family_checks": {
+      "queries": 4,
+      "rows": 28,
+      "external_repositories": ["hairbui76/xcrawl"],
+      "qualification": "All 28 rows are repetitions inside the origin repository. Counts are locator coverage, not reports, events or participants."
+    },
+    "selected_originals": {
+      "files_read": 19,
+      "commit_or_ref_records": 2,
+      "repositories": [
+        "hairbui76/xcrawl",
+        "fangjinjie438-pixel/Agentic-RL-Credit-Assignment",
+        "yashjaiswal2818/sovereignAI",
+        "AdvxPlora2026/inspire-flow-frontend",
+        "UnknownAlienHuman/eliot-search"
+      ]
+    },
+    "public_message_archives": {
+      "ai_village_messages_read": 0,
+      "delvetown_records_read": 0,
+      "limitation": "The two read-only archive skills were available and read, but their advertised companion read tools were absent from this run. Their instructions prohibit browser substitution. No archive coverage is claimed and this remains a rotation gap rather than an access blocker for the repository work."
+    }
+  },
+  "query_ledger": [
+    {
+      "query": "\"review_receipt_id\" \"applied_commit_sha\" \"reviewer_operator_id\" \"consumer_operator_id\"",
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed exact"
+    },
+    {
+      "query": "\"source_result_sha256\" \"recipient_commit_sha\" \"delivery_receipt_id\" \"authorization_scope\"",
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0,
+      "cursor": "resumed exact"
+    },
+    {
+      "query": "\"producer_artifact_sha256\" \"consumer_effect_sha256\" \"accepted_by_agent_id\" \"operator_boundary\"",
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed exact"
+    },
+    {
+      "query": "\"in_reply_to_artifact_id\" \"used_in_commit_sha\" \"sender_principal_id\" \"recipient_principal_id\"",
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed exact"
+    },
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+      "rows": 100,
+      "external_rows": 99,
+      "self_index_rows": 1,
+      "cursor": "page three requested but not addressable",
+      "qualification": "The connector capped the returned set at 100 and exposed no page argument. Page three remains unread."
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "cursor": "page three requested but not addressable",
+      "qualification": "The connector capped the returned set at 100 and exposed no page argument. Page three remains unread."
+    },
+    {
+      "query": "\"event\": \"handoff_completed\" \"result\"",
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "cursor": "page three requested but not addressable",
+      "qualification": "The connector capped the returned set at 100 and exposed no page argument. Page three remains unread."
+    }
+  ],
+  "selected_original_control": {
+    "classification": "BV-123: owner-authorized co-published worker-feedback control, not a rogue-swarm candidate",
+    "repository": "hairbui76/xcrawl",
+    "first_complete_publication_commit": "19627610d991390d618545028c6e3a0dfc3b3148",
+    "first_complete_publication_time": "2026-09-07T03:56:40Z",
+    "observed_default_ref": "828127419f85e0fdc6ff1728e5a10d31d07cc86e",
+    "publication_relationship": "The complete selected chain first appears together in one origin-authored commit. That commit is an ancestor of the observed default ref.",
+    "artifact_assessment": {
+      "sender_result": "The PC08 worker identifies a concrete recovery-contract gap: the backup manifest lacks an embedding-model artifact digest and the restore record lacks explicit operator-acknowledgement fields.",
+      "routing": "The coordinator ledger and FIX3 ruling assign that exact change request to the PC02 worker.",
+      "recipient_result": "The PC02 handoff adds the named manifest digest and three operator-acknowledgement fields to the data contract.",
+      "downstream_use": "The later PC08 FIX2 section says recovery fixture m consumes the PC02 fields; the committed fixture contains all four exact keys. This is a semantic feedback-and-use dependency, not a similarity inference.",
+      "effect_limit": "The contract is a documentary draft and the fixture marks its evidence NOT_RUN and its claim ceiling DRAFT_FOR_REVIEW. No live recovery, deployment or external action is established.",
+      "operator_boundary": "Not established. The baseline places both workers below one owner-authorized coordinator with delegation depth one; the complete selected chain is published by one public repository identity.",
+      "authorization": "The baseline records an explicit owner grant to manage and finish the project, authorizes up to ten parallel subagents, requires worker handoffs back to the coordinator and defines the worker topology in advance.",
+      "subjective_intent": "No rogue intent is established. The observed dependency follows the assigned contract-review workflow and remains inside its documentary scope.",
+      "current_activity": "The historical records remain public and the selected publication is in current-main ancestry. That does not establish a continuing autonomous population."
+    },
+    "participant_distinctions": {
+      "logical_worker_sessions": 2,
+      "verified_autonomous_participants": 0,
+      "verified_independent_operators": 0,
+      "public_commit_identities_on_selected_main_history": 1,
+      "qualification": "The ledger distinguishes W2 and W3 session labels, but repository-authored labels and agent identifiers do not authenticate provider executions or independent operators."
+    },
+    "claimed_event_sequence": [
+      {
+        "time": "2026-09-06T17:25:00Z",
+        "event": "PC02 worker initially marked done in the coordinator ledger"
+      },
+      {
+        "time": "2026-09-06T18:26:00Z",
+        "event": "PC08 worker records the missing digest and operator-acknowledgement fields"
+      },
+      {
+        "time": "2026-09-06T18:45:00Z",
+        "event": "PC02 FIX3 handoff claims completion"
+      },
+      {
+        "time": "2026-09-06T18:50:00Z",
+        "event": "coordinator ledger claims PC02 FIX3 dispatch"
+      },
+      {
+        "time": "2026-09-06T19:05:00Z",
+        "event": "FIX3 ruling header claims the routing decision"
+      },
+      {
+        "time": "2026-09-07T00:28:00Z",
+        "event": "PC08 FIX2 handoff claims fixture-m integration and change-request closure"
+      },
+      {
+        "time": "2026-09-07T03:56:40Z",
+        "commit": "19627610d991390d618545028c6e3a0dfc3b3148",
+        "event": "all selected records first co-published"
+      }
+    ],
+    "chronology_assessment": "The content dependency survives, but the claimed internal chronology does not independently prove transfer. PC02 claims completion before the ledger's dispatch and before the ruling header, and every selected intermediate is first co-published after all claimed event times.",
+    "content_binding": {
+      "change_request": "CR-PC08-05",
+      "routed_target": "PC02 FIX3",
+      "contract_fields": [
+        "backup_manifest.embedding_model_artifact_sha256",
+        "restore_record.operator_ack_at",
+        "restore_record.operator_ack_principal",
+        "restore_record.operator_ack_note"
+      ],
+      "consumer_fixture": "acceptance/fixtures/recovery/m-post-restore-reconciled-dispatch-reopens.json",
+      "consumer_fixture_status": "NOT_RUN",
+      "consumer_fixture_claim_ceiling": "DRAFT_FOR_REVIEW"
+    },
+    "artifact_hashes_at_first_publication": [
+      {
+        "path": "evidence/coordination/00-coordination-baseline.md",
+        "git_blob_sha1": "29f0564a40054697260c18ae65ffe806dc8ce901",
+        "sha256": "0759ff6422158611af7850f9f475a0732a82998f35d13107ae009fba2ccb9e78",
+        "bytes": 14132
+      },
+      {
+        "path": "evidence/coordination/coordinator-ledger.md",
+        "git_blob_sha1": "553b6e4f8dbef6810e689627bc9b9021999dd499",
+        "sha256": "a8a7d319f0aa527c27d3cd7a5b9f77c3755cfd7fb784dd68392a12cdd117cc03",
+        "bytes": 31463
+      },
+      {
+        "path": "evidence/coordination/FIX3-rulings.md",
+        "git_blob_sha1": "62169d4b11a390c0776abb1e6736e307714d7a37",
+        "sha256": "8e3bc78ba76562d11731a590fd516d3df781f191f4a6f39b3bb71fd1d5072f14",
+        "bytes": 4977
+      },
+      {
+        "path": "evidence/handoffs/PC08-handoff.md",
+        "git_blob_sha1": "dd40a02d32ee10ba776caa5bf05a3dd3929bd447",
+        "sha256": "db7493aacbb3e0b142e0a498869bf29c1174d42be3ae4590d7d732a998d657d6",
+        "bytes": 43840
+      },
+      {
+        "path": "evidence/handoffs/PC02-handoff.md",
+        "git_blob_sha1": "576d68daef7a37d5c15de3db540cb9e5c1a6d0a6",
+        "sha256": "5cab225af0f55dba38a787f8d24828f8b9b1015f255b41f3c9d58bd968cdac8e",
+        "bytes": 94737
+      },
+      {
+        "path": "contracts/data/entities.yaml",
+        "git_blob_sha1": "137ef9efb97ec46e43f2de63c9f9a6aad9310f63",
+        "sha256": "c2ceeafd1b78705941f368bfe73f67cf097ffad8179c7455b2d4eeda571b5a1e",
+        "bytes": 221041
+      },
+      {
+        "path": "acceptance/fixtures/recovery/m-post-restore-reconciled-dispatch-reopens.json",
+        "git_blob_sha1": "fb44f2138390875463d5926eb573543010b451f2",
+        "sha256": "90934af96aa37ea8917dbd581247afa05655be3e23fc77b4004c1c9227b4be94",
+        "bytes": 7808
+      },
+      {
+        "path": "evidence/coordination/PC02-packet.md",
+        "git_blob_sha1": "c1fb5c047b4408779682fb1be4727e3d7171668e",
+        "sha256": "e51760b57aae6b25e096613e02fecd088fa1b48e4b53ae80941c1b2ab9b3c52e",
+        "bytes": 6318
+      },
+      {
+        "path": "evidence/coordination/PC08-packet.md",
+        "git_blob_sha1": "e713bc205538890b8e04e704135173076da6b4e6",
+        "sha256": "6845425e14d5b99fa391ce666fe33dc99eb5c4a08f10f88a5dde5672934769a7",
+        "bytes": 7982
+      }
+    ]
+  },
+  "rotated_original_controls": [
+    {
+      "source": "fangjinjie438-pixel/Agentic-RL-Credit-Assignment S2 handoff and independent-review records",
+      "assessment": "The public audit and run records preserve real model output consumption inside a staged data-quality pipeline: a different-model reviewer completes seven reviews and rejects all seven. The same records say human and identity review counts are zero, human_review_performed is false, formal data remains withheld and the project is paused for later human adjudication without automatic S3 advancement. This is an explicitly authorized research pipeline, not an operator-separated rogue exchange.",
+      "hashes": {
+        "handoff_audit_blob": "47943c7d2c986f6ec7f68061bff2ee58a73d6180",
+        "review_run_blob": "34214165380de7b2d5a5706f813710bb120eca05",
+        "reviews_blob": "d91c2e262b524db454264f4ba96055981387e29e",
+        "progress_blob": "05442b7f9e8dd7feeb66e3c5e90e24aa198b394f"
+      }
+    },
+    {
+      "source": "yashjaiswal2818/sovereignAI docs/HANDOFF.md",
+      "assessment": "The handoff describes one controlled local workflow whose live runs hit iteration limits and whose review remains pending. It exposes no independently operated sender/recipient pair or unrequested downstream effect."
+    },
+    {
+      "source": "AdvxPlora2026/inspire-flow-frontend BACKEND-HANDOFF.md",
+      "assessment": "The document says its earlier API was never built and describes the current target integration. It is a design handoff, not a preserved autonomous delivery and recipient-use event."
+    },
+    {
+      "source": "UnknownAlienHuman/eliot-search pre-issuance control plane",
+      "assessment": "The selected ticket and context documents explicitly remain DRAFT_ONLY_NOT_ISSUED, non-claimable and unmaterialized, with signed-payload and exact-record digests unavailable. They are future workflow controls, not emitted handoffs."
+    }
+  ],
+  "novelty_and_overlap": {
+    "github_family_queries": [
+      {
+        "query": "\"CR-PC08-05\"",
+        "rows": 23,
+        "result": "origin repository only"
+      },
+      {
+        "query": "\"PKT-PC08-FIX2\" \"operator_ack_at\"",
+        "rows": 1,
+        "result": "origin repository only"
+      },
+      {
+        "query": "\"AUTH-COORD-PC08\" \"worker-W2\"",
+        "rows": 2,
+        "result": "origin repository only"
+      },
+      {
+        "query": "\"PKT-PC02-FIX3\" \"worker-W3\"",
+        "rows": 2,
+        "result": "origin repository only"
+      }
+    ],
+    "web_queries": [
+      "\"CR-PC08-05\" xcrawl",
+      "\"PKT-PC08-FIX2\" \"operator_ack_at\"",
+      "\"Research Radar\" \"PC00\" \"PC10\"",
+      "\"hairbui76/xcrawl\" agent coordination",
+      "\"CR-PC08-05\"",
+      "\"AUTH-OWNER-20260906-01\"",
+      "\"operator_ack_principal\" \"embedding_model_artifact_sha256\"",
+      "\"Research Radar — Pre-code baseline\""
+    ],
+    "web_result": "No relevant separate report of the selected feedback-and-fixture chain was located; returned pages were unrelated lexical matches.",
+    "scoped_conclusion": "No separate coordination report for the exact PC08-to-PC02-to-PC08 feedback-and-fixture chain was located in the checked scope as of 27 October 2026.",
+    "qualification": "Search absence does not establish global novelty. The origin repository itself publishes the complete authorized team workflow, so the selected episode is already origin-reported and expressly designed.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "mere similar text or shared field names",
+      "result": "rejected as the full explanation; the PC08 gap, coordinator routing, PC02 contract fields and PC08 fixture bind the same four content-specific fields"
+    },
+    {
+      "alternative": "independent cross-operator coordination",
+      "result": "not supported; both logical workers sit under one owner-to-coordinator authorization chain and one public identity co-publishes the selected records"
+    },
+    {
+      "alternative": "designed team execution",
+      "result": "supported; the baseline explicitly defines the parallel worker topology, delegation depth, handoff requirement and coordinator as the next actor"
+    },
+    {
+      "alternative": "human-requested or owner-authorized work",
+      "result": "supported; the baseline records the owner grant and the ledger records coordinator dispatch and routing"
+    },
+    {
+      "alternative": "live downstream system action",
+      "result": "rejected; the effect is a NOT_RUN documentary fixture under a DRAFT_FOR_REVIEW claim ceiling"
+    },
+    {
+      "alternative": "reliable independent event chronology",
+      "result": "rejected; all selected records are co-published after the claimed events, and completion is claimed before dispatch and ruling timestamps"
+    },
+    {
+      "alternative": "observer contamination",
+      "result": "actively bounded; the observed current ref is separated from the first publication commit, and code-search result counts are not treated as event times or participant counts"
+    }
+  ],
+  "missing_evidence": [
+    "provider- or operator-owned authentication that W2 and W3 were distinct autonomous executions",
+    "independently controlled sender and recipient operators",
+    "an independently timestamped public recipient receipt preceding the downstream effect",
+    "content-specific live action beyond the documentary contract and NOT_RUN fixture",
+    "primary evidence that the cooperation exceeded the owner grant, coordinator routing or worker lease",
+    "evidence of a continuing autonomous population or current production effect"
+  ],
+  "next_exact_cursors": [
+    "\"change_request_id\" \"recipient_worker_id\" \"applied_artifact_sha256\" \"source_worker_id\"",
+    "\"producer_result_sha256\" \"consumer_artifact_sha256\" \"accepted_by_principal\" \"authorization_id\"",
+    "\"review_finding_id\" \"fix_artifact_sha256\" \"recipient_session_id\" \"operator_id\"",
+    "\"handoff_receipt_id\" \"downstream_effect_sha256\" \"sender_session_id\" \"recipient_session_id\""
+  ],
+  "next_page_cursors": [
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+      "page": 3,
+      "status": "unread; current connector exposes no page parameter"
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "page": 3,
+      "status": "unread; current connector exposes no page parameter"
+    },
+    {
+      "query": "\"event\": \"handoff_completed\" \"result\"",
+      "page": 3,
+      "status": "unread; current connector exposes no page parameter"
+    }
+  ],
+  "primary_sources": [
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/coordination/00-coordination-baseline.md",
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/coordination/coordinator-ledger.md",
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/coordination/FIX3-rulings.md",
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/handoffs/PC08-handoff.md",
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/evidence/handoffs/PC02-handoff.md",
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/contracts/data/entities.yaml",
+    "https://github.com/hairbui76/xcrawl/blob/19627610d991390d618545028c6e3a0dfc3b3148/acceptance/fixtures/recovery/m-post-restore-reconciled-dispatch-reopens.json",
+    "https://github.com/hairbui76/xcrawl/commit/19627610d991390d618545028c6e3a0dfc3b3148",
+    "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/logs/s2-20261022/handoff-audit.json",
+    "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/logs/s2-20261022-api/independent-review-v1/run.json",
+    "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/logs/s2-20261022-api/independent-review-v1/reviews.json",
+    "https://github.com/fangjinjie438-pixel/Agentic-RL-Credit-Assignment/blob/55b521a66a810cb05a886d71df13a4c874bbb089/PROGRESS.md",
+    "https://github.com/yashjaiswal2818/sovereignAI/blob/5159e9a82c709097dd0f9148df8593ca71a87c09/docs/HANDOFF.md",
+    "https://github.com/AdvxPlora2026/inspire-flow-frontend/blob/f682b85581a00ef8c282aca2de9032b235025377/BACKEND-HANDOFF.md",
+    "https://github.com/UnknownAlienHuman/eliot-search/blob/c8e38b6fc9829f1cd38070773b1b3e5b21de18ad/docs/handoff/P00_DRAFT_CONTROL_PLANE.md",
+    "https://github.com/UnknownAlienHuman/eliot-search/blob/c8e38b6fc9829f1cd38070773b1b3e5b21de18ad/docs/handoff/TICKET_ISSUANCE_PLANNER_V2.md"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_or_runtimes_installed_or_invoked": false,
+    "scans_or_messages_submitted": false,
+    "participants_contacted": false,
+    "sink_or_target_systems_probed": false,
+    "omitted": [
+      "raw prompts and response bodies",
+      "carrier and sink addresses",
+      "credentials and tokens",
+      "personal addresses",
+      "local executable and host paths",
+      "agent and member UUIDs",
+      "private logs"
+    ]
+  }
+}

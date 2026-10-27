@@ -1,0 +1,391 @@
+{
+  "generated_at": "2026-10-27T10:55:02Z",
+  "research_pass": 154,
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "No new source-level cue separated the paused scanner remainder from its known-family controls, so it was not reopened."
+    },
+    "github_code_search": {
+      "queries": 11,
+      "row_occurrences": 310,
+      "external_rows": 298,
+      "self_index_rows": 12,
+      "page_two_reads": 3,
+      "selected_original_artifacts_read": 6,
+      "qualification": "Rows overlap across queries and are locator coverage, not event, participant, repository or unique-path counts. The three broad searches cover page two only; page three remains the next cursor."
+    },
+    "selected_family_checks": {
+      "queries": 3,
+      "rows": 10,
+      "repositories": ["Kyapya/english-dictionary"],
+      "qualification": "Nine rows repeat the run identifier inside the origin repository, one row repeats the final-review agent identifier and the exact title-plus-checker expression returns zero. This is origin-record coverage, not a prior-reporting census."
+    }
+  },
+  "query_ledger": [
+    {
+      "query": "\"receipt_of\" \"consumer_commit_sha\" \"sender_operator_id\" \"recipient_operator_id\"",
+      "page": 1,
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"source_artifact_sha256\" \"recipient_effect_commit_sha\" \"accepted_at\" \"authorization_scope\"",
+      "page": 1,
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"in_reply_to_message_id\" \"applied_commit_sha\" \"producer_principal_id\" \"consumer_principal_id\"",
+      "page": 1,
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"handoff_receipt_id\" \"result_sha256\" \"used_in_commit_sha\" \"operator_boundary\"",
+      "page": 1,
+      "rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+      "page": 2,
+      "rows": 100,
+      "external_rows": 99,
+      "self_index_rows": 1,
+      "cursor": "resumed bounded page"
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "page": 2,
+      "rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "cursor": "resumed bounded page"
+    },
+    {
+      "query": "\"event\": \"handoff_completed\" \"result\"",
+      "page": 2,
+      "rows": 100,
+      "external_rows": 99,
+      "self_index_rows": 1,
+      "cursor": "resumed bounded page"
+    },
+    {
+      "query": "\"source_artifact_sha256\" \"applied_commit_sha\" \"reviewer_agent_id\"",
+      "page": 1,
+      "rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1
+    },
+    {
+      "query": "\"producer_commit_sha\" \"consumer_commit_sha\" \"recipient_receipt\"",
+      "page": 1,
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0
+    },
+    {
+      "query": "\"handoff_id\" \"used_in_commit_sha\" \"recipient_operator_id\"",
+      "page": 1,
+      "rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1
+    },
+    {
+      "query": "\"review_output_sha256\" \"repair_commit_sha\" \"reviewer_agent_id\"",
+      "page": 1,
+      "rows": 0,
+      "external_rows": 0,
+      "self_index_rows": 0
+    }
+  ],
+  "selected_original_control": {
+    "classification": "BV-122: designed human-ingested parallel-review and status-transition control, not a rogue-swarm candidate",
+    "repository": "Kyapya/english-dictionary",
+    "run_id": "20260910T051329Z-d04b0c6c",
+    "artifact_assessment": {
+      "producer": "A generation record freezes one dictionary-entry body digest before review.",
+      "reviewers": "Seven unique checker agent identifiers are recorded in a parallel handoff fan-out. Cold, final-blind and final-review records use three further agent identifiers.",
+      "transfer": "The final-review request binds the entry body, sealed blind review, two resolution partitions, the checker recheck manifest, targeted adjudications and the final-review specification.",
+      "recipient_use": "The final-review record returns PASS on the same body digest. Eighty-nine seconds later the status record changes both entry and queue from draft to checked; the next Git commit adds both records and performs those exact status changes.",
+      "operator_boundary": "Not established. Every selected reviewer record says mode=handoff, ingested_by=human and same_model_as_generation=true. All seven checker records and the final reviewer declare codex-gpt-5, and all fifteen branch commits plus the merge are published by one GitHub account.",
+      "authorization": "The event-time README explicitly prescribes the handoff workflow, permits the same model in independent subagents, requires unique audit agent IDs, mechanically fans in seven checker outputs, and then runs final review and status synchronization. The observed chain matches that design.",
+      "subjective_intent": "No rogue intent is established. The records describe a guarded dictionary QA workflow and contain no action outside its assigned article-review scope.",
+      "current_activity": "The historical run and merge remain public. That persistence does not establish a currently active autonomous population."
+    },
+    "participant_distinctions": {
+      "logical_agent_ids": 10,
+      "verified_autonomous_participants": 0,
+      "verified_independent_operators": 0,
+      "declared_models": ["codex-gpt-5"],
+      "ingestion_modes": ["human"],
+      "same_model_as_generation": true,
+      "qualification": "Unique schema agent IDs distinguish workflow roles, not authenticated runtimes or operators."
+    },
+    "content_binding": {
+      "entry_body_sha256": "dce1e8375f2e9709647eb4c0fd89fa016895cec32363a81b3950d8cdb28a2078",
+      "checker_pass_count": 7,
+      "normal_findings_count": 0,
+      "final_review_target_results": 115,
+      "final_review_relation_results": 70,
+      "final_review_normal_candidates": 2,
+      "final_review_blind_candidates": 11,
+      "final_review_findings": 0,
+      "final_review_decision": "pass",
+      "status_before": "draft",
+      "status_after": "checked"
+    },
+    "publication_chronology": [
+      {
+        "time": "2026-09-10T05:28:32Z",
+        "event": "generation record time for the fixed entry body"
+      },
+      {
+        "time": "2026-09-10T05:29:59Z",
+        "commit": "043ff8bfe2a64c35c075ad527524f58826f7f4fd",
+        "event": "entry draft publication on the pull-request branch"
+      },
+      {
+        "time": "2026-09-10T05:43:35.783003Z",
+        "event": "seven checker handoff outputs recorded and fanned in"
+      },
+      {
+        "time": "2026-09-10T05:49:44Z",
+        "commit": "af34b3dea1589e67931b479b692cdc595305b72c",
+        "event": "checker and source-audit results publication"
+      },
+      {
+        "time": "2026-09-10T05:50:43.480617Z",
+        "event": "human-ingested cold review recorded"
+      },
+      {
+        "time": "2026-09-10T06:00:13.921738Z",
+        "event": "human-ingested final-blind review recorded"
+      },
+      {
+        "time": "2026-09-10T06:17:24Z",
+        "commit": "b5da90485d8abe0e8004d5d4a19b7751d93c8e79",
+        "event": "final-review inputs refreshed; content-addressed request history published"
+      },
+      {
+        "time": "2026-09-10T06:19:14.970171Z",
+        "event": "human-ingested final review records PASS"
+      },
+      {
+        "time": "2026-09-10T06:20:43.990208Z",
+        "event": "status record changes the entry and queue from draft to checked"
+      },
+      {
+        "time": "2026-09-10T06:21:56Z",
+        "commit": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+        "event": "final review and status record published; entry and queue receive the exact checked transition"
+      },
+      {
+        "time": "2026-09-10T06:33:53Z",
+        "event": "pull request 164 created"
+      },
+      {
+        "time": "2026-09-10T06:34:41Z",
+        "commit": "0ff4330399b66988be3770913f57295bc8e92ae6",
+        "event": "pull request 164 merged by the repository account"
+      }
+    ],
+    "search_ref_contamination": {
+      "search_result_ref": "f9e204f7fde05c72c95dbfaf1f6e83b6584af9b7",
+      "search_result_ref_date": "2026-10-27T06:57:12Z",
+      "actual_artifact_publication": "0ff4330399b66988be3770913f57295bc8e92ae6",
+      "actual_artifact_publication_date": "2026-09-10T06:34:41Z",
+      "assessment": "GitHub code search pinned the old sensible artifact to the repository's current tip. The current-tip merge changes a different article and queue row; file history has only the September publication. Treating the search-result ref as the artifact event would falsely connect it to pull request 1203."
+    }
+  },
+  "rotated_original_controls": [
+    {
+      "source": "curious-whq/MCM-Agent static_handoff.json",
+      "assessment": "The file binds three subsystem-run outputs into one transport artifact, but the event-time README describes a deterministic static frontend and intentional hierarchical composition. One account publishes the selected history; no independent operator or authorization crossing is shown."
+    },
+    {
+      "source": "weiyangzen/awesome_theorems THM-M-0952 intake receipt",
+      "assessment": "A scheduler-worker-labelled receipt is explicit that it is unsigned, provisional, unaccepted and must not support downstream statement work. Exact receipt-ID search finds only that record, so no recipient use is established."
+    },
+    {
+      "source": "nahisaho/aira_experiments process log",
+      "assessment": "Six events name one co-scientist actor inside a benchmark experiment. Its handoff_completed label summarizes files from the same run, not a sender-to-recipient transfer."
+    },
+    {
+      "source": "Unjuno/agent-interface integration result",
+      "assessment": "A synthetic X11 recovery/integration test preserves tool and readback evidence, not distinguishable autonomous participants."
+    },
+    {
+      "source": "OlegLebedevRU/etranprocessing L4D-15C-MEDIA report",
+      "assessment": "This is another designed handoff from the already reviewed BV-118 same-custodian project family. It supplies no separate population or operator boundary and was not promoted as a new lead."
+    }
+  ],
+  "novelty_and_overlap": {
+    "github_family_queries": [
+      "\"blind-sensible-20260910T051329Z-d04b0c6c\"",
+      "\"sensible-final-review-20260910T051329Z-d04b0c6c\"",
+      "\"Add sensible dictionary entry\" \"checker passes\""
+    ],
+    "web_queries": [
+      "\"blind-sensible-20260910T051329Z-d04b0c6c\"",
+      "\"architectural_projection-5542379cd2ab47a7\"",
+      "\"S56-M-0952-INTAKE-WORKER-20260713\"",
+      "\"Revise assess comparisons after independent review\"",
+      "\"curious-whq/MCM-Agent\" (swarm OR coordination OR \"multi-agent\")",
+      "\"Kyapya/english-dictionary\" \"independent review\" (agent OR swarm OR coordination)",
+      "\"weiyangzen/awesome_theorems\" \"worker agent\" (swarm OR coordination)"
+    ],
+    "scoped_conclusion": "No separate coordination report for the exact sensible review-and-status chain was located in the checked scope as of 27 October 2026.",
+    "qualification": "Search absence does not establish global novelty. The origin repository itself publishes the multi-review workflow, its handoff provenance and its downstream status transition, so the episode is already origin-reported and explicitly designed.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI, AISI, Covert Assistance or METR comparison families. The selected L4D report overlaps BV-118 and was retained only as a known-family control."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "mere similar text or shared hashes",
+      "result": "rejected as the full explanation; the final-review and status records bind the same entry digest and the next commit performs the exact declared draft-to-checked transition"
+    },
+    {
+      "alternative": "single operator with designed subagents",
+      "result": "supported; the event-time README defines this topology, every reviewer says human-ingested and all selected commits use one account"
+    },
+    {
+      "alternative": "independent autonomous participant identities",
+      "result": "not established; unique agent IDs are required workflow fields and all selected records declare one model, human ingestion and same-model generation"
+    },
+    {
+      "alternative": "current-tip commit caused the historical review",
+      "result": "rejected; code-search ref contamination pinned an unchanged September artifact to an unrelated October merge"
+    },
+    {
+      "alternative": "unrequested or rogue action",
+      "result": "not supported; the only demonstrated effect is the workflow's prescribed review-gated status transition"
+    },
+    {
+      "alternative": "current autonomous population",
+      "result": "not established by persistence of the historical run"
+    }
+  ],
+  "missing_evidence": [
+    "Provider- or operator-owned authentication that at least two reviewer IDs correspond to distinct autonomous executions rather than audit labels.",
+    "Primary evidence that a sender and recipient were controlled by independent operators.",
+    "A public delivery or receipt record outside the same human-ingested repository workflow.",
+    "A content-specific recipient action beyond the requested review, fan-in, status synchronization and merge.",
+    "Primary evidence that cooperation exceeded the documented handoff, reviewer or publication authorization.",
+    "Evidence of a currently active autonomous population."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/blob/0ff4330399b66988be3770913f57295bc8e92ae6/README.md",
+      "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+      "blob_sha": "d118462987a6950b6e4f70fdb39333324e097029",
+      "role": "Event-time workflow design: independent-subagent handoff, unique agent IDs, same-model allowance, mechanical fan-in and status synchronization"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/blob/0ff4330399b66988be3770913f57295bc8e92ae6/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pass_findings.json",
+      "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+      "blob_sha": "1c20208fcb7215a3496b0014bd7932e89873d592",
+      "role": "Seven unique checker IDs, human ingestion, one declared model and parallel-handoff summary"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/blob/0ff4330399b66988be3770913f57295bc8e92ae6/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/review_packet_history/final_review/99249d0a179e628c887aad815d4cdd7e0d5f3310a64de5e3fd770afc7b61cbc7/final_review.request.json",
+      "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+      "blob_sha": "b470dc955e4f3901a3af82f36bbcf1d286fa32b3",
+      "role": "Content-addressed final-review request bundle; payload body omitted from this publication"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/commit/b5da90485d8abe0e8004d5d4a19b7751d93c8e79",
+      "ref": "b5da90485d8abe0e8004d5d4a19b7751d93c8e79",
+      "role": "Publication of refreshed final-review inputs and immutable request history"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/blob/01b816fd35f6971eec5b5ccdf7662312fb969d07/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/final_review.json",
+      "ref": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+      "blob_sha": "2ccc6910e6a826d65c50d557a16a38f23c981c07",
+      "role": "Human-ingested final-review PASS bound to the entry body and upstream audit artifacts"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/blob/01b816fd35f6971eec5b5ccdf7662312fb969d07/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/status_update.json",
+      "ref": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+      "blob_sha": "6bae32c3506e5d8b6243640375b46ac67d87385f",
+      "role": "Exact downstream status transition from draft to checked"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/commit/01b816fd35f6971eec5b5ccdf7662312fb969d07",
+      "ref": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+      "role": "Content-specific downstream-use commit adding the final review and applying the checked transition"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/pull/164",
+      "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+      "role": "Origin-reported designed workflow and same-account merge timeline"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/commit/0ff4330399b66988be3770913f57295bc8e92ae6",
+      "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+      "role": "First default-branch publication of the complete selected run"
+    },
+    {
+      "url": "https://github.com/Kyapya/english-dictionary/commit/f9e204f7fde05c72c95dbfaf1f6e83b6584af9b7",
+      "ref": "f9e204f7fde05c72c95dbfaf1f6e83b6584af9b7",
+      "role": "Unrelated current-tip merge used to disprove a false search-ref chronology"
+    }
+  ],
+  "next_exact_cursors": [
+    "\"review_receipt_id\" \"applied_commit_sha\" \"reviewer_operator_id\" \"consumer_operator_id\"",
+    "\"source_result_sha256\" \"recipient_commit_sha\" \"delivery_receipt_id\" \"authorization_scope\"",
+    "\"producer_artifact_sha256\" \"consumer_effect_sha256\" \"accepted_by_agent_id\" \"operator_boundary\"",
+    "\"in_reply_to_artifact_id\" \"used_in_commit_sha\" \"sender_principal_id\" \"recipient_principal_id\""
+  ],
+  "next_page_cursors": [
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+      "next_page": 3
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "next_page": 3
+    },
+    {
+      "query": "\"event\": \"handoff_completed\" \"result\"",
+      "next_page": 3
+    }
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install packages",
+      "submit scans",
+      "invoke agent runtimes",
+      "contact participants",
+      "post messages",
+      "vote",
+      "create accounts",
+      "read private sinks",
+      "replay payloads",
+      "probe target systems"
+    ],
+    "publication_omits": [
+      "dictionary entry body",
+      "review prompt bodies",
+      "raw handoff responses",
+      "personal addresses",
+      "credentials",
+      "tokens",
+      "private logs"
+    ]
+  }
+}

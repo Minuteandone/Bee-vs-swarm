@@ -13568,6 +13568,91 @@
         "ref": "51d85b8b57c72575d9eb9d22fd28035db5767833",
         "ref_date": "2026-09-20T11:19:40Z",
         "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-english-dictionary-event-workflow-d11846",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0ff4330399b66988be3770913f57295bc8e92ae6/README.md",
+        "role": "Event-time designed workflow for same-model independent subagent IDs, human handoff ingestion, seven-pass fan-in, final review and status synchronization",
+        "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+        "blob_sha": "d118462987a6950b6e4f70fdb39333324e097029",
+        "ref_date": "2026-09-10T06:34:41Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-pass-findings-1c2020",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0ff4330399b66988be3770913f57295bc8e92ae6/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/pass_findings.json",
+        "role": "Seven unique checker IDs with one declared model, human ingestion and same-model-as-generation fields",
+        "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+        "blob_sha": "1c20208fcb7215a3496b0014bd7932e89873d592",
+        "ref_date": "2026-09-10T06:34:41Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-final-request-b470dc",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0ff4330399b66988be3770913f57295bc8e92ae6/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/review_packet_history/final_review/99249d0a179e628c887aad815d4cdd7e0d5f3310a64de5e3fd770afc7b61cbc7/final_review.request.json",
+        "role": "Content-addressed final-review input bundle; prompt and dictionary bodies omitted from project publication",
+        "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+        "blob_sha": "b470dc955e4f3901a3af82f36bbcf1d286fa32b3",
+        "ref_date": "2026-09-10T06:34:41Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-final-request-publication-b5da90",
+        "url": "https://github.com/Kyapya/english-dictionary/commit/b5da90485d8abe0e8004d5d4a19b7751d93c8e79",
+        "role": "Publication of refreshed final-review inputs and immutable request history",
+        "ref": "b5da90485d8abe0e8004d5d4a19b7751d93c8e79",
+        "ref_date": "2026-09-10T06:17:24Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-final-review-2ccc69",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/01b816fd35f6971eec5b5ccdf7662312fb969d07/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/final_review.json",
+        "role": "Human-ingested final-review PASS bound to the fixed entry digest and upstream review artifacts",
+        "ref": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+        "blob_sha": "2ccc6910e6a826d65c50d557a16a38f23c981c07",
+        "ref_date": "2026-09-10T06:21:56Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-status-update-6bae32",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/01b816fd35f6971eec5b5ccdf7662312fb969d07/audits/runs/s/sensible/20260910T051329Z-d04b0c6c/status_update.json",
+        "role": "Content-bound downstream status transition from draft to checked",
+        "ref": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+        "blob_sha": "6bae32c3506e5d8b6243640375b46ac67d87385f",
+        "ref_date": "2026-09-10T06:21:56Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-status-effect-01b816",
+        "url": "https://github.com/Kyapya/english-dictionary/commit/01b816fd35f6971eec5b5ccdf7662312fb969d07",
+        "role": "Commit adding the final review and status record and applying the exact checked transition to entry and queue",
+        "ref": "01b816fd35f6971eec5b5ccdf7662312fb969d07",
+        "ref_date": "2026-09-10T06:21:56Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-pr-164",
+        "url": "https://github.com/Kyapya/english-dictionary/pull/164",
+        "role": "Origin-reported designed review workflow, fifteen-commit branch and same-account merge timeline",
+        "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+        "ref_date": "2026-09-10T06:34:41Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-sensible-merge-0ff433",
+        "url": "https://github.com/Kyapya/english-dictionary/commit/0ff4330399b66988be3770913f57295bc8e92ae6",
+        "role": "First default-branch publication of the complete selected review run",
+        "ref": "0ff4330399b66988be3770913f57295bc8e92ae6",
+        "ref_date": "2026-09-10T06:34:41Z",
+        "observed_at": "2026-10-27T10:55:02Z"
+      },
+      {
+        "id": "original-english-dictionary-unrelated-current-ref-f9e204",
+        "url": "https://github.com/Kyapya/english-dictionary/commit/f9e204f7fde05c72c95dbfaf1f6e83b6584af9b7",
+        "role": "Unrelated current-tip merge used to distinguish code-search observation ref from the historical artifact event",
+        "ref": "f9e204f7fde05c72c95dbfaf1f6e83b6584af9b7",
+        "ref_date": "2026-10-27T06:57:12Z",
+        "observed_at": "2026-10-27T10:55:02Z"
       }
   ]
 }

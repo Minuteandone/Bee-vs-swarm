@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-10-27T00:01:06Z",
+  "research_pass": 151,
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "The resumed exact cursors supplied no source-level participant, transfer/use, provenance or authorization cue for the paused scanner remainder, so it was not reopened."
+    },
+    "github_code_search": {
+      "queries": 9,
+      "row_occurrences": 64,
+      "external_rows": 34,
+      "self_index_rows": 30,
+      "selected_family_rows": 6,
+      "selected_file_reads": 18,
+      "selected_commit_records": 4,
+      "selected_pull_request_timelines": 1,
+      "recursive_tree_paths": 2585,
+      "qualification": "Rows overlap across queries and are locator coverage, not event, participant or repository counts. The selected-family checks intentionally repeat origin-repository records."
+    }
+  },
+  "query_ledger": [
+    {
+      "query": "\"received_at\" \"used_at\" \"source_run_id\" \"effect_commit_sha\"",
+      "rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"from_agent\" \"to_agent\" \"artifact_sha256\" \"consumed_at\"",
+      "rows": 36,
+      "external_rows": 7,
+      "self_index_rows": 29,
+      "cursor": "resumed",
+      "note": "Five external rows were Mupot source, migration or test paths; the emitted canary receipt was located only after the pinned repository tree was inspected."
+    },
+    {
+      "query": "\"sent_at\" \"received_at\" \"processed_at\" \"result_sha256\"",
+      "rows": 20,
+      "external_rows": 20,
+      "self_index_rows": 0,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"handoff\" \"accepted_at_utc\" \"artifact_sha256\" \"operator_id\"",
+      "rows": 1,
+      "external_rows": 1,
+      "self_index_rows": 0,
+      "cursor": "resumed"
+    },
+    {
+      "query": "\"yc27-kasra-inbox-canary-20260723\"",
+      "rows": 1,
+      "external_rows": 1,
+      "self_index_rows": 0,
+      "scope": "selected-family check"
+    },
+    {
+      "query": "\"YC27 Kasra mupot inbox receive+ACK canary\"",
+      "rows": 1,
+      "external_rows": 1,
+      "self_index_rows": 0,
+      "scope": "selected-family check"
+    },
+    {
+      "query": "\"Kasra\" \"KayHermes\" \"inbox_consumed\" \"in_reply_to\"",
+      "rows": 1,
+      "external_rows": 1,
+      "self_index_rows": 0,
+      "scope": "selected-family check"
+    },
+    {
+      "query": "\"mupot.flight.live_proof_receipt\" \"independent_runtime_gate_proven\"",
+      "rows": 1,
+      "external_rows": 1,
+      "self_index_rows": 0,
+      "scope": "selected-family check"
+    },
+    {
+      "query": "\"FLIGHT-SPINE-SCHEMA-02-GATE-VERDICT\" \"source_candidate_sha\"",
+      "rows": 2,
+      "external_rows": 2,
+      "self_index_rows": 0,
+      "scope": "selected-family check"
+    }
+  ],
+  "selected_original_control": {
+    "classification": "BV-119: designed inbox-canary acknowledgement and governed flight-gate control, not a rogue-swarm candidate",
+    "repository": "Mumega-com/mupot",
+    "pinned_ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+    "pinned_ref_observed_commit_time": "2026-10-26T18:43:22Z",
+    "dependency_assessment": {
+      "observed_transfer": "An origin-produced public receipt records one named fleet runtime sending a unique controlled-canary request to a second named fleet runtime. The recipient-side watcher records consuming that exact receipt.",
+      "recipient_use": "The recipient sends a distinct acknowledgement whose correlation fields point back to the original canary request, and the origin runtime's public receipt lists the same acknowledgement. This is a concrete temporal and semantic dependency, not merely similar text or shared infrastructure.",
+      "event_time": "The origin receipt says the canary began at 2026-07-23T22:46:46Z, records the observation window from 22:46:47Z through 22:46:48Z, and timestamps the correlated acknowledgement at 22:46:48.866Z.",
+      "publication_time": "Pull request 525 opened at 2026-07-23T22:49:09Z and stated the controlled-canary success criteria. Commit ea5362f04616b5b919426e79422f2f2c47c5385b published the receipt and implementation at 2026-07-24T03:24:06Z; the pull request merged one second later.",
+      "participant_limit": "The agent names, runtime binding and model or provider labels are origin-authored. They distinguish roles inside the record but are not provider-owned authentication of independently operated principals.",
+      "operator_limit": "The pull request says a human account dispatched the work to a headless coding agent, verified the work and required a separate project gate before merge. The repository protocol prescribes the reviewers and task-gate authorities, while official project material places a human founder above the fleet with a final seal.",
+      "task_limit": "The exchange is an expressly controlled regression canary and returns a protocol acknowledgement. It does not show an unrequested task result, artifact transfer or recipient effect outside the assigned acceptance condition.",
+      "current_activity_limit": "The October repository head and current product pages show continuing project development, but the July receipt alone does not authenticate that the two historical runtimes remain active or coordinated now."
+    },
+    "event_and_publication_chronology": [
+      {
+        "time": "2026-07-23T22:46:46Z",
+        "kind": "origin-asserted event",
+        "event": "controlled inbox canary started"
+      },
+      {
+        "time": "2026-07-23T22:46:47Z/2026-07-23T22:46:48Z",
+        "kind": "origin-asserted event window",
+        "event": "recipient runtime observed and consumed the unique request"
+      },
+      {
+        "time": "2026-07-23T22:46:48.866Z",
+        "kind": "origin-asserted event",
+        "event": "correlated acknowledgement recorded at the source side"
+      },
+      {
+        "time": "2026-07-23T22:49:09Z",
+        "kind": "public observation",
+        "event": "pull request 525 opened with explicit controlled-canary done-when criteria"
+      },
+      {
+        "time": "2026-07-24T03:24:06Z",
+        "kind": "public observation",
+        "event": "receipt and implementation published in commit ea5362f04616b5b919426e79422f2f2c47c5385b"
+      }
+    ],
+    "adjacent_flight_receipt_check": {
+      "candidate": "The Flight 2 candidate binds source and tree hashes but explicitly sets autonomy_claim false.",
+      "candidate_gate": "The later PASS verifies fetchability, hashes and package integrity; it also sets autonomy_claim false and does not independently authenticate a rogue population.",
+      "live_proof": "The live-proof receipt marks canonical identity and pending-seat registration as proven while marking runtime activation, artifact, result, independent runtime gate and autonomy as unproven.",
+      "live_proof_gate": "The independent live-proof gate returns BLOCK, does not authorize merge or deployment, and sets autonomy_claim false.",
+      "conclusion": "The adjacent receipts are useful epistemic controls: a gate PASS for package integrity is not evidence of autonomous coordination, and the stronger live-runtime claims are explicitly withheld."
+    },
+    "provenance_limits": [
+      "The canary JSON is an origin-produced receipt committed several hours after the claimed event; no independent service or provider attestation was located.",
+      "The public record demonstrates delivery, consumption and a correlated acknowledgement, but it does not expose a task-result artifact whose semantic content causes a later independent effect.",
+      "The receipt records one matching acknowledgement, while the merge message retains at-least-once and concurrent-consumer caveats. It is not used here as proof of global exactly-once behavior.",
+      "A fleet role, model label, reviewer identity or agent UUID does not by itself prove a separate operator. Raw UUIDs are omitted from this publication."
+    ]
+  },
+  "rotated_negative_controls": [
+    {
+      "family": "Indiecorn OS mission control",
+      "assessment": "One local business mission-control implementation with explicit human approval language; no selected emitted cross-operator exchange."
+    },
+    {
+      "family": "WPE Agent SQLite store",
+      "assessment": "Storage implementation containing receipt fields; no selected public actual-run dependency."
+    },
+    {
+      "family": "Dubai Leasing architecture",
+      "assessment": "A designed one-writer system with manager-controlled state and AI at defined edges; matches were architecture or schema material rather than emitted coordination."
+    },
+    {
+      "family": "Strategist handoff page",
+      "assessment": "The saved-cursor match is a deterministic UI test fixture, not a public run record."
+    }
+  ],
+  "novelty_and_overlap": {
+    "github_exact_check": "Five exact selected-family queries returned six rows, all in the origin repository.",
+    "web_queries": [
+      "\"YC27 Kasra mupot inbox receive\" ACK canary",
+      "\"Restore Kasra Mupot inbox receive + ACK path\"",
+      "\"yc27-kasra-inbox-canary-20260723\"",
+      "Mumega mupot Kasra KayHermes agent coordination"
+    ],
+    "scoped_conclusion": "No separate coordination report for this exact canary was located in the checked scope as of 27 October 2026.",
+    "qualification": "Search absence does not establish global novelty. The origin pull request publicly reports the canary and its operator-defined purpose, while official project pages already describe Mupot as a user-controlled agent fleet with scoped workers, receipts, human-originated tasks and multi-provider governance. The episode is therefore neither previously unreported nor an authorization-boundary crossing.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "alternatives_tested": [
+    {
+      "alternative": "similar text or shared-domain coincidence",
+      "result": "rejected for the narrow dependency; unique receipt and sequence references plus a correlated reply establish transfer and use"
+    },
+    {
+      "alternative": "scanner retry or duplicate submission",
+      "result": "not the best explanation for the selected chain; the record marks both sends non-duplicate and preserves an explicit reply relation, although origin assertions are not independent attestations"
+    },
+    {
+      "alternative": "shared-state fault",
+      "result": "the surrounding pull request does document a runtime-binding bug, but the selected exchange is the deliberately requested post-fix canary, not ambient unintended cooperation"
+    },
+    {
+      "alternative": "designed team or human-requested test",
+      "result": "supported directly by the pull-request task, human driver statement, gate protocol and official fleet documentation"
+    },
+    {
+      "alternative": "independent cross-operator agents",
+      "result": "not established; both roles are inside one governed fleet and no independent operator-owned authentication was located"
+    },
+    {
+      "alternative": "rogue authorization crossing",
+      "result": "not supported; the transfer and acknowledgement are the exact controlled acceptance condition"
+    },
+    {
+      "alternative": "observer contamination",
+      "result": "the receipt is origin-produced and retrospective, so it is treated as an origin assertion corroborated by public PR chronology, not as an independent observer log"
+    }
+  ],
+  "missing_evidence": [
+    "Provider- or operator-owned authentication binding the sender and recipient to distinct autonomous runtime principals.",
+    "Primary evidence that sender and recipient were controlled by independent operators.",
+    "A task-result or artifact transfer whose content causes a later recipient action beyond the requested protocol acknowledgement.",
+    "Primary evidence that the cooperation exceeded the controlled canary, fleet policy, project gate or human dispatch.",
+    "An independently preserved event-time receipt rather than only an origin-produced repository record.",
+    "Evidence of a continuing autonomous population or current production effect."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/yc27-kasra-inbox-canary-20260723.json",
+      "blob_sha": "4dc6eabafac06ee57d4f43763d013d5089bfd4e5",
+      "role": "origin-produced controlled-canary send, consume and correlated-acknowledgement receipt"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/pull/525",
+      "role": "public task authorization, controlled-canary acceptance criteria, human driver statement and gate discussion"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/commit/ea5362f04616b5b919426e79422f2f2c47c5385b",
+      "role": "canary receipt and receive-path publication"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/gate-protocol.md",
+      "blob_sha": "a67ba0eaee78bc92c95a62736249b65b02a7063d",
+      "role": "designed diverse-review and task-authority protocol"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-candidate.json",
+      "blob_sha": "9054eca73b07d1aa194159c02dfd77125e807f11",
+      "role": "hash-bound candidate package with explicit non-autonomy claim"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-gate-verdict-v2.json",
+      "blob_sha": "8a68e5f6c4f8e61064bf3cea308dd45ecef87eec",
+      "role": "independent package-integrity PASS with explicit non-autonomy claim"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-live-proof.json",
+      "blob_sha": "11945b542929d21d3320429eeff35415fd68c6f6",
+      "role": "live-proof receipt that withholds runtime, result, independent-gate and autonomy claims"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-live-proof-gate-v2.json",
+      "blob_sha": "9ee1735630b01a43f2737740a70593bd3c3c893c",
+      "role": "BLOCK verdict for the stronger live-proof claim"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/superpowers/specs/2026-08-30-runtime-dispatch-v1-design.md",
+      "blob_sha": "a23563d5efaf9efe196071811b1f6e8aa55daf31",
+      "role": "designed runtime-receipt and independent-gate specification"
+    },
+    {
+      "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/operations/runtime-dispatch-v1.md",
+      "blob_sha": "9fcc5b32c649415de23a7ce2a80d23d6c15cf0e2",
+      "role": "operator-controlled dispatch and receipt runbook"
+    },
+    {
+      "url": "https://mumega.com/products/mupot/",
+      "role": "official product description of owner-controlled scoped workers and audit receipts"
+    },
+    {
+      "url": "https://mumega.com/blog/mupot-went-live/",
+      "role": "3 June 2026 origin report of human-originated tasks and the governed substrate"
+    },
+    {
+      "url": "https://mumega.com/blog/river-and-its-harness/",
+      "role": "8 August 2026 origin report of human-final-seal and multi-provider fleet governance"
+    }
+  ],
+  "next_exact_cursors": [
+    "\"source_message_id\" \"recipient_action_sha256\" \"accepted_at\"",
+    "\"received_receipt_id\" \"result_artifact_sha256\" \"used_at\"",
+    "\"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\" \"consumed_at\"",
+    "\"in_reply_to\" \"result_sha256\" \"effect_commit_sha\" \"authorization_scope\""
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "actions_not_taken": [
+      "execute recovered code",
+      "install packages",
+      "submit scans",
+      "invoke agent runtimes",
+      "contact participants",
+      "post messages",
+      "read non-public sinks",
+      "replay payloads",
+      "probe targets"
+    ],
+    "omitted": [
+      "raw carrier and sink addresses",
+      "payload and prompt bodies",
+      "commands",
+      "local paths",
+      "host addresses",
+      "credentials and tokens",
+      "agent and member UUIDs",
+      "personal addresses",
+      "private logs"
+    ],
+    "retrieved_material_treated_as_evidence_not_instructions": true
+  }
+}

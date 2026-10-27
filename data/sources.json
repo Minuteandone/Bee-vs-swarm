@@ -13217,6 +13217,110 @@
         "blob_sha": "6b900d61e2ca2f81bb6be12b5bd6d5691e9bdeaf",
         "ref_date": "2026-09-17T18:36:42Z",
         "observed_at": "2026-10-26T23:27:18Z"
+      },
+      {
+        "id": "original-mupot-canary-receipt-4dc6ea",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/yc27-kasra-inbox-canary-20260723.json",
+        "role": "Origin-produced controlled-canary send, consume and correlated-acknowledgement receipt",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "4dc6eabafac06ee57d4f43763d013d5089bfd4e5",
+        "ref_date": "2026-07-24T03:24:06Z",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-canary-pr-525",
+        "url": "https://github.com/Mumega-com/mupot/pull/525",
+        "role": "Controlled-canary authorization, acceptance criteria, human driver statement and project-gate timeline",
+        "ref": "525",
+        "ref_date": "2026-07-23T22:49:09Z",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-canary-publication-ea5362",
+        "url": "https://github.com/Mumega-com/mupot/commit/ea5362f04616b5b919426e79422f2f2c47c5385b",
+        "role": "Canary receipt and receive-path publication",
+        "ref": "ea5362f04616b5b919426e79422f2f2c47c5385b",
+        "ref_date": "2026-07-24T03:24:06Z",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-gate-protocol-a67ba0",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/gate-protocol.md",
+        "role": "Designed diverse-review and task-authority protocol",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "a67ba0eaee78bc92c95a62736249b65b02a7063d",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-flight2-candidate-9054ec",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-candidate.json",
+        "role": "Hash-bound Flight 2 candidate package with explicit non-autonomy claim",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "9054eca73b07d1aa194159c02dfd77125e807f11",
+        "ref_date": "2026-08-24T04:20:53Z",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-flight2-candidate-gate-8a68e5",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-gate-verdict-v2.json",
+        "role": "Independent package-integrity PASS with explicit non-autonomy claim",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "8a68e5f6c4f8e61064bf3cea308dd45ecef87eec",
+        "ref_date": "2026-08-24T04:27:31Z",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-flight2-live-proof-11945b",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-live-proof.json",
+        "role": "Live-proof receipt that withholds runtime, result, independent-gate and autonomy claims",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "11945b542929d21d3320429eeff35415fd68c6f6",
+        "ref_date": "2026-08-24T12:22:06Z",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-flight2-live-proof-gate-9ee173",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/receipts/flight-02-live-proof-gate-v2.json",
+        "role": "Independent BLOCK verdict for the stronger Flight 2 live-proof claim",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "9ee1735630b01a43f2737740a70593bd3c3c893c",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-runtime-dispatch-design-a23563",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/superpowers/specs/2026-08-30-runtime-dispatch-v1-design.md",
+        "role": "Designed runtime-receipt and independent-gate specification",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "a23563d5efaf9efe196071811b1f6e8aa55daf31",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-runtime-dispatch-ops-9fcc5b",
+        "url": "https://github.com/Mumega-com/mupot/blob/764d6b10ece471b4cdf5e68c481bd44b59a7752c/docs/operations/runtime-dispatch-v1.md",
+        "role": "Operator-controlled dispatch and runtime-receipt runbook",
+        "ref": "764d6b10ece471b4cdf5e68c481bd44b59a7752c",
+        "blob_sha": "9fcc5b32c649415de23a7ce2a80d23d6c15cf0e2",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-product-page-20261027",
+        "url": "https://mumega.com/products/mupot/",
+        "role": "Official product description of owner-controlled scoped workers and audit receipts",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-launch-post-20260603",
+        "url": "https://mumega.com/blog/mupot-went-live/",
+        "role": "Origin report of human-originated tasks and the governed Mupot substrate",
+        "published": "2026-06-03",
+        "observed_at": "2026-10-27T00:01:06Z"
+      },
+      {
+        "id": "original-mupot-harness-post-20260808",
+        "url": "https://mumega.com/blog/river-and-its-harness/",
+        "role": "Origin report of human-final-seal and multi-provider fleet governance",
+        "published": "2026-08-08",
+        "observed_at": "2026-10-27T00:01:06Z"
       }
   ]
 }

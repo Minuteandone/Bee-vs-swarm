@@ -13431,6 +13431,143 @@
         "blob_sha": "114c192452782b086e16c1aa27486fe127f20ec3",
         "ref_date": "2026-04-17T05:25:37Z",
         "observed_at": "2026-10-27T05:32:45Z"
+      },
+      {
+        "id": "original-nodeskclaw-remote-acp-implementation-3205fd",
+        "url": "https://github.com/loudon84/nodeskclaw/commit/3205fdcac003fc91d5a04349c2813b815bc0342b",
+        "role": "Provider implementation commit named by the later live acceptance record",
+        "ref": "3205fdcac003fc91d5a04349c2813b815bc0342b",
+        "ref_date": "2026-10-07T13:40:48Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-remote-acp-live-a-nacp-007-3a243c",
+        "url": "https://github.com/loudon84/nodeskclaw/blob/9982d57510581cb3e1bc4b45b59eac11c99b3a52/docs_agent/evidence/remote-acp-v2.1/A-NACP-007.json",
+        "role": "Provider live acceptance record naming the consumer repository and leaving its commit unresolved; commands and payload details omitted from publication",
+        "ref": "9982d57510581cb3e1bc4b45b59eac11c99b3a52",
+        "blob_sha": "3a243c98cb350b7fce16ebba3e8698dcd5cb4283",
+        "ref_date": "2026-10-07T14:05:41Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-remote-acp-manifest-404783",
+        "url": "https://github.com/loudon84/nodeskclaw/blob/9982d57510581cb3e1bc4b45b59eac11c99b3a52/contracts/remote-expert-frontend/v2.1.0/manifest.json",
+        "role": "Provider frozen Remote ACP 2.1.0 consumer-contract manifest",
+        "ref": "9982d57510581cb3e1bc4b45b59eac11c99b3a52",
+        "blob_sha": "4047836c4a043e2f2830ffc6bcd9dc501ac5b66f",
+        "ref_date": "2026-10-07T14:05:41Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-remote-acp-handoff-40337e",
+        "url": "https://github.com/loudon84/nodeskclaw/blob/9982d57510581cb3e1bc4b45b59eac11c99b3a52/contracts/remote-expert-frontend/v2.1.0/consumer/smc-copilot-v2.1-handoff.json",
+        "role": "Provider handoff naming the consumer repository and required continuity, terminal, reconciliation and error semantics",
+        "ref": "9982d57510581cb3e1bc4b45b59eac11c99b3a52",
+        "blob_sha": "40337e0a39fff8113794e2bbe2822ee33fbe9f5e",
+        "ref_date": "2026-10-07T14:05:41Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-remote-acp-freeze-9982d5",
+        "url": "https://github.com/loudon84/nodeskclaw/commit/9982d57510581cb3e1bc4b45b59eac11c99b3a52",
+        "role": "First located Git publication of provider live evidence, frozen handoff and contract tree",
+        "ref": "9982d57510581cb3e1bc4b45b59eac11c99b3a52",
+        "ref_date": "2026-10-07T14:05:41Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-remote-acp-adoption-e68554",
+        "url": "https://github.com/loudon84/smc-copilot/commit/e68554a84a16414b96da50118fb867120c868966",
+        "role": "Consumer contract import and content-specific implementation and test changes",
+        "ref": "e68554a84a16414b96da50118fb867120c868966",
+        "ref_date": "2026-10-07T14:42:05Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-remote-acp-manifest-404783",
+        "url": "https://github.com/loudon84/smc-copilot/blob/e68554a84a16414b96da50118fb867120c868966/contracts/remote-expert-frontend/v2.1.0/manifest.json",
+        "role": "Consumer copy of the provider manifest; exact Git blob identity",
+        "ref": "e68554a84a16414b96da50118fb867120c868966",
+        "blob_sha": "4047836c4a043e2f2830ffc6bcd9dc501ac5b66f",
+        "ref_date": "2026-10-07T14:42:05Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-remote-acp-handoff-40337e",
+        "url": "https://github.com/loudon84/smc-copilot/blob/e68554a84a16414b96da50118fb867120c868966/contracts/remote-expert-frontend/v2.1.0/consumer/smc-copilot-v2.1-handoff.json",
+        "role": "Consumer copy of the provider handoff; exact Git blob identity",
+        "ref": "e68554a84a16414b96da50118fb867120c868966",
+        "blob_sha": "40337e0a39fff8113794e2bbe2822ee33fbe9f5e",
+        "ref_date": "2026-10-07T14:42:05Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-remote-acp-prd-8b866d",
+        "url": "https://github.com/loudon84/smc-copilot/blob/e68554a84a16414b96da50118fb867120c868966/docs/expert/PRD-SMC-Copilot-Remote-ACP-Consumer-EXT-G5-v2.1.md",
+        "role": "Consumer plan, exact provider-handoff source, acceptance scope and forbidden production claim",
+        "ref": "e68554a84a16414b96da50118fb867120c868966",
+        "blob_sha": "8b866d94e98855e41238e0baec3e6f460cb50582",
+        "ref_date": "2026-10-07T14:42:05Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-remote-acp-parser-fix-1d0eb5",
+        "url": "https://github.com/loudon84/smc-copilot/commit/1d0eb5b223f583afc45bd1d3bb460254a7ee22ce",
+        "role": "Direct-child consumer acceptance-parser correction named by the provider summary",
+        "ref": "1d0eb5b223f583afc45bd1d3bb460254a7ee22ce",
+        "ref_date": "2026-10-07T15:02:24Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-test-results-ignore-c869a6",
+        "url": "https://github.com/loudon84/smc-copilot/blob/1d0eb5b223f583afc45bd1d3bb460254a7ee22ce/.gitignore",
+        "role": "Consumer ignore rule covering the raw test-results path cited by the provider summary",
+        "ref": "1d0eb5b223f583afc45bd1d3bb460254a7ee22ce",
+        "blob_sha": "c869a6c88327927ac2cd7ce1798d2b5232c78879",
+        "ref_date": "2026-10-07T15:02:24Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-consumer-g6-summary-c0e209",
+        "url": "https://github.com/loudon84/nodeskclaw/blob/a2203814bf3cfdaa62624001d7b4f845b9511c4f/docs_agent/evidence/remote-acp-v2.1/ext-g5/G6-SUMMARY.json",
+        "role": "Provider-authored consumer-gate summary naming both consumer commits and an absent raw consumer evidence path",
+        "ref": "a2203814bf3cfdaa62624001d7b4f845b9511c4f",
+        "blob_sha": "c0e20974ee1f633f2d15699349215e15a09b0d29",
+        "ref_date": "2026-10-07T15:41:13Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-production-gate-status-c97a29",
+        "url": "https://github.com/loudon84/nodeskclaw/blob/a2203814bf3cfdaa62624001d7b4f845b9511c4f/docs_agent/evidence/remote-acp-v2.1/production-gate/OPS-STATUS.json",
+        "role": "Unpassed production gate with four blocked operations pending explicit user credentials, prerequisites or dual signoff",
+        "ref": "a2203814bf3cfdaa62624001d7b4f845b9511c4f",
+        "blob_sha": "c97a297eaf037f319f6317f2452ba8983713cf6f",
+        "ref_date": "2026-10-07T15:41:13Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-consumer-gate-publication-a22038",
+        "url": "https://github.com/loudon84/nodeskclaw/commit/a2203814bf3cfdaa62624001d7b4f845b9511c4f",
+        "role": "First located publication of provider-side consumer summary and production-gate status",
+        "ref": "a2203814bf3cfdaa62624001d7b4f845b9511c4f",
+        "ref_date": "2026-10-07T15:41:13Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-nodeskclaw-current-main-469ae3",
+        "url": "https://github.com/loudon84/nodeskclaw/commit/469ae3b28fb2a5ce3449f10148c9a4a6176b89b9",
+        "role": "Observed provider default-branch ref; continued repository development does not establish current participants or deployment",
+        "ref": "469ae3b28fb2a5ce3449f10148c9a4a6176b89b9",
+        "ref_date": "2026-10-23T08:06:54Z",
+        "observed_at": "2026-10-27T05:54:50Z"
+      },
+      {
+        "id": "original-smc-copilot-current-main-51d85b",
+        "url": "https://github.com/loudon84/smc-copilot/commit/51d85b8b57c72575d9eb9d22fd28035db5767833",
+        "role": "Observed consumer default-branch ref; neither historical adoption commit is an ancestor",
+        "ref": "51d85b8b57c72575d9eb9d22fd28035db5767833",
+        "ref_date": "2026-09-20T11:19:40Z",
+        "observed_at": "2026-10-27T05:54:50Z"
       }
   ]
 }

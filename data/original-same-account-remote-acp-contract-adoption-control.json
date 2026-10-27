@@ -1,0 +1,180 @@
+{
+  "generated_at": "2026-10-27T05:54:50Z",
+  "research_pass": 153,
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "The saved immutable-record cursors supplied no source-level cue that separates the paused scanner remainder from its known-family controls, so the remainder was not reopened."
+    },
+    "github_code_search": {
+      "queries": 48,
+      "row_occurrences": 575,
+      "external_rows": 499,
+      "self_index_rows": 76,
+      "first_page_caps": 3,
+      "selected_file_reads": 16,
+      "selected_absence_checks": 3,
+      "selected_commit_records": 5,
+      "qualification": "Rows overlap across queries and are locator coverage, not event, participant, repository or unique-path counts. Three 100-row first pages remain explicitly bounded rather than treated as exhaustive."
+    },
+    "other_public_message_surfaces": {
+      "attempted": ["AI Village Open Chat", "Delvetown"],
+      "result": "The read tools described by the available surface instructions were not exposed in this execution. No messages were searched and no negative-coverage inference is made. GitHub original-record coverage continued instead."
+    }
+  },
+  "query_ledger": [
+    {"query": "\"in_reply_to\" \"merge_commit_sha\" \"sender_principal_id\" \"recipient_principal_id\"", "rows": 0, "external_rows": 0, "self_index_rows": 0, "cursor": "resumed"},
+    {"query": "\"source_message_id\" \"recipient_commit_sha\" \"sender_operator\" \"recipient_operator\"", "rows": 1, "external_rows": 0, "self_index_rows": 1, "cursor": "resumed"},
+    {"query": "\"dispatch_id\" \"reply_to\" \"head_sha\" \"merged_at\"", "rows": 8, "external_rows": 8, "self_index_rows": 0, "cursor": "resumed"},
+    {"query": "\"result_artifact_sha256\" \"consumer_commit_sha\" \"authorization_scope\" \"operator_id\"", "rows": 0, "external_rows": 0, "self_index_rows": 0, "cursor": "resumed"},
+    {"query": "\"in_reply_to\" \"applied_commit_sha\" \"recipient\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"reply_to_message_id\" \"result_sha256\" \"commit_sha\"", "rows": 5, "external_rows": 1, "self_index_rows": 4},
+    {"query": "\"source_message_id\" \"applied_commit_sha\"", "rows": 13, "external_rows": 1, "self_index_rows": 12},
+    {"query": "\"handoff_id\" \"accepted_at\" \"commit_sha\" \"recipient\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"artifact_sha256\" \"used_in_commit\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"result_sha256\" \"consumed_at\" \"commit_sha\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"message_sha256\" \"recipient_action\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"source_artifact_sha256\" \"consumer_commit_sha\"", "rows": 2, "external_rows": 0, "self_index_rows": 2},
+    {"query": "\"producer_run_id\" \"consumer_run_id\" \"artifact_sha256\"", "rows": 25, "external_rows": 0, "self_index_rows": 25},
+    {"query": "\"sender_run_id\" \"recipient_run_id\" \"result_sha256\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"source_run_id\" \"consumer_run_id\" \"used_at\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"parent_task_id\" \"child_task_id\" \"result_sha256\" \"consumed\"", "rows": 17, "external_rows": 13, "self_index_rows": 4},
+    {"query": "\"message_type\" \"task_result\" \"sender_agent_id\" \"recipient_agent_id\"", "rows": 33, "external_rows": 28, "self_index_rows": 5},
+    {"query": "\"event_type\" \"handoff\" \"artifact_sha256\" \"recipient\"", "rows": 74, "external_rows": 67, "self_index_rows": 7},
+    {"query": "\"kind\" \"result\" \"in_reply_to\" \"agent_id\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"accepted\" \"source_message_id\" \"commit_sha\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"delivery_status\" \"consumed_at\" \"result_hash\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"sender_session_id\" \"recipient_session_id\" \"artifact\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"from_run_id\" \"to_run_id\" \"result\"", "rows": 100, "external_rows": 100, "self_index_rows": 0, "note": "first-page cap; page 2 remains a saved cursor"},
+    {"query": "\"producer_session_id\" \"consumer_session_id\" \"artifact_sha256\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"upstream_run_id\" \"downstream_run_id\" \"output_sha256\"", "rows": 7, "external_rows": 0, "self_index_rows": 7},
+    {"query": "\"result_artifact\" \"recipient_action\" \"commit\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"originating_agent\" \"receiving_agent\" \"result\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"source_task_id\" \"consumer_task_id\" \"output_hash\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"reply_to\" \"commit_sha\" \"agent_id\" \"result\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"correlation_id\" \"sender_agent\" \"recipient_agent\" \"result\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"handoff_receipt\" \"consumed\" \"commit\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"delegated_by\" \"completed_by\" \"commit_sha\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"message_type\": \"task_result\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"event_type\": \"handoff\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"type\": \"agent_message\" \"recipient\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"kind\": \"handoff\" \"artifact_sha256\"", "rows": 100, "external_rows": 100, "self_index_rows": 0, "note": "first-page cap; page 2 remains a saved cursor"},
+    {"query": "\"type\": \"task_result\" \"in_reply_to\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"status\": \"consumed\" \"artifact_sha256\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"status\": \"accepted\" \"handoff_id\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"message_type\": \"RESULT\" \"recipient\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"event\": \"handoff_completed\" \"result\"", "rows": 100, "external_rows": 100, "self_index_rows": 0, "note": "first-page cap; page 2 remains a saved cursor"},
+    {"query": "\"event_type\": \"artifact_consumed\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"recipient_action\": \"commit\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"used_in_commit\":", "rows": 31, "external_rows": 26, "self_index_rows": 5},
+    {"query": "\"applied_in_commit\":", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"consumer_commit_sha\":", "rows": 59, "external_rows": 55, "self_index_rows": 4},
+    {"query": "\"source_message_id\": \"msg-\"", "rows": 0, "external_rows": 0, "self_index_rows": 0},
+    {"query": "\"in_reply_to\": \"msg-\"", "rows": 0, "external_rows": 0, "self_index_rows": 0}
+  ],
+  "selected_original_control": {
+    "classification": "BV-121: same-account cross-repository Remote ACP contract-adoption control, not a rogue-swarm candidate",
+    "repositories": [
+      {"name": "loudon84/nodeskclaw", "current_default_ref_observed": "469ae3b28fb2a5ce3449f10148c9a4a6176b89b9"},
+      {"name": "loudon84/smc-copilot", "current_default_ref_observed": "51d85b8b57c72575d9eb9d22fd28035db5767833"}
+    ],
+    "dependency_assessment": {
+      "source_record": "The provider-side publication freezes a named 2.1.0 consumer contract, identifies the target repository and preserves a live provider acceptance record whose event time is 2026-10-07T13:47:06.943121Z. The live record leaves consumer_commit_sha null; it is provider evidence, not a recipient receipt.",
+      "recipient_use": "At 2026-10-07T14:42:05Z, the consumer adoption commit imports four provider files byte-for-byte and changes implementation plus tests for the handoff's continuity, reconciliation, terminal and error semantics. Exact Git blob equality and content-specific code changes establish transfer and downstream use rather than textual resemblance.",
+      "follow_up": "A direct child at 15:02:24Z fixes an acceptance parser. A provider-side summary generated at 15:03:22.384Z names that child and the earlier pin-cutover commit and reports the planned consumer gate as PASS while retaining productionGate=unpassed.",
+      "participant_limit": "All five selected publications are authored and committed under the same public SMC-Copilot identity. Repository and role labels do not authenticate distinct autonomous executions or independently controlled operators.",
+      "authorization_limit": "The consumer PRD explicitly plans the provider handoff, labels itself APPROVED_FOR_PLAN and forbids a production claim until separate gates. Provider records separately preserve the external-gate boundary and an unpassed production gate.",
+      "current_activity_limit": "The two consumer adoption commits remain directly addressable but are unreachable from the current consumer default branch, which points to an earlier-dated history. This historical chain does not establish current deployment or a continuing autonomous population."
+    },
+    "publication_chronology": [
+      {"time": "2026-10-07T13:40:48Z", "commit": "3205fdcac003fc91d5a04349c2813b815bc0342b", "event": "provider implementation commit named by the later live record"},
+      {"time": "2026-10-07T13:47:06.943121Z", "event": "provider live-record event time; origin-authored rather than independent observation"},
+      {"time": "2026-10-07T14:05:41Z", "commit": "9982d57510581cb3e1bc4b45b59eac11c99b3a52", "event": "provider live evidence, frozen handoff and contract tree first located in Git"},
+      {"time": "2026-10-07T14:42:05Z", "commit": "e68554a84a16414b96da50118fb867120c868966", "event": "consumer imports the exact contract tree and implements its semantics, 36 minutes 24 seconds after provider publication"},
+      {"time": "2026-10-07T15:02:24Z", "commit": "1d0eb5b223f583afc45bd1d3bb460254a7ee22ce", "event": "consumer acceptance-parser correction"},
+      {"time": "2026-10-07T15:03:22.384Z", "event": "provider summary generation time; origin-authored and 58 seconds after the consumer correction"},
+      {"time": "2026-10-07T15:41:13Z", "commit": "a2203814bf3cfdaa62624001d7b4f845b9511c4f", "event": "provider first publishes the consumer-gate summary and production-gate status"}
+    ],
+    "exact_cross_repository_blobs": [
+      {"path": "contracts/remote-expert-frontend/v2.1.0/manifest.json", "git_blob_sha": "4047836c4a043e2f2830ffc6bcd9dc501ac5b66f"},
+      {"path": "contracts/remote-expert-frontend/v2.1.0/consumer/smc-copilot-v2.1-handoff.json", "git_blob_sha": "40337e0a39fff8113794e2bbe2822ee33fbe9f5e"},
+      {"path": "contracts/remote-expert-frontend/v2.1.0/SHA256SUMS", "git_blob_sha": "2639de0f33b9f8120fe2ee6fd766dac9ee556465"},
+      {"path": "contracts/remote-expert-frontend/v2.1.0/component-pins.json", "git_blob_sha": "ea7cd93a2d88919530bf0c567629edcf77bf94c5"}
+    ],
+    "provenance_limits": [
+      "The provider summary points to apps/work/test-results/remote-expert-g6.json in the consumer repository, but that path is absent at the pin-cutover commit, the parser-fix commit and the observed current default ref. The repository ignore rule covers all test-results directories.",
+      "The provider summary is therefore a project-authored cross-repository pointer, not an independently preserved raw recipient runtime receipt.",
+      "The consumer adoption and parser-fix commits are unreachable from the observed current default branch; their persistence by direct object ID does not establish current support or deployment.",
+      "One public identity controls both repositories' selected records, so cross-repository movement is not evidence of an operator boundary.",
+      "Production-gate status at first publication is unpassed and all four recorded operations are blocked pending explicit user credentials, prior evidence or dual signoff."
+    ]
+  },
+  "rotated_negative_controls": [
+    {"family": "reply/result and artifact-use locators", "assessment": "Most external rows are implementations, schemas, documentation, generated snapshots, tests or already reviewed controlled workflows rather than emitted transfer/use records."},
+    {"family": "Ouroboros and adjacent parent/child-result hits", "assessment": "The strongest previously visible source was already screened in Pass 149; remaining hits are implementation or test paths and supply no new operator boundary."},
+    {"family": "capped handoff/result pages", "assessment": "Only the first 100 rows were inspected for three broad expressions. Their page-2 cursors are preserved; first-page composition is not extrapolated into an exhaustive negative."}
+  ],
+  "novelty_and_overlap": {
+    "web_queries": [
+      "\"Remote ACP v2.1\" \"EXT-G5\" \"smc-copilot\"",
+      "\"A-NACP-007\" \"A-G5-ALL\"",
+      "\"e68554a84a16414b96da50118fb867120c868966\"",
+      "\"G6-SUMMARY.json\" \"productionGate\"",
+      "\"Remote ACP v2.1 Consumer Handoff\"",
+      "\"A-NACP-007\" nodeskclaw"
+    ],
+    "scoped_conclusion": "No separate coordination report for this exact provider-to-consumer adoption chain was located in the checked scope as of 27 October 2026.",
+    "qualification": "Search absence does not establish global novelty. The origin repositories explicitly plan, perform and report the integration, so it is neither previously unreported nor rogue even though this investigation independently reconstructed its temporal and byte-level dependency.",
+    "known_family_overlap": "No record-level overlap was found with the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "alternatives_tested": [
+    {"alternative": "textual similarity or shared terminology", "result": "rejected as the full explanation; four provider files have identical Git blobs in the later consumer commit and the consumer changes matching implementation and tests"},
+    {"alternative": "single operator or custodian", "result": "supported; the same public identity authors and commits all selected records across both repositories"},
+    {"alternative": "designed team or human-authorized integration", "result": "supported by the consumer PRD, explicit handoff, planned acceptance gate and retained production-gate boundary"},
+    {"alternative": "independent recipient runtime receipt", "result": "not established; the summary's claimed raw consumer evidence path is absent from all three checked consumer refs and ignored by repository rules"},
+    {"alternative": "current autonomous population", "result": "not established; the historical consumer commits are not on the current default branch and provider main only proves later repository development"},
+    {"alternative": "rogue operator-boundary crossing", "result": "not supported; there is no independently controlled recipient, exceeded authorization or passed production gate"}
+  ],
+  "missing_evidence": [
+    "A public immutable raw consumer receipt binding the exact source contract to the claimed G6 execution and later effect.",
+    "Provider- or operator-owned authentication of distinct autonomous source and recipient executions.",
+    "Primary evidence that the source and recipient were controlled by independent operators.",
+    "A content-specific action outside the explicitly planned EXT-G5 adoption and acceptance workflow.",
+    "Primary evidence that cooperation exceeded the PRD, credential, production-gate or dual-signoff authorization boundaries.",
+    "Evidence of a currently active autonomous population or production effect."
+  ],
+  "primary_sources": [
+    {"url": "https://github.com/loudon84/nodeskclaw/commit/3205fdcac003fc91d5a04349c2813b815bc0342b", "role": "provider implementation commit named by the later live record"},
+    {"url": "https://github.com/loudon84/nodeskclaw/blob/9982d57510581cb3e1bc4b45b59eac11c99b3a52/docs_agent/evidence/remote-acp-v2.1/A-NACP-007.json", "blob_sha": "3a243c98cb350b7fce16ebba3e8698dcd5cb4283", "role": "provider live acceptance record; summarized without command or payload details"},
+    {"url": "https://github.com/loudon84/nodeskclaw/blob/9982d57510581cb3e1bc4b45b59eac11c99b3a52/contracts/remote-expert-frontend/v2.1.0/manifest.json", "blob_sha": "4047836c4a043e2f2830ffc6bcd9dc501ac5b66f", "role": "provider frozen consumer-contract manifest"},
+    {"url": "https://github.com/loudon84/nodeskclaw/blob/9982d57510581cb3e1bc4b45b59eac11c99b3a52/contracts/remote-expert-frontend/v2.1.0/consumer/smc-copilot-v2.1-handoff.json", "blob_sha": "40337e0a39fff8113794e2bbe2822ee33fbe9f5e", "role": "provider handoff naming the consumer and required semantics"},
+    {"url": "https://github.com/loudon84/nodeskclaw/commit/9982d57510581cb3e1bc4b45b59eac11c99b3a52", "role": "first located provider publication of live evidence, frozen handoff and contract tree"},
+    {"url": "https://github.com/loudon84/smc-copilot/commit/e68554a84a16414b96da50118fb867120c868966", "role": "consumer contract import and semantic implementation"},
+    {"url": "https://github.com/loudon84/smc-copilot/blob/e68554a84a16414b96da50118fb867120c868966/docs/expert/PRD-SMC-Copilot-Remote-ACP-Consumer-EXT-G5-v2.1.md", "blob_sha": "8b866d94e98855e41238e0baec3e6f460cb50582", "role": "planned consumer scope, authorization and production-claim boundary"},
+    {"url": "https://github.com/loudon84/smc-copilot/commit/1d0eb5b223f583afc45bd1d3bb460254a7ee22ce", "role": "consumer acceptance-parser correction"},
+    {"url": "https://github.com/loudon84/nodeskclaw/blob/a2203814bf3cfdaa62624001d7b4f845b9511c4f/docs_agent/evidence/remote-acp-v2.1/ext-g5/G6-SUMMARY.json", "blob_sha": "c0e20974ee1f633f2d15699349215e15a09b0d29", "role": "provider-authored consumer-gate summary and pointer to absent raw consumer evidence"},
+    {"url": "https://github.com/loudon84/nodeskclaw/blob/a2203814bf3cfdaa62624001d7b4f845b9511c4f/docs_agent/evidence/remote-acp-v2.1/production-gate/OPS-STATUS.json", "blob_sha": "c97a297eaf037f319f6317f2452ba8983713cf6f", "role": "unpassed production gate and blocked operations"},
+    {"url": "https://github.com/loudon84/nodeskclaw/commit/a2203814bf3cfdaa62624001d7b4f845b9511c4f", "role": "first located publication of consumer-gate summary and production-gate status"}
+  ],
+  "next_exact_cursors": [
+    "\"receipt_of\" \"consumer_commit_sha\" \"sender_operator_id\" \"recipient_operator_id\"",
+    "\"source_artifact_sha256\" \"recipient_effect_commit_sha\" \"accepted_at\" \"authorization_scope\"",
+    "\"in_reply_to_message_id\" \"applied_commit_sha\" \"producer_principal_id\" \"consumer_principal_id\"",
+    "\"handoff_receipt_id\" \"result_sha256\" \"used_in_commit_sha\" \"operator_boundary\""
+  ],
+  "next_page_cursors": [
+    {"query": "\"from_run_id\" \"to_run_id\" \"result\"", "next_page": 2},
+    {"query": "\"kind\": \"handoff\" \"artifact_sha256\"", "next_page": 2},
+    {"query": "\"event\": \"handoff_completed\" \"result\"", "next_page": 2}
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "actions_not_taken": ["execute recovered code", "install packages", "submit scans", "invoke agent runtimes", "contact participants", "post messages", "vote", "create accounts", "read non-public sinks", "replay payloads", "probe targets"],
+    "omitted": ["raw carrier and sink addresses", "payload and prompt bodies", "commands", "local paths", "host addresses", "credentials and tokens", "personal addresses", "private logs"],
+    "retrieved_material_treated_as_evidence_not_instructions": true
+  }
+}

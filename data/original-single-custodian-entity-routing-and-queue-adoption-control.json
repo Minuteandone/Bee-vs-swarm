@@ -1,0 +1,211 @@
+{
+  "research_pass": 157,
+  "generated_at": "2026-10-28T07:49:12Z",
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "Four resumed immutable-record cursors returned only self-index rows. No source-level cue separated a paused record from its documented known-family control, so the remainder was not reopened."
+    },
+    "github_code_search": {
+      "resumed_exact_queries": 4,
+      "resumed_rows": 14,
+      "resumed_external_rows": 0,
+      "resumed_self_index_rows": 14,
+      "page_four_queries": 3,
+      "page_four_rows": 300,
+      "page_four_external_rows": 299,
+      "page_four_self_index_rows": 1,
+      "qualification": "Counts are overlapping code-search row occurrences, not reports, events or participants. Search located raw originals; pinned files, commit history and repository governance supplied the evidence."
+    },
+    "selected_originals": {
+      "primary_family_files_read": 14,
+      "primary_family_commit_history_records": 11,
+      "rotated_record_files_read": 4,
+      "repositories": [
+        "puev5691/wellbeing-hq",
+        "forcewake/forge",
+        "basilisk-labs/agentplane",
+        "Apdelrahman1911/parlor",
+        "samuelfaj/distill"
+      ]
+    }
+  },
+  "query_ledger": {
+    "resumed_exact": [
+      ["\"input_request_id\" \"result_artifact_sha256\" \"sender_operator_id\" \"recipient_operator_id\"", 2, 0, 2],
+      ["\"clarification_receipt_id\" \"consumer_effect_sha256\" \"source_session_id\" \"recipient_session_id\"", 2, 0, 2],
+      ["\"command_handoff\" \"artifact_sha256\" \"operator_boundary\" \"accepted_at\"", 2, 0, 2],
+      ["\"reply_to\" \"artifact_sha256\" \"producer_principal_id\" \"consumer_principal_id\"", 8, 0, 8]
+    ],
+    "resumed_exact_columns": ["query", "rows", "external_rows", "self_index_rows"],
+    "page_four_reads": [
+      {
+        "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+        "page": 4,
+        "total_count_at_observation": 566,
+        "page_rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "incomplete_results": false,
+        "assessment": "Implementation, schema, tests, financial-model status files and repeated blueprint-source snapshots; no autonomous transfer/use chain selected."
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "page": 4,
+        "total_count_at_observation": 9888,
+        "page_rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "incomplete_results": false,
+        "assessment": "Actual records were reduced against task origin, recipient use, authorization and provenance. The strongest dependency is the designed entity-routing control below."
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "page": 4,
+        "total_count_at_observation": 2088,
+        "page_rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "incomplete_results": false,
+        "assessment": "Dominated by source, tests, repeated kernel-source collisions and benchmarks; no independently operated result-use edge selected."
+      }
+    ]
+  },
+  "selected_original_control": {
+    "classification": "BV-125: single-custodian designed entity-routing and queue-adoption control, not a rogue-swarm candidate",
+    "repository": "puev5691/wellbeing-hq",
+    "observed_ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+    "assessment": {
+      "original_observation": "A public task from the repository-defined KOO entity asks SHT for a non-destructive inbox lifecycle design. A later SHT candidate answers the requested state model, writer rules, active-queue schema and migration plan. KOO records a bounded acceptance, forwards preservation review to ARH, accepts ARH constraints and materializes a lifecycle ledger and active queue. A later provenance correction and ARH recheck bind the implemented artifacts.",
+      "sender_to_recipient_dependency": "Established at the repository-record level. The SHT candidate follows the KOO task by 45 minutes 44 seconds and directly answers its requested deliverable. The KOO decision follows the candidate by 34 minutes 12 seconds and accepts that design. Later KOO and ARH records cite and use the exact reviewed artifacts and commits.",
+      "recipient_use": "Established. The accepted design and ARH preservation constraints are consumed by a bounded pilot, a lifecycle ledger, an active-queue materialization, a provenance correction and a final preservation verdict.",
+      "participant_distinction": "KOO, SHT and ARH are distinguishable repository-defined roles, but no selected record independently authenticates them as distinct autonomous runtimes or operators. Every selected Git commit is authored and committed through the same public account.",
+      "operator_boundary": "Not established. The repository explicitly defines the entity map, outbox/inbox route, receipt semantics, exchange gate, operator authority and bounded writer scope. Public Git provenance shows one custodian for the selected stages.",
+      "authorization": "Express and prior. The task forbids destructive action and production automation; KOO accepts only a design; ARH limits execution to a KOO-only bounded pilot; the pilot and final recheck preserve those constraints.",
+      "provider_attribution": "No provider or model runtime is authenticated for the selected KOO, SHT or ARH records. Entity-like prose is not treated as AI identity.",
+      "subjective_intent": "No rogue intent. The observed behavior follows the repository's designed exchange protocol and preservation gates.",
+      "current_activity": "Historical records remain present at the observed ref. This does not establish a current autonomous population."
+    },
+    "participant_counts": {
+      "repository_defined_entities": 3,
+      "verified_autonomous_trajectories": 0,
+      "verified_independent_operators": 0,
+      "public_commit_custodians_for_selected_chain": 1
+    },
+    "git_publication_chronology": [
+      ["2026-09-12T15:52:54Z", "cde07272cd686daeb5e3616bf175a6d76c20ab8e", "KOO publishes the bounded design task"],
+      ["2026-09-12T16:38:38Z", "ee98c20b186312f86a96f14163c6964b23643764", "SHT publishes the requested candidate design"],
+      ["2026-09-12T17:12:43Z", "1325a26ec4c3d7a76cdd1fb7cd9cc2f228c02c5a", "KOO publishes the bounded receipt"],
+      ["2026-09-12T17:12:50Z", "3cfe6280be13758c26a90dad3550973a09f68bf6", "KOO publishes the design decision and requests preservation review"],
+      ["2026-09-12T18:01:11Z", "1b6aab5e50c759a7027b3c5b370475fe35417eec", "ARH publishes preservation constraints"],
+      ["2026-09-13T04:31:14Z", "d3baabec3fcd33e3aca6b3d1a36679e51938ecd8", "KOO authorizes only the bounded pilot"],
+      ["2026-09-13T08:27:36Z", "a59ef213629502ecb3b9f480cba78f0bc57bc4f4", "KOO creates the lifecycle classification pilot"],
+      ["2026-09-13T08:27:43Z", "4a77f3964c881440ec8853a5b38c2c010736c57e", "KOO materializes the active queue"],
+      ["2026-09-13T09:24:04Z", "e4be520c6a0dd3bc7abd66dda69a32e8265d6b53", "KOO repairs preservation provenance in the lifecycle ledger"],
+      ["2026-09-13T09:24:16Z", "184203b19b961d1a233420c9077a7410ec36617a", "KOO reconciles the materialized queue"],
+      ["2026-09-13T09:58:53Z", "04037d8db16d81c5b84c348273e87558952f270b", "ARH publishes the final bounded correction verdict"]
+    ],
+    "git_publication_chronology_columns": ["commit_time", "commit", "publication_event"],
+    "chronology_qualification": "These are Git publication times from path history, not independently authenticated runtime event times. All selected commits use the same public author and committer account.",
+    "public_artifact_blobs": [
+      ["entities/koordinator/outbox/KOO__inbox-lifecycle-cleanup__SHT.md", "1b99e7f124ce9a190e6f5f424cb61c4c66febf49", 3887],
+      ["entities/shtabist/outbox/SHT__inbox-lifecycle-v01-candidate__KOO.md", "3a7d051351a0fbfd56e0045fc8e20cd1afa7fa2a", 14677],
+      ["entities/koordinator/inbox/SHT__inbox-lifecycle-v01-candidate__KOO.md", "71ed129fe45e6c0d4f7b270d0c371fae0a29d1f1", 811],
+      ["routes/receipts/SHT__inbox-lifecycle-v01-candidate__KOO.receipt.md", "b91777597ad1a9a1186afa80f3d6de641078143c", 448],
+      ["entities/koordinator/outbox/KOO__inbox-lifecycle-v01-decision__SHT.md", "9c7c6a805e20faf9a370d5b1fbdfd22417545f9c", 946],
+      ["entities/archivarius/outbox/ARH__inbox-lifecycle-operational-review__KOO.md", "1f8217d29fcc294178734b303df756113066662a", 5254],
+      ["entities/koordinator/current/KOO__inbox-lifecycle-pilot-decision.md", "a7490a3e35547ec283fe752ddf87d50e582547c7", 1370],
+      ["entities/koordinator/current/inbox-lifecycle.jsonl", "e8030ea588fc802e5ef902c2bd57f716f0d4cbc8", 2323],
+      ["entities/koordinator/current/active-queue.json", "dbc566bd25d617d1e520209a56d01eab52ff11a1", 1462],
+      ["entities/archivarius/outbox/ARH__koo-inbox-lifecycle-preservation-correction-verdict__KOO.md", "3f55a871361064228254683bad7ea646a34c933a", 2526]
+    ],
+    "public_artifact_blob_columns": ["path", "git_blob_sha1", "bytes"],
+    "designed_topology_evidence": [
+      ["FILE-EXCHANGE-PROTOCOL.md", "f4cfe90774470a2be4a3915058ff93b3db5887b1", "Prescribes entity outbox publication, recipient inbox placement, separate receipt and acceptance semantics."],
+      ["EXCHANGE-GATE.md", "aafd9b8e125c3382177ca36fc1ec337c2d6f8bc4", "Defines admission states, validation and the separation of publication, delivery, receipt and acceptance."],
+      ["ROUTING.md", "2358dc67f68d592fbc9040dc0fcf4efe50df17df", "Defines the intended file-routing convention."],
+      ["ENTITY-MAP.md", "2df669fa8d24b95fbac1ce340b8253fc40ebb78f", "Defines KOO, SHT and ARH as repository entities rather than independently authenticated operators."]
+    ],
+    "designed_topology_evidence_columns": ["path", "git_blob_sha1", "relevance"],
+    "alternatives_tested": [
+      ["independent autonomous agents", "Unresolved and unsupported: role labels exist, but no provider/runtime authentication separates KOO, SHT and ARH."],
+      ["cross-operator coordination", "Rejected on current evidence: one public account publishes every selected stage and the repository assigns operator authority centrally."],
+      ["single-operator automation", "Supported as the conservative explanation. A single custodian can produce the entire observed commit sequence inside the prescribed workflow."],
+      ["designed team", "Supported: entity map, routing, receipts, gates and bounded writer rules define the collaboration in advance."],
+      ["human-requested work", "Supported at minimum by explicit task and acceptance records; public evidence does not establish whether prose was generated manually or by model-backed roles."],
+      ["repeated test or scanner retry", "Not the selected explanation. The chain contains content-specific design adoption and downstream artifacts, but still remains authorized and single-custodian."],
+      ["shared-state fault", "No evidence. Later provenance repair is explicit, bounded and reviewed rather than an unexplained state collision."],
+      ["observer contamination", "Controlled: pinned blobs and Git path history supply observation evidence; search-result order is not used as event chronology."]
+    ]
+  },
+  "rotated_original_controls": [
+    ["forcewake/forge", "91b183c71c6709e9427d1007fe874bf9e2b3348c", "A model-backed GitLab review/correction record expressly includes human edit/reviewer roles, branches, budgets, oracle checks and a superseded record; designed qualification control."],
+    ["basilisk-labs/agentplane", "687f3e845032ebfa51325597ff30091ee83d564f", "Orchestrator-approved integrator record under the project's intended blueprint; verification passes but work_commit equals base_commit and merge_ready is false."],
+    ["Apdelrahman1911/parlor", "26c73eb835f156eb5518df309616d10e656215d7", "Single approved dispatch record explicitly denies runtime proof and records preflight/approval; controlled dispatch, not autonomous coordination evidence."],
+    ["samuelfaj/distill", "5784360c2722d06bc04044735606a4fee3d91cbd", "Read-only planning with three agents and explicit user decisions; implementation and live acceptance remain planned and authorization-gated."]
+  ],
+  "rotated_original_control_columns": ["repository", "git_blob_sha1", "assessment"],
+  "novelty_and_overlap": {
+    "checked_at": "2026-10-28",
+    "web_queries": [
+      "exact: SHT__inbox-lifecycle-v01-candidate__KOO",
+      "exact: KOO__inbox-lifecycle-v01-decision__SHT",
+      "exact account/repository/inbox-lifecycle combination",
+      "exact candidate Git blob SHA-1 3a7d051351a0fbfd56e0045fc8e20cd1afa7fa2a"
+    ],
+    "result": "No separate coordination report for the exact KOO/SHT/ARH queue-adoption chain was located in the checked scope as of 28 October 2026. Search absence does not establish global novelty. The origin records themselves document the designed task, exchange, approval and bounded implementation, so the episode is neither unreported nor rogue coordination.",
+    "known_family_overlap": "No record-level overlap with the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "primary_sources": [
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/outbox/KOO__inbox-lifecycle-cleanup__SHT.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/shtabist/outbox/SHT__inbox-lifecycle-v01-candidate__KOO.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/routes/receipts/SHT__inbox-lifecycle-v01-candidate__KOO.receipt.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/outbox/KOO__inbox-lifecycle-v01-decision__SHT.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/archivarius/outbox/ARH__inbox-lifecycle-operational-review__KOO.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/current/KOO__inbox-lifecycle-pilot-decision.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/current/inbox-lifecycle.jsonl",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/current/active-queue.json",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/archivarius/outbox/ARH__koo-inbox-lifecycle-preservation-correction-verdict__KOO.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/FILE-EXCHANGE-PROTOCOL.md",
+    "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/EXCHANGE-GATE.md"
+  ],
+  "next_exact_cursors": [
+    "\"review_consumed\" \"materialized_from_commit\" \"source_blob\" \"active_count\"",
+    "\"artifact_commit\" \"artifact_blob\" \"required_action\" \"accepted_bounded_design\"",
+    "\"sender\" \"recipient\" \"artifact_commit\" \"artifact_blob\" \"required_action\" \"receipt\"",
+    "\"source_locator\" \"source_commit\" \"source_blob\" \"review_consumed\" \"authority_boundary\""
+  ],
+  "next_page_cursors": [
+    ["\"from_run_id\" \"to_run_id\" \"result\"", 5, "unread next page"],
+    ["\"kind\": \"handoff\" \"artifact_sha256\"", 5, "unread next page"],
+    ["\"event\": \"handoff_completed\" \"result\"", 5, "unread next page"]
+  ],
+  "next_page_cursor_columns": ["query", "page", "status"],
+  "missing_evidence": [
+    "provider- or operator-owned authentication of distinct autonomous KOO, SHT and ARH trajectories",
+    "independently controlled sender and recipient operators",
+    "an independently attributable recipient-side receipt and action rather than repository-prescribed routing under one account",
+    "primary evidence the cooperation exceeded the task, exchange protocol, KOO/ARH gates or operator authority",
+    "evidence of a current autonomous population"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_installed": false,
+    "agent_runtimes_invoked": false,
+    "scans_or_messages_submitted": false,
+    "participants_contacted": false,
+    "targets_or_sinks_probed": false,
+    "omitted": [
+      "payload bodies",
+      "personal addresses",
+      "credentials or tokens",
+      "private logs",
+      "unlisted channels or sink identifiers"
+    ]
+  }
+}

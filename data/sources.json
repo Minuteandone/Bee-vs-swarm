@@ -13895,6 +13895,190 @@
         "ref": "7ef1f13549aae84af7f90c76d4f5a1848caddaef",
         "blob_sha": "a75c680f62b2782b04c7c516e2aa1a81e9d297b5",
         "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-wellbeing-koo-lifecycle-task-1b99e7",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/outbox/KOO__inbox-lifecycle-cleanup__SHT.md",
+        "role": "KOO task requesting a bounded non-destructive inbox lifecycle design from SHT",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "1b99e7f124ce9a190e6f5f424cb61c4c66febf49",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-sht-lifecycle-candidate-3a7d05",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/shtabist/outbox/SHT__inbox-lifecycle-v01-candidate__KOO.md",
+        "role": "SHT candidate answering the requested state, writer, queue-schema and migration design",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "3a7d051351a0fbfd56e0045fc8e20cd1afa7fa2a",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-lifecycle-receipt-b91777",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/routes/receipts/SHT__inbox-lifecycle-v01-candidate__KOO.receipt.md",
+        "role": "Bounded KOO receipt binding the accepted design artifact",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "b91777597ad1a9a1186afa80f3d6de641078143c",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-koo-lifecycle-decision-9c7c6a",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/outbox/KOO__inbox-lifecycle-v01-decision__SHT.md",
+        "role": "KOO decision accepting the design and forwarding preservation review",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "9c7c6a805e20faf9a370d5b1fbdfd22417545f9c",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-arh-lifecycle-review-1f8217",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/archivarius/outbox/ARH__inbox-lifecycle-operational-review__KOO.md",
+        "role": "ARH preservation review limiting implementation to a bounded KOO-only pilot",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "1f8217d29fcc294178734b303df756113066662a",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-koo-lifecycle-pilot-a7490a",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/current/KOO__inbox-lifecycle-pilot-decision.md",
+        "role": "KOO pilot decision consuming the ARH constraints",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "a7490a3e35547ec283fe752ddf87d50e582547c7",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-lifecycle-ledger-e8030e",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/current/inbox-lifecycle.jsonl",
+        "role": "Bounded lifecycle ledger recording review consumption and corrected provenance",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "e8030ea588fc802e5ef902c2bd57f716f0d4cbc8",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-active-queue-dbc566",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/koordinator/current/active-queue.json",
+        "role": "Active queue materialized from the corrected lifecycle ledger",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "dbc566bd25d617d1e520209a56d01eab52ff11a1",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-arh-correction-verdict-3f55a8",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/entities/archivarius/outbox/ARH__koo-inbox-lifecycle-preservation-correction-verdict__KOO.md",
+        "role": "Final ARH verdict binding the corrected lifecycle and queue artifacts",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "3f55a871361064228254683bad7ea646a34c933a",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-exchange-protocol-f4cfe9",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/FILE-EXCHANGE-PROTOCOL.md",
+        "role": "Repository-designed entity outbox, inbox, receipt and acceptance protocol",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "f4cfe90774470a2be4a3915058ff93b3db5887b1",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-exchange-gate-aafd9b",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/EXCHANGE-GATE.md",
+        "role": "Repository-designed validation and exchange-state gate",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "aafd9b8e125c3382177ca36fc1ec337c2d6f8bc4",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-entity-map-2df669",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/ENTITY-MAP.md",
+        "role": "Repository-defined KOO, SHT and ARH entity map",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "2df669fa8d24b95fbac1ce340b8253fc40ebb78f",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-routing-2358dc",
+        "url": "https://github.com/puev5691/wellbeing-hq/blob/cadb19b2e2e5a4c1db008565330b2d51d1fad420/ROUTING.md",
+        "role": "Repository-prescribed file routing convention",
+        "ref": "cadb19b2e2e5a4c1db008565330b2d51d1fad420",
+        "blob_sha": "2358dc67f68d592fbc9040dc0fcf4efe50df17df",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-task-publication-cde072",
+        "url": "https://github.com/puev5691/wellbeing-hq/commit/cde07272cd686daeb5e3616bf175a6d76c20ab8e",
+        "role": "First publication of the KOO lifecycle-design task",
+        "ref": "cde07272cd686daeb5e3616bf175a6d76c20ab8e",
+        "ref_date": "2026-09-12T15:52:54Z",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-candidate-publication-ee98c2",
+        "url": "https://github.com/puev5691/wellbeing-hq/commit/ee98c20b186312f86a96f14163c6964b23643764",
+        "role": "First publication of the SHT lifecycle candidate, 45 minutes 44 seconds after the task",
+        "ref": "ee98c20b186312f86a96f14163c6964b23643764",
+        "ref_date": "2026-09-12T16:38:38Z",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-acceptance-publication-3cfe62",
+        "url": "https://github.com/puev5691/wellbeing-hq/commit/3cfe6280be13758c26a90dad3550973a09f68bf6",
+        "role": "Publication of the KOO acceptance decision",
+        "ref": "3cfe6280be13758c26a90dad3550973a09f68bf6",
+        "ref_date": "2026-09-12T17:12:50Z",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-arh-review-publication-1b6aab",
+        "url": "https://github.com/puev5691/wellbeing-hq/commit/1b6aab5e50c759a7027b3c5b370475fe35417eec",
+        "role": "Publication of ARH preservation constraints",
+        "ref": "1b6aab5e50c759a7027b3c5b370475fe35417eec",
+        "ref_date": "2026-09-12T18:01:11Z",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-ledger-publication-a59ef2",
+        "url": "https://github.com/puev5691/wellbeing-hq/commit/a59ef213629502ecb3b9f480cba78f0bc57bc4f4",
+        "role": "First publication of the bounded lifecycle ledger",
+        "ref": "a59ef213629502ecb3b9f480cba78f0bc57bc4f4",
+        "ref_date": "2026-09-13T08:27:36Z",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-wellbeing-final-verdict-publication-04037d",
+        "url": "https://github.com/puev5691/wellbeing-hq/commit/04037d8db16d81c5b84c348273e87558952f270b",
+        "role": "Publication of the final ARH bounded correction verdict",
+        "ref": "04037d8db16d81c5b84c348273e87558952f270b",
+        "ref_date": "2026-09-13T09:58:53Z",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-forge-review-loop-91b183",
+        "url": "https://github.com/forcewake/forge/blob/7ed64baa599f6927c55cb1275ffdca9fd1f3f7ec/qualification/records/review-loop-2026-09-28-c1-e7b48d42.json",
+        "role": "Model-backed review/correction qualification record with explicit human, budget, branch and oracle controls",
+        "ref": "7ed64baa599f6927c55cb1275ffdca9fd1f3f7ec",
+        "blob_sha": "91b183c71c6709e9427d1007fe874bf9e2b3348c",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-agentplane-acr-687f3e",
+        "url": "https://github.com/basilisk-labs/agentplane/blob/8dc7008ea00ef190520168ca16ba9006ccbe378f/.agentplane/tasks/202605091549-65ANX7/acr.json",
+        "role": "Designed orchestrator/integrator task record with no independent operator authentication",
+        "ref": "8dc7008ea00ef190520168ca16ba9006ccbe378f",
+        "blob_sha": "687f3e845032ebfa51325597ff30091ee83d564f",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-parlor-dispatch-26c73e",
+        "url": "https://github.com/Apdelrahman1911/parlor/blob/aea0e47f610d30cce0adbb3294c9428ac3015648/remediation-runs/2026-09-08-continuation/actions/native-evidence-dispatch-04/dispatch-result.json",
+        "role": "Approved single-dispatch result explicitly marked as not runtime proof",
+        "ref": "aea0e47f610d30cce0adbb3294c9428ac3015648",
+        "blob_sha": "26c73eb835f156eb5518df309616d10e656215d7",
+        "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-distill-plan-report-578436",
+        "url": "https://github.com/samuelfaj/distill/blob/6c69d293a87e201205427dde7cbeb4d1fc8b0ffd/plan/goal-pauses/plan-report.json",
+        "role": "Read-only multi-agent planning record with explicit user decisions and authorization-gated implementation",
+        "ref": "6c69d293a87e201205427dde7cbeb4d1fc8b0ffd",
+        "blob_sha": "5784360c2722d06bc04044735606a4fee3d91cbd",
+        "observed_at": "2026-10-28T07:49:12Z"
       }
   ]
 }

@@ -1,0 +1,309 @@
+{
+  "research_pass": 159,
+  "generated_at": "2026-10-28T12:53:44Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "The reconstructed inventory closes arithmetically and supplies no source-level reopen cue."
+  },
+  "query_ledger": [
+    {
+      "query": "\"pass_id\" \"reviewer\" \"ingested_by\" \"agent_id\" \"input_body_sha256\" \"findings\"",
+      "reported_total": 998,
+      "reviewed_page": 1,
+      "returned_rows": 100,
+      "external_rows": 98,
+      "self_index_rows": 2,
+      "assessment": "All external rows belong to the already reviewed Kyapya/english-dictionary designed human-ingestion family. Page two exists but is deprioritized absent a differentiating cue."
+    },
+    {
+      "query": "\"finding_id\" \"resolved_body_sha256\" \"disposition\" \"recorded_at\" \"reviewer\"",
+      "reported_total": 61,
+      "reviewed_page": 1,
+      "returned_rows": 61,
+      "external_rows": 59,
+      "self_index_rows": 2,
+      "assessment": "Exhausted; external rows are the known dictionary review family."
+    },
+    {
+      "query": "\"seven independent checker passes\" \"from_status\" \"to_status\" \"reviewed_at\"",
+      "reported_total": 7,
+      "reviewed_page": 1,
+      "returned_rows": 7,
+      "external_rows": 5,
+      "self_index_rows": 2,
+      "assessment": "Exhausted; no separate population."
+    },
+    {
+      "query": "\"mode\": \"handoff\" \"ingested_by\": \"human\" \"agent_id\" \"resolved_body_sha256\"",
+      "reported_total": 55,
+      "reviewed_page": 1,
+      "returned_rows": 55,
+      "external_rows": 53,
+      "self_index_rows": 2,
+      "assessment": "Exhausted; no operator-boundary evidence beyond the known designed family."
+    },
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+      "reviewed_page": 6,
+      "reported_total": 611,
+      "returned_rows": 100,
+      "external_rows": 97,
+      "self_index_rows": 3,
+      "external_repositories": 60,
+      "classification": {
+        "implementation_or_schema": 38,
+        "tests": 28,
+        "documentation_or_snapshots": 16,
+        "financial_model_cache_statuses": 15
+      },
+      "assessment": "The strongest apparent run chain is a PPO training-cache name migration. Fourteen of fifteen statuses are cache hits; from/to identifiers identify cache names, not autonomous participants."
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "reviewed_page": 6,
+      "reported_total": 10048,
+      "returned_rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "external_repositories": 92,
+      "classification": {
+        "implementation": 39,
+        "documentation_or_protocols": 26,
+        "record_shaped": 14,
+        "tests_or_fixtures": 12,
+        "configuration_or_workflow": 9
+      },
+      "assessment": "Pantheon supplies the strongest content-dependent trail. CoChem-TOPOS supplies the next strongest record-shaped control."
+    },
+    {
+      "query": "\"event\": \"handoff_completed\" \"result\"",
+      "reviewed_page": 6,
+      "reported_total": 2132,
+      "returned_rows": 100,
+      "external_rows": 100,
+      "self_index_rows": 0,
+      "external_repositories": 88,
+      "classification": {
+        "kernel_collisions": 22,
+        "tests_fixtures_or_benchmarks": 12,
+        "controlled_aira_logs": 3,
+        "selected_before_the_roar_records": 2,
+        "development_note": 1,
+        "template": 1,
+        "implementation_documentation_schema_or_other": 59
+      },
+      "assessment": "Before the Roar preserves real model-result dependencies and a correction, but its own evidence classifies the run as a developer demonstration under a fixed service policy."
+    }
+  ],
+  "high_arity_rotation": {
+    "queries": 4,
+    "reported_rows": 61,
+    "returned_rows": 58,
+    "external_rows": 10,
+    "self_index_rows": 48,
+    "assessment": "External matches resolve to implementation, schema, migrations or tests; no emitted run record or independent participant pair was located."
+  },
+  "selected_original_controls": [
+    {
+      "id": "BV-127",
+      "title": "governed reviewer-rejection, repair and approval control",
+      "repository": "ajoe734/pantheon",
+      "pinned_ref": "44da5e5182c8535a21328681ef224f987b8c7f44",
+      "primary_records": [
+        {
+          "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/docs/deployment/evidence/twelve-loop-gap/L12-DIST-001/evidence.json",
+          "blob_sha": "9f9f74dea720ee8d294e559d709c1a57e5948e54",
+          "role": "Origin evidence ledger preserving the negative proof, repair, validation and governed approval state."
+        },
+        {
+          "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/.orchestrator/task-briefs/l12_dist_001.md",
+          "blob_sha": "b7715628b31631bf3fb2852090ce3cc5f524c09e",
+          "role": "Canonical task brief assigning owner, reviewer and Human/Ops closeout authority."
+        },
+        {
+          "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/docs/bff/execution-tasks/2026-07-26-twelve-loop-gap/L12-DIST-001.md",
+          "blob_sha": "4fefc8236c1edae0cbed9ed3b7d5190a7e22f226",
+          "role": "Task packet prescribing the transactional-distillation outcome, scope and acceptance proofs."
+        },
+        {
+          "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/docs/deployment/evidence/twelve-loop-gap/L12-DIST-001/README.md",
+          "blob_sha": "f4d9b82516d0df62cf0b82bd68e4604228d63cde",
+          "role": "Owner evidence narrative identifying the mutable same-ID reread defect and exact repair boundary."
+        }
+      ],
+      "event_chronology": [
+        {
+          "at": "2026-07-28T11:53:45Z",
+          "event": "Origin ledger records a Codex-labelled independent rejection of exact head 12ec4214ea431e74cfd4c1a222d30f8d2512f5a4 because Registry delivery could reread mutable same-ID production-note content instead of committed request lineage."
+        },
+        {
+          "at": "2026-07-28T11:54:46Z",
+          "commit": "cc847a15c684dc2d37106e116dd7353fe000f759",
+          "event": "Review boundary published."
+        },
+        {
+          "at": "2026-07-28T12:01:04Z",
+          "commit": "d642eec8bd9c436f2dce52932d86551f2bdc622d",
+          "event": "Committed replay-lineage repair published."
+        },
+        {
+          "at": "2026-07-28T12:12:06Z",
+          "commit": "2ebabea2ad774dc59fe785f811025de1f6837956",
+          "event": "Receipt-bound journal boundary refreshed."
+        },
+        {
+          "at": "2026-07-28T12:17:24Z",
+          "commit": "c1c3ee0d1fd122df409c53e0fc038fde1ef6a965",
+          "event": "Repair evidence sealed for exact-head review."
+        },
+        {
+          "at": "2026-07-28T12:30:03Z",
+          "event": "Origin ledger records reviewer approval."
+        },
+        {
+          "at": "2026-07-28T12:35:45Z",
+          "event": "Origin ledger records owner closeout."
+        },
+        {
+          "at": "2026-07-28T12:58:51Z",
+          "commit": "cf94be38a548a31df020456904ea10ff95ffb4dd",
+          "event": "Signed merge publication."
+        }
+      ],
+      "dependency_assessment": "The rejection identifies a specific lineage defect; the next repair removes that path; the sealed evidence and later approval consume the corrected exact head. Semantic recipient use is concrete.",
+      "alternative_tests": {
+        "single_operator_or_designed_team": "Supported. The task packet assigns owner and reviewer, routes workers through one central root and reserves Human/Ops effect authority.",
+        "independent_operator_boundary": "Not established. The same public account authors the selected stages and commits the pre-merge work; GitHub web-flow commits the merge. The repository-authored actor labels are not provider authentication.",
+        "authorization_crossing": "Not established. Rejection, repair, approval and merge are the prescribed governed workflow."
+      },
+      "classification": "designed governed review-and-repair control, not a candidate",
+      "missing_evidence": "Provider- or operator-owned authentication for independently controlled reviewer and repairer runtimes; an independently published recipient-side action; primary evidence that cooperation exceeded the task, review gate or Human/Ops authority; and evidence of a continuing autonomous population."
+    },
+    {
+      "id": "BV-128",
+      "title": "developer-run multi-role correction and presentation control",
+      "repository": "sagitta414/before-the-roar",
+      "pinned_ref": "aa454ce05e07bcd780c113e278e8d22b69bb4ed5",
+      "primary_records": [
+        {
+          "url": "https://github.com/sagitta414/before-the-roar/blob/aa454ce05e07bcd780c113e278e8d22b69bb4ed5/dist/assets/live-production-proof.json",
+          "blob_sha": "a34dde411145c016526020a96f4fe36c504e110f",
+          "event_at": "2026-10-18T13:49:35.871Z",
+          "role": "Live production proof preserving role-specific inputs and dependencies."
+        },
+        {
+          "url": "https://github.com/sagitta414/before-the-roar/blob/aa454ce05e07bcd780c113e278e8d22b69bb4ed5/demo/showcase-v186/live-sequence.json",
+          "blob_sha": "0292214fd924f63cc8456fe745528f4a1aca6aea",
+          "event_at": "2026-10-25T13:22:25.462Z",
+          "role": "Three-round live record including a viewer challenge and an evidence correction."
+        },
+        {
+          "url": "https://github.com/sagitta414/before-the-roar/blob/aa454ce05e07bcd780c113e278e8d22b69bb4ed5/docs/HACKATHON-SUBMISSION-V186.md",
+          "blob_sha": "9184ea82754c3fb55dc5e4cc1fa8b701605d633a",
+          "role": "Origin submission draft stating that the 12-call run is a development demonstration, not independent evaluation."
+        }
+      ],
+      "publication_chronology": [
+        {
+          "at": "2026-10-18T13:49:49Z",
+          "commit": "dc60ac2dacdbe1f6d9ad3447c243060cf85b0b36",
+          "event": "Production proof published 13 seconds after its recorded test time; its parent carried a different proof blob."
+        },
+        {
+          "at": "2026-10-25T13:57:15Z",
+          "commit": "2b6c32629dd94078d494e2139affc00f97ba1b41",
+          "event": "Three-round sequence published; the parent did not contain that file."
+        }
+      ],
+      "dependency_assessment": "Guide consumes analyst output; reviewer consumes analyst, guide and deterministic arithmetic; presenter consumes all earlier roles. In the later sequence, the corrected evidence makes the reviewer withdraw the movement claim while retaining the passing calculation, and the presenter publishes that correction. This is concrete task-result use.",
+      "alternative_tests": {
+        "single_operator_or_designed_team": "Supported. One director, fixed role policy, shared service, shared allowance and deterministic claim gate prescribe the topology.",
+        "independent_operator_boundary": "Not established. One public identity publishes both selected records, and the origin calls the run a developer demonstration.",
+        "observer_contamination": "The origin distinguishes model requests from deterministic arithmetic, saved replay and edited presentation; role labels do not authenticate separate operators.",
+        "authorization_crossing": "Not established. The viewer challenge and correction are the explicit demonstration objective."
+      },
+      "classification": "developer-run multi-role handoff and correction control, not a candidate",
+      "missing_evidence": "Provider- or operator-owned authentication for independently controlled role runtimes; a public sender-to-recipient delivery outside the shared director/service; an independently controlled recipient effect; primary evidence that cooperation exceeded the demonstration policy or allowance; and current-population evidence."
+    }
+  ],
+  "supporting_controls": [
+    {
+      "repository": "ChuanWei1213/FinRL_Exp",
+      "record": "results/ppo_synthetic_vs_real/train_cache/synthetic_dva__50_paths_f65c0613__no_fee__seed_4__f6cdb332205f/status.json",
+      "blob_sha": "809bbe2971b09a5fabb3a1b5893d3f383ef24cd7",
+      "publication_commit": "65234459020572e973818164fbd845970924e2fc",
+      "assessment": "The from/to values are cache-name migration keys in a cache-hit record, not sender and recipient run identities."
+    },
+    {
+      "repository": "ProfJJK-CoChem/CoChem-TOPOS",
+      "record": ".docs/evidence/2026-10-18-isolated-base-compatibility/native-evidence.json",
+      "blob_sha": "8e14a522b6479d27d138b726513616cb9a8c7231",
+      "context_blob_sha": "81453b78f2014d2366b438951a60df229e4292e6",
+      "publication_commit": "bde1d3464f0e37c04f13cb254188104da930e0b5",
+      "assessment": "The receipt says human-review; BASE and TOPOS are mandatory software components in one package, not independently authenticated AI participants."
+    },
+    {
+      "family": "AIRA",
+      "reviewed_records": 3,
+      "assessment": "Controlled human-theme benchmark, simulation or mock outputs; no independent task-result adoption edge."
+    }
+  ],
+  "novelty_and_overlap": {
+    "checked_at": "2026-10-28",
+    "pantheon_queries": [
+      "exact task identifier plus mutable same-ID production-note defect",
+      "exact rejected head plus committed replay lineage repair",
+      "exact approval event phrasing"
+    ],
+    "before_the_roar_queries": [
+      "exact live-sequence turn identifier",
+      "exact viewer-challenge plus corrected-evidence markers",
+      "exact 12-call development-demonstration phrasing"
+    ],
+    "result": "No separate coordination report for either exact chain was located in the checked web and GitHub scope as of 28 October 2026. Exact GitHub checks returned only origin-repository paths. Search absence does not establish global novelty, and each origin itself describes a governed or developer-run workflow.",
+    "known_family_overlap": "Neither control is a distinct episode of the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI Artifactory/Hugging Face, AISI GitHub handoff or Covert Assistance/METR families. Both are excluded on stronger origin evidence as designed controls."
+  },
+  "next_page_cursors": [
+    {
+      "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+      "next_page": 7
+    },
+    {
+      "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "next_page": 7
+    },
+    {
+      "query": "\"event\": \"handoff_completed\" \"result\"",
+      "next_page": 7
+    }
+  ],
+  "next_exact_cursors": [
+    "\"pass_id\" \"reviewer\" \"ingested_by\" \"agent_id\" \"input_body_sha256\" \"findings\" page 2 only if a differentiating source cue appears",
+    "Rotate new exact transfer/use locators after page-seven review rather than re-querying provider or framework issue trackers."
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "executed_recovered_code": false,
+    "installed_packages_or_agent_runtimes": false,
+    "submitted_scans_or_messages": false,
+    "contacted_participants": false,
+    "probed_target_systems": false,
+    "publication_omits": [
+      "raw carrier or service URLs",
+      "payload bodies",
+      "credentials and tokens",
+      "sink topics and personal addresses",
+      "private logs"
+    ]
+  }
+}

@@ -14166,6 +14166,162 @@
         "blob_sha": "7a9019b58acf8030f60977e8cad2282e08192c63",
         "ref_date": "2026-09-26T18:50:13.9316667Z",
         "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-evidence-9f9f74",
+        "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/docs/deployment/evidence/twelve-loop-gap/L12-DIST-001/evidence.json",
+        "role": "Origin evidence ledger preserving the reviewer negative proof, exact repair evidence and governed approval chronology",
+        "ref": "44da5e5182c8535a21328681ef224f987b8c7f44",
+        "blob_sha": "9f9f74dea720ee8d294e559d709c1a57e5948e54",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-task-brief-b77156",
+        "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/.orchestrator/task-briefs/l12_dist_001.md",
+        "role": "Canonical task brief assigning owner, reviewer, central-root coordination and Human/Ops closeout",
+        "ref": "44da5e5182c8535a21328681ef224f987b8c7f44",
+        "blob_sha": "b7715628b31631bf3fb2852090ce3cc5f524c09e",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-task-packet-4fefc8",
+        "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/docs/bff/execution-tasks/2026-07-26-twelve-loop-gap/L12-DIST-001.md",
+        "role": "Task packet prescribing the transactional-distillation scope, dependencies and acceptance proof",
+        "ref": "44da5e5182c8535a21328681ef224f987b8c7f44",
+        "blob_sha": "4fefc8236c1edae0cbed9ed3b7d5190a7e22f226",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-readme-f4d9b8",
+        "url": "https://github.com/ajoe734/pantheon/blob/44da5e5182c8535a21328681ef224f987b8c7f44/docs/deployment/evidence/twelve-loop-gap/L12-DIST-001/README.md",
+        "role": "Owner evidence narrative describing the mutable same-ID reread defect and committed replay-lineage repair",
+        "ref": "44da5e5182c8535a21328681ef224f987b8c7f44",
+        "blob_sha": "f4d9b82516d0df62cf0b82bd68e4604228d63cde",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-review-boundary-cc847a",
+        "url": "https://github.com/ajoe734/pantheon/commit/cc847a15c684dc2d37106e116dd7353fe000f759",
+        "role": "Review-boundary publication immediately after the origin-recorded exact-head rejection",
+        "ref": "cc847a15c684dc2d37106e116dd7353fe000f759",
+        "ref_date": "2026-07-28T11:54:46Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-lineage-repair-d642ee",
+        "url": "https://github.com/ajoe734/pantheon/commit/d642eec8bd9c436f2dce52932d86551f2bdc622d",
+        "role": "Committed replay-lineage repair removing mutable production-note rereads",
+        "ref": "d642eec8bd9c436f2dce52932d86551f2bdc622d",
+        "ref_date": "2026-07-28T12:01:04Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-receipt-refresh-2ebabe",
+        "url": "https://github.com/ajoe734/pantheon/commit/2ebabea2ad774dc59fe785f811025de1f6837956",
+        "role": "Receipt-bound journal boundary refresh before sealing repair evidence",
+        "ref": "2ebabea2ad774dc59fe785f811025de1f6837956",
+        "ref_date": "2026-07-28T12:12:06Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-sealed-evidence-c1c3ee",
+        "url": "https://github.com/ajoe734/pantheon/commit/c1c3ee0d1fd122df409c53e0fc038fde1ef6a965",
+        "role": "Sealed exact-head committed-replay repair evidence submitted for governed review",
+        "ref": "c1c3ee0d1fd122df409c53e0fc038fde1ef6a965",
+        "ref_date": "2026-07-28T12:17:24Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-pantheon-l12-dist-signed-merge-cf94be",
+        "url": "https://github.com/ajoe734/pantheon/commit/cf94be38a548a31df020456904ea10ff95ffb4dd",
+        "role": "Signed merge publication after origin-recorded approval and owner closeout",
+        "ref": "cf94be38a548a31df020456904ea10ff95ffb4dd",
+        "ref_date": "2026-07-28T12:58:51Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-before-roar-live-production-proof-a34dde",
+        "url": "https://github.com/sagitta414/before-the-roar/blob/aa454ce05e07bcd780c113e278e8d22b69bb4ed5/dist/assets/live-production-proof.json",
+        "role": "Live production proof preserving role-specific input dependencies and a deterministic arithmetic lane",
+        "ref": "aa454ce05e07bcd780c113e278e8d22b69bb4ed5",
+        "blob_sha": "a34dde411145c016526020a96f4fe36c504e110f",
+        "ref_date": "2026-10-18T13:49:35.871Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-before-roar-proof-publication-dc60ac",
+        "url": "https://github.com/sagitta414/before-the-roar/commit/dc60ac2dacdbe1f6d9ad3447c243060cf85b0b36",
+        "role": "First publication of the selected live production proof blob",
+        "ref": "dc60ac2dacdbe1f6d9ad3447c243060cf85b0b36",
+        "ref_date": "2026-10-18T13:49:49Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-before-roar-live-sequence-029221",
+        "url": "https://github.com/sagitta414/before-the-roar/blob/aa454ce05e07bcd780c113e278e8d22b69bb4ed5/demo/showcase-v186/live-sequence.json",
+        "role": "Three-round live sequence preserving a viewer challenge, corrected evidence and changed presenter output",
+        "ref": "aa454ce05e07bcd780c113e278e8d22b69bb4ed5",
+        "blob_sha": "0292214fd924f63cc8456fe745528f4a1aca6aea",
+        "ref_date": "2026-10-25T13:22:25.462Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-before-roar-sequence-publication-2b6c32",
+        "url": "https://github.com/sagitta414/before-the-roar/commit/2b6c32629dd94078d494e2139affc00f97ba1b41",
+        "role": "First Git publication of the selected three-round live sequence",
+        "ref": "2b6c32629dd94078d494e2139affc00f97ba1b41",
+        "ref_date": "2026-10-25T13:57:15Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-before-roar-submission-v186-9184ea",
+        "url": "https://github.com/sagitta414/before-the-roar/blob/aa454ce05e07bcd780c113e278e8d22b69bb4ed5/docs/HACKATHON-SUBMISSION-V186.md",
+        "role": "Origin submission draft classifying the twelve-call sequence as a development demonstration, not independent evaluation",
+        "ref": "aa454ce05e07bcd780c113e278e8d22b69bb4ed5",
+        "blob_sha": "9184ea82754c3fb55dc5e4cc1fa8b701605d633a",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-finrl-cache-migration-status-809bbe",
+        "url": "https://github.com/ChuanWei1213/FinRL_Exp/blob/65234459020572e973818164fbd845970924e2fc/results/ppo_synthetic_vs_real/train_cache/synthetic_dva__50_paths_f65c0613__no_fee__seed_4__f6cdb332205f/status.json",
+        "role": "PPO cache-hit status whose from/to values are cache-name migration keys rather than participant runs",
+        "ref": "65234459020572e973818164fbd845970924e2fc",
+        "blob_sha": "809bbe2971b09a5fabb3a1b5893d3f383ef24cd7",
+        "ref_date": "2026-08-22T04:57:25Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-finrl-path-study-publication-652344",
+        "url": "https://github.com/ChuanWei1213/FinRL_Exp/commit/65234459020572e973818164fbd845970924e2fc",
+        "role": "Publication containing the selected cache status and adjacent experiment outputs",
+        "ref": "65234459020572e973818164fbd845970924e2fc",
+        "ref_date": "2026-08-22T04:57:25Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-cochem-topos-native-evidence-8e14a5",
+        "url": "https://github.com/ProfJJK-CoChem/CoChem-TOPOS/blob/bde1d3464f0e37c04f13cb254188104da930e0b5/.docs/evidence/2026-10-18-isolated-base-compatibility/native-evidence.json",
+        "role": "Human-review native BASE-to-TOPOS software-component receipt",
+        "ref": "bde1d3464f0e37c04f13cb254188104da930e0b5",
+        "blob_sha": "8e14a522b6479d27d138b726513616cb9a8c7231",
+        "ref_date": "2026-10-19T01:15:03.330292Z",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-cochem-topos-readme-81453b",
+        "url": "https://github.com/ProfJJK-CoChem/CoChem-TOPOS/blob/bde1d3464f0e37c04f13cb254188104da930e0b5/README.md",
+        "role": "Origin context defining BASE and TOPOS as mandatory software components in one package",
+        "ref": "bde1d3464f0e37c04f13cb254188104da930e0b5",
+        "blob_sha": "81453b78f2014d2366b438951a60df229e4292e6",
+        "observed_at": "2026-10-28T12:53:44Z"
+      },
+      {
+        "id": "original-cochem-topos-native-evidence-publication-bde1d3",
+        "url": "https://github.com/ProfJJK-CoChem/CoChem-TOPOS/commit/bde1d3464f0e37c04f13cb254188104da930e0b5",
+        "role": "Publication retaining the selected native inputs and evidence snapshot",
+        "ref": "bde1d3464f0e37c04f13cb254188104da930e0b5",
+        "ref_date": "2026-10-19T01:29:32Z",
+        "observed_at": "2026-10-28T12:53:44Z"
       }
   ]
 }

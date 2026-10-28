@@ -14079,6 +14079,93 @@
         "ref": "6c69d293a87e201205427dde7cbeb4d1fc8b0ffd",
         "blob_sha": "5784360c2722d06bc04044735606a4fee3d91cbd",
         "observed_at": "2026-10-28T07:49:12Z"
+      },
+      {
+        "id": "original-english-dictionary-parliament-evidence-request-c9b459",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/handoff/checker_passes.evidence.request.md",
+        "role": "Fixed evidence-check request prescribing a separate checker session, distinct agent ID and human ingestion",
+        "ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "blob_sha": "c9b459d7d729a8cdfc15d43ad74fb87d517c2d20",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-english-dictionary-parliament-evidence-response-74a57e",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/handoff/checker_passes.evidence.response.json",
+        "role": "Human-ingested checker response binding the request hash to twelve content-specific blocking findings",
+        "ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "blob_sha": "74a57e09629b9bc6261bf861bda9de0a1449bcd0",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-english-dictionary-parliament-pass-findings-812964",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/pass_findings.json",
+        "role": "Seven-pass aggregate incorporating the content-specific evidence response",
+        "ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "blob_sha": "8129647d8adb2004c563c74dac48bafc4277070a",
+        "ref_date": "2026-09-08T09:30:30.907723Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-english-dictionary-parliament-resolutions-9ce61c",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/resolutions.json",
+        "role": "Resolution ledger mapping twelve evidence findings to adopted or rejected revisions and a changed body hash",
+        "ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "blob_sha": "9ce61c07091d603bfe16f1b73e229a102f3b630e",
+        "ref_date": "2026-09-08T10:17:03Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-english-dictionary-parliament-status-498527",
+        "url": "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/status_update.json",
+        "role": "Draft-to-checked status transition citing seven checker passes, rechecks and final review",
+        "ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "blob_sha": "498527e2858969be3341906e030cd503bbfe4050",
+        "ref_date": "2026-09-08T13:24:00Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-english-dictionary-parliament-joint-publication-0e9e74",
+        "url": "https://github.com/Kyapya/english-dictionary/commit/0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "role": "Signed joint publication of request, responses, aggregate, resolutions and checked status",
+        "ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+        "ref_date": "2026-09-08T14:07:43Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-awesome-theorems-intake-0037-8e0b49",
+        "url": "https://github.com/weiyangzen/awesome_theorems/blob/4ecdda4863162748b3ee70bc4ec842789418145d/Stage1_Instances/THM-M-0037/intake-receipt.json",
+        "role": "Provisional worker self-test explicitly unaccepted, non-independent and no-state-change",
+        "ref": "4ecdda4863162748b3ee70bc4ec842789418145d",
+        "blob_sha": "8e0b493cc95b73ab8268c9c59980bc6124191842",
+        "ref_date": "2026-07-12T23:10:07Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-crypto-autoresearcher-validator-8bda26",
+        "url": "https://github.com/isogeny-labs/crypto-autoresearcher/blob/0029fa3c5fccd382c98f898a74d42f780dec3e49/coordination/goals/GOAL-MLKEM-004/batches/BATCH-d3a45a/tasks/TASK-20260804-a84239/report.yaml",
+        "role": "Assigned independent validator report handed to the same program's coordinator ledger archive",
+        "ref": "0029fa3c5fccd382c98f898a74d42f780dec3e49",
+        "blob_sha": "8bda26d5538a606466c6aabb0760687b31be4ef3",
+        "ref_date": "2026-08-05T07:48:00Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-agent-interface-measured-shared11-76285d",
+        "url": "https://github.com/Unjuno/agent-interface/blob/5a19c8b40ebe5639ac5abfebcf2a6cdedf42556c/research/integration/calc_measured_holds_3311_4d74_20261004/calc-measured-shared-4d74/runs/measured_shared11/raw.json",
+        "role": "One owned compiled GUI-runtime receipt with no distinguishable autonomous sender/recipient pair",
+        "ref": "5a19c8b40ebe5639ac5abfebcf2a6cdedf42556c",
+        "blob_sha": "76285dc58e7bcc53def2122c54c667181bcd8a89",
+        "ref_date": "2026-10-03T18:52:28Z",
+        "observed_at": "2026-10-28T12:24:08Z"
+      },
+      {
+        "id": "original-ecorp-cache-receipt-7a9019",
+        "url": "https://github.com/All-The-Vibes/ecorp/blob/128de45b95ef771002a3db22026c173a8f5e8597/docs/evidence/2026-09-26-startup-verifier-integration/cache-receipt.json",
+        "role": "Owned deterministic regression receipt with synthetic identities, null provider model and no external effects",
+        "ref": "128de45b95ef771002a3db22026c173a8f5e8597",
+        "blob_sha": "7a9019b58acf8030f60977e8cad2282e08192c63",
+        "ref_date": "2026-09-26T18:50:13.9316667Z",
+        "observed_at": "2026-10-28T12:24:08Z"
       }
   ]
 }

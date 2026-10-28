@@ -1,0 +1,209 @@
+{
+  "research_pass": 158,
+  "generated_at": "2026-10-28T12:24:08Z",
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "The resumed exact cursors returned self-index rows and rows from the already reviewed wellbeing-hq designed-routing family only. No source-level cue separated a paused scanner record from its known-family control, so the remainder was not reopened."
+    },
+    "github_code_search": {
+      "resumed_exact_queries": 4,
+      "resumed_rows": 108,
+      "resumed_external_rows": 101,
+      "resumed_self_index_rows": 7,
+      "page_five_queries": 3,
+      "page_five_rows": 299,
+      "page_five_external_rows": 297,
+      "page_five_self_index_rows": 2,
+      "qualification": "Counts are overlapping code-search rows, not events or participants. Ranking can change, and totals above 1,000 are not exhaustively pageable. Search located originals; pinned files and history supplied the evidence."
+    },
+    "selected_originals": {
+      "primary_files_read": 6,
+      "primary_commit_records_read": 1,
+      "rotated_record_files_read": 4,
+      "rotated_commit_records_read": 4,
+      "repositories": [
+        "Kyapya/english-dictionary",
+        "weiyangzen/awesome_theorems",
+        "isogeny-labs/crypto-autoresearcher",
+        "Unjuno/agent-interface",
+        "All-The-Vibes/ecorp"
+      ]
+    }
+  },
+  "query_ledger": {
+    "resumed_exact": [
+      ["\"review_consumed\" \"materialized_from_commit\" \"source_blob\" \"active_count\"", 2, 0, 2, "self-index only"],
+      ["\"artifact_commit\" \"artifact_blob\" \"required_action\" \"accepted_bounded_design\"", 3, 1, 2, "one already-reviewed wellbeing-hq path"],
+      ["\"sender\" \"recipient\" \"artifact_commit\" \"artifact_blob\" \"required_action\" \"receipt\"", 100, 99, 1, "first page of 458; external rows are the already-reviewed wellbeing-hq family"],
+      ["\"source_locator\" \"source_commit\" \"source_blob\" \"review_consumed\" \"authority_boundary\"", 3, 1, 2, "one already-reviewed wellbeing-hq path"]
+    ],
+    "resumed_exact_columns": ["query", "returned_rows", "external_rows", "self_index_rows", "assessment"],
+    "page_five_reads": [
+      {
+        "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+        "page": 5,
+        "total_count_at_observation": 566,
+        "page_rows": 100,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "incomplete_results": false,
+        "assessment": "Implementation, tests, experiment status files and repeated blueprint snapshots; no independently operated transfer/use chain selected."
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "page": 5,
+        "total_count_at_observation": 9888,
+        "page_rows": 99,
+        "external_rows": 98,
+        "self_index_rows": 1,
+        "incomplete_results": false,
+        "assessment": "The strongest request/response/use trail is the explicitly designed, human-ingested checker workflow below. Other selected rows are provisional worker receipts, assigned validation, owned test evidence or benchmarks."
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "page": 5,
+        "total_count_at_observation": 2088,
+        "page_rows": 100,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "incomplete_results": false,
+        "assessment": "Implementation, documentation, tests, repeated kernel-source collisions and benchmark outputs; no independently operated result-use edge selected."
+      }
+    ]
+  },
+  "selected_original_control": {
+    "classification": "BV-126: human-ingested checker finding-and-revision adoption control, not a rogue-swarm candidate",
+    "repository": "Kyapya/english-dictionary",
+    "observed_ref": "0e9e745004ce2631a0b77e32c3f3329f9d6430e1",
+    "observed_tree": "0b2bccf307ac386a6703071d86fda482bf6277a2",
+    "prior_repository_control": "BV-122 already establishes the repository's designed human-ingested parallel-review topology. This distinct parliament run adds a fully resolved content-specific finding-to-revision chain but does not distinguish a new operator population.",
+    "assessment": {
+      "original_observation": "A public evidence-check request tells one independent subagent/session to inspect a fixed dictionary draft. Its response returns twelve blocking findings against the same input-body hash. A later aggregate contains the response, the resolution ledger maps all twelve evidence findings to dispositions, and the status record marks a changed body checked after seven checker passes, rechecks and final review.",
+      "sender_to_recipient_dependency": "Established semantically. The request fixes pass_id=evidence and input hash a79a267d...; the response returns that pass and hash with twelve content-specific findings. The aggregate embeds the response, and resolutions normal-evidence-001 through normal-evidence-012 dispose those findings.",
+      "recipient_use": "Established. Seven labelled checker outputs are aggregated. The twelve evidence findings receive seven adopted and five rejected dispositions, the resolved body hash changes to 2fd51ef3..., and the status record cites the checker passes while moving the entry from draft to checked.",
+      "participant_distinction": "Seven distinct agent_id labels are present and all declare gpt-5, but they share the /root/parliament_word namespace. These are origin assertions, not provider-authenticated independent runtimes or operators.",
+      "operator_boundary": "Not established. The request prescribes concurrent subagent sessions, a different agent_id per pass and human ingestion. All selected records first appear together in one signed maintainer commit, so Git does not independently order the internal events or separate operators.",
+      "authorization": "Express and prior. The task packet defines the checker role, inputs, output schema, independent-session requirement and human-ingestion step. The review and revision follow that workflow.",
+      "provider_attribution": "The response declares gpt-5, but no provider-owned receipt, session identifier or signature authenticates the runtime. The declaration remains an origin claim.",
+      "subjective_intent": "No rogue intent. The checkers perform bounded editorial review, and the owner adopts or rejects findings through an explicit resolution process.",
+      "current_activity": "Historical September 2026 records remain public. This does not establish a current autonomous population."
+    },
+    "participant_counts": {
+      "repository_labelled_checker_identities": 7,
+      "declared_models": 1,
+      "provider_authenticated_autonomous_trajectories": 0,
+      "verified_independent_operators": 0,
+      "public_origin_maintainers_publishing_selected_chain": 1
+    },
+    "repository_recorded_chronology": [
+      ["2026-09-08T08:43:38Z", "run-directory label", "guarded parliament review run label begins; not independently authenticated"],
+      ["2026-09-08T09:30:30.907723Z", "pass_findings.json", "seven checker outputs are aggregated"],
+      ["2026-09-08T10:17:03Z", "resolutions.json", "findings are mapped to adopted or rejected revisions"],
+      ["2026-09-08T13:24:00Z", "status_update.json", "resolved body is marked checked"],
+      ["2026-09-08T14:07:43Z", "Git commit 0e9e7450", "request, responses, aggregate, resolutions and status are published together"]
+    ],
+    "repository_recorded_chronology_columns": ["time", "record", "event"],
+    "chronology_qualification": "The first four times are origin-recorded or path-derived. Git authenticates only joint publication at 14:07:43Z; it does not prove the claimed internal order.",
+    "semantic_binding": {
+      "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "evidence_response_findings": 12,
+      "evidence_response_blocking_findings": 12,
+      "aggregate_checker_passes": 7,
+      "recorded_resolutions": 20,
+      "evidence_finding_resolutions": 12,
+      "evidence_finding_adopted": 7,
+      "evidence_finding_rejected": 5,
+      "final_status_transition": "draft -> checked"
+    },
+    "repository_labelled_checker_ids": [
+      "/root/parliament_word/check_translation",
+      "/root/parliament_word/check_sense_structure",
+      "/root/parliament_word/check_frame_relation",
+      "/root/parliament_word/check_example_attribution",
+      "/root/parliament_word/check_qualification",
+      "/root/parliament_word/check_pronunciation",
+      "/root/parliament_word/check_evidence"
+    ],
+    "public_artifact_blobs": [
+      ["audits/runs/p/parliament/20260908T084338Z-d549b547/handoff/checker_passes.evidence.request.md", "c9b459d7d729a8cdfc15d43ad74fb87d517c2d20", 44281],
+      ["audits/runs/p/parliament/20260908T084338Z-d549b547/handoff/checker_passes.evidence.response.json", "74a57e09629b9bc6261bf861bda9de0a1449bcd0", 14597],
+      ["audits/runs/p/parliament/20260908T084338Z-d549b547/pass_findings.json", "8129647d8adb2004c563c74dac48bafc4277070a", 36893],
+      ["audits/runs/p/parliament/20260908T084338Z-d549b547/resolutions.json", "9ce61c07091d603bfe16f1b73e229a102f3b630e", 9945],
+      ["audits/runs/p/parliament/20260908T084338Z-d549b547/status_update.json", "498527e2858969be3341906e030cd503bbfe4050", 536],
+      ["audits/runs/p/parliament/20260908T084338Z-d549b547/validator.json", "aa2cf9f69e38ab72cf268204686e95f89d4a240a", 378]
+    ],
+    "public_artifact_blob_columns": ["path", "git_blob_sha1", "bytes"],
+    "alternatives_tested": [
+      ["independent autonomous participants", "Unsupported: labels and one model declaration exist, but no provider-owned provenance authenticates separate trajectories."],
+      ["cross-operator coordination", "Rejected: the namespace, human-ingestion field and one maintainer publication fit one operator's designed workflow."],
+      ["single-operator automation", "Supported as the conservative explanation. One operator can dispatch prescribed checker sessions, ingest outputs and publish the record set."],
+      ["designed team", "Supported. The request requires separate concurrent sessions, different IDs, bounded taxonomies and human ingestion."],
+      ["human-requested work", "Supported. Every response says ingested_by=human, and the packet is an explicit bounded request."],
+      ["repeated test", "The selected chain has real content-specific use, but repeated dictionary runs elsewhere reinforce a routine pipeline rather than rogue coordination."],
+      ["shared-state fault", "No evidence. Shared hashes intentionally bind request, response, aggregate and resolved body."],
+      ["observer contamination", "Controlled. Pinned blobs and Git history supply publication evidence; search ranking is not event chronology."]
+    ]
+  },
+  "rotated_original_controls": [
+    ["weiyangzen/awesome_theorems", "8e0b493cc95b73ab8268c9c59980bc6124191842", "Provisional worker self-test: accepted=false, no_state_change, independent=false and separate master acceptance; no recipient-use edge."],
+    ["isogeny-labs/crypto-autoresearcher", "8bda26d5538a606466c6aabb0760687b31be4ef3", "Independent validator reproduces a package and hands its report to the same designed program's coordinator archive."],
+    ["Unjuno/agent-interface", "76285dc58e7bcc53def2122c54c667181bcd8a89", "One owned GUI session with exact captures and per-action admission; no autonomous participant pair or task-result transfer."],
+    ["All-The-Vibes/ecorp", "7a9019b58acf8030f60977e8cad2282e08192c63", "Owned deterministic policy regression with synthetic identities, null provider model and no external effects; test evidence, not cross-operator coordination."]
+  ],
+  "rotated_original_control_columns": ["repository", "git_blob_sha1", "assessment"],
+  "novelty_and_overlap": {
+    "checked_at": "2026-10-28",
+    "web_queries": [
+      "exact run id normal-parliament-20260908T084338Z-d549b547",
+      "exact checker id /root/parliament_word/check_evidence",
+      "exact input-body SHA-256 a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "exact commit title Add independently reviewed parliament dictionary entry"
+    ],
+    "github_exact_checks": "Exact run-id and checker-id searches returned only Kyapya/english-dictionary paths. The exact input hash also returned only that repository.",
+    "result": "No separate coordination report for the exact parliament checker-adoption chain was located in the checked scope as of 28 October 2026. Search absence does not establish global novelty. The origin publishes the designed requests, human-ingested responses, resolutions and approval, and BV-122 already covers this repository's topology.",
+    "known_family_overlap": "Same designed repository/workflow family as BV-122; no record-level overlap with the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI, AISI, Covert Assistance or METR comparisons."
+  },
+  "primary_sources": [
+    "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/handoff/checker_passes.evidence.request.md",
+    "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/handoff/checker_passes.evidence.response.json",
+    "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/pass_findings.json",
+    "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/resolutions.json",
+    "https://github.com/Kyapya/english-dictionary/blob/0e9e745004ce2631a0b77e32c3f3329f9d6430e1/audits/runs/p/parliament/20260908T084338Z-d549b547/status_update.json",
+    "https://github.com/Kyapya/english-dictionary/commit/0e9e745004ce2631a0b77e32c3f3329f9d6430e1"
+  ],
+  "next_exact_cursors": [
+    "\"pass_id\" \"reviewer\" \"ingested_by\" \"agent_id\" \"input_body_sha256\" \"findings\"",
+    "\"finding_id\" \"resolved_body_sha256\" \"disposition\" \"recorded_at\" \"reviewer\"",
+    "\"seven independent checker passes\" \"from_status\" \"to_status\" \"reviewed_at\"",
+    "\"mode\": \"handoff\" \"ingested_by\": \"human\" \"agent_id\" \"resolved_body_sha256\""
+  ],
+  "next_page_cursors": [
+    ["\"from_run_id\" \"to_run_id\" \"result\"", 6, "unread next page"],
+    ["\"kind\": \"handoff\" \"artifact_sha256\"", 6, "unread next page"],
+    ["\"event\": \"handoff_completed\" \"result\"", 6, "unread next page"]
+  ],
+  "next_page_cursor_columns": ["query", "page", "status"],
+  "missing_evidence": [
+    "provider-owned authentication of the seven claimed model sessions and event times",
+    "independently controlled sender and recipient operators",
+    "an independently published recipient-side receipt or effect rather than one co-published owner record set",
+    "primary evidence the cooperation exceeded the checker request, human-ingestion process or editorial authorization",
+    "evidence of a current autonomous population"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_installed": false,
+    "agent_runtimes_invoked": false,
+    "scans_or_messages_submitted": false,
+    "participants_contacted": false,
+    "targets_or_sinks_probed": false,
+    "omitted": ["payload bodies", "personal addresses", "credentials or tokens", "private logs", "unlisted channels or sink identifiers"]
+  }
+}

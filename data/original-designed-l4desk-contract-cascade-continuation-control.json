@@ -1,0 +1,374 @@
+{
+  "research_pass": 161,
+  "generated_at": "2026-10-28T23:17:15Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "No source-level cue in this pass justifies reopening the known-family-controlled scanner remainder."
+  },
+  "page_eight_access": {
+    "preserved_queries": [
+      "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "\"event\": \"handoff_completed\" \"result\""
+    ],
+    "status": "unread",
+    "reason": "The connected GitHub code-search reader exposes no page parameter and caps results at 100. The public unauthenticated REST attempt returned 401. Page eight is preserved rather than treated as negative coverage.",
+    "next_page": 8
+  },
+  "query_ledger": [
+    {
+      "query": "\"status\": \"CONSUMED\" \"handoff_id\" \"artifact_sha256\"",
+      "scope": "global public GitHub default-branch code search",
+      "returned_rows": 100,
+      "external_repositories": 42,
+      "bounded": true,
+      "assessment": "A capped locator page. The selected L4Desk family contains original handoff reports with named consumed contracts and later implementation artifacts; the other rows were not promoted without an original dependency chain."
+    },
+    {
+      "query": "\"consumed_contracts\" \"artifact_sha256\"",
+      "scope": "OlegLebedevRU/etranprocessing",
+      "returned_rows": 3,
+      "external_repositories": 1,
+      "assessment": "Three reports expose explicit earlier-contract consumption and artifact hashes."
+    },
+    {
+      "query": "\"handoff_id\" \"status: ACCEPTED\"",
+      "scope": "OlegLebedevRU/etranprocessing",
+      "returned_rows": 45,
+      "external_repositories": 1,
+      "assessment": "Repository-family context only; accepted labels are not treated as independent actor authentication."
+    },
+    {
+      "query": "\"L4D-03-MB\"",
+      "scope": "OlegLebedevRU/etranprocessing",
+      "returned_rows": 13,
+      "external_repositories": 1,
+      "assessment": "Pins the event-feed consumer prompt, report and later dependent steps."
+    },
+    {
+      "query": "\"L4D-04C-MB\"",
+      "scope": "OlegLebedevRU/etranprocessing",
+      "returned_rows": 19,
+      "external_repositories": 1,
+      "assessment": "Pins the schema-consumer step and its later uses."
+    },
+    {
+      "query": "\"L4D-05-MB\"",
+      "scope": "OlegLebedevRU/etranprocessing",
+      "returned_rows": 15,
+      "external_repositories": 1,
+      "assessment": "Pins the first feature step consuming the accepted schema handoff."
+    },
+    {
+      "query": "\"H-L4D-02-IOT-v1\"",
+      "scope": "OlegLebedevRU/iot-rpc-rest-app",
+      "returned_rows": 19,
+      "external_repositories": 1,
+      "assessment": "Pins the provider report, exact consumer assignment and later same-cascade reuse."
+    },
+    {
+      "query": "\"H-L4D-02-IOT-v1\" \"H-L4D-03-MB-v1\"",
+      "scope": "global public GitHub default-branch code search",
+      "returned_rows": 6,
+      "external_repositories": 2,
+      "assessment": "All rows belong to the two origin repositories under the same public maintainer account."
+    }
+  ],
+  "selected_original_control": {
+    "id": "BV-118-continuation",
+    "title": "designed L4Desk contract-cascade continuation control",
+    "relationship_to_reviewed_lead": "This is new original-record coverage of later stages in the already classified BV-118 project family, not a new lead or population.",
+    "repositories": [
+      {
+        "name": "OlegLebedevRU/iot-rpc-rest-app",
+        "pinned_ref": "45a25240aab0040abca740fdc68f8cd7c435691e"
+      },
+      {
+        "name": "OlegLebedevRU/etranprocessing",
+        "pinned_ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47"
+      }
+    ],
+    "primary_records": [
+      {
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/45a25240aab0040abca740fdc68f8cd7c435691e/l4desk-service/docs/prompts/L4D-02-IOT.md",
+        "blob_sha": "eaad28325322bdab4f7e3d1a6754afd0d3ab200d",
+        "role": "Provider assignment naming the output handoff, next consumer and bounded provider scope."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/45a25240aab0040abca740fdc68f8cd7c435691e/docs/l4desk/handoffs/L4D-02-IOT-report.md",
+        "blob_sha": "01761199416ef95726a57b8a26a509a059a9801c",
+        "role": "Provider report binding five event-feed artifacts and naming MenuBuilder as the consumer."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-03-MB.md",
+        "blob_sha": "cfbeebac61de2d71432cd832fa77daa452ee6d95",
+        "role": "Consumer assignment requiring the provider handoff, digest checks and a dark consumer implementation."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/MenuBuilder/docs/l4desk/handoffs/L4D-03-MB-report.md",
+        "blob_sha": "3f07c860a6d6f2b3e75b8509e65609c2f6c98cc7",
+        "role": "Recipient report listing all five provider artifact hashes as matched and binding the consumed contract to implemented consumer tests."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-04A-SHARED.md",
+        "blob_sha": "c38161e478ca089af651cb54b9af50747f957dc7",
+        "role": "Next prescribed stage requiring the consumer handoff and producing a shared schema package."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/shared/docs/l4desk/handoffs/L4D-04A-SHARED-report.md",
+        "blob_sha": "56cae5dee7a9f15b660b8d5c5d172a7d5c884acc",
+        "role": "Shared-schema report recording both exact consumer-artifact hashes and explicit user authorization."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/ProcessingBackend/docs/l4desk/handoffs/L4D-04B-PB-report.md",
+        "blob_sha": "13b31352d9576620aff87cf3d6ac5b0712ed6512",
+        "role": "Migration report recording use of the shared schema package and publishing a migration handoff."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-04C-MB.md",
+        "blob_sha": "334d2389e8742f0a2f133057ea3b9cc7e07d948d",
+        "role": "Schema-consumer assignment requiring both the shared package and deployed migration handoffs."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/MenuBuilder/docs/l4desk/handoffs/L4D-04C-MB-report.md",
+        "blob_sha": "89e44efbfa950f29225bf647dbd5f97d3e428e4c",
+        "role": "Schema-consumer report naming both consumed contracts, their package digest and exact implementation artifacts."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-05-MB.md",
+        "blob_sha": "2a715695f91fe8e76292c787f52c39a2d494aa28",
+        "role": "Feature assignment requiring the accepted schema-consumer handoff."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/MenuBuilder/docs/l4desk/handoffs/L4D-05-MB-report.md",
+        "blob_sha": "bd5a7e204cf68c7b8327c0f2fc106b88e8bfc33b",
+        "role": "Feature report explicitly consuming the schema handoff and binding six later implementation artifacts."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/PROMPT-STANDARD.md",
+        "blob_sha": "66256f1f159b1cda1d3e6228cf99fc577cd1a810",
+        "role": "Mandatory standard defining the contract gate, one-scope agent work, independent controller acceptance and next-step prohibition until acceptance."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/HANDOFF-CONTROLLER-PROMPT.md",
+        "blob_sha": "f7c8529e9ab138860ce2a7e6fa145cb86688c1bb",
+        "role": "Human-fed, permission-gated cascade-controller procedure already reviewed in BV-118."
+      },
+      {
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/AGENTS.md",
+        "blob_sha": "3e7a4cbca60199968ab179a1fd597d2600467979",
+        "role": "Repository rules requiring owner, contract and safety boundaries before implementation."
+      }
+    ],
+    "dependency_chain": [
+      {
+        "from": "H-L4D-02-IOT-v1 provider",
+        "to": "L4D-03-MB consumer",
+        "transfer": "Five named event-feed contract/schema/example artifacts with exact SHA-256 values.",
+        "recipient_use": "The consumer report records all five hashes as matched and publishes a versioned client, cursor checkpoint, idempotent inbox, tests and a dark deployment."
+      },
+      {
+        "from": "H-L4D-03-MB-v1 consumer report",
+        "to": "L4D-04A-SHARED schema provider",
+        "transfer": "Two consumer fixture/test artifacts with exact SHA-256 values and sequencing facts.",
+        "recipient_use": "The shared report records both hashes and produces an opt-in schema/source package."
+      },
+      {
+        "from": "H-L4D-04A-SHARED-v1 and H-L4D-04B-PB-v1",
+        "to": "L4D-04C-MB schema consumer",
+        "transfer": "A content-addressed shared package and a named migration revision.",
+        "recipient_use": "The schema-consumer report binds both inputs and publishes four implementation artifacts under disabled feature flags."
+      },
+      {
+        "from": "H-L4D-04C-MB-v1",
+        "to": "L4D-05-MB feature implementation",
+        "transfer": "Accepted schema-consumer handoff and revision pair.",
+        "recipient_use": "The feature report explicitly lists the consumed handoff and binds six implementation artifacts."
+      }
+    ],
+    "event_and_publication_chronology": [
+      {
+        "at": "2026-09-17T21:21:02Z",
+        "commit": "a5524d356dda343eca96010d16535d9f37ff4ece",
+        "repository": "OlegLebedevRU/iot-rpc-rest-app",
+        "event": "Provider implementation, contract artifacts and report first located in Git."
+      },
+      {
+        "at": "2026-09-17T21:21:48Z",
+        "commit": "e21ba8410e7c0ce9a679c737c271e79064bb70c7",
+        "repository": "OlegLebedevRU/iot-rpc-rest-app",
+        "event": "Provider report updated with its producer commit."
+      },
+      {
+        "at": "2026-09-17T22:51:58Z",
+        "commit": "4da76eca24bab856bdad764df6e6a1dc9de44f1c",
+        "repository": "OlegLebedevRU/etranprocessing",
+        "event": "Consumer handoff report correction published after the provider."
+      },
+      {
+        "at": "2026-09-18T00:43:39Z",
+        "commit": "537a1e493c83d1fa8e8cb765228be8d1b24a1d62",
+        "repository": "OlegLebedevRU/etranprocessing",
+        "event": "Shared schema package published after the consumer report."
+      },
+      {
+        "at": "2026-09-18T09:37:28Z",
+        "commit": "d7b0b402f2a9a2f1afd421b21a1f618d7e5379a5",
+        "repository": "OlegLebedevRU/etranprocessing",
+        "event": "Migration implementation and report published after the shared package."
+      },
+      {
+        "at": "2026-09-18T12:43:41Z",
+        "commit": "a726ec94022517697a59fee6644f598dc3b978d8",
+        "repository": "OlegLebedevRU/etranprocessing",
+        "event": "Schema-consumer implementation and report published after both required inputs."
+      },
+      {
+        "at": "2026-09-18T14:16:51Z",
+        "commit": "8902059485471f64fa4bf5f4605c633bcfeaa7b5",
+        "repository": "OlegLebedevRU/etranprocessing",
+        "event": "Feature implementation and report published after the schema-consumer handoff."
+      }
+    ],
+    "chronology_limitations": [
+      "The provider report's origin-authored created_at is later than its first public Git commit. It is not used to order the exchange.",
+      "The current migration report names producer commit c889ec5f9b0366d3a61e908f82dcd2e8f4c0b367, which the public commit endpoint did not resolve. The located public implementation commit is d7b0b402f2a9a2f1afd421b21a1f618d7e5379a5. This provenance inconsistency weakens, rather than strengthens, an autonomous-actor claim.",
+      "Origin-authored ACCEPTED times and role labels are not provider-owned runtime authentication. Public Git commits are used for independent publication order."
+    ],
+    "participant_and_operator_assessment": {
+      "autonomous_participants_verified": false,
+      "independent_operators_verified": false,
+      "provider_attribution_verified": false,
+      "public_sender_recipient_dependency_verified": true,
+      "recipient_downstream_use_verified": true,
+      "authorization_crossing_verified": false,
+      "current_activity_verified": false,
+      "evidence": [
+        "Every selected implementation commit is authored and committed by the same public account.",
+        "The selected commits repeat the same AI-assistant co-author trailer; this is authorship assistance, not proof of separately controlled operators.",
+        "The prompts preassign each producer, consumer, output handoff, next prompt, branch, scope and report path.",
+        "The mandatory standard forbids the next prompt until a controller accepts the candidate handoff.",
+        "The shared report explicitly records user authorization for the cross-scope read and publication baseline.",
+        "The controller procedure is human-fed and permission-gated."
+      ]
+    },
+    "alternative_tests": [
+      {
+        "alternative": "independent rogue agents discovered and used each other's work",
+        "result": "rejected",
+        "reason": "The repository preassigns the entire chain, one account publishes every selected stage, and no provider authenticates separate runtimes or operators."
+      },
+      {
+        "alternative": "same-custodian designed multi-agent workflow",
+        "result": "supported",
+        "reason": "The public prompts, standard, controller and user-authorization statement directly prescribe the producer/consumer sequence and acceptance gates."
+      },
+      {
+        "alternative": "shared-state or template coincidence",
+        "result": "insufficient alone",
+        "reason": "Exact content hashes, named consumed contracts and later implementation artifacts establish a real dependency, so this is stronger than vocabulary or template reuse."
+      },
+      {
+        "alternative": "human-requested outreach",
+        "result": "not applicable",
+        "reason": "The selected transfers occur through the project's designed contract journal and Git publications, not unsolicited outreach."
+      },
+      {
+        "alternative": "observer contamination",
+        "result": "bounded",
+        "reason": "Search refs are treated as locators only. Pinned file blobs and public commit chronology supply the evidence."
+      }
+    ],
+    "classification": "BV-118 continuation: a designed, same-custodian L4Desk contract cascade with concrete transfer and downstream use, not a new lead and not a rogue-swarm candidate",
+    "advancement_requirements": [
+      "Provider- or operator-owned authentication of independently controlled sender and recipient runtimes.",
+      "Independent operator provenance rather than one public maintainer and origin-authored role labels.",
+      "A recipient action outside the prescribed prompts, contract journal and controller gate.",
+      "Primary evidence that the cooperation exceeded the human authorization or assigned scope.",
+      "An immutable correction for the unresolved migration producer-commit reference if that reference is used as provenance.",
+      "Evidence of a continuing autonomous population or current activity."
+    ]
+  },
+  "novelty_checks": {
+    "checked_at": "2026-10-28T23:17:15Z",
+    "web_queries": [
+      "\"H-L4D-03-MB-v1\" coordination",
+      "\"L4D-04A-SHARED\" \"L4D-05-MB\"",
+      "\"OlegLebedevRU/etranprocessing\" agent handoff",
+      "\"H-L4D-04C-MB-v1\""
+    ],
+    "github_exact_checks": [
+      "\"consumed_contracts\" \"artifact_sha256\" in OlegLebedevRU/etranprocessing",
+      "\"L4D-03-MB\" in OlegLebedevRU/etranprocessing",
+      "\"L4D-04C-MB\" in OlegLebedevRU/etranprocessing",
+      "\"L4D-05-MB\" in OlegLebedevRU/etranprocessing",
+      "\"H-L4D-02-IOT-v1\" in OlegLebedevRU/iot-rpc-rest-app",
+      "\"H-L4D-02-IOT-v1\" \"H-L4D-03-MB-v1\" globally"
+    ],
+    "result": "No separate coordination report for this exact continuation chain was located in the checked web and GitHub scope as of 28 October 2026. Exact identifiers resolved only to the two origin repositories; generic web search returned no relevant independent account.",
+    "limitation": "Search absence does not establish global novelty. More importantly, the origin records and the repository's existing BV-118 review identify the designed project family."
+  },
+  "named_family_overlap": {
+    "record_level_overlap_found": false,
+    "families_checked": [
+      "DseWiki/RubyGems",
+      "Transluce AIHW/Fedresurs/Quidax",
+      "Amap",
+      "authorized Green AI Bot outreach",
+      "Technocore/Agent Workpad",
+      "OpenAI May Artifactory",
+      "OpenAI July Hugging Face",
+      "AISI GitHub handoff",
+      "Covert Assistance/METR"
+    ],
+    "project_family_overlap": "Direct continuation of the already reviewed BV-118 L4Desk cascade."
+  },
+  "next_cursors": {
+    "broad_page": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "page": 8,
+        "status": "preserved_unread"
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "page": 8,
+        "status": "preserved_unread"
+      }
+    ],
+    "exact_queries": [
+      "\"producer_runtime_attestation\" \"consumer_runtime_attestation\" \"artifact_sha256\" \"applied_commit\"",
+      "\"sender_operator_proof\" \"recipient_operator_proof\" \"consumed_artifact_sha256\"",
+      "\"handoff_artifact_sha256\" \"recipient_effect_sha256\" \"authorization_scope\"",
+      "\"source_result_sha256\" \"recipient_commit_sha\" \"independent_operator\""
+    ],
+    "priority": "Prefer emitted actual-run records that bind an exact task/result artifact to a later recipient effect and independently authenticate both operators. Do not reopen this L4Desk family without evidence that separates a distinct population or materially changes its authorization boundary."
+  },
+  "safety": {
+    "read_only": true,
+    "executed_recovered_code": false,
+    "installed_suspect_packages": false,
+    "submitted_scans_or_messages": false,
+    "invoked_agent_runtimes": false,
+    "contacted_participants": false,
+    "probed_targets": false,
+    "publication_omits": [
+      "raw carrier or sink addresses",
+      "payload and prompt bodies",
+      "credentials and tokens",
+      "personal addresses",
+      "private logs",
+      "local filesystem paths",
+      "infrastructure addresses"
+    ]
+  }
+}

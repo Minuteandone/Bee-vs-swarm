@@ -14423,6 +14423,158 @@
         "ref": "b86ae52a2f43f53fd854e9d84cfde1c80050dcc9",
         "blob_sha": "2dfe5aa632cf5d0fdbada477c41d222130506ca6",
         "observed_at": "2026-10-28T18:06:44Z"
+      },
+      {
+        "id": "original-l4desk-event-feed-provider-prompt-eaad28",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/45a25240aab0040abca740fdc68f8cd7c435691e/l4desk-service/docs/prompts/L4D-02-IOT.md",
+        "role": "Provider assignment naming the output handoff, next consumer and bounded scope",
+        "ref": "45a25240aab0040abca740fdc68f8cd7c435691e",
+        "blob_sha": "eaad28325322bdab4f7e3d1a6754afd0d3ab200d",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-event-feed-provider-report-017611",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/blob/45a25240aab0040abca740fdc68f8cd7c435691e/docs/l4desk/handoffs/L4D-02-IOT-report.md",
+        "role": "Provider report binding five event-feed artifacts and naming the consumer",
+        "ref": "45a25240aab0040abca740fdc68f8cd7c435691e",
+        "blob_sha": "01761199416ef95726a57b8a26a509a059a9801c",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-event-feed-provider-publication-a5524d",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/commit/a5524d356dda343eca96010d16535d9f37ff4ece",
+        "role": "First located provider implementation, contract-artifact and report publication",
+        "ref": "a5524d356dda343eca96010d16535d9f37ff4ece",
+        "ref_date": "2026-09-17T21:21:02Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-event-feed-report-update-e21ba8",
+        "url": "https://github.com/OlegLebedevRU/iot-rpc-rest-app/commit/e21ba8410e7c0ce9a679c737c271e79064bb70c7",
+        "role": "Provider report publication adding its producer-commit reference",
+        "ref": "e21ba8410e7c0ce9a679c737c271e79064bb70c7",
+        "ref_date": "2026-09-17T21:21:48Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-event-feed-consumer-prompt-cfbeeb",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-03-MB.md",
+        "role": "Consumer assignment requiring the provider handoff, digest checks and dark implementation",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "cfbeebac61de2d71432cd832fa77daa452ee6d95",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-event-feed-consumer-report-3f07c8",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/MenuBuilder/docs/l4desk/handoffs/L4D-03-MB-report.md",
+        "role": "Recipient report matching five provider hashes and binding consumer implementation artifacts",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "3f07c860a6d6f2b3e75b8509e65609c2f6c98cc7",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-consumer-report-publication-4da76e",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/4da76eca24bab856bdad764df6e6a1dc9de44f1c",
+        "role": "Consumer handoff report correction published after the provider",
+        "ref": "4da76eca24bab856bdad764df6e6a1dc9de44f1c",
+        "ref_date": "2026-09-17T22:51:58Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-shared-schema-prompt-c38161",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-04A-SHARED.md",
+        "role": "Next-stage assignment requiring the consumer handoff and producing a shared schema package",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "c38161e478ca089af651cb54b9af50747f957dc7",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-shared-schema-report-56cae5",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/shared/docs/l4desk/handoffs/L4D-04A-SHARED-report.md",
+        "role": "Shared-schema report recording exact input hashes and explicit user authorization",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "56cae5dee7a9f15b660b8d5c5d172a7d5c884acc",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-shared-schema-publication-537a1e",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/537a1e493c83d1fa8e8cb765228be8d1b24a1d62",
+        "role": "Shared schema package publication following the consumer handoff",
+        "ref": "537a1e493c83d1fa8e8cb765228be8d1b24a1d62",
+        "ref_date": "2026-09-18T00:43:39Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-migration-report-13b313",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/ProcessingBackend/docs/l4desk/handoffs/L4D-04B-PB-report.md",
+        "role": "Migration report recording consumption of the shared schema package",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "13b31352d9576620aff87cf3d6ac5b0712ed6512",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-migration-publication-d7b0b4",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/d7b0b402f2a9a2f1afd421b21a1f618d7e5379a5",
+        "role": "Located migration implementation and report publication",
+        "ref": "d7b0b402f2a9a2f1afd421b21a1f618d7e5379a5",
+        "ref_date": "2026-09-18T09:37:28Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-schema-consumer-prompt-334d23",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-04C-MB.md",
+        "role": "Schema-consumer assignment requiring both shared-package and migration handoffs",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "334d2389e8742f0a2f133057ea3b9cc7e07d948d",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-schema-consumer-report-89e44e",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/MenuBuilder/docs/l4desk/handoffs/L4D-04C-MB-report.md",
+        "role": "Schema-consumer report binding both inputs and later implementation artifacts",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "89e44efbfa950f29225bf647dbd5f97d3e428e4c",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-schema-consumer-publication-a726ec",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/a726ec94022517697a59fee6644f598dc3b978d8",
+        "role": "Schema-consumer implementation and report publication",
+        "ref": "a726ec94022517697a59fee6644f598dc3b978d8",
+        "ref_date": "2026-09-18T12:43:41Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-feature-prompt-2a7156",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/l4desk-service/docs/prompts/L4D-05-MB.md",
+        "role": "Feature assignment requiring the accepted schema-consumer handoff",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "2a715695f91fe8e76292c787f52c39a2d494aa28",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-feature-report-bd5a7e",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/MenuBuilder/docs/l4desk/handoffs/L4D-05-MB-report.md",
+        "role": "Feature report consuming the schema handoff and binding six implementation artifacts",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "bd5a7e204cf68c7b8327c0f2fc106b88e8bfc33b",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-feature-publication-890205",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/commit/8902059485471f64fa4bf5f4605c633bcfeaa7b5",
+        "role": "Feature implementation and report publication after the schema consumer",
+        "ref": "8902059485471f64fa4bf5f4605c633bcfeaa7b5",
+        "ref_date": "2026-09-18T14:16:51Z",
+        "observed_at": "2026-10-28T23:17:15Z"
+      },
+      {
+        "id": "original-l4desk-repository-agent-rules-3e7a4c",
+        "url": "https://github.com/OlegLebedevRU/etranprocessing/blob/58c4ee33c4194a281d5cc7b52a881fc9999fef47/AGENTS.md",
+        "role": "Repository rules requiring owner, contract and safety boundaries before implementation",
+        "ref": "58c4ee33c4194a281d5cc7b52a881fc9999fef47",
+        "blob_sha": "3e7a4cbca60199968ab179a1fd597d2600467979",
+        "observed_at": "2026-10-28T23:17:15Z"
       }
   ]
 }

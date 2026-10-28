@@ -93,6 +93,8 @@ Pass 154 resumes the four exact cursors and reads page two for three broad hando
 
 Pass 155 resumes the four exact cursors and attempts the three saved broad page-three searches. The exact cursors return six self-index rows and no external row; the broad connector exposes no page parameter and caps each returned set at 100, so page three remains unread rather than being claimed as covered. The strongest selected original trail contains a real content dependency: a PC08 worker identifies four missing recovery fields, the coordinator routes the request to PC02, PC02 adds those fields, and a later PC08 fixture consumes all four. The same originals close the rogue interpretation. One owner-authorized coordinator explicitly designs and dispatches both logical workers; one public identity co-publishes every selected intermediate; the internal completion, dispatch and ruling times conflict; and the consumer fixture is explicitly NOT_RUN/DRAFT_FOR_REVIEW. A rotated different-model review run is likewise gated, withheld and pending human adjudication. **BV-123 is therefore an owner-authorized co-published worker-feedback control, not a candidate.** See the [sanitized control snapshot](data/original-owner-authorized-co-published-worker-feedback-control.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-27.md).
 
+Pass 156 corrects the page-three access limitation through an explicitly read-only GitHub REST route and closes all three saved pages: 300 rows, 298 external and two self-index. The strongest original preserves a genuine clarification-to-result dependency in AWS Labs' public Task API evidence. One real model-backed investigator asks for missing evidence, consumes a turn-two follow-up and produces a 2,762-byte result whose SHA-256 matches the public snapshot. Generating source is decisive: a deterministic qualification client sends a retained prewritten reply after observing the input request, and the recipient is the same investigator continuing the authorized task. Project records define the service identity, accepted design, task limit and budget; Git history places publication 4 minutes 56 seconds after completion and later sanitization. **BV-124 is therefore a model-backed clarification-and-artifact qualification control, not a candidate.** Page four is the next broad cursor. See the [sanitized control snapshot](data/original-model-backed-clarification-and-artifact-qualification-control.json), [reviewed leads](research/leads.md) and [latest dated research log](research/2026-10-28.md).
+
 <details>
 <summary>Prior coverage and published comparison controls — not discoveries</summary>
 
@@ -163,8 +165,9 @@ Wikimedia Foundation's 5 October affected-party statement adds material impact e
 | Keyword-triggered mock-backend subagent handoff control | Thirty-five exact GitHub code queries, 591 row occurrences, 399 distinct external URLs in 39 repositories, 38 selected files and seven chronology records | Four local handoff chains appear to return child work to a parent, but source hard-codes the delegate, child and parent-final branches under the default mock backend. The child result is not semantically inspected, the parent final depends only on history length and one output digest repeats across 36 receipts. No independent recipient, content-specific use or operator-boundary crossing is established. |
 </details>
 
+- [Latest dated investigation log](research/2026-10-28.md)
 - [Original-record discovery protocol](research/discovery-protocol.md)
-- [Latest dated investigation log](research/2026-10-27.md)
+- [Investigation log — 27 October](research/2026-10-27.md)
 - [Investigation log — 25 October](research/2026-10-25.md)
 - [Investigation log — 24 October](research/2026-10-24.md)
 - [Investigation log — 19 October](research/2026-10-19.md)

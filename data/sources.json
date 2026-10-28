@@ -13789,6 +13789,112 @@
         "ref": "c8e38b6fc9829f1cd38070773b1b3e5b21de18ad",
         "blob_sha": "5b80ba5ebf639d606ea9ea05b448abdbb8341859",
         "observed_at": "2026-10-27T11:43:01Z"
+      },
+      {
+        "id": "original-adp-clean-completion-readme-6b6d19",
+        "url": "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/README.md",
+        "role": "Origin summary of one real model-backed Task API completion with automatic clarification and no operator repair",
+        "ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+        "blob_sha": "6b6d199883764855b136ee3e6ca90eeb8059ce6d",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-completion-report-40e7a8",
+        "url": "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/completion-report.json",
+        "role": "Sanitized completion report binding the real worker/provider lane, event sequence, controls and result artifact SHA-256",
+        "ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+        "blob_sha": "40e7a8e765caaf539c26623e2057ce401a4e6156",
+        "ref_date": "2026-09-25T05:10:45Z",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-public-events-247659",
+        "url": "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/public-events.ndjson",
+        "role": "Fourteen-event public stream preserving input request, clarification consumption, turn-two analysis and completion",
+        "ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+        "blob_sha": "247659a2424ec1121e203c5fef38242f12fcc7e3",
+        "ref_date": "2026-09-25T05:10:44Z",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-public-snapshot-b08ce8",
+        "url": "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/public-snapshot.json",
+        "role": "Sanitized public result snapshot matched to the 2,762-byte completion artifact",
+        "ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+        "blob_sha": "b08ce8149847982e568c41eaef3dcabe81b9a016",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-qualification-runner-595738",
+        "url": "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/qualification-runner.py",
+        "role": "Generating client source showing deterministic retained reply after input.required; read as evidence and not executed",
+        "ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+        "blob_sha": "59573807640a3885e56d6718f908bfc5f080322a",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-task-api-waves-abaa90",
+        "url": "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/waves.md",
+        "role": "Task API design defining externally invoked task agents, service identities and bounded qualification",
+        "ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+        "blob_sha": "abaa90e9a05145e76167326f31b3ddb6c8ee1571",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-first-publication-fd75e4",
+        "url": "https://github.com/awslabs/agentic-developer-platform/commit/fd75e43857320e741a5dae1531613ebbb482dd05",
+        "role": "First origin publication of clean completion evidence, 4 minutes 56 seconds after completion",
+        "ref": "fd75e43857320e741a5dae1531613ebbb482dd05",
+        "ref_date": "2026-09-25T05:15:40Z",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-adp-public-scrub-65a2e8",
+        "url": "https://github.com/awslabs/agentic-developer-platform/commit/65a2e8697d5732dddf5ab7bf5d232b95fc478c20",
+        "role": "Origin commit scrubbing deployment identities and privatizing regression targets; current sanitized files cited",
+        "ref": "65a2e8697d5732dddf5ab7bf5d232b95fc478c20",
+        "ref_date": "2026-09-30T07:01:29Z",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-guru-trellis-issue-ledger-d4f7a9",
+        "url": "https://github.com/castbox/guru-trellis/blob/13648ae7aff86f1aac6ebe522f206ac238aa06d4/.trellis/tasks/archive/2026-07/07-22-146-production-skill-minimal-handoff/issue-scope-ledger.json",
+        "role": "Human-confirmed issue-scope and branch-review ledger; designed workflow control",
+        "ref": "13648ae7aff86f1aac6ebe522f206ac238aa06d4",
+        "blob_sha": "d4f7a951bf1e88fa089da09661704e7059b50826",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-nla-runtime-audit-05900f",
+        "url": "https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/099805ef1ce7347d373e47cccc3b2d7cf580a99e/matrix-inequalities-and-norms/MI-13/lean/reviews/runtime/MI13-runtime-referee-35191730986/attempt-3-audit.py.txt",
+        "role": "Retained controlled-review audit source, treated as text and never executed",
+        "ref": "099805ef1ce7347d373e47cccc3b2d7cf580a99e",
+        "blob_sha": "05900fd7df164d5c5139c102905025c9270ed5d2",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-awesome-theorems-intake-753290",
+        "url": "https://github.com/weiyangzen/awesome_theorems/blob/32e5f75412a804463a0b0c6fff1362d4ab5275b3/Stage1_Instances/THM-M-0883/intake-receipt.json",
+        "role": "Provisional worker-only intake receipt not accepted by integration",
+        "ref": "32e5f75412a804463a0b0c6fff1362d4ab5275b3",
+        "blob_sha": "75329052512f19879007c926c4a5844edb8fddf4",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-nlp-policy-track98-0f8fa8",
+        "url": "https://github.com/edithatogo/nlp-policy-nz/blob/e2940f045ad2e065ef2b406843db10c7e850f0f6/conductor/tracks/track98_global_foi_jurisdiction_extraction_20260721/evidence.jsonl",
+        "role": "Planning and repository-increment ledger behind a separate approval gate",
+        "ref": "e2940f045ad2e065ef2b406843db10c7e850f0f6",
+        "blob_sha": "0f8fa847305baea13a7e6b0aa6cc4456ce6017c2",
+        "observed_at": "2026-10-28T07:06:23Z"
+      },
+      {
+        "id": "original-callscope-catalog-a75c68",
+        "url": "https://github.com/changw98ic/callscope/blob/7ef1f13549aae84af7f90c76d4f5a1848caddaef/reports/astra-iteration11/REPORT_ALIGNMENT_CATALOG.json",
+        "role": "Human-selected original-report benchmark with no target execution, tests or generated tool assessment",
+        "ref": "7ef1f13549aae84af7f90c76d4f5a1848caddaef",
+        "blob_sha": "a75c680f62b2782b04c7c516e2aa1a81e9d297b5",
+        "observed_at": "2026-10-28T07:06:23Z"
       }
   ]
 }

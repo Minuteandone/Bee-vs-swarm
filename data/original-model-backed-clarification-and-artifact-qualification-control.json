@@ -1,0 +1,283 @@
+{
+  "research_pass": 156,
+  "generated_at": "2026-10-28T07:06:23Z",
+  "status": "reviewed control; not a rogue-swarm candidate",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "scope": {
+    "scanner_backlog": {
+      "distinct_listing_records": 1146,
+      "successfully_inspected_original_reports": 853,
+      "paused_known_family_controlled_remainder": 293,
+      "decision": "Four resumed immutable-record cursors returned only self-index rows. No source-level cue separated a paused record from its documented known-family control, so the remainder was not reopened."
+    },
+    "github_code_search": {
+      "resumed_exact_queries": 4,
+      "resumed_rows": 8,
+      "resumed_external_rows": 0,
+      "resumed_self_index_rows": 8,
+      "global_high_arity_queries": 36,
+      "global_high_arity_row_occurrences": 625,
+      "repository_scoped_implementation_queries": 12,
+      "repository_scoped_row_occurrences": 59,
+      "path_qualified_zero_result_queries": 12,
+      "page_three_queries": 3,
+      "page_three_rows": 300,
+      "page_three_external_rows": 298,
+      "page_three_self_index_rows": 2,
+      "qualification": "Counts are overlapping row occurrences, not reports, events or participants. Search located raw originals; pinned files and history supplied the evidence."
+    },
+    "selected_originals": {
+      "primary_family_files_read": 9,
+      "primary_family_commit_records": 3,
+      "rotated_record_files_read": 5,
+      "repositories": [
+        "awslabs/agentic-developer-platform",
+        "castbox/guru-trellis",
+        "ajt60gaibb/OpenProblemsInNLA",
+        "weiyangzen/awesome_theorems",
+        "edithatogo/nlp-policy-nz",
+        "changw98ic/callscope"
+      ]
+    }
+  },
+  "query_ledger": {
+    "resumed_exact": [
+      ["\"change_request_id\" \"recipient_worker_id\" \"applied_artifact_sha256\" \"source_worker_id\"", 2, 0, 2],
+      ["\"producer_result_sha256\" \"consumer_artifact_sha256\" \"accepted_by_principal\" \"authorization_id\"", 2, 0, 2],
+      ["\"review_finding_id\" \"fix_artifact_sha256\" \"recipient_session_id\" \"operator_id\"", 2, 0, 2],
+      ["\"handoff_receipt_id\" \"downstream_effect_sha256\" \"sender_session_id\" \"recipient_session_id\"", 2, 0, 2]
+    ],
+    "resumed_exact_columns": ["query", "rows", "external_rows", "self_index_rows"],
+    "global_high_arity_round_one": [
+      ["\"sender_agent_id\" \"recipient_agent_id\" \"artifact_sha256\"", 0],
+      ["\"source_agent_id\" \"target_agent_id\" \"result_sha256\"", 28],
+      ["\"producer_agent_id\" \"consumer_agent_id\" \"artifact_sha256\"", 42],
+      ["\"from_session_id\" \"to_session_id\" \"artifact_sha256\"", 0],
+      ["\"source_session_id\" \"recipient_session_id\" \"result_sha256\"", 0],
+      ["\"handoff_id\" \"recipient_agent\" \"consumed_at\"", 0],
+      ["\"message_id\" \"sender_agent\" \"recipient_agent\" \"acknowledged_at\"", 100],
+      ["\"parent_artifact_sha256\" \"consumer\" \"accepted\"", 0],
+      ["\"input_artifact_sha256\" \"output_artifact_sha256\" \"agent_id\"", 0],
+      ["\"originating_agent\" \"receiving_agent\" \"result\"", 15],
+      ["\"delegated_by\" \"completed_by\" \"artifact\"", 0],
+      ["\"requested_by_agent\" \"fulfilled_by_agent\"", 0]
+    ],
+    "global_high_arity_round_two": [
+      ["\"sender_agent\" \"recipient_agent\" \"artifact_path\" \"timestamp\"", 0],
+      ["\"from_agent\" \"to_agent\" \"artifact_path\" \"timestamp\"", 100],
+      ["\"sender_id\" \"recipient_id\" \"result_artifact\" \"timestamp\"", 17],
+      ["\"source_agent\" \"target_agent\" \"artifact_path\" \"status\"", 100],
+      ["\"producer_agent\" \"consumer_agent\" \"artifact_path\"", 0],
+      ["\"handoff\" \"artifact_sha256\" \"accepted_at\" \"agent_id\"", 0],
+      ["\"delegation_id\" \"parent_agent_id\" \"child_agent_id\" \"result\"", 0],
+      ["\"message_id\" \"in_reply_to\" \"sender_agent\" \"recipient_agent\"", 100],
+      ["\"request_id\" \"response_to\" \"sender_agent\" \"recipient_agent\"", 7],
+      ["\"recipient_agent_id\" \"result_artifact_path\" \"completed_at\"", 0],
+      ["\"sender_session_id\" \"recipient_session_id\" \"artifact_path\"", 0],
+      ["\"from_worker_id\" \"to_worker_id\" \"result_artifact\"", 0]
+    ],
+    "global_high_arity_round_three": [
+      ["\"sender_agent_id\" \"recipient_agent_id\" \"sent_at\" \"received_at\"", 16],
+      ["\"from_agent_id\" \"to_agent_id\" \"message_type\" \"timestamp\"", 0],
+      ["\"source_agent_id\" \"target_agent_id\" \"completed_at\" \"result\"", 0],
+      ["\"sender_agent\" \"receiver_agent\" \"message_type\" \"timestamp\"", 0],
+      ["\"sender_worker_id\" \"recipient_worker_id\" \"sent_at\"", 0],
+      ["\"from_worker\" \"to_worker\" \"task_id\" \"completed_at\"", 0],
+      ["\"origin_agent_id\" \"destination_agent_id\" \"payload\" \"timestamp\"", 0],
+      ["\"sender\" \"recipient\" \"artifact_sha256\" \"timestamp\" \"agent\"", 0],
+      ["\"sender_id\" \"receiver_id\" \"artifact_sha256\"", 0],
+      ["\"producer_id\" \"consumer_id\" \"artifact_sha256\"", 0],
+      ["\"source_run_id\" \"target_run_id\" \"artifact_sha256\"", 0],
+      ["\"parent_run_id\" \"child_run_id\" \"result_artifact\"", 100]
+    ],
+    "repository_scoped_controls": [
+      {
+        "repositories": ["cgallic/kai-cmo-harness", "Canvillage", "P00 GitHub Value Hunt ledger"],
+        "queries": 12,
+        "rows": 59,
+        "assessment": "Source, schema, tests and designed control-plane files; no emitted independently operated exchange selected."
+      },
+      {
+        "repositories": ["donovan-yohan/belayer", "recursive-field", "jcmrs/perplex", "Yongchu-Yitao/Cyrene"],
+        "assessment": "Implementation, tests or a research note; no sender-to-recipient result use record selected."
+      }
+    ],
+    "path_qualified_checks": {
+      "queries": 12,
+      "rows": 0,
+      "qualification": "JSON/JSONL path-qualified variants returned no row; helper qualifier handling is not treated as exhaustive file-type coverage."
+    },
+    "page_three_reads": [
+      {
+        "query": "\"from_run_id\" \"to_run_id\" \"result\"",
+        "page": 3,
+        "total_count_at_observation": 561,
+        "page_rows": 100,
+        "distinct_repositories": 63,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "incomplete_results": false,
+        "assessment": "Code, schema and financial-model status collisions; no autonomous transfer/use chain selected."
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "page": 3,
+        "total_count_at_observation": 9872,
+        "page_rows": 100,
+        "distinct_repositories": 87,
+        "external_rows": 99,
+        "self_index_rows": 1,
+        "incomplete_results": false,
+        "assessment": "Five originals read in full; the strongest is the Task API control below."
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "page": 3,
+        "total_count_at_observation": 2132,
+        "page_rows": 100,
+        "distinct_repositories": 89,
+        "external_rows": 100,
+        "self_index_rows": 0,
+        "incomplete_results": false,
+        "assessment": "Source, tests, kernel collisions and benchmarks; AIRA overlaps Pass 154 and vLLM rows are benchmark summaries."
+      }
+    ]
+  },
+  "selected_original_control": {
+    "classification": "BV-124: model-backed clarification-and-artifact qualification control, not a rogue-swarm candidate",
+    "repository": "awslabs/agentic-developer-platform",
+    "observed_ref": "f687f1e59a544429a1ee9bb994931abdc554cb74",
+    "assessment": {
+      "original_observation": "A public event stream records a real model-backed investigator requesting missing evidence, consuming a follow-up on turn two, then producing a completed report artifact. The origin marks the live lane as real worker/provider with zero operator state repairs and zero operator-injected events.",
+      "sender_to_recipient_dependency": "Established only in the limited client-to-same-agent sense: the investigator asks for evidence, a follow-up is accepted and consumed, and the same runtime then reports three supported findings, four uncertainties and five recommendations.",
+      "recipient_use": "Established. Second-turn analysis and the artifact follow clarification consumption; the artifact digest matches the public snapshot.",
+      "participant_distinction": "One autonomous investigator trajectory is supported. Generating source shows deterministic qualification software sending a retained prewritten reply after input.required. It is not a second autonomous participant, and the recipient is the same investigator continuing its task.",
+      "operator_boundary": "Not established. Invocation, retained clarification and evaluation belong to one bounded qualification workflow.",
+      "authorization": "Express and prior: registered service identity, accepted design, task limit, budget and public endpoint qualification are documented.",
+      "provider_attribution": "The origin calls this a real worker/provider and real investigator. No named provider identity is independently authenticated or inferred.",
+      "subjective_intent": "No rogue intent; behavior matches the designed clarification test.",
+      "current_activity": "Historical records remain on observed default-branch ancestry; this does not establish a continuing autonomous population."
+    },
+    "participant_counts": {
+      "verified_autonomous_trajectories": 1,
+      "verified_distinct_autonomous_sender_recipient_pairs": 0,
+      "verified_independent_operators": 0,
+      "deterministic_qualification_clients": 1
+    },
+    "event_sequence": [
+      ["2026-09-25T05:09:30Z", 1, "qualification task accepted"],
+      ["2026-09-25T05:10:22Z", 3, "model-backed investigator run started"],
+      ["2026-09-25T05:10:31Z", 7, "investigator requested missing evidence"],
+      ["2026-09-25T05:10:31Z", 8, "retained clarification accepted"],
+      ["2026-09-25T05:10:33Z", 9, "clarification consumed on turn two"],
+      ["2026-09-25T05:10:41Z", 11, "command handoff confirmed"],
+      ["2026-09-25T05:10:42Z", 12, "second-turn analysis reported three supported findings"],
+      ["2026-09-25T05:10:44Z", 14, "task completed"]
+    ],
+    "event_sequence_columns": ["time", "sequence", "event"],
+    "publication_chronology": [
+      ["2026-09-25T05:15:40Z", "fd75e43857320e741a5dae1531613ebbb482dd05", "first origin publication, 4 minutes 56 seconds after completion"],
+      ["2026-09-30T07:01:29Z", "65a2e8697d5732dddf5ab7bf5d232b95fc478c20", "origin scrubbed deployment identities and privatized regression targets"],
+      ["2026-10-07T11:27:24Z", "f687f1e59a544429a1ee9bb994931abdc554cb74", "observed default-branch ref containing sanitized evidence"]
+    ],
+    "publication_chronology_columns": ["time", "commit", "event"],
+    "content_binding": {
+      "artifact_bytes": 2762,
+      "artifact_sha256": "e7e993ac7ce632e264b7335cfad091dd5f4a4acb16acc884b5f5d05e8372e6cc",
+      "artifact_matches_public_snapshot": true,
+      "reported_findings": 3,
+      "reported_uncertainties": 4,
+      "reported_recommendations": 5,
+      "operator_state_repairs": 0,
+      "operator_injected_events": 0,
+      "qualification_task_limit": 6,
+      "max_usd_per_task": 1
+    },
+    "public_artifact_blobs": [
+      ["clean-completion/README.md", "6b6d199883764855b136ee3e6ca90eeb8059ce6d", 2209],
+      ["clean-completion/completion-report.json", "40e7a8e765caaf539c26623e2057ce401a4e6156", 4689],
+      ["clean-completion/public-events.ndjson", "247659a2424ec1121e203c5fef38242f12fcc7e3", 9372],
+      ["clean-completion/public-snapshot.json", "b08ce8149847982e568c41eaef3dcabe81b9a016", 4762],
+      ["clean-completion/worker-progress.txt", "fb104e9fb8190b9715c09b68d2881494645d5813", 1794],
+      ["clean-completion/qualification-runner.py", "59573807640a3885e56d6718f908bfc5f080322a", 8577],
+      ["docs/task-api/waves.md", "abaa90e9a05145e76167326f31b3ddb6c8ee1571", 17324],
+      ["README.md", "94e503ea261888ee7575488d21648cf9d1dae850", 7281],
+      ["2026-09-25-t3-t6-t7/README.md", "c4fd9ca6d60bfcb518b46d2051d89ba7819e87c6", 6375]
+    ],
+    "public_artifact_blob_columns": ["sanitized_path", "git_blob_sha1", "bytes"],
+    "alternatives_tested": [
+      ["two autonomous agents", "Rejected: one investigator continues across turns; deterministic client source emits the retained follow-up."],
+      ["unplanned cross-operator outreach", "Rejected: task, clarification, service identity, limits, budget and checks are a bounded qualification lane."],
+      ["single-operator automation", "Supported: one qualification client drives one authorized task agent and verifies output."],
+      ["scanner retry or shared-state fault", "No evidence; the ordered stream and runner source fully explain the exchange as intended test behavior."],
+      ["observer contamination", "Controlled: pinned events provide event time and Git history provides publication time; current search refs are not treated as event timestamps."]
+    ]
+  },
+  "rotated_original_controls": [
+    ["castbox/guru-trellis", "d4f7a951bf1e88fa089da09661704e7059b50826", "Issue ledger records user confirmations, planning approval and branch-review gates; human-authorized designed workflow."],
+    ["ajt60gaibb/OpenProblemsInNLA", "05900fd7df164d5c5139c102905025c9270ed5d2", "Retained audit source from a controlled independent review; treated as text and never executed."],
+    ["weiyangzen/awesome_theorems", "75329052512f19879007c926c4a5844edb8fddf4", "Provisional worker-only receipt, not accepted by integration and revocable; no recipient effect."],
+    ["edithatogo/nlp-policy-nz", "0f8fa847305baea13a7e6b0aa6cc4456ce6017c2", "Planning and repository increments behind a separate approval gate; no autonomous transfer/use edge."],
+    ["changw98ic/callscope", "a75c680f62b2782b04c7c516e2aa1a81e9d297b5", "Human-selected report benchmark, target not executed, tests false and tool assessment false."]
+  ],
+  "rotated_original_control_columns": ["repository", "git_blob_sha1", "assessment"],
+  "novelty_and_overlap": {
+    "checked_at": "2026-10-28",
+    "web_queries": [
+      "exact public Task API task identifier",
+      "exact result artifact SHA-256",
+      "exact phrase: Clean Task API completion + 25 September 2026",
+      "site:github.com/awslabs/agentic-developer-platform command handoff clarification"
+    ],
+    "result": "No separate coordination report for the exact Task API clarification-and-artifact chain was located in the checked scope as of 28 October 2026. Search absence does not establish global novelty. The origin itself publishes and explains the event as qualification, so it is neither unreported nor rogue coordination.",
+    "known_family_overlap": "No record-level overlap with the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI, AISI, Covert Assistance or METR comparison families."
+  },
+  "primary_sources": [
+    "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/README.md",
+    "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/completion-report.json",
+    "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/public-events.ndjson",
+    "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/public-snapshot.json",
+    "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/evidence/2026-09-25-clean-completion/qualification-runner.py",
+    "https://github.com/awslabs/agentic-developer-platform/blob/f687f1e59a544429a1ee9bb994931abdc554cb74/docs/task-api/waves.md",
+    "https://github.com/awslabs/agentic-developer-platform/commit/fd75e43857320e741a5dae1531613ebbb482dd05",
+    "https://github.com/awslabs/agentic-developer-platform/commit/65a2e8697d5732dddf5ab7bf5d232b95fc478c20"
+  ],
+  "next_exact_cursors": [
+    "\"input_request_id\" \"result_artifact_sha256\" \"sender_operator_id\" \"recipient_operator_id\"",
+    "\"clarification_receipt_id\" \"consumer_effect_sha256\" \"source_session_id\" \"recipient_session_id\"",
+    "\"command_handoff\" \"artifact_sha256\" \"operator_boundary\" \"accepted_at\"",
+    "\"reply_to\" \"artifact_sha256\" \"producer_principal_id\" \"consumer_principal_id\""
+  ],
+  "next_page_cursors": [
+    ["\"from_run_id\" \"to_run_id\" \"result\"", 4, "unread next page"],
+    ["\"kind\": \"handoff\" \"artifact_sha256\"", 4, "unread next page"],
+    ["\"event\": \"handoff_completed\" \"result\"", 4, "unread next page"]
+  ],
+  "next_page_cursor_columns": ["query", "page", "status"],
+  "missing_evidence": [
+    "a second distinguishable autonomous participant rather than deterministic qualification software",
+    "independently controlled sender and recipient operators",
+    "a public sender result delivered and received across that boundary",
+    "a recipient effect beyond the same investigator's designed second-turn completion",
+    "primary evidence cooperation exceeded the service identity, accepted design, task limit, budget or qualification grant",
+    "evidence of a continuing autonomous population or current unauthorized effect"
+  ],
+  "safety_and_sanitization": {
+    "read_only": true,
+    "recovered_code_executed": false,
+    "packages_or_runtimes_installed_or_invoked": false,
+    "scans_or_messages_submitted": false,
+    "participants_contacted": false,
+    "sink_or_target_systems_probed": false,
+    "omitted": [
+      "clarification and output bodies",
+      "task, invocation, runtime, command and turn UUIDs",
+      "deployment identities and endpoint details",
+      "carrier and sink addresses",
+      "credentials and tokens",
+      "personal addresses",
+      "local executable and host paths",
+      "private logs"
+    ]
+  }
+}

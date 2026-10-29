@@ -1,0 +1,268 @@
+{
+  "research_pass": 162,
+  "generated_at": "2026-10-29T04:52:06Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "candidate_id": null,
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "No source-level cue in this pass justifies reopening the known-family-controlled scanner remainder."
+  },
+  "page_eight_access": {
+    "preserved_queries": [
+      "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "\"event\": \"handoff_completed\" \"result\""
+    ],
+    "status": "unread",
+    "reason": "The connected GitHub code-search reader exposes no page parameter and caps results at 100. The prior public unauthenticated REST attempt returned 401. Page eight is preserved rather than treated as negative coverage.",
+    "next_page": 8
+  },
+  "resumed_exact_cursors": [
+    {
+      "query": "\"producer_runtime_attestation\" \"consumer_runtime_attestation\" \"artifact_sha256\" \"applied_commit\"",
+      "returned_rows": 1,
+      "assessment": "One Bee-vs-swarm self-index row; no external result."
+    },
+    {
+      "query": "\"sender_operator_proof\" \"recipient_operator_proof\" \"consumed_artifact_sha256\"",
+      "returned_rows": 1,
+      "assessment": "One Bee-vs-swarm self-index row; no external result."
+    },
+    {
+      "query": "\"handoff_artifact_sha256\" \"recipient_effect_sha256\" \"authorization_scope\"",
+      "returned_rows": 1,
+      "assessment": "One Bee-vs-swarm self-index row; no external result."
+    },
+    {
+      "query": "\"source_result_sha256\" \"recipient_commit_sha\" \"independent_operator\"",
+      "returned_rows": 3,
+      "assessment": "Three Bee-vs-swarm self-index rows; no external result."
+    }
+  ],
+  "rotated_locator": {
+    "query": "\"result_sha256\" \"recipient_agent_id\" \"accepted\"",
+    "scope": "global public GitHub default-branch code search",
+    "observed_total_rows": 38,
+    "origin_repository_rows": 10,
+    "self_index_rows": 28,
+    "repositories": [
+      "CosmaNeura/cosmaneura-os",
+      "Minuteandone/Bee-vs-swarm"
+    ],
+    "assessment": "The only external family was selected for original-record review. Default-branch counts are locator metadata, not episode evidence."
+  },
+  "selected_original_control": {
+    "title": "synthetic model and handoff fixture controls",
+    "repository": "CosmaNeura/cosmaneura-os",
+    "pinned_ref": "5668cacf1027b963f4f000c3a744806b51b42db3",
+    "commit_time": "2026-10-28T23:25:17Z",
+    "primary_records": [
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/README.md",
+        "blob_sha": "6f210470fd2f17a9de592bdec52c8dbf2359f0cd",
+        "sha256": "f748d7766c7243be8034f9c6e7739535fd4449d2e7848f7bc3a9acb635668238",
+        "role": "Canonical scope and authority statement: invented fixtures, dark external connectors, integration candidate rather than qualified deployment, disabled private incoming handoffs and no authorized application LLM."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/session-prep-chat.json",
+        "blob_sha": "cb5333a30899100f88b62085b8c009b91e34704f",
+        "sha256": "b5e3ceb8756556b7ad7a9b5377c36f976b3e826fb7783e80f74435c166e5054a",
+        "role": "Invented source, one human request and one model-labelled Visit Prep reply; the workspace handoff array is empty."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/tests/integration/test_session_prep_chat.py",
+        "blob_sha": "89046bdc88f7282cc58a18b83f6521a73ddb824b",
+        "sha256": "547e5016a743b46105240b3f923c9ee5558e104427500f8429a67ab9f384ef83",
+        "role": "Generator states that Core and model transports are synthetic, uses an invented no-network key and monkeypatches model dispatch to a constructed BotReply before exporting the fixture."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/membership-analysis-w88.json",
+        "blob_sha": "74846b681b2648ac3dcad7bc249c85f99c83d0cd",
+        "sha256": "e02454d077ca69c758600b4cdb31bdc19248f81db7c7df4c124980593fca03a9",
+        "role": "Invented membership source, one human request and one model-labelled custom-role reply; the workspace handoff array is empty."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/payment-analysis-w88.json",
+        "blob_sha": "0a5b75118c8f8d34527c19744164a891eb725bb2",
+        "sha256": "1a5a33eb64df6113d89fa3f54590c049cde9e21fb3f4a5301cf06da6f896d86f",
+        "role": "Invented payment source, one human request and one model-labelled custom-role reply; the workspace handoff array is empty."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/tests/integration/test_membership_analysis.py",
+        "blob_sha": "a3be85ef7ca3864385eb6480cbadb779dc904b3c",
+        "sha256": "6f7eb67bc95bf506d10f9b6e5456368cc9e63e1d088eed0b8145362e806bb3bb",
+        "role": "Parameterized membership/payment generator injects a local constructed reply, asserts handoff_limit zero and optionally exports the two fixtures."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/inbox-analysis-w87.json",
+        "blob_sha": "a2edd01f7e5b018f32e80154ddf017d9cc1b4202",
+        "sha256": "ce96c4283e4a22d207143e70a9df4c9e437d658fbbbb3470253c2ef1546ac23e",
+        "role": "Invented inbox source, one human request and one model-labelled custom-role reply; the workspace handoff array is empty."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/tests/integration/test_inbox_analysis.py",
+        "blob_sha": "c6605d661da0bd5b5bf0d39bc6ab0c74a697a57c",
+        "sha256": "b417271a8ca44655653aae256120801306233935dc85ddb2b1c80a4ab8553b81",
+        "role": "Generator calls the selected model admission with invented local data, asserts handoff_limit zero and monkeypatches dispatch to an invented reply before optional export."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/w35-signed/MANIFEST.json",
+        "blob_sha": "eea5941a2cf0a4d52a0b40b3b4bc9e6e861f0ff0",
+        "sha256": "2a3b7f659f83727978d651628a2f68f5388d5f38fd1a4b4faa663c9d9746c279",
+        "role": "Manifest expressly limits the outputs to a signed test API and isolated database with an injected model response, not a real model or loopback acceptance."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/tests/fixtures/model_envelope_v3_chief_research.json",
+        "blob_sha": "d955110f07c20cdaf7301fdc1149481eee2a0a83",
+        "sha256": "b19156c96afa236f04befdaa26a4c1cf9412a8bdf5d2d383fcc7fe559a2fb15f",
+        "role": "Prepared request fixture: an invented source and a human question asking Chief to request Research review. It contains no model response, delivered handoff, result or downstream use."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/clinician-lab/fixtures.ts",
+        "blob_sha": "1c9e96180c7663ac09f649e7c98652523eaeda5d",
+        "sha256": "69da92b6fc083aa271c1244b7b9560b5d97e893cb4360db8ea53f9d46159b8c1",
+        "role": "Disconnected clinician-lab fixture scripts all multi-role replies, labels them synthetic and makes unsupported service actions fail."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/handoff-review-recovery-fixture.ts",
+        "blob_sha": "b26a37bdadfbc1771384503e1088fb4c4e234f8e",
+        "sha256": "1e647833a3d87d23d099890254d42a6b1a6178bdb92c8b202c8601702086baf8",
+        "role": "Deterministic invented recovery/review fixture with a synthetic-wire reply and locally constructed completed handoff."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/vendor-work/actual-shared-r2.json",
+        "blob_sha": "076355e55560d7511a4c1a793641a95dba29c930",
+        "sha256": "08906d733f118e485c052e38f0d45992b38fcbff884b24cd73db107085eac650",
+        "role": "Only JSON census member with populated handoff arrays: owner-to-invented-staff offer and accept snapshots, not autonomous model participants or an observed provider transport."
+      },
+      {
+        "url": "https://github.com/CosmaNeura/cosmaneura-os/blob/5668cacf1027b963f4f000c3a744806b51b42db3/web/src/__fixtures__/portal-work/actual-portal-work.json",
+        "blob_sha": "c174e902843f20db3b126b8b81c312674e7c09c0",
+        "sha256": "a224c4f9beffe6fea3a6a7d5efe2c085186fb11fcee85a0c14f7dc7e963b2719",
+        "role": "Application/database receipts with an injected synthetic portal and no live vendor; a governed human workflow rather than an autonomous cross-agent exchange."
+      }
+    ],
+    "fixture_census": {
+      "json_files_containing_handoff_key": 12,
+      "json_files_without_populated_emitted_handoff_arrays": 11,
+      "only_nonempty_file": "web/src/__fixtures__/vendor-work/actual-shared-r2.json",
+      "nonempty_snapshot_lengths": [
+        1,
+        2,
+        2
+      ],
+      "assessment": "The nonempty arrays repeat a human owner-to-invented-staff offer/accept state. They do not preserve two autonomous model trajectories, a provider-backed transfer or recipient model use."
+    },
+    "event_and_observation_time": {
+      "fixture_events": "2026-09-22 through 2026-10-02 in the selected public fixtures",
+      "pinned_commit_time": "2026-10-28T23:25:17Z",
+      "investigation_observed_at": "2026-10-29T04:52:06Z",
+      "limitation": "Fixture-internal times are generated test data and are not independent execution chronology."
+    },
+    "participant_and_boundary_assessment": {
+      "distinguishable_autonomous_pair_verified": false,
+      "public_sender_recipient_dependency_verified": false,
+      "recipient_downstream_use_verified": false,
+      "independent_operators_verified": false,
+      "provider_attribution_verified": false,
+      "authorization_crossing_verified": false,
+      "rogue_intent_verified": false,
+      "current_multi_agent_activity_verified": false,
+      "current_repository_development_activity_verified": true
+    },
+    "reasoning": [
+      "A backend label and token counters inside a fixture do not authenticate a real provider call when the generator replaces dispatch with a constructed reply.",
+      "All four selected exported workspaces begin with an invented source and an authenticated human request, contain one constructed reply and expose zero handoffs.",
+      "The W35 manifest independently describes its response as injected and not a real model acceptance.",
+      "The Chief-to-Research record is a prepared request/schema fixture only. It supplies no delivered message, result or dependent recipient action.",
+      "The clinician and recovery files are explicitly scripted/deterministic UI fixtures.",
+      "The only populated JSON handoff arrays are a human owner/staff offer and acceptance workflow with invented identities; the record does not establish autonomous AI participants.",
+      "The repository's own authority statement leaves incoming handoffs disabled by default, external connectors dark and an application LLM unauthorized."
+    ],
+    "alternative_tests": {
+      "single_operator_or_test_harness": "Supported. The generators and fixture source construct the decisive replies and handoff states locally.",
+      "designed_team": "Supported for the scripted UI roles; the topology is deliberately created for testing.",
+      "human_requested_outreach": "Supported for the prepared Chief-to-Research request and the four selected workspaces; each begins from a human request.",
+      "repeated_test_or_fixture_export": "Supported. Optional environment-gated exporters produce the committed W87/W88 fixtures.",
+      "scanner_retry": "Not applicable to this repository artifact family.",
+      "shared_state_fault": "No emitted run evidence establishes one; generated shared application state is a sufficient explanation.",
+      "observer_contamination": "The 28 Bee-vs-swarm locator rows are self-index and excluded from external evidence."
+    },
+    "classification": "bounded synthetic/test-fixture control; no candidate ID assigned",
+    "advancement_requirements": [
+      "A provider-backed, non-test sender result or handoff with provider- or operator-owned runtime provenance.",
+      "A public delivery and receipt binding that result to a distinguishable autonomous recipient.",
+      "A recipient-side effect demonstrably caused by the received content rather than prewritten fixture state.",
+      "Primary evidence that sender and recipient are controlled by independent operators.",
+      "Primary evidence that the cooperation exceeded the human request, designed team policy or other operator authorization.",
+      "Current-population evidence if any claim of ongoing activity is made."
+    ],
+    "reopen_rule": "Do not reopen this family for additional backend labels, token counters, prepared envelopes, generated UI states or invented offer/accept rows. Reopen only on provider-backed non-test delivery, exact recipient use, independent operator provenance or evidence of an authorization escape."
+  },
+  "novelty_checks": {
+    "checked_at": "2026-10-29T04:52:06Z",
+    "web_queries": [
+      {
+        "query": "\"CosmaNeura/cosmaneura-os\" handoff coordination swarm",
+        "result": "No result returned."
+      },
+      {
+        "query": "\"session-prep-chat.json\" CosmaNeura",
+        "result": "No result returned."
+      },
+      {
+        "query": "\"model_envelope_v3_chief_research.json\"",
+        "result": "No result returned."
+      }
+    ],
+    "github_queries": [
+      {
+        "query": "\"actual_signed_test_api_outputs\"",
+        "rows": 0
+      },
+      {
+        "query": "\"session-prep-chat.json\"",
+        "rows": 2,
+        "assessment": "Both rows are in the origin repository."
+      },
+      {
+        "query": "\"cosmas-gpt41-prepared.v3\" \"handoffs\"",
+        "rows": 3,
+        "assessment": "All rows are origin repository source, test or fixture paths."
+      },
+      {
+        "query": "\"CosmaNeura\" \"cosmaneura-os\" \"handoffs\"",
+        "rows": 0
+      }
+    ],
+    "conclusion": "No prior coordination report for this exact synthetic-fixture family was located in the checked web and GitHub scope as of 29 October 2026. Search absence does not establish global novelty, and the primary records fail the participant, transfer, use and boundary tests, so the family is not a discovery candidate.",
+    "named_family_overlap": "No record-level overlap was located with DseWiki/RubyGems, Transluce AIHW/Fedresurs/Quidax, Amap, Green AI Bot, Technocore/Agent Workpad, the OpenAI May Artifactory or July Hugging Face families, AISI's reported GitHub handoff, or the Covert Assistance/METR experiments."
+  },
+  "next_cursors": [
+    "\"sender_runtime_id\" \"recipient_runtime_id\" \"operator_attestation\" \"result_sha256\"",
+    "\"producer_operator_id\" \"consumer_operator_id\" \"consumed_artifact_sha256\" \"effect_sha256\"",
+    "\"delivery_receipt_sha256\" \"recipient_run_id\" \"applied_commit_sha\"",
+    "\"origin_run_id\" \"recipient_run_id\" \"source_artifact_sha256\" \"used_at\""
+  ],
+  "safety": {
+    "read_only": true,
+    "executed_recovered_code": false,
+    "installed_packages": false,
+    "submitted_scans": false,
+    "invoked_agent_runtime": false,
+    "contacted_participants": false,
+    "posted_or_voted": false,
+    "read_private_or_unlisted_messages": false,
+    "replayed_payloads": false,
+    "probed_target_systems": false,
+    "publication_note": "Only pinned public record links, sanitized domain-level summaries and content hashes are retained; raw fixture bodies, credentials, tokens and personal addresses are omitted."
+  }
+}

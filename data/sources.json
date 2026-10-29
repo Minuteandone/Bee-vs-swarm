@@ -15197,6 +15197,230 @@
       "role": "Related workflow-versus-agent architecture experiment, not a coordination incident report",
       "published": "2026-08-10",
       "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "pass166-search-kind-handoff-json",
+      "url": "https://github.com/search?q=%22kind%22%3A+%22handoff%22+%22artifact_sha256%22+extension%3Ajson&type=code",
+      "role": "Structured JSON partition locator; first 100 of 2,152 observed",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-kind-handoff-jsonl",
+      "url": "https://github.com/search?q=%22kind%22%3A+%22handoff%22+%22artifact_sha256%22+extension%3Ajsonl&type=code",
+      "role": "Structured JSONL partition locator; all 70 observed",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-kind-handoff-ndjson",
+      "url": "https://github.com/search?q=%22kind%22%3A+%22handoff%22+%22artifact_sha256%22+extension%3Andjson&type=code",
+      "role": "Structured NDJSON partition locator; zero results",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-kind-handoff-yaml",
+      "url": "https://github.com/search?q=%22kind%22%3A+%22handoff%22+%22artifact_sha256%22+extension%3Ayaml&type=code",
+      "role": "Structured YAML partition locator; first 100 of 127 observed",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-completed-json",
+      "url": "https://github.com/search?q=%22event%22%3A+%22handoff_completed%22+%22result%22+extension%3Ajson&type=code",
+      "role": "Completed-handoff JSON partition locator; first 100 of 109 observed",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-completed-jsonl",
+      "url": "https://github.com/search?q=%22event%22%3A+%22handoff_completed%22+%22result%22+extension%3Ajsonl&type=code",
+      "role": "Completed-handoff JSONL partition locator; all 32 observed",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-completed-ndjson",
+      "url": "https://github.com/search?q=%22event%22%3A+%22handoff_completed%22+%22result%22+extension%3Andjson&type=code",
+      "role": "Completed-handoff NDJSON partition locator; zero results",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "pass166-search-completed-yaml",
+      "url": "https://github.com/search?q=%22event%22%3A+%22handoff_completed%22+%22result%22+extension%3Ayaml&type=code",
+      "role": "Completed-handoff YAML partition locator; all seven observed",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-waypoint-handoff-events-2c6015",
+      "url": "https://github.com/dhoman/waypoint/blob/7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4/evidence/handoff/events.jsonl",
+      "role": "Retained 34-event deterministic replay with manual intervention and resume",
+      "ref": "7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4",
+      "blob_sha": "2c6015f65df28c0e932df688483138a60397df01",
+      "sha256": "49a1ef1501273202015fea65099eacd8fedbd11e1273e4075b3701530a1e4a49",
+      "event_start": "2026-09-18T00:18:09.922396Z",
+      "event_end": "2026-09-18T00:20:33.716098Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-epyc-codex-inbox-34dd1b",
+      "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/coordination/session-bus/archive/pre-rename-20260729/inbox-codex.jsonl",
+      "role": "Archived designed-bus inbox addressed to Codex",
+      "ref": "b4f68b889a791bda42a98964758c81654003c487",
+      "blob_sha": "34dd1bcd42cf8f13c9da431879b6f50477170c65",
+      "sha256": "9afd6a54d8c7641e33101df9048752de67efea191f7e5b67a3ab93adb02b1031",
+      "event_date": "2026-07-29T14:42:33Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-epyc-fable-inbox-4b09b7",
+      "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/coordination/session-bus/archive/pre-rename-20260729/inbox-fable-auditor.jsonl",
+      "role": "Archived designed-bus inbox addressed to Fable auditor",
+      "ref": "b4f68b889a791bda42a98964758c81654003c487",
+      "blob_sha": "4b09b7bf1d40e72be5723537c934a7de61e9a621",
+      "sha256": "f9a7f571989e631f25e1d8197a01daeb45f001e1d87f8320b4a91b6e5acfdb5c",
+      "event_date": "2026-07-29T14:42:33Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-vexter-task-ledger-072fe9",
+      "url": "https://github.com/Cabbala/Vexter/blob/5d7851b44028adbcf41e9e87e15cae07006e4f99/artifacts/task_ledger.jsonl",
+      "role": "Sequential control-plane task/status ledger with workflow handoff labels",
+      "ref": "5d7851b44028adbcf41e9e87e15cae07006e4f99",
+      "blob_sha": "072fe9da36679e4ee2fdeb2dc453ef980d3627da",
+      "sha256": "827743b444bc5f2be82337fbd97834b4d85c75d125d05b738da6964ef336d0df",
+      "event_start": "2026-03-20",
+      "event_end": "2026-03-28",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-ylong-proxy-progress-9ee273",
+      "url": "https://github.com/zane0454/rust_ylong_http/blob/adc618e7bbe08eae72f8d9c4919911feebbe7121/docs/cybernetics/runs/2026-07-05-ylong-http-https-proxy-sota/progress.jsonl",
+      "role": "Human-approved SOTA run ledger with subagent review dependencies",
+      "ref": "adc618e7bbe08eae72f8d9c4919911feebbe7121",
+      "blob_sha": "9ee2733bf9ad0b697b704776df2bfcb85f1ddc60",
+      "sha256": "a3392fb2444328c89a8f595c5418ec672fd88b438f14d626ce7f157d6c313548",
+      "event_start": "2026-07-06T01:50:17+08:00",
+      "event_end": "2026-07-06T20:09:05+08:00",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-logos-ezek-queue-2bb68e",
+      "url": "https://github.com/lowelltwong-alt/logos-scripture-graph/blob/faf44b0c309b646dc4fe75017a7a46ec97be1702/.ai/scratch/multi_model_bible_chunking/M8_fable/sp_durable/Ezek/ezek_controlling_agent_queue_e13.v1.jsonl",
+      "role": "Owner-directed Ezekiel controlling-agent decision queue",
+      "ref": "faf44b0c309b646dc4fe75017a7a46ec97be1702",
+      "blob_sha": "2bb68e0692cea3ea148bc48b62011e4d01cc1bfe",
+      "sha256": "c8765a3dd5d1f63ee26bdfbe2c5cded583b8044dbfa2d786866e61c1a7d72ee2",
+      "event_start": "2026-09-16T03:46:26.922975Z",
+      "event_end": "2026-09-21T16:29:12.554890Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-waypoint-readme-2104a9",
+      "url": "https://github.com/dhoman/waypoint/blob/7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4/README.md",
+      "role": "Waypoint current engine and deterministic replay context",
+      "ref": "7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4",
+      "blob_sha": "2104a9a4516ccc30ab5f24e4a2a9850336fe7377",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-waypoint-evidence-readme-fb30a1",
+      "url": "https://github.com/dhoman/waypoint/blob/7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4/evidence/README.md",
+      "role": "Retained evidence index identifying the manual intervention history and fixture",
+      "ref": "7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4",
+      "blob_sha": "fb30a18564e0a0c82676330ae7a797e6f5604f24",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-epyc-root-readme-15ab7f",
+      "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/README.md",
+      "role": "EPYC project governance and orchestration context",
+      "ref": "b4f68b889a791bda42a98964758c81654003c487",
+      "blob_sha": "15ab7f0b2e263880a4375ecee1f2446bd9fdded8",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-epyc-bus-protocol-a7ae40",
+      "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/coordination/session-bus/BUS_PROTOCOL.md",
+      "role": "Session-bus role, daemon and human-only trust-boundary contract",
+      "ref": "b4f68b889a791bda42a98964758c81654003c487",
+      "blob_sha": "a7ae404d9c4c9dfbcff62eaf1e1fc5a2b6524715",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-epyc-bus-config-a84448",
+      "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/coordination/session-bus/config.yaml",
+      "role": "Policy-as-data bus configuration with operator decisions and authorizations",
+      "ref": "b4f68b889a791bda42a98964758c81654003c487",
+      "blob_sha": "a844482f9a261c1bed8d4aa24c491ebb8086a9bc",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-vexter-readme-94919a",
+      "url": "https://github.com/Cabbala/Vexter/blob/5d7851b44028adbcf41e9e87e15cae07006e4f99/README.md",
+      "role": "Single control-plane, Codex task and bounded operator-supervision context",
+      "ref": "5d7851b44028adbcf41e9e87e15cae07006e4f99",
+      "blob_sha": "94919ad0ef510cab3271b065074c9bbd238a1579",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-logos-agents-8e9d77",
+      "url": "https://github.com/lowelltwong-alt/logos-scripture-graph/blob/faf44b0c309b646dc4fe75017a7a46ec97be1702/AGENTS.md",
+      "role": "Human-gated, owner-directed agent coordination contract",
+      "ref": "faf44b0c309b646dc4fe75017a7a46ec97be1702",
+      "blob_sha": "8e9d77820b35f6c3ebe83e90e41f3153e2099deb",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-logos-readme-4de0ef",
+      "url": "https://github.com/lowelltwong-alt/logos-scripture-graph/blob/faf44b0c309b646dc4fe75017a7a46ec97be1702/README.md",
+      "role": "Governed Scripture Graph repository context",
+      "ref": "faf44b0c309b646dc4fe75017a7a46ec97be1702",
+      "blob_sha": "4de0ef3c179b565e32e6bd2440e4f466789b76bb",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-waypoint-handoff-publication-2afdead",
+      "url": "https://github.com/dhoman/waypoint/commit/2afdeadcbc198288addbbbd47634db720c37a840",
+      "role": "First selected-file publication for retained acceptance evidence",
+      "ref": "2afdeadcbc198288addbbbd47634db720c37a840",
+      "published": "2026-09-18T00:28:01Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-epyc-bus-operator-rename-4dc445",
+      "url": "https://github.com/pestopoppa/epyc-root/commit/4dc445a2ddf3f00468ae043a4d6be58a18bd9edf",
+      "role": "Operator-directed roster rename in selected inbox history",
+      "ref": "4dc445a2ddf3f00468ae043a4d6be58a18bd9edf",
+      "published": "2026-07-29T14:46:35Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-vexter-ledger-latest-442221",
+      "url": "https://github.com/Cabbala/Vexter/commit/4422219f1a0c3a2dedb5aa0e49c5177752e7c547",
+      "role": "Latest selected ledger change in inspected history",
+      "ref": "4422219f1a0c3a2dedb5aa0e49c5177752e7c547",
+      "published": "2026-03-28T19:11:54Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-ylong-handoff-publication-543e0d",
+      "url": "https://github.com/zane0454/rust_ylong_http/commit/543e0dc0fb82a61c39477ecf7de1c9802154b9ac",
+      "role": "First public SOTA evidence handoff commit",
+      "ref": "543e0dc0fb82a61c39477ecf7de1c9802154b9ac",
+      "published": "2026-07-06T02:35:30Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-ylong-evidence-chain-262f4a",
+      "url": "https://github.com/zane0454/rust_ylong_http/commit/262f4a38f99e45e6b209f049d19f81193ff86130",
+      "role": "Public HTTPS-proxy evidence-chain commit",
+      "ref": "262f4a38f99e45e6b209f049d19f81193ff86130",
+      "published": "2026-07-06T12:17:05Z",
+      "observed_at": "2026-10-29T16:27:02Z"
+    },
+    {
+      "id": "original-logos-queue-publication-068694",
+      "url": "https://github.com/lowelltwong-alt/logos-scripture-graph/commit/068694a3a9a653ba8bc265fd078bff9e6fc1bfbe",
+      "role": "Public M8 durability checkpoint containing the selected queue",
+      "ref": "068694a3a9a653ba8bc265fd078bff9e6fc1bfbe",
+      "published": "2026-10-01T18:57:43Z",
+      "observed_at": "2026-10-29T16:27:02Z"
     }
   ]
 }

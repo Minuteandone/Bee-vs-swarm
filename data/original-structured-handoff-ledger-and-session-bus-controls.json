@@ -1,0 +1,361 @@
+{
+  "research_pass": 166,
+  "generated_at": "2026-10-29T16:27:02Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "candidate_id": null,
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "No source-level cue in this pass justified reopening the known-family-controlled scanner remainder."
+  },
+  "resumed_exact_cursors": [
+    {
+      "query": "\"sender_agent_run_id\" \"recipient_agent_run_id\" \"delivery_sha256\" \"recipient_commit_sha\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"source_operator_id\" \"target_operator_id\" \"acceptance_receipt_sha256\" \"effect_commit\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"message_producer_uuid\" \"message_consumer_uuid\" \"artifact_digest\" \"applied_at\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false
+    },
+    {
+      "query": "\"autonomous_sender\" \"autonomous_recipient\" \"provenance_sha256\" \"downstream_effect_sha256\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false,
+      "assessment": "Each exact query returned only this repository's saved page-ten cursor and no external row. This is bounded negative coverage, not evidence of global absence."
+    }
+  ],
+  "page_eleven_access": {
+    "queries": [
+      "\"kind\": \"handoff\" \"artifact_sha256\"",
+      "\"event\": \"handoff_completed\" \"result\""
+    ],
+    "requested": {
+      "per_page": 20,
+      "pages": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "ranked_positions": "1001-1100"
+    },
+    "result": "GitHub code search returned HTTP 422: Cannot access beyond the first 1000 results.",
+    "assessment": "The global rank cursor is API-inaccessible rather than reviewed. Collection rotated into extension partitions using the same search terms."
+  },
+  "structured_extension_partitions": {
+    "total_rows_read": 409,
+    "counting_note": "Rows are counted per returned partition slice and are not claimed disjoint from earlier global windows or from one another.",
+    "partitions": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\" extension:json",
+        "total_count": 2152,
+        "incomplete_results": false,
+        "rows_read": 100,
+        "exhausted": false
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\" extension:jsonl",
+        "total_count": 70,
+        "incomplete_results": false,
+        "rows_read": 70,
+        "exhausted": true
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\" extension:ndjson",
+        "total_count": 0,
+        "incomplete_results": false,
+        "rows_read": 0,
+        "exhausted": true
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\" extension:yaml",
+        "total_count": 127,
+        "incomplete_results": false,
+        "rows_read": 100,
+        "exhausted": false
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\" extension:json",
+        "total_count": 109,
+        "incomplete_results": false,
+        "rows_read": 100,
+        "exhausted": false
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\" extension:jsonl",
+        "total_count": 32,
+        "incomplete_results": false,
+        "rows_read": 32,
+        "exhausted": true
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\" extension:ndjson",
+        "total_count": 0,
+        "incomplete_results": false,
+        "rows_read": 0,
+        "exhausted": true
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\" extension:yaml",
+        "total_count": 7,
+        "incomplete_results": false,
+        "rows_read": 7,
+        "exhausted": true
+      }
+    ],
+    "assessment": "The extension split opens new read-only coverage beyond the global 1,000-result ceiling. Search rows remained locators; six run-shaped originals and their governance/history records were read in full."
+  },
+  "selected_originals": [
+    {
+      "title": "Waypoint retained handoff replay",
+      "repository": "dhoman/waypoint",
+      "classification": "single deterministic replay with a same-session human intervention; no autonomous sender-to-recipient transfer",
+      "primary_record": {
+        "url": "https://github.com/dhoman/waypoint/blob/7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4/evidence/handoff/events.jsonl",
+        "ref": "7f2c0642f98635d6cf9bb128e5042d42ec4c8ef4",
+        "blob_sha": "2c6015f65df28c0e932df688483138a60397df01",
+        "sha256": "49a1ef1501273202015fea65099eacd8fedbd11e1273e4075b3701530a1e4a49",
+        "rows": 34,
+        "event_start": "2026-09-18T00:18:09.922396Z",
+        "event_end": "2026-09-18T00:20:33.716098Z"
+      },
+      "publication": {
+        "url": "https://github.com/dhoman/waypoint/commit/2afdeadcbc198288addbbbd47634db720c37a840",
+        "committed_at": "2026-09-18T00:28:01Z"
+      },
+      "observations": [
+        "One run identifier records deterministic schema-2 replay, UI recognition and action delivery.",
+        "A blocking observation produces intervention_requested and control_transferred; one human_action click is followed by resume_validated and a successful result.",
+        "The evidence index calls this a manual intervention history and the retained target a fixture. No sender, recipient or second autonomous participant is present."
+      ],
+      "missing_evidence": "Two distinguishable autonomous principals, a task-bearing delivery, recipient use, independent operator provenance and evidence the exchange exceeded authorization."
+    },
+    {
+      "title": "EPYC archived Codex and Fable session-bus inboxes",
+      "repository": "pestopoppa/epyc-root",
+      "classification": "designed operator-governed message bus; two addressed inboxes but no public recipient-use proof or independent operator boundary",
+      "primary_records": [
+        {
+          "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/coordination/session-bus/archive/pre-rename-20260729/inbox-codex.jsonl",
+          "blob_sha": "34dd1bcd42cf8f13c9da431879b6f50477170c65",
+          "sha256": "9afd6a54d8c7641e33101df9048752de67efea191f7e5b67a3ab93adb02b1031",
+          "rows": 22,
+          "recipient": "codex"
+        },
+        {
+          "url": "https://github.com/pestopoppa/epyc-root/blob/b4f68b889a791bda42a98964758c81654003c487/coordination/session-bus/archive/pre-rename-20260729/inbox-fable-auditor.jsonl",
+          "blob_sha": "4b09b7bf1d40e72be5723537c934a7de61e9a621",
+          "sha256": "f9a7f571989e631f25e1d8197a01daeb45f001e1d87f8320b4a91b6e5acfdb5c",
+          "rows": 17,
+          "recipient": "fable-auditor"
+        }
+      ],
+      "event_time": "2026-07-29T14:42:33Z",
+      "observations": [
+        "All 39 archived rows are from the coordinator role and address one of two named project roles.",
+        "The protocol says the coordinator is the role the operator interacts with; the daemon is not an agent, assigns by deterministic rule and never reviews work products.",
+        "Trust boundaries for registry, measurement, production and host changes are explicitly human-only. The config records operator decisions and operator-authorized sessions.",
+        "The selected files are inbox snapshots. They do not prove that either recipient read a specific message and then produced a content-dependent downstream artifact. Public history is under one repository account."
+      ],
+      "missing_evidence": "A public receipt and exact downstream effect tied to a specific message, provider-backed autonomous recipient provenance, an independent operator boundary and an authorization crossing."
+    },
+    {
+      "title": "Vexter task ledger",
+      "repository": "Cabbala/Vexter",
+      "classification": "single-project Codex task/status ledger with workflow handoff labels and bounded operator supervision",
+      "primary_record": {
+        "url": "https://github.com/Cabbala/Vexter/blob/5d7851b44028adbcf41e9e87e15cae07006e4f99/artifacts/task_ledger.jsonl",
+        "blob_sha": "072fe9da36679e4ee2fdeb2dc453ef980d3627da",
+        "sha256": "827743b444bc5f2be82337fbd97834b4d85c75d125d05b738da6964ef336d0df",
+        "rows": 97,
+        "event_start": "2026-03-20",
+        "event_end": "2026-03-28"
+      },
+      "history": {
+        "url": "https://github.com/Cabbala/Vexter/commit/4422219f1a0c3a2dedb5aa0e49c5177752e7c547",
+        "committed_at": "2026-03-28T19:11:54Z"
+      },
+      "observations": [
+        "The ledger advances sequential task IDs and statuses, including research_handoff_completed and later downstream-research stages.",
+        "It contains no attributable autonomous sender, recipient, delivery receipt or recipient model/run identity.",
+        "The README defines one Mac-side control plane, requires every Codex task to close through GitHub and describes bounded operator supervision. The selected-file history is authored by one public account."
+      ],
+      "missing_evidence": "Attributable autonomous sender and recipient records, exact task material and use, independent operator provenance and proof the workflow exceeded its designed control plane."
+    },
+    {
+      "title": "ylong_http HTTPS-proxy SOTA progress ledger",
+      "repository": "zane0454/rust_ylong_http",
+      "classification": "real subagent-to-main review dependencies inside one human-approved controlled optimization run",
+      "primary_record": {
+        "url": "https://github.com/zane0454/rust_ylong_http/blob/adc618e7bbe08eae72f8d9c4919911feebbe7121/docs/cybernetics/runs/2026-07-05-ylong-http-https-proxy-sota/progress.jsonl",
+        "blob_sha": "9ee2733bf9ad0b697b704776df2bfcb85f1ddc60",
+        "sha256": "a3392fb2444328c89a8f595c5418ec672fd88b438f14d626ce7f157d6c313548",
+        "rows": 246,
+        "event_start": "2026-07-06T01:50:17+08:00",
+        "event_end": "2026-07-06T20:09:05+08:00"
+      },
+      "history": [
+        {
+          "url": "https://github.com/zane0454/rust_ylong_http/commit/543e0dc0fb82a61c39477ecf7de1c9802154b9ac",
+          "committed_at": "2026-07-06T02:35:30Z",
+          "role": "first public handoff evidence"
+        },
+        {
+          "url": "https://github.com/zane0454/rust_ylong_http/commit/262f4a38f99e45e6b209f049d19f81193ff86130",
+          "committed_at": "2026-07-06T12:17:05Z",
+          "role": "evidence-chain publication"
+        }
+      ],
+      "observations": [
+        "Read-only subagents return review findings and candidate changes; the main run later evaluates those inputs, including rejecting a proposed semaphore fast path before code because measured headroom was too small.",
+        "The ledger repeatedly records human approval or reapproval before authority-expanding amendments and refuses terminal claims until verifiers and a counterexample gate pass.",
+        "This is a genuine semantic dependency, but it is an intentional subagent hierarchy within one run and one repository, with explicit human authority and one public file author—not cross-operator rogue coordination."
+      ],
+      "missing_evidence": "Independently controlled autonomous sender and recipient trajectories, cross-operator delivery/use and primary evidence of cooperation outside the human-approved run."
+    },
+    {
+      "title": "Logos Scripture Graph Ezekiel controlling-agent queue",
+      "repository": "lowelltwong-alt/logos-scripture-graph",
+      "classification": "owner-directed multi-agent research/review workflow with real peer findings but explicit shared governance",
+      "primary_record": {
+        "url": "https://github.com/lowelltwong-alt/logos-scripture-graph/blob/faf44b0c309b646dc4fe75017a7a46ec97be1702/.ai/scratch/multi_model_bible_chunking/M8_fable/sp_durable/Ezek/ezek_controlling_agent_queue_e13.v1.jsonl",
+        "blob_sha": "2bb68e0692cea3ea148bc48b62011e4d01cc1bfe",
+        "sha256": "c8765a3dd5d1f63ee26bdfbe2c5cded583b8044dbfa2d786866e61c1a7d72ee2",
+        "rows": 114,
+        "event_start": "2026-09-16T03:46:26.922975Z",
+        "event_end": "2026-09-21T16:29:12.554890Z"
+      },
+      "publication": {
+        "url": "https://github.com/lowelltwong-alt/logos-scripture-graph/commit/068694a3a9a653ba8bc265fd078bff9e6fc1bfbe",
+        "committed_at": "2026-10-01T18:57:43Z"
+      },
+      "observations": [
+        "Peer-labelled reviews identify defects; later queue entries amend earlier inferences and the orchestrator uses those findings in rulings and worklists. This is real content-specific dependency inside the project.",
+        "AGENTS.md requires a human-gated master context and formal handoffs, and labels M8 continuity owner-directed. The queue identifies one orchestrator family and its peer/subagent lanes; the public checkpoint is committed by one owner account.",
+        "No public record authenticates independent operators or shows the coordinated work escaping the owner's authorized workflow."
+      ],
+      "missing_evidence": "Provider-backed independently operated participants, a cross-operator receipt/effect chain and evidence the cooperation exceeded owner authorization."
+    }
+  ],
+  "scoped_prior_reporting_checks": {
+    "performed": false,
+    "reason": "No selected family passed the independent-operator and authorization-crossing tests. The protocol therefore stops before episode-level novelty searching; the four resumed exact identity/effect searches are recorded only as bounded coverage.",
+    "claim": "No global novelty claim is made."
+  },
+  "known_family_overlap": {
+    "named_exclusions": "No selected record is treated as a new instance of the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI May/July, AISI GitHub handoff or Covert Assistance/METR families.",
+    "project_controls": "EPYC, Vexter, ylong_http and Logos are classified from their own original governance records as designed systems or owner-directed workflows, not by dataset absence."
+  },
+  "alternative_hypotheses_tested": [
+    "single deterministic replay with same-session human intervention",
+    "operator-governed designed message bus",
+    "single-project sequential task ledger",
+    "human-approved hierarchical subagent run",
+    "owner-directed multi-agent research and review",
+    "shared repository/account provenance",
+    "search-index overlap and global 1,000-result cap"
+  ],
+  "conclusion": {
+    "participant_test": "Waypoint has no autonomous participants; Vexter has no attributable sender/recipient identities. EPYC names recipients but its selected records are inbound archives without demonstrated use. ylong_http and Logos contain real multi-agent dependencies inside explicitly governed projects.",
+    "dependency_test": "Only ylong_http and Logos establish content-specific review or suggestion use; both are designed same-project hierarchies.",
+    "operator_boundary_test": "No selected original supplies primary evidence of independently controlled operators. The strongest two preserve explicit human/owner authority.",
+    "provider_attribution": "Repository labels and model-family names are treated as origin claims, not independent provider attestations.",
+    "rogue_intent_test": "No subjective rogue intent is inferred.",
+    "current_activity": "The public events span March through September 2026; current autonomous activity is not claimed.",
+    "result": "No plausible previously unreported rogue-swarm candidate. No candidate ID assigned."
+  },
+  "exact_next_cursors": {
+    "inaccessible_global": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "per_page": 20,
+        "pages": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "preserved but GitHub 1,000-result cap blocks access"
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "per_page": 20,
+        "pages": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "preserved but GitHub 1,000-result cap blocks access"
+      }
+    ],
+    "structured": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\" extension:json",
+        "per_page": 100,
+        "pages": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "ranked_positions": "101-500 within the JSON partition"
+      },
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\" extension:yaml",
+        "per_page": 100,
+        "pages": [
+          2
+        ],
+        "ranked_positions": "101-127 within the YAML partition"
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\" extension:json",
+        "per_page": 100,
+        "pages": [
+          2
+        ],
+        "ranked_positions": "101-109 within the JSON partition"
+      }
+    ],
+    "exact": [
+      "\"sender_agent_run_id\" \"recipient_agent_run_id\" \"delivery_sha256\" \"recipient_commit_sha\"",
+      "\"source_operator_id\" \"target_operator_id\" \"acceptance_receipt_sha256\" \"effect_commit\"",
+      "\"message_producer_uuid\" \"message_consumer_uuid\" \"artifact_digest\" \"applied_at\"",
+      "\"autonomous_sender\" \"autonomous_recipient\" \"provenance_sha256\" \"downstream_effect_sha256\""
+    ]
+  },
+  "limitations": [
+    "Global GitHub code-search pages beyond the first 1,000 results are inaccessible through the API.",
+    "Extension partitions can overlap earlier global windows and each other; 409 is a reviewed-row count, not a unique-corpus count.",
+    "Repository-authored model and role labels are not independent provider or operator attestations.",
+    "The selected EPYC inboxes do not include recipient acknowledgement or downstream-effect records.",
+    "No recovered code, agent runtime, scan, message, sink, private log or target system was executed, invoked, submitted, contacted or probed."
+  ]
+}

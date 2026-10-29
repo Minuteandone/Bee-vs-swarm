@@ -14988,6 +14988,215 @@
       "ref": "2338d7f56d6acf7c5213b21f1a78cfc8f471909c",
       "published": "2026-10-13T20:59:13Z",
       "observed_at": "2026-10-29T10:56:54Z"
+    },
+    {
+      "id": "original-dharma-forge-cycle44-origin-459ab3",
+      "url": "https://github.com/AIKAGRYA/dharma_swarm/blob/d2b2f40447cfd4e23e0a1d1618a9f19376c2ed84/reports/agentops/work_packets/forge-external-beast-cycle-44.json",
+      "role": "Cycle-44 external-approved single-actor work packet and active external-PR ledger",
+      "ref": "d2b2f40447cfd4e23e0a1d1618a9f19376c2ed84",
+      "blob_sha": "459ab32150b0fcba76f77ed729115ecd136712b8",
+      "sha256": "a344d598b4637c5c758f8ebcf54a0575d3f864a0452b4baaa7ffe4f0c9f7d89a",
+      "event_date": "2026-06-01T21:19:48Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-dharma-forge-cycle44-mirror-459ab3",
+      "url": "https://github.com/AmitabhainArunachala/dharma_swarmv.01/blob/e42a78a7a803c3c0983cc868c0ace9788bd4b2d1/reports/agentops/work_packets/forge-external-beast-cycle-44.json",
+      "role": "Shared-history mirror of the cycle-44 work packet under the identical blob",
+      "ref": "e42a78a7a803c3c0983cc868c0ace9788bd4b2d1",
+      "blob_sha": "459ab32150b0fcba76f77ed729115ecd136712b8",
+      "sha256": "a344d598b4637c5c758f8ebcf54a0575d3f864a0452b4baaa7ffe4f0c9f7d89a",
+      "event_date": "2026-06-01T21:19:48Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-dharma-cycle44-publication-b65971",
+      "url": "https://github.com/AIKAGRYA/dharma_swarm/commit/b659713c6e10401d525d03008abf40332b02dee3",
+      "role": "First selected-file publication commit shared by both Dharma repositories",
+      "ref": "b659713c6e10401d525d03008abf40332b02dee3",
+      "published": "2026-06-11T17:25:21Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/pull/222",
+      "role": "Public PR linked from the work packet; review-to-revision chronology",
+      "event_start": "2026-06-01T18:48:09Z",
+      "event_end": "2026-06-01T23:50:35Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222-coderabbit-459551",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/pull/222#issuecomment-4595512640",
+      "role": "Configured CodeRabbit comment reporting no actionable recent-review comments",
+      "event_date": "2026-06-01T18:48:24Z",
+      "updated": "2026-06-01T23:15:38Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222-review-440392",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/pull/222#pullrequestreview-4403924294",
+      "role": "Non-bot-labeled reviewer objection to the out-of-scope behavior change",
+      "event_date": "2026-06-01T19:08:58Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222-agent-response-459570",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/pull/222#issuecomment-4595702383",
+      "role": "PR-author response attributing the correction to an operator-approved AI coding agent",
+      "event_date": "2026-06-01T19:14:53Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222-correction-39719a",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/commit/39719a3c3405f8f7cb1d24e9184dab5a3db155e3",
+      "role": "Behavior-removal commit after the review objection",
+      "ref": "39719a3c3405f8f7cb1d24e9184dab5a3db155e3",
+      "published": "2026-06-01T19:14:18Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222-approval-440514",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/pull/222#pullrequestreview-4405143143",
+      "role": "Later approval by a separate non-bot-labeled reviewer account",
+      "event_date": "2026-06-01T22:38:17Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-waggle-pr222-merge-ec5a4e",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/commit/ec5a4e06fb83f064155344eebc87ab44346ea84b",
+      "role": "Maintainer merge after review and approval",
+      "ref": "ec5a4e06fb83f064155344eebc87ab44346ea84b",
+      "published": "2026-06-01T23:50:34Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-aira-sci009-process-log-9cc79e",
+      "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-009/files/logs/process-log.jsonl",
+      "role": "Single-actor staged experiment log with handoff-completed labels",
+      "ref": "1ea005e692e030b515b75275c762a819d64df47e",
+      "blob_sha": "9cc79eac004523f9f6bc5f97e00605af38e757df",
+      "sha256": "f836f1ad12b590a00265c2de009599b6ddb46192c84ab6dcf58f703e41c3e21d",
+      "event_start": "2026-05-28T08:15:48Z",
+      "event_end": "2026-05-28T08:27:05Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-aira-sci065-process-log-aa7322",
+      "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-065/files/logs/process-log.jsonl",
+      "role": "Single-actor literature and general-purpose stage log",
+      "ref": "1ea005e692e030b515b75275c762a819d64df47e",
+      "blob_sha": "aa7322dc839796837fae8dbaf48cc2caa9d0fd68",
+      "sha256": "d0d2c0ced33fb6379457b3f296c5cc6d50972f71928d861dae9bda521977a313",
+      "event_start": "2026-05-28T11:40:14Z",
+      "event_end": "2026-05-28T12:06:00Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-aira-sci085-process-log-04d6d3",
+      "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-085/files/logs/process-log.jsonl",
+      "role": "Single-actor sequential pipeline-module log",
+      "ref": "1ea005e692e030b515b75275c762a819d64df47e",
+      "blob_sha": "04d6d3d22a61924764ca1aabd0112cd2fd932740",
+      "sha256": "3436111936bcfd859d922f7ceef63ec937d44e8ac4e5bbb35530d9a50a9ebf6d",
+      "event_start": "2026-05-28T12:53:11.371701Z",
+      "event_end": "2026-05-28T12:53:37.323916Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-hutch-dynamic-workflow-validation-2bc18e",
+      "url": "https://github.com/K-Arthur/hutch/blob/adddfbfdff3b4e3b5ed3bee4168ea4d42bdb90f9/docs/realignment/artifacts/dynamic-workflows/validation.json",
+      "role": "Deterministic zero-model-call workflow acceptance capture",
+      "ref": "adddfbfdff3b4e3b5ed3bee4168ea4d42bdb90f9",
+      "blob_sha": "2bc18ea024bef41bf9ee26a5f012c6b85c692480",
+      "sha256": "81b237b0325cdf2d03ff5997dfb7a6f8ff0963b641d934d644df6db15d366216",
+      "event_date": "2026-10-11",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-hutch-validation-latest-ad79bf",
+      "url": "https://github.com/K-Arthur/hutch/commit/ad79bf38cb7abd04723e9da4664124aeaa093ac5",
+      "role": "Latest selected-file update in the dynamic-workflow acceptance history",
+      "ref": "ad79bf38cb7abd04723e9da4664124aeaa093ac5",
+      "published": "2026-10-18T14:02:24Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-hermes-factory-summary-3bb537",
+      "url": "https://github.com/Gonyak-cell/Hermes/blob/5e332b1c6327b255cf9bf418bc455b7965172658/docs/factory-promotion/99-structured-summary.json",
+      "role": "Owner-adjudicated model-labelled factory review summary",
+      "ref": "5e332b1c6327b255cf9bf418bc455b7965172658",
+      "blob_sha": "3bb5378e31a01ecc2f5970c2057a5c81108376c5",
+      "sha256": "2ce978d861a2eee33d7aef0f60f76945395639ff43d3d563a838a8d125260df9",
+      "event_date": "2026-06-11",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-hermes-factory-summary-latest-e681f2",
+      "url": "https://github.com/Gonyak-cell/Hermes/commit/e681f2a7fc9a6f9915f94dd1428877a5b02393c1",
+      "role": "Latest selected-file update in the single-account promotion history",
+      "ref": "e681f2a7fc9a6f9915f94dd1428877a5b02393c1",
+      "published": "2026-06-12T07:01:10Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-wave18-phase0-inventory-767409",
+      "url": "https://github.com/JoelRLima/LLM/blob/9b5a2ddc2645430142e3c1ecaf6ef95c41e40406/docs/wave18_phase0_inventory.json",
+      "role": "Phase-zero inventory explicitly disabling live-model authorization",
+      "ref": "9b5a2ddc2645430142e3c1ecaf6ef95c41e40406",
+      "blob_sha": "76740913902f03964e6fa578591df14b0bb5efc0",
+      "sha256": "030ab8521b0ff41ac3902cfcd2cb7da57c889f5faf805fc478ae6994f88dafdd",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-wave18-inventory-latest-9b5a2d",
+      "url": "https://github.com/JoelRLima/LLM/commit/9b5a2ddc2645430142e3c1ecaf6ef95c41e40406",
+      "role": "Latest selected-file publication in the Wave 18 history",
+      "ref": "9b5a2ddc2645430142e3c1ecaf6ef95c41e40406",
+      "published": "2026-10-21T02:40:41Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-agent-workflow-artifact-contracts-94b3b8",
+      "url": "https://github.com/kevinke/agent-workflow/blob/5b771ac7df146f2e05984221a63d8c6a6f7352e4/.ai/workflow/ARTIFACTS.md",
+      "role": "Designed one-writer role and checkpoint-handoff artifact contracts",
+      "ref": "5b771ac7df146f2e05984221a63d8c6a6f7352e4",
+      "blob_sha": "94b3b8c2eea04da5dc6dd55375b66876f70777e3",
+      "sha256": "dde1eff1e0663577813431ea2f69974483dc9454cbc0bd2de638a6d25fbf8dd9",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-agent-workflow-artifact-contracts-latest-7ea38f",
+      "url": "https://github.com/kevinke/agent-workflow/commit/7ea38fdcf2fca898d0f7a16fc64e724e08c0395b",
+      "role": "Latest selected-file change in the designed workflow documentation",
+      "ref": "7ea38fdcf2fca898d0f7a16fc64e724e08c0395b",
+      "published": "2026-10-09T21:02:13Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-company-hermes-spec-fd5a91",
+      "url": "https://github.com/owenisas/company-agent-template/blob/ca22c121ba276c5e84ec08e9466b5c11b313ff21/spec/spec.md",
+      "role": "Internal-company implementation specification with planned approval handoffs",
+      "ref": "ca22c121ba276c5e84ec08e9466b5c11b313ff21",
+      "blob_sha": "fd5a916ea0119a506f9f2ba4efb0619459cd09e0",
+      "sha256": "64343d21eac3dcdd30cf26ebf06418125cdc952885ac92a5c6366a422cc9c894",
+      "event_date": "2026-08-14",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "original-company-hermes-spec-publication-4d9d88",
+      "url": "https://github.com/owenisas/company-agent-template/commit/4d9d88f00c71ec922bc47689806eb30d7a3f8b27",
+      "role": "Single publication commit for the generic internal-company specification",
+      "ref": "4d9d88f00c71ec922bc47689806eb30d7a3f8b27",
+      "published": "2026-08-15T02:01:13Z",
+      "observed_at": "2026-10-29T12:20:49Z"
+    },
+    {
+      "id": "prior-report-expense-audit-architecture-20260810",
+      "url": "https://tiagoperes.com/blog/is-it-actually-an-agent/",
+      "role": "Related workflow-versus-agent architecture experiment, not a coordination incident report",
+      "published": "2026-08-10",
+      "observed_at": "2026-10-29T12:20:49Z"
     }
   ]
 }

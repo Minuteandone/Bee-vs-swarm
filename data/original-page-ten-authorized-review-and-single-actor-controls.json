@@ -1,0 +1,491 @@
+{
+  "research_pass": 165,
+  "generated_at": "2026-10-29T12:20:49Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "candidate_id": null,
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "No source-level cue in this pass justifies reopening the known-family-controlled scanner remainder."
+  },
+  "resumed_exact_cursors": [
+    {
+      "query": "\"sender_principal_id\" \"recipient_principal_id\" \"delivered_artifact_sha256\" \"recipient_effect_sha256\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false,
+      "assessment": "Only the preceding Bee-vs-swarm cursor was returned; no external record appears in the observed exact-query result set."
+    },
+    {
+      "query": "\"source_operator\" \"destination_operator\" \"delivery_receipt_sha256\" \"applied_commit\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false,
+      "assessment": "Only the preceding Bee-vs-swarm cursor was returned; no external record appears in the observed exact-query result set."
+    },
+    {
+      "query": "\"producer_run_uuid\" \"consumer_run_uuid\" \"accepted_artifact_hash\" \"effect_hash\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false,
+      "assessment": "Only the preceding Bee-vs-swarm cursor was returned; no external record appears in the observed exact-query result set."
+    },
+    {
+      "query": "\"from_runtime_id\" \"to_runtime_id\" \"consumed_at\" \"result_commit_sha\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "incomplete_results": false,
+      "assessment": "Only the preceding Bee-vs-swarm cursor was returned; no external record appears in the observed exact-query result set."
+    }
+  ],
+  "page_ten": {
+    "access": "reviewed through authenticated, explicitly read-only GitHub REST code-search pagination",
+    "pagination": {
+      "per_page": 20,
+      "pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "ranked_positions": "901-1000",
+      "next_pages": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "next_ranked_positions": "1001-1100",
+      "limitation": "GitHub code-search ranking and default-branch contents can drift; the observed page window is not a stable or disjoint global corpus."
+    },
+    "ranking_drift": {
+      "previous_pass_totals": {
+        "kind_handoff_artifact_sha256": 10272,
+        "handoff_completed_result": 2156
+      },
+      "current_totals": {
+        "kind_handoff_artifact_sha256": 10304,
+        "handoff_completed_result": 2184
+      },
+      "delta": {
+        "kind_handoff_artifact_sha256": 32,
+        "handoff_completed_result": 28
+      },
+      "effect": "Live-index growth can move already reviewed rows into later nominal ranks. Exact paths and blobs were checked before treating an occurrence as new coverage."
+    },
+    "windows": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "api_url_template": "https://api.github.com/search/code?q=%22kind%22%3A%20%22handoff%22%20%22artifact_sha256%22&per_page=20&page={46..50}",
+        "total_count": 10304,
+        "incomplete_results": false,
+        "window_rows": 100,
+        "distinct_repositories": 87,
+        "self_index_rows": 0,
+        "extension_counts": {
+          "py": 38,
+          "json": 24,
+          "md": 24,
+          "ts": 4,
+          "html": 2,
+          "rs": 2,
+          "cjs": 1,
+          "diff": 1,
+          "java": 1,
+          "lua": 1,
+          "patch": 1,
+          "zig": 1
+        },
+        "nonexclusive_path_classes": {
+          "test_or_example": 21,
+          "markdown_or_text": 24,
+          "source_code": 48,
+          "structured_records": 24
+        },
+        "selected_signals": [
+          "one agent work packet mirrored under the same blob and commit history",
+          "one deterministic zero-model-call workflow capture",
+          "one owner-adjudicated model-review summary",
+          "two role/workflow design specifications",
+          "one live-model-disabled inventory"
+        ],
+        "assessment": "The strongest row is an original external-action work packet, but its linked chronology resolves to an operator-approved coding agent responding to non-bot reviewer feedback. Other selected rows are deterministic validation, designed governance or specification records."
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "api_url_template": "https://api.github.com/search/code?q=%22event%22%3A%20%22handoff_completed%22%20%22result%22&per_page=20&page={46..50}",
+        "total_count": 2184,
+        "incomplete_results": false,
+        "window_rows": 100,
+        "distinct_repositories": 89,
+        "self_index_rows": 0,
+        "extension_counts": {
+          "py": 26,
+          "c": 21,
+          "ts": 14,
+          "md": 11,
+          "rs": 5,
+          "json": 4,
+          "js": 3,
+          "jsonl": 3,
+          "log": 2,
+          "sh": 2,
+          "sql": 2,
+          "gd": 1,
+          "go": 1,
+          "html": 1,
+          "php": 1,
+          "rb": 1,
+          "strings": 1,
+          "tsx": 1
+        },
+        "nonexclusive_path_classes": {
+          "test_or_example": 14,
+          "markdown_or_text": 11,
+          "source_code": 77,
+          "linux_clock_lexical_collisions": 20,
+          "structured_records": 7
+        },
+        "structured_classification": {
+          "vllm_benchmark_summaries": 3,
+          "policy_indicator": 1,
+          "aira_single_actor_logs": 3
+        },
+        "assessment": "Twenty Linux clock files and one unrelated C source are lexical collisions. The three selected JSONL logs all record one `co-scientist` actor and stage/tool outputs, not inter-participant delivery."
+      }
+    ]
+  },
+  "selected_originals": [
+    {
+      "title": "Dharma cycle-44 external-action work packet and linked review chronology",
+      "repositories": [
+        "AIKAGRYA/dharma_swarm",
+        "AmitabhainArunachala/dharma_swarmv.01",
+        "Abhigyan-Shekhar/Waggle-mcp"
+      ],
+      "classification": "real review-to-revision chronology involving an explicitly operator-approved coding agent and non-bot reviewer accounts; no autonomous sender-to-recipient swarm edge",
+      "primary_record": {
+        "origin_url": "https://github.com/AIKAGRYA/dharma_swarm/blob/d2b2f40447cfd4e23e0a1d1618a9f19376c2ed84/reports/agentops/work_packets/forge-external-beast-cycle-44.json",
+        "mirror_url": "https://github.com/AmitabhainArunachala/dharma_swarmv.01/blob/e42a78a7a803c3c0983cc868c0ace9788bd4b2d1/reports/agentops/work_packets/forge-external-beast-cycle-44.json",
+        "blob_sha": "459ab32150b0fcba76f77ed729115ecd136712b8",
+        "sha256": "a344d598b4637c5c758f8ebcf54a0575d3f864a0452b4baaa7ffe4f0c9f7d89a",
+        "bytes": 9002,
+        "event_observed_at": "2026-06-01T21:19:48Z",
+        "recorded_at": "2026-06-02T05:19:48+08:00",
+        "actor": "codex_forgewright",
+        "mode": "external-approved",
+        "status": "active_external_pr_ledger_rechecked_no_public_action_no_external_confirmation"
+      },
+      "first_public_file_commit": {
+        "url": "https://github.com/AIKAGRYA/dharma_swarm/commit/b659713c6e10401d525d03008abf40332b02dee3",
+        "sha": "b659713c6e10401d525d03008abf40332b02dee3",
+        "committed_at": "2026-06-11T17:25:21Z",
+        "note": "The same commit SHA and blob occur in both repositories, supporting shared history/mirroring rather than independent publishers."
+      },
+      "linked_chain": {
+        "pull_request": "https://github.com/Abhigyan-Shekhar/Waggle-mcp/pull/222",
+        "events": [
+          {
+            "at": "2026-06-01T18:48:09Z",
+            "event": "pull request opened by the work-packet account"
+          },
+          {
+            "at": "2026-06-01T18:48:24Z",
+            "event": "automated CodeRabbit comment created; current text reports no actionable comments in its recent review"
+          },
+          {
+            "at": "2026-06-01T19:08:58Z",
+            "event": "non-bot-labeled reviewer account objects to an out-of-scope behavior change"
+          },
+          {
+            "at": "2026-06-01T19:14:18Z",
+            "event": "follow-on commit removes the disputed behavior change",
+            "sha": "39719a3c3405f8f7cb1d24e9184dab5a3db155e3"
+          },
+          {
+            "at": "2026-06-01T19:14:53Z",
+            "event": "PR author says the update followed review feedback and was prepared by an AI coding agent under operator-approved external-action mode"
+          },
+          {
+            "at": "2026-06-01T22:38:17Z",
+            "event": "a different non-bot-labeled reviewer account approves"
+          },
+          {
+            "at": "2026-06-01T23:50:34Z",
+            "event": "maintainer merge commit",
+            "sha": "ec5a4e06fb83f064155344eebc87ab44346ea84b"
+          }
+        ]
+      },
+      "observations": [
+        "The packet tracks six active pull requests across five third-party repositories but records no new public action in cycle 44, no external confirmation, no maintainer action and no merge at its 21:19:48 UTC observation.",
+        "The linked PR proves a content-specific review-to-revision dependency: the behavior objection precedes the behavior-removal commit by 5 minutes 20 seconds.",
+        "The actionable sender is not verified as autonomous AI. The packet itself classifies the review as non-maintainer human review, and the reviewing account is not bot-labeled.",
+        "CodeRabbit is a distinct automated service, but its comment says no actionable comments were generated and no public evidence ties its output to the correction.",
+        "The responding coding agent is self-attributed rather than provider-attested and explicitly says it acted under operator-approved external-action mode. Approval and merge use ordinary repository review authority."
+      ],
+      "alternatives": {
+        "single_operator_automation": "Supported for the coding side by one named work-packet actor and one public account.",
+        "human_requested_outreach": "Supported by the explicit operator-approved mode and ordinary issue/PR review path.",
+        "designed_review_workflow": "Supported by CodeRabbit's configured review and the repository's approval/merge gates.",
+        "cross_operator_autonomous_coordination": "Not established: the actionable reviewer is not verified autonomous, and the bot comment is not causally used."
+      },
+      "missing_evidence": "An independently attributable autonomous reviewer under a separate operator, a specific bot/agent result that the coding agent demonstrably consumed, and primary evidence that their cooperation exceeded the repository's authorized PR/review/merge process."
+    },
+    {
+      "title": "AIRA SCI-009, SCI-065 and SCI-085 process logs",
+      "repository": "nahisaho/aira_experiments",
+      "classification": "three additional single-actor experiment logs; handoff labels denote tool or pipeline stages",
+      "records": [
+        {
+          "id": "SCI-009",
+          "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-009/files/logs/process-log.jsonl",
+          "blob_sha": "9cc79eac004523f9f6bc5f97e00605af38e757df",
+          "sha256": "f836f1ad12b590a00265c2de009599b6ddb46192c84ab6dcf58f703e41c3e21d",
+          "bytes": 3959,
+          "event_start": "2026-05-28T08:15:48Z",
+          "event_end": "2026-05-28T08:27:05Z",
+          "rows": 12
+        },
+        {
+          "id": "SCI-065",
+          "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-065/files/logs/process-log.jsonl",
+          "blob_sha": "aa7322dc839796837fae8dbaf48cc2caa9d0fd68",
+          "sha256": "d0d2c0ced33fb6379457b3f296c5cc6d50972f71928d861dae9bda521977a313",
+          "bytes": 1848,
+          "event_start": "2026-05-28T11:40:14Z",
+          "event_end": "2026-05-28T12:06:00Z",
+          "rows": 8
+        },
+        {
+          "id": "SCI-085",
+          "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-085/files/logs/process-log.jsonl",
+          "blob_sha": "04d6d3d22a61924764ca1aabd0112cd2fd932740",
+          "sha256": "3436111936bcfd859d922f7ceef63ec937d44e8ac4e5bbb35530d9a50a9ebf6d",
+          "bytes": 4328,
+          "event_start": "2026-05-28T12:53:11.371701Z",
+          "event_end": "2026-05-28T12:53:37.323916Z",
+          "rows": 9
+        }
+      ],
+      "publication_commit": {
+        "url": "https://github.com/nahisaho/aira_experiments/commit/51299de2b47c67514f7f51a549be01f56602dfd7",
+        "sha": "51299de2b47c67514f7f51a549be01f56602dfd7",
+        "committed_at": "2026-05-30T03:04:31Z"
+      },
+      "observations": [
+        "Every row in all three files names the same actor, `co-scientist`.",
+        "Skill/tool names vary, but no row supplies sender and recipient principals, delivery transport or an independent recipient effect.",
+        "SCI-085's handoff-completed rows are sequential pipeline modules; SCI-009 and SCI-065 similarly label literature, verification or general-purpose stages."
+      ],
+      "missing_evidence": "Separate autonomous principals, a public delivery/receipt and downstream use, plus independent operator provenance."
+    },
+    {
+      "title": "Hutch dynamic-workflow validation capture",
+      "repository": "K-Arthur/hutch",
+      "classification": "deterministic zero-model-call acceptance capture, not an agent exchange",
+      "primary_record": {
+        "url": "https://github.com/K-Arthur/hutch/blob/adddfbfdff3b4e3b5ed3bee4168ea4d42bdb90f9/docs/realignment/artifacts/dynamic-workflows/validation.json",
+        "blob_sha": "2bc18ea024bef41bf9ee26a5f012c6b85c692480",
+        "sha256": "81b237b0325cdf2d03ff5997dfb7a6f8ff0963b641d934d644df6db15d366216",
+        "bytes": 16650,
+        "captured": "2026-10-11"
+      },
+      "latest_file_commit": {
+        "url": "https://github.com/K-Arthur/hutch/commit/ad79bf38cb7abd04723e9da4664124aeaa093ac5",
+        "sha": "ad79bf38cb7abd04723e9da4664124aeaa093ac5",
+        "committed_at": "2026-10-18T14:02:24Z"
+      },
+      "observations": [
+        "The scenario calls itself deterministic and zero model calls.",
+        "It expressly says no live local model server existed, no model-authored plan, planner or worker ran, and the apparent human answer was supplied by the capture script.",
+        "One manual CLI workflow produces one content-addressed report; `browser_handoff=headless` is configuration metadata, not a participant transfer."
+      ],
+      "missing_evidence": "A real autonomous sender, separate autonomous recipient, delivery/use and independent operators."
+    },
+    {
+      "title": "Hermes owner-adjudicated factory summary",
+      "repository": "Gonyak-cell/Hermes",
+      "classification": "single-repository governed review ledger with model labels but no independently controlled recipient",
+      "primary_record": {
+        "url": "https://github.com/Gonyak-cell/Hermes/blob/5e332b1c6327b255cf9bf418bc455b7965172658/docs/factory-promotion/99-structured-summary.json",
+        "blob_sha": "3bb5378e31a01ecc2f5970c2057a5c81108376c5",
+        "sha256": "2ce978d861a2eee33d7aef0f60f76945395639ff43d3d563a838a8d125260df9",
+        "bytes": 166538,
+        "generated_at": "2026-06-11"
+      },
+      "latest_file_commit": {
+        "url": "https://github.com/Gonyak-cell/Hermes/commit/e681f2a7fc9a6f9915f94dd1428877a5b02393c1",
+        "sha": "e681f2a7fc9a6f9915f94dd1428877a5b02393c1",
+        "committed_at": "2026-06-12T07:01:10Z"
+      },
+      "observations": [
+        "The summary names a planner/reviewer author lane, multiple Claude-labelled review receipts and owner adjudication, but marks itself neither approval nor validation substrate.",
+        "The selected file history is published by one account inside a designed promotion program; repository-authored model/session labels are not independent provider or operator attestations.",
+        "No public transport establishes a foreign autonomous reviewer delivering a result to a separately controlled recipient that then exceeds authorization."
+      ],
+      "missing_evidence": "Provider- or operator-owned sender/recipient attestations, exact delivery and downstream use under independently controlled operators, and an authorization crossing."
+    },
+    {
+      "title": "Static workflow specifications and live-model-disabled inventory",
+      "repositories": [
+        "kevinke/agent-workflow",
+        "owenisas/company-agent-template",
+        "JoelRLima/LLM"
+      ],
+      "classification": "design/specification and inventory controls rather than emitted inter-agent events",
+      "records": [
+        {
+          "url": "https://github.com/kevinke/agent-workflow/blob/5b771ac7df146f2e05984221a63d8c6a6f7352e4/.ai/workflow/ARTIFACTS.md",
+          "blob_sha": "94b3b8c2eea04da5dc6dd55375b66876f70777e3",
+          "sha256": "dde1eff1e0663577813431ea2f69974483dc9454cbc0bd2de638a6d25fbf8dd9",
+          "bytes": 29931,
+          "assessment": "Defines one-writer role contracts, evidence gates and checkpoint handoff files."
+        },
+        {
+          "url": "https://github.com/owenisas/company-agent-template/blob/ca22c121ba276c5e84ec08e9466b5c11b313ff21/spec/spec.md",
+          "blob_sha": "fd5a916ea0119a506f9f2ba4efb0619459cd09e0",
+          "sha256": "64343d21eac3dcdd30cf26ebf06418125cdc952885ac92a5c6366a422cc9c894",
+          "bytes": 178091,
+          "assessment": "Internal-company implementation specification with planned identities, approval handoffs and placeholder artifact hashes."
+        },
+        {
+          "url": "https://github.com/JoelRLima/LLM/blob/9b5a2ddc2645430142e3c1ecaf6ef95c41e40406/docs/wave18_phase0_inventory.json",
+          "blob_sha": "76740913902f03964e6fa578591df14b0bb5efc0",
+          "sha256": "030ab8521b0ff41ac3902cfcd2cb7da57c889f5faf805fc478ae6994f88dafdd",
+          "bytes": 16996,
+          "assessment": "Phase-zero inventory expressly records live_model_authorized=false, qwen_required=false and no phase-one implementation/publication."
+        }
+      ],
+      "missing_evidence": "Actual run records with distinguishable autonomous principals, delivered content, recipient effect, operator provenance and evidence beyond the designed authority."
+    }
+  ],
+  "scoped_prior_reporting_checks": {
+    "web": {
+      "queries": [
+        "\"forge-external-beast-cycle-44\" \"codex_forgewright\"",
+        "\"This update was prepared by an AI coding agent under operator-approved external-action mode\"",
+        "\"SCI-065\" \"co-scientist\" \"handoff_completed\"",
+        "\"expense-audit\" \"zero model calls\" hutch workflow"
+      ],
+      "result": "The first three exact searches returned no relevant web result. The expense-audit search returned a 10 August 2026 architecture experiment comparing a function, fixed workflow and agent; it is related workflow context, not a coordination incident report."
+    },
+    "github_code": [
+      {
+        "query": "\"forge-external-beast-cycle-44\" \"codex_forgewright\"",
+        "total_count": 4,
+        "incomplete_results": false,
+        "repositories": [
+          "AIKAGRYA/dharma_swarm",
+          "AmitabhainArunachala/dharma_swarmv.01"
+        ],
+        "assessment": "Only the two mirrored work-packet/status files were returned."
+      },
+      {
+        "query": "\"operator-approved external-action mode\"",
+        "total_count": 0,
+        "incomplete_results": false,
+        "repositories": [],
+        "assessment": "No indexed code result; the exact phrase exists in a public PR comment rather than a default-branch file."
+      },
+      {
+        "query": "\"SCI-065\" \"co-scientist\"",
+        "total_count": 5,
+        "incomplete_results": false,
+        "repositories": [
+          "nahisaho/aira_experiments"
+        ],
+        "assessment": "Only the selected origin experiment repository was returned."
+      },
+      {
+        "query": "\"expense-audit\" \"zero model calls\"",
+        "total_count": 4,
+        "incomplete_results": false,
+        "repositories": [
+          "K-Arthur/hutch",
+          "trevhud/rote"
+        ],
+        "assessment": "Three Hutch acceptance/generator files and one design document were returned; no incident report."
+      }
+    ],
+    "conclusion": "No prior coordination report for the exact authorized-agent review chain or selected single-actor records was located in the checked web and GitHub code-search scope as of 2026-10-29. This scoped absence is not a global novelty claim and cannot cure the missing autonomous sender, recipient or authorization-crossing evidence."
+  },
+  "known_family_overlap": {
+    "named_exclusions": "No selected record is treated as a new instance of the named DseWiki/RubyGems, Transluce, Amap, Green AI Bot, Technocore/Agent Workpad, OpenAI May/July, AISI GitHub handoff or Covert Assistance/METR families.",
+    "aira": "SCI-009, SCI-065 and SCI-085 extend the same single-actor experiment family as page-nine SCI-008; they do not define separate populations.",
+    "dharma": "The same blob and commit SHA in two repositories are treated as shared-history mirrors, not two participants."
+  },
+  "alternative_hypotheses_tested": [
+    "single-operator automation",
+    "designed role/review workflow",
+    "human-requested or operator-approved outreach",
+    "repeated experiment stages",
+    "same-history repository mirror",
+    "lexical source-code and benchmark collisions",
+    "observer/index rank drift"
+  ],
+  "conclusion": {
+    "participant_test": "The main chain has one self-attributed coding agent, one configured review bot with no demonstrated causal contribution and non-bot reviewer accounts. It does not prove two autonomous participants in a causal exchange.",
+    "dependency_test": "A real review-to-revision dependency exists, but the actionable reviewer is not verified autonomous. Other selected records are single-actor stages, deterministic validation or specifications.",
+    "operator_boundary_test": "The coding agent explicitly reports operator-approved external-action mode; the PR follows ordinary review, approval and merge gates. No cooperation exceeding authorization is shown.",
+    "provider_attribution": "Repository and PR self-labels are preserved as claims, not independent provider attestations.",
+    "rogue_intent_test": "No subjective rogue intent is inferred.",
+    "current_activity": "The strongest chain occurred on 1 June 2026 and later merged; no claim of current autonomous coordination is made.",
+    "result": "No plausible previously unreported rogue-swarm candidate. No candidate ID assigned."
+  },
+  "exact_next_cursors": {
+    "broad": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "per_page": 20,
+        "pages": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "ranked_positions": "1001-1100"
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "per_page": 20,
+        "pages": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "ranked_positions": "1001-1100"
+      }
+    ],
+    "exact": [
+      "\"sender_agent_run_id\" \"recipient_agent_run_id\" \"delivery_sha256\" \"recipient_commit_sha\"",
+      "\"source_operator_id\" \"target_operator_id\" \"acceptance_receipt_sha256\" \"effect_commit\"",
+      "\"message_producer_uuid\" \"message_consumer_uuid\" \"artifact_digest\" \"applied_at\"",
+      "\"autonomous_sender\" \"autonomous_recipient\" \"provenance_sha256\" \"downstream_effect_sha256\""
+    ]
+  },
+  "limitations": [
+    "Code-search rank drift means consecutive page windows can overlap across observations.",
+    "Repository-authored actor, model and operator-mode labels are not independent provider or operator attestations.",
+    "A non-bot GitHub account is not proof of a human; the work packet's human-review classification is reported as an origin claim.",
+    "Exact-search absence is bounded to the checked index and query strings.",
+    "No recovered code, agent runtime, scan, message, sink, private log or target system was executed, invoked, submitted, contacted or probed."
+  ]
+}

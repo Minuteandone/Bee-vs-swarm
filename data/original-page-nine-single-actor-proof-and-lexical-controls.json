@@ -1,0 +1,573 @@
+{
+  "research_pass": 164,
+  "generated_at": "2026-10-29T10:56:54Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "candidate_id": null,
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "No source-level cue in this pass justifies reopening the known-family-controlled scanner remainder."
+  },
+  "resumed_exact_cursors": [
+    {
+      "query": "\"sender_run_id\" \"recipient_run_id\" \"source_artifact_sha256\" \"applied_at\"",
+      "returned_rows": 2,
+      "external_rows": 0,
+      "self_index_rows": 2,
+      "assessment": "No external record in the observed exact-query result set."
+    },
+    {
+      "query": "\"producer_runtime_id\" \"consumer_runtime_id\" \"operator_id\" \"effect_sha256\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "assessment": "No external record in the observed exact-query result set."
+    },
+    {
+      "query": "\"handoff_receipt_sha256\" \"recipient_effect_sha256\" \"accepted_at\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "assessment": "No external record in the observed exact-query result set."
+    },
+    {
+      "query": "\"source_run_id\" \"consumer_run_id\" \"consumed_sha256\" \"resulting_commit_sha\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "self_index_rows": 1,
+      "assessment": "No external record in the observed exact-query result set."
+    }
+  ],
+  "page_nine": {
+    "access": "reviewed through authenticated, explicitly read-only GitHub REST code-search pagination",
+    "pagination": {
+      "per_page": 20,
+      "pages": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "ranked_positions": "801-900",
+      "next_pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "next_ranked_positions": "901-1000",
+      "limitation": "GitHub code-search ranking and default-branch contents can drift; the observed page window is not a stable or disjoint global corpus."
+    },
+    "ranking_drift": {
+      "previous_pass_totals": {
+        "kind_handoff_artifact_sha256": 10136,
+        "handoff_completed_result": 2120
+      },
+      "current_totals": {
+        "kind_handoff_artifact_sha256": 10272,
+        "handoff_completed_result": 2156
+      },
+      "delta": {
+        "kind_handoff_artifact_sha256": 136,
+        "handoff_completed_result": 36
+      },
+      "effect": "Several pass-163 controls reappeared in the nominal next ranks, including Shenko, crypto-autoresearcher and Aethon records. Exact paths were deduplicated as previously assessed controls."
+    },
+    "windows": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "api_url_template": "https://api.github.com/search/code?q=%22kind%22%3A%20%22handoff%22%20%22artifact_sha256%22&per_page=20&page={41..45}",
+        "total_count": 10272,
+        "incomplete_results": false,
+        "window_rows": 100,
+        "distinct_repositories": 93,
+        "self_index_rows": 0,
+        "extension_counts": {
+          "py": 36,
+          "json": 27,
+          "md": 19,
+          "ts": 10,
+          "mjs": 2,
+          "txt": 2,
+          "ex": 1,
+          "pre_bc390a2672c2": 1,
+          "rs": 1,
+          "yaml": 1
+        },
+        "nonexclusive_path_classes": {
+          "test_or_example": 29,
+          "markdown_or_text": 29,
+          "source_code": 49
+        },
+        "assessment": "Dominated by source, tests, benchmarks and documentation. Selected new records resolve to a hardware benchmark, compiler/decompiler evidence filenames, governed runbooks or already-reviewed controls."
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "api_url_template": "https://api.github.com/search/code?q=%22event%22%3A%20%22handoff_completed%22%20%22result%22&per_page=20&page={41..45}",
+        "total_count": 2156,
+        "incomplete_results": false,
+        "window_rows": 100,
+        "distinct_repositories": 92,
+        "self_index_rows": 0,
+        "extension_counts": {
+          "py": 28,
+          "c": 23,
+          "ts": 15,
+          "md": 11,
+          "json": 8,
+          "rs": 5,
+          "sql": 2,
+          "cshtml": 1,
+          "ipynb": 1,
+          "jsonl": 1,
+          "mjs": 1,
+          "php": 1,
+          "rb": 1,
+          "sh": 1,
+          "txt": 1
+        },
+        "nonexclusive_path_classes": {
+          "linux_clock_lexical_collisions": 23,
+          "test_or_example": 14,
+          "markdown_or_text": 13,
+          "source_code": 77
+        },
+        "json_and_jsonl_classification": {
+          "vllm_benchmark_summaries": 3,
+          "playwright_debug_runs": 2,
+          "prior_aethon_control": 1,
+          "policy_indicator": 1,
+          "direct_non_delegated_trace": 1,
+          "single_actor_experiment_log": 1
+        },
+        "assessment": "Twenty-three C rows are Linux clock lexical collisions. The only new structured records with substantive handoff wording are one explicitly non-delegated direct trace and one single-actor experiment log."
+      }
+    ]
+  },
+  "selected_originals": [
+    {
+      "title": "AIRA SCI-008 experiment process log",
+      "repository": "nahisaho/aira_experiments",
+      "classification": "published experiment artifact with one recorded actor; no inter-participant edge",
+      "primary_record": {
+        "url": "https://github.com/nahisaho/aira_experiments/blob/1ea005e692e030b515b75275c762a819d64df47e/results/round3/SCI-008/files/logs/process-log.jsonl",
+        "ref": "1ea005e692e030b515b75275c762a819d64df47e",
+        "blob_sha": "5f4ea882483673ee7827e8fc4772e4cc0a545513"
+      },
+      "publication_commit": {
+        "url": "https://github.com/nahisaho/aira_experiments/commit/51299de2b47c67514f7f51a549be01f56602dfd7",
+        "sha": "51299de2b47c67514f7f51a549be01f56602dfd7",
+        "committed_at": "2026-05-30T03:04:31Z",
+        "verification": "unsigned"
+      },
+      "event_time": {
+        "first": "2026-05-28T20:39:23.378590Z",
+        "last": "2026-05-28T20:40:07.059277Z"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "Five JSONL rows use the same actor, `co-scientist`.",
+        "Two `handoff_completed` labels describe a literature-search stage and an experimental-design stage; neither identifies a sender principal, recipient principal, delivery channel or recipient effect.",
+        "The enclosing repository presents named experiment rounds and results. One public account co-published the selected record with the other experiment outputs."
+      ],
+      "alternatives": {
+        "single_operator_automation": "Supported: one actor and one publisher.",
+        "designed_experiment": "Supported by the experiment-round repository and staged scientific workflow.",
+        "cross_operator_coordination": "Not evidenced."
+      },
+      "missing_evidence": "A distinguishable autonomous sender and recipient, a public delivery receipt, recipient use and independent operator provenance."
+    },
+    {
+      "title": "Wild Boar Proxy Codex transcript-delivery observation proof",
+      "repository": "KirPonomarev/wild-boar-proxy",
+      "classification": "controlled read-only proof/test contour; no live-provider or product delivery",
+      "primary_record": {
+        "url": "https://github.com/KirPonomarev/wild-boar-proxy/blob/30b6ed2422fa19586e6bd200c9612f3544eba1c8/audit_results/codex_transcript_delivery_observation_v1_closeout_2026-06-17.md",
+        "ref": "30b6ed2422fa19586e6bd200c9612f3544eba1c8",
+        "blob_sha": "84e6f3629351446b392aa0e3ec30936352856f80"
+      },
+      "publication_commit": {
+        "url": "https://github.com/KirPonomarev/wild-boar-proxy/commit/3aa7a67b7e12f37f3f4b529932562190ffa750cd",
+        "sha": "3aa7a67b7e12f37f3f4b529932562190ffa750cd",
+        "committed_at": "2026-06-17T10:23:02Z",
+        "verification": "unsigned"
+      },
+      "event_time": "2026-06-17 document/commit scope",
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The record calls its input a positive `controlled_dispatch_handoff_proof` and reports a digest match inside a supplied Codex exec JSONL transcript.",
+        "It explicitly says live verification was not performed, live/external provider response is unproven, custom UI and working-flow delivery are unproven, product readiness is false and changed files are empty.",
+        "The negative matrix is a test contract, not an observed autonomous exchange. It extends an already indexed same-repository failed-observation control without separating a new population."
+      ],
+      "alternatives": {
+        "designed_test": "Directly supported by the proof suite and negative cases.",
+        "single_operator_tooling": "Supported by one repository and publisher.",
+        "rogue_coordination": "Contradicted by the no-live-provider and no-product claims."
+      },
+      "missing_evidence": "A public live sender output, recipient ingestion and causally dependent effect, independently attested principals/operators and evidence beyond the controlled proof fixture."
+    },
+    {
+      "title": "Alfred custom-domain generated trace",
+      "repository": "GOI17/alfred",
+      "classification": "explicitly non-delegated, user-authorized direct execution trace",
+      "primary_record": {
+        "url": "https://github.com/GOI17/alfred/blob/68f10c1aa805e67a98a3ae5940b3739345c2f9fe/.ai/observability/generated/issue-104-alfredlabs-domain.json",
+        "ref": "68f10c1aa805e67a98a3ae5940b3739345c2f9fe",
+        "blob_sha": "0162536e38888d0afad5c023f7c237d33ca56361"
+      },
+      "final_record_commit": {
+        "url": "https://github.com/GOI17/alfred/commit/c5556ebbdabaffb0a49c48df51b7140a0f321da5",
+        "sha": "c5556ebbdabaffb0a49c48df51b7140a0f321da5",
+        "committed_at": "2026-09-02T02:02:20Z",
+        "verification": "verified GitHub merge commit"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The trace classifies the task as deterministic direct execution and records `not delegated because the change is small`.",
+        "Network and file permissions are explicitly attributed to the repository owner's request.",
+        "`handoff_completed` is the terminal status label for the same authorized task, not a sender-to-recipient transfer."
+      ],
+      "alternatives": {
+        "direct_single_agent_execution": "Directly stated.",
+        "human_authorization": "Directly stated.",
+        "cross_operator_coordination": "Not present."
+      },
+      "missing_evidence": "A separate autonomous recipient, task-bearing delivery and downstream use under independently controlled operators."
+    },
+    {
+      "title": "Kuna callwide implementation record",
+      "repository": "Noelo-Lab/kuna",
+      "classification": "compiler/decompiler validation record; `handoff` is a local evidence filename",
+      "primary_record": {
+        "url": "https://github.com/Noelo-Lab/kuna/blob/f7e74589717e3793108c98e4f9d48b8b9b245a84/docs/features/callwide/record.json",
+        "ref": "f7e74589717e3793108c98e4f9d48b8b9b245a84",
+        "blob_sha": "ea44812cb14cab68f79d51b454996ea3c3992870"
+      },
+      "publication_commit": {
+        "url": "https://github.com/Noelo-Lab/kuna/commit/f474a1cc23f032ad15ee71bc74aa439c2d7ada83",
+        "sha": "f474a1cc23f032ad15ee71bc74aa439c2d7ada83",
+        "committed_at": "2026-10-20T08:26:46Z",
+        "verification": "verified GitHub merge commit"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The record concerns sealed MIPS register-pair return analysis and typed callers.",
+        "`handoff` occurs as a checksummed local validation artifact name; producer/consumer language describes program analysis, not autonomous participants.",
+        "Human approval is implementation-only, the feature remains default-off and the record is ready for review."
+      ],
+      "alternatives": {
+        "lexical_collision": "Supported: program-analysis producer/consumer and evidence filenames.",
+        "human_governed_implementation": "Supported.",
+        "ai_coordination": "No AI participant exchange is identified."
+      },
+      "missing_evidence": "AI participant identities, a delivered task result, recipient use and operator-boundary evidence."
+    },
+    {
+      "title": "OpenCL S24 Ultra hybrid performance record",
+      "repository": "Ishabdullah/OpenCL-S24-Ultra",
+      "classification": "single-device model-performance benchmark; `handoff_ms` is compute transfer timing",
+      "primary_record": {
+        "url": "https://github.com/Ishabdullah/OpenCL-S24-Ultra/blob/973dce4e8104d3b307eaa374e220d45adc686a50/reports/2026-10-05/data/records/mistral7-untraced-2K-20261005T084757Z-round2-hybrid.json",
+        "ref": "973dce4e8104d3b307eaa374e220d45adc686a50",
+        "blob_sha": "b0d1ebe99853515f169c06af343936bcd821fef8"
+      },
+      "publication_commit": {
+        "url": "https://github.com/Ishabdullah/OpenCL-S24-Ultra/commit/6f766c0de7ef7ed5f80fccd8685d11a047e83024",
+        "sha": "6f766c0de7ef7ed5f80fccd8685d11a047e83024",
+        "committed_at": "2026-10-05T19:25:46Z",
+        "verification": "unsigned"
+      },
+      "event_time": {
+        "measurement_before": "2026-10-05T09:07:25.799905Z",
+        "measurement_after": "2026-10-05T09:08:27.605789Z"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The record measures a named local model run on one phone.",
+        "`handoff_ms`, weight and KV timings describe the benchmark's compute-path handoff while `same_model_and_cache` and preserved positions remain true.",
+        "The experiment history repeatedly records explicit user pauses/resumes and safety guards. No second autonomous participant appears."
+      ],
+      "alternatives": {
+        "hardware_pipeline_metric": "Directly supported.",
+        "user_controlled_benchmark": "Directly supported.",
+        "inter_agent_transfer": "Not evidenced."
+      },
+      "missing_evidence": "Two autonomous principals, a semantic task artifact, delivery/use evidence and an independent operator boundary."
+    },
+    {
+      "title": "Mote unified interactive runtime RFC",
+      "repository": "bushihelmy-crypto/mote",
+      "classification": "design proposal for Agent↔Human ownership handoff, not an observed exchange",
+      "primary_record": {
+        "url": "https://github.com/bushihelmy-crypto/mote/blob/930606280abef241aba70bedfaf141037d631ad7/zdocs/UNIFIED_INTERACTIVE_RUNTIME.md",
+        "ref": "930606280abef241aba70bedfaf141037d631ad7",
+        "blob_sha": "619fa291ef8cd0f49e9a1d75250aea6d3026d024"
+      },
+      "publication_commit": {
+        "url": "https://github.com/bushihelmy-crypto/mote/commit/0bfb8b2a0fc7705af165641a328c32958b358d01",
+        "sha": "0bfb8b2a0fc7705af165641a328c32958b358d01",
+        "committed_at": "2026-07-27T07:59:48Z",
+        "verification": "unsigned"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The document labels itself a design draft/RFC.",
+        "It defines Handoff as formal transfer of runtime write ownership between an Agent and a Human, distinct from question answering.",
+        "Schemas and desired lifecycle behavior are not primary evidence that any event occurred."
+      ],
+      "alternatives": {
+        "design_document": "Directly stated.",
+        "human_in_the_loop_control": "The intended boundary is Agent↔Human.",
+        "observed_autonomous_coordination": "No."
+      },
+      "missing_evidence": "An actual public event with autonomous sender/recipient identities, recipient use and operator provenance."
+    },
+    {
+      "title": "Agent-swarm capability-control-plane QA report",
+      "repository": "yacosta738/agent-swarm",
+      "classification": "fixture-first QA harness with no product/operator target or real queue rows",
+      "primary_record": {
+        "url": "https://github.com/yacosta738/agent-swarm/blob/99be763d99807340c29c69feb712c7864bae23ec/openspec/changes/archive/2026-08-09-capability-driven-agent-control-plane/qa-report.md",
+        "ref": "99be763d99807340c29c69feb712c7864bae23ec",
+        "blob_sha": "b6f73c676d70fde976412c53c7e555fe0aa96cab"
+      },
+      "publication_commit": {
+        "url": "https://github.com/yacosta738/agent-swarm/commit/461e1a2bd14ee028c904d28f75b98eb81777a2f4",
+        "sha": "461e1a2bd14ee028c904d28f75b98eb81777a2f4",
+        "committed_at": "2026-08-10T16:48:45Z",
+        "verification": "verified"
+      },
+      "event_time": "2026-08-09 QA report",
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The report exercises handoff/event scripts against temporary projects and reports 33/33 probes.",
+        "It says the change's own event log remained empty and handoff buckets contained only placeholders.",
+        "No product/operator target exists, feature flags remain off, distribution is blocked and the publication commit describes documentation/spec artifacts with no runtime rollout."
+      ],
+      "alternatives": {
+        "designed_test_harness": "Directly supported.",
+        "synthetic_fixture": "Directly supported.",
+        "live_swarm": "Contradicted by empty real queues and no rollout."
+      },
+      "missing_evidence": "A live public sender/recipient exchange, actual delivery/use, independently controlled operators and an authorization crossing."
+    },
+    {
+      "title": "NWFAA ML pipeline runbook",
+      "repository": "proerror77/nwfwa",
+      "classification": "human-gated workflow documentation, not an observed autonomous chain",
+      "primary_record": {
+        "url": "https://github.com/proerror77/nwfwa/blob/92bd9c6e8daca3f2a0dabea03316e647c4c73264/docs/project/ml-pipeline-runbook.md",
+        "ref": "92bd9c6e8daca3f2a0dabea03316e647c4c73264",
+        "blob_sha": "32f5de9c9658ad00b6c44d463d41ea1257735dff"
+      },
+      "latest_observed_file_commit": {
+        "url": "https://github.com/proerror77/nwfwa/commit/b10f1e1d68df73b03decf18420b8759343c70412",
+        "sha": "b10f1e1d68df73b03decf18420b8759343c70412",
+        "committed_at": "2026-06-15T17:30:02Z",
+        "verification": "unsigned"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The runbook calls the pipeline an evidence factory, not an automatic adjudication system.",
+        "It repeatedly requires human review for label governance, promotion and activation.",
+        "Commands and intended handoff documents describe a designed process; the selected file is not an event receipt binding autonomous sender and recipient runs."
+      ],
+      "alternatives": {
+        "governed_runbook": "Directly supported.",
+        "human_review": "Mandatory.",
+        "observed_rogue_coordination": "No event evidence."
+      },
+      "missing_evidence": "An actual public sender artifact, recipient ingestion/effect, operator provenance and evidence that behavior exceeded the documented gates."
+    },
+    {
+      "title": "Pantheon LOOP-PROD-PER-001 evidence ledger",
+      "repository": "ajoe734/pantheon",
+      "classification": "governed single-operator evidence workflow; same broad origin as BV-127, not a separate population",
+      "primary_record": {
+        "url": "https://github.com/ajoe734/pantheon/blob/c74e52e48b73b7d279395c731c910e56c0bae7d6/docs/deployment/evidence/loop-product-level/LOOP-PROD-PER-001/evidence.json",
+        "ref": "c74e52e48b73b7d279395c731c910e56c0bae7d6",
+        "blob_sha": "7f2a8f8aa9221ef7d059637ff1d4ce5f2abb181c"
+      },
+      "latest_observed_file_commit": {
+        "url": "https://github.com/ajoe734/pantheon/commit/4d4d0575b2675f403440985ebef6e30b8a4ff7e8",
+        "sha": "4d4d0575b2675f403440985ebef6e30b8a4ff7e8",
+        "committed_at": "2026-07-20T03:15:18Z",
+        "verification": "unsigned"
+      },
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The ledger labels implementation work Codex and a desired reviewer Claude, but explicitly says no independent Claude verdict is recorded.",
+        "A governed status handoff was blocked first by a lease mismatch and later because the canonical task was absent; the record forbids hand-editing state.",
+        "One public account authors the selected file history. The same repository's designed/governed agent workflow is already tracked as BV-127; this record does not separate an independent episode or population."
+      ],
+      "alternatives": {
+        "designed_governed_workflow": "Directly supported.",
+        "same_operator_publication": "Supported by file history.",
+        "cross_operator_reviewer_action": "Explicitly absent."
+      },
+      "missing_evidence": "An independent reviewer/recipient record demonstrating actual artifact use, distinct operator control and a cooperation boundary beyond Pantheon's documented workflow."
+    },
+    {
+      "title": "Vellum cycle evidence review",
+      "repository": "dshills/vellum",
+      "classification": "direct-human-authorized read/hash-only review within one owned group",
+      "primary_record": {
+        "url": "https://github.com/dshills/vellum/blob/e932a7bec483dab736ca65e61c0e20fafdd3d621/docs/reports/macos-post-ownership/records/cycle-evidence-review.json",
+        "ref": "e932a7bec483dab736ca65e61c0e20fafdd3d621",
+        "blob_sha": "1624b90b5717c1fed9ecdd5cb07996fb82ec1002"
+      },
+      "publication_commit": {
+        "url": "https://github.com/dshills/vellum/commit/2338d7f56d6acf7c5213b21f1a78cfc8f471909c",
+        "sha": "2338d7f56d6acf7c5213b21f1a78cfc8f471909c",
+        "committed_at": "2026-10-13T20:59:13Z",
+        "verification": "unsigned"
+      },
+      "event_time": "2026-10-13T20:35:33.990274Z",
+      "observed_at": "2026-10-29T10:56:54Z",
+      "observations": [
+        "The record calls itself an independent read/hash-only evidence review, but binds direct human authorization and `same_owned_outer_group=true`.",
+        "The reviewer performed no tests/native run, provider or Git operation and did not modify the repository.",
+        "It approves bounded evidence with explicit exclusions; it does not establish a foreign autonomous recipient effect."
+      ],
+      "alternatives": {
+        "human_authorized_review": "Directly supported.",
+        "same_owned_group": "Directly stated.",
+        "cross_operator_action": "Not evidenced."
+      },
+      "missing_evidence": "A separate autonomous reviewer run that receives and uses a sender artifact under independently controlled operator provenance."
+    }
+  ],
+  "scoped_prior_reporting_checks": {
+    "web": {
+      "queries": [
+        "\"Codex Transcript Delivery Observation v1\"",
+        "\"SCI-008\" \"process-log.jsonl\" \"handoff_completed\"",
+        "\"issue-104-alfredlabs-domain\" \"handoff_completed\"",
+        "\"LOOP-PROD-PER-001\" \"handoff\" Claude Codex"
+      ],
+      "result": "No exact coordination report for the selected origin records was returned in the checked web result scope; returned results were unrelated generic agent/handoff pages."
+    },
+    "github_code": [
+      {
+        "query": "\"Codex Transcript Delivery Observation v1 Closeout\"",
+        "total_count": 1,
+        "incomplete_results": false,
+        "repositories": [
+          "KirPonomarev/wild-boar-proxy"
+        ],
+        "assessment": "Only the selected origin record was returned."
+      },
+      {
+        "query": "\"SCI-008\" \"co-scientist\" \"handoff_completed\"",
+        "total_count": 0,
+        "incomplete_results": false,
+        "repositories": [],
+        "assessment": "No indexed code result."
+      },
+      {
+        "query": "\"issue-104-alfredlabs-domain\" \"not delegated\"",
+        "total_count": 1,
+        "incomplete_results": false,
+        "repositories": [
+          "GOI17/alfred"
+        ],
+        "assessment": "Only the selected origin record was returned."
+      },
+      {
+        "query": "\"LOOP-PROD-PER-001\" \"No independent Claude verdict\"",
+        "total_count": 1,
+        "incomplete_results": false,
+        "repositories": [
+          "ajoe734/pantheon"
+        ],
+        "assessment": "Only the selected origin record was returned."
+      },
+      {
+        "query": "\"capability-driven-agent-control-plane\" \"33/33 probes passed\"",
+        "total_count": 1,
+        "incomplete_results": false,
+        "repositories": [
+          "yacosta738/agent-swarm"
+        ],
+        "assessment": "Only the selected origin record was returned."
+      }
+    ],
+    "conclusion": "No prior coordination report for these exact origin records was located in the checked web and GitHub code-search scope as of 2026-10-29. This scoped absence is not a novelty claim; the original records themselves fail the participant, dependency or operator-boundary tests."
+  },
+  "known_family_overlap": {
+    "pantheon": "The selected LOOP-PROD-PER-001 ledger is the same repository and designed governance environment as BV-127; it does not separate a new episode or population.",
+    "wild_boar_proxy": "The selected positive proof shares the already indexed repository/ref with a failed source-observation control and remains a controlled test contour.",
+    "page_eight_repeats": [
+      "Aethon native-motion QA",
+      "Shenko C17 journey",
+      "crypto-autoresearcher dispatch",
+      "Awesome Theorems receipts"
+    ]
+  },
+  "alternative_hypotheses_tested": [
+    "single-operator automation",
+    "designed experiment or QA harness",
+    "human-requested/directly authorized execution",
+    "lexical program-analysis or hardware-pipeline collision",
+    "governed workflow with blocked acceptance",
+    "observer/index ranking drift"
+  ],
+  "conclusion": {
+    "participant_test": "No newly selected record proves two distinguishable autonomous participants.",
+    "dependency_test": "No newly selected record proves a task-bearing result delivered to a distinct autonomous recipient and then used.",
+    "operator_boundary_test": "No newly selected record proves independently controlled operators; several records directly state one actor, same-owned group, human authorization or non-delegation.",
+    "rogue_intent_test": "No subjective rogue intent is inferred.",
+    "current_activity": "No claim of current autonomous coordination is made.",
+    "result": "No plausible previously unreported rogue-swarm candidate. No candidate ID assigned."
+  },
+  "exact_next_cursors": {
+    "broad": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "per_page": 20,
+        "pages": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "ranked_positions": "901-1000"
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "per_page": 20,
+        "pages": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "ranked_positions": "901-1000"
+      }
+    ],
+    "exact": [
+      "\"sender_principal_id\" \"recipient_principal_id\" \"delivered_artifact_sha256\" \"recipient_effect_sha256\"",
+      "\"source_operator\" \"destination_operator\" \"delivery_receipt_sha256\" \"applied_commit\"",
+      "\"producer_run_uuid\" \"consumer_run_uuid\" \"accepted_artifact_hash\" \"effect_hash\"",
+      "\"from_runtime_id\" \"to_runtime_id\" \"consumed_at\" \"result_commit_sha\""
+    ]
+  },
+  "limitations": [
+    "Code-search rank drift means consecutive page windows can overlap across observations.",
+    "Repository-authored labels are not independent provider or operator attestations.",
+    "Exact-search absence is bounded to the checked index and query strings.",
+    "No recovered code, agent runtime, scan, message, sink, private log or target system was executed, invoked, submitted, contacted or probed."
+  ]
+}

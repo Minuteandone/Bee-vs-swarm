@@ -1,0 +1,342 @@
+{
+  "research_pass": 163,
+  "generated_at": "2026-10-29T06:14:37Z",
+  "status": "controls_only",
+  "checkpoint": "zero confirmed previously unreported rogue swarms",
+  "candidate_id": null,
+  "scope": {
+    "method": "original-record-first, read-only public-artifact review",
+    "scanner_backlog_state": "paused",
+    "scanner_distinct_listings": 1146,
+    "scanner_successfully_inspected": 853,
+    "scanner_paused_remainder": 293,
+    "scanner_remainder_comparison_absences": 132,
+    "scanner_remainder_comparison_overlaps": 161,
+    "scanner_inventory_sha256": "9d8df409916f8bed11aa29695f07f0b376de90794f0aac3005643e81ba281289",
+    "scanner_reopen_rule": "Resume only on a source-level cue capable of separating a genuinely different episode or population.",
+    "scanner_audit_result": "No source-level cue in this pass justifies reopening the known-family-controlled scanner remainder."
+  },
+  "resumed_exact_cursors": [
+    {
+      "query": "\"sender_runtime_id\" \"recipient_runtime_id\" \"operator_attestation\" \"result_sha256\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "One Bee-vs-swarm self-index row only."
+    },
+    {
+      "query": "\"producer_operator_id\" \"consumer_operator_id\" \"consumed_artifact_sha256\" \"effect_sha256\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "One Bee-vs-swarm self-index row only."
+    },
+    {
+      "query": "\"delivery_receipt_sha256\" \"recipient_run_id\" \"applied_commit_sha\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "One Bee-vs-swarm self-index row only."
+    },
+    {
+      "query": "\"origin_run_id\" \"recipient_run_id\" \"source_artifact_sha256\" \"used_at\"",
+      "returned_rows": 1,
+      "external_rows": 0,
+      "assessment": "One Bee-vs-swarm self-index row only."
+    }
+  ],
+  "page_eight_access": {
+    "status": "reviewed",
+    "access_change": "Authenticated read-only GitHub REST code search exposed exact per-page pagination, resolving the prior page-eight access gap without probing a target system.",
+    "pagination": {
+      "per_page": 20,
+      "pages": [36, 37, 38, 39, 40],
+      "ranked_positions": "701-800",
+      "next_pages": [41, 42, 43, 44, 45],
+      "next_ranked_positions": "801-900",
+      "limitation": "GitHub code-search ranking and default-branch contents can drift. Counts describe the observed ranked window at the investigation time, not a stable global corpus."
+    },
+    "windows": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "api_url_template": "https://api.github.com/search/code?q=%22kind%22%3A%20%22handoff%22%20%22artifact_sha256%22&per_page=20&page={36..40}",
+        "total_count": 10136,
+        "incomplete_results": false,
+        "window_rows": 100,
+        "distinct_repositories": 91,
+        "self_index_rows": 0,
+        "extension_counts": {
+          "py": 37,
+          "json": 28,
+          "md": 21,
+          "ts": 6,
+          "rs": 2,
+          "mjs": 2,
+          "js": 1,
+          "pre_bc_post_bc": 1,
+          "txt": 1,
+          "yaml": 1
+        },
+        "nonexclusive_path_classes": {
+          "test_or_example": 20,
+          "markdown_or_text": 22,
+          "source_code": 48
+        },
+        "assessment": "The window is dominated by source, fixtures, examples and documentation. Selected handoff-shaped records are governed workflows or unaccepted receipts rather than public autonomous cross-operator result use."
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "api_url_template": "https://api.github.com/search/code?q=%22event%22%3A%20%22handoff_completed%22%20%22result%22&per_page=20&page={36..40}",
+        "total_count": 2120,
+        "incomplete_results": false,
+        "window_rows": 100,
+        "distinct_repositories": 95,
+        "self_index_rows": 2,
+        "extension_counts": {
+          "c": 34,
+          "py": 26,
+          "ts": 13,
+          "md": 12,
+          "json": 5,
+          "rs": 4,
+          "js": 2,
+          "txt": 1,
+          "cc": 1,
+          "go": 1,
+          "sql": 1
+        },
+        "nonexclusive_path_classes": {
+          "linux_clk_lexical_collisions": 34,
+          "test_or_example": 16,
+          "markdown_or_text": 13,
+          "source_code": 81
+        },
+        "json_classification": {
+          "performance_benchmark_summaries": 2,
+          "selected_aethon_quality_manifest": 1,
+          "bee_vs_swarm_self_index": 2
+        },
+        "assessment": "Thirty-four rows are Linux clock-source lexical collisions. The only external JSON with model and handoff metadata is the selected Aethon QA manifest; two other external JSON rows are performance benchmarks."
+      }
+    ]
+  },
+  "selected_originals": [
+    {
+      "title": "Aethon native-motion quality recheck",
+      "repository": "HMWKR/Aethon",
+      "classification": "bounded single-model QA trajectory and manual-review control",
+      "first_public_commit_containing_selected_evidence": {
+        "url": "https://github.com/HMWKR/Aethon/commit/f83182c253987139dd60a20444bb75d7c519cf7a",
+        "sha": "f83182c253987139dd60a20444bb75d7c519cf7a",
+        "tree_sha": "8d474dabf219d1253cdc252e4e5078b8ee8d747a",
+        "committed_at": "2026-10-27T07:24:17Z",
+        "verification": "unsigned",
+        "provenance_note": "One public account authored and committed the project-initialization snapshot. The commit co-credits OpenAI Codex and states that local runtime data and credentials are excluded. All selected evidence is co-published in this commit, so Git does not independently order the internal QA steps."
+      },
+      "primary_records": [
+        {
+          "url": "https://github.com/HMWKR/Aethon/blob/f83182c253987139dd60a20444bb75d7c519cf7a/docs/qa/independent-native-motion-quality-recheck-20261026/verified-quality-manifest.json",
+          "blob_sha": "c7d4b9b534b97dd9acaec899de536dd67c4148fd",
+          "role": "Frozen QA manifest: six model-labelled calls, five actual model tool/result loops, no retries, unconfirmed billing, a primary-agent manual reviewer and unchanged approval/execution services."
+        },
+        {
+          "url": "https://github.com/HMWKR/Aethon/blob/f83182c253987139dd60a20444bb75d7c519cf7a/docs/qa/native-motion-20261026/quality-fix/live/case-1/turn.json",
+          "blob_sha": "4ce2a335150b2958f9c9d89dcaf1b8f26cd08da8",
+          "role": "One named model trajectory makes a read-only state lookup and then answers. No execution, approval, final delivery or second autonomous recipient appears."
+        },
+        {
+          "url": "https://github.com/HMWKR/Aethon/blob/f83182c253987139dd60a20444bb75d7c519cf7a/docs/qa/native-motion-20261026/quality-fix/live/case-2/turn.json",
+          "blob_sha": "f5c0793c95f708e78072db8cd2074113addd085a",
+          "role": "The same named model trajectory makes two tool calls and returns a proposal; applied and output-approved states remain false and human review is required."
+        },
+        {
+          "url": "https://github.com/HMWKR/Aethon/blob/f83182c253987139dd60a20444bb75d7c519cf7a/docs/qa/native-motion-20261026/quality-fix/live-provenance.json",
+          "blob_sha": "fddc32be25b9d2d843bd9889f22ddb2b9ba9fb5d",
+          "sha256": "f394355967d1bc0f4398ed98b8d3b1a9684e9d2824fbc39624ca5188b1e00dae",
+          "role": "Six-call provenance summary; only three inputs are publicly rehashable and billing is unconfirmed."
+        },
+        {
+          "url": "https://github.com/HMWKR/Aethon/blob/f83182c253987139dd60a20444bb75d7c519cf7a/docs/qa/native-motion-20261026/quality-fix/quality-evaluation.json",
+          "blob_sha": "2609da28b7722a91caead461eb69f01334131042",
+          "sha256": "8ab12a462bb47e7572ca0c35ca211ceff815b7bbc40306e50b0070480bc009b0",
+          "role": "Manual evaluation explicitly scoped to a synthetic explanation sample, not an independent user study; one initial explanation fails, a final targeted explanation passes and a residual explanation error remains."
+        }
+      ],
+      "event_and_observation_time": {
+        "manifest_frozen_at": "2026-10-26T19:07:37.812280Z",
+        "manifest_handoff_completed_at": "2026-10-26T19:09:19.036801Z",
+        "first_public_commit_containing_evidence": "2026-10-27T07:24:17Z",
+        "investigation_observed_at": "2026-10-29T06:14:37Z",
+        "limitation": "The internal timestamps and hashes come from one later co-published project snapshot rather than independently published sender and recipient records."
+      },
+      "reasoning": [
+        "The provider block labels six calls as one model and verifies six output hashes, but billing is unconfirmed and the publication is not independent provider attestation.",
+        "The first five responses contain model-to-server tool/result loops. A tool result returning to the same model trajectory is not a result transfer between autonomous participants.",
+        "Case 1 and case 2 use the same named model trajectory. The final clarification is a server-invoked lookup, not a new model-selected tool roundtrip.",
+        "The manual reviewer is not an autonomous recipient. No second participant receives the first trajectory's artifact and then performs a causally dependent action.",
+        "The records preserve proposals and explanations while execution, output approval, final delivery and canonical-database mutation remain false.",
+        "The experiment is explicitly bounded QA. No independent operator provenance or evidence of an authorization crossing is present."
+      ],
+      "alternative_tests": {
+        "single_operator_automation": "Supported by one repository publisher, one named model trajectory and a primary-agent manual reviewer.",
+        "designed_team_or_qa": "Directly supported by the QA scope, fixed call cap, manual criteria and unchanged authority services.",
+        "human_requested_outreach": "No outreach episode is shown; the selected records are local QA prompts and server lookups.",
+        "repeated_test_or_retry": "No model retry is recorded, but bounded successive QA calls and a corrective clarification explain the sequence.",
+        "shared_state_fault": "No cross-principal shared-state dependency is needed to explain the records.",
+        "observer_contamination": "Two page-eight rows from this repository are self-index and excluded."
+      },
+      "advancement_requirements": [
+        "A public sender artifact and delivery binding from one autonomous model principal to a distinguishable autonomous recipient.",
+        "Recipient-side evidence that the foreign content caused a later action or artifact, not a server tool result returned within one trajectory.",
+        "Independent operator or provider provenance for both principals.",
+        "Primary evidence the cooperation exceeded the explicit QA authorization.",
+        "Independent chronology or current-population evidence if ongoing activity is claimed."
+      ]
+    },
+    {
+      "title": "Shenko C17 native-first journey",
+      "repository": "cyjin-yl/shenko",
+      "classification": "model-free isolated-process and synthetic-controller control",
+      "primary_record": {
+        "url": "https://github.com/cyjin-yl/shenko/blob/0e43d4a933acb6c15d8cd1d1d4a725215174feba/docs/evidence/c17-native-first-journey-20261025.json",
+        "blob_sha": "22fa0281b566a86e94a9bc69be9170e141b21dbf",
+        "committed_at": "2026-10-24T19:04:46Z"
+      },
+      "assessment": "Two private SQLite directories, separate processes and loopback SSH preserve an isolated protocol journey. The record expressly says no models were configured or probed, no smart-node evidence exists, the controller identity is synthetic, the second physical machine flag is false and the tasks are digest-only. It therefore cannot establish AI participants, much less an unauthorized cross-operator swarm."
+    },
+    {
+      "title": "Crypto-autoresearcher CM proposal triage",
+      "repository": "isogeny-labs/crypto-autoresearcher",
+      "classification": "explicitly user-authorized single-coordinator workflow",
+      "primary_record": {
+        "url": "https://github.com/isogeny-labs/crypto-autoresearcher/blob/058e3cbaa4b43bbda75df69e57e63b9c10149bc9/coordination/intake/cm-factor-base-continuation-20260905/TASK-20260906-a87645/dispatch_queue.json",
+        "authorization_commit": "a20b26da2e9ace8f16d8bcf3496eb6f405907584",
+        "archive_commit": "5f3439afdc654d25cb741c1b935fce2297b26427",
+        "publication_receipt_commit": "058e3cbaa4b43bbda75df69e57e63b9c10149bc9",
+        "event_window": "2026-09-06T16:02:52Z through 2026-09-06T16:12:42Z"
+      },
+      "assessment": "The dispatch record quotes an explicit user request to run the coordinator, limits scope to advisory planning, sets independent-session-required false and runs no experiment. One coordinator archives the task, and the same author/committer identity publishes authorization, archive and receipt commits. This is designed and authorized coordination, not evidence of independent operators or rogue behavior."
+    },
+    {
+      "title": "Awesome Theorems provisional worker evidence",
+      "repository": "weiyangzen/awesome_theorems",
+      "classification": "unaccepted governed-workflow receipt",
+      "primary_record": {
+        "url": "https://github.com/weiyangzen/awesome_theorems/blob/e11176c25ee439c025fd8bcdc643beff39f4a073/Stage1_Instances/THM-M-1138/release-validation.md",
+        "commit_sha": "e11176c25ee439c025fd8bcdc643beff39f4a073",
+        "committed_at": "2026-07-13T21:18:06Z"
+      },
+      "assessment": "The origin record says the worker projection is provisional, accepted false, content-addressed false and release-grade false; the release remains blocked and no master acceptance exists. It supplies neither an accepted transfer nor downstream use by a distinct autonomous recipient."
+    }
+  ],
+  "other_page_eight_controls": [
+    {
+      "repository": "AndriGitDev/Komms",
+      "assessment": "The physical-device run records only installation complete; first-contact and message-exchange rows remain open, and the maintainer is human."
+    },
+    {
+      "repository": "arbmsistone-lab/zevanory-public-mirror",
+      "assessment": "The selected report identifies itself as a synthetic automatic material check and records no real customers or sales."
+    },
+    {
+      "repository": "RSB-HOLDING/botfluencerz",
+      "assessment": "The runtime bundle is declarative and non-executable; it explicitly separates delivery/presence from adoption and belongs to a designed product contract."
+    },
+    {
+      "repository": "osborn-studio/osstack",
+      "assessment": "The selected context is a supplied static adversarial-review bundle. It disables tools and states that static audits are not production qualification; the exchange is part of a designed repository workflow."
+    },
+    {
+      "repository": "olivame/vllm-offload",
+      "assessment": "Two JSON rows are performance benchmark summaries without sender/recipient task-result exchange."
+    }
+  ],
+  "participant_and_boundary_assessment": {
+    "distinguishable_autonomous_pair_verified": false,
+    "public_sender_recipient_dependency_verified": false,
+    "recipient_downstream_use_verified": false,
+    "independent_operators_verified": false,
+    "provider_attribution_independently_verified": false,
+    "authorization_crossing_verified": false,
+    "rogue_intent_verified": false,
+    "current_population_verified": false,
+    "conclusion": "No selected page-eight original establishes two autonomous participants, task-bearing transfer, recipient use, independent operator provenance and an authorization crossing. No candidate ID is assigned."
+  },
+  "novelty_checks": {
+    "checked_at": "2026-10-29T06:14:37Z",
+    "web_queries": [
+      {
+        "query": "\"independent-native-motion-quality-recheck-20261026\" Aethon",
+        "result": "No result returned."
+      },
+      {
+        "query": "\"verified-quality-manifest.json\" \"claude-haiku-5-5\" Aethon",
+        "result": "No result returned."
+      },
+      {
+        "query": "\"c17-native-first-journey-20261025\" shenko",
+        "result": "No result returned."
+      },
+      {
+        "query": "\"TASK-20260906-a87645\" crypto-autoresearcher",
+        "result": "No result returned."
+      }
+    ],
+    "github_queries": [
+      {
+        "query": "\"independent-native-motion-quality-recheck-20261026\"",
+        "rows": 5,
+        "assessment": "All rows are in the Aethon origin repository."
+      },
+      {
+        "query": "\"verified-quality-manifest.json\" \"claude-haiku-5-5\"",
+        "rows": 0
+      },
+      {
+        "query": "\"c17-native-first-journey-20261025\"",
+        "rows": 5,
+        "assessment": "All rows are in the Shenko origin repository."
+      },
+      {
+        "query": "\"TASK-20260906-a87645\"",
+        "rows": 10,
+        "assessment": "All rows are in the crypto-autoresearcher origin repository."
+      }
+    ],
+    "conclusion": "No prior coordination report for these exact origin families was located in the checked web and GitHub scope as of 29 October 2026. Search absence does not establish global novelty. Each origin's own primary records support a bounded QA, model-free harness, user-authorized coordinator or unaccepted-receipt explanation, so none is a discovery candidate.",
+    "named_family_overlap": "No record-level overlap was located with DseWiki/RubyGems, Transluce AIHW/Fedresurs/Quidax, Amap, Green AI Bot, Technocore/Agent Workpad, the OpenAI May Artifactory or July Hugging Face families, AISI's reported GitHub handoff, or the Covert Assistance/METR experiments."
+  },
+  "next_cursors": {
+    "page_nine": [
+      {
+        "query": "\"kind\": \"handoff\" \"artifact_sha256\"",
+        "per_page": 20,
+        "pages": [41, 42, 43, 44, 45],
+        "ranked_positions": "801-900"
+      },
+      {
+        "query": "\"event\": \"handoff_completed\" \"result\"",
+        "per_page": 20,
+        "pages": [41, 42, 43, 44, 45],
+        "ranked_positions": "801-900"
+      }
+    ],
+    "exact_queries": [
+      "\"sender_run_id\" \"recipient_run_id\" \"source_artifact_sha256\" \"applied_at\"",
+      "\"producer_runtime_id\" \"consumer_runtime_id\" \"operator_id\" \"effect_sha256\"",
+      "\"handoff_receipt_sha256\" \"recipient_effect_sha256\" \"accepted_at\"",
+      "\"source_run_id\" \"consumer_run_id\" \"consumed_sha256\" \"resulting_commit_sha\""
+    ],
+    "advancement_rule": "Advance only on a public original chain binding an autonomous sender artifact to a distinguishable recipient, a causally dependent recipient effect, independent operator provenance and evidence the cooperation crossed authorization."
+  },
+  "safety": {
+    "read_only": true,
+    "executed_recovered_code": false,
+    "installed_packages": false,
+    "submitted_scans": false,
+    "invoked_agent_runtime": false,
+    "contacted_participants": false,
+    "posted_or_voted": false,
+    "read_private_or_unlisted_messages": false,
+    "replayed_payloads": false,
+    "probed_target_systems": false,
+    "publication_note": "Only pinned public record links, event and observation dates, content hashes and sanitized domain-level summaries are retained. Raw carrier URLs, request identifiers, payload bodies, credentials, tokens, sink topics and personal addresses are omitted."
+  }
+}
